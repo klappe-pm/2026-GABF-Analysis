@@ -1,0 +1,44 @@
+{
+  "description": "Tunable assumptions for volume and revenue estimates. Every figure produced from these is an estimate (E). Edit here, rerun npm run build.",
+  "barrels_by_brewery_type": {
+    "nano": 150,
+    "micro": 2500,
+    "brewpub": 1200,
+    "taproom": 800,
+    "regional": 50000,
+    "large": 1000000,
+    "contract": 5000,
+    "proprietor": 3000,
+    "closed": 0,
+    "default": 1500
+  },
+  "barrels_per_additional_location": 600,
+  "packaged_share_by_brewery_type": {
+    "nano": 0.1,
+    "micro": 0.55,
+    "brewpub": 0.25,
+    "taproom": 0.2,
+    "regional": 0.8,
+    "large": 0.9,
+    "contract": 0.95,
+    "default": 0.4
+  },
+  "revenue_per_barrel_by_brewery_type": {
+    "nano": 1200,
+    "micro": 650,
+    "brewpub": 1100,
+    "taproom": 1200,
+    "regional": 350,
+    "large": 250,
+    "contract": 300,
+    "default": 600
+  },
+  "food_revenue_per_kitchen_location": 1200000,
+  "revenue_range_low_multiplier": 0.7,
+  "revenue_range_high_multiplier": 1.35,
+  "notes": [
+    "Revenue per barrel blends on-premise pints (roughly 1,400 to 1,800 USD per barrel at the glass) with wholesale packaged beer (roughly 250 to 400 USD per barrel) according to the typical mix for each brewery type.",
+    "Food revenue per kitchen location is a mid-market brewpub restaurant assumption and should be overridden per brewery in its markdown profile when a better figure exists.",
+    "One US beer barrel is 31 gallons: 13.78 cases of 24 twelve-ounce containers, 248 sixteen-ounce cans or pints, or 330.7 twelve-ounce cans."
+  ]
+}

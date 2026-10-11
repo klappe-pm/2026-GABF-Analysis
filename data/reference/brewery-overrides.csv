@@ -1,0 +1,6 @@
+brewery_name,brewery_location,open_brewery_db_id,address,city,state,postal_code,latitude,longitude,website,brewery_type,notes
+Green Cheek Beer Co.,,,"2294 N Batavia St, Suite C",Orange,CA,92865,33.8302,-117.8631,https://www.greencheekbeer.com,brewpub,Headquarters and production brewery; coordinates approximate until Open Brewery DB enrichment runs
+Green Cheek Beer Co.,Orange,,"2294 N Batavia St, Suite C",Orange,CA,92865,33.8302,-117.8631,https://www.greencheekbeer.com,brewpub,Headquarters and production brewery
+Green Cheek Beer Co.,Costa Mesa,,"2957 Randolph Ave, Unit B",Costa Mesa,CA,92626,33.6639,-117.8864,https://www.greencheekbeer.com/costa-mesa,brewpub,Former Barley Forge Brewing site in the SoBECA district; brewing plus kitchen
+Green Cheek Beer Co.,Oceanside,,601 S Coast Hwy,Oceanside,CA,92054,33.1904,-117.3747,https://www.greencheekbeer.com/oceanside,brewpub,Former Bagby Beer Co. site; opened 2024
+Green Cheek Beer Co.,Sunset Beach,,Pacific Coast Hwy,Huntington Beach,CA,90742,33.7160,-118.0665,https://www.greencheekbeer.com,taproom,Restaurant and taproom in Sunset Beach; street number not confirmed

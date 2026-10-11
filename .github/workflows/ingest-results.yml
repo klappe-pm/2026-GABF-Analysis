@@ -1,0 +1,104 @@
+name: ingest-results
+
+# Fetch the official GABF winners list for a year, parse it, enrich breweries, and
+# commit the data. Runs on demand, and on a schedule every two hours from October 11
+# to October 20 (the window in which the Brewers Association publishes the list).
+# With publish set to true the data lands on main and deploy-pages publishes it; with
+# publish false a pull request is opened instead.
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: Competition year
+        required: true
+        default: "2026"
+      pdf_url:
+        description: Direct URL to the official winners list PDF (optional)
+        required: false
+        default: ""
+      publish:
+        description: Commit to main directly (true) or open a pull request (false)
+        required: false
+        default: "true"
+  schedule:
+    - cron: "17 */2 11-20 10 *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: resolve-year
+        id: year
+        run: |
+          YEAR="${{ github.event.inputs.year }}"
+          if [ -z "$YEAR" ]; then YEAR="$(date -u +%Y)"; fi
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+      - name: skip-if-already-loaded
+        id: loaded
+        run: |
+          FILE="data/results/gabf-${{ steps.year.outputs.year }}.csv"
+          if [ -f "$FILE" ] && ! grep -qi "partial seed" "$FILE" && [ "$(wc -l < "$FILE")" -gt 100 ]; then
+            echo "loaded=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "loaded=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: fetch
+        id: fetch
+        if: steps.loaded.outputs.loaded == 'false'
+        continue-on-error: true
+        run: |
+          if [ -n "${{ github.event.inputs.pdf_url }}" ]; then
+            node scripts/fetch-winners.mjs --year "${{ steps.year.outputs.year }}" --url "${{ github.event.inputs.pdf_url }}" --force
+          else
+            node scripts/fetch-winners.mjs --year "${{ steps.year.outputs.year }}" --force
+          fi
+      - name: no-list-yet
+        if: steps.loaded.outputs.loaded == 'false' && steps.fetch.outcome != 'success'
+        run: echo "No official winners list found for ${{ steps.year.outputs.year }} yet. Nothing to do."
+      - name: parse-enrich-build
+        if: steps.fetch.outcome == 'success'
+        run: |
+          node scripts/parse-winners.mjs --year "${{ steps.year.outputs.year }}"
+          node scripts/enrich-breweries.mjs
+          npm test
+          npm run build
+      - name: commit
+        if: steps.fetch.outcome == 'success'
+        id: commit
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "data: ingest GABF ${{ steps.year.outputs.year }} winners list"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: push-to-main
+        if: steps.commit.outputs.changed == 'true' && (github.event.inputs.publish == 'true' || github.event_name == 'schedule')
+        run: git push origin HEAD:main
+      - name: open-pull-request
+        if: steps.commit.outputs.changed == 'true' && github.event.inputs.publish == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="data/gabf-${{ steps.year.outputs.year }}-$(date -u +%Y%m%d%H%M)"
+          git checkout -b "$BRANCH"
+          git push origin "$BRANCH"
+          gh pr create --title "data: ingest GABF ${{ steps.year.outputs.year }} winners list" --body "Automated ingest of the official GABF ${{ steps.year.outputs.year }} winners list. Review data/results/gabf-${{ steps.year.outputs.year }}.csv for parse problems before merging." --base main --head "$BRANCH"
