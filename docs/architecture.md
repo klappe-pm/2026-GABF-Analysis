@@ -28,16 +28,16 @@ Four stages, each a Node script with no framework, chained by `scripts/new-year.
 1. Ingest: `fetch-winners.mjs` downloads the official winners list PDF; `parse-winners.mjs` extracts text with unpdf and `lib/parse-winners-lib.mjs` turns it into one CSV row per medal plus Brewery of the Year awards. `import-results-csv.mjs` is the fallback for a hand-made sheet.
 2. Enrich: `enrich-breweries.mjs` looks every brewery up in Open Brewery DB, scores candidates by normalized name and city, applies `data/reference/brewery-overrides.csv`, and writes `data/enriched/breweries.json`. `import-style-guidelines.mjs` refreshes ABV, IBU, and SRM ranges from the Brewers Association guidelines.
 3. Model: `lib/data-model.mjs` loads every CSV, the markdown profiles, and the enrichment file into one dataset: decorated result rows (style family, ABV band, region, points), brewery entities (locations, ownership, production, estimates, yearly trend with did-not-exist handling, streaks), categories, coverage per year.
-4. Publish: `build-site.mjs` renders dist/ (explorer, breweries, categories, reports, about, JSON and CSV exports); the deploy-pages workflow uploads dist/ to GitHub Pages on every push to main.
+4. Publish: `build-site.mjs` renders dist/ (five dashboards, breweries, categories, reports, about, JSON and CSV exports) and vendors ECharts; the deploy-pages workflow uploads dist/ to GitHub Pages on every push to main. `import-ceremony-transcript.mjs` is the stopgap between the live announcement and the PDF.
 
 ## why-static
 
-GitHub Pages serves files only, and the dataset is small (a few hundred medals a year), so the explorer filters in the browser over one JSON file and every other page is pre-rendered HTML with inline SVG charts. There is no runtime dependency, no CDN, and no build framework; the only npm packages are unpdf (PDF text), marked (markdown), and yaml (frontmatter).
+GitHub Pages serves files only, and the dataset is small (a few hundred medals a year), so the explorer filters in the browser over one JSON file and every other page is pre-rendered HTML with inline SVG charts. There is no CDN and no build framework; runtime JavaScript is Apache ECharts (vendored) plus the repository's own modules, and the build depends on unpdf (PDF text), marked (markdown), yaml (frontmatter), us-atlas and topojson-client (map).
 
 ## key-decisions
 
 - Node and kebab-case files rather than Python: the owner's other repositories run Node scripts the same way, Python module names cannot be kebab-case, and the pipeline needs no scientific libraries.
-- One isomorphic chart module (`site/assets/charts.mjs`) runs in Node at build time and in the browser, so reports and the explorer draw identical charts. Colors are CSS custom properties, so light and dark modes are a stylesheet concern.
+- Apache ECharts draws every chart and the US map. Option builders in `site/assets/chart-options.mjs` run in Node at build time (reports, brewery and category pages embed the option as JSON) and in the browser (dashboards build options from the filtered slice); `site/assets/echarts-init.js` resolves CSS custom properties to concrete colors for the active theme, registers the map, and re-themes on toggle. ECharts is vendored into dist/assets/vendor at build time so the site has no CDN dependency. The earlier hand-rolled SVG module was retired once the owner asked for a widely used library with manipulable dashboards.
 - Medal colors follow the dataviz method: gold as the yellow slot, silver as the blue slot, bronze as the orange slot, validated for adjacency in both modes; every chart ships a legend, a hover layer, and a table view.
 - Partial years are first-class: a row whose notes say "Partial seed" marks its year partial, the UI says so, and streaks skip partial years instead of counting them as misses.
 - Brewery identity is a normalized key (`lib/slug.mjs`): corporate suffixes and location suffixes such as "(Costa Mesa)" are folded away so multi-location breweries roll up to one entity while the location credited is kept per medal.
@@ -49,7 +49,7 @@ GitHub Pages serves files only, and the dataset is small (a few hundred medals a
 |---|---|
 | scripts/lib/ | csv, slug, text, parser, style families, style guidelines, estimate, frontmatter, data model, paths |
 | scripts/*.mjs | CLI stages and the orchestrator |
-| site/assets/ | styles.css, charts.mjs, app.js (explorer), page.js (tooltips, sorting, theme) |
+| site/assets/ | styles.css, charts.mjs (table and figure helpers), chart-options.mjs (ECharts option builders), echarts-init.js, dashboards.js, page.js (sorting, theme), us-states.geo.json |
 | data/ | raw (PDF text extracts), results, reference, enriched, cache (ignored) |
 | breweries/ | markdown deep dives; template-brewery.md is the scaffold source |
 | tests/ | node test runner suites with fixtures |

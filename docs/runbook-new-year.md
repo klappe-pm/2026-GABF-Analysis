@@ -41,6 +41,16 @@ Already downloaded the PDF? Point at it:
 cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/new-year.mjs --year 2026 --pdf "$HOME/Downloads/GABF26-Winners-List.pdf"
 ```
 
+## before-the-pdf-exists-the-ceremony-transcript
+
+The awards ceremony is streamed (2026: https://www.youtube.com/live/EhJtEzE5wbg). Its auto captions can be drafted into rows within minutes of the ceremony:
+
+```bash
+cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && yt-dlp --write-auto-sub --sub-lang en --skip-download -o ceremony-2026 "https://www.youtube.com/live/EhJtEzE5wbg" && node scripts/import-ceremony-transcript.mjs --year 2026 --input ceremony-2026.en.vtt
+```
+
+Install yt-dlp with `brew install yt-dlp` if needed. The draft lands in data/results/drafts/gabf-2026-transcript.csv with a confidence per row (category matched, brewery matched, state found). Review it, then add `--promote` to make it the year's working file; the official PDF replaces it wholesale when `npm run parse -- --year 2026` runs. Captions mishear beer and brewery names, so a promoted draft shows as draft coverage on the site until the official list is in.
+
 ## reading-the-parse-report
 
 The parse prints category, medal, brewery, and award counts followed by problems. Expect roughly 100 categories and 300 to 350 medals. Problems of kind `unparsed-medal` quote the text the parser could not split; fix the extracted text in data/raw/gabf-2026-winners.txt (a missing comma, a wrapped line) and rerun `npm run parse -- --year 2026 --input data/raw/gabf-2026-winners.txt`. `empty-category` means a header matched but no medal lines followed it; check the text around that category. If the parse finds no categories at all, the PDF layout changed: open the text file, note the new header pattern, and update `categoryHeaderRegex` in scripts/lib/parse-winners-lib.mjs with a fixture under tests/fixtures/.

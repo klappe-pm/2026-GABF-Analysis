@@ -20,6 +20,8 @@ tags:
 barrels-estimate: 6500
 brewery: Green Cheek Beer Co.
 brewery-type: brewpub
+distribution-channel: self-distribution
+employees: 100
 founded: 2017
 has-kitchen: true
 hq-city: Orange
@@ -72,13 +74,14 @@ website: https://www.greencheekbeer.com
 
 # green-cheek-beer-co
 
-Green Cheek Beer Co. is an independent brewpub group founded in Orange, California in June 2017 by brewer Evan Price and operator Brian Rauso. It is best known for West Coast IPA in a soft, aromatic modern idiom, and in recent GABF competitions it has medaled across a surprisingly wide range: Italian-style pilsner, Baltic porter, session IPA, saison, black ale, and hazy imperial IPA.
+Green Cheek Beer Co. is an independent brewpub group founded in Orange, California in June 2017 by brewer Evan Price and operator Brian Rauso. It is best known for West Coast IPA in a soft, aromatic modern idiom, and in recent GABF competitions it has medaled across a surprisingly wide range: Italian-style pilsner, Baltic porter, session IPA, saison, black ale, hazy imperial IPA, and, in 2026, a gold in Specialty India Pale Ale for Doom Sludge plus bronzes for Zombi Shark Fight (Italian-Style Pilsener) and Chance Favors The Prepared Mind (Imperial India Pale Ale). That makes three medals in each of the last three competitions.
 
 ## what-they-are-known-for
 
 - West Coast IPA with a modern touch: Radiant Beauty (silver at the 2018 World Beer Cup and the 2019 GABF), West Coast IPA Is Dead! (bronze, GABF 2018), and False Memories (silver, 2024 World Beer Cup, West Coast-Style IPA). Price has said the brewery simply brews the IPAs he wants to drink, and the medal record backs the claim.
 - Lagers that win: Zombi Shark Fight took gold in Italian-Style Pilsener at GABF 2024 (Costa Mesa) and Jeff's Baltic Porter took gold in Baltic-Style Porter the same year (Oceanside).
-- Range beyond hops: Australian For Pale (gold, Australian-Style Pale Ale, GABF 2019), Saison for Papa (silver, Classic Saison, GABF 2025), Doom Sludge (silver, American-Style Black Ale or American-Style Stout, GABF 2025), DDH the Other Brian (bronze, Juicy or Hazy Imperial IPA, GABF 2025), and Josh's New Tiny Shoes (silver, Session IPA, GABF 2024).
+- Range beyond hops: Australian For Pale (gold, Australian-Style Pale Ale, GABF 2019), Saison for Papa (silver, Classic Saison, GABF 2025), Doom Sludge (silver, American-Style Black Ale or American-Style Stout, GABF 2025, then gold in Specialty India Pale Ale, GABF 2026), DDH the Other Brian (bronze, Juicy or Hazy Imperial IPA, GABF 2025), Chance Favors The Prepared Mind (bronze, Imperial India Pale Ale, GABF 2026), and Josh's New Tiny Shoes (silver, Session IPA, GABF 2024).
+- Repeat winners: Zombi Shark Fight took gold in Italian-Style Pilsener in 2024 and bronze in the same category in 2026, and Doom Sludge medaled in consecutive years in two different categories.
 - A taproom-first business: four Southern California locations, three with kitchens, and more than 100 employees per Orange Review.
 
 ## people-and-ownership
@@ -87,6 +90,11 @@ Green Cheek Beer Co. is an independent brewpub group founded in Orange, Californ
 - Brian Rauso, cofounder and business lead. Former CFO and then CEO of Noble Ale Works; Price credited him with taking Noble from the red to the black.
 - Ownership: independent and founder-owned. Brewbound lists it as a small, independent craft brewery owned by two friends; Nombase shows no funding rounds; no outside investor, private equity sponsor, or large-brewer stake has been reported. The Brewers Association's independence test (under 25 percent owned or controlled by a non-craft alcohol company) is met on everything on record.
 - Acquisitions: bought the assets of Valiant Brewing in Orange to launch in 2017, and acquired Barley Forge Brewing in Costa Mesa in a going concern sale announced in late 2019.
+
+## distribution
+
+- Channel: self-distribution across Orange County and greater Southern California (E). No wholesaler is named in any public source read; the 2024 Squawk Box collaboration with Karl Strauss shipped as sixteen-ounce four-packs through Green Cheek's four tasting rooms, Karl Strauss's nine brewpubs, and commercial accounts in the region, which is the footprint of a self-distributing brewery under its own California Type 23 license. Confirm with the brewery or the California ABC license lookup before quoting.
+- On-premise: four company locations carry the core range on draft and in cans to go.
 
 ## locations
 
@@ -103,7 +111,8 @@ Every figure in this section is an estimate (E) unless a source is named. Brewbo
 
 - Production: about 6,500 barrels a year (E), with a plausible range of 4,000 to 9,000. Basis: four locations with on-premise sales, two brewing sites (Orange and the expanded Costa Mesa system), packaged distribution across Southern California, and a workforce above 100.
 - Volume equivalents at 6,500 barrels: 201,500 gallons, roughly 89,600 cases of 24 twelve-ounce containers, or 1.6 million sixteen-ounce cans if everything were packaged. With a brewpub-style mix of about a quarter packaged, that is roughly 400,000 sixteen-ounce cans plus 1.2 million pints poured over the bar.
-- Revenue: about 12 million USD a year (E), range 9 to 16 million. Basis: brewpub beer revenue near 1,100 USD per barrel blended across pints and wholesale, plus food revenue at three kitchen locations. A workforce above 100 implies payroll alone in the 5 to 7 million range, which makes figures below 9 million unlikely.
+- Revenue (ARR): about 12 million USD a year (E), range 9 to 16 million. Basis: brewpub beer revenue near 1,276 USD per barrel for direct sales (Brewers Association 2023 benchmark) blended with wholesale, plus food revenue at three kitchen locations. A workforce above 100 implies payroll alone in the 5 to 7 million range, which makes figures below 9 million unlikely.
+- Margins (E): gross margin near 62 percent for a brewpub mix (beer sold over the bar keeps the retail margin; food runs near 70 percent gross), EBITDA margin near 12 percent with a 5 to 11 percent range for a self-distributing brewpub group, so EBITDA of roughly 0.6 to 1.4 million USD on 12 million of revenue. Revenue per employee about 120,000 USD and per location about 3 million USD.
 - Employees: more than 100 across four locations (Orange Review).
 
 ## gabf-and-world-beer-cup-record
@@ -122,6 +131,9 @@ Every figure in this section is an estimate (E) unless a source is named. Brewbo
 | 2025 | GABF | Silver | Doom Sludge | American-Style Black Ale or American-Style Stout | Costa Mesa |
 | 2025 | GABF | Silver | Saison for Papa | Classic Saison | to confirm |
 | 2025 | GABF | Bronze | DDH the Other Brian | Juicy or Hazy Imperial India Pale Ale | Costa Mesa |
+| 2026 | GABF | Gold | Doom Sludge | Specialty India Pale Ale | Costa Mesa |
+| 2026 | GABF | Bronze | Zombi Shark Fight | Italian-Style Pilsener | Costa Mesa |
+| 2026 | GABF | Bronze | Chance Favors The Prepared Mind | Imperial India Pale Ale | Orange |
 
 Years 2020 through 2023 are not yet loaded: the official winners lists for those years have not been ingested, and the sources read so far did not show Green Cheek entries for them. The Costa Mesa menu claims a 2023 gold medal for a brown ale; that claim is unverified and is left out of the record until the 2023 list is loaded. A 2024 bronze for the cold IPA It Just Works appears on a third-party listing but not in the GABF 2024 roundups, so it is also left out.
 
@@ -131,7 +143,7 @@ Years 2020 through 2023 are not yet loaded: the official winners lists for those
 - 2022 and 2023: not loaded, same note.
 - 2024: three medals (two gold, one silver) across three different locations, the first year a location other than Orange medaled.
 - 2025: three medals (two silver, one bronze), all credited to Costa Mesa or to the company at large, including a silver in a category where no gold was awarded.
-- 2026: results pending; the awards were presented at the opening Sunday session on October 11, 2026.
+- 2026: three medals (one gold, two bronze), announced October 11, 2026: Costa Mesa took the gold and one bronze, Orange the other bronze. The full 2026 list (336 medals to 243 breweries and cideries from 7,267 entries) loads when the official PDF is ingested.
 
 ## sources
 
@@ -145,6 +157,9 @@ Years 2020 through 2023 are not yet loaded: the official winners lists for those
 - Orange Coast, Green Cheek Costa Mesa opens with kitchen and increased brewing capacity: https://www.orangecoast.com/booze-blog/green-cheek-costa-mesa-opens-with-kitchen-and-increased-brewing-capacity/
 - What Now, Green Cheek Beer Company replacing Bagby Beer in Oceanside: https://whatnow.com/?p=149543
 - OC Beer Blog, OC Nabs Ten Medals at GABF 2024: https://ocbeerblog.com/2024/10/12/oc-nabs-ten-medals-at-gabf-2024/
+- San Diego Beer News, San Diegans strike gold at the Great American Beer Festival (2026): https://sandiegobeer.news/gabf-2026-winners/
+- Forbes, The Best Beers In America, According To The 2026 Great American Beer Festival: https://www.forbes.com/sites/dontse/2026/10/11/the-best-beers-in-america-according-to-the-2026-great-american-beer-festival/
+- The Brewer Magazine, Karl Strauss and Green Cheek re-release Squawk Box IPA collaboration (distribution footprint): https://thebrewermagazine.com/?p=35046
 - San Diego Beer News, Local winners from the Great American Beer Festival (2025): https://sandiegobeer.news/local-winners-from-the-great-american-beer-festival/
 - San Diego Beer News, Local winners from GABF 2024: https://sandiegobeer.news/local-winners-from-gabf-2024/
 - CraftBeer.com, 2019 Great American Beer Festival competition medals announced: https://www.craftbeer.com/news/great-american-beer-festival-competition-medals-announced
