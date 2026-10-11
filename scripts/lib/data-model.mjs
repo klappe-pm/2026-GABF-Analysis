@@ -5,9 +5,9 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { basename, resolve } from 'node:path';
 import { readCsvRecords } from './csv.mjs';
 import { breweryKey, slugify } from './slug.mjs';
-import { abvBand, styleFamily } from './style-families.mjs';
+import { abvBand, isSpecialCategory, styleFamily } from './style-families.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
-import { estimateBarrels, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
+import { estimateBarrels, estimateFinancials, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
 import { BREWERIES, ENRICHED, REFERENCE, RESULTS } from './paths.mjs';
 
 const MEDAL_ORDER = { Gold: 0, Silver: 1, Bronze: 2, 'Honorable Mention': 3 };
@@ -15,11 +15,6 @@ export const MEDAL_POINTS = { Gold: 3, Silver: 2, Bronze: 1, 'Honorable Mention'
 
 function readCsvIfExists(path) {
   return existsSync(path) ? readCsvRecords(readFileSync(path, 'utf8')) : [];
-}
-
-function listResultFiles() {
-  if (!existsSync(RESULTS)) return [];
-  return readdirSync(RESULTS).filter((f) => /^gabf-\d{4}\.csv$/.test(f)).map((f) => resolve(RESULTS, f)).sort();
 }
 
 export function loadProfiles(dir = BREWERIES) {
@@ -67,6 +62,8 @@ export function loadDataset({ root } = {}) {
   for (const o of ownership) for (const k of aliasKeys(o)) ownershipByKey.set(k, o);
   const production = readCsvIfExists(resolve(referenceDir, 'production.csv'));
   const productionByKey = indexBy(production, (p) => breweryKey(p.brewery_name));
+  const distributors = readCsvIfExists(resolve(referenceDir, 'distributors.csv'));
+  const distributorsByKey = indexBy(distributors, (d) => breweryKey(d.brewery_name));
   const abvOverrides = readCsvIfExists(resolve(referenceDir, 'beer-abv-overrides.csv'));
   const abvByBeer = new Map(abvOverrides.map((a) => [`${a.competition}|${a.year}|${breweryKey(a.brewery_name)}|${a.beer_name.toLowerCase()}`, a]));
   const overrides = readCsvIfExists(resolve(referenceDir, 'brewery-overrides.csv'));
@@ -78,9 +75,7 @@ export function loadDataset({ root } = {}) {
   const profiles = loadProfiles(breweriesDir);
   const profileByKey = new Map(profiles.map((p) => [p.key, p]));
 
-  const resultFiles = root
-    ? readdirSync(resultsDir).filter((f) => /^gabf-\d{4}\.csv$/.test(f)).map((f) => resolve(resultsDir, f)).sort()
-    : listResultFiles();
+  const resultFiles = readdirSync(resultsDir).filter((f) => /^gabf-\d{4}\.csv$/.test(f)).map((f) => resolve(resultsDir, f)).sort();
   const gabfRows = resultFiles.flatMap((f) => readCsvRecords(readFileSync(f, 'utf8')));
   const otherRows = readCsvIfExists(resolve(resultsDir, 'world-beer-cup.csv'));
 
@@ -91,6 +86,7 @@ export function loadDataset({ root } = {}) {
     const abv = abvRow ? Number(abvRow.abv) : null;
     const abvMid = cat && cat.abv_min && cat.abv_max ? (Number(cat.abv_min) + Number(cat.abv_max)) / 2 : null;
     const st = stateByCode[r.state] ?? {};
+    const special = cat?.special ? cat.special === 'yes' : isSpecialCategory(r.category_name);
     return {
       ...r,
       year: Number(r.year),
@@ -99,28 +95,32 @@ export function loadDataset({ root } = {}) {
       brewery_slug: slugify(r.brewery_name),
       category_slug: slugify(r.category_name),
       style_family: cat?.style_family || styleFamily(r.category_name),
+      category_type: special ? 'special' : 'classic',
+      special,
       abv_min: cat?.abv_min ? Number(cat.abv_min) : null,
       abv_max: cat?.abv_max ? Number(cat.abv_max) : null,
-      abv: abv,
+      abv,
       abv_band: abvBand(abv ?? abvMid),
       region: st.region ?? '',
       division: st.division ?? '',
       state_name: st.name ?? r.state,
       medal_rank: MEDAL_ORDER[r.medal] ?? 9,
       points: MEDAL_POINTS[r.medal] ?? 0,
-      partial: /partial seed/i.test(r.notes ?? ''),
+      partial: /partial seed|transcript draft/i.test(r.notes ?? ''),
+      draft: /transcript draft/i.test(r.notes ?? ''),
     };
   };
 
   const results = gabfRows.map(decorate).sort((a, b) => a.year - b.year || Number(a.category_number) - Number(b.category_number) || a.medal_rank - b.medal_rank);
   const otherResults = otherRows.map(decorate);
 
-  // Year coverage: complete, partial, pending (competition held but no rows yet), missing.
+  // Year coverage: complete, partial, draft (transcript), pending (competition held but no rows yet).
   const years = new Set([...results.map((r) => r.year), ...summary.filter((s) => s.competition === 'GABF').map((s) => Number(s.year))]);
   const coverage = {};
   for (const y of years) {
     const rows = results.filter((r) => r.year === y);
     if (rows.length === 0) coverage[y] = 'pending';
+    else if (rows.some((r) => r.draft)) coverage[y] = 'draft';
     else if (rows.some((r) => r.partial)) coverage[y] = 'partial';
     else coverage[y] = 'complete';
   }
@@ -129,16 +129,7 @@ export function loadDataset({ root } = {}) {
   const breweries = new Map();
   const touch = (row) => {
     if (!breweries.has(row.brewery_key)) {
-      breweries.set(row.brewery_key, {
-        key: row.brewery_key,
-        slug: row.brewery_slug,
-        name: row.brewery_name,
-        names: new Map(),
-        locations: new Map(),
-        medals: [],
-        other_medals: [],
-        awards: [],
-      });
+      breweries.set(row.brewery_key, { key: row.brewery_key, slug: row.brewery_slug, name: row.brewery_name, names: new Map(), locations: new Map(), medals: [], other_medals: [], awards: [] });
     }
     const b = breweries.get(row.brewery_key);
     b.names.set(row.brewery_name, (b.names.get(row.brewery_name) ?? 0) + 1);
@@ -154,14 +145,13 @@ export function loadDataset({ root } = {}) {
     if (breweries.has(key)) breweries.get(key).awards.push(a);
   }
   for (const p of profiles) {
-    if (!breweries.has(p.key)) {
-      breweries.set(p.key, { key: p.key, slug: p.slug, name: p.name, names: new Map([[p.name, 1]]), locations: new Map(), medals: [], other_medals: [], awards: [] });
-    }
+    if (!breweries.has(p.key)) breweries.set(p.key, { key: p.key, slug: p.slug, name: p.name, names: new Map([[p.name, 1]]), locations: new Map(), medals: [], other_medals: [], awards: [] });
   }
 
   const minYear = Math.min(...years);
   const maxYear = Math.max(...years);
-  const latestComplete = Math.max(...Object.entries(coverage).filter(([, v]) => v !== 'pending').map(([y]) => Number(y)));
+  const loadedYears = Object.entries(coverage).filter(([, v]) => v !== 'pending').map(([y]) => Number(y));
+  const latestComplete = loadedYears.length ? Math.max(...loadedYears) : maxYear;
 
   for (const b of breweries.values()) {
     b.name = [...b.names.entries()].sort((x, y) => y[1] - x[1])[0][0];
@@ -169,11 +159,13 @@ export function loadDataset({ root } = {}) {
     b.profile = profileByKey.get(b.key) ?? null;
     b.ownership = ownershipByKey.get(b.key) ?? null;
     b.production = productionByKey.get(b.key) ?? [];
+    b.distributors = distributorsByKey.get(b.key) ?? [];
     b.enriched = enriched.breweries?.[b.key] ?? null;
     b.overrides = overrides.filter((o) => breweryKey(o.brewery_name) === b.key);
     const pd = b.profile?.data ?? {};
     b.founded = Number(pd.founded ?? b.ownership?.founded ?? '') || null;
     b.defunct = Number(pd.defunct ?? '') || null;
+    b.employees = Number(pd.employees ?? '') || null;
     b.brewery_type = pd['brewery-type'] ?? b.overrides.find((o) => !o.brewery_location)?.brewery_type ?? b.enriched?.best?.brewery_type ?? 'micro';
     b.website = pd.website ?? b.overrides.find((o) => o.website)?.website ?? b.enriched?.best?.website_url ?? '';
     b.known_for = pd['known-for'] ?? [];
@@ -181,14 +173,13 @@ export function loadDataset({ root } = {}) {
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
     b.locations_count = b.location_list.length || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
     b.has_kitchen = Boolean(pd['has-kitchen'] ?? b.location_list.some((l) => l.kitchen));
+    b.distribution_channel = pd['distribution-channel'] ?? b.distributors[0]?.channel ?? '';
     const barrels = pd['barrels-estimate'] ? { barrels: Number(pd['barrels-estimate']), basis: 'estimate', confidence: 'low', source: 'brewery profile' } : estimateBarrels({ production: b.production, breweryType: b.brewery_type, locationsCount: b.locations_count, botyBracket: b.awards[0]?.bracket ?? '' }, params);
-    b.estimate = {
-      ...barrels,
-      volume: volumeBreakdown(barrels.barrels, params, b.brewery_type),
-      revenue: pd['revenue-estimate-usd']
-        ? { total_revenue_usd: Number(pd['revenue-estimate-usd']), low_usd: Number(pd['revenue-low-usd'] ?? Math.round(Number(pd['revenue-estimate-usd']) * 0.7)), high_usd: Number(pd['revenue-high-usd'] ?? Math.round(Number(pd['revenue-estimate-usd']) * 1.35)), basis: 'profile estimate' }
-        : estimateRevenue(barrels.barrels, params, b.brewery_type, { locationsCount: b.locations_count, hasKitchen: b.has_kitchen }),
-    };
+    const revenue = pd['revenue-estimate-usd']
+      ? { total_revenue_usd: Number(pd['revenue-estimate-usd']), low_usd: Number(pd['revenue-low-usd'] ?? Math.round(Number(pd['revenue-estimate-usd']) * 0.7)), high_usd: Number(pd['revenue-high-usd'] ?? Math.round(Number(pd['revenue-estimate-usd']) * 1.35)), basis: 'profile estimate' }
+      : estimateRevenue(barrels.barrels, params, b.brewery_type, { locationsCount: b.locations_count, hasKitchen: b.has_kitchen });
+    b.estimate = { ...barrels, volume: volumeBreakdown(barrels.barrels, params, b.brewery_type), revenue };
+    b.financials = estimateFinancials({ revenue, barrels: barrels.barrels, breweryType: b.brewery_type, employees: b.employees, locationsCount: b.locations_count, distributionChannel: b.distribution_channel }, params);
     b.first_year = b.medals.length ? Math.min(...b.medals.map((m) => m.year)) : null;
     b.last_year = b.medals.length ? Math.max(...b.medals.map((m) => m.year)) : null;
     b.total_points = b.medals.reduce((s, m) => s + m.points, 0);
@@ -204,7 +195,7 @@ export function loadDataset({ root } = {}) {
       else if (coverage[y] === undefined) status = 'no-results';
       else if (coverage[y] === 'pending') status = 'not-yet-reported';
       else if (rows.length > 0) status = 'medaled';
-      else if (coverage[y] === 'partial') status = 'no-data';
+      else if (coverage[y] === 'partial' || coverage[y] === 'draft') status = 'no-data';
       else status = 'no-medal';
       b.trend.push({ year: y, status, gold: rows.filter((r) => r.medal === 'Gold').length, silver: rows.filter((r) => r.medal === 'Silver').length, bronze: rows.filter((r) => r.medal === 'Bronze').length, total: rows.length });
     }
@@ -214,7 +205,7 @@ export function loadDataset({ root } = {}) {
   }
 
   return {
-    results, otherResults, states, stateByCode, categories, categoryByName, ownership, production, params,
+    results, otherResults, states, stateByCode, categories, categoryByName, ownership, production, distributors, params,
     summary, awards, coverage, years: [...years].sort(), minYear, maxYear, latestComplete,
     breweries: [...breweries.values()].sort((a, b) => b.total_points - a.total_points || b.medals.length - a.medals.length || a.name.localeCompare(b.name)),
     profiles,
@@ -237,7 +228,7 @@ export function categoryIndex(dataset) {
   const map = new Map();
   for (const r of dataset.results) {
     const k = r.category_name;
-    if (!map.has(k)) map.set(k, { name: k, slug: r.category_slug, style_family: r.style_family, years: new Map(), rows: [], ref: dataset.categoryByName.get(k.toLowerCase()) ?? null });
+    if (!map.has(k)) map.set(k, { name: k, slug: r.category_slug, style_family: r.style_family, special: r.special, years: new Map(), rows: [], ref: dataset.categoryByName.get(k.toLowerCase()) ?? null });
     const c = map.get(k);
     c.rows.push(r);
     if (!c.years.has(r.year)) c.years.set(r.year, { year: r.year, entries: r.entries, number: r.category_number, medals: [] });
@@ -246,6 +237,7 @@ export function categoryIndex(dataset) {
   for (const c of map.values()) {
     c.years = [...c.years.values()].sort((a, b) => a.year - b.year);
     c.latest_entries = [...c.years].reverse().find((y) => y.entries)?.entries ?? null;
+    c.latest_entries_year = [...c.years].reverse().find((y) => y.entries)?.year ?? null;
   }
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
 }

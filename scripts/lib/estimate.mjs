@@ -76,3 +76,33 @@ export function estimateRevenue(barrels, params, breweryType = '', { locationsCo
     basis: 'estimate',
   };
 }
+
+// Annual run rate, gross margin, and EBITDA from the revenue estimate. Margins come from
+// estimation-parameters.json (brewery type point estimates with channel-based ranges,
+// sourced from the Brewers Association financial benchmarking survey and industry
+// profit workshops). Everything here is an estimate (E).
+export function estimateFinancials({ revenue, barrels, breweryType = '', employees = null, locationsCount = 1, distributionChannel = '' }, params) {
+  const total = Number(revenue?.total_revenue_usd) || 0;
+  const gm = params.gross_margin_by_brewery_type[breweryType] ?? params.gross_margin_by_brewery_type.default;
+  const em = params.ebitda_margin_by_brewery_type[breweryType] ?? params.ebitda_margin_by_brewery_type.default;
+  const channel = params.ebitda_margin_range_by_channel[distributionChannel] ?? params.ebitda_margin_range_by_channel[breweryType === 'brewpub' || breweryType === 'taproom' ? 'taproom' : 'self-distribution'] ?? params.ebitda_margin_range_by_channel.default;
+  const out = {
+    arr_usd: total,
+    arr_low_usd: Number(revenue?.low_usd) || Math.round(total * params.revenue_range_low_multiplier),
+    arr_high_usd: Number(revenue?.high_usd) || Math.round(total * params.revenue_range_high_multiplier),
+    gross_margin: gm,
+    gross_profit_usd: Math.round(total * gm),
+    ebitda_margin: em,
+    ebitda_margin_low: channel[0],
+    ebitda_margin_high: channel[1],
+    ebitda_usd: Math.round(total * em),
+    ebitda_low_usd: Math.round(total * channel[0]),
+    ebitda_high_usd: Math.round(total * channel[1]),
+    cogs_per_barrel_usd: params.cogs_per_barrel_usd,
+    revenue_per_barrel_usd: barrels ? Math.round(total / barrels) : null,
+    revenue_per_location_usd: locationsCount ? Math.round(total / locationsCount) : null,
+    revenue_per_employee_usd: employees ? Math.round(total / employees) : null,
+    basis: 'estimate',
+  };
+  return out;
+}

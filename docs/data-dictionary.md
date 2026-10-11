@@ -39,7 +39,7 @@ session-link: https://claude.ai/code/session_017p8WkwJF1gqWYn98dKrcBw
 | source | where the row came from (official list file name, or the secondary source for seed rows) |
 | notes | free text; "Partial seed" marks a placeholder row |
 
-Derived at build time: brewery_key (normalized identity), brewery_slug, category_slug, style_family, abv_min and abv_max (from categories.csv), abv (from beer-abv-overrides.csv), abv_band, region, division, points (3, 2, 1), partial.
+Derived at build time: brewery_key (normalized identity), brewery_slug, category_slug, style_family, special and category_type (classic or special, from categories.csv or the rule in style-families.mjs), abv_min and abv_max (from categories.csv), abv (from beer-abv-overrides.csv), abv_band, region, division, points (3, 2, 1), partial, draft (transcript rows).
 
 ## year-summary-csv
 
@@ -51,7 +51,7 @@ year, competition, award, bracket, brewery_printed, brewery_name, brewery_locati
 
 ## reference-categories-csv
 
-category_name, style_family, abv_min, abv_max, ibu_min, ibu_max, srm_min, srm_max, description, guideline_source, confidence (approximate or guideline).
+category_name, style_family, abv_min, abv_max, ibu_min, ibu_max, srm_min, srm_max, description, guideline_source, confidence (approximate or guideline), special (yes or no).
 
 ## reference-states-csv
 
@@ -65,6 +65,10 @@ brewery_name, aliases (semicolon separated), hq_city, hq_state, ownership_type (
 
 brewery_name, year, barrels, basis (reported, boty-bracket, estimate), source, confidence, notes (for boty-bracket rows the bracket text).
 
+## reference-distributors-csv
+
+brewery_name, channel (self-distribution or wholesaler), distributor, territory, since, source, verified (yes or no), notes.
+
 ## reference-beer-abv-overrides-csv
 
 competition, year, brewery_name, beer_name, abv, source. Lets a beer's actual ABV replace the style range in the explorer's ABV band.
@@ -75,7 +79,7 @@ brewery_name, brewery_location (blank for the headquarters record), open_brewery
 
 ## brewery-profile-frontmatter
 
-Canonical keys first (domain, category, sub-category, topics, types, date-created, date-revised, status, aliases, tags), then A to Z: barrels-estimate, brewery (must match the printed name so the key resolves), brewery-type, founded, has-kitchen, hq-city, hq-state, known-for (list), locations (list of name, address, city, state, postal-code, opened, kitchen, notes), revenue-estimate-usd, revenue-high-usd, revenue-low-usd, website.
+Canonical keys first (domain, category, sub-category, topics, types, date-created, date-revised, status, aliases, tags), then A to Z: barrels-estimate, brewery (must match the printed name so the key resolves), brewery-type, distribution-channel, employees, founded, has-kitchen, hq-city, hq-state, known-for (list), locations (list of name, address, city, state, postal-code, opened, kitchen, notes), revenue-estimate-usd, revenue-high-usd, revenue-low-usd, website.
 
 ## enriched-breweries-json
 
@@ -83,4 +87,4 @@ Keyed by brewery_key: name, best (the headquarters record: address_1, city, stat
 
 ## site-data-exports
 
-dist/data/results.json (decorated rows), meta.json (years, coverage, summary, states, bands, brewery types, ownership map, categories), breweries.json, categories.json, and dist/data/csv/ copies of every source CSV.
+dist/data/results.json (decorated rows), meta.json (years, coverage, summary, states, bands, brewery types, ownership map, distribution map, categories), breweries.json (including trend, estimate, and financials per brewery), categories.json, and dist/data/csv/ copies of every source CSV.

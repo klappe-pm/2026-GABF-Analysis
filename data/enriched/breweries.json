@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:56:46.452Z",
+  "generated_at": "2026-10-11T20:39:10.359Z",
   "source": "Open Brewery DB (https://www.openbrewerydb.org) plus data/reference/brewery-overrides.csv",
   "breweries": {
     "green cheek": {
@@ -84,6 +84,69 @@
           "notes": "Restaurant and taproom in Sunset Beach; street number not confirmed"
         }
       ],
+      "obdb_queried_at": null
+    },
+    "craft coast": {
+      "key": "craft coast",
+      "name": "Craft Coast Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "beach cat": {
+      "key": "beach cat",
+      "name": "Beach Cat Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "community beer works": {
+      "key": "community beer works",
+      "name": "Community Beer Works",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "geisthaus": {
+      "key": "geisthaus",
+      "name": "Geisthaus Brewing Co.",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "los dos potrillos cerveceria": {
+      "key": "los dos potrillos cerveceria",
+      "name": "Los Dos Potrillos Cervecería",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "morgan territory": {
+      "key": "morgan territory",
+      "name": "Morgan Territory Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "wormtown": {
+      "key": "wormtown",
+      "name": "Wormtown Brewery",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "sunriver": {
+      "key": "sunriver",
+      "name": "Sunriver Brewing Co.",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "tommyknocker brewery and pub": {
+      "key": "tommyknocker brewery and pub",
+      "name": "Tommyknocker Brewery & Pub",
+      "best": null,
+      "locations": [],
       "obdb_queried_at": null
     }
   }

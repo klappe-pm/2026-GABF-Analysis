@@ -54,3 +54,12 @@ export function abvBand(abv) {
   const band = ABV_BANDS.find((b) => v >= b.min && v <= b.max);
   return band ? band.id : '';
 }
+
+// A "special" category is one judged on an added ingredient, process, or non-standard
+// base rather than a classic style: specialty, experimental, fruit, spice, barrel, smoke,
+// gluten-free, non-alcohol, cider, Pro-Am, collaboration, hybrid, adjunct, and the catch-all
+// session and specialty IPA categories. Classic style categories are everything else.
+export function isSpecialCategory(categoryName) {
+  const name = String(categoryName ?? '');
+  return /specialty|experimental|fruit|field|pumpkin|chili|pepper|herb|spice|coffee|chocolate|cocoa|honey|historical|indigenous|smoke|rauch|wood|barrel|gluten|non-alcohol|alcohol-free|hop water|craft malt|pro-?am|collaboration|cider|perry|mead|hybrid|crossover|adjunct|dessert|pastry|session beer|other strong|vegetable|kombucha/i.test(name);
+}

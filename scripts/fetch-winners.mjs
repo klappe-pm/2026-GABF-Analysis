@@ -15,7 +15,7 @@ import { RAW, parseArgs } from './lib/paths.mjs';
 export const KNOWN_URLS = {
   2021: ['https://www.greatamericanbeerfestival.com/wp-content/uploads/2021/10/GABF21-Winners-List-2.pdf'],
   2024: ['https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF24-Winners-List.pdf'],
-  2025: ['https://cdn.brewersassociation.org/wp-content/uploads/2025/10/11090251/GABF25-Winners-List.pdf'],
+  2025: ['https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF25-Winners-List-1.pdf', 'https://cdn.brewersassociation.org/wp-content/uploads/2025/10/11090251/GABF25-Winners-List.pdf'],
 };
 
 export function candidateUrls(year) {
@@ -23,6 +23,7 @@ export function candidateUrls(year) {
   const known = KNOWN_URLS[year] ?? [];
   const guesses = [
     `https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF${yy}-Winners-List.pdf`,
+    `https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF${yy}-Winners-List-1.pdf`,
     `https://cdn.brewersassociation.org/wp-content/uploads/${year}/10/GABF${yy}-Winners-List.pdf`,
     `https://www.greatamericanbeerfestival.com/wp-content/uploads/${year}/10/GABF${yy}-Winners-List.pdf`,
     `https://www.greatamericanbeerfestival.com/wp-content/uploads/${year}/09/GABF${yy}-Winners-List.pdf`,

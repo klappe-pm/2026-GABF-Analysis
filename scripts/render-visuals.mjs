@@ -56,7 +56,7 @@ export async function renderVisuals({ brewery, dark = false, out = REPORTS, port
     for (const t of targets) {
       await page.goto(t.url, { waitUntil: 'networkidle' });
       if (dark) await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
-      await page.waitForTimeout(300);
+      await page.waitForTimeout(1200);
       const figures = await page.$$('figure[data-figure]');
       for (const fig of figures) {
         const id = await fig.getAttribute('data-figure');
