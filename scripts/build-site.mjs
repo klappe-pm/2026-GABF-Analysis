@@ -103,12 +103,14 @@ function medalTable(rows, { depth, showYear = true, showBrewery = false, showCom
 }
 
 // ---------- data exports ----------
-function writeData(ds, cats) {
-  const fields = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft'];
-  const rows = ds.results.map((r) => Object.fromEntries(fields.map((f) => [f, r[f] ?? null])));
-  write('data/results.json', JSON.stringify(rows));
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft'];
+
+// The data every dashboard reads: decorated results, meta (years, coverage, states, lookups),
+// and per-brewery summaries. Shared by the multi-page site (written as JSON files) and the
+// single-file build (embedded in the HTML), so the two can never drift apart.
+export function buildPayload(ds, cats) {
+  const results = ds.results.map((r) => Object.fromEntries(RESULT_FIELDS.map((f) => [f, r[f] ?? null])));
   const meta = {
-    generated_at: new Date().toISOString(),
     years: ds.years,
     coverage: ds.coverage,
     latest_complete: ds.latestComplete,
@@ -120,14 +122,21 @@ function writeData(ds, cats) {
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
   };
-  write('data/meta.json', JSON.stringify(meta));
-  write('data/breweries.json', JSON.stringify(ds.breweries.map((b) => ({
+  const breweries = ds.breweries.map((b) => ({
     key: b.key, slug: b.slug, name: b.name, hq: b.hq, brewery_type: b.brewery_type, founded: b.founded, employees: b.employees, medals: b.medals.length, by_medal: b.by_medal, points: b.total_points, first_year: b.first_year, last_year: b.last_year, streak: b.streak, trend: b.trend,
     ownership: b.ownership ? { type: b.ownership.ownership_type, parent: b.ownership.parent, investor: b.ownership.investor } : null,
     distribution_channel: b.distribution_channel, distributors: b.distributors.map((d) => ({ channel: d.channel, distributor: d.distributor, territory: d.territory })),
     estimate: { barrels: b.estimate.barrels, basis: b.estimate.basis, revenue_usd: b.estimate.revenue.total_revenue_usd },
     financials: b.financials, has_profile: Boolean(b.profile), locations: b.locations, locations_count: b.locations_count,
-  }))));
+  }));
+  return { results, meta, breweries };
+}
+
+function writeData(ds, cats) {
+  const { results, meta, breweries } = buildPayload(ds, cats);
+  write('data/results.json', JSON.stringify(results));
+  write('data/meta.json', JSON.stringify({ generated_at: new Date().toISOString(), ...meta }));
+  write('data/breweries.json', JSON.stringify(breweries));
   write('data/categories.json', JSON.stringify(cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special, ref: c.ref, years: c.years.map((y) => ({ year: y.year, entries: y.entries, number: y.number, medals: y.medals.length })) }))));
   mkdirSync(resolve(DIST, 'data/csv'), { recursive: true });
   for (const dir of [RESULTS, REFERENCE]) {
@@ -184,7 +193,7 @@ function breweryCharts(b, depth) {
   return figures.join('');
 }
 
-function profileCard(b) {
+export function profileCard(b) {
   const o = b.ownership;
   const locs = b.location_list.length ? b.location_list.map((l) => ({ label: l.name, address_1: l.address, city: l.city, state: l.state, postal_code: l['postal-code'], opened: l.opened, kitchen: l.kitchen })) : (b.enriched?.locations ?? []).map((l) => ({ label: l.label || l.name, address_1: l.address_1 ?? l.street, city: l.city, state: l.state ?? l.state_province, postal_code: l.postal_code, latitude: l.latitude, longitude: l.longitude }));
   const est = b.estimate;
@@ -233,7 +242,7 @@ function trendTimeline(b) {
   return `<ul class="timeline">${last.map((t) => `<li><span class="year">${t.year}</span><span>${t.total > 0 ? `${t.total} medal${t.total === 1 ? '' : 's'}: ${[t.gold ? `${t.gold} gold` : '', t.silver ? `${t.silver} silver` : '', t.bronze ? `${t.bronze} bronze` : ''].filter(Boolean).join(', ')}` : `<span class="status">${esc(STATUS_LABELS[t.status] ?? t.status)}</span>`}</span></li>`).join('')}</ul>`;
 }
 
-function renderMarkdownBody(body) {
+export function renderMarkdownBody(body) {
   return marked.parse(body.replace(/^#\s+.*\n+/m, ''), { gfm: true });
 }
 
@@ -562,9 +571,9 @@ ${rows.length < 12 ? '<p class="small muted">Only the awards confirmed so far ar
 }
 
 // ---------- about ----------
-function aboutPage(ds) {
+export function aboutHtml(ds) {
   const rows = ds.years.map((y) => ({ year: y, status: ds.coverage[y], rows: ds.results.filter((x) => x.year === y).length, source: [...new Set(ds.results.filter((x) => x.year === y).map((x) => x.source))].join('; ') || (ds.summary.find((s) => Number(s.year) === y)?.source ?? '') }));
-  const body = `
+  return `
 <h1>about-this-site</h1>
 <p class="lede">An independent analysis of Great American Beer Festival competition results. It is built from public data by a static pipeline in <a href="${REPO_URL}">this repository</a> and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG.</p>
 <h2>coverage</h2>
@@ -587,6 +596,10 @@ function aboutPage(ds) {
 <p>A GitHub Pages site is public even when its repository is private (private-repository Pages needs a paid plan, and access control needs GitHub Enterprise Cloud). For a private copy, build locally and open dist/index.html, or publish dist/ behind authentication on a host such as Cloudflare Pages with Access or Netlify with password protection; the site is plain files and runs anywhere.</p>
 <h2>attribution</h2>
 <p>Great American Beer Festival and GABF are trademarks of the Brewers Association. Style guideline content is used with attribution for non-commercial analysis. Open Brewery DB data is open. Apache ECharts is Apache 2.0 licensed. US state boundaries come from the us-atlas project (US Census Bureau cartographic boundaries). This site is not affiliated with the Brewers Association.</p>`;
+}
+
+function aboutPage(ds) {
+  const body = aboutHtml(ds);
   write('about/index.html', layout({ title: 'About', description: 'Data sources, coverage, and methods.', body, depth: 1, active: 'About' }));
 }
 

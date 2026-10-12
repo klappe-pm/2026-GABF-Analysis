@@ -14,7 +14,7 @@ The full gate is `verify`, mandatory before a push even when a focused check pas
 npm --prefix /Users/kevinlappe/projects/active/2026-GABF-Analysis run verify
 ```
 
-It runs `check` (markdown prose rules), `test` (node test runner), and `build` (the site into dist/). `npm run serve` previews dist/ locally.
+It runs `check` (markdown prose rules), `test` (node test runner), `build` (the site into dist/), and `build:standalone` (the single-file dashboard gabf-dashboard.html, which is committed and must be regenerated whenever data or dashboard code changes). `npm run serve` previews dist/ locally.
 
 ## data-rules
 

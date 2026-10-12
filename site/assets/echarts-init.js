@@ -42,7 +42,9 @@
 
   function ensureMap() {
     if (!mapReady) {
-      mapReady = fetch(base + 'assets/us-states.geo.json').then((r) => r.json()).then((geo) => { window.echarts.registerMap('usa', geo); });
+      mapReady = window.GABF_GEO
+        ? Promise.resolve().then(() => { window.echarts.registerMap('usa', window.GABF_GEO); })
+        : fetch(base + 'assets/us-states.geo.json').then((r) => r.json()).then((geo) => { window.echarts.registerMap('usa', geo); });
     }
     return mapReady;
   }

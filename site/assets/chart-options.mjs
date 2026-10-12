@@ -59,14 +59,18 @@ export function stackedColumnsOption({ labels, notes = [], series, saveName = 'c
   let lastIdx = -1;
   for (let i = totals.length - 1; i >= 0; i -= 1) if (totals[i] > 0) { lastIdx = i; break; }
   const labelIdx = new Set([maxIdx, lastIdx].filter((i) => i >= 0));
-  const xLabels = labels.map((l, i) => (notes[i] ? `${l}\n{note|${notes[i]}}` : String(l)));
+  const xLabels = labels.map((l) => String(l));
+  // Status notes under the year. The formatter is a self-contained function string (revived by
+  // echarts-init.js) so the option stays JSON-serializable. On a phone the words shrink to a glyph:
+  // pending "…", partial ".", not loaded "o", not yet founded or closed "x".
+  const NOTE_FORMATTER = `fn:(v, i) => { const N = ${JSON.stringify(notes.map((n) => n || ''))}; const G = { pending: '\u2026', partial: '\u00b7', draft: '\u00b7', 'not loaded': '\u25cb', 'not yet founded': '\u00d7', closed: '\u00d7' }; const n = N[i]; const narrow = typeof window !== 'undefined' && window.innerWidth < 560; const y = narrow ? String.fromCharCode(39) + String(v).slice(-2) : String(v); if (!n) return y; return y + String.fromCharCode(10) + '{note|' + (narrow ? (G[n] || '\u00b7') : n) + '}'; }`;
   return {
     textStyle: textStyle(),
     tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
     legend: { show: showLegend && series.length > 1, top: 0, left: 0, textStyle: { color: TEXT.secondary }, icon: 'rect', itemWidth: 12, itemHeight: 12 },
     toolbox: toolbox(saveName),
     grid: baseGrid({ top: series.length > 1 ? 36 : 28, bottom: 4 }),
-    xAxis: categoryAxis(xLabels, { axisLabel: { color: TEXT.secondary, interval: 0, rich: { note: { color: TEXT.muted, fontSize: 10, lineHeight: 14 } } } }),
+    xAxis: categoryAxis(xLabels, { axisLabel: { color: TEXT.secondary, interval: 0, formatter: NOTE_FORMATTER, rich: { note: { color: TEXT.muted, fontSize: 10, lineHeight: 14 } } } }),
     yAxis: valueAxis(),
     series: series.map((ser, idx) => ({
       name: ser.name,
@@ -95,7 +99,7 @@ export function lineOption({ labels, series, saveName = 'chart', valueName = '' 
     grid: baseGrid({ top: series.length > 1 ? 36 : 28, right: 24 }),
     xAxis: categoryAxis(labels.map(String), { boundaryGap: false }),
     yAxis: valueAxis(valueName),
-    series: series.map((ser, idx) => ({ name: ser.name, type: 'line', data: ser.data, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: { width: 2, color: ser.color ?? SERIES_COLORS[idx % 8] }, itemStyle: { color: ser.color ?? SERIES_COLORS[idx % 8], borderColor: 'var(--surface-1)', borderWidth: 2 }, endLabel: { show: true, formatter: '{a}', color: TEXT.secondary, offset: [6, 0] } })),
+    series: series.map((ser, idx) => ({ name: ser.name, type: 'line', data: ser.data, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: { width: 2, color: ser.color ?? SERIES_COLORS[idx % 8] }, itemStyle: { color: ser.color ?? SERIES_COLORS[idx % 8], borderColor: 'var(--surface-1)', borderWidth: 2 } })),
   };
 }
 
