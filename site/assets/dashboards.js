@@ -7,6 +7,15 @@ import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES
 
 const state = { rows: [], meta: null, breweries: [], categories: [], filters: {}, showAll: false };
 const base = window.GABF_BASE || './';
+// Standalone mode: the single-file build embeds its data (window.GABF_DATA), so there is no
+// server, no page navigation, and links become in-page hash routes.
+const STANDALONE = typeof window.GABF_DATA === 'object' && window.GABF_DATA !== null;
+const bHref = (slug) => {
+  if (!STANDALONE) return `${base}breweries/${slug}/`;
+  const b = state.breweries.find((x) => x.slug === slug);
+  return `#tab=breweries&brewery=${encodeURIComponent(b ? b.key : slug)}`;
+};
+const cHref = (name, slug) => (STANDALONE ? `#tab=categories&category_name=${encodeURIComponent(name)}` : `${base}categories/${slug}/`);
 const FILTERS = [
   { id: 'year', label: 'Year', key: 'year' },
   { id: 'medal', label: 'Medal', key: 'medal' },
@@ -35,7 +44,9 @@ function readHash() {
   }
   return out;
 }
-function writeHash() { history.replaceState(null, '', hashFor(state.filters) || location.pathname); }
+function writeHash() {
+  try { history.replaceState(null, '', location.href.split('#')[0] + hashFor(state.filters)); } catch (e) { /* file:// may refuse; the view still works */ }
+}
 
 function applyFilters(rows) {
   const f = state.filters;
@@ -45,7 +56,7 @@ function applyFilters(rows) {
       const v = f[def.id];
       if (v && String(r[def.key] ?? '') !== v) return false;
     }
-    if (f.brewery && r.brewery_key !== f.brewery) return false;
+    if (f.brewery && (!STANDALONE || f.tab === 'breweries') && r.brewery_key !== f.brewery) return false;
     if (q) {
       const hay = `${r.beer_name} ${r.brewery_name} ${r.brewery_location} ${r.city} ${r.state_name} ${r.category_name}`.toLowerCase();
       if (!hay.includes(q)) return false;
@@ -122,7 +133,7 @@ const PANELS = {
       const cur = m.get(r.brewery_key) ?? { label: r.brewery_name, value: 0, pts: 0, slug: r.brewery_slug };
       cur.value += 1; cur.pts += r.points; m.set(r.brewery_key, cur);
     }
-    const items = [...m.values()].sort((a, b) => b.pts - a.pts || b.value - a.value).slice(0, 15).map((b) => ({ label: b.label, value: b.pts, href: `${base}breweries/${b.slug}/`, medals: b.value }));
+    const items = [...m.values()].sort((a, b) => b.pts - a.pts || b.value - a.value).slice(0, 15).map((b) => ({ label: b.label, value: b.pts, href: bHref(b.slug), medals: b.value }));
     return { option: barsHOption({ items, color: 'var(--series-2)', valueName: 'Points', saveName: 'top-breweries' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
   'by-region': { title: 'Medals by Census region', build(rows) {
@@ -186,13 +197,18 @@ const PANELS = {
   } },
   'revenue-by-brewery': { title: 'Estimated annual revenue by brewery (E)', subtitle: 'breweries in view, estimate method in About', build(rows) {
     const keys = new Set(rows.map((r) => r.brewery_key));
-    const items = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15).map((b) => ({ label: b.name, value: b.estimate.revenue_usd, href: `${base}breweries/${b.slug}/`, basis: b.estimate.basis }));
+    const items = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15).map((b) => ({ label: b.name, value: b.estimate.revenue_usd, href: bHref(b.slug), basis: b.estimate.basis }));
     return { option: barsHOption({ items, color: 'var(--series-6)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Basis' }], items, { className: 'data-table' }) };
   } },
-  'entries-trend': { title: 'Competition scale by year', subtitle: 'entries judged and medals awarded (Brewers Association totals)', build() {
+  'entries-trend': { title: 'Entries judged by year', subtitle: 'Brewers Association totals; years without a published figure are left blank', build() {
     const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));
     const labels = s.map((x) => x.year);
-    return { option: lineOption({ labels, series: [{ name: 'Entries', data: s.map((x) => (x.entries ? Number(x.entries) : null)), color: SERIES_COLORS[0] }, { name: 'Medals', data: s.map((x) => (x.medals ? Number(x.medals) : null)), color: SERIES_COLORS[1] }], saveName: 'competition-scale' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true }], s, { className: 'data-table' }) };
+    return { option: lineOption({ labels, series: [{ name: 'Entries', data: s.map((x) => (x.entries ? Number(x.entries) : null)), color: SERIES_COLORS[0] }], saveName: 'entries-judged' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'entering_breweries', label: 'Breweries entering', numeric: true }], s, { className: 'data-table' }) };
+  } },
+  'medals-trend': { title: 'Medals awarded and winning breweries', subtitle: 'Brewers Association totals; blank years have no published figure', build() {
+    const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));
+    const labels = s.map((x) => x.year);
+    return { option: lineOption({ labels, series: [{ name: 'Medals', data: s.map((x) => (x.medals ? Number(x.medals) : null)), color: SERIES_COLORS[1] }, { name: 'Winning breweries', data: s.map((x) => (x.winning_breweries ? Number(x.winning_breweries) : null)), color: SERIES_COLORS[2] }], saveName: 'medals-and-winners' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true }], s, { className: 'data-table' }) };
   } },
 };
 
@@ -241,9 +257,9 @@ function renderTable(rows) {
     { key: 'year', label: 'Year', numeric: true },
     { key: 'medal', label: 'Medal', render: (r) => medalDot(r.medal) },
     { key: 'beer_name', label: 'Beer' },
-    { key: 'brewery_name', label: 'Brewery', render: (r) => `<a href="${base}breweries/${esc(r.brewery_slug)}/">${esc(r.brewery_name)}</a>${r.brewery_location ? ` <span class="muted small">(${esc(r.brewery_location)})</span>` : ''}` },
+    { key: 'brewery_name', label: 'Brewery', render: (r) => `<a href="${esc(bHref(r.brewery_slug))}">${esc(r.brewery_name)}</a>${r.brewery_location ? ` <span class="muted small">(${esc(r.brewery_location)})</span>` : ''}` },
     { key: 'city', label: 'City', render: (r) => `${esc(r.city)}, ${esc(r.state)}` },
-    { key: 'category_name', label: 'Category', render: (r) => `<a href="${base}categories/${esc(r.category_slug)}/">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
+    { key: 'category_name', label: 'Category', render: (r) => `<a href="${esc(cHref(r.category_name, r.category_slug))}">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
     { key: 'entries', label: 'Entries', numeric: true, render: (r) => (r.entries ?? '') },
     { key: 'style_family', label: 'Style family' },
     { key: 'abv', label: 'ABV', render: (r) => (r.abv ? `${r.abv}%` : (r.abv_min ? `${r.abv_min} to ${r.abv_max}% (style)` : '')) },
@@ -281,7 +297,7 @@ function renderBreweryPicker() {
   if (!el) return;
   const b = currentBrewery();
   const sorted = [...state.breweries].sort((x, y) => y.points - x.points || x.name.localeCompare(y.name));
-  el.innerHTML = `<label>Brewery<select id="f-brewery">${sorted.map((x) => `<option value="${esc(x.key)}"${b && x.key === b.key ? ' selected' : ''}>${esc(x.name)} (${x.medals})</option>`).join('')}</select></label>${b ? `<p class="small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${esc(b.brewery_type)}${b.founded ? ` · founded ${b.founded}` : ''}${b.ownership ? ` · ${esc(b.ownership.type)}` : ''} · <a href="${base}breweries/${esc(b.slug)}/">open profile</a></p>` : ''}`;
+  el.innerHTML = `<label>Brewery<select id="f-brewery">${sorted.map((x) => `<option value="${esc(x.key)}"${b && x.key === b.key ? ' selected' : ''}>${esc(x.name)} (${x.medals})</option>`).join('')}</select></label>${b ? `<p class="small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${esc(b.brewery_type)}${b.founded ? ` · founded ${b.founded}` : ''}${b.ownership ? ` · ${esc(b.ownership.type)}` : ''}${STANDALONE ? '' : ` · <a href="${base}breweries/${esc(b.slug)}/">open profile</a>`}</p>` : ''}`;
   qs('f-brewery').addEventListener('change', (e) => { state.filters.brewery = e.target.value; render(); });
 }
 
@@ -291,7 +307,7 @@ function renderFinancialTable(rows) {
   const keys = new Set(rows.map((r) => r.brewery_key));
   const list = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.financials.arr_usd - a.financials.arr_usd);
   el.innerHTML = `<div class="table-wrap">${tableHtml([
-    { key: 'name', label: 'Brewery', render: (b) => `<a href="${base}breweries/${esc(b.slug)}/">${esc(b.name)}</a>` },
+    { key: 'name', label: 'Brewery', render: (b) => `<a href="${esc(bHref(b.slug))}">${esc(b.name)}</a>` },
     { key: 'type', label: 'Type', render: (b) => esc(b.brewery_type) },
     { key: 'barrels', label: 'Barrels (E)', numeric: true, render: (b) => compact(b.estimate.barrels) },
     { key: 'arr', label: 'ARR USD (E)', numeric: true, render: (b) => compact(b.financials.arr_usd) },
@@ -304,7 +320,28 @@ function renderFinancialTable(rows) {
   wireSortable(el);
 }
 
+const TAB_NAMES = () => Array.from(document.querySelectorAll('[data-tab]')).map((el) => el.dataset.tab);
+function tabScope() { return document.querySelector('[data-tab].active') || document; }
+function applyTab() {
+  const names = TAB_NAMES();
+  if (!names.length) return;
+  if (!names.includes(state.filters.tab)) state.filters.tab = names[0];
+  document.querySelectorAll('[data-tab]').forEach((el) => el.classList.toggle('active', el.dataset.tab === state.filters.tab));
+  document.querySelectorAll('[data-tab-link]').forEach((a) => a.classList.toggle('active', a.dataset.tabLink === state.filters.tab));
+  document.body.dataset.activeTab = state.filters.tab;
+}
+
+function renderBreweryDetail() {
+  const el = qs('brewery-detail');
+  if (!el || !STANDALONE) return;
+  const b = currentBrewery();
+  const html = b ? window.GABF_DATA.brewery_html[b.key] : null;
+  el.innerHTML = html ? html : '<p class="muted">Pick a brewery above.</p>';
+  wireSortable(el);
+}
+
 function render() {
+  applyTab();
   const rows = applyFilters(state.rows);
   writeHash();
   const notice = qs('partial-notice');
@@ -314,7 +351,8 @@ function render() {
   }
   renderStats(rows);
   renderBreweryPicker();
-  document.querySelectorAll('[data-panel]').forEach((el) => renderPanel(el, rows));
+  tabScope().querySelectorAll('[data-panel]').forEach((el) => renderPanel(el, rows));
+  renderBreweryDetail();
   renderTable(rows);
   renderFinancialTable(rows);
 }
@@ -333,11 +371,13 @@ function downloadCsv() {
 }
 
 async function init() {
-  const [results, meta, breweries] = await Promise.all([
-    fetch(`${base}data/results.json`).then((r) => r.json()),
-    fetch(`${base}data/meta.json`).then((r) => r.json()),
-    fetch(`${base}data/breweries.json`).then((r) => r.json()),
-  ]);
+  const [results, meta, breweries] = STANDALONE
+    ? [window.GABF_DATA.results, window.GABF_DATA.meta, window.GABF_DATA.breweries]
+    : await Promise.all([
+      fetch(`${base}data/results.json`).then((r) => r.json()),
+      fetch(`${base}data/meta.json`).then((r) => r.json()),
+      fetch(`${base}data/breweries.json`).then((r) => r.json()),
+    ]);
   state.meta = meta;
   state.breweries = breweries;
   state.rows = results.map((r) => ({ ...r, brewery_type: meta.brewery_types[r.brewery_key] ?? '', ownership_type: meta.ownership[r.brewery_key]?.ownership_type ?? 'unlisted', parent: meta.ownership[r.brewery_key]?.parent ?? '', distribution_channel: meta.distribution[r.brewery_key] ?? 'unknown' }));
@@ -345,6 +385,12 @@ async function init() {
   state.defaultBrewery = document.body.dataset.defaultBrewery || breweries[0]?.key;
   buildFilterRow();
   render();
+  document.querySelectorAll('[data-tab-link]').forEach((a) => a.addEventListener('click', (e) => {
+    e.preventDefault();
+    state.filters.tab = a.dataset.tabLink;
+    render();
+    window.scrollTo(0, 0);
+  }));
   window.addEventListener('hashchange', () => { state.filters = readHash(); buildFilterRow(); render(); });
 }
 

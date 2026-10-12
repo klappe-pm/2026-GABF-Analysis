@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GABF Analysis dashboard</title>
+<meta name="description" content="Interactive Great American Beer Festival results dashboard. One self-contained file; open it directly in a browser.">
+<link rel="icon" href="data:,">
+<style>
+/*__STYLES__*/
+</style>
+</head>
+<body data-default-brewery="__DEFAULT_BREWERY__">
+<header class="site-header"><div class="inner">
+<span class="brand">GABF Analysis</span>
+<nav class="site-nav" aria-label="Dashboards">
+<a href="#tab=overview" data-tab-link="overview">Overview</a>
+<a href="#tab=geography" data-tab-link="geography">Geography</a>
+<a href="#tab=categories" data-tab-link="categories">Categories</a>
+<a href="#tab=breweries" data-tab-link="breweries">Breweries</a>
+<a href="#tab=economics" data-tab-link="economics">Ownership and economics</a>
+<a href="#tab=data" data-tab-link="data">Data</a>
+<a href="#tab=about" data-tab-link="about">About</a>
+</nav>
+<button class="theme-toggle" type="button">Dark mode</button>
+</div></header>
+<main>
+<h1>Great American Beer Festival results dashboard</h1>
+<p class="lede">Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.</p>
+__COVERAGE__
+<div id="filters" class="filters" aria-label="Filters"></div>
+<div id="partial-notice"></div>
+<div id="stats" class="stats"></div>
+
+<section data-tab="overview" class="tab-pane">
+<div class="dash-grid">
+<div data-panel="medals-by-year"></div>
+<div data-panel="map"></div>
+<div data-panel="by-family"></div>
+<div data-panel="top-breweries"></div>
+<div data-panel="entries-trend"></div>
+<div data-panel="medals-trend"></div>
+</div>
+</section>
+
+<section data-tab="geography" class="tab-pane">
+<div class="dash-grid">
+<div data-panel="map" class="wide"></div>
+<div data-panel="by-region"></div>
+<div data-panel="by-division"></div>
+<div data-panel="per-capita" class="wide"></div>
+</div>
+</section>
+
+<section data-tab="categories" class="tab-pane">
+<div class="dash-grid">
+<div data-panel="entrants" class="wide"></div>
+<div data-panel="special-share"></div>
+<div data-panel="entries-vs-breweries"></div>
+</div>
+</section>
+
+<section data-tab="breweries" class="tab-pane">
+<div id="brewery-picker" class="picker"></div>
+<div class="dash-grid">
+<div data-panel="brewery-trend" class="wide"></div>
+<div data-panel="brewery-categories"></div>
+<div data-panel="brewery-locations"></div>
+</div>
+<div id="brewery-detail"></div>
+</section>
+
+<section data-tab="economics" class="tab-pane">
+<div class="dash-grid">
+<div data-panel="ownership-share"></div>
+<div data-panel="parents"></div>
+<div data-panel="revenue-by-brewery" class="wide"></div>
+</div>
+<h2>financials-by-brewery</h2>
+<div id="financial-table"></div>
+</section>
+
+<section data-tab="data" class="tab-pane">
+<h2>results</h2>
+<div id="table"></div>
+</section>
+
+<section data-tab="about" class="tab-pane">
+__ABOUT__
+</section>
+</main>
+<footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Charts by Apache ECharts. Estimates are marked (E). Built __BUILD_NOTE__.</div></footer>
+<script>
+/*__ECHARTS__*/
+</script>
+<script>
+window.GABF_GEO = __GEO__;
+window.GABF_DATA = __DATA__;
+</script>
+<script>
+/*__INIT__*/
+</script>
+<script>
+/*__APP__*/
+</script>
+</body>
+</html>

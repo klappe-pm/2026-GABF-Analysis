@@ -20,7 +20,8 @@
     "serve": "node scripts/serve-dist.mjs",
     "test": "node --test",
     "check": "node scripts/check-prose.mjs",
-    "verify": "npm run check && npm test && npm run build"
+    "verify": "npm run check && npm test && npm run build && npm run build:standalone",
+    "build:standalone": "node scripts/build-standalone.mjs"
   },
   "dependencies": {
     "echarts": "5.6.0",
@@ -29,6 +30,7 @@
     "yaml": "2.8.1"
   },
   "devDependencies": {
+    "esbuild": "0.25.9",
     "topojson-client": "3.1.0",
     "us-atlas": "3.0.1"
   }

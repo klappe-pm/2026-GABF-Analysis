@@ -222,3 +222,15 @@ figure.viz .echart { width: 100%; }
 .dash-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
 .dash-nav a { padding: 5px 10px; border: 1px solid var(--border); border-radius: 999px; text-decoration: none; color: var(--text-secondary); font-size: 0.88rem; background: var(--card); }
 .dash-nav a.active, .dash-nav a:hover { color: var(--text-primary); border-color: var(--text-muted); }
+
+/* single-file build: tabs */
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+body[data-active-tab="about"] .filters,
+body[data-active-tab="about"] #stats,
+body[data-active-tab="about"] #partial-notice,
+body[data-active-tab="about"] .coverage { display: none; }
+body[data-active-tab="data"] #partial-notice { display: block; }
+.site-header .brand { white-space: nowrap; }
+#brewery-detail { margin-top: 20px; }
+#brewery-detail .hero { margin-top: 0; }
