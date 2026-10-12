@@ -14,8 +14,12 @@ export const SEQUENTIAL_BLUE = ['#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#25
 
 const TEXT = { primary: 'var(--text-primary)', secondary: 'var(--text-secondary)', muted: 'var(--text-muted)' };
 
-// Self-contained formatter (no closures) so it survives JSON serialization; echarts-init.js revives "fn:" strings.
-export const COMPACT_AXIS = "fn:(v) => { const n = Number(v); if (!Number.isFinite(n)) return ''; if (Math.abs(n) >= 1e9) return (n / 1e9).toFixed(1).replace(/\\.0$/, '') + 'B'; if (Math.abs(n) >= 1e6) return (n / 1e6).toFixed(1).replace(/\\.0$/, '') + 'M'; if (Math.abs(n) >= 1e4) return (n / 1e3).toFixed(0) + 'K'; if (Math.abs(n) >= 1e3) return (n / 1e3).toFixed(1).replace(/\\.0$/, '') + 'K'; return String(n); }";
+// Formatters travel as named references, never as source text: echarts-init.js holds the
+// registry and builds the real function, so no page needs eval or Function (a strict CSP
+// refuses both). Use fmt('name', ...args) wherever ECharts wants a formatter function.
+export const fmt = (name, ...args) => ({ $fmt: name, args });
+
+export const COMPACT_AXIS = fmt('compactAxis');
 
 export function toolbox(name) {
   return { right: 4, top: 0, itemSize: 13, iconStyle: { borderColor: 'var(--text-muted)' }, feature: { saveAsImage: { name, pixelRatio: 2, title: 'Save PNG' }, dataView: { readOnly: true, title: 'Data', lang: ['Data', 'Close', 'Refresh'] }, restore: { title: 'Reset' } } };
@@ -60,10 +64,9 @@ export function stackedColumnsOption({ labels, notes = [], series, saveName = 'c
   for (let i = totals.length - 1; i >= 0; i -= 1) if (totals[i] > 0) { lastIdx = i; break; }
   const labelIdx = new Set([maxIdx, lastIdx].filter((i) => i >= 0));
   const xLabels = labels.map((l) => String(l));
-  // Status notes under the year. The formatter is a self-contained function string (revived by
-  // echarts-init.js) so the option stays JSON-serializable. On a phone the words shrink to a glyph:
-  // pending "…", partial ".", not loaded "o", not yet founded or closed "x".
-  const NOTE_FORMATTER = `fn:(v, i) => { const N = ${JSON.stringify(notes.map((n) => n || ''))}; const G = { pending: '\u2026', partial: '\u00b7', draft: '\u00b7', 'not loaded': '\u25cb', 'not yet founded': '\u00d7', closed: '\u00d7' }; const n = N[i]; const narrow = typeof window !== 'undefined' && window.innerWidth < 560; const y = narrow ? String.fromCharCode(39) + String(v).slice(-2) : String(v); if (!n) return y; return y + String.fromCharCode(10) + '{note|' + (narrow ? (G[n] || '\u00b7') : n) + '}'; }`;
+  // Status notes under the year, built by the registered "yearNotes" formatter. On a phone the
+  // words shrink to a glyph and the year to two digits.
+  const NOTE_FORMATTER = fmt('yearNotes', notes.map((n) => n || ''));
   return {
     textStyle: textStyle(),
     tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
@@ -122,9 +125,12 @@ export function scatterOption({ points, xName, yName, saveName = 'scatter', colo
     textStyle: textStyle(),
     tooltip: { trigger: 'item', formatter: `{b}: {c} (${xName}, ${yName})` },
     toolbox: toolbox(saveName),
-    grid: baseGrid({ top: 28, right: 24 }),
-    xAxis: { ...valueAxis(xName), minInterval: undefined },
-    yAxis: valueAxis(yName),
+    // Axis names are placed where they cannot be clipped on a narrow card: the x name sits centered
+    // under its axis (the grid reserves a strip for it), and the y name sits above its axis, left
+    // aligned, because a side label would move with the width of the tick labels.
+    grid: baseGrid({ top: 32, right: 24, bottom: 34 }),
+    xAxis: { ...valueAxis(xName), minInterval: undefined, nameLocation: 'middle', nameGap: 30 },
+    yAxis: { ...valueAxis(yName), nameLocation: 'end', nameGap: 12, nameTextStyle: { color: TEXT.muted, align: 'left' } },
     series: [{ type: 'scatter', data: points.map((p) => ({ name: p.name, value: [p.x, p.y], symbolSize: Math.max(8, Math.min(28, p.size ?? 10)) })), itemStyle: { color, borderColor: 'var(--surface-1)', borderWidth: 2 }, emphasis: { label: { show: true, formatter: '{b}', position: 'top', color: TEXT.primary } } }],
   };
 }

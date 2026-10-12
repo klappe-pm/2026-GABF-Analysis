@@ -18,6 +18,12 @@ Regenerate it after loading new results or editing a brewery profile:
 cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && npm run build:standalone
 ```
 
+The same build can also write a hosted copy: content only (a title, the styles, and the page, with no doctype, html, head, or body tags) for a host that supplies its own page skeleton, such as a Claude artifact that opens on macOS and iOS. It makes no network requests, never evaluates text as code, so it runs under a strict content security policy, and inside a Claude artifact its CSV and PNG buttons use the host's save prompt. It is not committed; write it wherever you will publish it from:
+
+```bash
+cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/build-standalone.mjs --hosted /Users/kevinlappe/projects/active/2026-GABF-Analysis/dist-hosted/gabf-hosted.html
+```
+
 ## quick-start
 
 ```bash

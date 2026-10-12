@@ -23,7 +23,10 @@ const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).t
 const medalDot = (m) => `<span class="badge-medal ${String(m).toLowerCase()}"></span>${esc(m)}`;
 
 // "</script" inside an inline script would end it early; the backslash keeps the text identical to the JS engine.
-const safeScript = (text) => text.replace(/<\/script/gi, '<\\/script');
+// Document tag names inside string literals (ECharts writes "<body" into a popup window) are spelled with a
+// unicode escape so the page never contains a literal body, head, or html tag outside its real markup.
+const hideTag = (m, slash, tag) => `<${slash}\\u00${tag.charCodeAt(0).toString(16)}${tag.slice(1)}`;
+const safeScript = (text) => text.replace(/<\/script/gi, '<\\/script').replace(/<(\/?)(body|head|html)\b/gi, hideTag);
 const LS = String.fromCharCode(0x2028);
 const PS = String.fromCharCode(0x2029);
 const safeJson = (value) => JSON.stringify(value).replace(/</g, '\\u003c').split(LS).join('\\u2028').split(PS).join('\\u2029');
@@ -60,7 +63,27 @@ function coveragePills(ds) {
   return `<div class="coverage">${ds.years.map((y) => `<a class="pill ${ds.coverage[y]}" href="#year=${y}" title="${esc(ds.coverage[y])}">${y} · ${ds.coverage[y]}</a>`).join('')}</div>`;
 }
 
-export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html') } = {}) {
+const LEDE = {
+  file: 'Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.',
+  hosted: 'Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), and each chart saves as a PNG from its toolbox. All data is embedded in this page.',
+};
+
+const ABOUT_NOTICE = {
+  file: 'This is the single-file build: all data is embedded in this file as of the last build, so it works offline and nothing leaves your machine. To refresh it after loading new results, run <code>npm run build:standalone</code> and open the regenerated file.',
+  hosted: 'This is a hosted copy of the single-file build: all data is embedded in this page as of the last build, and the page makes no network requests. To refresh it after loading new results, run <code>npm run build:standalone</code> and publish the regenerated hosted copy.',
+};
+
+// A hosted page is content only: the host supplies the document, head, and body, so the output
+// starts with the title and the style block and carries no doctype, html, head, or body tags.
+export function toHostedHtml(html) {
+  const title = html.match(/<title>[^<]*<\/title>/)?.[0];
+  const style = html.match(/<style>[\s\S]*?<\/style>/)?.[0];
+  const body = html.match(/<body[^>]*>([\s\S]*)<\/body>/)?.[1];
+  if (!title || !style || !body) throw new Error('template is missing its title, style block, or body');
+  return `${title}\n${style}\n${body.trim()}\n`;
+}
+
+export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html'), hostedOut = null } = {}) {
   const ds = loadDataset();
   const cats = categoryIndex(ds);
   const geoPath = resolve(SITE, 'assets', 'us-states.geo.json');
@@ -78,14 +101,13 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
 
   const latest = ds.years.filter((y) => ds.coverage[y] !== 'pending').slice(-1)[0];
   const buildNote = `from ${results.length} medal rows across ${ds.years.length} years (latest loaded: ${latest}) and ${ds.breweries.length} breweries`;
-  const standaloneAbout = `<div class="notice">This is the single-file build: all data is embedded in this file as of the last build, so it works offline and nothing leaves your machine. To refresh it after loading new results, run <code>npm run build:standalone</code> and open the regenerated file.</div>${aboutHtml(ds)}`;
-
   const template = readFileSync(resolve(SITE, 'standalone', 'template.html'), 'utf8');
-  const html = template
+  const fill = (flavor) => template
     .replace('/*__STYLES__*/', () => styles)
     .replace('__DEFAULT_BREWERY__', () => esc(defaultBrewery))
+    .replace('__LEDE__', () => LEDE[flavor])
     .replace('__COVERAGE__', () => coveragePills(ds))
-    .replace('__ABOUT__', () => standaloneAbout)
+    .replace('__ABOUT__', () => `<div class="notice">${ABOUT_NOTICE[flavor]}</div>${aboutHtml(ds)}`)
     .replace('__BUILD_NOTE__', () => esc(buildNote))
     .replace('/*__ECHARTS__*/', () => safeScript(echarts))
     .replace('__GEO__', () => safeJson(JSON.parse(geo)))
@@ -93,14 +115,26 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
     .replace('/*__INIT__*/', () => safeScript(init))
     .replace('/*__APP__*/', () => safeScript(app.outputFiles[0].text));
 
+  const html = fill('file');
   mkdirSync(dirname(out), { recursive: true });
   writeFileSync(out, html);
-  return { out, bytes: Buffer.byteLength(html), rows: results.length, breweries: ds.breweries.length, years: ds.years };
+  const result = { out, bytes: Buffer.byteLength(html), rows: results.length, breweries: ds.breweries.length, years: ds.years };
+  if (hostedOut) {
+    const hosted = toHostedHtml(fill('hosted'));
+    mkdirSync(dirname(hostedOut), { recursive: true });
+    writeFileSync(hostedOut, hosted);
+    result.hostedOut = hostedOut;
+    result.hostedBytes = Buffer.byteLength(hosted);
+  }
+  return result;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = parseArgs(process.argv.slice(2));
-  buildStandalone({ out: args.out ? resolve(args.out) : undefined })
-    .then((r) => console.log(`wrote ${r.out} (${(r.bytes / 1024 / 1024).toFixed(2)} MB): ${r.rows} medal rows, ${r.breweries} breweries, years ${r.years.join(', ')}`))
+  buildStandalone({ out: args.out ? resolve(args.out) : undefined, hostedOut: args.hosted ? resolve(args.hosted) : null })
+    .then((r) => {
+      console.log(`wrote ${r.out} (${(r.bytes / 1024 / 1024).toFixed(2)} MB): ${r.rows} medal rows, ${r.breweries} breweries, years ${r.years.join(', ')}`);
+      if (r.hostedOut) console.log(`wrote ${r.hostedOut} (${(r.hostedBytes / 1024 / 1024).toFixed(2)} MB): hosted copy`);
+    })
     .catch((err) => { console.error(err); process.exit(1); });
 }

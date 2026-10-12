@@ -41,10 +41,14 @@ export function tableHtml(columns, rows, { className = 'data-table sortable', ca
   return `<table class="${className}">${caption ? `<caption>${esc(caption)}</caption>` : ''}<thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
 }
 
-// Functions inside an option (formatters) are serialized as "fn:" strings and revived
-// by echarts-init.js. "</" is escaped so the JSON can sit inside a script element.
+// Options are plain JSON. A function cannot travel (and evaluating source text would need eval,
+// which a strict CSP refuses), so formatters are { $fmt, args } references built with fmt() in
+// chart-options.mjs. "</" is escaped so the JSON can sit inside a script element.
 export function serializeOption(option) {
-  return JSON.stringify(option, (k, v) => (typeof v === 'function' ? `fn:${v.toString()}` : v)).replace(/<\//g, '<\\/');
+  return JSON.stringify(option, (k, v) => {
+    if (typeof v === 'function') throw new Error(`Option key "${k}" is a function; use fmt() from chart-options.mjs`);
+    return v;
+  }).replace(/<\//g, '<\\/');
 }
 
 export function figure({ id, title, subtitle = '', option, height = 300, table = '', note = '' }) {

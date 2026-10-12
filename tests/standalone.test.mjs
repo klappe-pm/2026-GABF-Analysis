@@ -6,9 +6,11 @@ import { join } from 'node:path';
 import { buildStandalone } from '../scripts/build-standalone.mjs';
 
 async function buildTemp() {
-  const out = join(mkdtempSync(join(tmpdir(), 'gabf-standalone-')), 'dashboard.html');
-  const result = await buildStandalone({ out });
-  return { out, result, html: readFileSync(out, 'utf8') };
+  const dir = mkdtempSync(join(tmpdir(), 'gabf-standalone-'));
+  const out = join(dir, 'dashboard.html');
+  const hostedOut = join(dir, 'hosted.html');
+  const result = await buildStandalone({ out, hostedOut });
+  return { out, result, html: readFileSync(out, 'utf8'), hosted: readFileSync(hostedOut, 'utf8') };
 }
 
 test('standalone build is one self-contained file with the data embedded', async () => {
@@ -45,4 +47,17 @@ test('standalone build is deterministic', async () => {
   const a = await buildTemp();
   const b = await buildTemp();
   assert.equal(a.html, b.html);
+  assert.equal(a.hosted, b.hosted);
+});
+
+test('hosted copy is content only, self-contained, and says it is hosted', async () => {
+  const { hosted, result } = await buildTemp();
+  assert.ok(hosted.startsWith('<title>GABF Analysis dashboard</title>\n<style>'), 'title then style come first');
+  assert.ok(!/<!doctype|<html[\s>]|<head[\s>]|<\/head>|<body[\s>]|<\/body>|<meta\s|<link\s/i.test(hosted), 'the host supplies the document skeleton');
+  assert.ok(!/<script[^>]+\ssrc=/i.test(hosted), 'no external script tags');
+  assert.ok(result.hostedBytes < 16 * 1024 * 1024, 'under the 16 MB page limit');
+  assert.match(hosted, /window\.GABF_DATA = /);
+  assert.match(hosted, /hosted copy of the single-file build/);
+  assert.ok(!/address bar so a view can be bookmarked/.test(hosted), 'no address bar promise in a sandboxed frame');
+  assert.match(hosted, /<main data-default-brewery="green cheek">/);
 });

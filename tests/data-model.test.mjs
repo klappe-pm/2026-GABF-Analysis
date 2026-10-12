@@ -29,6 +29,17 @@ test('loadDataset joins results, reference tables, and profiles', () => {
   assert.equal(row.abv_band, '5-to-6');
 });
 
+test('no loaded medal carries a placeholder category or a missing one', () => {
+  const ds = loadDataset();
+  for (const r of ds.results) {
+    assert.ok(r.category_name && !/confirm/i.test(r.category_name), `${r.year} ${r.beer_name}: category "${r.category_name}" is not a real category`);
+  }
+  const gc2018 = ds.results.filter((r) => r.year === 2018 && r.brewery_key === 'green cheek' && r.competition === 'GABF');
+  assert.equal(gc2018.length, 1, 'only the confirmed 2018 bronze is recorded');
+  assert.equal(gc2018[0].beer_name, 'West Coast IPA Is Dead!');
+  assert.equal(gc2018[0].category_name, 'American-Style India Pale Ale');
+});
+
 test('categoryIndex groups rows by category with yearly medals', () => {
   const ds = loadDataset();
   const cats = categoryIndex(ds);
