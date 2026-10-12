@@ -120,8 +120,7 @@ Every figure in this section is an estimate (E) unless a source is named. Brewbo
 | year | competition | medal | beer | category | location credited |
 |---|---|---|---|---|---|
 | 2018 | World Beer Cup | Silver | Radiant Beauty | American-Style India Pale Ale (377 entries) | Orange |
-| 2018 | GABF | Bronze | West Coast IPA Is Dead! | American-Style India Pale Ale (confirm) | Orange |
-| 2018 | GABF | Bronze | Fools & Babies | category to confirm | Orange |
+| 2018 | GABF | Bronze | West Coast IPA Is Dead! | American-Style India Pale Ale (311 entries) | Orange |
 | 2019 | GABF | Gold | Australian For Pale | Australian-Style Pale Ale (category 58, 61 entries) | Orange |
 | 2019 | GABF | Silver | Radiant Beauty | American-Style India Pale Ale | Orange |
 | 2024 | World Beer Cup | Silver | False Memories | West Coast-Style India Pale Ale | Orange |
@@ -134,6 +133,8 @@ Every figure in this section is an estimate (E) unless a source is named. Brewbo
 | 2026 | GABF | Gold | Doom Sludge | Specialty India Pale Ale | Costa Mesa |
 | 2026 | GABF | Bronze | Zombi Shark Fight | Italian-Style Pilsener | Costa Mesa |
 | 2026 | GABF | Bronze | Chance Favors The Prepared Mind | Imperial India Pale Ale | Orange |
+
+A profile of the brewery mentions a second bronze for a nitro stout, and a local newspaper list names a mild ale called Fools and Babies, but no source read so far gives a year, medal, or category that ties either beer to a GABF result, so no second 2018 row is recorded. An earlier seed row that paired Fools and Babies with a 2018 bronze was removed for that reason. It returns when the official 2018 list is ingested and shows it.
 
 Years 2020 through 2023 are not yet loaded: the official winners lists for those years have not been ingested, and the sources read so far did not show Green Cheek entries for them. The Costa Mesa menu claims a 2023 gold medal for a brown ale; that claim is unverified and is left out of the record until the 2023 list is loaded. A 2024 bronze for the cold IPA It Just Works appears on a third-party listing but not in the GABF 2024 roundups, so it is also left out.
 

@@ -102,7 +102,7 @@ pre code { background: none; padding: 0; }
 .site-nav a.active { color: var(--text-primary); font-weight: 600; background: var(--page); }
 .theme-toggle { border: 1px solid var(--border); background: var(--card); color: var(--text-secondary); border-radius: 6px; padding: 5px 9px; cursor: pointer; font: inherit; font-size: 0.9rem; }
 
-main { max-width: 1140px; margin: 0 auto; padding: 20px 16px 48px; overflow-wrap: anywhere; }
+main { max-width: 1140px; margin: 0 auto; padding: 20px 16px 48px; overflow-wrap: break-word; }
 .grid > *, .hero > * { min-width: 0; }
 .site-footer { border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 0.88rem; }
 .site-footer .inner { max-width: 1140px; margin: 0 auto; padding: 16px; }
@@ -171,7 +171,7 @@ svg.chart .mark:focus { outline: none; }
 
 table.data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; background: var(--card); }
 table.data-table caption { text-align: left; color: var(--text-secondary); font-size: 0.85rem; padding: 4px 0; }
-table.data-table th, table.data-table td { padding: 7px 9px; border-bottom: 1px solid var(--grid); text-align: left; vertical-align: top; }
+table.data-table th, table.data-table td { padding: 7px 9px; border-bottom: 1px solid var(--grid); text-align: left; vertical-align: top; overflow-wrap: normal; word-break: normal; }
 table.data-table th { color: var(--text-secondary); font-weight: 600; font-size: 0.82rem; background: var(--surface-1); position: sticky; top: 0; }
 table.data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
 table.sortable th { cursor: pointer; user-select: none; }
@@ -188,7 +188,7 @@ table.sortable th[aria-sort="descending"]::after { content: " ▼"; font-size: 0
 .prose h2 { font-size: 1.2rem; }
 .prose img { max-width: 100%; }
 .prose blockquote { border-left: 3px solid var(--axis); margin: 0; padding: 2px 14px; color: var(--text-secondary); }
-.prose table { border-collapse: collapse; font-size: 0.9rem; }
+.prose table { border-collapse: collapse; font-size: 0.9rem; display: block; max-width: 100%; overflow-x: auto; }
 .prose table th, .prose table td { border: 1px solid var(--grid); padding: 5px 8px; }
 
 .timeline { list-style: none; padding: 0; margin: 0; }
@@ -214,7 +214,11 @@ table.sortable th[aria-sort="descending"]::after { content: " ▼"; font-size: 0
 figure.viz .echart { width: 100%; }
 .dash-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
 .dash-grid .wide { grid-column: 1 / -1; }
-@media (max-width: 480px) { .dash-grid { grid-template-columns: 1fr; } }
+/* A chart canvas keeps the pixel width of the layout it was drawn in. Without min-width 0 on the grid
+   items (and a column that may shrink to zero) the card cannot get narrower than that canvas, so the page
+   overflows when a phone rotates or a window narrows until the chart redraws. */
+.dash-grid > * { min-width: 0; }
+@media (max-width: 480px) { .dash-grid { grid-template-columns: minmax(0, 1fr); } }
 .picker { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 0 0 12px; }
 .picker label { display: flex; flex-direction: column; gap: 3px; font-size: 0.8rem; color: var(--text-secondary); min-width: 260px; }
 .picker select { font: inherit; padding: 6px 8px; border: 1px solid var(--axis); border-radius: 6px; background: var(--surface-1); color: var(--text-primary); }

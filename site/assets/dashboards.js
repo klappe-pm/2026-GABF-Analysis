@@ -36,14 +36,15 @@ function hashFor(filters) {
   const parts = Object.entries(filters).filter(([, v]) => v).map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`);
   return parts.length ? `#${parts.join('&')}` : '';
 }
-function readHash() {
+function parseHash(hash) {
   const out = {};
-  for (const part of location.hash.replace(/^#/, '').split('&')) {
+  for (const part of String(hash).replace(/^#/, '').split('&')) {
     const [k, v] = part.split('=');
     if (k) out[decodeURIComponent(k)] = decodeURIComponent(v ?? '');
   }
   return out;
 }
+const readHash = () => parseHash(location.hash);
 function writeHash() {
   try { history.replaceState(null, '', location.href.split('#')[0] + hashFor(state.filters)); } catch (e) { /* file:// may refuse; the view still works */ }
 }
@@ -357,15 +358,27 @@ function render() {
   renderFinancialTable(rows);
 }
 
-function downloadCsv() {
+// Inside a Claude artifact, page-initiated downloads are inert; the host offers a save prompt
+// through the "downloads" capability instead. Anywhere else the capability is absent (null).
+async function hostedDownloads() {
+  try { return window.claude && typeof window.claude.use === 'function' ? await window.claude.use('downloads') : null; } catch (e) { return null; }
+}
+
+async function downloadCsv() {
   const rows = applyFilters(state.rows);
   const cols = ['year', 'competition', 'category_number', 'category_name', 'category_type', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_location', 'city', 'state', 'region', 'style_family', 'abv_min', 'abv_max', 'abv', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel'];
   const escCsv = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
   const text = [cols.join(','), ...rows.map((r) => cols.map((c) => escCsv(r[c])).join(','))].join('\n');
+  const filename = 'gabf-results-filtered.csv';
+  const hosted = await hostedDownloads();
+  if (hosted) {
+    try { await hosted.save({ filename, data: text }); } catch (e) { if (!e || e.code !== 'declined') console.warn('CSV save failed', e); }
+    return;
+  }
   const blob = new Blob([text], { type: 'text/csv' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'gabf-results-filtered.csv';
+  a.download = filename;
   a.click();
   URL.revokeObjectURL(a.href);
 }
@@ -382,7 +395,7 @@ async function init() {
   state.breweries = breweries;
   state.rows = results.map((r) => ({ ...r, brewery_type: meta.brewery_types[r.brewery_key] ?? '', ownership_type: meta.ownership[r.brewery_key]?.ownership_type ?? 'unlisted', parent: meta.ownership[r.brewery_key]?.parent ?? '', distribution_channel: meta.distribution[r.brewery_key] ?? 'unknown' }));
   state.filters = readHash();
-  state.defaultBrewery = document.body.dataset.defaultBrewery || breweries[0]?.key;
+  state.defaultBrewery = document.querySelector('[data-default-brewery]')?.dataset.defaultBrewery || breweries[0]?.key;
   buildFilterRow();
   render();
   document.querySelectorAll('[data-tab-link]').forEach((a) => a.addEventListener('click', (e) => {
@@ -392,6 +405,19 @@ async function init() {
     window.scrollTo(0, 0);
   }));
   window.addEventListener('hashchange', () => { state.filters = readHash(); buildFilterRow(); render(); });
+  if (STANDALONE) {
+    // In-page links (brewery names, categories, coverage pills) are hash routes. Handling the click
+    // here keeps them working where the address bar is not ours to change, such as a sandboxed frame.
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a || a.hasAttribute('data-tab-link') || e.defaultPrevented) return;
+      e.preventDefault();
+      state.filters = parseHash(a.getAttribute('href'));
+      buildFilterRow();
+      render();
+      window.scrollTo(0, 0);
+    });
+  }
 }
 
 init().catch((err) => { const el = qs('stats') || document.querySelector('main'); el.innerHTML = `<div class="notice">Could not load data: ${esc(err.message)}</div>`; });

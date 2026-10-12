@@ -24,17 +24,46 @@
     return value;
   }
 
-  // Formatter functions cannot travel as JSON; the build serializes them as strings
-  // prefixed with "fn:" and we revive them here.
-  function reviveFunctions(value) {
-    if (typeof value === 'string' && value.startsWith('fn:')) {
-      // eslint-disable-next-line no-new-func
-      return new Function('return (' + value.slice(3) + ')')();
-    }
-    if (Array.isArray(value)) return value.map(reviveFunctions);
+  // Formatter functions cannot travel as JSON. Options carry { $fmt: name, args } references
+  // (see fmt() in chart-options.mjs) and this registry builds the real function. Nothing is
+  // evaluated from text, so the page runs under a CSP that forbids eval and Function.
+  const FORMATTERS = {
+    compactAxis() {
+      return (v) => {
+        const n = Number(v);
+        if (!Number.isFinite(n)) return '';
+        const abs = Math.abs(n);
+        if (abs >= 1e9) return (n / 1e9).toFixed(1).replace(/\.0$/, '') + 'B';
+        if (abs >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+        if (abs >= 1e4) return (n / 1e3).toFixed(0) + 'K';
+        if (abs >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, '') + 'K';
+        return String(n);
+      };
+    },
+    // Year labels with a second line for coverage status. On a phone the words shrink to a
+    // glyph (pending, partial, not loaded, not yet founded or closed) and the year to two digits.
+    yearNotes(notes) {
+      const glyphs = { pending: '…', partial: '·', draft: '·', 'not loaded': '○', 'not yet founded': '×', closed: '×' };
+      return (v, i) => {
+        const note = notes[i];
+        const narrow = window.innerWidth < 560;
+        const year = narrow ? "'" + String(v).slice(-2) : String(v);
+        if (!note) return year;
+        return year + '\n{note|' + (narrow ? (glyphs[note] || '·') : note) + '}';
+      };
+    },
+  };
+
+  function reviveFormatters(value) {
+    if (Array.isArray(value)) return value.map(reviveFormatters);
     if (value && typeof value === 'object') {
+      if (typeof value.$fmt === 'string') {
+        const make = FORMATTERS[value.$fmt];
+        if (!make) throw new Error('Unknown chart formatter: ' + value.$fmt);
+        return make(...(value.args || []));
+      }
       const out = {};
-      for (const k of Object.keys(value)) out[k] = reviveFunctions(value[k]);
+      for (const k of Object.keys(value)) out[k] = reviveFormatters(value[k]);
       return out;
     }
     return value;
@@ -49,9 +78,34 @@
     return mapReady;
   }
 
+  // Inside a Claude artifact the browser's own "save image" link is inert, so the toolbox button
+  // is swapped for one that hands the PNG to the host's "downloads" capability. Elsewhere
+  // window.claude does not exist and ECharts' built-in saveAsImage stays.
+  let hosted = null;
+  const PNG_ICON = 'path://M4.7,22.9L29.3,45.5L54.7,23.4M4.6,43.6L4.6,58L53.3,58L53.3,43.6M29.3,45.5L29.3,0';
+
+  function pngBlob(chart) {
+    const url = chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor: cssVar('--surface-1') });
+    const bin = atob(url.split(',')[1]);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i += 1) bytes[i] = bin.charCodeAt(i);
+    return new Blob([bytes], { type: 'image/png' });
+  }
+
+  function savePng(entry, name) {
+    if (!hosted) return;
+    hosted.save({ filename: name + '.png', data: pngBlob(entry.chart) }).catch((e) => { if (!e || e.code !== 'declined') console.warn('PNG save failed', e); });
+  }
+
   function applyOption(entry) {
-    const option = resolveVars(reviveFunctions(entry.spec));
+    const option = resolveVars(reviveFormatters(entry.spec));
     delete option.__links; delete option.__map; delete option.__totals;
+    const feature = option.toolbox && option.toolbox.feature;
+    if (hosted && feature && feature.saveAsImage) {
+      const name = feature.saveAsImage.name || 'chart';
+      delete feature.saveAsImage;
+      feature.savePng = { show: true, title: 'Save PNG', icon: PNG_ICON, onclick: () => savePng(entry, name) };
+    }
     entry.chart.setOption(option, { notMerge: true });
   }
 
@@ -90,7 +144,11 @@
   new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
   if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
 
-  window.GABFCharts = { init, initAll, retheme, dispose, resolveVars, reviveFunctions, ensureMap, charts };
+  if (window.claude && typeof window.claude.use === 'function') {
+    Promise.resolve(window.claude.use('downloads')).then((d) => { if (d) { hosted = d; retheme(); } }).catch(() => {});
+  }
+
+  window.GABFCharts = { init, initAll, retheme, dispose, resolveVars, reviveFormatters, ensureMap, charts };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => initAll());
   else initAll();
 })();
