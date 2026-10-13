@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As competition context only, the [GABF Collaboration Competition page](https://w
 
 ## research-notes
 
+- Field pass 2026-10-13: [Non-barrel-aged listing](https://untappd.com/b/werk-force-brewing-company-stupid-sticky-fingers-non-barrel-aged/2688021) names both collaborators and reports 11.7% ABV with N/A IBU. The shortened medal name does not resolve the non-barrel-aged versus previously recorded barrel-aged variants, so no variant ABV or beer-url was transferred; named hops remain unverified.
 - Second pass 2026-10-13: The brewery's 2026 release announcement describes both Barrel Aged Stupid Sticky Fingers at 13.4% ABV and Double Barrel Stupid Sticky Fingers at 15.7%. It does not identify which version, if either, was entered under the shorter medal name. No specifications or ingredients from those variants were transferred; the structured fields remain unchanged.
 - Werk Force's home page and menu, and Rocky Reef's home page, beer menu and master beer list, do not mention the beer or the collaboration; the master beer list returned no beer entries to an automated fetch.
 - The web search budget for this session ran out before a dedicated search for this beer, and Untappd search pages did not return results to automated fetches.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -88,6 +88,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Climb Hard beer catalog](https://untappd.com/ClimbHardCider/beer) links that brand to Sweet Heart Brands and lists Spiced Apple Cider at 5.8% ABV with N/A IBU, but does not explicitly identify the medal entry's house brand; that candidate ABV was not transferred. Named hops remain unpublished.
 - The only published trace of the cider is the Sweet Heart Winery tap menu, which lists Spiced Apple at Loveland and Fort Collins with a cinnamon note.
 - Climb Hard Cider (owned by Sweet Heart Brands) and Sweetheart Cider sites list no Spiced Apple, so which house brand it is sold under is not established.
 - ABV, apple varieties and sweetness are not published; the menu advises asking staff.

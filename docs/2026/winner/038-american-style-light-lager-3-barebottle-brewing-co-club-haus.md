@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd beer page gives no IBU and names no hop varieties. No brewery page naming Club Haus was found.
 - First pass: The flagships and beer pages list only Muir Woods IPA and Hella Hetchy Yosemite Pilsner; the taproom pages carry tap lists as images or PDFs (the Bernal Heights link points to a 2024 PDF) and do not name Club Haus in text.
 - First pass: Untappd brewery handles tried returned 404, and web search was unavailable for this run.
 - First pass: The style label for this file is the category name.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -39,6 +39,7 @@ place: 1
 sources:
   - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+  - "https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.gooseisland.com/"
   - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
@@ -85,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: 2025 Proprietor's Stout](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos)
 - [Beer page on brewery site](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout)
 - [Goose Island Beer Co.](https://www.gooseisland.com/)
 - [Beverage Information Group: 2025 Bourbon County lineup](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/)
@@ -98,3 +100,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The same beer took Gold in Wood and Barrel Aged Dessert or Pastry Beer (52 entries) at the 2026 World Beer Cup, per the official winners list.
 - No 2026 GABF announcement was found; the brewery home page makes no mention of the medal.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact 2025 Proprietor's Stout listing gives N/A IBU; no numeric bitterness was found. Other vintages and Proprietor's Barleywine were excluded.

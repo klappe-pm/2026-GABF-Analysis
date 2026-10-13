@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
   - "nv"
-abv: null
+abv: 9.8
 adjuncts: []
 beer: "Tripel Dog Dare"
 beer-url: "https://www.bigdogsbrews.com/beer-line-up-and-tap-list/"
@@ -31,6 +31,7 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://595craftandkitchen.com/tap-list"
   - "https://www.bigdogsbrews.com/"
   - "https://www.bigdogsbrews.com/beer-line-up-and-tap-list/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -53,7 +54,7 @@ Tripel Dog Dare is a quarterly-release Belgian-style tripel from Big Dog's Brewi
 | Field | Value | Source |
 |---|---|---|
 | Style | Belgian-Style Tripel | [Big Dog's: beer lineup and tap list](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/) |
-| ABV | not published | none found |
+| ABV | 9.8% | [595 Craft and Kitchen: tap list](https://595craftandkitchen.com/tap-list) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -73,10 +74,11 @@ No ingredient is published on the brewery's lineup page, which carries only the 
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Tripel calls for 7.1 to 10.1 percent ABV, 20 to 50 IBU and 4 to 9 SRM, with a complex, sometimes mildly spicy aroma and flavor. No ABV or IBU is published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Tripel calls for 7.1 to 10.1 percent ABV, 20 to 50 IBU and 4 to 9 SRM, with a complex, sometimes mildly spicy aroma and flavor. The retailer's published strength fits that range; no IBU was found.
 
 ## links
 
+- [595 Craft and Kitchen: tap list](https://595craftandkitchen.com/tap-list)
 - [Beer page on brewery site](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/)
 - [Big Dog's Brewing Co.](https://www.bigdogsbrews.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -87,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The availability line is the only brewery text for the beer and is quoted as its description.
 - The web search budget ran out before Untappd or press could be searched for ABV or IBU; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The current 595 Craft and Kitchen tap list names Big Dogs Tripel Dog Dare and supplies ABV. IBU and hop varieties were not found. Great Lakes and Malt Brothers beers with the same name were excluded.

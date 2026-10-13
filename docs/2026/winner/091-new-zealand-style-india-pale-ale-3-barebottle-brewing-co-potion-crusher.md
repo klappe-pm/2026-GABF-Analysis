@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and beer-page searches found no qualifying brewery beer URL beyond the previous research.
 - Second pass 2026-10-13: Found matching beer listings with ABV, IBU and named hops. [Untappd](https://untappd.com/b/barebottle-brewing-company-potion-crusher/6691969) reports 6.7% ABV, retained here; [Beer Volta](https://beervolta.com/?pid=192852129) reports 6.8%. No brewery beer page or additional recipe details were found.
 - Not found on the brewery home page, its flagships page (Muir Woods IPA, Hella Hetchy) or its homebrew recipes page; barebottle.com/beer returned 404.
 - No 2026 medal announcement from the brewery was found.

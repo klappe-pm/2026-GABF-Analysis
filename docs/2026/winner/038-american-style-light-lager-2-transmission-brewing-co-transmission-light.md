@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Beer-specific searches found no new IBU or hop varieties for Transmission Light.
 - The brewery has no individual beer pages; its beer list is the beer-url.
 - The brewery's listing notes a gold at the 2026 World Beer Cup and a bronze at the 2022 World Beer Cup in International Light Lager.
 - No 2026 GABF announcement was found on the brewery site.

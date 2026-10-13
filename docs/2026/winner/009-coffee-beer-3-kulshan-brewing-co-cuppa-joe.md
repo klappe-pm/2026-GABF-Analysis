@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Cuppa Joe Coffee Brown Ale"
 tags:
@@ -98,3 +98,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery's awards page lists a 2023 GABF Gold for Cuppa Joe Coffee Brown Ale and does not yet list 2026 results.
 - The Toast online ordering page for the Roosevelt taproom returned HTTP 403, and searches found no Untappd listing.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: IBU and hop focused searches found brewery award coverage and activity without specifications. A BeerMenus focused search supplied no matching new specification source; Short's Cup A Joe is unrelated.

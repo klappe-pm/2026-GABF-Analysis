@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The beer medaled at GABF ahead of the lineup's announced release date.
 - No 2026 GABF announcement was found; the brewery home page promotes the 2026 lineup but does not mention the medal.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A 2026 Apple Crisp IBU and hops search found a release tasting event and medal coverage, without bitterness or hop varieties. No values from other Bourbon County variants were transferred.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Cherry Decadance"
 tags:
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - All specs come from the brewery's beer page.
 - The brewery's awards page already records this medal, spelling the beer "Cherry Decadance" (2026 GABF silver, Wood- and Barrel-Aged Strong Stout); the beer page spells it Decadence.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A new Untappd menu result explicitly names Alesong Cherry Decadence and reports N/A IBU; no hop variety was verified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Specs come from Untappd only.
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A matching BeerAdvocate page describes whole-cone hops but names no variety. The previously inaccessible brewery page was not fetched again.

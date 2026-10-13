@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -86,3 +86,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Searches for the beer name on Untappd, BeerMenus and the web found nothing.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches surfaced an Untappd listing for Coconut GO (Grow Old), but both the beer page and nearby page failed to open. Its search excerpt was not accepted as verified specifications, so the fields remain null.
+- Field pass 2026-10-13: Menu and brewery domain searches found no readable matching brewery beer page or named hops. The Coconut GO (Grow Old) result remains an unverified listing; no ABV or IBU was accepted.

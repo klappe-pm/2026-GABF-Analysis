@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -17,7 +17,7 @@ tags:
 abv: 6.7
 adjuncts: []
 beer: "Built for Speed"
-beer-url: null
+beer-url: "https://gowbeer.com/beer/built-for-speed-ipa/"
 brewery: "Grains of Wrath Brewing"
 brewery-city: "Camas"
 brewery-state: "WA"
@@ -32,6 +32,7 @@ medal: "Silver"
 place: 2
 sources:
   - "https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz"
+  - "https://gowbeer.com/beer/built-for-speed-ipa/"
   - "https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html"
   - "https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -61,12 +62,13 @@ Built for Speed is a canned West Coast IPA from Grains of Wrath Brewing in Camas
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | 16 oz cans sold in four-packs | [Costco listing via Warehouse Runner](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz) |
+| Beer page | brewery product page | [Grains of Wrath: Built for Speed](https://gowbeer.com/beer/built-for-speed-ipa/) |
 
 ## brewery-description
 
-> Light, dry bodied West Coast IPA with flavors and aromas of bright tropical fruit, pine and dank grapefruit.
+> Light, dry bodied west coast IPA with flavors and aromas of bright tropical fruit, pine and loads of dank grapefruit.
 
-Source: [New School Beer: Grains of Wrath cans](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html) (the brewery site itself could not be reached, so this is the release description as reprinted there).
+Source: [Grains of Wrath: Built for Speed](https://gowbeer.com/beer/built-for-speed-ipa/)
 
 ## ingredients
 
@@ -78,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Grains of Wrath: Built for Speed](https://gowbeer.com/beer/built-for-speed-ipa/)
 - [New School Beer: Grains of Wrath cans](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html)
 - [Craft Beer and Brewing review](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778)
 - [Costco listing via Warehouse Runner](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz)
@@ -85,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Grains of Wrath beer page](https://gowbeer.com/beer/built-for-speed-ipa/) provides a dedicated beer-url and agrees with the existing ABV. No IBU or named hop varieties were verified; fresh hop vintages and homebrew adaptations were excluded.
 - The likely brewery domain (grainsofwrath.com, with and without www) and its beer path returned no readable content, so neither the brewery site nor a beer page could be verified.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

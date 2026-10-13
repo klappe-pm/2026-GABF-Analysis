@@ -10,12 +10,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nc"
   - "silver"
-abv: null
+abv: 4.8
 adjuncts: []
 beer: "What Fresh Helles This?"
 beer-url: null
@@ -32,6 +32,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Wood- and Barrel-Aged Beer"
 yeast: []
@@ -52,7 +53,7 @@ What Fresh Helles This? is a beer from 1718 Brewing (printed on the official win
 | Field | Value | Source |
 |---|---|---|
 | Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| ABV | 4.8% | [Untappd: 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -75,6 +76,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487)
 
 ## research-notes
 
@@ -83,3 +85,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - A web search for the beer name found no listing; ABV, IBU, ingredients and a description were not found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name, Untappd, BeerMenus, ABV and medal searches found no additional verified specifications. The brewery's readable Untappd list did not include this beer. Identically named beers from Buena Vista Taproom and Brewery Outré were excluded because they are different breweries.
+- Field pass 2026-10-13: A retailer venue linked the exact 1718 beer listing, which publishes 4.8% ABV and N/A IBU. No hops or brewery beer page were found; the listing does not describe the barrel treatment.

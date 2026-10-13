@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no matching published IBU or named hop varieties for Nueve Grados.
 - riipbeer.com redirects to riip.com, whose home page has no beer pages (tap images link to Instagram); the brewery's online shop product page is the beer-url.
 - No Untappd listing could be located, and web search was unavailable for this run.
 - No 2026 medal announcement was found.

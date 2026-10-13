@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -85,6 +85,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional IBU and hop searches found no matching numeric bitterness or named hop varieties.
 - ABV, size and description verified on the cidery's product page; the russet varieties and sweetness are not named.
 - Search results reported earlier GABF and other competition medals for this cider, but those articles were not opened, so none is cited.
 - The official list places the cidery in Austin, CO; that location is kept as given.

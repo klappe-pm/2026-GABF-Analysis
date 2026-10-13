@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -91,6 +91,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no readable brewery page naming Las Olas and no named hop varieties. An indexed taproom excerpt was not present when opened, so it supplies no new field.
 - First pass: The brewery's on tap page returned no beer entries in text (the list appears to load dynamically, with no embedded menu widget), and the brewery and tasting room pages do not mention Las Olas.
 - First pass: Untappd brewery handles tried returned 404, and web search was unavailable for this run.
 - First pass: The style label for this file is the category name.

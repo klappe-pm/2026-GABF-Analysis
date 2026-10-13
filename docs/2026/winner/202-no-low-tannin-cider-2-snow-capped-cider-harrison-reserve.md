@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Harrison"
 tags:
@@ -88,6 +88,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional IBU and hop searches found award listings but no matching bitterness figure or named hop varieties.
 - No product is named "Harrison Reserve" on the cidery site. The bottle shop lists Harrison under its Reserve Series, which is the basis for linking this winner to the Harrison bottle page; the match is inferred, not confirmed.
 - The can shop also lists a Harrison in cans, which was not opened; the entered version is not stated anywhere found.
 - The official list places the cidery in Austin, CO; that location is kept as given.

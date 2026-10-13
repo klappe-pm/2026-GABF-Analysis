@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Further brewery and IBU searches surfaced fresh hop Green Battles variants only; neither a base-beer brewery page nor a numeric IBU was verified.
 - Second pass 2026-10-13: The base beer listing supplies ABV and hops without using fresh hop variant data. [Untappd](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) lists 6.8% ABV, retained here; [BeerAdvocate](https://www.beeradvocate.com/beer/profile/31066/279546/) lists 6.3%. No current brewery specification resolves the difference.
 - Green Battles is not among the five flagship beers; it appears only as the DDH Fresh Hop variant on the tap list, which lists Pinthouse Brewing as the location.
 - Whether the entered beer was this fresh hop variant or a standard Green Battles could not be confirmed.

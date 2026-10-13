@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nc"
@@ -17,7 +17,7 @@ tags:
 abv: 4.6
 adjuncts: []
 beer: "Hi-Wire Lager"
-beer-url: null
+beer-url: "https://hiwirebrewing.com/flagships/"
 brewery: "Hi-Wire Brewing"
 brewery-city: "Asheville"
 brewery-state: "NC"
@@ -35,6 +35,7 @@ sources:
   - "https://hiwirebrewing.com/"
   - "https://hiwirebrewing.com/beer/"
   - "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
+  - "https://hiwirebrewing.com/flagships/"
   - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
   - "https://untappd.com/HiWireBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -83,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Hi-Wire: flagship beers](https://hiwirebrewing.com/flagships/)
 - [Hi-Wire Brewing](https://hiwirebrewing.com/)
 - [Hi-Wire: 2026 GABF silver](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/)
 - [Untappd: Hi-Wire Lager](https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316)
@@ -90,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's flagship list names Hi-Wire Lager and is used as beer-url because no dedicated page was verified. It describes German hops without naming varieties.
 - The brewery's beer page shows the lager only as an image, and guessed beer page paths returned 404, so there is no beer-url.
 - ABV and IBU come only from Untappd; the brewery post gives neither.
 - The brewery post and Untappd both cite a 2025 World Beer Cup silver.

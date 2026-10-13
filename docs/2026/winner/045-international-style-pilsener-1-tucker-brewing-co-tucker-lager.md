@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ga"
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no named hop varieties for Tucker Lager.
 - The brewery page cites an earlier GABF gold in 2021; no 2026 medal announcement was found.
 - All specs come from the brewery page.
 - Researched 2026-10-13.

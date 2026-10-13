@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Cimmerian Portal"
 tags:
@@ -18,7 +18,7 @@ tags:
 abv: 6.5
 adjuncts: []
 beer: "Stone Cimmerian Portal"
-beer-url: null
+beer-url: "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
 brewery: "Stone Brewing"
 brewery-city: "Paso Robles"
 brewery-state: "CA"
@@ -33,6 +33,7 @@ malts:
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.stonebrewing.com/beer"
   - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
@@ -54,6 +55,7 @@ Stone Cimmerian Portal is an American stout poured on draft at Stone Brewing's L
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Stone: Liberty Station draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | Style | American Stout | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | ABV | 6.5% | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | IBU | not published | none found |
@@ -81,6 +83,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Additional beer research](https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770)
 - [Stone Brewing](https://www.stonebrewing.com/)
 - [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list)
 - [Stone Brewing: beer catalog](https://www.stonebrewing.com/beer)
@@ -88,7 +91,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
-- Stone's beer catalog page does not list Cimmerian Portal, and a guessed product page returned 404, so beer-url is null.
+- Field pass 2026-10-13: The previously cited Liberty Station draft list names Cimmerian Portal and qualifies as beer-url; no dedicated product page was found. A new [Untappd entry](https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770) shows N/A IBU and names no hop varieties.
+- Stone's beer catalog page does not list Cimmerian Portal, and a guessed product page returned 404, so the earlier pass left beer-url empty.
 - The draft list names Stone Liberty Station in San Diego as the brewer, while the official results list Paso Robles; both are recorded as given.
 - The web search budget ran out before Untappd or press for this beer could be searched; IBU remains unpublished.
 - Researched 2026-10-13.

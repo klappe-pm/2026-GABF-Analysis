@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -88,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional 2026 release searches found awards but no harvest-specific ABV, IBU, hops or brewery beer page.
 - Second pass 2026-10-13: No specifications tied to the 2026 harvest were found after brewery-domain, Untappd, ABV, BeerMenus and medal searches. The readable Untappd hit is explicitly the 2024 vintage, so its values were excluded.
 - The seasonals collection and page 1 of 4 of the all beer collection do not list a fresh hop King Crispy; later pages were not checked.
 - The base beer page does not mention a fresh hop version, so the link between the two is inferred from the name only.

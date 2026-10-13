@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - ABV and IBU come from the Craft Beer & Brewing review (dated December 3, 2025, score 96).
 - Style conflict: the brewery and Craft Beer & Brewing say imperial porter; BeerMenus says sweet stout. Both third parties agree on 7.8% ABV.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A hop variety focused search excluding the previously read brewery, review and BeerMenus pages found no matching source naming hops.

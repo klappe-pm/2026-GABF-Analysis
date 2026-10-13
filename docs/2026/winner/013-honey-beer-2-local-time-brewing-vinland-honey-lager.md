@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "nc"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found a medal report and the co-owner's explanatory comment confirming style, honey variety and barley malt. ABV, IBU and hop varieties remain unpublished in the sources found.
+- Field pass 2026-10-13: An ABV focused search excluding the already recorded local report found competition coverage without specs. No new ABV, IBU, brewery beer page or hop names were verified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: The web search budget ran out during this batch, so no further searches were possible.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Goose Island beer listing verifies strength and witbier classification. It contains no description, IBU or ingredient list; no brewery product page was found.
+- Field pass 2026-10-13: Additional brewery-domain, taproom and ingredient searches found no verified IBU, hop variety or qualifying brewery beer page for Hidden Dawn.

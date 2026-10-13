@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name, ABV, Untappd and medal searches found award coverage but no additional beer specifications. No matching beer page with ABV, IBU or named ingredients was found.
+- Field pass 2026-10-13: A specification focused exact-name search found competition and Washington medal coverage but no ABV, IBU, brewery beer page or hop names.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery has no individual beer pages; its beer menu is the beer-url. The menu prints the name with a registered trademark sign.
 - The menu does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A [newer brewery menu](https://www.discretionbrewing.com/menu-beer-menu/) gives 52 IBU for the standard Uncle Dave's IPA, versus the retained 68 from the [existing menu source](https://www.discretionbrewing.com/menu/beer-menu/). It names no hop cultivar. The double dry-hopped edition is a separate variant and its recipe was excluded.

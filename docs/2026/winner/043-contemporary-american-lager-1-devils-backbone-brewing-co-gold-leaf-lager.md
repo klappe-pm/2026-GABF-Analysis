@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Gold Leaf"
 tags:
@@ -26,7 +26,10 @@ brewery-url: "https://dbbrewingcompany.com/"
 category-name: "Contemporary American Lager"
 category-number: 43
 entries: 46
-hops: []
+hops: 
+  - "Northern Brewer"
+  - "Saaz"
+  - "Tettnang"
 ibu: 17
 malts: []
 medal: "Gold"
@@ -36,6 +39,7 @@ sources:
   - "https://dbbrewingcompany.com/beers/"
   - "https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364"
   - "https://untappd.com/devilsbackbonebeers/beer"
+  - "https://www.beeradvocate.com/beer/profile/18539/46792/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Lager, Pale"
 yeast: []
@@ -58,7 +62,7 @@ Gold Leaf Lager is a light, German-style all malt lager with subtle bready notes
 | Style | Lager, Pale | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
 | ABV | 4.5% | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
 | IBU | 17 | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
-| Hops | three imported hops, varieties not named | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| Hops | Northern Brewer, Saaz, Tettnang | [BeerAdvocate: Gold Leaf Lager](https://www.beeradvocate.com/beer/profile/18539/46792/) |
 | Malts and grains | four European malts, not named; 100% malted barley | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -74,7 +78,7 @@ Source: [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing
 
 ## ingredients
 
-The [Untappd listing](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) gives counts but no names: four European malts and three imported hops, framed as a nod to all malted barley beers. No yeast is named.
+The [BeerAdvocate listing](https://www.beeradvocate.com/beer/profile/18539/46792/) identifies the three hop varieties shown in the specs table. The earlier Untappd description gives only the number of imported hops; no yeast is named.
 
 ## style-context
 
@@ -82,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [BeerAdvocate: Gold Leaf Lager](https://www.beeradvocate.com/beer/profile/18539/46792/)
 - [Devils Backbone: beers](https://dbbrewingcompany.com/beers/)
 - [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364)
 - [Untappd: Devils Backbone beer list](https://untappd.com/devilsbackbonebeers/beer)
@@ -89,6 +94,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [BeerAdvocate Gold Leaf listing](https://www.beeradvocate.com/beer/profile/18539/46792/) names Northern Brewer, Saaz and Tettnang. It gives 21 IBU, compared with the existing 17 IBU from [Untappd](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364); the existing value is retained. No new brewery beer URL was verified.
 - The brewery's current beers page lists its core and specialty lineup without Gold Leaf Lager, and a guessed beer page path returned 404, so there is no beer-url.
 - Web search summaries mentioned a 4.9% ABV in an older award writeup and a 2009 GABF gold; neither page was opened, so neither is used.
 - No 2026 medal announcement from the brewery was found.

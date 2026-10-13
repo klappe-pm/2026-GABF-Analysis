@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's beer list includes an awards history that names a North American Beer Awards gold for Cameron's Crest Scottish Ale; the year of that award could not be pinned down from the page text.
 - The beer page does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A hosted menu names Cameron's Crest with Nugget and 18 IBU, but never names the brewery, so neither requested field is accepted. A Sunriver Galveston menu excerpt suggests Northern Brewer and 20 IBU, but the opened directory returned an error. Both leads remain unverified.

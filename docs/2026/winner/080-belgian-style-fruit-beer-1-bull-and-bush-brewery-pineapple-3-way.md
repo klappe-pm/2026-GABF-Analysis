@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted bitterness and ingredient searches found no IBU or hop varieties for Pineapple 3 Way beyond the previously recorded brewery menu.
 - The first pass encountered a failed domain and TLS errors. This pass read the menu on bullandbush.com, establishing the brewery domain, although the home page still timed out.
 - The web search budget ran out before Untappd or press could be searched.
 - The winners listing at American Craft Beer confirms the gold.

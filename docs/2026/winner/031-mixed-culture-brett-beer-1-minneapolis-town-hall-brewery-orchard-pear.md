@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -97,3 +97,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the matching mixed culture pear beer under Orchard Pear MC. Its listing supplies ABV, fruit and yeast; coverage documents a 2024 release, so these are published product specifications rather than a verified 2026 batch analysis. No IBU or brewery beer page was found.
+- Field pass 2026-10-13: A new brewery-domain search excluding previously checked menus found no Orchard Pear page, IBU or hops; other fruit beers were excluded.

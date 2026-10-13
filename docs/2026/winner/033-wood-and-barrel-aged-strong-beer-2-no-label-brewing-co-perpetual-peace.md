@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -26,13 +26,14 @@ category-name: "Wood- and Barrel-Aged Strong Beer"
 category-number: 33
 entries: 61
 hops: []
-ibu: null
+ibu: 21
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
   - "https://my-table.com/off-label-perpetual-peace/"
+  - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
   - "https://www.nolabelbrew.com/"
@@ -57,7 +58,7 @@ Perpetual Peace is a barrel-aged Scottish wee heavy from No Label Brewing Co. in
 |---|---|---|
 | Style | Barrel-aged Scottish wee heavy | [Katy EDC: No Label 10th anniversary](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28) |
 | ABV | 12.3% (as announced for the 2020 release) | [Katy EDC: No Label 10th anniversary](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28) |
-| IBU | not published | none found |
+| IBU | 21 | [Untappd: No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -88,6 +89,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Covering Katy: Beer EGOT](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/)
 - [My Table: Off Label Perpetual Peace](https://my-table.com/off-label-perpetual-peace/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721)
 
 ## research-notes
 
@@ -96,3 +98,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Origin conflict: Katy EDC describes it as a new beer in November 2020, while My Table reviewed an Off Label Perpetual Peace in March 2015. They may be different batches or releases of the same name; not resolved.
 - Covering Katy reports a silver at the 2025 GABF plus golds at the World Beer Cup and Texas Craft Brewers Cup.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact undated Perpetual Peace listing publishes 21 IBU; no hops or additional brewery beer page were verified. Dated variants were excluded.

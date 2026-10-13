@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - ABV, style, hops and description come from the Untappd listing; Untappd shows no IBU.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional bitterness and brewery-page searches found no IBU or exact Czech Dark product page. The [2024 festival program](https://greattaste.org/wp-content/uploads/GT2024_program.pdf) gives 4.5% ABV, versus the retained 4.6% on [Untappd](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300); this historical difference does not supply either requested field.

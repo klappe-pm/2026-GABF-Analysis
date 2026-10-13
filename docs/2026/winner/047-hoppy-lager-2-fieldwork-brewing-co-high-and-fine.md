@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "High and Fine"
 tags:
   - "ca"
   - "silver"
-abv: null
+abv: 4.2
 adjuncts: []
 beer: "High & Fine"
 beer-url: "https://fieldworkbrewing.com/beer/high-fine/"
@@ -35,6 +35,7 @@ sources:
   - "https://fieldworkbrewing.com/"
   - "https://fieldworkbrewing.com/beer/"
   - "https://fieldworkbrewing.com/beer/high-fine/"
+  - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
   - "https://untappd.com/FieldworkBrewingCompany/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Hoppy Lager"
@@ -56,7 +57,7 @@ High & Fine is a beer from Fieldwork Brewing Co. of Berkeley, California, which 
 | Field | Value | Source |
 |---|---|---|
 | Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| ABV | 4.2% | [Untappd: High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -74,10 +75,11 @@ Nothing is published about the ingredients in any source that could be read.
 
 ## style-context
 
-The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page read for this run lists no style named Hoppy Lager. As loose category context only, its nearest hop forward lager style, American-Style India Pale Lager, calls for high hop aroma and flavor at 5.6 to 7.9 percent ABV and 50 to 70 IBU; the GABF category may be defined differently. No specs are published to compare.
+The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page read for this run lists no style named Hoppy Lager. As loose category context only, its nearest hop forward lager style, American-Style India Pale Lager, calls for high hop aroma and flavor at 5.6 to 7.9 percent ABV and 50 to 70 IBU; the GABF category may be defined differently. The newly verified 4.2% ABV is below that loose comparison; it does not establish equivalence between categories.
 
 ## links
 
+- [Untappd: High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076)
 - [Beer page on brewery site](https://fieldworkbrewing.com/beer/high-fine/)
 - [Fieldwork Brewing Co.](https://fieldworkbrewing.com/)
 - [Untappd: Fieldwork beer list](https://untappd.com/FieldworkBrewingCompany/beer)
@@ -85,6 +87,7 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd High & Fine beer page supplies 4.2% ABV, describes a Westcoast lager, publishes no IBU and names no hop varieties.
 - The beer page exists (its title names High & Fine from Fieldwork) but its stat fields render as "n/a" without script; a direct download was blocked by the host's bot protection.
 - The visible part of the Fieldwork Untappd beer list (25 of 469 beers) did not include it.
 - Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.

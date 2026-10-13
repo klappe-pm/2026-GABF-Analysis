@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional brewery shop and Costa Mesa searches surfaced the beer in indexed results, but opened pages no longer contained it. No current beer-url or numeric IBU was verified.
 - The brewery home page, Orange taproom page and online shop do not list this beer, so there is no beer-url.
 - All specs come from BeerMenus; a search result for a BeerAdvocate brewery listing also showed 8.6% but was not opened.
 - No 2026 medal announcement from the brewery was found.

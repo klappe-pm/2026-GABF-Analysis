@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Distributor and brewery-domain searches found no matching ABV, IBU, hop recipe or brewery beer page.
 - Second pass 2026-10-13: Targeted beer, Untappd, ABV, BeerMenus and brewery-domain searches found no additional specifications. Medal coverage names Formula's beer, but the detailed Blah Blah Blah IPA listings belong to 21st Amendment and were excluded.
 - The current beer menu lists 15 drinks with ABV and style only; Blah Blah Blah is not among them.
 - The awards page lists 2026 World Beer Cup and Best of Craft medals and a 2025 GABF gold, but no 2026 GABF award and no mention of this beer.

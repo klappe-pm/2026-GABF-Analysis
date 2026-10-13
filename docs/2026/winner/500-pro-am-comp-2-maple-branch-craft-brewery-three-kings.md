@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -83,6 +83,7 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional exact-product searches found no numeric IBU or named hop varieties for Maple Branch's Three Kings.
 - The tap list entry for Three Kings matches the winner by name and brewery; nothing on the page ties it to the Pro-Am, so the match is likely but not confirmed.
 - The brewery's award winning beers page does not list Three Kings.
 - The homebrewer is not credited on the brewery site; the name comes from the official winners list.

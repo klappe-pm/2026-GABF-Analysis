@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
   - "gold"
-abv: null
+abv: 6.3
 adjuncts:
   - "Coffee"
 beer: "Beatnik"
@@ -27,7 +27,7 @@ category-name: "Coffee Stout or Porter"
 category-number: 10
 entries: 53
 hops: []
-ibu: null
+ibu: 20
 malts: []
 medal: "Gold"
 place: 1
@@ -36,6 +36,7 @@ sources:
   - "https://eastvillagebrew.com/on-tap"
   - "https://eastvillagebrew.com/recipes-2"
   - "https://sandiegobeer.news/gabf-2026-winners/"
+  - "https://untappd.com/v/the-east-village-brewing-company/11471469"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Coffee Stout or Porter"
 yeast: []
@@ -56,8 +57,8 @@ Beatnik is a coffee beer entered as a stout or porter by East Village Brewing Co
 | Field | Value | Source |
 |---|---|---|
 | Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 6.3% | [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
+| IBU | 20 | [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -78,6 +79,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469)
 - [East Village Brewing Co.](https://eastvillagebrew.com/)
 - [East Village Brewing: on tap](https://eastvillagebrew.com/on-tap)
 - [East Village Brewing: tasting notes and recipes](https://eastvillagebrew.com/recipes-2)
@@ -90,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web searches and the Untappd venue activity page returned no description, base style, ABV or IBU.
 - The Bird Rock coffee attribution comes from press, not the brewery.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The taproom menu names Beatnik from East Village and publishes 6.3% ABV and 20 IBU. No named hops or new brewery beer page were found.

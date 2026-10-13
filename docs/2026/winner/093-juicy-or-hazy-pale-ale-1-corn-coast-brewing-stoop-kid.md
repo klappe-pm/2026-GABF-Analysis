@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
   - "ne"
-abv: null
+abv: 5.8
 adjuncts: []
 beer: "Stoop Kid"
 beer-url: null
@@ -25,12 +25,16 @@ brewery-url: "https://www.corncoastbrewing.com/"
 category-name: "Juicy or Hazy Pale Ale"
 category-number: 93
 entries: 62
-hops: []
+hops:
+  - "Citra"
+  - "Citra Hyperboost"
+  - "Mosaic"
 ibu: null
 malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.corncoastbrewing.com/"
   - "https://www.corncoastbrewing.com/on-tap-lincoln"
@@ -40,7 +44,7 @@ yeast: []
 
 # 093-juicy-or-hazy-pale-ale-1-corn-coast-brewing-stoop-kid
 
-Stoop Kid is a beer from Corn Coast Brewing, a nano brewery and taproom in Lincoln, Nebraska that focuses on modern IPA; no published details about the beer were found.
+Stoop Kid is a beer from Corn Coast Brewing, a nano brewery and taproom in Lincoln, Nebraska that focuses on modern IPA.
 
 ## award
 
@@ -53,9 +57,9 @@ Stoop Kid is a beer from Corn Coast Brewing, a nano brewery and taproom in Linco
 | Field | Value | Source |
 |---|---|---|
 | Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| ABV | 5.8% | [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
 | IBU | not published | none found |
-| Hops | not published | none found |
+| Hops | Citra, Citra Hyperboost, Mosaic | [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -67,20 +71,22 @@ No brewery description of this beer was found.
 
 ## ingredients
 
-Nothing about this beer's ingredients is published in any source that could be read.
+The [exact beer entry](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) identifies the hop products recorded above. No other recipe details were sought in this field pass.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy Pale Ale calls for a hazy beer with very prominent fruity, juicy hop character and soft bitterness, 4.4 to 5.4 percent ABV and 5 to 30 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy Pale Ale calls for a hazy beer with very prominent fruity, juicy hop character and soft bitterness, 4.4 to 5.4 percent ABV and 5 to 30 IBU. The listed strength exceeds the cited range; bitterness remains unverified.
 
 ## links
 
+- [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367)
 - [Corn Coast Brewing](https://www.corncoastbrewing.com/)
 - [Corn Coast: on tap in Lincoln](https://www.corncoastbrewing.com/on-tap-lincoln)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
+- Field pass 2026-10-13: The exact Untappd Stoop Kid entry names Corn Coast and its 2026 GABF gold, supplying ABV and named hop products. It shows N/A IBU; no qualifying brewery-hosted beer URL was found.
 - The Lincoln on-tap page loads its list dynamically and the beer list did not appear in the page source or in a fetch; the home page does not mention the beer.
 - The web search quota ran out before a search for this beer could run, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.

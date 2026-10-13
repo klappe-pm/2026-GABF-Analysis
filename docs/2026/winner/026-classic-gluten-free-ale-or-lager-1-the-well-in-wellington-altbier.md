@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact beer and brewery searches with Untappd, ABV, BeerMenus and 2026 GABF found medal coverage but no additional specifications. No beer-specific grain, hop or yeast declaration was found.
+- Field pass 2026-10-13: New recipe-focused searches yielded only medal coverage, with no ABV, IBU, brewery beer page or named hops; earlier exact-name Untappd and BeerMenus searches were not repeated.

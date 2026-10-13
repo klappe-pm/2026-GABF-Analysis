@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -85,6 +85,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional exact-product IBU and hop searches found no matching numeric bitterness or named hops; the separate regular LUCY cider was excluded.
 - The cidery has no individual cider pages; its bottle menu is the beer-url.
 - The cidery also sells a semi-dry LUCY cider at 6.2%; the ice cider is the separate 12% dessert product.
 - No 2026 medal announcement from the cidery was found.

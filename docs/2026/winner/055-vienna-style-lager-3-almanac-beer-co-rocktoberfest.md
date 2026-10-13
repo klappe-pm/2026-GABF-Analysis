@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches found no verified IBU or named hop varieties for Almanac Rocktoberfest.
 - The brewery has no page for this beer (a guessed /rocktoberfest URL returned 404, and the core beers list omits it); the Alameda taproom drinks menu is the beer-url.
 - Brewery menu and BeerMenus agree on 5% ABV.
 - Style labels differ: the brewery says Oktoberfest Lager, BeerMenus calls it a traditional festbier, and the medal came in Vienna-Style Lager.

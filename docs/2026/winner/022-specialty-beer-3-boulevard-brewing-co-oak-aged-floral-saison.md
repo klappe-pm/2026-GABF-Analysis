@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Brewhouse One: Oak-Aged Floral Saison"
 tags:
   - "bronze"
   - "mo"
-abv: null
+abv: 8
 adjuncts:
   - "Hibiscus"
   - "Lemon peel"
@@ -35,6 +35,7 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
   - "https://www.boulevard.com/"
   - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -57,7 +58,7 @@ Oak Aged Floral Saison is a light saison brewed with hibiscus, rose hips and lem
 | Field | Value | Source |
 |---|---|---|
 | Style | Saison | [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
-| ABV | not published | none found |
+| ABV | 8% | [Untappd: Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -73,7 +74,7 @@ Source: [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-
 
 ## ingredients
 
-The release page names three botanical additions: hibiscus flowers (which give the red color), rose hips (described as slightly tart) and lemon peel. The beer rests on neutral oak. No malt, hop or yeast is named, and no ABV or IBU is given.
+The release page names three botanical additions: hibiscus flowers (which give the red color), rose hips (described as slightly tart) and lemon peel. The beer rests on neutral oak. No malt, hop or yeast is named, and no IBU is given.
 
 ## style-context
 
@@ -84,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/)
 - [Boulevard Brewing Co.](https://www.boulevard.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966)
 
 ## research-notes
 
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No ABV, IBU, malt, hop or yeast was found; web search was unavailable for part of this session, so Untappd and press listings were not checked.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Oak-Aged Floral Saison listing publishes 8% ABV and N/A IBU, with no named hops.

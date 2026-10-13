@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -87,6 +87,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Matching Froth Water listing](https://untappd.com/b/alvarado-street-brewery-froth-water/6465687/nearby) reports N/A IBU; Southern Hemisphere Froth Water was excluded as a different version.
 - The product page lives on the brewery's shop domain asb.beer; the main site is alvaradostreetbrewery.com.
 - The product page misspells the name as "Forth Water" inside its own description; the quote keeps it verbatim.
 - No IBU, malt or yeast information is published.

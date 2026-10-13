@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
   - "va"
-abv: null
+abv: 4.7
 adjuncts:
   - "Lime"
 beer: "Tow The Lime"
@@ -35,6 +35,7 @@ sources:
   - "https://starrhill.com/"
   - "https://starrhill.com/beer"
   - "https://starrhill.com/news/gabf2026"
+  - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Mexican-style pale lager with lime"
 yeast: []
@@ -55,7 +56,7 @@ Tow The Lime is a pale Mexican-style lager finished with lime, brewed by Starr H
 | Field | Value | Source |
 |---|---|---|
 | Style | pale Mexican-style lager with lime | [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026) |
-| ABV | not published | none found |
+| ABV | 4.7% | [Untappd: Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -75,10 +76,11 @@ Lime is the only ingredient the brewery names ([Starr Hill: GABF 2026 news](http
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Fruit Beer calls for fruit aroma from subtle to intense that is not overpowered by hops, bitterness from 5 to 70 IBU in balance with the fruit, and 2.5 to 12 percent ABV. No ABV or IBU is published to compare against it.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Fruit Beer calls for fruit aroma from subtle to intense that is not overpowered by hops, bitterness from 5 to 70 IBU in balance with the fruit, and 2.5 to 12 percent ABV. The newly verified strength falls within the category range; bitterness remains unpublished.
 
 ## links
 
+- [Untappd: Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos)
 - [Starr Hill Brewery](https://starrhill.com/)
 - [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)
 - [Starr Hill: beer list](https://starrhill.com/beer)
@@ -90,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Tow The Lime has no page in the brewery's beer list, so beer-url is null.
 - ABV, IBU, hops, malts and yeast are not published on any page read.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing publishes 4.7% ABV and N/A IBU, with no named hops. A targeted brewery domain search found only the previously recorded medal post and home page; no additional brewery beer or tap list page was found.

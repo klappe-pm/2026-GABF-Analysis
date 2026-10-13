@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Pillow"
 tags:
@@ -94,6 +94,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Retailer IBU searches found no number for Highland Park's DDH Pillow; DDH Pillow Talk from Zony Mash is a different beer and was excluded.
 - Second pass 2026-10-13: Found DDH Pillow on the brewery subscription page with ABV, four hop products and its malt supplier. The beer-url points to that multi-beer page, not a standalone product page. IBU and named malt varieties remain unpublished.
 - The awards page did not list a 2026 award.
 - The taproom page (hpb.la/dinein) did not expose a readable beer list.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Jacob Mack"
 tags:
@@ -89,6 +89,7 @@ As category context only, the Brewers Association's [craft malt category announc
 
 ## research-notes
 
+- Field pass 2026-10-13: [Brewery history page](https://dostalalley.com/about-us) attributes wild Central City hops to Jacob Mack Brown Ale, but does not establish a named variety or the current Mild Ale competition recipe; hops remain empty.
 - The brewery has no individual beer pages; its brewery page lists the beer and is the beer-url.
 - The brewery page itself notes the 2026 GABF gold for this beer, and the home page announces that the brewery struck gold at the festival.
 - A first domain guess, dostalalley.net, returned an error; dostalalley.com is the working site.

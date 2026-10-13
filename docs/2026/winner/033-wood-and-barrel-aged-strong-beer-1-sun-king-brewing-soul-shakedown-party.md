@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Search result snippets (not opened, so not used as specs) described it as a rum barrel-aged Scotch ale built on a Wee Muckle base, with conflicting figures of 14.1% ABV (Brewbound) and 9.0% ABV (Taphunter), both at 30 IBU. Brewbound, Taphunter and BeerAdvocate all returned HTTP 403, so none of these figures is verified.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found a readable matching Untappd listing with ABV, IBU, base style and rum barrel treatment. BeerAdvocate also lists 13.7%, while a review there reports 14.1% for the 2021 festival pour. The current product listing value is retained, not asserted as a measured 2026 medal batch; earlier search snippets cited in the first pass remain unverified. No hop varieties or brewery beer page were found.
+- Field pass 2026-10-13: A new brewery-domain search found awards mentions but no Soul Shakedown Party beer page or named hops; ingredients from other beers on award pages were excluded.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -34,6 +34,7 @@ sources:
   - "https://business.untappd.com/locations/35178/themes/136241/js"
   - "https://syncopatedbrewing.com/"
   - "https://syncopatedbrewing.com/our-beers-1"
+  - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Farmhouse Ale, Brett"
 yeast:
@@ -80,6 +81,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Beer page on brewery site](https://syncopatedbrewing.com/our-beers-1)
 - [Syncopated Brewing Co.](https://syncopatedbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Brewbound: Syncopated medal announcement](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition)
 
 ## research-notes
 
@@ -87,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's public Untappd beer list counts one beer under the Brett farmhouse style but did not show beer names when read without logging in.
 - IBU, grains, hops and the Brett strain were not found; web search was unavailable for most of this run.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact 2026 medal announcement identifies the Brett beer but yields no numerical IBU or named hops.

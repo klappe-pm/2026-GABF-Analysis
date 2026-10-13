@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Fassbier Pilsner"
 tags:
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd Fassbier German listing publishes no IBU or named hop varieties; no verified additions were found.
 - The brewery lists the beer as Fassbier Pilsner; the medal list name is Templin Family Fass Bier. The beer is not on the main beers page but is linked from the taproom list.
 - templinfamilybrewing.com does not resolve; the brewery uses tfbrewing.com.
 - IBU, hops, malts and yeast were not found on the beer page or the taproom list; a web search for the beer returned only other Templin beers.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -83,6 +83,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional retailer searches surfaced the previously excluded Pink Pearl cocktail, with no verified cider ABV, IBU, hops or brewery beer page.
 - Second pass 2026-10-13: Exact-name searches found Pink Pearl in the 2026 GLINTCAP results but no additional cider specifications. The Snow Capped ordering page places The Pink Pearl under cocktails, so that item is not evidence for this cider; Bespoke is a different product.
 - Pink Pearl is absent from the cidery home page, bottle shop and can shop.
 - A web search for the cider and cidery returned only a different cidery's Pink Pearl single varietal; nothing from Snow Capped.

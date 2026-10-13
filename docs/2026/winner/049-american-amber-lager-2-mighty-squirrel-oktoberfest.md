@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ma"
@@ -26,13 +26,14 @@ category-name: "American Amber Lager"
 category-number: 49
 entries: 94
 hops: []
-ibu: null
+ibu: 23
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482"
   - "https://www.mightysquirrel.com/"
   - "https://www.mightysquirrel.com/beerfinder"
   - "https://www.mightysquirrel.com/beers"
@@ -56,7 +57,7 @@ Oktoberfest is a seasonal Märzen lager from Mighty Squirrel, a brewery in Walth
 |---|---|---|
 | Style | Marzen lager | [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest) |
 | ABV | 5.5% | [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest) |
-| IBU | not published | none found |
+| IBU | 23 | [CBC Liquors: Mighty Squirrel Oktoberfest](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -75,10 +76,11 @@ Nothing about ingredients is published beyond the description's sweet, toasty an
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Amber Lager calls for low to medium-low caramel or toasted malt, 4.8 to 5.4 percent ABV, 18 to 30 IBU and 6 to 14 SRM. The listed 5.5% ABV sits just above the top of that range; IBU cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Amber Lager calls for low to medium-low caramel or toasted malt, 4.8 to 5.4 percent ABV, 18 to 30 IBU and 6 to 14 SRM. The listed 5.5% ABV sits just above the top of that range; the retailer's 23 IBU fits.
 
 ## links
 
+- [CBC Liquors: Mighty Squirrel Oktoberfest](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482)
 - [Mighty Squirrel](https://www.mightysquirrel.com/)
 - [Mighty Squirrel: beer portfolio](https://www.mightysquirrel.com/beers)
 - [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest)
@@ -86,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching [CBC Liquors Oktoberfest listing](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482) supplies 23 IBU. Its 5.6% ABV disagrees with the existing 5.5% from [BeerMenus](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest), which is retained. No named hops or new brewery beer page were verified.
 - The brewery's beer portfolio and beer finder pages show no Oktoberfest (the portfolio was truncated at a load more button), and a guessed beer page URL returned 404, so no brewery beer page was found.
 - All specs come from BeerMenus, which reproduces the brewery's own description.
 - A web search turned up a 2022 report of a GABF gold for Mighty Squirrel's Oktoberfest in German-Style Maerzen; that page was not opened and the claim is not relied on here.

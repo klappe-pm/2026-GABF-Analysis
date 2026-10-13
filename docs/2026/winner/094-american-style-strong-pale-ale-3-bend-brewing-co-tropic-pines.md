@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Tropic Pines IPA"
 tags:
@@ -26,12 +26,18 @@ brewery-url: "https://www.bendbrewingco.com/"
 category-name: "American-Style Strong Pale Ale"
 category-number: 94
 entries: 89
-hops: []
+hops:
+  - "Chinook"
+  - "Mosaic"
+  - "Mosaic Cryo"
+  - "Simcoe"
 ibu: 65
 malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+  - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
   - "https://www.bendbrewingco.com/"
   - "https://www.bendbrewingco.com/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -56,7 +62,7 @@ Tropic Pines is an IPA from Bend Brewing Co. in Bend, Oregon, offered on tap and
 | Style | IPA | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
 | ABV | 6.5% | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
 | IBU | 65 | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
-| Hops | not published | none found |
+| Hops | Chinook, Mosaic, Mosaic Cryo, Simcoe | [Untappd: Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -68,7 +74,7 @@ No brewery description of this beer was found; the beer page gives only its name
 
 ## ingredients
 
-Nothing about this beer's ingredients is published.
+The [current beer entry](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) explicitly names the hop products recorded above. No additional recipe fields were changed in this pass.
 
 ## style-context
 
@@ -76,12 +82,15 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116)
+- [Additional beer research](https://www.beerandbrewing.com/review/tropic-pines-ipa)
 - [Beer page on brewery site](https://www.bendbrewingco.com/beer)
 - [Bend Brewing Co.](https://www.bendbrewingco.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
+- Field pass 2026-10-13: The current Untappd entry explicitly lists four hop products. Its [older Craft Beer & Brewing review](https://www.beerandbrewing.com/review/tropic-pines-ipa) names Simcoe, Mosaic and Falconer's Flight for an earlier release; that older hop bill was not merged into the current listing.
 - The brewery's beer page lists Tropic Pines IPA twice (to go and on tap), both at 6.5% ABV and 65 IBU, with no description or ingredients. There is no individual beer page.
 - The web search quota ran out before a search for hop details could run, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.

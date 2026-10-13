@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ga"
@@ -79,6 +79,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Current tap-list search found brewery activity but no verified current ABV, IBU, hops or brewery beer page; previously recorded historical recipe differences remain unresolved.
 - Second pass 2026-10-13: A [2024 review](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print) names this beer and brewery and gives 6.2% ABV, 12 IBU and Citra, Mosaic, Columbus and Nelson Sauvin hops. A 2025 review appears in search with a different ABV and hop list, but its PDF could not be opened. These historical recipes could not be tied to the 2026 entry, so structured specs remain null or empty.
 - indiobrewing.com, tried with and without www, returned HTTP 403 to every request, and it was not confirmed as the brewery's domain, so brewery-url is null.
 - No 2026 medal announcement from the brewery was found.

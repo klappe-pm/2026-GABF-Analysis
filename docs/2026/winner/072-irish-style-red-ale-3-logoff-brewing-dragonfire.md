@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Dragon Fire"
 tags:
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No standalone Untappd beer page could be located by direct URL, and the shared web search budget ran out during this batch.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional ingredient searches found no named hop variety for LogOff Dragonfire. Malty and dried-fruit tasting notes do not establish ingredients.

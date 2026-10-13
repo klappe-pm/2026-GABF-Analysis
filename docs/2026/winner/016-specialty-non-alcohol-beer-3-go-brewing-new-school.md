@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "New School Sour Berry"
 tags:
@@ -40,6 +40,7 @@ sources:
   - "https://gobrewing.com/"
   - "https://gobrewing.com/collections/beers"
   - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+  - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Non-alcoholic kettle sour"
 yeast: []
@@ -84,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Go Brewing Sour Berry](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582)
 - [Beer page on brewery site](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer)
 - [Go Brewing](https://gobrewing.com/)
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
@@ -97,3 +99,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The page gives 0.44% as its ABV; the abv field uses it.
 - The hop line reads "American Noble Citra"; only Citra is a variety name, so only Citra is recorded.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Sour Berry listing gives N/A IBU. Its 0.4% ABV differs from the existing brewery 0.44%; the existing value is retained. The festival program search result's 45 IBU belongs to Disarm and was excluded.

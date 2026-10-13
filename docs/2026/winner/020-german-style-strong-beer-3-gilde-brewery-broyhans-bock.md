@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The guessed domains gildebrewery.com and gildebrewing.com returned empty pages, so no brewery-url is recorded. Brewbound and WCNC articles about the opening returned HTTP 403. Open Brewery DB has no entry.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Located the Charlotte brewery's working site, exact beer listing, ABV and style. The Hanover Broyhan-Bock and imported Urbock are separate listings and were excluded; no IBU or hop varieties were found.
+- Field pass 2026-10-13: No new Charlotte-specific source published IBU or named hops; the Hanover Broyhan-Bock is excluded as a different beer.

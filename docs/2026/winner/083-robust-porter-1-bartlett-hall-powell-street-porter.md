@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [separate brewery menu page](https://www.bartletthall.com/menus/) names Powell Street Porter but publishes no IBU or hop varieties for it. The homebrew adaptation already discussed was not reused as commercial evidence.
 - Both likely brewery domains failed with TLS certificate errors in the first pass; this pass successfully read the brewery menu.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Huckleberry Cosmic Crisp Imperial"
 tags:
@@ -21,7 +21,7 @@ adjuncts:
   - "Cranberry"
   - "Huckleberry"
 beer: "Huckleberry Cosmic Crisp"
-beer-url: null
+beer-url: "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
 brewery: "2 Towns Ciderhouse"
 brewery-city: "Corvallis"
 brewery-state: "OR"
@@ -37,6 +37,7 @@ place: 3
 sources:
   - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
   - "https://www.2townsciderhouse.com/"
+  - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 style: "Imperial cider"
 yeast: []
@@ -64,10 +65,11 @@ Huckleberry Cosmic Crisp is an imperial cider from 2 Towns Ciderhouse of Corvall
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | Huckleberries, Pacific Northwest blueberries, Oregon grown cranberry | [Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/) |
 | Other | 4-pack of 16 oz cans; draft in half and sixth barrels; nationwide | [Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/) |
+| Beer page | brewery product page | [2 Towns: Huckleberry Cosmic Crisp](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp) |
 
 ## brewery-description
 
-No product page from the cidery was found. The launch release quotes head cidermaker Dave Takush:
+The [cidery product page](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp) now provides a description. The launch release quotes head cidermaker Dave Takush:
 
 > This cider is tart, woodsy, and berry-forward with a hint of grip on the finish
 
@@ -83,12 +85,14 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## links
 
+- [2 Towns: Huckleberry Cosmic Crisp](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp)
 - [2 Towns Ciderhouse](https://www.2townsciderhouse.com/)
 - [Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
 
 ## research-notes
 
+- Field pass 2026-10-13: [Dedicated cidery page](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp) supplies beer-url. No numeric IBU or named hop varieties were published.
 - The cidery's home page and /ciders page did not show this cider, and no product page was found, so beer-url is null; specs come from the cidery's press release as printed by Cidercraft (dated September 29, 2025).
 - Retailer listings seen in search results describe different packaging; they were not opened, so only the release's 16 oz 4-pack is cited.
 - No 2026 medal announcement from the cidery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "fl"
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU, hops and grains were not found; the brewery's Untappd pages were linked from its site but not read, and web search was unavailable for most of this run.
 - No 2026 medal announcement was found on the brewery's home page.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A new IBU search found 4 IBU in a Florida Beer Blog account of a November 2018 brewery visit. That earlier pour does not establish the 2026 bitterness, so IBU remains null; no hop varieties were verified for Guavacation.

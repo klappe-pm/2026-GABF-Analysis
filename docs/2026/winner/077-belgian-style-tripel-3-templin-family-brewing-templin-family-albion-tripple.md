@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Albion Belgian-Style Trippel"
   - "Albion Trippel"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted bitterness searches found no numerical IBU for Albion Trippel beyond the brewery source already recorded.
 - The winners list spells the name Templin Family Albion Tripple; the brewery spells it Albion Trippel (listed as Albion Belgian-Style Trippel). The beer page is treated as the same beer.
 - The 10.2% ABV is a deliberate nod to the 10,200 ft wedding elevation, per the brewery.
 - The beer page lists International Beer Awards gold in 2022, 2023 and 2024 and bronze in 2021, and no GABF 2026 announcement.

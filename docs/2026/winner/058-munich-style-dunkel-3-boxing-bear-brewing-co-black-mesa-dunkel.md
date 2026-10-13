@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -91,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A June 2025 NM Dark Side Brew Crew article reports the beer won gold in the Munich-Style Dark category at the 2025 NABA Beer and Cider Awards; it gives no specs.
 - No 2026 GABF announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop and IBU searches found brewery activity naming Black Mesa Dunkel, but no verified bitterness figure or named hop variety.

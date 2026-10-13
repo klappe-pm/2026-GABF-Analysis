@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Day Money NA Grapefruit Blonde"
 tags:
@@ -34,6 +34,7 @@ place: 1
 sources:
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+  - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.fieldworkbrewing.com/"
 style: "NA Grapefruit Blonde"
@@ -79,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Fieldwork Day Money](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822)
 - [Beer page on brewery site](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans)
 - [Fieldwork Brewing Co.](https://www.fieldworkbrewing.com/)
 - [Fieldwork: non-alcoholic collection](https://shop.fieldworkbrewing.com/collections/non-alcoholic)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The abv field is null because the brewery gives only an upper bound.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The non-alcoholic Untappd listing gives 0.5% ABV, N/A IBU and no named hops; the existing brewery less than 0.5% bound is retained and structured ABV remains null. The 2019 to 2020 alcoholic Day Money with Mosaic hops was excluded.

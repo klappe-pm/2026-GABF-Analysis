@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [TapHunter listing](https://www.taphunter.com/beer/billsburg-planet-4-red-ale/5611718868860928) supplies no named hops; searches found no matching hop recipe.
 - The brewery's beer page embeds a Taplist.io menu; the specs were read from that menu, which was last updated 2026-10-13. There is no individual beer page.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

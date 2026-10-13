@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -27,7 +27,10 @@ brewery-url: "https://www.averybrewing.com/"
 category-name: "Belgian-Style Witbier"
 category-number: 74
 entries: 51
-hops: []
+hops:
+  - "Bravo"
+  - "Hersbrucker"
+  - "Sterling"
 ibu: 20
 malts: []
 medal: "Silver"
@@ -37,6 +40,7 @@ sources:
   - "https://www.averybrewing.com/"
   - "https://www.averybrewing.com/beers/white-rascal"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.guruofbrew.com/avery_white_rascal"
 style: "Belgian-Style White Ale"
 yeast: []
 ---
@@ -58,7 +62,7 @@ White Rascal is the flagship unfiltered Belgian-style white ale of Avery Brewing
 | Style | Belgian-Style White Ale | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
 | ABV | 5.6% | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
 | IBU | 20 (third party; the brewery page lists none) | [Wikipedia: Avery Brewing Company](https://en.wikipedia.org/wiki/Avery_Brewing_Company) |
-| Hops | not published | none found |
+| Hops | Bravo, Hersbrucker, Sterling | [Avery: historical White Rascal review](https://www.guruofbrew.com/avery_white_rascal) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | Coriander, Curaçao orange peel | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
@@ -72,7 +76,7 @@ Source: [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal)
 
 ## ingredients
 
-The brewery names only the coriander and Curaçao orange peel spicing and says it uses the same Belgian ingredients as historical Hoegaarden brewers, without listing them ([Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal)). No hop, malt or yeast is named on any page read.
+The current [brewery page](https://www.averybrewing.com/beers/white-rascal) names the spicing recorded above. A [2017 review](https://www.guruofbrew.com/avery_white_rascal) transcribes the brewery's hop list; it does not establish the recipe used for the competition batch.
 
 ## style-context
 
@@ -80,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Avery: historical White Rascal review](https://www.guruofbrew.com/avery_white_rascal)
 - [Beer page on brewery site](https://www.averybrewing.com/beers/white-rascal)
 - [Avery Brewing Co.](https://www.averybrewing.com/)
 - [Wikipedia: Avery Brewing Company](https://en.wikipedia.org/wiki/Avery_Brewing_Company)
@@ -91,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - IBU conflict: Wikipedia gives 20 and search snippets attributed 20 to an Avery press release on Brewbound (which returned 403 and was not read), Craft Beer & Brewing reviews 22 and Kroger listings 15 (snippets only, not read). The figure of 20 is used because it was read on a page and matches the press snippet.
 - The brewery page lists earlier medals including GABF gold in 2023 and silver in 2012 and 2015.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A 2017 review explicitly names Avery White Rascal and transcribes three hop varieties from the brewery website. Its spelling Hersbruker is normalized to Hersbrucker. No dated variant is identified, but continued use in the 2026 batch is unconfirmed; homebrew clone recipes were not used.

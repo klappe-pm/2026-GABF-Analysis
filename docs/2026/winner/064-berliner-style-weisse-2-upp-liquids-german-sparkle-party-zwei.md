@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name and Untappd searches found the official medal entry and Oregon press coverage, but no readable product specifications or brewery beer page. No figures from other German Sparkle Party beers are transferred.
+- Field pass 2026-10-13: Additional brewery-shop and technical-field searches found no exact Zwei specifications, named hops or qualifying brewery beer page. Other German Sparkle Party recipes remain excluded.

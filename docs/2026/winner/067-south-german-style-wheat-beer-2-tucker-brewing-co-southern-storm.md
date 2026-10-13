@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ga"
@@ -91,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The beer page cites a 2025 GABF silver; it does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - The beer page header also shows "N/A" in one field without saying what it refers to.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Tucker Untappd product page describes a dunkelweizen and flavor notes but names no hop variety. No new hop field was verified.

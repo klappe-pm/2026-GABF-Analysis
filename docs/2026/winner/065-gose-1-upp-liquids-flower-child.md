@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -26,7 +26,7 @@ category-name: "Gose"
 category-number: 65
 entries: 36
 hops: []
-ibu: null
+ibu: 4
 malts: []
 medal: "Gold"
 place: 1
@@ -35,7 +35,9 @@ sources:
   - "https://untappd.com/b/upp-liquids-flower-child/6390863"
   - "https://untappd.com/w/upp-liquids/574533/beer"
   - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
+  - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.goselfdistro.com/upp-liquids"
   - "https://www.uppliquids.com/"
 style: "Gose"
 yeast: []
@@ -57,7 +59,7 @@ Flower Child is a gose from UPP Liquids, the brewer-owned brewery and restaurant
 |---|---|---|
 | Style | not published by the brewery; Untappd lists "Sour, Other" | [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
 | ABV | 5.5% | [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
-| IBU | not published (Untappd shows N/A) | none found |
+| IBU | 4 | [UPP Liquids: distribution lineup](https://www.goselfdistro.com/upp-liquids) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -70,7 +72,7 @@ No brewery description of Flower Child was found: the brewery's beer page does n
 
 ## ingredients
 
-Nothing about ingredients is published. Untappd check-in comments mention peach and cardamom flavors, but these are drinker impressions and are not recorded here as ingredients.
+No hop varieties are named in the [distribution lineup](https://www.goselfdistro.com/upp-liquids). Other recipe fields were outside this targeted field pass.
 
 ## style-context
 
@@ -78,6 +80,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [UPP Liquids: distribution lineup](https://www.goselfdistro.com/upp-liquids)
+- [Bend Source: UPP beer coverage](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/)
 - [UPP Liquids](https://www.uppliquids.com/)
 - [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/)
 - [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863)
@@ -93,3 +97,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The UPP Liquids Toast ordering page returned HTTP 403 and could not be read.
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch, which limited press searches.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The distributor's UPP lineup supplies the bitterness above for Flower Child with peach, chamomile and cardamom; local press identifies that combination as the standard Flower Child gose. The [distribution lineup](https://www.goselfdistro.com/upp-liquids) lists 5.2% ABV versus the retained 5.5% on [Untappd](https://untappd.com/b/upp-liquids-flower-child/6390863). No hop variety or brewery beer page was verified.

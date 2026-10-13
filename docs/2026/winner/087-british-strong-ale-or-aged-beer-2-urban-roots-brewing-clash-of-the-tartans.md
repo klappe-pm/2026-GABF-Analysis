@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -82,6 +82,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: The [exact Untappd entry](https://untappd.com/b/urban-roots-brewing-and-smokehouse-clash-of-the-tartans/6376944) shows N/A IBU and names no hop varieties.
 - The brewery has no individual beer pages; its Oktoberfest season draught list PDF is the beer-url.
 - The same list sells Life Adjacent, listed as a BBA Scotch Ale, in cans; it is a different beer and none of its details are used here.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.

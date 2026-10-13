@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "El Borracho Poblano"
 tags:
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Search summaries of BizWest and Axios 2024 coverage place the 2024 GABF gold in Chili Beer; the Axios page returned 403 and was not read.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name and alternate-name searches with Untappd, ABV and BeerMenus found no verified specifications. The brewery's Untappd activity and medal coverage identify the beer but do not supply its recipe; fields remain null.
+- Field pass 2026-10-13: A retailer focused exact-name search found brewery activity and medal coverage, without a new specification source. ABV, IBU, brewery beer page and named hops remain unverified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Northbound Eisbock"
 tags:
@@ -97,3 +97,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Open Brewery DB lists smokehousebrewpub.com, which failed with an expired certificate; northboundbrewpub.com is the working site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found [Untappd's matching Eisbock listing](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698) at 16.8% ABV and 21 IBU. These figures do not resolve the founder's statement that the concentrated beer was untested or establish measured values for the medal batch, so the structured fields remain null. No additional recipe ingredients were verified.
+- Field pass 2026-10-13: A new search found no additional brewery beer page or named hops; the previously recorded untested strength and bitterness figures remain excluded.

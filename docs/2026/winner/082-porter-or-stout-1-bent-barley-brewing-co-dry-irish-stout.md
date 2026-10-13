@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted ingredient and brewery-page searches found no named hops or qualifying brewery beer URL beyond the previous research.
 - The Visit Aurora profile quotes the brewery on its World Beer Cup gold for the Dry Irish Stout, with no year, ABV or ingredients.
 - The brewery home page and menu name no beers; no Untappd listing surfaced in the first pass. Homebrew recipes titled Dry Irish Stout on Brewer's Friend are not this beer and were not used.
 - The text of the combined Porter or Stout category was not located in the guideline page read.

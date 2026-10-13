@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's beer page already lists "BRONZE 2026 Great American Beer Festival", and its home page repeats the beer description in a GABF results post.
 - IBU, grains, hops and any bacterial culture were not found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New third-party searches found no readable specification naming IBU or hops for Traditions; the Northwest Beer Guide result opened to unrelated older content and was excluded.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The home page lists earlier awards for Red Molly: 2019 GABF bronze (Irish-Style Red Ale), 2018 Virginia Craft Beer Cup first place, 2016 Virginia Beer Cup second place and 2016 World Beer Cup bronze. It does not mention the 2026 medal.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Pale Fire Untappd description says British hops without identifying varieties. Additional ingredient searches found no cultivar specific to Red Molly.

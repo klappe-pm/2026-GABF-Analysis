@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Bière De Garde"
 tags:
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The Untappd description also lists medals: gold at the 2025 US Open, gold at the 2025 Copa Cervezas de América, silver at the 2026 GABF, silver at the 2026 US Open and bronze at the 2025 GABF.
 - The description's "and a with a" is quoted as published.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop and brewery-page searches found no named variety or qualifying brewery beer page. Results for the former New York retailer Bierkraft and unrelated farmhouse recipes were excluded.

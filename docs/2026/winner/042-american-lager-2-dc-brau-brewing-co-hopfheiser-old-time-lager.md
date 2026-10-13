@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Old Time"
   - "Old Time Lager"
@@ -93,6 +93,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no new IBU or hop varieties for DC Brau's Hopfheiser Old Time Lager.
 - The brand site credits The Hopfheiser Brewing Company and does not name DC Brau; DC Beer reports that DC Brau bought the Hopfheiser and Old Time names and brews the beer, and Untappd lists it as brewed by DC Brau.
 - The beer revives a 1935 Hopfheiser light lager originally brewed at Baltimore's Globe Brewing Company.
 - The brand site lists no ABV or IBU; the 4% figure comes from Untappd and DC Beer.

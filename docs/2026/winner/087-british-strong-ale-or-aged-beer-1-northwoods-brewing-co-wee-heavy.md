@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -81,6 +81,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and menu searches found no IBU, hop names or qualifying brewery beer URL beyond the previous research.
 - One guessed brewery domain returned an empty page and another did not resolve, so no brewery site was confirmed and brewery-url is null.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

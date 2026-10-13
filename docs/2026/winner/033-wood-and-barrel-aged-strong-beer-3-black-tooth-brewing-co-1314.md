@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Barrel Aged 1314"
 tags:
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The beer page lists earlier medals, including GABF silver (2021) and bronze (2022) and a 2014 World Beer Cup gold.
 - No 2026 medal announcement was found on the brewery's news page (first page checked).
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New third-party searches found no hop varieties for 1314; the previously read brewery beer page was not fetched again.

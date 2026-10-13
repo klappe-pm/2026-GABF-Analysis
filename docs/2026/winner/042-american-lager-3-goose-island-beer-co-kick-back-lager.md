@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no readable matching ABV, IBU, named hops or brewery beer page for Kick Back Lager.
 - First pass: The Goose Island beer listing pages load their beers by script and returned only "Loading beers"; guessed beer page paths returned 404.
 - First pass: The visible part of the Goose Island Untappd beer list and a BeerMenus search showed no Kick Back.
 - First pass: A web search snippet from a BeerAdvocate brewery listing showed a Goose Island "Kick Back" as an American Lager at 4.6% added in June 2024, but that page returned 403 when opened, so the figure is unverified and not used.

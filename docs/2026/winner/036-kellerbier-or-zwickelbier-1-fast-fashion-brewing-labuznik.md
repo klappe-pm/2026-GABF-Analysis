@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Untappd lists the brewery as Fast Fashion, Seattle, WA.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New searches surfaced a Watershed Pub menu snippet naming Hallertau Mittelfrüh, Saaz and Tettnang for Labuznik, but neither the current menu nor the opened item page retained that entry; the hops remain unverified. No numerical IBU or brewery beer page was fetched.

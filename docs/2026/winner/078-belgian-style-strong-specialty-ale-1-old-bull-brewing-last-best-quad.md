@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -81,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted release and specification searches found no ABV, IBU, hop names or qualifying brewery beer URL beyond the previous research.
 - The brewery's beer page lists Bugle Juice, Kind of a Big Dill, Exit 89 and Wallow Water, not this beer; it says new brews are announced on Instagram, which was not read.
 - The style is inferred only from the beer's name, so the structured style field holds the category name.
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no brewery page naming Mexican Lager and no named hop varieties tied to 105 West's beer.
 - The brewery home page has no beer descriptions, and its beer menu path (/beer-menu) returned 404, so there is no beer-url.
 - All specs come from Untappd; the brewery publishes none.
 - No 2026 medal announcement from the brewery was found.

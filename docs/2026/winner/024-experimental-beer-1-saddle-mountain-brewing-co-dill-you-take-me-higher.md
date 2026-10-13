@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "az"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - KTAR (October 13, 2026) confirms the gold in the experimental beer category; no brewery announcement text was read.
 - The online ordering page returned HTTP 403.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New bitterness-focused searches found matching Untappd activity but no IBU or named hops; the previously read brewery PDF was not fetched again.

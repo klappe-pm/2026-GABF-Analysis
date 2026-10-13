@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Cellarmaker Untappd listing](https://untappd.com/b/cellarmaker-brewing-company-old-head-red/5828134) reports N/A IBU. The [43 IBU result](https://untappd.com/b/detroit-liquid-ventures-old-head-red/5658194) belongs to Detroit Liquid Ventures and was excluded.
 - All specs come from the brewery's own beer page; the home page features it under latest releases.
 - The beer page lists no awards. No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

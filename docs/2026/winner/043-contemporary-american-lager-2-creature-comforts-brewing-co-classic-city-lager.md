@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ga"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no named hop varieties for Classic City Lager. Generic tasting notes and clone recipes are not accepted as recipe evidence.
 - The brewery page cites earlier GABF golds (2022 and 2024); the Untappd blurb names the 2024 gold as American Pilsener.
 - IBU comes only from the Untappd beer list; the brewery does not publish it.
 - A homebrew clone recipe naming hops was seen in search results but is not a brewery source and is not used.

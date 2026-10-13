@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "az"
@@ -79,6 +79,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches for Corbett Cypress Pils found no matching ABV, IBU, hop varieties or brewery beer page. Brew York's same-named West Coast pilsner is a different brewery and is excluded.
 - First pass: Open Brewery DB lists Corbett Brewing Company in Tucson with no website.
 - First pass: Guessed domains corbettbrewing.com, corbettbrewing.co, corbettbrewingco.com and corbettbrew.com do not resolve, and Untappd brewery handles tried returned 404. Web search was unavailable for this run, so the brewery site, any Untappd listing and any medal press remain unfound.
 - First pass: The style label for this file is the category name.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -25,12 +25,16 @@ brewery-url: "https://www.seconddawnbrewing.com/"
 category-name: "Italian-Style Pilsener"
 category-number: 52
 entries: 77
-hops: []
+hops: 
+  - "Barbe Rouge"
+  - "Hüll Melon"
+  - "Saaz"
 ibu: null
 malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/SecondDawnBrewingCo/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.seconddawnbrewing.com/"
   - "https://www.seconddawnbrewing.com/menus"
@@ -55,7 +59,7 @@ Wolf of the Woods is an Italian pilsner on the taproom menu at Second Dawn Brewi
 | Style | Italian Pilsner | [Second Dawn: menus](https://www.seconddawnbrewing.com/menus) |
 | ABV | 5.1% | [Second Dawn: menus](https://www.seconddawnbrewing.com/menus) |
 | IBU | not published | none found |
-| Hops | not published | none found |
+| Hops | Barbe Rouge, Hüll Melon, Saaz | [Untappd: Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -69,7 +73,7 @@ Source: [Second Dawn: menus](https://www.seconddawnbrewing.com/menus)
 
 ## ingredients
 
-No ingredients are published on the brewery's menu or elsewhere on its site.
+The brewery's [official Untappd beer list](https://untappd.com/SecondDawnBrewingCo/beer) identifies the three dry-hop varieties shown in the specs table. No malt varieties or yeast were verified.
 
 ## style-context
 
@@ -77,12 +81,14 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer)
 - [Beer page on brewery site](https://www.seconddawnbrewing.com/menus)
 - [Second Dawn Brewing Co.](https://www.seconddawnbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's official Untappd beer list names Saaz, Huell Melon and Barbe Rouge for Wolf of the Woods. Huell Melon is normalized to Hüll Melon. No IBU is published.
 - The brewery has no individual beer pages; its taproom menu is the beer-url.
 - A BeerMenus search returned no listing for the beer, and web search budget ran out before Untappd could be tried, so IBU and ingredients remain unpublished.
 - No 2026 medal announcement from the brewery was found.

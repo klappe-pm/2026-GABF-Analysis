@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Location conflict: the official winners list gives San Carlos, CA, while the brewery site footer gives a company address at 1402 Grant Ave, San Francisco, CA; the winners list city is kept.
 - Hops and yeast were not found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New third-party hop searches found no recipe naming hop varieties; the brewery's previously recorded empty hop list was not fetched again.

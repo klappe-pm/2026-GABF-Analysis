@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Saison Été 2026"
 tags:
@@ -93,6 +93,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's centennial collaboration article names Saison Été 2026 but publishes neither IBU nor hop varieties. Specifications for its separate classic Saison were excluded.
 - All specs come from the brewery's own product page; the beer collection page files it under Wild Beers.
 - The malts array records barley malt, rye and wheat from the page's mention of malt, wheat and a rye saison base; no specific malt varieties are named.
 - The brewery home page lists 2026 World Beer Cup bronzes for other saisons but no GABF 2026 announcement for this beer.

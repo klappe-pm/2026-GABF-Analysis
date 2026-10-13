@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -91,3 +91,4 @@ As category context only, the closest [Brewers Association guideline](https://ww
 - The quoted description is the middle of a longer narrative passage.
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Jolly Pint release page gives no numerical IBU; the gap remains.

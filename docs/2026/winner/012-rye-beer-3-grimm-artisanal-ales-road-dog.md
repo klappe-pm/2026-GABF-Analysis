@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -91,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The taproom menu agrees on Roggenbier and 5.5%, and links the beer at /beer/road-dog/ while the page that was read sits at /beers/road-dog/.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Untappd photo search results associate Grimm Road Dog with 5.4% ABV, but the opened Surf Club page contained no matching beer text. That excerpt was not accepted; the existing brewery 5.5% is retained. No numeric IBU or named hops were verified.

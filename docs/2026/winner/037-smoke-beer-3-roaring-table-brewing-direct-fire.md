@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found a Roaring Table tap list excerpt naming Direct Fire, but the page timed out when opened. No readable IBU, hop varieties or brewery beer URL were verified. The [BeerAdvocate Direct Fire listing](https://www.beeradvocate.com/beer/profile/50290/808534/) gives 5.25% ABV, compared with the existing 5.3% from [Untappd](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463); the existing strength is retained.
 - Open Brewery DB lists the brewery website as roaringtable.com, but it refused connections over both HTTPS and HTTP during research, so brewery-url is null. roaringtablebrewing.com does not resolve.
 - All specs come from the Untappd listing.
 - No 2026 medal announcement was found.

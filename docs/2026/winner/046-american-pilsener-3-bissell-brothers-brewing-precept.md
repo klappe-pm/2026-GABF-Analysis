@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Beer-specific searches located a matching Untappd listing with no IBU; no verified bitterness figure was found.
 - The brewery page shows a Denver International Beer Competition silver seal; it does not mention GABF 2026.
 - The brewery home page was not fetched separately; brewery-url is the root of the beer page's domain.
 - Researched 2026-10-13.

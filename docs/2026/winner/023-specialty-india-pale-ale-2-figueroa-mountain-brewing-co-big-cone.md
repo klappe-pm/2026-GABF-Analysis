@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Big Cone Black Ale"
 tags:
@@ -36,6 +36,7 @@ place: 2
 sources:
   - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
   - "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
+  - "https://www.beersyndicate.com/app/Beer/Details/37530"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.figmtnbrew.com/"
   - "https://www.figmtnbrew.com/beer-finder"
@@ -88,6 +89,7 @@ As category context only, the closest [Brewers Association guideline](https://ww
 - [The Full Pint: Big Cone release](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/)
 - [Food GPS: founders interview](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Beer Syndicate: Big Cone](https://www.beersyndicate.com/app/Beer/Details/37530)
 
 ## research-notes
 
@@ -96,3 +98,4 @@ As category context only, the closest [Brewers Association guideline](https://ww
 - A search snippet attributed to BeerAdvocate gave 6.5% ABV and a Black IPA style, but the page returned HTTP 403 and was not read, so no ABV is recorded.
 - The quoted description is excerpted, with the omitted words marked by an ellipsis.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A Beer Syndicate keg record gives 6.5% ABV for a label spotted in May 2015. That earlier release does not establish the 2026 beer's strength; ABV, IBU and beer-url remain unfilled.

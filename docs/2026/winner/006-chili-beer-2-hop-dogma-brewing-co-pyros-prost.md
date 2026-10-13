@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Pyros Prost"
 tags:
@@ -34,6 +34,7 @@ malts:
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/HopDogmaBrewingCo/beer"
   - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
   - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -83,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Hop Dogma beer list](https://untappd.com/HopDogmaBrewingCo/beer)
 - [Hop Dogma Brewing Co.](https://www.hopdogma.com/)
 - [BeerMenus: Pyro's Prost (6.0%)](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost)
 - [BeerMenus: Pyros Prost (7.1%)](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost)
@@ -93,3 +95,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery site sits behind an age gate; its beers page loads the list by script and showed no beer names, so beer-url is null.
 - Conflict: BeerMenus entry 87091 says Spiced Beer, 6.0%, "American rye ale brewed with chilies"; entry 77810 says Double IPA, 7.1%, "American rye ale brewed with Anaheim chiles". Neither is dated, so abv is left null.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's Untappd beer list publishes 7.1% ABV for a light blonde ale with jalapeños and N/A IBU, without named hops. This differs from the existing BeerMenus 6.0% chili rye ale and 7.1% Anaheim chile rye descriptions; ABV remains null because the formulations are unresolved. No brewery beer or tap list page was found.

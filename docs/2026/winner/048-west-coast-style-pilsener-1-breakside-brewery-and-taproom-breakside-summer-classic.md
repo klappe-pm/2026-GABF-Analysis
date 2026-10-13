@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Summer Classic"
 tags:
   - "gold"
   - "or"
-abv: null
+abv: 6
 adjuncts: []
 beer: "Breakside Summer Classic"
 beer-url: null
@@ -36,14 +36,16 @@ sources:
   - "https://breakside.com/awards/"
   - "https://breakside.com/beers/"
   - "https://breakside.com/our_beer/summer-classic/"
+  - "https://untappd.com/b/breakside-brewery-summer-classic/6640928"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.toasttab.com/local/order/breakside-brewery-dekum"
 style: "West Coast-Style Pilsener"
 yeast: []
 ---
 
 # 048-west-coast-style-pilsener-1-breakside-brewery-and-taproom-breakside-summer-classic
 
-Breakside Summer Classic is a West Coast-style pilsener entry from Breakside Brewery of Milwaukie, Oregon. The brewery's only published Summer Classic is a summer IPA made with the Hillsboro Hops baseball team, and no pilsener version is published anywhere that could be reached.
+Breakside Summer Classic is a West Coast-style pilsener entry from Breakside Brewery of Milwaukie, Oregon. The Dekum ordering menu confirms that label, while the dedicated brewery page describes an IPA under the same name.
 
 ## award
 
@@ -56,7 +58,7 @@ Breakside Summer Classic is a West Coast-style pilsener entry from Breakside Bre
 | Field | Value | Source |
 |---|---|---|
 | Style | not published for a pilsener version (category name used) | none found |
-| ABV | not published for a pilsener version | none found |
+| ABV | 6% (West Coast Pilsner listing) | [Breakside: Dekum ordering menu](https://www.toasttab.com/local/order/breakside-brewery-dekum) |
 | IBU | not published for a pilsener version | none found |
 | Hops | not published for a pilsener version | none found |
 | Malts and grains | not published for a pilsener version | none found |
@@ -66,7 +68,7 @@ Breakside Summer Classic is a West Coast-style pilsener entry from Breakside Bre
 
 ## brewery-description
 
-The brewery publishes no description of a pilsener Summer Classic. Its Summer Classic page describes an IPA, quoted here for reference only:
+The brewery's Dekum menu identifies a pilsner offering; the dedicated Summer Classic page describes an IPA, quoted here for reference only:
 
 > Thora leads the charge in this hop blend and provides baseline notes of guava and passionfruit.
 
@@ -78,10 +80,12 @@ Nothing is published for a pilsener version. The IPA page's ingredients are reco
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for West Coast-Style Pilsener describes an assertive, crisp lager with bold modern hop character and a body built to carry heavy dry hopping, at 5.0 to 6.0 percent ABV and 30 to 50 IBU. No pilsener specs are published to compare; the IPA page's numbers, noted in research-notes, happen to fall inside those ranges.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for West Coast-Style Pilsener describes an assertive, crisp lager with bold modern hop character and a body built to carry heavy dry hopping, at 5.0 to 6.0 percent ABV and 30 to 50 IBU. The pilsner menu's 6% ABV sits at the upper end of the range; no pilsner IBU was verified.
 
 ## links
 
+- [Breakside: Dekum ordering menu](https://www.toasttab.com/local/order/breakside-brewery-dekum)
+- [Untappd: Summer Classic IPA](https://untappd.com/b/breakside-brewery-summer-classic/6640928)
 - [Breakside Brewery](https://breakside.com/)
 - [Breakside: Summer Classic IPA page](https://breakside.com/our_beer/summer-classic/)
 - [Breakside: beers](https://breakside.com/beers/)
@@ -90,6 +94,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Breakside's Dekum ordering menu explicitly lists Summer Classic as a West Coast Pilsner at 6% ABV, so that strength is filled. The dedicated brewery page and matching Untappd listing describe an IPA; their hops and bitterness are not transferred. No brewery-domain pilsner page, pilsner IBU or named pilsner hops were verified. The ordering menu is cited as a source, not used as beer-url because it is hosted by Toast.
 - Conflict: the official list places Breakside Summer Classic in West Coast-Style Pilsener, while the only Breakside page for the name labels it an India Pale Ale. No pilsener version is published, so the IPA specs may not match the medal entry.
 - The brewery awards page lists a 2026 North American Beer Awards gold for Summer Classic and no GABF 2026 result.
 - Researched 2026-10-13.

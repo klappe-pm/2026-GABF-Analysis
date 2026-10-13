@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -86,6 +86,7 @@ As category context only, the Brewers Association's [craft malt category announc
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional exact-name retailer searches found medal coverage only; ABV, IBU, hops and beer-url remain unverified.
 - Second pass 2026-10-13: No additional matching specs were found in exact-name searches for Hop Dogma, Admiral Chiperton and Sausageton, including ABV and beer-listing searches. The recipe, craft malt supplier and brewery beer page remain unverified.
 - The home page is an age gate; the beers and tap list pages carry no readable beer entries, so the beer could not be checked there.
 - The awards page lists 2026 U.S. Open, World Beer Cup and Brewers Cup of California medals, and GABF medals through 2025, but nothing for this beer and no 2026 GABF result.

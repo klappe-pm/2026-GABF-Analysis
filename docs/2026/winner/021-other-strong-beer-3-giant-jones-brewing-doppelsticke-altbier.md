@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Doppelsticke"
 tags:
@@ -34,8 +34,10 @@ place: 3
 sources:
   - "https://giantjones.com/beer/"
   - "https://giantjones.com/on-tap/"
+  - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.giantjones.com/"
+  - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
 style: "Strong, Northern German-style altbier"
 yeast: []
 ---
@@ -85,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Giant Jones Brewing](https://www.giantjones.com/)
 - [Giant Jones: tasting room list](https://giantjones.com/on-tap/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [PBS: Giant Jones brewing visit](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/)
 
 ## research-notes
 
@@ -93,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No IBU, hops, malts or yeast were found; web search was unavailable for part of this session, so Untappd and press listings were not checked.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The January 2021 PBS transcript mentions "Hallertau, Spalter Select" while brewing Doppelsticke Alt; this earlier brew does not establish the 2026 hops, so hops remain empty. [Untappd's Doppelsticke listing](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763) publishes no IBU and lists 9.3% ABV, versus 9.6% on the existing brewery source; the existing ABV is retained.

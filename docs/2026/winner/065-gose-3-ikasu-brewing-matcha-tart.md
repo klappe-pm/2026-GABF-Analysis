@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -27,12 +27,13 @@ category-name: "Gose"
 category-number: 65
 entries: 36
 hops: []
-ibu: null
+ibu: 10
 malts: []
 medal: "Bronze"
 place: 3
 sources:
   - "https://ikasubrewing.com/menu-light/"
+  - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ikasubrewing.com/"
 style: "Gose w/ Matcha"
@@ -55,7 +56,7 @@ Matcha Tart is a gose brewed with Japanese matcha by Ikasu Brewing, a Japanese-i
 |---|---|---|
 | Style | Gose w/ Matcha | [Ikasu: beer menu](https://ikasubrewing.com/menu-light/) |
 | ABV | 4.0% (the six-pack sampler sheet on the home page gives 4.7%) | [Ikasu: beer menu](https://ikasubrewing.com/menu-light/) |
-| IBU | not published | none found |
+| IBU | 10 | [Ikasu: Matcha Tart listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -78,6 +79,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Ikasu: Matcha Tart listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486)
 - [Beer page on brewery site](https://ikasubrewing.com/menu-light/)
 - [Ikasu Brewing](https://www.ikasubrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The home page's embedded Instagram posts mention the 2026 GABF bronze for Matcha Tart.
 - No Untappd listing could be located without search, and the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Ikasu Untappd listing supplies the bitterness above, but no hop variety. It lists 4.7% ABV, agreeing with the previously recorded sampler sheet and conflicting with the retained 4.0% from the [brewery tap list](https://ikasubrewing.com/menu-light/); the [beer listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486) does not resolve that batch difference.

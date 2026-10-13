@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Open Brewery DB has no entry for the brewery.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, ABV and BeerMenus searches found mentions but no verified specifications. The Stout Week result's porter figures belong to Kronan at The Bier Garden, not Riverside Rhapsody's Baltic Porter, and were excluded.
+- Field pass 2026-10-13: Retailer-focused searches yielded no matching ABV, IBU, brewery beer page or named hops; previous Untappd and BeerMenus searches were not repeated.

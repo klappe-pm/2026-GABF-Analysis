@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Inferno Ale"
 tags:
@@ -27,13 +27,14 @@ category-name: "Other Strong Beer"
 category-number: 21
 entries: 24
 hops: []
-ibu: null
+ibu: 25
 malts: []
 medal: "Gold"
 place: 1
 sources:
   - "https://lostabbey.com/"
   - "https://lostabbey.com/inferno"
+  - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Belgian style Golden Ale"
 yeast: []
@@ -55,7 +56,7 @@ Inferno is a 9% Belgian style golden strong ale from The Lost Abbey in Vista, Ca
 |---|---|---|
 | Style | Belgian style Golden Ale | [Lost Abbey: Inferno](https://lostabbey.com/inferno) |
 | ABV | 9.0% | [Lost Abbey: Inferno](https://lostabbey.com/inferno) |
-| IBU | not published | none found |
+| IBU | 25 | [Craft Beer and Brewing: Inferno review](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -81,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://lostabbey.com/inferno)
 - [The Lost Abbey](https://lostabbey.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Craft Beer and Brewing: Inferno review](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290)
 
 ## research-notes
 
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The page's bottle image is labelled 750 ml, which suggests the package size but is not stated in text.
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU or ingredients.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Craft Beer and Brewing review publishes 25 IBU; no hop varieties are named.

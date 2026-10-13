@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Rose Cider"
 tags:
@@ -85,6 +85,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Cidery trade portfolio](https://www.gowansheirloomcider.com/trade) describes Rosé without numeric IBU or named hops; both structured gaps remain.
 - The cidery's site names the product "Rose Cider"; the winner's name is kept as printed on the official list.
 - ABV, grapes, oak aging and size verified on the product page, which also cites a GABF 2024 gold.
 - No 2026 medal announcement from the cidery was found.

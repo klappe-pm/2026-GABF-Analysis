@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Day Cruise Pale Ale"
 tags:
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Further brewery-domain and retailer searches found Day Cruise XPA mentions but did not tie that version or remix to the medal entry. No ABV, IBU, hop names or qualifying beer URL were accepted.
 - The brewery home page carries a customer review naming the Day Cruise Pale Ale as very refreshing; it gives no specs and is not a brewery description.
 - Not listed on the brewery's beers page (Alta Mar, Hazy Conditions, Dr. Billheimer's, Celestial Navigation, Clear Conditions, Brig Blonde); a guessed beer page at ketchbrewing.com/beers/day-cruise returned 404.
 - A web search for the name returned nothing relevant; the web search quota ran out before further searches, and Untappd search requires a login.

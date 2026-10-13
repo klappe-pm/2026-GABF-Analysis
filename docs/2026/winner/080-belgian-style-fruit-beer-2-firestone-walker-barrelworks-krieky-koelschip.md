@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -88,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: New [bottle release coverage](https://mybeerbuzz.com/beer-industry/breweries/firestone-walker-barrelworks-adding-krieky-koelschip-bottles/) names the beer but yielded no accepted IBU, hop list or brewery-hosted beer URL. The existing gaps remain.
 - The brewery's beer catalog lists six Barrelworks beers (including Balaton Bones, a different cherry beer) and none is this one; a guessed beer page URL returned 404.
 - The web search budget ran out before Untappd or press could be searched; this may be a taproom-only release.
 - Researched 2026-10-13.

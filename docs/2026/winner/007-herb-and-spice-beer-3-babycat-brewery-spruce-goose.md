@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -91,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Style labels differ: the brewery says Winter Warmer, Untappd says imperial red ale.
 - The Untappd URL slug reads "babybat", a typo in Untappd's own address; the page itself names BabyCat Brewery.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found tourism coverage naming spruce tips but no IBU or named hops.

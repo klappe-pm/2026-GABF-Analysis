@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Bobber"
 tags:
@@ -88,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: A [Basso menu from 2019](https://www.basso-stl.com/wp-content/uploads/2019/07/basso-beer-2019.pdf) names Logboat Bobber at 15 IBU. It documents an older release, so that figure is not transferred to the 2026 profile; no current bitterness figure was verified.
 - The brewery page gives no ABV or IBU; the 5.0% ABV comes from BeerMenus, which also lists a separate Dry Hopped Bobber at 4.9%.
 - Style labels differ: the brewery says lager inspired by pale German lagers, BeerMenus says Helles Lager, and the medal came in Czech-Style Pale Lager.
 - No 2026 medal announcement from the brewery was found.

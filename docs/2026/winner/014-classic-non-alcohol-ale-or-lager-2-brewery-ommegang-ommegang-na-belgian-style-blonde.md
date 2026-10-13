@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Non-Alcoholic Belgian-Style Blonde Ale"
 tags:
@@ -32,6 +32,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ommegang.com/"
   - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
@@ -79,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Ommegang NA Blonde](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664)
 - [Beer page on brewery site](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/)
 - [Brewery Ommegang](https://www.ommegang.com/)
 - [Ommegang: limited release beers](https://www.ommegang.com/limited-release/)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery quote above is the opening of a longer sentence on its page.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd page names no hop varieties and lists 0.5% ABV against the existing brewery less than 0.5% bound. No measured alcohol value was established; ABV remains null.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "il"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No brewery medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the matching magazine review with ABV, IBU and the brewer's ingredient description. Noble hops is the published family, not a verified variety. No dedicated brewery beer page was found.
+- Field pass 2026-10-13: A search restricted to the brewery domain found no Left Fork beer or tap-list page; earlier home-page failures and third-party searches were not repeated.

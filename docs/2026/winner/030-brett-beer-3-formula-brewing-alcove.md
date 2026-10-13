@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Alcove was not on the beer and drinks menu when read, and the awards page did not yet list a 2026 GABF medal.
 - IBU, grains, hops and the Brett strain were not found; web search was unavailable for most of this run.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New IBU and hop searches found no matching recipe source or brewery beer page; previously recorded home-page and menu checks were not repeated.

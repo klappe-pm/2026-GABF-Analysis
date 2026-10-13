@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -93,6 +93,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no newly verified IBU or brewery page for Coral Crush. The previously recorded brewery beer page was not revisited.
 - First pass: The brewery's current 13 beer lineup (on tap and to go) does not include Coral Crush, so it is likely a past or rotating release.
 - First pass: The visible part of the Alma Mader Untappd beer list (25 of 347 beers) did not include it.
 - First pass: Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.

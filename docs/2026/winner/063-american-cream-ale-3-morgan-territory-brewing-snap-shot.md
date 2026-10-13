@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The matching listing supplies strength, bitterness and the named hop. It markets the beer as American Lager and mentions its 2026 World Beer Cup silver, linking this name to the cream ale award record. No separate cream ale version was found.
+- Field pass 2026-10-13: Additional brewery-domain and beer-page searches found third-party listings but no qualifying brewery page for Snap Shot. Previously failed brewery tap widgets were not fetched again.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -32,6 +32,7 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.miezabeer.com/"
   - "https://www.miezabeer.com/past-collaborations"
@@ -81,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://www.miezabeer.com/past-collaborations)
 - [Mieza Blendery](https://www.miezabeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [DC Beer: Mieza medal coverage](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/)
 
 ## research-notes
 
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - miezablendery.com is a parked domain; the live site is miezabeer.com.
 - No 2026 medal announcement was found on the site.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact 2026 medal report describes a barrel-aged blond sour on Virginia-grown Malbec grapes but publishes neither IBU nor hops.

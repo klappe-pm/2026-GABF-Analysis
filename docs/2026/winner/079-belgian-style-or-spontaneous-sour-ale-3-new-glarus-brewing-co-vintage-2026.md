@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Vintage 26"
 tags:
   - "bronze"
   - "wi"
-abv: null
+abv: 7.6
 adjuncts: []
 beer: "Vintage 2026"
 beer-url: "https://www.newglarusbrewing.com/pages/specialty-beers"
@@ -28,13 +28,14 @@ category-number: 79
 entries: 31
 hops:
   - "Aged whole cone hops"
-ibu: null
+ibu: 21
 malts:
   - "Raw wheat"
 medal: "Bronze"
 place: 3
 sources:
   - "https://newglarusbrewing.com/"
+  - "https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.newglarusbrewing.com/pages/our-beers"
   - "https://www.newglarusbrewing.com/pages/specialty-beers"
@@ -57,8 +58,8 @@ Vintage 2026, listed by the brewery as Vintage 26, is a coolship and oak-aged Am
 | Field | Value | Source |
 |---|---|---|
 | Style | American Sour Ale | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 7.6% | [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
+| IBU | 21 | [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
 | Hops | aged whole cone hops (variety not named) | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
 | Malts and grains | raw wheat (other grains not named) | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
 | Yeast | not published; the brewery names a coolship step but no culture | none found |
@@ -77,10 +78,11 @@ The brewery names aged whole cone hops and raw wheat, a coolship step and oak ag
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style with the competition category's name; its Belgian-Style Lambic calls for 5.0 to 7.6 percent ABV and 11 to 23 IBU with a primarily lactic sourness, and its Contemporary Belgian-Style Spontaneous Fermented Ale allows 5.0 to 8.9 percent ABV. No ABV or IBU is published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style with the competition category's name; its Belgian-Style Lambic calls for 5.0 to 7.6 percent ABV and 11 to 23 IBU with a primarily lactic sourness, and its Contemporary Belgian-Style Spontaneous Fermented Ale allows 5.0 to 8.9 percent ABV. The published strength fits both cited sour ale ranges; bitterness fits the cited lambic range.
 
 ## links
 
+- [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549)
 - [Beer page on brewery site](https://www.newglarusbrewing.com/pages/specialty-beers)
 - [New Glarus Brewing Co.](https://newglarusbrewing.com/)
 - [New Glarus: our beers](https://www.newglarusbrewing.com/pages/our-beers)
@@ -88,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [2026 Untappd entry](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) supplies ABV and IBU for Vintage 2026 R&D. Its year and spontaneous sour description match the brewery's Vintage 26 release already cited; no other vintage was used.
 - The winners list name Vintage 2026 is matched to the brewery's Vintage 26 on its R&D specialty page by name and style; the brewery uses the two-digit year convention for other 2026 releases (Lots O' Peach 26), but the match is an inference.
 - The specialty page has no individual product page, so it serves as the beer-url.
 - The web search budget ran out before Untappd or press could be searched for ABV; no 2026 medal announcement was found on the brewery home page.

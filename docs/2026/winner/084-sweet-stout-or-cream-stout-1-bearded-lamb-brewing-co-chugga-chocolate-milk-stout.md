@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -79,6 +79,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and release searches found no ABV, IBU, hop names or qualifying brewery beer URL beyond the previous research.
 - The old beardedlambbrewing.com domain redirects to beardedlamb.com, which says a new website is in progress and points to Facebook and Instagram for the tap list; those social pages were not checked.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

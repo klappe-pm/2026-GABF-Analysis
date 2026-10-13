@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [Untappd beer entry](https://untappd.com/b/liability-brewing-company-feral-garden-gnome/3385505) shows N/A IBU; no numerical bitterness was found.
 - The brewery's awards page already lists this GABF 2026 gold, plus a 2026 World Beer Cup gold, a 2026 U.S. Open gold and a 2025 GABF silver.
 - The old domain liabilitybrewing.com redirects to liabilitybrewing.co.
 - No IBU, malt or yeast is published on the brewery site; the web search budget ran out before third party sources could be searched.

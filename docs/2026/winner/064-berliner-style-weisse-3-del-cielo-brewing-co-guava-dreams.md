@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
   - "ca"
-abv: null
+abv: 4.5
 adjuncts: []
 beer: "Guava Dreams"
 beer-url: "https://www.delcielobrewing.com/award-winning-beers"
@@ -25,12 +25,14 @@ brewery-url: "https://www.delcielobrewing.com/"
 category-name: "Berliner-Style Weisse"
 category-number: 64
 entries: 38
-hops: []
-ibu: null
+hops:
+  - "Sterling"
+ibu: 9
 malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.delcielobrewing.com/"
   - "https://www.delcielobrewing.com/award-winning-beers"
@@ -54,9 +56,9 @@ Guava Dreams is a kettle sour from Del Cielo Brewing Co., whose taproom is at 70
 | Field | Value | Source |
 |---|---|---|
 | Style | Kettle Sour | [Del Cielo: award winning beers](https://www.delcielobrewing.com/award-winning-beers) |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| ABV | 4.5% | [Del Cielo: Guava Dreams listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952) |
+| IBU | 9 | [Del Cielo: Guava Dreams listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952) |
+| Hops | Sterling | [Del Cielo: Guava Dreams listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -68,14 +70,15 @@ No brewery description of Guava Dreams was found; the awards page shows only an 
 
 ## ingredients
 
-Nothing about the ingredients is published on any page that could be read; guava is implied by the name but not stated.
+The [matching beer listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952) names the hop recorded above. Other ingredient fields were outside this targeted field pass.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Berliner-Style Weisse calls for a light, very dry, highly carbonated beer with sharp lactic sourness, 2.8 to 5.0 percent ABV and 3 to 6 IBU. No published specs exist to compare against it.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Berliner-Style Weisse calls for a light, very dry, highly carbonated beer with sharp lactic sourness, 2.8 to 5.0 percent ABV and 3 to 6 IBU. The published strength fits the category range; bitterness exceeds it.
 
 ## links
 
+- [Del Cielo: Guava Dreams listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952)
 - [Beer page on brewery site](https://www.delcielobrewing.com/award-winning-beers)
 - [Del Cielo Brewing Co.](https://www.delcielobrewing.com/)
 - [Del Cielo: Martinez menu](https://www.delcielobrewing.com/martinez-menu)
@@ -88,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search budget ran out before the beer could be searched on Untappd.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Del Cielo Untappd listing supplies ABV, IBU and the hop variety recorded in the specs table. These are product figures, not independently verified measurements of the competition batch.

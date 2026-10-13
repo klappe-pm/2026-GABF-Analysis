@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd Nowhere To Be beer page publishes no IBU; no verified bitterness figure was found.
 - The beer was not in the brewery's current 29 beer lineup on its home page, but its own page is still live.
 - The brewery wrote "Sure, this really is a simple beer, but it's very much in that desert island zone" followed by an ellipsis; the ellipsis is shown as a comma in the quote.
 - No 2026 medal announcement from the brewery was found.

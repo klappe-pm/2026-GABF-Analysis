@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -17,7 +17,7 @@ tags:
 abv: 5.3
 adjuncts: []
 beer: "Kolsch"
-beer-url: null
+beer-url: "https://www.liquidmechanicsbrewing.com/ridiculus-lorem"
 brewery: "Liquid Mechanics Brewing Co."
 brewery-city: "Lafayette"
 brewery-state: "CO"
@@ -61,7 +61,7 @@ Kolsch is a beer from Liquid Mechanics Brewing Co., which calls itself a small n
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Other | year-round; brewery lineup used in place of a dedicated beer page | [Liquid Mechanics: classic lineup](https://www.liquidmechanicsbrewing.com/ridiculus-lorem) |
 
 ## brewery-description
 
@@ -82,7 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Liquid Mechanics Brewing Co.](https://www.liquidmechanicsbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [BeerAdvocate: Liquid Mechanics Kolsch](https://www.beeradvocate.com/beer/profile/36211/141131/)
-- [Liquid Mechanics: year-round beers](https://www.liquidmechanicsbrewing.com/ridiculus-lorem)
+- [Liquid Mechanics: Kolsch in the classic lineup](https://www.liquidmechanicsbrewing.com/ridiculus-lorem)
 - [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772)
 
 ## research-notes
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd page supplies the selected strength and bitterness; BeerAdvocate lists 5% ABV instead. The brewery confirms year-round availability but publishes no figures on that page, so the strength conflict remains unresolved. Flavor references are not treated as named ingredients.
+- Field pass 2026-10-13: The previously verified brewery classics page explicitly lists Kolsch and is assigned as beer-url because no dedicated page was found. Its link and source entry were already present. No hop variety was verified in additional searches.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Drunkin Punkin"
 tags:
@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery website returned 403 to automated reads; Untappd and web searches found no listing.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found [Untappd's Drunkin' Punkin' listing](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos) at 8.1% ABV and [BeerMenus' listing](https://www.beermenus.com/breweries/15951-new-york-beer-project) at 9.3%. These listings are associated with the Lockport brewery and do not establish the Winter Garden medal beer's formulation. Structured specifications remain null; the separately named barrel aged variant was excluded.
+- Field pass 2026-10-13: Winter Garden focused searches found local 2026 fall coverage naming Drunken Punkin at the Orlando location, but no ABV, IBU or hop varieties. The previously recorded Lockport specifications remain excluded and no matching brewery beer page was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "fl"
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd verifies the exact beer and strength. CraftBeer.com reports the brewery's Cuban-American Lager label, which differs from the competition category; no separate Padron version was identified. No IBU or ingredients were published.
+- Field pass 2026-10-13: Additional technical-field and brewery-page searches found staff favorite mentions and ordering excerpts for Padron, but no verified IBU, hop variety or qualifying brewery beer page.

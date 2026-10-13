@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [2026 Lorien listing](https://untappd.com/v/sunriver-brewing-company/11250175/beers) names Figata Fresca but reports N/A ABV and N/A IBU and provides no recipe. Lorien appears only in the listing name, and the competition batch match remains unconfirmed; no structured fields were filled.
 - Second pass 2026-10-13: The brewery ordering menu confirms the fresh hop Italian pilsner style and four-pack. Search results mention a 2026 Lorien variant, but the opened venue page did not display it. Its ABV, IBU and hop recipe remain unverified.
 - The brewery beer list does not include Figata Fresca; the link to Che Figata rests only on the shared name and is not confirmed.
 - The Sunriver home page cites GABF Brewery of the Year titles in 2017 and 2024 but no 2026 result.

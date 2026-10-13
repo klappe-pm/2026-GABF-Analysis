@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Oktoberfest"
 tags:
@@ -91,6 +91,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches found no named hop varieties for Altstadt Oktoberfest; herbal flavor notes are not ingredient evidence.
 - The beer page and the beer list agree on 5.9% ABV and 16 IBU.
 - The brewery's medal post quotes head brewer Craig Rowan on the beer; an Instagram post embedded on the brewery home page refers to the Oktoberfest as a "limited 10th anniversary beer release."
 - The beer page notes the Houston Chronicle named it a favorite among 12 Oktoberfest beers; that article was not opened.

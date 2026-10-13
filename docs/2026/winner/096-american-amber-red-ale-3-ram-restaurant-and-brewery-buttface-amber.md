@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Buttface Amber Ale"
 tags:
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [C.B. & Potts menu](https://www.bringmethat.com/restaurant/co/fort-collins/80521/cb-and-potts) names Nugget, Cascade and Willamette for Buttface Amber, but does not establish the current RAM competition recipe; hops remain unverified.
 - Specs and description come from the Tacoma location's menu page; there is no individual beer page.
 - The menu entry carries a "2024 GABF Silver Medal" note beside the beer, an earlier award; no 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

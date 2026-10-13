@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "The Gatekeeper Porter"
 tags:
@@ -34,6 +34,7 @@ malts:
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.littlebrotherbrew.com/"
   - "https://www.littlebrotherbrew.com/beerlibrary"
@@ -80,6 +81,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Untappd: Little Brother Gatekeeper](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825)
 - [Beer page on brewery site](https://www.littlebrotherbrew.com/beerlibrary)
 - [Little Brother Brewing](https://www.littlebrotherbrew.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The quote is the appearance section of a longer tasting description; the full text was not reproduced.
 - Web search was unavailable for part of this session, so third party listings (Untappd, press) were not checked.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd page gives N/A IBU and describes balanced hop bitterness without naming varieties.

@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
   - "ny"
-abv: null
+abv: 5.9
 adjuncts:
   - "Allspice"
   - "Cinnamon"
@@ -37,6 +37,7 @@ place: 1
 sources:
   - "https://communitybeerworks.com/"
   - "https://communitybeerworks.com/beers"
+  - "https://untappd.com/communitybeerworks/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
 style: "Brown ale (Whale series)"
@@ -58,7 +59,7 @@ Pumpkin Spice Whale is a limited edition, pumpkin pie spiced version of The Whal
 | Field | Value | Source |
 |---|---|---|
 | Style | brown ale, part of the Whale series | [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew) |
-| ABV | not published | none found |
+| ABV | 5.9% | [Untappd: Community Beer Works beer list](https://untappd.com/communitybeerworks/beer) |
 | IBU | not published | none found |
 | Hops | English hops (varieties not named) | [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew) |
 | Malts and grains | English malts (varieties not named) | [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew) |
@@ -82,10 +83,11 @@ The launch report lists the spice blend and says "Distinct English malts and hop
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Pumpkin Spice Beer as having pumpkin or squash character from very subtle to intense with spices present and in balance, at 5 to 35 IBU and 2.5 to 12 percent ABV. A spiced brown ale matches the spiced side of the pumpkin category; no ABV or IBU is published to compare.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Pumpkin Spice Beer as having pumpkin or squash character from very subtle to intense with spices present and in balance, at 5 to 35 IBU and 2.5 to 12 percent ABV. A spiced brown ale matches the spiced side of the pumpkin category; the newly verified strength falls within the category range; bitterness remains unpublished.
 
 ## links
 
+- [Untappd: Community Beer Works beer list](https://untappd.com/communitybeerworks/beer)
 - [Community Beer Works](https://communitybeerworks.com/)
 - [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -96,3 +98,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Style, spices, packaging and quotes come from the WKBW launch report, whose posting date is not shown on the page.
 - ABV, IBU, malt and hop varieties and yeast are not published on any page read.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's Untappd list publishes 5.9% ABV for Pumpkin Spice Whale, with N/A IBU and no named hop varieties. No readable brewery beer page was found.

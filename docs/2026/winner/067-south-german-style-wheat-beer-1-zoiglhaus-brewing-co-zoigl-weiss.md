@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -86,3 +86,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No Untappd listing could be located without search, and the shared web search budget ran out during this batch.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop searches found no named variety. A Zoigl-Weiss release article could not be read, so no ingredient claim was accepted from it.

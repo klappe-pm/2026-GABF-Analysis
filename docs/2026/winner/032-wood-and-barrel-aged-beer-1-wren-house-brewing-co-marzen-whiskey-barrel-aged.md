@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "az"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - A web search for a Wren House whiskey barrel aged Märzen found no listing or press.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact whiskey variant, explicitly identified as the 2026 GABF winner. Its own listing confirms ABV, hops, broad malt groups, barrel source and duration; the unaged and mead barrel variants were excluded.
+- Field pass 2026-10-13: A new brewery-domain search for the whiskey variant found no beer page or numerical IBU; the previously recorded Untappd variant and brewery tap list were not fetched again.

@@ -9,15 +9,15 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
   - "ca"
-abv: null
+abv: 6.5
 adjuncts: []
 beer: "Funk Yeah Montmorency Cherry"
-beer-url: null
+beer-url: "https://beachwoodbrewing.com/secondpch.html"
 brewery: "Beachwood Blendery"
 brewery-city: "Long Beach"
 brewery-state: "CA"
@@ -32,6 +32,7 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://beachwoodbrewing.com/blendery.html"
+  - "https://beachwoodbrewing.com/secondpch.html"
   - "https://shop.beachwoodbrewing.com/"
   - "https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles"
   - "https://www.beachwoodbrewing.com/"
@@ -54,8 +55,9 @@ Funk Yeah Montmorency Cherry is a Belgian-style sour from Beachwood Blendery, th
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html) |
 | Style | not published by the brewery; the competition category is used | none found |
-| ABV | not published | none found |
+| ABV | 6.5% | [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -65,18 +67,19 @@ Funk Yeah Montmorency Cherry is a Belgian-style sour from Beachwood Blendery, th
 
 ## brewery-description
 
-No description from the brewery was found; the beer is absent from the Blendery page and the online bottle shop.
+The [brewery's 2nd and PCH listing](https://beachwoodbrewing.com/secondpch.html) describes a blended, three-year sour ale with Montmorency cherry.
 
 ## ingredients
 
-No ingredient is published for this beer. The Blendery page describes the program's general methods, "un-malted wheat, aged hops, spontaneous fermentation," without tying them to this beer ([Beachwood: Blendery](https://beachwoodbrewing.com/blendery.html)). Montmorency cherry is in the name but not confirmed by a source, so it is not recorded.
+No hop varieties are published for this beer in the [newly located bottle list](https://beachwoodbrewing.com/secondpch.html). The Blendery program's general reference to aged hops does not establish this beer's hop bill, so the hops array remains empty.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Fruit Beer calls for 2.5 to 12.0 percent ABV, 5 to 30 IBU and 5 to 50 SRM, with fruit aromas ranging from subtle to intense. No specs are published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Fruit Beer calls for 2.5 to 12.0 percent ABV, 5 to 30 IBU and 5 to 50 SRM, with fruit aromas ranging from subtle to intense. The published strength fits the cited range; bitterness remains unverified.
 
 ## links
 
+- [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html)
 - [Beachwood: Blendery](https://beachwoodbrewing.com/blendery.html)
 - [Beachwood Brewing](https://www.beachwoodbrewing.com/)
 - [Beachwood: Blendery bottle shop](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles)
@@ -84,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's 2nd and PCH page now renders the exact Montmorency Cherry variant and supplies ABV. That taproom and bottle list serves as beer-url because no dedicated beer page was found. IBU and hop varieties are not published for this entry.
 - The online shop lists five Blendery sours (Pear-anormal, Strawberry Provence, Little Secrets, Kriek, Umeboshi); none is this beer.
 - The old beachwoodbbq.com domain fails its certificate check; the brewery now uses beachwoodbrewing.com.
 - The web search budget ran out before Untappd or press could be searched for specs.

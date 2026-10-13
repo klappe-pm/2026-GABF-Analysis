@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -88,6 +88,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Matching Gowan listing](https://untappd.com/b/gowan-s-heirloom-ciders-spiced-apple/3518398) reports N/A IBU and no named hops; no bitterness or hop recipe was verified.
 - ABV, apples, spices and size verified on the cidery's product page, which also cites a 2025 GABF gold for this cider.
 - Yeast is not published.
 - No 2026 medal announcement from the cidery was found.

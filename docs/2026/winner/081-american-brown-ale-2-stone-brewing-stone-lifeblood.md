@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Lifeblood"
 tags:
@@ -18,7 +18,7 @@ tags:
 abv: 6.8
 adjuncts: []
 beer: "Stone Lifeblood"
-beer-url: null
+beer-url: "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
 brewery: "Stone Brewing"
 brewery-city: "Paso Robles"
 brewery-state: "CA"
@@ -35,6 +35,7 @@ sources:
   - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
   - "https://untappd.com/b/stone-brewing-stone-lifeblood/428296"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
   - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
 style: "American Brown Ale"
 yeast: []
@@ -54,6 +55,7 @@ Stone Lifeblood is an American brown ale developed at Stone Brewing's Liberty St
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Stone: Liberty Station draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | Style | American Brown Ale | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | ABV | 6.8% (brewery draft list and Untappd agree) | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | IBU | 60 | [Untappd: Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296) |
@@ -79,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Additional beer research](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale)
 - [Stone Brewing](https://www.stonebrewing.com/)
 - [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list)
 - [Untappd: Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296)
@@ -87,7 +90,8 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
-- Stone has no product page for Lifeblood; several older Stone event pages for the beer turned up in search but now return 404, so beer-url is null. One of those archived event pages appeared in search with a different ABV that could not be opened to verify.
+- Field pass 2026-10-13: The previously cited Liberty Station draft list names Stone Lifeblood and qualifies as beer-url; no dedicated product page was found. The [Lifeblurred product page](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale) names Cascade for the separate imperial beer, so that hop was not transferred.
+- Stone has no product page for Lifeblood; several older Stone event pages for the beer turned up in search but now return 404, so the earlier pass left beer-url empty. One of those archived event pages appeared in search with a different ABV that could not be opened to verify.
 - The draft list names Stone Liberty Station in San Diego as the brewer, while the official results list Paso Robles; both are recorded as given.
 - The Brewer reports a 2023 World Beer Cup bronze and 2022 and 2023 San Diego International Beer Competition golds, and notes a stronger imperial version called Lifeblurred; the Untappd description also lists a 2025 GABF bronze.
 - IBU comes only from Untappd.

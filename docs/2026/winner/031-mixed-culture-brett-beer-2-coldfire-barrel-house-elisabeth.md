@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -36,6 +36,7 @@ sources:
   - "https://coldfirebrewing.com/"
   - "https://coldfirebrewing.com/awards/"
   - "https://coldfirebrewing.com/beer/"
+  - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Bière de Coupage"
 yeast: []
@@ -84,6 +85,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [ColdFire Brewing](https://coldfirebrewing.com/)
 - [ColdFire: awards](https://coldfirebrewing.com/awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: ColdFire Elisabeth](https://untappd.com/b/coldfire-brewing-elisabeth/2336777)
 
 ## research-notes
 
@@ -92,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery site lists the ColdFire Barrel House at 263 Mill Street, Eugene, open for special events, alongside the Public House and a production brewery in Junction City.
 - IBU, grains and cultures were not found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Elisabeth listing publishes N/A IBU; the numerical gap remains.

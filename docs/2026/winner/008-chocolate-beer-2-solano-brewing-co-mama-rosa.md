@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -26,13 +26,14 @@ category-name: "Chocolate Beer"
 category-number: 8
 entries: 30
 hops: []
-ibu: null
+ibu: 24
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://solanobrew.com/"
   - "https://solanobrew.com/our-beers/"
+  - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
 style: "Chocolate Beer"
@@ -55,7 +56,7 @@ Mama Rosa is a beer from Solano Brewing Co. in Vacaville, California, shown on t
 |---|---|---|
 | Style | Chocolate Beer (category name; no brewery label found) | none found |
 | ABV | not published | none found |
-| IBU | not published | none found |
+| IBU | 24 | [Untappd: Solano Mama Rosa](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -76,6 +77,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Solano Mama Rosa](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205)
 - [Beer page on brewery site](https://solanobrew.com/our-beers/)
 - [Solano Brewing Co.](https://solanobrew.com/)
 - [Visit Vacaville: Solano Brewing](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/)
@@ -87,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The home page and Our Beers page show Mama Rosa only as label images (files uploaded in 2026), with no style, ABV or description in the page text.
 - Untappd and web searches found no listing; the only other Mama Rosa results were an unrelated Texas rosé wine.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Solano listing publishes 24 IBU and no named hop varieties. Its ABV header says 10%, while its brewer description says 10.5%; ABV remains null because the same page conflicts.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -26,7 +26,7 @@ category-name: "German-Style Schwarzbier"
 category-number: 59
 entries: 59
 hops: []
-ibu: null
+ibu: 25
 malts: []
 medal: "Bronze"
 place: 3
@@ -35,6 +35,7 @@ sources:
   - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
   - "https://taplist.io/locavorebeerworks"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.ipourit.com/beer/Locavore-Beer-Works"
   - "https://www.locavorebeerworks.com/pages/tap-list"
 style: "Dark German Schwarzbier"
 yeast: []
@@ -56,7 +57,7 @@ Friend of the Devil is a schwarzbier from Locavore Beer Works, a Littleton, Colo
 |---|---|---|
 | Style | Dark German Schwarzbier | [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks) |
 | ABV | 5.5% | [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks) |
-| IBU | not published | none found |
+| IBU | 25 | [Locavore: pouring directory](https://www.ipourit.com/beer/Locavore-Beer-Works) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -77,6 +78,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Locavore: pouring directory](https://www.ipourit.com/beer/Locavore-Beer-Works)
 - [Locavore Beer Works](https://www.locavorebeerworks.com/)
 - [Locavore: tap list](https://www.locavorebeerworks.com/pages/tap-list)
 - [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks)
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Colorado Brewery List's record of the brewery's beers does not include Friend of the Devil.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The iPourIt brewery directory names Friend of the Devil and supplies the bitterness above, but no hop varieties or brewery beer page. Its 5.1% ABV conflicts with the retained 5.5% from the [brewery digital menu](https://taplist.io/locavorebeerworks); the [directory](https://www.ipourit.com/beer/Locavore-Beer-Works) may describe a different batch.

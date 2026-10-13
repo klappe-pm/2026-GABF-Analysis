@@ -11,7 +11,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - ABV, IBU and ingredients were not found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, ABV and BeerMenus searches plus readable Patch and NJ1015 launch reports supplied no additional numerical specifications or recipe ingredients. The structured gaps remain; a non-alcoholic description is not an exact ABV.
+- Field pass 2026-10-13: A new exact beer-name search restricted to brewery pages found no additional beer page, numeric ABV, IBU or named hops; earlier Untappd, BeerMenus and launch-report searches were not repeated.

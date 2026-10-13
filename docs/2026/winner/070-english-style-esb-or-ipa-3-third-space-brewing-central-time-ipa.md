@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -25,12 +25,16 @@ brewery-url: "https://thirdspacebrewing.com/"
 category-name: "English-Style ESB or IPA"
 category-number: 70
 entries: 51
-hops: []
+hops:
+  - "Chinook"
+  - "Krush"
+  - "Simcoe"
 ibu: null
 malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/"
   - "https://thirdspacebrewing.com/"
   - "https://thirdspacebrewing.com/beer/"
   - "https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc"
@@ -56,7 +60,7 @@ Central Time IPA is a core, year-round IPA from Third Space Brewing in Milwaukee
 | Style | not labelled beyond the name (category name used) | none found |
 | ABV | 6.0% | [Third Space: beer](https://thirdspacebrewing.com/beer/) |
 | IBU | not published (the page shows a blank IBU field) | none found |
-| Hops | not published | none found |
+| Hops | Chinook, Krush, Simcoe | [Third Space: brewer interview](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -70,7 +74,7 @@ Source: [Third Space: home page Instagram feed](https://thirdspacebrewing.com/)
 
 ## ingredients
 
-Nothing about ingredients is published; the beer list entry for Central Time IPA has no description.
+An [interview with the brewery co-owner](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) names the hops recorded above and describes a malty backbone, without naming the grains.
 
 ## style-context
 
@@ -78,6 +82,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Third Space: brewer interview](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/)
 - [Beer page on brewery site](https://thirdspacebrewing.com/beer/)
 - [Third Space Brewing](https://thirdspacebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -89,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's Untappd beer list was read but its first page did not include Central Time IPA, so no Untappd specs were found.
 - A plain fetch of the brewery site later returned HTTP 511, so quoted text could not be rechecked character by character.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A July 2026 Isthmus article explicitly names Third Space Central Time IPA and quotes co-owner Andy Gehl identifying the three hops recorded above. No verified IBU was found; Driftless Brewing's same-named farmhouse IPA is unrelated and its recipe is excluded.

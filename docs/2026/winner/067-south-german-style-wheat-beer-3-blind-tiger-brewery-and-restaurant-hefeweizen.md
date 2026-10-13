@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's awards page lists past medals (for example County Seat Wheat at GABF 2009 and 2010) but no hefeweizen award and nothing from 2026.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional brewery-domain and ingredient searches found no named hop variety or qualifying beer page. A brewery merchandise PDF mentioning a hefeweizen glass does not establish the recipe.

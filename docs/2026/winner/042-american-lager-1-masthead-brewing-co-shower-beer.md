@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd beer page gives no IBU and names no hops. No new brewery page naming Shower Beer was found.
 - The brewery home page, beer ordering page and 19 item taproom menu do not list Shower Beer, so there is no beer-url.
 - The visible part of the Masthead Untappd beer list (about 25 of its beers) did not include it.
 - An unrelated Swedish "Shower Beer" (a pale ale) turns up in press; it is not this beer.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -83,6 +83,7 @@ As competition context only, the [GABF Collaboration Competition page](https://w
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional retailer and New Image domain searches found no matching ABV, IBU, named hops or brewery beer page.
 - Second pass 2026-10-13: No additional matching specifications were found in searches for Neon Lady with Offset Bier, New Image, Untappd and beer menus. Results about an unrelated Minnesota sour-beer business do not identify this collaboration and were excluded.
 - Offset Bier's home page, tap list and cans list do not mention Neon Lady or New Image.
 - No website for New Image Brewing could be reached; two guessed domains did not resolve, so no New Image link is given.

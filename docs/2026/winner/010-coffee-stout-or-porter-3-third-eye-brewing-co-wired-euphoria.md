@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The Hamilton tap page lists no beers, and a site search for the beer returned only event pages.
 - Web searches found no Untappd listing, ABV or IBU.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Specification and Untappd focused searches found earlier Ohio medal coverage but no verified ABV, IBU, brewery beer page or hop names; unrelated Euphoria beers were excluded.

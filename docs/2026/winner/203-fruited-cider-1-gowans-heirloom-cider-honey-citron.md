@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -85,6 +85,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Cidery trade portfolio](https://www.gowansheirloomcider.com/trade) describes Honey Citron without numeric IBU or named hops; both structured gaps remain.
 - ABV, size and ingredients verified on the cidery's product page, which also cites a GABF 2025 gold for this cider.
 - Apple varieties, honey type and yeast are not published.
 - No 2026 medal announcement from the cidery was found.
