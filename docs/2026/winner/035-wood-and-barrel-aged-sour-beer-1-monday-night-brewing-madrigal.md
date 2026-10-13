@@ -97,3 +97,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Untappd lists three editions with different ABVs: 6.3% (blend aged 12 to 36 months), 7.3% (2023 edition) and 7% (2025 edition). Which edition was entered in 2026 is not published, so no ABV is recorded.
 - No 2026 GABF post was found on the brewery blog.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: nothing more was found. The brewery's awards category holds only US Open and 2023 GABF posts, no BeerMenus or Tavour listing for Madrigal turned up, and the taproom Toast menus seen in search results returned 403 when opened.

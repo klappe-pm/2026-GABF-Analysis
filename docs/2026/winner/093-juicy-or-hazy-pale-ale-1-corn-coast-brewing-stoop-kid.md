@@ -85,3 +85,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search quota ran out before a search for this beer could run, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: a web search for the beer with the brewery returned no page naming a Corn Coast beer called Stoop Kid (the only Stoop Kid hit was an unrelated 2020 homebrew recipe on Brewer's Friend); the search budget then ran out, so Untappd and BeerMenus were not reached and nothing more was found.
