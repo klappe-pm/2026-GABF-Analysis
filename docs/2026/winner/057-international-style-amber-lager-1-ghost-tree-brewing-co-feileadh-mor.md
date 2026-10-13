@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Feileadh Mor"
 tags:
@@ -33,6 +33,7 @@ medal: "Gold"
 place: 1
 sources:
   - "https://ghosttreebrewing.com/beer-finder/"
+  - "https://ghosttreebrewing.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ghosttreebrewing.com/"
 style: "International-Style Amber Lager"
@@ -79,10 +80,12 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Ghost Tree Brewing Co.](https://www.ghosttreebrewing.com/)
 - [Ghost Tree: beer finder](https://ghosttreebrewing.com/beer-finder/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Ghost Tree: beer lineup](https://ghosttreebrewing.com/beers/)
 
 ## research-notes
 
-- The brewery home page features six beers (IPAs, a pilsner and blonde ales) and does not list Fèileadh Mòr; the beer finder page loads its entries dynamically and showed none.
-- Web searches for the beer name, with and without accents, and an Untappd brewery page lookup found nothing.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewery home page features six beers (IPAs, a pilsner and blonde ales) and does not list Fèileadh Mòr; the beer finder page loads its entries dynamically and showed none.
+- First pass: Web searches for the beer name, with and without accents, and an Untappd brewery page lookup found nothing.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: The brewery's beer page names Féileadh Mòr as an Irish Red Ale at 5.8% ABV, conflicting with the winning amber lager category. No page establishes a lager version or ties that recipe to this medal; strength and ingredients remain unassigned.

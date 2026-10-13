@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Day Cruise Pale Ale"
 tags:
@@ -33,6 +33,8 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://ketchbrewing.com/beers"
+  - "https://untappd.com/v/ketch-brewing/8611018"
+  - "https://www.beeradvocate.com/beer/profile/55354/404532/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ketchbrewing.com/"
 style: "New Zealand-Style Pale Ale"
@@ -76,6 +78,8 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [BeerAdvocate: Day Cruise XPA](https://www.beeradvocate.com/beer/profile/55354/404532/)
+- [Ketch: Untappd taproom menu](https://untappd.com/v/ketch-brewing/8611018)
 - [Ketch Brewing](https://www.ketchbrewing.com/)
 - [Ketch Brewing: beers](https://ketchbrewing.com/beers)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -87,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A web search for the name returned nothing relevant; the web search quota ran out before further searches, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: BeerAdvocate lists Day Cruise XPA at 5% ABV, while the brewery's Untappd menu search result identifies Day Cruise (remix) as an extra pale ale with New Zealand hops. The fetched menu did not reliably expose that entry. Neither version was conclusively tied to the medal name, so specifications remain null.

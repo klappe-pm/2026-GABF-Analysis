@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "fl"
@@ -31,6 +31,7 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
   - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
   - "https://untappd.com/NewYorkBeerProject/beer?q=light"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -79,11 +80,13 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Light New York Beer](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025)
 - [Untappd: New York Beer Project light beers](https://untappd.com/NewYorkBeerProject/beer?q=light)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Buffalo Beer Buzz: March release news](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026)
 
 ## research-notes
 
-- The brewery website (Open Brewery DB lists nybeerproject.com, at the Lockport, NY brewpub) returned HTTP 403 with and without www.
-- Untappd searches for "light" and "beer project light" under the brewery return only Light New York Beer (Lager, Other Light, 4% ABV, no IBU), with check-ins at New York Beer Project Orlando among other venues. The name differs from the GABF entry, so it is not confirmed as the same beer and its specs are not used.
-- The style label for this file is the category name.
-- No 2026 medal announcement was found; web search was unavailable for this run.
-- Researched 2026-10-13.
+- First pass: The brewery website (Open Brewery DB lists nybeerproject.com, at the Lockport, NY brewpub) returned HTTP 403 with and without www.
+- First pass: Untappd searches for "light" and "beer project light" under the brewery return only Light New York Beer (Lager, Other Light, 4% ABV, no IBU), with check-ins at New York Beer Project Orlando among other venues. The name differs from the GABF entry, so it is not confirmed as the same beer and its specs are not used.
+- First pass: The style label for this file is the category name.
+- First pass: No 2026 medal announcement was found; web search was unavailable for this run.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: A March 2026 Buffalo Beer Buzz episode names Beer Project Light as a new NYBP light lager but publishes no technical specifications. No source establishes that Light New York Beer is the same product; the structured gaps remain.

@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - ABV, IBU, hops and a description of the Altbier were not found on the brewery's home, menu, our story or FAQ pages; one web search found no other listing for the beer.
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Exact beer and brewery searches with Untappd, ABV, BeerMenus and 2026 GABF found medal coverage but no additional specifications. No beer-specific grain, hop or yeast declaration was found.

@@ -77,6 +77,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Second pass 2026-10-13: No readable specifications for the 2026 release were found. The Peaks and Pints article is dated October 1, 2025, and detailed Untappd results concern 2024 or 2025 releases. A search result names a 2026 release, but the opened venue page did not contain it; older harvest values were excluded.
 - Two likely brewery domains failed: vicebeer.com redirects to a domain for sale parking page, and vice.beer refused the connection, so no brewery URL could be verified.
 - The session web search budget was exhausted before this beer or the brewery could be searched, so Untappd, retailer listings and press were not reached.
 - No 2026 medal announcement from the brewery was found.

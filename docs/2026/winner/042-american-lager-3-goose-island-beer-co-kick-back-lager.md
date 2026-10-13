@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
@@ -35,6 +35,7 @@ sources:
   - "https://www.beermenus.com/search?q=goose+island+kick+back"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.gooseisland.com/beers"
+  - "https://www.gooseisland.com/saltshedpub"
   - "https://www.gooseisland.com/view-all"
 style: "American Lager"
 yeast: []
@@ -80,11 +81,13 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Goose Island: all beers](https://www.gooseisland.com/view-all)
 - [Untappd: Goose Island beer list](https://untappd.com/GooseIsland/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Goose Island: Salt Shed pub](https://www.gooseisland.com/saltshedpub)
 
 ## research-notes
 
-- The Goose Island beer listing pages load their beers by script and returned only "Loading beers"; guessed beer page paths returned 404.
-- The visible part of the Goose Island Untappd beer list and a BeerMenus search showed no Kick Back.
-- A web search snippet from a BeerAdvocate brewery listing showed a Goose Island "Kick Back" as an American Lager at 4.6% added in June 2024, but that page returned 403 when opened, so the figure is unverified and not used.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The Goose Island beer listing pages load their beers by script and returned only "Loading beers"; guessed beer page paths returned 404.
+- First pass: The visible part of the Goose Island Untappd beer list and a BeerMenus search showed no Kick Back.
+- First pass: A web search snippet from a BeerAdvocate brewery listing showed a Goose Island "Kick Back" as an American Lager at 4.6% added in June 2024, but that page returned 403 when opened, so the figure is unverified and not used.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Searches located the brewery's Salt Shed page advertising Kick Back lagers, but no readable beer specification page. The BeerAdvocate brewery listing remained inaccessible; its earlier unverified strength is still excluded.

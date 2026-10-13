@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "co"
   - "gold"
-abv: null
+abv: 4.8
 adjuncts: []
 beer: "Dry Irish Stout"
 beer-url: null
@@ -26,11 +26,12 @@ category-name: "Porter or Stout"
 category-number: 82
 entries: 54
 hops: []
-ibu: null
+ibu: 39
 malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/v/bent-barley-brewing-company/8302340"
   - "https://www.bentbarley.com/"
   - "https://www.bentbarley.com/menu.html"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -54,8 +55,8 @@ Dry Irish Stout is a dry stout in the Irish tradition from Bent Barley Brewing C
 | Field | Value | Source |
 |---|---|---|
 | Style | Dry Irish Stout (from the beer name) | [Visit Aurora: Bent Barley profile](https://www.visitaurora.com/blog/meet-your-neighbor-bent-barley-brewing/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 4.8% | [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340) |
+| IBU | 39 | [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -72,10 +73,11 @@ Nothing about ingredients is published.
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) read for this profile list porters and stouts as separate styles; the closest is Classic Irish-Style Dry Stout, black and coffee-like from roasted barley with a dry roasted finish, 4.1 to 5.3 percent ABV and 30 to 40 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) read for this profile list porters and stouts as separate styles; the closest is Classic Irish-Style Dry Stout, black and coffee-like from roasted barley with a dry roasted finish, 4.1 to 5.3 percent ABV and 30 to 40 IBU. The published strength and bitterness fit the cited dry stout ranges.
 
 ## links
 
+- [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340)
 - [Bent Barley Brewing Co.](https://www.bentbarley.com/)
 - [Bent Barley Brewing: menu](https://www.bentbarley.com/menu.html)
 - [Visit Aurora: Bent Barley profile](https://www.visitaurora.com/blog/meet-your-neighbor-bent-barley-brewing/)
@@ -84,7 +86,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 ## research-notes
 
 - The Visit Aurora profile quotes the brewery on its World Beer Cup gold for the Dry Irish Stout, with no year, ABV or ingredients.
-- The brewery home page and menu name no beers; no Untappd listing for the beer surfaced in search. Homebrew recipes titled Dry Irish Stout on Brewer's Friend are not this beer and were not used.
+- The brewery home page and menu name no beers; no Untappd listing surfaced in the first pass. Homebrew recipes titled Dry Irish Stout on Brewer's Friend are not this beer and were not used.
 - The text of the combined Porter or Stout category was not located in the guideline page read.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The brewery's Untappd taproom menu names Dry Irish Stout and provides strength and bitterness. No ingredient list or dedicated brewery beer page was found.

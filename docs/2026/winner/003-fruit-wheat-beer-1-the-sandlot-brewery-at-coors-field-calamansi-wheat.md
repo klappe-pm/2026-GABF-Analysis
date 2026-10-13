@@ -81,3 +81,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery site and the MLB Rockies Sandlot page both refused automated reads (403 and 406), so no tap list could be checked.
 - Searches for the beer name with the brewery, Westword, Colorado brewery directories and the 2026 GABF found nothing about Calamansi Wheat.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional beer specifications. Results for Calamansi Gose, Modist Solvista and another brewery's Calamansi Wheat do not establish a match; their specifications were excluded.

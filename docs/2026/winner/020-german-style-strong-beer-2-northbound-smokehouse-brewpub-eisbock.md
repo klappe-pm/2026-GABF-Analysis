@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "bock"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Northbound Eisbock"
 tags:
@@ -32,6 +32,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698"
   - "https://www.beerandbrewing.com/brewers-perspective-eisbock-it"
   - "https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -81,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Northbound Eisbock](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698)
 - [Northbound Smokehouse Brewpub](https://www.northboundbrewpub.com/)
 - [Northbound: awards and mentions](https://www.northboundbrewpub.com/single-project)
 - [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerandbrewing.com/brewers-perspective-eisbock-it)
@@ -94,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The current brewpub menu does not list the eisbock; its only bock is Wild Rice Amber Bock, a different beer. There is no beer-url.
 - Open Brewery DB lists smokehousebrewpub.com, which failed with an expired certificate; northboundbrewpub.com is the working site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found [Untappd's matching Eisbock listing](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698) at 16.8% ABV and 21 IBU. These figures do not resolve the founder's statement that the concentrated beer was untested or establish measured values for the medal batch, so the structured fields remain null. No additional recipe ingredients were verified.

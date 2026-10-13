@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "ca"
-abv: null
+abv: 5.6
 adjuncts: []
 beer: "How's The Serenity"
 beer-url: null
@@ -25,23 +25,27 @@ brewery-url: "https://www.originalpatternbeer.com/"
 category-name: "International-Style Pale Ale"
 category-number: 89
 entries: 53
-hops: []
+hops:
+  - "Eclipse"
+  - "Enigma"
+  - "Mosaic"
 ibu: null
 malts: []
 medal: "Bronze"
 place: 3
 sources:
   - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+  - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.goodeggs.com/originalpatternbrewingcompany"
   - "https://www.originalpatternbeer.com/"
-style: "International-Style Pale Ale"
+style: "Australian-Style Pale Ale"
 yeast: []
 ---
 
 # 089-international-style-pale-ale-3-original-pattern-brewing-co-hows-the-serenity
 
-How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owned brewery and taproom in Oakland, California; the brewery has published no details about it.
+How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owned brewery and taproom in Oakland, California.
 
 ## award
 
@@ -53,10 +57,10 @@ How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owne
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | Australian-Style Pale Ale | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| ABV | 5.6% | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
 | IBU | not published | none found |
-| Hops | not published | none found |
+| Hops | Eclipse, Enigma and Mosaic | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -64,18 +68,21 @@ How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owne
 
 ## brewery-description
 
-No brewery description of this beer was found.
+> A delightful pale ale that captures the essence of calm in every sip.
+
+Source: [Original Pattern: description on Untappd](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)
 
 ## ingredients
 
-Nothing about this beer's ingredients is published. The brewery's [Good Eggs storefront](https://www.goodeggs.com/originalpatternbrewingcompany) says only that it often showcases New Zealand hops in its IPAs, which says nothing specific about this beer.
+The [beer listing](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) identifies the first two hop varieties as Australian. No malt bill, yeast strain or adjuncts are named.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International-Style Pale Ale calls for an easy-drinking, well-integrated ale with varied hop character, 4.4 to 6.6 percent ABV and 20 to 42 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International-Style Pale Ale calls for an easy-drinking, well-integrated ale with varied hop character, 4.4 to 6.6 percent ABV and 20 to 42 IBU. The published strength fits the cited range; bitterness remains unverified.
 
 ## links
 
+- [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)
 - [Original Pattern Brewing Co.](https://www.originalpatternbeer.com/)
 - [Original Pattern: online shop](https://originalpatternbeer.myshopify.com/pages/2-4-pk)
 - [Good Eggs: Original Pattern Brewing Company](https://www.goodeggs.com/originalpatternbrewingcompany)
@@ -88,3 +95,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web searches for the exact beer name returned nothing, and the web search quota ran out before further searches; Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd entry supplied strength, style and three hop varieties. The listing is distinct from Serenity Now, the previously excluded IPA. No IBU or brewery-hosted beer page was found.

@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search budget ran out before this beer could be searched on Untappd, retailers or press, so no third party source was found.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches for the beer and brewery with Untappd, ABV, BeerMenus and 2026 medal terms found no additional beer-specific specifications. Similarly named beers from other breweries were excluded.

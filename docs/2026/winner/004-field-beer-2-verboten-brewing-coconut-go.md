@@ -85,3 +85,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The www host does not resolve; the bare domain works.
 - Searches for the beer name on Untappd, BeerMenus and the web found nothing.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches surfaced an Untappd listing for Coconut GO (Grow Old), but both the beer page and nearby page failed to open. Its search excerpt was not accepted as verified specifications, so the fields remain null.

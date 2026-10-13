@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "nc"
   - "silver"
-abv: null
+abv: 6
 adjuncts: []
 beer: "Weather Re-Porter"
 beer-url: null
@@ -31,6 +31,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.riversiderhapsody.com/"
   - "https://www.riversiderhapsody.com/drink-menu"
@@ -54,7 +55,7 @@ Weather Re-Porter is a porter from Riverside Rhapsody Beer Co., whose taproom si
 | Field | Value | Source |
 |---|---|---|
 | Style | Robust Porter (category name; no brewery label found) | none found |
-| ABV | not published | none found |
+| ABV | 6% | [Untappd: Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -72,10 +73,11 @@ Nothing about ingredients was found.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Robust Porter calls for a very dark, opaque beer with cocoa and caramel sweetness balanced by firm dark malt bitterness, 5.1 to 6.6 percent ABV and 25 to 40 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Robust Porter calls for a very dark, opaque beer with cocoa and caramel sweetness balanced by firm dark malt bitterness, 5.1 to 6.6 percent ABV and 25 to 40 IBU. The published strength fits the cited range; bitterness remains unverified.
 
 ## links
 
+- [Untappd: Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309)
 - [Riverside Rhapsody Beer Co.](https://www.riversiderhapsody.com/)
 - [Riverside Rhapsody: beer menu](https://www.riversiderhapsody.com/food-menu)
 - [Riverside Rhapsody: drink menu](https://www.riversiderhapsody.com/drink-menu)
@@ -87,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact brewery and beer entry on Untappd supplied strength but no IBU or description. Its Coffee Porter classification alone does not establish a coffee addition, so adjuncts remain empty. No brewery-hosted beer page was found.

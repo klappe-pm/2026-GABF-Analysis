@@ -83,6 +83,7 @@ As competition context only, the [GABF Collaboration Competition page](https://w
 
 ## research-notes
 
+- Second pass 2026-10-13: No additional matching specifications were found in searches for Neon Lady with Offset Bier, New Image, Untappd and beer menus. Results about an unrelated Minnesota sour-beer business do not identify this collaboration and were excluded.
 - Offset Bier's home page, tap list and cans list do not mention Neon Lady or New Image.
 - No website for New Image Brewing could be reached; two guessed domains did not resolve, so no New Image link is given.
 - The web search budget for this session ran out before a dedicated search for this beer, and Untappd search pages did not return results to automated fetches.

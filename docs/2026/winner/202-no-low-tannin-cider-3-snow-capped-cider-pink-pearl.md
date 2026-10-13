@@ -83,6 +83,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Second pass 2026-10-13: Exact-name searches found Pink Pearl in the 2026 GLINTCAP results but no additional cider specifications. The Snow Capped ordering page places The Pink Pearl under cocktails, so that item is not evidence for this cider; Bespoke is a different product.
 - Pink Pearl is absent from the cidery home page, bottle shop and can shop.
 - A web search for the cider and cidery returned only a different cidery's Pink Pearl single varietal; nothing from Snow Capped.
 - The cidery's August 2026 release announcement and a Westword awards article refused automated access, so neither could be checked.

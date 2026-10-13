@@ -81,3 +81,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A web search for the exact name returned only older directory listings (Brewbound, Colorado Brewery List) that do not mention this beer; the web search quota ran out before further searches, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches located brewery Toast listings for an Endless Groove New Zealand pale ale and a separate West Coast IPA. The New Zealand item pages repeatedly timed out when opened, so no figures or hops were accepted from their search snippets. All structured gaps remain.

@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A web search for the brewery with "Baltic Porter" returned only other breweries' Baltic porters.
 - Open Brewery DB has no entry for the brewery.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd, ABV and BeerMenus searches found mentions but no verified specifications. The Stout Week result's porter figures belong to Kronan at The Bier Garden, not Riverside Rhapsody's Baltic Porter, and were excluded.

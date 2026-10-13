@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,13 +9,14 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "oh"
-abv: null
-adjuncts: []
+abv: 6.3
+adjuncts:
+  - "Lactose"
 beer: "Higher Purpose"
 beer-url: null
 brewery: "Third Eye Brewing Co."
@@ -26,13 +27,15 @@ category-name: "Sweet Stout or Cream Stout"
 category-number: 84
 entries: 42
 hops: []
-ibu: null
+ibu: 24
 malts: []
 medal: "Bronze"
 place: 3
 sources:
   - "https://thirdeyebrewingco.com/"
   - "https://thirdeyebrewingco.com/beer/"
+  - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+  - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Milk Stout"
 yeast: []
@@ -53,28 +56,32 @@ Higher Purpose is a milk stout from Third Eye Brewing Co. in Hamilton, Ohio.
 | Field | Value | Source |
 |---|---|---|
 | Style | Milk Stout | [Third Eye Brewing: home page](https://thirdeyebrewingco.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 6.3% | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
+| IBU | 24 | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Lactose | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of this beer was found; the brewery's only mention is a medal post embedded on its home page.
+> The perfect balance of roasted malts, this stout is dark, sweet and full-bodied.
+
+Source: [Third Eye: description on Untappd](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
 
 ## ingredients
 
-Nothing about ingredients is published; the milk stout label implies lactose, but no source names it.
+The [beer listing](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) describes more than nine grains without naming them. In a [2022 interview](https://www.beerandbrewing.com/the-milk-stout-whisperer), brewer Kelly Montgomery described alternatives for Higher Purpose: Challenger, Magnum or Bravo for bittering, followed by East Kent Goldings or Fuggles. He also described Irish ale or Whitbread English yeast, with a later Whitbread and Chico blend. These alternatives do not identify the current batch, so hops and yeast arrays remain empty.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. The published strength and bitterness fit the cited ranges.
 
 ## links
 
+- [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
+- [Craft Beer & Brewing: brewer interview](https://www.beerandbrewing.com/the-milk-stout-whisperer)
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
 - [Third Eye Brewing: our beers](https://thirdeyebrewingco.com/beer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -85,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery's beer page features other beers and does not list Higher Purpose; the beer finder was not checked.
 - The domain thirdeyebrewing.com (without "co") redirects to a domain sale page and is not the brewery.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd beer entry and Hamilton taproom listing agree on strength and bitterness and explicitly identify lactose. The older brewer interview estimates 25 calculated IBU and about 20 measured IBU; these estimates do not replace the current listing. No dedicated brewery beer page was found.

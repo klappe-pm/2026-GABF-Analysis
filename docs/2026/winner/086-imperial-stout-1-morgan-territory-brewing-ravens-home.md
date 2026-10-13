@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
   - "gold"
-abv: null
+abv: 8.5
 adjuncts: []
 beer: "Raven's Home"
 beer-url: null
@@ -26,16 +26,21 @@ category-name: "Imperial Stout"
 category-number: 86
 entries: 38
 hops: []
-ibu: null
-malts: []
+ibu: 45
+malts:
+  - "Crystal malt"
+  - "Dark malt"
+  - "Flaked oats"
+  - "White wheat"
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.morganterritorybrewing.com/"
   - "https://www.morganterritorybrewing.com/beer-finder"
   - "https://www.morganterritorybrewing.com/on-tap"
-style: "Imperial Stout"
+style: "Russian Imperial Stout"
 yeast: []
 ---
 
@@ -53,29 +58,32 @@ Raven's Home is an imperial stout from Morgan Territory Brewing in Tracy, Califo
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Imperial Stout (category name; no brewery label found) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| Style | Russian Imperial Stout | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| ABV | 8.5% | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| IBU | 45 | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
 | Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Malts and grains | Flaked oats, white wheat, dark malts and crystal malts | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of this beer could be read.
+> Additional crystal malts bring warm flavors of toffee and dark fruit.
+
+Source: [Morgan Territory: description on Untappd](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196)
 
 ## ingredients
 
-Nothing about ingredients was found.
+The [beer description](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) attributes body and head retention to the unmalted grains and roast character to the darker grist. Individual dark malt varieties, hop varieties and yeast are not specified.
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) give American-Style Imperial Stout as very rich with assertive American hop character, 7.0 to 12.0 percent ABV and 50 to 80 IBU, and British-Style Imperial Stout as full-bodied with toffee or caramel malt, 7.0 to 12.0 percent ABV and 45 to 65 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) give American-Style Imperial Stout as very rich with assertive American hop character, 7.0 to 12.0 percent ABV and 50 to 80 IBU, and British-Style Imperial Stout as full-bodied with toffee or caramel malt, 7.0 to 12.0 percent ABV and 45 to 65 IBU. The published strength fits both cited ranges; bitterness fits the British range and falls below the American range.
 
 ## links
 
+- [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196)
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
 - [Morgan Territory: on tap](https://www.morganterritorybrewing.com/on-tap)
 - [Morgan Territory: beer finder](https://www.morganterritorybrewing.com/beer-finder)
@@ -87,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd entry supplied strength, bitterness, style and grain names. Its description mentions a 2025 award, which was not used as evidence for the 2026 medal. No dedicated brewery beer page was found.

@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "barley-wine"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "co"
   - "gold"
-abv: null
+abv: 13.5
 adjuncts: []
 beer: "Grow Old With You"
 beer-url: null
@@ -31,10 +31,12 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://beerandbrewing.com/review/grow-old-with-you/"
+  - "https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106"
   - "https://verbotenbrewing.com/"
   - "https://verbotenbrewing.com/beer-menu/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Barley Wine or Wheat Wine"
+style: "English-Style Barleywine"
 yeast: []
 ---
 
@@ -52,8 +54,8 @@ Grow Old With You is a strong ale from Verboten Brewing in Loveland, Colorado.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Barley Wine or Wheat Wine (category name; no brewery label found) | none found |
-| ABV | not published | none found |
+| Style | English-Style Barleywine | [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
+| ABV | 13.5% | [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -63,18 +65,22 @@ Grow Old With You is a strong ale from Verboten Brewing in Loveland, Colorado.
 
 ## brewery-description
 
-No brewery description of this beer could be read.
+> English-style barleywine made with English malts and aged till ready.
+
+Source: [Verboten: description on Untappd](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106)
 
 ## ingredients
 
-Nothing about ingredients was found.
+The [beer listing](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) identifies English malts without naming varieties. No hop or yeast names were found.
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) put British-Style Barley Wine Ale at 8.5 to 12.2 percent ABV and 40 to 65 IBU with high residual malt sweetness, American-Style Barley Wine Ale at the same strength with 60 to 100 IBU, and American-Style Wheat Wine Ale at the same strength with 45 to 85 IBU and at least 50 percent wheat malt. No specs are published to compare.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) put British-Style Barley Wine Ale at 8.5 to 12.2 percent ABV and 40 to 65 IBU with high residual malt sweetness, American-Style Barley Wine Ale at the same strength with 60 to 100 IBU, and American-Style Wheat Wine Ale at the same strength with 45 to 85 IBU and at least 50 percent wheat malt. The current listed strength exceeds the cited ranges; current bitterness remains unverified.
 
 ## links
 
+- [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106)
+- [Craft Beer & Brewing: archived beer review](https://beerandbrewing.com/review/grow-old-with-you/)
 - [Verboten Brewing](https://verbotenbrewing.com/)
 - [Verboten Brewing: beer menu](https://verbotenbrewing.com/beer-menu/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -85,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd entry supplied the adopted strength and style. A Craft Beer & Brewing review printed in December 2017 to January 2018 lists 13% ABV and 42 IBU and describes Dancing Pines bourbon aging. That older release was not established as the 2026 version, so its bitterness and process details were not transferred.

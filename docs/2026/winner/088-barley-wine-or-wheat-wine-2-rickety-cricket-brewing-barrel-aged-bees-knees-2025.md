@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 GABF medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches found additional awards coverage but no specifications for the 2025 barrel aged vintage. The brewery's accessible Untappd menu lists The Bees Knees 2026, a different vintage; none of its values were transferred. No further accepted fields.

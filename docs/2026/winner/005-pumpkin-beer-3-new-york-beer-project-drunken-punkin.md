@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Drunkin Punkin"
 tags:
@@ -32,6 +32,8 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
+  - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
 style: "Pumpkin Beer"
@@ -84,3 +86,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The only mention found is a 2021 Orange Observer article on the Winter Garden location, which lists "Drunkin Punkin" (spelled that way) among new selections coming soon, with no description.
 - The brewery website returned 403 to automated reads; Untappd and web searches found no listing.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found [Untappd's Drunkin' Punkin' listing](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos) at 8.1% ABV and [BeerMenus' listing](https://www.beermenus.com/breweries/15951-new-york-beer-project) at 9.3%. These listings are associated with the Lockport brewery and do not establish the Winter Garden medal beer's formulation. Structured specifications remain null; the separately named barrel aged variant was excluded.

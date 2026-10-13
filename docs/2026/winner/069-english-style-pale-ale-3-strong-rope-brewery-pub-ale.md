@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "ny"
-abv: null
+abv: 4.5
 adjuncts: []
 beer: "Pub Ale"
 beer-url: null
@@ -34,17 +34,19 @@ sources:
   - "https://strongropebreweryorder.square.site"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+  - "https://www.goodfork.com/menus/"
   - "https://www.strongropebrewery.com/"
   - "https://www.strongropebrewery.com/beer"
   - "https://www.strongropebrewery.com/menu"
+  - "https://www.strongropebrewery.com/press-awards"
   - "https://www.strongropebrewery.com/taproom"
-style: "English-Style Pale Ale"
+style: "English Bitter"
 yeast: []
 ---
 
 # 069-english-style-pale-ale-3-strong-rope-brewery-pub-ale
 
-Pub Ale is a beer from Strong Rope Brewery, which brews at its Red Hook location in Brooklyn, New York; the brewery publishes no details about it online.
+Pub Ale is an English-style bitter from Strong Rope Brewery in Brooklyn, New York.
 
 ## award
 
@@ -56,8 +58,8 @@ Pub Ale is a beer from Strong Rope Brewery, which brews at its Red Hook location
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | English Bitter | [Strong Rope: awards](https://www.strongropebrewery.com/press-awards) |
+| ABV | 4.5% | [The Good Fork: beer menu](https://www.goodfork.com/menus/) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -75,7 +77,7 @@ Nothing is published for this beer. The brewery's beer page makes a general clai
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Classic English-Style Pale Ale call for a gold to copper ale with floral, earthy English-style hops and medium body, at 4.4 to 5.3 percent ABV and 20 to 40 IBU. With no published specs, fit cannot be checked.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Classic English-Style Pale Ale call for a gold to copper ale with floral, earthy English-style hops and medium body, at 4.4 to 5.3 percent ABV and 20 to 40 IBU. The published strength fits the category range; bitterness remains unknown.
 
 ## links
 
@@ -83,10 +85,13 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Strong Rope: our beer](https://www.strongropebrewery.com/beer)
 - [Strong Rope: taplist](https://www.strongropebrewery.com/menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [The Good Fork: beer menu](https://www.goodfork.com/menus/)
+- [Strong Rope: awards](https://www.strongropebrewery.com/press-awards)
 
 ## research-notes
 
-- The brewery's beer, taproom and taplist pages were read; the taplist is an embedded Canva design whose readable text is only a heading, and the online order site showed no beer list.
-- No Untappd page for the brewery could be located by direct URL, and the shared web search budget ran out during this batch.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewery's beer, taproom and taplist pages were read; the taplist is an embedded Canva design whose readable text is only a heading, and the online order site showed no beer list.
+- First pass: No Untappd page for the brewery could be located by direct URL, and the shared web search budget ran out during this batch.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: The Good Fork's menu names Strong Rope Pub Ale and supplies the strength. The brewery's awards page identifies Pub Ale as a bitter. No verified IBU, recipe ingredients or dedicated brewery beer page were found.

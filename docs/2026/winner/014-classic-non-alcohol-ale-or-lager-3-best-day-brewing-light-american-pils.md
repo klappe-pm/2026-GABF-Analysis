@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A similarly named product, [Fieldwork Light NA American Pils](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), is sold by Fieldwork Brewing as its own beer and names no collaborator, so it is not treated as this beer.
 - The web search budget for this session ran out before a press or Untappd search specific to this beer could be run.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no verified specifications for this exact beer. A retailer lists Best Day Wild American Classic American Pils, but no source establishes that it is Light American Pils; that product and Fieldwork's similarly named beer were excluded.
