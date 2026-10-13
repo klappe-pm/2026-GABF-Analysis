@@ -8,7 +8,7 @@ topics:
 types:
   - method
 date-created: 2026-10-11
-date-revised: 2026-10-11
+date-revised: 2026-10-13
 status: ACCEPTED
 aliases: []
 tags: []
@@ -51,6 +51,12 @@ Locations count the profile's `locations` list when present, otherwise distinct 
 ## worked-example-green-cheek-beer-co
 
 Four locations, three kitchens, two brewing sites, more than 100 employees reported, brewpub type, production unknown. Curated estimate 6,500 barrels (range 4,000 to 9,000): 201,500 gallons, 89,600 case equivalents, about 400,000 sixteen-ounce cans at a 25 percent packaged share and 1.2 million pints on draft. Revenue (ARR): profile estimate 12 million USD (range 9 to 16 million), consistent with 6,500 barrels at about 1,276 USD per barrel (8.3 million) plus three kitchens (3.6 million), and with a payroll of 100 plus people. Financials: gross margin 62 percent (7.4 million gross profit), EBITDA 12 percent (1.4 million) within a self-distribution range of 5 to 11 percent (0.6 to 1.3 million), revenue per employee 120,000 USD, revenue per location 3 million USD.
+
+## federal-reserve-district-gdp
+
+District GDP in data/reference/district-indicators.csv is marked (E) wherever a split state contributes. BEA publishes GDP by state (SAGDP1, through 2025) and by county (CAGDP1, through 2024, about a year behind), and the two releases are revised on different schedules. To keep district totals summing to the state totals, a split state's part is its SAGDP1 GDP for the year times that part's share of the state's county GDP in CAGDP1 for the same year, or the latest county year at or before it (2024 shares for 2025; Connecticut uses 2023 shares from 2024 on, because BEA reports Connecticut by planning region from 2024 and Fairfield County is not published). 2026 uses 2025. Real and nominal GDP are apportioned separately with their own county shares. Whole-state contributions are exact BEA figures. Chained-dollar real GDP is not strictly additive across geographies, so any district real GDP total (even one built only from whole states) is a close approximation of what BEA would compute for that region; nominal GDP sums exactly.
+
+West Virginia is not apportioned: no primary source names the six northern panhandle counties in the Cleveland district, so all of West Virginia counts toward the Richmond district for population and GDP (an approximation, labeled `approximation` in the verified column). Population needs no estimate otherwise: district population is a sum of published state and county estimates, and Fairfield County, Connecticut is the sum of its 23 town estimates.
 
 ## tuning
 

@@ -7,7 +7,7 @@ topics:
 types:
   - reference
 date-created: 2026-10-11
-date-revised: 2026-10-11
+date-revised: 2026-10-13
 status: ACCEPTED
 aliases: []
 tags: []
@@ -56,7 +56,31 @@ session-link: https://claude.ai/code/session_017p8WkwJF1gqWYn98dKrcBw
 
 ## demographics
 
-- US Census 2020 resident population by state, with Census regions (Northeast, Midwest, South, West) and divisions, in data/reference/states.csv. Used for medals per million residents.
+- data/reference/states.csv keeps the 2020 Census resident population with Census regions (Northeast, Midwest, South, West) and divisions; its columns are unchanged. Rates now use the annual series in data/reference/state-indicators.csv below.
+- data/reference/state-indicators.csv is long format (state, year, indicator, value, unit, source, source_url, verified) and is written only by `node scripts/fetch-state-indicators.mjs` (add `--refresh` to redownload; files cache in data/cache). No API key is used: the Census data API now refuses keyless calls, so the script reads the Census bulk files instead.
+
+| indicator | source | year |
+|---|---|---|
+| population | Census Bureau county and state population estimates, July 1: Vintage 2020 (co-est2020-alldata.csv) for 2018 and 2019, Vintage 2025 (co-est2025-alldata.csv) for 2020 to 2025 | 2018 to 2025; 2026 rows carry the 2025 value and say so |
+| gdp_real | BEA SAGDP1 line 1, real GDP in millions of chained 2017 dollars (https://apps.bea.gov/regional/zip/SAGDP.zip) | 2018 to 2025; 2026 uses 2025 |
+| gdp_nominal | BEA SAGDP1 line 3, current-dollar GDP in millions | 2018 to 2025; 2026 uses 2025 |
+| gdp_per_capita_real | derived: real GDP divided by population, verified `derived` | 2018 to 2026 |
+| median_age, share_21_plus, race and Hispanic origin shares (share_hispanic and share_nh_* for not Hispanic white, Black, American Indian and Alaska Native, Asian, Native Hawaiian and Pacific Islander, some other race, two or more), share_hs_or_higher, share_bachelors_or_higher, median_household_income, poverty_rate | ACS 1-year estimates from the table-based summary file, tables B01002, B01001, B03002, B15003, B19013, B17001; line labels are checked against the published table shells at run time | 2024 (the 2025 1-year files were not open for keyless download on 2026-10-13) |
+| urban_share | 2020 Census urban and rural state table (State_Urban_Rural_Pop_2020_2010.xlsx) | 2020 |
+| literacy_level1_or_below, literacy_mean_score | NCES PIAAC state and county model-based (small area) estimates, Skills Map data file; adults 16 to 74; pooled 2012, 2014, and 2017 survey data; modeled, not measured, and the Census does not measure literacy | stored as 2017 |
+| life_expectancy | NCHS U.S. State Life Tables, 2022 (NVSR vol. 74 no. 12, Table A), the latest state tables published; the data.cdc.gov series stops at 2021 | 2022 |
+
+- Puerto Rico has ACS and urban rows only: the state population estimates file, BEA state GDP, PIAAC, and the NCHS tables do not cover it. No medal in the loaded years comes from Puerto Rico.
+
+## federal-reserve-districts
+
+- data/reference/fed-districts.csv (state, district_number, district_name, split, secondary_districts, source, verified) covers the 50 states, DC, Puerto Rico, and the other territories the Board names. Whole states come from the Board of Governors district descriptions (https://www.federalreserve.gov/boarddocs/rptcongress/budgetrev10/maps/districts.htm); DC from the Richmond Fed (https://www.richmondfed.org/about_us). For a split state, district_number is the district holding the larger share of the state's Census Vintage 2020 county population and secondary_districts the other.
+- Split states, checked against the Board's descriptions: CT, NJ, PA, KY, WV, IL, IN, MI, WI, MO, TN, MS, LA, NM. The list in the task matched; no other state is split.
+- data/reference/fed-district-counties.csv lists every county of the 13 split states with a published county list, its district, and `basis`: `named` when the county appears in a Reserve Bank list, `complement` when it is the rest of the state. Lists: St. Louis Fed district map PDF (https://www.stlouisfed.org/~/media/Files/PDFs/About-Us/8Dmap.pdf) for IL, IN, KY, MS, MO, TN; Minneapolis Fed (https://www.minneapolisfed.org/about-us/the-ninth-district) for WI and MI; Dallas Fed (https://www.dallasfed.org/fed/counties) for LA and NM; the Philadelphia Fed Third District map (Cascade Focus, December 2012, on FRASER) for PA and NJ; the Board for Fairfield County CT. Counts are enforced by `scripts/build-fed-districts.mjs` and the tests: PA 48 and 19 (Cleveland Fed), NJ 9 and 12 (Board), KY 64 and 56 (Cleveland Fed), IL 44, IN 24, MS 39, MO 71 plus St. Louis city, TN 21 (FRASER), WI 26, MI 15, LA 26, NM 18. The St. Louis map prints the Illinois label Wayne out of reading order; its position on the page and the count of 44 place it in Illinois.
+- West Virginia: the Cleveland Fed publishes only a count (six northern panhandle counties) and no primary source found names them, so the whole state is assigned to the Richmond district (which the Board describes as covering most of West Virginia) and marked `verified: no` with the word Approximation in the source. Medals there (Elkins) are labeled approximation in the data and on the dashboard; the Fourth District's population and GDP omit the panhandle.
+- data/reference/medal-city-counties.csv (state, city, county_fips, county_name, district_number, source, verified, note) resolves every medal city in a split state to its county from the Census 2020 place by county and county subdivision files (https://www2.census.gov/geo/docs/reference/codes2020/). A city spanning several counties keeps all of them when they share a district. Where a name is missing or matches counties in different districts, the Census Geocoder is run on the brewery's Open Brewery DB coordinates (Bucyrus MO, Nashville TN, and Ocean NJ, where Kane Brewing's address places it in Monmouth County). No city is unresolved; a future unresolved city falls back to the state's majority district and is labeled `approximation (city not resolved)`.
+- data/reference/district-indicators.csv gives district population, real and nominal GDP, and real GDP per capita for 2018 to 2026. Population sums whole-state estimates and split-state county estimates (Connecticut's Fairfield County is rebuilt for 2020 onward from its 23 town estimates because Census now publishes Connecticut by planning region). Split-state GDP is apportioned and marked (E); see docs/estimation-method.md.
+- Rebuild order after a new year or a source revision: `node scripts/build-fed-districts.mjs`, then `node scripts/fetch-state-indicators.mjs`, then the site.
 
 ## production-and-revenue
 
