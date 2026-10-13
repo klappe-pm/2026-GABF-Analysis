@@ -33,7 +33,7 @@ export function candidateUrls(year) {
 }
 
 async function tryDownload(url) {
-  const res = await fetch(url, { headers: { 'user-agent': 'gabf-analysis/0.1 (+https://github.com/klappe-pm/2026-GABF-Analysis)' }, redirect: 'follow' });
+  const res = await fetch(url, { headers: { 'user-agent': 'gabf-analysis/0.1 (+https://github.com/klappe-pm/GABF-Analysis)' }, redirect: 'follow' });
   if (!res.ok) return { ok: false, status: res.status };
   const buf = Buffer.from(await res.arrayBuffer());
   if (!buf.subarray(0, 5).toString('latin1').startsWith('%PDF')) return { ok: false, status: res.status, reason: 'not a PDF' };

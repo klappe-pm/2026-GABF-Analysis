@@ -20,7 +20,8 @@
     "serve": "node scripts/serve-dist.mjs",
     "test": "node --test",
     "check": "node scripts/check-prose.mjs",
-    "verify": "npm run check && npm test && npm run build && npm run build:standalone",
+    "validate": "node scripts/validate-data.mjs",
+    "verify": "npm run check && npm test && npm run validate && npm run build && npm run build:standalone",
     "build:standalone": "node scripts/build-standalone.mjs"
   },
   "dependencies": {

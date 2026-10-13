@@ -25,7 +25,7 @@ const BREWERY_WORD = /\b(brew|brewing|brewery|brewers|brewhouse|brewpub|beer|ale
 
 function categoryHeaderRegex() {
   // "Category 12A: Juicy or Hazy India Pale Ale - 402 Entries" (letters appear in some years)
-  return /Category\s+(\d+[A-Za-z]?)\s*[:.]\s*(.+?)\s*[-–—:]\s*(\d{1,4})\s+Entr(?:y|ies)/gi;
+  return /Category\s*:?\s*(\d+[A-Za-z]?)\s*[:.]\s*(.+?)\s*[-–—:]\s*(\d{1,4})\s+Entr(?:y|ies)/gi;
 }
 
 function sectionHeader(text, startIdx) {
@@ -42,6 +42,9 @@ export function splitMedalLine(body) {
   const text = collapseWhitespace(normalizePunctuation(body)).replace(/[.;,\s]+$/, '');
   const parts = text.split(',').map((p) => p.trim()).filter(Boolean);
   if (parts.length < 3) return null;
+  // A page footer or the next section's heading can trail the state ("CO 2021 WINNERS LIST ..."); keep only the leading state token.
+  const lastToken = parts[parts.length - 1].split(' ')[0];
+  if (US_STATES[normalizeState(lastToken)] && !US_STATES[normalizeState(parts[parts.length - 1])]) parts[parts.length - 1] = lastToken;
   const stateRaw = parts[parts.length - 1];
   const state = normalizeState(stateRaw);
   if (!US_STATES[state]) return null;
@@ -83,7 +86,8 @@ function parseMedalsInBlock(block) {
 }
 
 export function parseWinnersText(rawText, { year, source = '', competition = 'GABF' } = {}) {
-  const text = collapseWhitespace(normalizePunctuation(rawText));
+  // Strip the running page footer the 2026 PDF repeats ("0 02 TELL6NR IERS 2 GreatAmericanBeerFestival.com"), which otherwise glues onto the last medal of a page.
+  const text = collapseWhitespace(normalizePunctuation(rawText)).replace(/(?:\d+[\s\0]+){1,2}TELL6NR[\s\0]+IERS[\s\0]+\d+\s+GreatAmericanBeerFestival\.com/gi, ' ').replace(/\0/g, ' ');
   const rows = [];
   const problems = [];
   const categories = [];
@@ -93,15 +97,24 @@ export function parseWinnersText(rawText, { year, source = '', competition = 'GA
   while ((h = headerRe.exec(text)) !== null) {
     headers.push({ number: h[1], name: collapseWhitespace(h[2]), entries: Number(h[3]), start: h.index, bodyStart: h.index + h[0].length });
   }
+  // 2022 and 2023 introduce Pro-Am and Collaboration with an unnumbered header ("Category : Pro-Am Competition - 50 Entries"); give them the 500 and 501 numbers later years use.
+  const unnumbered = /(?:Category\s*:?\s*)?\b(Pro-?Am|Collab(?:oration)?)\s+Competition\s*[^\w\s]\s*(\d{1,4})\s+Entr(?:y|ies)/gi;
+  let u;
+  while ((u = unnumbered.exec(text)) !== null) {
+    const isProAm = /pro/i.test(u[1]);
+    headers.push({ number: isProAm ? '500' : '501', name: isProAm ? 'Pro-Am Comp' : 'Collab Comp', entries: Number(u[2]), start: u.index, bodyStart: u.index + u[0].length });
+  }
+  headers.sort((a, b) => a.start - b.start);
   if (headers.length === 0) problems.push({ kind: 'no-categories', detail: 'No "Category N: Name - N Entries" headers found.' });
   for (let i = 0; i < headers.length; i += 1) {
     const hdr = headers[i];
     const end = i + 1 < headers.length ? headers[i + 1].start : text.length;
     let block = text.slice(hdr.bodyStart, end);
     // Trim trailing Brewery of the Year material that follows the final category.
-    const boty = block.search(/Brew(?:ery|er|pub|ing)[^.]{0,40}of the Year/i);
-    if (boty > 0) block = block.slice(0, boty);
-    const section = sectionHeader(text, hdr.start);
+    const awardsHeading = block.search(/(?:\d{4}\s+)?Brewery of the year awards/i);
+    const boty = awardsHeading >= 0 ? awardsHeading : block.search(/Brew(?:ery|er|pub|ing)[^.]{0,40}of the Year/i);
+    if (boty > 0) block = block.slice(0, boty).replace(/\s*[>\d][^A-Za-z]*Barrels\s*$/i, '');
+    const section = /pro-?am/i.test(hdr.name) ? 'pro-am' : /collab/i.test(hdr.name) ? 'collaboration' : sectionHeader(text, hdr.start);
     categories.push({ year, competition, section, category_number: hdr.number, category_name: hdr.name, entries: hdr.entries });
     const medals = parseMedalsInBlock(block);
     if (medals.length === 0) problems.push({ kind: 'empty-category', detail: `Category ${hdr.number} ${hdr.name} has no medal lines.` });
@@ -125,14 +138,63 @@ export function parseWinnersText(rawText, { year, source = '', competition = 'GA
       });
     }
   }
-  const awards = parseBreweryOfTheYear(text, { year, competition, source });
+  const awards = parseBreweryOfTheYear(text, { year, competition, source, rows });
+  const awardTitles = (text.match(/Brewery and Brewer of the Year|Cidermaker of the Year/g) ?? []).length;
+  if (awardTitles && awards.length !== awardTitles) problems.push({ kind: 'award-count', detail: `${awardTitles} Brewery of the Year headings but ${awards.length} awards parsed.` });
   return { rows, categories, awards, problems };
 }
 
 // "Brewery and Brewer of the Year, 1 - 250 Barrels: Brewery Name, City, ST" and the
 // older "Very Small Brewing Company and Very Small Brewing Company Brewer of the Year".
-export function parseBreweryOfTheYear(text, { year, competition = 'GABF', source = '' } = {}) {
+export function parseBreweryOfTheYear(text, { year, competition = 'GABF', source = '', rows = [] } = {}) {
   const awards = [];
+  // 2026 layout: "0-250 Barrels Brewery and Brewer of the Year Name | City, ST Brewer Name" and "Cidermaker of the Year Name | City, ST Maker Names".
+  const pipeRe = /((?:>\s*)?[\d,]+(?:\s*[^\sA-Za-z\d,|]\s*[\d,]+|\+)?\s*Barrels\s+)?((?:Brewery and Brewer|Cidermaker) of the Year)\s+([^|]+?)\s*\|\s*([^,|]+?),\s*([A-Z]{2})\b/g;
+  let p;
+  while ((p = pipeRe.exec(text)) !== null) {
+    const bracket = collapseWhitespace((p[1] ?? '').replace(/\s*Barrels\s*$/i, ''));
+    const breweryPrinted = collapseWhitespace(p[3]);
+    const { name, location } = splitLocationSuffix(breweryPrinted);
+    const title = bracket ? `${p[2]}, ${bracket} Barrels` : p[2];
+    awards.push({ year: String(year), competition, award: title, bracket, brewery_printed: breweryPrinted, brewery_name: name, brewery_location: location, city: collapseWhitespace(p[4]), state: p[5], source });
+  }
+  if (awards.length) return awards;
+  // 2021 to 2025 layout: "0-250 Barrels Brewery and Brewer of the Year [Sponsored by X] Name, City, ST Brewer Names". A sponsor name can sit in front of the brewery, so the brewery is resolved against that year's medal rows (a Brewery of the Year winner always medaled).
+  const known = [...new Map(rows.map((r) => [`${r.brewery_printed}, ${r.city}, ${r.state}`, r])).entries()];
+  const titleRe = /(Brewery and Brewer of the Year|Cidermaker of the Year)/g;
+  let t;
+  const colonLayout = /Brew(?:ing Company|pub|ery|er)[^:|]{0,60}of the Year[^:|]{0,40}[:：]/.test(text);
+  while (!colonLayout && (t = titleRe.exec(text)) !== null) {
+    const before = text.slice(Math.max(0, t.index - 40), t.index);
+    const bracketMatch = before.match(/((?:>\s*)?[\d,]+(?:\s*[^\sA-Za-z\d,|]\s*[\d,]+|\+)?)\s*Barrels\s*$/) ?? before.match(/(Brewery Group)\s*$/);
+    const bracket = bracketMatch ? collapseWhitespace(bracketMatch[1]) : '';
+    const windowStart = t.index + t[0].length;
+    const nextTitle = text.slice(windowStart).search(/Brewery and Brewer of the Year|Cidermaker of the Year/);
+    const window = text.slice(windowStart, nextTitle >= 0 ? windowStart + nextTitle : windowStart + 200).slice(0, 200);
+    let best = null;
+    for (const [key, row] of known) {
+      const at = Math.max(window.indexOf(key), window.indexOf(key.replace(/, ([A-Z]{2})$/, ' $1')));
+      if (at < 0) continue;
+      if (!best || at < best.at || (at === best.at && key.length > best.key.length)) best = { at, key, row };
+    }
+    if (!best) {
+      // The winner did not medal in a category, so it is not in the rows: take the text up to "City, ST", splitting name from city at the last brewery-ish word.
+      const unsponsored = window.replace(/^\s*Sponsored by (?:Prairie Malt|Brewers Supply Group|Fermentis|ABS Commercial|Country Malt Group|Briess Malt & Ingredients Co\.|Live Oak Bank|Hurst Boilers|Hass|RahrBSG|MicroStar Logistics|Beer Law Center|American Cider Association)\s+/i, '');
+      // "Name - City, ST" (2022) or "Name City, ST" (later years).
+      const dashed = unsponsored.match(/^(.+?)\s+[^\w\s,]\s+([A-Za-z.' ]+?),?\s+([A-Z]{2})\b/);
+      const stateAt = unsponsored.search(/,\s*[A-Z]{2}\b/);
+      const stateCode = stateAt >= 0 ? unsponsored.slice(stateAt).match(/,\s*([A-Z]{2})\b/)[1] : '';
+      const split = dashed ? [null, dashed[1], dashed[2]] : stateAt >= 0 ? unsponsored.slice(0, stateAt).trim().match(/^(.*(?:Brew\w*|Co\.|Cider\w*|Company|Inc\.?|LLC|Taproom|Pub|House|Works)\.?),?\s+(\S.*)$/) : null;
+      const stateFinal = dashed ? dashed[3] : stateCode;
+      if (!split || !US_STATES[stateFinal] || /Sponsored by/i.test(split[1])) continue;
+      const { name, location } = splitLocationSuffix(split[1]);
+      awards.push({ year: String(year), competition, award: bracket && /^[\d>]/.test(bracket) ? `${t[1]}, ${bracket} Barrels` : bracket ? `${bracket} ${t[1]}` : t[1], bracket, brewery_printed: split[1], brewery_name: name, brewery_location: location, city: split[2], state: stateFinal, source });
+      continue;
+    }
+    const title = bracket &&/^[\d>]/.test(bracket) ? `${t[1]}, ${bracket} Barrels` : bracket ? `${bracket} ${t[1]}` : t[1];
+    awards.push({ year: String(year), competition, award: title, bracket, brewery_printed: best.row.brewery_printed, brewery_name: best.row.brewery_name, brewery_location: best.row.brewery_location, city: best.row.city, state: best.row.state, source });
+  }
+  if (awards.length) return awards;
   const re = /((?:Very Small|Small|Mid-Size|Large|Very Large)?\s*(?:Brewing Company|Brewpub|Brewery|Brewery Group|Brew Pub)[^:]{0,80}?of the Year(?:[^:]{0,80}?)?)\s*[:：]\s*([^:]+?)(?=(?:Very Small|Small|Mid-Size|Large|Very Large|Brewing Company|Brewpub|Brewery|Brewery Group|Category\s+\d|Pro-Am|$))/gi;
   let m;
   while ((m = re.exec(text)) !== null) {
