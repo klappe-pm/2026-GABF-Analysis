@@ -1,0 +1,53 @@
+state,name,region,division,population_2020,source
+AL,Alabama,South,East South Central,5024279,US Census 2020 resident population
+AK,Alaska,West,Pacific,733391,US Census 2020 resident population
+AZ,Arizona,West,Mountain,7151502,US Census 2020 resident population
+AR,Arkansas,South,West South Central,3011524,US Census 2020 resident population
+CA,California,West,Pacific,39538223,US Census 2020 resident population
+CO,Colorado,West,Mountain,5773714,US Census 2020 resident population
+CT,Connecticut,Northeast,New England,3605944,US Census 2020 resident population
+DE,Delaware,South,South Atlantic,989948,US Census 2020 resident population
+DC,District of Columbia,South,South Atlantic,689545,US Census 2020 resident population
+FL,Florida,South,South Atlantic,21538187,US Census 2020 resident population
+GA,Georgia,South,South Atlantic,10711908,US Census 2020 resident population
+HI,Hawaii,West,Pacific,1455271,US Census 2020 resident population
+ID,Idaho,West,Mountain,1839106,US Census 2020 resident population
+IL,Illinois,Midwest,East North Central,12812508,US Census 2020 resident population
+IN,Indiana,Midwest,East North Central,6785528,US Census 2020 resident population
+IA,Iowa,Midwest,West North Central,3190369,US Census 2020 resident population
+KS,Kansas,Midwest,West North Central,2937880,US Census 2020 resident population
+KY,Kentucky,South,East South Central,4505836,US Census 2020 resident population
+LA,Louisiana,South,West South Central,4657757,US Census 2020 resident population
+ME,Maine,Northeast,New England,1362359,US Census 2020 resident population
+MD,Maryland,South,South Atlantic,6177224,US Census 2020 resident population
+MA,Massachusetts,Northeast,New England,7029917,US Census 2020 resident population
+MI,Michigan,Midwest,East North Central,10077331,US Census 2020 resident population
+MN,Minnesota,Midwest,West North Central,5706494,US Census 2020 resident population
+MS,Mississippi,South,East South Central,2961279,US Census 2020 resident population
+MO,Missouri,Midwest,West North Central,6154913,US Census 2020 resident population
+MT,Montana,West,Mountain,1084225,US Census 2020 resident population
+NE,Nebraska,Midwest,West North Central,1961504,US Census 2020 resident population
+NV,Nevada,West,Mountain,3104614,US Census 2020 resident population
+NH,New Hampshire,Northeast,New England,1377529,US Census 2020 resident population
+NJ,New Jersey,Northeast,Middle Atlantic,9288994,US Census 2020 resident population
+NM,New Mexico,West,Mountain,2117522,US Census 2020 resident population
+NY,New York,Northeast,Middle Atlantic,20201249,US Census 2020 resident population
+NC,North Carolina,South,South Atlantic,10439388,US Census 2020 resident population
+ND,North Dakota,Midwest,West North Central,779094,US Census 2020 resident population
+OH,Ohio,Midwest,East North Central,11799448,US Census 2020 resident population
+OK,Oklahoma,South,West South Central,3959353,US Census 2020 resident population
+OR,Oregon,West,Pacific,4237256,US Census 2020 resident population
+PA,Pennsylvania,Northeast,Middle Atlantic,13002700,US Census 2020 resident population
+RI,Rhode Island,Northeast,New England,1097379,US Census 2020 resident population
+SC,South Carolina,South,South Atlantic,5118425,US Census 2020 resident population
+SD,South Dakota,Midwest,West North Central,886667,US Census 2020 resident population
+TN,Tennessee,South,East South Central,6910840,US Census 2020 resident population
+TX,Texas,South,West South Central,29145505,US Census 2020 resident population
+UT,Utah,West,Mountain,3271616,US Census 2020 resident population
+VT,Vermont,Northeast,New England,643077,US Census 2020 resident population
+VA,Virginia,South,South Atlantic,8631393,US Census 2020 resident population
+WA,Washington,West,Pacific,7705281,US Census 2020 resident population
+WV,West Virginia,South,South Atlantic,1793716,US Census 2020 resident population
+WI,Wisconsin,Midwest,East North Central,5893718,US Census 2020 resident population
+WY,Wyoming,West,Mountain,576851,US Census 2020 resident population
+PR,Puerto Rico,Territories,Puerto Rico,3285874,US Census 2020 resident population

@@ -1,0 +1,23 @@
+Italian-Style Pilsener
+Color: Straw to pale
+Clarity: Appearance should be brilliant
+Perceived Malt Aroma & Flavor: Low to medium-low
+Perceived Hop Aroma & Flavor: Medium to medium-high, floral and herbal from dry hopping
+Perceived Bitterness: Medium
+Fermentation Characteristics: Fruity esters and diacetyl should not be present
+Body: Low to medium-low
+Additional notes: These beers are dry hopped with noble hops.
+Original Gravity (°Plato) 1.044-1.052 (11-12.9 °Plato)
+Apparent Extract/Final Gravity (°Plato) 1.008-1.012 (2.1-3.1 °Plato)
+Alcohol by Weight (Volume) 3.8%-4.6% (4.8%-5.8%)
+Bitterness (IBU) 25-40
+Color SRM (EBC) 2-5 (4-10 EBC)
+
+Baltic-Style Porter
+Color: Dark brown to black
+Clarity: Opaque
+Original Gravity (°Plato) 1.072-1.092 (17.5-22 °Plato)
+Apparent Extract/Final Gravity (°Plato) 1.016-1.024 (4.1-6.1 °Plato)
+Alcohol by Weight (Volume) 6.0%-7.5% (7.6%-9.3%)
+Bitterness (IBU) 35-40
+Color SRM (EBC) 20-30 (40-60 EBC)

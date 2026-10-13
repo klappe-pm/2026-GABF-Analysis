@@ -1,0 +1,89 @@
+{
+  "description": "Tunable assumptions for volume and revenue estimates. Every figure produced from these is an estimate (E). Edit here, rerun npm run build.",
+  "barrels_by_brewery_type": {
+    "nano": 150,
+    "micro": 2500,
+    "brewpub": 1200,
+    "taproom": 800,
+    "regional": 50000,
+    "large": 1000000,
+    "contract": 5000,
+    "proprietor": 3000,
+    "closed": 0,
+    "default": 1500
+  },
+  "barrels_per_additional_location": 600,
+  "packaged_share_by_brewery_type": {
+    "nano": 0.1,
+    "micro": 0.55,
+    "brewpub": 0.25,
+    "taproom": 0.2,
+    "regional": 0.8,
+    "large": 0.9,
+    "contract": 0.95,
+    "default": 0.4
+  },
+  "revenue_per_barrel_by_brewery_type": {
+    "nano": 1276,
+    "micro": 900,
+    "brewpub": 1276,
+    "taproom": 1276,
+    "regional": 602,
+    "large": 500,
+    "contract": 400,
+    "proprietor": 700,
+    "default": 900
+  },
+  "food_revenue_per_kitchen_location": 1200000,
+  "revenue_range_low_multiplier": 0.7,
+  "revenue_range_high_multiplier": 1.35,
+  "notes": [
+    "Revenue per barrel: the Brewers Association 2023 financial benchmarking survey reported average total revenue of 1,511 USD per barrel (25th percentile 454, 75th percentile 1,714), direct-to-consumer beer revenue of 1,276 USD per barrel, and distributed beer revenue of 602 USD per barrel; brewpub and taproom types use the DTC figure for beer with food added separately, regional uses the distributed figure, micro blends the two.",
+    "Cost of goods: the same survey put average beer COGS above 500 USD per barrel in 2023 (up 34 percent since 2018) and the average beer gross margin at 41 percent across respondents; taproom-heavy models run far higher gross margins because the brewery keeps the retail margin.",
+    "EBITDA margin ranges by channel come from the Brewery Profit Workshop deck (taproom 8 to 24 percent, self-distribution 5 to 11 percent, distributor 2 to 6 percent); about a third of breweries analyzed were profitable, so the point estimates sit near the lower middle of each range.",
+    "Food revenue per kitchen location is a mid-market brewpub restaurant assumption and should be overridden per brewery in its markdown profile when a better figure exists.",
+    "One US beer barrel is 31 gallons: 13.78 cases of 24 twelve-ounce containers, 248 sixteen-ounce cans or pints, or 330.7 twelve-ounce cans.",
+    "ARR is used in its plain sense for a brewery: the annual revenue run rate implied by the volume and channel mix, not subscription revenue."
+  ],
+  "cogs_per_barrel_usd": 500,
+  "gross_margin_by_brewery_type": {
+    "nano": 0.68,
+    "micro": 0.5,
+    "brewpub": 0.62,
+    "taproom": 0.7,
+    "regional": 0.42,
+    "large": 0.45,
+    "contract": 0.35,
+    "proprietor": 0.45,
+    "default": 0.5
+  },
+  "ebitda_margin_by_brewery_type": {
+    "nano": 0.1,
+    "micro": 0.08,
+    "brewpub": 0.12,
+    "taproom": 0.16,
+    "regional": 0.06,
+    "large": 0.12,
+    "contract": 0.05,
+    "proprietor": 0.06,
+    "default": 0.08
+  },
+  "ebitda_margin_range_by_channel": {
+    "taproom": [
+      0.08,
+      0.24
+    ],
+    "self-distribution": [
+      0.05,
+      0.11
+    ],
+    "distributor": [
+      0.02,
+      0.06
+    ],
+    "default": [
+      0.02,
+      0.24
+    ]
+  }
+}
