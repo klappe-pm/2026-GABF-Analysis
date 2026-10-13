@@ -83,6 +83,7 @@ As category context only, the closest entry in the [Brewers Association guidelin
 
 ## research-notes
 
+- Second pass 2026-10-13: No additional specifications were found in targeted Untappd, ABV, BeerMenus and medal searches. Results for Under A Serpent Sun belong to Hines Family Brewing and were excluded.
 - The brewery's beer list shows 16 beers and packs; Serpent Sun is not among them.
 - The awards page cites 35 GABF medals overall, but the readable content did not include a 2026 entry or this beer.
 - A web search for the beer name returned nothing about it; the session search budget ran out before Untappd or press could be searched further.

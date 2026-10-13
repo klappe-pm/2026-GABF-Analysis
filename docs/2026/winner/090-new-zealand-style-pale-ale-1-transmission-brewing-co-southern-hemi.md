@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
   - "gold"
-abv: null
+abv: 6
 adjuncts: []
 beer: "Southern Hemi"
 beer-url: null
@@ -34,6 +34,7 @@ sources:
   - "https://transmissionbrewing.com/"
   - "https://transmissionbrewing.com/beer-to-go/"
   - "https://transmissionbrewing.com/beers/"
+  - "https://untappd.com/b/transmission-brewing-southern-hemi/5008256"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "New Zealand-Style Pale Ale"
 yeast: []
@@ -41,7 +42,7 @@ yeast: []
 
 # 090-new-zealand-style-pale-ale-1-transmission-brewing-co-southern-hemi
 
-Southern Hemi is a beer from Transmission Brewing Co. of Ventura, California; the brewery has published no details about it.
+Southern Hemi is a beer from Transmission Brewing Co. of Ventura, California.
 
 ## award
 
@@ -53,8 +54,8 @@ Southern Hemi is a beer from Transmission Brewing Co. of Ventura, California; th
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | New Zealand-Style Pale Ale | [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
+| ABV | 6% | [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -72,10 +73,11 @@ Nothing about this beer's ingredients is published.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. The published strength fits the cited range; bitterness remains unverified.
 
 ## links
 
+- [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256)
 - [Transmission Brewing](https://transmissionbrewing.com/)
 - [Transmission Brewing: our beers](https://transmissionbrewing.com/beers/)
 - [Transmission Brewing: beer to go](https://transmissionbrewing.com/beer-to-go/)
@@ -87,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - One web search for the exact name returned nothing; the web search quota ran out before further searches, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Transmission beer entry and taproom list supplied strength and confirmed New Zealand pale ale style. No IBU, ingredients or brewery-hosted beer page was found. Similarly named IPAs from other breweries were excluded.

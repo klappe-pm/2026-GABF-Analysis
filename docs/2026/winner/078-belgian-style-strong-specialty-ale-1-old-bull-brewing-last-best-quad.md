@@ -85,3 +85,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The style is inferred only from the beer's name, so the structured style field holds the category name.
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches for Untappd, ABV, BeerMenus and 2026 medal coverage found the beer in awards reporting but no additional specifications, ingredients or brewery-hosted beer page.

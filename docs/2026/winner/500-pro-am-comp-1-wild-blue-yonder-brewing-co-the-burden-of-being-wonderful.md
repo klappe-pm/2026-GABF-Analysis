@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "belgian-ale"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "co"
   - "gold"
-abv: null
+abv: 6
 adjuncts: []
 beer: "The Burden of Being Wonderful"
 beer-url: null
@@ -26,15 +26,18 @@ category-name: "Pro-Am Comp"
 category-number: 500
 entries: 30
 hops: []
-ibu: null
+ibu: 42
 malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://bierederock.com/"
+  - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+  - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
   - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
   - "https://www.wildblueyonderbrewing.com/"
   - "https://www.wildblueyonderbrewing.com/drink-menu"
-style: "Belgian Ale"
+style: "Belgian Single"
 yeast: []
 ---
 
@@ -52,9 +55,9 @@ The Burden of Being Wonderful is a Belgian ale brewed at commercial scale by Wil
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Belgian Ale | [Wild Blue Yonder: home page](https://www.wildblueyonderbrewing.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| Style | Belgian Single | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
+| ABV | 6% | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
+| IBU | 42 | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -63,11 +66,13 @@ The Burden of Being Wonderful is a Belgian ale brewed at commercial scale by Wil
 
 ## brewery-description
 
-The brewery publishes no description of the beer; its home page lists it only by name and as a Belgian Ale among its 2026 GABF gold medals in the Pro-Am competition, credited to head brewer Chad ([Wild Blue Yonder: home page](https://www.wildblueyonderbrewing.com/)).
+> Notes of honey, bubblegum, white pepper, and citrus peel in a very dry and moderately hopped Belgian Single.
+
+Source: [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby)
 
 ## ingredients
 
-Nothing about the ingredients is published.
+No ingredients are published for the commercial batch. Sensory references to honey, pepper and citrus in its description do not establish recipe additions.
 
 ## style-context
 
@@ -78,9 +83,13 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 - [Wild Blue Yonder Brewing Co.](https://www.wildblueyonderbrewing.com/)
 - [Wild Blue Yonder: drink menu](https://www.wildblueyonderbrewing.com/drink-menu)
 - [GABF Pro-Am page](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/)
+- [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby)
+- [Homebrew competition results](https://bierederock.com/)
+- [Earlier homebrew recipe](https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495)
 
 ## research-notes
 
+- Second pass 2026-10-13: Found a brewery-specific commercial listing with ABV, IBU and a Belgian Single description. Bière de Rock confirms the homebrewer's selection for Wild Blue Yonder. The 2025 homebrew recipe reports 5.6% ABV and 43.4 IBU, but it is an earlier homebrew batch; its ingredients are not transferred to the commercial beer.
 - The brewery's home page confirms the 2026 GABF Pro-Am gold and the Belgian Ale label; this is the medal announcement.
 - The drink menu shows the same news item but no ABV, IBU or ingredients; the brewery has no individual beer pages.
 - The brewery page does not name the homebrewer; the name comes from the official winners list.

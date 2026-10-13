@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "ca"
-abv: null
+abv: 6.2
 adjuncts: []
 beer: "Lunch Time!"
 beer-url: null
@@ -31,17 +31,18 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
   - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
   - "https://www.smogcitybrewing.com/"
   - "https://www.smogcitybrewing.com/beer-finder"
   - "https://www.smogcitybrewing.com/meet-the-beers"
-style: "Pro-Am Comp"
+style: "West Coast Pale Ale"
 yeast: []
 ---
 
 # 500-pro-am-comp-3-smog-city-brewing-lunch-time
 
-Lunch Time! is a beer brewed by Smog City Brewing of Torrance, California, from a homebrewer's recipe; the brewery has published no details of it.
+Lunch Time! is a West Coast pale ale brewed by Smog City Brewing in Torrance, California, with homebrewer Joe St. John.
 
 ## award
 
@@ -53,8 +54,8 @@ Lunch Time! is a beer brewed by Smog City Brewing of Torrance, California, from 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | West Coast Pale Ale | [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos) |
+| ABV | 6.2% | [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -64,15 +65,17 @@ Lunch Time! is a beer brewed by Smog City Brewing of Torrance, California, from 
 
 ## brewery-description
 
-No brewery description of Lunch Time! was found.
+> This punchy pale ale comes across as dry and snappy.
+
+Source: [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos)
 
 ## ingredients
 
-Nothing about the ingredients is published.
+The listing gives sensory notes but no named hop, malt or yeast ingredients.
 
 ## style-context
 
-As competition context only, the [GABF Pro-Am page](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/) describes the Pro-Am as "an opportunity for commercial breweries to team up with homebrewers," with entries based on homebrew recipes that have won an award in competition and judged by the main GABF panel. The Pro-Am sets no single style, and the beer's own style is unpublished, so no style guideline is applied.
+As competition context only, the [GABF Pro-Am page](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/) describes entries based on award-winning homebrew recipes. The contest spans styles, so it sets no single ABV or bitterness range against which to compare this pale ale.
 
 ## links
 
@@ -80,11 +83,11 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 - [Smog City: year-round beers](https://www.smogcitybrewing.com/meet-the-beers)
 - [Smog City: beer finder](https://www.smogcitybrewing.com/beer-finder)
 - [GABF Pro-Am page](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/)
+- [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos)
 
 ## research-notes
 
+- Second pass 2026-10-13: Found the commercial listing with ABV and a brewery description that explicitly identifies the GABF Pro-Am collaboration and Joe St. John. The missing exclamation mark in the listing does not obscure that match. IBU and named ingredients remain unpublished.
 - The brewery home page, year-round lineup and beer finder do not mention Lunch Time!, the Pro-Am or the homebrewer.
-- The web search budget for this session ran out before a dedicated search for this beer, and Untappd search pages did not return results to automated fetches.
-- Style, ABV, IBU and ingredients remain unverified; nothing is estimated.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

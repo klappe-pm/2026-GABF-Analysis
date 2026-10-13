@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,16 +9,16 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Colt 121 Malt Liquor"
 tags:
   - "co"
   - "silver"
-abv: null
+abv: 7.6
 adjuncts: []
 beer: "Colt 121"
-beer-url: null
+beer-url: "https://www.old121brewhouse.com/menu"
 brewery: "Old 121 Brewhouse"
 brewery-city: "Lakewood"
 brewery-state: "CO"
@@ -35,6 +35,7 @@ sources:
   - "https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/"
   - "https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.old121brewhouse.com/menu"
 style: "Malt Liquor"
 yeast: []
 ---
@@ -54,7 +55,7 @@ Colt 121 is a malt liquor from Old 121 Brewhouse in Lakewood, Colorado, brewed o
 | Field | Value | Source |
 |---|---|---|
 | Style | Malt Liquor | [Porch Drinking: Old 121 expansion](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/) |
-| ABV | not published | none found |
+| ABV | 7.6% | [Old 121: menu](https://www.old121brewhouse.com/menu) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -64,9 +65,9 @@ Colt 121 is a malt liquor from Old 121 Brewhouse in Lakewood, Colorado, brewed o
 
 ## brewery-description
 
-No brewery description of this beer was found; a Porch Drinking announcement lists it only as "Colt 121 Malt Liquor" among the Public House's exclusive beers.
+> Premium malt liquor
 
-Source: [Porch Drinking: Old 121 expansion](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/)
+Source: [Old 121: menu](https://www.old121brewhouse.com/menu)
 
 ## ingredients
 
@@ -74,10 +75,11 @@ Nothing about this beer's ingredients is published in any source that could be f
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Other Strong Ale or Lager covers any style intentionally brewed to a higher alcohol content than its own guideline allows, at 8 percent ABV or more and not wood or barrel aged. No ABV is published, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Other Strong Ale or Lager covers any style intentionally brewed to a higher alcohol content than its own guideline allows, at 8 percent ABV or more and not wood or barrel aged. The brewery's listed strength is below that guideline threshold; no evidence establishes a stronger competition batch.
 
 ## links
 
+- [Old 121: menu](https://www.old121brewhouse.com/menu)
 - [Old 121 Brewhouse](https://www.old121brewhouse.com/)
 - [Porch Drinking: Old 121 expansion](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/)
 - [ColoradoBiz: Old 121 seventh anniversary](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/)
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The ColoradoBiz article on the 2026 seventh anniversary mentions other releases but not this beer.
 - No ABV, IBU or ingredients were found; web search for the beer name returned only general brewery coverage.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The brewery menu is now readable and lists Colt 121 with ABV and a brief description. IBU and ingredients remain unpublished; the menu strength is retained without estimating a competition value.

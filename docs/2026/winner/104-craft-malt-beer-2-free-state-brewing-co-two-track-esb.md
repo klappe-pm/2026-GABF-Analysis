@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "bitter"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ks"
   - "silver"
-abv: null
+abv: 5.2
 adjuncts: []
 beer: "Two Track ESB"
 beer-url: null
@@ -26,11 +26,12 @@ category-name: "Craft Malt Beer"
 category-number: 104
 entries: 132
 hops: []
-ibu: null
+ibu: 33
 malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://www.beeradvocate.com/beer/profile/642/817169/"
   - "https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/"
   - "https://www.freestatebrewing.com/"
   - "https://www.freestatebrewing.com/beer/"
@@ -42,7 +43,7 @@ yeast: []
 
 # 104-craft-malt-beer-2-free-state-brewing-co-two-track-esb
 
-Two Track ESB is an extra special bitter from Free State Brewing Co. in Lawrence, Kansas; the brewery names it on its home page but publishes no specifications.
+Two Track ESB is an extra special bitter from Free State Brewing Co. in Lawrence, Kansas.
 
 ## award
 
@@ -55,8 +56,8 @@ Two Track ESB is an extra special bitter from Free State Brewing Co. in Lawrence
 | Field | Value | Source |
 |---|---|---|
 | Style | ESB (from the beer's name) | [Free State Brewing Co.](https://www.freestatebrewing.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 5.2% | [Beer listing](https://www.beeradvocate.com/beer/profile/642/817169/) |
+| IBU | 33 | [Beer listing](https://www.beeradvocate.com/beer/profile/642/817169/) |
 | Hops | not published | none found |
 | Malts and grains | not published (maltster not named) | none found |
 | Yeast | not published | none found |
@@ -77,7 +78,7 @@ Nothing about the ingredients, including which craft maltster supplied the grain
 
 ## style-context
 
-As category context only, the Brewers Association's [craft malt category announcement](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/) requires at least 50% of the grain bill from a craft maltster (under 10,000 metric tons a year, more than half its grain grown within 500 miles) and lets color, aroma, flavor and body deviate from a stated base style to highlight the malt. No published specs exist to compare.
+As category context only, the Brewers Association's [craft malt category announcement](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/) requires at least 50% of the grain bill from a craft maltster (under 10,000 metric tons a year, more than half its grain grown within 500 miles) and lets color, aroma, flavor and body deviate from a stated base style to highlight the malt. The malt source and grain-bill percentage remain unpublished, so the listing does not establish eligibility.
 
 ## links
 
@@ -86,10 +87,11 @@ As category context only, the Brewers Association's [craft malt category announc
 - [Free State: what's on tap](https://www.freestatebrewing.com/whats-on-tap/)
 - [Free State: news](https://www.freestatebrewing.com/news/)
 - [Brewers Association: craft malt category](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/)
+- [Two Track ESB listing](https://www.beeradvocate.com/beer/profile/642/817169/)
 
 ## research-notes
 
+- Second pass 2026-10-13: Found matching ABV and IBU on BeerAdvocate. The brewery tap-list search result agrees, although its opened page yielded only a cookie notice. No named hops, malt varieties, malt supplier or yeast were found.
 - The beer catalog page lists flagship, seasonal and limited releases but not Two Track ESB; the what's on tap page returned no beer data; the news page does not mention it.
 - The home page notice confirms the medal from the brewery's side.
-- The session web search budget was exhausted before Untappd or press could be searched.
 - Researched 2026-10-13.

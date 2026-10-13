@@ -89,6 +89,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Second pass 2026-10-13: Exact-name searches found Kingston Black 26 in the 2026 GLINTCAP results, but no matching batch specifications or dedicated product page. Other Kingston Black releases do not establish the recipe or ABV of the entry with the 26 suffix; structured fields remain unchanged.
 - The cidery lists a Kingston Black Reserve bottle, a Kingston Black can and a Bourbon Barrel Aged Kingston Black; none carries the "26" suffix in the winner's name, so abv and beer-url are left null rather than choosing one.
 - Conflict between candidates: 8.4% (Reserve bottle) and 8.5% (can).
 - The official list places the cidery in Austin, CO; that location is kept as given.

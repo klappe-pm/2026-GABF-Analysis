@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
@@ -18,7 +18,7 @@ abv: null
 adjuncts: []
 beer: "Imperial Stout"
 beer-url: null
-brewery: "Oak Highlands Brewery"
+brewery: "OHB"
 brewery-city: "Hickory"
 brewery-state: "NC"
 brewery-url: null
@@ -34,20 +34,22 @@ sources:
   - "https://oakhighlandsbrewery.com/on-tap/"
   - "https://oakhighlandsbrewery.com/our-beer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.greatamericanbeerfestival.com/2026-winners/"
   - "https://www.oakhighlandsbrewery.com/"
+  - "https://www.oldehickorybrewery.com/awards/"
 style: "Imperial Stout"
 yeast: []
 ---
 
 # 086-imperial-stout-3-oak-highlands-brewery-imperial-stout
 
-Imperial Stout is the medal entry credited to Oak Highlands Brewery of Hickory, North Carolina, in the official results.
+Imperial Stout is the beer entered by OHB in Hickory, North Carolina.
 
 ## award
 
 | Category | Medal | Entries | Brewery | Location |
 |---|---|---|---|---|
-| 86, Imperial Stout | Bronze (3rd place) | 38 | Oak Highlands Brewery | Hickory, NC |
+| 86, Imperial Stout | Bronze (3rd place) | 38 | OHB | Hickory, NC |
 
 ## specs
 
@@ -76,6 +78,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [GABF: official 2026 results](https://www.greatamericanbeerfestival.com/2026-winners/)
+- [Olde Hickory: awards history](https://www.oldehickorybrewery.com/awards/)
 - [Oak Highlands Brewery, Richardson TX site](https://www.oakhighlandsbrewery.com/)
 - [Oak Highlands: on tap](https://oakhighlandsbrewery.com/on-tap/)
 - [Oak Highlands: our beer](https://oakhighlandsbrewery.com/our-beer/)
@@ -83,7 +87,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
-- Location conflict: the official results place Oak Highlands Brewery in Hickory, NC, but the only site found under that name is for Oak Highlands Brewery at 500 Lockwood Dr, Richardson, TX. Its pages make no mention of Hickory, GABF or an imperial stout, and its tap list shows no imperial stout. It is not confirmed to be the medalist, so brewery-url is null.
+- The first pass expanded the brewery name to Oak Highlands Brewery, whose site places it in Richardson, Texas. That expansion is not supported by the official results and has been removed; the assigned filename is retained.
 - The session's web search budget ran out before Untappd, press or a Hickory brewery could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The official winners page names OHB, not Oak Highlands Brewery. Olde Hickory's awards history lists an Imperial Stout, but the fetched page does not connect it to this 2026 entry. The brewery expansion remains unresolved, so no candidate brewery specifications or URL were transferred.

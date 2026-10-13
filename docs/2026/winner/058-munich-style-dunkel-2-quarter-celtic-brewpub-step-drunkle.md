@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "nm"
@@ -31,6 +31,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
   - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.quartercelticbrewpub.com/"
@@ -78,10 +79,12 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Quarter Celtic Brewpub](https://www.quartercelticbrewpub.com/)
 - [Quarter Celtic: drink menu](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [New Mexico medal coverage](https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/)
 
 ## research-notes
 
-- The brewpub drink menu lists ten beers (among them Vienna Lager, Dark Pedro and MacLomas Stout) but no Step Drunkle and no dunkel.
-- Web searches for the beer name found nothing, and no Untappd page could be located.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewpub drink menu lists ten beers (among them Vienna Lager, Dark Pedro and MacLomas Stout) but no Step Drunkle and no dunkel.
+- First pass: Web searches for the beer name found nothing, and no Untappd page could be located.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: New Mexico medal coverage confirms the exact brewery and beer, but searches yielded no ABV, IBU, ingredients or product page. Technical fields remain null.

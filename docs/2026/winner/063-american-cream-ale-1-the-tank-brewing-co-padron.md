@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "cream-ale"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "fl"
   - "gold"
-abv: null
+abv: 4.5
 adjuncts: []
 beer: "Padron"
 beer-url: null
@@ -32,8 +32,10 @@ medal: "Gold"
 place: 1
 sources:
   - "https://thetankbrewing.com/"
+  - "https://untappd.com/b/the-tank-brewing-co-padron/4079715"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "American Cream Ale"
+  - "https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry"
+style: "Cuban-American Lager"
 yeast: []
 ---
 
@@ -51,8 +53,8 @@ Padron is a beer from The Tank Brewing Co. in Miami, Florida.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
+| Style | Cuban-American Lager | [CraftBeer.com: Padron context](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry) |
+| ABV | 4.5% | [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -62,7 +64,9 @@ Padron is a beer from The Tank Brewing Co. in Miami, Florida.
 
 ## brewery-description
 
-No brewery description of Padron was found.
+> This flavorful and easy-drinking golden lager is brewed for our local community.
+
+Source: [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
 
 ## ingredients
 
@@ -70,16 +74,19 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Cream Ale calls for straw to gold color, pale malt sweetness, very low to low hop character, a light body, 4.3 to 5.7 percent ABV and 10 to 22 IBU. No published specs exist to compare against it.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Cream Ale calls for straw to gold color, pale malt sweetness, very low to low hop character, a light body, 4.3 to 5.7 percent ABV and 10 to 22 IBU. The published strength fits the numerical range, although the brewery's marketing label is Cuban-American Lager.
 
 ## links
 
 - [The Tank Brewing Co.](https://thetankbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
+- [CraftBeer.com: Padron context](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry)
 
 ## research-notes
 
-- The brewery home page (5100 NW 72nd Ave, Miami) lists three core beers, La Playita, Freedom Tower and Shark Valley, and not Padron; a guessed per-beer path for Padron returned HTTP 404.
-- The web search budget ran out before the beer could be searched by name or on Untappd.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewery home page (5100 NW 72nd Ave, Miami) lists three core beers, La Playita, Freedom Tower and Shark Valley, and not Padron; a guessed per-beer path for Padron returned HTTP 404.
+- First pass: The web search budget ran out before the beer could be searched by name or on Untappd.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd verifies the exact beer and strength. CraftBeer.com reports the brewery's Cuban-American Lager label, which differs from the competition category; no separate Padron version was identified. No IBU or ingredients were published.

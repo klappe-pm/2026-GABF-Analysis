@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ok"
   - "silver"
-abv: null
+abv: 3.3
 adjuncts: []
 beer: "Frequency of Expansion"
 beer-url: null
@@ -33,15 +33,18 @@ place: 2
 sources:
   - "https://thebigfriendly.com/"
   - "https://thebigfriendly.com/menu"
+  - "https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781"
   - "https://untappd.com/The_Big_Friendly/beer"
+  - "https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Session Beer"
-yeast: []
+style: "Farmhouse Ale with Brett"
+yeast: 
+  - "Brettanomyces"
 ---
 
 # 017-session-beer-2-the-big-friendly-frequency-of-expansion
 
-Frequency of Expansion is a beer from The Big Friendly, a small Oklahoma City brewery in the Wheeler District known for saisons and mixed culture beers; no public description of this beer was found.
+Frequency of Expansion is a beer from The Big Friendly, a small Oklahoma City brewery in the Wheeler District known for saisons and mixed culture beers.
 
 ## award
 
@@ -53,29 +56,33 @@ Frequency of Expansion is a beer from The Big Friendly, a small Oklahoma City br
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
+| Style | Farmhouse ale with Brett | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
+| ABV | 3.3% (2026 release) | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Yeast | Brettanomyces | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of this beer was found on the brewery site, its tap list page, or its Untappd beer list.
+> Farmhouse Ale with Brett.
+
+Source: [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
 
 ## ingredients
 
-Nothing about this beer's ingredients is published in any source that could be found.
+Neither the current listing nor the magazine review names hop or malt varieties. [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session Beer covers lighter versions of any style at 0.5 to 5.0 percent ABV and 10 to 35 IBU, with balance and drinkability as the key goals. With no published specs, fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session Beer covers lighter versions of any style at 0.5 to 5.0 percent ABV and 10 to 35 IBU, with balance and drinkability as the key goals. The current release's published strength falls within the category range; bitterness remains unpublished.
 
 ## links
 
+- [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
+- [Craft Beer and Brewing: Frequency review](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674)
 - [The Big Friendly](https://thebigfriendly.com/)
 - [The Big Friendly: tap list](https://thebigfriendly.com/menu)
 - [Untappd: The Big Friendly beer list](https://untappd.com/The_Big_Friendly/beer)
@@ -89,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Likely a small batch or taproom only release; style, ABV and ingredients remain unverified.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found the explicitly dated 2026 release and retained its published ABV. The [August 2025 review](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674) reports 3.1% for an earlier release; that value was not transferred to this year's profile. No IBU or hop varieties were found.

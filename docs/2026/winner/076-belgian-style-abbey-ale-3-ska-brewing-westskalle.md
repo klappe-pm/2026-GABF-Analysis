@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "belgian-ale"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "co"
-abv: null
+abv: 7.1
 adjuncts: []
 beer: "WestSKAlle"
 beer-url: null
@@ -26,22 +26,24 @@ category-name: "Belgian-Style Abbey Ale"
 category-number: 76
 entries: 49
 hops: []
-ibu: null
+ibu: 20
 malts: []
 medal: "Bronze"
 place: 3
 sources:
   - "https://skabrewing.com/"
   - "https://skabrewing.com/ska-brews/"
+  - "https://untappd.com/b/ska-brewing-westskalle/5733669"
+  - "https://untappd.com/v/ska-brewing-co/60260"
   - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Belgian-Style Abbey Ale"
+style: "Belgian Dubbel"
 yeast: []
 ---
 
 # 076-belgian-style-abbey-ale-3-ska-brewing-westskalle
 
-WestSKAlle is a Belgian-style abbey ale entered by Ska Brewing of Durango, Colorado, and not part of the brewery's published lineup.
+WestSKAlle is a Belgian dubbel from Ska Brewing of Durango, Colorado, listed on its taproom menu.
 
 ## award
 
@@ -53,9 +55,9 @@ WestSKAlle is a Belgian-style abbey ale entered by Ska Brewing of Durango, Color
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published by the brewery; Belgian-Style Abbey Ale is the competition category | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| Style | Belgian Dubbel | [Untappd: Westskalle](https://untappd.com/b/ska-brewing-westskalle/5733669) |
+| ABV | 7.1% | [Untappd: Westskalle](https://untappd.com/b/ska-brewing-westskalle/5733669) |
+| IBU | 20 | [Untappd: Westskalle](https://untappd.com/b/ska-brewing-westskalle/5733669) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -64,7 +66,7 @@ WestSKAlle is a Belgian-style abbey ale entered by Ska Brewing of Durango, Color
 
 ## brewery-description
 
-No description from the brewery was found; the beer is absent from its home page and its full brews page.
+The brewery's Untappd entry describes the beer only as Belgian Dubbel; no longer description was found.
 
 ## ingredients
 
@@ -72,10 +74,12 @@ No ingredient is published for this beer on any page found.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style named Belgian-Style Abbey Ale; its abbey styles include Belgian-Style Dubbel at 6.3 to 7.6 percent ABV and Belgian-Style Quadrupel at 10.0 to 14.2 percent. No specs are published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style named Belgian-Style Abbey Ale; its abbey styles include Belgian-Style Dubbel at 6.3 to 7.6 percent ABV and Belgian-Style Quadrupel at 10.0 to 14.2 percent. The published strength fits the Dubbel range.
 
 ## links
 
+- [Untappd: Westskalle](https://untappd.com/b/ska-brewing-westskalle/5733669)
+- [Ska: taproom menu](https://untappd.com/v/ska-brewing-co/60260)
 - [Ska Brewing](https://skabrewing.com/)
 - [Ska Brewing: the brews](https://skabrewing.com/ska-brews/)
 - [American Craft Beer: 2026 GABF winners](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/)
@@ -84,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 ## research-notes
 
 - The brews page lists 18 beers (IPAs, ales and lagers) and none is Belgian; the beer looks like a taproom or one-off release.
-- The name suggests a nod to Westvleteren, but nothing published confirms the intended style, so no style beyond the category is recorded.
+- The first pass inferred an abbey style from the name; the second pass found an explicit beer listing.
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The beer entry and brewery taproom menu agree on ABV, IBU and Belgian Dubbel style. No ingredient list or brewery-hosted beer page was found. The earlier style inference is superseded by these listings.

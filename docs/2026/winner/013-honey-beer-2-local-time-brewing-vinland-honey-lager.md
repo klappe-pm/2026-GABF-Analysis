@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,13 +9,14 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "nc"
   - "silver"
 abv: null
-adjuncts: []
+adjuncts: 
+  - "Orange blossom honey"
 beer: "Vinland Honey Lager"
 beer-url: null
 brewery: "Local Time Brewing"
@@ -27,7 +28,8 @@ category-number: 13
 entries: 54
 hops: []
 ibu: null
-malts: []
+malts: 
+  - "Barley malt"
 medal: "Silver"
 place: 2
 sources:
@@ -35,7 +37,8 @@ sources:
   - "https://localtimebrewing.com/?s=vinland"
   - "https://localtimebrewing.com/our-menu/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Honey Beer"
+  - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+style: "American Copper Lager"
 yeast: []
 ---
 
@@ -53,22 +56,24 @@ Vinland Honey Lager is a honey lager from Local Time Brewing of Holly Springs, N
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
+| Style | American Copper Lager | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
 | ABV | not published | none found |
 | IBU | not published | none found |
 | Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Malts and grains | Barley malt | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
 | Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Orange blossom honey | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of the beer was found; Vinland is not on the brewery's menu page.
+> It’s an American Copper Lager with Orange Blossom honey added in whirlpool.
+
+Source: [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) (comment by brewery co-owner Chris Gallagher).
 
 ## ingredients
 
-Nothing about ingredients is published, including the honey used.
+The co-owner's comment identifies malted barley as the base ingredient and says the honey enters in the whirlpool. [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing)
 
 ## style-context
 
@@ -76,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing)
 - [Local Time Brewing](https://localtimebrewing.com/)
 - [Local Time Brewing: menu](https://localtimebrewing.com/our-menu/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -87,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search budget for this session ran out before a press or Untappd search specific to this beer could be run.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found a medal report and the co-owner's explanatory comment confirming style, honey variety and barley malt. ABV, IBU and hop varieties remain unpublished in the sources found.

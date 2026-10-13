@@ -82,3 +82,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The Ocracoke-NC.com listing (https://www.ocracoke-nc.com/1718-brewing.html) describes the brewery as Ocracoke Island's only local brewery with an ever-rotating selection brewed on the premises, at 1129 Irvin Garrish Hwy.
 - A web search for the beer name found no listing; ABV, IBU, ingredients and a description were not found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Exact-name, Untappd, BeerMenus, ABV and medal searches found no additional verified specifications. The brewery's readable Untappd list did not include this beer. Identically named beers from Buena Vista Taproom and Brewery Outré were excluded because they are different breweries.

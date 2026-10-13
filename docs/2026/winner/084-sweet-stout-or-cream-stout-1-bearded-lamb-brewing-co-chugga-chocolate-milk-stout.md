@@ -83,3 +83,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches for the beer and brewery with Untappd, ABV, BeerMenus and 2026 medal terms found no additional specifications. The official winners page names the beer but supplies no recipe or strength; all gaps remain.

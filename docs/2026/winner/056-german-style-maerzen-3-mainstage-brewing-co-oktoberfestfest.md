@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
@@ -31,6 +31,7 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.mainstagebrewing.com/"
   - "https://www.mainstagebrewing.com/gunbarrel/"
@@ -78,11 +79,13 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [MainStage Brewing Co.](https://www.mainstagebrewing.com/)
 - [MainStage: Gunbarrel](https://www.mainstagebrewing.com/gunbarrel/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: MainStage Oktoberfest comparison](https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842)
 
 ## research-notes
 
-- Location conflict: the medal list says Boulder; the brewery site gives its flagship as 450 Main St, Lyons, CO, and names a Gunbarrel location without a street address. The medal list city is kept in the frontmatter.
-- The brewery site has no beer pages or tap list; its Toast ordering page returned HTTP 403 and a guessed /menu path returned 404.
-- BeerMenus searches for the beer and the brewery returned nothing, and web search budget ran out before Untappd or press could be tried.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: Location conflict: the medal list says Boulder; the brewery site gives its flagship as 450 Main St, Lyons, CO, and names a Gunbarrel location without a street address. The medal list city is kept in the frontmatter.
+- First pass: The brewery site has no beer pages or tap list; its Toast ordering page returned HTTP 403 and a guessed /menu path returned 404.
+- First pass: BeerMenus searches for the beer and the brewery returned nothing, and web search budget ran out before Untappd or press could be tried.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd lists MainStage Oktoberfest as a collaboration with New Image at 5.3% ABV, but it does not use the medal entry's Oktoberfestfest name. No source confirms equivalence, so that strength is excluded.

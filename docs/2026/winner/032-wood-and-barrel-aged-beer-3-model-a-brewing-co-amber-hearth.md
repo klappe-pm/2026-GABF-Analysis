@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "barrel-aged"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "sc"
-abv: null
+abv: 5.9
 adjuncts: []
 beer: "Amber Hearth"
 beer-url: null
@@ -34,8 +34,10 @@ sources:
   - "https://modelabrewing.com/"
   - "https://modelabrewing.com/beer/"
   - "https://modelabrewing.com/menu/"
+  - "https://www.beeradvocate.com/beer/profile/60152/733720/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Wood- and Barrel-Aged Beer"
+  - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+style: "Oak Aged Winter Warmer"
 yeast: []
 ---
 
@@ -53,14 +55,14 @@ Amber Hearth is a beer from Model A Brewing Co., the first brewery in Tega Cay, 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | Oak aged winter warmer | [Fort Mill Sun: Amber Hearth report](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/) |
+| ABV | 5.9% | [BeerAdvocate: Amber Hearth](https://www.beeradvocate.com/beer/profile/60152/733720/) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Other | Oak aging; first released as the 2024 anniversary beer | [Fort Mill Sun: Amber Hearth report](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/) |
 
 ## brewery-description
 
@@ -68,7 +70,7 @@ No brewery description of Amber Hearth was found.
 
 ## ingredients
 
-Nothing about the ingredients or the wood or barrel used for Amber Hearth was found.
+The report identifies the wood treatment listed above but provides no recipe ingredients. [Fort Mill Sun: Amber Hearth report](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/)
 
 ## style-context
 
@@ -76,6 +78,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [BeerAdvocate: Amber Hearth](https://www.beeradvocate.com/beer/profile/60152/733720/)
+- [Fort Mill Sun: Amber Hearth report](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/)
 - [Model A Brewing Co.](https://modelabrewing.com/)
 - [Model A: on tap now](https://modelabrewing.com/beer/)
 - [Model A: menu](https://modelabrewing.com/menu/)
@@ -87,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - A web search summary of the brewery's BeerAdvocate profile (https://www.beeradvocate.com/beer/profile/60152/) listed Amber Hearth as a Winter Warmer at 5.9% ABV, last rated February 2025; that page returned HTTP 403 and could not be read, so neither value is used above.
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The individual BeerAdvocate page is now readable, confirming the listed ABV. Current medal coverage identifies the beer as an oak aged winter warmer. No IBU, hop varieties or dedicated brewery beer page were found.

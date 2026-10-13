@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Open Brewery DB has no entry for the brewery. A Mid Atlantic Brew News profile appeared in search but returned no readable text.
 - Likely a limited or one-off release; no 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Exact-name searches with ABV, Untappd and 2026 GABF produced no matching specifications. The brewery's current beer menu was readable but still did not list Opposites Attract; nothing more was found.

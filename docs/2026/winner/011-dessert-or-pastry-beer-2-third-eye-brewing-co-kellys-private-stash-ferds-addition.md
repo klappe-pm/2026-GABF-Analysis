@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "barleywine"
@@ -9,15 +9,18 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases:
   - "Barrel-Aged Kelly's Private Stash (Ferd's Addition)"
   - "Kelly's Private Stash (Ferd's Edition)"
 tags:
   - "oh"
   - "silver"
-abv: null
-adjuncts: []
+abv: 13.7
+adjuncts: 
+  - "Hazelnut"
+  - "Madagascar vanilla"
+  - "Toasted coconut"
 beer: "Kelly's Private Stash Ferds Addition"
 beer-url: null
 brewery: "Third Eye Brewing Co."
@@ -28,7 +31,7 @@ category-name: "Dessert or Pastry Beer"
 category-number: 11
 entries: 67
 hops: []
-ibu: null
+ibu: 20
 malts: []
 medal: "Silver"
 place: 2
@@ -37,6 +40,7 @@ sources:
   - "https://thirdeyebrewingco.com/"
   - "https://thirdeyebrewingco.com/?page_id=3044"
   - "https://thirdeyebrewingco.com/beer/"
+  - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Barrel Aged Barleywine"
 yeast: []
@@ -57,34 +61,31 @@ Kelly's Private Stash Ferds Addition is a barrel aged barleywine from Third Eye 
 | Field | Value | Source |
 |---|---|---|
 | Style | Barrel Aged Barleywine | [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 13.7% | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| IBU | 20 | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | barrel aged (barrel type not published) | [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/) |
+| Adjuncts, fruit, spices | Hazelnut, Madagascar vanilla, toasted coconut | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| Other | Aged over 24 months in Blanton's Gold, Buffalo Trace and Rare Breed bourbon barrels | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
 
 ## brewery-description
 
-The brewery publishes no description of the beer. Its only mention is a medal post embedded on the home page:
+> this barleywine embodies patience and tradition.
 
-> Silver, Kelly's Private Stash (Ferd's Edition), Barrel Aged Barleywine
-
-Punctuation lightly normalized.
-
-Source: [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/)
+Source: [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
 ## ingredients
 
-Nothing about ingredients is published, including what the "Ferd's" addition or edition refers to.
+The published finishing ingredients are listed above; no hop, malt or yeast varieties are named. [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Dessert or Pastry Beer describes beers that "build on a strong dark beer base and incorporate culinary ingredients," deep amber to black, at 5.5 to 10.25 percent ABV or more and 20 to 65 IBU. The brewery labels the beer a barrel aged barleywine rather than a stout, and with no published ABV or ingredient list, fit with the category's culinary ingredient expectation cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Dessert or Pastry Beer describes beers that "build on a strong dark beer base and incorporate culinary ingredients," deep amber to black, at 5.5 to 10.25 percent ABV or more and 20 to 65 IBU. The brewery labels the beer a barrel aged barleywine rather than a stout, and the published finishing ingredients support the category's culinary ingredient expectation.
 
 ## links
 
+- [Untappd: 2026 Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
 - [Third Eye Brewing: our beers](https://thirdeyebrewingco.com/beer/)
 - [Third Eye Brewing: beer categories](https://thirdeyebrewingco.com/?page_id=3044)
@@ -98,3 +99,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The beer is absent from the brewery's beer listing and category page, and a site search returned only event pages.
 - Web searches found no Untappd listing, ABV, IBU or barrel source.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found the matching 2026 Ferd's Edition listing with ABV, IBU, finishing ingredients and barrel details. The separately described regular Private Stash release was excluded.

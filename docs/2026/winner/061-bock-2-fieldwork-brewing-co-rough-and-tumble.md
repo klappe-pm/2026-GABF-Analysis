@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "bock"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
@@ -34,9 +34,10 @@ sources:
   - "https://fieldworkbrewing.com/beer/"
   - "https://untappd.com/FieldworkBrewingCompany"
   - "https://untappd.com/w/fieldwork-brewing-company/184717/beer"
+  - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.fieldworkbrewing.com/"
-style: "Bock"
+style: "Bock Lager"
 yeast: []
 ---
 
@@ -54,7 +55,7 @@ Rough & Tumble is a beer from Fieldwork Brewing Co. of Berkeley, California, who
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
+| Style | Bock Lager | [Fieldwork: 2026 brewery announcement](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival) |
 | ABV | not published | none found |
 | IBU | not published | none found |
 | Hops | not published | none found |
@@ -82,10 +83,12 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Fieldwork Brewing Company](https://untappd.com/FieldworkBrewingCompany)
 - [Untappd: Fieldwork beer list](https://untappd.com/w/fieldwork-brewing-company/184717/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Fieldwork: 2026 brewery announcement](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival)
 
 ## research-notes
 
-- The brewery beer archive renders only empty templates without scripts, so no beer entries could be read.
-- Untappd lists 469 Fieldwork beers; only the first 25 load and Rough & Tumble was not among them. The web search budget ran out before a name search could be made.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewery beer archive renders only empty templates without scripts, so no beer entries could be read.
+- First pass: Untappd lists 469 Fieldwork beers; only the first 25 load and Rough & Tumble was not among them. The web search budget ran out before a name search could be made.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: The brewery announcement identifies the winning beer as Bock Lager. Search results exposed a brewery shop listing at 6.6% ABV, but all opened shop paths returned 404 and the Toast product page timed out. That strength, packaging and recipe wording remain unverified and are excluded.

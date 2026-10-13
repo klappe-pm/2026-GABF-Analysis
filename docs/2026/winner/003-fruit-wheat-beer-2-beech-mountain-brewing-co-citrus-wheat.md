@@ -85,3 +85,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The old resort brewery URL now redirects to beechmountainbrewingco.com; the linked Untappd beer board returned no readable content.
 - Searches for the beer name with the brewery and with the 2026 GABF found nothing.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional specifications. The brewery's Untappd page was readable but supplied no matching Citrus Wheat specifications.

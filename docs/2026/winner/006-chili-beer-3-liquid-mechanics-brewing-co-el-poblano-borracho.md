@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The tasting room page says the menu changes several times a week and names no beers, so beer-url is null.
 - Search summaries of BizWest and Axios 2024 coverage place the 2024 GABF gold in Chili Beer; the Axios page returned 403 and was not read.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Exact-name and alternate-name searches with Untappd, ABV and BeerMenus found no verified specifications. The brewery's Untappd activity and medal coverage identify the beer but do not supply its recipe; fields remain null.

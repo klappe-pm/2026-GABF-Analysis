@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The old beachwoodbbq.com domain fails its certificate check; the brewery now uses beachwoodbrewing.com.
 - The web search budget ran out before Untappd or press could be searched for specs.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches found the exact cherry variant in Beachwood's 2nd and PCH menu index, but that page repeatedly timed out. The opened Toast page did not expose the cherry listing. No specifications were accepted from search snippets; structured fields remain empty.

@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,15 +9,15 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
   - "silver"
-abv: null
+abv: 6
 adjuncts: []
 beer: "Oats"
-beer-url: null
+beer-url: "https://www.pizzaport.com/beer/oats/"
 brewery: "Pizza Port Solana Beach"
 brewery-city: "Solana Beach"
 brewery-state: "CA"
@@ -27,17 +27,22 @@ category-number: 84
 entries: 42
 hops: []
 ibu: null
-malts: []
+malts:
+  - "Flaked barley"
+  - "Flaked oats"
+  - "Flaked wheat"
+  - "Maris Otter"
 medal: "Silver"
 place: 2
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.pizzaport.com/"
   - "https://www.pizzaport.com/all-beers/"
+  - "https://www.pizzaport.com/beer/oats/"
   - "https://www.pizzaport.com/beer/seasonal/"
   - "https://www.pizzaport.com/brewpubs/solana-beach/"
   - "https://www.pizzaport.com/whats-on-tap/"
-style: "Sweet Stout or Cream Stout"
+style: "Oatmeal Stout"
 yeast: []
 ---
 
@@ -55,29 +60,32 @@ Oats is a stout entered by the Pizza Port brewpub in Solana Beach, California, o
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Sweet Stout or Cream Stout (category name; no brewery label found) | none found |
-| ABV | not published | none found |
+| Style | Oatmeal Stout | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
+| ABV | 6% | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
 | IBU | not published | none found |
 | Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Malts and grains | Maris Otter, flaked wheat, flaked barley and flaked oats | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of this beer was found.
+> Very low bitterness, low hop presence, and slight roastiness with notes of milk chocolate, chewy toffee, and of course oats.
+
+Source: [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/)
 
 ## ingredients
 
-Nothing about ingredients was found; the name suggests oats, but no source confirms the grist.
+The [brewery page](https://www.pizzaport.com/beer/oats/) says the recipe uses eight varieties of malted barley but does not name the full grist. No hop varieties or yeast strain are given.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. The published strength fits the cited range; bitterness remains unverified.
 
 ## links
 
+- [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/)
 - [Pizza Port: Solana Beach](https://www.pizzaport.com/brewpubs/solana-beach/)
 - [Pizza Port](https://www.pizzaport.com/)
 - [Pizza Port: what's on tap](https://www.pizzaport.com/whats-on-tap/)
@@ -91,3 +99,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The dedicated brewery page supplied strength, oatmeal stout style and named grains. It does not publish numerical bitterness, hop varieties or yeast; flavor references were not treated as adjuncts.

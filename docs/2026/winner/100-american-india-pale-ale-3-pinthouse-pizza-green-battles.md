@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "tx"
-abv: null
+abv: 6.8
 adjuncts: []
 beer: "Green Battles"
 beer-url: null
@@ -25,23 +25,28 @@ brewery-url: "https://www.pinthouse.com/"
 category-name: "American India Pale Ale"
 category-number: 100
 entries: 165
-hops: []
+hops:
+  - "Chinook"
+  - "Citra"
+  - "Mosaic"
 ibu: null
 malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+  - "https://www.beeradvocate.com/beer/profile/31066/279546/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.pinthouse.com/"
   - "https://www.pinthouse.com/beer-on-tap"
   - "https://www.pinthouse.com/flagship-beers"
-style: "American India Pale Ale"
+style: "American Pale Ale"
 yeast: []
 ---
 
 # 100-american-india-pale-ale-3-pinthouse-pizza-green-battles
 
-Green Battles is an IPA from Pinthouse (entered as Pinthouse Pizza, North location) in Austin, Texas; the brewery publishes details only for a double dry hopped fresh hop variant of it.
+Green Battles is an IPA from Pinthouse in Austin, Texas.
 
 ## award
 
@@ -53,30 +58,28 @@ Green Battles is an IPA from Pinthouse (entered as Pinthouse Pizza, North locati
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published for the base beer (category name used) | none found |
-| ABV | not published for the base beer | none found |
+| Style | American Pale Ale (brewery description on Untappd) | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| ABV | 6.8% | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
 | IBU | not published | none found |
-| Hops | not published for the base beer | none found |
+| Hops | Chinook, Citra, Mosaic | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
-| Other | the tap list carries DDH Fresh Hop Green Battles, a Fresh Hop IPA at 6.7% ABV | [Pinthouse: beer on tap](https://www.pinthouse.com/beer-on-tap) |
+| Other | not published for the base beer | none found |
 
 ## brewery-description
 
-> Stacked with fresh Simcoe and Citra, whole leaf Chinook, Amarillo CGX NUVO, and layers of Mosaic.
+> The result is a juicy pale ale, with refreshing bitterness and notes of sweet orchard fruit, tangerine, coconut, and mango.
 
-Source: [Pinthouse: beer on tap](https://www.pinthouse.com/beer-on-tap)
-
-This description belongs to the DDH Fresh Hop Green Battles variant, not necessarily to the medal winning entry.
+Source: [Brewery description on Untappd](https://untappd.com/b/pinthouse-brewing-green-battles/2065360)
 
 ## ingredients
 
-Nothing is published for Green Battles itself. The fresh hop variant on the current tap list names Simcoe, Citra, whole leaf Chinook, Amarillo CGX NUVO and Mosaic, with dank pine, sweet citrus, passionfruit and gooseberry flavors and a dry body with medium bitterness ([Pinthouse tap list](https://www.pinthouse.com/beer-on-tap)). Those hops are kept out of the structured fields because the variant is a different beer from the entry.
+The base beer listing describes double dry hopping with Cryo-Hops but does not identify which varieties use that format.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style India Pale Ale calls for pale to copper color, medium-low to medium malt, high to very high American hop character and medium-high to very high bitterness, at 6.3 to 7.5 percent ABV and 50 to 70 IBU. The fresh hop variant's 6.7% ABV would fit, but no specs for the entered beer are published.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style India Pale Ale gives 6.3 to 7.5 percent ABV and 50 to 70 IBU. The listed ABV fits; bitterness remains unpublished.
 
 ## links
 
@@ -84,11 +87,13 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Pinthouse: beer on tap](https://www.pinthouse.com/beer-on-tap)
 - [Pinthouse: flagship beers](https://www.pinthouse.com/flagship-beers)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Green Battles base beer](https://untappd.com/b/pinthouse-brewing-green-battles/2065360)
+- [Green Battles comparison](https://www.beeradvocate.com/beer/profile/31066/279546/)
 
 ## research-notes
 
+- Second pass 2026-10-13: The base beer listing supplies ABV and hops without using fresh hop variant data. [Untappd](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) lists 6.8% ABV, retained here; [BeerAdvocate](https://www.beeradvocate.com/beer/profile/31066/279546/) lists 6.3%. No current brewery specification resolves the difference.
 - Green Battles is not among the five flagship beers; it appears only as the DDH Fresh Hop variant on the tap list, which lists Pinthouse Brewing as the location.
 - Whether the entered beer was this fresh hop variant or a standard Green Battles could not be confirmed.
-- The session web search budget was exhausted before Untappd or press could be searched.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.

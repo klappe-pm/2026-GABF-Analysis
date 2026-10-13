@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
@@ -31,6 +31,7 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.urbanrootsbrewing.com/awards"
   - "https://www.urbanrootsbrewing.com/blog"
@@ -82,11 +83,13 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Urban Roots: draught and to-go list](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf)
 - [Urban Roots: blog](https://www.urbanrootsbrewing.com/blog)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: 2024 Reserve comparison](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024)
 
 ## research-notes
 
-- The brewery awards page lists 2025 Demons Run Reserve as 2026 World Beer Cup gold (Wood And Barrel Aged Stout) and 2026 Brewers Cup of California gold (Wood And Barrel Aged Strong Beer), plus State Fair medals for Demons Run and Demons Run Reserve.
-- The 16.4% figure belongs to the standard Demons Run bottle on the brewery list, not to the Reserve, so it is not used as this beer's ABV.
-- The brewery's site search also surfaced an older notice selling Demons Run 2019 and 2020 three-packs, confirming it is an annual series.
-- The online ordering page (Toast) returned HTTP 403. No 2026 GABF post was found on the blog, whose latest posts date to 2022.
-- Researched 2026-10-13.
+- First pass: The brewery awards page lists 2025 Demons Run Reserve as 2026 World Beer Cup gold (Wood And Barrel Aged Stout) and 2026 Brewers Cup of California gold (Wood And Barrel Aged Strong Beer), plus State Fair medals for Demons Run and Demons Run Reserve.
+- First pass: The 16.4% figure belongs to the standard Demons Run bottle on the brewery list, not to the Reserve, so it is not used as this beer's ABV.
+- First pass: The brewery's site search also surfaced an older notice selling Demons Run 2019 and 2020 three-packs, confirming it is an annual series.
+- First pass: The online ordering page (Toast) returned HTTP 403. No 2026 GABF post was found on the blog, whose latest posts date to 2022.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Searches found no verified specifications for the 2025 Reserve. The Untappd listing is explicitly the 2024 Reserve at 15.8% ABV, so its strength and barrel details are not transferred to this vintage.

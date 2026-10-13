@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "az"
@@ -31,6 +31,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Smoke Beer"
 yeast: []
@@ -74,10 +75,12 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Arizona medal coverage](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/)
 
 ## research-notes
 
-- Open Brewery DB lists Corbett Brewing Company in Tucson with no website.
-- Guessed domains corbettbrewing.com, corbettbrewing.co, corbettbrewingco.com and corbettbrew.com do not resolve, and Untappd brewery handles tried returned 404. Web search was unavailable for this run, so the brewery site, any Untappd listing and any medal press remain unfound.
-- The style label for this file is the category name.
-- Researched 2026-10-13.
+- First pass: Open Brewery DB lists Corbett Brewing Company in Tucson with no website.
+- First pass: Guessed domains corbettbrewing.com, corbettbrewing.co, corbettbrewingco.com and corbettbrew.com do not resolve, and Untappd brewery handles tried returned 404. Web search was unavailable for this run, so the brewery site, any Untappd listing and any medal press remain unfound.
+- First pass: The style label for this file is the category name.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Beer-specific searches found medal coverage but no matching technical specifications. A San Juan Brewfest beer list names Cypress Pils under Anarchy Brewing of Durango, not Corbett, so its figures are excluded.

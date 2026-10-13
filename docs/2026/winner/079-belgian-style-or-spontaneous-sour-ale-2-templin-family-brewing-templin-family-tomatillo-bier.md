@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery's beer list has no Tomatillo Bier; the only tomatillo beer is Tomatillo Sour Ale (CoLab and Limited series, barrel aged with tomatillo and prickly ash). It is very likely the winner but this is not confirmed, so beer-url, ABV and adjuncts are left empty.
 - The web search budget ran out before press or Untappd could be searched to confirm the name.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Searches for Tomatillo Bier, Untappd, BeerMenus and 2026 medal coverage did not establish that the winner is the Tomatillo Sour Ale already discussed above. No additional accepted values; structured fields remain empty.

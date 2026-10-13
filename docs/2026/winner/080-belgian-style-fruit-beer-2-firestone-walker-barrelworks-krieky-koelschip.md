@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "fruit-beer"
@@ -9,13 +9,14 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "ca"
   - "silver"
-abv: null
-adjuncts: []
+abv: 6.3
+adjuncts:
+  - "Balaton cherries"
 beer: "Krieky Koelschip"
 beer-url: null
 brewery: "Firestone Walker Barrelworks"
@@ -31,6 +32,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.firestonewalker.com/"
   - "https://www.firestonewalker.com/barrelworks/"
@@ -54,28 +56,31 @@ Krieky Koelschip is a Belgian-style fruit beer from Barrelworks, the wild and ba
 | Field | Value | Source |
 |---|---|---|
 | Style | not published by the brewery; the competition category is used | none found |
-| ABV | not published | none found |
+| ABV | 6.3% | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Adjuncts, fruit, spices | Balaton cherries | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
+| Other | Cooled in a barn coolship; aged in French oak for 3 to 5 years | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
 
 ## brewery-description
 
-No description from the brewery was found; the beer is not among the six Barrelworks beers on the brewery's beer catalog.
+> A bridge between lambic heritage and California terroir.
+
+Source: [Firestone Walker: description on Untappd](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998)
 
 ## ingredients
 
-No ingredient is published for this beer on any page found. The name points to cherries (kriek) and a coolship (koelschip), but neither is confirmed by a source, so neither is recorded.
+The [Untappd beer description](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) identifies whole Balaton cherries, used at three pounds per gallon after blending. No hop varieties, grain bill or yeast strain are named.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Fruit Beer calls for 2.5 to 12.0 percent ABV, 5 to 30 IBU and 5 to 50 SRM, with fruit aromas ranging from subtle to intense. No specs are published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Fruit Beer calls for 2.5 to 12.0 percent ABV, 5 to 30 IBU and 5 to 50 SRM, with fruit aromas ranging from subtle to intense. The published strength fits the category range; bitterness remains unverified.
 
 ## links
 
+- [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998)
 - [Firestone Walker: Barrelworks](https://www.firestonewalker.com/barrelworks/)
 - [Firestone Walker: our beers](https://www.firestonewalker.com/our-beers/)
 - [Firestone Walker](https://www.firestonewalker.com/)
@@ -86,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery's beer catalog lists six Barrelworks beers (including Balaton Bones, a different cherry beer) and none is this one; a guessed beer page URL returned 404.
 - The web search budget ran out before Untappd or press could be searched; this may be a taproom-only release.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd beer entry supplied strength, cherries and aging details. A TapHunter search result showed 6.0% ABV, but its page failed to open; that conflicting figure was not accepted. No brewery-hosted page was found.

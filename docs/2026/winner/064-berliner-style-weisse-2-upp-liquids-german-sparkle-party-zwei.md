@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "or"
@@ -31,6 +31,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
   - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.uppliquids.com/"
@@ -78,10 +79,12 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [UPP Liquids](https://www.uppliquids.com/)
 - [UPP Liquids: handcrafted beer](https://uppliquids.com/handcrafted-beer-bend-oregon/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Oregon medal coverage](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf)
 
 ## research-notes
 
-- The brewery beer page lists 19 beers across year-round, other fermentations and seasonal sections; neither German Sparkle Party Zwei nor a German Sparkle Party appears.
-- The web search budget ran out before the beer could be searched by name or on Untappd.
-- No 2026 medal announcement from the brewery was found.
-- Researched 2026-10-13.
+- First pass: The brewery beer page lists 19 beers across year-round, other fermentations and seasonal sections; neither German Sparkle Party Zwei nor a German Sparkle Party appears.
+- First pass: The web search budget ran out before the beer could be searched by name or on Untappd.
+- First pass: No 2026 medal announcement from the brewery was found.
+- First pass: Researched 2026-10-13.
+- Second pass 2026-10-13: Exact-name and Untappd searches found the official medal entry and Oregon press coverage, but no readable product specifications or brewery beer page. No figures from other German Sparkle Party beers are transferred.

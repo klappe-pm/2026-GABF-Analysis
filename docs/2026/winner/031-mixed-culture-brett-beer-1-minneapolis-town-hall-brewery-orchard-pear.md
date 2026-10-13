@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "brett-beer"
@@ -10,13 +10,14 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "gold"
   - "mn"
-abv: null
-adjuncts: []
+abv: 6.3
+adjuncts: 
+  - "Bartlett pear"
 beer: "Orchard Pear"
 beer-url: null
 brewery: "Minneapolis Town Hall Brewery"
@@ -32,12 +33,15 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
   - "https://townhallbrewery.com/"
   - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
   - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+  - "https://www.beeradvocate.com/beer/profile/1177/690142/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Mixed Culture Brett Beer"
-yeast: []
+style: "Mixed Culture Ale"
+yeast: 
+  - "Brettanomyces"
 ---
 
 # 031-mixed-culture-brett-beer-1-minneapolis-town-hall-brewery-orchard-pear
@@ -54,22 +58,24 @@ Orchard Pear is a beer from Minneapolis Town Hall Brewery, a brewpub at 1430 Sou
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
+| Style | Mixed culture ale | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
+| ABV | 6.3% | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Brettanomyces | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
+| Adjuncts, fruit, spices | Bartlett pears | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
+| Other | Barrel grown and fermented | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
 
 ## brewery-description
 
-No brewery description of Orchard Pear was found.
+> Barrel grown and fermented mixed culture Brettanomyces with orchard grown Bartlett Pears.
+
+Source: [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)
 
 ## ingredients
 
-No ingredients for Orchard Pear are published; pear is not listed as an ingredient here because no source states it.
+The product description names the fruit variety and yeast recorded above but provides no grain bill, hop varieties or bacteria. [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)
 
 ## style-context
 
@@ -77,6 +83,8 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)
+- [Heavy Table: Town Hall barrel beers](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/)
 - [Minneapolis Town Hall Brewery](https://townhallbrewery.com/)
 - [Town Hall Brewery: beer menu](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer)
 - [Town Hall Brewery: drink menu](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu)
@@ -88,3 +96,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - A web search for the beer name found no listing, review or press.
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found the matching mixed culture pear beer under Orchard Pear MC. Its listing supplies ABV, fruit and yeast; coverage documents a 2024 release, so these are published product specifications rather than a verified 2026 batch analysis. No IBU or brewery beer page was found.

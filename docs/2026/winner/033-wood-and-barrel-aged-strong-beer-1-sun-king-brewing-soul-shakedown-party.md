@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "barrel-aged-beer"
@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "gold"
   - "in"
-abv: null
+abv: 13.7
 adjuncts: []
 beer: "Soul Shakedown Party"
 beer-url: null
@@ -26,17 +26,19 @@ category-name: "Wood- and Barrel-Aged Strong Beer"
 category-number: 33
 entries: 61
 hops: []
-ibu: null
+ibu: 30
 malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
+  - "https://www.beeradvocate.com/beer/profile/20672/119571/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.sunkingbrewing.com/"
   - "https://www.sunkingbrewing.com/blog"
   - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
   - "https://www.sunkingbrewing.com/our-beers"
-style: "Wood- and Barrel-Aged Strong Beer"
+style: "Rum Barrel Aged Scotch Ale"
 yeast: []
 ---
 
@@ -54,29 +56,33 @@ Soul Shakedown Party is a barrel-aged specialty beer from Sun King Brewing, an I
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (the brewery's 2025 Indiana Brewers Cup post labels it Experimental Beer) | [Sun King: 2025 Indiana Brewers Cup results](https://www.sunkingbrewing.com/blog/tag/Amalfi) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| Style | Rum barrel aged Scotch ale | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| ABV | 13.7% (Untappd listing) | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| IBU | 30 | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Other | Wee Muckle base; rum barrel aging | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
 
 ## brewery-description
 
-The brewery publishes no description of this beer; its current beer list does not include it.
+> Soul Shakedown Party uses rum barrel aging to round out the huge toffee and port character of our Wee Muckle Scotch Ale
+
+Source: [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 
 ## ingredients
 
-Nothing about the ingredients, base beer or barrels is published on any page that could be opened.
+The listing gives molasses and orange peel as flavors rather than confirmed additions; no recipe ingredients are entered. [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) have no standalone entry for this competition category; their Other Strong Ale or Lager entry sets elevated alcohol at 8% ABV and up and notes that wood- and barrel-aged beers meeting that threshold are categorized separately. With no published ABV, fit cannot be checked.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) have no standalone entry for this competition category; their Other Strong Ale or Lager entry sets elevated alcohol at 8% ABV and up and notes that wood- and barrel-aged beers meeting that threshold are categorized separately. The listed strength exceeds that threshold.
 
 ## links
 
+- [BeerAdvocate: Soul Shakedown Party](https://www.beeradvocate.com/beer/profile/20672/119571/)
+- [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 - [Sun King Brewing](https://www.sunkingbrewing.com/)
 - [Sun King: our beers](https://www.sunkingbrewing.com/our-beers)
 - [Sun King: blog](https://www.sunkingbrewing.com/blog)
@@ -89,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery's July 2025 post lists the beer as 1st place, Specialty Beer, labelled Experimental Beer, at the 2025 Indiana Brewers Cup.
 - Search result snippets (not opened, so not used as specs) described it as a rum barrel-aged Scotch ale built on a Wee Muckle base, with conflicting figures of 14.1% ABV (Brewbound) and 9.0% ABV (Taphunter), both at 30 IBU. Brewbound, Taphunter and BeerAdvocate all returned HTTP 403, so none of these figures is verified.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Found a readable matching Untappd listing with ABV, IBU, base style and rum barrel treatment. BeerAdvocate also lists 13.7%, while a review there reports 14.1% for the 2021 festival pour. The current product listing value is retained, not asserted as a measured 2026 medal batch; earlier search snippets cited in the first pass remain unverified. No hop varieties or brewery beer page were found.

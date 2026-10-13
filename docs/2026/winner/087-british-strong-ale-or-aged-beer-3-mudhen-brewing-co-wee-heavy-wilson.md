@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "gabf"
@@ -9,30 +9,33 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "nj"
-abv: null
+abv: 8
 adjuncts: []
 beer: "Wee Heavy Wilson"
-beer-url: null
+beer-url: "https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/"
 brewery: "MudHen Brewing Co."
 brewery-city: "Wildwood"
 brewery-state: "NJ"
-brewery-url: null
+brewery-url: "https://mudhenbrew.com/"
 category-name: "British Strong Ale or Aged Beer"
 category-number: 87
 entries: 40
 hops: []
-ibu: null
-malts: []
+ibu: 33
+malts:
+  - "Peat-smoked malt"
 medal: "Bronze"
 place: 3
 sources:
+  - "https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/"
+  - "https://untappd.com/MudHenBrewingCompany/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-style: "Wee Heavy"
+style: "Scotch Ale"
 yeast: []
 ---
 
@@ -50,34 +53,39 @@ Wee Heavy Wilson is a wee heavy from MudHen Brewing Co. in Wildwood, New Jersey.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Wee Heavy (from the beer name) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| Style | Scotch Ale | [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/) |
+| ABV | 8% | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
+| IBU | 33 | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
 | Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Malts and grains | Peat-smoked malt | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | not published | none found |
 
 ## brewery-description
 
-No brewery description of this beer could be read.
+> with its full-bodied malt sweetness and a hint of smoked peat
+
+Source: [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/)
 
 ## ingredients
 
-Nothing about ingredients was found.
+The [Untappd description](https://untappd.com/MudHenBrewingCompany/beer) explicitly identifies smoked peat malt. No additional grist details, hops or yeast were found.
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describe Scotch Ale or Wee Heavy as a strong, very malty ale with dominant sweet malt and often caramel character, 6.6 to 8.5 percent ABV and 25 to 35 IBU, and define Aged Beer as any beer aged for over one year. The combined category text was not located in the guideline page read, and no specs are published to compare.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describe Scotch Ale or Wee Heavy as a strong, very malty ale with dominant sweet malt and often caramel character, 6.6 to 8.5 percent ABV and 25 to 35 IBU, and define Aged Beer as any beer aged for over one year. The published strength and bitterness fit the Scotch Ale ranges.
 
 ## links
 
+- [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer)
+- [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
-- Fetches of the likely brewery domain and its beer page failed without a response, so no brewery site was confirmed and brewery-url is null.
+- The first pass could not open the brewery site; this pass read its article about the beer's World Beer Cup wins. Later repeat requests timed out.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Untappd listing supplied strength, bitterness and smoked malt. The brewery article confirms the Scotch Ale identity and provides a beer-specific page, resolving the previously unconfirmed brewery domain.

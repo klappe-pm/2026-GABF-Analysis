@@ -1,6 +1,6 @@
 ---
-domain: beer
-category: gabf-winner
+domain: "beer"
+category: "gabf-winner"
 sub-category: "2026"
 topics:
   - "bock"
@@ -9,19 +9,19 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: "DRAFT"
 aliases: []
 tags:
   - "bronze"
   - "nc"
-abv: null
+abv: 7.5
 adjuncts: []
 beer: "Broyhan's Bock"
-beer-url: null
+beer-url: "https://gilde1546.com/-on-tap"
 brewery: "Gilde Brewery"
 brewery-city: "Charlotte"
 brewery-state: "NC"
-brewery-url: null
+brewery-url: "https://gilde1546.com/"
 category-name: "German-Style Strong Beer"
 category-number: 20
 entries: 39
@@ -32,9 +32,11 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://gilde-brauerei.com/?p=1161"
+  - "https://gilde1546.com/"
+  - "https://gilde1546.com/-on-tap"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/"
-style: "German-Style Strong Beer"
+style: "Pale Wheat Ale (Weissbierbock)"
 yeast: []
 ---
 
@@ -52,8 +54,8 @@ Broyhan's Bock is a bock from Gilde Brewery in Charlotte, North Carolina, the Am
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
+| Style | Pale Wheat Ale (Weissbierbock) | [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap) |
+| ABV | 7.5% | [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -63,18 +65,22 @@ Broyhan's Bock is a bock from Gilde Brewery in Charlotte, North Carolina, the Am
 
 ## brewery-description
 
-No brewery description of this beer was found.
+> notes of ripe fruits, banana, and hints of vanilla
+
+Source: [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
 ## ingredients
 
-Nothing about this beer's ingredients is published in any source that could be found.
+The tap list gives tasting notes but no recipe; fruit and vanilla notes are not treated as ingredient additions. [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) closest to this competition category include German-Style Doppelbock (6.6 to 7.9 percent ABV, 17 to 27 IBU, copper to dark brown), German-Style Heller Bock or Maibock (6.3 to 8.1 percent ABV, 20 to 38 IBU, pale to light amber) and German-Style Eisbock (8.6 to 14.3 percent ABV). With no published specs, fit cannot be checked.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) closest to this competition category include German-Style Doppelbock (6.6 to 7.9 percent ABV, 17 to 27 IBU, copper to dark brown), German-Style Heller Bock or Maibock (6.3 to 8.1 percent ABV, 20 to 38 IBU, pale to light amber) and German-Style Eisbock (8.6 to 14.3 percent ABV). The brewery identifies this as a wheat bock; the nearby bock ranges alone do not establish its full category fit.
 
 ## links
 
+- [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
+- [Gilde Brewery](https://gilde1546.com/)
 - [Gilde Brauerei: Hanoverian heritage](https://gilde-brauerei.com/?p=1161)
 - [Inside Beer: Gilde Charlotte opening](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -85,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Inside Beer reports the Charlotte site is owned by TCB Beverages and planned six on site beers, including an Urbock; whether Broyhan's Bock is related to that Urbock is unknown.
 - The guessed domains gildebrewery.com and gildebrewing.com returned empty pages, so no brewery-url is recorded. Brewbound and WCNC articles about the opening returned HTTP 403. Open Brewery DB has no entry.
 - Researched 2026-10-13.
+- Second pass 2026-10-13: Located the Charlotte brewery's working site, exact beer listing, ABV and style. The Hanover Broyhan-Bock and imported Urbock are separate listings and were excluded; no IBU or hop varieties were found.
