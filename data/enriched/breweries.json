@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-10-11T20:39:10.359Z",
+  "source": "Open Brewery DB (https://www.openbrewerydb.org) plus data/reference/brewery-overrides.csv",
+  "breweries": {
+    "green cheek": {
+      "key": "green cheek",
+      "name": "Green Cheek Beer Co.",
+      "best": {
+        "source": "override",
+        "address_1": "2294 N Batavia St, Suite C",
+        "city": "Orange",
+        "state": "CA",
+        "postal_code": "92865",
+        "latitude": "33.8302",
+        "longitude": "-117.8631",
+        "website_url": "https://www.greencheekbeer.com",
+        "brewery_type": "brewpub",
+        "notes": "Headquarters and production brewery; coordinates approximate until Open Brewery DB enrichment runs"
+      },
+      "locations": [
+        {
+          "source": "override",
+          "label": "",
+          "address_1": "2294 N Batavia St, Suite C",
+          "city": "Orange",
+          "state": "CA",
+          "postal_code": "92865",
+          "latitude": "33.8302",
+          "longitude": "-117.8631",
+          "website_url": "https://www.greencheekbeer.com",
+          "brewery_type": "brewpub",
+          "notes": "Headquarters and production brewery; coordinates approximate until Open Brewery DB enrichment runs"
+        },
+        {
+          "source": "override",
+          "label": "Orange",
+          "address_1": "2294 N Batavia St, Suite C",
+          "city": "Orange",
+          "state": "CA",
+          "postal_code": "92865",
+          "latitude": "33.8302",
+          "longitude": "-117.8631",
+          "website_url": "https://www.greencheekbeer.com",
+          "brewery_type": "brewpub",
+          "notes": "Headquarters and production brewery"
+        },
+        {
+          "source": "override",
+          "label": "Costa Mesa",
+          "address_1": "2957 Randolph Ave, Unit B",
+          "city": "Costa Mesa",
+          "state": "CA",
+          "postal_code": "92626",
+          "latitude": "33.6639",
+          "longitude": "-117.8864",
+          "website_url": "https://www.greencheekbeer.com/costa-mesa",
+          "brewery_type": "brewpub",
+          "notes": "Former Barley Forge Brewing site in the SoBECA district; brewing plus kitchen"
+        },
+        {
+          "source": "override",
+          "label": "Oceanside",
+          "address_1": "601 S Coast Hwy",
+          "city": "Oceanside",
+          "state": "CA",
+          "postal_code": "92054",
+          "latitude": "33.1904",
+          "longitude": "-117.3747",
+          "website_url": "https://www.greencheekbeer.com/oceanside",
+          "brewery_type": "brewpub",
+          "notes": "Former Bagby Beer Co. site; opened 2024"
+        },
+        {
+          "source": "override",
+          "label": "Sunset Beach",
+          "address_1": "Pacific Coast Hwy",
+          "city": "Huntington Beach",
+          "state": "CA",
+          "postal_code": "90742",
+          "latitude": "33.7160",
+          "longitude": "-118.0665",
+          "website_url": "https://www.greencheekbeer.com",
+          "brewery_type": "taproom",
+          "notes": "Restaurant and taproom in Sunset Beach; street number not confirmed"
+        }
+      ],
+      "obdb_queried_at": null
+    },
+    "craft coast": {
+      "key": "craft coast",
+      "name": "Craft Coast Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "beach cat": {
+      "key": "beach cat",
+      "name": "Beach Cat Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "community beer works": {
+      "key": "community beer works",
+      "name": "Community Beer Works",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "geisthaus": {
+      "key": "geisthaus",
+      "name": "Geisthaus Brewing Co.",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "los dos potrillos cerveceria": {
+      "key": "los dos potrillos cerveceria",
+      "name": "Los Dos Potrillos Cervecería",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "morgan territory": {
+      "key": "morgan territory",
+      "name": "Morgan Territory Brewing",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "wormtown": {
+      "key": "wormtown",
+      "name": "Wormtown Brewery",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "sunriver": {
+      "key": "sunriver",
+      "name": "Sunriver Brewing Co.",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    },
+    "tommyknocker brewery and pub": {
+      "key": "tommyknocker brewery and pub",
+      "name": "Tommyknocker Brewery & Pub",
+      "best": null,
+      "locations": [],
+      "obdb_queried_at": null
+    }
+  }
+}

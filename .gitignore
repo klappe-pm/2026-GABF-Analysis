@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-hosted/
+data/raw/*.pdf
+data/cache/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+settings.local.json
+reports/*-page*.png

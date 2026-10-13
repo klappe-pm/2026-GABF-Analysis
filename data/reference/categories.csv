@@ -1,0 +1,112 @@
+category_name,style_family,abv_min,abv_max,ibu_min,ibu_max,srm_min,srm_max,description,guideline_source,confidence,special
+American-Style India Pale Ale,IPA,6.3,7.5,50,70,6,12,"Gold to copper, dry to medium-dry, with assertive American hop aroma and flavor (citrus, pine, floral, fruit) and firm bitterness. The archetypal West Coast IPA.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+West Coast-Style India Pale Ale,IPA,6.3,7.5,50,70,4,10,"Pale and brilliantly clear, dry, crisp, and bitter with pronounced American hop aroma. Added as its own category after hazy IPAs split off.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Juicy or Hazy India Pale Ale,IPA,6.3,7.5,50,70,4,7,"Hazy to opaque, soft body, low perceived bitterness, intense tropical and stone-fruit hop character from late and dry hopping. The most entered GABF category for several years.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Juicy or Hazy Imperial India Pale Ale,IPA,7.6,10.6,60,100,4,7,"Stronger hazy IPA with full body and intense fruity hop aroma, alcohol warmth present but not harsh.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Imperial India Pale Ale,IPA,7.6,10.6,65,100,5,13,"Double IPA: high alcohol, intense hop bitterness and aroma, medium to full body, often clear and dry.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Session India Pale Ale,IPA,3.7,5.0,40,55,4,12,Lower alcohol IPA that keeps hop-forward aroma and firm bitterness with a lighter body.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Juicy or Hazy Pale Ale,Pale Ale,4.4,5.4,30,50,4,7,Hazy pale ale with fruity hop character and low bitterness at pale-ale strength.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Juicy or Hazy Strong Pale Ale,Pale Ale,5.5,6.2,40,55,4,7,Between hazy pale ale and hazy IPA in strength and intensity.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Strong Pale Ale,Pale Ale,5.6,6.3,40,50,6,14,Hoppy pale ale stronger than classic American pale ale but below IPA strength.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Pale Ale,Pale Ale,4.4,5.4,30,50,6,14,"Pale to light amber with American hop flavor and aroma, moderate bitterness, and a clean malt backbone.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Australian-Style Pale Ale,Pale Ale,4.2,6.0,20,40,3,9,"Fruity (passion fruit, melon, citrus) pale ale built on Australian and New Zealand hops with a soft bitterness and dry finish.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+International-Style Pale Ale,Pale Ale,4.5,6.0,25,40,6,14,Pale ale showcasing hop varieties from outside the US and England.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Golden or Blonde Ale,Pale Ale,4.1,5.1,15,25,3,7,"Light bodied, easy drinking golden ale with low hop and malt intensity.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Cream Ale,Pale Ale,4.2,5.6,10,22,2,5,"Pale,  smooth,  light ale often brewed with corn or rice adjuncts.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Classic English-Style Pale Ale,British and Irish,4.5,5.5,20,40,5,12,English pale ale with earthy or floral English hops and a balanced malt character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Extra Special Bitter,British and Irish,4.8,5.8,30,45,8,14,Stronger English bitter with notable hop and malt character in balance.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Ordinary or Special Bitter,British and Irish,3.0,4.8,20,40,6,14,Session-strength English bitter.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+English-Style Mild Ale,British and Irish,3.2,4.0,10,24,8,34,"Low alcohol malt-forward English session ale,  pale or dark.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+English-Style Brown Ale,Brown, Amber, and Red,4.2,6.0,12,25,"12, 17, Malty,  nutty brown ale with low hop character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Brown Ale,Brown, Amber, and Red,4.2,6.3,25,45,"15, 26, Brown ale with more hop character and roast than its English counterpart.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Amber/Red Ale,Brown, Amber, and Red,4.4,6.1,25,45,"11, 18, Amber to red ale with caramel malt character and American hops.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Imperial Red Ale,Strong and Barrel-Aged,7.9,10.5,55,85,10,15,Strong hoppy red ale with intense caramel malt and hop bitterness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Irish-Style Red Ale,British and Irish,4.0,4.8,20,28,11,18,Malty red ale with low hop bitterness and a light roast finish.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Scottish-Style Ale,British and Irish,2.8,5.3,9,25,6,19,Malt-forward Scottish ale with low hop character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Scotch Ale or Wee Heavy,Strong and Barrel-Aged,6.6,8.5,25,35,15,30,"Strong,  rich,  malty Scottish ale.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Barley Wine-Style Ale,Strong and Barrel-Aged,8.5,12.2,60,100,11,22,Very strong ale with rich malt and often high hop bitterness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Old Ale or Strong Ale,Strong and Barrel-Aged,6.3,9.1,30,65,12,30,Strong malty ale with aged character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Robust Porter,Stout and Porter,5.1,6.6,25,40,30,40,Dark porter with roast bitterness and moderate hop character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Brown Porter,Stout and Porter,4.4,6.0,20,30,20,35,Softer porter with chocolate malt and low roast.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Baltic-Style Porter,Stout and Porter,7.6,9.3,35,40,20,30,"Strong, smooth, lager-fermented dark beer with dark fruit, licorice, and chocolate malt complexity and little roast bitterness.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Stout,Stout and Porter,5.7,8.9,35,60,40,40,Roasty stout with assertive American hop character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Black Ale,Stout and Porter,6.0,7.5,50,70,35,40,Black IPA: dark color with hop-forward aroma and bitterness and restrained roast.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Black Ale or American-Style Stout,Stout and Porter,5.7,8.9,35,70,35,40,Combined GABF category covering black IPA and American stout.,GABF 2025 category grouping,approximate,no
+Oatmeal Stout,Stout and Porter,3.8,6.1,20,40,20,40,Smooth stout brewed with oats for body and silkiness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Sweet Stout or Cream Stout,Stout and Porter,3.2,6.3,15,25,40,40,"Low bitterness stout with residual sweetness,  often with lactose.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Classic Irish-Style Dry Stout,Stout and Porter,4.1,5.3,30,40,40,40,Dry roasty stout with low alcohol and creamy texture.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Export-Style Stout,Stout and Porter,5.7,9.3,30,60,40,40,Stronger stout with pronounced roast and dark fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+British-Style Imperial Stout,Strong and Barrel-Aged,7.0,12.0,45,65,20,40,Strong rich stout with fruity esters and complex malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Imperial Stout,Strong and Barrel-Aged,7.0,12.0,50,80,40,40,Strong stout with intense roast and American hop bitterness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Wood- and Barrel-Aged Strong Stout,Smoke and Wood,7.0,12.0,45,80,40,40,Strong stout aged in wood or spirit barrels.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Wood- and Barrel-Aged Strong Beer,Smoke and Wood,7.0,12.0,20,80,4,40,Strong beer aged in wood or spirit barrels.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Wood- and Barrel-Aged Beer,Smoke and Wood,2.5,7.0,10,50,2,40,Normal strength beer aged in wood or barrels.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Wood- and Barrel-Aged Sour Beer,Smoke and Wood,2.5,12.0,5,40,2,40,Sour beer aged in wood.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Smoke Beer,Smoke and Wood,2.5,12.0,5,80,2,40,Any beer with distinct smoke character from smoked malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+German-Style Pilsener,Pilsner,4.6,5.3,25,40,3,4,"Pale, dry, crisp lager with noble hop bitterness and aroma.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Bohemian-Style Pilsener,Pilsner,4.1,5.1,30,45,3,7,Czech pilsner with richer malt and soft Saaz hop character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Pilsener,Pilsner,5.0,6.0,25,40,3,6,Pre-Prohibition style pilsner often with corn or rice and American or noble hops.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Contemporary American-Style Pilsener,Pilsner,4.5,6.0,25,50,2,6,"Modern pilsner with American, Australian, or New Zealand hop aroma.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Italian-Style Pilsener,Pilsner,4.8,5.8,25,40,2,5,"Dry-hopped pilsner in the Tipopils tradition: brilliantly pale, crisp, with pronounced floral and herbal noble hop aroma from dry hopping.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+International-Style Pilsener,Pilsner,4.6,5.3,17,30,3,4,Pale lager with subtle hop and malt character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Munich-Style Helles,Lager,4.8,5.6,18,25,4,6,Soft malty pale lager with low hop bitterness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Dortmunder or German-Style Oktoberfest,Lager,5.1,6.1,23,29,3,6,Balanced pale export lager.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Maerzen,Lager,5.1,6.0,18,25,4,15,Amber lager with toasty malt and clean finish.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Vienna-Style Lager,Lager,4.8,5.4,22,28,12,16,Amber lager with toasty malt and subtle hop.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Amber Lager,Lager,4.8,5.4,18,30,6,14,Amber lager with caramel malt and moderate hop.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Lager,Lager,4.1,5.1,5,13,2,4,"Light,  crisp,  clean American lager often with adjuncts.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Light Lager,Lager,3.5,4.4,4,10,2,4,Very light lager with low calories and flavor.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Kellerbier or Zwickelbier,Lager,4.8,5.4,22,40,3,16,Unfiltered young lager with yeast haze.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Schwarzbier,Lager,3.8,4.9,22,30,25,30,Black lager with mild roast and clean finish.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Munich-Style Dunkel,Lager,4.8,5.3,16,25,15,20,Dark malty lager with bread crust and chocolate malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Bock,Lager,6.3,7.6,20,30,20,30,Strong malty dark lager.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Doppelbock,Strong and Barrel-Aged,6.6,7.9,17,27,12,30,Very strong rich malty lager.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Rice Lager,Lager,4.0,5.8,8,25,2,5,"New for 2026: pale lager brewed with a significant rice portion, very dry, crisp, and clean.",GABF 2026 competition update (ranges approximate),approximate,no
+Cold IPA,Lager,6.0,7.5,45,70,2,5,"Lager yeast or cold-fermented IPA with adjunct-lightened body, high attenuation, and intense hop aroma.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Koelsch,German Ale,4.8,5.3,18,28,3,6,Pale delicate ale fermented cool and lagered.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+German-Style Altbier,German Ale,4.6,5.6,25,52,11,19,Copper ale with firm bitterness and smooth malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American Wheat Beer,Wheat,3.7,5.6,10,35,4,10,Light wheat beer fermented with neutral ale yeast.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+South German-Style Hefeweizen,Wheat,4.9,5.6,10,15,3,9,Cloudy wheat beer with banana and clove yeast character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Witbier,Wheat,4.8,5.6,10,17,2,4,Spiced Belgian wheat beer with coriander and orange peel.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Fruit Wheat Beer,Fruit, Spice, and Specialty,3.7,5.6,10,35,"2, 10, Wheat beer with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Fruited American-Style Sour Ale,Sour and Wild,2.5,12.0,5,30,2,40,Sour ale with fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+American-Style Sour Ale,Sour and Wild,2.5,12.0,5,30,2,40,Clean sour ale without fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Contemporary Gose,Sour and Wild,4.4,5.4,5,15,3,9,Tart wheat beer with salt and coriander and often fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Berliner-Style Weisse,Sour and Wild,2.8,5.0,3,6,2,4,Light tart wheat beer.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Lambic or Sour Ale,Sour and Wild,5.0,8.9,5,22,6,13,Spontaneously fermented or mixed culture Belgian sour.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Brett Beer,Sour and Wild,2.5,12.0,5,70,2,40,Beer fermented with Brettanomyces.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Mixed-Culture Brett Beer,Sour and Wild,2.5,12.0,5,70,2,40,Mixed culture fermentation with Brett character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Classic Saison,Belgian and French,5.0,6.8,20,40,4,14,"Dry, highly carbonated, spicy and fruity Belgian farmhouse ale with peppery yeast character and a crisp finish.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Specialty Saison,Belgian and French,4.0,9.0,20,40,4,20,"Saison with fruit,  spice,  wood,  or alternative grains.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Belgian-Style Blonde Ale,Belgian and French,6.3,7.9,15,30,4,7,Golden Belgian ale with fruity yeast and soft malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Tripel,Belgian and French,7.1,10.1,20,45,4,7,Strong pale Belgian ale with spicy fruity yeast character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Dubbel,Belgian and French,6.3,7.6,20,30,16,36,Dark Belgian abbey ale with dried fruit and caramel.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Quadrupel,Belgian and French,9.1,14.2,25,50,8,20,Very strong dark Belgian ale.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Strong Golden Ale,Belgian and French,7.1,11.2,20,50,4,7,"Strong golden Belgian ale,  dry with fruity yeast.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Dark Strong Ale,Belgian and French,7.1,11.2,20,50,9,35,Strong dark Belgian ale.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Belgian-Style Pale Ale,Belgian and French,4.1,6.3,20,30,6,12,Copper Belgian ale with mild yeast character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Biere de Garde,Belgian and French,4.4,8.0,20,30,4,19,French farmhouse lagered ale with toasty malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Coffee Beer,Fruit, Spice, and Specialty,2.5,12.0,5,80,"2, 40, Any style with coffee added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Chocolate or Cocoa Beer,Fruit, Spice, and Specialty,2.5,12.0,5,80,"2, 40, Any style with chocolate or cocoa.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Fruit Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Any non-wheat style with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Field Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with vegetables or botanicals.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Pumpkin Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with pumpkin or squash and often spice.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Chili Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with chili peppers.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Herb and Spice Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with herbs or spices.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Specialty Beer,Fruit, Spice, and Specialty,2.5,12.0,5,100,"2, 40, Beer with unusual ingredients or processes not covered elsewhere.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Experimental Beer,Fruit, Spice, and Specialty,2.5,14.0,5,100,"2, 40, Beer using experimental techniques or ingredients.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Honey Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with honey character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Historical Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Recreations of historical styles.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Non-Alcohol Beer,Gluten-Free and Non-Alcoholic,0.0,0.5,5,70,2,40,Beer at or below 0.5% ABV.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Hop Water,Gluten-Free and Non-Alcoholic,0.0,0.5,0,10,0,2,New for 2026: non-alcoholic carbonated water flavored with hops.,GABF 2026 competition update,approximate,yes
+Gluten-Free Beer,Gluten-Free and Non-Alcoholic,2.5,12.0,5,70,2,40,Beer brewed without gluten-containing grains.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Craft Malt,Fruit, Spice, and Specialty,2.5,12.0,5,100,"2, 40, One-time 2026 category for beers showcasing craft malt.",GABF 2026 competition update,approximate,yes
+Pro-Am,Pro-Am and Collaboration,2.5,14.0,5,100,2,40,Professional and amateur collaboration entries judged in their own competition.,GABF competition rules,approximate,yes
+Collaboration,Pro-Am and Collaboration,2.5,14.0,5,100,2,40,Collaboration entries judged in their own competition.,GABF competition rules,approximate,yes
+Cider,Cider and Mead,4.5,12.0,0,0,0,0,Fermented apple beverages judged alongside beer at GABF since 2023.,GABF competition rules,approximate,yes
+Specialty India Pale Ale,IPA,6.0,10.0,40,100,4,40,"IPA defined by an added ingredient or process rather than a classic sub-style: black IPA, brut IPA, wood-aged IPA, IPAs with fruit, spice, lactose, or alternative grains, and other hop-forward hybrids. Green Cheek won gold here in 2026 with Doom Sludge.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+American Fruit Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,Non-wheat beer with fruit added; 79 entries in 2026.,GABF 2026 category list (Forbes coverage),approximate,yes
+Rye Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Any style brewed with a significant rye portion, judged on rye character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Session Beer,"Fruit, Spice, and Specialty",3.0,5.0,5,50,2,40,Lower-alcohol versions of classic styles judged on drinkability and style character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+International Dark Lager,Lager,4.1,5.8,8,20,18,30,"Smooth, lightly roasty dark lager in the international tradition; Craft Coast took gold here in 2026 with Oscura.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+Hoppy Non-Alcohol Beer,Gluten-Free and Non-Alcoholic,0.0,0.5,20,70,2,14,Hop-forward beer at or below 0.5 percent ABV.,GABF 2026 category list,approximate,yes

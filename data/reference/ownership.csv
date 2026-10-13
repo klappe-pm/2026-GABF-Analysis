@@ -1,0 +1,71 @@
+brewery_name,aliases,hq_city,hq_state,ownership_type,parent,parent_type,investor,stake,deal_year,status,ba_independent,founded,source,verified
+Green Cheek Beer Co.,Green Cheek Beer Company;Green Cheek,Orange,CA,independent,,,"Founders Evan Price and Brian Rauso; no outside funding reported",100% founders,2017,active,yes,2017,Brewbound brewery listing; Nombase company profile (no funding data); The Full Pint launch coverage 2017,no
+Goose Island Beer Co.,Goose Island,Chicago,IL,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2011,active,no,1988,Company announcement 2011,no
+Elysian Brewing Co.,Elysian Brewing,Seattle,WA,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2015,active,no,1996,Company announcement 2015,no
+Golden Road Brewing,Golden Road,Los Angeles,CA,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2015,active,no,2011,Company announcement 2015,no
+Four Peaks Brewing Co.,Four Peaks,Tempe,AZ,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2015,active,no,1996,Company announcement 2015,no
+Devils Backbone Brewing Co.,Devils Backbone,Roseland,VA,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2016,active,no,2008,Company announcement 2016,no
+Karbach Brewing Co.,Karbach,Houston,TX,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2016,active,no,2011,Company announcement 2016,no
+Wicked Weed Brewing,Wicked Weed,Asheville,NC,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2017,active,no,2012,Company announcement 2017,no
+Veza Sur Brewing Co.,Veza Sur,Miami,FL,large-brewer-owned,Anheuser-Busch InBev,large brewer,ZX Ventures (AB InBev venture arm),100%,2017,active,no,2017,Company announcement 2017,no
+Kona Brewing Co.,Kona Brewing,Kailua-Kona,HI,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2020,active,no,1994,Craft Brew Alliance acquisition closed 2020,no
+Cisco Brewers,Cisco,Nantucket,MA,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2020,active,no,1995,Craft Brew Alliance acquisition closed 2020,no
+Omission Brewing Co.,Omission,Portland,OR,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2020,active,no,2012,Craft Brew Alliance acquisition closed 2020,no
+Appalachian Mountain Brewery,,Boone,NC,independent,,,,100% founders,2023,active,yes,2011,Acquired by AB InBev with Craft Brew Alliance in 2020 and reported sold back to its founders in 2023; confirm before quoting,no
+10 Barrel Brewing Co.,10 Barrel,Bend,OR,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,2006,AB InBev 2014; sold to Tilray Brands 2023,no
+Blue Point Brewing Co.,Blue Point,Patchogue,NY,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,1998,AB InBev 2014; sold to Tilray Brands 2023,no
+Breckenridge Brewery,Breckenridge,Littleton,CO,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,1990,AB InBev 2016; sold to Tilray Brands 2023,no
+Redhook Brewery,Redhook,Seattle,WA,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,1981,Craft Brew Alliance to AB InBev 2020; sold to Tilray Brands 2023,no
+Widmer Brothers Brewing,Widmer Brothers,Portland,OR,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,1984,Craft Brew Alliance to AB InBev 2020; sold to Tilray Brands 2023,no
+Shock Top Brewing Co.,Shock Top,St. Louis,MO,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2023,active,no,2006,AB InBev brand sold to Tilray Brands 2023,no
+SweetWater Brewing Co.,SweetWater,Atlanta,GA,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2020,active,no,1997,Tilray (then Aphria) acquisition 2020,no
+Green Flash Brewing Co.,Green Flash,San Diego,CA,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2021,active,no,2002,Acquired through SweetWater 2021,no
+Alpine Beer Co.,Alpine,Alpine,CA,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2021,active,no,1999,Acquired with Green Flash 2021,no
+Montauk Brewing Co.,Montauk,Montauk,NY,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2022,active,no,2012,Tilray acquisition 2022,no
+Terrapin Beer Co.,Terrapin,Athens,GA,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2024,active,no,2002,Molson Coors 2016; sold to Tilray Brands 2024,no
+Hop Valley Brewing Co.,Hop Valley,Eugene,OR,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2024,active,no,2009,Molson Coors 2016; sold to Tilray Brands 2024,no
+Revolver Brewing,Revolver,Granbury,TX,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2024,active,no,2012,Molson Coors 2016; sold to Tilray Brands 2024,no
+Atwater Brewery,Atwater,Detroit,MI,public-company-owned,Tilray Brands,public company (NASDAQ TLRY),,100%,2024,active,no,1997,Molson Coors 2020; sold to Tilray Brands 2024,no
+Blue Moon Brewing Co.,Blue Moon,Golden,CO,large-brewer-owned,Molson Coors Beverage Co.,large brewer,,100%,1995,active,no,1995,Founded inside Coors; Tenth and Blake division,no
+Jacob Leinenkugel Brewing Co.,Leinenkugel's,Chippewa Falls,WI,large-brewer-owned,Molson Coors Beverage Co.,large brewer,,100%,1988,active,no,1867,Acquired by Miller 1988,no
+AC Golden Brewing Co.,AC Golden,Golden,CO,large-brewer-owned,Molson Coors Beverage Co.,large brewer,,100%,2007,active,no,2007,Molson Coors subsidiary,no
+Saint Archer Brewing Co.,Saint Archer,San Diego,CA,closed,Molson Coors Beverage Co.,large brewer,,100%,2015,brand sold 2021 and brewery closed,no,2013,Molson Coors 2015; closed and brand sold to Kings and Convicts 2021,no
+Lagunitas Brewing Co.,Lagunitas,Petaluma,CA,large-brewer-owned,Heineken,large brewer,,100%,2017,active,no,1993,Heineken 50% in 2015 and 100% in 2017,no
+New Belgium Brewing Co.,New Belgium,Fort Collins,CO,large-brewer-owned,Lion Little World Beverages (Kirin),large brewer,,100%,2019,active,no,1991,Sold by its employee owners to Lion in 2019,no
+Bell's Brewery,Bell's,Comstock,MI,large-brewer-owned,Lion Little World Beverages (Kirin),large brewer,,100%,2021,active,no,1985,Lion acquisition announced 2021 and combined with New Belgium 2022,no
+Stone Brewing,Stone,Escondido,CA,large-brewer-owned,Sapporo Holdings,large brewer,,100%,2022,active,no,1996,Sapporo acquisition 2022,no
+Anchor Brewing Co.,Anchor,San Francisco,CA,independent,Hamdi Ulukaya (private owner),private owner,,100%,2024,reopened after 2023 closure,yes,1896,Sapporo 2017; closed 2023; assets bought by Hamdi Ulukaya 2024; confirm current status,no
+Founders Brewing Co.,Founders,Grand Rapids,MI,large-brewer-owned,Mahou San Miguel,large brewer,,100%,2023,active,no,1997,Mahou 30% in 2014 then 90% in 2019 then 100% in 2023,no
+Avery Brewing Co.,Avery,Boulder,CO,large-brewer-owned,Mahou San Miguel,large brewer,,majority (70%),2019,active,no,1993,Mahou 30% in 2017 and 70% in 2019,no
+Boulevard Brewing Co.,Boulevard,Kansas City,MO,large-brewer-owned,Duvel Moortgat,large brewer,,100%,2013,active,no,1989,Duvel Moortgat acquisition 2013,no
+Brewery Ommegang,Ommegang,Cooperstown,NY,large-brewer-owned,Duvel Moortgat,large brewer,,100%,2003,active,no,1997,Duvel Moortgat full ownership 2003,no
+Firestone Walker Brewing Co.,Firestone Walker,Paso Robles,CA,large-brewer-owned,Duvel Moortgat,large brewer,,100%,2015,active,no,1996,Duvel Moortgat acquisition 2015,no
+Oskar Blues Brewery,Oskar Blues,Longmont,CO,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy formation 2015),100%,2022,active,no,1997,CANarchy formed 2015; Monster acquired CANarchy 2022,no
+Cigar City Brewing,Cigar City,Tampa,FL,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,2009,Joined CANarchy 2016; Monster acquired CANarchy 2022,no
+Deep Ellum Brewing Co.,Deep Ellum,Dallas,TX,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,2011,Joined CANarchy 2018; Monster acquired CANarchy 2022,no
+Perrin Brewing Co.,Perrin,Comstock Park,MI,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,2012,Joined CANarchy 2015; Monster acquired CANarchy 2022,no
+Squatters Craft Beers,Squatters;Utah Brewers Cooperative,Salt Lake City,UT,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,1989,Joined CANarchy 2017; Monster acquired CANarchy 2022,no
+Wasatch Brewery,Wasatch,Park City,UT,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,1986,Joined CANarchy 2017; Monster acquired CANarchy 2022,no
+Three Weavers Brewing Co.,Three Weavers,Inglewood,CA,beverage-conglomerate-owned,Monster Beverage Corp. (CANarchy),public company (NASDAQ MNST),Fireman Capital Partners (CANarchy),100%,2022,active,no,2014,Joined CANarchy 2018; Monster acquired CANarchy 2022,no
+Southern Tier Brewing Co.,Southern Tier,Lakewood,NY,private-equity-backed,Artisanal Brewing Ventures,private equity platform,Ulysses Management,100%,2016,active,yes,2002,Artisanal Brewing Ventures formed 2016,no
+Victory Brewing Co.,Victory,Downingtown,PA,private-equity-backed,Artisanal Brewing Ventures,private equity platform,Ulysses Management,100%,2016,active,yes,1996,Artisanal Brewing Ventures formed 2016,no
+Sixpoint Brewery,Sixpoint,Brooklyn,NY,private-equity-backed,Artisanal Brewing Ventures,private equity platform,Ulysses Management,100%,2019,active,yes,2004,Artisanal Brewing Ventures acquisition 2019,no
+Bold Rock Hard Cider,Bold Rock,Nellysford,VA,private-equity-backed,Artisanal Brewing Ventures,private equity platform,Ulysses Management,100%,2019,active,yes,2012,Artisanal Brewing Ventures acquisition 2019,no
+Dogfish Head Craft Brewery,Dogfish Head,Milton,DE,public-company-owned,Boston Beer Co.,public company (NYSE SAM),,100%,2019,active,yes,1995,Boston Beer merger 2019; Boston Beer remains a BA craft brewer,no
+Ballast Point Brewing Co.,Ballast Point,San Diego,CA,independent,Kings and Convicts Brewing Co.,craft brewer,,100%,2020,active,yes,1996,Constellation Brands 2015 then sold to Kings and Convicts 2020,no
+Funky Buddha Brewery,Funky Buddha,Oakland Park,FL,independent,,,,100% founder,2022,active,yes,2010,Constellation Brands 2017 then sold back to founder Ryan Sentz 2022,no
+Brooklyn Brewery,Brooklyn,Brooklyn,NY,independent,,,Kirin Holdings (24.5% minority stake 2016),minority,2016,active,yes,1988,Kirin minority stake keeps the brewery under the BA 25% threshold,no
+Odell Brewing Co.,Odell,Fort Collins,CO,employee-owned,,,Employee stock ownership plan,ESOP,2015,active,yes,1989,ESOP announced 2015,no
+Left Hand Brewing Co.,Left Hand,Longmont,CO,employee-owned,,,Employee stock ownership plan,ESOP,2015,active,yes,1993,ESOP announced 2015,no
+Harpoon Brewery,Harpoon;Mass. Bay Brewing Co.,Boston,MA,employee-owned,,,Employee stock ownership plan,ESOP,2014,active,yes,1986,ESOP announced 2014,no
+Deschutes Brewery,Deschutes,Bend,OR,independent,,,Family and partial employee ownership,family majority,2013,active,yes,1988,Partial ESOP 2013,no
+Sierra Nevada Brewing Co.,Sierra Nevada,Chico,CA,independent,,,Grossman family,100% family,1980,active,yes,1980,Family owned,no
+D.G. Yuengling and Son,Yuengling,Pottsville,PA,independent,,,Yuengling family,100% family,1829,active,yes,1829,Family owned,no
+Modern Times Beer,Modern Times,San Diego,CA,independent,Maui Brewing Co.,craft brewer,,100%,2022,active as a brand,yes,2013,Employee owned 2017; acquired by Maui Brewing out of receivership 2022,no
+Ninkasi Brewing Co.,Ninkasi,Eugene,OR,private-equity-backed,Legacy Breweries Inc.,holding company,,majority,2019,active,yes,2006,Legacy Breweries majority stake 2019,no
+Flying Dog Brewery,Flying Dog,Frederick,MD,independent,F.X. Matt Brewing Co.,craft brewer,,100%,2023,active as a brand,yes,1990,Merged into F.X. Matt 2023 and production moved to Utica,no
+Full Sail Brewing Co.,Full Sail,Hood River,OR,private-equity-backed,Encore Consumer Capital,private equity,,majority,2015,active,yes,1987,Encore Consumer Capital acquisition 2015,no
+Uinta Brewing Co.,Uinta,Salt Lake City,UT,private-equity-backed,The Riverside Company,private equity,,majority,2014,active,yes,1993,Riverside Company investment 2014,no
+Guinness Open Gate Brewery,Guinness,Chicago,IL,beverage-conglomerate-owned,Diageo,beverage conglomerate,,100%,2018,active,no,2018,Diageo; Baltimore site closed 2023 and Chicago site opened 2023,no
+Platform Beer Co.,Platform,Cleveland,OH,closed,Anheuser-Busch InBev,large brewer,,100%,2019,closed 2023,no,2014,AB InBev 2019; closed 2023,no
+Craft Brew Alliance,CBA,Portland,OR,large-brewer-owned,Anheuser-Busch InBev,large brewer,,100%,2020,merged,no,2008,Merged into AB InBev 2020,no
