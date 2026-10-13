@@ -17,7 +17,7 @@ import { breweryKey } from './lib/slug.mjs';
 import { readCsvRecords } from './lib/csv.mjs';
 
 const API = 'https://api.openbrewerydb.org/v1/breweries';
-const USER_AGENT = 'gabf-analysis/0.1 (+https://github.com/klappe-pm/2026-GABF-Analysis)';
+const USER_AGENT = 'gabf-analysis/0.1 (+https://github.com/klappe-pm/GABF-Analysis)';
 
 function cachePath(query) {
   return resolve(CACHE, 'obdb', `${query.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.json`);

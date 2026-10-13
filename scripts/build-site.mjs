@@ -17,7 +17,7 @@ import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stacke
 
 const require = createRequire(import.meta.url);
 const SITE_TITLE = 'GABF Analysis';
-const REPO_URL = 'https://github.com/klappe-pm/2026-GABF-Analysis';
+const REPO_URL = 'https://github.com/klappe-pm/GABF-Analysis';
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
 const pct = (num, den) => (den ? `${((100 * num) / den).toFixed(1)}%` : '');
