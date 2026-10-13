@@ -32,9 +32,9 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
-  - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
   - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
   - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
+  - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.werkforcebrewing.com/"
   - "https://www.werkforcebrewing.com/beer-to-go"
