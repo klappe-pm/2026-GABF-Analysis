@@ -59,3 +59,19 @@ test('parseWinnersText survives the loss of line breaks that PDF extraction caus
   const greenCheek = rows.filter((r) => r.brewery_name === 'Green Cheek Beer Co.');
   assert.equal(greenCheek.length, 2);
 });
+
+test('parseWinnersText reads the 2026 layout: colon after Category, page footers, pipe awards', () => {
+  const text = [
+    'Category: 1: American Wheat Beer - 35 Entries Gold: Summer Ale, Wormtown Brewery, Worcester, MA',
+    'Silver: Fuzztail, Sunriver Brewing Co., Sunriver, OR Bronze: Jack Whacker, Tommyknocker Brewery & Pub, Idaho Springs, CO 0 02\u0000TELL6NR\u0000IERS 2 GreatAmericanBeerFestival.com',
+    'Category: 500: Pro-Am Comp - 30 Entries Gold: Burden, Wild Blue Yonder Brewing Co. / Geoff Humphrey, Castle Rock, CO 0-250 Barrels Brewery and Brewer of the Year Mieza Blendery | Alexandria, VA Alex Lynch',
+    '>250–500 Barrels Brewery and Brewer of the Year UPP Liquids | Bend, OR Cidermaker of the Year Snow Capped Cider | Austin, CO Kari Williams',
+  ].join(' ');
+  const { rows, awards, problems } = parseWinnersText(text, { year: 2026 });
+  assert.equal(problems.length, 0, JSON.stringify(problems));
+  assert.equal(rows.length, 4);
+  assert.equal(rows[2].brewery_name, 'Tommyknocker Brewery & Pub');
+  assert.equal(rows[3].section, 'pro-am');
+  assert.deepEqual(awards.map((a) => a.brewery_name), ['Mieza Blendery', 'UPP Liquids', 'Snow Capped Cider']);
+  assert.equal(awards[0].bracket, '0-250');
+});
