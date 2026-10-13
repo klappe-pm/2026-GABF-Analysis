@@ -21,24 +21,24 @@ session-link: https://claude.ai/code/session_017p8WkwJF1gqWYn98dKrcBw
 
 # runbook-new-year
 
-How to load a year's results the day they are published, and how to backfill earlier years. Every command binds its own directory; the checkout is assumed at /Users/kevinlappe/projects/active/2026-GABF-Analysis.
+How to load a year's results the day they are published, and how to backfill earlier years. Every command runs from the repository root.
 
 ## the-one-command-path
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/new-year.mjs --year 2026
+node scripts/new-year.mjs --year 2026
 ```
 
 If the fetch cannot find the PDF, open the Brewers Association release or greatamericanbeerfestival.com, copy the winners list PDF link, and rerun with the link:
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/new-year.mjs --year 2026 --url "https://cdn.brewersassociation.org/.../GABF26-Winners-List.pdf"
+node scripts/new-year.mjs --year 2026 --url "https://cdn.brewersassociation.org/.../GABF26-Winners-List.pdf"
 ```
 
 Already downloaded the PDF? Point at it:
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/new-year.mjs --year 2026 --pdf "$HOME/Downloads/GABF26-Winners-List.pdf"
+node scripts/new-year.mjs --year 2026 --pdf "$HOME/Downloads/GABF26-Winners-List.pdf"
 ```
 
 ## before-the-pdf-exists-the-ceremony-transcript
@@ -46,7 +46,7 @@ cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/new-year
 The awards ceremony is streamed (2026: https://www.youtube.com/live/EhJtEzE5wbg). Its auto captions can be drafted into rows within minutes of the ceremony:
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && yt-dlp --write-auto-sub --sub-lang en --skip-download -o ceremony-2026 "https://www.youtube.com/live/EhJtEzE5wbg" && node scripts/import-ceremony-transcript.mjs --year 2026 --input ceremony-2026.en.vtt
+yt-dlp --write-auto-sub --sub-lang en --skip-download -o ceremony-2026 "https://www.youtube.com/live/EhJtEzE5wbg" && node scripts/import-ceremony-transcript.mjs --year 2026 --input ceremony-2026.en.vtt
 ```
 
 Install yt-dlp with `brew install yt-dlp` if needed. The draft lands in data/results/drafts/gabf-2026-transcript.csv with a confidence per row (category matched, brewery matched, state found). Review it, then add `--promote` to make it the year's working file; the official PDF replaces it wholesale when `npm run parse -- --year 2026` runs. Captions mishear beer and brewery names, so a promoted draft shows as draft coverage on the site until the official list is in.
@@ -70,7 +70,7 @@ The ingest-results workflow runs every two hours from October 11 to 20 and on de
 ## backfilling-earlier-years
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && npm run fetch -- --all
+npm run fetch -- --all
 ```
 
 Known PDF URLs cover 2021, 2024, and 2025; 2022 and 2023 need `--url` from their press releases, and 2018 to 2020 are on the festival site's winners archive. Parse each year with `npm run parse -- --year YYYY`, then `npm run enrich` once and `npm run build`. Seed rows (notes "Partial seed") are replaced automatically because the parse writes the whole year file.
@@ -80,7 +80,7 @@ Known PDF URLs cover 2021, 2024, and 2025; 2022 and 2023 need `--url` from their
 Download the current Beer Style Guidelines PDF from brewersassociation.org and run:
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && npm run styles -- --input "$HOME/Downloads/2026-beer-style-guidelines.pdf" --year 2026
+npm run styles -- --input "$HOME/Downloads/2026-beer-style-guidelines.pdf" --year 2026
 ```
 
 Rows that match a category name get guideline ranges; new styles are appended with a derived style family.
@@ -88,7 +88,7 @@ Rows that match a category name get guideline ranges; new styles are appended wi
 ## rendering-visuals
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && npm install --no-save playwright@1.56.1 && npx playwright install chromium && npm run render-visuals -- --brewery green-cheek-beer-co
+npm install --no-save playwright@1.56.1 && npx playwright install chromium && npm run render-visuals -- --brewery green-cheek-beer-co
 ```
 
 PNG files land in reports/: each chart figure, the stat tiles, and the full page, with `--dark` for the dark theme.

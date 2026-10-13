@@ -11,7 +11,7 @@ A static Great American Beer Festival results explorer published to GitHub Pages
 The full gate is `verify`, mandatory before a push even when a focused check passes:
 
 ```bash
-npm --prefix /Users/kevinlappe/projects/active/2026-GABF-Analysis run verify
+npm run verify
 ```
 
 It runs `check` (markdown prose rules), `test` (node test runner), `build` (the site into dist/), and `build:standalone` (the single-file dashboard gabf-dashboard.html, which is committed and must be regenerated whenever data or dashboard code changes). `npm run serve` previews dist/ locally.

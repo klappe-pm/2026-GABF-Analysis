@@ -26,7 +26,7 @@ How to turn a brewery name from the winners list into a complete profile (owners
 ## start-from-the-scaffold
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && node scripts/scaffold-brewery.mjs --brewery "Brewery Name As Printed"
+node scripts/scaffold-brewery.mjs --brewery "Brewery Name As Printed"
 ```
 
 The scaffold writes breweries/brewery-name.md with the medal table filled from the results and prints the checklist below. Fill the frontmatter keys as facts are confirmed: founded, employees, brewery-type, distribution-channel, has-kitchen, locations, barrels-estimate, revenue-estimate-usd with low and high.
@@ -87,7 +87,7 @@ Record as known-for in the profile frontmatter and a paragraph in the deep dive.
 Run the gate and open the page:
 
 ```bash
-cd /Users/kevinlappe/projects/active/2026-GABF-Analysis && npm run verify && npm run serve
+npm run verify && npm run serve
 ```
 
 Then open http://localhost:8080/breweries/brewery-name/ and check the profile card, the distribution block, the scale estimates, and the deep dive. Every figure without a named source must read (E).

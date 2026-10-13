@@ -13,8 +13,8 @@ test('loadDataset joins results, reference tables, and profiles', () => {
   assert.equal(gc.trend.find((t) => t.year === 2026).status, 'medaled');
   assert.ok(gc.estimate.barrels > 0);
   assert.ok(gc.estimate.volume.cases_24x12_equivalent > 0);
-  assert.equal(ds.coverage[2025], 'partial');
-  assert.equal(ds.coverage[2026], 'partial');
+  assert.equal(ds.coverage[2025], 'complete');
+  assert.equal(ds.coverage[2026], 'complete');
   assert.equal(gc.trend.find((t) => t.year === 2026).gold, 1);
   assert.equal(gc.financials.arr_usd, 12000000);
   assert.equal(gc.distribution_channel, 'self-distribution');
