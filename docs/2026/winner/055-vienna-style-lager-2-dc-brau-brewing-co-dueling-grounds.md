@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "dc"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd Dueling Grounds page and a DC Beer tasting article provide no IBU or named hops. Hop varieties in coverage of DC Brau's other new beers are not transferred.
 - All specs come from the brewery's own beer page, linked from its home page under Our Brews.
 - IBU and ingredients were not published; web search budget ran out before Untappd or BeerMenus could be tried for this beer.
 - No 2026 medal announcement from the brewery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -17,7 +17,7 @@ tags:
 abv: 5.8
 adjuncts: []
 beer: "Rancho Cowabunga"
-beer-url: null
+beer-url: "https://gowbeer.com/beer/rancho-cowabunga/"
 brewery: "Grains of Wrath Brewing"
 brewery-city: "Camas"
 brewery-state: "WA"
@@ -31,6 +31,7 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://gowbeer.com/beer/rancho-cowabunga/"
   - "https://grainsofwrath.com/"
   - "https://untappd.com/GrainsOfWrath/beer"
   - "https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover"
@@ -61,7 +62,7 @@ Rancho Cowabunga is a West Coast pilsner from Grains of Wrath Brewing of Camas, 
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Other | Dedicated brewery beer page available | [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/) |
 
 ## brewery-description
 
@@ -77,6 +78,7 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 
 ## links
 
+- [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/)
 - [Grains of Wrath Brewing](https://grainsofwrath.com/)
 - [Untappd: Grains of Wrath beer list](https://untappd.com/GrainsOfWrath/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -85,6 +87,7 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 
 ## research-notes
 
+- Field pass 2026-10-13: A dedicated brewery page was found at gowbeer.com and is used as beer-url. Its description explicitly calls Rancho Cowabunga a West Coast Pilsner, while its STYLE field says Tropical Pale. It names only new world hops, without varieties, and gives no IBU. The separate Untappd pale ale listing is not used for lager recipe details.
 - First pass: The brewery site returned no readable content (likely script rendered), including its /beer and /beers paths.
 - First pass: The visible part of the Grains of Wrath Untappd beer list (27 of 283 beers) did not include Rancho Cowabunga.
 - First pass: Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.

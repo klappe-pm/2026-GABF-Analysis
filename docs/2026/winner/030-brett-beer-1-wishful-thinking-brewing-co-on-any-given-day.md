@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -35,6 +35,7 @@ malts:
 medal: "Gold"
 place: 1
 sources:
+  - "https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wishfulthinkingbeer.com/"
   - "https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf"
@@ -88,6 +89,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf)
 - [Wishful Thinking: takeout menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Breweries in PA: Wishful Thinking medal](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/)
 
 ## research-notes
 
@@ -96,3 +98,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU and yeast were not found; web search was unavailable for most of this run.
 - No 2026 medal announcement was found on the brewery's home or menu pages.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New medal coverage provides no numeric IBU; the previously read brewery menus were not fetched again.

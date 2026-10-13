@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Antenna America's matching Zombi Shark Fight product listing leaves IBU blank; no verified bitterness figure was found.
 - The brewery has no individual beer pages; the description sits in the beer descriptions section of its home page, so beer-url and brewery-url are the same.
 - The medal list prints the brewery as Green Cheek Beer Co. (Costa Mesa location).
 - IBU and yeast were not found; web search budget ran out before Untappd or BeerMenus could be tried for this beer.

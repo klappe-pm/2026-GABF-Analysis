@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "F*k'in Pum'kin Ale"
 tags:
@@ -43,6 +43,7 @@ sources:
   - "https://gobrewing.com/"
   - "https://gobrewing.com/collections/beers"
   - "https://gobrewing.com/products/fk-in-pumkin-ale"
+  - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Pumpkin Ale"
 yeast: []
@@ -87,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Go Brewing pumpkin ale](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884)
 - [Beer page on brewery site](https://gobrewing.com/products/fk-in-pumkin-ale)
 - [Go Brewing](https://gobrewing.com/)
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
@@ -98,3 +100,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The page gives 0.39% ABV and separately says "Under 0.5% ABV"; 0.39 is used.
 - Lactose is recorded as an adjunct because it appears in the ingredient list.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing gives N/A IBU and names no hops. It reports 0.4% ABV against the existing brewery 0.39%; the existing value is retained.

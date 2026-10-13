@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: The medal list gives Dallas as the city; the brewery's own pages give Farmers Branch and Plano.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd and the Flying Saucer archive agree on the selected strength. Brewery Toast search excerpts showed 4.8%, but the opened ordering page did not expose the beer specifications; that possible batch difference remains unverified. No IBU or named ingredients were found.
+- Field pass 2026-10-13: Additional hop, IBU and brewery-domain searches found no verified new specification or product page. An Untappd photos excerpt uses zero as its internal missing-IBU value; that is not accepted as measured bitterness.

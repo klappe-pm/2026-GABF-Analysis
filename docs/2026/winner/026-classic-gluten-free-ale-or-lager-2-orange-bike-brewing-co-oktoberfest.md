@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "me"
@@ -33,6 +33,7 @@ medal: "Silver"
 place: 2
 sources:
   - "https://business.untappd.com/locations/46338/themes/172032/js"
+  - "https://untappd.com/OrangeBikeBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.orangebikebrewing.com/"
   - "https://www.orangebikebrewing.com/whats-on-tap"
@@ -82,6 +83,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Beer page on brewery site](https://www.orangebikebrewing.com/whats-on-tap)
 - [Orange Bike Brewing Co.](https://www.orangebikebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: Orange Bike beer list](https://untappd.com/OrangeBikeBrewing/beer)
 
 ## research-notes
 
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU, hops, grains and yeast were not found; the brewery's story page names no grains.
 - The brewery home page lists 2024 GABF and 2025 and 2026 World Beer Cup medals but had no 2026 GABF announcement when read.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Oktoberfest entry publishes N/A IBU and names no hop variety. ABV conflict: Untappd lists 6%, while the existing brewery tap-list source lists 5.9%; the existing ABV is retained.

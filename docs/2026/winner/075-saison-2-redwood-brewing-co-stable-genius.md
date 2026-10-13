@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "mi"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches for a beer-specific listing or brewery release page found no ABV, IBU, hop names or qualifying brewery beer URL beyond the sources already recorded.
 - The brewery's site calls the business Redwood and does not use the full name Redwood Brewing Co.; the beer is not named on its home, brewery or menu pages.
 - The web search budget ran out before this beer could be searched on Untappd, retailers or press, so no third party source was found.
 - No 2026 medal announcement from the brewery was found.

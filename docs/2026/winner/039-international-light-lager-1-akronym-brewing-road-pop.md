@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Road Pop Light"
 tags:
@@ -35,6 +35,7 @@ sources:
   - "https://akronymbrewing.com/"
   - "https://akronymbrewing.com/award-winning-craft-beer/"
   - "https://akronymbrewing.com/core-brands/"
+  - "https://akronymbrewing.com/events/"
   - "https://akronymbrewing.com/ontap/"
   - "https://untappd.com/akronymbrewing/beer?q=road+pop"
   - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
@@ -82,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Akronym: beer release news](https://akronymbrewing.com/events/)
 - [Akronym Brewing](https://akronymbrewing.com/)
 - [Akronym: core brands](https://akronymbrewing.com/core-brands/)
 - [Akronym: tap list](https://akronymbrewing.com/ontap/)
@@ -92,6 +94,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [brewery news listing](https://akronymbrewing.com/events/) names Road Pop Light but does not establish which version corresponds to the plain Road Pop medal entry. The ambiguity already recorded between Light and Kellerbier remains, so beer-url is not filled. No hop varieties were verified.
 - The brewery's core brands, tap list and menu pages do not name Road Pop; the tap list loads dynamically.
 - Untappd has two Road Pop listings from Akronym: Road Pop Light (Leichtbier, 3%, 18 IBU) and Road Pop Kellerbier (Kellerbier / Zwickelbier, 3%, no IBU). The GABF entry name is plain Road Pop; the Light listing is used because its style matches a light lager category, but which listing corresponds to the entry is not confirmed. Both agree on 3% ABV.
 - The brewery's awards page mentions a 2026 Ohio Craft Beer Awards post but no 2026 GABF result.

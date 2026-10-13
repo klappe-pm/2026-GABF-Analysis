@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no matching published IBU or new brewery beer page for Oni Giri.
 - The brewery home page and its 19 item taproom menu do not list Oni Giri, so there is no beer-url.
 - The visible part of the Masthead Untappd beer list did not include it.
 - All specs come from the Tavour retailer listing only.

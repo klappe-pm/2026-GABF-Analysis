@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ar"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery drink menu still renders without the beer rows visible in its search index. No qualifying beer-url or named hops were accepted.
 - The tap list page rendered without beer rows, and the beer finder reads "Coming soon".
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -84,6 +84,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Exact-product IBU, hop and listing searches found no matching numeric bitterness or named hops.
 - ABV, style, packaging, availability and fruit verified on the cidery's product page.
 - Sweetness, other apples and yeast are not published.
 - No 2026 medal announcement from the cidery was found.

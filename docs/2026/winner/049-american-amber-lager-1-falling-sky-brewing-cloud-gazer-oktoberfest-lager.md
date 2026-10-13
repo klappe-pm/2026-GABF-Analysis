@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Cloud Gazer Marzen Lager"
   - "Cloud Gazer Oktoberfest Bier"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no named hop varieties tied to Falling Sky Cloud Gazer; generic hop flavor descriptions are not recipe evidence.
 - The brewery has no individual beer page; Cloud Gazer appears on its all-beers page under seasonal releases, with no ABV or IBU in the page text.
 - ABV and IBU come from a 2018 Beerstone release roundup listing Cloud Gazer Oktoberfest Bier at 5.7% and 25 IBU; the 2026 batch may differ.
 - Naming conflict: the listing title says Marzen Lager, the description says Vienna style lager, the 2018 roundup says Oktoberfest Bier, and the medal list says Oktoberfest Lager.

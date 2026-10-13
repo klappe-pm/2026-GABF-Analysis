@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -29,7 +29,7 @@ hops:
   - "Krush"
   - "Nectaron"
   - "Ramosa"
-ibu: null
+ibu: 45
 malts: []
 medal: "Gold"
 place: 1
@@ -38,6 +38,7 @@ sources:
   - "https://offsetbier.com/cans-to-go"
   - "https://offsetbier.com/taplist-1"
   - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+  - "https://untappd.com/b/offset-bier-divi/4499932"
   - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Tropical L IPA"
@@ -60,7 +61,7 @@ Divi is a 5% tropical hazy "L IPA" (the brewery's term for a 5% IPA) from Offset
 |---|---|---|
 | Style | Tropical L IPA | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | ABV | 5% | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
-| IBU | not published | none found |
+| IBU | 45 | [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932) |
 | Hops | Krush, Nectaron, Ramosa | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -79,10 +80,11 @@ The tap list names three hops, Krush, Nectaron and Ramosa, and nothing else. A 2
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session India Pale Ale describes lower alcohol versions of any IPA style at 0.5 to 5.0 percent ABV and 20 to 55 IBU, with assertive hop character balanced for drinkability. The published 5% ABV sits at the top of the range; no IBU is published.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session India Pale Ale describes lower alcohol versions of any IPA style at 0.5 to 5.0 percent ABV and 20 to 55 IBU, with assertive hop character balanced for drinkability. The published 5% ABV sits at the top of the range; the newly verified bitterness also falls within the category range.
 
 ## links
 
+- [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932)
 - [Beer page on brewery site](https://offsetbier.com/taplist-1)
 - [Offset Bier Co.](https://offsetbier.com/)
 - [Offset Bier: cans to go](https://offsetbier.com/cans-to-go)
@@ -96,5 +98,6 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The cans page spells the style "Tropical LIPA" while the tap list says "Tropical L IPA"; the tap list is used.
 - The tap list description already calls Divi a GABF gold medal winner, and the Craft Beer and Brewing podcast page also mentions a GABF gold for Divi; neither confirms the year, so it may refer to an earlier win.
 - Divi Divi on the same tap list is a separate 8% double IPA and is not this beer.
-- No IBU, malt or yeast was found.
+- The original brewery sources supplied no IBU, malt or yeast.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching session Divi page publishes 45 IBU and agrees with the brewery's current hop list. The separate double IPA Divi Divi was excluded.

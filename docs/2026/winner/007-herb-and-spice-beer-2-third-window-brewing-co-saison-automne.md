@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - All specs come from the brewery's product page and home page; the product page is summarized rather than quoted in full because of its length.
 - IBU, hop varieties and the base saison yeast are not published.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The Carpinteria tap list names Saison Automne but publishes neither IBU nor hops for it. The Motueka and Hallertau Mittelfrüh listing belongs to Petite Saison and was excluded.

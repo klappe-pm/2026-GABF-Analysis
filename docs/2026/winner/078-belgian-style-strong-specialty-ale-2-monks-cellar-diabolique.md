@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [brewery's Untappd beer list](https://untappd.com/TheMonksCellar/beer) shows N/A IBU for Diabolique. It lists 7.8% ABV, versus the retained 7.7% on the brewery drink menu already cited.
 - The brewery has no individual beer pages; its drink menu is the beer-url.
 - The brewery home page cites California State Fair Brewery of the Year in 2023 and 2025 but no GABF 2026 announcement.
 - The web search budget ran out before Untappd or press could be searched for IBU or malts.

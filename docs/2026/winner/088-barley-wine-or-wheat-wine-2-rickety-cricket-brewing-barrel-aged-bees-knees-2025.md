@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "The Bees Knees 2025BA"
 tags:
@@ -82,6 +82,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Further searches for the 2025 barrel aged vintage found no ABV, IBU, named hops or qualifying brewery beer URL. The previously excluded 2026 vintage was not reused.
 - The brewery home page lists "The Bees Knees (2025BA)" as #1 Wood-Aged and #2 Best-In-Show at the AZ Craft Beer Awards 2026. Punctuation lightly normalized. The BA suffix is read as barrel aged, consistent with the GABF entry name.
 - The brewery's beer page shows tiles mostly without names and does not list Bee's Knees.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.

@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Hops Mirage NA IPA"
 tags:
   - "bronze"
   - "nc"
-abv: null
+abv: 0
 adjuncts: []
 beer: "Hops Mirage"
 beer-url: "https://primalbrewery.com/huntersville-draft-list/"
@@ -35,6 +35,7 @@ sources:
   - "https://primalbrewery.com/"
   - "https://primalbrewery.com/beer-finder/"
   - "https://primalbrewery.com/huntersville-draft-list/"
+  - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "NA IPA"
 yeast: []
@@ -55,7 +56,7 @@ Hops Mirage is a non-alcoholic IPA from Primal Brewery of Huntersville, North Ca
 | Field | Value | Source |
 |---|---|---|
 | Style | NA IPA | [Primal Brewery: Huntersville draft list](https://primalbrewery.com/huntersville-draft-list/) |
-| ABV | not published | none found |
+| ABV | 0% | [Untappd: Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -73,10 +74,11 @@ Nothing about ingredients is published.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describes hoppier non-alcohol beers "ranging from Pale Ales to IPA" that "should showcase a prominent hop presence emblematic of hop-forward pale ale to India Pale Ale profiles," under the non-alcohol cap of less than 0.5% ABV. The brewery's NA IPA label fits that frame; no specs are published to compare further.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describes hoppier non-alcohol beers "ranging from Pale Ales to IPA" that "should showcase a prominent hop presence emblematic of hop-forward pale ale to India Pale Ale profiles," under the non-alcohol cap of less than 0.5% ABV. The brewery's NA IPA label fits that frame; the newly verified alcohol listing appears in the specs table.
 
 ## links
 
+- [Untappd: Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401)
 - [Beer page on brewery site](https://primalbrewery.com/huntersville-draft-list/)
 - [Primal Brewery](https://primalbrewery.com/)
 - [Primal Brewery: beer finder](https://primalbrewery.com/beer-finder/)
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No ABV, IBU or hop list was found on the home page, draft list or beer finder.
 - The web search budget for this session ran out before an Untappd or retailer search specific to this beer could be run.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing publishes 0% ABV, N/A IBU and no named hop varieties. The zero is recorded as the listing's stated value.

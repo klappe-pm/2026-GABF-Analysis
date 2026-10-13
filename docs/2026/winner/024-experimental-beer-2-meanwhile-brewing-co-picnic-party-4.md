@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web search was limited for part of this session, so Untappd and social posts were not checked.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact number 4 release, its style and ABV in the brewery's publicity announcement, and IBU and blending details in Untappd beer metadata. Other numbered Picnic Party releases were excluded; the brewery QR menu's fetched text did not retain this beer.
+- Field pass 2026-10-13: An exact number 4 search restricted to the brewery domain found no beer page or named hops; earlier release publicity and QR-menu checks were not repeated.

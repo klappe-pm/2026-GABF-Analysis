@@ -9,13 +9,13 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Spiced Cider"
 tags:
   - "bronze"
   - "co"
-abv: null
+abv: 6.9
 adjuncts:
   - "Mulling spices"
   - "Orange peel"
@@ -36,6 +36,7 @@ place: 3
 sources:
   - "https://snowcappedcider.com/all-ciders/spiced/"
   - "https://snowcappedcider.com/shop-cans/"
+  - "https://untappd.com/b/snow-capped-cider-spiced-cider/6833708"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
   - "https://www.snowcappedcider.com/"
 style: "Spiced Cider"
@@ -57,7 +58,7 @@ Spiced is Snow Capped Cider's canned, year-round spiced cider with mulling spice
 | Field | Value | Source |
 |---|---|---|
 | Style | Spiced Cider | [Snow Capped: Spiced](https://snowcappedcider.com/all-ciders/spiced/) |
-| ABV | not published | none found |
+| ABV | 6.9% | [Snow Capped Spiced Cider listing](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published (apple varieties not named) | none found |
@@ -77,10 +78,11 @@ The cidery names only "complex mulling spices" and orange peel; no individual sp
 
 ## style-context
 
-As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) say Botanical or Spiced Cider "focuses on ciders with added botanicals (including herbs, spices, hops, vegetables, chilis)," at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. The spice additions fit the category; no ABV is published to compare.
+As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) say Botanical or Spiced Cider "focuses on ciders with added botanicals (including herbs, spices, hops, vegetables, chilis)," at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. The spice additions and published alcohol strength fit the category.
 
 ## links
 
+- [Snow Capped Spiced Cider listing](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708)
 - [Beer page on brewery site](https://snowcappedcider.com/all-ciders/spiced/)
 - [Snow Capped Cider](https://www.snowcappedcider.com/)
 - [Snow Capped: can shop](https://snowcappedcider.com/shop-cans/)
@@ -88,6 +90,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Snow Capped Spiced Cider listing](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708) verifies 6.9% ABV and reports N/A IBU. No named hop varieties were published.
 - The product page announces a May 30 release (year not stated) after nearly six years of customer requests; it gives no ABV.
 - The cidery's August 2026 release announcement, which search results say covers Spiced Cider, refused automated access, so it could not be checked for an ABV.
 - The official list places the cidery in Austin, CO; that location is kept as given.

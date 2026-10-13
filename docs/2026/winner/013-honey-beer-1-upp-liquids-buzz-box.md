@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found matching specifications and the honey variety on UPP's Untappd beer list. No dedicated brewery page or hop varieties were found.
+- Field pass 2026-10-13: A hop and menu focused search excluding the previously recorded Untappd source found competition coverage but no brewery beer page or hop varieties.

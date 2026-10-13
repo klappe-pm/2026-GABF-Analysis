@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Mystic Voyage Blueberry + Lemon Sour Ale"
 tags:
@@ -21,7 +21,7 @@ adjuncts:
   - "Lactose"
   - "Lemon"
 beer: "Mystic Voyage"
-beer-url: null
+beer-url: "https://www.greatbasinbrewingco.com/mystic-voyage"
 brewery: "Great Basin Brewing Co."
 brewery-city: "Sparks"
 brewery-state: "NV"
@@ -30,13 +30,14 @@ category-name: "American Sour Ale"
 category-number: 29
 entries: 111
 hops: []
-ibu: null
+ibu: 15
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.greatbasinbrewingco.com/mystic-voyage"
 style: "Blueberry + Lemon Sour Ale"
 yeast: []
 ---
@@ -57,12 +58,13 @@ Mystic Voyage is a blueberry and lemon sour ale built on a Berliner Weisse style
 |---|---|---|
 | Style | Blueberry + Lemon Sour Ale (Berliner Weisse style base) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 | ABV | 5.5% (as of summer 2023) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
-| IBU | not published | none found |
+| IBU | 15 | [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | Real blueberries, lemons, milk sugar (lactose) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 | Other | not published | none found |
+| Beer page | Brewery page naming this beer | [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage) |
 
 ## brewery-description
 
@@ -85,6 +87,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Great Basin Brewing Co.](https://greatbasinbrewingco.com/)
 - [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage)
 
 ## research-notes
 
@@ -93,3 +96,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Open Brewery DB records a Reno location; the official winners list gives Sparks, which is kept.
 - IBU, grains, hops and culture were not found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's dedicated Mystic Voyage page publishes 15 IBU; no hops are named.

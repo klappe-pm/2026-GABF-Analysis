@@ -9,15 +9,15 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "or"
   - "silver"
-abv: null
+abv: 6.0
 adjuncts: []
 beer: "Before the Break"
-beer-url: null
+beer-url: "https://order.toasttab.com/online/worthy-brewing/"
 brewery: "Worthy Brewing"
 brewery-city: "Bend"
 brewery-state: "OR"
@@ -25,13 +25,17 @@ brewery-url: "https://worthybrewing.com/"
 category-name: "English-Style Brown Ale"
 category-number: 73
 entries: 43
-hops: []
+hops:
+  - "East Kent Goldings"
+  - "Mittelfrüh"
+  - "Tradition"
 ibu: null
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+  - "https://order.toasttab.com/online/worthy-brewing/"
   - "https://untappd.com/w/worthy-brewing/62706/beer"
   - "https://worthybrewing.com/"
   - "https://worthybrewing.com/beer"
@@ -57,9 +61,9 @@ Before the Break is a brown ale from Worthy Brewing, a brewery and pub in Bend, 
 | Field | Value | Source |
 |---|---|---|
 | Style | not published by the brewery; English-Style Brown Ale is the competition category | none found |
-| ABV | not published | none found |
+| ABV | 6.0% | [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/) |
 | IBU | not published | none found |
-| Hops | not published | none found |
+| Hops | East Kent Goldings, Mittelfrüh, Tradition | [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -71,14 +75,15 @@ No description from the brewery was found; its beer page lists only six year-rou
 
 ## ingredients
 
-No ingredient is published by the brewery or by any page found.
+The [brewery's pub ordering menu](https://order.toasttab.com/online/worthy-brewing/) names the hops recorded above. Other recipe fields were outside this targeted field pass.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. No specs are published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. The published strength sits at the category's upper limit; bitterness remains unknown.
 
 ## links
 
+- [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/)
 - [Worthy Brewing](https://worthybrewing.com/)
 - [Worthy Brewing: beer page](https://worthybrewing.com/beer)
 - [New School Beer: Oregon at GABF 2026](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf)
@@ -95,3 +100,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - New School Beer confirms the GABF silver in English-Style Brown Ale.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: web searches for the beer on Untappd and with ABV and Bend terms returned no page naming this beer; Untappd search does not render without login. Nothing more was found.
+- Field pass 2026-10-13: Worthy Brewing Main Pub's readable Toast ordering menu explicitly names Before the Break and supplies strength and three hop varieties. Mittelfruh is normalized to Mittelfrüh. The brewery-managed ordering menu is used as beer-url because no dedicated brewery page was found; no IBU is published. A clean menu address replaces the initially discovered item address containing a long identifier.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -29,15 +29,17 @@ hops:
   - "Cascade"
   - "Chinook"
   - "Lemon Drop"
-ibu: null
+ibu: 20
 malts:
   - "Pale malt"
   - "Wheat malt"
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.sunriverbrewingcompany.com/beer/fuzztail"
+  - "https://www.thewaterholetavern.com/menu?menu=menu"
 style: "Hefeweizen"
 yeast: []
 ---
@@ -58,7 +60,7 @@ Fuzztail is the American style hefeweizen of Sunriver Brewing Co. in Sunriver, O
 |---|---|---|
 | Style | Hefeweizen (described as American style) | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | ABV | 5% | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| IBU | not published | none found |
+| IBU | 20 | [Untappd: Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030) |
 | Hops | Chinook, Cascade, Lemon Drop | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | Malts and grains | Idaho grown pale and wheat malts | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | Yeast | not published | none found |
@@ -77,10 +79,12 @@ The brewery's page names three hops (Chinook, Cascade and Lemon Drop) and Idaho 
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Wheat Beer calls for low to medium bitterness, 10 to 35 IBU and 3.5 to 5.6 percent ABV. Fuzztail's published 5% ABV sits inside that range; its IBU is not published.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Wheat Beer calls for low to medium bitterness, 10 to 35 IBU and 3.5 to 5.6 percent ABV. Fuzztail's published 5% ABV sits inside that range; its newly verified bitterness also falls within the category range.
 
 ## links
 
+- [The Waterhole Tavern: beer menu](https://www.thewaterholetavern.com/menu?menu=menu)
+- [Untappd: Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030)
 - [Beer page on brewery site](https://www.sunriverbrewingcompany.com/beer/fuzztail)
 - [Sunriver Brewing Co.](https://www.sunriverbrewingcompany.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -92,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The page does not say whether Fuzztail is year round or seasonal.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd Fuzztail listing publishes 20 IBU, also corroborated by The Waterhole Tavern's menu. The fruit enhanced Seriously, Patrick? listing is a separate beer and was excluded.

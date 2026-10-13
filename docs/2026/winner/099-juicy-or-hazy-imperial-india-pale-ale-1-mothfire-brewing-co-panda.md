@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -17,7 +17,7 @@ tags:
 abv: 8.0
 adjuncts: []
 beer: "Panda"
-beer-url: null
+beer-url: "https://www.mothfire.com/beer"
 brewery: "Mothfire Brewing Co."
 brewery-city: "Ann Arbor"
 brewery-state: "MI"
@@ -38,6 +38,7 @@ place: 1
 sources:
   - "https://www.beermenus.com/beers/589834-mothfire-panda"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.mothfire.com/beer"
 style: "Hazy IPA"
 yeast: []
 ---
@@ -64,10 +65,13 @@ Panda is a hazy IPA hopped with Citra in several forms, Mosaic and Nelson Sauvin
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | not published | none found |
+| Beer page | brewery beer list | [Mothfire beer library](https://www.mothfire.com/beer) |
 
 ## brewery-description
 
-No brewery description of this beer was found; the BeerMenus listing text is only the hop list.
+> Rich and full bodied, exploding with candied pineapple, pink starburst, and honeysuckle.
+
+Source: [Mothfire beer library](https://www.mothfire.com/beer)
 
 ## ingredients
 
@@ -79,11 +83,13 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Mothfire beer library](https://www.mothfire.com/beer)
 - [BeerMenus: Mothfire Panda](https://www.beermenus.com/beers/589834-mothfire-panda)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
+- Field pass 2026-10-13: [Mothfire beer library](https://www.mothfire.com/beer) names Panda and is used as beer-url rather than a dedicated product page. [Matching Untappd listing](https://untappd.com/b/mothfire-brewing-co-panda/6483321) reports N/A IBU.
 - The likely brewery domain (mothfirebrewing.com, with and without www) and its beer path returned no readable content, so neither a brewery URL nor a beer page could be verified.
 - BeerMenus lists the brewer as Mothfire Nanobrewery, Ann Arbor, MI, and shows a menu dated 07/24/2026 at one Grand Rapids venue.
 - No 2026 medal announcement from the brewery was found.

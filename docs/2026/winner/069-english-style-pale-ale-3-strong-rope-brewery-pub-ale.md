@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -95,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The Good Fork's menu names Strong Rope Pub Ale and supplies the strength. The brewery's awards page identifies Pub Ale as a bitter. No verified IBU, recipe ingredients or dedicated brewery beer page were found.
+- Field pass 2026-10-13: A matching BeerAdvocate listing has no product description or IBU, and additional brewery-page searches found no qualifying product page or named hop variety.

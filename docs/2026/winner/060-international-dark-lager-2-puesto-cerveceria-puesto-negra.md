@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Negra"
 tags:
@@ -26,14 +26,16 @@ brewery-url: "https://www.eatpuesto.com/"
 category-name: "International Dark Lager"
 category-number: 60
 entries: 71
-hops: []
-ibu: null
+hops:
+  - "Sterling"
+ibu: 19
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.eatpuesto.com/"
+  - "https://www.eatpuesto.com/brewery/"
   - "https://www.eatpuesto.com/menus/"
 style: "International Dark Lager"
 yeast: []
@@ -55,8 +57,8 @@ Puesto Negra, listed on the restaurant menu simply as Negra, is brewed by Puesto
 |---|---|---|
 | Style | not published | none found |
 | ABV | 5.3% | [Puesto: menus](https://www.eatpuesto.com/menus/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | 19 | [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/) |
+| Hops | Sterling | [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -70,7 +72,7 @@ Source: [Puesto: home](https://www.eatpuesto.com/)
 
 ## ingredients
 
-Nothing about the ingredients is published on any page that could be read.
+The [brewery lineup](https://www.eatpuesto.com/brewery/) names the hop shown in the specs table; other recipe fields were outside this targeted field pass.
 
 ## style-context
 
@@ -78,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/)
 - [Beer page on brewery site](https://www.eatpuesto.com/menus/)
 - [Puesto](https://www.eatpuesto.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -88,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The menu's "GABF Gold Medalist" tag refers to an earlier GABF result; which year and category was not verified.
 - No 2026 medal announcement was found, and the web search budget ran out before an Untappd lookup could be made.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's cervecería page explicitly names Puesto Negra and publishes the bitterness and hop variety recorded above.

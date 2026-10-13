@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-page and hop searches found no IBU, named hops or qualifying brewery beer URL beyond the previous research. Southern Hemi beers from other breweries were excluded.
 - Not listed on the brewery home page, its Our Beers page or its Beer To Go page. The Our Beers page lists another beer, Redline, with Southern Cross hops; that is a different beer.
 - One web search for the exact name returned nothing; the web search quota ran out before further searches, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.

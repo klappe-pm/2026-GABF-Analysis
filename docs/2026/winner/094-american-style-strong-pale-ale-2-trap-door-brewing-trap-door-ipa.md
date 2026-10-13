@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and bitterness searches found no qualifying beer-list or tap-list URL and no numerical IBU beyond the previous research.
 - Second pass 2026-10-13: Found the matching Untappd listing with ABV, named hops and the brewery description. IBU and further recipe details remain unpublished; no dedicated brewery beer page was found.
 - The brewery site has no beer pages; its links are home, location, media, contact and a food menu PDF.
 - The brewery's earlier award list gives an ABV cap for an award class; that cap is not used as this beer's strength.

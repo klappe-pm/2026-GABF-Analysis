@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Oblique and Bent"
 tags:
@@ -34,6 +34,7 @@ place: 3
 sources:
   - "https://allaboutbeer.com/the-best-table-beer-in-america/"
   - "https://thebigfriendly.com/"
+  - "https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554"
   - "https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485"
   - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -82,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: 2025 Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554)
 - [The Big Friendly](https://thebigfriendly.com/)
 - [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485)
 - [Craft Beer and Brewing: Oblique and Bent review](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437)
@@ -96,3 +98,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The same beer won gold in the 2022 GABF Session Beer or Belgian-Style Table Beer category, per its Untappd description.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The explicitly dated 2025 listing gives N/A IBU and no hop varieties; its 4.5% ABV was not transferred to this year's profile. A targeted brewery domain search found no matching beer page.

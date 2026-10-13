@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "az"
@@ -88,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no named hop varieties clearly tied to 12 West Zona.
 - The brewery has no individual beer pages; its beer list page is the beer-url.
 - Untappd style is "Pilsner, Other" and gives the same 4.3% ABV; IBU comes only from Untappd.
 - Search snippets from Phoenix New Times describe Zona as an earlier World Beer Cup gold winner; that article was not opened, so the claim is not relied on.

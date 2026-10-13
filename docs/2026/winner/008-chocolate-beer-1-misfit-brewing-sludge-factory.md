@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web and Untappd searches for "Sludge Factory" with Misfit, Cypress and chocolate stout found nothing; other breweries named Misfit in Wales, Florida and New Zealand are unrelated.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Located the working brewery site and its Sludge Factory listing. The brewery lists 10.5% ABV, while [Untappd's listing](https://untappd.com/MisfitBrewing/beer) gives 11.2%; the brewery value is retained. No IBU or hop varieties were found.
+- Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found competition coverage without IBU or named hops.

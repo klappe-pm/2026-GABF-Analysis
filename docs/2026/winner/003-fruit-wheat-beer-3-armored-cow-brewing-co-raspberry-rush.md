@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery has no dedicated page per beer, so the on tap page is the beer-url.
 - Armored Cow brews a gluten free line, but Raspberry Rush is not in it and carries no GF label.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A hop focused search surfaced local award coverage but no named hops or IBU; that local page could not be opened. Previously recorded Untappd N/A IBU remains unresolved.

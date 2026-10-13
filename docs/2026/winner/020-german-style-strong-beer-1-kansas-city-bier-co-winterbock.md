@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Earlier awards: silver at the 2018 World Beer Cup (German-Style Doppelbock) and silver at European Beer Star 2021 (German-Style Dunkler Doppelbock), per Porch Drinking.
 - A Brewbound release article returned HTTP 403.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Search found the brewery's Winterbock page naming Perle hops, but both host forms failed to open; beer-url and hops remain unfilled without a readable fetched page.

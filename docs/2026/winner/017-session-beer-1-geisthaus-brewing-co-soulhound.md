@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A Forbes list of 2026 gold winners appeared in search results but returned HTTP 403; no brewery medal announcement was read.
 - No IBU was found on any page that could be opened.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Untappd menu search results show N/A IBU for Soulhound, but the opened Rustwater menu omits it. A separate bitterness search found a TapHunter menu without numeric IBU in its excerpt; no numeric bitterness was verified.

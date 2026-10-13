@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd Bingo Oktoberfest listing publishes no IBU; no verified bitterness figure was found.
 - The brewery uses bingobeerco.com; bingobeer.com redirects to a domain sale page.
 - Spelling variants on the brewery page (Mittlefrüh, Mittelfruh, Melanoiden) are normalized in the structured fields to Hallertau Mittelfrüh and Melanoidin malt.
 - IBU and yeast were not published on the brewery page.

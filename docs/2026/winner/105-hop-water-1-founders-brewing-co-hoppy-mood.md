@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -90,6 +90,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Founders Untappd listing](https://untappd.com/b/founders-brewing-co-hoppy-mood/5753647) reports N/A IBU; the brewery's qualitative bitterness statement was not converted to zero.
 - ABV, hops, style, packaging and availability verified on the brewery's product page; process and citric acid verified in the brewery's own explainer.
 - No IBU is published; the explainer says the drink has "zero bitterness."
 - No 2026 medal announcement was found on the brewery home page.

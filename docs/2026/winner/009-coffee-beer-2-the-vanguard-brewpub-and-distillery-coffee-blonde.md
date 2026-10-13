@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Caiseal Coffee Blonde Ale"
 tags:
@@ -19,7 +19,7 @@ abv: 5.5
 adjuncts:
   - "Coffee"
 beer: "Coffee Blonde"
-beer-url: null
+beer-url: "https://www.thevanguard757.com/drinks"
 brewery: "The Vanguard Brewpub & Distillery"
 brewery-city: "Hampton"
 brewery-state: "VA"
@@ -37,6 +37,7 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.thevanguard757.com/"
   - "https://www.thevanguard757.com/caiseal-tap-list"
+  - "https://www.thevanguard757.com/drinks"
 style: "Blonde Ale"
 yeast: []
 ---
@@ -82,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [The Vanguard: drinks menu](https://www.thevanguard757.com/drinks)
 - [The Vanguard Brewpub & Distillery](https://www.thevanguard757.com/)
 - [The Vanguard: Caiseal tap list](https://www.thevanguard757.com/caiseal-tap-list)
 - [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale)
@@ -94,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The calorie figure is a BeerMenus listing value, not a brewery figure.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's drinks menu names Coffee Blonde Ale and is used as beer-url because no dedicated page was found. It names no IBU or hops. Its 5.3% ABV differs from the existing BeerMenus 5.5%; the existing value is retained.

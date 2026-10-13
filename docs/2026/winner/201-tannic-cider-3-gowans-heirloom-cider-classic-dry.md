@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Classic Dry Cider"
 tags:
@@ -84,6 +84,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Cidery trade portfolio](https://www.gowansheirloomcider.com/trade) names Classic Dry but publishes neither numeric IBU nor hop varieties; neither was inferred from cider style.
 - ABV, size, style and availability verified on the cidery's product page, which also cites a 2026 World Beer Cup gold (Tannic Cider) and a GABF 2024 gold.
 - Apple varieties and yeast are not published.
 - No 2026 medal announcement from the cidery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Yucatán Sunrise"
 tags:
@@ -93,6 +93,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: A brewery-domain search found no new page naming Yucatan Sunrise; beer-url remains null.
 - The Untappd description already names the 2026 GABF bronze, worded as "Mexican Pale Light Lager".
 - The brewery home page returned only its title, so no beer-url or brewery description was found.
 - Yucatan Sunset (5.2%, 10 IBU) is a separate dark Mexican lager; it is not the medal beer.

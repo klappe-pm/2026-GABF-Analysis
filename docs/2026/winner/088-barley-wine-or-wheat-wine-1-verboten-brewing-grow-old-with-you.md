@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-page and hop searches found no current IBU, hop names or qualifying brewery beer URL. Separately named double-oaked and reserve versions were excluded.
 - The home page features six other beers; the beer menu loads from Pourwall and rendered no rows.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

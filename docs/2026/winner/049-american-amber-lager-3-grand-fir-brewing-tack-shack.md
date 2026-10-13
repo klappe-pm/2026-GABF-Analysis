@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches located a new Grand Fir brewpub menu naming Tack Shack, but found no IBU or hop varieties for this beer.
 - The brewery has no individual beer pages; the drinks menu PDF linked from its home page (file name BEER10.17) is the beer-url.
 - A 2024 Beervana post calls Tack Shack "ostensibly a Czech amber lager," possibly the brewery's flagship, at 6% ABV, and says it won silver at the World Beer Cup in American amber lager; that agrees with the menu ABV.
 - IBU and ingredients were not found on the brewery site, the menu, or Beervana.

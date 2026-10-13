@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -38,6 +38,7 @@ malts:
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.zerogravitybeer.com/"
   - "https://www.zerogravitybeer.com/coneheadzero"
@@ -84,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Conehead Zero](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796)
 - [Beer page on brewery site](https://www.zerogravitybeer.com/coneheadzero)
 - [Zero Gravity Craft Brewery](https://www.zerogravitybeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -94,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The abv field is null because the brewery gives only an upper bound; the ibu field is null because the brewery lists IBU as N/A.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing gives N/A IBU and 0.5% ABV against the existing brewery less than 0.5% bound. No measured alcohol value was established, so ABV remains null; the alcoholic Conehead's 49 IBU was excluded.

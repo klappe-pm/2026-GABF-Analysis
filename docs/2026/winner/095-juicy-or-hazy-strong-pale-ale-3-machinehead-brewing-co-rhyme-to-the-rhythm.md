@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -29,7 +29,7 @@ hops:
   - "Motueka"
   - "Nectaron"
   - "Peacharine"
-ibu: null
+ibu: 24
 malts: []
 medal: "Bronze"
 place: 3
@@ -37,6 +37,7 @@ sources:
   - "https://machineheadbrewing.com/"
   - "https://machineheadbrewing.com/beers/"
   - "https://machineheadbrewing.com/tap-list/"
+  - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Hazy IPA"
 yeast: []
@@ -58,7 +59,7 @@ Rhyme To The Rhythm is a hazy IPA hopped only with Southern Hemisphere varieties
 |---|---|---|
 | Style | Hazy IPA | [MachineHead: beers](https://machineheadbrewing.com/beers/) |
 | ABV | 6.8% | [MachineHead: beers](https://machineheadbrewing.com/beers/) |
-| IBU | not published | none found |
+| IBU | 24 | [MachineHead beer listing](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858) |
 | Hops | Nectaron, Peacharine, Motueka | [MachineHead: beers](https://machineheadbrewing.com/beers/) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -81,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [MachineHead beer listing](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858)
 - [Beer page on brewery site](https://machineheadbrewing.com/beers/)
 - [MachineHead Brewing](https://machineheadbrewing.com/)
 - [MachineHead: tap list](https://machineheadbrewing.com/tap-list/)
@@ -88,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Matching Untappd beer page](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858) verifies 24 IBU and matches the existing ABV and Southern Hemisphere recipe.
 - Both brewery pages agree on 6.8% ABV and the hop list; neither has an individual beer page or IBU.
 - The www subdomain of the brewery site does not resolve; the bare domain works.
 - No 2026 medal announcement from the brewery was found.

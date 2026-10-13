@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - First pass: The online ordering page (Toast) returned HTTP 403. No 2026 GABF post was found on the blog, whose latest posts date to 2022.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Searches found no verified specifications for the 2025 Reserve. The Untappd listing is explicitly the 2024 Reserve at 15.8% ABV, so its strength and barrel details are not transferred to this vintage.
+- Field pass 2026-10-13: A new vintage-specific recipe search produced award records and the previously excluded 2024 Reserve, but no verified ABV, IBU, brewery beer page or hops for the 2025 Reserve.

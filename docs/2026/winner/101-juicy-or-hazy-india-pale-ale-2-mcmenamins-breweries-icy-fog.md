@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -98,6 +98,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: New Fireside Bar and O'Kane's search results name Icy Fog, but the opened pages did not expose that entry; no additional brewery beer-url was verified.
 - Second pass 2026-10-13: Found the matching Untappd recipe and a brewery archive naming Icy Fog. The published ABV is above the category guideline; no alternative recipe or confirmed competition batch specification was found. The archive names the beer but does not provide a dedicated beer page.
 - The McMenamins beer and ales pages list standards and seasonals (including Lola's Hazy IPA) but not Icy Fog in the readable portion; both pages were truncated partway through the bottle and can releases, so a listing there cannot be ruled out.
 - McMenamins brews at many pub locations; which one brewed Icy Fog was not found.

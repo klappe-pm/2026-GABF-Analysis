@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "or"
@@ -92,6 +92,7 @@ As category context only, the closest entry in the [Brewers Association guidelin
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional brewery-domain and taproom searches found no brewery-domain page naming The Fourth Colour; the previously recorded ordering menu remains the only verified brewery menu.
 - Second pass 2026-10-13: Found the brewery ordering menu and matching Untappd listing with ABV, IBU, named hops and a description. The listing also names the 2026 silver award. No dedicated page on the brewery domain was found.
 - The brewery beer page lists only six year-round beers (Hazy, IPA, Pils, Stout, Pale, Helles), none of them this beer.
 - The home page mentions experimental small-batch and seasonal beers on its tap list but names none; the linked Untappd tap list board returned no readable beer data.

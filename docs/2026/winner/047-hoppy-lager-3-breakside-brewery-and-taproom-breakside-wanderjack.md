@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Wanderjack"
   - "Wanderjack IPA"
@@ -91,6 +91,7 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd WanderJack page describes the Barley Brown's collaboration as an American IPA at 7.1% ABV and 63 IBU, with Strata, Mosaic, Azacca and Simcoe. No source establishes those specs for a lager version, so the listed gaps remain. A search excerpt from the 2025 North American Beer Awards places Wanderjack in India Pale Lager or Cold IPA, but provides no recipe or batch identification.
 - Conflict: the official list places Breakside Wanderjack in Hoppy Lager, while the only Breakside page for the name labels it a West Coast India Pale Ale. No lager version is published, so the IPA specs may not match the medal entry.
 - The brewery awards page lists earlier Wanderjack medals (2025 North American Beer Awards gold, 2022 Oregon Beer Awards gold) and no GABF 2026 result.
 - Researched 2026-10-13.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -82,6 +82,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted bitterness and ingredient searches found no IBU or hop varieties for Urban Roots No Tricks. The same-named Sideswipe beer was excluded.
 - The brewery has no individual beer pages; its Oktoberfest season draught list PDF is the beer-url.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

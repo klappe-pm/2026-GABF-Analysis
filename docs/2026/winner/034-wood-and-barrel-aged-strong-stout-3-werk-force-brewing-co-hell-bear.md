@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -35,6 +35,7 @@ sources:
   - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
   - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
   - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
+  - "https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.werkforcebrewing.com/"
   - "https://www.werkforcebrewing.com/beer-to-go"
@@ -94,6 +95,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Werk Force: beer to go](https://www.werkforcebrewing.com/beer-to-go)
 - [Werk Force: The Barrel Den](https://www.werkforcebrewing.com/the-barrel-den)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Binny's: 2024 Hell Bear listing](https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/)
 
 ## research-notes
 
@@ -103,3 +105,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The style label for this file is the category name, since the brewery publishes none.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: found four Untappd editions of Bourbon Barrel Aged Hell Bear (13.2%, 2023 at 13%, 2024 at 13%, 2025 at 12%), all labelled imperial stout; ABV stays null because the entered edition is not named. Patch reports Hell Bear tied for gold in Chili Pepper Beer at the 2025 US Open Beer Championship. No 2026 GABF medal post was found.
+- Field pass 2026-10-13: The retailer listing is explicitly the 2024 Barrel Aged Hell Bear, so it does not establish ABV or ingredients for the unspecified entered edition. No matching IBU, brewery beer page or hops were verified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Coming To Fruition: Cherry"
 tags:
@@ -97,3 +97,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - ABV and IBU are the single Untappd listing for the series, not figures for the 2024 vintage.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional vintage-specific and brewery-domain searches found no 2024 beer page or hop variety. Earlier-series recipe information was not assigned to the requested vintage.

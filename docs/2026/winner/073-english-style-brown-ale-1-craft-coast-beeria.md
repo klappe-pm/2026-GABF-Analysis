@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Beeria"
 tags:
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - BeerAdvocate has a listing for the beer but returned 403 and was not read.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional IBU, hop and brewery-domain searches found no verified missing field for Beería. The previously inaccessible BeerAdvocate page was not fetched again.

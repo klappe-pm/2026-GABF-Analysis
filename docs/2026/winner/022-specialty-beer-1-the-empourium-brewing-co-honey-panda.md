@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -95,3 +95,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Every spec comes from a retailer listing, not the brewery.
 - The Colorado Brewery List page confirmed the brewery website but does not list this beer.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd page names honey and blueberry lavender tea but no hop varieties.

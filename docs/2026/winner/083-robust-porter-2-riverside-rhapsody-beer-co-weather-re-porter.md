@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "nc"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted recipe and brewery release searches found no numerical IBU, named hops or qualifying brewery beer URL beyond the previous research.
 - The brewery home page mentions a porter among its beers but does not name it; both menu pages rely on Live Tap Lists and returned no beer rows.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

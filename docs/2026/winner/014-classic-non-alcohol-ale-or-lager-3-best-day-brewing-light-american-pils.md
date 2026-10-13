@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -91,3 +91,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search budget for this session ran out before a press or Untappd search specific to this beer could be run.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no verified specifications for this exact beer. A retailer lists Best Day Wild American Classic American Pils, but no source establishes that it is Light American Pils; that product and Fieldwork's similarly named beer were excluded.
+- Field pass 2026-10-13: A retailer and hop focused search found distributor medal coverage but no new matching specification or brewery beer page. The previously excluded Wild American and Fieldwork products remain excluded.

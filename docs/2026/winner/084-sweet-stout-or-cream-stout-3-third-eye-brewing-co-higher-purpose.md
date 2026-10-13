@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -18,7 +18,7 @@ abv: 6.3
 adjuncts:
   - "Lactose"
 beer: "Higher Purpose"
-beer-url: null
+beer-url: "https://thirdeyebrewingco.com/beer-overview/"
 brewery: "Third Eye Brewing Co."
 brewery-city: "Hamilton"
 brewery-state: "OH"
@@ -33,6 +33,7 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://thirdeyebrewingco.com/"
+  - "https://thirdeyebrewingco.com/beer-overview/"
   - "https://thirdeyebrewingco.com/beer/"
   - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
   - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
@@ -55,6 +56,7 @@ Higher Purpose is a milk stout from Third Eye Brewing Co. in Hamilton, Ohio.
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Third Eye: beer overview](https://thirdeyebrewingco.com/beer-overview/) |
 | Style | Milk Stout | [Third Eye Brewing: home page](https://thirdeyebrewingco.com/) |
 | ABV | 6.3% | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
 | IBU | 24 | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
@@ -80,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Third Eye: beer overview](https://thirdeyebrewingco.com/beer-overview/)
 - [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
 - [Craft Beer & Brewing: brewer interview](https://www.beerandbrewing.com/the-milk-stout-whisperer)
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
@@ -88,6 +91,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's beer overview page explicitly names Higher Purpose and qualifies as beer-url because no dedicated page was found. It does not name hops, so the alternatives discussed in the earlier interview remain unassigned.
 - An Instagram post embedded on the brewery home page lists "Bronze, Higher Purpose, Milk Stout" among the brewery's GABF medals, alongside a silver for a barrel aged barleywine and a bronze for a coffee stout; the post carries no year in the captured text. Punctuation lightly normalized.
 - The brewery's beer page features other beers and does not list Higher Purpose; the beer finder was not checked.
 - The domain thirdeyebrewing.com (without "co") redirects to a domain sale page and is not the brewery.

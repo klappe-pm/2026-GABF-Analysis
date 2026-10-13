@@ -10,7 +10,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -34,6 +34,7 @@ malts: []
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387"
   - "https://www.armoredcowbrewing.com/"
   - "https://www.armoredcowbrewing.com/on-tap"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -83,6 +84,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Beer page on brewery site](https://www.armoredcowbrewing.com/on-tap)
 - [Armored Cow Brewing Co.](https://www.armoredcowbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: Armored Cow Hell Yeah](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387)
 
 ## research-notes
 
@@ -90,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU, grains and yeast were not found; third party listings were not checked because web search was unavailable for most of this run.
 - No 2026 medal announcement was found on the brewery's home or on tap pages.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Hell Yeah listing reports N/A IBU; no numerical bitterness was verified.

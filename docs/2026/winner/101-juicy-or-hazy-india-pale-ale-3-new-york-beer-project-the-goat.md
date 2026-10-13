@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -77,6 +77,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: A tap-list search found medal coverage but no matching ABV, IBU, named hops or brewery beer page.
 - Second pass 2026-10-13: Targeted exact-name, Untappd, ABV, BeerMenus, brewery-domain and medal searches found no additional specifications. Official medal coverage names The Goat, but listings for Hazy Train and The One are different beers and were excluded.
 - Two likely brewery domains failed: newyorkbeerproject.com did not resolve and nybeerproject.com returned 403 Forbidden, so no brewery URL could be verified.
 - The session web search budget was exhausted before this beer could be searched, so Untappd, retailer listings and press were not reached.

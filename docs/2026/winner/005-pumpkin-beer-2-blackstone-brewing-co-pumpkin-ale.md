@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -20,7 +20,7 @@ adjuncts:
   - "Ginger"
   - "Nutmeg"
 beer: "Pumpkin Ale"
-beer-url: null
+beer-url: "https://blackstonebeer.com/our-beer"
 brewery: "Blackstone Brewing Co."
 brewery-city: "Nashville"
 brewery-state: "TN"
@@ -35,6 +35,7 @@ medal: "Silver"
 place: 2
 sources:
   - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+  - "https://blackstonebeer.com/our-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Pumpkin Ale"
 yeast: []
@@ -79,6 +80,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Blackstone: beer list](https://blackstonebeer.com/our-beer)
 - [Blackstone Brewing Co.](https://www.blackstonebrewery.com/)
 - [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -89,3 +91,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - ABV and IBU come from a 2014 trade release and may not match the 2026 batch.
 - Conflict: a BeerAdvocate brewery list, seen only as a search snippet and not opened, shows a Pumpkin Ale at 5.4%; the 5.1% figure from the page actually read is used.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A working brewery domain was found through Memphis Beer Blog. Its Our Beer page names Pumpkin Ale in its award list, so the beer list is used as beer-url because no dedicated page was found. Neither page names hop varieties.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "nm"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: New Mexico medal coverage confirms the exact brewery and beer, but searches yielded no ABV, IBU, ingredients or product page. Technical fields remain null.
+- Field pass 2026-10-13: Additional menu and technical-field searches found no exact Step Drunkle specifications or brewery product page. The previously verified medal coverage was not fetched again.

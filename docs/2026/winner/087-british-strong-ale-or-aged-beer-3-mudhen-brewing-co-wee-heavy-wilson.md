@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted ingredient searches found no named hops for Wee Heavy Wilson beyond the sources already recorded.
 - The first pass could not open the brewery site; this pass read its article about the beer's World Beer Cup wins. Later repeat requests timed out.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

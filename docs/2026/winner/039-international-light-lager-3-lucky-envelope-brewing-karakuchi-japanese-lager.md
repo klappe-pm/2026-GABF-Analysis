@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no verified IBU or hop varieties for Karakuchi Japanese Lager. Floral hop tasting notes do not establish a variety.
 - The brewery has no individual beer pages; its on tap page is the beer-url, and it already labels the beer "2026 GABF Bronze Medal".
 - Untappd agrees on 4.7% ABV and labels the style Lager, Japanese Rice.
 - Researched 2026-10-13.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "az"
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches found no verified IBU, named hop varieties or brewery beer page for Wren House Festbier.
 - The brewery home page returned only its title to the fetcher, and guessed /beer and /beers paths returned 404, so no brewery beer page was found.
 - All specs come from BeerMenus, whose description opens by calling the beer a 2022 GABF gold medal winner.
 - No 2026 medal announcement from the brewery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Satan's Pony Amber Ale"
 tags:
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The Blue Mountain Barrel House site does not yet list Satan's Pony, and its Untappd draft list read on 2026-10-13 did not include it, so there is no beer-url.
 - Who brewed the medal entry (South Street before closing or Blue Mountain after) is not stated in any source read.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop and brewery-page searches found no qualifying beer page or named variety. Imperial Satan's Pony is a separate variant and was excluded.

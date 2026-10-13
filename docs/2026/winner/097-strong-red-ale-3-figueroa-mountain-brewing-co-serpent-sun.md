@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -83,6 +83,7 @@ As category context only, the closest entry in the [Brewers Association guidelin
 
 ## research-notes
 
+- Field pass 2026-10-13: Distributor and brewery-domain searches found no matching ABV, IBU, hops or brewery beer page.
 - Second pass 2026-10-13: No additional specifications were found in targeted Untappd, ABV, BeerMenus and medal searches. Results for Under A Serpent Sun belong to Hines Family Brewing and were excluded.
 - The brewery's beer list shows 16 beers and packs; Serpent Sun is not among them.
 - The awards page cites 35 GABF medals overall, but the readable content did not include a 2026 entry or this beer.

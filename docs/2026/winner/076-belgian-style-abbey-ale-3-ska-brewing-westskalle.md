@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches of Ska's brewery domain found no WestSKAlle beer page or named hops beyond the sources already recorded.
 - The brews page lists 18 beers (IPAs, ales and lagers) and none is Belgian; the beer looks like a taproom or one-off release.
 - The first pass inferred an abbey style from the name; the second pass found an explicit beer listing.
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.

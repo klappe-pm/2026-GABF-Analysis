@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Nolan's Porter"
 tags:
@@ -18,7 +18,7 @@ tags:
 abv: 6
 adjuncts: []
 beer: "Barrio Nolan's Porter"
-beer-url: null
+beer-url: "https://barriobrewing.com/menuitem/nolans-porter/"
 brewery: "Barrio Brewing Co."
 brewery-city: "Tucson"
 brewery-state: "AZ"
@@ -34,6 +34,7 @@ place: 3
 sources:
   - "https://barriobrewing.com/"
   - "https://barriobrewing.com/barrio-beer-finder/"
+  - "https://barriobrewing.com/menuitem/nolans-porter/"
   - "https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Porter"
@@ -54,6 +55,7 @@ Nolan's Porter is a porter from Barrio Brewing Co. in Tucson, Arizona.
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Dedicated brewery page | [Barrio: Nolan's Porter](https://barriobrewing.com/menuitem/nolans-porter/) |
 | Style | Porter (from the beer name) | none found |
 | ABV | 6% | [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
 | IBU | 32 | [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
@@ -79,6 +81,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Barrio: Nolan's Porter](https://barriobrewing.com/menuitem/nolans-porter/)
 - [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos)
 - [Barrio Brewing Co.](https://barriobrewing.com/)
 - [Barrio Brewing: beer finder](https://barriobrewing.com/barrio-beer-finder/)
@@ -86,6 +89,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: A dedicated brewery page establishes beer-url. It gives 5.4% ABV and 30.5 IBU, versus the retained Untappd values of 6% and 32 IBU already cited; the difference remains unresolved. No hop varieties are named.
 - The brewery home page links pages only for Tucson Blonde, Hipsterville Hazy IPA, Citrazona and Barrio Rojo.
 - Search results showed Brewbound and BeerAdvocate listings for the beer with conflicting ABV figures and a brewery-supplied note on its origin and an earlier GABF gold; both pages returned 403 when opened, so their figures were not accepted.
 - No 2026 medal announcement was found.

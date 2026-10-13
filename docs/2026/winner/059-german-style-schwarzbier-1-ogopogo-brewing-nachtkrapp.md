@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The Hopped piece (2021) places the beer at a black lager competition at Arts District Brewing, so the beer has been brewed since at least 2021.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Nachtkrapp Untappd product page shows N/A IBU and retells the legend without naming ingredients. Additional brewery-domain searches found no product page or hop variety.

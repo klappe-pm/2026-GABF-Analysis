@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Untappd and retailer searches found no numeric IBU tied to Born Hoppy; machine-readable zero in a venue result is not a published measured IBU and was not used.
 - The brewery has no individual beer pages; its draft list is the beer-url.
 - The session web search budget was exhausted before Untappd or press could be searched for IBU or malts.
 - No 2026 medal announcement from the brewery was found.

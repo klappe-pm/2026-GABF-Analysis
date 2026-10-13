@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "md"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching [Untappd Mundo Especial page](https://untappd.com/b/silver-branch-brewing-company-mundo-especial/4911483) publishes no IBU or named hops. It gives 4.8% ABV, compared with the existing 4.5% from the [brewery beer list](https://www.silverbranchbrewing.com/beer/); the existing strength is retained.
 - The brewery has no linked page for the beer; its beer list page is the beer-url.
 - The brewery home page embeds an Instagram post saying its Mexican-style lager "just took home a silver medal in the Rice Lager category" at GABF.
 - No Untappd listing was found: web search was unavailable and a guessed Untappd brewery path returned 404.

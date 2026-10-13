@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Fest Bier"
 tags:
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [Craft Beer & Brewing Fest Bier recipe](https://www.beerandbrewing.com/recipe-counter-weight-fest-bier) gives 22 IBU for a homebrew-scale adaptation of the 2020 winner. That estimate and homebrew clone hop lists are excluded from this production beer's structured fields; no current IBU or named production hops were verified.
 - The brewery lists the beer as Fest Bier on its all-brews page, which is the beer-url; no individual page was found.
 - Brewery and BeerMenus agree on 5.9% ABV; BeerMenus files it under Oktoberfest. Neither gives IBU or ingredients.
 - No 2026 medal announcement from the brewery was found.

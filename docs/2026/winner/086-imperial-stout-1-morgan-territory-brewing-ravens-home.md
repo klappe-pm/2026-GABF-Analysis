@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -91,6 +91,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: The [brewery's drinks catalog](https://www.morganterritorybrewing.com/drinks/) does not name Raven's Home. No qualifying brewery beer URL or hop varieties were found.
 - The home page does not mention the beer; the on tap page loads its menu from BeerMenus, which returned an empty page, and the beer finder shows no results.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

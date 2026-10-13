@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -81,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [exact Untappd entry](https://untappd.com/b/cannonball-creek-brewing-co-featherweight-pale/356592) shows N/A IBU and names no hop varieties. It lists 5% ABV, versus the retained brewery menu value of 5.9%; the difference remains unresolved.
 - The beers page shows the tap menu as an image; the ABV and style were read from that image. There is no individual beer page.
 - The brewery home page lists Featherweight's earlier awards in American Pale Ale: GABF gold in 2020 and 2023, silver in 2013 and 2024, bronze in 2015, a 2014 World Beer Cup bronze and a 2025 Colorado Brewers Cup gold. It does not yet list a 2026 GABF medal.
 - Researched 2026-10-13.

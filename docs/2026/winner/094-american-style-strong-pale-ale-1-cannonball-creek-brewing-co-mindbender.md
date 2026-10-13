@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -81,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [exact Untappd entry](https://untappd.com/b/cannonball-creek-brewing-co-mindbender-ipa/297110) shows N/A IBU and names no hop varieties. It lists 6.8% ABV, versus the retained brewery menu value of 6.9%. Not Mindbender, Project Alpha and Maybe Mindbender are different beers and were excluded.
 - The beers page shows the tap menu as an image; the ABV and style were read from that image. There is no individual beer page.
 - The brewery home page lists Mindbender's earlier awards in strong pale categories: a 2025 GABF silver for American Strong Pale, a 2026 World Beer Cup silver for Strong Pale and a 2025 Best of the West Coast IPA silver. It does not yet list a 2026 GABF medal.
 - The brewery labels it a West Coast IPA although it medaled in American-Style Strong Pale Ale.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Further OHB and Hickory searches did not resolve the brewery expansion or identify an exact Imperial Stout source. Event Horizon and Lindley Park are separately named beers and were excluded; ABV, IBU, hops and beer-url remain empty.
 - The first pass expanded the brewery name to Oak Highlands Brewery, whose site places it in Richardson, Texas. That expansion is not supported by the official results and has been removed; the assigned filename is retained.
 - The session's web search budget ran out before Untappd, press or a Hickory brewery could be searched.
 - No 2026 medal announcement was found.

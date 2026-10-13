@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Bière de Noël"
 tags:
@@ -28,12 +28,13 @@ category-name: "Herb and Spice Beer"
 category-number: 7
 entries: 67
 hops: []
-ibu: null
+ibu: 22
 malts: []
 medal: "Gold"
 place: 1
 sources:
   - "https://alesongbrewing.com/biere-de-noel"
+  - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
   - "https://www.alesongbrewing.com/"
   - "https://www.alesongbrewing.com/beer-library"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -58,7 +59,7 @@ Biere de Noel is a holiday ale from Alesong Brewing & Blending in Eugene, Oregon
 |---|---|---|
 | Style | special winter ale, listed under spirits barrel aged beers | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
 | ABV | 10.9% | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
-| IBU | not published | none found |
+| IBU | 22 | [Untappd: Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | Saccharomyces | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
@@ -81,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos)
 - [Beer page on brewery site](https://alesongbrewing.com/biere-de-noel)
 - [Alesong Brewing & Blending](https://www.alesongbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The beer does not appear in the brewery's Beer Library or current release pages, consistent with a club and tasting room release.
 - IBU, malts, hops and the specific spices are not published.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing publishes 22 IBU and names no hops. An unrelated homebrew recipe was excluded.

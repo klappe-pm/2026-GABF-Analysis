@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ks"
@@ -91,6 +91,7 @@ As category context only, the Brewers Association's [craft malt category announc
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional hop searches found no named varieties. The previously recorded brewery tap-list evidence names Two Track ESB, but no new readable brewery page was verified.
 - Second pass 2026-10-13: Found matching ABV and IBU on BeerAdvocate. The brewery tap-list search result agrees, although its opened page yielded only a cookie notice. No named hops, malt varieties, malt supplier or yeast were found.
 - The beer catalog page lists flagship, seasonal and limited releases but not Two Track ESB; the what's on tap page returned no beer data; the news page does not mention it.
 - The home page notice confirms the medal from the brewery's side.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "in"
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - Untappd's session or ordinary bitter label sits lower than the ESB guideline the beer was judged against; the published numbers still fall within ESB ranges.
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional brewery-domain, BeerMenus and ingredient searches found no qualifying brewery page or named hop variety for Lollygagger.

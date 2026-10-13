@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "il"
@@ -27,11 +27,12 @@ category-name: "Coffee Stout or Porter"
 category-number: 10
 entries: 53
 hops: []
-ibu: null
+ibu: 15
 malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
   - "https://www.93octanebrewery.com/"
   - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
   - "https://www.beermenus.com/beers/402809-93-octane-turbo"
@@ -57,7 +58,7 @@ Turbo is a coffee porter from 93 Octane Brewery of Saint Charles, Illinois, part
 |---|---|---|
 | Style | Coffee Porter | [93 Octane: beer menu](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer) |
 | ABV | 7.0% | [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo) |
-| IBU | not published | none found |
+| IBU | 15 | [Untappd: 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -80,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249)
 - [Beer page on brewery site](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer)
 - [93 Octane Brewery](https://www.93octanebrewery.com/)
 - [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo)
@@ -93,3 +95,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery menu spells "chocolately" and BeerMenus spells "chocolatey"; the brewery spelling is quoted.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Turbo listing publishes 15 IBU and names no hop varieties.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [Craft Beer & Brewing review](https://www.beerandbrewing.com/review/quandary) describes an older release at 9.6% ABV and 23 IBU, versus the retained brewery listing at 10.4% ABV. Its review was printed in 2015, so that bitterness was not transferred to the current beer. No hop varieties were found.
 - The brewery has no individual beer pages; its our beers page is the beer-url.
 - No barrel aging is mentioned for this beer.
 - The web search budget ran out before Untappd or press could be searched for IBU or ingredients; no 2026 medal announcement was found on the brewery home page.

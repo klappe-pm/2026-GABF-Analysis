@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nj"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [exact Untappd entry](https://untappd.com/b/kane-brewing-company-sneakbox/1788936) shows N/A IBU, as does the absence of a numerical bitterness value in the newly found retailer results. No IBU was accepted.
 - All specs come from the brewery's own product page; the home page lists it as an Essentials beer.
 - The brewery calls it an American Pale Ale; it medaled in the Juicy or Hazy Pale Ale category.
 - No 2026 medal announcement from the brewery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "fl"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches for the exact Beer Project Light name found no additional ABV, IBU, hop varieties or brewery beer page. The differently named Light New York Beer remains unconfirmed.
 - First pass: The brewery website (Open Brewery DB lists nybeerproject.com, at the Lockport, NY brewpub) returned HTTP 403 with and without www.
 - First pass: Untappd searches for "light" and "beer project light" under the brewery return only Light New York Beer (Lager, Other Light, 4% ABV, no IBU), with check-ins at New York Beer Project Orlando among other venues. The name differs from the GABF entry, so it is not confirmed as the same beer and its specs are not used.
 - First pass: The style label for this file is the category name.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -33,6 +33,7 @@ malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.enoriverbrewing.com/"
   - "https://www.enoriverbrewing.com/menu"
@@ -85,6 +86,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Eno River Brewing: Instagram post on Second Pick](https://www.instagram.com/p/DZcsA7QlvoZ/)
 - [Eno River Brewing: menu](https://www.enoriverbrewing.com/menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Untappd: Eno River Second Pick](https://untappd.com/b/eno-river-brewing-second-pick/5500598)
 
 ## research-notes
 
@@ -93,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU, grains, hops and culture were not found; web search was unavailable for most of this run.
 - No 2026 medal announcement was found on the brewery's home page.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing publishes N/A IBU and names no hops; no new brewery page was found. ABV conflict: Untappd lists 5.7% in a description mentioning the 2025 release, versus 6.2% in the existing brewery release post; the existing ABV is retained.

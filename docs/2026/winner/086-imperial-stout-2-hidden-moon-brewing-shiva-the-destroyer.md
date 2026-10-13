@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nh"
@@ -79,6 +79,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and exact-name specification searches found no ABV, IBU, hop names or qualifying brewery beer URL beyond the previous research.
 - The brewery site mentions 16 rotating taps and a current draft list, but the list did not render. The site also links to Moonlight Meadery.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

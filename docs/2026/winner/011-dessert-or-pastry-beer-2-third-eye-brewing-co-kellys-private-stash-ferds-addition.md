@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Barrel-Aged Kelly's Private Stash (Ferd's Addition)"
   - "Kelly's Private Stash (Ferd's Edition)"
@@ -100,3 +100,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web searches found no Untappd listing, ABV, IBU or barrel source.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the matching 2026 Ferd's Edition listing with ABV, IBU, finishing ingredients and barrel details. The separately described regular Private Stash release was excluded.
+- Field pass 2026-10-13: A targeted brewery domain search for Ferd and Kelly found no beer page or hop names. The previously verified 2026 formulation is retained.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -89,6 +89,7 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 
 ## research-notes
 
+- Field pass 2026-10-13: The already verified brewery drink page names this beer in its medal announcement, but no dedicated beer or tap-list page was found; beer-url remains null. No commercial hop recipe was verified; the earlier homebrew recipe remains excluded.
 - Second pass 2026-10-13: Found a brewery-specific commercial listing with ABV, IBU and a Belgian Single description. Bière de Rock confirms the homebrewer's selection for Wild Blue Yonder. The 2025 homebrew recipe reports 5.6% ABV and 43.4 IBU, but it is an earlier homebrew batch; its ingredients are not transferred to the commercial beer.
 - The brewery's home page confirms the 2026 GABF Pro-Am gold and the Belgian Ale label; this is the medal announcement.
 - The drink menu shows the same news item but no ABV, IBU or ingredients; the brewery has no individual beer pages.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "oh"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's Dort Light launch announcement publishes no IBU; searches found no verified bitterness figure for this beer.
 - Specs come from the brewery's beer page; Untappd agrees on 2.9% ABV and labels it Lager, Dortmunder / Export.
 - The brewery page shows two unlabelled stat blocks with conflicting calorie and carb values; both are recorded above.
 - The brewery gives no formal style label, so the style field uses the category name.

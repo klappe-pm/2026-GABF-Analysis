@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The same beer took Bronze in Rye Beer (28 entries) at the 2026 World Beer Cup, per the official winners list.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The opened brewery Untappd beer list did not include Howdyfest, despite an indexed name match. Neither IBU nor hops were verified; Vista hops belong to another beer and were excluded.

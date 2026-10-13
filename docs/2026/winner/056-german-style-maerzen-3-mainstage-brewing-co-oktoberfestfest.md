@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -83,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: A [brewery visit report](https://note.com/toshiyaueta/n/n2d47750c7deb) clearly names MainStage Oktoberfestfest at 6% ABV on September 28, 2024. That older release is not transferred to the 2026 profile. No current ABV, IBU, named hops or brewery beer page were verified; the differently named Oktoberfest collaboration remains excluded.
 - First pass: Location conflict: the medal list says Boulder; the brewery site gives its flagship as 450 Main St, Lyons, CO, and names a Gunbarrel location without a street address. The medal list city is kept in the frontmatter.
 - First pass: The brewery site has no beer pages or tap list; its Toast ordering page returned HTTP 403 and a guessed /menu path returned 404.
 - First pass: BeerMenus searches for the beer and the brewery returned nothing, and web search budget ran out before Untappd or press could be tried.

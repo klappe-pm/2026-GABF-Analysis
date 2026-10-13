@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "307 Lager"
 tags:
@@ -90,3 +90,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The 307 Lager page lists earlier awards: GABF 2021 silver, North American Beer Awards 2021 gold and US Open Beer Championships 2021 silver.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop searches found no named variety for 307. Tasting impressions of lemon or corn were not treated as recipe evidence.

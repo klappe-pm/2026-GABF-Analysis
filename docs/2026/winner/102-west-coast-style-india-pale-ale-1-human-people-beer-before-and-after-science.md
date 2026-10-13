@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional shop, IBU and brewery-domain searches found no numeric bitterness or verified brewery page naming this beer.
 - Second pass 2026-10-13: Found the matching Untappd listing with ABV, style and named hops. IBU, other recipe details and a dedicated brewery page remain unconfirmed.
 - The brewery home page does not mention the beer; the cafe menu is an image that could not be read as text and notes that the menu changes frequently.
 - No 2026 medal announcement from the brewery was found.

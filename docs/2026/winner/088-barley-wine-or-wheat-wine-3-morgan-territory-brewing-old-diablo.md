@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -17,7 +17,7 @@ tags:
 abv: 11.3
 adjuncts: []
 beer: "Old Diablo"
-beer-url: null
+beer-url: "https://www.morganterritorybrewing.com/drinks/"
 brewery: "Morgan Territory Brewing"
 brewery-city: "Tracy"
 brewery-state: "CA"
@@ -40,6 +40,7 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.morganterritorybrewing.com/"
   - "https://www.morganterritorybrewing.com/beer-finder"
+  - "https://www.morganterritorybrewing.com/drinks/"
   - "https://www.morganterritorybrewing.com/on-tap"
 style: "English Barleywine"
 yeast: []
@@ -59,6 +60,7 @@ Old Diablo is a strong ale from Morgan Territory Brewing in Tracy, California.
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Morgan Territory: drinks catalog](https://www.morganterritorybrewing.com/drinks/) |
 | Style | English Barleywine | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
 | ABV | 11.3% | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
 | IBU | 85 | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
@@ -84,6 +86,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## links
 
+- [Morgan Territory: drinks catalog](https://www.morganterritorybrewing.com/drinks/)
 - [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753)
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
 - [Morgan Territory: on tap](https://www.morganterritorybrewing.com/on-tap)
@@ -92,6 +95,7 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery drinks catalog names Old Diablo Barley Wine and qualifies as beer-url because no dedicated page was found. It lists 11.0% ABV, versus the retained Untappd 11.3% already cited; the difference remains unresolved.
 - The on tap page loads its menu from BeerMenus, which returned an empty page, and the beer finder shows no results.
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.

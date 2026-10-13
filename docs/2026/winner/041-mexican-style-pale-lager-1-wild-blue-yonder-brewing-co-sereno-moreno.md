@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Sereno Merono"
 tags:
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Searches found no new beer listing page or named hop varieties for Sereno Moreno.
 - The brewery home page announces the 2026 GABF gold and credits Head Brewer Chad; it spells the beer both "Sereno Moreno" and "Sereno Merono".
 - The drink menu page fetched did not list the beer, so there is no beer-url.
 - ABV and IBU come only from Untappd; the brewery publishes neither.

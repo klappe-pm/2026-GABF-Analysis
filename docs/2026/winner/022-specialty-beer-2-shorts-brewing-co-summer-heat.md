@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "mi"
@@ -19,7 +19,7 @@ adjuncts:
   - "Jalapeño"
   - "Raspberry"
 beer: "Summer Heat"
-beer-url: null
+beer-url: "https://www.shortsbrewing.com/beers/summer-heat/"
 brewery: "Short's Brewing Co."
 brewery-city: "Elk Rapids"
 brewery-state: "MI"
@@ -28,13 +28,14 @@ category-name: "Specialty Beer"
 category-number: 22
 entries: 51
 hops: []
-ibu: null
+ibu: 25
 malts: []
 medal: "Silver"
 place: 2
 sources:
   - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.shortsbrewing.com/beers/summer-heat/"
 style: "Mexican Lager"
 yeast: []
 ---
@@ -55,20 +56,21 @@ Summer Heat is a Mexican style lager brewed with jalapeño and raspberry by Shor
 |---|---|---|
 | Style | Mexican Lager | [BeerMenus: Short's Summer Heat](https://www.beermenus.com/beers/532352-short-s-summer-heat) |
 | ABV | 5.4% | [BeerMenus: Short's Summer Heat](https://www.beermenus.com/beers/532352-short-s-summer-heat) |
-| IBU | not published | none found |
+| IBU | 25 | [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | jalapeño, raspberry | [BeerMenus: Short's Summer Heat](https://www.beermenus.com/beers/532352-short-s-summer-heat) |
 | Other | not published | none found |
+| Beer page | Brewery page naming this beer | [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/) |
 
 ## brewery-description
 
-No brewery description could be read; the brewery website refused automated access. The BeerMenus listing reads:
+The brewery's dedicated beer page is now readable:
 
-> Mexican Lager w/ Jalapeño & Raspberry
+> What do you get when you combine the sweetness of raspberry and the essence of jalapeno?
 
-Source: [BeerMenus: Short's Summer Heat](https://www.beermenus.com/beers/532352-short-s-summer-heat)
+Source: [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/)
 
 ## ingredients
 
@@ -83,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Short's Brewing Co.](https://www.shortsbrewing.com/)
 - [BeerMenus: Short's Summer Heat](https://www.beermenus.com/beers/532352-short-s-summer-heat)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/)
 
 ## research-notes
 
@@ -90,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The brewery website returned HTTP 403 for the home page, beer list and an event page whose search snippet described Summer Heat as a Mexican style lager brewed with jalapeño peppers and raspberry; that page was not read.
 - No IBU, malt, hop or yeast was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's dedicated Summer Heat page publishes 25 IBU; no hops are named. ABV conflict: this brewery page lists 5.3%, while the existing BeerMenus source lists 5.4%; the existing ABV is retained.

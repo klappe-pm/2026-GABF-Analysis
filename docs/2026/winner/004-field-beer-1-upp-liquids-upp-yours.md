@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -33,6 +33,7 @@ medal: "Gold"
 place: 1
 sources:
   - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
+  - "https://untappd.com/w/upp-liquids/574533/beer"
   - "https://uppliquids.com/"
   - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
   - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
@@ -80,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: UPP Liquids beer list](https://untappd.com/w/upp-liquids/574533/beer)
 - [Beer page on brewery site](https://uppliquids.com/handcrafted-beer-bend-oregon/)
 - [UPP Liquids](https://uppliquids.com/)
 - [Bend Source: UPP at GABF](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/)
@@ -92,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The same beer took silver in Field Beer at GABF 2025 (New School Beer list), so this 2026 gold is a repeat medal in the category.
 - IBU, hops, malts and yeast are not published; the Toast menu returned 403.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's Untappd beer list names UPP Yours, gives N/A IBU and names no hop varieties.

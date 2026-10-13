@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -95,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - "Loral 291 Cryo" is recorded in the hops array as Loral Cryo.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional IBU searches found no verified bitterness figure. The exact Bold Rush Untappd excerpt shows N/A IBU; its zero-valued internal field is not a published measurement.

@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ia"
   - "silver"
-abv: null
+abv: 0.4
 adjuncts: []
 beer: "Zero Eddy"
 beer-url: "https://biggrove.com/products/zero-eddy"
@@ -35,6 +35,7 @@ sources:
   - "https://biggrove.com/collections/beer"
   - "https://biggrove.com/products/zero-eddy"
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+  - "https://untappd.com/b/big-grove-brewery-zero-eddy/6524642"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Non-Alcoholic Hazy IPA"
 yeast: []
@@ -55,7 +56,7 @@ Zero Eddy is a non-alcoholic hazy IPA from Big Grove of Iowa City, Iowa, made as
 | Field | Value | Source |
 |---|---|---|
 | Style | Non-Alcoholic Hazy IPA | [Big Grove: Zero Eddy](https://biggrove.com/products/zero-eddy) |
-| ABV | less than 0.5% | [Big Grove: Zero Eddy](https://biggrove.com/products/zero-eddy) |
+| ABV | 0.4% | [Untappd: Big Grove Zero Eddy](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -79,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Big Grove Zero Eddy](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642)
 - [Beer page on brewery site](https://biggrove.com/products/zero-eddy)
 - [Big Grove](https://biggrove.com/)
 - [Big Grove: beer](https://biggrove.com/collections/beer)
@@ -89,6 +91,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 - The domain biggrovebrewery.com failed with an SSL error; biggrove.com is the working site.
 - The same beer took Silver in Hoppy Non-Alcohol Beer (62 entries) at the 2026 World Beer Cup, per the official winners list.
-- The abv field is null because the brewery gives only an upper bound.
+- The original brewery source gives only an upper bound; the field pass below supplies the numeric listing value.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The matching Untappd listing publishes 0.4% ABV, consistent with the existing brewery upper bound. IBU is N/A and hop varieties are not named.

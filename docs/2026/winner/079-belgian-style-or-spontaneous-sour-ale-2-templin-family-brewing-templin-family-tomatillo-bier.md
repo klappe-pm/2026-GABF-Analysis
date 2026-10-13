@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Further collaboration searches found Tomatillo Sour references but did not establish the Tomatillo Bier alias. No ABV, IBU, hop names or qualifying beer URL were accepted.
 - The brewery's beer list has no Tomatillo Bier; the only tomatillo beer is Tomatillo Sour Ale (CoLab and Limited series, barrel aged with tomatillo and prickly ash). It is very likely the winner but this is not confirmed, so beer-url, ABV and adjuncts are left empty.
 - The web search budget ran out before press or Untappd could be searched to confirm the name.
 - Researched 2026-10-13.

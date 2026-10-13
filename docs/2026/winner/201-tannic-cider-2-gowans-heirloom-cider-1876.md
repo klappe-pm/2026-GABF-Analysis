@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "1876 Cider"
 tags:
@@ -84,6 +84,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Cidery trade portfolio](https://www.gowansheirloomcider.com/trade) names 1876 but publishes neither numeric IBU nor hop varieties; null and empty fields are retained.
 - ABV, size, sweetness and description verified on the cidery's product page, which also cites a GABF 2025 gold for this cider.
 - Apple varieties and yeast are not published.
 - No 2026 medal announcement from the cidery was found.

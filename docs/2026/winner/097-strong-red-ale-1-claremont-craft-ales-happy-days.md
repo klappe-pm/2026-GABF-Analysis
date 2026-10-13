@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Happy Days Imperial Red"
 tags:
@@ -19,7 +19,7 @@ abv: 9.5
 adjuncts:
   - "Dextrose"
 beer: "Happy Days"
-beer-url: null
+beer-url: "https://harp-clownfish.squarespace.com/beers/"
 brewery: "Claremont Craft Ales"
 brewery-city: "Claremont"
 brewery-state: "CA"
@@ -40,6 +40,7 @@ medal: "Gold"
 place: 1
 sources:
   - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+  - "https://harp-clownfish.squarespace.com/beers/"
   - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
   - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -71,6 +72,7 @@ Happy Days is a strong, heavily dry hopped imperial red ale brewed by Claremont 
 | Yeast | WLP001 California Ale | [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption) |
 | Adjuncts, fruit, spices | Dextrose at flameout (homebrew scale recipe) | [Craft Beer & Brewing: Happy Days recipe](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
 | Other | dry hopped at three pounds per barrel for three days at terminal gravity | [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption) |
+| Beer page | brewery beer list | [Claremont beer catalog](https://harp-clownfish.squarespace.com/beers/) |
 
 ## brewery-description
 
@@ -78,7 +80,7 @@ Happy Days is a strong, heavily dry hopped imperial red ale brewed by Claremont 
 
 Source: [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption)
 
-No description from the brewery's own website could be read; the quote above is from head brewer Brian Seffer writing in Craft Beer & Brewing.
+The quote above is from head brewer Brian Seffer writing in Craft Beer & Brewing. The [brewery beer catalog](https://harp-clownfish.squarespace.com/beers/) also provides its own description.
 
 ## ingredients
 
@@ -90,6 +92,7 @@ As category context only, the closest entry in the [Brewers Association guidelin
 
 ## links
 
+- [Claremont beer catalog](https://harp-clownfish.squarespace.com/beers/)
 - [Claremont Craft Ales](https://www.claremontcraftales.com/)
 - [Craft Beer & Brewing: Happy Days recipe](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/)
 - [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption)
@@ -98,6 +101,7 @@ As category context only, the closest entry in the [Brewers Association guidelin
 
 ## research-notes
 
+- Field pass 2026-10-13: [Brewery beer catalog](https://harp-clownfish.squarespace.com/beers/) names Happy Days and serves as beer-url because no dedicated page was verified. Commercial IBU remains unpublished; homebrew calculations were excluded.
 - The brewery home page returned no readable content and a guessed beer list path returned 404, so no beer page on the brewery site was found.
 - ABV conflict: the head brewer's article says 9.5%, BeerMenus says 10.0%, the homebrew recipe targets 9.8%; the brewer's figure is used.
 - Hops, malt amounts and dextrose come from the homebrew scale recipe, not from a commercial spec sheet.

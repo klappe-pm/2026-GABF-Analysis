@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
   - "silver"
-abv: null
+abv: 5.95
 adjuncts: []
 beer: "Endless Groove"
 beer-url: null
@@ -25,12 +25,16 @@ brewery-url: null
 category-name: "New Zealand-Style Pale Ale"
 category-number: 90
 entries: 39
-hops: []
-ibu: null
+hops:
+  - "Mosaic"
+  - "Nectaron"
+  - "Riwaka"
+ibu: 63.3
 malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "New Zealand-Style Pale Ale"
 yeast: []
@@ -38,7 +42,7 @@ yeast: []
 
 # 090-new-zealand-style-pale-ale-2-glenwood-canyon-brewing-co-endless-groove
 
-Endless Groove is a beer from Glenwood Canyon Brewing Co., a brewpub in downtown Glenwood Springs, Colorado; no published details about it were found.
+Endless Groove is a beer from Glenwood Canyon Brewing Co., a brewpub in downtown Glenwood Springs, Colorado.
 
 ## award
 
@@ -51,9 +55,9 @@ Endless Groove is a beer from Glenwood Canyon Brewing Co., a brewpub in downtown
 | Field | Value | Source |
 |---|---|---|
 | Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| ABV | 5.95% | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| IBU | 63.3 | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Hops | Mosaic, Nectaron, Riwaka | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -65,18 +69,20 @@ No brewery description of this beer was found.
 
 ## ingredients
 
-Nothing about this beer's ingredients is published in any source that could be read.
+The [brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) names the hop varieties recorded above. No additional recipe details were sought in this field pass.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. No specs are published to compare.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. The listed strength fits the cited range; bitterness exceeds it.
 
 ## links
 
+- [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## research-notes
 
+- Field pass 2026-10-13: The brewery's Toast menu explicitly describes Endless Groove as New Zealand-Style Pale Ale and supplies ABV, IBU and three hop varieties, despite the item's NZ-Syle IPA label. The separate West Coast version was excluded. The brewery's own beverages page timed out, so beer-url remains empty.
 - The brewery site, glenwoodcanyon.com (named in a search result as the brewery's site), returned HTTP 403 to every request, so it could not be read and is left out of brewery-url and sources.
 - A web search for the exact name returned only older directory listings (Brewbound, Colorado Brewery List) that do not mention this beer; the web search quota ran out before further searches, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.

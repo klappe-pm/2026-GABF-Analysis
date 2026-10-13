@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "co"
@@ -82,3 +82,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Searches for the beer name with the brewery, Westword, Colorado brewery directories and the 2026 GABF found nothing about Calamansi Wheat.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional beer specifications. Results for Calamansi Gose, Modist Solvista and another brewery's Calamansi Wheat do not establish a match; their specifications were excluded.
+- Field pass 2026-10-13: A distributor focused search and a separate ABV and hops search surfaced medal coverage without specifications. No matching ABV, IBU, brewery beer page or named hops were found; the Blue Moon Calamansi Gose is a separate beer.

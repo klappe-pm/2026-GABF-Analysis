@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -95,3 +95,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No brewery medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact Charlotte listing and matching Untappd entry. The brewery confirms the historical inspiration, style and ABV; no IBU or named recipe ingredients were found.
+- Field pass 2026-10-13: A new search excluding previously read brewery and Untappd pages found no beer-specific IBU or hops; historic Broyhan recipes are not evidence for this Charlotte beer.

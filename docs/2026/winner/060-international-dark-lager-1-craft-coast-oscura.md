@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The matching Untappd page supplies the selected strength and ingredient description. Search excerpts from BeerAdvocate and a brewer interview showed 5%, but the interview returned HTTP 403; the discrepancy is unresolved and the Untappd value is not claimed as a competition-batch measurement.
+- Field pass 2026-10-13: Additional hop, IBU and brewery-domain searches found no verified new specification or brewery beer page. Previously documented pages and the inaccessible interview were not fetched again.

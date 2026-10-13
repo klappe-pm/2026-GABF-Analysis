@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ia"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - ABV, style, hops and description come from the Untappd listing; Untappd shows no IBU.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional IBU and brewery-domain searches found no bitterness figure or exact Czech Amber beer page. A staff favorite mention on the brewery about page is not a product or tap-list page.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Beer-name searches produced no technical specifications. New School Beer reports that the San Diego attribution was corrected to Oregon, while the opened official winners page still lists San Diego, CA; the official location is retained pending a corresponding official correction.
+- Field pass 2026-10-13: Additional brewery-domain and technical-field searches found no verified ABV, IBU, hop variety or brewery beer page for Silent G. The previously documented location issue was not revisited.

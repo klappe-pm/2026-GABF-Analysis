@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Ghirardelli Chocolate Imperial Stout"
 tags:
@@ -38,6 +38,7 @@ place: 3
 sources:
   - "https://ghirardelli.sfbrewingco.com/drink-menu"
   - "https://missionbay.sfbrewingco.com/drink-menu"
+  - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.sfbrewingco.com/"
 style: "Imperial Stout"
@@ -83,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Ghirardelli Chocolate Stout](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319)
 - [Beer page on brewery site](https://ghirardelli.sfbrewingco.com/drink-menu)
 - [San Francisco Brewing Co.](https://www.sfbrewingco.com/)
 - [SF Brewing Mission Bay: drink menu](https://missionbay.sfbrewingco.com/drink-menu)
@@ -94,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A BeerAdvocate entry seen only as a search snippet (not opened) lists a Ghirardelli Chocolate Nitro Stout at 8%; it may be an earlier nitro version and is not used.
 - IBU, hops and yeast are not published.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The plain Chocolate Stout listing has N/A IBU and no hops. Its 5% ABV differs from the existing brewery Imperial Stout value of 9.5%, which is retained. Chocolate-Coffee variants advertise 50 IBU in search results and were excluded.

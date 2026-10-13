@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,3 +87,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The brewery labels the beer a local honey ale, not a Scottish ale; how it was entered in the Scottish-Style Ale category is not explained in any source read.
 - The beer page does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional ingredient and product searches found no named hop variety for Monticello Mountain Ale. Flavor impressions were not treated as cultivar evidence.

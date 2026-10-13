@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ga"
@@ -98,3 +98,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No 2026 GABF post was found on the brewery blog.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: nothing more was found. The brewery's awards category holds only US Open and 2023 GABF posts, no BeerMenus or Tavour listing for Madrigal turned up, and the taproom Toast menus seen in search results returned 403 when opened.
+- Field pass 2026-10-13: New brewery-domain searches found Madrigal on ordering-menu snippets, but the fetched Garage menu did not retain it and the Preservation menu failed to open. No numeric ABV, IBU, brewery beer page or hops were verified beyond previously recorded yearly editions.

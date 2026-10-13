@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Web and Untappd searches for the beer name found nothing.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found matching ABV, IBU and pepper details on the Tracy venue's Untappd listing. Searches found no dedicated brewery beer page or recipe varieties.
+- Field pass 2026-10-13: A brewery domain search found no Fire Exit beer page. A hop focused search returned the previously recorded venue listing and medal coverage without new hop varieties.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Brewery-domain and shop-domain searches found no page naming the hazy NPBC10 release; beer-url remains null.
 - Second pass 2026-10-13: Found the explicitly named hazy triple release in local reporting and Untappd, including ABV, IBU, hops and anniversary context. The separate NPBC10 West Coast IPA was excluded. No dedicated brewery beer page was found.
 - The brewery home page does not mention NPBC10; the only hazy beer on it was a different TDH hazy double IPA.
 - No 2026 medal announcement from the brewery was found.

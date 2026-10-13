@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -89,6 +89,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching [Untappd Crunchy Boi listing](https://untappd.com/b/ladd-and-lass-brewing-crunchy-boi/5672520) publishes no IBU. It gives 5.1% ABV, compared with the existing 5.3% from the [brewery beer list](https://www.laddandlassbrewing.com/the-beer); the existing strength is retained.
 - The beer has no page of its own; it is item 7 under current offerings on the brewery's beer page, which is the beer-url.
 - The description names only Adeena hops, while the spec line on the same page adds Mosaic; both are listed.
 - The bare domain laddandlass.com refused connections; the www.laddandlassbrewing.com site worked.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ct"
@@ -89,3 +89,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - IBU, yeast and hop varieties were not found on the brewery site; a web search for an Untappd page for this beer returned none.
 - No 2026 medal announcement was found on the brewery's brews page or home page.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A new bitterness-focused search found an exact CW Grodziskie listing with N/A IBU; no numerical value was verified.

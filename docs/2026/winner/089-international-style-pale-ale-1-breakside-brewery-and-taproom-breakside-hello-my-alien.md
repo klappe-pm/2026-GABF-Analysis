@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Hello My Alien IPA"
   - "Hello, My Alien IPA"
@@ -92,6 +92,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The [exact Untappd entry](https://untappd.com/b/breakside-brewery-hello-my-alien-ipa/5070019) shows N/A IBU. Its 6.1% ABV differs from the retained brewery draft value of 6.5% and the brewery to-go value of 5.8% already recorded; no existing value was changed.
 - The beer has no page of its own; it appears only on the NW Slabtown location beer list, which is used as the beer-url.
 - ABV conflict on the same brewery page: the draft list says 6.5%, the to-go growler and crowler listing says 5.8%. The draft figure is used in frontmatter.
 - The brewery lists it as a West Coast IPA although it medaled in the International-Style Pale Ale category.

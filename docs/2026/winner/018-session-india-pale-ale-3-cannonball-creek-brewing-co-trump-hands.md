@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -32,6 +32,7 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+  - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
   - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.cannonballcreekbrewing.com/"
@@ -77,6 +78,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [PorchDrinking: 2017 hoppy beer guide](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/)
 - [Cannonball Creek Brewing Co.](https://www.cannonballcreekbrewing.com/)
 - [Cannonball Creek: beers](https://www.cannonballcreekbrewing.com/beers)
 - [Untappd: Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082)
@@ -90,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Denverite and Westword articles about the beer returned HTTP 403 and were not read.
 - The style label is taken from the brewery's own award listings; Untappd gives "IPA, Session".
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The opened festival guide describes German and American hops without naming varieties or IBU. A targeted brewery domain search found only awards listings, so no new brewery beer or tap list page was verified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -97,6 +97,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: An additional brewery-domain search found no page naming Because Science; beer-url remains null.
 - Second pass 2026-10-13: Found matching ABV, IBU, hops, grains, brewing sugar and yeast in the brewery description on Untappd. The malt name Gabrinus is retained as published. No dedicated brewery beer page was found.
 - The brewery beer page lists 12 beers with style, ABV and IBU but no hop or description detail; Because Science is not among them.
 - No 2026 medal announcement from the brewery was found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nc"
@@ -33,6 +33,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://www.beeradvocate.com/beer/profile/30581/798056/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wickedweedbrewing.com/beers/lime-drop/"
   - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
@@ -79,6 +80,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [BeerAdvocate: Wicked Weed Lime Drop](https://www.beeradvocate.com/beer/profile/30581/798056/)
 - [Beer page on brewery site](https://www.wickedweedbrewing.com/beers/lime-drop/)
 - [Wicked Weed Brewing](https://www.wickedweedbrewing.com/)
 - [Wicked Weed: what's on tap](https://www.wickedweedbrewing.com/beers/whats-on-tap/)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The page gives no availability window beyond a link to the brewery's beer finder.
 - No 2026 GABF announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The Brew Pub listing and BeerAdvocate listing provide no IBU or named hop varieties. BeerAdvocate reports 4.9% ABV, compared with the existing brewery value of 4.8%; the existing value is retained.

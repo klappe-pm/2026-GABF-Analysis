@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Super Stoked Golden"
 tags:
@@ -36,6 +36,7 @@ malts:
 medal: "Gold"
 place: 1
 sources:
+  - "https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.deschutesbrewery.com/"
   - "https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden"
@@ -82,6 +83,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## links
 
+- [Untappd: Deschutes Super Stoked](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101)
 - [Beer page on brewery site](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden)
 - [Deschutes Brewery](https://www.deschutesbrewery.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -92,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The older path /beer/super-stoked/ returned HTTP 404; the current product page is in the brewery's shop under Non-Alcoholic.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Untappd lists 0.5% ABV, whereas the existing brewery source gives less than 0.5%. No measured alcohol value was established, so the structured ABV remains null and the brewery upper bound is retained.

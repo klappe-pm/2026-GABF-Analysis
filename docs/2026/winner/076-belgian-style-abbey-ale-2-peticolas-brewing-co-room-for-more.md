@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "silver"
@@ -81,6 +81,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted ingredient searches found no named hops for the base Room For More. Coffee and raspberry cask variants were excluded.
 - Style, ABV and IBU are verified on the brewery's beer page; nothing else is published there.
 - The guideline used for context is Belgian-Style Dubbel, which matches the brewery's own style label; the competition category name Belgian-Style Abbey Ale does not appear in the guideline page.
 - The web search budget ran out before Untappd or press could be searched for ingredients; no 2026 medal announcement was found on the brewery home page.

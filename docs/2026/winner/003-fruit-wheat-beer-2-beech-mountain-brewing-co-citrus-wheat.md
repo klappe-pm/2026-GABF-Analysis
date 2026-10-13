@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "nc"
   - "silver"
-abv: null
+abv: 5.5
 adjuncts: []
 beer: "Citrus Wheat"
 beer-url: null
@@ -31,6 +31,7 @@ malts: []
 medal: "Silver"
 place: 2
 sources:
+  - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
   - "https://www.beechmountainbrewingco.com/"
   - "https://www.beechmountainbrewingco.com/our-brews/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -53,7 +54,7 @@ Citrus Wheat is a wheat beer from Beech Mountain Brewing Co., the brewery at Bee
 | Field | Value | Source |
 |---|---|---|
 | Style | Fruit Wheat Beer (category name; no brewery label found) | none found |
-| ABV | not published | none found |
+| ABV | 5.5% | [Untappd: Beech Mountain Citrus Wheat](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -71,10 +72,11 @@ No ingredient list is published; the name suggests citrus, but no page read says
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Fruit Wheat Beer asks for fruit that expresses true fruit complexity, often more muted to blend with the wheat malt, at 10 to 35 IBU and 2.5 to 12 percent ABV. No published specs exist to compare against it.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Fruit Wheat Beer asks for fruit that expresses true fruit complexity, often more muted to blend with the wheat malt, at 10 to 35 IBU and 2.5 to 12 percent ABV. The newly verified strength falls within the category range; bitterness remains unpublished.
 
 ## links
 
+- [Untappd: Beech Mountain Citrus Wheat](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906)
 - [Beech Mountain Brewing Co.](https://www.beechmountainbrewingco.com/)
 - [Beech Mountain Brewing: our brews](https://www.beechmountainbrewingco.com/our-brews/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -86,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Searches for the beer name with the brewery and with the 2026 GABF found nothing.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional specifications. The brewery's Untappd page was readable but supplied no matching Citrus Wheat specifications.
+- Field pass 2026-10-13: The venue activity linked to a matching Citrus Wheat beer page publishing 5.5% ABV. IBU is N/A and hop varieties are absent. Distributor and brewery domain searches found no matching brewery beer page.

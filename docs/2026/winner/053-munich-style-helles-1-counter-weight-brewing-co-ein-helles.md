@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ct"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches found no verified IBU for Counter Weight Ein Helles.
 - No individual beer page was found (a guessed URL returned 404); the all-brews page is the beer-url.
 - The anniversary origin comes from the BeerMenus copy of the brewery description, which reads "to celebrate out one year anniversary" (likely a typo for "our").
 - Brewery and BeerMenus agree on 5% ABV; neither gives IBU.

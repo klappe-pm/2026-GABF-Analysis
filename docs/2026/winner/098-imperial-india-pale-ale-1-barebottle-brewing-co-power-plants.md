@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -87,6 +87,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional brewery-domain and recipe searches found no verified beer page or named hop varieties.
 - Second pass 2026-10-13: Found ABV, IBU and a brief brewery description on the matching Untappd listing. Named hop varieties, other recipe details and a brewery beer page remain unconfirmed.
 - The brewery home page, flagships page (Muir Woods, Hella Hetchy) and homebrew recipe page (eight recipes) do not mention Power Plants.
 - No 2026 medal announcement from the brewery was found.

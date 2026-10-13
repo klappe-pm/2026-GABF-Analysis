@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Pepper & Peaches IPA"
 tags:
@@ -20,7 +20,7 @@ adjuncts:
   - "Peaches"
   - "Pink peppercorns"
 beer: "Pepper and Peaches"
-beer-url: null
+beer-url: "https://harp-clownfish.squarespace.com/beers/"
 brewery: "Claremont Craft Ales"
 brewery-city: "Claremont"
 brewery-state: "CA"
@@ -36,6 +36,7 @@ medal: "Bronze"
 place: 3
 sources:
   - "https://bevmo.com/products/28372"
+  - "https://harp-clownfish.squarespace.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.claremontcraftales.com/"
 style: "West Coast-style IPA"
@@ -64,10 +65,11 @@ Pepper and Peaches is a Citra hopped West Coast style IPA with pink peppercorns 
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | pink peppercorns, peaches | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
 | Other | 16 oz cans in 4-packs | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
+| Beer page | Brewery page naming this beer | [Claremont Craft Ales: beer lineup](https://harp-clownfish.squarespace.com/beers/) |
 
 ## brewery-description
 
-No description was found on the brewery's own site. The retailer copy reads:
+The brewery's beer list now confirms the retailer description below; the excerpt remains attributed to the retailer.
 
 > A Citra-hopped West Coast-style IPA that's crisp, dry, and super hoppy ... gets additions of pink peppercorns for a floral punch and peaches for a bright, fruity finish.
 
@@ -86,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Claremont Craft Ales](https://www.claremontcraftales.com/)
 - [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+- [Claremont Craft Ales: beer lineup](https://harp-clownfish.squarespace.com/beers/)
 
 ## research-notes
 
@@ -94,3 +97,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A search snippet attributed to the Claremont Courier said the beer won the experimental IPA category at the 2025 World Beer Cup; that article was not opened, so the claim is unverified.
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The brewery's own Squarespace beer list names Pepper & Peaches and is used as beer-url because no dedicated page was found. No IBU is published.

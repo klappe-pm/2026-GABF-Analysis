@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "oh"
@@ -85,6 +85,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted searches found no new brewery beer page or named hop varieties for Fat Head's 8th Anniversary Lager. Other Fat Head's lagers are not treated as equivalent.
 - First pass: The brewery's 2026 GABF post on its home page confirms the silver; it gives no style, ABV, IBU or ingredients.
 - First pass: The beer list has no 8th Anniversary Lager, and a guessed beer page URL returned 404. The only festbier on the list is Oktoberfest (Bavarian-Style Festbier, July to September), which may or may not be related.
 - First pass: Which Fat Head's location or anniversary the name refers to is not stated.

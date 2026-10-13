@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Dunkel Dark Lager"
 tags:
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No hop, malt or yeast names are published anywhere that was read.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Additional hop searches and the brewery's Dunkel sell sheet yielded no named variety; sensory references to floral hops do not identify a cultivar.

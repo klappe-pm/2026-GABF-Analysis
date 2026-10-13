@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -93,3 +93,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The same beer took Silver in Coffee Beer (48 entries) at the 2026 World Beer Cup, per the official winners list.
 - The Bird Rock coffee attribution comes from press, not the brewery.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The search index describes Stay Calm with 5.2% ABV and 20 IBU, but the opened taproom menu omits the beer. The indexed figures were not accepted; ABV and IBU remain null. No hop names or new brewery beer page were found.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -88,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - First pass: The web search budget for this run ran out before the beer or brewery could be searched by name, so nothing about the beer was verified.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The restaurant menu and exact Untappd listing agree on strength and bitterness. Untappd's classification says Weizenbock but its own description says German pale bock, matching the menu; wheat is not inferred. No brewery product page or named ingredients were verified.
+- Field pass 2026-10-13: Additional brewery-domain and hop searches found no verified brewery beer page or hop variety. A same-named beer from Seek Beer Co. is unrelated and was excluded.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -87,6 +87,7 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional shop, hop and IBU searches found no new brewery beer page, numeric bitterness or named hop varieties.
 - Second pass 2026-10-13: Found the commercial listing with ABV and a brewery description that explicitly identifies the GABF Pro-Am collaboration and Joe St. John. The missing exclamation mark in the listing does not obscure that match. IBU and named ingredients remain unpublished.
 - The brewery home page, year-round lineup and beer finder do not mention Lunch Time!, the Pro-Am or the homebrewer.
 - No 2026 medal announcement from the brewery was found.

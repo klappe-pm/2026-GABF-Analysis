@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact White Bluffs listing supplies strength, bitterness, a farmhouse ale description and both hop varieties. No brewery product page was found.
+- Field pass 2026-10-13: Additional brewery-domain and product-page searches found no qualifying beer page. Third-party packaging and medal mentions do not supply beer-url.

@@ -9,12 +9,12 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
   - "tn"
-abv: null
+abv: 5.6
 adjuncts: []
 beer: "Nut Brown Ale"
 beer-url: "https://www.blackstonebeer.com/our-beer"
@@ -26,11 +26,12 @@ category-name: "English-Style Brown Ale"
 category-number: 73
 entries: 43
 hops: []
-ibu: null
+ibu: 23
 malts: []
 medal: "Bronze"
 place: 3
 sources:
+  - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
   - "https://www.blackstonebeer.com/"
   - "https://www.blackstonebeer.com/our-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -53,8 +54,8 @@ Nut Brown Ale is a year-round English-style brown ale from Blackstone Brewing Co
 | Field | Value | Source |
 |---|---|---|
 | Style | English-Style Brown Ale | [Blackstone: our beer](https://www.blackstonebeer.com/our-beer) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | 5.6% | [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814) |
+| IBU | 23 | [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -71,10 +72,11 @@ No ingredient is published on the brewery site.
 
 ## style-context
 
-As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. No specs are published for this beer, so fit cannot be checked.
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. The published strength and bitterness fit the category ranges.
 
 ## links
 
+- [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814)
 - [Beer page on brewery site](https://www.blackstonebeer.com/our-beer)
 - [Blackstone Brewing Co.](https://www.blackstonebeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -86,3 +88,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The web search budget ran out during this batch, so no further third party sources (Untappd, retailers) could be searched.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Blackstone Untappd listing supplies strength and bitterness, but no hop variety was verified.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "The Seventh Hill"
 tags:
@@ -96,3 +96,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - maplebranchcraftbrewery.com redirects to maplebranchbrew.com.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: New third-party IBU and hop searches supplied no additional beer-specific recipe source; the previously read brewery and Untappd pages were not repeated.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No 2026 medal announcement was found on the brewery's site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The individual BeerAdvocate page is now readable, confirming the listed ABV. Current medal coverage identifies the beer as an oak aged winter warmer. No IBU, hop varieties or dedicated brewery beer page were found.
+- Field pass 2026-10-13: New searches found medal coverage but no numerical IBU, named hops or brewery beer page for Amber Hearth; previously read Fort Mill Sun and BeerAdvocate sources were not repeated.

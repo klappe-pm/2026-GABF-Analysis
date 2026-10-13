@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Newtown Pippin Ice Cider"
 tags:
@@ -86,6 +86,7 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 
 ## research-notes
 
+- Field pass 2026-10-13: Additional exact-product IBU and hop searches found no matching numeric bitterness or named hops.
 - The cidery has no individual cider pages; its bottle menu is the beer-url.
 - Vintage conflict: the bottle menu lists 2024 and the tasting menu lists 2025; both agree on 12% ABV and the apple source. Which vintage was entered is not stated.
 - The winner's name is kept exactly as printed on the official list, including its capitalization.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Negroni IPA"
 tags:
@@ -86,3 +86,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The match between the medal name "Negroni Ale" and the menu's "Negroni IPA" is inferred from the name; no source ties the two explicitly.
 - The home page mentions no awards. Web search was unavailable for part of this session, so Untappd and press listings were not checked.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: Boulder Weekly's August 2026 account mentions Negroni IPA but supplies neither IBU nor hops; no source explicitly ties that listing to the medal name Negroni Ale.

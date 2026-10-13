@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -84,6 +84,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: The matching Untappd Czech Your Head page publishes no IBU or named hops. Searches also found same-named beers from other breweries, which are excluded. No new Hermosa beer page was verified.
 - The beer is not on the brewery's current Hermosa or Torrance tap lists, and the brewery has no beer pages, so there is no beer-url.
 - All specs come from BeerMenus, which places the brewery in Hermosa Beach; the brewery site lists the Torrance Taproom & Brewery at 1855 Del Amo Blvd.
 - An Untappd search page fetch returned no results for the beer; web search budget ran out before other sources could be tried.

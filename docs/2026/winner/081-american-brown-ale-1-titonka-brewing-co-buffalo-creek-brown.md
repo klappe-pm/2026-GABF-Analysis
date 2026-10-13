@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Buffalo Creek"
 tags:
@@ -18,7 +18,7 @@ tags:
 abv: 5.4
 adjuncts: []
 beer: "Buffalo Creek Brown"
-beer-url: null
+beer-url: "http://titonkabrewingco.com"
 brewery: "Titonka Brewing Co."
 brewery-city: "Titonka"
 brewery-state: "IA"
@@ -54,6 +54,7 @@ Buffalo Creek Brown is a malt-forward American brown ale from Titonka Brewing Co
 
 | Field | Value | Source |
 |---|---|---|
+| Beer page | Brewery beer list | [Titonka: tap list](http://titonkabrewingco.com) |
 | Style | Brown (Untappd files it as American brown ale) | [Titonka Brewing: home page tap list](http://titonkabrewingco.com) |
 | ABV | 5.4% | [Untappd: Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507) |
 | IBU | not published | none found |
@@ -88,7 +89,8 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
-- The brewery site has no individual beer pages; it lists the beer only by name and style on its tap list, so beer-url is null.
+- Field pass 2026-10-13: The previously cited brewery home page already names Buffalo Creek on its tap list, so it qualifies as beer-url under this pass's fallback rule. No dedicated page, IBU or hop varieties were found.
+- The brewery site has no individual beer pages; it lists the beer only by name and style on its tap list, so the earlier pass left beer-url empty.
 - ABV comes only from Untappd; the brewery publishes no ABV or IBU.
 - The Untappd listing notes the 2026 GABF gold; no separate brewery announcement was found.
 - Researched 2026-10-13.

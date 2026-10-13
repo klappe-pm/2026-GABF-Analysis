@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "ok"
@@ -97,3 +97,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the explicitly dated 2026 release and retained its published ABV. The [August 2025 review](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674) reports 3.1% for an earlier release; that value was not transferred to this year's profile. No IBU or hop varieties were found.
+- Field pass 2026-10-13: A targeted brewery domain search found no matching page. A search excluding the already recorded Untappd and magazine sources found no matching IBU or hop specification source.

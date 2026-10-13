@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases:
   - "Colt 121 Malt Liquor"
 tags:
@@ -92,3 +92,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No ABV, IBU or ingredients were found; web search for the beer name returned only general brewery coverage.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery menu is now readable and lists Colt 121 with ABV and a brief description. IBU and ingredients remain unpublished; the menu strength is retained without estimating a competition value.
+- Field pass 2026-10-13: A search for Colt 121 bitterness and hops found no new recipe source; the previously checked brewery menu was not fetched again.

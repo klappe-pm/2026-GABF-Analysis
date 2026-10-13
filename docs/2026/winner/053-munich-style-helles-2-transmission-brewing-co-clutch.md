@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Clutch Lager"
 tags:
@@ -86,6 +86,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: A matching Transmission Untappd beer list identifies Clutch Helles but publishes no IBU or hop varieties.
 - The brewery has no individual beer pages; its our beers page is the beer-url.
 - The brewery page says Clutch won gold at the 2024 World Beer Cup in Munich-style helles.
 - Brewery and BeerMenus (as Clutch Lager) agree on 5.2% ABV; neither gives IBU or ingredients.

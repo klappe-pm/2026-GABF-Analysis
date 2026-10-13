@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "ca"
@@ -27,7 +27,7 @@ category-number: 68
 entries: 84
 hops:
   - "Hallertau Mittelfrüh"
-ibu: null
+ibu: 20
 malts:
   - "Pilsner malt"
   - "Vienna malt"
@@ -37,6 +37,7 @@ place: 1
 sources:
   - "https://ketchbrewing.com/"
   - "https://ketchbrewing.com/beers/brig-blonde"
+  - "https://untappd.com/b/ketch-brewing-brig-blonde/5206013"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 style: "Blonde Ale"
 yeast: []
@@ -58,7 +59,7 @@ Brig Blonde is a blonde ale from Ketch Brewing, whose brew pub is in the Kearny 
 |---|---|---|
 | Style | Blonde Ale | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
 | ABV | 5.2% | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
-| IBU | not published | none found |
+| IBU | 20 | [Ketch: Brig Blonde listing](https://untappd.com/b/ketch-brewing-brig-blonde/5206013) |
 | Hops | Hallertau Mittelfrüh | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
 | Malts and grains | Pilsner, Vienna and malted wheat | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
 | Yeast | not published | none found |
@@ -77,10 +78,11 @@ The beer page's "Nerd Out" panel describes the malt as soft and bready and names
 
 ## style-context
 
-As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Golden or Blonde Ale call for a crisp, light-bodied straw to gold ale with subtle pale malt and moderate hop character, at 4.1 to 5.1 percent ABV and 15 to 25 IBU. The published 5.2% ABV sits just above that range; no IBU is published.
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Golden or Blonde Ale call for a crisp, light-bodied straw to gold ale with subtle pale malt and moderate hop character, at 4.1 to 5.1 percent ABV and 15 to 25 IBU. The published strength sits just above the category range; bitterness fits its range.
 
 ## links
 
+- [Ketch: Brig Blonde listing](https://untappd.com/b/ketch-brewing-brig-blonde/5206013)
 - [Beer page on brewery site](https://ketchbrewing.com/beers/brig-blonde)
 - [Ketch Brewing](https://ketchbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -91,3 +93,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - The page quotes a GABF judge's comment praising its balance and crisp finish.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: The exact Ketch Untappd listing supplies the bitterness recorded above.

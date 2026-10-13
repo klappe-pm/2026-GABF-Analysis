@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases:
   - "Perp Fog"
 tags:
@@ -88,6 +88,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: [Matching Untappd listing](https://untappd.com/b/urbanrest-brewing-company-perpetual-fog/2726155) reports N/A IBU, so bitterness remains null.
 - All specs and the description come from the brewery's on-tap page; there is no individual beer page.
 - The brewery labels it a DDH DIPA at 7.5%, while it medaled in Juicy or Hazy Strong Pale Ale.
 - Treating Nelson as Nelson Sauvin is an inference; the page does not say what form either takes beyond the kief.

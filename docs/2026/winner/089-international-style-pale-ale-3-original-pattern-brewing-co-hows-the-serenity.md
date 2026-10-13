@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: "DRAFT"
+status: DONE
 aliases: []
 tags:
   - "bronze"
@@ -90,6 +90,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 
 ## research-notes
 
+- Field pass 2026-10-13: Targeted brewery-domain and shop searches found no IBU or qualifying brewery beer URL beyond the previous research.
 - Not found on the brewery home page, its online shop product list or its Good Eggs storefront. The originalpattern.com domain did not respond; originalpatternbrewing.com redirects to originalpatternbeer.com, used here.
 - A BeerMenus listing for a different name, Serrenity Now (6.5% IPA), was found; nothing ties it to this beer, so none of its figures are used.
 - Web searches for the exact beer name returned nothing, and the web search quota ran out before further searches; Untappd search requires a login.

@@ -9,7 +9,7 @@ types:
   - "beer-profile"
 date-created: 2026-10-13
 date-revised: 2026-10-13
-status: DRAFT
+status: DONE
 aliases: []
 tags:
   - "gold"
@@ -94,3 +94,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The old domain falseidolbrewing.com redirects to falseidolbrew.com.
 - The web search budget ran out during this batch, so no retailer or Untappd beer page could be searched for ABV.
 - Researched 2026-10-13.
+- Field pass 2026-10-13: A bottle-release event names House of Zest and False Idol but supplies no ABV, IBU or hop variety. An Untappd venue activity confirms the beer name without technical fields, and the linked brewery shop could not be read; no qualifying beer-url was verified.
