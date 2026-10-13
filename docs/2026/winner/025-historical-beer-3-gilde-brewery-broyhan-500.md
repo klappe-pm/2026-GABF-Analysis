@@ -1,0 +1,89 @@
+---
+domain: beer
+category: gabf-winner
+sub-category: "2026"
+topics:
+  - "gabf"
+  - "historical-beer"
+types:
+  - "beer-profile"
+date-created: 2026-10-13
+date-revised: 2026-10-13
+status: DRAFT
+aliases: []
+tags:
+  - "bronze"
+  - "nc"
+abv: null
+adjuncts: []
+beer: "Broyhan 500"
+beer-url: null
+brewery: "Gilde Brewery"
+brewery-city: "Charlotte"
+brewery-state: "NC"
+brewery-url: null
+category-name: "Historical Beer"
+category-number: 25
+entries: 39
+hops: []
+ibu: null
+malts: []
+medal: "Bronze"
+place: 3
+sources:
+  - "https://gilde-brauerei.com/en/history/"
+  - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+style: "Historical Beer"
+yeast: []
+---
+
+# 025-historical-beer-3-gilde-brewery-broyhan-500
+
+Broyhan 500 is a beer from Gilde Brewery, the Charlotte, North Carolina brewery and brewpub of the Hanover based Gilde Brauerei, which opened in February 2022; no published description of the beer was found.
+
+## award
+
+| Category | Medal | Entries | Brewery | Location |
+|---|---|---|---|---|
+| 25, Historical Beer | Bronze (3rd place) | 39 | Gilde Brewery | Charlotte, NC |
+
+## specs
+
+| Field | Value | Source |
+|---|---|---|
+| Style | not published (category name used) | none found |
+| ABV | not published | none found |
+| IBU | not published | none found |
+| Hops | not published | none found |
+| Malts and grains | not published | none found |
+| Yeast | not published | none found |
+| Adjuncts, fruit, spices | not published | none found |
+| Other | not published | none found |
+
+## brewery-description
+
+No brewery description of Broyhan 500 was found.
+
+## ingredients
+
+Nothing about the ingredients of Broyhan 500 was found. The parent brewery in Hanover credits brewer Cord Broyhan with developing a top-fermented beer in 1526 ([Gilde Brauerei: history](https://gilde-brauerei.com/en/history/)), but no page read connects that history to this specific beer's recipe.
+
+## style-context
+
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Historical Beer as established historical beers or brewing traditions from any era or part of the world that do not fit another defined style, with ABV, IBU and color varying with the underlying style. With no published specs, fit cannot be assessed.
+
+## links
+
+- [Gilde Brauerei (Hanover parent): history](https://gilde-brauerei.com/en/history/)
+- [inside.beer: Gilde Charlotte opening](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend)
+- [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## research-notes
+
+- The Charlotte brewery's own website was not located: gildebrewery.com and gildebrewing.com resolve to parked placeholder pages, and two web searches found no Charlotte site or any mention of Broyhan 500.
+- The inside.beer opening report (February 2022) lists the Charlotte staples as Pilsener, Red Rooster, Radler, Urbock, Hefeweizen and Black Beer, plus beers unique to Charlotte; Broyhan 500 is not among them.
+- The Hanover history page and the beers page of gilde-brauerei.com do not mention Broyhan 500.
+- No ABV, IBU or ingredient data was found in any source.
+- No brewery medal announcement was found.
+- Researched 2026-10-13.
