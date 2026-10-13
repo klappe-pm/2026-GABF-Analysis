@@ -3,8 +3,9 @@ name: ingest-results
 # Fetch the official GABF winners list for a year, parse it, enrich breweries, and
 # commit the data. Runs on demand, and on a schedule every two hours from October 11
 # to October 20 (the window in which the Brewers Association publishes the list).
-# With publish set to true the data lands on main and deploy-pages publishes it; with
-# publish false a pull request is opened instead.
+# With publish set to true the data lands on main and this workflow dispatches deploy-pages
+# (a push made with the workflow token does not trigger other workflows); with publish
+# false a pull request is opened instead.
 
 on:
   workflow_dispatch:
@@ -27,6 +28,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 concurrency:
   group: ingest
@@ -34,10 +36,10 @@ concurrency:
 
 jobs:
   ingest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -76,14 +78,16 @@ jobs:
           node scripts/parse-winners.mjs --year "${{ steps.year.outputs.year }}"
           node scripts/enrich-breweries.mjs
           npm test
+          npm run validate
           npm run build
+          npm run build:standalone
       - name: commit
         if: steps.fetch.outcome == 'success'
         id: commit
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/
+          git add data/ gabf-dashboard.html
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
@@ -92,7 +96,11 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: push-to-main
         if: steps.commit.outputs.changed == 'true' && (github.event.inputs.publish == 'true' || github.event_name == 'schedule')
-        run: git push origin HEAD:main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git push origin HEAD:main
+          gh workflow run deploy-pages.yml --ref main
       - name: open-pull-request
         if: steps.commit.outputs.changed == 'true' && github.event.inputs.publish == 'false'
         env:
