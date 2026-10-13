@@ -32,23 +32,15 @@ npm ci && npm run verify && npm run serve
 
 Open http://localhost:8080/ for the overview dashboard, http://localhost:8080/dashboards/ for the others, and http://localhost:8080/breweries/green-cheek-beer-co/ for the Green Cheek Beer Co. deep dive.
 
-## the-2026-results
+## loading-a-new-year
 
-The 2026 awards were announced on October 11, 2026: 336 medals to 243 breweries and cideries from 7,267 entries. The official PDF is loaded with one command once it is posted:
-
-```bash
-node scripts/new-year.mjs --year 2026
-```
-
-That fetches the PDF (or pass `--url` with the link from the Brewers Association release, `--pdf` with a downloaded file, or `--csv` with a hand-made sheet), parses every category with its total entrants, looks every brewery up in Open Brewery DB, runs the tests, and rebuilds dist/. Until then, 2026 carries seed rows confirmed from day-of coverage (Green Cheek's gold and two bronzes, Craft Coast's Brewery of the Year golds, and a handful of category rows with entry counts).
-
-Before the PDF exists, the awards ceremony stream can be transcribed into a draft:
+The 2026 awards were announced on October 11, 2026: 336 medals to 243 breweries and cideries from 7,267 entries, loaded from the official list. A later year loads with one command once its PDF is posted:
 
 ```bash
-yt-dlp --write-auto-sub --sub-lang en --skip-download -o ceremony-2026 "https://www.youtube.com/live/EhJtEzE5wbg" && node scripts/import-ceremony-transcript.mjs --year 2026 --input ceremony-2026.en.vtt
+node scripts/new-year.mjs --year 2027
 ```
 
-Every drafted row carries a confidence and is replaced wholesale by the official list. Full detail: [docs/runbook-new-year.md](docs/runbook-new-year.md).
+That fetches the PDF (or pass `--url` with the link from the Brewers Association release, `--pdf` with a downloaded file, or `--csv` with a hand-made sheet), parses every category with its total entrants, looks every brewery up in Open Brewery DB, runs the tests, and rebuilds dist/. Before the PDF exists, the awards ceremony captions can be drafted into rows with `node scripts/import-ceremony-transcript.mjs --year 2027 --input captions.vtt`; every drafted row carries a confidence and is replaced wholesale by the official list. Full detail: [docs/runbook-new-year.md](docs/runbook-new-year.md).
 
 ## dashboards
 
@@ -74,7 +66,7 @@ One filter row scopes every panel and the table on a page, filters live in the U
 | breweries/*.md | brewery deep dives with frontmatter the build reads (locations, founded, employees, distribution channel, known for, estimates) |
 | scripts/ | fetch, parse, import CSV, import ceremony transcript, import style guidelines, enrich, build geo, build site, render visuals, scaffold a brewery, check prose |
 | site/assets/ | stylesheet, chart option builders, ECharts bootstrap, dashboards client, shared page script, US states GeoJSON |
-| .github/workflows/ | deploy-pages (build and publish on push to main) and ingest-results (scheduled and manual ingest) |
+| .github/workflows/ | deploy-pages (verify gates on every pull request, publish on push to main; live at https://klappe-pm.github.io/GABF-Analysis/) and ingest-results (scheduled and manual ingest) |
 | .mcp.json | the unofficial Open Brewery DB MCP server, so an agent session in this repository can look breweries up directly |
 | docs/ | architecture, data sources, data dictionary, estimation method, research playbook, runbook |
 
