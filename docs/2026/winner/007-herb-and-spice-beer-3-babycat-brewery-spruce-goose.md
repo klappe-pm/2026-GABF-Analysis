@@ -195,6 +195,10 @@ BabyCat Brewery is in Kensington, MD.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [BabyCat Brewery](../../breweries/babycat-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://babycatbrewery.com/beer/spruce-goose/)

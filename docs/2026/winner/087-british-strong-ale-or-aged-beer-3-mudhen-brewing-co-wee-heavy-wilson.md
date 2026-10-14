@@ -179,6 +179,10 @@ MudHen Brewing Co. is in Wildwood, NJ. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [MudHen Brewing Co.](../../breweries/mudhen-brewing-co.md)
+
 ## links
 
 - [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer)

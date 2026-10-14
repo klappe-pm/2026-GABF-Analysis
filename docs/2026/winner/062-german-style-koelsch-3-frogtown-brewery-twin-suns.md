@@ -269,6 +269,10 @@ Frogtown Brewery is in Los Angeles, CA. Brewery type in Open Brewery DB: Microbr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Frogtown Brewery](../../breweries/frogtown-brewery.md)
+
 ## links
 
 - [Frogtown Brewery](https://www.frogtownbrewery.com/)

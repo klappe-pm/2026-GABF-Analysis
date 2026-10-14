@@ -203,6 +203,10 @@ Transmission Brewing Co. is in Ventura, CA. Brewery type in Open Brewery DB: In 
 
 Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Instagram](https://www.instagram.com/transmissionbrewing/), [Untappd](https://untappd.com/w/transmission-brewing/454650).
 
+## related
+
+- Brewery: [Transmission Brewing Co.](../../breweries/transmission-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://transmissionbrewing.com/beers/)

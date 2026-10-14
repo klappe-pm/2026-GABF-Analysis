@@ -226,6 +226,10 @@ Beach Cat Brewing is in Bellingham, WA. Brewery type in Open Brewery DB: Microbr
 
 Links checked 2026-10-14: [Website](https://www.beachcatbrewing.com/).
 
+## related
+
+- Brewery: [Beach Cat Brewing](../../breweries/beach-cat-brewing.md)
+
 ## links
 
 - [Beach Cat Brewing](https://www.beachcatbrewing.com/)

@@ -218,6 +218,10 @@ Saddle Mountain Brewing Co. is in Goodyear, AZ. Brewery type in Open Brewery DB:
 
 Links checked 2026-10-14: [Website](https://www.saddlemountainbrewing.com/), [Instagram](https://www.instagram.com/saddlemtbrewingco/).
 
+## related
+
+- Brewery: [Saddle Mountain Brewing Co.](../../breweries/saddle-mountain-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf)

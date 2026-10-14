@@ -204,6 +204,14 @@ Trap Door Brewing is in Washougal, WA. Brewery type in Open Brewery DB: Microbre
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Trap Door Brewing](../../breweries/trap-door-brewing.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Trap Door Brewing](https://www.trapdoorbrewing.com/)

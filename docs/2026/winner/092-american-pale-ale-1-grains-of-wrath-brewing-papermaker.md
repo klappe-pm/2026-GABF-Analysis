@@ -175,6 +175,10 @@ Grains of Wrath Brewing is in Camas, WA. Brewery type in Open Brewery DB: Brewpu
 
 Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
+## related
+
+- Brewery: [Grains of Wrath Brewing](../../breweries/grains-of-wrath-brewing.md)
+
 ## links
 
 - [Grains of Wrath: Papermaker Pale](https://gowbeer.com/beer/papermaker-pale/)

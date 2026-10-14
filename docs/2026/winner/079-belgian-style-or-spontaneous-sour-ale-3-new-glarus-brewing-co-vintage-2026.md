@@ -208,6 +208,10 @@ New Glarus Brewing Co. is in New Glarus, WI. Brewery type in Open Brewery DB: Mi
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [New Glarus Brewing Co.](../../breweries/new-glarus-brewing-co.md)
+
 ## links
 
 - [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549)

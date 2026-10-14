@@ -213,6 +213,10 @@ BierKraft is in McAlester, OK.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [BierKraft](../../breweries/bierkraft.md)
+
 ## links
 
 - [BierKraft](https://bierkraft.us/)

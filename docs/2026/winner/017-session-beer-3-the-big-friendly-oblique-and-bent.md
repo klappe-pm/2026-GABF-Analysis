@@ -255,6 +255,10 @@ The Big Friendly is in Oklahoma City, OK.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [The Big Friendly](../../breweries/the-big-friendly.md)
+
 ## links
 
 - [Untappd: 2025 Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554)

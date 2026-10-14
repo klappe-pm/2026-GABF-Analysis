@@ -209,6 +209,10 @@ Altstadt Brewery is in Fredericksburg, TX. Brewery type in Open Brewery DB: Micr
 
 Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](https://www.instagram.com/altstadtbrewery/).
 
+## related
+
+- Brewery: [Altstadt Brewery](../../breweries/altstadt-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://altstadtbeer.com/beers/oktoberfest/)

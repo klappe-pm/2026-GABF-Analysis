@@ -217,6 +217,14 @@ Meanwhile Brewing Co. is in Austin, TX.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md)
+- Hop varieties: [Idaho 7](../../hops/varieties/idaho-7.md), [Krush](../../hops/varieties/krush.md), [Mosaic](../../hops/varieties/mosaic.md), [Nectaron](../../hops/varieties/nectaron.md)
+- Hop farms that grow these varieties: grown by [Billy Goat Hop Farm](../../hops/farms/billy-goat-hop-farm.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.meanwhilebeer.com/beer/dream-logic)

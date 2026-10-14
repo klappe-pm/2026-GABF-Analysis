@@ -204,6 +204,10 @@ Bartlett Hall is in San Francisco, CA. Brewery type in Open Brewery DB: Brewpub.
 
 Links checked 2026-10-14: [Website](https://www.bartletthall.com/), [Instagram](https://www.instagram.com/bartletthallsf/).
 
+## related
+
+- Brewery: [Bartlett Hall](../../breweries/bartlett-hall.md)
+
 ## links
 
 - [Bartlett Hall: brewery menu](https://www.bartletthall.com/)

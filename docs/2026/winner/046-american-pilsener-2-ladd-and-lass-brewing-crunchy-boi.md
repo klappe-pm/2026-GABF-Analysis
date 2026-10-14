@@ -198,6 +198,15 @@ Ladd & Lass Brewing is in Seattle, WA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Ladd & Lass Brewing](../../breweries/ladd-and-lass-brewing.md)
+- Hop varieties: [Adeena](../../hops/varieties/adeena.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms the brewery names for this beer: [Roy Farms Inc](../../hops/farms/roy-farms.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.laddandlassbrewing.com/the-beer)

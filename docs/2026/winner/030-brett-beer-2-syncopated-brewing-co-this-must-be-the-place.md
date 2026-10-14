@@ -243,6 +243,10 @@ Syncopated Brewing Co. is in Lakewood, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Syncopated Brewing Co.](../../breweries/syncopated-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://syncopatedbrewing.com/our-beers-1)

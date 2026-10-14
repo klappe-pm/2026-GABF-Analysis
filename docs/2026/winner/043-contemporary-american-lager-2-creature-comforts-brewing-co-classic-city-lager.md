@@ -198,6 +198,10 @@ Creature Comforts Brewing Co. is in Athens, GA. Brewery type in Open Brewery DB:
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Creature Comforts Brewing Co.](../../breweries/creature-comforts-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://creaturecomforts.co/beers/classic-city-lager/)

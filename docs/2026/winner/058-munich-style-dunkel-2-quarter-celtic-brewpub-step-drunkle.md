@@ -197,6 +197,10 @@ Quarter Celtic Brewpub is in Albuquerque, NM. Brewery type in Open Brewery DB: B
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Quarter Celtic Brewpub](../../breweries/quarter-celtic-brewpub.md)
+
 ## links
 
 - [Quarter Celtic Brewpub](https://www.quartercelticbrewpub.com/)

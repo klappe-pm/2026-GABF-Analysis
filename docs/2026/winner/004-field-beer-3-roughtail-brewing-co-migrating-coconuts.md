@@ -218,6 +218,10 @@ Roughtail Brewing Co. is in Oklahoma City, OK.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Roughtail Brewing Co.](../../breweries/roughtail-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://roughtailbeer.com/migrating-coconuts/)

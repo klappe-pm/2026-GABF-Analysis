@@ -220,6 +220,10 @@ Fast Fashion Brewing is in Seattle, WA. Brewery type in Open Brewery DB: Microbr
 
 Links checked 2026-10-14: [Website](https://themasonryseattle.com/fast-fashion), [Instagram](https://www.instagram.com/fastfashionbeer/), [Untappd](https://untappd.com/FastFashion).
 
+## related
+
+- Brewery: [Fast Fashion Brewing](../../breweries/fast-fashion-brewing.md)
+
 ## links
 
 - [Fast Fashion at The Masonry](https://themasonryseattle.com/fast-fashion)

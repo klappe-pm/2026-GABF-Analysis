@@ -188,6 +188,10 @@ DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regio
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [DC Brau Brewing Co.](../../breweries/dc-brau-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.dcbrau.com/dueling-grounds-vienna-lager)

@@ -209,6 +209,10 @@ San Francisco Brewing Co. is in San Francisco, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [San Francisco Brewing Co.](../../breweries/san-francisco-brewing-co.md)
+
 ## links
 
 - [Untappd: Ghirardelli Chocolate Stout](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319)

@@ -194,6 +194,10 @@ Old Bull Brewing is in Frenchtown, MT.
 
 Links checked 2026-10-14: [Website](https://www.oldbullbrewing.com/).
 
+## related
+
+- Brewery: [Old Bull Brewing](../../breweries/old-bull-brewing.md)
+
 ## links
 
 - [Old Bull Brewing](https://www.oldbullbrewing.com/)

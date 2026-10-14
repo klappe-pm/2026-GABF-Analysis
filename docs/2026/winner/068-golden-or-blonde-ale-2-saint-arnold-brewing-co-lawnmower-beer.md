@@ -181,6 +181,11 @@ Saint Arnold Brewing Co. is in Houston, TX.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Saint Arnold Brewing Co.](../../breweries/saint-arnold-brewing-co.md)
+- Hop varieties: [Hersbrucker](../../hops/varieties/hersbrucker.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.saintarnold.com/beers-more/lawnmower/)
