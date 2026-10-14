@@ -35,7 +35,7 @@ It runs, in order:
 5. `npm run build`: the site into `dist/`.
 6. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs a local agent-graph checkout, so CI runs only the design system check.
 
-The single file pages (`gabf-dashboard.html`, `gabf-explorer.html`, and `docs/design/chart-gallery/index.html`) are build outputs and are not committed; CI and the deploy build them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
+The single file pages (`gabf-dashboard.html`, `gabf-explorer.html`, and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
 
 ## Data rules
 
