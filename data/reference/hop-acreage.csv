@@ -1,0 +1,344 @@
+variety,variety_slug,state,year,acres,production_1000_lb,production_lbs,yield_lb_per_acre,acres_code,production_code,yield_code,nass_label,source
+Amarillo,amarillo,Idaho,2021,380,688.9,688900,1813,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Amarillo,amarillo,Idaho,2022,379,552.6,552600,1458,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Amarillo,amarillo,Idaho,2023,537,853.3,853300,1589,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Idaho,2024,514,972,972000,1891,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Idaho,2025,503,962.2,962200,1913,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Oregon,2021,193,421.9,421900,2186,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Amarillo,amarillo,Oregon,2022,210,392.7,392700,1870,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Amarillo,amarillo,Oregon,2023,204,375.6,375600,1841,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Oregon,2024,227,392,392000,1727,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Oregon,2025,213,439.6,439600,2064,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Washington,2021,1334,2213.1,2213100,1659,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Amarillo,amarillo,Washington,2022,1324,1967.5,1967500,1486,,,,"Amarillo R, VGXP01",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Amarillo,amarillo,Washington,2023,1436,2421.1,2421100,1686,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Washington,2024,1274,1807.8,1807800,1419,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Amarillo,amarillo,Washington,2025,1158,1997.6,1997600,1725,,,,"Amarillo R, VGXP01",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Idaho,2021,,,,,D,D,D,Apollo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Apollo,apollo,Idaho,2022,,,,,D,D,D,Apollo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Apollo,apollo,Idaho,2023,209,573.5,573500,2744,,,,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Idaho,2024,210,568.9,568900,2709,,,,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Idaho,2025,,,,,D,D,D,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Washington,2021,,,,,D,D,D,Apollo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Apollo,apollo,Washington,2022,807,2003.8,2003800,2483,,,,Apollo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Apollo,apollo,Washington,2023,802,2397.2,2397200,2989,,,,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Washington,2024,870,2333.3,2333300,2682,,,,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Apollo,apollo,Washington,2025,522,1473.1,1473100,2822,,,,Apollo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Azacca,azacca,Washington,2021,730,1393.6,1393600,1909,,,,"Azacca R, ADHA-483",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Azacca,azacca,Washington,2022,871,1357.9,1357900,1559,,,,"Azacca R, ADHA-483",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Azacca,azacca,Washington,2023,401,794,794000,1980,,,,"Azacca R, ADHA-483",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Azacca,azacca,Washington,2024,367,741.3,741300,2020,,,,"Azacca R, ADHA-483",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Azacca,azacca,Washington,2025,,,,,D,D,D,"Azacca R, ADHA-483",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Bravo,bravo,Washington,2021,238,656.6,656600,2759,,,,Bravo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Bravo,bravo,Washington,2022,203,438.7,438700,2161,,,,Bravo TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Bravo,bravo,Washington,2023,206,596.6,596600,2896,,,,Bravo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Bravo,bravo,Washington,2024,143,387.7,387700,2711,,,,Bravo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Bravo,bravo,Washington,2025,114,345.3,345300,3029,,,,Bravo TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Idaho,2021,479,746.8,746800,1559,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cascade,cascade,Idaho,2022,845,1262.4,1262400,1494,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cascade,cascade,Idaho,2023,699,1367.9,1367900,1957,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Idaho,2024,324,692.1,692100,2136,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Idaho,2025,,,,,D,D,D,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Oregon,2021,666,1062.3,1062300,1595,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cascade,cascade,Oregon,2022,658,1038.3,1038300,1578,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cascade,cascade,Oregon,2023,629,1027.2,1027200,1633,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Oregon,2024,487,795.8,795800,1634,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Oregon,2025,487,790.4,790400,1623,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Washington,2021,3183,5045.1,5045100,1585,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cascade,cascade,Washington,2022,3604,5323.1,5323100,1477,,,,Cascade,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cascade,cascade,Washington,2023,3156,6176.3,6176300,1957,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Washington,2024,2271,4176.4,4176400,1839,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cascade,cascade,Washington,2025,1719,3486.1,3486100,2028,,,,Cascade,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Idaho,2021,124,226.7,226700,1828,,,,Cashmere,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cashmere,cashmere,Idaho,2022,140,227.1,227100,1622,,,,Cashmere,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cashmere,cashmere,Idaho,2023,91,120.2,120200,1321,,,,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Idaho,2024,,,,,D,D,D,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Idaho,2025,,,,,D,D,D,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Washington,2021,690,962.6,962600,1395,,,,Cashmere,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cashmere,cashmere,Washington,2022,717,1090.6,1090600,1521,,,,Cashmere,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cashmere,cashmere,Washington,2023,258,502.8,502800,1949,,,,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Washington,2024,140,237.3,237300,1695,,,,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cashmere,cashmere,Washington,2025,186,322.7,322700,1735,,,,Cashmere,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Oregon,2021,364,503.8,503800,1384,,,,Centennial,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Centennial,centennial,Oregon,2022,380,598.5,598500,1575,,,,Centennial,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Centennial,centennial,Oregon,2023,386,408,408000,1057,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Oregon,2024,422,615.7,615700,1459,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Oregon,2025,417,583.8,583800,1400,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Washington,2021,1978,3135.1,3135100,1585,,,,Centennial,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Centennial,centennial,Washington,2022,2044,2992.4,2992400,1464,,,,Centennial,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Centennial,centennial,Washington,2023,2103,2504.7,2504700,1191,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Washington,2024,2026,3284.1,3284100,1621,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Centennial,centennial,Washington,2025,2122,3274.2,3274200,1543,,,,Centennial,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Idaho,2021,521,1096.2,1096200,2104,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Chinook,chinook,Idaho,2022,542,795.1,795100,1467,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Chinook,chinook,Idaho,2023,409,837.2,837200,2047,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Idaho,2024,192,365.4,365400,1903,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Idaho,2025,,,,,D,D,D,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Oregon,2021,79,141.7,141700,1794,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Chinook,chinook,Oregon,2022,90,138.9,138900,1543,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Chinook,chinook,Oregon,2023,76,110.4,110400,1453,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Oregon,2024,62,93.6,93600,1510,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Oregon,2025,103,178.3,178300,1731,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Washington,2021,1174,2173.1,2173100,1851,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Chinook,chinook,Washington,2022,1443,1926.4,1926400,1335,,,,Chinook,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Chinook,chinook,Washington,2023,1216,2203.4,2203400,1812,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Washington,2024,1006,1732.3,1732300,1722,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Chinook,chinook,Washington,2025,954,1786.8,1786800,1873,,,,Chinook,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Idaho,2021,1743,2462.9,2462900,1413,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Citra,citra,Idaho,2022,1767,2677,2677000,1515,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Citra,citra,Idaho,2023,1014,1603.1,1603100,1581,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Idaho,2024,609,961.6,961600,1579,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Idaho,2025,729,1189,1189000,1631,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Oregon,2021,1472,2081.4,2081400,1414,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Citra,citra,Oregon,2022,1691,2641.3,2641300,1562,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Citra,citra,Oregon,2023,1528,1971.1,1971100,1290,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Oregon,2024,1260,2139.5,2139500,1698,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Oregon,2025,1525,2559,2559000,1678,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Washington,2021,8766,13850.3,13850300,1580,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Citra,citra,Washington,2022,8586,11719.9,11719900,1365,,,,"Citra R, HBC 394",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Citra,citra,Washington,2023,6314,10007.7,10007700,1585,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Washington,2024,4906,7717.1,7717100,1573,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Citra,citra,Washington,2025,5327,8741.6,8741600,1641,,,,"Citra R, HBC 394",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cluster,cluster,Washington,2021,390,786.2,786200,2016,,,,Cluster,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Cluster,cluster,Washington,2022,286,430.4,430400,1505,,,,Cluster,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Cluster,cluster,Washington,2023,195,335.8,335800,1722,,,,Cluster,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cluster,cluster,Washington,2024,270,500.9,500900,1855,,,,Cluster,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Cluster,cluster,Washington,2025,217,458.7,458700,2114,,,,Cluster,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Idaho,2021,1046,3314.8,3314800,3169,,,,Columbus/Tomahawk R /Zeus,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Idaho,2022,520,1574,1574000,3027,,,,Columbus/Tomahawk R /Zeus (CTZ),https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Idaho,2023,1059,2793.6,2793600,2638,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Idaho,2024,811,2705.5,2705500,3336,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Idaho,2025,775,2636.6,2636600,3402,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Washington,2021,4523,12013.1,12013100,2656,,,,Columbus/Tomahawk R /Zeus,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Washington,2022,3998,9019.5,9019500,2256,,,,Columbus/Tomahawk R /Zeus (CTZ),https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Washington,2023,5295,13052.2,13052200,2465,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Washington,2024,4627,11549,11549000,2496,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Columbus/Tomahawk/Zeus,columbus-tomahawk-zeus,Washington,2025,4115,10789.5,10789500,2622,,,,Columbus/Tomahawk R /Zeus (CTZ),https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Idaho,2021,146,242.8,242800,1663,,,,Comet,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Comet,comet,Idaho,2022,144,268.3,268300,1863,,,,Comet,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Comet,comet,Idaho,2023,108,202.7,202700,1877,,,,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Idaho,2024,,,,,D,D,D,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Idaho,2025,,,,,D,D,D,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Washington,2021,386,630,630000,1632,,,,Comet,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Comet,comet,Washington,2022,327,424.8,424800,1299,,,,Comet,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Comet,comet,Washington,2023,175,325,325000,1857,,,,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Washington,2024,159,247.7,247700,1558,,,,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Comet,comet,Washington,2025,209,243.1,243100,1163,,,,Comet,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Crystal,crystal,Oregon,2021,159,288.7,288700,1816,,,,Crystal,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Crystal,crystal,Oregon,2022,191,332.1,332100,1739,,,,Crystal,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Crystal,crystal,Oregon,2023,240,341.3,341300,1422,,,,Crystal,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Crystal,crystal,Oregon,2024,228,326.5,326500,1432,,,,Crystal,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Crystal,crystal,Oregon,2025,160,261.3,261300,1633,,,,Crystal,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Ekuanot,ekuanot,Washington,2021,381,993.6,993600,2608,,,,"Ekuanot R, HBC 366",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Ekuanot,ekuanot,Washington,2022,367,790.2,790200,2153,,,,"Ekuanot R, HBC 366",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Ekuanot,ekuanot,Washington,2023,373,871,871000,2335,,,,"Ekuanot R, HBC 366",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Ekuanot,ekuanot,Washington,2024,433,875.1,875100,2021,,,,"Ekuanot R, HBC 366",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Ekuanot,ekuanot,Washington,2025,316,620,620000,1962,,,,"Ekuanot R, HBC 366",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Idaho,2021,621,1104.1,1104100,1778,,,,El Dorado R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+El Dorado,el-dorado,Idaho,2022,304,536.9,536900,1766,,,,El Dorado R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+El Dorado,el-dorado,Idaho,2023,242,546,546000,2256,,,,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Idaho,2024,,,,,D,D,D,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Idaho,2025,,,,,D,D,D,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Washington,2021,1113,2088,2088000,1876,,,,El Dorado R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+El Dorado,el-dorado,Washington,2022,861,1450.8,1450800,1685,,,,El Dorado R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+El Dorado,el-dorado,Washington,2023,621,1299.8,1299800,2093,,,,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Washington,2024,565,892.7,892700,1580,,,,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+El Dorado,el-dorado,Washington,2025,434,882.8,882800,2034,,,,El Dorado R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Idaho,2021,,,,,NA,NA,NA,Elani TM YQH 1320,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Elani,elani,Idaho,2022,,,,,NA,NA,NA,Elani R YQH 1320,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Elani,elani,Idaho,2023,8,9.3,9300,1158,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Idaho,2024,8,21.4,21400,2673,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Idaho,2025,8,21.3,21300,2657,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Washington,2021,,,,,X,NA,X,Elami TM YQH 1320,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Elani,elani,Washington,2022,,,,,NA,NA,NA,"Elani R , YQH 1320",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Elani,elani,Washington,2023,61,146.6,146600,2403,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Washington,2024,58,130.3,130300,2247,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Elani,elani,Washington,2025,78,159.6,159600,2046,,,,"Elani R, YQH 1320",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Idaho,2021,332,847.3,847300,2552,,,,Eureka! TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Eureka,eureka,Idaho,2022,419,921.8,921800,2200,,,,Eureka! TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Eureka,eureka,Idaho,2023,525,1211.7,1211700,2308,,,,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Idaho,2024,374,969.4,969400,2592,,,,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Idaho,2025,,,,,D,D,D,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Washington,2021,466,1408.3,1408300,3022,,,,Eureka! TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Eureka,eureka,Washington,2022,570,1256.9,1256900,2205,,,,Eureka! TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Eureka,eureka,Washington,2023,621,1880.4,1880400,3028,,,,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Washington,2024,479,1494,1494000,3119,,,,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Eureka,eureka,Washington,2025,401,1122.8,1122800,2800,,,,Eureka! TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Hallertauer Mittelfruh,hallertauer-mittelfruh,Idaho,2021,159,202.2,202200,1272,,,,Hallertauer Mittelfruher,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Hallertauer Mittelfruh,hallertauer-mittelfruh,Idaho,2022,159,262.2,262200,1649,,,,Hallertauer Mittelfruher,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Hallertauer Mittelfruh,hallertauer-mittelfruh,Idaho,2023,159,172.5,172500,1085,,,,Hallertauer Mittelfruher,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Hallertauer Mittelfruh,hallertauer-mittelfruh,Idaho,2024,160,270.9,270900,1693,,,,Hallertauer Mittelfruher,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Hallertauer Mittelfruh,hallertauer-mittelfruh,Idaho,2025,44,64.9,64900,1474,,,,Hallertauer Mittelfruher,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Idaho,2021,,,,,NA,NA,NA,"Helios TM , HS15619",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Helios,helios,Idaho,2022,,,,,NA,NA,NA,"Helios TM , HS15619",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Helios,helios,Idaho,2023,503,873.2,873200,1736,,,,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Idaho,2024,511,1580,1580000,3092,,,,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Idaho,2025,,,,,D,D,D,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Washington,2021,,,,,D,NA,D,Helios TM HS15619,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Helios,helios,Washington,2022,,,,,NA,NA,NA,"Helios TM, HS15619",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Helios,helios,Washington,2023,1006,1743.4,1743400,1733,,,,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Washington,2024,1379,2771.8,2771800,2010,,,,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Helios,helios,Washington,2025,,,,,D,D,D,"Helios TM, HS15619",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Idaho,2021,592,1679.5,1679500,2837,,,,Idaho 7 R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Idaho 7,idaho-7,Idaho,2022,382,988.6,988600,2588,,,,Idaho 7 R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Idaho 7,idaho-7,Idaho,2023,290,745.9,745900,2572,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Idaho,2024,243,651.2,651200,2680,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Idaho,2025,260,750.1,750100,2885,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Washington,2021,388,1240.4,1240400,3197,,,,Idaho 7 TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Idaho 7,idaho-7,Washington,2022,158,435.3,435300,2755,,,,Idaho 7 R,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Idaho 7,idaho-7,Washington,2023,148,453.2,453200,3062,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Washington,2024,150,389.7,389700,2598,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Idaho 7,idaho-7,Washington,2025,150,386.4,386400,2576,,,,Idaho 7 R,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Krush,krush,Washington,2023,,,,,NA,NA,NA,"Krush TM, HBC 586",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Krush,krush,Washington,2024,,,,,NA,NA,NA,"Krush TM, HBC 586",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Krush,krush,Washington,2025,331,749.7,749700,2265,,,,"Krush TM, HBC 586",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Liberty,liberty,Oregon,2021,54,81.3,81300,1506,,,,Liberty,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Liberty,liberty,Oregon,2022,,,,,D,D,D,Liberty,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Liberty,liberty,Oregon,2023,25,20.9,20900,835,,,,Liberty,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Liberty,liberty,Oregon,2024,25,30.8,30800,1233,,,,Liberty,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Liberty,liberty,Oregon,2025,,,,,D,D,D,Liberty,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Loral,loral,Washington,2021,197,411.3,411300,2088,,,,"Loral R, HBC 291",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Loral,loral,Washington,2022,199,366.8,366800,1843,,,,"Loral R, HBC 291",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Loral,loral,Washington,2023,161,320.2,320200,1989,,,,"Loral R, HBC 291",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Loral,loral,Washington,2024,106,191.5,191500,1807,,,,"Loral R, HBC 291",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Loral,loral,Washington,2025,,,,,D,D,D,"Loral R, HBC 291",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Idaho,2021,1380,2954.6,2954600,2141,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mosaic,mosaic,Idaho,2022,1440,3028.3,3028300,2103,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mosaic,mosaic,Idaho,2023,1120,2735,2735000,2442,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Idaho,2024,495,1308.8,1308800,2644,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Idaho,2025,558,1408.4,1408400,2524,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Oregon,2021,844,1753,1753000,2077,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mosaic,mosaic,Oregon,2022,901,1855.2,1855200,2059,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mosaic,mosaic,Oregon,2023,847,1615.2,1615200,1907,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Oregon,2024,653,1438.6,1438600,2203,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Oregon,2025,684,1610.8,1610800,2355,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Washington,2021,4193,8926.9,8926900,2129,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mosaic,mosaic,Washington,2022,4160,8166.1,8166100,1963,,,,"Mosaic R, HBC 369",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mosaic,mosaic,Washington,2023,3309,7303,7303000,2207,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Washington,2024,2459,5060.6,5060600,2058,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mosaic,mosaic,Washington,2025,2246,5076,5076000,2260,,,,"Mosaic R, HBC 369",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Oregon,2021,123,199.8,199800,1624,,,,Mt. Hood,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mt. Hood,mt-hood,Oregon,2022,171,214.1,214100,1252,,,,Mt. Hood,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mt. Hood,mt-hood,Oregon,2023,188,258.1,258100,1373,,,,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Oregon,2024,142,219.8,219800,1548,,,,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Oregon,2025,118,227.2,227200,1925,,,,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Washington,2021,,,,,D,D,D,Mt. Hood,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mt. Hood,mt-hood,Washington,2022,42,24.1,24100,573,,,,Mt. Hood,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mt. Hood,mt-hood,Washington,2023,,,,,D,D,D,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Washington,2024,,,,,D,D,D,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Hood,mt-hood,Washington,2025,51,34.3,34300,672,,,,Mt. Hood,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Idaho,2021,84,82.7,82700,985,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mt. Rainier,mt-rainier,Idaho,2022,85,115.9,115900,1364,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mt. Rainier,mt-rainier,Idaho,2023,66,103.8,103800,1572,,,,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Idaho,2024,0,0,0,,,,X,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Idaho,2025,0,0,0,,,,X,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Oregon,2021,126,175,175000,1389,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mt. Rainier,mt-rainier,Oregon,2022,130,191.5,191500,1473,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mt. Rainier,mt-rainier,Oregon,2023,109,163.2,163200,1497,,,,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Oregon,2024,,,,,D,D,D,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Oregon,2025,0,0,0,,,,X,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Washington,2021,209,341.7,341700,1635,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Mt. Rainier,mt-rainier,Washington,2022,212,331.4,331400,1563,,,,Mt. Rainier,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Mt. Rainier,mt-rainier,Washington,2023,212,430.6,430600,2031,,,,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Washington,2024,,,,,D,D,D,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Mt. Rainier,mt-rainier,Washington,2025,0,0,0,,,,X,Mt. Rainier,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Northern Brewer,northern-brewer,Idaho,2021,58,73.4,73400,1266,,,,Northern Brewer,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Nugget,nugget,Oregon,2021,572,1236.7,1236700,2162,,,,Nugget,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Nugget,nugget,Oregon,2022,441,919.5,919500,2085,,,,Nugget,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Nugget,nugget,Oregon,2023,375,838.5,838500,2236,,,,Nugget,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Nugget,nugget,Oregon,2024,252,571.5,571500,2268,,,,Nugget,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Nugget,nugget,Oregon,2025,157,314,314000,2000,,,,Nugget,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Palisade,palisade,Washington,2021,333,621.4,621400,1866,,,,"Palisade R, YCR 4",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Palisade,palisade,Washington,2022,377,694.4,694400,1842,,,,"Palisade R, YCR 4",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Palisade,palisade,Washington,2023,260,589.7,589700,2268,,,,"Palisade R, YCR 4",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Palisade,palisade,Washington,2024,315,695.5,695500,2208,,,,"Palisade R, YCR 4",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Palisade,palisade,Washington,2025,,,,,D,D,D,"Palisade R, YCR 4",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Pekko,pekko,Washington,2021,1070,2217,2217000,2072,,,,"Pekko TM, ADHA-871",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Pekko,pekko,Washington,2022,1084,2040.1,2040100,1882,,,,"Pekko R, ADHA-871",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Pekko,pekko,Washington,2023,1045,2423.4,2423400,2319,,,,"Pekko R, ADHA-871",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Pekko,pekko,Washington,2024,,,,,D,D,D,"Pekko R, ADHA-871",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Pekko,pekko,Washington,2025,834,1044.2,1044200,1252,,,,"Pekko R, ADHA-871",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Saaz,saaz,Idaho,2021,330,204.6,204600,620,,,,Saaz,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Saaz,saaz,Idaho,2022,380,362.9,362900,955,,,,Saaz,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Saaz,saaz,Idaho,2023,380,199.1,199100,524,,,,Saaz,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Saaz,saaz,Idaho,2024,372,302.4,302400,813,,,,Saaz,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Saaz,saaz,Idaho,2025,84,102.6,102600,1222,,,,Saaz,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sabro,sabro,Oregon,2021,225,393.5,393500,1749,,,,"Sabro R, HBC 438",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Sabro,sabro,Oregon,2022,119,237.5,237500,1996,,,,"Sabro R, HBC 438",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Sabro,sabro,Washington,2021,1120,2471.8,2471800,2207,,,,"Sabro R , HBC 438",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Sabro,sabro,Washington,2022,548,1124.5,1124500,2052,,,,"Sabro R , HBC 438",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Sabro,sabro,Washington,2023,203,615.9,615900,3034,,,,"Sabro R, HBC 438",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sabro,sabro,Washington,2024,204,489,489000,2397,,,,"Sabro R, HBC 438",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sabro,sabro,Washington,2025,181,496.7,496700,2744,,,,"Sabro R, HBC 438",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Idaho,2021,388,434.9,434900,1121,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Simcoe,simcoe,Idaho,2022,441,532.7,532700,1208,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Simcoe,simcoe,Idaho,2023,257,337.2,337200,1312,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Idaho,2024,97,135,135000,1392,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Idaho,2025,97,138.2,138200,1425,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Oregon,2021,499,819.9,819900,1643,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Simcoe,simcoe,Oregon,2022,527,867.4,867400,1646,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Simcoe,simcoe,Oregon,2023,466,570.9,570900,1225,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Oregon,2024,447,597.6,597600,1337,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Oregon,2025,431,566.3,566300,1314,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Washington,2021,3172,5221.1,5221100,1646,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Simcoe,simcoe,Washington,2022,3494,4821.7,4821700,1380,,,,"Simcoe R, YCR 14",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Simcoe,simcoe,Washington,2023,3483,5360.3,5360300,1539,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Washington,2024,2873,4387.1,4387100,1527,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Simcoe,simcoe,Washington,2025,2962,4451.9,4451900,1503,,,,"Simcoe R, YCR 14",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sterling,sterling,Oregon,2021,58,76.6,76600,1321,,,,Sterling,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Sterling,sterling,Oregon,2022,35,54.6,54600,1559,,,,Sterling,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Sterling,sterling,Oregon,2023,30,55.8,55800,1859,,,,Sterling,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sterling,sterling,Oregon,2024,45,65.3,65300,1451,,,,Sterling,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Sterling,sterling,Oregon,2025,44,63.9,63900,1452,,,,Sterling,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Strata,strata,Oregon,2021,833,1573.5,1573500,1889,,,,"Strata TM, OR 91331",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Strata,strata,Oregon,2022,1143,2286,2286000,2000,,,,"Strata R, OR 91331",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Strata,strata,Oregon,2023,839,1356.7,1356700,1617,,,,"Strata R, OR 91331",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Strata,strata,Oregon,2024,574,1125.6,1125600,1961,,,,"Strata R, OR 91331",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Strata,strata,Oregon,2025,326,693.7,693700,2128,,,,"Strata R, OR 91331",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Super Galena,super-galena,Washington,2021,480,1367.5,1367500,2849,,,,Super Galena TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Super Galena,super-galena,Washington,2022,354,1004.7,1004700,2838,,,,Super Galena TM,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Super Galena,super-galena,Washington,2023,354,1051.4,1051400,2970,,,,Super Galena TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Super Galena,super-galena,Washington,2024,355,1037,1037000,2921,,,,Super Galena TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Super Galena,super-galena,Washington,2025,233,654,654000,2807,,,,Super Galena TM,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Oregon,2021,,,,,D,D,D,Tahoma,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Tahoma,tahoma,Oregon,2022,,,,,D,D,D,Tahoma,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Tahoma,tahoma,Oregon,2023,104,195.9,195900,1884,,,,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Oregon,2024,,,,,D,D,D,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Oregon,2025,0,0,0,,,,X,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Washington,2021,388,409.3,409300,1055,,,,Tahoma,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Tahoma,tahoma,Washington,2022,383,501.7,501700,1310,,,,Tahoma,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Tahoma,tahoma,Washington,2023,385,611.8,611800,1589,,,,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Washington,2024,121,160.8,160800,1329,,,,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Tahoma,tahoma,Washington,2025,0,0,0,,,,X,Tahoma,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Talus,talus,Oregon,2021,,,,,NA,NA,NA,"Talus TM, HBC 692",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Talus,talus,Oregon,2022,46,68.2,68200,1483,,,,"Talus R, HBC 692",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Talus,talus,Washington,2021,,,,,NA,NA,NA,Talus HBC 692,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Talus,talus,Washington,2022,377,642,642000,1703,,,,"Talus R, HBC 692",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Talus,talus,Washington,2023,147,289.1,289100,1967,,,,"Talus R, HBC 692",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Talus,talus,Washington,2024,95,177.1,177100,1864,,,,"Talus R, HBC 692",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Talus,talus,Washington,2025,492,388.2,388200,789,,,,"Talus R, HBC 692",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+TerraFlux,terraflux,Washington,2021,2114,5206.8,5206800,2463,,,,HBC 682,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+TerraFlux,terraflux,Washington,2022,1709,3643.6,3643600,2132,,,,HBC 682,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+TerraFlux,terraflux,Washington,2023,2226,4523.2,4523200,2032,,,,HBC 682,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+TerraFlux,terraflux,Washington,2024,2429,4962.4,4962400,2043,,,,HBC 682,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+TerraFlux,terraflux,Washington,2025,2059,4993.1,4993100,2425,,,,HBC 682,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Warrior,warrior,Washington,2021,128,286.7,286700,2240,,,,"Warrior R, YCR 5",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Warrior,warrior,Washington,2022,147,236.7,236700,1610,,,,"Warrior R, YCR 5",https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Warrior,warrior,Washington,2023,148,306.4,306400,2070,,,,"Warrior R, YCR 5",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Warrior,warrior,Washington,2024,147,253.3,253300,1723,,,,"Warrior R, YCR 5",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Warrior,warrior,Washington,2025,,,,,D,D,D,"Warrior R, YCR 5",https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Idaho,2021,389,510,510000,1311,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Willamette,willamette,Idaho,2022,459,639.4,639400,1393,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Willamette,willamette,Idaho,2023,459,661,661000,1440,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Idaho,2024,158,237.2,237200,1501,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Idaho,2025,158,231,231000,1462,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Oregon,2021,446,651.6,651600,1461,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Willamette,willamette,Oregon,2022,471,701.3,701300,1489,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Willamette,willamette,Oregon,2023,439,669,669000,1524,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Oregon,2024,266,389.7,389700,1465,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Oregon,2025,227,370.2,370200,1631,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Washington,2021,132,158.4,158400,1200,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+Willamette,willamette,Washington,2022,124,122.9,122900,991,,,,Willamette,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+Willamette,willamette,Washington,2023,199,193.2,193200,971,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Washington,2024,173,228.4,228400,1320,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+Willamette,willamette,Washington,2025,199,294.7,294700,1481,,,,Willamette,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
