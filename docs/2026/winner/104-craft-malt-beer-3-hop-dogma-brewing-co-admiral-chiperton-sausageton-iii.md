@@ -259,7 +259,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Hop Dogma Brewing Co. is in Half Moon Bay, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.hopdogma.com/), [Instagram](https://www.instagram.com/hopdogma/).
 
 ## related
 

@@ -33,11 +33,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/primalbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -51,10 +49,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "primal-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NC"
-untappd: null
-website: "http://www.primalbrewery.com"
+untappd: "https://untappd.com/Primal_Brewery"
+website: "https://primalbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

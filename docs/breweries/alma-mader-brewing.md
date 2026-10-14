@@ -37,15 +37,13 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/krush.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/nelson-sauvin.md"
   - "../hops/varieties/simcoe.md"
-instagram: null
+instagram: "https://www.instagram.com/almamaderbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -61,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "alma-mader-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "MO"
-untappd: null
-website: "http://almamaderbrewing.com"
+untappd: "https://untappd.com/AlmaMaderBrewing"
+website: "https://www.almamaderbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

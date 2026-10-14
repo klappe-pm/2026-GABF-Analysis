@@ -39,13 +39,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used:
   - "../hops/varieties/saaz.md"
   - "../hops/varieties/tettnang.md"
-instagram: null
+instagram: "https://www.instagram.com/tfbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -62,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "templin-family-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "UT"
 untappd: null
-website: "https://tfbrewing.com"
+website: "https://tfbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

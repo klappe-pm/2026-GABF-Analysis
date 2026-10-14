@@ -50,14 +50,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/amarillo.md"
   - "../hops/varieties/citra.md"
-instagram: null
+instagram: "https://www.instagram.com/figmtnbrew/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 3
@@ -76,10 +74,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "figueroa-mountain-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.figmtnbrew.com/"
 world-beer-cup-medals: 0
 ---
 

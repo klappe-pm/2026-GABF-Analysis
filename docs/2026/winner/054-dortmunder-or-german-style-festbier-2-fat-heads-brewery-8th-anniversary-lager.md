@@ -195,7 +195,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Fat Head's Brewery is in Middleburg Heights, OH. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://fatheads.com/), [Instagram](https://www.instagram.com/fatheadsbeer/), [Untappd](https://untappd.com/fatheadsbrewery).
 
 ## related
 

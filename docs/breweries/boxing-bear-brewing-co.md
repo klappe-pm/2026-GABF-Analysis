@@ -35,11 +35,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/boxingbearbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -54,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "boxing-bear-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "NM"
 untappd: null
-website: "http://www.boxingbearbrewing.com"
+website: "https://boxingbearbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

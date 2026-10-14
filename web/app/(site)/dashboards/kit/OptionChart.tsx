@@ -9,13 +9,14 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import * as echarts from 'echarts/core';
 import { BarChart, CustomChart, HeatmapChart, ScatterChart, TreemapChart } from 'echarts/charts';
 import { GridComponent, TooltipComponent } from 'echarts/components';
-import { SVGRenderer } from 'echarts/renderers';
+import { CanvasRenderer, SVGRenderer } from 'echarts/renderers';
+import { Button } from '@/components/Button';
 import { DataTable, type Column, type Row } from '@/components/DataTable';
 import { cardSurface, labelFace } from '@/design/helpers';
 import { SETTINGS_EVENT, useSettings } from '@/design/runtime';
 import { readKit, type Kit } from './theme';
 
-echarts.use([BarChart, CustomChart, HeatmapChart, ScatterChart, TreemapChart, GridComponent, TooltipComponent, SVGRenderer]);
+echarts.use([BarChart, CustomChart, HeatmapChart, ScatterChart, TreemapChart, GridComponent, TooltipComponent, SVGRenderer, CanvasRenderer]);
 
 export type ChartOption = Record<string, unknown>;
 export type Built = { option: ChartOption; height: number };
@@ -33,6 +34,8 @@ export type ChartSpec = {
   legend?: (kit: Kit) => LegendItem[];
   build: (kit: Kit, width: number) => Built;
   tableSummary: string;
+  /** The label of the control that saves the chart as an image. */
+  saveLabel: string;
   table: { caption: string; columns: Column[]; rows: Row[]; initialSort?: { key: string; dir: 'ascending' | 'descending' } };
   /** A mark was chosen: its name and the index of its datum in the series. */
   onSelect?: (name: string, index: number, series: string) => void;
@@ -63,6 +66,7 @@ export function OptionChart({ spec }: { spec: ChartSpec }) {
   const [width, setWidth] = useState(0);
   const [tick, setTick] = useState(0);
   const [legend, setLegend] = useState<LegendItem[]>([]);
+  const drawn = useRef<{ option: ChartOption; height: number; kit: Kit; legend: LegendItem[] } | null>(null);
 
   useEffect(() => {
     const el = host.current;
@@ -97,15 +101,77 @@ export function OptionChart({ spec }: { spec: ChartSpec }) {
     el.style.height = `${height}px`;
     instance.resize({ width, height });
     instance.setOption({ animation: false, backgroundColor: 'transparent', textStyle: kit.text(), ...option }, true);
-    setLegend(legendOf ? legendOf(kit) : []);
+    const items = legendOf ? legendOf(kit) : [];
+    drawn.current = { option, height, kit, legend: items };
+    setLegend(items);
   }, [build, legendOf, width, tick]);
 
   const table = spec.table;
+  // Saves the chart as a PNG: the option is drawn once more with the canvas renderer off screen (text in
+  // the page's own fonts), then the title and the legend are set above it, since they sit outside the plot.
+  const save = async () => {
+    const d = drawn.current;
+    if (!d || width < 100) return;
+    const scale = 2;
+    const off = echarts.init(document.createElement('div'), undefined, { renderer: 'canvas', width, height: d.height, devicePixelRatio: scale });
+    off.setOption({ animation: false, backgroundColor: d.kit.page, textStyle: d.kit.text(), ...d.option });
+    const plot = new Image();
+    plot.src = off.getDataURL({ type: 'png', pixelRatio: scale, backgroundColor: d.kit.page });
+    await plot.decode();
+    off.dispose();
+    const pad = 16;
+    const measure = document.createElement('canvas').getContext('2d')!;
+    measure.font = `${d.kit.small}px ${d.kit.family}`;
+    const rows: LegendItem[][] = [[]];
+    let x = pad;
+    for (const item of d.legend) {
+      const need = measure.measureText(item.label).width + 12 + 8 + 16;
+      if (x + need > width - pad && rows[rows.length - 1].length) { rows.push([]); x = pad; }
+      rows[rows.length - 1].push(item);
+      x += need;
+    }
+    const head = pad + 24 + (d.legend.length ? rows.length * 22 : 0) + 8;
+    const canvas = document.createElement('canvas');
+    canvas.width = width * scale;
+    canvas.height = (head + d.height) * scale;
+    const g = canvas.getContext('2d')!;
+    g.scale(scale, scale);
+    g.fillStyle = d.kit.page;
+    g.fillRect(0, 0, width, head + d.height);
+    g.textBaseline = 'middle';
+    g.fillStyle = d.kit.ink;
+    g.font = `700 ${d.kit.small + 4}px ${d.kit.family}`;
+    g.fillText(spec.title, pad, pad + 10);
+    g.font = `${d.kit.small}px ${d.kit.family}`;
+    rows.forEach((row, r) => {
+      let lx = pad;
+      for (const item of row) {
+        g.fillStyle = item.color;
+        g.fillRect(lx, pad + 24 + r * 22 + 4, 12, 12);
+        g.fillStyle = d.kit.ink;
+        g.fillText(item.label, lx + 20, pad + 24 + r * 22 + 10);
+        lx += measure.measureText(item.label).width + 12 + 8 + 16;
+      }
+    });
+    g.drawImage(plot, 0, head, width, d.height);
+    const blob = await new Promise<Blob | null>((ok) => canvas.toBlob(ok, 'image/png'));
+    if (!blob) return;
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${spec.title.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ').trim()}.png`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <figure className={`flex flex-col overflow-hidden ${card.className}`} style={card.style} aria-labelledby={`${spec.id}-title`}>
       {card.elevated ? <md-elevation /> : null}
       <figcaption className="flex flex-col gap-2 px-4 pt-4 pb-2">
-        <span id={`${spec.id}-title`} className="type-title-medium text-on-surface" style={labelFace(spec.title)}>{spec.title}</span>
+        <div className="flex flex-wrap items-start justify-between gap-2">
+          <span id={`${spec.id}-title`} className="type-title-medium text-on-surface" style={labelFace(spec.title)}>{spec.title}</span>
+          <Button variant="quiet" onClick={save}>{spec.saveLabel}</Button>
+        </div>
         {spec.subtitle ? <span className="type-body-medium text-on-surface-variant">{spec.subtitle}</span> : null}
         {legend.length ? (
           <ul className="flex flex-wrap gap-x-4 gap-y-1" aria-hidden="true">

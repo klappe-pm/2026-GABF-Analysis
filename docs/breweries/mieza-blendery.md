@@ -36,14 +36,11 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/nectaron.md"
   - "../hops/varieties/superdelic.md"
-instagram: null
+instagram: "https://www.instagram.com/miezablendery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -58,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "mieza-blendery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "VA"
-untappd: null
-website: null
+untappd: "https://untappd.com/Mieza_Blendery"
+website: "https://www.miezabeer.com/"
 world-beer-cup-medals: 0
 ---
 

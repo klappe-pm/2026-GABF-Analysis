@@ -39,7 +39,7 @@ export function ResultsTable({ rows, copy, caption }: { rows: MedalRow[]; copy: 
   const [limit, setLimit] = useState(PAGE);
   const sorted = useMemo(() => [...rows].sort((a, b) => b.year - a.year || String(a.category_name).localeCompare(String(b.category_name)) || (MEDAL_RANK[a.medal] ?? 9) - (MEDAL_RANK[b.medal] ?? 9)), [rows]);
   const med = copy.group('labels.medal');
-  const none = <span className="text-on-surface-variant">{copy.t('states.gaps.not_defined')}</span>;
+  const none = <span className="text-on-surface-variant">{copy.missing()}</span>;
   const c = (key: string) => copy.t(`tables.medal_columns.${key}`);
   const columns: Column[] = [
     { key: 'year', label: c('year'), sortable: true },

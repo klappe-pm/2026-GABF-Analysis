@@ -260,7 +260,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Worthy Brewing is in Bend, OR. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://worthybrewing.com/), [Instagram](https://www.instagram.com/worthybrewing/), [Untappd](https://untappd.com/WorthyBrewing).
 
 ## related
 

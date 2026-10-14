@@ -43,7 +43,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -62,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "third-window-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.thirdwindowbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

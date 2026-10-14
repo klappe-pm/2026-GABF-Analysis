@@ -56,8 +56,8 @@ export function HomeView({ copy: tree, initial, search, finding }: { copy: CopyT
     sort: { category: l.number, entries: l.entries, odds: l.odds },
     cells: {
       category: <TextLink href={href(paths.category(l.slug))}>{l.name}</TextLink>,
-      entries: l.entries ? fmtN(l.entries) : copy.t('page.scoresheet.not_published'),
-      odds: l.odds === null ? copy.t('page.scoresheet.not_published') : String(l.odds),
+      entries: l.entries ? fmtN(l.entries) : copy.missing(),
+      odds: l.odds === null ? copy.missing() : String(l.odds),
       gold: winners(l.gold),
       silver: winners(l.silver),
       bronze: winners(l.bronze),
@@ -76,8 +76,8 @@ export function HomeView({ copy: tree, initial, search, finding }: { copy: CopyT
       <section className="grid grid-cols-1 gap-4 expanded:grid-cols-[2fr_1fr]" aria-label={copy.t('page.scoresheet.competition_year')}>
         <FieldGrid>
           <Field size="text" label={copy.t('page.scoresheet.competition_year')}>{copy.t('page.scoresheet.competition_value', { year: view.year })}</Field>
-          <Field label={copy.t('page.scoresheet.entries_judged')}>{sheet.entries ? fmtN(sheet.entries) : copy.t('page.scoresheet.not_published')}</Field>
-          <Field label={copy.t('page.scoresheet.categories')}>{fmtN(sheet.categories)}</Field>
+          <Field label={copy.t('page.scoresheet.entries_judged')}>{sheet.entries ? fmtN(sheet.entries) : copy.missing()}</Field>
+          <Field label={copy.t('page.scoresheet.categories_in_year', { year: view.year })}>{fmtN(sheet.categories)}</Field>
           <Field label={copy.t('page.scoresheet.medals_awarded')}>{fmtN(sheet.medals)}</Field>
         </FieldGrid>
         {finding}

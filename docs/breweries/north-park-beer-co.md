@@ -40,15 +40,13 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/citra.md"
   - "../hops/varieties/galaxy.md"
   - "../hops/varieties/nelson-sauvin.md"
   - "../hops/varieties/peacharine.md"
-instagram: null
+instagram: "https://www.instagram.com/northparkbeerco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 4
@@ -66,10 +64,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "north-park-beer-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.northparkbeerco.com"
+untappd: "https://untappd.com/NorthParkBeerCompany"
+website: "https://www.northparkbeerco.com/"
 world-beer-cup-medals: 0
 ---
 

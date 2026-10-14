@@ -241,7 +241,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Field Artisan Brewing is in Westfield, IN.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.fieldbrewing.com/), [Instagram](https://www.instagram.com/fieldbrewing/), [Untappd](https://untappd.com/FieldBrewing).
 
 ## related
 

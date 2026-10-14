@@ -34,12 +34,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/syncopatedbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "syncopated-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: null
+untappd: "https://untappd.com/Syncopatedbrewing"
+website: "https://syncopatedbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

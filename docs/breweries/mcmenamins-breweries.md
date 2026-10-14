@@ -38,16 +38,14 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/chinook.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/nectaron.md"
   - "../hops/varieties/simcoe.md"
   - "../hops/varieties/vista.md"
-instagram: null
+instagram: "https://www.instagram.com/mcmenamins/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -64,10 +62,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "mcmenamins-breweries"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OR"
-untappd: null
-website: "http://www.mcmenamins.com"
+untappd: "https://untappd.com/McMenamins"
+website: "https://www.mcmenamins.com/"
 world-beer-cup-medals: 0
 ---
 

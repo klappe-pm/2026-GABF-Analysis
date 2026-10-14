@@ -33,13 +33,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
   - "../hops/varieties/saphir.md"
-instagram: null
+instagram: "https://www.instagram.com/bissellbrothers/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "bissell-brothers-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "ME"
 untappd: null
-website: "http://www.bissellbrothers.com"
+website: "https://bissellbrothers.com/"
 world-beer-cup-medals: 0
 ---
 

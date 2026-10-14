@@ -33,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/pizzaportbrewingco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "pizza-port-solana-beach"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: "http://www.pizzaport.com"
+website: "https://www.pizzaport.com/brewpubs/solana-beach/"
 world-beer-cup-medals: 0
 ---
 

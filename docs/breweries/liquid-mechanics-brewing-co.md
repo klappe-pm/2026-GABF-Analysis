@@ -38,7 +38,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
 instagram: null
 known-for: []
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "liquid-mechanics-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CO"
-untappd: null
-website: "http://www.liquidmechanicsbrewing.com"
+untappd: "https://untappd.com/LiquidMechanicsBrewingCo"
+website: "https://www.liquidmechanicsbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

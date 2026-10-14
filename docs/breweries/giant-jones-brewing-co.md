@@ -36,7 +36,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "giant-jones-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "WI"
-untappd: null
-website: "http://Www.giantjones.com"
+untappd: "https://untappd.com/GiantJonesBrewingCompany"
+website: "https://www.giantjones.com/"
 world-beer-cup-medals: 0
 ---
 

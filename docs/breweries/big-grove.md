@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/biggrovebrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -52,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "big-grove"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "IA"
-untappd: null
-website: "http://www.biggrovebrewery.com"
+untappd: "https://untappd.com/BigGroveBrewery"
+website: "https://biggrove.com/"
 world-beer-cup-medals: 0
 ---
 
