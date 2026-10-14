@@ -6,7 +6,7 @@ const TABLE = [
   ['/', 'home'],
   ['/dashboards/', 'dashboards'],
   ['/dashboards/<x>/', 'dashboards'],
-  ['/explorer/', 'explorer'],
+  ['/explorer/', 'explore'],
   ['/beers/<x>/', 'beers-index'],
   ['/beers/<x>/<x>/', 'beer-detail'],
   ['/first-time-medalists/<x>/', 'first-time-medalists'],

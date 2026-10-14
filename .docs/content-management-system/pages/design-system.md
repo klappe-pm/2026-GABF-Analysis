@@ -157,7 +157,7 @@ Where: captions that say where a component's sample data comes from.
 - `finding`: {{category_name}}: {{value}} entries per medal in {{year}}, the longest odds of the year.
 - `beer_card`: {{beer_name}}, from its published 2026 winner profile.
 - `hop_card`: {{variety}}, from the hop farm tables and the 2026 winner profiles.
-- `hop_card_gap`: The hop variety table is not in the record yet, so origin, breeder, ranges, aroma, and acreage read Not defined.
+- `hop_card_gap`: The hop variety table is not in the record yet, so origin, breeder, ranges, aroma, and acreage read Not Found.
 
 ## `headings`
 

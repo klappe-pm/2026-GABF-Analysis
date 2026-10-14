@@ -14,7 +14,7 @@ Where: every beer profile card, on category pages, brewery pages, the winners pa
 - `tasting`: Tasting note
 - `source`: Source
 - `deep_dive`: Open the beer profile
-- `none`: Not defined
+- `none`: Not Found
 
 ## `hop`
 

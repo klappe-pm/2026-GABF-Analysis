@@ -66,6 +66,7 @@ export async function shellConfig(): Promise<ShellConfig> {
   };
 }
 
-export async function SiteFrame({ children }: { children: ReactNode }) {
-  return <SiteShell config={await shellConfig()} saveControl={<SaveViewControl />}>{children}</SiteShell>;
+// The one place the save control is mounted. The 404 page passes withSave={false}: it is not a view of the medal record.
+export async function SiteFrame({ children, withSave = true }: { children: ReactNode; withSave?: boolean }) {
+  return <SiteShell config={await shellConfig()} saveControl={withSave ? <SaveViewControl /> : undefined}>{children}</SiteShell>;
 }

@@ -43,6 +43,7 @@ export const VALUE_LABELS = {
   ownership_type: { independent: 'Independent', 'employee-owned': 'Employee owned', 'public-company-owned': 'Public company owned', 'large-brewer-owned': 'Large brewer owned', 'private-equity-backed': 'Private equity backed', 'beverage-conglomerate-owned': 'Beverage conglomerate owned', closed: 'Closed', unlisted: 'Not defined' },
   distribution_channel: { 'self-distribution': 'Self distributed', distributor: 'Through a distributor', taproom: 'Taproom only', unknown: 'Not defined', '': 'Not defined' },
   brewery_type: { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regional brewery', planning: 'In planning', large: 'Large brewery', closed: 'Closed', contract: 'Contract brewer', proprietor: 'Alternating proprietor', nano: 'Nanobrewery', bar: 'Bar', taproom: 'Taproom' },
+  section: { main: 'Main Competition', 'pro-am': 'Pro-Am', collaboration: 'Collaboration' },
   category_type: { classic: 'Classic style', special: 'Special' },
   basis: { 'type-heuristic': 'Estimated from brewery type', 'boty-bracket': 'Brewery of the Year size bracket', estimate: 'Curated estimate', reported: 'Reported', bracket: 'Size bracket', curated: 'Curated estimate', heuristic: 'Estimated from brewery type', 'profile estimate': 'Brewery profile estimate' },
   first_time: { new: 'First medal in the loaded record', 'new-complete': 'First medal in the complete record' },

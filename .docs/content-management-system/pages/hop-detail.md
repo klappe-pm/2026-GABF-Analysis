@@ -141,7 +141,7 @@ Where: the search description of the page.
 Where: the Hops column of the medal tables and the hops table on brewery pages.
 
 - `column`: Hops
-- `none`: Not defined
+- `none`: Not Found
 - `brewery_title`: Hops in these medal beers
 - `brewery_note`: Each variety links to its page, with the farms that grow it.
 - `brewery_variety`: Hop variety

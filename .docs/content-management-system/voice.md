@@ -30,7 +30,7 @@ Every estimated figure carries `E` right after it, and the page links to Method 
 
 ## don't-ship-internal-work-product
 
-Visible copy never shows kebab case values, file names, paths, commands, column names, or instructions meant for whoever maintains the site. A raw data value always passes through the label dictionary in global/labels.yaml. If a value has no label, it reads "Not defined" until one is added.
+Visible copy never shows kebab case values, file names, paths, commands, column names, or instructions meant for whoever maintains the site. A raw data value always passes through the label dictionary in global/labels.yaml. If a value has no label, it reads "Not Found" until one is added.
 
 Don't ship agent instructions to the external projects, only the final output. Don't ship any internal documentation or planning notes. Don't ship lans, roadmaps. 
 
