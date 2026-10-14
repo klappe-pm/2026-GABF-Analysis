@@ -91,11 +91,48 @@ export type HopProfile = {
   breeder: string | null;
   alpha: { min: number; max: number } | null;
   oil: { min: number; max: number } | null;
-  aroma: { descriptors: string[]; source: string | null } | null;
-  acreage: { acres: number; year: string } | null;
+  aroma: { descriptors: string[]; source: string | null; attribution: string | null } | null;
+  // US acreage for the latest NASS year: the acres the states disclosed, their share of all US hop acres,
+  // and the states NASS withheld that year.
+  acreage: { acres: number; year: string; share: number | null; withheld: string[] } | null;
   medalBeers: number;
   farms: Farm[];
 };
+
+// The same folding scripts/lib/hop-aliases.mjs uses (normalizeHopName): case, accents, trademark marks,
+// apostrophes, and punctuation, so "Citra®", "Citra HBC 394", and "citra" meet in hop-aliases.csv.
+export const normalizeHopName = (name: unknown) => String(name ?? '')
+  .normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[®™℠©]/g, '').replace(/['’`]/g, '')
+  .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+let aliasIndex: Map<string, string> | null = null;
+let formIndex: Set<string> | null = null;
+// The canonical variety slug for a hop name as a brewery or farm publishes it, through
+// data/reference/hop-aliases.csv: an exact alias, or an alias followed by a product form ("Citra Cryo").
+export function hopVarietySlug(name: unknown): string | null {
+  if (!aliasIndex || !formIndex) {
+    aliasIndex = new Map();
+    formIndex = new Set();
+    for (const r of reference('hop-aliases.csv')) {
+      const key = r.normalized || normalizeHopName(r.alias);
+      if (r.kind === 'form') formIndex.add(key);
+      else aliasIndex.set(key, r.slug);
+    }
+  }
+  const key = normalizeHopName(name);
+  if (aliasIndex.has(key)) return aliasIndex.get(key) ?? null;
+  const tokens = key.split(' ');
+  while (tokens.length > 1) {
+    const two = tokens.slice(-2).join(' ');
+    const one = tokens[tokens.length - 1];
+    if (tokens.length > 2 && formIndex.has(two)) tokens.length -= 2;
+    else if (formIndex.has(one)) tokens.length -= 1;
+    else break;
+    const base = aliasIndex.get(tokens.join(' '));
+    if (base) return base;
+  }
+  return null;
+}
 
 const reference = (file: string) => (existsInRepo('data', 'reference', file) ? parseCsv(readRepo('data', 'reference', file)) : []);
 const pick = (row: Record<string, string>, ...keys: string[]) => keys.map((k) => row[k]?.trim()).find((v) => v) ?? null;
@@ -105,33 +142,50 @@ const numPick = (row: Record<string, string>, ...keys: string[]) => {
 };
 const range = (min: number | null, max: number | null) => (min !== null && max !== null ? { min, max } : null);
 
-// One hop variety: its reference row (data/reference/hop-varieties.csv and hop-acreage.csv, when present),
-// the 2026 medal beers that use it, and the farms that grow it (hop-farm-varieties.csv, named in hop-farms.csv).
+// One hop variety, found by its canonical slug through the alias table:
+//   identity, chemistry, and aroma from data/reference/hop-varieties.csv;
+//   acreage from hop-acreage.csv (per state) and hop-acreage-totals.csv (all US hop acres that year);
+//   the 2026 medal beers whose hops resolve to it; and the farms that list it (hop-farm-varieties.csv,
+//   named in hop-farms.csv). A field the tables leave empty stays null.
 export function hopProfile(variety: string): HopProfile {
-  const key = foldName(variety);
-  const row = reference('hop-varieties.csv').find((r) => foldName(pick(r, 'canonical_variety', 'variety', 'name')) === key) ?? null;
-  const descriptors = row ? (pick(row, 'aroma_descriptors', 'aroma', 'descriptors') ?? '').split(/[;|,]/).map((s) => s.trim()).filter(Boolean) : [];
-  const acres = reference('hop-acreage.csv')
-    .filter((r) => foldName(pick(r, 'variety', 'canonical_variety', 'name')) === key && numPick(r, 'acres', 'acreage') !== null)
-    .sort((a, b) => String(pick(b, 'year')).localeCompare(String(pick(a, 'year'))));
-  const latest = acres.length ? String(pick(acres[0], 'year') ?? '') : null;
+  const slug = hopVarietySlug(variety);
+  const row = slug ? reference('hop-varieties.csv').find((r) => r.slug === slug) ?? null : null;
+  const descriptors = row ? (pick(row, 'aroma_descriptors') ?? '').split(/[;|,]/).map((s) => s.trim()).filter(Boolean) : [];
+
+  const stateRows = slug ? reference('hop-acreage.csv').filter((r) => r.variety_slug === slug) : [];
+  const years = [...new Set(stateRows.filter((r) => numPick(r, 'acres') !== null).map((r) => r.year))].sort();
+  const latest = years.at(-1) ?? null;
+  let acreage: HopProfile['acreage'] = null;
+  if (latest) {
+    const thisYear = stateRows.filter((r) => r.year === latest);
+    const acres = thisYear.reduce((s, r) => s + (numPick(r, 'acres') ?? 0), 0);
+    const total = reference('hop-acreage-totals.csv').find((r) => r.state === 'United States' && r.year === latest);
+    const all = total ? numPick(total, 'acres') : null;
+    acreage = {
+      acres,
+      year: latest,
+      share: all ? Math.round((acres / all) * 1000) / 10 : null,
+      withheld: thisYear.filter((r) => numPick(r, 'acres') === null).map((r) => r.state).sort(),
+    };
+  }
 
   const farmRows = reference('hop-farms.csv');
-  const slugs = [...new Set(reference('hop-farm-varieties.csv').filter((r) => foldName(pick(r, 'variety_as_published', 'variety')) === key).map((r) => pick(r, 'farm') ?? '').filter(Boolean))];
-  const farms = slugs.map((slug) => {
-    const f = farmRows.find((r) => r.slug === slug);
-    return { slug, name: f?.name || slug, state: f?.state ?? '', doc: existsInRepo('docs', 'hops', 'farms', `${slug}.md`) ? `docs/hops/farms/${slug}.md` : null };
+  const farmSlugs = slug ? [...new Set(reference('hop-farm-varieties.csv').filter((r) => hopVarietySlug(r.variety_as_published) === slug).map((r) => r.farm).filter(Boolean))] : [];
+  const farms = farmSlugs.map((f) => {
+    const farm = farmRows.find((r) => r.slug === f);
+    return { slug: f, name: farm?.name || f, state: farm?.state ?? '', doc: existsInRepo('docs', 'hops', 'farms', `${f}.md`) ? `docs/hops/farms/${f}.md` : null };
   }).sort((a, b) => a.name.localeCompare(b.name));
 
+  const sources = row ? (pick(row, 'aroma_source_urls') ?? '').split('|').map((s) => s.trim()).filter(Boolean) : [];
   return {
-    variety: clean(row ? pick(row, 'canonical_variety', 'variety', 'name') : variety),
-    origin: row ? pick(row, 'origin_country', 'origin', 'country') : null,
+    variety: clean(row ? pick(row, 'canonical_variety') : variety),
+    origin: row ? pick(row, 'origin_country') : null,
     breeder: row ? pick(row, 'breeder') : null,
-    alpha: row ? range(numPick(row, 'alpha_acid_min', 'alpha_min'), numPick(row, 'alpha_acid_max', 'alpha_max')) : null,
-    oil: row ? range(numPick(row, 'total_oil_min', 'oil_min'), numPick(row, 'total_oil_max', 'oil_max')) : null,
-    aroma: descriptors.length ? { descriptors, source: row ? pick(row, 'aroma_source', 'aroma_source_url') : null } : null,
-    acreage: latest !== null ? { acres: acres.filter((r) => String(pick(r, 'year') ?? '') === latest).reduce((s, r) => s + (numPick(r, 'acres', 'acreage') ?? 0), 0), year: latest } : null,
-    medalBeers: winnerFiles().filter((f) => hopsOf(winnerData(f)).some((h) => foldName(h) === key)).length,
+    alpha: row ? range(numPick(row, 'alpha_min'), numPick(row, 'alpha_max')) : null,
+    oil: row ? range(numPick(row, 'total_oil_min'), numPick(row, 'total_oil_max')) : null,
+    aroma: descriptors.length ? { descriptors, source: sources[0] ?? null, attribution: row ? pick(row, 'aroma_attribution') : null } : null,
+    acreage,
+    medalBeers: slug ? winnerFiles().filter((f) => hopsOf(winnerData(f)).some((h) => hopVarietySlug(h) === slug)).length : 0,
     farms,
   };
 }
