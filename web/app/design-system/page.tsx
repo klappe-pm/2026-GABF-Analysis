@@ -143,14 +143,14 @@ export default function DesignSystemPage() {
     close: t('global.filters.panel.close'),
     reset: t('global.filters.panel.reset'),
     apply: t('global.filters.panel.apply'),
-    matchCount: fill(raw('global.filters.panel.match_count_many'), { count: fmt.number(results(YEAR).length) }),
+    matchCount: fill(raw('global.filters.panel.match_count_many'), { count: fmt.number(completeYears.reduce((n, y) => n + results(y).length, 0)) }),
     searchLabel: t('global.filters.search.label'),
     searchPlaceholder: t('global.filters.search.placeholder'),
     partialLabel: fill(raw('global.filters.partial_years.include'), { years: fmt.years(partialYears) }),
     partialNote: t('global.filters.partial_years.default_note'),
   };
   const all = { value: 'all', label: t('global.filters.options.all') };
-  const stateList = [...new Set(results(YEAR).map((r) => r.state))].filter(Boolean).sort();
+  const stateList = [...new Set(completeYears.flatMap((y) => results(y).map((r) => r.state)))].filter(Boolean).sort();
   const filterGroups: FilterGroup[] = [
     { key: 'when', title: t('global.filters.groups.when'), fields: [{ id: 'year', label: dimension('year'), options: [all, ...resultYears().reverse().map((y) => ({ value: String(y), label: String(y) }))] }] },
     { key: 'what', title: t('global.filters.groups.what'), fields: [{ id: 'medal', label: dimension('medal'), options: [all, ...MEDALS.map((m) => ({ value: m, label: medalNames[m] }))] }] },
