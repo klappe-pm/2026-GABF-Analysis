@@ -30,7 +30,7 @@ function SiteFooter() {
   return (
     <footer className="mt-12 bg-surface-container">
       <md-divider />
-      <p className="type-body-small mx-auto max-w-page px-4 py-6 text-on-surface-variant" data-attribution="catalog-beer">
+      <p className="type-body-small mx-auto max-w-(--app-page-max) px-(--app-margin) py-6 text-on-surface-variant" data-attribution="catalog-beer">
         {parts.map((p, i) => (LINKS[p] ? <a key={i} href={LINKS[p]} className="text-primary underline">{p}</a> : <Fragment key={i}>{p}</Fragment>))}
       </p>
     </footer>

@@ -2,7 +2,10 @@
 
 // The parts of the style guide that show the settings themselves. They read the values the page applied
 // (the built values first, then the loaded files), so every value shown is the value in use.
-import { type ReactNode, useEffect, useRef } from 'react';
+import { type ReactNode, useEffect, useRef, useState } from 'react';
+import type { IconName } from '@/components/Icon';
+import { NavigationDrawer } from '@/components/NavigationDrawer';
+import { NavigationRail } from '@/components/NavigationRail';
 import { EditableValue } from 'design-editor';
 import { DataTable } from '@/components/DataTable';
 import { useDesign, useScheme } from '@/design/runtime';
@@ -11,6 +14,42 @@ import { contrastReport, corners, typeScale } from '@/design/theme';
 import { color, labelFace, typeOf } from '@/design/helpers';
 
 const key = (plain: string) => plain.replace(/ /g, '_');
+
+// The section in view, for the navigation's current item.
+function useActiveSection(ids: string[]) {
+  const [active, setActive] = useState(ids[0]);
+  const key = ids.join('|');
+  useEffect(() => {
+    const list = key.split('|');
+    const seen = new Map<string, boolean>();
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) seen.set(e.target.id, e.isIntersecting);
+      const first = list.find((id) => seen.get(id));
+      if (first) setActive(first);
+    }, { rootMargin: '-80px 0px -60% 0px' });
+    for (const id of list) { const el = document.getElementById(id); if (el) io.observe(el); }
+    return () => io.disconnect();
+  }, [key]);
+  return active;
+}
+
+// Material's adaptive navigation around the page: tabs on compact windows (rendered by SectionTabs inside
+// the page), a navigation rail on medium and expanded windows, and on large and extra large windows the
+// navigation drawer or the rail, as "Navigation on wide screens" says. Destinations follow layout.md.
+export function AdaptiveNavigation({ label, title, items, children }: { label: string; title: string; items: { id: string; text: string; icon: IconName }[]; children: ReactNode }) {
+  const { layout, global } = useDesign();
+  const order = layout.Sections;
+  const sorted = [...items].sort((a, b) => (order.indexOf(a.id) + 1 || 999) - (order.indexOf(b.id) + 1 || 999)).map((i) => ({ ...i, href: `#${i.id}` }));
+  const active = useActiveSection(sorted.map((i) => i.id));
+  const drawer = global['Navigation on wide screens'] !== 'rail';
+  return (
+    <div className="flex">
+      <NavigationRail label={label} items={sorted} active={active} className={drawer ? 'hidden medium:flex large:hidden' : 'hidden medium:flex'} />
+      {drawer ? <NavigationDrawer label={label} title={title} items={sorted} active={active} className="hidden large:flex" /> : null}
+      <div className="min-w-0 flex-1">{children}</div>
+    </div>
+  );
+}
 
 // Children in the order a layout list gives.
 export function Ordered({ list, items }: { list: 'Sections' | 'Components'; items: { id: string; node: ReactNode }[] }) {
@@ -50,8 +89,8 @@ export function SectionTabs({ label, items }: { label: string; items: { id: stri
     return () => { tabs.removeEventListener('change', onChange); io.disconnect(); };
   }, [ids]);
   return (
-    <div className="sticky top-0 z-10 bg-surface-container">
-      <md-tabs ref={ref} aria-label={label} className="mx-auto block max-w-page" style={{ ['--md-primary-tab-container-color' as string]: 'var(--md-sys-color-surface-container)' }}>
+    <div className="sticky top-0 z-10 bg-surface-container medium:hidden" data-nav="tabs">
+      <md-tabs ref={ref} aria-label={label} className="mx-auto block max-w-(--app-page-max)" style={{ ['--md-primary-tab-container-color' as string]: 'var(--md-sys-color-surface-container)' }}>
         {sorted.map((s, i) => <md-primary-tab key={s.id} id={`tab-${s.id}`} active={i === 0 || undefined}>{s.text}</md-primary-tab>)}
       </md-tabs>
     </div>
@@ -186,7 +225,7 @@ export function ShapeTable({ caption, names, cols }: { caption: string; names: R
 
 export function ElevationRow({ levelLabel }: { levelLabel: string }) {
   return (
-    <ul className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
+    <ul className="grid grid-cols-2 gap-6 medium:grid-cols-3 expanded:grid-cols-6">
       {elevationLevels.map((n) => (
         <li key={n} className="relative flex h-24 items-end rounded-(--md-sys-shape-corner-medium) bg-surface-container-low p-3" style={{ ['--md-elevation-level' as string]: n }}>
           <md-elevation />

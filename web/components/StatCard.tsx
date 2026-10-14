@@ -9,7 +9,7 @@ import { cardSurface, labelFace, typeOf } from '@/design/helpers';
 
 export function FieldGrid({ children, label }: { children: ReactNode; label?: string }) {
   return (
-    <dl aria-label={label} className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <dl aria-label={label} className="grid grid-cols-1 gap-3 medium:grid-cols-2 expanded:grid-cols-4">
       {children}
     </dl>
   );

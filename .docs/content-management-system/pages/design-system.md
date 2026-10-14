@@ -119,6 +119,8 @@ Where: the heading of each component on the page.
 - `icon`: Icons
 - `beer_profile_card`: Beer profile card
 - `hop_profile_card`: Hop profile card
+- `navigation_rail`: Navigation rail
+- `navigation_drawer`: Navigation drawer
 
 ## `states`
 
