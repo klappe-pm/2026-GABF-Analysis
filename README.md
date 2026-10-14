@@ -23,7 +23,7 @@ An open, reproducible dataset and static dashboard site for the Great American B
 
 ## Quick start
 
-Node 20 or newer runs the pipeline and the site build; the SQLite scripts (`build-winner-db.mjs`, `build-explorer.mjs`) need Node 22 or newer, which is what CI uses.
+Use Node 22 or newer, which is what CI runs: the test suite and the SQLite scripts (`build-winner-db.mjs`, `build-explorer.mjs`) use the built in `node:sqlite` module.
 
 ```bash
 git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci && npm run build && npm run serve

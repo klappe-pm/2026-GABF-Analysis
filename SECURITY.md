@@ -13,10 +13,10 @@ Please do not open a public issue with details of a vulnerability.
 1. Preferred: report it privately through GitHub at https://github.com/klappe-pm/GABF-Analysis/security/advisories/new.
 2. If that page is not available, open a short public issue titled "Security contact request" with no details, and the maintainer will arrange a private channel.
 
-Include what you found, where (file, workflow, or page), how to reproduce it, and the impact you expect. You can expect an acknowledgement within a week and a fix or a decision within thirty days for confirmed issues.
+Include what you found, where (file, workflow, or page), how to reproduce it, and the impact you expect. This is a personal project maintained on a best effort basis; reports are acknowledged and confirmed issues are fixed as quickly as practical.
 
 ## No secrets policy
 
-- No credential, token, or private key is ever committed. Environment files, local settings, and credentials are ignored by git, and placeholder examples are the only allowed form.
-- Workflows use the built in `GITHUB_TOKEN` with the narrowest permissions they need; the site build needs no secret at all.
+- No credential, token, or private key is ever committed. Environment files (`.env`, `.env.*`) and `settings.local.json` are ignored by git; a `.env.example` with placeholder values is the only allowed form.
+- Workflows use only the built in `GITHUB_TOKEN`, with explicitly declared permissions; the site build needs no other secret.
 - If you find a secret in this repository or its history, report it privately as above. It will be treated as exposed: rotated first, then removed from history.

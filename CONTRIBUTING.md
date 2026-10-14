@@ -4,7 +4,7 @@ Thank you for helping. The most valuable contributions are data corrections back
 
 ## Set up
 
-You need Node 20 or newer, and Node 22 or newer for the SQLite scripts (`scripts/build-winner-db.mjs` and `scripts/build-explorer.mjs`). CI runs Node 22.
+You need Node 22 or newer, which is what CI runs: the test suite and the SQLite scripts (`scripts/build-winner-db.mjs` and `scripts/build-explorer.mjs`) use the built in `node:sqlite` module.
 
 ```bash
 git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci
@@ -65,4 +65,4 @@ The no dash rule also applies to code comments and chart labels.
 
 ## Pull requests
 
-Keep each pull request to one concern, describe what changed and how you verified it, and fill in the checklist in the template. The deploy-pages workflow runs the same gates on every pull request; a green run is required before merge.
+Keep each pull request to one concern, describe what changed and how you verified it, and fill in the checklist in the template. The deploy-pages workflow runs the same gates on every pull request; a green run is expected before merge.
