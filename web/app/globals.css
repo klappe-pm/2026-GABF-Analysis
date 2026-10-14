@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import "../design/tokens.css";
+
+/* State variants: each matches the live state and a data-state attribute, so the style guide can show a state statically. */
+@custom-variant state-hover (&:hover, &[data-state~="hover"]);
+@custom-variant state-active (&:active, &[data-state~="active"]);
+@custom-variant state-disabled (&:disabled, &[aria-disabled="true"], &[data-state~="disabled"]);
+
+@layer base {
+  /* Square corners and no shadows, everywhere, including browser defaults. */
+  *,
+  ::before,
+  ::after,
+  ::backdrop,
+  ::file-selector-button {
+    border-radius: var(--gabf-radius-none);
+    box-shadow: none;
+  }
+
+  html {
+    background-color: var(--gabf-color-ground);
+    color: var(--gabf-color-ink);
+    font-family: var(--gabf-font-family-sans);
+    font-size: 100%;
+    font-variant-numeric: lining-nums;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    scrollbar-color: var(--gabf-color-rule-strong) var(--gabf-color-ground);
+    accent-color: var(--gabf-color-ink);
+    caret-color: var(--gabf-color-ink);
+  }
+
+  body {
+    background-color: var(--gabf-color-ground);
+    color: var(--gabf-color-ink);
+    font-size: var(--gabf-font-size-body);
+    line-height: var(--gabf-font-line-height-relaxed);
+  }
+
+  ::selection {
+    background-color: var(--gabf-color-selection);
+    color: var(--gabf-color-ink);
+  }
+
+  :focus-visible,
+  [data-state~="focus"] {
+    outline: var(--gabf-rule-heavy) solid var(--gabf-color-focus);
+    outline-offset: var(--gabf-rule-heavy);
+  }
+
+  a {
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: var(--gabf-rule-hairline);
+  }
+
+  input,
+  select,
+  button,
+  textarea {
+    font: inherit;
+    color: inherit;
+  }
+
+  input[type="checkbox"],
+  select {
+    appearance: none;
+  }
+
+  [popover] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    overflow: visible;
+  }
+
+  dialog {
+    max-width: none;
+    max-height: none;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+  }
+
+  dialog::backdrop {
+    background-color: var(--gabf-color-ink);
+    opacity: 0.45;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      transition-duration: 0s !important;
+      animation-duration: 0s !important;
+    }
+  }
+}
+
+@layer components {
+  /* The estimate popover sits under its (E) mark where anchor positioning exists, and centers otherwise. */
+  .anchored-note {
+    inset: auto;
+    position-area: bottom span-right;
+    position-try-fallbacks: flip-block, flip-inline;
+    margin-top: var(--gabf-space-1);
+  }
+
+  /* The Filters sheet: a bottom sheet on phones, a panel under the header on wide screens. */
+  .filters-sheet {
+    position: fixed;
+    inset: auto 0 0 0;
+    width: 100%;
+    max-height: 90dvh;
+    margin: 0;
+  }
+
+  @media (width >= 48rem) {
+    .filters-sheet {
+      inset: var(--gabf-space-7) var(--gabf-space-5) auto auto;
+      width: var(--gabf-size-sheet);
+      max-height: calc(100dvh - var(--gabf-space-8));
+    }
+  }
+
+  .skeleton-line {
+    animation: skeleton-pulse 1.6s ease-in-out infinite;
+  }
+
+  @keyframes skeleton-pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.55;
+    }
+  }
+}

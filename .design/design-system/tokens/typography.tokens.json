@@ -1,0 +1,42 @@
+{
+  "$description": "Type roles. Each role is a DTCG typography token that sets family, size, weight, line height, and tracking together.",
+  "type": {
+    "$type": "typography",
+    "h1": {
+      "$description": "Page title.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.h1}", "fontWeight": "{font.weight.semibold}", "lineHeight": "{font.line-height.tight}", "letterSpacing": "{font.tracking.tight}" }
+    },
+    "h2": {
+      "$description": "Section header, set in judging green over a rule.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.h2}", "fontWeight": "{font.weight.semibold}", "lineHeight": "{font.line-height.snug}", "letterSpacing": "{font.tracking.tight}" }
+    },
+    "h3": {
+      "$description": "Subsection and component heading.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.h3}", "fontWeight": "{font.weight.semibold}", "lineHeight": "{font.line-height.snug}", "letterSpacing": "{font.tracking.normal}" }
+    },
+    "figure": {
+      "$description": "One large figure inside a form field, always with tabular lining numerals.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.figure}", "fontWeight": "{font.weight.medium}", "lineHeight": "{font.line-height.tight}", "letterSpacing": "{font.tracking.tight}" }
+    },
+    "lead": {
+      "$description": "The line under a page title.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.lead}", "fontWeight": "{font.weight.regular}", "lineHeight": "{font.line-height.normal}", "letterSpacing": "{font.tracking.normal}" }
+    },
+    "body": {
+      "$description": "Running text and notes.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.body}", "fontWeight": "{font.weight.regular}", "lineHeight": "{font.line-height.relaxed}", "letterSpacing": "{font.tracking.normal}" }
+    },
+    "data": {
+      "$description": "Table cells and control text.",
+      "$value": { "fontFamily": "{font.family.sans}", "fontSize": "{font.size.data}", "fontWeight": "{font.weight.regular}", "lineHeight": "{font.line-height.snug}", "letterSpacing": "{font.tracking.normal}" }
+    },
+    "label": {
+      "$description": "Field labels and table headers, uppercase in the narrow face.",
+      "$value": { "fontFamily": "{font.family.narrow}", "fontSize": "{font.size.label}", "fontWeight": "{font.weight.semibold}", "lineHeight": "{font.line-height.snug}", "letterSpacing": "{font.tracking.label}" }
+    },
+    "micro": {
+      "$description": "Field numbers, stamp text, and axis labels in the narrow face.",
+      "$value": { "fontFamily": "{font.family.narrow}", "fontSize": "{font.size.micro}", "fontWeight": "{font.weight.semibold}", "lineHeight": "{font.line-height.snug}", "letterSpacing": "{font.tracking.label}" }
+    }
+  }
+}

@@ -35,6 +35,19 @@ test('public facing files may use normal case headings but keep the dash and har
   assert.ok(rules.includes('hard-wrap'));
 });
 
+test('the published design system under .design/design-system/ is public facing; lookalike paths are not', () => {
+  for (const rel of ['.design/design-system/components/button/spec.md', '.design/design-system/foundations/color.md']) {
+    assert.equal(isPublicFacing(rel), true, rel);
+  }
+  for (const rel of ['.design/other/spec.md', 'design-system/spec.md', '.docs/design/design-system/notes.md', 'docs/design-system/README.md']) {
+    assert.equal(isPublicFacing(rel), false, rel);
+  }
+  const spec = ['---', 'name: button', '---', '', '## Purpose and when to use', '', 'One line paragraph.', ''].join('\n');
+  assert.deepEqual(checkMarkdown(spec, { publicFacing: isPublicFacing('.design/design-system/components/button/spec.md') }), []);
+  const rules = checkMarkdown('## Purpose\n\nWrapped onto\na second line.\n', { publicFacing: true }).map((p) => p.rule);
+  assert.ok(rules.includes('hard-wrap'));
+});
+
 test('site copy under .docs/content-management-system/ is public facing; lookalike paths elsewhere are not', () => {
   for (const rel of ['.docs/content-management-system/README.md', '.docs/content-management-system/voice.md', '.docs/content-management-system/analysis/medal-odds-by-category.md']) {
     assert.equal(isPublicFacing(rel), true, rel);

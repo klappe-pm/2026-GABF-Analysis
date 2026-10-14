@@ -36,7 +36,7 @@ const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'C
 // True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
 export function isPublicFacing(rel) {
   const path = rel.split('\\').join('/');
-  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('.docs/content-management-system/');
+  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('.docs/content-management-system/') || path.startsWith('.design/design-system/');
 }
 
 export function checkMarkdown(text, { isRootReadme = false, fileName = '', publicFacing = false } = {}) {

@@ -1,0 +1,81 @@
+{
+  "$description": "Light theme: white form stock, graphite ink. Every semantic color role, with the contrast each must meet. The dark theme file defines the same roles.",
+  "semantic": {
+    "color": {
+      "$type": "color",
+      "ground": { "$value": "{color.paper.white}", "$description": "Page and field stock." },
+      "ground-tone": { "$value": "{color.graphite.50}", "$description": "Header bands and table headers; elevation by tone." },
+      "ink": {
+        "$value": "{color.graphite.900}", "$description": "Primary text and filled controls.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }, { "against": "{semantic.color.green-tint}", "min": 4.5 }, { "against": "{semantic.color.red-tint}", "min": 4.5 }] }
+      },
+      "ink-muted": {
+        "$value": "{color.graphite.600}", "$description": "Secondary text, notes, metadata.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }] }
+      },
+      "ink-faint": {
+        "$value": "{color.graphite.500}", "$description": "Placeholder text and disabled labels.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }] }
+      },
+      "on-ink": {
+        "$value": "{color.paper.white}", "$description": "Text on an ink filled control.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ink}", "min": 4.5 }] }
+      },
+      "rule": { "$value": "{color.graphite.200}", "$description": "Hairline structure: cells, field boxes, dividers. Decorative; never the only boundary of a control." },
+      "rule-strong": {
+        "$value": "{color.graphite.500}", "$description": "Control boundaries: inputs, selects, checkboxes, outline buttons.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }, { "against": "{semantic.color.ground-tone}", "min": 3 }] }
+      },
+      "green": {
+        "$value": "{color.green.700}", "$description": "Judging green: section headers, field numbers, section rules, current navigation.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }, { "against": "{semantic.color.green-tint}", "min": 4.5 }] }
+      },
+      "green-tint": { "$value": "{color.green.100}", "$description": "Selected rows and the field number box." },
+      "red": {
+        "$value": "{color.red.600}", "$description": "Red pen: findings, annotations, errors, and status stamps. Nothing else.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }, { "against": "{semantic.color.red-tint}", "min": 4.5 }] }
+      },
+      "red-tint": { "$value": "{color.red.100}", "$description": "Ground behind an error note." },
+      "focus": {
+        "$value": "{color.green.800}", "$description": "Focus outline, 2px, offset 2px.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }, { "against": "{semantic.color.ground-tone}", "min": 3 }] }
+      },
+      "selection": { "$value": "{color.green.200}", "$description": "Text selection highlight." },
+      "gold": { "$value": "{color.metal.gold}", "$description": "Gold medal mark fill. Medals only." },
+      "silver": { "$value": "{color.metal.silver}", "$description": "Silver medal mark fill. Medals only." },
+      "bronze": { "$value": "{color.metal.bronze}", "$description": "Bronze medal mark fill. Medals only." },
+      "medal-stroke": {
+        "$value": "{color.graphite.900}", "$description": "The 1px ring around every medal mark, so a mark reads on any ground.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }, { "against": "{semantic.color.ground-tone}", "min": 3 }] }
+      },
+      "medal-letter": {
+        "$value": "{color.graphite.900}", "$description": "The G, S, or B set inside a medal mark.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.gold}", "min": 4.5 }, { "against": "{semantic.color.silver}", "min": 4.5 }, { "against": "{semantic.color.bronze}", "min": 4.5 }] }
+      },
+      "stamp": {
+        "$value": "{color.red.600}", "$description": "Status stamp ink: Partial, Not loaded, Draft, Estimate.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 4.5 }, { "against": "{semantic.color.ground-tone}", "min": 4.5 }] }
+      },
+      "series-1": {
+        "$value": "{color.graphite.700}", "$description": "Chart series 1, graphite.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }] }
+      },
+      "series-2": {
+        "$value": "{color.green.600}", "$description": "Chart series 2, judging green.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }] }
+      },
+      "series-3": {
+        "$value": "{color.ink.iron-gall}", "$description": "Chart series 3, iron gall ink.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }] }
+      },
+      "series-4": {
+        "$value": "{color.ink.sepia}", "$description": "Chart series 4, sepia ink.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }] }
+      },
+      "series-5": {
+        "$value": "{color.graphite.400}", "$description": "Chart series 5, pencil.",
+        "$extensions": { "gabf.contrast": [{ "against": "{semantic.color.ground}", "min": 3 }] }
+      }
+    }
+  }
+}
