@@ -353,7 +353,9 @@ Where: the labels and links on the beer profile card and the hop profile card.
 - `range_percent`: {{min}} to {{max}}%
 - `oil_range`: {{min}} to {{max}} mL per 100 g
 - `acreage`: US acreage
-- `acreage_value`: {{acres}} acres ({{year}})
+- `acreage_value`: {{acres}} acres in {{year}}, {{share}} of all US hop acres
+- `acreage_value_no_share`: {{acres}} acres in {{year}}
+- `acreage_withheld`: {{states}} not disclosed by NASS that year.
 - `medal_beers`: 2026 medal beers
 - `aroma`: Aroma
 - `farms`: Grower farms

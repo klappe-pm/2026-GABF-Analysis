@@ -128,13 +128,23 @@ function hopCardData(): HopCardData {
       { label: card('breeder'), value: h.breeder ?? none },
       { label: card('alpha'), value: pct(h.alpha) },
       { label: card('oil'), value: h.oil ? cardFill('oil_range', { min: fmt.one(h.oil.min), max: fmt.one(h.oil.max) }) : none },
-      { label: card('acreage'), value: h.acreage ? cardFill('acreage_value', { acres: fmt.number(h.acreage.acres), year: h.acreage.year }) : none },
+      {
+        label: card('acreage'),
+        value: h.acreage
+          ? [
+            h.acreage.share !== null
+              ? cardFill('acreage_value', { acres: fmt.number(h.acreage.acres), year: h.acreage.year, share: `${fmt.one(h.acreage.share)}%` })
+              : cardFill('acreage_value_no_share', { acres: fmt.number(h.acreage.acres), year: h.acreage.year }),
+            h.acreage.withheld.length ? cardFill('acreage_withheld', { states: fmt.years(h.acreage.withheld) }) : '',
+          ].filter(Boolean).join('. ')
+          : none,
+      },
       { label: card('medal_beers'), value: fmt.number(h.medalBeers) },
     ],
     aroma: {
       label: card('aroma'),
       text: h.aroma ? h.aroma.descriptors.join(', ') : null,
-      source: h.aroma?.source ? { href: h.aroma.source, text: cardFill('source', { site: site(h.aroma.source) }) } : undefined,
+      source: h.aroma?.source ? { href: h.aroma.source, text: cardFill('source', { site: h.aroma.attribution ?? site(h.aroma.source) }) } : undefined,
     },
     farms: {
       label: card('farms'),
