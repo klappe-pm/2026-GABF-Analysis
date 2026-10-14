@@ -4,11 +4,12 @@
 //   2. no hard-wrapped paragraphs,
 //   3. headings in lowercase kebab-case (the root README H1 may carry the project name).
 // Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG,
-// PRODUCT, and DESIGN, anything under .github/, and the site copy under content/) may use title or sentence
+// PRODUCT, and DESIGN, anything under .github/, and the site copy under .docs/content-management-system/) may use title or sentence
 // case headings; rules 1 and 2 still apply.
 // Code fences and frontmatter are skipped.
 
-import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
 import { ROOT } from './lib/paths.mjs';
 
@@ -35,7 +36,7 @@ const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'C
 // True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
 export function isPublicFacing(rel) {
   const path = rel.split('\\').join('/');
-  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('content/');
+  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('.docs/content-management-system/');
 }
 
 export function checkMarkdown(text, { isRootReadme = false, fileName = '', publicFacing = false } = {}) {
@@ -75,8 +76,23 @@ export function checkMarkdown(text, { isRootReadme = false, fileName = '', publi
   return problems;
 }
 
+// The files the repository holds: tracked Markdown plus new files git would add. Local notes git
+// ignores (such as private files under .docs/) are never committed, so they are not checked.
+// Outside a git checkout, fall back to walking the tree.
+function repositoryMarkdown() {
+  try {
+    const out = execFileSync('git', ['ls-files', '--cached', '--others', '--exclude-standard', '-z', '--', '*.md'], { cwd: ROOT, encoding: 'utf8' });
+    return [...new Set(out.split('\0').filter(Boolean))]
+      .filter((rel) => !rel.split('/').some((part) => SKIP_DIRS.has(part)))
+      .map((rel) => resolve(ROOT, rel))
+      .filter((full) => existsSync(full));
+  } catch {
+    return walk(ROOT);
+  }
+}
+
 function main() {
-  const files = walk(ROOT);
+  const files = repositoryMarkdown();
   let total = 0;
   for (const file of files) {
     const rel = relative(ROOT, file);

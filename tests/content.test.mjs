@@ -5,9 +5,9 @@ import { relative, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { parseContent } from '../scripts/lib/content-md.mjs';
 
-// The site copy in content/ is the single source of visible text. These checks keep it machine
+// The site copy in .docs/content-management-system/ is the single source of visible text. These checks keep it machine
 // readable and keep developer text and dash punctuation out of it.
-const CONTENT = resolve(ROOT, 'content');
+const CONTENT = resolve(ROOT, '.docs', 'content-management-system');
 const walk = (dir, out = []) => {
   for (const entry of readdirSync(dir)) {
     const full = resolve(dir, entry);

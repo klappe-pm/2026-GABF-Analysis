@@ -6,21 +6,32 @@ This folder holds every word the site shows: page titles, ledes, headings, chart
 
 - `voice.md`: the voice and style rules every string follows.
 - `global/`: copy shared by every page.
-  - `site.md`: site name, tagline, header chrome, footer, and the independence notice.
-  - `navigation.md`: header and footer navigation, breadcrumbs, browser tab titles, and search descriptions.
-  - `filters.md`: the one Filters control: button, panel, groups, dimension labels, search, chips, and keyboard help.
-  - `labels.md`: the one label dictionary for every value stored in the data (medals, ownership, distribution, brewery types, regions, style families, coverage and year status, estimate basis, Fed districts, demographic controls).
-  - `states.md`: shared empty, loading, error, partial data, Not defined, and Not published states.
-  - `tables.md`: column headers and table controls shared by many pages.
-  - `charts.md`: chart toolbox, table view, tooltips, units, and legends.
-  - `formats.md`: how numbers, money, rates, dates, and ranges are written, with examples.
+	- `site.md`: site name, tagline, header chrome, footer, and the independence notice.
+	- `navigation.md`: header and footer navigation, breadcrumbs, browser tab titles, and search descriptions.
+	- `filters.md`: the one Filters control: button, panel, groups, dimension labels, search, chips, and keyboard help.
+	- `labels.md`: the one label dictionary for every value stored in the data (medals, ownership, distribution, brewery types, regions, style families, coverage and year status, estimate basis, Fed districts, demographic controls).
+	- `states.md`: shared empty, loading, error, partial data, Not defined, and Not published states.
+	- `tables.md`: column headers and table controls shared by many pages.
+	- `charts.md`: chart toolbox, table view, tooltips, units, and legends.
+	- `formats.md`: how numbers, money, rates, dates, and ranges are written, with examples.
 - `pages/`: one file per page type. Each holds that page's title, lede, sections, chart titles, table columns, notes, links, and its own empty and error states.
-  - `home.md`, `results-by-year.md`, `results-by-category.md`, `category-detail.md`
-  - `breweries-index.md`, `brewery-detail.md`
-  - `beers-index.md`, `beer-detail.md`, `first-time-medalists.md`
-  - `analysis-index.md`, `analysis-report.md` (the eight ready made reports, one group each)
-  - `saved-views.md`, `method.md`, `about.md`, `not-found.md`
-  - `dashboards.md` (the current dashboards and the single file dashboard) and `explorer.md` (the research explorer); both depend on open decisions below.
+	  - `home.md`
+	  - `results-by-year.md`
+	  - `results-by-category.md`
+	  - `category-detail.md`
+	  - `breweries-index.md`
+	  - `brewery-detail.md`
+	  - `beers-index.md`
+	  - `beer-detail.md`
+	  - `first-time-medalists.md`
+	  - `analysis-index.md`
+  - `analysis-report.md`: eight ready made reports, one group each
+	  - `saved-views.md`
+	  - `method.md`
+	  - `about.md`
+	  - `not-found.md`
+  - `dashboards.md`: current dashboards and the single file dashboard
+  - `explorer.md`: the research explorer
 - `analysis/`: one markdown file per written finding, with a title and summary in the frontmatter and a short body.
 - `inventory.csv`: every string found on the current site, where it appears, and the key it became.
 
@@ -63,9 +74,11 @@ Tokens are placeholders the build fills in. The common ones:
 
 ## Open decisions
 
+Content decisions are recorded using `Content Design Records (CDR)`. Read README.MD for details. They are saved here: `/Users/kevinlappe/projects/active/gabf-analysis/.docs/cdr`. Update the metadata on the files to align with the project and ADR process. Ensure that all agent instructions file are updated with this poitner and how to apply it alongside adrs. 
+
 These need a choice before the rebuild. The files hold a working answer for each.
 
-1. Page names. The new navigation reads Results, Breweries, Beers, Analysis, and Saved views. The current site says Dashboards, Categories, Reports, and "2026 winners". The files use the new names.
+1. 
 2. Dashboards. Whether the five dashboards stay as their own section or fold into Results and Analysis. Their copy is kept in `pages/dashboards.md` either way.
 3. Explorer. It is not in the new navigation, and its style grouping differs from the site's style families. Keep it, fold it in, or drop it. Its copy is in `pages/explorer.md`.
 4. Footer credit. The current footer says "Charts by Apache ECharts", which conflicts with crediting no tools. The draft moves it to the license notice under About, Attribution.
