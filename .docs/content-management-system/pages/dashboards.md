@@ -111,15 +111,22 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 - `title`: Medals by state
 - `subtitle`: Select a state to filter by it.
 
+### `map_ranked`
+
+- `title`: States with the most medals
+- `subtitle`: The 20 states with the most medals, colored by Census region. Select a state to filter by it.
+
 ### `by_family`
 
 - `title`: Medals by style family
-- `subtitle`: Select a family to filter by it.
+- `subtitle`: Area is medals, so the biggest families are the biggest blocks. Select a family to filter by it.
+- `tip`: Categories: {{categories}}. Most medals: {{top}} ({{top_medals}}).
 
 ### `top_breweries`
 
 - `title`: Top breweries
 - `subtitle`: Ranked by points (gold 3, silver 2, bronze 1). Select a brewery to open it.
+- `total`: {{count}} points
 
 ### `by_region`
 
@@ -162,6 +169,15 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 - `title`: Hardest categories to medal in
 - `subtitle`: Entries per medal, highest first. Select a category to filter by it.
+- `note`: Entries divided by medals awarded in the category, pooled over the years in view.
+- `missing_one`: 1 medal in view has no published entry count and is left out.
+- `missing_many`: {{count}} medals in view have no published entry count and are left out.
+- `empty`: No medal in view has a published entry count.
+
+### `entry_odds_heat`
+
+- `title`: Crowding by year
+- `subtitle`: Entries per medal for each category in each year. A blank cell means the category was not offered.
 
 ### `special_share`
 
@@ -210,6 +226,17 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 - `title`: Medals awarded and winning breweries
 - `subtitle`: Brewers Association totals. A year with no published figure is blank.
+
+## `chart`
+
+Where: every dashboard chart.
+
+- `aria`: {{title}}. The same values are in the table view under the chart.
+- `loading`: Loading the medals…
+- `bin_range`: {{min}} to {{max}}
+- `bin_single`: {{min}}
+- `bin_open`: {{min}} or more
+- `ibu`: IBU
 
 ## `single_file`
 

@@ -22,6 +22,7 @@ Where: the pills under the title; type, ownership, and channel labels come from 
 
 Where: the summary tiles at the top of the page.
 
+- `title`: Summary
 - `medals`: Medals in view
 - `medal_split`: Gold, silver, bronze
 - `first_medal`: First medal in view
@@ -84,6 +85,7 @@ Where: the profile card, first block.
 - `location_kitchen`: kitchen
 - `location_map`: Map
 - `locations_missing`: {{count}} locations in the results. Addresses: Not defined.
+- `locations_missing_one`: 1 location in the results. Address: Not defined.
 - `known_for`: Known for
 - `known_for_missing`: Not defined
 - `missing`: Not defined
@@ -138,7 +140,10 @@ Where: the profile card, estimated scale block. Every figure here is an estimate
 - `per_location_note`: across {{count}} locations, E
 - `per_location_note_kitchen`: across {{count}} locations with kitchens, E
 - `per_employee`: Revenue per employee
+- `per_location_note_one`: for its one location, E
+- `per_location_note_kitchen_one`: for its one location, which has a kitchen, E
 - `method_link`: How these estimates are made
+- `assumed_note`: The brewery type is not defined, so these estimates use an assumed generic type.
 
 ## `other_competitions`
 

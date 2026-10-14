@@ -263,3 +263,4 @@ Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [In
 - The drink menu shows the same news item but no ABV, IBU or ingredients; the brewery has no individual beer pages.
 - The brewery page does not name the homebrewer; the name comes from the official winners list.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu names the Pro-Am medal only; the description on file comes from Untappd.

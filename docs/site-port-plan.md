@@ -37,13 +37,13 @@ The static build writes 1,694 pages. Counts are from the current data: 1,907 med
 
 | page | current path | count | target route | data | components | lane |
 |---|---|---|---|---|---|---|
-| Overview dashboard (home) | / | 1 | app/(site)/page.tsx | data/results.json, meta, breweries | chart-card, stat-card, data-table, tabs | dashboards |
+| Overview dashboard | / | 1 | app/(site)/overview/page.tsx (the home page at app/(site)/page.tsx replaces it at /) | data/results.json, meta, breweries | chart-card, stat-card, data-table, tabs | dashboards |
 | Dashboards index | /dashboards/ | 1 | app/(site)/dashboards/page.tsx | dashboard list copy | text-link, page-header | dashboards |
 | Geography dashboard | /dashboards/geography/ | 1 | app/(site)/dashboards/geography/page.tsx | results, meta indicators, US map geometry | chart-card, stat-card, data-table, tabs | dashboards |
 | Categories dashboard | /dashboards/categories/ | 1 | app/(site)/dashboards/categories/page.tsx | results, categories | chart-card, stat-card, data-table, tabs | dashboards |
 | Breweries dashboard | /dashboards/breweries/ | 1 | app/(site)/dashboards/breweries/page.tsx | results, breweries, hash key brewery | chart-card, select, data-table, tabs | dashboards |
 | Ownership and economics dashboard | /dashboards/economics/ | 1 | app/(site)/dashboards/economics/page.tsx | results, brewery info, estimates | chart-card, estimate-tooltip, data-table, tabs | dashboards |
-| Explorer | /explorer/ | 1 | app/(site)/explorer/page.tsx | data/results.json, meta | explorer-app, side-sheet, chips, data-table | dashboards |
+| Explorer | /explorer/ | 1 | retired: /analysis/explore/ and a redirect, built by the analysis lane | none | none | categories and analysis |
 | 2026 winners | /beers/2026/ | 1 | app/(site)/beers/[year]/page.tsx (done) | winners(2026) | data-table, medal-mark, text-link, state-card | foundation |
 | Beer detail | /beers/2026/<beer>/ | 336 | app/(site)/beers/[year]/[stem]/page.tsx (done) | beer(stem) | beer-profile-card, breadcrumb, button | foundation |
 | First time medalists | /first-time-medalists/2026/ | 1 | app/(site)/first-time-medalists/[year]/page.tsx | medal rows with first_time, ambiguous names | data-table, callout, filter-chips | breweries |
@@ -99,7 +99,7 @@ A full scale trial with stub pages for every brewery, category, hop, and hop far
 
 ## open-decisions
 
-- Home: the static site opens on the Overview dashboard at /. The CMS home.md describes a different home (a scoresheet for the latest year, a search field, a headline finding, the category index). The dashboards lane keeps the Overview at / until the owner picks one.
+- Home: decided by the owner. The home page at / is the one home.md describes (scoresheet, search, headline finding, category index) and reads the same hash filters as before, so /#year=2024 still filters. The Overview dashboard moved to /overview/ and the home page links it.
 - Analysis address: the navigation and the CMS call the reports Analysis, but their address is /reports/. The plan keeps /reports/; moving to /analysis/ would need the meta refresh pages above.
 - Method and saved views: the CMS holds copy for a Method page and a Saved views page that the static site never built. They are not in any lane until the owner asks for them; the footer links About and the source until then.
-- Explorer: the static site serves the standalone explorer file (gabf-explorer.html) at /explorer/. The dashboards lane either ports it to a page in the app or copies the file into the export at build time.
+- Explorer: decided by the owner. The explorer is retired; its unique features move to /analysis/explore/ with a redirect from /explorer/, both built by the analysis lane.
