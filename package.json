@@ -30,6 +30,7 @@
     "web:build": "npm run build --prefix web",
     "web:serve": "npm run serve --prefix web",
     "build:standalone": "node scripts/build-standalone.mjs",
+    "gallery:build": "node scripts/build-chart-gallery.mjs",
     "review:build": "GABF_FEEDBACK=1 GABF_DIST=dist-review node scripts/build-site.mjs",
     "review": "npm run review:build && node scripts/review-server.mjs",
     "review:serve": "node scripts/review-server.mjs",
