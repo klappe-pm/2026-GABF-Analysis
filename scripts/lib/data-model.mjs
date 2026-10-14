@@ -195,7 +195,8 @@ export function loadDataset({ root } = {}) {
     b.by_medal = { Gold: 0, Silver: 0, Bronze: 0 };
     for (const m of b.medals) if (b.by_medal[m.medal] !== undefined) b.by_medal[m.medal] += 1;
     b.trend = [];
-    const trendStart = Math.min(minYear, maxYear - 9);
+    // The trend starts at the first loaded year; earlier years would only read as "not loaded".
+    const trendStart = minYear;
     for (let y = trendStart; y <= maxYear; y += 1) {
       const rows = b.medals.filter((m) => m.year === y);
       let status;

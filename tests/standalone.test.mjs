@@ -60,5 +60,5 @@ test('hosted copy is content only, self-contained, and says it is hosted', async
   assert.match(hosted, /window\.GABF_DATA = /);
   assert.match(hosted, /hosted copy of the single-file build/);
   assert.ok(!/address bar so a view can be bookmarked/.test(hosted), 'no address bar promise in a sandboxed frame');
-  assert.match(hosted, /<main data-default-brewery="green cheek">/);
+  assert.match(hosted, /<main [^>]*data-default-brewery="green cheek">/);
 });

@@ -91,16 +91,15 @@
     });
     rows.forEach((r) => tbody.appendChild(r));
   }
-  document.querySelectorAll('table.sortable').forEach((table) => {
-    Array.from(table.tHead ? table.tHead.rows[0].cells : []).forEach((th, idx) => {
-      th.addEventListener('click', () => {
-        const numeric = th.classList.contains('num');
-        const current = th.getAttribute('aria-sort');
-        const dir = current === 'descending' ? 'asc' : 'desc';
-        Array.from(th.parentNode.cells).forEach((c) => c.removeAttribute('aria-sort'));
-        th.setAttribute('aria-sort', dir === 'asc' ? 'ascending' : 'descending');
-        sortTable(table, idx, numeric, dir);
-      });
-    });
+  // Delegated, so tables drawn after load (filtered views, dashboards) sort too.
+  document.addEventListener('click', (e) => {
+    const th = e.target.closest ? e.target.closest('table.sortable thead th') : null;
+    if (!th) return;
+    const table = th.closest('table');
+    const idx = Array.from(th.parentNode.cells).indexOf(th);
+    const dir = th.getAttribute('aria-sort') === 'descending' ? 'asc' : 'desc';
+    Array.from(th.parentNode.cells).forEach((c) => c.removeAttribute('aria-sort'));
+    th.setAttribute('aria-sort', dir === 'asc' ? 'ascending' : 'descending');
+    sortTable(table, idx, th.classList.contains('num'), dir);
   });
 })();
