@@ -4,10 +4,11 @@
 // Each view takes (rows, ctx): rows already narrowed to the page scope and the global filter;
 // ctx carries the relative root r, meta, the filter state, and page data.
 
-import { compact, countBy, esc, figure, humanizeHeadings, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from './charts.mjs';
+import { compact, countBy, esc, figure, gsbColumn, gsbHtml, humanizeHeadings, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from './charts.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
 import { medalRates } from './rates.mjs';
 import { emptyStateHtml, includesPartial, partialNoticeHtml, valueLabel } from './filter-bar.mjs';
+import { estMark } from './estimates.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
@@ -64,7 +65,7 @@ function barsFigure(id, title, list, { subtitle = '', color, labelWidth = 200, v
 
 function medalsByYearFigure(id, rows, years, notes, { subtitle = '', saveName = id } = {}) {
   const data = years.map((y) => ({ year: y, gold: rows.filter((x) => x.year === y && x.medal === 'Gold').length, silver: rows.filter((x) => x.year === y && x.medal === 'Silver').length, bronze: rows.filter((x) => x.year === y && x.medal === 'Bronze').length, note: notes[y] ?? '' }));
-  return figure({ id, title: 'GABF medals by year', subtitle, height: 280, option: stackedColumnsOption({ labels: years, notes: data.map((d) => d.note), series: [{ name: 'Gold', data: data.map((d) => d.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: data.map((d) => d.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: data.map((d) => d.bronze), color: MEDAL_COLORS.Bronze }], saveName }), table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'silver', label: 'Silver', numeric: true }, { key: 'bronze', label: 'Bronze', numeric: true }, { key: 'note', label: 'Status' }], data, { className: 'data-table' }) });
+  return figure({ id, title: 'GABF medals by year', subtitle, height: 280, option: stackedColumnsOption({ labels: years, notes: data.map((d) => d.note), series: [{ name: 'Gold', data: data.map((d) => d.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: data.map((d) => d.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: data.map((d) => d.bronze), color: MEDAL_COLORS.Bronze }], saveName }), table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((d) => [d.gold, d.silver, d.bronze]), { key: 'note', label: 'Status' }], data, { className: 'data-table' }) });
 }
 
 const medalSplit = (rows) => ['Gold', 'Silver', 'Bronze'].map((m) => rows.filter((x) => x.medal === m).length);
@@ -83,8 +84,8 @@ function breweryView(rows, ctx) {
     statTile({ label: 'Gold, silver, bronze', medals: medalSplit(rows) }),
     statTile({ label: 'First medal in view', value: first ? String(first) : 'none' }),
     statTile({ label: 'Categories medaled', value: String(cats), note: `${rows.filter((m) => m.special).length} in special categories` }),
-    statTile({ label: 'Estimated barrels per year', value: compact(b.barrels), note: b.basis === 'reported' ? 'reported' : 'estimate (E)' }),
-    statTile({ label: 'Estimated ARR', value: usd(b.arr), note: `EBITDA ${usd(b.ebitda)} at ${pctOf(b.ebitda_margin)} (E)` }),
+    statTile({ label: b.basis === 'reported' ? 'Barrels per year' : 'Estimated barrels per year', value: compact(b.barrels), mark: b.basis === 'reported' ? '' : estMark(b.key, 'barrels'), note: b.basis === 'reported' ? 'reported' : 'estimate' }),
+    statTile({ label: 'Estimated ARR', value: usd(b.arr), mark: estMark(b.key, 'arr'), note: `EBITDA ${usd(b.ebitda)} at ${pctOf(b.ebitda_margin)}, also an estimate` }),
   ].join('');
   const byFamily = items(countBy(rows, 'style_family'));
   const byLocation = items(countBy(rows.map((m) => ({ loc: m.brewery_location || m.city })), 'loc'));
@@ -95,18 +96,18 @@ function breweryView(rows, ctx) {
   ];
   if (byLocation.length > 1) figs.push(barsFigure('medals-by-location', 'GABF medals by location credited', byLocation, { subtitle: 'as printed in the winners list', color: 'var(--series-7)', labelWidth: 170, labelHeader: 'Location' }));
   if (byCategory.length > 1) figs.push(barsFigure('medals-by-category', 'GABF medals by category', byCategory.slice(0, 15), { labelWidth: 240, labelHeader: 'Category' }));
-  const recent = years.slice(-6).map((y) => {
+  const byYear = [...years].reverse().map((y) => {
     const ms = rows.filter((m) => m.year === y);
-    const [g, s, bz] = medalSplit(ms);
-    return `<li><span class="year">${y}</span><span>${ms.length ? `${ms.length} medal${ms.length === 1 ? '' : 's'}: ${[g ? `${g} gold` : '', s ? `${s} silver` : '', bz ? `${bz} bronze` : ''].filter(Boolean).join(', ')}` : `<span class="status">${esc(STATUS_LABELS[statusOf[y]] ?? 'No medal in view')}</span>`}</span></li>`;
-  }).join('');
+    return { year: y, medals: ms.length, split: medalSplit(ms), status: ms.length ? '' : (STATUS_LABELS[statusOf[y]] ?? 'No medal in view') };
+  });
+  const recent = tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => x.split), { key: 'status', label: 'Note', render: (x) => `<span class="muted small">${esc(x.status)}</span>` }], byYear);
   return `<div class="stats">${stats}</div>
 <div class="grid">${figs.join('')}</div>
+<h2>medals-by-year</h2>
+<div class="table-wrap">${recent}</div>
 <h2>gabf-medal-history</h2>
 <p class="small muted">Field is the number of entries in the category that year, from the official list; entries per medal divides it by the medals awarded there.</p>
-${medalTable([...rows].sort(byNewest), { r, odds: true })}
-<h2>recent-trend</h2>
-<ul class="timeline">${recent}</ul>`;
+${medalTable([...rows].sort(byNewest), { r, odds: true })}`;
 }
 
 // ---------- category page ----------
@@ -173,6 +174,7 @@ function firstTimeView(rows, ctx) {
     statTile({ label: 'First time medalists', value: String(breweries.size), note: `no medal in the loaded years before ${year}` }),
     statTile({ label: `Share of ${year} medals in view`, value: pct(fresh.length, rows.length) || '0%', note: `${fresh.length} of ${rows.length} medals` }),
     statTile({ label: 'Golds among them', value: String(g), note: `${pct(g, fresh.length) || '0%'} of their medals` }),
+    statTile({ label: 'Their gold, silver, bronze', medals: medalSplit(fresh) }),
     statTile({ label: 'First in the complete record', value: String(new Set(complete.map((x) => x.brewery_key)).size), note: 'earlier medals only in partial years' }),
   ].join('');
   const stateItems = countBy(fresh, 'state_name').slice(0, 20).map(([label, value]) => ({ label, value }));
@@ -217,12 +219,12 @@ function breweriesIndexView(rows, ctx) {
     { key: 'hq', label: 'HQ', render: (b) => esc(b.hq ?? '') },
     { key: 'brewery_type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'medals', label: 'Medals', numeric: true },
-    { key: 'gsb', label: 'G / S / B', render: (b) => `${b.g} / ${b.s} / ${b.b}` },
+    gsbColumn((b) => [b.g, b.s, b.b]),
     { key: 'points', label: 'Points', numeric: true },
     { key: 'first', label: 'First', numeric: true },
     { key: 'last', label: 'Latest', numeric: true },
     { key: 'ownership', label: 'Ownership', render: (b) => esc(valueLabel('ownership_type', b.ownership_type || 'unlisted')) },
-    { key: 'arr', label: 'ARR (E)', numeric: true, render: (b) => (b.arr ? usd(b.arr) : '') },
+    { key: 'arr', label: 'ARR (E)', numeric: true, sortValue: (b) => b.arr ?? 0, cellClass: 'est-cell', render: (b) => (b.arr ? `${usd(b.arr)} ${estMark(b.key, 'arr')}` : '') },
   ];
   return `<p class="small muted">${list.length.toLocaleString('en-US')} breweries with medals in view, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort.</p><div class="table-wrap">${tableHtml(cols, list)}</div>`;
 }
@@ -276,7 +278,7 @@ function topBreweriesView(rows, ctx) {
     { key: 'hq', label: 'HQ', render: (b) => esc(info[b.key]?.hq ?? '') },
     { key: 'points', label: 'Points', numeric: true },
     { key: 'medals', label: 'Medals', numeric: true },
-    { key: 'gsb', label: 'G / S / B', render: (b) => `${b.g} / ${b.s} / ${b.b}` },
+    gsbColumn((b) => [b.g, b.s, b.b]),
     { key: 'first', label: 'First in view', numeric: true },
     { key: 'ownership', label: 'Ownership', render: (b) => esc(valueLabel('ownership_type', info[b.key]?.ownership_type || 'unlisted')) },
   ];
@@ -284,11 +286,11 @@ function topBreweriesView(rows, ctx) {
   const streaks = Object.values(info).filter((b) => b.streak > 1).sort((a, b) => b.streak - a.streak).slice(0, 10);
   return `<div class="grid">
 ${barsFigure('top-breweries-points', 'Top 15 breweries by points', bars, { subtitle: 'medals in view', color: 'var(--series-7)', labelWidth: 220, valueName: 'Points', labelHeader: 'Brewery' })}
-<div class="card"><h2>streaks</h2><p class="small">Longest active medal streaks, consecutive loaded years through ${meta.latest_complete}. A streak needs every year, so it is computed over the full record and the filter does not change it.</p><ol class="small">${streaks.map((b) => `<li><a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>: ${b.streak} years</li>`).join('') || '<li class="muted">No multi-year streaks yet.</li>'}</ol><p class="small">Breweries whose first medal came in ${meta.latest_complete}: <a href="${r}first-time-medalists/${meta.latest_complete}/">first time medalists</a>.</p></div>
+<div class="card"><h2>streaks</h2><p class="small">Longest active medal streaks, consecutive loaded years through ${meta.latest_complete}. A streak needs every year, so it is computed over the full record and the filter does not change it.</p><ol class="small">${streaks.map((b) => `<li><a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>: ${b.streak} years</li>`).join('') || '<li class="muted">No streaks longer than one year yet.</li>'}</ol><p class="small">Breweries whose first medal came in ${meta.latest_complete}: <a href="${r}first-time-medalists/${meta.latest_complete}/">first time medalists</a>.</p></div>
 </div>
 <h2>top-50-in-view</h2>
 <div class="table-wrap">${tableHtml(cols, all)}</div>
-${perYear.map((p) => `<h2>${p.year}${p.coverage !== 'complete' ? ` <span class="pill ${esc(p.coverage)}">${esc(p.coverage)}</span>` : ''}</h2><div class="table-wrap">${tableHtml([{ key: 'name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a>` }, { key: 'points', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gsb', label: 'G / S / B', render: (x) => `${x.g} / ${x.s} / ${x.b}` }], p.list)}</div>`).join('')}`;
+${perYear.map((p) => `<h2>${p.year}${p.coverage !== 'complete' ? ` <span class="pill ${esc(p.coverage)}">${esc(p.coverage)}</span>` : ''}</h2><div class="table-wrap">${tableHtml([{ key: 'name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a>` }, { key: 'points', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => [x.g, x.s, x.b])], p.list)}</div>`).join('')}`;
 }
 
 function topCategoriesView(rows, ctx) {
@@ -345,7 +347,7 @@ function byStateView(rows, ctx) {
   const list = meta.states.map((s) => {
     const ms = rows.filter((x) => x.state === s.state);
     const rate = rates.get(s.state);
-    return { ...s, medals: ms.length, gold: ms.filter((m) => m.medal === 'Gold').length, breweries: new Set(ms.map((m) => m.brewery_key)).size, latest: ms.filter((m) => m.year === latest).length, per_million: rate?.per_million ?? 0, per_100b: rate?.per_100b_gdp ?? 0, pop_latest: ind[s.state]?.population?.[latest] ?? null };
+    return { ...s, medals: ms.length, split: medalSplit(ms), breweries: new Set(ms.map((m) => m.brewery_key)).size, latest: ms.filter((m) => m.year === latest).length, per_million: rate?.per_million ?? 0, per_100b: rate?.per_100b_gdp ?? 0, pop_latest: ind[s.state]?.population?.[latest] ?? null };
   }).filter((s) => s.medals > 0).sort((a, b) => b.medals - a.medals);
   const mapData = meta.states.map((s) => ({ name: s.name, value: list.find((x) => x.state === s.state)?.medals ?? 0 }));
   const perCap = [...list].sort((a, b) => b.per_million - a.per_million).slice(0, 20).map((s) => ({ label: s.name, value: Number(s.per_million.toFixed(2)) }));
@@ -355,7 +357,7 @@ ${barsFigure('state-medals', 'Medals by state', list.slice(0, 20).map((s) => ({ 
 ${barsFigure('state-per-capita', 'Medals per million residents', perCap, { subtitle: 'top 20, annual population estimates', color: 'var(--series-3)', valueName: 'Per million', labelHeader: 'State' })}
 </div>
 <h2>all-states-in-view</h2>
-<div class="table-wrap">${tableHtml([{ key: 'name', label: 'State' }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'latest', label: `${latest}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'pop_latest', label: `Population ${latest}`, numeric: true, render: (s) => fmt(s.pop_latest) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }, { key: 'per_100b', label: 'Per $100B real GDP', numeric: true, render: (s) => s.per_100b.toFixed(2) }], list)}</div>`;
+<div class="table-wrap">${tableHtml([{ key: 'name', label: 'State' }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((s) => s.split), { key: 'latest', label: `${latest}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'pop_latest', label: `Population ${latest}`, numeric: true, render: (s) => fmt(s.pop_latest) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }, { key: 'per_100b', label: 'Per $100B real GDP', numeric: true, render: (s) => s.per_100b.toFixed(2) }], list)}</div>`;
 }
 
 // Population and real GDP summed over the states in each Census region or division.
@@ -381,15 +383,15 @@ function byRegionView(rows, ctx) {
     const m = new Map();
     for (const x of rows) {
       const k = x[key] || '(unknown)';
-      const cur = m.get(k) ?? { name: k, medals: 0, gold: 0, breweries: new Set(), states: new Set() };
-      cur.medals += 1; if (x.medal === 'Gold') cur.gold += 1; cur.breweries.add(x.brewery_key); cur.states.add(x.state);
+      const cur = m.get(k) ?? { name: k, medals: 0, split: [0, 0, 0], breweries: new Set(), states: new Set() };
+      cur.medals += 1; const i = RANK[x.medal] - 1; if (i >= 0 && i < 3) cur.split[i] += 1; cur.breweries.add(x.brewery_key); cur.states.add(x.state);
       m.set(k, cur);
     }
     return [...m.values()].map((c) => ({ ...c, breweries: c.breweries.size, states: c.states.size, per_million: rates.get(c.name)?.per_million ?? 0 })).sort((a, b) => b.medals - a.medals);
   };
   const regions = roll('region');
   const divisions = roll('division');
-  const cols = [{ key: 'name', label: 'Name' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'states', label: 'States', numeric: true }, { key: 'per_million', label: 'Per million', numeric: true, render: (x) => x.per_million.toFixed(2) }];
+  const cols = [{ key: 'name', label: 'Name' }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => x.split), { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'states', label: 'States', numeric: true }, { key: 'per_million', label: 'Per million', numeric: true, render: (x) => x.per_million.toFixed(2) }];
   return `<div class="grid">
 ${figure({ id: 'region-medals', title: 'Medals by region', height: 220, option: barsHOption({ items: regions.map((x) => ({ label: x.name, value: x.medals })), saveName: 'medals-by-region' }), table: tableHtml(cols, regions, { className: 'data-table' }) })}
 ${figure({ id: 'division-medals', title: 'Medals by division', height: Math.max(220, 36 * divisions.length + 60), option: barsHOption({ items: divisions.map((x) => ({ label: x.name, value: x.medals })), color: 'var(--series-3)', saveName: 'medals-by-division' }), table: tableHtml(cols, divisions, { className: 'data-table' }) })}
@@ -422,12 +424,12 @@ function economicsView(rows, ctx) {
     { key: 'name', label: 'Brewery', render: (b) => `<a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>` },
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'locations', label: 'Locations', numeric: true, render: (b) => b.locations_count },
-    { key: 'barrels', label: 'Barrels (E)', numeric: true, render: (b) => fmt(b.barrels) },
+    { key: 'barrels', label: 'Barrels (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.barrels ?? 0, render: (b) => `${fmt(b.barrels)}${b.basis === 'reported' ? '' : ` ${estMark(b.key, 'barrels')}`}` },
     { key: 'basis', label: 'Volume source', render: (b) => esc(valueLabel('basis', b.basis)) },
     { key: 'cases', label: 'Case equiv.', numeric: true, render: (b) => fmt(b.cases) },
-    { key: 'arr', label: 'ARR USD (E)', numeric: true, render: (b) => usd(b.arr) },
-    { key: 'gm', label: 'Gross margin', numeric: true, render: (b) => pctOf(b.gross_margin) },
-    { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, render: (b) => usd(b.ebitda) },
+    { key: 'arr', label: 'ARR USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.arr ?? 0, render: (b) => `${usd(b.arr)} ${estMark(b.key, 'arr')}` },
+    { key: 'gm', label: 'Gross margin (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.gross_margin ?? 0, render: (b) => `${pctOf(b.gross_margin)} ${estMark(b.key, 'gross_margin')}` },
+    { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.ebitda ?? 0, render: (b) => `${usd(b.ebitda)} ${estMark(b.key, 'ebitda')}` },
     { key: 'ebitda_range', label: 'EBITDA margin range', render: (b) => `${pctOf(b.ebitda_margin_low)} to ${pctOf(b.ebitda_margin_high)}` },
     { key: 'channel', label: 'Distribution', render: (b) => esc(valueLabel('distribution_channel', b.distribution_channel || 'unknown')) },
     { key: 'ownership', label: 'Ownership', render: (b) => esc(valueLabel('ownership_type', b.ownership_type || 'unlisted')) },

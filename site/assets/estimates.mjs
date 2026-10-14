@@ -70,7 +70,7 @@ export function installEstimates({ lookup, aboutHref }) {
   document.addEventListener('click', (e) => {
     const btn = e.target.closest ? e.target.closest('.est-mark') : null;
     if (btn) { e.preventDefault(); if (owner === btn) close({ focus: true }); else open(btn); return; }
-    if (owner && !pop.contains(e.target)) close();
+    if (owner && (!pop.contains(e.target) || (e.target.closest && e.target.closest('a')))) close();
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && owner) { e.preventDefault(); close({ focus: true }); }

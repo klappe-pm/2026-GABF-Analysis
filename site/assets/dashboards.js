@@ -2,7 +2,8 @@
 // Apache ECharts figures (with table views) plus stat tiles and result tables. Which
 // panels appear is set by the page's data-dashboard attribute. Clicking a state on the
 // map, a year column, a category bar, or a brewery bar narrows or navigates.
-import { compact, countBy, esc, figure, statTile, STATUS_LABELS, tableHtml } from './charts.mjs';
+import { compact, countBy, esc, figure, gsbColumn, statTile, STATUS_LABELS, tableHtml } from './charts.mjs';
+import { estMark, installEstimates } from './estimates.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
 import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
 import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptyStateHtml, hashFor, parseHash, partialNoticeHtml, pickState, STATE_KEYS, valueLabel } from './filter-bar.mjs';
@@ -53,7 +54,7 @@ const PANELS = {
   'medals-by-year': { title: 'Medals by year', subtitle: 'stacked by medal; click a column to focus that year', build(rows) {
     const yr = yearRows(rows);
     const option = stackedColumnsOption({ labels: yr.map((r) => r.year), notes: yr.map((r) => r.note), series: [{ name: 'Gold', data: yr.map((r) => r.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: yr.map((r) => r.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: yr.map((r) => r.bronze), color: MEDAL_COLORS.Bronze }], saveName: 'medals-by-year' });
-    return { option, height: 280, onClick: (p) => setFilter('year', String(yr[p.dataIndex].year)), table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'silver', label: 'Silver', numeric: true }, { key: 'bronze', label: 'Bronze', numeric: true }, { key: 'note', label: 'Coverage' }], yr, { className: 'data-table' }) };
+    return { option, height: 280, onClick: (p) => setFilter('year', String(yr[p.dataIndex].year)), table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((r) => [r.gold, r.silver, r.bronze]), { key: 'note', label: 'Coverage' }], yr, { className: 'data-table' }) };
   } },
   map: { title: 'Medals by state', subtitle: 'click a state to focus it', build(rows) {
     const counts = countBy(rows, 'state_name');
@@ -131,7 +132,7 @@ const PANELS = {
     const trend = b.trend.filter((t) => years.has(t.year));
     const labels = trend.map((t) => t.year);
     const option = stackedColumnsOption({ labels, notes: trend.map((t) => ({ 'did-not-exist': 'not yet founded', 'not-yet-reported': 'pending', 'no-data': 'partial', 'no-results': 'not loaded', closed: 'closed' }[t.status] ?? '')), series: [{ name: 'Gold', data: trend.map((t) => t.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: trend.map((t) => t.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: trend.map((t) => t.bronze), color: MEDAL_COLORS.Bronze }], saveName: `${b.slug}-medals-by-year` });
-    return { option, height: 280, subtitle: `${b.name}, all medals in the record`, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'silver', label: 'Silver', numeric: true }, { key: 'bronze', label: 'Bronze', numeric: true }, { key: 'status', label: 'Status', render: (t) => esc(STATUS_LABELS[t.status] ?? t.status) }], trend, { className: 'data-table' }) };
+    return { option, height: 280, subtitle: `${b.name}, all medals in the record`, table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((t) => [t.gold, t.silver, t.bronze]), { key: 'status', label: 'Status', render: (t) => esc(STATUS_LABELS[t.status] ?? t.status) }], trend, { className: 'data-table' }) };
   } },
   'brewery-categories': { title: 'Brewery medals by category', build(rows) {
     const b = currentBrewery();
@@ -294,10 +295,10 @@ function renderFinancialTable(rows) {
   el.innerHTML = `<div class="table-wrap">${tableHtml([
     { key: 'name', label: 'Brewery', render: (b) => `<a href="${esc(bHref(b.slug))}">${esc(b.name)}</a>` },
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
-    { key: 'barrels', label: 'Barrels (E)', numeric: true, render: (b) => compact(b.estimate.barrels) },
-    { key: 'arr', label: 'ARR USD (E)', numeric: true, render: (b) => compact(b.financials.arr_usd) },
-    { key: 'gm', label: 'Gross margin (E)', numeric: true, render: (b) => `${Math.round(b.financials.gross_margin * 100)}%` },
-    { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, render: (b) => `${compact(b.financials.ebitda_usd)} (${Math.round(b.financials.ebitda_margin_low * 100)} to ${Math.round(b.financials.ebitda_margin_high * 100)}%)` },
+    { key: 'barrels', label: 'Barrels (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.estimate.barrels, render: (b) => `${compact(b.estimate.barrels)}${b.estimate.basis === 'reported' ? '' : ` ${estMark(b.key, 'barrels')}`}` },
+    { key: 'arr', label: 'ARR USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.arr_usd, render: (b) => `${compact(b.financials.arr_usd)} ${estMark(b.key, 'arr')}` },
+    { key: 'gm', label: 'Gross margin (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.gross_margin, render: (b) => `${Math.round(b.financials.gross_margin * 100)}% ${estMark(b.key, 'gross_margin')}` },
+    { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.ebitda_usd, render: (b) => `${compact(b.financials.ebitda_usd)} (${Math.round(b.financials.ebitda_margin_low * 100)} to ${Math.round(b.financials.ebitda_margin_high * 100)}%) ${estMark(b.key, 'ebitda')}` },
     { key: 'channel', label: 'Distribution', render: (b) => esc(valueLabel('distribution_channel', b.distribution_channel || 'unknown')) },
     { key: 'ownership', label: 'Ownership', render: (b) => (b.ownership ? `${esc(valueLabel('ownership_type', b.ownership.type))}${b.ownership.parent ? ` (${esc(b.ownership.parent)})` : ''}` : `<span class="muted">${esc(valueLabel('ownership_type', 'unlisted'))}</span>`) },
     { key: 'basis', label: 'Volume source', render: (b) => esc(valueLabel('basis', b.estimate.basis)) },
@@ -399,6 +400,11 @@ async function init() {
   state.meta = meta;
   state.breweries = breweries;
   state.rows = decorateRows(results, meta);
+  // The single file has no app.mjs: it explains its (E) marks from the embedded brewery data.
+  if (STANDALONE) {
+    const byKey = new Map(breweries.map((b) => [b.key, b.explain]));
+    installEstimates({ lookup: async (key) => byKey.get(key) ?? null, aboutHref: '#tab=about' });
+  }
   ctl.setData({ rows: state.rows, meta });
   state.filters = pageKeys(parseHash(location.hash));
   state.defaultBrewery = document.querySelector('[data-default-brewery]')?.dataset.defaultBrewery || breweries[0]?.key;

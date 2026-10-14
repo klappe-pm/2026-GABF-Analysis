@@ -267,12 +267,9 @@ table.sortable th:focus-visible { outline-offset: -2px; }
 }
 
 /* stat tile with a gold, silver, bronze split */
-.stat-medals { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 1.35rem; line-height: 1.3; padding-top: 4px; font-variant-numeric: tabular-nums; }
-.stat-medals > span { white-space: nowrap; }
+.stat-medals { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .stats { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
 .stat:has(.stat-medals) { grid-column: span 2; }
-.stat-medals { flex-wrap: nowrap; gap: 14px; font-size: 1.6rem; }
-.stat-medals .badge-medal { width: 9px; height: 9px; margin-right: 5px; vertical-align: 3px; }
 .stat-value { font-variant-numeric: tabular-nums; }
 .stats { align-items: stretch; }
 .grid, .grid.two { align-items: stretch; }
@@ -298,6 +295,21 @@ table.sortable th:focus-visible { outline-offset: -2px; }
 .spec-number { font-size: 1.6rem; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.2; }
 .spec-kv { grid-template-columns: 76px 1fr; row-gap: 10px; }
 .spec-card > p { margin-bottom: 0; }
+/* medal split "4-4-2" and the (E) estimate mark with its popover */
+.gsb, .gsb-cell { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.est-cell { white-space: nowrap; }
+.est-mark { font: inherit; font-size: 0.78em; font-weight: 600; line-height: 1; color: var(--link); background: transparent; border: 1px solid var(--control-border); border-radius: 999px; padding: 2px 5px; margin-left: 2px; cursor: pointer; vertical-align: 0.1em; min-height: 24px; min-width: 24px; }
+.est-mark[aria-expanded="true"] { background: var(--link); color: var(--card); border-color: var(--link); }
+.stat-value .est-mark { font-size: 0.42em; vertical-align: 0.45em; }
+.est-popover { position: absolute; z-index: 70; background: var(--card); color: var(--text-primary); border: 1px solid var(--control-border); border-radius: 10px; padding: 12px 14px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18); font-size: 0.9rem; line-height: 1.45; text-align: left; white-space: normal; }
+.est-popover:focus { outline: 2px solid var(--focus); outline-offset: 2px; }
+.est-popover p { margin: 0 0 8px; }
+.est-pop-title { font-weight: 600; }
+.est-inputs { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 0 0 8px; font-size: 0.85rem; }
+.est-inputs dt { color: var(--text-secondary); }
+.est-inputs dd { margin: 0; }
+.est-pop-foot { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0 !important; }
+
 /* global filter: header trigger, chips under the header, the panel, empty and loading states */
 .filter-trigger { border: 1px solid var(--control-border); background: var(--card); color: var(--text-primary); border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 0.9rem; }
 .filter-trigger .filter-count { font-weight: 600; }
