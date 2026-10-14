@@ -2,6 +2,7 @@
 
 // The two reports about breweries that follow the global filter: the top breweries by points, and the
 // estimated economics of every medalist in view.
+import type { ReactNode } from 'react';
 import { type Column, DataTable, type Row as TableRow } from '@/components/DataTable';
 import { SectionHeader } from '@/components/SectionHeader';
 import { StateCard } from '@/components/StateCard';
@@ -13,6 +14,7 @@ import { aggregateBreweries, CHART_BREWERIES, TOP_BREWERIES, yearsInView } from 
 import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { BreweryInfo } from '@/lib/models/analysis.mjs';
 import { BarCard } from '@/app/(site)/analysis/parts/charts';
+import { LazyEstimate } from '@/app/(site)/analysis/parts/LazyEstimate';
 import { fill, num, percent, usd, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 type Meta = { years: number[]; coverage: Record<string, string>; latestComplete: number };
@@ -108,6 +110,7 @@ export type EconomicsCopy = {
   channels: Record<string, string>;
   ownership: Record<string, string>;
   range: string;
+  estimate: { marker: string; linkText: string; loading: string; failed: string; labels: Record<'barrels' | 'cases' | 'arr' | 'gross_margin' | 'ebitda' | 'ebitda_range', string> };
 };
 
 export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: Row[]; info: Record<string, BreweryInfo>; copy: EconomicsCopy; firstCompleteYear: number | null }) {
@@ -130,6 +133,14 @@ export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: R
     { key: 'distribution', label: copy.columns.distribution, sortable: true },
     { key: 'ownership', label: copy.columns.ownership, sortable: true },
   ];
+  // Every estimated figure carries an (E) that loads how it was made when opened. Barrels and cases are estimates
+  // unless the brewery reported its production.
+  const mark = (b: BreweryInfo, metric: string, label: keyof EconomicsCopy['estimate']['labels'], figure: ReactNode, always = true) => (
+    <span className="inline-flex items-center gap-1">
+      {figure}
+      {always || b.basis !== 'reported' ? <LazyEstimate slug={b.slug} metric={metric} id={`est-${b.slug}-${label}`} copy={{ marker: copy.estimate.marker, label: copy.estimate.labels[label], linkText: copy.estimate.linkText, loading: copy.estimate.loading, failed: copy.estimate.failed }} /> : null}
+    </span>
+  );
   const table: TableRow[] = list.map((b) => ({
     key: b.key,
     sort: { brewery: b.name, type: copy.types[b.brewery_type] ?? '', locations: b.locations_count, barrels: b.barrels, basis: copy.basis[b.basis] ?? b.basis, cases: b.cases, arr: b.arr, grossMargin: b.gross_margin, ebitda: b.ebitda, distribution: copy.channels[b.distribution_channel || 'unknown'] ?? '', ownership: copy.ownership[b.ownership_type || 'unlisted'] ?? '' },
@@ -137,13 +148,13 @@ export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: R
       brewery: <TextLink href={href(paths.brewery(b.slug))}>{b.name}</TextLink>,
       type: copy.types[b.brewery_type] ?? '',
       locations: b.locations_count,
-      barrels: num(b.barrels),
+      barrels: mark(b, 'barrels', 'barrels', num(b.barrels), false),
       basis: copy.basis[b.basis] ?? b.basis,
-      cases: num(b.cases),
-      arr: usd(b.arr),
-      grossMargin: percent(b.gross_margin),
-      ebitda: usd(b.ebitda),
-      ebitdaRange: fill(copy.range, { min: percent(b.ebitda_margin_low), max: percent(b.ebitda_margin_high) }),
+      cases: mark(b, 'barrels', 'cases', num(b.cases), false),
+      arr: mark(b, 'arr', 'arr', usd(b.arr)),
+      grossMargin: mark(b, 'gross_margin', 'gross_margin', percent(b.gross_margin)),
+      ebitda: mark(b, 'ebitda', 'ebitda', usd(b.ebitda)),
+      ebitdaRange: mark(b, 'ebitda', 'ebitda_range', fill(copy.range, { min: percent(b.ebitda_margin_low), max: percent(b.ebitda_margin_high) })),
       distribution: copy.channels[b.distribution_channel || 'unknown'] ?? '',
       ownership: copy.ownership[b.ownership_type || 'unlisted'] ?? '',
     },

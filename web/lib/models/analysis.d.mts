@@ -81,3 +81,6 @@ export const TRAITS: Record<string, RegExp>;
 export function traitsOf(categoryName: string): string[];
 export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[] };
 export function exploreRows(): ExploreRow[];
+
+export function estimateSlugs(): string[];
+export function estimateFacts(slug: string): { slug: string; name: string; facts: import('./breweries.mjs').EstimateFacts } | null;

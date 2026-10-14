@@ -108,6 +108,8 @@ Where: the economics report.
 - `chart_title`: Estimated ARR by Brewery (E)
 - `chart_subtitle`: Top 15 medalists in view
 - `table_title`: All Medalists in View
+- `estimate_loading`: Loading how this estimate was made.
+- `estimate_failed`: The estimate details could not be loaded. Try again later.
 
 ### `columns`
 

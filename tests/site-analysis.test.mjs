@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { categoryIndex, loadDataset } from '../scripts/lib/data-model.mjs';
 import { groupIndicators as staticGroups, oddsItems as staticOdds } from '../site/assets/page-views.mjs';
 import { applyFilters } from '../web/lib/filter-model.mjs';
-import { about, awardsTable, category, categoryCount, categoryRows, info, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
+import { about, awardsTable, category, categoryCount, categoryRows, info, estimateFacts, estimateSlugs, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
 import { aggregateBreweries, categoryRollup, familySeries, groupIndicators, groupRollup, medalSplit, movers, oddsItems, ownershipRollup, stateRollup, TREND_FAMILIES, yearsInView } from '../web/lib/models/analysis-calc.mjs';
 import { categoryParams } from '../web/lib/site-model.mjs';
 
@@ -151,4 +151,14 @@ test('a category lists the beer profiles of its latest medalists in medal order'
     assert.deepEqual(medals, [...medals].sort((a, b) => rank[a] - rank[b]), c.name);
     assert.ok(c.rows.filter((r) => r.stem && r.year === 2026).length >= c.cardStems.length);
   }
+});
+
+test('every brewery with medals has the facts behind its estimated figures, found by slug', () => {
+  const slugs = estimateSlugs();
+  assert.equal(new Set(slugs).size, slugs.length);
+  assert.equal(slugs.length, ds.breweries.filter((b) => b.medals.length).length);
+  const one = estimateFacts(slugs[0]);
+  assert.equal(one.slug, slugs[0]);
+  for (const k of ['basis', 'barrels', 'perType', 'locations', 'channel', 'fin', 'revenue']) assert.ok(k in one.facts, k);
+  assert.equal(estimateFacts('no-such-brewery'), null);
 });

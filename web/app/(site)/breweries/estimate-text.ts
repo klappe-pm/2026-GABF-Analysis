@@ -50,24 +50,32 @@ function arrText(e: EstimateFacts, c: EstimateCopy) {
   return `${beer}${food}`;
 }
 
+// What an estimate used, one label and value per input.
+export function inputItems(e: EstimateFacts, c: EstimateCopy): { label: string; value: string }[] {
+  const t = c.templates;
+  const kitchen = e.kitchen === null ? fill(t.value_kitchen_unknown, { not_found: c.notDefined }) : c.yesNo[e.kitchen ? 'yes' : 'no'];
+  return [
+    { label: t.input_barrels, value: fill(t.value_barrels, { barrels: n(e.barrels), basis: lower(c.basis[e.basis] ?? e.basis).replace(/\s*\(e\)$/, '') }) },
+    { label: t.input_type, value: e.assumed ? fill(t.value_type_assumed, { not_found: c.notDefined }) : c.types[e.type ?? ''] ?? c.notDefined },
+    { label: t.input_locations, value: String(e.locations) },
+    { label: t.input_kitchen, value: kitchen },
+    { label: t.input_distribution, value: e.channel ? c.channels[e.channel] ?? c.notDefined : c.notDefined },
+    { label: t.input_employees, value: e.employees ? n(e.employees) : c.notDefined },
+  ];
+}
+
 function inputsText(e: EstimateFacts, c: EstimateCopy) {
   const t = c.templates;
-  const item = (label: string, value: string) => fill(t.input_item, { label, value });
-  const kitchen = e.kitchen === null ? fill(t.value_kitchen_unknown, { not_found: c.notDefined }) : c.yesNo[e.kitchen ? 'yes' : 'no'];
-  return fill(t.inputs, {
-    items: [
-      item(t.input_barrels, fill(t.value_barrels, { barrels: n(e.barrels), basis: lower(c.basis[e.basis] ?? e.basis).replace(/\s*\(e\)$/, '') })),
-      item(t.input_type, e.assumed ? fill(t.value_type_assumed, { not_found: c.notDefined }) : c.types[e.type ?? ''] ?? c.notDefined),
-      item(t.input_locations, String(e.locations)),
-      item(t.input_kitchen, kitchen),
-      item(t.input_distribution, e.channel ? c.channels[e.channel] ?? c.notDefined : c.notDefined),
-      item(t.input_employees, e.employees ? n(e.employees) : c.notDefined),
-    ].join('; '),
-  });
+  return fill(t.inputs, { items: inputItems(e, c).map((i) => fill(t.input_item, i)).join('; ') });
 }
 
 // The explanation shown in an estimate tooltip: how the figure was made, then the inputs behind it.
 export function explain(metric: Metric, facts: EstimateFacts | IndexEstimate, c: EstimateCopy): string {
+  return `${explainFigure(metric, facts, c)} ${inputsText(facts as EstimateFacts, c)}`;
+}
+
+// How the figure was made, without the inputs list.
+export function explainFigure(metric: Metric, facts: EstimateFacts | IndexEstimate, c: EstimateCopy): string {
   const t = c.templates;
   const e = facts as EstimateFacts;
   const f = e.fin;
@@ -81,7 +89,7 @@ export function explain(metric: Metric, facts: EstimateFacts | IndexEstimate, c:
     case 'per_location': body = fill(t.per_location, { arr: usd(f.arr), count: e.locations }); break;
     default: body = fill(t.per_employee, { arr: usd(f.arr), employees: n(e.employees ?? 0) });
   }
-  return `${body} ${inputsText(e, c)}`;
+  return body;
 }
 
 export const markLabel = (metric: Metric, c: EstimateCopy) => fill(c.templates.mark_label, { metric: c.metrics[metric] });

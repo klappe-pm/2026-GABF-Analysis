@@ -20,6 +20,8 @@ import { num } from '@/app/(site)/analysis/parts/format';
 import { EconomicsView, TopBreweriesView } from './BreweryViews';
 import { TopCategoriesView } from './CategoryViews';
 import { OwnershipView, TrendsView } from './OwnershipTrendsViews';
+import { estimateCopy } from '@/app/(site)/breweries/copy';
+import { markLabel } from '@/app/(site)/breweries/estimate-text';
 import { ByRegionView, ByStateView } from './PlaceViews';
 
 type Params = { slug: string };
@@ -225,6 +227,16 @@ export default async function ReportPage({ params }: { params: Promise<Params> }
           channels,
           ownership: ownershipNames,
           range: t('global.tables.category_columns.abv_value', { min: '{{min}}', max: '{{max}}' }),
+          estimate: {
+            marker: t('global.states.estimates.marker'),
+            linkText: t('pages.breweries-index.table.method_link'),
+            loading: t(R('estimate_loading')),
+            failed: t(R('estimate_failed')),
+            labels: {
+              barrels: markLabel('barrels', estimateCopy()), cases: markLabel('barrels', estimateCopy()), arr: markLabel('arr', estimateCopy()),
+              gross_margin: markLabel('gross_margin', estimateCopy()), ebitda: markLabel('ebitda', estimateCopy()), ebitda_range: markLabel('ebitda', estimateCopy()),
+            },
+          },
         }}
       />
     );

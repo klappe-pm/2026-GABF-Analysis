@@ -4,6 +4,7 @@
 
 import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
 import { slugify } from '../../../scripts/lib/slug.mjs';
+import { estimateOf } from './breweries.mjs';
 import { filterRow, legacyCategoryNames, site, WINNER_YEAR } from '../site-model.mjs';
 
 export const REPORTS = [
@@ -218,4 +219,14 @@ export function exploreRows() {
     investor: investor.get(r.brewery_key) ?? null,
     traits: traitsOf(r.category_name),
   }));
+}
+
+// ---------- estimates ----------
+
+// The facts behind one brewery's estimated figures, for the file its economics row loads when an (E) is opened.
+export const estimateSlugs = () => site().ds.breweries.filter((b) => b.medals.length).map((b) => b.slug);
+export function estimateFacts(slug) {
+  const { ds } = site();
+  const b = ds.breweries.find((x) => x.slug === slug && x.medals.length);
+  return b ? { slug: b.slug, name: b.name, facts: estimateOf(b, ds.params) } : null;
 }
