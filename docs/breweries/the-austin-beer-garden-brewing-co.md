@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "American Pilsener"
-  - "German-Style Pilsener"
+  - "German Pilsener"
   - "Honey Beer"
 city: "Austin"
 employees: null

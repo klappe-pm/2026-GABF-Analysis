@@ -24,8 +24,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
-  - "Belgian-Style Witbier"
+  - "Belgian Strong Specialty Ale"
+  - "Belgian Witbier"
   - "Rye Beer"
   - "Rye Beers"
   - "Strong Porter"

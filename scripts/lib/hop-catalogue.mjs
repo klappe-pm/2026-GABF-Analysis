@@ -408,7 +408,7 @@ export const CATALOGUE = [
     note: 'NASS acreage is for U.S. grown Saaz; Czech grown Saaz named in a profile is the same variety but has no NASS figure.',
   },
   {
-    canonical: 'Hallertauer Mittelfruh', aliases: ['Hallertau Mittelfruh', 'Hallertauer Mittelfruher', 'Mittelfruh', 'Hallertauer Mittelfrueh', 'Hallertau Mittelfrueh'], origin: 'Germany', program: 'German landrace', status: 'public', nass: 'Hallertauer Mittelfruher',
+    canonical: 'Hallertauer Mittelfruh', aliases: ['Hallertau', 'Hallertauer', 'German Hallertau Mittlefruh', 'Hallertau Mittelfruh', 'Hallertauer Mittelfruher', 'Mittelfruh', 'Hallertauer Mittelfrueh', 'Hallertau Mittelfrueh'], origin: 'Germany', program: 'German landrace', status: 'public', nass: 'Hallertauer Mittelfruher',
     parentage: 'Classic German landrace variety', yearChecked: 'A landrace; the John I. Haas sheet gives no release year.',
     chem: { a: '3.0-5.5', b: '3.0-5.0', c: '18-28', o: '0.7-1.3', my: '20-28', hu: '45-55', ca: '10-15', fa: '<1' },
     aroma: { text: 'Sage, rosemary, lavender, pine.', by: 'John I. Haas variety sheet' },
@@ -624,6 +624,16 @@ export const CATALOGUE = [
     src: { id: ['https://kegland.com.au/products/peacharine-500g-pellet-hop'], chem: ['https://kegland.com.au/products/peacharine-500g-pellet-hop'], aroma: ['https://kegland.com.au/products/peacharine-500g-pellet-hop'] },
     chemChecked: 'Beta acids, cohumulone, total oil and oil components: the retailer lists only alpha (9.0 percent, single value); a trade magazine summary reported 7.4 alpha and 6.5 beta but the page was not read.',
     note: 'The only source read is a retailer listing, which is secondary. Retailer purpose: dual purpose.',
+  },
+  {
+    canonical: 'Ariana', aliases: [], origin: 'Germany', program: 'Hop Research Center Hüll', status: 'not published',
+    year: '2016', yearNote: 'Launch year per the Hüll variety page; the cross was made in 2009.',
+    parentage: 'Herkules (mother) crossed with 3W 42-30-38 (father), per the Hüll variety page',
+    published: 'aroma variety (Hüll variety page)', usePublished: 'aroma',
+    chem: { a: '9.7', c: '41', o: '1.3' },
+    src: { id: ['https://www.hopfenforschung.de/en/sorte/ariana/'], chem: ['https://www.hopfenforschung.de/en/sorte/ariana/'], aroma: [] },
+    chemChecked: 'Beta acids, myrcene, humulene, caryophyllene and farnesene: the Hüll page gives only ratios (beta to alpha 0.5, caryophyllene to humulene 0.29) and farnesene as below 0.5 mg per 100 g, not ranges in the units used here; alpha is a single value.',
+    aromaChecked: 'The Hüll page shows aroma only as graphics that could not be read, so no descriptors are recorded.',
   },
   {
     canonical: 'Galaxy', aliases: ['Galaxy Cryo'], origin: 'Australia', program: 'Hop Products Australia (Tasmania and Victoria)', trademark: 'Galaxy (registered, per Hop Products Australia)', status: 'proprietary',

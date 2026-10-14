@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Tripel"
+  - "Belgian Tripel"
   - "Fruit Wheat Beer"
 city: "Reno"
 employees: null

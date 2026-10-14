@@ -202,12 +202,12 @@ Club Haus is a light lager from Barebottle Brewing Co., a San Francisco brewery 
 |---|---|---|
 | Style | Lager | [iPourIt: Barebottle beers](https://www.ipourit.com/beer/Barebottle-Brewing-Co) |
 | ABV | 4.3% | [iPourIt: Barebottle beers](https://www.ipourit.com/beer/Barebottle-Brewing-Co) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -215,7 +215,7 @@ The brewery publishes no description of Club Haus on any page that could be read
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -223,17 +223,17 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -269,8 +269,8 @@ Links checked 2026-10-14: [Website](https://www.barebottle.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/beer-beyond), [barebottle.com](https://www.barebottle.com/bernal-heights-brewery-taproom), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/salesforce-park-beer-garden), [ipourit.com](https://www.ipourit.com/beer/Barebottle-Brewing-Co), web searches recorded in the research notes.
-- Not published: IBU. Checked [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/beer-beyond), [barebottle.com](https://www.barebottle.com/bernal-heights-brewery-taproom), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/salesforce-park-beer-garden), [ipourit.com](https://www.ipourit.com/beer/Barebottle-Brewing-Co), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/beer-beyond), [barebottle.com](https://www.barebottle.com/bernal-heights-brewery-taproom), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/salesforce-park-beer-garden), [ipourit.com](https://www.ipourit.com/beer/Barebottle-Brewing-Co), web searches recorded in the research notes.
+- Not Found: IBU. Checked [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/beer-beyond), [barebottle.com](https://www.barebottle.com/bernal-heights-brewery-taproom), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/salesforce-park-beer-garden), [ipourit.com](https://www.ipourit.com/beer/Barebottle-Brewing-Co), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

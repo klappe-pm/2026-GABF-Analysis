@@ -198,47 +198,47 @@ Coral Crush is a hop-forward beer from Alma Mader Brewing of Kansas City, Missou
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Extra Pale Ale | [Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| ABV | 6% | [Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| IBU | not published | none found |
-| Hops | Krush, Mosaic, Nelson Sauvin, Simcoe | [Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Extra Pale Ale | [Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| ABV | 6% | [Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| IBU | Not Found | Not Found |
+| Hops | Krush, Mosaic, Nelson Sauvin, Simcoe | [Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > This crusher packs the punch of West Coast IPA
 
-Source: [Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)
+Source: [Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The named varieties appear in the specs table; the listing gives no malt bill or yeast strain ([Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)).
+The named varieties appear in the specs table; the listing gives no malt bill or yeast strain ([Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)).
 
 ## hop-profile
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| Krush | Krush | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| Nelson Sauvin | Nelson Sauvin | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -271,15 +271,15 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 - [Alma Mader Brewing](https://www.almamaderbrewing.com/)
 - [Alma Mader: beer](https://almamaderbrewing.com/beer/)
-- [Untappd: Alma Mader beer list](https://untappd.com/AlmaMaderBrewing/beer)
+- [Untappd (hand-read citation): Alma Mader beer list](https://untappd.com/AlmaMaderBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Alma Mader: awards](https://almamaderbrewing.com/about/)
-- [Untappd: Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)
+- [Untappd (hand-read citation): Coral Crush](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

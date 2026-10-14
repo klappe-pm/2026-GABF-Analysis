@@ -178,14 +178,14 @@ Nachtkrapp is a schwarzbier from Ogopogo Brewing in San Gabriel, California, nam
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Schwarzbier | [Untappd: Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer) |
-| ABV | 5.5% | [Untappd: Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Schwarzbier | [Untappd (hand-read citation): Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer) |
+| ABV | 5.5% | [Untappd (hand-read citation): Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -193,11 +193,11 @@ Nachtkrapp is a schwarzbier from Ogopogo Brewing in San Gabriel, California, nam
 
 The rest of the Untappd text retells the legend and says nothing about the beer.
 
-Source: [Untappd: Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer)
+Source: [Untappd (hand-read citation): Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -205,17 +205,17 @@ Nothing about the ingredients is published on any page that could be read. A 202
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -243,15 +243,15 @@ Links checked 2026-10-14: [Website](https://www.ogopogobrewing.com/), [Instagram
 
 - [Ogopogo Brewing](https://www.ogopogobrewing.com/)
 - [Ogopogo: beer](https://www.ogopogobrewing.com/beer)
-- [Untappd: Ogopogo Brewing](https://untappd.com/OgopogoBrewing)
-- [Untappd: Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer)
+- [Untappd (hand-read citation): Ogopogo Brewing](https://untappd.com/OgopogoBrewing)
+- [Untappd (hand-read citation): Ogopogo beer list](https://untappd.com/w/ogopogo-brewing/369566/beer)
 - [Hopped: best local beers of 2021](https://hopped.com/?p=28726)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes.
+- Not Found: IBU. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

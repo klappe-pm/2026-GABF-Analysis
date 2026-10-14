@@ -189,8 +189,8 @@ Conehead Zero is a non-alcoholic IPA from Zero Gravity Craft Brewery of Burlingt
 | IBU | listed as N/A | [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadzero) |
 | Hops | Motueka, Simcoe, Strata, Nelson Sauvin | [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadzero) |
 | Malts and grains | Canada Maltage Superior Pilsner, Weyermann Vienna, oats | [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadzero) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 12 oz cans in six packs | [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadzero) |
 
 ## brewery-description
@@ -213,20 +213,20 @@ The brewery publishes four hops and a grist of Canada Maltage Superior Pilsner m
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Motueka | Motueka | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
-| Simcoe | Simcoe | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
-| Strata | Strata | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Motueka | Motueka | Not Found | Not Found | Not Found | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Nelson Sauvin | Nelson Sauvin | Not Found | Not Found | Not Found | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Strata | Strata | Not Found | Not Found | Not Found | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -256,15 +256,15 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## links
 
-- [Untappd: Conehead Zero](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796)
+- [Untappd (hand-read citation): Conehead Zero](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796)
 - [Beer page on brewery site](https://www.zerogravitybeer.com/coneheadzero)
 - [Zero Gravity Craft Brewery](https://www.zerogravitybeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
 
 ## research-notes
 

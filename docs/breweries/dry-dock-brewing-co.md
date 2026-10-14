@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Aurora"
 employees: null
 farms-named: []

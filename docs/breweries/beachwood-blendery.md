@@ -22,7 +22,6 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Belgian Fruit Beer"
-  - "Belgian-Style Fruit Beer"
 city: "Long Beach"
 employees: null
 farms-named: []

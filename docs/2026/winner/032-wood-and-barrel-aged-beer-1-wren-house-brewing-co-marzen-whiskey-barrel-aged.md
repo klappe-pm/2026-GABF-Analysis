@@ -166,45 +166,45 @@ Marzen (Whiskey Barrel Aged) is a whiskey barrel aged version of the Märzen lag
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Whiskey barrel aged Märzen | [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| ABV | 5.6% | [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| IBU | not published | none found |
-| Hops | Hallertauer Mittelfrüh, Tradition | [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| Malts and grains | German base and specialty malts (products not named) | [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | 30 days in 1924 Old Forester bourbon barrels | [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Style | Whiskey barrel aged Märzen | [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| ABV | 5.6% | [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| IBU | Not Found | Not Found |
+| Hops | Hallertauer Mittelfrüh, Tradition | [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Malts and grains | German base and specialty malts (products not named) | [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | 30 days in 1924 Old Forester bourbon barrels | [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
 
 ## brewery-description
 
 > Our classic Märzen takes a turn through the barrelhouse.
 
-Source: [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
+Source: [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The whiskey variant's own description explicitly confirms the traditional recipe. The named hops and broad malt groups are recorded above; no specific malt products or yeast strain are published. [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
+The whiskey variant's own description explicitly confirms the traditional recipe. The named hops and broad malt groups are recorded above; no specific malt products or yeast strain are published. [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
 
 ## hop-profile
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertauer Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| Tradition | Hallertauer Tradition | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Hallertauer Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Tradition | Hallertauer Tradition | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -231,15 +231,15 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 
 ## links
 
-- [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
+- [Untappd (hand-read citation): whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
 - [Wren House Brewing Co.](https://www.wrenhousebrewing.com/)
 - [Wren House: on tap](https://www.wrenhousebrewing.com/on-tap)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes.
-- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

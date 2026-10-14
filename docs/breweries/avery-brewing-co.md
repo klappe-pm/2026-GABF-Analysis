@@ -22,9 +22,9 @@ beers-2026:
   - "../2026/winner/074-belgian-style-witbier-2-avery-brewing-co-white-rascal.md"
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
+  - "American Lager"
   - "Belgian Fruit Beer"
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Experimental Beer"
 city: "Boulder"
 employees: null

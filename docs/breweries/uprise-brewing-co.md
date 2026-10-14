@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "West Coast-Style India Pale Ale"
+  - "West Coast India Pale Ale"
 city: "Spokane"
 employees: null
 farms-named: []

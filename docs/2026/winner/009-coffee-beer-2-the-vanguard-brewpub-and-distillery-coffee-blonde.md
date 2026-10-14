@@ -151,10 +151,10 @@ Coffee Blonde is a blonde ale brewed with local coffee under the Caiseal Beer & 
 |---|---|---|
 | Style | Blonde Ale | [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
 | ABV | 5.5% | [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Rogue Elephant coffee, 15 pounds per batch | [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
 | Other | about 160 calories (listing estimate) | [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
 
@@ -178,16 +178,16 @@ The only named ingredient is the coffee, from the local roaster Rogue Elephant, 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Fifteen pounds of local Rogue Elephant coffee in each batch | [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
 
 ## style-context
@@ -222,8 +222,8 @@ Links checked 2026-10-14: [Website](https://www.thevanguard757.com/), [Instagram
 
 ## gaps
 
-- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
 
 ## research-notes
 

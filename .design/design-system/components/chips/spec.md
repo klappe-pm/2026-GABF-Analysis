@@ -2,7 +2,7 @@
 name: chips
 title: Chips
 status: draft
-code: scripts/build-site.mjs
+code: web/components/Chips.tsx
 ---
 
 ![Chips](chips.png)

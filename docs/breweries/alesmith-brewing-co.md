@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
 city: "San Diego"
 employees: null
 farms-named: []

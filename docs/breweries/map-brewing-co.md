@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "American-Style Lager"
+  - "American Lager"
   - "Experimental Beer"
   - "Wood- and Barrel-Aged Sour Beer"
 city: "Bozeman"

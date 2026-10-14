@@ -170,10 +170,10 @@ Day Money is a non-alcoholic grapefruit blonde from Fieldwork Brewing Co. of Ber
 |---|---|---|
 | Style | NA Grapefruit Blonde | [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans) |
 | ABV | less than 0.5% | [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | grapefruit named as a flavor, not listed as an ingredient | [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans) |
 | Other | 16 oz cans in four packs | [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans) |
 
@@ -195,17 +195,17 @@ No ingredient list is published. The brewery describes "a hyper-crushable and in
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -231,7 +231,7 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## links
 
-- [Untappd: Fieldwork Day Money](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822)
+- [Untappd (hand-read citation): Fieldwork Day Money](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822)
 - [Beer page on brewery site](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans)
 - [Fieldwork Brewing Co.](https://www.fieldworkbrewing.com/)
 - [Fieldwork: non-alcoholic collection](https://shop.fieldworkbrewing.com/collections/non-alcoholic)
@@ -239,8 +239,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

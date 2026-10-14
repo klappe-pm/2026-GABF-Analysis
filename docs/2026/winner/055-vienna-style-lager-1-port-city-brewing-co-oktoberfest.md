@@ -132,8 +132,8 @@ Oktoberfest is a seasonal, unfiltered Märzen-style lager from Port City Brewing
 | IBU | 24 | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
 | Hops | Noble hops (German), no varieties named | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
 | Malts and grains | German malts, no varieties named | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Bright amber; available July to October; 12 oz bottles and draft; unfiltered with natural carbonation | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
 
 ## brewery-description
@@ -156,16 +156,16 @@ The brewery says the beer is brewed with German malts and "just a touch of Noble
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Noble hops | Noble hops | not published | not published | not published | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
+| Noble hops | Noble hops | Not Found | Not Found | Not Found | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Bright amber (no SRM number published) | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Märzen-style lager brewed with German malts and hops, served keller or zwickel style: unfiltered and naturally carbonated | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
 
 ## style-context
@@ -200,7 +200,7 @@ Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [portcitybrewing.com](https://www.portcitybrewing.com/), [portcitybrewing.com](https://www.portcitybrewing.com/beer), [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [portcitybrewing.com](https://www.portcitybrewing.com/), [portcitybrewing.com](https://www.portcitybrewing.com/beer), [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest), web searches recorded in the research notes.
 
 ## research-notes
 

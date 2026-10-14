@@ -24,9 +24,9 @@ brewery-type: null
 categories-won:
   - "Brett Beer"
   - "Fresh Hop Beer"
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
   - "Honey Beer"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Portland"
 employees: null
 farms-named: []

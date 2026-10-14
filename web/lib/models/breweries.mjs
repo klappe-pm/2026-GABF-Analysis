@@ -183,7 +183,13 @@ export function breweryRecord(slug) {
     type: b.brewery_type ?? null,
     kitchen: b.has_kitchen === undefined ? null : b.has_kitchen,
     website: text(b.website),
-    links: { instagram: text(links.instagram), untappd: text(links.untappd), beeradvocate: text(links.beeradvocate), checked: text(links.checked) },
+    // Where the website came from, in the order the data model reads its sources.
+    websiteSource: !b.website ? null
+      : b.profile?.data?.website === b.website ? { kind: 'profile', text: null }
+        : b.overrides.some((o) => o.website === b.website) ? { kind: 'override', text: null }
+          : links.website === b.website ? { kind: 'links', text: text(links.source) }
+            : { kind: 'open_brewery_db', text: null },
+    links: { instagram: text(links.instagram), untappd: text(links.untappd), beeradvocate: text(links.beeradvocate), checked: text(links.checked), source: text(links.source) },
     streak: b.streak,
     knownFor: b.known_for ?? [],
     topFamilies: [...styleFamilies].sort((x, y) => y[1] - x[1]).slice(0, 3).map(([k]) => k),

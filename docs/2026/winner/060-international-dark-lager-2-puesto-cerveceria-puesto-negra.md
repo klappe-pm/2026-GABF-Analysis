@@ -148,13 +148,13 @@ Puesto Negra, listed on the restaurant menu simply as Negra, is brewed by Puesto
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
+| Style | Not Found | Not Found |
 | ABV | 5.3% | [Puesto: menus](https://www.eatpuesto.com/menus/) |
 | IBU | 19 | [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/) |
 | Hops | Sterling | [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | menu tags it "GABF Gold Medalist" | [Puesto: menus](https://www.eatpuesto.com/menus/) |
 
 ## brewery-description
@@ -165,7 +165,7 @@ Source: [Puesto: home](https://www.eatpuesto.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -175,17 +175,17 @@ The [brewery lineup](https://www.eatpuesto.com/brewery/) names the hop shown in 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Sterling | Sterling | not published | not published | not published | [eatpuesto.com](https://www.eatpuesto.com/brewery/) |
+| Sterling | Sterling | Not Found | Not Found | Not Found | [eatpuesto.com](https://www.eatpuesto.com/brewery/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -221,7 +221,7 @@ Links checked 2026-10-14: [Website](https://www.eatpuesto.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [eatpuesto.com](https://www.eatpuesto.com/), [eatpuesto.com](https://www.eatpuesto.com/brewery/), [eatpuesto.com](https://www.eatpuesto.com/menus/), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [eatpuesto.com](https://www.eatpuesto.com/), [eatpuesto.com](https://www.eatpuesto.com/brewery/), [eatpuesto.com](https://www.eatpuesto.com/menus/), web searches recorded in the research notes.
 
 ## research-notes
 

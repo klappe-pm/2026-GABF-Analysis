@@ -28,8 +28,8 @@ categories-won:
   - "Brown Porter"
   - "Coffee Beer"
   - "German Sour Ale"
-  - "Munich-Style Helles"
-  - "South German-Style Hefeweizen"
+  - "Munich Helles"
+  - "South German Hefeweizen"
 city: "Bellingham"
 employees: null
 farms-named: []

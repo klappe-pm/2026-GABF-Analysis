@@ -27,14 +27,13 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American India Pale Ale"
-  - "American-Style India Pale Ale"
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Hoppy Lager"
-  - "International-Style Pale Ale"
-  - "International-Style Pilsener"
+  - "International Pale Ale"
+  - "International Pilsener"
   - "Other Strong Beer"
-  - "Specialty Berliner-Style Weisse"
-  - "West Coast-Style Pilsener"
+  - "Specialty Berliner Weisse"
+  - "West Coast Pilsener"
   - "Wood- and Barrel-Aged Strong Stout"
 city: "Milwaukie"
 employees: null

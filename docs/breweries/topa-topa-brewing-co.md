@@ -22,7 +22,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "English Ale"
-  - "International-Style Pilsener"
+  - "International Pilsener"
   - "Kellerbier or Zwickelbier"
 city: "Ventura"
 employees: null

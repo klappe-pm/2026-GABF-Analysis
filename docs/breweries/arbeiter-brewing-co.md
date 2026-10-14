@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Minneapolis"
 employees: null
 farms-named: []

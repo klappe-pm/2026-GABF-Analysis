@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Historical Beer"
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "San Antonio"
 employees: null
 farms-named: []

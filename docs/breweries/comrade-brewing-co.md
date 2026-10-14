@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style India Pale Ale"
+  - "American India Pale Ale"
 city: "Denver"
 employees: null
 farms-named: []

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "Imperial Stout"
 city: "Bloomington"
 employees: null

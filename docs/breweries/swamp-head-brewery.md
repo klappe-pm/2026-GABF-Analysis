@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Contemporary American-Style Lager"
+  - "Contemporary American Lager"
   - "Fruit Wheat Beer"
 city: "Gainesville"
 employees: null

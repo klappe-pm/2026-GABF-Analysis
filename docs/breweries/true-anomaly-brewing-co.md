@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "American Sour Ale"
-  - "Contemporary American-Style Lager"
+  - "Contemporary American Lager"
   - "Fruited Wood- and Barrel-Aged Sour Beer"
   - "International Lager"
   - "Mixed Culture Brett Beer"

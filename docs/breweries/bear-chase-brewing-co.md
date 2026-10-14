@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "German-Style Koelsch"
-  - "German-Style Maerzen"
+  - "German Koelsch"
+  - "German Maerzen"
   - "Oatmeal Stout"
   - "Strong Porter"
 city: "Bluemont"

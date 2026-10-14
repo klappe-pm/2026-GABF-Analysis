@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/075-saison-3-third-window-brewing-co-saison-ete.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Brett Beer"
   - "Herb and Spice Beer"
   - "International Dark Lager"

@@ -161,11 +161,11 @@ Built for Speed is a canned West Coast IPA from Grains of Wrath Brewing in Camas
 |---|---|---|
 | Style | West Coast IPA | [New School Beer: Grains of Wrath cans](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html) |
 | ABV | 6.7 percent (one retail listing says 6.5) | [Craft Beer and Brewing review](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 16 oz cans sold in four-packs | [Costco listing via Warehouse Runner](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz) |
 | Beer page | brewery product page | [Grains of Wrath: Built for Speed](https://gowbeer.com/beer/built-for-speed-ipa/) |
 
@@ -187,17 +187,17 @@ No hop, malt or yeast details are published in any source reached; the descripti
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -232,8 +232,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: IBU. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
+- Not Found: IBU. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
 
 ## research-notes
 

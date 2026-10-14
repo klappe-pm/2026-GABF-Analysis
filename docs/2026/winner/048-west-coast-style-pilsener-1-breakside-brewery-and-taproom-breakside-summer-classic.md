@@ -202,14 +202,14 @@ Breakside Summer Classic is a West Coast-style pilsener entry from Breakside Bre
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published for a pilsener version (category name used) | none found |
+| Style | not published for a pilsener version (category name used) | Not Found |
 | ABV | 6% (West Coast Pilsner listing) | [Breakside: Dekum ordering menu](https://www.toasttab.com/local/order/breakside-brewery-dekum) |
-| IBU | not published for a pilsener version | none found |
-| Hops | not published for a pilsener version | none found |
-| Malts and grains | not published for a pilsener version | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published for a pilsener version | none found |
+| IBU | not published for a pilsener version | Not Found |
+| Hops | not published for a pilsener version | Not Found |
+| Malts and grains | not published for a pilsener version | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | not published for a pilsener version | Not Found |
 
 ## brewery-description
 
@@ -221,7 +221,7 @@ Source: [Breakside: Summer Classic IPA page](https://breakside.com/our_beer/summ
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -229,17 +229,17 @@ Nothing is published for a pilsener version. The IPA page's ingredients are reco
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -266,7 +266,7 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 ## links
 
 - [Breakside: Dekum ordering menu](https://www.toasttab.com/local/order/breakside-brewery-dekum)
-- [Untappd: Summer Classic IPA](https://untappd.com/b/breakside-brewery-summer-classic/6640928)
+- [Untappd (hand-read citation): Summer Classic IPA](https://untappd.com/b/breakside-brewery-summer-classic/6640928)
 - [Breakside Brewery](https://breakside.com/)
 - [Breakside: Summer Classic IPA page](https://breakside.com/our_beer/summer-classic/)
 - [Breakside: beers](https://breakside.com/beers/)
@@ -275,8 +275,8 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
-- Not published: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
+- Not Found: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

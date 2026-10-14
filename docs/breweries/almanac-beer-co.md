@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Mixed Culture Brett Beer"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Alameda"
 employees: null
 farms-named: []

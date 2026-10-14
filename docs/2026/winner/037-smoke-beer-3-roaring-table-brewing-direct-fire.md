@@ -143,14 +143,14 @@ Direct Fire is a golden smoked lager on a helles base from Roaring Table Brewing
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Smoked | [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
-| ABV | 5.3% | [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | German beechwood-smoked malt; malt smoked by hand in Chicago Culinary Kitchen's Palatine kitchen | [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | Golden color | [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
+| Style | Lager, Smoked | [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
+| ABV | 5.3% | [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | German beechwood-smoked malt; malt smoked by hand in Chicago Culinary Kitchen's Palatine kitchen | [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Golden color | [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463) |
 
 ## brewery-description
 
@@ -158,11 +158,11 @@ Direct Fire is a golden smoked lager on a helles base from Roaring Table Brewing
 
 Punctuation lightly normalized.
 
-The brewery website could not be reached, so this is the beer description on the Untappd listing. Source: [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463)
+The brewery website could not be reached, so this is the beer description on the Untappd listing. Source: [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -170,17 +170,17 @@ The two smoked malts are the only named ingredients. No base malts, hops or yeas
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -206,14 +206,14 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/RoaringTableBrewing).
 
 ## links
 
-- [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463)
-- [Untappd: Roaring Table beer search](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire)
+- [Untappd (hand-read citation): Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463)
+- [Untappd (hand-read citation): Roaring Table beer search](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)), Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

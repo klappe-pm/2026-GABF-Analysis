@@ -169,11 +169,11 @@ On Any Given Day is a dry-hopped, barrel aged saison brewed with Pennsylvania gr
 |---|---|---|
 | Style | Dry-Hopped Barrel Aged Saison | [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
 | ABV | 6.10% | [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | NY Cascade | [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
 | Malts and grains | Double Eagle (PA) Pilsner and wheat | [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | barrel aged, dry-hopped; 500 ml bottles at $10 | [Wishful Thinking: takeout menu PDF](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf) |
 
 ## brewery-description
@@ -196,17 +196,17 @@ The brewery's drink menu lists the malts as Double Eagle (PA) Pilsner and wheat 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Cascade | Cascade | not published | not published | not published | [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -245,8 +245,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes.
 
 ## research-notes
 

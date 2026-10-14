@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/052-italian-style-pilsener-2-second-dawn-brewing-co-wolf-of-the-woods.md"
 brewery-type: null
 categories-won:
-  - "Italian-Style Pilsener"
+  - "Italian Pilsener"
 city: "Aurora"
 employees: null
 farms-named: []

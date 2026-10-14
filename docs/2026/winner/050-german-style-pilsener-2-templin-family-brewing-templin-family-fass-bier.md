@@ -167,11 +167,11 @@ Fassbier Pilsner is a seasonal pilsner from Templin Family Brewing (T.F. Brewing
 |---|---|---|
 | Style | Pilsner (from the name; no style line on the page) | [T.F. Brewing: Fassbier Pilsner](https://tfbrewing.com/beer/4504-2/) |
 | ABV | 5% | [T.F. Brewing: Fassbier Pilsner](https://tfbrewing.com/beer/4504-2/) |
-| IBU | not published | none found |
-| Hops | not published (flavor profile lists a noble hop aroma) | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | not published (flavor profile lists a noble hop aroma) | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Seasonal series; listed on the taproom's on tap and to go list | [T.F. Brewing: taproom](https://tfbrewing.com/location/taproom/) |
 
 ## brewery-description
@@ -190,17 +190,17 @@ Nothing about ingredients is published beyond the noble hop aroma in the flavor 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -233,8 +233,8 @@ Links checked 2026-10-14: [Website](https://tfbrewing.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Description, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
-- Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

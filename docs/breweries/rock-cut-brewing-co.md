@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Altbier"
+  - "German Altbier"
   - "Wood- and Barrel-Aged Strong Stout"
 city: "Estes Park"
 employees: null

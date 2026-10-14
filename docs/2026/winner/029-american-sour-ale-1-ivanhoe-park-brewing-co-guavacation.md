@@ -123,8 +123,8 @@ Guavacation is a guava Berliner Weisse soured with lactobacillus, brewed by Ivan
 | Style | Sour, Berliner Weisse | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 | ABV | 3.6% | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 | IBU | not published (described as low bitterness) | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | a lactobacillus strain (souring culture) | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 | Adjuncts, fruit, spices | Guava | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 | Other | cloudy, highly carbonated; serve at 45 to 50 degrees | [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacation/) |
@@ -147,16 +147,16 @@ The brewery names guava as the added fruit and a lactobacillus strain as the sou
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Berliner Weisse soured with a Lactobacillus strain, with guava added | [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 
 ## style-context
@@ -189,8 +189,8 @@ Links checked 2026-10-14: [Website](https://ivanhoeparkbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: IBU. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -178,14 +178,14 @@ Central Time IPA is a core, year-round IPA from Third Space Brewing in Milwaukee
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not labelled beyond the name (category name used) | none found |
+| Style | not labelled beyond the name (category name used) | Not Found |
 | ABV | 6.0% | [Third Space: beer](https://thirdspacebrewing.com/beer/) |
-| IBU | not published (the page shows a blank IBU field) | none found |
+| IBU | not published (the page shows a blank IBU field) | Not Found |
 | Hops | Chinook, Krush, Simcoe | [Third Space: brewer interview](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -195,7 +195,7 @@ Source: [Third Space: home page Instagram feed](https://thirdspacebrewing.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -205,19 +205,19 @@ An [interview with the brewery co-owner](https://isthmus.com/food-drink/beer/hon
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
-| Krush | Krush | not published | not published | not published | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
-| Simcoe | Simcoe | not published | not published | not published | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
+| Krush | Krush | Not Found | Not Found | Not Found | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -254,8 +254,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes.
-- Not published: IBU. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes.
+- Not Found: IBU. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca).
 
 ## research-notes
 

@@ -131,11 +131,11 @@ Festbier is a step-mashed festbier built on floor-malted Barke grains from Wren 
 |---|---|---|
 | Style | Festbier | [BeerMenus: Wren House Festbier](https://www.beermenus.com/beers/591370-wren-house-festbier) |
 | ABV | 5.5% | [BeerMenus: Wren House Festbier](https://www.beermenus.com/beers/591370-wren-house-festbier) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Barke Pilsner, Barke Vienna, Barke Munich (German heritage floor malted) | [BeerMenus: Wren House Festbier](https://www.beermenus.com/beers/591370-wren-house-festbier) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Step mashed at various temperatures | [BeerMenus: Wren House Festbier](https://www.beermenus.com/beers/591370-wren-house-festbier) |
 
 ## brewery-description
@@ -146,7 +146,7 @@ Source: [BeerMenus: Wren House Festbier](https://www.beermenus.com/beers/591370-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -154,16 +154,16 @@ The only published ingredients are the three Barke malts; no hops or yeast are n
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Step mashed at various temperatures for mouthfeel and dryness, from German heritage floor malted Barke Pilsner, Vienna and Munich malts | [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier) |
 
 ## style-context
@@ -197,8 +197,8 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

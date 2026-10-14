@@ -67,11 +67,11 @@ export const labelOf = (copy: Copy, group: string, value: unknown) => {
   }
 };
 
-function chart(ctx: Ctx, id: string, key: string, rest: Omit<ChartSpec, 'id' | 'title' | 'ariaLabel' | 'tableSummary' | 'subtitle'> & { subtitle?: string; values?: Record<string, string | number> }, titleKey = 'title'): ChartSpec {
+function chart(ctx: Ctx, id: string, key: string, rest: Omit<ChartSpec, 'id' | 'title' | 'ariaLabel' | 'tableSummary' | 'saveLabel' | 'subtitle'> & { subtitle?: string; values?: Record<string, string | number> }, titleKey = 'title'): ChartSpec {
   const { copy } = ctx;
   const title = copy.t(`page.panels.${key}.${titleKey}`, rest.values);
   const subtitle = rest.subtitle ?? (copy.has(`page.panels.${key}.subtitle`) ? copy.t(`page.panels.${key}.subtitle`, rest.values) : undefined);
-  return { ...rest, id, title, subtitle, ariaLabel: copy.t('page.chart.aria', { title }), tableSummary: copy.t('charts.table_view.summary') };
+  return { ...rest, id, title, subtitle, ariaLabel: copy.t('page.chart.aria', { title }), tableSummary: copy.t('charts.table_view.summary'), saveLabel: copy.t('charts.toolbox.save_png') };
 }
 
 const yearLabel = (ctx: Ctx, y: number) => {

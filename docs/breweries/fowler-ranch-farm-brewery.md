@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Belgo-Style Ale"
+  - "American-Belgo Ale"
 city: "Lincoln"
 employees: null
 farms-named: []

@@ -31,8 +31,8 @@ function Item({ term, children }: { term: string; children: ReactNode }) {
   );
 }
 
-export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy; estimate: EstimateCopy }) {
-  const nd = <span className="text-on-surface-variant">{c.gaps.not_defined}</span>;
+export function Profile({ b, copy: c, estimate, recordUrl }: { b: BreweryRecord; copy: Copy; estimate: EstimateCopy; recordUrl: string }) {
+  const nd = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
   const est = b.estimate;
   const f = est.fin;
   const o = b.ownership;
@@ -60,12 +60,20 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
           <Item term={c.profile.founded}>{b.founded ?? nd}</Item>
           <Item term={c.profile.employees}>{b.employees ? fillText(c.profile.employees_value, { count: whole(b.employees) }) : nd}</Item>
           <Item term={c.profile_extra.kitchen}>{yesNo(b.kitchen)}</Item>
-          <Item term={c.profile.website}>{b.website ? extLink(b.website) : nd}</Item>
+          <Item term={c.profile.website}>
+            {b.website ? (
+              <>
+                {extLink(b.website)}
+                {b.websiteSource ? <span className="block text-on-surface-variant">{fillText(c.profile_extra.source_line, { source: b.websiteSource.text ?? c.profile_extra[`source_${b.websiteSource.kind === 'links' ? 'open_brewery_db' : b.websiteSource.kind}`] })}</span> : null}
+              </>
+            ) : nd}
+          </Item>
           <Item term={c.profile_extra.links}>
             {socialItems.length ? (
               <span className="inline-flex flex-wrap gap-x-4">
                 {socialItems.map(([k, label]) => <TextLink key={k} href={b.links[k]!} rel="noopener">{label}</TextLink>)}
                 {b.links.checked ? <span className="text-on-surface-variant">{fillText(c.profile_extra.links_checked, { date: b.links.checked })}</span> : null}
+                {b.links.source ? <span className="block w-full text-on-surface-variant">{fillText(c.profile_extra.source_line, { source: b.links.source })}</span> : null}
               </span>
             ) : nd}
           </Item>
@@ -77,15 +85,15 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
                   const extras = [l.opened ? fillText(c.profile.location_opened, { year: l.opened }) : '', l.kitchen ? c.profile.location_kitchen : ''].filter(Boolean).join(', ');
                   return (
                     <li key={`${l.name}-${address}-${i}`}>
-                      {fillText(c.profile.location_line, { name: l.name ?? l.city ?? c.gaps.not_defined, address: address || c.gaps.not_defined })}
+                      {fillText(c.profile.location_line, { name: l.name ?? l.city ?? c.gaps.not_found, address: address || c.gaps.not_found })}
                       {extras ? ` (${extras})` : ''} <TextLink href={mapLink(l)} rel="noopener">{c.profile.location_map}</TextLink>
                     </li>
                   );
                 })}
               </ul>
-            ) : b.locationsCount === 1 ? c.profile.locations_missing_one : fillText(c.profile.locations_missing, { count: b.locationsCount })}
+            ) : fillText(b.locationsCount === 1 ? c.profile.locations_missing_one : c.profile.locations_missing, { count: b.locationsCount, not_found: c.gaps.not_found })}
           </Item>
-          <Item term={c.profile.known_for}>{b.knownFor.length ? b.knownFor.join('; ') : b.topFamilies.length ? <span className="text-on-surface-variant">{b.topFamilies.map((x) => c.style_family[x] ?? x).join(', ')}</span> : c.profile.known_for_missing}</Item>
+          <Item term={c.profile.known_for}>{b.knownFor.length ? b.knownFor.join('; ') : b.topFamilies.length ? <span className="text-on-surface-variant">{b.topFamilies.map((x) => c.style_family[x] ?? x).join(', ')}</span> : nd}</Item>
         </DefList>
         <h3 className="type-title-large text-on-surface">{c.profile_extra.current_beers}</h3>
         {b.currentBeers.length ? b.currentBeers.map((g) => (
@@ -119,7 +127,7 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
           </DefList>
         ) : (
           <>
-            <p className="type-body-large">{c.ownership.missing}</p>
+            <p className="type-body-large">{c.gaps.not_found}</p>
             <p className="type-body-medium text-on-surface-variant">{c.ownership.missing_note}</p>
           </>
         )}
@@ -158,7 +166,7 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
           {f.perLocation ? <Item term={c.scale.per_location}>{usd(f.perLocation)} {mark('per-location', 'per_location')} <span className="text-on-surface-variant">{fillText(est.locations === 1 ? (est.kitchen ? c.scale.per_location_note_kitchen_one : c.scale.per_location_note_one) : est.kitchen ? c.scale.per_location_note_kitchen : c.scale.per_location_note, { count: est.locations })}</span></Item> : null}
           {f.perEmployee ? <Item term={c.scale.per_employee}>{usd(f.perEmployee)} {mark('per-employee', 'per_employee')}</Item> : null}
         </DefList>
-        <p className="type-body-medium"><TextLink href={href(paths.about)}>{c.scale.method_link}</TextLink></p>
+        <p className="type-body-medium"><TextLink href={href(paths.methodEstimates)}>{c.scale.method_link}</TextLink></p>
       </section>
 
       {b.otherMedals.length ? (
@@ -183,9 +191,16 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
         </section>
       ) : null}
 
-      <section aria-labelledby="deep-title" className="flex flex-col gap-3">
-        <SectionHeader id="deep-title" title={c.deep_dive.title} />
-        {b.deepDiveHtml ? <div className="prose min-w-0" dangerouslySetInnerHTML={{ __html: b.deepDiveHtml }} /> : <p className="type-body-large text-on-surface-variant">{c.deep_dive.missing}</p>}
+      {b.deepDiveHtml ? (
+        <section aria-labelledby="deep-title" className="flex flex-col gap-3">
+          <SectionHeader id="deep-title" title={c.deep_dive.title} />
+          <div className="prose min-w-0" dangerouslySetInnerHTML={{ __html: b.deepDiveHtml }} />
+        </section>
+      ) : null}
+
+      <section aria-labelledby="record-title" className="flex flex-col gap-3">
+        <SectionHeader id="record-title" title={c.deep_dive.record_title} />
+        <p className="type-body-large"><TextLink href={recordUrl} rel="noopener">{c.deep_dive.record_link}</TextLink></p>
       </section>
     </div>
   );

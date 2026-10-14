@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style Strong Pale Ale"
-  - "Mexican-Style Pale Lager"
+  - "American Strong Pale Ale"
+  - "Mexican Pale Lager"
 city: "Aspen"
 employees: null
 farms-named: []

@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Contemporary American-Style Lager"
+  - "Contemporary American Lager"
 city: "Patchogue"
 employees: null
 farms-named: []

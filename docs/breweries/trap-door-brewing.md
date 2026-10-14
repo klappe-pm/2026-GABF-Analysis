@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/094-american-style-strong-pale-ale-2-trap-door-brewing-trap-door-ipa.md"
 brewery-type: "micro"
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "Fresh Hop Beer"
   - "Other Hoppy Lager"
 city: "Vancouver"

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Winston Salem"
 employees: null
 farms-named: []

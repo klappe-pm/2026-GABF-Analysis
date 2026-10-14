@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "Italian-Style Pilsener"
+  - "Italian Pilsener"
 city: "Prescott"
 employees: null
 farms-named: []

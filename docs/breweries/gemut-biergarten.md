@@ -20,9 +20,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "German-Style Pilsener"
-  - "Munich-Style Dunkel"
-  - "Munich-Style Helles"
+  - "German Pilsener"
+  - "Munich Dunkel"
+  - "Munich Helles"
 city: "Columbus"
 employees: null
 farms-named: []

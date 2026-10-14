@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/099-juicy-or-hazy-imperial-india-pale-ale-2-north-park-beer-co-npbc10-hazy-triple-ipa.md"
 brewery-type: "micro"
 categories-won:
-  - "American-Style India Pale Ale"
+  - "American India Pale Ale"
   - "English India Pale Ale or New Zealand India Pale Ale"
   - "Imperial India Pale Ale"
   - "International Dark Lager"

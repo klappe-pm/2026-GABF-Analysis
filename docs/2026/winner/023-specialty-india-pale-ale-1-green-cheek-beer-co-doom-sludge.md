@@ -161,10 +161,10 @@ Doom Sludge is a 7.0% West Coast black IPA hopped with Mosaic, Ekuanot and Chino
 |---|---|---|
 | Style | West Coast Black IPA | [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
 | ABV | 7.0% | [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Mosaic, Ekuanot, Chinook | [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | none named | [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
 | Other | black in color | [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
 
@@ -188,19 +188,19 @@ The tap list names three hops, Mosaic, Ekuanot and Chinook, and otherwise speaks
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
-| Ekuanot | Ekuanot | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
-| Mosaic | Mosaic | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+| Ekuanot | Ekuanot | Not Found | Not Found | Not Found | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -237,8 +237,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
+- Not Found: IBU. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
 
 ## research-notes
 

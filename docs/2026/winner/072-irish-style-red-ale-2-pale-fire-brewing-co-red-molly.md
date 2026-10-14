@@ -117,8 +117,8 @@ Red Molly is an Irish red ale from Pale Fire Brewing Co. of Harrisonburg, Virgin
 | IBU | 20 | [Pale Fire Brewing](https://www.palefirebrewing.com/) |
 | Hops | mild British hops, varieties not named | [Pale Fire Brewing](https://www.palefirebrewing.com/) |
 | Malts and grains | Irish ale malt, Crystal, Munich, a touch of chocolate wheat | [Pale Fire Brewing](https://www.palefirebrewing.com/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | draft and 16 oz 4-packs | [Pale Fire Brewing](https://www.palefirebrewing.com/) |
 
 ## brewery-description
@@ -139,17 +139,17 @@ Nothing is published beyond the description: the British hop varieties are not i
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -180,7 +180,7 @@ Links checked 2026-10-14: [Website](https://www.palefirebrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [palefirebrewing.com](https://www.palefirebrewing.com/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [palefirebrewing.com](https://www.palefirebrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

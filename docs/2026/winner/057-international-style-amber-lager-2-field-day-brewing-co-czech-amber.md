@@ -163,24 +163,24 @@ Czech Amber is a double decocted Czech amber lager hopped with Saaz, brewed by F
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Polotmavé (Czech Amber) | [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
-| ABV | 4.7% | [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
-| IBU | not published | none found |
-| Hops | Czech Saaz | [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | double decoction mash; listed as a seasonal on the brewery menu as Amber Lager | [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [Field Day: drinks](https://www.fielddaybrewing.com/drinks) |
+| Style | Lager, Polotmavé (Czech Amber) | [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
+| ABV | 4.7% | [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
+| IBU | Not Found | Not Found |
+| Hops | Czech Saaz | [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | double decoction mash; listed as a seasonal on the brewery menu as Amber Lager | [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [Field Day: drinks](https://www.fielddaybrewing.com/drinks) |
 
 ## brewery-description
 
 > A unique blend of toasty and bready malt characteristics with a refreshing kick of Czech Saaz hops. This beer was double decocted to enhance the malt richness you would expect from an amber and then hopped assertively with Saaz. The perfect Yin and Yang.
 
-Source: [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633)
+Source: [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -190,17 +190,17 @@ The only ingredient named is Czech Saaz hops, used assertively; the malt bill is
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | not published | not published | [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -229,14 +229,14 @@ Links checked 2026-10-14: [Website](https://www.fielddaybrewing.com/), [Untappd]
 
 - [Field Day Brewing Co.](https://www.fielddaybrewing.com/)
 - [Field Day: drinks](https://www.fielddaybrewing.com/drinks)
-- [Untappd: Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633)
-- [Untappd: Field Day Brewing Company](https://untappd.com/FieldDayBrewingCompany)
+- [Untappd (hand-read citation): Czech Amber](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633)
+- [Untappd (hand-read citation): Field Day Brewing Company](https://untappd.com/FieldDayBrewingCompany)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-amber/5596633), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

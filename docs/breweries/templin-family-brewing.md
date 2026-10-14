@@ -23,11 +23,11 @@ beers-2026:
   - "../2026/winner/079-belgian-style-or-spontaneous-sour-ale-2-templin-family-brewing-templin-family-tomatillo-bier.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style or Spontaneous Sour Ale"
-  - "Belgian-Style Tripel"
-  - "German-Style Pilsener"
+  - "Belgian or Spontaneous Sour Ale"
+  - "Belgian Tripel"
+  - "German Pilsener"
   - "Kellerbier or Zwickelbier"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Salt Lake City"
 employees: null
 farms-named: []

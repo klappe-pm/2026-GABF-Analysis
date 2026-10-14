@@ -47,7 +47,7 @@ export default async function FirstTimePage({ params }: { params: Promise<Params
   const copy = {
     stats: g(page('stats')), charts: g(page('charts')), table: g(page('table')), complete_record: g(page('complete_record')),
     medal: g('global.labels.medal'), style_family: g('global.labels.style_family'), medalCols: g('global.tables.medal_columns'), place: g('global.tables.place_columns'),
-    units: g('global.charts.units'), gaps: g('global.states.gaps'),
+    units: g('global.charts.units'), gaps: { not_found: t('global.labels.not_found') },
     fixed: { year: raw('global.filters.chips.fixed_year') },
   };
   const rangeText = r.completeRange ? `${r.completeRange.from} to ${r.completeRange.to}` : '';

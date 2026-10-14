@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Experimental Beer"
 city: "Los Angeles"
 employees: null

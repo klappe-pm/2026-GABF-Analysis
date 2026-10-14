@@ -25,7 +25,7 @@ brewery-type: "micro"
 categories-won:
   - "Australian Pale Ale"
   - "Classic Saison"
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Strong Red Ale"
 city: "Bend"
 employees: null

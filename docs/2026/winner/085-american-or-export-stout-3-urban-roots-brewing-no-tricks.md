@@ -154,11 +154,11 @@ No Tricks is an export stout on draft at Urban Roots Brewing, a brewery and smok
 |---|---|---|
 | Style | Export Stout | [Urban Roots: draught list](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf) |
 | ABV | 6.5% | [Urban Roots: draught list](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | to go in 32 oz fills; list dated 9/17/26 | [Urban Roots: draught list](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf) |
 
 ## brewery-description
@@ -167,7 +167,7 @@ The brewery publishes no description of this beer beyond its draught list entry.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -175,17 +175,17 @@ No ingredients are published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -217,8 +217,8 @@ Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Un
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
-- Not published: IBU. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not Found: IBU. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

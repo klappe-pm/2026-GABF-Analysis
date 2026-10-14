@@ -130,10 +130,10 @@ Pineapple 3 Way is a Belgian-style fruit beer from Bull & Bush Brewery in Denver
 |---|---|---|
 | Style | Farmhouse Ale | [Bull & Bush: beer menu](https://bullandbush.com/pages/menu) |
 | ABV | 6.6% | [Bull & Bush: beer menu](https://bullandbush.com/pages/menu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Pineapple puree, grilled pineapple and Tokaji glaze | [Bull & Bush: beer menu](https://bullandbush.com/pages/menu) |
 | Other | Hungarian oak Tokaji barrels; bottled release | [Bull & Bush: beer menu](https://bullandbush.com/pages/menu) |
 
@@ -145,7 +145,7 @@ Source: [Bull & Bush: beer menu](https://bullandbush.com/pages/menu)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -153,16 +153,16 @@ The [brewery menu](https://bullandbush.com/pages/menu) describes three pineapple
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Way One: farmhouse ale fermented on 50 pounds of pineapple puree. Way Two: refermented in Hungarian oak Tokaji barrels with 50 pounds of grilled pineapple rings. Way Three: finished on 50 pounds of Tokaji glazed grilled pineapple rings | [bullandbush.com](https://bullandbush.com/pages/menu) |
 
 ## style-context
@@ -195,8 +195,8 @@ Links checked 2026-10-14: [Website](https://bullandbush.com/), [Instagram](https
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
-- Not published: IBU. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

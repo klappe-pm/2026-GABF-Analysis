@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Missoula"
 employees: null
 farms-named: []

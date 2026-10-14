@@ -22,8 +22,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style Light Lager"
-  - "Vienna-Style Lager"
+  - "American Light Lager"
+  - "Vienna Lager"
 city: "Cape May"
 employees: null
 farms-named: []

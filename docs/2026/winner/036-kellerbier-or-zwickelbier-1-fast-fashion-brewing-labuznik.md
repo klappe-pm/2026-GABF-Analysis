@@ -167,14 +167,14 @@ Labuznik is a Czech-style pale lager from Fast Fashion, a hop-focused Seattle br
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Světlé (Czech Pale) | [Untappd: Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508) |
-| ABV | 5.3% | [Untappd: Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Lager, Světlé (Czech Pale) | [Untappd (hand-read citation): Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508) |
+| ABV | 5.3% | [Untappd (hand-read citation): Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -182,7 +182,7 @@ The brewery publishes no description of Labuznik, and its Untappd listing carrie
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -190,17 +190,17 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -227,14 +227,14 @@ Links checked 2026-10-14: [Website](https://themasonryseattle.com/fast-fashion),
 ## links
 
 - [Fast Fashion at The Masonry](https://themasonryseattle.com/fast-fashion)
-- [Untappd: Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508)
-- [Untappd: Fast Fashion](https://untappd.com/FastFashion)
+- [Untappd (hand-read citation): Labuznik](https://untappd.com/b/fast-fashion-labuznik/6167508)
+- [Untappd (hand-read citation): Fast Fashion](https://untappd.com/FastFashion)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier.
-- Not published: IBU. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier.
+- Not Found: IBU. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
