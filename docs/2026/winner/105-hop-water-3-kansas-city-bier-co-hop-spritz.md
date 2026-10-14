@@ -31,16 +31,6 @@ description:
 entries: 37
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://kcbier.com/biers/hop-spritz/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://kcbier.com/biers/hop-spritz/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://kcbier.com/biers/hop-spritz/"
@@ -111,9 +101,13 @@ process: null
 sources:
   - "https://kcbier.com/biers/hop-spritz/"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-srm: null
+srm:
+  value: "Clear (listed as the color)"
+  source: "https://kcbier.com/biers/hop-spritz/"
 style: "Hop-Infused Refresher"
-tasting-notes: null
+tasting-notes:
+  text: "Our hop-infused sparkling water is all-natural, refreshing, and perfect for anytime."
+  source: "https://kcbier.com/biers/hop-spritz/"
 water: null
 yeast: []
 ---
@@ -149,7 +143,9 @@ Source: [KC Bier Co. drink details](https://kcbier.com/biers/hop-spritz/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Our hop-infused sparkling water is all-natural, refreshing, and perfect for anytime.
+
+Source: [kcbier.com](https://kcbier.com/biers/hop-spritz/)
 
 ## ingredients
 
@@ -166,7 +162,7 @@ The base is sparkling water. The brewery names no hop varieties or flavor compou
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Clear (listed as the color) | [kcbier.com](https://kcbier.com/biers/hop-spritz/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -202,7 +198,7 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kcbier.com](https://kcbier.com/biers/hop-spritz/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kcbier.com](https://kcbier.com/biers/hop-spritz/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -212,3 +208,4 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 - Untappd search pages did not return results to automated fetches.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page lists the color as Clear and the ingredients as sparkling water, dried hops, hop extract and natural flavors.

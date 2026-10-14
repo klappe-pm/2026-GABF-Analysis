@@ -39,6 +39,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -48,6 +49,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -57,6 +59,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -66,6 +69,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -75,6 +79,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -84,6 +89,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -93,6 +99,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -102,6 +109,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -111,6 +119,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -120,6 +129,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -129,6 +139,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -138,6 +149,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307"
@@ -147,6 +159,7 @@ gaps:
       - "https://www.tavour.com/b/infinite-hotel-b578118"
       - "https://www.wayfinder.beer/menu"
       - "web searches recorded in the research notes"
+      - "https://www.wayfinder.beer/"
 hop-profile: []
 hops: []
 ibu: null
@@ -255,8 +268,8 @@ Links checked 2026-10-14: [Website](https://wayfinder.beer/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes, [wayfinder.beer](https://www.wayfinder.beer/).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes, [wayfinder.beer](https://www.wayfinder.beer/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -265,3 +278,4 @@ Links checked 2026-10-14: [Website](https://wayfinder.beer/), [Instagram](https:
 - Wayfinder's home page and releases page do not mention Infinite Hotel or Bierstadt.
 - Bierstadt Lagerhaus's site (bierstadtlager.com) returned HTTP 403, so its pages could not be read.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

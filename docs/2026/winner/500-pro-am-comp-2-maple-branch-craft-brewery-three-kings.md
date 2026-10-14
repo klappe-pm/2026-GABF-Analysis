@@ -244,3 +244,4 @@ Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagra
 - The homebrewer is not credited on the brewery site; the name comes from the official winners list.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives Three Kings as a Dunkels Bock at 7.3% ABV; no description.

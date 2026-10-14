@@ -2,7 +2,7 @@
 name: tabs
 title: Dashboard tabs
 status: draft
-code: scripts/build-site.mjs
+code: web/components/Tabs.tsx
 ---
 
 ![Dashboard tabs](tabs.png)

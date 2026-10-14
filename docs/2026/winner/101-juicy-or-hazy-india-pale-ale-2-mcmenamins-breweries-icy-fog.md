@@ -283,3 +283,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - McMenamins brews at many pub locations; which one brewed Icy Fog was not found.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

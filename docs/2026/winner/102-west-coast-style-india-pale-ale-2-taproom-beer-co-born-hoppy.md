@@ -30,16 +30,12 @@ description:
 entries: 277
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.taproombeerco.com/"
-      - "https://www.taproombeerco.com/beer"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.taproombeerco.com/"
       - "https://www.taproombeerco.com/beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.taproombeerco.com/"
@@ -123,7 +119,9 @@ sources:
   - "https://www.taproombeerco.com/beer"
 srm: null
 style: "WCIPA"
-tasting-notes: null
+tasting-notes:
+  text: "Bright punches of grapefruit zest, lime and splashes of mango from the Citra hops. The Mosaic adds depth with notes of blueberry, ripe peach and a subtle earthy/dank undertone."
+  source: "https://www.taproombeerco.com/beer"
 water: null
 yeast: []
 ---
@@ -161,7 +159,9 @@ Source: [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright punches of grapefruit zest, lime and splashes of mango from the Citra hops. The Mosaic adds depth with notes of blueberry, ripe peach and a subtle earthy/dank undertone.
+
+Source: [taproombeerco.com](https://www.taproombeerco.com/beer)
 
 ## ingredients
 
@@ -218,8 +218,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
 - Not published: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -228,3 +228,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The session web search budget was exhausted before Untappd or press could be searched for IBU or malts.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list's tasting words are recorded; 7% ABV.
