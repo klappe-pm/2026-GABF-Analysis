@@ -129,7 +129,7 @@ function otherMedalsTable(rows) {
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra'];
 
 // Decorate the medal rows once per dataset with what the views and the filter need: brewery
 // attributes, medals awarded per category and year (for entries per medal), the 2026 research
@@ -156,6 +156,9 @@ export function enrichResults(ds) {
       r.beer_profile = `beers/${p.year}/${p.stem}/`;
       r.search_extra = [p.fm.style, ...(p.fm.hops ?? []), ...(p.fm.malts ?? []), ...(p.fm.yeast ?? []), ...(p.fm.adjuncts ?? [])].filter(Boolean).join(' ');
     }
+    r.abv_source = r.spec?.abv.source?.url ?? null;
+    r.ibu_source = r.spec?.ibu.source?.url ?? null;
+    r.beer_url = r.spec?.beer_url ?? null;
     if (r.year === WINNER_YEAR) r.first_time = status.get(r.brewery_key) ?? '';
   }
   ds.winnerProfiles = profiles;
