@@ -38,6 +38,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -45,6 +50,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "og"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -52,6 +62,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -59,6 +74,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -66,6 +86,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -73,6 +98,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -80,6 +110,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -87,6 +122,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -94,6 +134,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -101,6 +146,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "water"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -108,6 +158,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
   - field: "process"
     sources-checked:
       - "https://untappd.com/v/morgan-territory-brewing/4844774/beers"
@@ -115,6 +170,11 @@ gaps:
       - "https://www.morganterritorybrewing.com/"
       - "https://www.morganterritorybrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.morganterritorybrewing.com/wp-sitemap.xml"
+      - "https://www.morganterritorybrewing.com/sitemap.xml"
+      - "https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.beermenus.com/web_menus/397"
+      - "https://sfbeerweek.org/profiles/morgan-territory"
 hop-profile: []
 hops: []
 ibu: 12
@@ -219,7 +279,7 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/v/morgan-territory-brewing/4844774/beers), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/v/morgan-territory-brewing/4844774/beers), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes, [morganterritorybrewing.com](https://www.morganterritorybrewing.com/wp-sitemap.xml), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/sitemap.xml), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/wp-sitemap-posts-post-1.xml), [beermenus.com](https://www.beermenus.com/web_menus/397), [sfbeerweek.org](https://sfbeerweek.org/profiles/morgan-territory).
 
 ## research-notes
 
@@ -230,3 +290,5 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - Second pass 2026-10-13: Found matching ABV, IBU and pepper details on the Tracy venue's Untappd listing. Searches found no dedicated brewery beer page or recipe varieties.
 - Field pass 2026-10-13: A brewery domain search found no Fire Exit beer page. A hop focused search returned the previously recorded venue listing and medal coverage without new hop varieties.
 - Deep dive pass 2026-10-14: the brewery's tap list was read again; it gives no tasting notes, hops or malts for Fire Exit or its Snap Shot base.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site (several pages), web searches): found nothing new; 4 pages tried. No page lists Fire Exit beyond what the profile already holds; the beermenus menu page returned empty.

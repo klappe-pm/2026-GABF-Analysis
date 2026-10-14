@@ -39,6 +39,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "ibu"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -47,6 +51,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "srm"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -55,6 +63,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "og"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -63,6 +75,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "fg"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -71,6 +87,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "hops"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -79,6 +99,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "hop-form"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -87,6 +111,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "hop-use"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -95,6 +123,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "lot-or-farm"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -103,6 +135,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "malts"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -111,6 +147,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "yeast"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -119,6 +159,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "water"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -127,6 +171,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
   - field: "process"
     sources-checked:
       - "https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf"
@@ -135,6 +183,10 @@ gaps:
       - "https://uppliquids.com/handcrafted-beer-bend-oregon/"
       - "https://www.bendsource.com/food-drink/gabf-is-down-with-upp/"
       - "web searches recorded in the research notes"
+      - "https://uppliquids.com/sitemap.xml"
+      - "https://uppliquids.com/wp-sitemap.xml"
+      - "https://uppliquids.com/post-sitemap.xml"
+      - "https://www.toasttab.com/local/order/upp-liquids"
 hop-profile: []
 hops: []
 ibu: null
@@ -242,8 +294,8 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes.
-- Not Found: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, [uppliquids.com](https://uppliquids.com/sitemap.xml), [uppliquids.com](https://uppliquids.com/wp-sitemap.xml), [uppliquids.com](https://uppliquids.com/post-sitemap.xml), [toasttab.com](https://www.toasttab.com/local/order/upp-liquids).
+- Not Found: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, [uppliquids.com](https://uppliquids.com/sitemap.xml), [uppliquids.com](https://uppliquids.com/wp-sitemap.xml), [uppliquids.com](https://uppliquids.com/post-sitemap.xml), [toasttab.com](https://www.toasttab.com/local/order/upp-liquids), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -253,3 +305,5 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's Untappd beer list names UPP Yours, gives N/A IBU and names no hop varieties.
 - Deep dive pass 2026-10-14: the brewery beer page and the Source Weekly medal story were read again; neither gives tasting notes, hops, malts, yeast or brewing figures.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (press quoting the brewery, web search): found nothing new; 3 pages tried. No empty field filled. The Bend Source calls it a 'cucumber gose' (profile says Cucumber Tart Ale per the brewery); Toast returned 403.

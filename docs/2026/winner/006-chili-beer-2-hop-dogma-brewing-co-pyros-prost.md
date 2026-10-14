@@ -39,6 +39,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -48,6 +52,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -57,6 +65,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -66,6 +78,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -75,6 +91,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "og"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -84,6 +104,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -93,6 +117,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -102,6 +130,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -111,6 +143,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -120,6 +156,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -129,6 +169,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -138,6 +182,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "water"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -147,6 +195,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
   - field: "process"
     sources-checked:
       - "https://untappd.com/HopDogmaBrewingCo/beer"
@@ -156,6 +208,10 @@ gaps:
       - "https://www.hopdogma.com/beers-2"
       - "https://www.hopdogma.com/welcome"
       - "web searches recorded in the research notes"
+      - "http://hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/sitemap.xml"
+      - "https://www.hopdogma.com/wp-sitemap.xml"
+      - "https://www.hopdogma.com/taplist"
 hop-profile: []
 hops: []
 ibu: null
@@ -263,8 +319,8 @@ Links checked 2026-10-14: [Website](https://www.hopdogma.com/), [Instagram](http
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
-- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, [hopdogma.com](http://hopdogma.com/sitemap.xml), [hopdogma.com](https://www.hopdogma.com/sitemap.xml), [hopdogma.com](https://www.hopdogma.com/wp-sitemap.xml), [hopdogma.com](https://www.hopdogma.com/taplist).
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, [hopdogma.com](http://hopdogma.com/sitemap.xml), [hopdogma.com](https://www.hopdogma.com/sitemap.xml), [hopdogma.com](https://www.hopdogma.com/wp-sitemap.xml), [hopdogma.com](https://www.hopdogma.com/taplist), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -273,3 +329,5 @@ Links checked 2026-10-14: [Website](https://www.hopdogma.com/), [Instagram](http
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's Untappd beer list publishes 7.1% ABV for a light blonde ale with jalapeños and N/A IBU, without named hops. This differs from the existing BeerMenus 6.0% chili rye ale and 7.1% Anaheim chile rye descriptions; ABV remains null because the formulations are unresolved. No brewery beer or tap list page was found.
 - Deep dive pass 2026-10-14: the brewery beer page was read again and does not list Pyro's Prost.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site (several pages), web searches): found nothing new; 5 pages tried. Brewery pages carry no beer details. A third party menu site (beermenus, not used as a source) lists 'American rye ale brewed with chilies' at 6.0% ABV in one entry and 7.1% in another, so ABV was not recorded as it is not the brewery's statement.

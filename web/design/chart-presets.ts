@@ -196,18 +196,24 @@ export function applyBrand(option: Opt, t: ChartTheme, look: ChartLook = DEFAULT
       case 'scatter':
         return withDefaults({ symbolSize: look.pointSize, itemStyle: { ...color, borderColor: t.surface, borderWidth: 1 }, label, emphasis: { focus: 'series' } }, s);
       case 'treemap': {
-        const box = { color: t.onSurface, backgroundColor: t.surface, padding: [2, 4], borderRadius: t.radius, fontFamily: t.family, fontSize: t.small };
+        // The name sits on a surface chip so it reads on any tile color. The chip is a rich text fragment:
+        // a background on the label itself would fill the whole tile, because a treemap sizes its label to the tile.
+        const chip = { color: t.onSurface, backgroundColor: t.surface, padding: [2, 4], borderRadius: t.radius, fontFamily: t.family, fontSize: t.small };
+        const box = { color: t.onSurface, fontFamily: t.family, fontSize: t.small, formatter: '{n|{b}}', rich: { n: chip } };
         const nested = Array.isArray(s.data) && s.data.some((d: Opt) => Array.isArray(d?.children));
-        const data = nested && !callerPalette
-          ? s.data.map((d: Opt) => withDefaults({ itemStyle: { color: colorFor(String(d.name ?? ''), d.medal) } }, d))
-          : s.data;
+        // Nested: each series' group takes its color. Flat: every tile takes the series color, set on the
+        // tile because a treemap's own color list does not reach a leaf drawn without a parent.
+        const data = callerPalette || !Array.isArray(s.data)
+          ? s.data
+          : nested
+            ? s.data.map((d: Opt) => withDefaults({ itemStyle: { color: colorFor(String(d.name ?? ''), d.medal) } }, d))
+            : s.data.map((d: Opt) => withDefaults({ itemStyle: { color: colorFor(name, s.medal) } }, d));
         return withDefaults({
           left: 8, right: 8, top: 8, bottom: 8,
           roam: false,
           nodeClick: false,
           breadcrumb: { show: false },
-          ...(nested || callerPalette ? {} : { color: [colorFor(name, s.medal)] }),
-          itemStyle: { borderColor: t.surface, borderWidth: 1, gapWidth: 2, decal: 'none' },
+          itemStyle: { borderColor: t.surface, borderWidth: 0, gapWidth: 2 },
           label: { ...box, position: 'insideTopLeft' },
           upperLabel: { show: nested, height: 24, ...box },
           emphasis: { label: box, upperLabel: box },
@@ -248,20 +254,21 @@ export function buildChartOption(input: ChartInput, t: ChartTheme, look: ChartLo
 // row per category for charts down the side (rankings, treemaps). Values are plain figures.
 export type TableColumn = { key: string; label: string; numeric?: boolean; sortable?: boolean };
 export type TableRow = { key: string; cells: Record<string, string>; sort?: Record<string, number | string | null> };
-const figure = (v: number | null | undefined) => (v === null || v === undefined ? '' : v.toLocaleString('en-US', { maximumFractionDigits: 2 }));
+// A missing value reads as the site's not-found label, which the caller passes in from its copy.
+const figure = (v: number | null | undefined, notFound: string) => (v === null || v === undefined ? notFound : v.toLocaleString('en-US', { maximumFractionDigits: 2 }));
 
-export function tableFor(preset: ChartPreset, categories: (string | number)[], series: ChartSeries[], nameColumn: string, sort?: SortOrder): { columns: TableColumn[]; rows: TableRow[] } {
+export function tableFor(preset: ChartPreset, categories: (string | number)[], series: ChartSeries[], nameColumn: string, sort?: SortOrder, notFound = ''): { columns: TableColumn[]; rows: TableRow[] } {
   const d = sortData(categories, series, sort);
   if (CATEGORY_ROW_PRESETS.includes(preset)) {
     const shown = preset === 'lollipop' ? d.series.slice(0, 1) : d.series;
     return {
       columns: [{ key: 'name', label: nameColumn }, ...shown.map((s, i) => ({ key: `s${i}`, label: s.name, numeric: true }))],
-      rows: d.categories.map((c, ci) => ({ key: String(c), cells: { name: String(c), ...Object.fromEntries(shown.map((s, i) => [`s${i}`, figure(s.values[ci])])) } })),
+      rows: d.categories.map((c, ci) => ({ key: String(c), cells: { name: String(c), ...Object.fromEntries(shown.map((s, i) => [`s${i}`, figure(s.values[ci], notFound)])) } })),
     };
   }
   return {
     columns: [{ key: 'name', label: nameColumn }, ...d.categories.map((c) => ({ key: String(c), label: String(c), numeric: true }))],
-    rows: d.series.map((s) => ({ key: s.name, cells: { name: s.name, ...Object.fromEntries(d.categories.map((c, i) => [String(c), figure(s.values[i])])) } })),
+    rows: d.series.map((s) => ({ key: s.name, cells: { name: s.name, ...Object.fromEntries(d.categories.map((c, i) => [String(c), figure(s.values[i], notFound)])) } })),
   };
 }
 

@@ -40,6 +40,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "srm"
     sources-checked:
       - "https://starrhill.com/"
@@ -48,6 +52,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "og"
     sources-checked:
       - "https://starrhill.com/"
@@ -56,6 +64,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "fg"
     sources-checked:
       - "https://starrhill.com/"
@@ -64,6 +76,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "hops"
     sources-checked:
       - "https://starrhill.com/"
@@ -72,6 +88,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "hop-form"
     sources-checked:
       - "https://starrhill.com/"
@@ -80,6 +100,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "hop-use"
     sources-checked:
       - "https://starrhill.com/"
@@ -88,6 +112,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "lot-or-farm"
     sources-checked:
       - "https://starrhill.com/"
@@ -96,6 +124,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "malts"
     sources-checked:
       - "https://starrhill.com/"
@@ -104,6 +136,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "yeast"
     sources-checked:
       - "https://starrhill.com/"
@@ -112,6 +148,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "water"
     sources-checked:
       - "https://starrhill.com/"
@@ -120,6 +160,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
   - field: "process"
     sources-checked:
       - "https://starrhill.com/"
@@ -128,6 +172,10 @@ gaps:
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
+      - "https://starrhill.com/sitemap.xml"
+      - "https://starrhill.com/wp-sitemap.xml"
+      - "https://starrhill.com/shop"
+      - "https://starrhill.com/shop/sherpa-zip-hoodie"
 hop-profile: []
 hops: []
 ibu: null
@@ -236,8 +284,8 @@ Links checked 2026-10-14: [Website](https://starrhill.com/), [Instagram](https:/
 
 ## gaps
 
-- Not Found: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
+- Not Found: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager, [starrhill.com](https://starrhill.com/sitemap.xml), [starrhill.com](https://starrhill.com/wp-sitemap.xml), [starrhill.com](https://starrhill.com/shop), [starrhill.com](https://starrhill.com/shop/sherpa-zip-hoodie).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager, [starrhill.com](https://starrhill.com/sitemap.xml), [starrhill.com](https://starrhill.com/wp-sitemap.xml), [starrhill.com](https://starrhill.com/shop), [starrhill.com](https://starrhill.com/shop/sherpa-zip-hoodie).
 
 ## research-notes
 
@@ -247,3 +295,5 @@ Links checked 2026-10-14: [Website](https://starrhill.com/), [Instagram](https:/
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 4.7% ABV and N/A IBU, with no named hops. A targeted brewery domain search found only the previously recorded medal post and home page; no additional brewery beer or tap list page was found.
 - Deep dive pass 2026-10-14: the brewery's medal post is the only brewery text; a web search found no hop, malt, yeast or IBU detail.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery news post and beer list re-read, web searches): found nothing new; 2 pages tried. Nothing new. The medal post only repeats the filled description; the beer list does not include Tow The Lime. Note: the post says the beer was canned for the first time in 2026.
