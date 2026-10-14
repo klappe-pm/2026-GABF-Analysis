@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset or site, please cite it as below."
+type: software
+title: "GABF Analysis"
+abstract: "An open, reproducible dataset and static dashboard site for the Great American Beer Festival awards, built from the official winners lists and enriched with brewery, ownership, and regional data."
+authors:
+  - family-names: Lappe
+    given-names: Kevin
+repository-code: "https://github.com/klappe-pm/GABF-Analysis"
+url: "https://klappe-pm.github.io/GABF-Analysis/"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-14"
+keywords:
+  - beer
+  - craft beer
+  - Great American Beer Festival
+  - open data
+  - data visualization
