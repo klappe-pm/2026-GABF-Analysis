@@ -40,6 +40,11 @@ gaps:
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "srm"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -47,6 +52,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "og"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -54,6 +64,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "fg"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -61,6 +76,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "hops"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -68,6 +88,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "hop-form"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -75,6 +100,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "hop-use"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -82,6 +112,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -89,6 +124,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "malts"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -96,6 +136,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "yeast"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -103,6 +148,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "water"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -110,6 +160,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
   - field: "process"
     sources-checked:
       - "https://www.beeradvocate.com/beer/profile/30581/798056/"
@@ -117,6 +172,11 @@ gaps:
       - "https://www.wickedweedbrewing.com/beers/whats-on-tap/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Wicked Weed Lime Drop hops and IBU"
+      - "https://www.wickedweedbrewing.com/sitemap.xml"
+      - "https://www.wickedweedbrewing.com/wp-sitemap.xml"
+      - "https://www.wickedweedbrewing.com/"
+      - "https://www.wickedweedbrewing.com/beer/lime-drop/"
+      - "https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8"
 hop-profile: []
 hops: []
 ibu: null
@@ -224,8 +284,8 @@ Links checked 2026-10-14: [Website](https://www.wickedweedbrewing.com/), [Instag
 
 ## gaps
 
-- Not Found: IBU. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
+- Not Found: IBU. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU, [wickedweedbrewing.com](https://www.wickedweedbrewing.com/sitemap.xml), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/wp-sitemap.xml), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beer/lime-drop/), [toasttab.com](https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU, [wickedweedbrewing.com](https://www.wickedweedbrewing.com/sitemap.xml), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/wp-sitemap.xml), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beer/lime-drop/), [toasttab.com](https://www.toasttab.com/local/order/wicked-weed/item-lime-drop-12-pack_90ace957-3731-4afb-b4dd-fea3181316c8).
 
 ## research-notes
 
@@ -236,3 +296,5 @@ Links checked 2026-10-14: [Website](https://www.wickedweedbrewing.com/), [Instag
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The Brew Pub listing and BeerAdvocate listing provide no IBU or named hop varieties. BeerAdvocate reports 4.9% ABV, compared with the existing brewery value of 4.8%; the existing value is retained.
 - Deep dive pass 2026-10-14: the tasting notes are the sensory sentence of the brewery's own description; a web search found no hop, malt, yeast or IBU detail.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery Toast menu (403), web search): found nothing new; 2 pages tried. Nothing new. Toast order page returned 403; searches return only homebrew and other breweries' lime lagers (excluded). No IBU, hops, malt or yeast published.

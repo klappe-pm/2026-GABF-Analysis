@@ -90,3 +90,18 @@ test('apply fills only empty fields, records provenance and keeps the profile va
   assert.ok(!gaps.includes('ibu') && !gaps.includes('yeast') && gaps.includes('malts'), 'a filled field has no gaps entry');
   assert.match(res.text, /https:\/\/example\.test\/summer/);
 });
+
+test('hop details fill blank form, use and farm, and add a named hop', () => {
+  const dir = resolve(ROOT, 'docs/2026/winner');
+  const file = '001-american-wheat-beer-1-wormtown-brewery-summer-ale.md';
+  const text = readFileSync(resolve(dir, file), 'utf8');
+  const res = applyResult(text, loadContext(), {
+    found: { 'hop-profile': [{ published: 'Azacca', form: 'T90 pellets', use: 'dry hop', 'lot-or-farm': 'Roy Farms', source: 'https://example.test/s' }, { published: 'Citra', use: 'whirlpool', source: 'https://example.test/s' }] },
+    tried: [], retrieved: '2026-10-14',
+  }, { lookup: loadHopLookup(), file });
+  const hp = splitDoc(res.text).data['hop-profile'];
+  assert.equal(hp.find((h) => h.published === 'Azacca').form, 'T90 pellets');
+  assert.equal(hp.find((h) => h.published === 'Azacca')['lot-or-farm'], 'Roy Farms');
+  assert.equal(hp.find((h) => h.published === 'Citra').variety, 'Citra');
+  assert.deepEqual(splitDoc(res.text).data.hops.sort(), ['Azacca', 'BRU-1', 'Citra']);
+});

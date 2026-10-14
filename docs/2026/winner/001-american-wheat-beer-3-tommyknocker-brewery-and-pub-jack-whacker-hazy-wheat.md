@@ -39,6 +39,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "srm"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -46,6 +50,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "og"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -53,6 +61,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "fg"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -60,6 +72,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -67,6 +83,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -74,6 +94,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -81,6 +105,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "yeast"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -88,6 +116,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "water"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -95,6 +127,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "process"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -102,6 +138,10 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
 hop-profile:
   - published: "Perle"
     variety: "Perle"
@@ -217,7 +257,7 @@ Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only), [tommyknocker.com](https://tommyknocker.com/sitemap.xml), [tommyknocker.com](https://www.tommyknocker.com/sitemap.xml), [tommyknocker.com](https://www.tommyknocker.com/wp-sitemap.xml), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/).
 
 ## research-notes
 
@@ -227,3 +267,5 @@ Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Deep dive pass 2026-10-14: the drink menu and a web search found no brewery tasting notes, yeast, color, gravity, water or process detail; hop form, use and source stay unpublished.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web search, press (Denver Gazette GABF roundup)): found nothing new; 3 pages tried. Nothing new. Search results cover the older Jack Whacker Wheat (4.7% per a subscription club), reviewer notes only, no brewery tasting notes or brewing details.

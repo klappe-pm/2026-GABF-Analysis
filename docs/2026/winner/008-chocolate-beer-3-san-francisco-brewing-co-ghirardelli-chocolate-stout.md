@@ -39,6 +39,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "ibu"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -46,6 +49,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "srm"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -53,6 +59,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "og"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -60,6 +69,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "fg"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -67,6 +79,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "hops"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -74,6 +89,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "hop-form"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -81,6 +99,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "hop-use"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -88,6 +109,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "lot-or-farm"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -95,6 +119,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "yeast"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -102,6 +129,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "water"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -109,6 +139,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
   - field: "process"
     sources-checked:
       - "https://ghirardelli.sfbrewingco.com/drink-menu"
@@ -116,6 +149,9 @@ gaps:
       - "https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319"
       - "https://www.sfbrewingco.com/"
       - "web searches recorded in the research notes"
+      - "https://sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/sitemap.xml"
+      - "https://www.sfbrewingco.com/wp-sitemap.xml"
 hop-profile: []
 hops: []
 ibu: null
@@ -223,8 +259,8 @@ Links checked 2026-10-14: [Website](https://www.sfbrewingco.com/), [Untappd](htt
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes.
-- Not Found: IBU. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, [sfbrewingco.com](https://sfbrewingco.com/sitemap.xml), [sfbrewingco.com](https://www.sfbrewingco.com/sitemap.xml), [sfbrewingco.com](https://www.sfbrewingco.com/wp-sitemap.xml).
+- Not Found: IBU. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, [sfbrewingco.com](https://sfbrewingco.com/sitemap.xml), [sfbrewingco.com](https://www.sfbrewingco.com/sitemap.xml), [sfbrewingco.com](https://www.sfbrewingco.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -234,3 +270,5 @@ Links checked 2026-10-14: [Website](https://www.sfbrewingco.com/), [Untappd](htt
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The plain Chocolate Stout listing has N/A IBU and no hops. Its 5% ABV differs from the existing brewery Imperial Stout value of 9.5%, which is retained. Chocolate-Coffee variants advertise 50 IBU in search results and were excluded.
 - Deep dive pass 2026-10-14: both drink menus were read again; they give the malt bill and cacao nibs but no tasting notes, hops or yeast.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery taproom menu page, web search): found nothing new; 1 page tried. Menu lists it as Ghirardelli Chocolate Imperial Stout, 9.5% ABV, with the already recorded malts and nibs; no IBU or hops published.

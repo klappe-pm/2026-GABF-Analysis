@@ -41,6 +41,8 @@ type PresetProps = Common & {
   series: ChartSeries[];
   sort?: SortOrder;
   nameColumn: string;
+  // What the table view reads for a missing value: global.labels.not_found.
+  notFound?: string;
   option?: EChartsOption;
   rows?: Row[];
   columns?: Column[];
@@ -58,6 +60,7 @@ type OptionProps = Common & {
   series?: undefined;
   sort?: undefined;
   nameColumn?: undefined;
+  notFound?: undefined;
 };
 
 type Props = PresetProps | OptionProps;
@@ -136,8 +139,8 @@ export function ChartCard(props: Props) {
 
   const table = useMemo(() => {
     if (props.rows && props.columns) return { rows: props.rows, columns: props.columns };
-    return tableFor(preset ?? 'line', props.categories ?? [], props.series ?? [], props.nameColumn ?? '', props.sort);
-  }, [props.rows, props.columns, preset, props.categories, props.series, props.nameColumn, props.sort]);
+    return tableFor(preset ?? 'line', props.categories ?? [], props.series ?? [], props.nameColumn ?? '', props.sort, props.notFound);
+  }, [props.rows, props.columns, preset, props.categories, props.series, props.nameColumn, props.sort, props.notFound]);
 
   const sideways = preset ? CATEGORY_ROW_PRESETS.includes(preset) && preset !== 'treemap' : false;
   const plotHeight = height ?? (sideways ? Math.max(240, (props.categories?.length ?? 0) * 32 + 48) : 320);
