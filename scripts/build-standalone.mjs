@@ -92,7 +92,7 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
 
   const { results, meta, breweries } = buildPayload(ds, cats);
   const breweryHtml = Object.fromEntries(ds.breweries.map((b) => [b.key, breweryDetailHtml(b)]));
-  const defaultBrewery = ds.breweries.find((b) => b.profile)?.key ?? ds.breweries[0]?.key ?? '';
+  const defaultBrewery = ds.breweries.find((b) => b.profile || b.facts)?.key ?? ds.breweries[0]?.key ?? '';
 
   const app = await bundle({ entryPoints: [resolve(SITE, 'assets', 'dashboards.js')], bundle: true, format: 'iife', minify: true, write: false, target: 'es2020', legalComments: 'none' });
   const init = (await transform(`${readFileSync(resolve(SITE, 'assets', 'echarts-init.js'), 'utf8')}\n${readFileSync(resolve(SITE, 'assets', 'page.js'), 'utf8')}`, { minify: true, target: 'es2020' })).code;
