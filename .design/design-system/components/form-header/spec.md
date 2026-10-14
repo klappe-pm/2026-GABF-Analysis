@@ -15,7 +15,6 @@ related:
   - button
   - filters-sheet
   - icon
-  - theme-toggle
 title: Form header
 tokens:
   - breakpoint.md

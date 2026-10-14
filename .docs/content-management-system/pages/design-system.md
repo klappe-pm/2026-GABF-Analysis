@@ -7,7 +7,7 @@ Design system: the living style guide. It shows every token and every component 
 Where: top of the page.
 
 - `title`: Design system
-- `lede`: The tokens and components every page of GABF Analysis is built from, shown with real medal data in light and dark.
+- `lede`: The tokens and components every page of GABF Analysis is built from, shown with real medal data.
 - `spec_link`: Read the spec
 - `source_link`: Tokens and specs
 - `nav_label`: Sections
