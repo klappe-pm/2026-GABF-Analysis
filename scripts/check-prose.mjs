@@ -4,14 +4,16 @@
 //   2. no hard-wrapped paragraphs,
 //   3. headings in lowercase kebab-case (the root README H1 may carry the project name).
 // Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG,
-// PRODUCT, and DESIGN, and anything under .github/) may use title or sentence case headings; rules 1 and 2 still apply.
+// PRODUCT, and DESIGN, anything under .github/, and the site copy under content/) may use title or sentence
+// case headings; rules 1 and 2 still apply.
 // Code fences and frontmatter are skipped.
 
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
 import { ROOT } from './lib/paths.mjs';
 
-const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'data']);
+// .impeccable holds the design tool's working files (critiques, surface briefs), not site prose.
+const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'data', '.impeccable']);
 
 function walk(dir, out = []) {
   for (const entry of readdirSync(dir)) {
@@ -33,7 +35,7 @@ const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'C
 // True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
 export function isPublicFacing(rel) {
   const path = rel.split('\\').join('/');
-  return PUBLIC_FACING.has(path) || path.startsWith('.github/');
+  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('content/');
 }
 
 export function checkMarkdown(text, { isRootReadme = false, fileName = '', publicFacing = false } = {}) {
@@ -56,7 +58,7 @@ export function checkMarkdown(text, { isRootReadme = false, fileName = '', publi
     if (/[–—]/.test(line)) problems.push({ line: n, rule: 'dash', text: 'em or en dash used as punctuation' });
     const withoutMarker = line.replace(/^\s*[-*]\s+/, '').replace(/^\s*\d+\.\s+/, '');
     if (/\s-\s/.test(withoutMarker.replace(/`[^`]*`/g, '')) && !/^\|/.test(trimmed)) problems.push({ line: n, rule: 'dash', text: 'spaced hyphen used as punctuation' });
-    if (/(^|[^-`])--([^->]|$)/.test(withoutMarker.replace(/`[^`]*`/g, ''))) problems.push({ line: n, rule: 'dash', text: 'double hyphen used as punctuation' });
+    if (/(^|[^-`])--([^->]|$)/.test(withoutMarker.replace(/`[^`]*`/g, '').replace(/<!--|-->/g, ''))) problems.push({ line: n, rule: 'dash', text: 'double hyphen used as punctuation' });
     const heading = line.match(/^(#{1,6})\s+(.+?)\s*#*\s*$/);
     if (heading) {
       flushParagraph();
