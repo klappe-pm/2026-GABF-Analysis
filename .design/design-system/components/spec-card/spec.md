@@ -2,7 +2,7 @@
 name: spec-card
 title: Beer spec card
 status: draft
-code: scripts/build-site.mjs
+code: web/components/SpecCard.tsx
 ---
 
 ![Beer spec card](spec-card.png)
