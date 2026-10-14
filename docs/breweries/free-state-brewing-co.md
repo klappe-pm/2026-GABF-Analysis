@@ -33,12 +33,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/freestatebeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -52,10 +49,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "free-state-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "KS"
-untappd: null
-website: null
+untappd: "https://untappd.com/fsb"
+website: "https://www.freestatebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

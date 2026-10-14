@@ -34,14 +34,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/loral.md"
   - "../hops/varieties/vanguard.md"
-instagram: null
+instagram: "https://www.instagram.com/drakesbeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "drake-s-brewing-company-bear-republic"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://drinkdrakes.com/"
 world-beer-cup-medals: 0
 ---
 

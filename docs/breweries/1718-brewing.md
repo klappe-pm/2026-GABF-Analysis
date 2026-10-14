@@ -37,7 +37,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
   - "website"
 hops-used: []
 instagram: null
@@ -54,9 +53,10 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "1718-brewing"
-sources: []
+sources:
+  - "Untappd brewery page name and city match"
 state: "NC"
-untappd: null
+untappd: "https://untappd.com/1718Brewing"
 website: null
 world-beer-cup-medals: 0
 ---

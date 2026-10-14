@@ -37,7 +37,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/sterling.md"
 instagram: null
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "del-cielo-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.delcielobrewing.com"
+untappd: "https://untappd.com/DelCieloBrewing"
+website: "https://www.delcielobrewing.com/"
 world-beer-cup-medals: 0
 ---
 

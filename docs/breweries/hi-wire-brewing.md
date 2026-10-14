@@ -36,11 +36,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/hiwirebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "hi-wire-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NC"
-untappd: null
-website: "http://www.hiwirebrewing.com"
+untappd: "https://untappd.com/HiWireBrewing"
+website: "https://hiwirebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

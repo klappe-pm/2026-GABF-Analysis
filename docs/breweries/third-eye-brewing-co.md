@@ -42,12 +42,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/thirdeyebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -64,10 +62,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "third-eye-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "OH"
 untappd: null
-website: null
+website: "https://thirdeyebrewingco.com/"
 world-beer-cup-medals: 0
 ---
 

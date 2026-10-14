@@ -34,12 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/skabrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -54,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "ska-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CO"
-untappd: null
-website: null
+untappd: "https://untappd.com/SkaBrewing"
+website: "https://skabrewing.com/"
 world-beer-cup-medals: 0
 ---
 

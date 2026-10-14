@@ -208,7 +208,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Vice Beer is in Vancouver, WA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/Vice_Beer).
 
 ## related
 
