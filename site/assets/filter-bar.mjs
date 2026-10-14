@@ -4,7 +4,7 @@
 // run in Node (build and tests) and in the browser; createGlobalFilter needs a DOM.
 
 import { esc } from './charts.mjs';
-import { compareLabels, compareYearsNewestFirst } from './sort-order.mjs';
+import { compareLabels, compareYearsNewestFirst, compareBands } from './sort-order.mjs';
 
 export const FILTERS = [
   { id: 'year', label: 'Year', group: 'When' },
@@ -179,7 +179,9 @@ export function optionList(scope, id, s = {}, meta = null) {
   }
   const labelOf = (v) => (id === 'brewery_key' ? names.get(v) : plainCity ? plainCity(v) : valueLabel(id, v, meta));
   const list = [...counts.entries()].map(([v, n]) => ({ value: v, count: n, label: labelOf(v) }));
-  return list.sort((a, b) => (id === 'year' ? compareYearsNewestFirst(a.value, b.value) : compareLabels(a.label, b.label)));
+  // Years run newest first and ABV bands by their range (ordered bins, not names); the rest by label.
+  const order = id === 'year' ? (a, b) => compareYearsNewestFirst(a.value, b.value) : id === 'abv_band' ? (a, b) => compareBands(a.value, b.value) : (a, b) => compareLabels(a.label, b.label);
+  return list.sort(order);
 }
 
 // Drop any selection that the others have left with no rows, so the state never holds a filter

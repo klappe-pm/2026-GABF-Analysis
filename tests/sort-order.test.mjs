@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { compareLabels, compareYearsNewestFirst, sortByLabel, sortText } from '../site/assets/sort-order.mjs';
+import { compareBands, compareLabels, compareYearsNewestFirst, sortByLabel, sortText } from '../site/assets/sort-order.mjs';
 
 test('entries that start with a number come before entries that start with a letter', () => {
   assert.deepEqual(sortByLabel(['Amber', '7 Barrel', 'Zwickel', '12 Mile']), ['7 Barrel', '12 Mile', 'Amber', 'Zwickel']);
@@ -43,4 +43,9 @@ test('sortByLabel returns a copy and reads a label from objects', () => {
 
 test('a year control may run newest first', () => {
   assert.deepEqual(['2018', '2026', '2024'].sort(compareYearsNewestFirst), ['2026', '2024', '2018']);
+});
+
+test('ordered bins run by their numeric range, lowest first, not by name', () => {
+  const ids = ['10-plus', '5-to-6', 'under-4', '8-to-10', '4-to-5', '6-to-7', '7-to-8'];
+  assert.deepEqual([...ids].sort(compareBands), ['under-4', '4-to-5', '5-to-6', '6-to-7', '7-to-8', '8-to-10', '10-plus']);
 });

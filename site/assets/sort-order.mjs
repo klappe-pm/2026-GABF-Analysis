@@ -34,3 +34,12 @@ export function sortByLabel(list, label = (x) => x) {
 
 // For a control that is explicitly a year picker: newest year first.
 export const compareYearsNewestFirst = (a, b) => Number(b) - Number(a);
+
+// Ordered bins (ABV bands) run by their numeric range, lowest first, rather than by name: an id
+// such as "under-4" is lowest, "4-to-5" and "10-plus" start at their first number.
+export const bandStart = (id) => (/^under/i.test(id) ? -Infinity : Number.parseFloat(String(id).match(/\d+(?:\.\d+)?/)?.[0] ?? 'Infinity'));
+export const compareBands = (a, b) => {
+  const x = bandStart(a);
+  const y = bandStart(b);
+  return x === y ? 0 : x < y ? -1 : 1;
+};

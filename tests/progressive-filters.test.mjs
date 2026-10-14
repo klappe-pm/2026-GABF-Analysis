@@ -99,3 +99,10 @@ test('the year list runs newest first and offers partial years only through the 
   assert.deepEqual(optionList(data, 'medal', {}).map((o) => o.count), [1]);
   assert.deepEqual(optionList(data, 'medal', { year: '2018' }).map((o) => o.count), [1]);
 });
+
+test('the ABV band list runs Under first, then ascending by range, and keeps the cascade', () => {
+  const band = (abv_band, state) => ({ ...medal(2026, 'Gold', state, 'Denver', 'Alpha', 'IPA'), abv_band });
+  const data = [band('10-plus', 'CO'), band('5-to-6', 'CO'), band('under-4', 'CO'), band('8-to-10', 'CA'), band('4-to-5', 'CO')];
+  assert.deepEqual(optionList(data, 'abv_band', {}).map((o) => o.value), ['under-4', '4-to-5', '5-to-6', '8-to-10', '10-plus']);
+  assert.deepEqual(optionList(data, 'abv_band', { state: 'CA' }).map((o) => o.value), ['8-to-10']);
+});

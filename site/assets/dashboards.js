@@ -279,13 +279,29 @@ function renderTable(rows) {
 // Sorting is delegated in page.js for every table.sortable, including ones drawn later.
 function wireSortable() {}
 
+// The breweries that still have medals under the global selection, in the site sort order, each
+// with its medal count under that selection.
+function breweryChoices() {
+  const counts = new Map();
+  for (const r of applyGlobal(state.rows, ctl.state)) counts.set(r.brewery_key, (counts.get(r.brewery_key) ?? 0) + 1);
+  return sortByLabel(state.breweries.filter((x) => counts.has(x.key)), (x) => x.name).map((x) => ({ ...x, shown: counts.get(x.key) }));
+}
+
+// When the picked brewery has no medals under the current filters, move to the first one that does.
+function settleBrewery() {
+  if (!qs('brewery-picker') || (STANDALONE && state.filters.tab !== 'breweries')) return;
+  const choices = breweryChoices();
+  const key = state.filters.brewery || state.defaultBrewery;
+  if (choices.length && !choices.some((x) => x.key === key)) state.filters.brewery = choices[0].key;
+}
+
 function renderBreweryPicker() {
   const el = qs('brewery-picker');
   if (!el) return;
   const b = currentBrewery();
-  const sorted = sortByLabel(state.breweries, (x) => x.name);
-  el.innerHTML = `<label>Brewery<select id="f-brewery">${sorted.map((x) => `<option value="${esc(x.key)}"${b && x.key === b.key ? ' selected' : ''}>${esc(x.name)} (${x.medals})</option>`).join('')}</select></label>${b ? `<p class="small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${esc(valueLabel('brewery_type', b.brewery_type))}${b.founded ? ` · founded ${b.founded}` : ''}${b.ownership ? ` · ${esc(valueLabel('ownership_type', b.ownership.type))}` : ''}${STANDALONE ? '' : ` · <a href="${base}breweries/${esc(b.slug)}/">open profile</a>`}</p>` : ''}`;
-  qs('f-brewery').addEventListener('change', (e) => { state.filters.brewery = e.target.value; render(); });
+  const sorted = breweryChoices();
+  el.innerHTML = `<label>Brewery<select id="f-brewery"${sorted.length ? '' : ' disabled'}>${sorted.length ? sorted.map((x) => `<option value="${esc(x.key)}"${b && x.key === b.key ? ' selected' : ''}>${esc(x.name)} (${x.shown.toLocaleString('en-US')})</option>`).join('') : '<option>No brewery matches</option>'}</select></label>${b ? `<p class="small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${esc(valueLabel('brewery_type', b.brewery_type))}${b.founded ? ` · founded ${b.founded}` : ''}${b.ownership ? ` · ${esc(valueLabel('ownership_type', b.ownership.type))}` : ''}${STANDALONE ? '' : ` · <a href="${base}breweries/${esc(b.slug)}/">open profile</a>`}</p>` : ''}`;
+  if (sorted.length) qs('f-brewery').addEventListener('change', (e) => { state.filters.brewery = e.target.value; render(); });
 }
 
 function renderFinancialTable(rows) {
@@ -343,6 +359,7 @@ function renderEmpty(rows) {
 
 function render() {
   applyTab();
+  settleBrewery();
   const rows = applyFilters(state.rows);
   state.lastRows = rows;
   writeHash();
