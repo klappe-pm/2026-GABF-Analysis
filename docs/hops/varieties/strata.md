@@ -19,13 +19,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Strata"
+alpha-acid-percent: "12.1"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "bubblegum"
+  - "fresh-rubbed sage"
+  - "Melon"
+  - "strawberries"
+beta-acid-percent: "5.3"
+breeder: "Indie Hops (Oregon)"
+canonical-name: "Strata"
+caryophyllene-percent-of-oil: "5 to 12.5"
+cohumulone-percent-of-alpha: "21"
+farnesene-percent-of-oil: null
+gaps:
+  - "farnesene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: "22 to 30"
 kind: "variety"
+medal-beers-2026: 2
+myrcene-percent-of-oil: "52 to 65"
 origin-country: "United States"
-program: "Indie Hops (Oregon)"
+owner-program: "Indie Hops (Oregon)"
+parentage: "Open pollination of a Perle mother in an Oregon experimental hop yard (formerly X-331)"
 proprietary-status: "proprietary"
+release-year: 2009
+release-year-note: null
 slug: "strata"
-year-released: "2009"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Strata.pdf"
+total-oil-ml-per-100g: "2.3 to 3.5"
+trademark: "Strata (trademark, per the John I. Haas sheet; registered, per NASS)"
+us-acres-latest:
+  - "Oregon 326"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # strata
@@ -100,3 +132,41 @@ A three state total cannot be computed for any year because at least one state i
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Strata.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Strata.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [B&D Farms](../farms/bd-farms.md), OR; published as Strata; 2022
+- [BC Hop Farms](../farms/bc-hop-farms.md), OR; published as Strata; current
+- [Crosby Hop Farm (Crosby Hops)](../farms/crosby-hops.md), OR; published as Strata; current
+- [F & B Farms & Nursery LLC](../farms/f-and-b-farms-and-nursery.md), OR; published as Strata; current
+- [Fobert Farms](../farms/fobert-farms.md), OR; published as Strata; current
+- [Roy Farms Inc](../farms/roy-farms.md), WA; published as Strata; current
+- [Sodbuster Farms](../farms/sodbuster-farms.md), OR; published as Strata; current
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Conehead Zero](../../2026/winner/015-hoppy-non-alcohol-beer-1-zero-gravity-craft-brewery-conehead-zero.md), gold, Hoppy Non-Alcohol Beer, by [Zero Gravity Craft Brewery](../../breweries/zero-gravity-craft-brewery.md); published as Strata
+- [The Fourth Colour](../../2026/winner/097-strong-red-ale-2-worthy-brewing-the-fourth-colour.md), silver, Strong Red Ale, by [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md); published as Strata Cryo
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md), 1 beer
+- [Zero Gravity Craft Brewery](../../breweries/zero-gravity-craft-brewery.md), 1 beer

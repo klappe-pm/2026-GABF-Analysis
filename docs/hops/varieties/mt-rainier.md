@@ -17,13 +17,49 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Mt. Rainier"
+alpha-acid-percent: "5 to 9.4"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Hopsteiner data sheet"
+aroma-descriptors:
+  - "Cedar"
+  - "Grass"
+  - "Lemon"
+  - "Tea"
+beta-acid-percent: "5 to 7"
+breeder: "USDA Agricultural Research Service public breeding program (Corvallis, Oregon)"
+canonical-name: "Mt. Rainier"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "20 to 25"
+farnesene-percent-of-oil: "0 to 0.2"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "USDA Agricultural Research Service public breeding program (Corvallis, Oregon)"
+owner-program: "USDA Agricultural Research Service public breeding program (Corvallis, Oregon)"
+parentage: "Hallertauer Magnum crossed with USDA 19085M; cross made in 1994 in Corvallis, Oregon (Hopsteiner)"
 proprietary-status: "public"
+release-year: 2009
+release-year-note: null
 slug: "mt-rainier"
-year-released: "2009"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Mt--Rainier"
+total-oil-ml-per-100g: "0.2 to 2.2"
+trademark: null
+us-acres-latest:
+  - "Idaho 0"
+  - "Oregon 0"
+  - "Washington 0"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # mt-rainier
@@ -98,3 +134,33 @@ Summed over the three states where every state is published, harvested area was 
 
 - `https://hopsteiner.us/variety-data-sheets/Mt--Rainier`
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

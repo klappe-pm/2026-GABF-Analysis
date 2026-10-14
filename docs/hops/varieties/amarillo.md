@@ -18,13 +18,48 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Amarillo"
+alpha-acid-percent: "8 to 11"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "apricot"
+  - "lemon"
+  - "melon"
+  - "Tangerine"
+  - "wild flowers"
+beta-acid-percent: "6 to 7"
+breeder: "Virgil Gamache Farms (Washington State)"
+canonical-name: "Amarillo"
+caryophyllene-percent-of-oil: "2 to 4"
+cohumulone-percent-of-alpha: "21 to 24"
+farnesene-percent-of-oil: "2 to 4"
+gaps:
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "9 to 11"
 kind: "variety"
+medal-beers-2026: 4
+myrcene-percent-of-oil: "68 to 70"
 origin-country: "United States"
-program: "Virgil Gamache Farms (Washington State)"
+owner-program: "Virgil Gamache Farms (Washington State)"
+parentage: "Derived from open pollination (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "amarillo"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Amarillo.pdf"
+total-oil-ml-per-100g: "1.5 to 1.9"
+trademark: "Amarillo (registered, per NASS and the John I. Haas sheet)"
+us-acres-latest:
+  - "Idaho 503"
+  - "Oregon 213"
+  - "Washington 1,158"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # amarillo
@@ -97,3 +132,39 @@ Summed over the three states where every state is published, harvested area was 
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Amarillo.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Amarillo.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Hoppy Mood](../../2026/winner/105-hop-water-1-founders-brewing-co-hoppy-mood.md), gold, Hop Water, by [Founders Brewing Co.](../../breweries/founders-brewing-co.md); published as Amarillo
+- [Big Cone](../../2026/winner/023-specialty-india-pale-ale-2-figueroa-mountain-brewing-co-big-cone.md), silver, Specialty India Pale Ale, by [Figueroa Mountain Brewing Co.](../../breweries/figueroa-mountain-brewing-co.md); published as Amarillo
+- [Breakside Lunch Break ISA](../../2026/winner/089-international-style-pale-ale-2-breakside-brewery-and-taproom-breakside-lunch-break-isa.md), silver, International-Style Pale Ale, by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md); published as Amarillo
+- [Old Diablo](../../2026/winner/088-barley-wine-or-wheat-wine-3-morgan-territory-brewing-old-diablo.md), bronze, Barley Wine or Wheat Wine, by [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md); published as Amarillo
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), 1 beer
+- [Figueroa Mountain Brewing Co.](../../breweries/figueroa-mountain-brewing-co.md), 1 beer
+- [Founders Brewing Co.](../../breweries/founders-brewing-co.md), 1 beer
+- [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md), 1 beer

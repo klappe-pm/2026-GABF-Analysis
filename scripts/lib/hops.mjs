@@ -15,6 +15,7 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { basename, resolve } from 'node:path';
 import { hopSlug } from '../../site/assets/hop-links.mjs';
+import { lookupFromRows, resolveHop } from './hop-aliases.mjs';
 import { readCsvRecords } from './csv.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
 import { matchKey } from './winner-profiles.mjs';
@@ -43,11 +44,25 @@ function readCsv(path) {
   return existsSync(path) ? readCsvRecords(readFileSync(path, 'utf8')).map(normRecord) : [];
 }
 
+// The "related" section of a research document holds relative links for readers of the Markdown
+// files; the site draws its own related links, so the section never reaches a page body.
+export function withoutRelated(body) {
+  const lines = String(body ?? '').split('\n');
+  const out = [];
+  let skipping = false;
+  for (const line of lines) {
+    const heading = line.match(/^(#{1,6})\s+(.+?)\s*$/);
+    if (heading && heading[1].length <= 2) skipping = heading[1] === '##' && heading[2].trim() === 'related';
+    if (!skipping) out.push(line);
+  }
+  return out.join('\n').replace(/\n+$/, '\n');
+}
+
 function readDocs(dir) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir).filter((f) => f.endsWith('.md') && !/^(readme|agents)/i.test(f)).sort().map((f) => {
     const { data, body } = parseFrontmatter(readFileSync(resolve(dir, f), 'utf8'));
-    return { file: f, stem: basename(f, '.md'), data, body };
+    return { file: f, stem: basename(f, '.md'), data, body: withoutRelated(body) };
   });
 }
 
@@ -57,6 +72,7 @@ export function loadHopReference({ referenceDir, docsDir } = {}) {
   return {
     varieties: ref('hop-varieties.csv'),
     acreage: ref('hop-acreage.csv'),
+    aliases: ref('hop-aliases.csv'),
     farms: ref('hop-farms.csv'),
     farmVarieties: ref('hop-farm-varieties.csv'),
     merchants: ref('hop-merchants.csv'),
@@ -146,7 +162,7 @@ export function detailFields(fm) {
 const byName = (a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
 
 export function buildHopModel({ profiles = [], rows = [], reference = {}, breweries = [] } = {}) {
-  const ref = { varieties: [], acreage: [], farms: [], farmVarieties: [], merchants: [], gaps: [], varietyDocs: [], farmDocs: [], ...reference };
+  const ref = { varieties: [], acreage: [], aliases: [], farms: [], farmVarieties: [], merchants: [], gaps: [], varietyDocs: [], farmDocs: [], ...reference };
   const varietyByKey = new Map();
   const varieties = [];
   const farmByKey = new Map();
@@ -166,7 +182,7 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
   // ----- varieties and the alias map -----
   const makeVariety = (name, rec = null) => {
     const v = {
-      name, slug: '', listed: Boolean(rec), aliases: [], breeder: '', origin: '', aroma: [], traits: [], sources: [],
+      name, slug: '', docSlug: rec ? str(rec.slug) : '', listed: Boolean(rec), aliases: [], breeder: '', origin: '', aroma: [], traits: [], sources: [],
       acreage: [], farms: new Map(), usages: new Map(), doc: null,
     };
     v.slug = uniqueSlug(hopSlug(name));
@@ -192,11 +208,21 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
     }
   }
   for (const v of [...varieties]) for (const a of v.aliases) if (!varietyByKey.has(foldName(a))) varietyByKey.set(foldName(a), v);
-  const resolveVariety = (name) => {
+  // The alias map (hop-aliases.csv) folds product forms into the variety: "Citra Cryo" is Citra, form Cryo.
+  const lookup = lookupFromRows(ref.aliases);
+  const resolveWithForm = (name) => {
     const n = clean(name);
     if (!foldName(n)) return null;
-    return varietyByKey.get(foldName(n)) ?? makeVariety(n);
+    const direct = varietyByKey.get(foldName(n));
+    if (direct) return { variety: direct, form: '' };
+    const hit = resolveHop(n, lookup);
+    if (hit.status === 'mapped') {
+      const base = varietyByKey.get(foldName(hit.canonical)) ?? [...varietyByKey.values()].find((x) => x.slug === hit.slug);
+      if (base) return { variety: base, form: hit.form };
+    }
+    return { variety: makeVariety(n), form: '' };
   };
+  const resolveVariety = (name) => resolveWithForm(name)?.variety ?? null;
 
   // ----- farms -----
   const FARM_KNOWN = new Set(['slug', 'farm', 'farm_name', 'name', 'state', 'aliases', 'alias']);
@@ -241,9 +267,10 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
 
   // ----- acreage -----
   for (const rec of ref.acreage) {
-    const v = resolveVariety(pick(rec, 'variety', 'canonical_variety', 'name'));
+    const bySlug = pick(rec, 'variety_slug') ? varieties.find((x) => x.slug === hopSlug(pick(rec, 'variety_slug'))) : null;
+    const v = bySlug ?? resolveVariety(pick(rec, 'canonical_variety', 'variety', 'name'));
     if (!v) continue;
-    v.acreage.push({ state: pick(rec, 'state'), year: pick(rec, 'year'), acres: pick(rec, 'acres', 'acreage'), production: pick(rec, 'production', 'production_lbs', 'pounds'), source: sourceOf(pick(rec, 'source', 'source_url')) });
+    v.acreage.push({ state: pick(rec, 'state'), year: pick(rec, 'year'), acres: pick(rec, 'acres', 'acreage'), production: pick(rec, 'production_lbs', 'production', 'pounds'), source: sourceOf(pick(rec, 'source', 'source_url')) });
   }
 
   // ----- beers -----
@@ -263,10 +290,11 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
       style: str(fm.style), usage: [], details: detailFields(fm),
     };
     for (const e of hopEntries(fm)) {
-      const v = resolveVariety(e.variety) ?? resolveVariety(e.published);
-      if (!v) continue;
+      const hit = resolveWithForm(e.variety) ?? resolveWithForm(e.published);
+      if (!hit) continue;
+      const v = hit.variety;
       const farm = e.lotOrFarm ? farmFor(e.lotOrFarm) : null;
-      beer.usage.push({ ...e, canonical: v.name, slug: v.slug, variety: v, farm });
+      beer.usage.push({ ...e, form: e.form || hit.form, canonical: v.name, slug: v.slug, variety: v, farm });
     }
     beers.set(p.stem, beer);
     for (const u of beer.usage) {
@@ -345,6 +373,7 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
     varietyBySlug: new Map(varieties.map((v) => [v.slug, v])),
     farmBySlug: new Map(farms.map((f) => [f.slug, f])),
     resolveVariety,
+    resolveWithForm,
     farmFor,
     unmatchedFarmRows,
     acreage: ref.acreage.length,
