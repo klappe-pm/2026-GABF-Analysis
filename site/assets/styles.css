@@ -28,6 +28,7 @@
   --medal-silver: var(--app-color-silver);
   --medal-bronze: var(--app-color-bronze);
   --mark-muted: var(--md-sys-color-outline-variant);
+  --mark-other: var(--md-sys-color-outline);
   --good: var(--md-sys-color-primary);
   --warn: var(--md-sys-color-tertiary);
   --focus: var(--md-sys-color-primary);

@@ -475,7 +475,7 @@ function trendsView(rows, ctx) {
   const { r, meta, state } = ctx;
   const years = yearsInView(meta, state);
   const top = countBy(rows, 'style_family').slice(0, SERIES_COLORS.length - 1).map(([k]) => k);
-  const series = [...top, 'Other'].map((f, i) => ({ name: f, color: SERIES_COLORS[i], data: years.map((y) => rows.filter((x) => x.year === y && (top.includes(x.style_family) ? x.style_family === f : f === 'Other')).length) }));
+  const series = [...top, 'Other'].map((f, i) => ({ name: f, color: f === 'Other' ? 'var(--mark-other)' : SERIES_COLORS[i], data: years.map((y) => rows.filter((x) => x.year === y && (top.includes(x.style_family) ? x.style_family === f : f === 'Other')).length) }));
   const complete = years.filter((y) => meta.coverage[y] === 'complete' && rows.some((x) => x.year === y));
   let movers = '<div class="notice">Year over year movers appear when two complete years are in view.</div>';
   if (complete.length >= 2) {
