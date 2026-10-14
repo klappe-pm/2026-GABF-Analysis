@@ -32,18 +32,13 @@ description:
 entries: 28
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gowansheirloomcider.com/"
-      - "https://www.gowansheirloomcider.com/rose-cider"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gowansheirloomcider.com/"
       - "https://www.gowansheirloomcider.com/rose-cider"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gowansheirloomcider.com/"
@@ -104,12 +99,6 @@ gaps:
       - "https://www.gowansheirloomcider.com/rose-cider"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://gowansheirloomcider.com/"
-      - "https://www.gowansheirloomcider.com/rose-cider"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -117,14 +106,18 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Organic heirloom apples from the family farm in Anderson Valley with local Pinot Noir wine grapes, barrel-aged in French oak"
+  source: "https://www.gowansheirloomcider.com/rose-cider"
 sources:
   - "https://gowansheirloomcider.com/"
   - "https://www.gowansheirloomcider.com/rose-cider"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Rose Cider"
-tasting-notes: null
+tasting-notes:
+  text: "Notes of ripe apple, berries, vanilla."
+  source: "https://www.gowansheirloomcider.com/rose-cider"
 water: null
 yeast: []
 ---
@@ -160,7 +153,9 @@ Source: [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Notes of ripe apple, berries, vanilla.
+
+Source: [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider)
 
 ## ingredients
 
@@ -178,7 +173,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Organic heirloom apples from the family farm in Anderson Valley with local Pinot Noir wine grapes, barrel-aged in French oak | [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider) |
 
 ## style-context
 
@@ -210,8 +205,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -220,3 +215,4 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 - ABV, grapes, oak aging and size verified on the product page, which also cites a GABF 2024 gold.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives tasting words, the grapes and French oak aging, and 6.8%.

@@ -54,6 +54,23 @@ test('every estimate tooltip on the site keeps the default link', () => {
   }
 });
 
+test('the tooltip takes an optional list of inputs, each a label, a value, and an optional source link', () => {
+  const src = read('web', 'components', 'EstimateTooltip.tsx');
+  assert.match(src, /export type EstimateInput = \{ label: string; value: string; source\?: \{ href: string; text: string \} \}/);
+  assert.match(src, /\binputs\?: EstimateInput\[\]/, 'inputs is optional');
+  // Drawn as a short list under the explanation, unless the spec's "Show inputs" setting is no.
+  assert.match(src, /s\['Show inputs'\] === 'no' \? \[\] : inputs \?\? \[\]/);
+  assert.match(src, /<dl\b[^>]*data-part="estimate-inputs"/);
+  assert.match(src, /input\.source \? <>\{' '\}<TextLink href=\{input\.source\.href\}>\{input\.source\.text\}<\/TextLink><\/> : null/);
+});
+
+test('"Show inputs" is a setting of the estimate tooltip, in the schema and in its spec', () => {
+  assert.match(read('web', 'design', 'schema.ts'), /'estimate-tooltip': \{[^}]*'Show inputs': yesNo/);
+  const spec = read('.design', 'design-system', 'components', 'estimate-tooltip', 'spec.md');
+  assert.match(spec, /^Show inputs: (yes|no)$/m);
+  assert.match(spec, /^- Show inputs: (yes|no)$/m);
+});
+
 test('the Method page copy has the estimates section the link points at', () => {
   assert.match(read('.docs', 'content-management-system', 'pages', 'method.md'), /^## `estimates`$/m);
 });
