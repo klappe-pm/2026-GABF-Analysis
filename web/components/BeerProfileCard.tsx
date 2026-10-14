@@ -9,7 +9,7 @@ import { TextLink } from './TextLink';
 // One winning beer on a Material card: its name, brewery, and medal, then category, ABV, IBU, and style as a
 // description list, its hops as assist chips that open each variety's page, an excerpt of its tasting note
 // with the source, and a link to the beer's full profile. The page passes every visible word; a value the
-// data does not hold arrives as the page's "not defined" text.
+// data does not hold arrives as the page's "Not Found" text.
 
 export type BeerCardData = {
   name: string;
