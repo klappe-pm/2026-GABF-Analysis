@@ -9,6 +9,7 @@ Where: header navigation, left to right.
 - `results`: Results
 - `results_by_year`: By year
 - `results_by_category`: By category
+- `categories`: Categories
 - `breweries`: Breweries
 - `beers`: Beers
 - `analysis`: Analysis

@@ -9,13 +9,15 @@
 //   a data table whose cells wrap or are not left aligned, whose header row is not bold, or that scrolls
 //   the page instead of its own container;
 //   a page that changes when the browser asks for a dark scheme (the site has one light theme);
-//   a built page (home, design system, not found) whose background is not pure white, or whose footer
-//   lacks the Catalog.beer attribution;
+//   a built page (home, design system, not found, the winners list, a beer page) whose background is not
+//   pure white, or whose footer lacks the Catalog.beer attribution;
+//   a site page without the top app bar, the navigation its window size class calls for, a current
+//   destination, or a main region, or one that breaks the table, font, or figure rules;
 //   motion that keeps running when the browser asks for reduced motion;
 //   a keyboard stop with no visible focus indicator.
 // Run npm run web:build first. Needs Playwright (see serve-out.mjs for PLAYWRIGHT_MODULE and PLAYWRIGHT_CHANNEL).
 
-import { existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { SETTINGS, readDoc } from './lib.mjs';
 import { OUT, launch, openStyleGuide, serveOut } from './serve-out.mjs';
@@ -117,14 +119,34 @@ const focusState = () => {
   return { id: label, visible: outlined || ring };
 };
 
+// Site pages to audit: in each top level folder of the export (not the style guide, the settings copies,
+// the data files, or Next's own folders), every index.html met while following the first subfolder down.
+const NOT_PAGES = new Set(['_next', '_not-found', '404', 'data', 'design-settings', 'design-system']);
+export function sampleSitePages(out) {
+  const pages = [];
+  const walk = (dir, url, depth) => {
+    if (existsSync(resolve(dir, 'index.html'))) pages.push(url);
+    if (depth >= 3) return;
+    const first = readdirSync(dir, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name).sort()[0];
+    if (first) walk(resolve(dir, first), `${url}${first}/`, depth + 1);
+  };
+  for (const e of readdirSync(out, { withFileTypes: true }).filter((x) => x.isDirectory() && !NOT_PAGES.has(x.name)).sort((a, b) => a.name.localeCompare(b.name))) walk(resolve(out, e.name), `/${e.name}/`, 1);
+  return pages;
+}
+
 async function main() {
   if (!existsSync(resolve(OUT, 'design-system/index.html'))) { console.log('web/out is missing: run npm run web:build'); process.exit(1); }
   const server = await serveOut();
   const origin = `http://127.0.0.1:${server.address().port}`;
   const browser = await launch();
   const problems = [];
+  // The ported site pages (docs/site-port-plan.md): for every section of the export, its index and its
+  // first detail page, so each page a lane ports is audited without editing this file.
+  const sitePages = sampleSitePages(OUT);
+  for (const need of ['/beers/2026/']) if (!sitePages.includes(need)) problems.push(`web/out has no ${need}`);
+  if (!sitePages.some((p) => /^\/beers\/2026\/[^/]+\/$/.test(p))) problems.push('web/out has no beer page under /beers/2026/');
   // Every built page sits on pure white ("Page background: white" in settings.md).
-  for (const path of ['/', '/design-system/', '/404.html']) {
+  for (const path of ['/', '/design-system/', '/404.html', ...sitePages]) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await ctx.newPage();
     await page.goto(`${origin}${path}`, { waitUntil: 'networkidle' });
@@ -162,6 +184,35 @@ async function main() {
     if (Math.abs(r.margin - expectedMargin) > 0.5) problems.push(`${width}: the margin is ${r.margin}px, the settings say ${expectedMargin}px`);
     if ((g['Page width'] ?? 'full') === 'full' && r.content < r.viewport - r.navWidth - 2 * r.margin - 2) problems.push(`${width}: content is ${Math.round(r.content)}px wide in a ${r.viewport}px window; it should fill the window`);
     await ctx.close();
+  }
+  // The site shell on every site page: the top app bar, the navigation the window size class calls for
+  // with the current destination marked, no sideways scroll, a main region, and the table rules.
+  for (const width of [390, 1024, 1440]) {
+    for (const path of [...sitePages, '/404.html']) {
+      const ctx = await browser.newContext({ viewport: { width, height: 1000 } });
+      const page = await ctx.newPage();
+      await page.goto(`${origin}${path}`, { waitUntil: 'networkidle' });
+      await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
+      await page.evaluate(() => document.fonts.ready);
+      const r = await page.evaluate(() => {
+        const shown = (s) => { const e = document.querySelector(s); return e ? getComputedStyle(e).display !== 'none' : false; };
+        const nav = ['tabs', 'rail', 'drawer'].find((n) => shown(`[data-nav="${n}"]`));
+        const links = nav ? [...document.querySelectorAll(`[data-nav="${nav}"] a`)].map((a) => a.textContent.trim()) : [];
+        const current = nav ? document.querySelector(`[data-nav="${nav}"] a[aria-current]`)?.textContent.trim() ?? null : null;
+        return { tabs: shown('[data-nav="tabs"]'), rail: shown('[data-nav="rail"]'), drawer: shown('[data-nav="drawer"]'), links, current, header: Boolean(document.querySelector('header a')), main: Boolean(document.getElementById('main')), overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth };
+      });
+      const want = width < 600 ? 'tabs' : width < 1200 || !drawerWide ? 'rail' : 'drawer';
+      for (const nav of ['tabs', 'rail', 'drawer']) if (r[nav] !== (nav === want)) problems.push(`${path} at ${width}: ${nav} is ${r[nav] ? 'shown' : 'hidden'}; this window size shows ${want}`);
+      if (r.links.length < 4) problems.push(`${path} at ${width}: the site navigation has ${r.links.length} destinations`);
+      if (path.startsWith('/beers/') && !r.current) problems.push(`${path} at ${width}: no destination is marked current`);
+      if (!r.header) problems.push(`${path} at ${width}: no top app bar`);
+      if (!r.main) problems.push(`${path} at ${width}: no main region`);
+      if (r.overflow) problems.push(`${path} at ${width}: the page scrolls sideways`);
+      // A site page need not hold a table, but every table it holds follows the rules.
+      if (path !== '/404.html') for (const b of new Set(await page.evaluate(tableRules))) if (b !== 'no data tables on the page' || path.startsWith('/beers/')) problems.push(`${path} at ${width}: ${b}`);
+      if (path !== '/404.html') for (const b of new Set(await page.evaluate(fontsAndFigures))) problems.push(`${path} at ${width}: ${b}`);
+      await ctx.close();
+    }
   }
   for (const width of [390, 1280]) {
     const light = await browser.newContext({ viewport: { width, height: 900 }, colorScheme: 'light' });

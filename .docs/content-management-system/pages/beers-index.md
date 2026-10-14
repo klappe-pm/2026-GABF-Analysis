@@ -32,6 +32,9 @@ Where: the summary tiles.
 
 Where: the winners table.
 
+- `caption`: Every {{year}} medal with its beer's published specs
+- `sort_hint`: Select a column header to sort.
+- `category`: Category
 - `medal`: Medal
 - `beer`: Beer
 - `brewery`: Brewery
