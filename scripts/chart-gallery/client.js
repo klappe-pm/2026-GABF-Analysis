@@ -331,15 +331,16 @@
   };
   const stackedFamBuild = (w) => {
     const narrow = w < NARROW;
-    const names = [...prof.families, 'All other families'];
-    const colors = [...P.family, OUTLINE];
+    const shown = prof.families.slice(0, P.family.length);
+    const names = [...shown, 'All other families'];
+    const colors = [...P.family, P.other];
     return base({
       grid: { left: labelWidth(w), right: 12, top: 4, bottom: narrow ? 118 : 74 },
       legend: { ...legendBase, bottom: 0, data: names.map((n) => shortName(n, 26)), itemGap: 10 },
       xAxis: { type: 'value', minInterval: 1, interval: 2, max: 16, axisLabel: axisText, splitLine: { lineStyle: { color: GRID } } },
       yAxis: { type: 'category', inverse: true, data: prof.breweries.map((b) => b.name), axisLabel: brewLabels(w), axisLine: { lineStyle: { color: OUTLINE } } },
       tooltip: { trigger: 'item', confine: true, formatter: (p) => `<b>${esc(prof.breweries[p.dataIndex].name)}</b><br>${esc(names[p.seriesIndex])}: ${p.value}` },
-      series: names.map((n, k) => ({ name: shortName(n, 26), type: 'bar', stack: 'f', barMaxWidth: 44, data: prof.breweries.map((b) => (k < prof.families.length ? b.counts[k] : b.total - b.inTopFamilies)), itemStyle: { color: colors[k], borderColor: P.page, borderWidth: 1 }, label: { show: true, color: P.textOn[colors[k]] ?? P.onDark, fontSize: 12, formatter: (p) => (p.value ? p.value : '') } })),
+      series: names.map((n, k) => ({ name: shortName(n, 26), type: 'bar', stack: 'f', barMaxWidth: 44, data: prof.breweries.map((b) => (k < shown.length ? b.counts[k] : b.total - b.counts.slice(0, shown.length).reduce((s, c) => s + c, 0))), itemStyle: { color: colors[k], borderColor: P.page, borderWidth: 1 }, label: { show: true, color: P.textOn[colors[k]] ?? P.onDark, fontSize: 12, formatter: (p) => (p.value ? p.value : '') } })),
     });
   };
 
