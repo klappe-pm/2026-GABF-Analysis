@@ -248,3 +248,4 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - IBU, hops, malts and yeast are not published; the Toast menu returned 403.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's Untappd beer list names UPP Yours, gives N/A IBU and names no hop varieties.
+- Deep dive pass 2026-10-14: the brewery beer page and the Source Weekly medal story were read again; neither gives tasting notes, hops, malts, yeast or brewing figures.

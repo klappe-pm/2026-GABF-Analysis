@@ -35,6 +35,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -42,6 +43,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -49,6 +51,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -56,6 +59,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -63,6 +67,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -70,6 +75,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -77,6 +83,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -84,6 +91,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -91,6 +99,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -98,6 +107,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -105,6 +115,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -112,6 +123,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -119,6 +131,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -126,6 +139,7 @@ gaps:
       - "https://wormtownbrewery.com/beer/"
       - "https://wormtownbrewery.com/beers/shrewsbury-st-wheat/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only)"
 hop-profile:
   - published: "Azacca"
     variety: "Azacca"
@@ -241,8 +255,8 @@ Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -254,3 +268,4 @@ Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](h
 - Researched 2026-10-13.
 - Second pass 2026-10-13: web searches for the beer on Untappd and for a Wormtown GABF 2026 announcement returned only other breweries' summer ales and older Wormtown medal news (2014 U.S. Open); nothing more was found.
 - Field pass 2026-10-13: Untappd names Wormtown and calls its Summer listing Summer Ale in the description, publishing 4.8% ABV and BRU-1 and Azacca hops. It labels the beer a golden ale; the category remains the official wheat category. IBU is N/A; no additional brewery beer page was found.
+- Deep dive pass 2026-10-14: a web search for the beer with its hops found only homebrew recipes; the brewery beer list still has no Summer Ale page, so description, tasting notes and brewing details stay unpublished.

@@ -225,3 +225,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional specifications. The brewery's Untappd page was readable but supplied no matching Citrus Wheat specifications.
 - Field pass 2026-10-13: The venue activity linked to a matching Citrus Wheat beer page publishing 5.5% ABV. IBU is N/A and hop varieties are absent. Distributor and brewery domain searches found no matching brewery beer page.
+- Deep dive pass 2026-10-14: the brewery's beer list was read again and does not include Citrus Wheat; no description, tasting notes or recipe was found.

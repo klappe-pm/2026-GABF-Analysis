@@ -31,13 +31,6 @@ description:
 entries: 79
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://starrhill.com/"
-      - "https://starrhill.com/beer"
-      - "https://starrhill.com/news/gabf2026"
-      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://starrhill.com/"
@@ -45,6 +38,8 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "srm"
     sources-checked:
       - "https://starrhill.com/"
@@ -52,6 +47,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "og"
     sources-checked:
       - "https://starrhill.com/"
@@ -59,6 +55,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "fg"
     sources-checked:
       - "https://starrhill.com/"
@@ -66,6 +63,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "hops"
     sources-checked:
       - "https://starrhill.com/"
@@ -73,6 +71,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "hop-form"
     sources-checked:
       - "https://starrhill.com/"
@@ -80,6 +79,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "hop-use"
     sources-checked:
       - "https://starrhill.com/"
@@ -87,6 +87,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "lot-or-farm"
     sources-checked:
       - "https://starrhill.com/"
@@ -94,6 +95,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "malts"
     sources-checked:
       - "https://starrhill.com/"
@@ -101,6 +103,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "yeast"
     sources-checked:
       - "https://starrhill.com/"
@@ -108,6 +111,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "water"
     sources-checked:
       - "https://starrhill.com/"
@@ -115,6 +119,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
   - field: "process"
     sources-checked:
       - "https://starrhill.com/"
@@ -122,6 +127,7 @@ gaps:
       - "https://starrhill.com/news/gabf2026"
       - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Starr Hill Tow The Lime Mexican lager"
 hop-profile: []
 hops: []
 ibu: null
@@ -138,7 +144,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Mexican-style pale lager with lime"
-tasting-notes: null
+tasting-notes:
+  text: "a crisp and refreshing pale Mexican-style lager with a squeeze of lime."
+  source: "https://starrhill.com/news/gabf2026"
 water: null
 yeast: []
 ---
@@ -174,7 +182,9 @@ Source: [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> a crisp and refreshing pale Mexican-style lager with a squeeze of lime.
+
+Source: [starrhill.com](https://starrhill.com/news/gabf2026)
 
 ## ingredients
 
@@ -222,8 +232,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes.
-- Not published: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
 
 ## research-notes
 
@@ -232,3 +242,4 @@ No brewery links have been checked yet.
 - ABV, IBU, hops, malts and yeast are not published on any page read.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 4.7% ABV and N/A IBU, with no named hops. A targeted brewery domain search found only the previously recorded medal post and home page; no additional brewery beer or tap list page was found.
+- Deep dive pass 2026-10-14: the brewery's medal post is the only brewery text; a web search found no hop, malt, yeast or IBU detail.

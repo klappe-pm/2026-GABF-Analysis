@@ -35,96 +35,112 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "abv"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "ibu"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "srm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "og"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "fg"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "hops"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "hop-form"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "hop-use"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "malts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "yeast"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "adjuncts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "water"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
   - field: "process"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
       - "https://www.liquidmechanicsbrewing.com/awards"
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
 hop-profile: []
 hops: []
 ibu: null
@@ -222,8 +238,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results).
+- Not published: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -233,3 +249,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name and alternate-name searches with Untappd, ABV and BeerMenus found no verified specifications. The brewery's Untappd activity and medal coverage identify the beer but do not supply its recipe; fields remain null.
 - Field pass 2026-10-13: A retailer focused exact-name search found brewery activity and medal coverage, without a new specification source. ABV, IBU, brewery beer page and named hops remain unverified.
+- Deep dive pass 2026-10-14: an exact-name web search returned nothing about the beer.

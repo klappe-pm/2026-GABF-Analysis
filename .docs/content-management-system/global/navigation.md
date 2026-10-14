@@ -13,6 +13,8 @@ Where: header navigation, left to right.
 - `beers`: Beers
 - `analysis`: Analysis
 - `saved_views`: Saved views
+- `hops`: Hops
+- `hop_farms`: Hop farms
 
 ## `footer`
 
