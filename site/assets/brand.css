@@ -60,6 +60,9 @@
   --brand-on-seq-5: #1b1b1b;
   --brand-on-seq-6: #ffffff;
   --brand-on-seq-7: #ffffff;
+  --brand-font-plain: "Public Sans", system-ui, sans-serif;
+  --brand-font-heading: "Public Sans", system-ui, sans-serif;
+  --brand-font-label: "Archivo Narrow", "Public Sans", system-ui, sans-serif;
   --brand-page-max: none;
   --brand-margin-compact: 16px;
   --brand-margin-wide: 24px;

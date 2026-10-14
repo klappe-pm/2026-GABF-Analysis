@@ -88,6 +88,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)} · ${SITE_TITLE}</title>
 <meta name="description" content="${esc(description)}">
+<link rel="stylesheet" href="${r}assets/fonts.css">
 <link rel="stylesheet" href="${r}assets/brand.css">
 <link rel="stylesheet" href="${r}assets/styles.css">
 <link rel="icon" href="data:,">

@@ -10,6 +10,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { dirname, resolve } from 'node:path';
 import { ROOT, SITE, parseArgs } from './lib/paths.mjs';
+import { inlineBrandCss } from './brand/build.mjs';
 import { galleryData } from './chart-gallery/data.mjs';
 import { beerDetailsHtml } from './lib/catalog-attribution.mjs';
 import { checkContrast, paletteForPage } from './chart-gallery/palette.mjs';
@@ -28,8 +29,8 @@ export function renderGallery() {
   const data = { ...galleryData(), beerDetailsHtml: beerDetailsHtml(), palette: paletteForPage(), geo: JSON.parse(readFileSync(resolve(SITE, 'assets/us-states.geo.json'), 'utf8')) };
   const template = readFileSync(resolve(HERE, 'template.html'), 'utf8');
   const parts = {
-    // brand.css (generated from the design settings) defines every color the gallery styles use.
-    '/*__STYLE__*/': `${readFileSync(resolve(SITE, 'assets/brand.css'), 'utf8')}\n${readFileSync(resolve(HERE, 'styles.css'), 'utf8')}`,
+    // brand.css (generated from the design settings) defines every color and face the gallery uses.
+    '/*__STYLE__*/': `${inlineBrandCss()}\n${readFileSync(resolve(HERE, 'styles.css'), 'utf8')}`,
     '/*__ECHARTS__*/': safeScript(readFileSync(require.resolve('echarts/dist/echarts.min.js'), 'utf8')),
     '/*__DATA__*/': `window.GALLERY = ${safeJson(data)};`,
     '/*__CLIENT__*/': safeScript(readFileSync(resolve(HERE, 'client.js'), 'utf8')),
