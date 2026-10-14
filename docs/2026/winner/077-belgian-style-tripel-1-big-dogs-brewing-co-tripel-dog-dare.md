@@ -150,11 +150,11 @@ Tripel Dog Dare is a quarterly-release Belgian-style tripel from Big Dog's Brewi
 |---|---|---|
 | Style | Belgian-Style Tripel | [Big Dog's: beer lineup and tap list](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/) |
 | ABV | 9.8% | [595 Craft and Kitchen: tap list](https://595craftandkitchen.com/tap-list) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | draft and 16 oz cans, January through March | [Big Dog's: beer lineup and tap list](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/) |
 
 ## brewery-description
@@ -165,7 +165,7 @@ Source: [Big Dog's: beer lineup and tap list](https://www.bigdogsbrews.com/beer-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -173,17 +173,17 @@ No ingredient is published on the brewery's lineup page, which carries only the 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -217,8 +217,8 @@ Links checked 2026-10-14: [Website](https://www.bigdogsbrews.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [595craftandkitchen.com](https://595craftandkitchen.com/tap-list), [bigdogsbrews.com](https://www.bigdogsbrews.com/), [bigdogsbrews.com](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/), web searches recorded in the research notes.
-- Not published: IBU. Checked [595craftandkitchen.com](https://595craftandkitchen.com/tap-list), [bigdogsbrews.com](https://www.bigdogsbrews.com/), [bigdogsbrews.com](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [595craftandkitchen.com](https://595craftandkitchen.com/tap-list), [bigdogsbrews.com](https://www.bigdogsbrews.com/), [bigdogsbrews.com](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [595craftandkitchen.com](https://595craftandkitchen.com/tap-list), [bigdogsbrews.com](https://www.bigdogsbrews.com/), [bigdogsbrews.com](https://www.bigdogsbrews.com/beer-line-up-and-tap-list/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

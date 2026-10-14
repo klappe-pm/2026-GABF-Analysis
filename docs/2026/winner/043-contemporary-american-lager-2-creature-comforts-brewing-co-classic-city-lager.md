@@ -141,11 +141,11 @@ Classic City Lager is a clean, crisp, easy drinking year-round lager from Creatu
 |---|---|---|
 | Style | Lager | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
 | ABV | 4.2% | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
-| IBU | 20 | [Untappd: Creature Comforts beer list](https://untappd.com/creaturecomforts/beer) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | 20 | [Untappd (hand-read citation): Creature Comforts beer list](https://untappd.com/creaturecomforts/beer) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Year-round | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
 
 ## brewery-description
@@ -166,17 +166,17 @@ Nothing beyond the specs table is published; neither the brewery page nor Untapp
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -206,12 +206,12 @@ No brewery links have been checked yet.
 
 - [Beer page on brewery site](https://creaturecomforts.co/beers/classic-city-lager/)
 - [Creature Comforts Brewing Co.](https://creaturecomforts.co/)
-- [Untappd: Creature Comforts beer list](https://untappd.com/creaturecomforts/beer)
+- [Untappd (hand-read citation): Creature Comforts beer list](https://untappd.com/creaturecomforts/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [creaturecomforts.co](https://creaturecomforts.co/beer/), [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/), [untappd.com](https://untappd.com/creaturecomforts/beer), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [creaturecomforts.co](https://creaturecomforts.co/beer/), [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/), [untappd.com](https://untappd.com/creaturecomforts/beer), web searches recorded in the research notes.
 
 ## research-notes
 

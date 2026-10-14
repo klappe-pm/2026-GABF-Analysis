@@ -142,10 +142,10 @@ Buttface Amber Ale is a malty amber ale poured at RAM Restaurant and Brewery, li
 | Style | Amber Ale | [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/) |
 | ABV | 5.8% | [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/) |
 | IBU | 26 | [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 64 oz growler fills offered for RAM beers | [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/) |
 
 ## brewery-description
@@ -166,17 +166,17 @@ No ingredients are named; the menu describes only caramel and toffee flavors and
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -210,7 +210,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [theram.com](https://theram.com/locations/), [theram.com](https://www.theram.com/), [theram.com](https://www.theram.com/tacoma-menu/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [theram.com](https://theram.com/locations/), [theram.com](https://www.theram.com/), [theram.com](https://www.theram.com/tacoma-menu/), web searches recorded in the research notes.
 
 ## research-notes
 

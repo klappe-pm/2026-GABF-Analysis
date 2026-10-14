@@ -155,11 +155,11 @@ Dort Light is a lighter reworking of the Dortmunder lager recipe from Great Lake
 |---|---|---|
 | Style | no formal label; described as a reimagined Dortmunder recipe and pictured as a lager | [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light) |
 | ABV | 2.9% | [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Cascade, Mt. Hood | [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light) |
 | Malts and grains | 2-row base, Caramel 60 | [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Calories and carbs shown twice with different values (90 cal, 7.5 g; 100 cal, 6 g); 6-pack bottles and draft | [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light) |
 
 ## brewery-description
@@ -170,7 +170,7 @@ Source: [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-li
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -180,18 +180,18 @@ The brewery page lists Cascade and Mt. Hood hops and a 2-row base with Caramel 6
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Cascade | Cascade | not published | not published | not published | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
-| Mt. Hood | Mt. Hood | not published | not published | not published | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
+| Mt. Hood | Mt. Hood | Not Found | Not Found | Not Found | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -223,13 +223,13 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 - [Beer page on brewery site](https://www.greatlakesbrewing.com/beer/dort-light)
 - [Great Lakes Brewing Co.](https://www.greatlakesbrewing.com/)
-- [Untappd: Great Lakes Dort Light](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light)
+- [Untappd (hand-read citation): Great Lakes Dort Light](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a).
 
 ## research-notes
 

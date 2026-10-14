@@ -192,12 +192,12 @@ Figata Fresca is a fresh hop Italian pilsner from Sunriver Brewing Co. in Sunriv
 | Field | Value | Source |
 |---|---|---|
 | Style | Fresh Hop Italian Pilsner | [Brewery ordering menu](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e) |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Four-pack | [Brewery ordering menu](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e) |
 
 ## brewery-description
@@ -206,7 +206,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -214,17 +214,17 @@ No ingredient list tied to the entered release was verified; the standard Che Fi
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -258,8 +258,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)).
-- Not published: ABV, IBU. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)).
+- Not Found: ABV, IBU. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

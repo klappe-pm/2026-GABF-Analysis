@@ -156,13 +156,13 @@ Vinland Honey Lager is a honey lager from Local Time Brewing of Holly Springs, N
 | Field | Value | Source |
 |---|---|---|
 | Style | American Copper Lager | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Barley malt | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Orange blossom honey | [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -172,7 +172,7 @@ Source: [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.co
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -180,16 +180,16 @@ The co-owner's comment identifies malted barley as the base ingredient and says 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Orange blossom honey added in the whirlpool | [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
 
 ## style-context
@@ -223,8 +223,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

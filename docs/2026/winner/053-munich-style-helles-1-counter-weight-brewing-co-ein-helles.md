@@ -99,13 +99,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau"
-    variety: "Hallertau"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.counterweightbrewing.com/brews/"
 hops:
-  - "Hallertau"
+  - "Hallertauer Mittelfruh"
 ibu: null
 malts:
   - "German Pilsner malt"
@@ -143,12 +143,12 @@ Ein Helles is a traditional German helles from Counter Weight Brewing Co. in Che
 |---|---|---|
 | Style | German Helles | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
 | ABV | 5% | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Hallertau | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
 | Malts and grains | German pilsner malts | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -170,17 +170,17 @@ The brewery names German pilsner malts and Hallertau hops without a specific Hal
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau | Hallertau | not published | not published | not published | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
+| Hallertau | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -204,6 +204,7 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 ## related
 
 - Brewery: [Counter Weight Brewing Co.](../../breweries/counter-weight-brewing-co.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md)
 
 ## links
 
@@ -214,8 +215,8 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 
 ## gaps
 
-- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 

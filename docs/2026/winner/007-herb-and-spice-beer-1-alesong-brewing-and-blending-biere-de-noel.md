@@ -137,9 +137,9 @@ Biere de Noel is a holiday ale from Alesong Brewing & Blending in Eugene, Oregon
 |---|---|---|
 | Style | special winter ale, listed under spirits barrel aged beers | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
 | ABV | 10.9% | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
-| IBU | 22 | [Untappd: Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| IBU | 22 | [Untappd (hand-read citation): Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Saccharomyces | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
 | Adjuncts, fruit, spices | a blend of baking spices (not named) | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
 | Other | brandy barrels; released November 2025; club and tasting room only | [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel) |
@@ -162,16 +162,16 @@ The brewery names Saccharomyces as the microbe and brandy as the barrel, and des
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Aged in brandy barrels with a selected blend of baking spices; fermented with Saccharomyces | [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel) |
 
 ## style-context
@@ -198,14 +198,14 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## links
 
-- [Untappd: Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos)
+- [Untappd (hand-read citation): Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos)
 - [Beer page on brewery site](https://alesongbrewing.com/biere-de-noel)
 - [Alesong Brewing & Blending](https://www.alesongbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
 
 ## research-notes
 

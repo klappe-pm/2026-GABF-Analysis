@@ -161,11 +161,11 @@ Feral Garden Gnome is a year-round Belgian blonde ale hopped with Sterling, brew
 |---|---|---|
 | Style | Belgian Blonde | [Liability: Feral Garden Gnome](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
 | ABV | 6.7% | [Liability: Feral Garden Gnome](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Sterling | [Liability: Feral Garden Gnome](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | year-round | [Liability: Feral Garden Gnome](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
 
 ## brewery-description
@@ -188,17 +188,17 @@ Sterling is the only ingredient the brewery names. The banana bread, clove and p
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Sterling | Sterling | not published | not published | not published | [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
+| Sterling | Sterling | Not Found | Not Found | Not Found | [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -233,8 +233,8 @@ Links checked 2026-10-14: [Website](https://liabilitybrewing.co/), [Instagram](h
 
 ## gaps
 
-- Not published: IBU. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -147,11 +147,11 @@ Trap Door IPA is the namesake West Coast IPA of Trap Door Brewing in Washougal, 
 |---|---|---|
 | Style | West Coast IPA (as named in the brewery's award list) | [Trap Door Brewing](https://www.trapdoorbrewing.com/) |
 | ABV | 6.5% | [Beer listing](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Mosaic Cryo, Simcoe | [Beer listing](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | sold in cans | [Trap Door Brewing](https://www.trapdoorbrewing.com/) |
 
 ## brewery-description
@@ -162,7 +162,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/trap-door-brewing
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -172,19 +172,19 @@ No additional malt, yeast or adjunct details were found beyond the hops in the s
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
-| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
+| Mosaic Cryo | Mosaic | Cryo | Not Found | Not Found | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -220,8 +220,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

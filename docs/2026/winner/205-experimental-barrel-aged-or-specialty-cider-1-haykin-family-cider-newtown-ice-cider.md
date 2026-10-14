@@ -161,11 +161,11 @@ Newtown Ice Cider, listed by the cidery as Newtown Pippin Ice Cider, is a sweet 
 |---|---|---|
 | Style | Ice Cider (sweet) | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
 | ABV | 12% | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based: 100% Newtown Pippin from Sheirbon Orchard, Hood River) | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 375 ml bottle; vintage 2024 on the bottle menu, 2025 on the tasting menu | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu), [Haykin: tasting menu](https://haykinfamilycider.com/tasting-menu) |
 
 ## brewery-description
@@ -186,17 +186,17 @@ Both cidery menus list the ice cider as 100% Newtown Pippin from Sheirbon Orchar
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -229,8 +229,8 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 
 ## gaps
 
-- Not published: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

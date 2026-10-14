@@ -157,24 +157,24 @@ Kolsch is a beer from Liquid Mechanics Brewing Co., which calls itself a small n
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Kölsch | [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
-| ABV | 5.3% | [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
-| IBU | 15 | [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Style | Kölsch | [Untappd (hand-read citation): Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
+| ABV | 5.3% | [Untappd (hand-read citation): Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
+| IBU | 15 | [Untappd (hand-read citation): Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | year-round; brewery lineup used in place of a dedicated beer page | [Liquid Mechanics: classic lineup](https://www.liquidmechanicsbrewing.com/ridiculus-lorem) |
 
 ## brewery-description
 
 > A refreshing clean German styled, straw colored, golden pale ale.
 
-Source: [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772)
+Source: [Untappd (hand-read citation): Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -182,17 +182,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -222,11 +222,11 @@ No brewery links have been checked yet.
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [BeerAdvocate: Liquid Mechanics Kolsch](https://www.beeradvocate.com/beer/profile/36211/141131/)
 - [Liquid Mechanics: Kolsch in the classic lineup](https://www.liquidmechanicsbrewing.com/ridiculus-lorem)
-- [Untappd: Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772)
+- [Untappd (hand-read citation): Liquid Mechanics Kolsch](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/36211/141131/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/ridiculus-lorem), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/liquid-mechanics-brewing-co-kolsch/776772), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/36211/141131/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/ridiculus-lorem), web searches recorded in the research notes.
 
 ## research-notes
 

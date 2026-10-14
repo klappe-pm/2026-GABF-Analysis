@@ -187,14 +187,14 @@ NPBC10 Hazy Triple IPA is a tenth anniversary beer from North Park Beer Co. in S
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Hazy Triple IPA (from the beer's name as entered) | none found |
+| Style | Hazy Triple IPA (from the beer's name as entered) | Not Found |
 | ABV | 10% | [Beer listing](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 | IBU | 10 | [Beer listing](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 | Hops | Citra, Citra Cryo, Citra Incognito, Galaxy, Nelson Cryo, Nelson Sauvin, Peacharine | [Beer listing](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -204,7 +204,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/north-park-beer-c
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -214,23 +214,23 @@ No malt, yeast or adjunct details were found beyond the hops in the specs table.
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Citra Cryo | Citra | Cryo | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Citra Incognito | Citra | Incognito | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Galaxy | Galaxy | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Nelson Cryo | Nelson Sauvin | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Peacharine | Peacharine | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Citra Cryo | Citra | Cryo | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Citra Incognito | Citra | Incognito | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Galaxy | Galaxy | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Nelson Cryo | Nelson Sauvin | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Nelson Sauvin | Nelson Sauvin | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Peacharine | Peacharine | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -267,7 +267,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/), [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891), [northparkbeerco.com](https://www.northparkbeerco.com/), web searches recorded in the research notes, [northparkbeerco.com](https://northparkbeerco.com/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/), [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891), [northparkbeerco.com](https://www.northparkbeerco.com/), web searches recorded in the research notes, [northparkbeerco.com](https://northparkbeerco.com/).
 
 ## research-notes
 

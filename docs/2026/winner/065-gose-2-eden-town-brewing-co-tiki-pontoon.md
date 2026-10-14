@@ -130,10 +130,10 @@ Tiki Pontoon is a tropical fruited kettle sour brewed by Eden Town Brewing Co. i
 |---|---|---|
 | Style | Fruited Kettle Sour | [Eden Town: beer menu](https://www.edentownbrewing.com/beers) |
 | ABV | 5.3% | [Eden Town: beer menu](https://www.edentownbrewing.com/beers) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | flavors of passionfruit, orange and guava named; actual fruit additions not confirmed | [Eden Town: beer menu](https://www.edentownbrewing.com/beers) |
 | Other | draft pour listed at $7 | [Eden Town: beer menu](https://www.edentownbrewing.com/beers) |
 
@@ -157,16 +157,16 @@ The menu describes flavors rather than ingredients; it does not say whether pass
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Fruited kettle sour | [edentownbrewing.com](https://www.edentownbrewing.com/beers) |
 
 ## style-context
@@ -199,8 +199,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
+- Not Found: IBU. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
 
 ## research-notes
 

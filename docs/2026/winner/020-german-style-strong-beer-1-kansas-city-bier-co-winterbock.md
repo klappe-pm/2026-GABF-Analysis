@@ -133,8 +133,8 @@ Winterbock is a dark, strong doppelbock lager from Kansas City Bier Co. in Kansa
 | IBU | 24 | [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock) |
 | Hops | Perle | [KC Bier Co.: Winterbock](https://kcbier.com/biers/winterbock/) |
 | Malts and grains | Munich, Pilsner, specialty malts | [KC Bier Co.: Winterbock](https://kcbier.com/biers/winterbock/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none named | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none named | Not Found |
 | Other | double decoction, natural carbonation; seasonal | [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145) |
 
 ## brewery-description
@@ -157,16 +157,16 @@ The brewery's 2021 release text, carried by Porch Drinking, says Winterbock uses
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Perle | Perle | not published | not published | not published | [kcbier.com](https://kcbier.com/biers/winterbock/) |
+| Perle | Perle | Not Found | Not Found | Not Found | [kcbier.com](https://kcbier.com/biers/winterbock/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Dark Brown (no SRM number published) | [kcbier.com](https://kcbier.com/biers/winterbock/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Double decoction and natural carbonation | [porchdrinking.com](https://www.porchdrinking.com/?p=204145) |
 
 ## style-context
@@ -202,7 +202,7 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [kcbier.com](https://kcbier.com/biers/winterbock/), [beerandbrewing.com](https://www.beerandbrewing.com/review/winterbock), [porchdrinking.com](https://www.porchdrinking.com/?p=204145), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [kcbier.com](https://kcbier.com/biers/winterbock/), [beerandbrewing.com](https://www.beerandbrewing.com/review/winterbock), [porchdrinking.com](https://www.porchdrinking.com/?p=204145), web searches recorded in the research notes.
 
 ## research-notes
 

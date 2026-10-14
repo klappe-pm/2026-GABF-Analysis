@@ -131,11 +131,11 @@ Nowhere To Be is a New Zealand style pilsner built on fruity Nelson hops and lag
 |---|---|---|
 | Style | NZ Pilsner | [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
 | ABV | 5.0% | [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Nelson | [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
-| Malts and grains | not published | none found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Lager yeast | [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Canned | [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
 
 ## brewery-description
@@ -158,17 +158,17 @@ The [brewery page](https://cellarmakerbrewing.com/beer/nowhere-to-be/) names onl
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Nelson | Nelson Sauvin | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
+| Nelson | Nelson Sauvin | Not Found | Not Found | Not Found | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -201,8 +201,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

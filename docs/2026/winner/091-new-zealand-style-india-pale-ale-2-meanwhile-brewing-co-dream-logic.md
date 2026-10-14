@@ -157,7 +157,7 @@ Dream Logic is a limited release West Coast IPA from Meanwhile Brewing Co. in Au
 | Hops | Mosaic, Krush, Idaho 7, Nectaron | [Meanwhile: Dream Logic](https://www.meanwhilebeer.com/beer/dream-logic) |
 | Malts and grains | Pilsner, Wheat | [Meanwhile: Dream Logic](https://www.meanwhilebeer.com/beer/dream-logic) |
 | Yeast | Chico | [Meanwhile: Dream Logic](https://www.meanwhilebeer.com/beer/dream-logic) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | limited release; listed under past brews | [Meanwhile: past brews](https://www.meanwhilebeer.com/past-brews) |
 
 ## brewery-description
@@ -182,20 +182,20 @@ The [beer page](https://www.meanwhilebeer.com/beer/dream-logic) gives a full ing
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Idaho 7 | Idaho 7 | not published | not published | not published | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
-| Krush | Krush | not published | not published | not published | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
-| Mosaic | Mosaic | not published | not published | not published | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
-| Nectaron | Nectaron | not published | not published | not published | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
+| Idaho 7 | Idaho 7 | Not Found | Not Found | Not Found | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
+| Krush | Krush | Not Found | Not Found | Not Found | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
+| Nectaron | Nectaron | Not Found | Not Found | Not Found | [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -232,7 +232,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [meanwhilebeer.com](https://meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic), [meanwhilebeer.com](https://www.meanwhilebeer.com/past-brews), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [meanwhilebeer.com](https://meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic), [meanwhilebeer.com](https://www.meanwhilebeer.com/past-brews), web searches recorded in the research notes.
 
 ## research-notes
 

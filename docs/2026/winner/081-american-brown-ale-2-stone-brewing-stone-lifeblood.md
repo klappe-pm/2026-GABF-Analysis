@@ -173,22 +173,22 @@ Stone Lifeblood is an American brown ale developed at Stone Brewing's Liberty St
 | Beer page | Brewery beer list | [Stone: Liberty Station draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | Style | American Brown Ale | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | ABV | 6.8% (brewery draft list and Untappd agree) | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
-| IBU | 60 | [Untappd: Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | 60 | [Untappd (hand-read citation): Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | draft at Liberty Station main and garden bars | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 
 ## brewery-description
 
 > One of the first beers we brewed in 2013 that we've slowly tweaked until we found something we loved in 2016.
 
-Source: [Untappd: Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296)
+Source: [Untappd (hand-read citation): Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -196,17 +196,17 @@ Stone publishes no hop, malt or yeast details for Lifeblood on any page that cou
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -235,13 +235,13 @@ Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](
 - [Additional beer research](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale)
 - [Stone Brewing](https://www.stonebrewing.com/)
 - [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list)
-- [Untappd: Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296)
+- [Untappd (hand-read citation): Stone Lifeblood](https://untappd.com/b/stone-brewing-stone-lifeblood/428296)
 - [The Brewer: Lifeblurred launch](https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thebrewermagazine.com](https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/), [untappd.com](https://untappd.com/b/stone-brewing-stone-lifeblood/428296), [stonebrewing.com](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes, [stonebrewing.com](https://www.stonebrewing.com/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thebrewermagazine.com](https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/), [untappd.com](https://untappd.com/b/stone-brewing-stone-lifeblood/428296), [stonebrewing.com](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes, [stonebrewing.com](https://www.stonebrewing.com/).
 
 ## research-notes
 

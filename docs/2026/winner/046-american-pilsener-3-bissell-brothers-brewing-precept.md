@@ -120,10 +120,10 @@ Precept is a German-style pilsner of Maine pilsner malt and German-grown hops fr
 |---|---|---|
 | Style | German-style pilsner | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
 | ABV | 5.6% | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Mittelfrüh, Saphir (German-grown) | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
 | Malts and grains | 100% Maine pilsner malt | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | none listed | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
 | Other | Horizontally lagered for over a month | [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept) |
 
@@ -147,17 +147,17 @@ The [brewery page](https://bissellbrothers.com/beer/precept) gives an all Maine 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
-| Saphir | Saphir | not published | not published | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
+| Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
+| Saphir | Saphir | Not Found | Not Found | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | 100% Maine pilsner malt base, horizontally lagered for over a month | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 
 ## style-context
@@ -190,8 +190,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Adjuncts, Water. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Adjuncts, Water. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
 
 ## research-notes
 

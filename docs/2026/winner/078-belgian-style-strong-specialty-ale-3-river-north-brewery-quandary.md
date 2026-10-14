@@ -129,11 +129,11 @@ Quandary is a Belgian quad with dark fruit flavors from River North Brewery, whi
 | Style | Belgian Quad | [River North: our beers](https://www.rivernorthbrewery.com/beer-descriptions) |
 | ABV | 10.4% | [River North: our beers](https://www.rivernorthbrewery.com/beer-descriptions) |
 | IBU | 24 | [Catalog.beer: Quandary](https://catalog.beer/beer/b7aa4f6d-b0a6-420c-9fdb-e6e8c5a12d11) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -153,17 +153,17 @@ No ingredient is published; the brewery's listing carries only the style, a shor
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -195,7 +195,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
 
 ## research-notes
 

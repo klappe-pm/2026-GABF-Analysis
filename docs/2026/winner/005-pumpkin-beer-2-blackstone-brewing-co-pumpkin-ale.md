@@ -137,9 +137,9 @@ Pumpkin Ale is a seasonal spiced pumpkin beer from Blackstone Brewing Co. of Nas
 | Style | Pumpkin Ale (beer name; no other label found) | [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale) |
 | ABV | 5.1% (2014 release) | [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale) |
 | IBU | 13 (2014 release) | [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | ginger, cinnamon, nutmeg | [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale) |
 | Other | bottled; select markets (2014) | [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale) |
 
@@ -161,17 +161,17 @@ The only published ingredients are the three spices from the November 7, 2014 tr
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -205,7 +205,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes, [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes, [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale).
 
 ## research-notes
 

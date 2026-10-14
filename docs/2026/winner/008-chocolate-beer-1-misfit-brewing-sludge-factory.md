@@ -142,12 +142,12 @@ Sludge Factory is a beer from Misfit Brewing of Cypress, Texas. The brewery publ
 |---|---|---|
 | Style | Imperial Chocolate Stout | [Misfit: beer list](https://www.drinkmisfit.com/beerlist/) |
 | ABV | 10.5% | [Misfit: beer list](https://www.drinkmisfit.com/beerlist/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Cocoa nibs | [Misfit: beer list](https://www.drinkmisfit.com/beerlist/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -159,7 +159,7 @@ Source: [Misfit: beer list](https://www.drinkmisfit.com/beerlist/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -167,16 +167,16 @@ No hop, malt or yeast varieties are named in the brewery's listing. [Misfit: bee
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Conditioned on cocoa nibs | [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/) |
 
 ## style-context
@@ -205,13 +205,13 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 
 - [Misfit: beer list](https://www.drinkmisfit.com/beerlist/)
 - [Misfit Brewing](https://www.drinkmisfit.com/)
-- [Untappd: Misfit beer list](https://untappd.com/MisfitBrewing/beer)
+- [Untappd (hand-read citation): Misfit beer list](https://untappd.com/MisfitBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -142,10 +142,10 @@ Minotaurs & Matadors is a blond sour blend on Malbec grapes from Mieza Blendery,
 |---|---|---|
 | Style | Blond blend with Malbec grapes | [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations) |
 | ABV | 7.96% | [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Malbec grapes | [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations) |
 | Other | TA 10.3 (as printed on the tap list) | [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations) |
 
@@ -157,7 +157,7 @@ Source: [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -165,16 +165,16 @@ Malbec grapes are the only ingredient named. The tap list does not give the grap
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Blond blend on Malbec grapes; titratable acidity 10.3 | [miezabeer.com](https://www.miezabeer.com/past-collaborations) |
 
 ## style-context
@@ -208,8 +208,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
-- Not published: IBU. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
+- Not Found: IBU. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

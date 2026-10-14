@@ -192,41 +192,41 @@ Kelly's Private Stash Ferds Addition is a barrel aged barleywine from Third Eye 
 | Field | Value | Source |
 |---|---|---|
 | Style | Barrel Aged Barleywine | [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/) |
-| ABV | 13.7% | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
-| IBU | 20 | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Hazelnut, Madagascar vanilla, toasted coconut | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
-| Other | Aged over 24 months in Blanton's Gold, Buffalo Trace and Rare Breed bourbon barrels | [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| ABV | 13.7% | [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| IBU | 20 | [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Hazelnut, Madagascar vanilla, toasted coconut | [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
+| Other | Aged over 24 months in Blanton's Gold, Buffalo Trace and Rare Breed bourbon barrels | [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055) |
 
 ## brewery-description
 
 > this barleywine embodies patience and tradition.
 
-Source: [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
+Source: [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The published finishing ingredients are listed above; no hop, malt or yeast varieties are named. [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
+The published finishing ingredients are listed above; no hop, malt or yeast varieties are named. [Untappd (hand-read citation): Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -252,7 +252,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: 2026 Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
+- [Untappd (hand-read citation): 2026 Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
 - [Third Eye Brewing: our beers](https://thirdeyebrewingco.com/beer/)
 - [Third Eye Brewing: beer categories](https://thirdeyebrewingco.com/?page_id=3044)
@@ -261,7 +261,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055), web searches recorded in the research notes, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), web search 2026-10-14: Third Eye Kelly's Private Stash.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055), web searches recorded in the research notes, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), web search 2026-10-14: Third Eye Kelly's Private Stash.
 
 ## research-notes
 

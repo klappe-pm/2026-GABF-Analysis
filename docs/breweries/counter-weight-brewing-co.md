@@ -40,7 +40,8 @@ gaps:
   - "brewery-type"
   - "founded"
   - "ownership"
-hops-used: []
+hops-used:
+  - "../hops/varieties/hallertauer-mittelfruh.md"
 instagram: "https://www.instagram.com/counterweightbrewingco/"
 known-for: []
 last-medal-year: 2026
@@ -89,7 +90,7 @@ Counter Weight Brewing Co. of Cheshire, CT has won 6 GABF medals (3 gold, 1 silv
 ## hops
 
 - Czech hops, 1 beer
-- Hallertau, 1 beer
+- [Hallertauer Mittelfruh](../hops/varieties/hallertauer-mittelfruh.md), 1 beer
 
 ## related
 

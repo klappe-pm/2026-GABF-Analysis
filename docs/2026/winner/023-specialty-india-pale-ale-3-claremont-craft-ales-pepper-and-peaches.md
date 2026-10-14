@@ -146,10 +146,10 @@ Pepper and Peaches is a Citra hopped West Coast style IPA with pink peppercorns 
 |---|---|---|
 | Style | West Coast-style IPA | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
 | ABV | 6.7% | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | pink peppercorns, peaches | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
 | Other | 16 oz cans in 4-packs | [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372) |
 | Beer page | Brewery page naming this beer | [Claremont Craft Ales: beer lineup](https://harp-clownfish.squarespace.com/beers/) |
@@ -176,17 +176,17 @@ The only published ingredients are Citra hops, pink peppercorns (for a floral no
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [bevmo.com](https://bevmo.com/products/28372) |
+| Citra | Citra | Not Found | Not Found | Not Found | [bevmo.com](https://bevmo.com/products/28372) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -223,8 +223,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
 
 ## research-notes
 

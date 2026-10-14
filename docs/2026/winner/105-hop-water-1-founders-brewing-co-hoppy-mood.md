@@ -169,10 +169,10 @@ Hoppy Mood is a year-round, zero alcohol sparkling hop water from Founders Brewi
 |---|---|---|
 | Style | Non-Alcoholic (hop water) | [Founders: Hoppy Mood](https://foundersbrewing.com/our-beer/hoppy-mood/) |
 | ABV | 0% | [Founders: Hoppy Mood](https://foundersbrewing.com/our-beer/hoppy-mood/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Mosaic, Amarillo, Simcoe | [Founders: Hoppy Mood](https://foundersbrewing.com/our-beer/hoppy-mood/) |
 | Malts and grains | not published (none named; the product is carbonated water, hops and terpenes) | [Founders: hop water explainer](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/) |
-| Yeast | not published (the brewery says it is not fermented to alcohol) | none found |
+| Yeast | not published (the brewery says it is not fermented to alcohol) | Not Found |
 | Adjuncts, fruit, spices | Natural botanical terpenes; citric acid for pH adjustment | [Founders: hop water explainer](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/) |
 | Other | Zero calories, carbs and sugar; year-round; 6-pack of 12 oz cans | [Founders: Hoppy Mood](https://foundersbrewing.com/our-beer/hoppy-mood/) |
 
@@ -196,19 +196,19 @@ The brewery's explainer says the drink is "simply made up of carbonated water, h
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Amarillo | Amarillo | not published | not published | not published | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
-| Mosaic | Mosaic | not published | not published | not published | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
-| Simcoe | Simcoe | not published | not published | not published | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
+| Amarillo | Amarillo | Not Found | Not Found | Not Found | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -245,8 +245,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

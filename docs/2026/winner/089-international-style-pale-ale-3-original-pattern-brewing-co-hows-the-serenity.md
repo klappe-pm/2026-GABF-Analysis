@@ -177,14 +177,14 @@ How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owne
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Australian-Style Pale Ale | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
-| ABV | 5.6% | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
-| IBU | not published | none found |
-| Hops | Eclipse, Enigma and Mosaic | [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Australian-Style Pale Ale | [Untappd (hand-read citation): How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| ABV | 5.6% | [Untappd (hand-read citation): How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| IBU | Not Found | Not Found |
+| Hops | Eclipse, Enigma and Mosaic | [Untappd (hand-read citation): How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -194,7 +194,7 @@ Source: [Original Pattern: description on Untappd](https://untappd.com/b/origina
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -204,19 +204,19 @@ The [beer listing](https://untappd.com/b/original-pattern-brewing-company-how-s-
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Eclipse | Eclipse | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
-| Enigma | Enigma | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Eclipse | Eclipse | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Enigma | Enigma | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -246,7 +246,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## links
 
-- [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)
+- [Untappd (hand-read citation): How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)
 - [Original Pattern Brewing Co.](https://www.originalpatternbeer.com/)
 - [Original Pattern: online shop](https://originalpatternbeer.myshopify.com/pages/2-4-pk)
 - [Good Eggs: Original Pattern Brewing Company](https://www.goodeggs.com/originalpatternbrewingcompany)
@@ -254,8 +254,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

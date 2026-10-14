@@ -137,7 +137,7 @@ Italian Pilsner is a limited release from pFriem Family Brewers of Hood River, O
 | Hops | Perle, Saphir, Tettnang, Spalt Select | [pFriem: Italian Pilsner](https://www.pfriembeer.com/beer/italian-pilsner/) |
 | Malts and grains | Rahr To Thee Pilsner, Weyermann German Pilsner | [pFriem: Italian Pilsner](https://www.pfriembeer.com/beer/italian-pilsner/) |
 | Yeast | Lager | [pFriem: Italian Pilsner](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Adjuncts, fruit, spices | none listed | none found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Limited availability; flavor notes herbaceous, citrus zest, quenching | [pFriem: Italian Pilsner](https://www.pfriembeer.com/beer/italian-pilsner/) |
 
 ## brewery-description
@@ -160,19 +160,19 @@ Everything published is in the specs table: four European hop varieties, two Pil
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Perle | Perle | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Saphir | Saphir | not published | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
-| Tettnang | Tettnang | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Spalt Select | Spalter Select | not published | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
+| Perle | Perle | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
+| Saphir | Saphir | Not Found | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
+| Tettnang | Tettnang | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
+| Spalt Select | Spalter Select | Not Found | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Light golden with a touch of haze (no SRM number published) | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Classic German brewing techniques, dry hopped with Spalt Select and Saphir | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 
 ## style-context
@@ -206,7 +206,7 @@ Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Adjuncts, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/), web searches recorded in the research notes, [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf).
+- Not Found: Original gravity, Final gravity, Hop form, Adjuncts, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/), web searches recorded in the research notes, [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf).
 
 ## research-notes
 

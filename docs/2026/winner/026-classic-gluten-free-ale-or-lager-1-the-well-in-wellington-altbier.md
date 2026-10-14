@@ -193,14 +193,14 @@ Altbier is a gluten-free beer from The Well In Wellington, a gluten-free taproom
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published for this beer | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | not published for this beer | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -208,7 +208,7 @@ No description of this beer was found; the brewery's menu page lists no beers.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -216,17 +216,17 @@ No recipe for the Altbier is published. The brewery says all of its beers are br
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -260,8 +260,8 @@ Links checked 2026-10-14: [Website](https://www.wellwellington.com/), [Instagram
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

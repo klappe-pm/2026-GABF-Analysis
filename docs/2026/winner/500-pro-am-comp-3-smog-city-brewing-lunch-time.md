@@ -193,12 +193,12 @@ Lunch Time! is a West Coast pale ale brewed by Smog City Brewing in Torrance, Ca
 |---|---|---|
 | Style | West Coast Pale Ale | [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos) |
 | ABV | 6.2% | [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -208,7 +208,7 @@ Source: [Smog City beer listing](https://untappd.com/b/smog-city-brewing-co-lunc
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -216,17 +216,17 @@ The listing gives sensory notes but no named hop, malt or yeast ingredients.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -260,8 +260,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/), Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

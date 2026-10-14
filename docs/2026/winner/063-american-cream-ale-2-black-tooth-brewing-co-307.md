@@ -146,10 +146,10 @@ yeast: []
 | Style | American Light Lager | [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/307-lager/) |
 | ABV | 4.2% | [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/307-lager/) |
 | IBU | 10 | [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/307-lager/) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | year-round; six pack cans, 1/6 and 1/2 barrel kegs | [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/307-lager/) |
 
 ## brewery-description
@@ -160,7 +160,7 @@ Source: [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/3
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -168,17 +168,17 @@ The brewery names no hop, malt, yeast or adjunct; it describes the flavor only a
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -212,7 +212,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [blacktoothbrewingcompany.com](https://blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/307-lager/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [blacktoothbrewingcompany.com](https://blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/307-lager/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
 
 ## research-notes
 

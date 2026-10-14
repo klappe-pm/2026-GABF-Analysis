@@ -155,11 +155,11 @@ Perpetual Fog is a double dry-hopped double IPA that Urbanrest Brewing Co. of Fe
 |---|---|---|
 | Style | DDH DIPA (tap list category: Imperial or Double IPA) | [Urbanrest: on tap](https://www.urbanrest.com/on-tap/brewery/) |
 | ABV | 7.5% | [Urbanrest: on tap](https://www.urbanrest.com/on-tap/brewery/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Simcoe, Citra, Waimea, Nelson, Nelson Sauvin hop kief | [Urbanrest: on tap](https://www.urbanrest.com/on-tap/brewery/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 5 oz and 16 oz pours | [Urbanrest: on tap](https://www.urbanrest.com/on-tap/brewery/) |
 
 ## brewery-description
@@ -182,20 +182,20 @@ The tap list names Simcoe, Citra and Waimea hops, plus Nelson and Nelson Sauvin 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Simcoe | Simcoe | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
-| Citra | Citra | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
-| Waimea | Waimea | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
-| Nelson | Nelson Sauvin | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
-| Nelson Sauvin Hop Kief | Nelson Sauvin | Hop Kief | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Citra | Citra | Not Found | Not Found | Not Found | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Waimea | Waimea | Not Found | Not Found | Not Found | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Nelson | Nelson Sauvin | Not Found | Not Found | Not Found | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Nelson Sauvin Hop Kief | Nelson Sauvin | Hop Kief | Not Found | Not Found | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Double dry hopped (DDH) double IPA | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 
 ## style-context
@@ -232,8 +232,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes.
 
 ## research-notes
 

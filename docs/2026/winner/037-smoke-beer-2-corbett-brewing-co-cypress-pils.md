@@ -140,14 +140,14 @@ Cypress Pils is a beer from Corbett Brewing Co., a Tucson, Arizona brewery liste
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Not Found | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -155,7 +155,7 @@ No brewery description was found; the brewery's website could not be located.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -163,17 +163,17 @@ Nothing about the ingredients is published in any source that could be reached.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -204,8 +204,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file.
-- Not published: ABV, IBU. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file.
+- Not Found: ABV, IBU. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

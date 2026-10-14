@@ -144,14 +144,14 @@ Agua Fresca is a beer from Los Dos Potrillos Cervecería, the brewery arm of a M
 
 | Field | Value | Source |
 |---|---|---|
-| Style | American Fruit Beer (category name; no brewery label found) | none found |
-| ABV | 5% | [Untappd: Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536) |
-| IBU | 21 | [Untappd: Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | American Fruit Beer (category name; no brewery label found) | Not Found |
+| ABV | 5% | [Untappd (hand-read citation): Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536) |
+| IBU | 21 | [Untappd (hand-read citation): Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -159,7 +159,7 @@ No brewery description of Agua Fresca was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -167,17 +167,17 @@ Nothing about the ingredients, including which fruit is used, is published on an
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -203,13 +203,13 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 
 ## links
 
-- [Untappd: Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536)
+- [Untappd (hand-read citation): Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536)
 - [Los Dos Potrillos](https://www.losdospotrillos.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)).
 
 ## research-notes
 

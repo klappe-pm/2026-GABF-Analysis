@@ -163,11 +163,11 @@ Harrison Reserve is Snow Capped Cider's single varietal cider from the Harrison 
 |---|---|---|
 | Style | Reserve Series single varietal | [Snow Capped: bottle shop](https://snowcappedcider.com/shop-bottles/) |
 | ABV | 6.5% | [Snow Capped: Harrison](https://snowcappedcider.com/all-ciders/harrison/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based: 100% Harrison) | [Snow Capped: Harrison](https://snowcappedcider.com/all-ciders/harrison/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 750 ml bottle; slight sweetness; medium body, soft tannin; light golden color; gluten-free | [Snow Capped: Harrison](https://snowcappedcider.com/all-ciders/harrison/) |
 
 ## brewery-description
@@ -188,16 +188,16 @@ The cidery states "Made with 100% Harrison apples," a variety it says was nearly
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Light golden (no number published) | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Single varietal Harrison apple cider | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/) |
 
 ## style-context
@@ -232,8 +232,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 

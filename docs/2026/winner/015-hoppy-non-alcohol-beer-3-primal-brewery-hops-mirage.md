@@ -185,13 +185,13 @@ Hops Mirage is a non-alcoholic IPA from Primal Brewery of Huntersville, North Ca
 | Field | Value | Source |
 |---|---|---|
 | Style | NA IPA | [Primal Brewery: Huntersville draft list](https://primalbrewery.com/huntersville-draft-list/) |
-| ABV | 0% | [Untappd: Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| ABV | 0% | [Untappd (hand-read citation): Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -199,7 +199,7 @@ No brewery description of the beer was found; the brewery's pages name it only i
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -207,17 +207,17 @@ Nothing about ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -243,7 +243,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401)
+- [Untappd (hand-read citation): Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401)
 - [Beer page on brewery site](https://primalbrewery.com/huntersville-draft-list/)
 - [Primal Brewery](https://primalbrewery.com/)
 - [Primal Brewery: beer finder](https://primalbrewery.com/beer-finder/)
@@ -251,8 +251,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops.
-- Not published: IBU. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops.
+- Not Found: IBU. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

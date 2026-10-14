@@ -177,24 +177,24 @@ Hefeweizen is a German-style wheat beer from Blind Tiger Brewery & Restaurant on
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Hefeweizen (Untappd: Wheat Beer, Hefeweizen) | [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
-| ABV | 4.8% | [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
-| IBU | 17 | [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | Bavarian yeast | [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | served in a hefeweizen glass | [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
+| Style | Hefeweizen (Untappd: Wheat Beer, Hefeweizen) | [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
+| ABV | 4.8% | [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
+| IBU | 17 | [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Bavarian yeast | [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | served in a hefeweizen glass | [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884) |
 
 ## brewery-description
 
 > Bavarian yeast is the secret to this beers character. The aroma has scents reminiscent of bananas, bubble gum, vanilla and cloves. Served in a proper Hefeweizen glass!
 
-Source: [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884)
+Source: [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -202,17 +202,17 @@ Only the yeast is described, as Bavarian; no malts, wheat share or hops are publ
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -240,12 +240,12 @@ No brewery links have been checked yet.
 
 - [Blind Tiger Brewery & Restaurant](https://www.blindtiger.com/)
 - [Blind Tiger: awards](https://www.blindtiger.com/blind-tiger-brewery-awards)
-- [Untappd: Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884)
+- [Untappd (hand-read citation): Blind Tiger Hefeweizen](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884), [untappd.com](https://untappd.com/BlindTigerBrewery/beer), [blindtiger.com](https://www.blindtiger.com/), [blindtiger.com](https://www.blindtiger.com/blind-tiger-brewery-awards), [blindtiger.com](https://www.blindtiger.com/brewery), [blindtiger.com](https://www.blindtiger.com/on-tap-now), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884), [untappd.com](https://untappd.com/BlindTigerBrewery/beer), [blindtiger.com](https://www.blindtiger.com/), [blindtiger.com](https://www.blindtiger.com/blind-tiger-brewery-awards), [blindtiger.com](https://www.blindtiger.com/brewery), [blindtiger.com](https://www.blindtiger.com/on-tap-now), web searches recorded in the research notes.
 
 ## research-notes
 

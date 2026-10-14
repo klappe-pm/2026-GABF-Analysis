@@ -158,14 +158,14 @@ Nolan's Porter is a porter from Barrio Brewing Co. in Tucson, Arizona.
 | Field | Value | Source |
 |---|---|---|
 | Beer page | Dedicated brewery page | [Barrio: Nolan's Porter](https://barriobrewing.com/menuitem/nolans-porter/) |
-| Style | Porter (from the beer name) | none found |
-| ABV | 6% | [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
-| IBU | 32 | [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Porter (from the beer name) | Not Found |
+| ABV | 6% | [Untappd (hand-read citation): Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
+| IBU | 32 | [Untappd (hand-read citation): Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -175,7 +175,7 @@ Source: [Barrio: description on Untappd](https://untappd.com/b/barrio-brewing-co
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -183,17 +183,17 @@ Nothing about ingredients could be verified.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -220,14 +220,14 @@ No brewery links have been checked yet.
 ## links
 
 - [Barrio: Nolan's Porter](https://barriobrewing.com/menuitem/nolans-porter/)
-- [Untappd: Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos)
+- [Untappd (hand-read citation): Nolan's Porter](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos)
 - [Barrio Brewing Co.](https://barriobrewing.com/)
 - [Barrio Brewing: beer finder](https://barriobrewing.com/barrio-beer-finder/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [barriobrewing.com](https://barriobrewing.com/), [barriobrewing.com](https://barriobrewing.com/barrio-beer-finder/), [barriobrewing.com](https://barriobrewing.com/menuitem/nolans-porter/), [untappd.com](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [barriobrewing.com](https://barriobrewing.com/), [barriobrewing.com](https://barriobrewing.com/barrio-beer-finder/), [barriobrewing.com](https://barriobrewing.com/menuitem/nolans-porter/), [untappd.com](https://untappd.com/b/barrio-brewing-company-nolan-s-porter/55675/photos), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -151,12 +151,12 @@ Buffalo Creek Brown is a malt-forward American brown ale from Titonka Brewing Co
 |---|---|---|
 | Beer page | Brewery beer list | [Titonka: tap list](http://titonkabrewingco.com) |
 | Style | Brown (Untappd files it as American brown ale) | [Titonka Brewing: home page tap list](http://titonkabrewingco.com) |
-| ABV | 5.4% | [Untappd: Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| ABV | 5.4% | [Untappd (hand-read citation): Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on tap at the brewery under the name Buffalo Creek | [Titonka Brewing: home page tap list](http://titonkabrewingco.com) |
 
 ## brewery-description
@@ -165,11 +165,11 @@ The brewery site gives no description beyond the style word. The Untappd listing
 
 > Smooth, malt-forward brown ale with rich caramel and nutty flavors.
 
-Source: [Untappd: Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507)
+Source: [Untappd (hand-read citation): Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -177,17 +177,17 @@ No ingredients are published by the brewery or on Untappd.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -214,14 +214,14 @@ Links checked 2026-10-14: [Website](http://titonkabrewingco.com), [Instagram](ht
 ## links
 
 - [Titonka Brewing Co.](http://titonkabrewingco.com)
-- [Untappd: Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507)
-- [Untappd: Titonka Brewing brewery profile](https://untappd.com/Titonkabrewingco)
+- [Untappd (hand-read citation): Buffalo Creek Brown](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507)
+- [Untappd (hand-read citation): Titonka Brewing brewery profile](https://untappd.com/Titonkabrewingco)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [titonkabrewingco.com](http://titonkabrewingco.com), [untappd.com](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507), [untappd.com](https://untappd.com/Titonkabrewingco), web searches recorded in the research notes.
-- Not published: IBU. Checked [titonkabrewingco.com](http://titonkabrewingco.com), [untappd.com](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507), [untappd.com](https://untappd.com/Titonkabrewingco), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [titonkabrewingco.com](http://titonkabrewingco.com), [untappd.com](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507), [untappd.com](https://untappd.com/Titonkabrewingco), web searches recorded in the research notes.
+- Not Found: IBU. Checked [titonkabrewingco.com](http://titonkabrewingco.com), [untappd.com](https://untappd.com/b/titonka-brewing-company-buffalo-creek-brown/5505507), [untappd.com](https://untappd.com/Titonkabrewingco), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

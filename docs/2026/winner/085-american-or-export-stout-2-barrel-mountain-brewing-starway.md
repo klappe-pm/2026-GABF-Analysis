@@ -131,9 +131,9 @@ Starway is a stout brewed with Golden Promise malt and oats by Barrel Mountain B
 | IBU | 35 | [Barrel Mountain: our beer](https://barrelmountainbrewing.com/beer) |
 | Hops | Willamette | [Barrel Mountain: our beer](https://barrelmountainbrewing.com/beer) |
 | Malts and grains | Golden Promise, Golden Naked Oats, Crystal 77, pale chocolate, chocolate, roast barley | [Barrel Mountain: our beer](https://barrelmountainbrewing.com/beer) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -155,17 +155,17 @@ The brewery publishes a full grist and its single hop, all listed in the specs t
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Willamette | Willamette | not published | not published | not published | [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer) |
+| Willamette | Willamette | Not Found | Not Found | Not Found | [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Deep black (no SRM number published) | [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -198,7 +198,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer), [barrelmountainbrewing.com](https://www.barrelmountainbrewing.com/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer), [barrelmountainbrewing.com](https://www.barrelmountainbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -155,14 +155,14 @@ Yucatan Sunrise is a light Mexican lager with Vienna malt, Lemondrop hops and fl
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Mexican | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| ABV | 5.1% | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| IBU | 10 | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| Hops | Lemondrop | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| Malts and grains | Vienna malt | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Flaked corn | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
-| Other | Earlier honors listed: 2025 World Beer Cup silver (International Light Lager), 2023 Virginia Brewers Cup gold | [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Style | Lager, Mexican | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| ABV | 5.1% | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| IBU | 10 | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Hops | Lemondrop | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Malts and grains | Vienna malt | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Flaked corn | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Other | Earlier honors listed: 2025 World Beer Cup silver (International Light Lager), 2023 Virginia Brewers Cup gold | [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
 
 ## brewery-description
 
@@ -170,11 +170,11 @@ The brewery site returned no readable beer content. The Untappd listing carries 
 
 > Light, crisp, and refreshing this lager hints of Vienna malt and Lemondrop hops with a whisper of sweetness from flaked corn. A perfect choice for the beach, BBQ, or your favorite easy chair.
 
-Source: [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904)
+Source: [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -184,17 +184,17 @@ Vienna malt, Lemondrop hops and flaked corn are the only ingredients named, all 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Lemondrop | Lemondrop | not published | not published | not published | [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+| Lemondrop | Lemondrop | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -222,14 +222,14 @@ No brewery links have been checked yet.
 ## links
 
 - [Full Distance Brewing](https://fulldistancebrewing.com/)
-- [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904)
-- [Untappd: Yucatan Sunset](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890)
-- [Untappd: Full Distance beer list](https://untappd.com/FullDistanceBrewing/beer)
+- [Untappd (hand-read citation): Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904)
+- [Untappd (hand-read citation): Yucatan Sunset](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890)
+- [Untappd (hand-read citation): Full Distance beer list](https://untappd.com/FullDistanceBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fulldistancebrewing.com](https://fulldistancebrewing.com/), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890), [untappd.com](https://untappd.com/FullDistanceBrewing/beer), web searches recorded in the research notes, [web page](https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fulldistancebrewing.com](https://fulldistancebrewing.com/), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890), [untappd.com](https://untappd.com/FullDistanceBrewing/beer), web searches recorded in the research notes, [web page](https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224).
 
 ## research-notes
 

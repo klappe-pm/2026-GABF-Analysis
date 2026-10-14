@@ -139,10 +139,10 @@ Karakuchi Japanese Lager is a dry, Japanese-style lager brewed with rice and cor
 |---|---|---|
 | Style | Japanese Lager | [Lucky Envelope: currently on tap](https://luckyenvelopebrewing.com/currentlyontap) |
 | ABV | 4.7% | [Lucky Envelope: currently on tap](https://luckyenvelopebrewing.com/currentlyontap) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Rice, corn | [Lucky Envelope: currently on tap](https://luckyenvelopebrewing.com/currentlyontap) |
 | Other | On tap at the brewery | [Lucky Envelope: currently on tap](https://luckyenvelopebrewing.com/currentlyontap) |
 
@@ -164,16 +164,16 @@ Rice and corn are the only published ingredients; no malts, hops or yeast are na
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brewed with rice and corn for a dry (karakuchi) finish | [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap) |
 
 ## style-context
@@ -202,13 +202,13 @@ No brewery links have been checked yet.
 
 - [Beer page on brewery site](https://luckyenvelopebrewing.com/currentlyontap)
 - [Lucky Envelope Brewing](https://luckyenvelopebrewing.com/)
-- [Untappd: Lucky Envelope Karakuchi](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi)
+- [Untappd (hand-read citation): Lucky Envelope Karakuchi](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: IBU. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes.
+- Not Found: IBU. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes.
 
 ## research-notes
 

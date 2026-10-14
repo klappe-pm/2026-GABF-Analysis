@@ -174,14 +174,14 @@ Funk Yeah Montmorency Cherry is a Belgian-style sour from Beachwood Blendery, th
 | Field | Value | Source |
 |---|---|---|
 | Beer page | Brewery beer list | [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html) |
-| Style | not published by the brewery; the competition category is used | none found |
+| Style | not published by the brewery; the competition category is used | Not Found |
 | ABV | 6.5% | [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -189,7 +189,7 @@ The [brewery's 2nd and PCH listing](https://beachwoodbrewing.com/secondpch.html)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -197,16 +197,16 @@ No hop varieties are published for this beer in the [newly located bottle list](
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Blended three-year sour ale with Montmorency cherry | [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html) |
 
 ## style-context
@@ -241,8 +241,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

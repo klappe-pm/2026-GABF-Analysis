@@ -199,24 +199,24 @@ Oblique & Bent is a petite saison fermented with a mixed culture by The Big Frie
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Farmhouse Ale, Saison (petite saison) | [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
-| ABV | 3.7% (other sources give 4.2% and about 4%) | [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
-| IBU | not published | none found |
+| Style | Farmhouse Ale, Saison (petite saison) | [Untappd (hand-read citation): Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
+| ABV | 3.7% (other sources give 4.2% and about 4%) | [Untappd (hand-read citation): Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
+| IBU | Not Found | Not Found |
 | Hops | New Zealand hops added at the end of the boil, varieties not named | [All About Beer: table beer interview](https://allaboutbeer.com/the-best-table-beer-in-america/) |
-| Malts and grains | not published | none found |
-| Yeast | mixed culture, a blend of the brewery's saison strains | [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
-| Adjuncts, fruit, spices | none named | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | mixed culture, a blend of the brewery's saison strains | [Untappd (hand-read citation): Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485) |
+| Adjuncts, fruit, spices | none named | Not Found |
 | Other | taproom only | [Tulsa People: beer of the week](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html) |
 
 ## brewery-description
 
 > Petite saison made with one of our favorite mixed cultures.
 
-Source: [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485)
+Source: [Untappd (hand-read citation): Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -224,17 +224,17 @@ Co-owner Will Quinlin told All About Beer he made a smaller version of the regul
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -261,9 +261,9 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: 2025 Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554)
+- [Untappd (hand-read citation): 2025 Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554)
 - [The Big Friendly](https://thebigfriendly.com/)
-- [Untappd: Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485)
+- [Untappd (hand-read citation): Oblique and Bent](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485)
 - [Craft Beer and Brewing: Oblique and Bent review](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437)
 - [Tulsa People: beer of the week](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html)
 - [All About Beer: table beer interview](https://allaboutbeer.com/the-best-table-beer-in-america/)
@@ -271,8 +271,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu).
-- Not published: IBU. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu), Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu).
+- Not Found: IBU. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

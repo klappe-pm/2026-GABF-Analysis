@@ -143,11 +143,11 @@ Cameron's Crest is a Scottish ale from Sunriver Brewing Co. in Sunriver, Oregon.
 |---|---|---|
 | Style | Scottish Ale (90 schilling) | [Sunriver: Cameron's Crest](https://www.sunriverbrewingcompany.com/beer/camerons-crest) |
 | ABV | 4.80% | [Sunriver: Cameron's Crest](https://www.sunriverbrewingcompany.com/beer/camerons-crest) |
-| IBU | not published | none found |
-| Hops | not published (the page's hops field is empty) | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | not published (the page's hops field is empty) | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed as rotating | [Sunriver: beer](https://www.sunriverbrewingcompany.com/beer) |
 
 ## brewery-description
@@ -168,17 +168,17 @@ No ingredients are named; the beer page leaves its hops and contains fields blan
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Amber (no SRM number published) | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -211,8 +211,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
+- Not Found: IBU. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
 
 ## research-notes
 

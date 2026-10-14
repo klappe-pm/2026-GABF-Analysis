@@ -177,12 +177,12 @@ Ice Bucket is a gluten-free hoppy lager from ALT Brew, a dedicated gluten-free b
 | Field | Value | Source |
 |---|---|---|
 | Style | Hoppy Lager | [ALT Brew: beer](https://www.altbrew.com/beer) |
-| ABV | 6.7% | [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
-| IBU | not published | none found |
-| Hops | Krush, Mosaic | [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| ABV | 6.7% | [Untappd (hand-read citation): ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+| IBU | Not Found | Not Found |
+| Hops | Krush, Mosaic | [Untappd (hand-read citation): ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed among spring and summer seasonal beers | [ALT Brew: beer](https://www.altbrew.com/beer) |
 
 ## brewery-description
@@ -191,28 +191,28 @@ The brewery's beer page lists the beer only as "ICE BUCKET" with the style "Hopp
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The matching Ice Bucket listing names Krush and Mosaic in an Ales for ALS hop blend; no grain or yeast is named. [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
+The matching Ice Bucket listing names Krush and Mosaic in an Ales for ALS hop blend; no grain or yeast is named. [Untappd (hand-read citation): ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
 
 ## hop-profile
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+| Krush | Krush | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -245,12 +245,12 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - [Beer page on brewery site](https://www.altbrew.com/beer)
 - [ALT Brew](https://www.altbrew.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
+- [Untappd (hand-read citation): ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -166,11 +166,11 @@ Tow The Lime is a pale Mexican-style lager finished with lime, brewed by Starr H
 | Field | Value | Source |
 |---|---|---|
 | Style | pale Mexican-style lager with lime | [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026) |
-| ABV | 4.7% | [Untappd: Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| ABV | 4.7% | [Untappd (hand-read citation): Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | lime | [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026) |
 | Other | canned for the first time in 2026; draft and cans at Starr Hill taprooms | [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026) |
 
@@ -192,17 +192,17 @@ Lime is the only ingredient the brewery names ([Starr Hill: GABF 2026 news](http
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -228,7 +228,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos)
+- [Untappd (hand-read citation): Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos)
 - [Starr Hill Brewery](https://starrhill.com/)
 - [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)
 - [Starr Hill: beer list](https://starrhill.com/beer)
@@ -236,8 +236,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
+- Not Found: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, web search 2026-10-14: Starr Hill Tow The Lime Mexican lager.
 
 ## research-notes
 

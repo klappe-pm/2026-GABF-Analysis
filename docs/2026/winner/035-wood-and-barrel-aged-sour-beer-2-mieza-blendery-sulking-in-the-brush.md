@@ -182,14 +182,14 @@ Sulking in The Brush is a barrel-aged sour beer from Mieza Blendery, an Alexandr
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Sour, Other | [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| ABV | 4.9% | [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| IBU | not published | none found |
-| Hops | Nectaron, Superdelic (dry hop) | [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| Malts and grains | Virginia malt | [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Virginia grown peaches (second use) | [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| Other | not published | none found |
+| Style | Sour, Other | [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| ABV | 4.9% | [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| IBU | Not Found | Not Found |
+| Hops | Nectaron, Superdelic (dry hop) | [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| Malts and grains | Virginia malt | [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Virginia grown peaches (second use) | [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -197,11 +197,11 @@ The blendery site publishes no description. The beer description on the Untappd 
 
 > Barrel Aged Sour with Virginia malt second use Virginia grown peaches, dry hopped with Nectaron and Superdelic
 
-Source: [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340)
+Source: [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -211,18 +211,18 @@ The listing names Virginia malt, second use Virginia grown peaches (fruit alread
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Nectaron | Nectaron | not published | not published | not published | [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
-| Superdelic | Superdelic | not published | not published | not published | [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| Nectaron | Nectaron | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
+| Superdelic | Superdelic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -250,8 +250,8 @@ No brewery links have been checked yet.
 ## links
 
 - [Mieza Blendery](https://www.miezabeer.com/)
-- [Untappd: Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340)
-- [Untappd: Mieza beer search](https://untappd.com/Mieza_Blendery/beer?q=sulking)
+- [Untappd (hand-read citation): Sulking In the Brush](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340)
+- [Untappd (hand-read citation): Mieza beer search](https://untappd.com/Mieza_Blendery/beer?q=sulking)
 - [Mieza: what's on tap](https://www.miezabeer.com/past-collaborations)
 - [Mieza: about](https://www.miezabeer.com/about)
 - [Mieza: membership](https://www.miezabeer.com/membership)
@@ -259,8 +259,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

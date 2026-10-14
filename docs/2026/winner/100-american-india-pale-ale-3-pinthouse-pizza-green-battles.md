@@ -194,12 +194,12 @@ Green Battles is an IPA from Pinthouse in Austin, Texas.
 |---|---|---|
 | Style | American Pale Ale (brewery description on Untappd) | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
 | ABV | 6.8% | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Chinook, Citra, Mosaic | [Base beer listing](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published for the base beer | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | not published for the base beer | Not Found |
 
 ## brewery-description
 
@@ -209,7 +209,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/pinthouse-brewing
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -219,19 +219,19 @@ The base beer listing describes double dry hopping with Cryo-Hops but does not i
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -270,8 +270,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84).
 
 ## research-notes
 

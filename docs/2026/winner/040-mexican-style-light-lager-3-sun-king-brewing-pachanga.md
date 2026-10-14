@@ -193,9 +193,9 @@ Pachanga is a year-round Mexican-style lager from Sun King Brewing, an Indiana b
 | ABV | 4.5% (Beer & Brewing gives 4.2%, Untappd 4.3%) | [Sun King: our beers](https://www.sunkingbrewing.com/our-beers) |
 | IBU | 24 | [Beer & Brewing: Pachanga review](https://www.beerandbrewing.com/review/pachanga) |
 | Hops | Bravo | [Target: Pachanga](https://www.target.com/p/-/A-53477068) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Year-round; also in the Lager Box 12-pack | [Sun King: our beers](https://www.sunkingbrewing.com/our-beers) |
 
 ## brewery-description
@@ -220,17 +220,17 @@ The retailer’s [Pachanga listing](https://www.target.com/p/-/A-53477068) ident
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Bravo | Bravo | not published | not published | not published | [target.com](https://www.target.com/p/-/A-53477068) |
+| Bravo | Bravo | Not Found | Not Found | Not Found | [target.com](https://www.target.com/p/-/A-53477068) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -263,12 +263,12 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 - [Sun King: blog](https://www.sunkingbrewing.com/blog)
 - [Sun King: 2025 Indiana Brewers Cup results](https://www.sunkingbrewing.com/blog/tag/Amalfi)
 - [Beer & Brewing: Pachanga review](https://www.beerandbrewing.com/review/pachanga)
-- [Untappd: Pachanga](https://untappd.com/b/sun-king-brewery-pachanga/2014545)
+- [Untappd (hand-read citation): Pachanga](https://untappd.com/b/sun-king-brewery-pachanga/2014545)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-pachanga/2014545), [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), [target.com](https://www.target.com/p/-/A-53477068), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-pachanga/2014545), [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), [target.com](https://www.target.com/p/-/A-53477068), web searches recorded in the research notes.
 
 ## research-notes
 

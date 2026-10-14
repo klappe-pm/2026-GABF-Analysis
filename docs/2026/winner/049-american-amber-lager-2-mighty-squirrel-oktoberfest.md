@@ -179,11 +179,11 @@ Oktoberfest is a seasonal Märzen lager from Mighty Squirrel, a brewery in Walth
 | Style | Marzen lager | [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest) |
 | ABV | 5.5% | [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest) |
 | IBU | 23 | [CBC Liquors: Mighty Squirrel Oktoberfest](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -203,17 +203,17 @@ Nothing about ingredients is published beyond the description's sweet, toasty an
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -248,7 +248,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest), [cbcliquors.com](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482), [mightysquirrel.com](https://www.mightysquirrel.com/), [mightysquirrel.com](https://www.mightysquirrel.com/beerfinder), [mightysquirrel.com](https://www.mightysquirrel.com/beers), web searches recorded in the research notes, [mightysquirrel.com](https://www.mightysquirrel.com/oktoberfest2024).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest), [cbcliquors.com](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482), [mightysquirrel.com](https://www.mightysquirrel.com/), [mightysquirrel.com](https://www.mightysquirrel.com/beerfinder), [mightysquirrel.com](https://www.mightysquirrel.com/beers), web searches recorded in the research notes, [mightysquirrel.com](https://www.mightysquirrel.com/oktoberfest2024).
 
 ## research-notes
 

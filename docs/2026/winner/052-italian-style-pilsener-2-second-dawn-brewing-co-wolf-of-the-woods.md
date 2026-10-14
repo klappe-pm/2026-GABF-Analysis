@@ -162,11 +162,11 @@ Wolf of the Woods is an Italian pilsner on the taproom menu at Second Dawn Brewi
 |---|---|---|
 | Style | Italian Pilsner | [Second Dawn: menus](https://www.seconddawnbrewing.com/menus) |
 | ABV | 5.1% | [Second Dawn: menus](https://www.seconddawnbrewing.com/menus) |
-| IBU | not published | none found |
-| Hops | Barbe Rouge, Hüll Melon, Saaz | [Untappd: Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Barbe Rouge, Hüll Melon, Saaz | [Untappd (hand-read citation): Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | On the current taproom beer menu | [Second Dawn: menus](https://www.seconddawnbrewing.com/menus) |
 
 ## brewery-description
@@ -189,19 +189,19 @@ The brewery's [official Untappd beer list](https://untappd.com/SecondDawnBrewing
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Barbe Rouge | Barbe Rouge | not published | not published | not published | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
-| Hüll Melon | Hüll Melon | not published | not published | not published | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
-| Saaz | Saaz | not published | not published | not published | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
+| Barbe Rouge | Barbe Rouge | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
+| Hüll Melon | Hüll Melon | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -229,15 +229,15 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer)
+- [Untappd (hand-read citation): Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer)
 - [Beer page on brewery site](https://www.seconddawnbrewing.com/menus)
 - [Second Dawn Brewing Co.](https://www.seconddawnbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes.
 
 ## research-notes
 

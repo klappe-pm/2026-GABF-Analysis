@@ -141,13 +141,13 @@ Tomatillo Bier is a sour ale entered by Templin Family Brewing of Salt Lake City
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published under this name; the competition category is used | none found |
+| Style | not published under this name; the competition category is used | Not Found |
 | ABV | 6.2% | [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published under this name | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | not published under this name | Not Found |
 | Other | a probable match, Tomatillo Sour Ale, is described below | [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/) |
 
 ## brewery-description
@@ -170,16 +170,16 @@ Nothing is published under the winning name. The brewery's Tomatillo Sour Ale pa
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Rested in oak barrels for 16 months; collaboration farmhouse ale with Purpose Brewing, with tomatillo and prickly ash | [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/) |
 
 ## style-context
@@ -213,8 +213,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

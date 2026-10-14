@@ -142,12 +142,12 @@ Howdyfest is a rye lager on draft at Lago Vista Brewing Co. in Lago Vista, Texas
 |---|---|---|
 | Style | Rye Lager | [Lago Vista Brewing: on tap](https://www.lagovistabrewingco.com/whatsontap) |
 | ABV | 6.2% | [Lago Vista Brewing: on tap](https://www.lagovistabrewingco.com/whatsontap) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Rye | [Lago Vista Brewing: on tap](https://www.lagovistabrewingco.com/whatsontap) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -167,17 +167,17 @@ Rye is the only named grain; the brewery's tap list also calls the beer "clean, 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -210,8 +210,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
 
 ## research-notes
 

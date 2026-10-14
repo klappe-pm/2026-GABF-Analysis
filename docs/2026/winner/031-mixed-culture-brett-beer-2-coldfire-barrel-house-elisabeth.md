@@ -150,11 +150,11 @@ Elisabeth is a wine barrel aged, blended farmhouse ale (a bière de coupage) fro
 |---|---|---|
 | Style | Bière de Coupage (listed under the brewery's Oak type) | [ColdFire: beer list](https://coldfirebrewing.com/beer/) |
 | ABV | 5.5% | [ColdFire: beer list](https://coldfirebrewing.com/beer/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Nectaron (dry hop) | [ColdFire: beer list](https://coldfirebrewing.com/beer/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | blend aged in Pinot, Sauvignon Blanc and Chardonnay barrels; limited release, bottled | [ColdFire: beer list](https://coldfirebrewing.com/beer/) |
 
 ## brewery-description
@@ -177,16 +177,16 @@ The brewery describes Elisabeth as one part Saison Lily aged in Pinot barrels an
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Nectaron | Nectaron | not published | dry hop after blending | not published | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
+| Nectaron | Nectaron | Not Found | dry hop after blending | Not Found | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | One part Pinot barrel aged Saison Lily and two parts sour blonde ale aged in Sauvignon Blanc and Chardonnay barrels, dry hopped after blending | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
 
 ## style-context
@@ -218,12 +218,12 @@ No brewery links have been checked yet.
 - [ColdFire Brewing](https://coldfirebrewing.com/)
 - [ColdFire: awards](https://coldfirebrewing.com/awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: ColdFire Elisabeth](https://untappd.com/b/coldfire-brewing-elisabeth/2336777)
+- [Untappd (hand-read citation): ColdFire Elisabeth](https://untappd.com/b/coldfire-brewing-elisabeth/2336777)
 
 ## gaps
 
-- Not published: IBU. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes.
+- Not Found: IBU. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes.
 
 ## research-notes
 

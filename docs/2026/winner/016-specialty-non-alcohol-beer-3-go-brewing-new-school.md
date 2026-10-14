@@ -156,7 +156,7 @@ New School is a non-alcoholic kettle sour from the New School Sour series of Go 
 |---|---|---|
 | Style | Non-alcoholic kettle sour | [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
 | ABV | 0.44% | [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra (listed as "American Noble Citra") | [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
 | Malts and grains | Barley | [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
 | Yeast | not named (listed only as yeast) | [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
@@ -183,16 +183,16 @@ The brewery's ingredient list reads "Water, barley, hops, yeast, blueberry, stra
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
+| Citra | Citra | Not Found | Not Found | Not Found | [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Kettle soured; brewed with the brewery's proprietary process to stay under 0.5% ABV, with no dealcoholization or dilution | [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
 
 ## style-context
@@ -223,7 +223,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## links
 
-- [Untappd: Go Brewing Sour Berry](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582)
+- [Untappd (hand-read citation): Go Brewing Sour Berry](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582)
 - [Beer page on brewery site](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer)
 - [Go Brewing](https://gobrewing.com/)
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
@@ -232,8 +232,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer), [untappd.com](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer), [untappd.com](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer), [untappd.com](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer), [untappd.com](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582), web searches recorded in the research notes.
 
 ## research-notes
 

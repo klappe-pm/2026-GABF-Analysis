@@ -140,10 +140,10 @@ The Gatekeeper is a 6% gluten reduced American porter from Little Brother Brewin
 |---|---|---|
 | Style | American Porter | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
 | ABV | 6% | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | not published (described only as an earthy hop presence) | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
 | Malts and grains | roasted malt, crystal malt, roasted barley | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | none named | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
 | Other | gluten reduced; deep dark brown with ruby highlights | [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlibrary) |
 
@@ -165,17 +165,17 @@ The brewery's tasting notes credit caramel and toffee notes to crystal malt and 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Deep, dark brown with ruby highlights, almost black (no SRM number published) | [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -201,15 +201,15 @@ Links checked 2026-10-14: [Website](https://www.littlebrotherbrew.com/), [Instag
 
 ## links
 
-- [Untappd: Little Brother Gatekeeper](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825)
+- [Untappd (hand-read citation): Little Brother Gatekeeper](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825)
 - [Beer page on brewery site](https://www.littlebrotherbrew.com/beerlibrary)
 - [Little Brother Brewing](https://www.littlebrotherbrew.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
 
 ## research-notes
 

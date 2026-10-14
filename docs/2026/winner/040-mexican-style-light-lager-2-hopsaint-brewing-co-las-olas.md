@@ -187,21 +187,21 @@ Las Olas is a lager from HopSaint Brewing Co., an independent South Bay brewery 
 | Style | Mexican Lager | [HopSaint: verified tap menu](https://untappd.com/v/hopsaint-brewing-company/4008022) |
 | ABV | 4.2% | [HopSaint: verified tap menu](https://untappd.com/v/hopsaint-brewing-company/4008022) |
 | IBU | 10 | [HopSaint: verified tap menu](https://untappd.com/v/hopsaint-brewing-company/4008022) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > A crisp and refreshing Mexican-style lager with a clean smooth finish and low bitterness.
 
-Source: [Untappd: Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
+Source: [Untappd (hand-read citation): Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -209,17 +209,17 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -250,12 +250,12 @@ No brewery links have been checked yet.
 - [HopSaint: the brewery](https://www.hopsaint.com/brewery)
 - [HopSaint: tasting room](https://www.hopsaint.com/the-taproom)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
+- [Untappd (hand-read citation): Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
 - [HopSaint: verified tap menu](https://untappd.com/v/hopsaint-brewing-company/4008022)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603), [untappd.com](https://untappd.com/v/hopsaint-brewing-company/4008022), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/brewery), [hopsaint.com](https://www.hopsaint.com/our-beers), [hopsaint.com](https://www.hopsaint.com/the-taproom), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603), [untappd.com](https://untappd.com/v/hopsaint-brewing-company/4008022), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/brewery), [hopsaint.com](https://www.hopsaint.com/our-beers), [hopsaint.com](https://www.hopsaint.com/the-taproom), web searches recorded in the research notes.
 
 ## research-notes
 
