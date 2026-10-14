@@ -35,11 +35,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/mightysqrl/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -54,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "mighty-squirrel-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "MA"
-untappd: null
-website: "http://www.mightysquirrel.com"
+untappd: "https://untappd.com/Mighty_Squirrel"
+website: "https://www.mightysquirrel.com/"
 world-beer-cup-medals: 0
 ---
 

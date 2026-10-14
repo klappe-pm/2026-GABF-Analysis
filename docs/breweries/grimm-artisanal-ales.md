@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/grimmales/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "grimm-artisanal-ales"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NY"
-untappd: null
-website: "http://GrimmAles.com"
+untappd: "https://untappd.com/GrimmArtisanalAles"
+website: "https://www.grimmales.com/"
 world-beer-cup-medals: 0
 ---
 

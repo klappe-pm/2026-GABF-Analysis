@@ -33,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/ricketycricketbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "rickety-cricket-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "AZ"
 untappd: null
-website: "http://www.ricketycricketbrewing.com"
+website: "https://ricketycricketbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

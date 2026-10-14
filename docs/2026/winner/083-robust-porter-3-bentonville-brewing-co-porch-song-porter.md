@@ -223,7 +223,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Bentonville Brewing Co. is in Bentonville, AR.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.bentonvillebrewing.com/), [Instagram](https://www.instagram.com/bentonvillebrewing/), [Untappd](https://untappd.com/BentonvilleBrewingCo).
 
 ## related
 

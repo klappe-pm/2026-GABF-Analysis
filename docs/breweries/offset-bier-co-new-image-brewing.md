@@ -34,12 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/offsetbier/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "offset-bier-co-new-image-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "UT"
 untappd: null
-website: null
+website: "https://www.offsetbier.com/"
 world-beer-cup-medals: 0
 ---
 

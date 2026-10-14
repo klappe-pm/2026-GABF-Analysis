@@ -248,7 +248,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 North Park Beer Co. is in San Diego, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.northparkbeerco.com/), [Instagram](https://www.instagram.com/northparkbeerco/), [Untappd](https://untappd.com/NorthParkBeerCompany).
 
 ## related
 

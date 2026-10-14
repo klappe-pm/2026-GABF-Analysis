@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/smogcitybeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -52,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "smog-city-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.smogcitybrewing.com"
+untappd: "https://untappd.com/SmogCityBeer"
+website: "https://www.smogcitybrewing.com/"
 world-beer-cup-medals: 0
 ---
 

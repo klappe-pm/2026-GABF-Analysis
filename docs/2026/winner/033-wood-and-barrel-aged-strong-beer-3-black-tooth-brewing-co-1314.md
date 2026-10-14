@@ -205,7 +205,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Black Tooth Brewing Co. is in Sheridan, WY.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.blacktoothbrewingcompany.com/).
 
 ## related
 

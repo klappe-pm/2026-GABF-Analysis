@@ -257,7 +257,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Alma Mader Brewing is in Kansas City, MO. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.almamaderbrewing.com/), [Instagram](https://www.instagram.com/almamaderbrewing/), [Untappd](https://untappd.com/AlmaMaderBrewing).
 
 ## related
 

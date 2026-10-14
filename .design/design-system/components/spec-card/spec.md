@@ -1,12 +1,17 @@
 ---
 name: spec-card
-title: Beer spec card
+title: Spec card
 status: draft
 code: web/components/SpecCard.tsx
+Variant: outlined
+Title style: title large
+Label width: 14
 ---
 
-![Beer spec card](spec-card.png)
+![Spec card](spec-card.png)
 
 ## spec-card-options
 
-- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.
+- Variant: outlined
+- Title style: title large
+- Label width: 14

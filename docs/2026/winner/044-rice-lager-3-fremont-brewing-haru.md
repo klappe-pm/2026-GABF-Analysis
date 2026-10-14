@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Fremont Brewing is in Seattle, WA. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.fremontbrewing.com/), [Instagram](https://www.instagram.com/fremontbrewing/).
 
 ## related
 

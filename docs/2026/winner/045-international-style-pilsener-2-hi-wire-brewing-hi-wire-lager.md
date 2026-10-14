@@ -213,7 +213,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Hi-Wire Brewing is in Asheville, NC. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://hiwirebrewing.com/), [Instagram](https://www.instagram.com/hiwirebrewing/), [Untappd](https://untappd.com/HiWireBrewing).
 
 ## related
 

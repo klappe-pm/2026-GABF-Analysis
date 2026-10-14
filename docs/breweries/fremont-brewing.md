@@ -38,14 +38,13 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/saaz.md"
-instagram: null
+instagram: "https://www.instagram.com/fremontbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -62,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "fremont-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "WA"
 untappd: null
-website: "http://www.fremontbrewing.com"
+website: "https://www.fremontbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

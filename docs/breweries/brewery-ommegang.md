@@ -35,12 +35,10 @@ first-medal-year: 2026
 founded: 1997
 gaps:
   - "beeradvocate"
-  - "instagram"
-  - "untappd"
 hops-used:
   - "../hops/varieties/hallertauer-magnum.md"
   - "../hops/varieties/mandarina-bavaria.md"
-instagram: null
+instagram: "https://www.instagram.com/breweryommegang/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -56,9 +54,10 @@ region: "Northeast"
 slug: "brewery-ommegang"
 sources:
   - "Duvel Moortgat full ownership 2003"
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NY"
-untappd: null
-website: "http://www.ommegang.com"
+untappd: "https://untappd.com/breweryommegang"
+website: "https://www.ommegang.com/"
 world-beer-cup-medals: 0
 ---
 

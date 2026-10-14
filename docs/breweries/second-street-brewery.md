@@ -41,13 +41,11 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/cascade.md"
   - "../hops/varieties/centennial.md"
-instagram: null
+instagram: "https://www.instagram.com/secondstreetbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -63,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "second-street-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NM"
-untappd: null
-website: "http://www.secondstreetbrewery.com"
+untappd: "https://untappd.com/SecondStreetBrewery"
+website: "https://secondstreetbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

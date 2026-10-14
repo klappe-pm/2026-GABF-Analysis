@@ -187,7 +187,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Grimm Artisanal Ales is in Brooklyn, NY. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.grimmales.com/), [Instagram](https://www.instagram.com/grimmales/), [Untappd](https://untappd.com/GrimmArtisanalAles).
 
 ## related
 

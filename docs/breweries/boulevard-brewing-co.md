@@ -35,11 +35,8 @@ founded: 1989
 gaps:
   - "beeradvocate"
   - "brewery-type"
-  - "instagram"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/boulevard_beer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -56,9 +53,10 @@ region: "Midwest"
 slug: "boulevard-brewing-co"
 sources:
   - "Duvel Moortgat acquisition 2013"
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "MO"
-untappd: null
-website: null
+untappd: "https://untappd.com/boulevard"
+website: "https://www.boulevard.com/"
 world-beer-cup-medals: 0
 ---
 
