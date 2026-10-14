@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -27,7 +27,8 @@ category-number: 47
 entries: 57
 hops: []
 ibu: null
-malts: []
+malts:
+  - "Pilsner"
 medal: "Gold"
 place: 1
 sources:
@@ -59,7 +60,7 @@ Rancho Cowabunga is a West Coast pilsner from Grains of Wrath Brewing of Camas, 
 | ABV | 5.8% | [TapHunter: Grains of Wrath beers](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560) |
 | IBU | not published | none found |
 | Hops | not published | none found |
-| Malts and grains | not published | none found |
+| Malts and grains | light pilsner malt | [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
 | Other | Dedicated brewery beer page available | [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/) |
@@ -70,7 +71,7 @@ No brewery description of the beer was found.
 
 ## ingredients
 
-Nothing is published about the ingredients.
+The brewery page names light pilsner malt and new world hops, without hop varieties ([Grains of Wrath](https://gowbeer.com/beer/rancho-cowabunga/)).
 
 ## style-context
 
@@ -93,3 +94,4 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 - First pass: Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: TapHunter explicitly lists a Rancho Cowabunga Wc Pils, supporting the selected lager strength; Belmont Station also names Rancho Cowabunga as a West Coast pilsner. TapHunter separately lists a same-name American Pale Ale, so no ale recipe details are transferred.
+- Pass 2026-10-14: the brewery page says the beer is "brewed with light pilsner malt and new world hops"; pilsner malt is recorded, the hops stay unnamed.

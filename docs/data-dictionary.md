@@ -7,7 +7,7 @@ topics:
 types:
   - reference
 date-created: 2026-10-11
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: ACCEPTED
 aliases: []
 tags: []
@@ -96,6 +96,14 @@ brewery_name, channel (self-distribution or wholesaler), distributor, territory,
 ## reference-brewery-facts-csv
 
 brewery_name, employees, has_kitchen (yes or no), locations_count, known_for (semicolon separated), barrels_estimate, revenue_estimate_usd, revenue_low_usd, revenue_high_usd, source, verified (yes or no), notes. Tracked brewery facts that a local deep dive in breweries/ would otherwise supply; breweries/ is ignored by git, and a local deep dive wins when both exist. Barrels and revenue here are estimates (E).
+
+## reference-brewery-links-csv
+
+brewery_name, website, instagram, untappd, beeradvocate, source, checked (date). One row per brewery, joined by normalized name. A URL is listed only after it was confirmed to belong to that brewery: the website resolves, the Instagram account is linked from the brewery's own website, and the Untappd or BeerAdvocate brewery page shows the same name and city. A blank cell means not confirmed, not absent. The website here wins over Open Brewery DB; a brewery profile or brewery-overrides.csv website still wins over this table. Nothing is copied from Untappd or BeerAdvocate beyond the link itself.
+
+## reference-current-beers-csv
+
+brewery_name, beer_name, style, abv, source, as_of (date). A dated list of a brewery's current beers taken from the brewery's own website or its own social posts, never from Untappd. Style and ABV are as the brewery publishes them and blank when it does not. Brewery pages show the list under current beers with its date and source.
 
 ## reference-beer-abv-overrides-csv
 

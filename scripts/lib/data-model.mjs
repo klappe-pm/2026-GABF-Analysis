@@ -109,6 +109,9 @@ export function loadDataset({ root } = {}) {
   const overrides = readCsvIfExists(resolve(referenceDir, 'brewery-overrides.csv'));
   const facts = readCsvIfExists(resolve(referenceDir, 'brewery-facts.csv'));
   const factsByKey = new Map(facts.map((f) => [breweryKey(f.brewery_name), f]));
+  // Checked brewery links (website, Instagram, Untappd, BeerAdvocate) and dated current beer lists.
+  const linksByKey = new Map(readCsvIfExists(resolve(referenceDir, 'brewery-links.csv')).map((l) => [breweryKey(l.brewery_name), l]));
+  const currentBeersByKey = indexBy(readCsvIfExists(resolve(referenceDir, 'current-beers.csv')), (c) => breweryKey(c.brewery_name));
   const params = loadParameters(resolve(referenceDir, 'estimation-parameters.json'));
   const summary = readCsvIfExists(resolve(resultsDir, 'year-summary.csv'));
   const awards = readCsvIfExists(resolve(resultsDir, 'brewery-of-the-year.csv'));
@@ -219,7 +222,9 @@ export function loadDataset({ root } = {}) {
     b.defunct = Number(pd.defunct ?? '') || null;
     b.employees = Number(pd.employees ?? '') || null;
     b.brewery_type = pd['brewery-type'] ?? b.overrides.find((o) => !o.brewery_location)?.brewery_type ?? b.enriched?.best?.brewery_type ?? 'micro';
-    b.website = pd.website ?? b.overrides.find((o) => o.website)?.website ?? b.enriched?.best?.website_url ?? '';
+    b.links = linksByKey.get(b.key) ?? null;
+    b.current_beers = currentBeersByKey.get(b.key) ?? [];
+    b.website = pd.website ?? b.overrides.find((o) => o.website)?.website ?? (b.links?.website || null) ?? b.enriched?.best?.website_url ?? '';
     b.known_for = pd['known-for'] ?? [];
     b.hq = { city: pd['hq-city'] ?? b.enriched?.best?.city ?? [...b.locations.values()][0]?.city ?? '', state: pd['hq-state'] ?? b.enriched?.best?.state ?? [...b.locations.values()][0]?.state ?? '' };
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
