@@ -36,6 +36,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "tasting-notes"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "ibu"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "srm"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "og"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -68,6 +72,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "fg"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -76,6 +81,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "hops"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -84,6 +90,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "hop-form"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -92,6 +99,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "hop-use"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -100,6 +108,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "lot-or-farm"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -108,6 +117,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "malts"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -116,6 +126,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "yeast"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -124,6 +135,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "adjuncts"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -132,6 +144,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "water"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -140,6 +153,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
   - field: "process"
     sources-checked:
       - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
@@ -148,6 +162,7 @@ gaps:
       - "https://www.cannonballcreekbrewing.com/"
       - "https://www.cannonballcreekbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops"
 hop-profile: []
 hops: []
 ibu: null
@@ -250,8 +265,8 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
-- Not published: IBU. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993).
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops.
+- Not published: IBU. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops, [catalog.beer](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993).
 
 ## research-notes
 
@@ -262,3 +277,4 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The opened festival guide describes German and American hops without naming varieties or IBU. A targeted brewery domain search found only awards listings, so no new brewery beer or tap list page was verified.
 - Catalog.beer 2026-10-14: [Catalog.beer: Trump Hands](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993) lists 4.6% ABV, style "Session IPA" (entry last modified 2026-08-03). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery site lists only the beer's awards, and a web search found no hop bill; Craft Beer and Brewing's paywalled Cannonball Creek course was not read.

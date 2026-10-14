@@ -31,14 +31,6 @@ description:
 entries: 53
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
-      - "https://www.93octanebrewery.com/"
-      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
-      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
-      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -119,14 +111,6 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
-      - "https://www.93octanebrewery.com/"
-      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
-      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
-      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 15
@@ -134,7 +118,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Porter with craft brewed Modest Coffee added"
+  source: "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
 sources:
   - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
   - "https://www.93octanebrewery.com/"
@@ -144,7 +130,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Coffee Porter"
-tasting-notes: null
+tasting-notes:
+  text: "This coffee porter has all the rich and chocolately characteristics of a traditional porter but with an extra boost of craft brewed Modest Coffee."
+  source: "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
 water: null
 yeast: []
 ---
@@ -180,7 +168,9 @@ Source: [93 Octane: beer menu](https://www.93octanebrewery.com/st-charles-60174-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This coffee porter has all the rich and chocolately characteristics of a traditional porter but with an extra boost of craft brewed Modest Coffee.
+
+Source: [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer)
 
 ## ingredients
 
@@ -198,7 +188,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Porter with craft brewed Modest Coffee added | [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer) |
 
 ## style-context
 
@@ -229,7 +219,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -239,3 +229,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Turbo listing publishes 15 IBU and names no hop varieties.
+- Deep dive pass 2026-10-14: the brewery beer page names the coffee roaster (Modest Coffee) but no hops, malts or yeast.

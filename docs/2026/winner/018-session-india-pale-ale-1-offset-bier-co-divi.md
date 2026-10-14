@@ -30,15 +30,6 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://untappd.com/b/offset-bier-divi/4499932"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://offsetbier.com/"
@@ -75,15 +66,6 @@ gaps:
       - "https://untappd.com/b/offset-bier-divi/4499932"
       - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
       - "web searches recorded in the research notes"
-  - field: "hop-use"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://untappd.com/b/offset-bier-divi/4499932"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://offsetbier.com/"
@@ -94,15 +76,6 @@ gaps:
       - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
       - "web searches recorded in the research notes"
   - field: "malts"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://untappd.com/b/offset-bier-divi/4499932"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "web searches recorded in the research notes"
-  - field: "yeast"
     sources-checked:
       - "https://offsetbier.com/"
       - "https://offsetbier.com/cans-to-go"
@@ -142,19 +115,19 @@ hop-profile:
   - published: "Krush"
     variety: "Krush"
     form: null
-    use: null
+    use: "main hop"
     lot-or-farm: null
     source: "https://offsetbier.com/taplist-1"
   - published: "Nectaron"
     variety: "Nectaron"
     form: null
-    use: null
+    use: "main hop"
     lot-or-farm: null
     source: "https://offsetbier.com/taplist-1"
   - published: "Ramosa"
     variety: "Ramosa"
     form: null
-    use: null
+    use: "dry hop"
     lot-or-farm: null
     source: "https://offsetbier.com/taplist-1"
 hops:
@@ -177,9 +150,12 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Tropical L IPA"
-tasting-notes: null
+tasting-notes:
+  text: "This beer bursts with tropical fruit character that's incredibly unique. It's absolutely saturated with hop flavor but at only 5% you can have a couple on a Tuesday and not regret it."
+  source: "https://offsetbier.com/taplist-1"
 water: null
-yeast: []
+yeast:
+  - "Berkeley Yeast"
 ---
 
 # 018-session-india-pale-ale-1-offset-bier-co-divi
@@ -201,7 +177,7 @@ Divi is a 5% tropical hazy "L IPA" (the brewery's term for a 5% IPA) from Offset
 | IBU | 45 | [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932) |
 | Hops | Krush, Nectaron, Ramosa | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Yeast | a new Berkeley Yeast strain that releases tropical aromas (strain not named) | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Adjuncts, fruit, spices | none named | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Other | sold in cans to go | [Offset Bier: cans to go](https://offsetbier.com/cans-to-go) |
 
@@ -213,7 +189,9 @@ Source: [Offset Bier: tap list](https://offsetbier.com/taplist-1)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This beer bursts with tropical fruit character that's incredibly unique. It's absolutely saturated with hop flavor but at only 5% you can have a couple on a Tuesday and not regret it.
+
+Source: [offsetbier.com](https://offsetbier.com/taplist-1)
 
 ## ingredients
 
@@ -223,9 +201,9 @@ The tap list names three hops, Krush, Nectaron and Ramosa, and nothing else. A 2
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Krush | Krush | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Nectaron | Nectaron | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Ramosa | Ramosa | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Krush | Krush | not published | main hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Nectaron | Nectaron | not published | main hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Ramosa | Ramosa | not published | dry hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## brewing-details
 
@@ -268,7 +246,7 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [untappd.com](https://untappd.com/b/offset-bier-divi/4499932), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [untappd.com](https://untappd.com/b/offset-bier-divi/4499932), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -279,3 +257,4 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 - The original brewery sources supplied no IBU, malt or yeast.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching session Divi page publishes 45 IBU and agrees with the brewery's current hop list. The separate double IPA Divi Divi was excluded.
+- Deep dive pass 2026-10-14: the tap list says this batch uses a new Berkeley Yeast strain that releases tropical aromas, keeps Krush and Nectaron as the two main hops and adds Ramosa to the dry hop; it also says the recipe changes with the hops on hand.
