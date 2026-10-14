@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/079-belgian-style-or-spontaneous-sour-ale-3-new-glarus-brewing-co-vintage-2026.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style or Spontaneous Sour Ale"
-  - "Belgian-Style Sour Ale"
+  - "Belgian or Spontaneous Sour Ale"
+  - "Belgian Sour Ale"
 city: "New Glarus"
 employees: null
 farms-named: []

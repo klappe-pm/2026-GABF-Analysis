@@ -154,11 +154,11 @@ Negroni Ale appears on the Boulder, Colorado taproom menu of Pattern Break Brewi
 |---|---|---|
 | Style | Negroni IPA (listed under "Mischief") | [Pattern Break: beer menu](https://www.patternbreakbrewing.com/beermenu) |
 | ABV | 5.1% | [Pattern Break: beer menu](https://www.patternbreakbrewing.com/beermenu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on the taproom menu as of 8/14/26 | [Pattern Break: beer menu](https://www.patternbreakbrewing.com/beermenu) |
 
 ## brewery-description
@@ -167,7 +167,7 @@ No brewery description of this beer was found; the menu lists only its name and 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -175,17 +175,17 @@ Nothing about ingredients is published. The name points to the Negroni cocktail,
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -217,8 +217,8 @@ Links checked 2026-10-14: [Website](https://www.patternbreakbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)).
-- Not published: IBU. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)).
+- Not Found: IBU. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

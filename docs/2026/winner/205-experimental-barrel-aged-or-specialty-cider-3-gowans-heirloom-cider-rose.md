@@ -138,10 +138,10 @@ Rosé is a cider of organic heirloom apples and local Pinot Noir wine grapes, ag
 |---|---|---|
 | Style | Rose Cider | [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider) |
 | ABV | 6.8% | [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based; organic heirloom varieties not named) | [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Anderson Valley Pinot Noir wine grapes | [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider) |
 | Other | Barrel-aged in French oak; 500 mL bottle; sweetness not stated | [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider) |
 
@@ -163,16 +163,16 @@ The cidery pairs its own organic heirloom apples with local Pinot Noir wine grap
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Organic heirloom apples from the family farm in Anderson Valley with local Pinot Noir wine grapes, barrel-aged in French oak | [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider) |
 
 ## style-context
@@ -205,8 +205,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

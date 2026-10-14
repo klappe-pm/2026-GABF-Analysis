@@ -160,18 +160,18 @@ The brewery's page names every ingredient in the specs table, with the malt from
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Columbus Cryo | Columbus | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Krush Cryo | Krush | Cryo | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Mosaic | Mosaic | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Columbus Cryo | Columbus | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Krush Cryo | Krush | Cryo | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Golden straw (no SRM number published) | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | A slight-handed addition of flaked rice for a lean, ultra-dry profile; American ale yeast | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 
 ## style-context
@@ -209,7 +209,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop use, Hop lot or farm, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes, pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page.
+- Not Found: Original gravity, Final gravity, Hop use, Hop lot or farm, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes, pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page.
 
 ## research-notes
 

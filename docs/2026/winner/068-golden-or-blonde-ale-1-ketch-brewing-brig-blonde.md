@@ -142,8 +142,8 @@ Brig Blonde is a blonde ale from Ketch Brewing, whose brew pub is in the Kearny 
 | IBU | 20 | [Ketch: Brig Blonde listing](https://untappd.com/b/ketch-brewing-brig-blonde/5206013) |
 | Hops | Hallertau Mittelfrüh | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
 | Malts and grains | Pilsner, Vienna and malted wheat | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | original gravity 12.0°P, finishing gravity 2.2°P | [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde) |
 
 ## brewery-description
@@ -166,17 +166,17 @@ The beer page's "Nerd Out" panel describes the malt as soft and bready and names
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -211,7 +211,7 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/), [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde), [untappd.com](https://untappd.com/b/ketch-brewing-brig-blonde/5206013), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/), [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde), [untappd.com](https://untappd.com/b/ketch-brewing-brig-blonde/5206013), web searches recorded in the research notes.
 
 ## research-notes
 

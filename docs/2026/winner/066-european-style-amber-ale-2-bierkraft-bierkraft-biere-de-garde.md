@@ -170,24 +170,24 @@ BierKraft Biere de Garde is a French-style farmhouse ale made by BierKraft in Mc
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Bière de Garde (Untappd: Farmhouse Ale, Bière de Garde) | [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
-| ABV | 7.3% | [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
-| IBU | 24 | [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | amber with a deep orange hue | [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
+| Style | Bière de Garde (Untappd: Farmhouse Ale, Bière de Garde) | [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
+| ABV | 7.3% | [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
+| IBU | 24 | [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | amber with a deep orange hue | [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604) |
 
 ## brewery-description
 
 > Farmhouse ales harken back to the days when beers were brewed and consumed on the farm. A “Bière de Garde” is a “beer for keeping”, meaning that it is brewed for extended aging prior to consumption. Amber in color with a deep orange hue, this hardy farmhouse ale has a rich malty aroma and flavor, and a with a restrained hop bitterness and smooth dry finish.
 
-Source: [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604)
+Source: [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -195,17 +195,17 @@ No ingredients are named. The description speaks only of rich malt and restraine
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -233,13 +233,13 @@ Links checked 2026-10-14: [Website](https://bierkraft.us/), [Instagram](https://
 ## links
 
 - [BierKraft](https://bierkraft.us/)
-- [Untappd: Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604)
-- [Untappd: BierKraft beer list](https://untappd.com/BierKraft/beer?sort=name_asc)
+- [Untappd (hand-read citation): Bière De Garde](https://untappd.com/b/bierkraft-biere-de-garde/6311604)
+- [Untappd (hand-read citation): BierKraft beer list](https://untappd.com/BierKraft/beer?sort=name_asc)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierkraft.us](https://bierkraft.us/), [untappd.com](https://untappd.com/b/bierkraft-biere-de-garde/6311604), [untappd.com](https://untappd.com/BierKraft/beer?sort=name_asc), [bierkraft.us](https://www.bierkraft.us/menu-and-events), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierkraft.us](https://bierkraft.us/), [untappd.com](https://untappd.com/b/bierkraft-biere-de-garde/6311604), [untappd.com](https://untappd.com/BierKraft/beer?sort=name_asc), [bierkraft.us](https://www.bierkraft.us/menu-and-events), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 

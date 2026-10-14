@@ -25,7 +25,7 @@ categories-won:
   - "Brett Beer"
   - "Classic Saison"
   - "Session Beer"
-  - "Session Beer or Belgian-Style Table Beer"
+  - "Session Beer or Belgian Table Beer"
   - "Specialty Saison"
 city: "Oklahoma City"
 employees: null

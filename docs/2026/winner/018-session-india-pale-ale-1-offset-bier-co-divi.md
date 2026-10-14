@@ -174,9 +174,9 @@ Divi is a 5% tropical hazy "L IPA" (the brewery's term for a 5% IPA) from Offset
 |---|---|---|
 | Style | Tropical L IPA | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | ABV | 5% | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
-| IBU | 45 | [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932) |
+| IBU | 45 | [Untappd (hand-read citation): Offset Divi](https://untappd.com/b/offset-bier-divi/4499932) |
 | Hops | Krush, Nectaron, Ramosa | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
-| Malts and grains | not published | none found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | a new Berkeley Yeast strain that releases tropical aromas (strain not named) | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Adjuncts, fruit, spices | none named | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Other | sold in cans to go | [Offset Bier: cans to go](https://offsetbier.com/cans-to-go) |
@@ -201,19 +201,19 @@ The tap list names three hops, Krush, Nectaron and Ramosa, and nothing else. A 2
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Krush | Krush | not published | main hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Nectaron | Nectaron | not published | main hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Ramosa | Ramosa | not published | dry hop | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Krush | Krush | Not Found | main hop | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Nectaron | Nectaron | Not Found | main hop | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Ramosa | Ramosa | Not Found | dry hop | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,7 +241,7 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 
 ## links
 
-- [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932)
+- [Untappd (hand-read citation): Offset Divi](https://untappd.com/b/offset-bier-divi/4499932)
 - [Beer page on brewery site](https://offsetbier.com/taplist-1)
 - [Offset Bier Co.](https://offsetbier.com/)
 - [Offset Bier: cans to go](https://offsetbier.com/cans-to-go)
@@ -251,7 +251,7 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [untappd.com](https://untappd.com/b/offset-bier-divi/4499932), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [untappd.com](https://untappd.com/b/offset-bier-divi/4499932), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), web searches recorded in the research notes.
 
 ## research-notes
 

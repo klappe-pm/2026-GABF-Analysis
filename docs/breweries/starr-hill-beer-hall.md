@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Fruit Beer"
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Richmond"
 employees: null
 farms-named: []

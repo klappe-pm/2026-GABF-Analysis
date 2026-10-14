@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: "large"
 categories-won:
   - "American Fruit Beer"
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Imperial India Pale Ale"
 city: "Asheville"
 employees: null

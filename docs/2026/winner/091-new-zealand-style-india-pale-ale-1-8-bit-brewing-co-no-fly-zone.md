@@ -179,22 +179,22 @@ No Fly Zone is a double dry-hopped West Coast IPA from 8 Bit Brewing Co. in Murr
 |---|---|---|
 | Style | West Coast IPA, DDH | [8 Bit Brewing: craft beer menu](https://www.8bitbrewingcompany.com/craft-beer/) |
 | ABV | 6.9% | [8 Bit Brewing: craft beer menu](https://www.8bitbrewingcompany.com/craft-beer/) |
-| IBU | not published (Untappd shows N/A) | [Untappd: No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908) |
+| IBU | not published (Untappd shows N/A) | [Untappd (hand-read citation): No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908) |
 | Hops | Mosaic, Nectaron, Riwaka, Citra, Citra Cryo, Citra Dynaboost | [8 Bit Brewing: craft beer menu](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > Our 2026 GABF Gold Medal Winning West Coast IPA DDH w/ Mosaic, Nectaron, Riwaka, Citra, Citra Cryo, and Citra Dynaboost
 
-Source: [Untappd: No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908)
+Source: [Untappd (hand-read citation): No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -204,22 +204,22 @@ The brewery's menu, embedded on its [craft beer page](https://www.8bitbrewingcom
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Citra Cryo | Citra | Cryo | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Citra Dynaboost | Citra | DynaBoost | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Mosaic | Mosaic | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Nectaron | Nectaron | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Riwaka | Riwaka | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Citra | Citra | Not Found | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Citra Cryo | Citra | Cryo | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Citra Dynaboost | Citra | DynaBoost | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Nectaron | Nectaron | Not Found | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Riwaka | Riwaka | Not Found | Not Found | Not Found | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -251,13 +251,13 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 - [Beer page on brewery site](https://www.8bitbrewingcompany.com/craft-beer/)
 - [8 Bit Brewing Company](https://www.8bitbrewingcompany.com/)
-- [Untappd: No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908)
+- [Untappd (hand-read citation): No Fly Zone](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

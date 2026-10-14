@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style India Pale Ale"
+  - "American India Pale Ale"
   - "Australian Pale Ale"
   - "Brett Beer"
   - "Mixed Culture Brett Beer"

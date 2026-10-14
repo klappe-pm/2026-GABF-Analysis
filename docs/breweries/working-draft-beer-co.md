@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
 city: "Madison"
 employees: null
 farms-named: []

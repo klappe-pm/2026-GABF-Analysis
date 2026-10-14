@@ -141,10 +141,10 @@ Tucker Lager is a Bavarian-style helles from Tucker Brewing Co., a family owned 
 | Style | Helles Lager (filed under Light Lager) | [Tucker: Tucker Lager](https://tuckerbrewing.com/beer-collection/tucker-lager) |
 | ABV | 4.7% | [Tucker: Tucker Lager](https://tuckerbrewing.com/beer-collection/tucker-lager) |
 | IBU | 19 | [Tucker: Tucker Lager](https://tuckerbrewing.com/beer-collection/tucker-lager) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 106 calories; year-round on tap in 10, 16 and 21 oz pours | [Tucker: Tucker Lager](https://tuckerbrewing.com/beer-collection/tucker-lager) |
 
 ## brewery-description
@@ -167,17 +167,17 @@ Nothing beyond the specs table is published. The brewery says only that many of 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -210,7 +210,7 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/tucker-lager), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/tucker-lager), web searches recorded in the research notes.
 
 ## research-notes
 

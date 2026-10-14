@@ -197,14 +197,14 @@ Gold Leaf Lager is a light, German-style all malt lager with subtle bready notes
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Pale | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
-| ABV | 4.5% | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
-| IBU | 17 | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| Style | Lager, Pale | [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| ABV | 4.5% | [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| IBU | 17 | [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
 | Hops | Northern Brewer, Saaz, Tettnang | [BeerAdvocate: Gold Leaf Lager](https://www.beeradvocate.com/beer/profile/18539/46792/) |
-| Malts and grains | four European malts, not named; 100% malted barley | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | five weeks of production | [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| Malts and grains | four European malts, not named; 100% malted barley | [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | five weeks of production | [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364) |
 
 ## brewery-description
 
@@ -212,11 +212,11 @@ The brewery site carries no description of the beer. The Untappd listing carries
 
 > While Gold Leaf is on the lighter side, it takes five weeks to perfect this traditional German-style lager. An homage to the days when beers were made 100% from malted barley, Gold Leaf is brewed with four European malts tempered with a touch of three imported hops.
 
-Source: [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364)
+Source: [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -226,19 +226,19 @@ The [BeerAdvocate listing](https://www.beeradvocate.com/beer/profile/18539/46792
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Northern Brewer | Northern Brewer | not published | not published | not published | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
-| Saaz | Saaz | not published | not published | not published | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
-| Tettnang | Tettnang | not published | not published | not published | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
+| Northern Brewer | Northern Brewer | Not Found | Not Found | Not Found | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
+| Tettnang | Tettnang | Not Found | Not Found | Not Found | [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -268,13 +268,13 @@ Links checked 2026-10-14: [Website](https://dbbrewingcompany.com/), [Instagram](
 
 - [BeerAdvocate: Gold Leaf Lager](https://www.beeradvocate.com/beer/profile/18539/46792/)
 - [Devils Backbone: beers](https://dbbrewingcompany.com/beers/)
-- [Untappd: Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364)
-- [Untappd: Devils Backbone beer list](https://untappd.com/devilsbackbonebeers/beer)
+- [Untappd (hand-read citation): Gold Leaf Lager](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364)
+- [Untappd (hand-read citation): Devils Backbone beer list](https://untappd.com/devilsbackbonebeers/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dbbrewingcompany.com](https://dbbrewingcompany.com/beer-finder/), [dbbrewingcompany.com](https://dbbrewingcompany.com/beers/), [untappd.com](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364), [untappd.com](https://untappd.com/devilsbackbonebeers/beer), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/), web searches recorded in the research notes, [dbbrewingcompany.com](https://dbbrewingcompany.com/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dbbrewingcompany.com](https://dbbrewingcompany.com/beer-finder/), [dbbrewingcompany.com](https://dbbrewingcompany.com/beers/), [untappd.com](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364), [untappd.com](https://untappd.com/devilsbackbonebeers/beer), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/), web searches recorded in the research notes, [dbbrewingcompany.com](https://dbbrewingcompany.com/).
 
 ## research-notes
 

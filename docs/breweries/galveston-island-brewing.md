@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Galveston"
 employees: null
 farms-named: []

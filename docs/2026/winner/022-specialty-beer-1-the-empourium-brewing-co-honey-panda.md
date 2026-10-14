@@ -144,9 +144,9 @@ Honey Panda is a honey lager layered with blueberry lavender tea from The Empour
 | Style | Lager (listed under "Light" on the brewery menu) | [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 | ABV | 6% | [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 | IBU | 10 | [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | blueberry lavender tea, honey | [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 | Other | golden color | [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 
@@ -170,16 +170,16 @@ The retailer listing names honey and a blueberry lavender tea over a crisp malt 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Blueberry lavender tea layered over a lager base, with honey | [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 
 ## style-context
@@ -214,7 +214,7 @@ Links checked 2026-10-14: [Website](https://www.theempourium.com/), [Instagram](
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/), [theempourium.com](https://www.theempourium.com/), [theempourium.com](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu), [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/), [theempourium.com](https://www.theempourium.com/), [theempourium.com](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu), [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado), web searches recorded in the research notes.
 
 ## research-notes
 

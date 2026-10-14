@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Juicy or Hazy Strong Pale Ale"
-  - "West Coast-Style India Pale Ale"
+  - "West Coast India Pale Ale"
 city: "Lincoln"
 employees: null
 farms-named: []

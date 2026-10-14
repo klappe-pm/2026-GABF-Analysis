@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
 city: "Colts Neck"
 employees: null
 farms-named: []

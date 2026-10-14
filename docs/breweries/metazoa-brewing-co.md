@@ -25,7 +25,7 @@ categories-won:
   - "Bock"
   - "Coffee Beer"
   - "Herb and Spice Beer"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
   - "Specialty Saison"
 city: "Indianapolis"
 employees: null

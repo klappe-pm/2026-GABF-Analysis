@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/044-rice-lager-2-silver-branch-brewing-co-mundo-especial.md"
 brewery-type: null
 categories-won:
-  - "Czech-Style Pale Lager"
+  - "Czech Pale Lager"
   - "Rice Lager"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Silver Spring"
 employees: null
 farms-named: []

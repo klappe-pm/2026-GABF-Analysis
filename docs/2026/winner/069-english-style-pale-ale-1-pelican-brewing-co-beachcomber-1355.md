@@ -178,24 +178,24 @@ Beachcomber 1355 is an English-style pale ale from Pelican Brewing Co., the Oreg
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not labelled by the brewery site; Untappd lists "Pale Ale, English" | [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
-| ABV | 5% | [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
-| IBU | not published (Untappd shows N/A) | none found |
-| Hops | varieties not named | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | color given only in the description below | [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
+| Style | not labelled by the brewery site; Untappd lists "Pale Ale, English" | [Untappd (hand-read citation): Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
+| ABV | 5% | [Untappd (hand-read citation): Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
+| IBU | not published (Untappd shows N/A) | Not Found |
+| Hops | varieties not named | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | color given only in the description below | [Untappd (hand-read citation): Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937) |
 
 ## brewery-description
 
 > • light Gold Color • Floral, Herbal Hop Aroma • Crisp Clean Finish • Outstanding Drinkability •
 
-Source: [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
+Source: [Untappd (hand-read citation): Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -203,17 +203,17 @@ Nothing about ingredients is published beyond a floral, herbal hop aroma.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,14 +241,14 @@ Links checked 2026-10-14: [Website](https://pelicanbrewing.com/), [Instagram](ht
 
 - [Pelican Brewing Co.](https://pelicanbrewing.com/)
 - [Pelican: awards](https://pelicanbrewing.com/awards/)
-- [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
-- [Untappd: Pelican beer list](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc)
+- [Untappd (hand-read citation): Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
+- [Untappd (hand-read citation): Pelican beer list](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes.
-- Not published: IBU. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes.
+- Not Found: IBU. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

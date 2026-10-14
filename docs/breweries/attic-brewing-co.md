@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Abbey Ale"
+  - "Belgian Strong Specialty Ale"
   - "Bock"
 city: "Philadelphia"
 employees: null

@@ -148,7 +148,7 @@ Trippel is a golden Belgian-style ale from New Belgium Brewing Co. in Fort Colli
 | Hops | Nugget, Hallertau Mittelfrüh, Saaz, Liberty | [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/) |
 | Malts and grains | Pale, Munich, Pilsner | [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/) |
 | Yeast | Trappist ale yeast | [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 240 calories | [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/) |
 
 ## brewery-description
@@ -171,20 +171,20 @@ The brewery publishes a full ingredient list on its beer page: pale, Munich and 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
-| Liberty | Liberty | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
-| Nugget | Nugget | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
-| Saaz | Saaz | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Liberty | Liberty | Not Found | Not Found | Not Found | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Nugget | Nugget | Not Found | Not Found | Not Found | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,7 +218,7 @@ Links checked 2026-10-14: [Website](https://www.newbelgium.com/).
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [newbelgium.com](https://www.newbelgium.com/), [newbelgium.com](https://www.newbelgium.com/beer/trippel/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [newbelgium.com](https://www.newbelgium.com/), [newbelgium.com](https://www.newbelgium.com/beer/trippel/), web searches recorded in the research notes.
 
 ## research-notes
 

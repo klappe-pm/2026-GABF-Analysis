@@ -134,14 +134,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046"
   - published: "Hallertauer"
-    variety: "Hallertauer"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046"
 hops:
   - "Fuggle"
-  - "Hallertauer"
+  - "Hallertauer Mittelfruh"
 ibu: 27
 malts: []
 medal: "Gold"
@@ -177,45 +177,45 @@ Biere de Garde is a French-style farmhouse ale from White Bluffs Brewing of Rich
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Bière de Garde | [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
-| ABV | 7.9% | [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
-| IBU | 27 | [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
-| Hops | Fuggles, Hallertauer | [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Bière de Garde | [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| ABV | 7.9% | [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| IBU | 27 | [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| Hops | Fuggles, Hallertauer | [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > This is a nice malty, low hopped beer that is conditioned to show the characteristics of an aged lager.
 
-Source: [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)
+Source: [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The listing names the two hops in the specs table but gives no malt bill or yeast strain ([Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)).
+The listing names the two hops in the specs table but gives no malt bill or yeast strain ([Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)).
 
 ## hop-profile
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Fuggles | Fuggle | not published | not published | not published | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
-| Hallertauer | Hallertauer | not published | not published | not published | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| Fuggles | Fuggle | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| Hallertauer | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -238,7 +238,7 @@ Links checked 2026-10-14: [Website](https://whitebluffsbrewing.com/), [Untappd](
 ## related
 
 - Brewery: [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md)
-- Hop varieties: [Fuggle](../../hops/varieties/fuggle.md)
+- Hop varieties: [Fuggle](../../hops/varieties/fuggle.md), [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md)
 - Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md)
 
 Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
@@ -248,11 +248,11 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - [White Bluffs Brewing](https://whitebluffsbrewing.com/)
 - [White Bluffs Brewing: taplist](https://whitebluffsbrewing.com/taplist)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)
+- [Untappd (hand-read citation): White Bluffs Biere de Garde](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/about), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/store), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/taplist), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/about), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/store), [whitebluffsbrewing.com](https://whitebluffsbrewing.com/taplist), web searches recorded in the research notes.
 
 ## research-notes
 

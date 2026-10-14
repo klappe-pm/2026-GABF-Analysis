@@ -23,7 +23,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "Field Beer"
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
   - "Specialty Non-Alcohol Beer"
 city: "Denver"
 employees: null

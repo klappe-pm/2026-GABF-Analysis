@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/073-english-style-brown-ale-3-blackstone-brewing-co-nut-brown-ale.md"
 brewery-type: null
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Pumpkin Beer"
 city: "Nashville"
 employees: null

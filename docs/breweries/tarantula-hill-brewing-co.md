@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
 city: "Thousand Oaks"
 employees: null
 farms-named: []

@@ -20,11 +20,11 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
+  - "American Brown Ale"
   - "American Cream Ale"
-  - "American-Style Brown Ale"
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Oatmeal Stout"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Atascadero"
 employees: null
 farms-named: []

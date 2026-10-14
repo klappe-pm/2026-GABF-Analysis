@@ -160,8 +160,8 @@ Breakside IPA is the year-round flagship IPA and top selling beer of Breakside B
 | IBU | 62 | [Breakside: Breakside IPA](https://breakside.com/our_beer/breakside-ipa/) |
 | Hops | Chinook, Citra, Columbus, Falconer's Flight | [Breakside: Breakside IPA](https://breakside.com/our_beer/breakside-ipa/) |
 | Malts and grains | Caramel 20, Caramel 40, Munich, two row | [Breakside: Breakside IPA](https://breakside.com/our_beer/breakside-ipa/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | year round; kegs, 16 oz and 19.2 oz cans | [Breakside: Breakside IPA](https://breakside.com/our_beer/breakside-ipa/) |
 
 ## brewery-description
@@ -188,20 +188,20 @@ The brewery's own page is the single source for the four hops and four malts in 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
-| Citra | Citra | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
-| Columbus | Columbus | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
-| Falconer's Flight | Falconer's Flight | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
+| Citra | Citra | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
+| Columbus | Columbus | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
+| Falconer's Flight | Falconer's Flight | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Light copper (no SRM number published) | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -240,7 +240,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/breakside-ipa/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/breakside-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 

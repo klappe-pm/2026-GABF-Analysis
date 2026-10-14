@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Pale Ale"
-  - "American-Style Strong Pale Ale"
+  - "American Pale Ale"
+  - "American Strong Pale Ale"
   - "Australian Pale Ale"
   - "German Dark Lager"
   - "Imperial India Pale Ale"

@@ -163,24 +163,24 @@ Czech Dark is a double decocted Czech style dark lager hopped with Saaz, brewed 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Tmavé (Czech Dark) | [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
-| ABV | 4.6% | [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
-| IBU | not published | none found |
-| Hops | Czech Saaz | [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | double decoction mash; offered as a Mliko pour; listed as a seasonal on the brewery menu as Dark Lager | [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [Field Day: drinks](https://www.fielddaybrewing.com/drinks) |
+| Style | Lager, Tmavé (Czech Dark) | [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
+| ABV | 4.6% | [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
+| IBU | Not Found | Not Found |
+| Hops | Czech Saaz | [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | double decoction mash; offered as a Mliko pour; listed as a seasonal on the brewery menu as Dark Lager | [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [Field Day: drinks](https://www.fielddaybrewing.com/drinks) |
 
 ## brewery-description
 
 > A double decocted Czech-style dark lager with Czech Saaz Hops. Try it as a Mliko!
 
-Source: [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300)
+Source: [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -190,17 +190,17 @@ Czech Saaz is the only ingredient named ([Untappd](https://untappd.com/b/field-d
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | not published | not published | [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -229,14 +229,14 @@ Links checked 2026-10-14: [Website](https://www.fielddaybrewing.com/), [Untappd]
 
 - [Field Day Brewing Co.](https://www.fielddaybrewing.com/)
 - [Field Day: drinks](https://www.fielddaybrewing.com/drinks)
-- [Untappd: Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300)
-- [Untappd: Field Day Brewing Company](https://untappd.com/FieldDayBrewingCompany)
+- [Untappd (hand-read citation): Czech Dark](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300)
+- [Untappd (hand-read citation): Field Day Brewing Company](https://untappd.com/FieldDayBrewingCompany)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/field-day-brewing-company-czech-dark/5482300), [untappd.com](https://untappd.com/FieldDayBrewingCompany), [fielddaybrewing.com](https://www.fielddaybrewing.com/), [fielddaybrewing.com](https://www.fielddaybrewing.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

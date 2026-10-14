@@ -132,10 +132,10 @@ Jacob Mack is a mild brown ale brewed with local craft malt from Root Shoot Malt
 | Style | Mild Ale (described as a mild brown ale) | [Dostal Alley: brewery](https://www.dostalalley.com/brewery) |
 | ABV | 5.4% | [Dostal Alley: brewery](https://www.dostalalley.com/brewery) |
 | IBU | 20 | [Dostal Alley: brewery](https://www.dostalalley.com/brewery) |
-| Hops | not published | none found |
+| Hops | Not Found | Not Found |
 | Malts and grains | craft malt from Root Shoot Malting, Longmont, CO (variety not named) | [Dostal Alley: brewery](https://www.dostalalley.com/brewery) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | deep mahogany color with a thin tan head | [Dostal Alley: brewery](https://www.dostalalley.com/brewery) |
 
 ## brewery-description
@@ -160,16 +160,16 @@ The only ingredient the brewery names is its maltster, Root Shoot Malting of Lon
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brewed with a local craft malt from Root Shoot Malting in Longmont, Colorado | [dostalalley.com](https://www.dostalalley.com/brewery) |
 
 ## style-context
@@ -202,7 +202,7 @@ Links checked 2026-10-14: [Website](https://www.dostalalley.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [dostalalley.com](https://www.dostalalley.com/), [dostalalley.com](https://www.dostalalley.com/brewery), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [dostalalley.com](https://www.dostalalley.com/), [dostalalley.com](https://www.dostalalley.com/brewery), web searches recorded in the research notes.
 
 ## research-notes
 

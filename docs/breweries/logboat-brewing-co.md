@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "Brown Porter"
-  - "Czech-Style Pale Lager"
+  - "Czech Pale Lager"
   - "Porter or Stout"
 city: "Columbia"
 employees: null

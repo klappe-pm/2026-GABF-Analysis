@@ -138,12 +138,12 @@ Featherweight is the American pale ale of Cannonball Creek Brewing Co. in Golden
 |---|---|---|
 | Style | American Pale Ale | [Cannonball Creek: beers](https://www.cannonballcreekbrewing.com/beers) |
 | ABV | 5.9% | [Cannonball Creek: beers](https://www.cannonballcreekbrewing.com/beers) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -151,7 +151,7 @@ No brewery description of this beer was found; the brewery's menu gives only its
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -159,17 +159,17 @@ The brewery's [menu](https://www.cannonballcreekbrewing.com/beers) names hops fo
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -202,8 +202,8 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
-- Not published: IBU. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

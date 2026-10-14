@@ -24,9 +24,9 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "American Black Ale or American Stout"
-  - "German-Style Pilsener"
+  - "German Pilsener"
   - "Scotch Ale"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
   - "Sweet Stout or Cream Stout"
 city: "Huntington Beach"
 employees: null

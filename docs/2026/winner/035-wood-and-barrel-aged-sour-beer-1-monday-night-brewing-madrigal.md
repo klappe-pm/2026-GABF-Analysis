@@ -202,14 +202,14 @@ Madrigal is a sour brown ale (oud bruin) aged in port and sherry barrels by Mond
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Sour, Flanders Oud Bruin | [Untappd: Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418) |
-| ABV | not published for the entered edition (editions listed at 6.3%, 7.3% and 7%) | [Untappd: Monday Night Madrigal listings](https://untappd.com/MondayNightBrewing/beer?q=madrigal) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | Aged 12 to 18 months in port and sherry barrels (2025 edition) | [Untappd: Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418) |
+| Style | Sour, Flanders Oud Bruin | [Untappd (hand-read citation): Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418) |
+| ABV | not published for the entered edition (editions listed at 6.3%, 7.3% and 7%) | [Untappd (hand-read citation): Monday Night Madrigal listings](https://untappd.com/MondayNightBrewing/beer?q=madrigal) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Aged 12 to 18 months in port and sherry barrels (2025 edition) | [Untappd (hand-read citation): Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418) |
 
 ## brewery-description
 
@@ -217,29 +217,29 @@ Madrigal is a sour brown ale (oud bruin) aged in port and sherry barrels by Mond
 
 Punctuation lightly normalized.
 
-The brewery site has no description, so this is the beer description on the Untappd listing. Source: [Untappd: Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418)
+The brewery site has no description, so this is the beer description on the Untappd listing. Source: [Untappd (hand-read citation): Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-No grain bill, hops, culture or fruit are published for any edition. An earlier listing describes it as "This amber Sour Ale is aged in Sherry and Port barrels" and notes the 2023 edition won gold for best barrel-aged sour at the US Open Beer Championship ([Untappd: Madrigal](https://untappd.com/b/monday-night-brewing-madrigal/5982533)).
+No grain bill, hops, culture or fruit are published for any edition. An earlier listing describes it as "This amber Sour Ale is aged in Sherry and Port barrels" and notes the 2023 edition won gold for best barrel-aged sour at the US Open Beer Championship ([Untappd (hand-read citation): Madrigal](https://untappd.com/b/monday-night-brewing-madrigal/5982533)).
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -269,15 +269,15 @@ Links checked 2026-10-14: [Website](https://mondaynightbrewing.com/), [Instagram
 - [Monday Night Brewing](https://mondaynightbrewing.com/)
 - [Monday Night: beers](https://mondaynightbrewing.com/beers)
 - [Monday Night: blog](https://mondaynightbrewing.com/blog/)
-- [Untappd: Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418)
-- [Untappd: Madrigal](https://untappd.com/b/monday-night-brewing-madrigal/5982533)
-- [Untappd: Monday Night Madrigal listings](https://untappd.com/MondayNightBrewing/beer?q=madrigal)
+- [Untappd (hand-read citation): Madrigal (2025)](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418)
+- [Untappd (hand-read citation): Madrigal](https://untappd.com/b/monday-night-brewing-madrigal/5982533)
+- [Untappd (hand-read citation): Monday Night Madrigal listings](https://untappd.com/MondayNightBrewing/beer?q=madrigal)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

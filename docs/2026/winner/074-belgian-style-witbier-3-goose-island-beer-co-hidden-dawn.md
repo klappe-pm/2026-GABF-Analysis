@@ -184,14 +184,14 @@ Hidden Dawn is a witbier entered by Goose Island Beer Co. of Chicago, credited i
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Witbier | [Untappd: Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840) |
-| ABV | 5.2% | [Untappd: Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Witbier | [Untappd (hand-read citation): Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840) |
+| ABV | 5.2% | [Untappd (hand-read citation): Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -199,7 +199,7 @@ No description from the brewery was found; the beer does not appear on any Goose
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -207,17 +207,17 @@ No ingredient is published for this beer on any page found.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -245,15 +245,15 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 - [Goose Island Beer Co.](https://www.gooseisland.com/)
 - [Goose Island: beers page](https://www.gooseisland.com/beers)
-- [Untappd: Goose Island beer list](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc)
+- [Untappd (hand-read citation): Goose Island beer list](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc)
 - [American Craft Beer: 2026 GABF winners](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840)
+- [Untappd (hand-read citation): Hidden Dawn](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840), [untappd.com](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840), [untappd.com](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840), [untappd.com](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/goose-island-beer-co-hidden-dawn/6362840), [untappd.com](https://untappd.com/w/goose-island-beer-co/2898/beer?sort=created_at_desc), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

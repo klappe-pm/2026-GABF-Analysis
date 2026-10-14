@@ -156,12 +156,12 @@ Panda is a hazy IPA hopped with Citra in several forms, Mosaic and Nelson Sauvin
 |---|---|---|
 | Style | Hazy IPA | [BeerMenus: Mothfire Panda](https://www.beermenus.com/beers/589834-mothfire-panda) |
 | ABV | 8.0% | [BeerMenus: Mothfire Panda](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Citra Dynaboost, Citra Hyperboost, Mosaic, Nelson Sauvin | [BeerMenus: Mothfire Panda](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 | Beer page | brewery beer list | [Mothfire beer library](https://www.mothfire.com/beer) |
 
 ## brewery-description
@@ -184,21 +184,21 @@ Nothing beyond the hop list in the specs table is published.
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Citra Dynaboost | Citra | DynaBoost | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Citra Hyperboost | Citra | HyperBoost | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Mosaic | Mosaic | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Citra | Citra | Not Found | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Citra Dynaboost | Citra | DynaBoost | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Citra Hyperboost | Citra | HyperBoost | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Nelson Sauvin | Nelson Sauvin | Not Found | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -234,8 +234,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

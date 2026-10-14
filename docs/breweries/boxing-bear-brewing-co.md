@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/058-munich-style-dunkel-3-boxing-bear-brewing-co-black-mesa-dunkel.md"
 brewery-type: "brewpub"
 categories-won:
-  - "Munich-Style Dunkel"
+  - "Munich Dunkel"
   - "Sweet Stout or Cream Stout"
 city: "Albuquerque"
 employees: null

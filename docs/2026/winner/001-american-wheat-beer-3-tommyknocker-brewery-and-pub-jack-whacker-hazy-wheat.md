@@ -151,7 +151,7 @@ Jack Whacker Hazy Wheat is an unfiltered American wheat beer brewed with lemongr
 | IBU | 15 | [Tommyknocker: drink menu](https://www.tommyknocker.com/drink-menu) |
 | Hops | Perle | [Beer of the Month Club: Jack Whacker Wheat](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat) |
 | Malts and grains | 2-row, Munich, wheat | [Beer of the Month Club: Jack Whacker Wheat](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Lemongrass | [Tommyknocker: drink menu](https://www.tommyknocker.com/drink-menu) |
 | Other | unfiltered | [Tommyknocker: drink menu](https://www.tommyknocker.com/drink-menu) |
 
@@ -163,7 +163,7 @@ Source: [Tommyknocker: drink menu](https://www.tommyknocker.com/drink-menu)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -173,17 +173,17 @@ The brewery's menu names only lemongrass. A third party club listing for the sam
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Perle | Perle | not published | not published | not published | [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat) |
+| Perle | Perle | Not Found | Not Found | Not Found | [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -217,7 +217,7 @@ Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only).
 
 ## research-notes
 

@@ -25,8 +25,8 @@ beers-2026:
   - "../2026/winner/077-belgian-style-tripel-2-new-belgium-brewing-co-trippel.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Tripel"
+  - "Belgian Abbey Ale"
+  - "Belgian Tripel"
   - "Historical Beer"
   - "Juicy or Hazy Pale Ale"
   - "Pro-Am Comp"

@@ -174,14 +174,14 @@ Beer Project Light is a light lager from New York Beer Project, a brewpub group 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Not Found | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -189,7 +189,7 @@ No brewery description was found; the brewery website blocked automated access.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -197,17 +197,17 @@ Nothing about the ingredients is published in any source that could be reached.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -234,15 +234,15 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 ## links
 
 - [New York Beer Project](https://www.nybeerproject.com/)
-- [Untappd: Light New York Beer](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025)
-- [Untappd: New York Beer Project light beers](https://untappd.com/NewYorkBeerProject/beer?q=light)
+- [Untappd (hand-read citation): Light New York Beer](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025)
+- [Untappd (hand-read citation): New York Beer Project light beers](https://untappd.com/NewYorkBeerProject/beer?q=light)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Buffalo Beer Buzz: March release news](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/).
-- Not published: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/).
+- Not Found: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

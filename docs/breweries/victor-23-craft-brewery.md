@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Bohemian-Style Pilsener"
-  - "German-Style Doppelbock or Eisbock"
+  - "Bohemian Pilsener"
+  - "German Doppelbock or Eisbock"
 city: "Vancouver"
 employees: null
 farms-named: []

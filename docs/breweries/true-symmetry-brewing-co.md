@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Schwarzbier"
+  - "German Schwarzbier"
 city: "Suisun City"
 employees: null
 farms-named: []

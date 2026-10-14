@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Bozeman"
 employees: null
 farms-named: []

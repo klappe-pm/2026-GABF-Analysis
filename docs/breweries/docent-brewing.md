@@ -20,10 +20,10 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "American-Style Brown Ale"
-  - "American-Style Pale Ale"
+  - "American Brown Ale"
+  - "American Pale Ale"
   - "Coffee Stout or Porter"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
 city: "San Juan Capistrano"
 employees: null
 farms-named: []

@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Witbier"
-  - "International-Style Pilsener"
+  - "Belgian Witbier"
+  - "International Pilsener"
 city: "Charleston"
 employees: null
 farms-named: []

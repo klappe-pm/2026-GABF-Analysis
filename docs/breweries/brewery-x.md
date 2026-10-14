@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Bohemian-Style Pilsener"
+  - "Bohemian Pilsener"
 city: "Anaheim"
 employees: null
 farms-named: []

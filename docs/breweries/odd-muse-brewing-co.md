@@ -22,8 +22,8 @@ beers-2026:
   - "../2026/winner/059-german-style-schwarzbier-2-odd-muse-brewing-graveyard-ghosts.md"
 brewery-type: null
 categories-won:
-  - "German-Style Schwarzbier"
-  - "International-Style Pilsener"
+  - "German Schwarzbier"
+  - "International Pilsener"
 city: "Dallas"
 employees: null
 farms-named: []

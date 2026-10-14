@@ -21,9 +21,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Belgo-Style Ale"
+  - "American-Belgo Ale"
   - "Classic Saison"
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
   - "English Mild or Bitter"
   - "Specialty Saison"
 city: "Charlotte"

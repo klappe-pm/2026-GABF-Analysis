@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/076-belgian-style-abbey-ale-3-ska-brewing-westskalle.md"
 brewery-type: "regional"
 categories-won:
-  - "Belgian-Style Abbey Ale"
+  - "Belgian Abbey Ale"
   - "English Ale"
 city: "Durango"
 employees: null

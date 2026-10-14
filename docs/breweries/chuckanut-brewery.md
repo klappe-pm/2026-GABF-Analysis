@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "closed"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
   - "Historical Beer"
   - "Light Lager"
 city: "Burlington"

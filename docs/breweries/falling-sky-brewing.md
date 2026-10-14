@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "American Amber Lager"
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
 city: "Eugene"
 employees: null
 farms-named: []

@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/067-south-german-style-wheat-beer-1-zoiglhaus-brewing-co-zoigl-weiss.md"
 brewery-type: "brewpub"
 categories-won:
-  - "South German-Style Wheat Beer"
+  - "South German Wheat Beer"
 city: "Portland"
 employees: null
 farms-named: []

@@ -21,8 +21,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Light Lager"
-  - "German-Style Pilsener"
+  - "American Light Lager"
+  - "German Pilsener"
   - "International Amber Lager"
 city: "Memphis"
 employees: null

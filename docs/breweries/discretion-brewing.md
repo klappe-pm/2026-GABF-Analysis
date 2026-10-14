@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/070-english-style-esb-or-ipa-1-discretion-brewing-uncle-daves-ipa.md"
 brewery-type: "micro"
 categories-won:
-  - "English-Style ESB or IPA"
+  - "English ESB or IPA"
 city: "Soquel"
 employees: null
 farms-named: []

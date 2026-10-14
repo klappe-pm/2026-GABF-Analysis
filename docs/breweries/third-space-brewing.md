@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "American Amber/Red Ale"
-  - "English-Style ESB or IPA"
+  - "English ESB or IPA"
   - "Field Beer"
 city: "Milwaukee"
 employees: null

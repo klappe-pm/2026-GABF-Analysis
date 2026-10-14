@@ -212,24 +212,24 @@ Road Pop is a low-alcohol light lager from Akronym Brewing of Akron, Ohio, liste
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, German Light / Leichtbier | [Untappd: Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
-| ABV | 3% | [Untappd: Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
-| IBU | 18 | [Untappd: Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Lager, German Light / Leichtbier | [Untappd (hand-read citation): Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
+| ABV | 3% | [Untappd (hand-read citation): Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
+| IBU | 18 | [Untappd (hand-read citation): Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > Crisp and crushable with a light floral hop aroma.
 
-The brewery site does not list the beer, so this is the beer description on the Untappd listing. Source: [Untappd: Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930)
+The brewery site does not list the beer, so this is the beer description on the Untappd listing. Source: [Untappd (hand-read citation): Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -237,17 +237,17 @@ Nothing beyond the floral hop aroma is published; no hop varieties, malts or yea
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -278,13 +278,13 @@ Links checked 2026-10-14: [Website](https://akronymbrewing.com/), [Instagram](ht
 - [Akronym: core brands](https://akronymbrewing.com/core-brands/)
 - [Akronym: tap list](https://akronymbrewing.com/ontap/)
 - [Akronym: awards](https://akronymbrewing.com/award-winning-craft-beer/)
-- [Untappd: Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930)
-- [Untappd: Akronym Road Pop listings](https://untappd.com/akronymbrewing/beer?q=road+pop)
+- [Untappd (hand-read citation): Road Pop Light](https://untappd.com/b/akronym-brewing-road-pop-light/6834930)
+- [Untappd (hand-read citation): Akronym Road Pop listings](https://untappd.com/akronymbrewing/beer?q=road+pop)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [akronymbrewing.com](https://akronymbrewing.com/), [akronymbrewing.com](https://akronymbrewing.com/award-winning-craft-beer/), [akronymbrewing.com](https://akronymbrewing.com/core-brands/), [akronymbrewing.com](https://akronymbrewing.com/events/), [akronymbrewing.com](https://akronymbrewing.com/ontap/), [untappd.com](https://untappd.com/akronymbrewing/beer?q=road+pop), [untappd.com](https://untappd.com/b/akronym-brewing-road-pop-light/6834930), web searches recorded in the research notes, [akronymbrewing.com](https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [akronymbrewing.com](https://akronymbrewing.com/), [akronymbrewing.com](https://akronymbrewing.com/award-winning-craft-beer/), [akronymbrewing.com](https://akronymbrewing.com/core-brands/), [akronymbrewing.com](https://akronymbrewing.com/events/), [akronymbrewing.com](https://akronymbrewing.com/ontap/), [untappd.com](https://untappd.com/akronymbrewing/beer?q=road+pop), [untappd.com](https://untappd.com/b/akronym-brewing-road-pop-light/6834930), web searches recorded in the research notes, [akronymbrewing.com](https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/).
 
 ## research-notes
 

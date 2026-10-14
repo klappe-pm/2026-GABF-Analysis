@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/055-vienna-style-lager-1-port-city-brewing-co-oktoberfest.md"
 brewery-type: "regional"
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Robust Porter"
   - "Smoke Beer"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Alexandria"
 employees: null
 farms-named: []

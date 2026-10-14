@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: "regional"
 categories-won:
   - "American Amber Lager"
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Waltham"
 employees: null
 farms-named: []

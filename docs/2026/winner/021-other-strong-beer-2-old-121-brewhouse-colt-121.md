@@ -151,11 +151,11 @@ Colt 121 is a malt liquor from Old 121 Brewhouse in Lakewood, Colorado, brewed o
 |---|---|---|
 | Style | Malt Liquor | [Porch Drinking: Old 121 expansion](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/) |
 | ABV | 7.6% | [Old 121: menu](https://www.old121brewhouse.com/menu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Public House exclusive, brewed on its 3 BBL brewhouse | [Porch Drinking: Old 121 expansion](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/) |
 
 ## brewery-description
@@ -166,7 +166,7 @@ Source: [Old 121: menu](https://www.old121brewhouse.com/menu)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -174,17 +174,17 @@ Nothing about this beer's ingredients is published in any source that could be f
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,8 +218,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes.
-- Not published: IBU. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

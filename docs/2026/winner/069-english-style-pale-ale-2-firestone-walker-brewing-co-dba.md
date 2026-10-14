@@ -121,7 +121,7 @@ DBA is a barrel-fermented ale from Firestone Walker Brewing Co. of Paso Robles, 
 | Hops | Styrian Golding, US Tettnanger | [Firestone Walker: DBA](https://www.firestonebeer.com/beer/dba/) |
 | Malts and grains | two-row base malt plus unnamed darker malts | [Firestone Walker: DBA](https://www.firestonebeer.com/beer/dba/) |
 | Yeast | house ale yeast | [Firestone Walker: DBA](https://www.firestonebeer.com/beer/dba/) |
-| Adjuncts, fruit, spices | none listed | none found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | color 16.5 (unit not stated); partially fermented in oak barrels; 6 and 12 pack bottles and draft | [Firestone Walker: DBA](https://www.firestonebeer.com/beer/dba/) |
 
 ## brewery-description
@@ -146,17 +146,17 @@ The brewery describes Styrian Golding as herbaceous and earthy with lemongrass, 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Styrian Golding | Styrian Golding | not published | not published | Slovenia (region the brewery lists) | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
-| US Tettnanger | US Tettnang | not published | not published | Pacific Northwest (region the brewery lists) | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
+| Styrian Golding | Styrian Golding | Not Found | Not Found | Slovenia (region the brewery lists) | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
+| US Tettnanger | US Tettnang | Not Found | Not Found | Pacific Northwest (region the brewery lists) | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | 16.5 (listed as Color; unit not stated) | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Unfiltered; partially fermented in the Union barrel system; house ale yeast; two row base with darker malts | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
 
 ## style-context
@@ -191,7 +191,7 @@ Links checked 2026-10-14: [Website](https://www.firestonebeer.com/), [Instagram]
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Adjuncts, Water. Checked [firestonebeer.com](https://www.firestonebeer.com/), [firestonebeer.com](https://www.firestonebeer.com/beer/dba/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Adjuncts, Water. Checked [firestonebeer.com](https://www.firestonebeer.com/), [firestonebeer.com](https://www.firestonebeer.com/beer/dba/), web searches recorded in the research notes.
 
 ## research-notes
 
