@@ -66,7 +66,9 @@ The parse prints category, medal, brewery, and award counts followed by problems
 
 ## unattended-ingest
 
-The ingest-results workflow runs every two hours from October 11 to 20 and on demand from the Actions tab (inputs: year, optional PDF URL, publish true or false). It skips a year that is already completely loaded, exits quietly when no PDF is found, and otherwise parses, enriches, tests, builds, and pushes the data to main (publish true) or opens a pull request (publish false). GitHub Pages must be set to deploy from GitHub Actions once, under Settings, Pages, Source.
+The ingest-results workflow runs every two hours from October 11 to 20 and on demand from the Actions tab (inputs: year, optional PDF URL, publish true or false). It skips a year that is already completely loaded, exits quietly when no PDF is found, and otherwise parses, enriches, runs the tests and data validation, rebuilds the site and gabf-dashboard.html, and either pushes to main and dispatches deploy-pages (publish true) or opens a pull request (publish false). A push made with the workflow token does not start other workflows, which is why the deploy is dispatched explicitly.
+
+One-time repository settings, already applied to klappe-pm/GABF-Analysis: Settings, Pages, Source set to GitHub Actions; Settings, Actions, General, "Allow GitHub Actions to create and approve pull requests" turned on so publish false can open its pull request. deploy-pages also runs on every pull request with the full verify gates (prose check, tests, validation, site build, and a check that the committed gabf-dashboard.html is current) and deploys only from main.
 
 ## backfilling-earlier-years
 
