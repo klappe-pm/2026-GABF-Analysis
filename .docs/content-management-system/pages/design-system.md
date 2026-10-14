@@ -150,9 +150,39 @@ Where: captions that say where a component's sample data comes from.
 - `category_index`: The first categories of {{year}}, from the official winners list.
 - `medal_record`: {{brewery_name}}, {{city}}, {{state}}: medals in the complete years, {{year_range}}.
 - `beer`: {{beer_name}}, {{brewery_name}}: {{medal}} in {{category_name}}, {{year}}.
-- `chart_title`: Medals by state, {{year_range}}
+- `chart_title`: Medals by State, {{year_range}}
 - `chart_note`: The five states with the most medals in the complete years.
 - `chart_label`: Line chart of medals per year for {{states}}, {{year_range}}.
+- `preset_line`: Line
+- `preset_bar`: Bar
+- `preset_stacked_bar`: Stacked Bar
+- `preset_horizontal_bar`: Horizontal Bar
+- `preset_stacked_horizontal_bar`: Stacked Horizontal Bar
+- `preset_lollipop`: Lollipop
+- `preset_treemap`: Treemap
+- `preset_option`: Passthrough Option
+- `chart_bar_title`: Medals by Year, {{year_range}}
+- `chart_bar_note`: Gold, Silver and Bronze medals awarded in each complete year.
+- `chart_bar_label`: Bar chart of Gold, Silver and Bronze medals per year, {{year_range}}.
+- `chart_stacked_title`: Medals by Year and State, {{year_range}}
+- `chart_stacked_note`: The five states with the most medals, stacked in each complete year.
+- `chart_stacked_label`: Stacked bar chart of medals per year for {{states}}, {{year_range}}.
+- `chart_horizontal_title`: Medals by State, Ranked
+- `chart_horizontal_note`: The ten states with the most medals in the complete years, {{year_range}}.
+- `chart_horizontal_label`: Horizontal bar chart of medals by state, {{year_range}}.
+- `chart_horizontal_description`: {{state}} led with {{count}} medals.
+- `chart_stacked_horizontal_title`: Medals by Brewery
+- `chart_stacked_horizontal_note`: The eight breweries with the most points in the complete years, stacked by medal.
+- `chart_stacked_horizontal_label`: Stacked horizontal bar chart of Gold, Silver and Bronze medals for the eight breweries with the most points, {{year_range}}.
+- `chart_lollipop_title`: Entries by Category
+- `chart_lollipop_note`: The ten categories with the most entries in {{year}}.
+- `chart_lollipop_label`: Lollipop chart of entries in the ten largest categories, {{year}}.
+- `chart_treemap_title`: Medal Share by State
+- `chart_treemap_note`: The fourteen states with the most medals in the complete years, sized by medals.
+- `chart_treemap_label`: Treemap of medals by state, {{year_range}}.
+- `chart_passthrough_title`: Medals per Year
+- `chart_passthrough_note`: A full chart option passed through, with the table rows and columns supplied by the page.
+- `chart_passthrough_label`: Bar chart of all medals per year, {{year_range}}.
 - `finding`: {{category_name}}: {{value}} entries per medal in {{year}}, the longest odds of the year.
 - `beer_card`: {{beer_name}}, from its published 2026 winner profile.
 - `hop_card`: {{variety}}, from the hop farm tables and the 2026 winner profiles.

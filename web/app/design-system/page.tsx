@@ -234,6 +234,22 @@ export default async function DesignSystemPage() {
   const medalChip = fill(raw('global.filters.chips.chip'), { dimension: dimension('medal'), value: medalNames.Gold });
   const searchQuery = 'zzzz';
   const yearRange = `${series.years[0]} to ${series.years[series.years.length - 1]}`;
+  // The chart card specimens: one per preset, every figure counted from the official winners lists.
+  const sample = (key: string, values: Record<string, string | number> = {}) => fill(raw(`pages.design-system.samples.${key}`), values);
+  const notFound = t('global.labels.not_found');
+  const medalSeries = (counts: Record<MedalName, number[]>) => MEDALS.map((m) => ({ name: medalNames[m], values: counts[m], medal: m }));
+  const byYear = Object.fromEntries(MEDALS.map((m) => [m, completeYears.map((y) => results(y).filter((r) => r.medal === m).length)])) as Record<MedalName, number[]>;
+  const yearTotals = completeYears.map((_, i) => MEDALS.reduce((n, m) => n + byYear[m][i], 0));
+  const stateTotals = new Map<string, number>();
+  for (const y of completeYears) for (const r of results(y)) if (r.state) stateTotals.set(r.state, (stateTotals.get(r.state) ?? 0) + 1);
+  const rankedStates = [...stateTotals.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const topStates = rankedStates.slice(0, 10);
+  const shareStates = rankedStates.slice(0, 14);
+  const topBreweries = breweryRecords().slice(0, 8);
+  const biggestFields = index.filter((c) => c.entries !== null).sort((a, b) => (b.entries ?? 0) - (a.entries ?? 0)).slice(0, 10);
+  const unit = (key: string) => t(`global.charts.units.${key}`);
+  const passthroughColumns = [{ key: 'year', label: dimension('year') }, { key: 'medals', label: unit('medals'), numeric: true }];
+  const passthroughRows = completeYears.map((y, i) => ({ key: String(y), cells: { year: String(y), medals: fmt.number(yearTotals[i]) } }));
   const SECTION_ICONS: Record<string, IconName> = { settings: 'tune', color: 'palette', type: 'type', shape: 'shape', elevation: 'layers', components: 'widgets' };
   const navItems = Object.entries(SECTION_ICONS).map(([id, icon]) => ({ id, text: sectionTitle(id), icon }));
 
@@ -514,17 +530,131 @@ export default async function DesignSystemPage() {
       id: 'chart-card',
       node: (
         <Specimen name="chart-card" title={compName('chart_card')} columns="grid-cols-1">
-          <State label={states('default')} wide>
+          <State label={sample('preset_line')} wide>
             <div className="w-full">
               <ChartCard
                 id="specimen-chart"
-                title={fill(raw('pages.design-system.samples.chart_title'), { year_range: yearRange })}
-                note={t('pages.design-system.samples.chart_note')}
+                title={sample('chart_title', { year_range: yearRange })}
+                note={sample('chart_note')}
+                ariaLabel={sample('chart_label', { states: fmt.years(series.series.map((s) => s.state)), year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={t('global.charts.table_columns.name')}
                 categories={series.years}
                 series={series.series.map((s) => ({ name: s.state, values: s.values }))}
+              />
+            </div>
+          </State>
+          <State label={sample('preset_bar')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-bar"
+                preset="bar"
+                title={sample('chart_bar_title', { year_range: yearRange })}
+                note={sample('chart_bar_note')}
+                ariaLabel={sample('chart_bar_label', { year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('medal')}
+                categories={completeYears}
+                series={medalSeries(byYear)}
+              />
+            </div>
+          </State>
+          <State label={sample('preset_stacked_bar')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-stacked-bar"
+                preset="stackedBar"
+                title={sample('chart_stacked_title', { year_range: yearRange })}
+                note={sample('chart_stacked_note')}
+                ariaLabel={sample('chart_stacked_label', { states: fmt.years(series.series.map((s) => s.state)), year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('state')}
+                categories={series.years}
+                series={series.series.map((s) => ({ name: s.state, values: s.values }))}
+              />
+            </div>
+          </State>
+          <State label={sample('preset_horizontal_bar')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-horizontal-bar"
+                preset="horizontalBar"
+                title={sample('chart_horizontal_title', { year_range: yearRange })}
+                note={sample('chart_horizontal_note', { year_range: yearRange })}
+                ariaLabel={sample('chart_horizontal_label', { year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('state')}
+                categories={topStates.map(([state]) => state)}
+                series={[{ name: unit('medals'), values: topStates.map(([, n]) => n) }]}
+                sort="descending"
+                description={sample('chart_horizontal_description', { state: topStates[0][0], count: fmt.number(topStates[0][1]) })}
+              />
+            </div>
+          </State>
+          <State label={sample('preset_stacked_horizontal_bar')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-stacked-horizontal-bar"
+                preset="stackedHorizontalBar"
+                title={sample('chart_stacked_horizontal_title', { year_range: yearRange })}
+                note={sample('chart_stacked_horizontal_note')}
+                ariaLabel={sample('chart_stacked_horizontal_label', { year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('brewery_key')}
+                categories={topBreweries.map((b) => b.brewery)}
+                series={medalSeries({ Gold: topBreweries.map((b) => b.record.gold), Silver: topBreweries.map((b) => b.record.silver), Bronze: topBreweries.map((b) => b.record.bronze) })}
+                sort="descending"
+              />
+            </div>
+          </State>
+          <State label={sample('preset_lollipop')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-lollipop"
+                preset="lollipop"
+                title={sample('chart_lollipop_title', { year: YEAR })}
+                note={sample('chart_lollipop_note', { year: YEAR })}
+                ariaLabel={sample('chart_lollipop_label', { year: YEAR })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('category_name')}
+                categories={biggestFields.map((c) => c.name)}
+                series={[{ name: unit('entries'), values: biggestFields.map((c) => c.entries) }]}
+                sort="descending"
+              />
+            </div>
+          </State>
+          <State label={sample('preset_treemap')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-treemap"
+                preset="treemap"
+                title={sample('chart_treemap_title', { year_range: yearRange })}
+                note={sample('chart_treemap_note')}
+                ariaLabel={sample('chart_treemap_label', { year_range: yearRange })}
+                tableSummary={t('global.charts.table_view.summary')} notFound={notFound}
+                nameColumn={dimension('state')}
+                categories={shareStates.map(([state]) => state)}
+                series={[{ name: unit('medals'), values: shareStates.map(([, n]) => n) }]}
+              />
+            </div>
+          </State>
+          <State label={sample('preset_option')} wide>
+            <div className="w-full">
+              <ChartCard
+                id="specimen-passthrough"
+                title={sample('chart_passthrough_title')}
+                note={sample('chart_passthrough_note')}
+                ariaLabel={sample('chart_passthrough_label', { year_range: yearRange })}
                 tableSummary={t('global.charts.table_view.summary')}
-                nameColumn={t('global.charts.table_columns.name')}
-                ariaLabel={fill(raw('pages.design-system.samples.chart_label'), { states: fmt.years(series.series.map((s) => s.state)), year_range: yearRange })}
+                counts
+                option={{
+                  tooltip: { axisPointer: { type: 'shadow' } },
+                  xAxis: { type: 'category', data: completeYears.map(String) },
+                  yAxis: { type: 'value' },
+                  series: [{ type: 'bar', name: unit('medals'), data: yearTotals }],
+                }}
+                columns={passthroughColumns}
+                rows={passthroughRows}
               />
             </div>
           </State>

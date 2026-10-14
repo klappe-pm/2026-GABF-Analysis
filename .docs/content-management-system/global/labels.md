@@ -1,6 +1,8 @@
 # Labels
 
-The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not defined".
+The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not Found", the `not_found` label.
+
+- `not_found`: Not Found
 
 ## `medal`
 

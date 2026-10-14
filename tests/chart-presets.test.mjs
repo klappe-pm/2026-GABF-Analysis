@@ -84,6 +84,13 @@ test('sorting reorders categories, values, and the table view together', () => {
   assert.deepEqual(t.columns.map((c) => c.label), ['State', 'M']);
 });
 
+test('a missing value in the table view reads as the not-found label the caller passes', () => {
+  const rows = (preset, label) => p.tableFor(preset, ['a', 'b'], [{ name: 'M', values: [1, null] }], 'State', undefined, label).rows;
+  assert.equal(rows('horizontalBar', 'Not Found')[1].cells.s0, 'Not Found');
+  assert.equal(rows('bar', 'Not Found')[0].cells.b, 'Not Found');
+  assert.equal(rows('bar', 'Not Found')[0].cells.a, '1');
+});
+
 test('the chart card builds its table view from rows and columns the caller supplies', () => {
   const src = readFileSync(resolve(WEB, 'components/ChartCard.tsx'), 'utf8');
   assert.match(src, /if \(props\.rows && props\.columns\) return \{ rows: props\.rows, columns: props\.columns \}/);
