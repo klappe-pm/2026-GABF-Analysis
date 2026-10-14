@@ -35,8 +35,10 @@ else {
   }
 }
 run('enrich', ['scripts/enrich-breweries.mjs', ...(args.offline ? ['--offline'] : [])]);
-// The tests read the generated single file pages, which are build outputs and not in git.
+// The tests read the generated single file pages, and the explorer reads the winners database; all are
+// build outputs and not in git.
 run('brand', ['scripts/brand/build.mjs']);
+run('winners database', ['scripts/build-winner-db.mjs', '2026']);
 run('explorer', ['scripts/build-explorer.mjs']);
 run('chart gallery', ['scripts/build-chart-gallery.mjs']);
 run('standalone', ['scripts/build-standalone.mjs']);

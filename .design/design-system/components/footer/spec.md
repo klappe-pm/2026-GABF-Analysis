@@ -2,7 +2,7 @@
 name: footer
 title: Footer
 status: draft
-code: scripts/build-site.mjs
+code: web/app/layout.tsx
 ---
 
 ![Footer](footer.png)

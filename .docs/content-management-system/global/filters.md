@@ -56,7 +56,9 @@ Where: the label above each dropdown in the panel, and the start of each chip.
 - `hop_farm_grown`: Hop farm that grows a hop used
 - `region`: Region
 - `state`: State
+- `city`: City
 - `fed_district_name`: Fed district
+- `brewery_key`: Brewery
 - `brewery_type`: Brewery type
 - `ownership_type`: Ownership
 - `distribution_channel`: Distribution
