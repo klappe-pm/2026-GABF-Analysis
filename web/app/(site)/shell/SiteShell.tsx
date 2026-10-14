@@ -4,8 +4,9 @@
 // navigation for the window size class (tabs on compact windows, a rail on medium and expanded ones,
 // and on large windows the drawer or the rail as "Navigation on wide screens" says), the active filter
 // chips, then the page. Destinations and their order come from layout.md "Site navigation".
-import type { ReactNode } from 'react';
+import { type ReactNode, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import { activeItem } from './destinations.mjs';
 import { NavigationDrawer } from '@/components/NavigationDrawer';
 import { NavigationRail, type NavItem } from '@/components/NavigationRail';
 import { PageHeader } from '@/components/PageHeader';
@@ -27,30 +28,28 @@ export type ShellConfig = {
   filters: SiteFiltersConfig;
 };
 
-// The destination a path belongs to: the item whose match list holds the longest prefix of the path.
-export function activeItem(items: ShellItem[], pathname: string): string | undefined {
-  let best: { id: string; len: number } | undefined;
-  for (const item of items) {
-    for (const m of item.match) {
-      const hit = m === '/' ? pathname === '/' : pathname.startsWith(m);
-      if (hit && (!best || m.length > best.len)) best = { id: item.id, len: m.length };
-    }
-  }
-  return best?.id;
-}
+export { activeItem };
 
+// Material scrollable primary tabs: each tab hugs its one line label and the row scrolls sideways inside its
+// own container, never the page. The current tab is scrolled into view.
 function SiteTabs({ label, items, active }: { label: string; items: ShellItem[]; active?: string }) {
+  const row = useRef<HTMLUListElement>(null);
+  useEffect(() => {
+    const ul = row.current;
+    const cur = ul?.querySelector<HTMLElement>('a[aria-current="page"]');
+    if (ul && cur) ul.scrollLeft = Math.max(0, cur.offsetLeft - (ul.clientWidth - cur.offsetWidth) / 2);
+  }, [active]);
   return (
     <nav aria-label={label} data-nav="tabs" className="sticky top-0 z-10 border-b border-outline-variant bg-surface medium:hidden">
-      <ul className="flex">
+      <ul ref={row} className="flex overflow-x-auto overscroll-x-contain">
         {items.map((item) => {
           const current = item.id === active;
           return (
-            <li key={item.id} className="flex-1">
+            <li key={item.id} className="shrink-0">
               <a
                 href={item.href}
                 aria-current={current ? 'page' : undefined}
-                className={`type-title-small flex min-h-12 items-center justify-center border-b-2 px-2 state-hover:bg-surface-container-low ${current ? 'border-primary text-primary' : 'border-transparent text-on-surface-variant'}`}
+                className={`type-title-small flex min-h-12 items-center justify-center whitespace-nowrap border-b-2 px-4 state-hover:bg-surface-container-low ${current ? 'border-primary text-primary' : 'border-transparent text-on-surface-variant'}`}
                 style={labelFace(item.text)}
               >
                 {item.text}

@@ -6,6 +6,7 @@ Navigation labels and the text of the browser tab for every page.
 
 Where: header navigation, left to right.
 
+- `home`: Home
 - `results`: Medal Winners
 - `results_by_year`: By year
 - `results_by_category`: By category
@@ -22,6 +23,7 @@ Where: header navigation, left to right.
 Where: footer navigation.
 
 - `method`: Method
+- `saved_views`: Saved views
 - `about`: About
 - `source`: Source and data
 

@@ -5,11 +5,12 @@ import { fill, group, lookup, t } from '@/lib/content';
 import { fmt } from '@/lib/data';
 import { href, paths } from '@/lib/href';
 import { counts, WINNER_YEAR } from '@/lib/site-data';
+import { type Destination, moreDestinations, primaryDestinations } from './destinations.mjs';
 import { type ShellConfig, type ShellItem, SiteShell } from './SiteShell';
 
 const raw = (key: string) => lookup(key) as string;
 const nav = (key: string) => t(`global.navigation.header.${key}`);
-const item = (id: string, text: string, icon: ShellItem['icon'], path: string, match: string[]): ShellItem => ({ id, text, icon, path, href: href(path), match });
+const item = (d: Destination): ShellItem => ({ id: d.id, text: nav(d.copy), icon: d.icon, path: d.path, href: href(d.path), match: d.match });
 
 // Values the copy's label dictionary names, by filter dimension.
 const LABELLED = ['medal', 'category_type', 'style_family', 'abv_band', 'region', 'ownership_type', 'distribution_channel', 'brewery_type'];
@@ -24,19 +25,10 @@ export async function shellConfig(): Promise<ShellConfig> {
     navLabel: t('global.site.header.nav_label'),
     menuLabel: t('global.site.header.menu_button'),
     skipLabel: t('global.site.header.skip_link'),
-    // The four destinations of layout.md "Site navigation"; each owns the sections listed in its match.
-    nav: [
-      item('results', nav('results'), 'medal', paths.home, ['/', paths.dashboards, paths.categories, paths.explorer]),
-      item('breweries', nav('breweries'), 'brewery', paths.breweries, [paths.breweries, '/first-time-medalists/']),
-      item('beers', nav('beers'), 'beer', paths.winners(WINNER_YEAR), ['/beers/', paths.hops, paths.hopFarms]),
-      item('analysis', nav('analysis'), 'chart', paths.reports, [paths.reports]),
-    ],
-    // Further sections the drawer lists under the four destinations.
-    more: [
-      item('categories', nav('categories'), 'list', paths.categories, [paths.categories]),
-      item('hops', nav('hops'), 'hop', paths.hops, [paths.hops]),
-      item('hop-farms', nav('hop_farms'), 'farm', paths.hopFarms, [paths.hopFarms]),
-    ],
+    // The destinations of layout.md "Site navigation" (destinations.mjs); each owns the sections in its match.
+    nav: primaryDestinations(paths, WINNER_YEAR).map(item),
+    // Further sections the drawer lists under the destinations.
+    more: moreDestinations(paths).map(item),
     filters: {
       trigger: f('trigger.label'),
       triggerWithCount: raw('global.filters.trigger.label_with_count'),

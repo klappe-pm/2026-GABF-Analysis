@@ -12,11 +12,14 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 const PENDING = [
   // retired: the explorer is replaced by /analysis/explore/ and a redirect, both from the analysis lane
   '/explorer/',
-  // breweries lane
-  '/breweries/<brewery>/', '/first-time-medalists/2026/',
   // categories and analysis lane
   '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
+  // new addresses (owner decisions): reports move to /analysis/, and the Method and Saved views pages
+  '/analysis/', '/analysis/<report>/', '/method/', '/saved/',
 ];
+
+// Addresses the static site never had, which the navigation and footer link to.
+const NEW_ADDRESSES = ['/overview/', '/analysis/', '/analysis/<report>/', '/method/', '/saved/'];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).
 const REDIRECTS = {};
@@ -90,6 +93,11 @@ test('the plan lists the addresses of every section of the static site', () => {
 test('every current address has a route, a redirect, or a pending lane', () => {
   const missing = [...new Set([...planPaths(), ...distPaths()])].filter((p) => !routed(p) && !redirected(p) && !pending(p));
   assert.deepEqual(missing, [], 'addresses with no route in web/app and no pending lane');
+});
+
+test('every new address the navigation links to has a route or a pending lane', () => {
+  assert.deepEqual(NEW_ADDRESSES.filter((p) => !routed(p) && !pending(p)), []);
+  assert.ok(routed('/overview/'), '/overview/');
 });
 
 test('a ported address leaves the pending list', () => {

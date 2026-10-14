@@ -14,6 +14,9 @@ export const canonical = (path: string) => `${SITE_ORIGIN}${path}`;
 // The site paths of the dynamic pages, so every page links to the same address the route builds.
 export const paths = {
   home: '/',
+  overview: '/overview/',
+  analysis: '/analysis/',
+  analysisReport: (slug: string) => `/analysis/${slug}/`,
   breweries: '/breweries/',
   brewery: (slug: string) => `/breweries/${slug}/`,
   categories: '/categories/',
@@ -31,6 +34,7 @@ export const paths = {
   explorer: '/explorer/',
   about: '/about/',
   method: '/method/',
+  saved: '/saved/',
   // The estimates section of the Method page: every (E) links here.
   methodEstimates: '/method/#estimates',
   designSystem: '/design-system/',

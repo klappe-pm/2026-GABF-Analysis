@@ -101,7 +101,7 @@ export const typeSizeKey = (role: TypeRole) => `${role[0].toUpperCase()}${role.s
 
 // Page order: .design/design-system/layout.md.
 export const SECTIONS = ['settings', 'color', 'type', 'shape', 'elevation', 'components'] as const;
-export const SITE_NAVIGATION = ['results', 'breweries', 'beers', 'analysis'] as const;
+export const SITE_NAVIGATION = ['home', 'results', 'breweries', 'beers', 'hops', 'hop-farms', 'analysis'] as const;
 
 // Per component settings: .design/design-system/components/<name>/spec.md frontmatter.
 export const COMPONENTS: Record<string, Record<string, Kind>> = {
