@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
   <title id="title">GABF Analysis</title>
   <desc id="desc">Wordmark for GABF Analysis: Great American Beer Festival Results, 2018 to 2026, with gold, silver, and bronze medals on a podium.</desc>
-  <rect x="1" y="1" width="638" height="638" rx="28" fill="#f9f9f7" stroke="#dcdbd4" stroke-width="2"/>
+  <rect x="1" y="1" width="638" height="638" fill="#f9f9f7" stroke="#dcdbd4" stroke-width="2"/>
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
     <line x1="200" y1="270" x2="440" y2="270" stroke="#c9c8bf" stroke-width="1.5"/>
     <rect x="216" y="226" width="64" height="44" fill="#e6e5df"/>
