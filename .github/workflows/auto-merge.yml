@@ -1,0 +1,30 @@
+# Every pull request opened in this repository is marked ready and set to merge on its own
+# as soon as the required build check passes. The owner asked for this so nobody has to
+# enable it by hand. Pull requests from forks are skipped. This workflow never checks out
+# or runs the pull request's code, so pull_request_target is safe here.
+name: auto-merge
+
+on:
+  pull_request_target:
+    types: [opened, reopened, ready_for_review, synchronize, converted_to_draft]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enable:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark ready
+        if: github.event.pull_request.draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr ready "$PR" --repo "$GITHUB_REPOSITORY"
+      - name: Enable auto-merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --auto --merge --delete-branch
