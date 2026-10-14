@@ -14,7 +14,7 @@ export function FilterChips({ label, entries, clearLabel, onRemove, onClear }: {
   const corner = shape(s.Shape ?? 'small');
   const plain = 'var(--md-ref-typeface-plain)';
   return (
-    <section aria-label={label} className="flex flex-wrap items-center gap-2">
+    <section aria-label={label} data-component="filter-chips" className="flex flex-wrap items-center gap-2">
       <h2 className={`text-on-surface-variant ${typeOf('label large')}`}>{label}</h2>
       <md-chip-set>
         {entries.map((e) => (e.removeLabel ? (

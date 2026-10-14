@@ -32,66 +32,82 @@ gaps:
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "abv"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "ibu"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hops"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile: []
 hops: []
 ibu: null
@@ -188,8 +204,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file.
+- Not published: ABV, IBU. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -198,3 +214,4 @@ No brewery links have been checked yet.
 - indiobrewing.com, tried with and without www, returned HTTP 403 to every request, and it was not confirmed as the brewery's domain, so brewery-url is null.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: no brewery website is on file; no new source was found.

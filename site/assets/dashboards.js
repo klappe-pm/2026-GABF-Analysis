@@ -7,7 +7,7 @@ import { estMark, installEstimates } from './estimates.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
 import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
 import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptyStateHtml, hashFor, parseHash, partialNoticeHtml, pickState, STATE_KEYS, valueLabel } from './filter-bar.mjs';
-import { oddsItems, yearsInView } from './page-views.mjs';
+import { oddsItems, specNoteHtml as specNote, yearsInView } from './page-views.mjs';
 import { sortByLabel } from './sort-order.mjs';
 
 // state.filters holds this page's own keys (tab, brewery); the site wide selection lives in the
@@ -265,8 +265,8 @@ function renderTable(rows) {
     { key: 'category_name', label: 'Category', render: (r) => `<a href="${esc(cHref(r.category_name, r.category_slug))}">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
     { key: 'entries', label: 'Entries', numeric: true, render: (r) => (r.entries ?? '') },
     { key: 'style_family', label: 'Style family' },
-    { key: 'abv', label: 'ABV', numeric: true, render: (r) => (r.abv !== null && r.abv !== undefined ? `${r.abv}%` : '<span class="muted">Not defined</span>') },
-    { key: 'ibu', label: 'IBU', numeric: true, render: (r) => (r.ibu !== null && r.ibu !== undefined ? esc(r.ibu) : '<span class="muted">Not defined</span>') },
+    { key: 'abv', label: 'ABV', numeric: true, render: (r) => (r.abv !== null && r.abv !== undefined ? `${r.abv}%${specNote(r, r.abv_source)}` : '<span class="muted">Not defined</span>') },
+    { key: 'ibu', label: 'IBU', numeric: true, render: (r) => (r.ibu !== null && r.ibu !== undefined ? `${esc(r.ibu)}${specNote(r, r.ibu_source)}` : '<span class="muted">Not defined</span>') },
     { key: 'abv_min', label: 'Style range ABV', render: (r) => (r.abv_min ? `${r.abv_min} to ${r.abv_max}%` : '<span class="muted">Not defined</span>') },
     { key: 'beer_profile', label: 'Beer profile', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">Full profile</a>` : '<span class="muted">Not defined</span>') },
     { key: 'ownership_type', label: 'Ownership', render: (r) => `${esc(valueLabel('ownership_type', r.ownership_type))}${r.parent ? ` (${esc(r.parent)})` : ''}` },
@@ -388,7 +388,7 @@ async function hostedDownloads() {
 
 async function downloadCsv() {
   const rows = applyFilters(state.rows);
-  const cols = ['year', 'competition', 'category_number', 'category_name', 'category_type', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_location', 'city', 'state', 'region', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel'];
+  const cols = ['year', 'competition', 'category_number', 'category_name', 'category_type', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_location', 'city', 'state', 'region', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'spec_note', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel'];
   const escCsv = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
   const text = [cols.join(','), ...rows.map((r) => cols.map((c) => escCsv(r[c])).join(','))].join('\n');
   const filename = 'gabf-results-filtered.csv';

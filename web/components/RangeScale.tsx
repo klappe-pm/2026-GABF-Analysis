@@ -39,7 +39,7 @@ export function RangeScale({ id, label, value, valueText, range, summary, source
   const outside = range && value !== null && (value < range.min || value > range.max);
 
   return (
-    <figure className="flex flex-col gap-2" aria-labelledby={`${id}-label`} aria-describedby={`${id}-summary`}>
+    <figure className="flex flex-col gap-2" data-component="range-scale" aria-labelledby={`${id}-label`} aria-describedby={`${id}-summary`}>
       <div className="flex items-baseline justify-between gap-3">
         <span id={`${id}-label`} className="type-label-large text-on-surface-variant" style={labelFace(label)}>{label}</span>
         <span className="type-title-large font-plain tabular-nums" style={{ color: value === null ? 'var(--md-sys-color-outline)' : outside ? out : mark }}>{valueText}</span>

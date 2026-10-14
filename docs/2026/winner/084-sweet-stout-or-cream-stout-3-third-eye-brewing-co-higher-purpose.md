@@ -245,3 +245,4 @@ No brewery links have been checked yet.
 - The domain thirdeyebrewing.com (without "co") redirects to a domain sale page and is not the brewery.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd beer entry and Hamilton taproom listing agree on strength and bitterness and explicitly identify lactose. The older brewer interview estimates 25 calculated IBU and about 20 measured IBU; these estimates do not replace the current listing. No dedicated brewery beer page was found.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

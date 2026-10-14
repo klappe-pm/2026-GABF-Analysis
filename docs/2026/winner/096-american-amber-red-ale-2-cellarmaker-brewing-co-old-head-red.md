@@ -30,16 +30,12 @@ description:
 entries: 85
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://cellarmakerbrewing.com/beer/old-head-red/"
-      - "https://www.cellarmakerbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://cellarmakerbrewing.com/beer/old-head-red/"
       - "https://www.cellarmakerbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://cellarmakerbrewing.com/beer/old-head-red/"
@@ -85,11 +81,6 @@ gaps:
       - "https://cellarmakerbrewing.com/beer/old-head-red/"
       - "https://www.cellarmakerbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://cellarmakerbrewing.com/beer/old-head-red/"
-      - "https://www.cellarmakerbrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Anchovy"
     variety: "Anchovy"
@@ -119,14 +110,18 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Red ale brewed with Matt of Fast Fashion"
+  source: "https://cellarmakerbrewing.com/beer/old-head-red/"
 sources:
   - "https://cellarmakerbrewing.com/beer/old-head-red/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.cellarmakerbrewing.com/"
 srm: null
 style: "American Red Ale"
-tasting-notes: null
+tasting-notes:
+  text: "the style that perfectly marries rich caramel malts and piney, citrusy Cascade, Simcoe and Anchovy hops"
+  source: "https://cellarmakerbrewing.com/beer/old-head-red/"
 water: null
 yeast: []
 ---
@@ -162,7 +157,9 @@ Source: [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> the style that perfectly marries rich caramel malts and piney, citrusy Cascade, Simcoe and Anchovy hops
+
+Source: [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/)
 
 ## ingredients
 
@@ -184,7 +181,7 @@ The [beer page](https://cellarmakerbrewing.com/beer/old-head-red/) names Cascade
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Red ale brewed with Matt of Fast Fashion | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
 
 ## style-context
 
@@ -221,8 +218,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -230,3 +227,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - All specs come from the brewery's own beer page; the home page features it under latest releases.
 - The beer page lists no awards. No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's description gives tasting words and the Fast Fashion collaboration.

@@ -34,96 +34,112 @@ gaps:
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hops"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://redwoodflint.com/brewery"
       - "https://redwoodflint.com/menu"
       - "https://www.redwoodflint.com/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -224,8 +240,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [redwoodflint.com](https://redwoodflint.com/brewery), [redwoodflint.com](https://redwoodflint.com/menu), [redwoodflint.com](https://www.redwoodflint.com/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [redwoodflint.com](https://redwoodflint.com/brewery), [redwoodflint.com](https://redwoodflint.com/menu), [redwoodflint.com](https://www.redwoodflint.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [redwoodflint.com](https://redwoodflint.com/brewery), [redwoodflint.com](https://redwoodflint.com/menu), [redwoodflint.com](https://www.redwoodflint.com/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [redwoodflint.com](https://redwoodflint.com/brewery), [redwoodflint.com](https://redwoodflint.com/menu), [redwoodflint.com](https://www.redwoodflint.com/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -235,3 +251,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches for the beer and brewery with Untappd, ABV, BeerMenus and 2026 medal terms found no additional beer-specific specifications. Similarly named beers from other breweries were excluded.
+- Deep dive pass 2026-10-14: no new source was found.

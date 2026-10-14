@@ -39,78 +39,86 @@ gaps:
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/v/false-idol-brewing/8496115"
       - "https://www.falseidolbrew.com/"
       - "https://www.falseidolbrew.com/false-idol-beer/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://untappd.com/v/false-idol-brewing/8496115"
-      - "https://www.falseidolbrew.com/"
-      - "https://www.falseidolbrew.com/false-idol-beer/"
-      - "web searches recorded in the research notes"
+      - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
 hop-profile: []
 hops: []
 ibu: null
@@ -118,11 +126,14 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Brett saison with orange peel, yuzu and white peppercorn, brewed in collaboration with Boulevard Brewing"
+  source: "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
 sources:
   - "https://untappd.com/v/false-idol-brewing/8496115"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.falseidolbrew.com/"
+  - "https://www.falseidolbrew.com/2025/12/05/house-of-zest/"
   - "https://www.falseidolbrew.com/false-idol-beer/"
 srm: null
 style: "Brett Saison"
@@ -181,7 +192,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brett saison with orange peel, yuzu and white peppercorn, brewed in collaboration with Boulevard Brewing | [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/) |
 
 ## style-context
 
@@ -214,8 +225,8 @@ Links checked 2026-10-14: [Website](https://www.falseidolbrew.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
 
 ## research-notes
 
@@ -225,3 +236,4 @@ Links checked 2026-10-14: [Website](https://www.falseidolbrew.com/), [Instagram]
 - The web search budget ran out during this batch, so no retailer or Untappd beer page could be searched for ABV.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A bottle-release event names House of Zest and False Idol but supplies no ABV, IBU or hop variety. An Untappd venue activity confirms the beer name without technical fields, and the linked brewery shop could not be read; no qualifying beer-url was verified.
+- Deep dive pass 2026-10-14: the brewery's December 5, 2025 release post (found in its sitemap) names the Boulevard Brewing collaboration; no ABV, hops or malts.

@@ -32,11 +32,6 @@ description:
 entries: 51
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.allagash.com/beer/white/"
-      - "https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.allagash.com/beer/white/"
@@ -68,11 +63,6 @@ gaps:
       - "https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642"
       - "web searches recorded in the research notes"
   - field: "water"
-    sources-checked:
-      - "https://www.allagash.com/beer/white/"
-      - "https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642"
-      - "web searches recorded in the research notes"
-  - field: "process"
     sources-checked:
       - "https://www.allagash.com/beer/white/"
       - "https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642"
@@ -111,7 +101,9 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Brewed with oats, malted wheat and raw wheat for a hazy appearance; spiced with the brewery's blend of coriander and Curaçao orange peel; house yeast"
+  source: "https://www.allagash.com/beer/white/"
 sources:
   - "https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296"
   - "https://www.allagash.com/beer/white/"
@@ -119,7 +111,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Belgian-Style Wheat Beer"
-tasting-notes: null
+tasting-notes:
+  text: "Allagash White upholds the Belgian tradition of beers that are both complex and refreshing."
+  source: "https://www.allagash.com/beer/white/"
 water: null
 yeast:
   - "House yeast"
@@ -156,7 +150,9 @@ Source: [Allagash: White](https://www.allagash.com/beer/white/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Allagash White upholds the Belgian tradition of beers that are both complex and refreshing.
+
+Source: [allagash.com](https://www.allagash.com/beer/white/)
 
 ## ingredients
 
@@ -178,7 +174,7 @@ The brewery publishes a full grain bill of a 2-row barley blend, local pale malt
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed with oats, malted wheat and raw wheat for a hazy appearance; spiced with the brewery's blend of coriander and Curaçao orange peel; house yeast | [allagash.com](https://www.allagash.com/beer/white/) |
 
 ## style-context
 
@@ -214,7 +210,7 @@ Links checked 2026-10-14: [Website](https://www.allagash.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [allagash.com](https://www.allagash.com/beer/white/), [beerandbrewing.com](https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [allagash.com](https://www.allagash.com/beer/white/), [beerandbrewing.com](https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -223,3 +219,4 @@ Links checked 2026-10-14: [Website](https://www.allagash.com/), [Instagram](http
 - The brewery page already lists the 2026 GABF gold among its medals, alongside earlier GABF golds in 2002, 2005, 2015, 2020, 2022 and 2024.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: White](https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296) lists 5% ABV, 28 IBU, style "Belgian-Style White (or Wit) / Belgian-Style Wheat" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page's key details list the grains (Allagash 2-Row Malted Barley Blend, Local Pale Malt, Red Wheat Malt, Raw White Wheat, Oats, Carapils), Nugget, Crystal and Czech Saaz hops, house yeast and the spices; its only tasting language is general.

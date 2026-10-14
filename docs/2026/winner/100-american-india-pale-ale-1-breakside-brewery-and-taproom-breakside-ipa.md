@@ -30,18 +30,6 @@ description:
 entries: 165
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/beers/"
-      - "https://breakside.com/our_beer/breakside-ipa/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/beers/"
-      - "https://breakside.com/our_beer/breakside-ipa/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://breakside.com/"
@@ -142,9 +130,13 @@ sources:
   - "https://breakside.com/our_beer/breakside-ipa/"
   - "https://catalog.beer/beer/c36a32d6-fec3-4a8f-bfb6-0301ced2efd8"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Light copper (no SRM number published)"
+  source: "https://breakside.com/our_beer/breakside-ipa/"
 style: "India Pale Ale"
-tasting-notes: null
+tasting-notes:
+  text: "This light copper beer has huge citrus and tropical fruit aromas, with hints of perfume and pine. Flavors like apricot, guava, and orange hit the tongue accompanied by a mild evergreen note. There's just enough caramel sweetness to balance the hop flavors."
+  source: "https://breakside.com/our_beer/breakside-ipa/"
 water: null
 yeast: []
 ---
@@ -184,7 +176,9 @@ The page goes on to describe strong citrus and tropical fruit aromas with hints 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This light copper beer has huge citrus and tropical fruit aromas, with hints of perfume and pine. Flavors like apricot, guava, and orange hit the tongue accompanied by a mild evergreen note. There's just enough caramel sweetness to balance the hop flavors.
+
+Source: [breakside.com](https://breakside.com/our_beer/breakside-ipa/)
 
 ## ingredients
 
@@ -203,7 +197,7 @@ The brewery's own page is the single source for the four hops and four malts in 
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Light copper (no SRM number published) | [breakside.com](https://breakside.com/our_beer/breakside-ipa/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -246,7 +240,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/breakside-ipa/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/breakside-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -255,3 +249,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No separate 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Breakside IPA](https://catalog.beer/beer/c36a32d6-fec3-4a8f-bfb6-0301ced2efd8) lists 6.4% ABV, 74 IBU, style "American-Style India Pale Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes, light copper color, 6.8% ABV, 62 IBU and the hop and malt lists already on file.

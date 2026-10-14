@@ -238,3 +238,4 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd beer entry supplied strength, cherries and aging details. A TapHunter search result showed 6.0% ABV, but its page failed to open; that conflicting figure was not accepted. No brewery-hosted page was found.
 - Catalog.beer 2026-10-14: [Catalog.beer: Krieky Koelschip](https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc) lists 6.3% ABV, style "Lambic: Kriek" (entry last modified 2026-09-25). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

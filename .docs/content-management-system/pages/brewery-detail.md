@@ -153,3 +153,133 @@ Where: the deep dive section at the bottom of the page.
 
 - `title`: Deep dive
 - `missing`: No deep dive yet.
+
+## `trend`
+
+Where: the ten year trend table under the medal chart.
+
+- `title`: Ten year trend
+- `note`: Each year says whether the brewery medaled. When it did not, the status says why there is nothing to count, including years before the brewery opened.
+- `year`: Year
+- `status`: Status
+- `medals`: Medals
+- `split`: Gold / silver / bronze
+- `caption`: Medals and status of {{brewery_name}} in the last ten years.
+
+## `chart`
+
+Where: the medals by year chart.
+
+- `aria`: Line chart of the medals {{brewery_name}} won each year, gold, silver, and bronze.
+- `series_total`: All medals
+
+## `tables`
+
+Where: the medals by category and medals by location tables.
+
+- `category_caption`: Medals of {{brewery_name}} by category.
+- `location_caption`: Medals of {{brewery_name}} by location credited.
+- `family_caption`: Medals of {{brewery_name}} by style family.
+- `history_caption`: Every Great American Beer Festival medal of {{brewery_name}} in view.
+- `other_caption`: Medals of {{brewery_name}} in other competitions.
+- `ibu`: IBU
+- `beer_profile`: Beer profile
+- `open_profile`: Full profile
+- `medals`: Medals
+
+## `hops`
+
+Where: the hops used section.
+
+- `caption`: Hops in the medal beers of {{brewery_name}}.
+
+## `farms`
+
+Where: the hop farms section, which keeps the two kinds of link apart.
+
+- `title`: Hop farms reached through these hops
+- `note`: A farm the brewery named is a direct statement in a beer profile. A farm that grows one of these hops is published as growing it, and it does not mean the beer used hops from that farm.
+- `named_label`: Brewery named this farm
+- `named_empty`: No beer profile of this brewery names a farm.
+- `named_caption`: Hop farms named by {{brewery_name}} for a hop in a beer profile.
+- `grown_label`: Grown by
+- `grown_empty`: No farm is published as growing a hop this brewery uses.
+- `grown_caption`: Hop farms published as growing a hop that {{brewery_name}} uses.
+- `farm`: Farm
+- `hops`: Hops
+
+## `beers`
+
+Where: the beer profile cards of the latest year.
+
+- `title`: {{year}} medal beers
+
+## `partial`
+
+Where: a brewery whose medals all fall in partial years, which the default view hides.
+
+- `title`: No medals in view.
+
+## `profile_extra`
+
+Where: the profile card, extra rows.
+
+- `kitchen`: Kitchen
+- `links`: Links
+- `link_instagram`: Instagram
+- `link_untappd`: Untappd
+- `link_beeradvocate`: BeerAdvocate
+- `links_checked`: Checked {{date}}
+- `current_beers`: Current beers
+- `current_beers_line`: As of {{date}}, from {{source}}.
+- `current_beer_detail`: ({{detail}})
+- `abv_suffix`: {{abv}}% ABV
+- `parent_type`: ({{type}})
+- `location_none`: Not defined
+
+## `estimates`
+
+Where: the text inside every estimate tooltip. Tokens in braces are filled from the brewery's figures.
+
+- `mark_label`: Estimate. How the {{metric}} estimate was made
+- `foot`: Estimate, not reported.
+- `metric_barrels`: barrels per year
+- `metric_arr`: annual revenue (ARR)
+- `metric_gross_margin`: gross margin
+- `metric_ebitda`: EBITDA
+- `metric_per_barrel`: revenue per barrel
+- `metric_per_location`: revenue per location
+- `metric_per_employee`: revenue per employee
+- `type_phrase_known`: its brewery type ({{type}})
+- `type_phrase_assumed`: an assumed generic type, because the brewery type is not defined
+- `barrels_reported`: Reported by the brewery: {{barrels}} barrels.
+- `barrels_reported_year`: Reported by the brewery for {{year}}: {{barrels}} barrels.
+- `barrels_bracket`: The midpoint of the Brewery of the Year size bracket it competed in ({{min}} to {{max}} barrels): {{barrels}} barrels.
+- `barrels_bracket_open`: 1.25 times the floor of the open Brewery of the Year size bracket it competed in (over {{floor}} barrels): {{barrels}} barrels.
+- `barrels_researched`: A researched estimate from published reporting on this brewery ({{confidence}}): {{barrels}} barrels.
+- `barrels_typical`: No production figure is published, so this uses the typical volume for {{type_phrase}}: {{per_type}} barrels.
+- `barrels_locations`: Each location after the first adds {{extra}} barrels, and this brewery has {{more}} more.
+- `barrels_total`: Estimated total: {{barrels}} barrels.
+- `arr_profile`: A researched revenue estimate for this brewery of {{revenue}}, with a range of {{low}} to {{high}}.
+- `arr_computed`: {{barrels}} barrels times {{per_barrel}} per barrel, the benchmark price for {{type_phrase}}, gives {{total}} a year. The range shown is {{low_multiplier}} to {{high_multiplier}} times that.
+- `arr_food`: Kitchen revenue adds {{food_total}}: {{per_location}} multiplied by {{count}} for the number of locations.
+- `gross_margin`: Annual revenue ({{arr}}) times a {{margin}} gross margin, typical for {{type_phrase}}, gives {{profit}} of gross profit.
+- `ebitda`: Annual revenue ({{arr}}) times a {{margin}} EBITDA margin, typical for {{type_phrase}}, gives {{ebitda}}. The range uses {{low_margin}} to {{high_margin}}, typical for {{channel_phrase}}.
+- `per_barrel`: Annual revenue ({{arr}}) divided by {{barrels}} barrels.
+- `per_location`: Annual revenue ({{arr}}) divided by the number of locations ({{count}}).
+- `per_employee`: Annual revenue ({{arr}}) divided by the number of employees ({{employees}}).
+- `channel_taproom`: breweries that sell in their own taproom
+- `channel_self_distribution`: self distributed breweries
+- `channel_distributor`: breweries that sell through a distributor
+- `channel_default`: similar breweries
+- `inputs`: Inputs: {{items}}.
+- `input_item`: {{label}} {{value}}
+- `input_barrels`: Barrels
+- `input_type`: Brewery type
+- `input_locations`: Locations
+- `input_kitchen`: Kitchen
+- `input_distribution`: Distribution
+- `input_employees`: Employees
+- `value_barrels`: {{barrels}} ({{basis}})
+- `value_type_assumed`: Not defined, so an assumed generic type is used
+- `value_kitchen_unknown`: Not defined, so no food revenue is added

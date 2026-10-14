@@ -33,71 +33,85 @@ gaps:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hops"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://www.peticolasbrewing.com/"
       - "https://www.peticolasbrewing.com/beer/room-for-more"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 22
@@ -197,7 +211,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [peticolasbrewing.com](https://www.peticolasbrewing.com/), [peticolasbrewing.com](https://www.peticolasbrewing.com/beer/room-for-more), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [peticolasbrewing.com](https://www.peticolasbrewing.com/), [peticolasbrewing.com](https://www.peticolasbrewing.com/beer/room-for-more), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +220,4 @@ No brewery links have been checked yet.
 - The guideline used for context is Belgian-Style Dubbel, which matches the brewery's own style label; the competition category name Belgian-Style Abbey Ale does not appear in the guideline page.
 - The web search budget ran out before Untappd or press could be searched for ingredients; no 2026 medal announcement was found on the brewery home page.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: no new source was found.

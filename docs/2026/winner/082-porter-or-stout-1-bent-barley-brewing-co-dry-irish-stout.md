@@ -239,3 +239,4 @@ Links checked 2026-10-14: [Website](https://www.bentbarley.com/).
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery's Untappd taproom menu names Dry Irish Stout and provides strength and bitterness. No ingredient list or dedicated brewery beer page was found.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Dry Irish Stout description.

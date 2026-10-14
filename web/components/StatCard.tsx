@@ -19,7 +19,7 @@ export function Field({ label, children, note, size = 'figure' }: { label: strin
   const s = useSettings('stat-card');
   const card = cardSurface(s['Card style']);
   return (
-    <div className={`flex flex-col gap-1 px-4 py-3 ${card.className}`} style={card.style}>
+    <div className={`flex flex-col gap-1 px-4 py-3 ${card.className}`} style={card.style} data-component="stat-card">
       {card.elevated ? <md-elevation /> : null}
       <dt className={`text-on-surface-variant ${typeOf(s['Label style'] ?? 'label medium')}`} style={labelFace(label)}>{label}</dt>
       <dd className={size === 'figure' ? `tabular-nums text-on-surface ${typeOf(s['Figure style'] ?? 'headline small')}` : 'type-title-medium text-on-surface'}>{children}</dd>

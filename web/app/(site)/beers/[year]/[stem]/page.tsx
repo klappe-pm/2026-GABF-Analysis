@@ -9,6 +9,7 @@ import { fill, group, lookup, t } from '@/lib/content';
 import { fmt } from '@/lib/data';
 import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
+import { HopProfile } from '../../../hops/profile';
 import { type BeerRecord, beer as loadBeer, staticParams } from '@/lib/site-data';
 
 type Params = { year: string; stem: string };
@@ -86,6 +87,7 @@ export default async function BeerPage({ params }: { params: Promise<Params> }) 
           {links.map((l) => <md-outlined-button key={l.href} href={l.href}>{l.text}</md-outlined-button>)}
         </p>
       ) : null}
+      <HopProfile stem={b.stem} />
       <section aria-labelledby="notes-title" className="flex min-w-0 flex-col gap-4">
         <h2 id="notes-title" className="type-headline-small text-on-surface">{copy('notes.title')}</h2>
         <div className="prose min-w-0" dangerouslySetInnerHTML={{ __html: b.notesHtml }} />

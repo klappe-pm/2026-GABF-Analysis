@@ -31,16 +31,6 @@ description:
 entries: 41
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://barrelmountainbrewing.com/beer"
-      - "https://www.barrelmountainbrewing.com/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://barrelmountainbrewing.com/beer"
-      - "https://www.barrelmountainbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://barrelmountainbrewing.com/beer"
@@ -111,9 +101,13 @@ sources:
   - "https://barrelmountainbrewing.com/beer"
   - "https://www.barrelmountainbrewing.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Deep black (no SRM number published)"
+  source: "https://barrelmountainbrewing.com/beer"
 style: "Stout"
-tasting-notes: null
+tasting-notes:
+  text: "Deep black ale with aromas of dried fruit and a hint of smoke. A raisin like sweetness is followed by a bittersweet chocolate finish."
+  source: "https://barrelmountainbrewing.com/beer"
 water: null
 yeast: []
 ---
@@ -149,7 +143,9 @@ Source: [Barrel Mountain: our beer](https://barrelmountainbrewing.com/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Deep black ale with aromas of dried fruit and a hint of smoke. A raisin like sweetness is followed by a bittersweet chocolate finish.
+
+Source: [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer)
 
 ## ingredients
 
@@ -165,7 +161,7 @@ The brewery publishes a full grist and its single hop, all listed in the specs t
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Deep black (no SRM number published) | [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -202,7 +198,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer), [barrelmountainbrewing.com](https://www.barrelmountainbrewing.com/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer), [barrelmountainbrewing.com](https://www.barrelmountainbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -210,3 +206,4 @@ No brewery links have been checked yet.
 - The domain barrelmountain.com redirects to a domain marketplace and is not the brewery.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives tasting words, 6.6% ABV, 35 IBU, its malts and Willamette hops.

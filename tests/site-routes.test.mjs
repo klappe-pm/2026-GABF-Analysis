@@ -13,11 +13,9 @@ const PENDING = [
   // retired: the explorer is replaced by /analysis/explore/ and a redirect, both from the analysis lane
   '/explorer/',
   // breweries lane
-  '/breweries/', '/breweries/<brewery>/', '/first-time-medalists/2026/',
+  '/breweries/<brewery>/', '/first-time-medalists/2026/',
   // categories and analysis lane
   '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
-  // hops lane
-  '/hops/', '/hops/<variety>/', '/hop-farms/', '/hop-farms/<farm>/',
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).

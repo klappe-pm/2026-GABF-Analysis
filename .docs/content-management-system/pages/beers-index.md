@@ -20,6 +20,7 @@ Where: links under the lede.
 
 Where: the summary tiles.
 
+- `label`: Summary of the medals in view
 - `medals`: Medals in view
 - `medals_note`: {{count}} categories
 - `abv`: ABV published
