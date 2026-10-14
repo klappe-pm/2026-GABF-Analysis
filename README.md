@@ -47,7 +47,7 @@ That fetches the PDF (or pass `--url` with the link from the Brewers Association
 | dashboard | panels |
 |---|---|
 | Overview (home) | stat tiles, medals by year (click a column), US map (click a state), medals by style family, top breweries by points, results table, CSV download |
-| Geography | US map, Census regions and divisions, medals per million residents |
+| Geography | US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP by medal year, demographic controls by state and district |
 | Categories | total entrants by category with special categories marked, classic versus special by year, category size versus medal spread |
 | Breweries | pick any brewery: ten-year trend with did-not-exist and pending years, medals by category, medals by location credited |
 | Ownership and economics | ownership share, parent companies, estimated revenue, and a financial table (barrels, ARR, gross margin, EBITDA range, distribution, ownership) |
@@ -80,6 +80,8 @@ One filter row scopes every panel and the table on a page, filters live in the U
 | `node scripts/import-ceremony-transcript.mjs --year 2026 --input captions.vtt [--promote]` | draft rows from the awards ceremony captions |
 | `npm run styles -- --input guidelines.pdf --year 2026` | refresh category ABV, IBU, and SRM ranges from the Brewers Association style guidelines |
 | `npm run enrich [-- --all | --offline]` | Open Brewery DB lookups into data/enriched/breweries.json |
+| `node scripts/build-fed-districts.mjs [--refresh]` | Federal Reserve districts, split state county lists, and medal city counties into data/reference/ |
+| `node scripts/fetch-state-indicators.mjs [--refresh]` | Census population, BEA GDP, ACS, urban share, PIAAC literacy, and NCHS life expectancy into data/reference/state-indicators.csv and district-indicators.csv |
 | `npm run build` | render dist/ (also regenerates the US map GeoJSON if missing) |
 | `npm run build:standalone` | regenerate gabf-dashboard.html, the single-file dashboard |
 | `npm run serve` | preview dist/ at http://localhost:8080/ |

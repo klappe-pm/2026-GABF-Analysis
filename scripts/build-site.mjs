@@ -14,6 +14,7 @@ import { ABV_BANDS } from './lib/style-families.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { compact, countBy, esc, figure, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from '../site/assets/charts.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stackedColumnsOption } from '../site/assets/chart-options.mjs';
+import { medalRates } from '../site/assets/rates.mjs';
 
 const require = createRequire(import.meta.url);
 const SITE_TITLE = 'GABF Analysis';
@@ -31,7 +32,7 @@ function write(relPath, html) {
 
 const DASHBOARDS = [
   ['', 'Overview', 'Medals by year, state, style family, and brewery with every filter.'],
-  ['dashboards/geography/', 'Geography', 'US map, Census regions and divisions, medals per million residents.'],
+  ['dashboards/geography/', 'Geography', 'US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per real GDP, demographic controls.'],
   ['dashboards/categories/', 'Categories', 'Entrants by category, classic versus special categories, category size versus medal spread.'],
   ['dashboards/breweries/', 'Breweries', 'Pick a brewery: medals by year, by category, and by location.'],
   ['dashboards/economics/', 'Ownership and economics', 'Ownership share, parents, estimated revenue, ARR, margins, distribution.'],
@@ -103,7 +104,31 @@ function medalTable(rows, { depth, showYear = true, showBrewery = false, showCom
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft'];
+
+// Indicator tables trimmed for the browser: { state: { CA: { population: { 2024: n } } }, district: {...}, units }.
+export function compactIndicators(ds) {
+  const trim = (idx) => Object.fromEntries(Object.entries(idx).map(([k, inds]) => [k, Object.fromEntries(Object.entries(inds).map(([ind, years]) => [ind, Object.fromEntries(Object.entries(years).map(([y, v]) => [y, v.value]))]))]));
+  const units = {};
+  for (const idx of [ds.stateIndicators, ds.districtIndicators]) for (const inds of Object.values(idx)) for (const [ind, years] of Object.entries(inds)) units[ind] ??= Object.values(years)[0]?.unit ?? '';
+  return { state: trim(ds.stateIndicators), district: trim(ds.districtIndicators), units };
+}
+
+// Population series for a group of states (Census region or division), summed per year.
+function groupIndicators(ds, key) {
+  const out = {};
+  for (const s of ds.states) {
+    const g = s[key];
+    const series = ds.stateIndicators[s.state] ?? {};
+    for (const ind of ['population', 'gdp_real']) {
+      for (const [y, v] of Object.entries(series[ind] ?? {})) {
+        const target = ((out[g] ??= {})[ind] ??= {});
+        target[y] = (target[y] ?? 0) + v.value;
+      }
+    }
+  }
+  return out;
+}
 
 // The data every dashboard reads: decorated results, meta (years, coverage, states, lookups),
 // and per-brewery summaries. Shared by the multi-page site (written as JSON files) and the
@@ -116,6 +141,8 @@ export function buildPayload(ds, cats) {
     latest_complete: ds.latestComplete,
     summary: ds.summary,
     states: ds.states.map((s) => ({ state: s.state, name: s.name, region: s.region, division: s.division, population_2020: Number(s.population_2020) })),
+    fed_districts: ds.fedDistricts.map((f) => ({ state: f.state, district: Number(f.district_number), name: f.district_name, split: f.split === 'yes', secondary: f.secondary_districts, approximation: f.verified !== 'yes' })),
+    indicators: compactIndicators(ds),
     abv_bands: ABV_BANDS,
     brewery_types: Object.fromEntries(ds.breweries.map((b) => [b.key, b.brewery_type])),
     ownership: Object.fromEntries(ds.breweries.filter((b) => b.ownership).map((b) => [b.key, { ownership_type: b.ownership.ownership_type, parent: b.ownership.parent }])),
@@ -161,8 +188,8 @@ function dashboardPages(ds) {
   const overview = dashboardBody(ds, { href: '', r: './', intro: `<h1>Great American Beer Festival results dashboards</h1><p class="lede">Every medal from the official winners lists with linked filters: year, medal, classic or special category, style family, category, region, state, brewery type, ownership, distribution, ABV band, and search. Every panel and the table read the same slice, panels respond to clicks, and each chart saves as a PNG from its toolbox.</p>`, panels: [['medals-by-year'], ['map'], ['by-family'], ['top-breweries']], extra: '<div id="stats" class="stats"></div>' });
   write('index.html', layout({ title: 'Dashboards', description: 'Interactive Great American Beer Festival medal dashboards.', body: `${overview}<h2>results</h2><div id="table"></div><h2>featured-deep-dives</h2><ul class="list-plain">${featured.map((b) => `<li><a href="breweries/${b.slug}/">${esc(b.name)}</a> <span class="muted small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${b.medals.length} GABF medals in the loaded data</span></li>`).join('')}</ul>`, depth: 0, active: 'Dashboards', scripts: '<script type="module" src="assets/dashboards.js"></script>' }));
 
-  const geo = dashboardBody(ds, { href: 'dashboards/geography/', r: '../../', intro: '<h1>geography</h1><p class="lede">Where the medals go: the US map, Census regions and divisions, and medals per million residents. Click a state or region to focus the other panels.</p>', panels: [['map', true], ['by-region'], ['by-division'], ['per-capita', true]], extra: '<div id="stats" class="stats"></div>' });
-  write('dashboards/geography/index.html', layout({ title: 'Geography dashboard', description: 'GABF medals by state, region, and per capita.', body: geo, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
+  const geo = dashboardBody(ds, { href: 'dashboards/geography/', r: '../../', intro: '<h1>geography</h1><p class="lede">Where the medals go: the US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP using each medal year\'s population and GDP, and the demographic controls side by side. Click a state, region, or district to focus the other panels.</p>', panels: [['map', true], ['by-region'], ['by-division'], ['by-fed-district'], ['district-rates'], ['per-capita', true], ['per-gdp', true]], extra: '<div id="stats" class="stats"></div>' });
+  write('dashboards/geography/index.html', layout({ title: 'Geography dashboard', description: 'GABF medals by state, region, Federal Reserve district, per capita, and per GDP.', body: `${geo}<h2>controls-by-state-and-district</h2><div id="controls-table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
 
   const cat = dashboardBody(ds, { href: 'dashboards/categories/', r: '../../', intro: '<h1>categories</h1><p class="lede">Total entrants by category from the official category headers, with special categories (added ingredient, process, or catch-all) marked, the classic versus special split by year, and category size against how many breweries medal.</p>', panels: [['entrants', true], ['special-share'], ['entries-vs-breweries']], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/categories/index.html', layout({ title: 'Categories dashboard', description: 'GABF entrants by category and special categories.', body: `${cat}<h2>results</h2><div id="table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
@@ -431,27 +458,30 @@ ${barsFigure('family-medals', 'Medals by style family', families, { color: 'var(
 }
 
 function byState(ds) {
+  const ind = compactIndicators(ds).state;
+  const rates = medalRates(ds.results, (x) => x.state, ind);
   const rows = ds.states.map((s) => {
     const medals = ds.results.filter((x) => x.state === s.state);
-    const pop = Number(s.population_2020) || 0;
-    return { ...s, medals: medals.length, latest: medals.filter((x) => x.year === ds.latestComplete).length, breweries: new Set(medals.map((m) => m.brewery_key)).size, gold: medals.filter((m) => m.medal === 'Gold').length, per_million: pop ? (medals.length / pop) * 1e6 : 0 };
+    const rate = rates.get(s.state);
+    return { ...s, medals: medals.length, latest: medals.filter((x) => x.year === ds.latestComplete).length, breweries: new Set(medals.map((m) => m.brewery_key)).size, gold: medals.filter((m) => m.medal === 'Gold').length, per_million: rate?.per_million ?? 0, per_100b: rate?.per_100b_gdp ?? 0, pop_latest: ind[s.state]?.population?.[ds.latestComplete] ?? null };
   }).filter((s) => s.medals > 0).sort((a, b) => b.medals - a.medals);
   const mapData = ds.states.map((s) => ({ name: s.name, value: rows.find((x) => x.state === s.state)?.medals ?? 0 }));
   const perCap = [...rows].sort((a, b) => b.per_million - a.per_million).slice(0, 20).map((s) => ({ label: s.name, value: Number(s.per_million.toFixed(2)) }));
   const body = `
-<p class="lede">Medals by state across all loaded years, with a population-adjusted rate (medals per million residents, 2020 Census). The geography dashboard adds filters and click-to-focus.</p>
+<p class="lede">Medals by state across all loaded years, with population and GDP adjusted rates: each medal counts against its own year's Census population estimate and BEA real GDP (2026 medals use 2025, the latest published year). The geography dashboard adds Federal Reserve districts, demographic controls, filters, and click-to-focus.</p>
 ${figure({ id: 'state-map', title: 'Medals by state', subtitle: 'all loaded years', height: 460, option: mapOption({ data: mapData, saveName: 'medals-by-state-map' }), table: tableHtml([{ key: 'name', label: 'State' }, { key: 'value', label: 'Medals', numeric: true }], mapData.filter((d) => d.value).sort((a, b) => b.value - a.value), { className: 'data-table' }) })}
 <div class="grid two" style="margin-top:16px">
 ${barsFigure('state-medals', 'Medals by state', rows.slice(0, 20).map((s) => ({ label: s.name, value: s.medals, href: `../../#state=${s.state}` })), { subtitle: 'top 20' })}
-${barsFigure('state-per-capita', 'Medals per million residents', perCap, { subtitle: 'top 20, all loaded years', color: 'var(--series-3)', valueName: 'Per million' })}
+${barsFigure('state-per-capita', 'Medals per million residents', perCap, { subtitle: 'top 20, all loaded years, annual population estimates', color: 'var(--series-3)', valueName: 'Per million' })}
 </div>
 <h2>all-states</h2>
-<div class="table-wrap">${tableHtml([{ key: 'name', label: 'State', render: (s) => `<a href="../../#state=${s.state}">${esc(s.name)}</a>` }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'latest', label: `${ds.latestComplete}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'population_2020', label: 'Population 2020', numeric: true, render: (s) => fmt(s.population_2020) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }], rows)}</div>`;
+<div class="table-wrap">${tableHtml([{ key: 'name', label: 'State', render: (s) => `<a href="../../#state=${s.state}">${esc(s.name)}</a>` }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'latest', label: `${ds.latestComplete}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'pop_latest', label: `Population ${ds.latestComplete}`, numeric: true, render: (s) => fmt(s.pop_latest) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }, { key: 'per_100b', label: 'Per $100B real GDP', numeric: true, render: (s) => s.per_100b.toFixed(2) }], rows)}</div>`;
   reportLayout(ds, 'by-state', 'By state', body);
 }
 
 function byRegion(ds) {
   const roll = (key) => {
+    const rates = medalRates(ds.results, (x) => x[key], groupIndicators(ds, key));
     const m = new Map();
     for (const x of ds.results) {
       const k = x[key] || '(unknown)';
@@ -460,8 +490,7 @@ function byRegion(ds) {
       m.set(k, cur);
     }
     for (const cur of m.values()) {
-      cur.pop = ds.states.filter((s) => s[key] === cur.name).reduce((sum, s) => sum + (Number(s.population_2020) || 0), 0);
-      cur.per_million = cur.pop ? (cur.medals / cur.pop) * 1e6 : 0;
+      cur.per_million = rates.get(cur.name)?.per_million ?? 0;
       cur.breweries = cur.breweries.size; cur.states = cur.states.size;
     }
     return [...m.values()].sort((a, b) => b.medals - a.medals);
@@ -470,7 +499,7 @@ function byRegion(ds) {
   const divisions = roll('division');
   const cols = [{ key: 'name', label: 'Name' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'gold', label: 'Gold', numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'states', label: 'States', numeric: true }, { key: 'per_million', label: 'Per million', numeric: true, render: (x) => x.per_million.toFixed(2) }];
   const body = `
-<p class="lede">Census regions (Northeast, Midwest, South, West) and their divisions, across all loaded years.</p>
+<p class="lede">Census regions (Northeast, Midwest, South, West) and their divisions, across all loaded years. Per million uses each medal year's Census population estimate.</p>
 <div class="grid two">
 ${figure({ id: 'region-medals', title: 'Medals by region', height: 220, option: barsHOption({ items: regions.map((x) => ({ label: x.name, value: x.medals })), saveName: 'medals-by-region' }), table: tableHtml(cols, regions, { className: 'data-table' }) })}
 ${figure({ id: 'division-medals', title: 'Medals by division', height: Math.max(220, 36 * divisions.length + 60), option: barsHOption({ items: divisions.map((x) => ({ label: x.name, value: x.medals })), color: 'var(--series-3)', saveName: 'medals-by-division' }), table: tableHtml(cols, divisions, { className: 'data-table' }) })}
@@ -585,7 +614,8 @@ export function aboutHtml(ds) {
 <li>Brewery locations, coordinates, type, and websites: <a href="https://www.openbrewerydb.org">Open Brewery DB</a> (free, open) plus curated overrides. The repository also configures the unofficial Open Brewery DB MCP server for agent lookups.</li>
 <li>Style definitions and ABV, IBU, and SRM ranges: Brewers Association Beer Style Guidelines, imported with scripts/import-style-guidelines.mjs. Special categories are flagged by rule and per category in data/reference/categories.csv.</li>
 <li>Ownership, investors, and distributors: curated from public announcements (company releases, Brewbound, trade press, state license lookups). Each row carries a verified flag.</li>
-<li>Demographics: 2020 Census resident population by state and Census regions and divisions.</li>
+<li>Demographics and denominators: Census Bureau annual population estimates (July 1, Vintage 2020 for 2018 and 2019, Vintage 2025 for 2020 to 2025; 2026 medals use 2025), BEA real GDP in chained 2017 dollars and nominal GDP by state (SAGDP1) and county (CAGDP1), ACS 2024 1-year estimates (age, race and Hispanic origin, education, median household income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy estimates (pooled 2012, 2014, and 2017), and NCHS state life expectancy for 2022. Census regions and divisions come from data/reference/states.csv.</li>
+<li>Federal Reserve districts: the Board of Governors' district descriptions and the Reserve Banks' county lists (St. Louis, Minneapolis, Dallas, Philadelphia), with counts checked against Cleveland Fed and FRASER figures. Medals in split states are assigned by the medal city's county from the Census place and county subdivision files. West Virginia has no published county list and is assigned whole to the Richmond district as an approximation. District GDP for split states is apportioned by county GDP shares (E).</li>
 <li>Competition totals: Brewers Association annual releases and the day-of coverage of each announcement.</li>
 </ul>
 <h2 id="estimates">estimates</h2>

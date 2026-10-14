@@ -1,0 +1,89 @@
+---
+domain: "beer"
+category: "gabf-winner"
+sub-category: "2026"
+topics:
+  - "gabf"
+  - "scotch-ale"
+types:
+  - "beer-profile"
+date-created: 2026-10-13
+date-revised: 2026-10-13
+status: DONE
+aliases: []
+tags:
+  - "gold"
+  - "nh"
+abv: 8.3
+adjuncts: []
+beer: "Wee Heavy"
+beer-url: null
+brewery: "Northwoods Brewing Co."
+brewery-city: "Northwood"
+brewery-state: "NH"
+brewery-url: null
+category-name: "British Strong Ale or Aged Beer"
+category-number: 87
+entries: 40
+hops: []
+ibu: null
+malts: []
+medal: "Gold"
+place: 1
+sources:
+  - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
+  - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+style: "Scotch Ale / Wee Heavy"
+yeast: []
+---
+
+# 087-british-strong-ale-or-aged-beer-1-northwoods-brewing-co-wee-heavy
+
+Wee Heavy is a strong Scottish style ale from Northwoods Brewing Co. in Northwood, New Hampshire.
+
+## award
+
+| Category | Medal | Entries | Brewery | Location |
+|---|---|---|---|---|
+| 87, British Strong Ale or Aged Beer | Gold (1st place) | 40 | Northwoods Brewing Co. | Northwood, NH |
+
+## specs
+
+| Field | Value | Source |
+|---|---|---|
+| Style | Scotch Ale / Wee Heavy | [Untappd: Northwoods Wee Heavy](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582) |
+| ABV | 8.3% | [Untappd: Northwoods Wee Heavy](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582) |
+| IBU | not published | none found |
+| Hops | not published | none found |
+| Malts and grains | not published | none found |
+| Yeast | not published | none found |
+| Adjuncts, fruit, spices | not published | none found |
+| Other | not published | none found |
+
+## brewery-description
+
+> A strong Scottish-style ale.
+
+Source: [Northwoods: description on Untappd](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582)
+
+## ingredients
+
+No ingredients are named in the [beer description](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582); its brown bread, molasses, biscuit and cherry references are tasting notes.
+
+## style-context
+
+As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describe Scotch Ale or Wee Heavy as a strong, very malty ale with dominant sweet malt and often caramel character, 6.6 to 8.5 percent ABV and 25 to 35 IBU, and define Aged Beer as any beer aged for over one year. The published strength fits the Scotch Ale range; bitterness remains unverified.
+
+## links
+
+- [Untappd: Northwoods Wee Heavy](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582)
+- [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## research-notes
+
+- Field pass 2026-10-13: Targeted brewery-domain and menu searches found no IBU, hop names or qualifying brewery beer URL beyond the previous research.
+- One guessed brewery domain returned an empty page and another did not resolve, so no brewery site was confirmed and brewery-url is null.
+- The session's web search budget ran out before Untappd or press for this beer could be searched.
+- No 2026 medal announcement was found.
+- Researched 2026-10-13.
+- Second pass 2026-10-13: The exact Northwoods Untappd entry supplied strength and style. No IBU, ingredient list or brewery-hosted beer page was found.

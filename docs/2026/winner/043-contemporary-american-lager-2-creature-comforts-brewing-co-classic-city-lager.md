@@ -1,0 +1,93 @@
+---
+domain: beer
+category: gabf-winner
+sub-category: "2026"
+topics:
+  - "gabf"
+  - "lager"
+types:
+  - "beer-profile"
+date-created: 2026-10-13
+date-revised: 2026-10-13
+status: DONE
+aliases: []
+tags:
+  - "ga"
+  - "silver"
+abv: 4.2
+adjuncts: []
+beer: "Classic City Lager"
+beer-url: "https://creaturecomforts.co/beers/classic-city-lager/"
+brewery: "Creature Comforts Brewing Co."
+brewery-city: "Athens"
+brewery-state: "GA"
+brewery-url: "https://creaturecomforts.co/"
+category-name: "Contemporary American Lager"
+category-number: 43
+entries: 46
+hops: []
+ibu: 20
+malts: []
+medal: "Silver"
+place: 2
+sources:
+  - "https://creaturecomforts.co/beer/"
+  - "https://creaturecomforts.co/beers/classic-city-lager/"
+  - "https://untappd.com/creaturecomforts/beer"
+  - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+style: "Lager"
+yeast: []
+---
+
+# 043-contemporary-american-lager-2-creature-comforts-brewing-co-classic-city-lager
+
+Classic City Lager is a clean, crisp, easy drinking year-round lager from Creature Comforts Brewing Co. of Athens, Georgia.
+
+## award
+
+| Category | Medal | Entries | Brewery | Location |
+|---|---|---|---|---|
+| 43, Contemporary American Lager | Silver (2nd place) | 46 | Creature Comforts Brewing Co. | Athens, GA |
+
+## specs
+
+| Field | Value | Source |
+|---|---|---|
+| Style | Lager | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
+| ABV | 4.2% | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
+| IBU | 20 | [Untappd: Creature Comforts beer list](https://untappd.com/creaturecomforts/beer) |
+| Hops | not published | none found |
+| Malts and grains | not published | none found |
+| Yeast | not published | none found |
+| Adjuncts, fruit, spices | not published | none found |
+| Other | Year-round | [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/) |
+
+## brewery-description
+
+> Classic City Lager, a clean, crisp, easy-drinking lager, has been voted America's best pilsner, winning a gold medal at the American Beer Festival in 2022 and 2024!
+
+Source: [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/)
+
+## ingredients
+
+Nothing beyond the specs table is published; neither the brewery page nor Untappd names hops, malts or yeast.
+
+## style-context
+
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Contemporary American-Style Lager describes a clean, crisp lager with more hop aroma and flavor than traditional American lager, at 4.1 to 5.1 percent ABV and 5 to 16 IBU. The 4.2% ABV fits; the Untappd figure of 20 IBU is above the range.
+
+## links
+
+- [Beer page on brewery site](https://creaturecomforts.co/beers/classic-city-lager/)
+- [Creature Comforts Brewing Co.](https://creaturecomforts.co/)
+- [Untappd: Creature Comforts beer list](https://untappd.com/creaturecomforts/beer)
+- [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## research-notes
+
+- Field pass 2026-10-13: Searches found no named hop varieties for Classic City Lager. Generic tasting notes and clone recipes are not accepted as recipe evidence.
+- The brewery page cites earlier GABF golds (2022 and 2024); the Untappd blurb names the 2024 gold as American Pilsener.
+- IBU comes only from the Untappd beer list; the brewery does not publish it.
+- A homebrew clone recipe naming hops was seen in search results but is not a brewery source and is not used.
+- No 2026 medal announcement from the brewery was found.
+- Researched 2026-10-13.

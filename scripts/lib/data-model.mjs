@@ -55,6 +55,11 @@ export function loadDataset({ root } = {}) {
 
   const states = readCsvIfExists(resolve(referenceDir, 'states.csv'));
   const stateByCode = Object.fromEntries(states.map((s) => [s.state, s]));
+  const fedDistricts = readCsvIfExists(resolve(referenceDir, 'fed-districts.csv'));
+  const medalCityCounties = readCsvIfExists(resolve(referenceDir, 'medal-city-counties.csv'));
+  const assignDistrict = districtAssigner(fedDistricts, medalCityCounties);
+  const stateIndicators = indexIndicators(readCsvIfExists(resolve(referenceDir, 'state-indicators.csv')), 'state');
+  const districtIndicators = indexIndicators(readCsvIfExists(resolve(referenceDir, 'district-indicators.csv')), 'district_number');
   const categories = readCsvIfExists(resolve(referenceDir, 'categories.csv'));
   const categoryByName = new Map(categories.map((c) => [c.category_name.toLowerCase(), c]));
   const ownership = readCsvIfExists(resolve(referenceDir, 'ownership.csv'));
@@ -87,6 +92,7 @@ export function loadDataset({ root } = {}) {
     const abvMid = cat && cat.abv_min && cat.abv_max ? (Number(cat.abv_min) + Number(cat.abv_max)) / 2 : null;
     const st = stateByCode[r.state] ?? {};
     const special = cat?.special ? cat.special === 'yes' : isSpecialCategory(r.category_name);
+    const fed = assignDistrict(r.state, r.city);
     return {
       ...r,
       year: Number(r.year),
@@ -104,6 +110,9 @@ export function loadDataset({ root } = {}) {
       region: st.region ?? '',
       division: st.division ?? '',
       state_name: st.name ?? r.state,
+      fed_district: fed.district,
+      fed_district_name: fed.name,
+      fed_district_method: fed.method,
       medal_rank: MEDAL_ORDER[r.medal] ?? 9,
       points: MEDAL_POINTS[r.medal] ?? 0,
       partial: /partial seed|transcript draft/i.test(r.notes ?? ''),
@@ -205,11 +214,54 @@ export function loadDataset({ root } = {}) {
   }
 
   return {
-    results, otherResults, states, stateByCode, categories, categoryByName, ownership, production, distributors, params,
+    results, otherResults, states, stateByCode, fedDistricts, medalCityCounties, stateIndicators, districtIndicators, categories, categoryByName, ownership, production, distributors, params,
     summary, awards, coverage, years: [...years].sort(), minYear, maxYear, latestComplete,
     breweries: [...breweries.values()].sort((a, b) => b.total_points - a.total_points || b.medals.length - a.medals.length || a.name.localeCompare(b.name)),
     profiles,
   };
+}
+
+// Federal Reserve district for a medal row. Whole states map directly; a split state uses the
+// medal city's county (data/reference/medal-city-counties.csv); a state without a primary county
+// list, or a city not resolved, falls back to the state's majority district and says so in
+// `method`. Codes outside the table (World Beer Cup countries) get an empty district.
+export function districtAssigner(fedDistricts, medalCityCounties) {
+  const byState = new Map(fedDistricts.map((f) => [f.state, f]));
+  const byCity = new Map(medalCityCounties.map((c) => [`${c.state}|${c.city}`, c]));
+  return (state, city) => {
+    const f = byState.get(state);
+    if (!f) return { district: null, name: '', method: '' };
+    const majority = { district: Number(f.district_number), name: f.district_name };
+    if (f.split !== 'yes') return { ...majority, method: 'state' };
+    if (f.verified !== 'yes') return { ...majority, method: 'approximation' };
+    const c = byCity.get(`${state}|${city}`);
+    if (c && c.district_number) {
+      const d = Number(c.district_number);
+      const name = fedDistricts.find((x) => Number(x.district_number) === d)?.district_name ?? '';
+      return { district: d, name, method: 'county' };
+    }
+    return { ...majority, method: 'approximation (city not resolved)' };
+  };
+}
+
+// Long indicator rows to key -> indicator -> year -> { value, unit, source, verified }.
+export function indexIndicators(rows, keyField) {
+  const out = {};
+  for (const r of rows) {
+    const k = String(r[keyField]);
+    ((out[k] ??= {})[r.indicator] ??= {})[Number(r.year)] = { value: Number(r.value), unit: r.unit, source: r.source, verified: r.verified };
+  }
+  return out;
+}
+
+// Value for a year, or the nearest published year (earlier preferred on a tie) when that year is
+// missing; returns { value, year } or null.
+export function indicatorFor(index, key, indicator, year) {
+  const series = index?.[String(key)]?.[indicator];
+  if (!series) return null;
+  if (series[year]) return { value: series[year].value, year };
+  const years = Object.keys(series).map(Number).sort((a, b) => Math.abs(a - year) - Math.abs(b - year) || a - b);
+  return years.length ? { value: series[years[0]].value, year: years[0] } : null;
 }
 
 function computeStreak(trend, latestComplete) {

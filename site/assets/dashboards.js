@@ -4,6 +4,7 @@
 // map, a year column, a category bar, or a brewery bar narrows or navigates.
 import { compact, countBy, esc, figure, statTile, tableHtml } from './charts.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
+import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
 
 const state = { rows: [], meta: null, breweries: [], categories: [], filters: {}, showAll: false };
 const base = window.GABF_BASE || './';
@@ -24,6 +25,7 @@ const FILTERS = [
   { id: 'category_name', label: 'Category', key: 'category_name' },
   { id: 'region', label: 'Region', key: 'region' },
   { id: 'state', label: 'State', key: 'state' },
+  { id: 'fed_district_name', label: 'Fed district', key: 'fed_district_name' },
   { id: 'brewery_type', label: 'Brewery type', key: 'brewery_type' },
   { id: 'ownership_type', label: 'Ownership', key: 'ownership_type' },
   { id: 'distribution_channel', label: 'Distribution', key: 'distribution_channel' },
@@ -145,10 +147,23 @@ const PANELS = {
     const items = countBy(rows, 'division').map(([label, value]) => ({ label, value }));
     return { option: barsHOption({ items, color: 'var(--series-3)', saveName: 'medals-by-division' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Division' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'per-capita': { title: 'Medals per million residents', subtitle: '2020 Census population', build(rows) {
-    const counts = countBy(rows, 'state');
-    const items = counts.map(([code, n]) => { const s = state.meta.states.find((x) => x.state === code); return { label: s?.name ?? code, value: s?.population_2020 ? Number(((n / s.population_2020) * 1e6).toFixed(2)) : 0 }; }).sort((a, b) => b.value - a.value).slice(0, 20);
-    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per million', saveName: 'medals-per-million' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'State' }, { key: 'value', label: 'Per million', numeric: true }], items, { className: 'data-table' }) };
+  'per-capita': { title: 'Medals per million residents by state', subtitle: "each medal against its year's Census population estimate; 2026 uses 2025", build(rows) {
+    const items = stateRateItems(rows, 'per_million');
+    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per million', saveName: 'medals-per-million' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per million', numeric: true }], items, { className: 'data-table' }) };
+  } },
+  'per-gdp': { title: 'Medals per $100 billion of real GDP by state', subtitle: "BEA real GDP (chained 2017 dollars) in each medal's year; 2026 uses 2025", build(rows) {
+    const items = stateRateItems(rows, 'per_100b_gdp');
+    return { option: barsHOption({ items, color: 'var(--series-2)', valueName: 'Per $100B', saveName: 'medals-per-gdp' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per $100B real GDP', numeric: true }], items, { className: 'data-table' }) };
+  } },
+  'by-fed-district': { title: 'Medals by Federal Reserve district', subtitle: 'split states assigned by the medal city county; click to focus a district', build(rows) {
+    const items = districtItems(rows).map((d) => ({ label: d.label, value: d.medals, name: d.name }));
+    const approx = rows.filter((r) => /approximation/.test(r.fed_district_method)).length;
+    return { option: barsHOption({ items, color: 'var(--series-1)', saveName: 'medals-by-fed-district' }), height: Math.max(220, 34 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('fed_district_name', it.name); }, note: approx ? `${approx} medal${approx === 1 ? '' : 's'} in view sit in West Virginia, which is assigned whole to the Richmond district as an approximation (no primary county list).` : '', table: tableHtml([{ key: 'label', label: 'District' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
+  } },
+  'district-rates': { title: 'Medals per million residents by Fed district', subtitle: 'district population from whole states plus split state counties, per medal year', build(rows) {
+    const list = districtItems(rows);
+    const items = list.map((d) => ({ label: d.label, value: Number(d.per_million.toFixed(2)), name: d.name, medals: d.medals, per_gdp: d.per_100b_gdp.toFixed(2) })).sort((a, b) => b.value - a.value);
+    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per million', saveName: 'fed-district-per-million' }), height: Math.max(220, 34 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('fed_district_name', it.name); }, note: 'Per $100B real GDP is in the table view; split state GDP is apportioned by county GDP shares (E).', table: tableHtml([{ key: 'label', label: 'District' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per million', numeric: true }, { key: 'per_gdp', label: 'Per $100B real GDP (E)', numeric: true }], items, { className: 'data-table' }) };
   } },
   entrants: { title: 'Entrants by category', subtitle: 'entries judged, most competitive first; special categories marked; click to focus', build(rows) {
     const m = new Map();
@@ -212,6 +227,46 @@ const PANELS = {
     return { option: lineOption({ labels, series: [{ name: 'Medals', data: s.map((x) => (x.medals ? Number(x.medals) : null)), color: SERIES_COLORS[1] }, { name: 'Winning breweries', data: s.map((x) => (x.winning_breweries ? Number(x.winning_breweries) : null)), color: SERIES_COLORS[2] }], saveName: 'medals-and-winners' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true }], s, { className: 'data-table' }) };
   } },
 };
+
+function stateRateItems(rows, field) {
+  const rates = medalRates(rows, (r) => r.state, state.meta.indicators?.state);
+  return [...rates.values()].map((x) => ({ code: x.key, label: state.meta.states.find((s) => s.state === x.key)?.name ?? x.key, medals: x.medals, value: Number(x[field].toFixed(2)) })).filter((x) => x.value > 0).sort((a, b) => b.value - a.value).slice(0, 20);
+}
+
+function districtItems(rows) {
+  const rates = medalRates(rows, (r) => r.fed_district, state.meta.indicators?.district);
+  const names = new Map(rows.filter((r) => r.fed_district).map((r) => [String(r.fed_district), r.fed_district_name]));
+  return [...rates.values()].map((x) => ({ ...x, name: names.get(x.key), label: `${x.key} ${names.get(x.key)}` })).sort((a, b) => Number(a.key) - Number(b.key));
+}
+
+// Side by side table: medals, medals per million, medals per $100B real GDP, and the controls,
+// for states or districts in view. Controls are cross sections (ACS 2024, Census 2020 urban,
+// PIAAC modeled literacy, NCHS 2022 life expectancy); districts carry GDP per capita only.
+function renderControlsTable(rows) {
+  const el = qs('controls-table');
+  if (!el) return;
+  const level = state.controlsLevel || 'state';
+  const ind = state.meta.indicators ?? { state: {}, district: {} };
+  let list;
+  if (level === 'district') {
+    list = districtItems(rows).map((d) => ({ name: d.label, medals: d.medals, per_million: d.per_million, per_gdp: d.per_100b_gdp, series: ind.district[d.key] ?? {} }));
+  } else {
+    const rates = medalRates(rows, (r) => r.state, ind.state);
+    list = [...rates.values()].map((x) => ({ name: state.meta.states.find((s) => s.state === x.key)?.name ?? x.key, code: x.key, medals: x.medals, per_million: x.per_million, per_gdp: x.per_100b_gdp, series: ind.state[x.key] ?? {} }));
+  }
+  list.sort((a, b) => b.per_million - a.per_million);
+  const fields = level === 'district' ? CONTROL_FIELDS.filter((f) => f.key === 'gdp_per_capita_real') : CONTROL_FIELDS;
+  const cols = [
+    { key: 'name', label: level === 'district' ? 'District' : 'State' },
+    { key: 'medals', label: 'Medals', numeric: true },
+    { key: 'per_million', label: 'Per million', numeric: true, render: (x) => x.per_million.toFixed(2) },
+    { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
+    ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
+  ];
+  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="state"${level === 'state' ? ' selected' : ''}>States</option><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are in docs/data-sources.md.</p>`;
+  qs('controls-level').addEventListener('change', (e) => { state.controlsLevel = e.target.value; renderControlsTable(applyFilters(state.rows)); });
+  wireSortable(el);
+}
 
 function currentBrewery() {
   const key = state.filters.brewery || state.defaultBrewery;
@@ -356,6 +411,7 @@ function render() {
   renderBreweryDetail();
   renderTable(rows);
   renderFinancialTable(rows);
+  renderControlsTable(rows);
 }
 
 // Inside a Claude artifact, page-initiated downloads are inert; the host offers a save prompt
@@ -366,7 +422,7 @@ async function hostedDownloads() {
 
 async function downloadCsv() {
   const rows = applyFilters(state.rows);
-  const cols = ['year', 'competition', 'category_number', 'category_name', 'category_type', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_location', 'city', 'state', 'region', 'style_family', 'abv_min', 'abv_max', 'abv', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel'];
+  const cols = ['year', 'competition', 'category_number', 'category_name', 'category_type', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_location', 'city', 'state', 'region', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel'];
   const escCsv = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
   const text = [cols.join(','), ...rows.map((r) => cols.map((c) => escCsv(r[c])).join(','))].join('\n');
   const filename = 'gabf-results-filtered.csv';
