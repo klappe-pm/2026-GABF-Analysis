@@ -49,10 +49,13 @@ test('the review build carries the widget, the source attributes, and the build 
   const dir = buildInto({ GABF_FEEDBACK: '1' });
   try {
     const page = readFileSync(join(dir, 'breweries/green-cheek-beer-co/index.html'), 'utf8');
-    for (const marker of REVIEW_MARKERS.filter((m) => m !== '/review/feedback')) assert.ok(page.includes(marker), `review page lacks ${marker}`);
+    for (const marker of ['feedback-widget', 'data-src=', 'gabf-review-build']) assert.ok(page.includes(marker), `review page lacks ${marker}`);
     assert.match(page, /<main data-src="scripts\/build-site\.mjs:\d+ breweryPage"/);
     const widget = readFileSync(join(dir, 'assets/review/feedback-widget.mjs'), 'utf8');
-    assert.ok(widget.includes('/review/feedback'));
+    for (const marker of ['/review/regions', 'gabf-review', 'gabf-control-plane', 'gfw-region']) assert.ok(widget.includes(marker), `the page picker lacks ${marker}`);
+    assert.ok(!widget.includes('gfw-fab'), 'the page picker has no floating Feedback button: the control plane owns the one entry point');
+    const css = readFileSync(join(dir, 'assets/review/feedback-widget.css'), 'utf8');
+    assert.ok(css.includes('.gfw-region') && css.includes('.gfw-pin'), 'the step marker and the numbered pins are drawn by distinct rules');
     assert.ok(widget.includes("LOCAL_HOSTS = new Set(['127.0.0.1', 'localhost'"), 'the widget must refuse to start off this machine');
     const explorer = readFileSync(join(dir, 'explorer/index.html'), 'utf8');
     assert.ok(explorer.includes('feedback-widget.mjs'));

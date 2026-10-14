@@ -31,9 +31,8 @@
 }
 
 /* Shell aliases: the engine's prototype page is styled with its own variable names. Each is
-   pointed at a site token above, or at a literal the site stylesheet itself uses (the system font
-   stack, the code font stack, 1px rules, 6px and 3px radii). Shadows and transitions are left
-   undefined because the site has none to publish. */
+   pointed at a site token above, or at a literal: the design system's font stack, 1px rules, and
+   6px and 3px radii. Shadows and transitions are left undefined because the site has none. */
 :root {
   --bg-primary: var(--page);
   --bg-surface: var(--card);
@@ -48,8 +47,8 @@
   --accent-purple: var(--series-7);
   --accent-teal: var(--series-3);
   --focus-ring: 2px solid var(--focus);
-  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-sans: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --border-width: 1px;
   --radius-md: 6px;
   --radius-sm: 3px;

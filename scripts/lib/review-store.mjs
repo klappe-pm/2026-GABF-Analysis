@@ -1,47 +1,38 @@
-// The feedback store and the tickets derived from it.
+// The feedback store: one Markdown file per ticket under .docs/feedback/<page-name>/, readable in
+// Obsidian. .docs/ is excluded from git on this machine, so tickets are local; CI has no .docs/
+// folder and every reader here treats its absence as an empty store.
 //
-// docs/design/design-feedback.jsonl is the record. It is append only and hash chained by the
-// agent-graph engine (design-feedback.mjs), whose check and list commands keep working on it. That
-// chain hashes only a few fields, so every record written here also carries a seal: a hash of the
-// whole record and the previous record's hash. An edit to any field, metadata included, breaks it.
+// A ticket's frontmatter holds its id, its status, the job, journey step and state the reviewer
+// was on, the route, the highlighted spots, the design system components and content keys it
+// concerns, its categories, and when it was created and last revised. The note is the body.
+// Every ticket is ACCEPTED the moment it is registered, and an edit keeps it ACCEPTED and moves
+// only its revised time.
 //
-// Nothing is edited or deleted. A clarification, a recategorisation, a split, a status change, or a
-// resolution is a new record that names the note it is about. Tickets under docs/work-items/ are
-// generated from the store, so the store stays the only source of truth.
-//
-// Pure functions here take the engine module as an argument, so tests can run without it.
+// Every string is scanned for secret shaped values before it is written. The scan is the engine's
+// (design-feedback.mjs sanitize), passed in so the tests run without the agent-graph checkout.
 
-import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { relative, resolve } from 'node:path';
+import { parse, stringify } from 'yaml';
+import { kebab } from './review-screens.mjs';
 
-export const FEEDBACK_PATH = 'docs/design/design-feedback.jsonl';
+export const FEEDBACK_DIR = '.docs/feedback';
 export const CATEGORIES_PATH = 'docs/design/feedback-categories.json';
-export const STATUSES = ['open', 'in-progress', 'done', 'declined'];
+export const ACCEPTED = 'ACCEPTED';
+export const STATUSES = [ACCEPTED, 'DONE', 'DECLINED'];
 
-function djb2(material) {
-  let h = 5381;
-  for (let i = 0; i < material.length; i++) h = ((h << 5) + h + material.charCodeAt(i)) | 0;
-  return (h >>> 0).toString(36);
-}
-function stable(value) {
-  if (Array.isArray(value)) return `[${value.map(stable).join(',')}]`;
-  if (value && typeof value === 'object') return `{${Object.keys(value).sort().map((k) => `${JSON.stringify(k)}:${stable(value[k])}`).join(',')}}`;
-  return JSON.stringify(value ?? null);
-}
-export function sealOf(prev, record) {
-  const { prev: _p, hash: _h, seal: _s, ...body } = record;
-  return djb2(`${prev}|${stable(body)}`);
-}
+export const feedbackDirOf = (root, env = process.env) => resolve(env.GABF_FEEDBACK_DIR || resolve(root, FEEDBACK_DIR));
 
-export function sealIssues(records) {
-  const issues = [];
-  let prev = 'genesis';
-  records.forEach((r, i) => {
-    if (!r.seal) issues.push(`feedback line ${i + 1}: no seal. Records are written through the review server or npm run tickets, which seal the whole record.`);
-    else if (r.seal !== sealOf(prev, r)) issues.push(`feedback line ${i + 1}: seal does not match. A field of this record was changed after it was written.`);
-    prev = r.hash;
-  });
-  return issues;
+const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
+export const alphabetized = (list) => [...list].sort((a, b) => collator.compare(a, b) || (a < b ? -1 : 1));
+
+export function loadCategories(root) {
+  return alphabetized(JSON.parse(readFileSync(resolve(root, CATEGORIES_PATH), 'utf8')).categories);
+}
+export function cleanCategories(list, allowed) {
+  const known = new Set(allowed);
+  const picked = [...new Set((Array.isArray(list) ? list : []).map(String))];
+  return { categories: alphabetized(picked.filter((c) => known.has(c))), unknown: picked.filter((c) => !known.has(c)) };
 }
 
 // Every string in a record is scanned before it is persisted, not only the note: an element's
@@ -61,94 +52,53 @@ export function sanitizeDeep(value, sanitize, found = new Set()) {
   return { value, redacted: found };
 }
 
-export const ticketId = (noteId) => `WI-${String(noteId).replace(/\D/g, '').padStart(3, '0')}`;
-export const noteIdOf = (ref) => (/^WI-\d+$/i.test(ref) ? `fb-${ref.replace(/\D/g, '').padStart(3, '0')}` : ref);
+// ---------- reading ----------
 
-export function loadCategories(root) {
-  return JSON.parse(readFileSync(resolve(root, CATEGORIES_PATH), 'utf8')).categories;
-}
-export function cleanCategories(list, allowed) {
-  const known = new Set(allowed);
-  const picked = [...new Set((Array.isArray(list) ? list : []).map(String))];
-  return { categories: picked.filter((c) => known.has(c)), unknown: picked.filter((c) => !known.has(c)) };
+const FENCE = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/;
+
+export function parseTicket(text) {
+  const m = FENCE.exec(text);
+  if (!m) return null;
+  return { data: parse(m[1]) ?? {}, body: text.slice(m[0].length).replace(/^\r?\n/, '') };
 }
 
-// Append one record through the engine's chain, sealed over its whole body.
-export function appendSealed(fb, root, record) {
-  const existing = fb.readFeedback(root);
-  const prev = existing.length ? existing[existing.length - 1].hash : 'genesis';
-  const clean = sanitizeDeep(record, fb.sanitize);
-  const body = { ...clean.value, ...(clean.redacted.size ? { redacted: [...clean.redacted] } : {}) };
-  return fb.append({ ...body, seal: sealOf(prev, body) }, root);
+const KEY_ORDER = ['id', 'status', 'title', 'page', 'job', 'job-title', 'step', 'state', 'state-path', 'route', 'hash', 'served', 'spots', 'components', 'content-keys', 'content-edits', 'categories', 'device', 'viewport', 'build', 'legacy-id', 'redacted', 'created', 'revised'];
+const ordered = (data) => {
+  const out = {};
+  for (const k of KEY_ORDER) if (data[k] !== undefined) out[k] = data[k];
+  for (const k of Object.keys(data).sort()) if (!(k in out)) out[k] = data[k];
+  return out;
+};
+
+export function renderTicket(data, body) {
+  return `---\n${stringify(ordered(data), { lineWidth: 0 }).trimEnd()}\n---\n\n${body.trim()}\n`;
 }
 
-export function addNote(fb, root, input, context = {}) {
-  const records = fb.readFeedback(root);
-  const id = fb.nextId(records);
-  const text = String(input.text ?? '').trim();
-  if (!text) throw new Error('feedback needs text');
-  const { categories, unknown } = cleanCategories(input.categories, loadCategories(root));
-  const record = {
-    kind: 'note',
-    id,
-    at: new Date().toISOString(),
-    screen: context.screen ?? input.screen ?? null,
-    surface: context.surface ?? input.surface ?? null,
-    path: context.path ?? input.path ?? null,
-    text,
-    ticket: ticketId(id),
-    mode: input.mode === 'element' ? 'element' : 'page',
-    categories,
-    ...(unknown.length ? { categories_unknown: unknown } : {}),
-    ...(input.split_from ? { split_from: input.split_from } : {}),
-    ...(input.setup_test ? { setup_test: true } : {}),
-    page: input.page ?? null,
-    filters: input.filters ?? null,
-    viewport: input.viewport ?? null,
-    device: input.device ?? null,
-    theme: input.theme ?? null,
-    build: input.build ?? null,
-    target: input.mode === 'element' ? input.target ?? null : null,
-    code: input.code ?? [],
-    manifest: context.manifest ?? null,
-  };
-  return appendSealed(fb, root, record);
-}
-
-function requireNote(records, id) {
-  const note = records.find((r) => r.kind === 'note' && r.id === id);
-  if (!note) throw new Error(`no feedback note ${id}`);
-  return note;
-}
-
-export function refine(fb, root, id, { note = '', categories = null, title = null, by = null, setupTest = false }) {
-  const records = fb.readFeedback(root);
-  requireNote(records, id);
-  const cats = categories ? cleanCategories(categories, loadCategories(root)) : null;
-  if (cats && cats.unknown.length) throw new Error(`unknown categories: ${cats.unknown.join(', ')}. Edit ${CATEGORIES_PATH} to add one.`);
-  return appendSealed(fb, root, { kind: 'refinement', at: new Date().toISOString(), refines: id, note, ...(cats ? { categories: cats.categories } : {}), ...(title ? { title } : {}), ...(setupTest ? { setup_test: true } : {}), ...(by ? { by } : {}) });
-}
-
-export function setStatus(fb, root, id, status, { note = '', change = null, by = null } = {}) {
-  if (!STATUSES.includes(status)) throw new Error(`status must be one of ${STATUSES.join(', ')}`);
-  const records = fb.readFeedback(root);
-  requireNote(records, id);
-  // done and declined close the note for the engine too, so its list and check agree.
-  if (status === 'done' || status === 'declined') {
-    return appendSealed(fb, root, { kind: 'resolution', at: new Date().toISOString(), resolves: id, status, change, note, ...(by ? { by } : {}) });
+// Every ticket on disk: { id, page, file (absolute), rel (under the store), data, body }.
+export function listTickets(dir) {
+  const out = [];
+  if (!existsSync(dir)) return out;
+  for (const page of readdirSync(dir, { withFileTypes: true })) {
+    if (!page.isDirectory()) continue;
+    for (const name of readdirSync(resolve(dir, page.name)).sort()) {
+      if (!name.endsWith('.md')) continue;
+      const file = resolve(dir, page.name, name);
+      const parsed = parseTicket(readFileSync(file, 'utf8'));
+      if (parsed?.data?.id) out.push({ id: parsed.data.id, page: page.name, file, rel: relative(dir, file), ...parsed });
+    }
   }
-  return appendSealed(fb, root, { kind: 'status', at: new Date().toISOString(), about: id, status, note, ...(by ? { by } : {}) });
+  return out.sort((a, b) => a.id.localeCompare(b.id, 'en', { numeric: true }));
 }
 
-export function split(fb, root, id, { text, categories = [] }) {
-  const records = fb.readFeedback(root);
-  const source = requireNote(records, id);
-  const created = addNote(fb, root, { ...source, text, categories, split_from: id }, { screen: source.screen, surface: source.surface, path: source.path, manifest: source.manifest });
-  appendSealed(fb, root, { kind: 'refinement', at: new Date().toISOString(), refines: id, note: `Split: part of this note continues as ${created.id} (${created.ticket}).`, split_into: created.id });
-  return created;
+export const findTicket = (dir, id) => listTickets(dir).find((t) => t.id.toLowerCase() === String(id).toLowerCase()) ?? null;
+
+export function nextId(dir) {
+  const max = listTickets(dir).reduce((m, t) => Math.max(m, Number(String(t.id).replace(/\D/g, '')) || 0), 0);
+  return `WI-${String(max + 1).padStart(3, '0')}`;
 }
 
-// ---------- tickets ----------
+// ---------- writing ----------
+
 const firstSentence = (text) => {
   const one = String(text).replace(/\s+/g, ' ').trim();
   const end = one.search(/[.!?](\s|$)/);
@@ -156,117 +106,186 @@ const firstSentence = (text) => {
   return s.length > 80 ? `${s.slice(0, 77).trimEnd()}...` : s;
 };
 
-export function deriveTickets(records) {
-  const tickets = new Map();
-  for (const r of records) {
-    if (r.kind === 'note') {
-      tickets.set(r.id, { id: r.ticket ?? ticketId(r.id), note: r, title: firstSentence(r.text), categories: r.categories ?? [], status: 'open', history: [], change: null, setupTest: Boolean(r.setup_test), line: records.indexOf(r) + 1 });
-      continue;
+const fileName = (id, title) => `${id.toLowerCase()}${kebab(title).slice(0, 48).replace(/-+$/, '') ? `-${kebab(title).slice(0, 48).replace(/-+$/, '')}` : ''}.md`;
+
+const spotOf = (s, i) => ({
+  n: Number(s.n) || i + 1,
+  selector: String(s.selector ?? ''),
+  rect: { x: Math.round(s.rect?.x ?? 0), y: Math.round(s.rect?.y ?? 0), width: Math.round(s.rect?.width ?? 0), height: Math.round(s.rect?.height ?? 0) },
+  text: String(s.text ?? '').replace(/\s+/g, ' ').trim().slice(0, 240),
+});
+const componentOf = (c) => (typeof c === 'string' ? { name: c, spec: null } : { name: String(c.name), spec: c.spec ?? null, ...(c.instance ? { instance: String(c.instance) } : {}) });
+
+function contentBody(edits) {
+  if (!edits?.length) return '';
+  return edits.map((e) => `## content-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}${e.instances?.length ? `\n- also updated: ${e.instances.map((i) => `${i.file}:${i.line}`).join(', ')}` : ''}`).join('\n\n');
+}
+
+function write(dir, page, name, data, body, sanitize) {
+  const clean = sanitizeDeep({ data, body }, sanitize);
+  const fm = { ...clean.value.data, ...(clean.redacted.size ? { redacted: [...clean.redacted] } : {}) };
+  mkdirSync(resolve(dir, page), { recursive: true });
+  const file = resolve(dir, page, name);
+  writeFileSync(file, renderTicket(fm, clean.value.body));
+  return { file, redacted: [...clean.redacted] };
+}
+
+// Register a ticket. `input` is what the panel sends plus what the server resolved from the
+// manifest for the screen (job, step, state, route, page).
+export function addTicket(dir, input, { sanitize, categories = [], now = new Date() }) {
+  const text = String(input.text ?? '').trim();
+  const edits = Array.isArray(input.contentEdits) ? input.contentEdits : [];
+  if (!text && !edits.length) throw new Error('feedback needs a note');
+  if (!input.page) throw new Error('feedback needs a page: choose a journey step first');
+  const picked = cleanCategories(input.categories, categories);
+  const id = input.id ?? nextId(dir);
+  const title = firstSentence(text || `Copy change to ${edits[0].key}`);
+  const stamp = now.toISOString();
+  const data = {
+    id,
+    status: ACCEPTED,
+    title,
+    page: input.page,
+    job: input.job ?? null,
+    'job-title': input.jobTitle ?? null,
+    step: input.step ?? null,
+    state: input.state ?? null,
+    'state-path': input.statePath ?? null,
+    route: input.route ?? null,
+    hash: input.hash ?? '',
+    served: input.served ?? 'site',
+    spots: (input.spots ?? []).map(spotOf),
+    components: (input.components ?? []).map(componentOf),
+    'content-keys': [...new Set(input.contentKeys ?? [])],
+    ...(edits.length ? { 'content-edits': edits } : {}),
+    categories: picked.categories,
+    device: input.device ?? null,
+    viewport: input.viewport ? `${input.viewport.width} by ${input.viewport.height}` : null,
+    build: input.build?.commit ? String(input.build.commit).slice(0, 12) : null,
+    ...(input.legacyId ? { 'legacy-id': input.legacyId } : {}),
+    created: input.created ?? stamp,
+    revised: input.revised ?? stamp,
+  };
+  const body = [text, contentBody(edits), input.extraBody ?? ''].filter(Boolean).join('\n\n');
+  const written = write(dir, input.page, fileName(id, title), data, body, sanitize);
+  return { id, title, page: input.page, status: ACCEPTED, file: written.file, redacted: written.redacted, categoriesUnknown: picked.unknown };
+}
+
+// Edit a ticket. The status is not an input here: an edit keeps whatever the ticket is, and
+// registered tickets are ACCEPTED. Only revised moves.
+export function editTicket(dir, id, patch, { sanitize, categories = [], now = new Date() }) {
+  const t = findTicket(dir, id);
+  if (!t) throw new Error(`no ticket ${id}`);
+  const data = { ...t.data };
+  let body = t.body;
+  if (patch.text !== undefined) {
+    const text = String(patch.text).trim();
+    if (!text) throw new Error('a note cannot be empty');
+    const rest = t.body.indexOf('\n## ');
+    body = `${text}${rest === -1 ? '' : `\n${t.body.slice(rest)}`}`;
+    if (patch.title === undefined) data.title = firstSentence(text);
+  }
+  if (patch.title !== undefined) data.title = String(patch.title);
+  if (patch.categories !== undefined) {
+    const picked = cleanCategories(patch.categories, categories);
+    if (picked.unknown.length) throw new Error(`unknown categories: ${picked.unknown.join(', ')}. Edit ${CATEGORIES_PATH} to add one.`);
+    data.categories = picked.categories;
+  }
+  if (patch.components !== undefined) data.components = patch.components.map(componentOf);
+  if (patch.contentKeys !== undefined) data['content-keys'] = [...new Set(patch.contentKeys)];
+  data.revised = now.toISOString();
+  const written = write(dir, t.page, t.rel.split('/').pop(), data, body, sanitize);
+  return { id: t.id, status: data.status, file: written.file, redacted: written.redacted };
+}
+
+// A lifecycle change, not an edit: the ticket is finished or turned down. Recorded in the
+// frontmatter with the commit that did it.
+export function setStatus(dir, id, status, { note = '', change = null, now = new Date(), sanitize }) {
+  if (!STATUSES.includes(status)) throw new Error(`status must be one of ${STATUSES.join(', ')}`);
+  const t = findTicket(dir, id);
+  if (!t) throw new Error(`no ticket ${id}`);
+  const data = { ...t.data, status, revised: now.toISOString() };
+  if (status !== ACCEPTED) data.resolution = { status, change, note, at: now.toISOString() };
+  else delete data.resolution;
+  const written = write(dir, t.page, t.rel.split('/').pop(), data, t.body, sanitize);
+  return { id: t.id, status, file: written.file };
+}
+
+// ---------- the old store ----------
+
+// Notes from docs/design/design-feedback.jsonl, written once into the new layout. A note keeps its
+// ticket id (fb-001 was WI-001), carries its old id as legacy-id so a second run skips it, and
+// is ACCEPTED like every registered ticket; what became of it is stated in the body.
+export function migrateRecords(dir, records, { sanitize, describe, components = () => [], categories = [] }) {
+  const done = new Set(listTickets(dir).map((t) => t.data['legacy-id']).filter(Boolean));
+  const closed = new Map(records.filter((r) => r.kind === 'resolution').map((r) => [r.resolves, r]));
+  const refined = new Map();
+  for (const r of records) if (r.kind === 'refinement') refined.set(r.refines, [...(refined.get(r.refines) ?? []), r]);
+  const written = [];
+  for (const n of records.filter((r) => r.kind === 'note')) {
+    if (done.has(n.id)) continue;
+    const info = n.screen ? describe(n.screen) : null;
+    if (!info) continue;
+    const spots = n.target ? [{ n: 1, selector: n.target.selector, rect: n.target.box?.document, text: n.target.text }] : [];
+    const cats = [...(refined.get(n.id) ?? [])].reverse().find((r) => r.categories)?.categories ?? n.categories ?? [];
+    const res = closed.get(n.id);
+    const history = [
+      ...(refined.get(n.id) ?? []).map((r) => `- ${r.at}: ${r.note}`),
+      ...(res ? [`- ${res.at}: ${res.status}${res.change ? ` in ${res.change}` : ''}. ${res.note}`] : []),
+    ];
+    const id = n.ticket ?? `WI-${String(n.id).replace(/\D/g, '').padStart(3, '0')}`;
+    const used = new Set(listTickets(dir).map((t) => t.id));
+    if (used.has(id)) continue;
+    const input = {
+      text: n.text,
+      categories: cats,
+      page: info.page,
+      job: info.job,
+      jobTitle: info.jobTitle,
+      step: info.step,
+      state: info.state,
+      statePath: info.statePath,
+      route: n.page?.route ?? info.route,
+      hash: n.page?.hash ?? info.hash,
+      served: n.page?.served ?? info.served,
+      spots,
+      components: spots.length ? components(n) : [],
+      contentKeys: [],
+      device: n.device,
+      viewport: n.viewport,
+      build: n.build,
+      legacyId: n.id,
+      created: n.at,
+      revised: [n.at, ...(refined.get(n.id) ?? []).map((r) => r.at), res?.at].filter(Boolean).sort().pop(),
+      extraBody: history.length ? `## history\n\n${history.join('\n')}` : '',
+    };
+    const out = addTicket(dir, { ...input, id }, { sanitize, categories });
+    written.push(out);
+  }
+  return written;
+}
+
+// Problems in the tickets on disk: a file the reader cannot parse, a missing key, a status outside
+// the set, a ticket filed under the wrong page, or a repeated id. No store at all is no problem.
+const REQUIRED = ['id', 'status', 'page', 'step', 'spots', 'components', 'content-keys', 'categories', 'created', 'revised'];
+export function ticketIssues(dir) {
+  const issues = [];
+  if (!existsSync(dir)) return issues;
+  const seen = new Map();
+  for (const page of readdirSync(dir, { withFileTypes: true })) {
+    if (!page.isDirectory()) continue;
+    for (const name of readdirSync(resolve(dir, page.name)).filter((n) => n.endsWith('.md')).sort()) {
+      const rel = `${page.name}/${name}`;
+      let parsed = null;
+      try { parsed = parseTicket(readFileSync(resolve(dir, page.name, name), 'utf8')); } catch { parsed = null; }
+      if (!parsed || !parsed.data.id) { issues.push(`feedback ticket ${rel} has no readable frontmatter with an id`); continue; }
+      for (const k of REQUIRED) if (parsed.data[k] === undefined) issues.push(`feedback ticket ${rel} lacks ${k}`);
+      if (parsed.data.status && !STATUSES.includes(parsed.data.status)) issues.push(`feedback ticket ${rel} has status ${parsed.data.status}; expected one of ${STATUSES.join(', ')}`);
+      if (parsed.data.page && parsed.data.page !== page.name) issues.push(`feedback ticket ${rel} is filed under ${page.name} but names the page ${parsed.data.page}`);
+      if (!/^[a-z0-9]+(-[a-z0-9]+)*\.md$/.test(name)) issues.push(`feedback ticket ${rel} is not a lowercase kebab case file name`);
+      if (seen.has(parsed.data.id)) issues.push(`feedback ticket id ${parsed.data.id} is used by ${seen.get(parsed.data.id)} and ${rel}`);
+      seen.set(parsed.data.id, rel);
     }
-    const ref = r.refines ?? r.about ?? r.resolves;
-    const t = tickets.get(ref);
-    if (!t) continue;
-    t.history.push({ ...r, line: records.indexOf(r) + 1 });
-    if (r.kind === 'refinement') {
-      if (r.categories) t.categories = r.categories;
-      if (r.title) t.title = r.title;
-      if (r.setup_test) t.setupTest = true;
-    } else if (r.kind === 'status') t.status = r.status;
-    else if (r.kind === 'resolution') { t.status = r.status ?? 'done'; t.change = r.change ?? t.change; }
   }
-  return [...tickets.values()];
-}
-
-const fence = (text) => `\`\`\`text\n${String(text ?? '').replace(/```/g, "'''")}\n\`\`\``;
-const json = (v) => JSON.stringify(v);
-
-// Frontmatter follows the agent-graph work item shape: the common keys in order, then the rest
-// alphabetically, one JSON value per line. Everything a reviewer typed sits in a text fence.
-export function ticketMarkdown(t) {
-  const n = t.note;
-  const day = n.at.slice(0, 10);
-  const last = t.history.length ? t.history[t.history.length - 1].at.slice(0, 10) : day;
-  const code = (n.code ?? []).map((c) => c.location);
-  const fm = [
-    ['domain', 'gabf-analysis'], ['category', 'work-items'], ['sub-category', 'design-feedback'], ['topics', ['feedback']], ['types', ['ticket']],
-    ['date-created', day], ['date-revised', last], ['status', t.status], ['aliases', []], ['tags', t.categories.map((c) => c.toLowerCase().replace(/\s+/g, '-'))],
-    ['categories', t.categories], ['change', t.change], ['code-locations', code], ['done', t.status === 'done'], ['element', n.target ? n.target.selector : null],
-    ['feedback', n.id], ['id', t.id], ['mode', n.mode ?? 'page'], ['route', n.page?.route ?? null], ['screen', n.screen ?? null], ['setup-test', t.setupTest], ['surface', n.surface ?? null], ['title', t.title],
-  ];
-  const lines = ['---', ...fm.map(([k, v]) => `${k}: ${json(v)}`), '---', '', `# ${t.id.toLowerCase()}`, ''];
-  lines.push(`Generated from \`${FEEDBACK_PATH}\` line ${t.line} by \`npm run tickets -- generate\`. Do not edit this file; change the ticket with \`npm run tickets\`, which appends to the store.`, '');
-  lines.push('## note', '', fence(n.text), '');
-  lines.push('## where', '');
-  lines.push(`- Page: \`${n.page?.route ?? 'unknown'}\`${n.page?.hash ? ` with hash \`${n.page.hash}\`` : ''}${n.page?.condition ? ` (served as ${n.page.condition})` : ''}`);
-  lines.push(`- Screen: ${n.screen ?? 'not matched to a manifest screen'}${n.surface ? ` on surface ${n.surface}` : ''}`);
-  lines.push(`- Viewport: ${n.viewport ? `${n.viewport.width} by ${n.viewport.height}` : 'unknown'}, ${n.device ?? 'unknown'} class, ${n.theme ?? 'unknown'} theme`);
-  lines.push(`- Build: ${n.build?.commit ? `\`${n.build.commit.slice(0, 12)}\` on \`${n.build.branch}\`${n.build.dirty ? ' with uncommitted changes' : ''}` : 'unknown'}`);
-  const filters = n.filters?.hash && Object.keys(n.filters.hash).length ? n.filters.hash : n.filters?.stored;
-  lines.push(`- Filters: ${filters && Object.keys(filters).length ? `\`${json(filters)}\`` : 'none'}`);
-  if (n.target) {
-    lines.push(`- Element: \`${n.target.selector}\``);
-    const b = n.target.box?.document;
-    if (b) lines.push(`- Box in the document: x ${b.x}, y ${b.y}, ${b.width} by ${b.height}; click at x ${n.target.point?.document?.x}, y ${n.target.point?.document?.y}`);
-    lines.push(`- Screenshot: ${n.target.screenshot ?? 'not captured in the browser; capture the box above from the review build'}`);
-  }
-  lines.push('');
-  if (n.target?.text) lines.push('Visible text of the element:', '', fence(n.target.text), '');
-  lines.push('## code-to-change', '');
-  for (const c of n.code ?? []) lines.push(`- \`${c.location}\` (${c.via})`);
-  if (!(n.code ?? []).length) lines.push('- No code location was recorded.');
-  lines.push('');
-  if (n.manifest?.nodes?.length) lines.push('## design-nodes', '', ...n.manifest.nodes.map((id) => `- \`${id}\``), '');
-  lines.push('## history', '');
-  lines.push(`- ${n.at}: filed as ${n.id}${n.split_from ? `, split from ${n.split_from}` : ''}${n.categories?.length ? `, categories ${n.categories.join(', ')}` : ''}${n.setup_test ? ', setup test' : ''} (store line ${t.line})`);
-  for (const h of t.history) {
-    const what = h.kind === 'refinement' ? `refined${h.setup_test ? ', marked as a setup test' : ''}${h.title ? ', title set' : ''}${h.categories ? `, categories ${h.categories.join(', ') || 'cleared'}` : ''}` : h.kind === 'status' ? `status ${h.status}` : `${h.status ?? 'done'}${h.change ? ` in \`${h.change}\`` : ''}`;
-    lines.push(`- ${h.at}: ${what}${h.by ? ` by ${h.by}` : ''} (store line ${h.line})`);
-    if (h.note) lines.push('', fence(h.note), '');
-  }
-  return proseSafe(`${lines.join('\n').replace(/\n{3,}/g, '\n\n').trimEnd()}\n`);
-}
-
-// A reviewer's words stay verbatim inside text fences. Outside them (a title in the index, a
-// selector, a filter value) a dash glyph would fail the repository's prose check, so it becomes a
-// comma in the generated view; the store keeps the original. The glyphs are built from code points
-// so this source carries none.
-const DASH_GLYPHS = new RegExp(`\\s*[${String.fromCharCode(0x2013)}${String.fromCharCode(0x2014)}]\\s*`, 'g');
-export function proseSafe(markdown) {
-  let inFence = false;
-  return markdown.split('\n').map((line) => {
-    if (/^\s*```/.test(line)) { inFence = !inFence; return line; }
-    return inFence ? line : line.replace(DASH_GLYPHS, ', ');
-  }).join('\n');
-}
-
-export function indexMarkdown(tickets) {
-  const rows = tickets.map((t) => `| [${t.id}](${t.id}.md) | ${t.status} | ${t.title.replace(/\|/g, '&#124;')} | ${t.categories.join(', ') || 'none'} | \`${t.note.page?.route ?? ''}\` |`);
-  return proseSafe(`# README.MD
-
-Tickets generated from \`${FEEDBACK_PATH}\`, one per feedback note. The store is the source of truth: never edit a ticket file, append to the store with \`npm run tickets\` and the files are regenerated.
-
-| Ticket | Status | Title | Categories | Page |
-| --- | --- | --- | --- | --- |
-${rows.join('\n')}
-`.replace(/\n{3,}/g, '\n\n'));
-}
-
-export function renderTicketFiles(records) {
-  const tickets = deriveTickets(records);
-  const files = new Map([['README.md', indexMarkdown(tickets)]]);
-  for (const t of tickets) files.set(`${t.id}.md`, ticketMarkdown(t));
-  return files;
-}
-
-export const TICKETS_DIR = 'docs/work-items';
-export function writeTicketFiles(root, records) {
-  const dir = resolve(root, TICKETS_DIR);
-  mkdirSync(dir, { recursive: true });
-  const files = renderTicketFiles(records);
-  for (const f of readdirSync(dir)) if (!files.has(f)) rmSync(resolve(dir, f));
-  for (const [name, body] of files) {
-    const path = resolve(dir, name);
-    if (!existsSync(path) || readFileSync(path, 'utf8') !== body) writeFileSync(path, body);
-  }
-  return files;
+  return issues;
 }
