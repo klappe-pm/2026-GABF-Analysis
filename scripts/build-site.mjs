@@ -129,7 +129,7 @@ function otherMedalsTable(rows) {
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra'];
 
 // Decorate the medal rows once per dataset with what the views and the filter need: brewery
 // attributes, medals awarded per category and year (for entries per medal), the 2026 research
@@ -156,6 +156,9 @@ export function enrichResults(ds) {
       r.beer_profile = `beers/${p.year}/${p.stem}/`;
       r.search_extra = [p.fm.style, ...(p.fm.hops ?? []), ...(p.fm.malts ?? []), ...(p.fm.yeast ?? []), ...(p.fm.adjuncts ?? [])].filter(Boolean).join(' ');
     }
+    r.abv_source = r.spec?.abv.source?.url ?? null;
+    r.ibu_source = r.spec?.ibu.source?.url ?? null;
+    r.beer_url = r.spec?.beer_url ?? null;
     if (r.year === WINNER_YEAR) r.first_time = status.get(r.brewery_key) ?? '';
   }
   ds.winnerProfiles = profiles;
@@ -291,7 +294,8 @@ ${extra}
 function dashboardPages(ds) {
   const featured = ds.breweries.filter((b) => b.profile).slice(0, 6);
   const overview = dashboardBody(ds, { href: '', r: './', intro: `<h1>Great American Beer Festival results dashboards</h1><p class="lede">Which states, styles, and breweries keep winning at the Great American Beer Festival. Start with the medal count by year, then see where the medals land on the map, which style families collect the most, and which breweries lead on points. The Filters button in the header narrows every page; click a bar, column, or state to focus it.</p>`, panels: [['medals-by-year'], ['map'], ['by-family'], ['top-breweries']], extra: '<div id="stats" class="stats"></div>' });
-  write('index.html', layout({ title: 'Dashboards', description: 'Interactive Great American Beer Festival medal dashboards.', body: `${overview}<h2>results</h2><div id="table"></div><h2>featured-deep-dives</h2><ul class="list-plain">${featured.map((b) => `<li><a href="breweries/${b.slug}/">${esc(b.name)}</a> <span class="muted small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${b.medals.length} GABF medals in the loaded data</span></li>`).join('')}</ul>`, depth: 0, active: 'Dashboards', scripts: '<script type="module" src="assets/dashboards.js"></script>' }));
+  const featuredList = featured.length ? `<h2>featured-deep-dives</h2><ul class="list-plain">${featured.map((b) => `<li><a href="breweries/${b.slug}/">${esc(b.name)}</a> <span class="muted small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${b.medals.length} GABF medals in the loaded data</span></li>`).join('')}</ul>` : '';
+  write('index.html', layout({ title: 'Dashboards', description: 'Interactive Great American Beer Festival medal dashboards.', body: `${overview}<h2>results</h2><div id="table"></div>${featuredList}`, depth: 0, active: 'Dashboards', scripts: '<script type="module" src="assets/dashboards.js"></script>' }));
 
   const geo = dashboardBody(ds, { href: 'dashboards/geography/', r: '../../', intro: '<h1>Geography</h1><p class="lede">Where the medals go: the US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP using each medal year\'s population and GDP, and the demographic controls side by side. Click a state, region, or district to focus the other panels.</p>', panels: [['map', true], ['by-region'], ['by-division'], ['by-fed-district'], ['district-rates'], ['per-capita', true], ['per-gdp', true]], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/geography/index.html', layout({ title: 'Geography dashboard', description: 'GABF medals by state, region, Federal Reserve district, per capita, and per GDP.', body: `${geo}<h2>controls-by-state-and-district</h2><div id="controls-table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
@@ -299,7 +303,7 @@ function dashboardPages(ds) {
   const cat = dashboardBody(ds, { href: 'dashboards/categories/', r: '../../', intro: '<h1>Categories</h1><p class="lede">Total entrants by category from the official category headers, with special categories (added ingredient, process, or catch all) marked, the classic versus special split by year, and category size against how many breweries medal.</p>', panels: [['entrants', true], ['entry-odds', true], ['special-share'], ['entries-vs-breweries']], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/categories/index.html', layout({ title: 'Categories dashboard', description: 'GABF entrants by category and special categories.', body: `${cat}<h2>results</h2><div id="table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
 
-  const defaultBrewery = ds.breweries.find((b) => b.profile)?.key ?? ds.breweries[0]?.key ?? '';
+  const defaultBrewery = ds.breweries.find((b) => b.profile || b.facts)?.key ?? ds.breweries[0]?.key ?? '';
   const brew = dashboardBody(ds, { href: 'dashboards/breweries/', r: '../../', intro: '<h1>Breweries</h1><p class="lede">Pick a brewery to see its medal trend (years before it opened and years not yet published are marked), its categories, and the locations credited. The global filter still scopes the stats and table.</p>', panels: [['brewery-trend', true], ['brewery-categories'], ['brewery-locations']], extra: '<div id="brewery-picker" class="picker"></div><div id="stats" class="stats"></div>' });
   write('dashboards/breweries/index.html', layout({ title: 'Breweries dashboard', description: 'Per-brewery GABF medal trends.', body: `${brew}<h2>results</h2><div id="table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>', bodyAttrs: ` data-default-brewery="${esc(defaultBrewery)}"` }));
 
