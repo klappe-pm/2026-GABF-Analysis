@@ -41,6 +41,7 @@
     "review": "npm run review:build && node scripts/review-server.mjs",
     "review:serve": "node scripts/review-server.mjs",
     "tickets": "node scripts/review-tickets.mjs",
+    "decisions": "node scripts/decisions.mjs",
     "design:build": "node scripts/design-control-plane.mjs generate",
     "design:check": "node scripts/design-control-plane.mjs check",
     "design:serve": "node scripts/review-server.mjs"

@@ -28,6 +28,7 @@ import { FEEDBACK_LABEL, REPO, STATUS_LABELS, imageUrl, issueTitle, kindOf, labe
 import { appendLog, enqueue, jobFor, nextJob, queueDirOf, scanStore, takeLock, updateJob } from './lib/feedback-queue.mjs';
 import { FEEDBACK_DIR, LOCAL_FEEDBACK_DIR, feedbackDirOf, findTicket, migrateLegacyStore, patchTicket, sanitizeDeep } from './lib/review-store.mjs';
 import { kebab } from './lib/review-screens.mjs';
+import { AGENT_MARK, DECISION_LABEL, ownerAnswers, pollDecisions } from './lib/owner-decisions.mjs';
 
 export class NeedsAttention extends Error {}
 
@@ -53,7 +54,7 @@ export function dryExec(repo, print = console.log) {
     if (cmd === 'gh' && a.startsWith('issue create')) stdout = `https://github.com/${repo}/issues/1001\n`;
     else if (cmd === 'gh' && a.startsWith('pr create')) stdout = `https://github.com/${repo}/pull/1002\n`;
     else if (cmd === 'gh' && a.startsWith('pr view')) stdout = JSON.stringify({ state: 'MERGED', mergeCommit: { oid: '0'.repeat(40) } });
-    else if (cmd === 'gh' && a.startsWith('label list')) stdout = '[]';
+    else if (cmd === 'gh' && (a.startsWith('label list') || a.startsWith('issue list') || (args[0] === 'api' && !args.includes('-X')))) stdout = '[]';
     else if (cmd === 'git' && a.includes('remote get-url')) stdout = `https://github.com/${repo}.git\n`;
     else if (cmd === 'git' && a.includes('rev-parse --abbrev-ref')) stdout = 'main\n';
     const status = cmd === 'git' && a.includes('diff --cached --quiet') ? 1 : 0;
@@ -158,6 +159,11 @@ function applyChange(ctx, id, ticket, wt) {
   return 'agent';
 }
 
+// A decision: the owner answered a question, and the repository changes only if the answer needs it.
+export function decisionPrompt(ticketText) {
+  return `${agentPrompt(ticketText).replace('You are making one change to this repository, described by the issue below.', 'The owner of this repository answered a question, recorded below with its context. Make the change the answer calls for. If the answer needs no change to the repository, change nothing.')}`;
+}
+
 export function agentPrompt(issueBody) {
   return `You are making one change to this repository, described by the issue below. Work only inside this checkout.
 
@@ -173,14 +179,14 @@ Rules for this repository:
 `;
 }
 
-async function runAgent(ctx, id, issueBody, wt) {
+async function runAgent(ctx, id, issueBody, wt, decision = false) {
   if (ctx.dry) {
     ctx.exec('claude', AGENT_ARGS, { cwd: wt });
     step(ctx, id, 'apply', 'would invoke the agent with the issue as the prompt');
     return;
   }
   const run = ctx.agent ?? ((prompt) => ctx.exec('claude', AGENT_ARGS, { cwd: wt, input: prompt, timeout: 45 * 60 * 1000 }));
-  const r = await run(agentPrompt(issueBody), wt);
+  const r = await run(decision ? decisionPrompt(issueBody) : agentPrompt(issueBody), wt);
   if (r.status !== 0) throw new NeedsAttention(`the agent step failed: ${scrub(ctx, (r.stderr || r.stdout).trim().split('\n').slice(-3).join(' '))}`);
   step(ctx, id, 'apply', 'the agent finished');
 }
@@ -271,49 +277,68 @@ export async function runJob(id, ctx) {
       step(ctx, id, 'ticket-branch', 'ticket and images pushed');
     }
 
-    // The issue.
-    const labels = [...labelsFor(t.data), STATUS_LABELS.progress];
-    ensureLabels(ctx, id, [FEEDBACK_LABEL, ...labels.filter((l) => l !== FEEDBACK_LABEL), STATUS_LABELS.done, STATUS_LABELS.attention]);
-    const issueBody = guard(ctx, renderIssueBody(ctx.dry ? t : live(), { ref, repo: ctx.repo }), 'the issue body');
-    const created = must(gh(ctx, 'issue', 'create', '-R', ctx.repo, '--title', title, '--body-file', bodyFile(ctx, id, 'issue', issueBody), ...labels.flatMap((l) => ['--label', l])), 'creating the issue').trim();
-    const number = Number(/\/issues\/(\d+)/.exec(created)?.[1]);
-    if (!number) throw new NeedsAttention(`gh did not return an issue number: ${created.slice(0, 80)}`);
-    issue = number;
-    patchBoth({ issue: number, 'issue-url': created });
-    updateJob(ctx.queueDir, id, { state: 'issue', issue: number, issueUrl: created, branch }, ctx.now());
-    step(ctx, id, 'issue', `#${number} ${created}`);
+    // The issue. A decision ticket already has the issue the owner answered; any other ticket gets a new one.
+    const isDecision = t.data.kind === 'decision';
+    let issueBody = '';
+    let number;
+    if (isDecision) {
+      number = Number(t.data['decision-issue'] ?? t.data.issue);
+      if (!number) throw new NeedsAttention('the decision ticket does not name its issue');
+      ensureLabels(ctx, id, [STATUS_LABELS.progress, STATUS_LABELS.done, STATUS_LABELS.attention]);
+      issue = number;
+      gh(ctx, 'issue', 'edit', String(number), '-R', ctx.repo, '--add-label', STATUS_LABELS.progress);
+      issueBody = guard(ctx, `${t.body}`, 'the decision');
+      updateJob(ctx.queueDir, id, { state: 'issue', issue: number, issueUrl: t.data['issue-url'] ?? `https://github.com/${ctx.repo}/issues/${number}`, branch }, ctx.now());
+      step(ctx, id, 'issue', `#${number} the owner's decision`);
+    } else {
+      const labels = [...labelsFor(t.data), STATUS_LABELS.progress];
+      ensureLabels(ctx, id, [FEEDBACK_LABEL, ...labels.filter((l) => l !== FEEDBACK_LABEL), STATUS_LABELS.done, STATUS_LABELS.attention]);
+      issueBody = guard(ctx, renderIssueBody(ctx.dry ? t : live(), { ref, repo: ctx.repo }), 'the issue body');
+      const created = must(gh(ctx, 'issue', 'create', '-R', ctx.repo, '--title', title, '--body-file', bodyFile(ctx, id, 'issue', issueBody), ...labels.flatMap((l) => ['--label', l])), 'creating the issue').trim();
+      number = Number(/\/issues\/(\d+)/.exec(created)?.[1]);
+      if (!number) throw new NeedsAttention(`gh did not return an issue number: ${created.slice(0, 80)}`);
+      issue = number;
+      patchBoth({ issue: number, 'issue-url': created });
+      updateJob(ctx.queueDir, id, { state: 'issue', issue: number, issueUrl: created, branch }, ctx.now());
+      step(ctx, id, 'issue', `#${number} ${created}`);
+    }
 
     // The change.
     updateJob(ctx.queueDir, id, { state: 'in progress' }, ctx.now());
     const needsAgent = applyChange(ctx, id, t, wt) === 'agent';
-    if (needsAgent) await runAgent(ctx, id, issueBody, wt);
+    if (needsAgent) await runAgent(ctx, id, issueBody, wt, isDecision);
+    // A decision answer may need no change to the repository; then only the ticket is recorded.
+    let codeChanged = true;
     if (!ctx.dry) {
       const changed = git(ctx, wt, 'status', '--porcelain', '--untracked-files=all').stdout.trim();
-      if (!changed.split('\n').some((l) => l.trim() && !l.includes(`${storeRel}/`))) throw new NeedsAttention('the change produced no edit to commit');
+      codeChanged = changed.split('\n').some((l) => l.trim() && !l.includes(`${storeRel}/`));
+      if (!isDecision && !codeChanged) throw new NeedsAttention('the change produced no edit to commit');
     }
 
-    // Commit with the issue reference. The message and the diff both pass the secret scan.
-    git(ctx, wt, 'add', '-A');
-    const diff = git(ctx, wt, 'diff', '--cached').stdout;
-    const found2 = ctx.sanitize(diff).redacted;
-    if (found2.length) throw new NeedsAttention(`the change holds a value shaped like a secret (${found2.join(', ')}); nothing was committed`);
-    must(git(ctx, wt, 'commit', '-m', title, '-m', `Refs #${number}`), 'committing the change');
-    step(ctx, id, 'commit', title);
-
-    // The gates.
-    if (!ctx.dry && !existsSync(resolve(wt, 'node_modules'))) must(ctx.exec('npm', ['ci'], { cwd: wt }), 'npm ci');
-    const [vcmd, vargs] = ctx.verifyCommand;
-    const verified = ctx.exec(vcmd, vargs, { cwd: wt });
-    if (verified.status !== 0) {
-      const tail = scrub(ctx, `${verified.stdout}\n${verified.stderr}`.trim().split('\n').slice(-40).join('\n'));
-      throw new NeedsAttention(`npm run verify failed\n\n${tail}`);
-    }
-    step(ctx, id, 'verify', 'passed');
-    if (git(ctx, wt, 'status', '--porcelain').stdout.trim()) {
+    if (codeChanged) {
+      // Commit with the issue reference. The message and the diff both pass the secret scan.
       git(ctx, wt, 'add', '-A');
-      must(git(ctx, wt, 'commit', '--amend', '--no-edit'), 'folding in the rebuilt files');
-      step(ctx, id, 'rebuild', 'generated files folded into the commit');
-    }
+      const diff = git(ctx, wt, 'diff', '--cached').stdout;
+      const found2 = ctx.sanitize(diff).redacted;
+      if (found2.length) throw new NeedsAttention(`the change holds a value shaped like a secret (${found2.join(', ')}); nothing was committed`);
+      must(git(ctx, wt, 'commit', '-m', title, '-m', `Refs #${number}`), 'committing the change');
+      step(ctx, id, 'commit', title);
+
+      // The gates.
+      if (!ctx.dry && !existsSync(resolve(wt, 'node_modules'))) must(ctx.exec('npm', ['ci'], { cwd: wt }), 'npm ci');
+      const [vcmd, vargs] = ctx.verifyCommand;
+      const verified = ctx.exec(vcmd, vargs, { cwd: wt });
+      if (verified.status !== 0) {
+        const tail = scrub(ctx, `${verified.stdout}\n${verified.stderr}`.trim().split('\n').slice(-40).join('\n'));
+        throw new NeedsAttention(`npm run verify failed\n\n${tail}`);
+      }
+      step(ctx, id, 'verify', 'passed');
+      if (git(ctx, wt, 'status', '--porcelain').stdout.trim()) {
+        git(ctx, wt, 'add', '-A');
+        must(git(ctx, wt, 'commit', '--amend', '--no-edit'), 'folding in the rebuilt files');
+        step(ctx, id, 'rebuild', 'generated files folded into the commit');
+      }
+    } else step(ctx, id, 'commit', 'the answer needs no change to the repository; only the ticket is recorded');
 
     // The pull request.
     must(git(ctx, wt, 'push', '-u', 'origin', branch), 'pushing the branch');
@@ -361,14 +386,20 @@ export async function runJob(id, ctx) {
       'Do not: edit the ticket by hand to reopen it (file a new ticket instead), or push to main directly.', '',
       'Open decisions: none.', '',
     ].join('\n');
-    const handoffFile = bodyFile(ctx, id, 'handoff', guard(ctx, handoff, 'the handoff'));
+    const handoffFile = bodyFile(ctx, id, 'handoff', guard(ctx, `${AGENT_MARK}\n${handoff}`, 'the handoff'));
     gh(ctx, 'pr', 'comment', String(pr), '-R', ctx.repo, '--body-file', handoffFile);
     if (merge) gh(ctx, 'api', '-X', 'POST', `repos/${ctx.repo}/commits/${merge}/comments`, '-F', `body=@${handoffFile}`);
     step(ctx, id, 'handoff', 'posted');
 
     // The issue now points at main, and its status is done. It closes through the pull request.
     const finalTicket = ctx.dry ? t : live();
-    gh(ctx, 'issue', 'edit', String(number), '-R', ctx.repo, '--body-file', bodyFile(ctx, id, 'issue-main', guard(ctx, renderIssueBody(finalTicket, { ref: 'main', repo: ctx.repo }), 'the issue body')), '--add-label', STATUS_LABELS.done, '--remove-label', STATUS_LABELS.progress);
+    if (isDecision) {
+      gh(ctx, 'issue', 'edit', String(number), '-R', ctx.repo, '--add-label', STATUS_LABELS.done, '--remove-label', STATUS_LABELS.progress, '--remove-label', DECISION_LABEL);
+      const noChange = !codeChanged;
+      gh(ctx, 'issue', 'comment', String(number), '-R', ctx.repo, '--body-file', bodyFile(ctx, id, 'decision-done', `${AGENT_MARK}\nThe owner's answer is recorded as ${t.id} and ${noChange ? 'needed no change to the repository' : 'was applied'} in pull request #${pr}, merged as ${merge}.\n`));
+    } else {
+      gh(ctx, 'issue', 'edit', String(number), '-R', ctx.repo, '--body-file', bodyFile(ctx, id, 'issue-main', guard(ctx, renderIssueBody(finalTicket, { ref: 'main', repo: ctx.repo }), 'the issue body')), '--add-label', STATUS_LABELS.done, '--remove-label', STATUS_LABELS.progress);
+    }
 
     // Cleanup, then the main checkout.
     git(ctx, ctx.root, 'worktree', 'remove', '--force', wt);
@@ -386,7 +417,7 @@ export async function runJob(id, ctx) {
     }
     appendLog(ctx.queueDir, { id, step: 'needs-attention', status: 'fail', detail: error.message.split('\n')[0].slice(0, 300) }, ctx.now());
     if (issue) {
-      const file = bodyFile(ctx, id, 'failure', `The pipeline stopped for ${id}.\n\n${scrub(ctx, error.message)}\n\nThe branch ${branch} is left for review.\n`);
+      const file = bodyFile(ctx, id, 'failure', `${AGENT_MARK}\nThe pipeline stopped for ${id}.\n\n${scrub(ctx, error.message)}\n\nThe branch ${branch} is left for review.\n`);
       gh(ctx, 'issue', 'comment', String(issue), '-R', ctx.repo, '--body-file', file);
       gh(ctx, 'issue', 'edit', String(issue), '-R', ctx.repo, '--add-label', STATUS_LABELS.attention, '--remove-label', STATUS_LABELS.progress);
     }
@@ -434,6 +465,13 @@ export function createRunner(ctx) {
 }
 
 export { enqueue, jobFor, scanStore };
+
+// Look for owner answers on open decision issues and queue a ticket for each new one.
+export function pollAndQueue(ctx, categories = []) {
+  const fresh = pollDecisions({ exec: ctx.exec, repo: ctx.repo, cwd: ctx.root, storeDir: ctx.storeDir, queueDir: ctx.queueDir, sanitize: ctx.sanitize, categories, root: ctx.root, now: ctx.now() });
+  for (const t of fresh) { enqueue(ctx.queueDir, t.id); appendLog(ctx.queueDir, { id: t.id, step: 'decision', status: 'ok', detail: `answer to #${t.data['decision-issue']}` }, ctx.now()); }
+  return fresh;
+}
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = parseArgs(process.argv.slice(2));

@@ -31,6 +31,7 @@ import { ROOT, parseArgs } from './lib/paths.mjs';
 import { engine } from './lib/agent-graph.mjs';
 import { addTicket, editTicket, feedbackDirOf, findTicket, listTickets, loadCategories, patchTicket } from './lib/review-store.mjs';
 import { jobFor, queueDirOf, readQueue } from './lib/feedback-queue.mjs';
+import { readFileSync as readText } from 'node:fs';
 import { describeScreen, loadManifest, regionsPayload } from './lib/review-screens.mjs';
 import { basename, dirname } from 'node:path';
 import { VIEW_PREFIX, componentsForScreen, componentsForSpot, knownComponents, sourceMapEntries, withSpec } from './lib/review-components.mjs';
@@ -306,6 +307,11 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
         res.writeHead(200, { 'content-type': 'image/png', 'cache-control': 'no-store' });
         return createReadStream(file).pipe(res);
       }
+      if (p === '/review/decisions' && req.method === 'GET') {
+        let list = { open: [] };
+        try { list = JSON.parse(readText(resolve(queueDir, 'decisions.json'), 'utf8')); } catch { list = { open: [] }; }
+        return send(res, 200, list);
+      }
       if (p === '/review/pipeline' && req.method === 'GET') return send(res, 200, Object.fromEntries(readQueue(queueDir).jobs.map((j) => [j.id, pipelineStatus(j, findTicket(feedbackDir, j.id)?.data)])));
       if (p === '/review/feedback' && req.method === 'POST') return send(res, 200, register(await readBody(req)));
       const edit = /^\/review\/feedback\/(WI-\d+)$/i.exec(p);
@@ -349,6 +355,14 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     pipeline = { enqueue: (id) => enqueue(ctx.queueDir, id), kick: () => runner.kick() };
     watcher = watchStore({ storeDir: ctx.storeDir, queueDir: qd(ROOT), onQueued: () => runner.kick() });
     runner.kick();
+    // Owner answers: ask GitHub for answers on open decision issues, away from the server's own loop.
+    const { spawn } = await import('node:child_process');
+    const poll = () => {
+      const child = spawn(process.execPath, [resolve(ROOT, 'scripts/decisions.mjs'), 'poll'], { cwd: ROOT, stdio: 'ignore' });
+      child.on('exit', () => runner.kick());
+    };
+    poll();
+    setInterval(poll, Number(process.env.GABF_DECISION_POLL_MS || 120000)).unref();
   }
   const { loadPlaywright, chromiumPath, captureImages } = await import('./lib/feedback-capture.mjs');
   const capture = async (job) => captureImages({ ...job, playwright: await loadPlaywright({ root: ROOT }), executablePath: chromiumPath() });
