@@ -51,6 +51,7 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
       role="region"
       aria-label={caption}
       data-table-scroll=""
+      data-component="data-table"
     >
       <table className="type-body-medium w-full border-separate border-spacing-0 tabular-nums">
         <caption className="sr-only">

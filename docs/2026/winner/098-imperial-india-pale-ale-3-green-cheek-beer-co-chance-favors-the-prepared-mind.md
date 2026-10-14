@@ -30,13 +30,6 @@ description:
 entries: 87
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://shop.greencheekbeer.com/collections/beer"
-      - "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
-      - "https://www.greencheekbeer.com/"
-      - "https://www.greencheekbeer.com/orange"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://shop.greencheekbeer.com/collections/beer"
@@ -151,7 +144,9 @@ sources:
   - "https://www.greencheekbeer.com/orange"
 srm: null
 style: "DDH West Coast DIPA"
-tasting-notes: null
+tasting-notes:
+  text: "Think Navel Orange oils, yummo blueberry cereal, pineapple whips"
+  source: "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
 water: null
 yeast: []
 ---
@@ -189,7 +184,9 @@ The quote is the listing text on BeerMenus; the brewery's own site did not carry
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Think Navel Orange oils, yummo blueberry cereal, pineapple whips
+
+Source: [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind)
 
 ## ingredients
 
@@ -249,8 +246,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
 - Not published: IBU. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -259,3 +256,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - All specs come from BeerMenus; a search result for a BeerAdvocate brewery listing also showed 8.6% but was not opened.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery description carried by BeerMenus gives the tasting words.

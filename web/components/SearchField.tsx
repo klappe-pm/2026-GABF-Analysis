@@ -22,6 +22,7 @@ export function SearchField({ id, label, placeholder, defaultValue, value, onVal
   return (
     <Tag
       ref={ref}
+      data-component="search-field"
       id={id}
       type="search"
       name="q"

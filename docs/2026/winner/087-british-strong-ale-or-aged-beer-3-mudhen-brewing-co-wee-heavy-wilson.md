@@ -30,11 +30,6 @@ description:
 entries: 40
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/"
-      - "https://untappd.com/MudHenBrewingCompany/beer"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/"
@@ -105,7 +100,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Scotch Ale"
-tasting-notes: null
+tasting-notes:
+  text: "with its full-bodied malt sweetness and a hint of smoked peat"
+  source: "https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/"
 water: null
 yeast: []
 ---
@@ -141,7 +138,9 @@ Source: [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-suc
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> with its full-bodied malt sweetness and a hint of smoked peat
+
+Source: [mudhenbrew.com](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/)
 
 ## ingredients
 
@@ -191,7 +190,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [mudhenbrew.com](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/), [untappd.com](https://untappd.com/MudHenBrewingCompany/beer), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [mudhenbrew.com](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/), [untappd.com](https://untappd.com/MudHenBrewingCompany/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -201,3 +200,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd listing supplied strength, bitterness and smoked malt. The brewery article confirms the Scotch Ale identity and provides a beer-specific page, resolving the previously unconfirmed brewery domain.
+- Deep dive pass 2026-10-14: the brewery's World Beer Cup post gives the tasting words.

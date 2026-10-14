@@ -31,12 +31,6 @@ description:
 entries: 85
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://theram.com/locations/"
-      - "https://www.theram.com/"
-      - "https://www.theram.com/tacoma-menu/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://theram.com/locations/"
@@ -124,7 +118,9 @@ sources:
   - "https://www.theram.com/tacoma-menu/"
 srm: null
 style: "Amber Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Smooth and malty, flavors of caramel & toffee with a balanced hop finish."
+  source: "https://www.theram.com/tacoma-menu/"
 water: null
 yeast: []
 ---
@@ -160,7 +156,9 @@ Source: [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Smooth and malty, flavors of caramel & toffee with a balanced hop finish.
+
+Source: [theram.com](https://www.theram.com/tacoma-menu/)
 
 ## ingredients
 
@@ -212,7 +210,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [theram.com](https://theram.com/locations/), [theram.com](https://www.theram.com/), [theram.com](https://www.theram.com/tacoma-menu/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [theram.com](https://theram.com/locations/), [theram.com](https://www.theram.com/), [theram.com](https://www.theram.com/tacoma-menu/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -220,3 +218,4 @@ No brewery links have been checked yet.
 - Specs and description come from the Tacoma location's menu page; there is no individual beer page.
 - The menu entry carries a "2024 GABF Silver Medal" note beside the beer, an earlier award; no 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu's tasting words are recorded.

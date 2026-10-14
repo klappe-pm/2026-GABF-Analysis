@@ -34,6 +34,7 @@ export function Button({ variant = 'secondary', busy = false, busyLabel, disable
   const density = Number(s.Density ?? 0);
   return (
     <Tag
+      data-component="button"
       type={type}
       disabled={disabled || busy || undefined}
       aria-busy={busy || undefined}
