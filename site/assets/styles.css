@@ -19,6 +19,11 @@
   --series-3: var(--brand-series-3);
   --series-4: var(--brand-series-4);
   --series-5: var(--brand-series-5);
+  /* The brand has five series colors. These three names stay only because the design control plane's
+     sketches still read them; site code uses series 1 to 5. */
+  --series-6: var(--brand-series-5);
+  --series-7: var(--brand-series-2);
+  --series-8: var(--md-sys-color-error);
   --medal-gold: var(--app-color-gold);
   --medal-silver: var(--app-color-silver);
   --medal-bronze: var(--app-color-bronze);
