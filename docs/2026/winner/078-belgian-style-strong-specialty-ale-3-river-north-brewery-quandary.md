@@ -30,11 +30,6 @@ description:
 entries: 46
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://rivernorthbrewery.com/"
-      - "https://www.rivernorthbrewery.com/beer-descriptions"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://rivernorthbrewery.com/"
@@ -110,7 +105,9 @@ sources:
   - "https://www.rivernorthbrewery.com/beer-descriptions"
 srm: null
 style: "Belgian Quad"
-tasting-notes: null
+tasting-notes:
+  text: "Belgian Quad. Dark fruit flavors."
+  source: "https://www.rivernorthbrewery.com/beer-descriptions"
 water: null
 yeast: []
 ---
@@ -146,7 +143,9 @@ Source: [River North: our beers](https://www.rivernorthbrewery.com/beer-descript
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Belgian Quad. Dark fruit flavors.
+
+Source: [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions)
 
 ## ingredients
 
@@ -196,7 +195,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +205,4 @@ No brewery links have been checked yet.
 - The web search budget ran out before Untappd or press could be searched for IBU or ingredients; no 2026 medal announcement was found on the brewery home page.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Quandary](https://catalog.beer/beer/b7aa4f6d-b0a6-420c-9fdb-e6e8c5a12d11) lists 9.6% ABV, 24 IBU, style "Belgian-Style Quadrupel" (entry last modified 2020-05-02). It fills the empty IBU; where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery's description is recorded as tasting notes.

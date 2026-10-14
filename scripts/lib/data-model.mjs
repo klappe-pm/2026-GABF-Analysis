@@ -8,7 +8,7 @@ import { breweryKey, slugify } from './slug.mjs';
 import { abvBand, isSpecialCategory, styleFamily } from './style-families.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
 import { estimateBarrels, estimateFinancials, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
-import { attachWinnerSpecs } from './winner-specs.mjs';
+import { attachBeerSpecs, attachWinnerSpecs } from './winner-specs.mjs';
 import { BREWERIES, ENRICHED, REFERENCE, RESULTS, ROOT } from './paths.mjs';
 import { loadWinnerProfiles } from './winner-profiles.mjs';
 import { buildHopModel, loadHopReference } from './hops.mjs';
@@ -82,6 +82,24 @@ export function canonicalCategoryNames(rows) {
     if (!cur || year > cur.year) newest.set(k, { year, name: String(r.category_name).trim() });
   }
   return new Map([...newest].map(([k, v]) => [k, v.name]));
+}
+
+// The brewery attributes a medal row carries, defined once for the site rows and the explorer
+// records so the two cannot disagree. Each is null where no source states it; nothing is defaulted.
+export const BREWERY_ATTRIBUTES = ['brewery_type', 'ownership_type', 'investors', 'distribution_channel', 'has_kitchen', 'region'];
+export function breweryAttributeLookup(ds) {
+  const byKey = new Map(ds.breweries.map((b) => [b.key, b]));
+  return (row) => {
+    const b = byKey.get(row.brewery_key ?? breweryKey(row.brewery_name ?? row.brewery)) ?? null;
+    return {
+      brewery_type: b?.brewery_type || null,
+      ownership_type: b?.ownership?.ownership_type || null,
+      investors: b?.ownership?.investor || null,
+      distribution_channel: b?.distribution_channel || null,
+      has_kitchen: b?.has_kitchen ?? null,
+      region: ds.stateByCode[String(row.state ?? '').toUpperCase()]?.region || null,
+    };
+  };
 }
 
 // localProfiles: false ignores the git-ignored breweries/ deep dives, so generated documents are the same on every checkout.
@@ -168,6 +186,7 @@ export function loadDataset({ root, localProfiles = true } = {}) {
   const results = gabfRows.map(decorate).sort((a, b) => a.year - b.year || Number(a.category_number) - Number(b.category_number) || a.medal_rank - b.medal_rank);
   const otherResults = otherRows.map(decorate);
   attachWinnerSpecs(results, { dir: root ? resolve(root, 'docs/2026/winner') : undefined });
+  attachBeerSpecs(results, readCsvIfExists(resolve(referenceDir, 'beer-specs.csv')), { keyOf: (brewery, beer) => `${breweryKey(brewery)}|${String(beer).trim().toLowerCase()}` });
   for (const r of results) if (r.spec && r.spec.abv.value !== null) r.abv_band = abvBand(r.abv);
 
   // Year coverage: complete, partial, draft (transcript), pending (competition held but no rows yet).
@@ -235,7 +254,9 @@ export function loadDataset({ root, localProfiles = true } = {}) {
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
     b.locations_count = b.location_list.length || Number(pd['locations-count'] ?? '') || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
     // null when no profile or fact states it; the revenue estimate then adds no food revenue.
-    b.has_kitchen = pd['has-kitchen'] !== undefined ? Boolean(pd['has-kitchen']) : (b.location_list.length ? b.location_list.some((l) => l.kitchen) : null);
+    // A kitchen is stated only where a fact, profile, or listed location says so; a location that is silent on it states nothing.
+    const stated = b.location_list.map((l) => l.kitchen).filter((k) => k !== undefined && k !== null && k !== '');
+    b.has_kitchen = pd['has-kitchen'] !== undefined ? Boolean(pd['has-kitchen']) : (stated.length ? stated.some(Boolean) : null);
     b.distribution_channel = pd['distribution-channel'] ?? b.distributors[0]?.channel ?? '';
     const barrels = pd['barrels-estimate'] ? { barrels: Number(pd['barrels-estimate']), basis: 'estimate', confidence: 'low', source: 'brewery profile' } : estimateBarrels({ production: b.production, breweryType: b.brewery_type, locationsCount: b.locations_count, botyBracket: b.awards[0]?.bracket ?? '' }, params);
     const revenue = pd['revenue-estimate-usd']

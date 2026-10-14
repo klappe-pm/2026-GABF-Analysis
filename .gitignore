@@ -5,6 +5,7 @@ _site/
 /gabf-dashboard.html
 /gabf-explorer.html
 /docs/design/chart-gallery/index.html
+/data/enriched/winners-*.sqlite
 dist-hosted/
 dist-review/
 data/raw/*.pdf

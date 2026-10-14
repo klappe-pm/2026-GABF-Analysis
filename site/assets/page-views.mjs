@@ -42,8 +42,10 @@ export const entriesPerMedal = (r) => (r.entries && r.category_medals ? r.entrie
 // used here.
 export const NOT_DEFINED_HTML = '<span class="muted">Not defined</span>';
 const hasNum = (v) => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v));
-export const abvCell = (x) => (hasNum(x.abv) ? `${esc(Number(x.abv).toFixed(1).replace(/\.0$/, ''))}%` : NOT_DEFINED_HTML);
-export const ibuCell = (x) => (hasNum(x.ibu) ? esc(String(Number(x.ibu))) : NOT_DEFINED_HTML);
+// A current published value (not the medal year's figure) carries its note and source link.
+export const specNoteHtml = (x, url) => (x.spec_note ? ` <span class="muted small">(${url ? `<a href="${esc(url)}" rel="noopener">${esc(x.spec_note)}</a>` : esc(x.spec_note)})</span>` : '');
+export const abvCell = (x) => (hasNum(x.abv) ? `${esc(Number(x.abv).toFixed(1).replace(/\.0$/, ''))}%${specNoteHtml(x, x.abv_source)}` : NOT_DEFINED_HTML);
+export const ibuCell = (x) => (hasNum(x.ibu) ? `${esc(String(Number(x.ibu)))}${specNoteHtml(x, x.ibu_source)}` : NOT_DEFINED_HTML);
 const profileCell = (x, r) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">Full profile</a>` : NOT_DEFINED_HTML);
 
 // compact: drop columns whose value is the same on every row and columns empty on every row.
@@ -450,11 +452,12 @@ ${figure({ id: 'division-medals', title: 'Medals by division', height: Math.max(
 function ownershipView(rows, ctx) {
   const { page } = ctx;
   const byType = countBy(rows, 'ownership_type').map(([v, value]) => ({ label: valueLabel('ownership_type', v), value }));
-  const indep = rows.filter((x) => ['independent', 'employee-owned', 'unlisted'].includes(x.ownership_type)).length;
+  const indep = rows.filter((x) => ['independent', 'employee-owned'].includes(x.ownership_type)).length;
+  const undefinedCount = rows.filter((x) => x.ownership_type === 'unlisted').length;
   const ownedKeys = new Set(rows.filter((x) => !['independent', 'employee-owned', 'unlisted'].includes(x.ownership_type)).map((x) => x.brewery_key));
   const parents = items(countBy(rows.filter((x) => ownedKeys.has(x.brewery_key)).map((x) => ({ p: x.parent || valueLabel('ownership_type', x.ownership_type) })), 'p'));
   const listed = new Set(rows.filter((x) => page.ownershipKeys.includes(x.brewery_key)).map((x) => x.brewery_key)).size;
-  return `<div class="stats">${statTile({ label: 'Medals to independents', value: pct(indep, rows.length), note: `${fmt(indep)} of ${fmt(rows.length)} medals in view; no ownership record counts as independent` })}${statTile({ label: 'Medalists with an ownership record', value: String(listed) })}${statTile({ label: 'Large brewer or conglomerate owned medalists', value: String(ownedKeys.size) })}</div>
+  return `<div class="stats">${statTile({ label: 'Medals to independents', value: pct(indep, rows.length), note: `${fmt(indep)} of ${fmt(rows.length)} medals in view; ${fmt(undefinedCount)} have no ownership record and are not counted` })}${statTile({ label: 'Medalists with an ownership record', value: String(listed) })}${statTile({ label: 'Large brewer or conglomerate owned medalists', value: String(ownedKeys.size) })}</div>
 <div class="grid">
 ${barsFigure('ownership-type', 'Medals by ownership type', byType, { labelWidth: 230, labelHeader: 'Ownership' })}
 ${parents.length ? barsFigure('parents', 'Medals by parent company', parents, { subtitle: 'owners that are not independent', color: 'var(--series-2)', labelWidth: 230, labelHeader: 'Parent' }) : '<div class="card"><h2>parents</h2><p class="muted">No medalist in view is owned by a large brewer or conglomerate.</p></div>'}

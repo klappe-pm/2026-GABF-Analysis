@@ -24,21 +24,45 @@ export type FiltersCopy = {
   partialNote: string;
 };
 
+// The live selection when the page owns the filter state (the site shell does); without it the fields
+// show their defaults, as the style guide's specimen does.
+export type FiltersControls = {
+  values: Record<string, string>;
+  onField: (id: string, value: string) => void;
+  query: string;
+  onQuery: (query: string) => void;
+  partial: boolean;
+  onPartial: (include: boolean) => void;
+  onApply: () => void;
+  onReset: () => void;
+  onOpen?: () => void;
+  busy?: string;
+};
+
 // The filter fields: a search field, then When, What, Where, and Who as groups of selects.
-function Fields({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[] }) {
+function Fields({ idPrefix, copy, groups, controls }: { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[]; controls?: FiltersControls }) {
   return (
     <div className="flex flex-col gap-6">
-      <SearchField id={`${idPrefix}-search`} label={copy.searchLabel} placeholder={copy.searchPlaceholder} />
+      <SearchField id={`${idPrefix}-search`} label={copy.searchLabel} placeholder={copy.searchPlaceholder} value={controls?.query} onValueChange={controls?.onQuery} />
       {groups.map((g) => (
         <fieldset key={g.key} className="flex flex-col gap-3">
           <legend className="type-title-small mb-3 text-on-surface">{g.title}</legend>
           <div className="grid grid-cols-1 gap-4 medium:grid-cols-2">
-            {g.fields.map((f) => <Select key={f.id} id={`${idPrefix}-${f.id}`} label={f.label} options={f.options} />)}
+            {g.fields.map((f) => (
+              <Select
+                key={f.id}
+                id={`${idPrefix}-${f.id}`}
+                label={f.label}
+                options={f.options}
+                value={controls ? controls.values[f.id] ?? f.options[0]?.value : undefined}
+                onValueChange={controls ? (v) => controls.onField(f.id, v) : undefined}
+              />
+            ))}
           </div>
-          {g.key === 'when' ? <Checkbox id={`${idPrefix}-partial`} label={copy.partialLabel} hint={copy.partialNote} /> : null}
+          {g.key === 'when' ? <Checkbox id={`${idPrefix}-partial`} label={copy.partialLabel} hint={copy.partialNote} checked={controls?.partial} onCheckedChange={controls?.onPartial} /> : null}
         </fieldset>
       ))}
-      <p role="status" className="type-title-small tabular-nums text-on-surface">{copy.matchCount}</p>
+      <p role="status" className="type-title-small tabular-nums text-on-surface">{controls?.busy ?? copy.matchCount}</p>
     </div>
   );
 }
@@ -65,23 +89,25 @@ export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy
 }
 
 // The Filters button and its Material dialog. F opens it; Escape closes it; focus stays inside while open.
-export function FiltersDialog({ copy, groups }: { copy: FiltersCopy; groups: FilterGroup[] }) {
+// With controls, the fields show the page's selection, Show results applies it, and Clear all resets it.
+export function FiltersDialog({ copy, groups, controls, triggerLabel, triggerAccessibleLabel }: { copy: FiltersCopy; groups: FilterGroup[]; controls?: FiltersControls; triggerLabel?: string; triggerAccessibleLabel?: string }) {
   const s = useSettings('filters-dialog');
   const reduce = useReducedMotion();
   const ref = useRef<HTMLElement & { show(): void; close(): void; open: boolean }>(null);
+  const onOpen = controls?.onOpen;
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.composedPath()[0] as HTMLElement | null;
       if (e.key !== 'f' || e.metaKey || e.ctrlKey || e.altKey || el?.closest?.('input, select, textarea, [contenteditable], md-outlined-text-field, md-filled-text-field')) return;
-      if (ref.current && !ref.current.open) { e.preventDefault(); ref.current.show(); }
+      if (ref.current && !ref.current.open) { e.preventDefault(); onOpen?.(); ref.current.show(); }
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, []);
+  }, [onOpen]);
   const width = `min(${Number(s['Width on wide screens'] ?? 560)}px, 100% - 48px)`;
   return (
     <>
-      <Button variant="secondary" aria-haspopup="dialog" onClick={() => ref.current?.show()}>{copy.trigger}</Button>
+      <Button variant="secondary" aria-haspopup="dialog" aria-label={triggerAccessibleLabel} onClick={() => { onOpen?.(); ref.current?.show(); }}>{triggerLabel ?? copy.trigger}</Button>
       <md-dialog
         ref={ref}
         data-component="filters-dialog"
@@ -89,14 +115,15 @@ export function FiltersDialog({ copy, groups }: { copy: FiltersCopy; groups: Fil
         aria-labelledby="filters-sheet-title"
         style={vars({ '--md-dialog-container-shape': shape(s.Shape ?? 'extra large'), maxWidth: width, width })}
       >
-        <div slot="headline" id="filters-sheet-title">{copy.title}</div>
-        <form slot="content" id="filters-sheet-form" method="dialog">
-          <Fields idPrefix="filters-dialog" copy={copy} groups={groups} />
+        {/* The page's base reset outranks Material's ::slotted spacing, so each slot sets Material's dialog padding itself. */}
+        <div slot="headline" id="filters-sheet-title" className="px-6 pt-6 pb-4">{copy.title}</div>
+        <form slot="content" id="filters-sheet-form" method="dialog" className="px-6 pt-2 pb-2" onSubmit={() => controls?.onApply()}>
+          <Fields idPrefix="filters-dialog" copy={copy} groups={groups} controls={controls} />
         </form>
-        <div slot="actions">
+        <div slot="actions" className="flex flex-wrap justify-end gap-2 px-6 pt-4 pb-6">
           <Button variant="quiet" onClick={() => ref.current?.close()}>{copy.close}</Button>
-          <Button variant="secondary" type="reset" form="filters-sheet-form">{copy.reset}</Button>
-          <Button variant="primary" type="submit" form="filters-sheet-form" value="apply">{copy.apply}</Button>
+          {controls ? <Button variant="secondary" onClick={controls.onReset}>{copy.reset}</Button> : <Button variant="secondary" type="reset" form="filters-sheet-form">{copy.reset}</Button>}
+          <Button variant="primary" type="submit" form="filters-sheet-form" value="apply" onClick={controls ? () => { controls.onApply(); ref.current?.close(); } : undefined}>{copy.apply}</Button>
         </div>
       </md-dialog>
     </>

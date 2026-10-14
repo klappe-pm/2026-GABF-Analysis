@@ -14,7 +14,7 @@ aliases: []
 tags:
   - "silver"
   - "ut"
-abv: null
+abv: 6.2
 adjuncts: []
 beer: "Templin Family Tomatillo Bier"
 beer-url: null
@@ -30,24 +30,13 @@ description:
 entries: 31
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
-      - "https://tfbrewing.com/beers/"
-      - "https://www.tfbrewing.com/"
-      - "web searches recorded in the research notes"
-  - field: "abv"
-    sources-checked:
-      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
-      - "https://tfbrewing.com/beers/"
-      - "https://www.tfbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
       - "https://tfbrewing.com/beers/"
       - "https://www.tfbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
@@ -114,12 +103,6 @@ gaps:
       - "https://tfbrewing.com/beers/"
       - "https://www.tfbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
-      - "https://tfbrewing.com/beers/"
-      - "https://www.tfbrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -127,7 +110,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Rested in oak barrels for 16 months; collaboration farmhouse ale with Purpose Brewing, with tomatillo and prickly ash"
+  source: "https://tfbrewing.com/beer/tomatillo-sour-ale/"
 sources:
   - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
   - "https://tfbrewing.com/beers/"
@@ -135,7 +120,9 @@ sources:
   - "https://www.tfbrewing.com/"
 srm: null
 style: "Belgian-Style or Spontaneous Sour Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Big notes of bruised tropical and citrus fruits, a pleasant malty backbone, mild oak character, and lighter notes of herbs and spice. The tomatillo and prickly ash are present but play a supporting role in this highly complex beer."
+  source: "https://tfbrewing.com/beer/tomatillo-sour-ale/"
 water: null
 yeast: []
 ---
@@ -155,7 +142,7 @@ Tomatillo Bier is a sour ale entered by Templin Family Brewing of Salt Lake City
 | Field | Value | Source |
 |---|---|---|
 | Style | not published under this name; the competition category is used | none found |
-| ABV | not published under this name | none found |
+| ABV | 6.2% | [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
@@ -173,7 +160,9 @@ Source: [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatill
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Big notes of bruised tropical and citrus fruits, a pleasant malty backbone, mild oak character, and lighter notes of herbs and spice. The tomatillo and prickly ash are present but play a supporting role in this highly complex beer.
+
+Source: [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/)
 
 ## ingredients
 
@@ -191,7 +180,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Rested in oak barrels for 16 months; collaboration farmhouse ale with Purpose Brewing, with tomatillo and prickly ash | [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/) |
 
 ## style-context
 
@@ -224,8 +213,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -234,3 +223,4 @@ No brewery links have been checked yet.
 - The web search budget ran out before press or Untappd could be searched to confirm the name.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches for Tomatillo Bier, Untappd, BeerMenus and 2026 medal coverage did not establish that the winner is the Tomatillo Sour Ale already discussed above. No additional accepted values; structured fields remain empty.
+- Deep dive pass 2026-10-14: the brewery page (Tomatillo Sour Ale, a collaboration with Purpose Brewing) gives 6.2% ABV, tasting notes, the tomatillo and prickly ash, and 16 months in oak barrels.

@@ -1,20 +1,31 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import { useSettings } from '@/design/runtime';
 import { typeOf } from '@/design/helpers';
 
-type Props = { id: string; label: string; hint?: string; defaultChecked?: boolean; disabled?: boolean };
+type Props = { id: string; label: string; hint?: string; defaultChecked?: boolean; checked?: boolean; onCheckedChange?: (checked: boolean) => void; disabled?: boolean };
 
-// A Material checkbox with its label beside it; the whole row is the target.
-export function Checkbox({ id, label, hint, defaultChecked, disabled }: Props) {
+// A Material checkbox with its label beside it; the whole row is the target. Pass checked and
+// onCheckedChange to control it.
+export function Checkbox({ id, label, hint, defaultChecked, checked, onCheckedChange, disabled }: Props) {
   const s = useSettings('checkbox');
+  const ref = useRef<HTMLElement & { checked: boolean }>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !onCheckedChange) return;
+    const onChange = () => onCheckedChange(el.checked);
+    el.addEventListener('change', onChange);
+    return () => el.removeEventListener('change', onChange);
+  }, [onCheckedChange]);
   return (
     <div className="flex items-start gap-1" data-component="checkbox">
       <md-checkbox
+        ref={ref}
         id={id}
         name={id}
         touch-target="wrapper"
-        checked={defaultChecked || undefined}
+        checked={(checked ?? defaultChecked) || undefined}
         disabled={disabled || undefined}
         aria-describedby={hint ? `${id}-hint` : undefined}
       />

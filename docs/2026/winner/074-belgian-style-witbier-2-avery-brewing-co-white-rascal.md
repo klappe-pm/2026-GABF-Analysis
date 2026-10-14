@@ -102,13 +102,6 @@ gaps:
       - "https://www.averybrewing.com/beers/white-rascal"
       - "https://www.guruofbrew.com/avery_white_rascal"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://en.wikipedia.org/wiki/Avery_Brewing_Company"
-      - "https://www.averybrewing.com/"
-      - "https://www.averybrewing.com/beers/white-rascal"
-      - "https://www.guruofbrew.com/avery_white_rascal"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Bravo"
     variety: "Bravo"
@@ -137,7 +130,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Unfiltered, spiced with coriander and Curaçao orange peel"
+  source: "https://www.averybrewing.com/beers/white-rascal"
 sources:
   - "https://catalog.beer/beer/72f2f8f9-150d-4ded-ba38-e5d38513c400"
   - "https://en.wikipedia.org/wiki/Avery_Brewing_Company"
@@ -205,7 +200,7 @@ The current [brewery page](https://www.averybrewing.com/beers/white-rascal) name
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Unfiltered, spiced with coriander and Curaçao orange peel | [averybrewing.com](https://www.averybrewing.com/beers/white-rascal) |
 
 ## style-context
 
@@ -241,7 +236,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [en.wikipedia.org](https://en.wikipedia.org/wiki/Avery_Brewing_Company), [averybrewing.com](https://www.averybrewing.com/), [averybrewing.com](https://www.averybrewing.com/beers/white-rascal), [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [en.wikipedia.org](https://en.wikipedia.org/wiki/Avery_Brewing_Company), [averybrewing.com](https://www.averybrewing.com/), [averybrewing.com](https://www.averybrewing.com/beers/white-rascal), [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -251,3 +246,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A 2017 review explicitly names Avery White Rascal and transcribes three hop varieties from the brewery website. Its spelling Hersbruker is normalized to Hersbrucker. No dated variant is identified, but continued use in the 2026 batch is unconfirmed; homebrew clone recipes were not used.
 - Catalog.beer 2026-10-14: [Catalog.beer: White Rascal](https://catalog.beer/beer/72f2f8f9-150d-4ded-ba38-e5d38513c400) lists 5.6% ABV, 22 IBU, style "Belgian-Style White (or Wit) / Belgian-Style Wheat" (entry last modified 2026-08-08). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page says the beer is unfiltered and spiced; no tasting notes beyond that.

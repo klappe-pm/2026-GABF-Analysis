@@ -9,7 +9,7 @@ import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { marked } from 'marked';
 import { DIST, REFERENCE, RESULTS, ROOT, SITE, parseArgs } from './lib/paths.mjs';
-import { categoryIndex, loadDataset } from './lib/data-model.mjs';
+import { breweryAttributeLookup, categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { ABV_BANDS } from './lib/style-families.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { compact, countBy, esc, figure, humanizeHeadings, tableHtml } from '../site/assets/charts.mjs';
@@ -142,7 +142,7 @@ function otherMedalsTable(rows) {
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown', 'beer_style', 'tasting_note', 'tasting_source'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'spec_note', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown', 'beer_style', 'tasting_note', 'tasting_source'];
 
 // Decorate the medal rows once per dataset with what the views and the filter need: brewery
 // attributes, medals awarded per category and year (for entries per medal), the 2026 research
@@ -157,12 +157,15 @@ export function enrichResults(ds) {
   for (const r of ds.results) perCat.set(`${r.year}|${r.category_name}`, (perCat.get(`${r.year}|${r.category_name}`) ?? 0) + 1);
   const partialYears = ds.years.filter((y) => ds.coverage[y] === 'partial');
   const status = firstTimeStatus(ds.results, { year: WINNER_YEAR, partialYears });
+  const attrs = breweryAttributeLookup(ds);
   for (const r of ds.results) {
     const b = byKey.get(r.brewery_key);
-    r.brewery_type = b?.brewery_type ?? '';
-    r.ownership_type = b?.ownership?.ownership_type ?? 'unlisted';
+    const a = attrs(r);
+    // The site's stated-gap tokens: a blank type, 'unlisted' ownership and 'unknown' distribution all read Not defined.
+    r.brewery_type = a.brewery_type ?? '';
+    r.ownership_type = a.ownership_type ?? 'unlisted';
     r.parent = b?.ownership?.parent ?? '';
-    r.distribution_channel = b?.distribution_channel || 'unknown';
+    r.distribution_channel = a.distribution_channel ?? 'unknown';
     r.category_medals = perCat.get(`${r.year}|${r.category_name}`) ?? null;
     const p = profileFor(r);
     if (p) {
@@ -172,6 +175,9 @@ export function enrichResults(ds) {
     r.abv_source = r.spec?.abv.source?.url ?? null;
     r.ibu_source = r.spec?.ibu.source?.url ?? null;
     r.beer_url = r.spec?.beer_url ?? null;
+    // A current published value (Catalog.beer or a brewery site) is labelled as such, never as the medal year's figure.
+    const cur = r.spec?.current ? (r.spec.abv.source ?? r.spec.ibu.source ?? r.spec.style.source) : null;
+    r.spec_note = cur ? [COPY('global.tables.medal_columns.current_value', { source: cur.label, date: r.spec.retrieved }), r.spec.confidence === 'medium' ? COPY('global.tables.medal_columns.current_value_medium') : ''].filter(Boolean).join('; ') : null;
     if (r.year === WINNER_YEAR) r.first_time = status.get(r.brewery_key) ?? '';
   }
   ds.winnerProfiles = profiles;

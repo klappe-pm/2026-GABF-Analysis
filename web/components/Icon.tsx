@@ -6,7 +6,8 @@ import { useSettings } from '@/design/runtime';
 // They inherit the text color. Size and stroke width come from the icon spec.
 
 export type IconName = 'close' | 'chevron-down' | 'search' | 'check' | 'menu' | 'sort' | 'sort-ascending' | 'sort-descending' | 'filter'
-  | 'tune' | 'palette' | 'type' | 'shape' | 'layers' | 'widgets';
+  | 'tune' | 'palette' | 'type' | 'shape' | 'layers' | 'widgets'
+  | 'medal' | 'brewery' | 'beer' | 'chart' | 'hop' | 'list' | 'farm';
 
 const PATHS: Record<IconName, string> = {
   close: 'M4 4 12 12 M12 4 4 12',
@@ -25,6 +26,14 @@ const PATHS: Record<IconName, string> = {
   shape: 'M3 3h5v5H3z M11 8.5a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5',
   layers: 'M8 2.5 13.5 5.5 8 8.5 2.5 5.5z M2.5 8.5 8 11.5 13.5 8.5 M2.5 11 8 14 13.5 11',
   widgets: 'M2.5 2.5h4.5v4.5H2.5z M9 2.5h4.5v4.5H9z M2.5 9h4.5v4.5H2.5z M9 9h4.5v4.5H9z',
+  // Destinations of the site navigation.
+  medal: 'M5.5 2.5 8 6.5 10.5 2.5 M8 6.5a3.5 3.5 0 1 1 0 7a3.5 3.5 0 1 1 0-7',
+  brewery: 'M2.5 13.5h11 M3 13.5V7l3 2V7l3 2V7l3 2V2.5h1.5v11',
+  beer: 'M4 5h6v8a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 4 13z M10 7h1.5a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H10 M4 5a1.5 1.5 0 0 1 2-1.4 1.5 1.5 0 0 1 2.5 0A1.5 1.5 0 0 1 10 5',
+  chart: 'M2.5 13.5h11 M4.5 11V8 M8 11V4 M11.5 11V6.5',
+  hop: 'M8 2.5c2.3 1.4 3.5 3.8 3.5 6.5a3.5 3.5 0 0 1-7 0c0-2.7 1.2-5.1 3.5-6.5z M5 7.5h6 M4.6 10h6.8',
+  list: 'M5.5 4.5h8 M5.5 8h8 M5.5 11.5h8 M2.5 4.5h.01 M2.5 8h.01 M2.5 11.5h.01',
+  farm: 'M2.5 13.5h11 M3.5 13.5V8L8 4.5 12.5 8v5.5 M6.5 13.5v-3h3v3',
 };
 
 export function Icon({ name, label, size, slot }: { name: IconName; label?: string; size?: number; slot?: string }) {
