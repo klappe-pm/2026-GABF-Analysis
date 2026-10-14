@@ -20,12 +20,18 @@ function walk(dir, out = []) {
   for (const entry of readdirSync(dir)) {
     if (SKIP_DIRS.has(entry)) continue;
     const full = resolve(dir, entry);
+    if (isFeedbackTicket(relative(ROOT, full))) continue;
     const st = statSync(full);
     if (st.isDirectory()) walk(full, out);
     else if (entry.endsWith('.md')) out.push(full);
   }
   return out;
 }
+
+// Feedback tickets under docs/feedback/ hold a reviewer's own words, verbatim, with machine written
+// sections around them, so the prose rules do not apply to them. They are checked for their
+// structure by npm run design:check and scanned for secrets before they are written.
+export const isFeedbackTicket = (rel) => rel.split('\\').join('/').startsWith('docs/feedback/');
 
 const RESERVED = new Set(['README.md', 'CLAUDE.md', 'AGENTS.md', 'CODEX.md', 'GEMINI.md', 'MEMORY.md']);
 
@@ -84,6 +90,7 @@ function repositoryMarkdown() {
     const out = execFileSync('git', ['ls-files', '--cached', '--others', '--exclude-standard', '-z', '--', '*.md'], { cwd: ROOT, encoding: 'utf8' });
     return [...new Set(out.split('\0').filter(Boolean))]
       .filter((rel) => !rel.split('/').some((part) => SKIP_DIRS.has(part)))
+      .filter((rel) => !isFeedbackTicket(rel))
       .map((rel) => resolve(ROOT, rel))
       .filter((full) => existsSync(full));
   } catch {
