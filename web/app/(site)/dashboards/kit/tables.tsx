@@ -27,7 +27,7 @@ function Pager({ copy, shown, total, onMore, onAll }: { copy: Copy; shown: numbe
       <p className="type-body-medium tabular-nums text-on-surface-variant">{copy.t('tables.pager.showing', { shown: fmtN(shown), total: fmtN(total) })}</p>
       {shown < total ? (
         <>
-          <Button onClick={onMore}>{copy.t('tables.pager.show_more', { count: Math.min(100, total - shown) })}</Button>
+          <Button onClick={onMore}><span style={{ fontFamily: 'var(--md-ref-typeface-plain)' }}>{copy.t('tables.pager.show_more', { count: Math.min(100, total - shown) })}</span></Button>
           <Button variant="quiet" onClick={onAll}>{copy.t('tables.pager.show_all')}</Button>
         </>
       ) : null}
