@@ -93,7 +93,7 @@ export function BreweriesTable({ info, initial, copy }: { info: Record<string, I
               marker={copy.mark}
               label={markLabel('arr', copy.estimate)}
               explanation={explain('arr', b.est, copy.estimate)}
-              link={{ href: href(paths.about), text: copy.methodLink }}
+              linkText={copy.methodLink}
             />
           </span>
         ),
