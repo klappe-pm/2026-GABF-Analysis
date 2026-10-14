@@ -1,0 +1,92 @@
+---
+domain: beer
+category: gabf-winner
+sub-category: "2026"
+topics:
+  - "gabf"
+  - "lager"
+types:
+  - "beer-profile"
+date-created: 2026-10-13
+date-revised: 2026-10-13
+status: DONE
+aliases: []
+tags:
+  - "gold"
+  - "va"
+abv: 5.2
+adjuncts: []
+beer: "Oktoberfest"
+beer-url: "https://www.portcitybrewing.com/oktoberfest"
+brewery: "Port City Brewing Co."
+brewery-city: "Alexandria"
+brewery-state: "VA"
+brewery-url: "https://www.portcitybrewing.com/"
+category-name: "Vienna-Style Lager"
+category-number: 55
+entries: 82
+hops:
+  - "Noble hops"
+ibu: 24
+malts:
+  - "German malt"
+medal: "Gold"
+place: 1
+sources:
+  - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+  - "https://www.portcitybrewing.com/"
+  - "https://www.portcitybrewing.com/beer"
+  - "https://www.portcitybrewing.com/oktoberfest"
+style: "Märzen-style lager"
+yeast: []
+---
+
+# 055-vienna-style-lager-1-port-city-brewing-co-oktoberfest
+
+Oktoberfest is a seasonal, unfiltered Märzen-style lager from Port City Brewing Co. in Alexandria, Virginia, served keller or zwickel style.
+
+## award
+
+| Category | Medal | Entries | Brewery | Location |
+|---|---|---|---|---|
+| 55, Vienna-Style Lager | Gold (1st place) | 82 | Port City Brewing Co. | Alexandria, VA |
+
+## specs
+
+| Field | Value | Source |
+|---|---|---|
+| Style | Märzen-style lager | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+| ABV | 5.2% | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+| IBU | 24 | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+| Hops | Noble hops (German), no varieties named | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+| Malts and grains | German malts, no varieties named | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+| Yeast | not published | none found |
+| Adjuncts, fruit, spices | none listed | none found |
+| Other | Bright amber; available July to October; 12 oz bottles and draft; unfiltered with natural carbonation | [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest) |
+
+## brewery-description
+
+> TOASTY, SWEET, SOFT BITTERNESS.
+
+Source: [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest)
+
+## ingredients
+
+The brewery says the beer is brewed with German malts and "just a touch of Noble hops," giving subtle toasted bread flavors and a clean, dry finish ([Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest)). No varieties or yeast are named.
+
+## style-context
+
+As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Vienna-Style Lager calls for malty aroma, light malt sweetness and a lightly toasted or caramel character, 4.8 to 5.4 percent ABV, 20 to 26 IBU and 6 to 18 SRM. The published 5.2% ABV and 24 IBU fit, even though the brewery labels the beer a Märzen.
+
+## links
+
+- [Beer page on brewery site](https://www.portcitybrewing.com/oktoberfest)
+- [Port City Brewing Co.](https://www.portcitybrewing.com/)
+- [Port City: beer list](https://www.portcitybrewing.com/beer)
+- [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## research-notes
+
+- The beer page and the 2026 seasonals list on the beer page agree on every published spec; no conflict.
+- No 2026 medal announcement from the brewery was found; its home page does not mention Oktoberfest.
+- Researched 2026-10-13.

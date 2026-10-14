@@ -7,7 +7,7 @@ topics:
 types:
   - reference
 date-created: 2026-10-11
-date-revised: 2026-10-11
+date-revised: 2026-10-13
 status: ACCEPTED
 aliases: []
 tags: []
@@ -56,6 +56,30 @@ category_name, style_family, abv_min, abv_max, ibu_min, ibu_max, srm_min, srm_ma
 ## reference-states-csv
 
 state, name, region, division, population_2020, source.
+
+## reference-fed-districts-csv
+
+state, district_number (1 to 12), district_name, split (yes or no), secondary_districts, source, verified (no marks the West Virginia approximation). Written by scripts/build-fed-districts.mjs.
+
+## reference-fed-district-counties-csv
+
+state, county_fips, county_name, district_number, basis (named or complement), source. Split states only.
+
+## reference-medal-city-counties-csv
+
+state, city (exactly as printed on the medal rows), county_fips (several joined by `;` when the city spans counties in one district), county_name, district_number, source, verified, note. Split states only.
+
+## reference-state-indicators-csv
+
+state, year, indicator, value, unit, source, source_url, verified (yes, or derived for gdp_per_capita_real). Indicators and their years are listed in docs/data-sources.md. Written by scripts/fetch-state-indicators.mjs.
+
+## reference-district-indicators-csv
+
+district_number, district_name, year, indicator (population, gdp_real, gdp_nominal, gdp_per_capita_real), value, unit, source, source_url, verified (yes, derived, approximation, or estimate (E) where split state GDP is apportioned).
+
+## result-row-district-fields
+
+The data model adds fed_district, fed_district_name, and fed_district_method (state, county, approximation, or approximation (city not resolved)) to every medal row; World Beer Cup rows outside the US carry blanks. The fields appear in dist/data/results.json and the dashboard CSV download.
 
 ## reference-ownership-csv
 
