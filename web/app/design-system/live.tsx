@@ -203,7 +203,7 @@ export function SpecimenMeta({ name, statusLabel, statuses, specLink, href }: { 
   return (
     <span className="flex flex-wrap items-center gap-2">
       <span className="type-label-large inline-flex min-h-8 items-center rounded-(--md-sys-shape-corner-small) bg-secondary-container px-3 text-on-secondary-container">{statusLabel}: {statuses[meta[name]?.status ?? 'draft']}</span>
-      <md-text-button href={href}>{specLink}</md-text-button>
+      <md-text-button href={href} target="_blank">{specLink}</md-text-button>
     </span>
   );
 }

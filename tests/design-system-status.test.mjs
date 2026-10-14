@@ -22,6 +22,16 @@ test('every component has a spec with a valid status and valid settings', () => 
   }
 });
 
+test('every spec lists its options under ## <name>-options, and the page heading comes from copy', () => {
+  for (const s of loadSpecs()) {
+    assert.match(s.body, new RegExp(`^## ${s.dir}-options$`, 'm'), s.spec);
+    assert.doesNotMatch(s.text, /what-you-can-change/i, s.spec);
+  }
+  const copy = readFileSync(resolve(WEB, '..', '.docs/content-management-system/pages/design-system.md'), 'utf8');
+  assert.match(copy, /^- `options_heading`: \{\{name\}\} Options$/m);
+  assert.match(copy, /^- `spec_link`: GitHub: \{\{name\}\} Spec$/m);
+});
+
 test('the global settings are valid, and the seed is a quoted hex color', () => {
   const { data } = readDoc(SETTINGS);
   for (const [key, kind] of Object.entries(d.GLOBAL)) assert.equal(d.valueProblem(kind, data[key]), null, key);

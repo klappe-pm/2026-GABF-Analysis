@@ -9,7 +9,7 @@ Shape: small
 
 ![Status chip](status-chip.png)
 
-## what-you-can-change
+## status-chip-options
 
 - Container color: tertiary container
 - Shape: small

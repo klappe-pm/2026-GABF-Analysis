@@ -8,6 +8,6 @@ Field style: outlined
 
 ![Select](select.png)
 
-## what-you-can-change
+## select-options
 
 - Field style: outlined

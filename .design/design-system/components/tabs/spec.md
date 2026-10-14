@@ -7,6 +7,6 @@ code: scripts/build-site.mjs
 
 ![Dashboard tabs](tabs.png)
 
-## what-you-can-change
+## tabs-options
 
 - Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.

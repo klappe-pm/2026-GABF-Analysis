@@ -10,7 +10,7 @@ Elevation: 2
 
 ![Estimate tooltip](estimate-tooltip.png)
 
-## what-you-can-change
+## estimate-tooltip-options
 
 - Shape: medium
 - Surface: surface container

@@ -9,7 +9,7 @@ Text style: label large
 
 ![Breadcrumb](breadcrumb.png)
 
-## what-you-can-change
+## breadcrumb-options
 
 - Separator: /
 - Text style: label large

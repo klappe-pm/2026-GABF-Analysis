@@ -8,6 +8,6 @@ Field style: outlined
 
 ![Search field](search-field.png)
 
-## what-you-can-change
+## search-field-options
 
 - Field style: outlined
