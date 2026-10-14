@@ -35,66 +35,79 @@ gaps:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/roaring-table-brewing-direct-fire/6791463"
       - "https://untappd.com/RoaringTableBrewing/beer?q=direct+fire"
       - "web searches recorded in the research notes"
+      - "https://www.roaringtablebrewing.com/ (did not respond)"
 hop-profile: []
 hops: []
 ibu: null
@@ -195,8 +208,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463), [untappd.com](https://untappd.com/RoaringTableBrewing/beer?q=direct+fire), web searches recorded in the research notes, [roaringtablebrewing.com](https://www.roaringtablebrewing.com/ (did not respond)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -205,3 +218,4 @@ No brewery links have been checked yet.
 - All specs come from the Untappd listing.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the guessed brewery address did not respond; the description on file comes from Untappd and is not extended into tasting notes or process.

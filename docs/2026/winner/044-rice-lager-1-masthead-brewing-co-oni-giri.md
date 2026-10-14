@@ -243,3 +243,4 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 - All specs come from the Tavour retailer listing only.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: no tasting notes beyond the retailer copy on file.

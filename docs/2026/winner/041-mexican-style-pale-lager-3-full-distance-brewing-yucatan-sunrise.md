@@ -39,6 +39,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "srm"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -46,6 +47,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "og"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -53,6 +55,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "fg"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -60,6 +63,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "hop-form"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -67,6 +71,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "hop-use"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -74,6 +79,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "lot-or-farm"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -81,6 +87,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "yeast"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -88,6 +95,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "water"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -95,6 +103,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
   - field: "process"
     sources-checked:
       - "https://fulldistancebrewing.com/"
@@ -102,6 +111,7 @@ gaps:
       - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
       - "https://untappd.com/FullDistanceBrewing/beer"
       - "web searches recorded in the research notes"
+      - "https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224"
 hop-profile:
   - published: "Lemondrop"
     variety: "Lemondrop"
@@ -214,7 +224,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fulldistancebrewing.com](https://fulldistancebrewing.com/), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890), [untappd.com](https://untappd.com/FullDistanceBrewing/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fulldistancebrewing.com](https://fulldistancebrewing.com/), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890), [untappd.com](https://untappd.com/FullDistanceBrewing/beer), web searches recorded in the research notes, [web page](https://full-distance-brewing.square.site/product/full-distance-brewing-yucatan-sunrise-pickup-/224).
 
 ## research-notes
 
@@ -223,3 +233,4 @@ No brewery links have been checked yet.
 - The brewery home page returned only its title, so no beer-url or brewery description was found.
 - Yucatan Sunset (5.2%, 10 IBU) is a separate dark Mexican lager; it is not the medal beer.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery shop listing was found in its sitemap; the description on file comes from Untappd and is not extended.

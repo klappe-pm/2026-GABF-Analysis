@@ -232,3 +232,4 @@ No brewery links have been checked yet.
 - No 2026 GABF announcement was found on the brewery home page.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Dort Light](https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a) lists 2.9% ABV, style "Dortmunder" (entry last modified 2026-08-08). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page lists Cascade and Mt. Hood hops and 2-Row Base and Caramel 60 malts at 2.9% ABV; it gives no tasting notes beyond the introduction.

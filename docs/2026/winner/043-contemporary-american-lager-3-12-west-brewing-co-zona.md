@@ -30,13 +30,6 @@ description:
 entries: 46
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://12westbrewing.com/"
-      - "https://12westbrewing.com/beer-2/"
-      - "https://untappd.com/12WestBrewing/beer"
-      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://12westbrewing.com/"
@@ -137,7 +130,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Pilsner. Crisp & Light"
+  source: "https://12westbrewing.com/beer-2/"
 water: null
 yeast: []
 ---
@@ -175,7 +170,9 @@ Source: [12 West: beer list](https://12westbrewing.com/beer-2/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Pilsner. Crisp & Light
+
+Source: [12westbrewing.com](https://12westbrewing.com/beer-2/)
 
 ## ingredients
 
@@ -222,7 +219,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [12westbrewing.com](https://12westbrewing.com/), [12westbrewing.com](https://12westbrewing.com/beer-2/), [untappd.com](https://untappd.com/12WestBrewing/beer), [untappd.com](https://untappd.com/b/12-west-brewing-co-zona/3022455), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [12westbrewing.com](https://12westbrewing.com/), [12westbrewing.com](https://12westbrewing.com/beer-2/), [untappd.com](https://untappd.com/12WestBrewing/beer), [untappd.com](https://untappd.com/b/12-west-brewing-co-zona/3022455), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -232,3 +229,4 @@ No brewery links have been checked yet.
 - Search snippets from Phoenix New Times describe Zona as an earlier World Beer Cup gold winner; that article was not opened, so the claim is not relied on.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives two tasting words only.

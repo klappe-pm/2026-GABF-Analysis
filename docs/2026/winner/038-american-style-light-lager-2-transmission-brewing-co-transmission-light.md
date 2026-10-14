@@ -31,16 +31,12 @@ description:
 entries: 104
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://transmissionbrewing.com/beers/"
-      - "https://www.transmissionbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://transmissionbrewing.com/beers/"
       - "https://www.transmissionbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://transmissionbrewing.com/beers/"
@@ -110,7 +106,9 @@ sources:
   - "https://www.transmissionbrewing.com/"
 srm: null
 style: "Rice Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Award winning Transmission Light is a clean, crisp, dry, \"I'll have another\", light rice lager."
+  source: "https://transmissionbrewing.com/beers/"
 water: null
 yeast: []
 ---
@@ -146,7 +144,9 @@ Source: [Transmission: our beers](https://transmissionbrewing.com/beers/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Award winning Transmission Light is a clean, crisp, dry, "I'll have another", light rice lager.
+
+Source: [transmissionbrewing.com](https://transmissionbrewing.com/beers/)
 
 ## ingredients
 
@@ -193,8 +193,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -203,3 +203,4 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 - The brewery's listing notes a gold at the 2026 World Beer Cup and a bronze at the 2022 World Beer Cup in International Light Lager.
 - No 2026 GABF announcement was found on the brewery site.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives tasting words and 4.2% ABV; no hops or malts for this beer.

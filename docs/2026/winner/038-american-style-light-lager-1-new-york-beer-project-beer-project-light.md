@@ -34,96 +34,112 @@ gaps:
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "tasting-notes"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "abv"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "ibu"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "srm"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "og"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "fg"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hops"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-form"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-use"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "malts"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "yeast"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "water"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "process"
     sources-checked:
       - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
       - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
       - "https://untappd.com/NewYorkBeerProject/beer?q=light"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -221,8 +237,8 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/).
+- Not published: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -233,3 +249,4 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 - First pass: No 2026 medal announcement was found; web search was unavailable for this run.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: A March 2026 Buffalo Beer Buzz episode names Beer Project Light as a new NYBP light lager but publishes no technical specifications. No source establishes that Light New York Beer is the same product; the structured gaps remain.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no Beer Project Light page.

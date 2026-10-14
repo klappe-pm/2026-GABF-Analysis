@@ -221,3 +221,4 @@ Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [In
 - The drink menu page fetched did not list the beer, so there is no beer-url.
 - ABV and IBU come only from Untappd; the brewery publishes neither.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

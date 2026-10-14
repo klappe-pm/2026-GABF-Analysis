@@ -261,3 +261,4 @@ No brewery links have been checked yet.
 - First pass: The style label for this file is the category name.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery's verified venue menu supplies the selected figures. The separate Untappd beer page instead lists 4.7% ABV and 20 IBU; no source explains whether this reflects a recipe change. The menu is preferred as the brewery's current offering.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.
