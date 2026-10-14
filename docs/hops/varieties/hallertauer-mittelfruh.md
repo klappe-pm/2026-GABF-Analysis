@@ -163,7 +163,7 @@ No 2026 beer profile names a farm for this hop.
 - [Bobber Lager](../../2026/winner/051-czech-style-pale-lager-2-logboat-brewing-co-bobber-lager.md), silver, Czech-Style Pale Lager, by [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md); published as Mittelfrüh
 - [Oktoberfest](../../2026/winner/056-german-style-maerzen-2-bingo-beer-co-oktoberfest.md), silver, German-Style Maerzen, by [Bingo Beer Co.](../../breweries/bingo-beer-co.md); published as Hallertau Mittelfrüh
 - [Trippel](../../2026/winner/077-belgian-style-tripel-2-new-belgium-brewing-co-trippel.md), silver, Belgian-Style Tripel, by [New Belgium Brewing Co.](../../breweries/new-belgium-brewing-co.md); published as Hallertau Mittelfrüh
-- [Haru](../../2026/winner/044-rice-lager-3-fremont-brewing-haru.md), bronze, Rice Lager, by [Fremont Brewing](../../breweries/fremont-brewing.md); published as Hallertau Mittelfrüh
+- [Haru](../../2026/winner/044-rice-lager-3-fremont-brewing-haru.md), bronze, Rice Lager, by [Fremont Brewing](../../breweries/fremont-brewing.md); published as German Hallertau Mittlefruh
 - [Pazifik Coast Highway](../../2026/winner/050-german-style-pilsener-3-beachwood-brewing-pazifik-coast-highway.md), bronze, German-Style Pilsener, by [Beachwood Brewing](../../breweries/beachwood-brewing.md); published as Hallertau Mittelfrüh
 - [Precept](../../2026/winner/046-american-pilsener-3-bissell-brothers-brewing-precept.md), bronze, American Pilsener, by [Bissell Brothers Brewing](../../breweries/bissell-brothers-brewing.md); published as Mittelfrüh
 - [Prost Helles](../../2026/winner/053-munich-style-helles-3-prost-brewing-co-prost-helles.md), bronze, Munich-Style Helles, by [Prost Brewing Co.](../../breweries/prost-brewing-co.md); published as Hallertau Mittelfrüh

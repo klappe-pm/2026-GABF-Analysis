@@ -24,7 +24,8 @@ categories-won:
   - "American Pilsener"
 city: "Seattle"
 employees: null
-farms-named: []
+farms-named:
+  - "../hops/farms/roy-farms.md"
 farms-reached:
   - "../hops/farms/coleman-agriculture.md"
 fed-district: 12
@@ -93,7 +94,7 @@ Ladd & Lass Brewing of Seattle, WA has won 1 GABF medal (0 gold, 1 silver, 0 bro
 
 Farms this brewery names for a hop in a 2026 beer profile. This is a direct statement by the brewery.
 
-No 2026 profile of this brewery names a farm.
+- [Roy Farms Inc](../hops/farms/roy-farms.md), for [Adeena](../hops/varieties/adeena.md)
 
 ### farms-grown-reaching-its-hops
 

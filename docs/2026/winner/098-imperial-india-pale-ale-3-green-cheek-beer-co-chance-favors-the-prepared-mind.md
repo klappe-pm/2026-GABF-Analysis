@@ -44,6 +44,7 @@ gaps:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/orange"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://shop.greencheekbeer.com/collections/beer"
@@ -59,13 +60,6 @@ gaps:
       - "https://www.greencheekbeer.com/orange"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://shop.greencheekbeer.com/collections/beer"
-      - "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
-      - "https://www.greencheekbeer.com/"
-      - "https://www.greencheekbeer.com/orange"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://shop.greencheekbeer.com/collections/beer"
       - "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
@@ -129,8 +123,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
   - published: "Citra Cryo"
-    variety: "Citra Cryo"
-    form: null
+    variety: "Citra"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
@@ -142,7 +136,6 @@ hop-profile:
     source: "https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind"
 hops:
   - "Citra"
-  - "Citra Cryo"
   - "Mosaic"
 ibu: null
 malts: []
@@ -207,7 +200,7 @@ Only the hops are published: Citra, Citra Cryo and Mosaic, used as a double dry 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
-| Citra Cryo | Citra Cryo | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
+| Citra Cryo | Citra | Cryo | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
 | Mosaic | Mosaic | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
 
 ## brewing-details
@@ -248,7 +241,7 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
 - Not published: IBU. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

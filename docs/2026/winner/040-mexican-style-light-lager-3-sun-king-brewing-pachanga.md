@@ -31,16 +31,6 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
-      - "https://www.beerandbrewing.com/review/pachanga"
-      - "https://www.sunkingbrewing.com/"
-      - "https://www.sunkingbrewing.com/blog"
-      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
-      - "https://www.sunkingbrewing.com/our-beers"
-      - "https://www.target.com/p/-/A-53477068"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
@@ -178,7 +168,9 @@ sources:
   - "https://www.target.com/p/-/A-53477068"
 srm: null
 style: "Mexican-Style Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Mexican style lager with a crisp malt flavor and thirst-quenching character."
+  source: "https://www.beerandbrewing.com/review/pachanga"
 water: null
 yeast: []
 ---
@@ -216,7 +208,9 @@ The brewery's own listing shows only name, style and ABV, so this is the brewer 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Mexican style lager with a crisp malt flavor and thirst-quenching character.
+
+Source: [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga)
 
 ## ingredients
 
@@ -269,7 +263,7 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-pachanga/2014545), [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), [target.com](https://www.target.com/p/-/A-53477068), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-pachanga/2014545), [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), [target.com](https://www.target.com/p/-/A-53477068), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -281,3 +275,4 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 - No 2026 GABF post was found on the brewery blog.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Pachanga](https://catalog.beer/beer/3c0e6c21-ad04-4262-ad2f-6852c4820da8) lists 4.2% ABV, 24 IBU, style "American-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewer's description in the Craft Beer and Brewing review is recorded as tasting notes.

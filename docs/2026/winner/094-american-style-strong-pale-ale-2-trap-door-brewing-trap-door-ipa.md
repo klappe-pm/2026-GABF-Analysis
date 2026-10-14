@@ -40,6 +40,7 @@ gaps:
       - "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
       - "https://www.trapdoorbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
@@ -51,11 +52,6 @@ gaps:
       - "https://www.trapdoorbrewing.com/"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
-      - "https://www.trapdoorbrewing.com/"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
       - "https://www.trapdoorbrewing.com/"
@@ -103,8 +99,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
   - published: "Mosaic Cryo"
-    variety: "Mosaic Cryo"
-    form: null
+    variety: "Mosaic"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
@@ -116,7 +112,7 @@ hop-profile:
     source: "https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630"
 hops:
   - "Citra"
-  - "Mosaic Cryo"
+  - "Mosaic"
   - "Simcoe"
 ibu: null
 malts: []
@@ -177,7 +173,7 @@ No additional malt, yeast or adjunct details were found beyond the hops in the s
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
-| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
+| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
 | Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630) |
 
 ## brewing-details
@@ -216,7 +212,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

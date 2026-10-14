@@ -104,7 +104,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -116,7 +116,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://bingobeerco.com/beer/oktoberfest/"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Tettnang"
 ibu: null
 malts:
@@ -180,7 +180,7 @@ The description adds that "German Mittlefrüh and Tettnang hops provide a touch 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
 | Tettnang | Tettnang | not published | not published | not published | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
 
 ## brewing-details

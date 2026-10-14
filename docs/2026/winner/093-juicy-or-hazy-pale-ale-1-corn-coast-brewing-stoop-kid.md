@@ -46,6 +46,7 @@ gaps:
       - "https://www.corncoastbrewing.com/"
       - "https://www.corncoastbrewing.com/on-tap-lincoln"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
@@ -59,12 +60,6 @@ gaps:
       - "https://www.corncoastbrewing.com/on-tap-lincoln"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
-      - "https://www.corncoastbrewing.com/"
-      - "https://www.corncoastbrewing.com/on-tap-lincoln"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
       - "https://www.corncoastbrewing.com/"
@@ -120,8 +115,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
   - published: "Citra Hyperboost"
-    variety: "Citra Hyperboost"
-    form: null
+    variety: "Citra"
+    form: "HyperBoost"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
@@ -133,7 +128,6 @@ hop-profile:
     source: "https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367"
 hops:
   - "Citra"
-  - "Citra Hyperboost"
   - "Mosaic"
 ibu: null
 malts: []
@@ -193,7 +187,7 @@ The [exact beer entry](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/685
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
-| Citra Hyperboost | Citra Hyperboost | not published | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| Citra Hyperboost | Citra | HyperBoost | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
 | Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
 
 ## brewing-details
@@ -233,7 +227,7 @@ Links checked 2026-10-14: [Website](https://www.corncoastbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

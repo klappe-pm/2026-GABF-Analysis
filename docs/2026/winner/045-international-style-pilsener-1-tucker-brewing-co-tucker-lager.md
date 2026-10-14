@@ -30,12 +30,6 @@ description:
 entries: 79
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://tuckerbrewing.com/"
-      - "https://tuckerbrewing.com/beer"
-      - "https://tuckerbrewing.com/beer-collection/tucker-lager"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://tuckerbrewing.com/"
@@ -123,7 +117,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Helles Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Crisp, clean and crushable, it is the perfect balance of sweet and bitter. Refreshing light aromas of bread and honeysuckle packed in a frothy head."
+  source: "https://tuckerbrewing.com/beer-collection/tucker-lager"
 water: null
 yeast: []
 ---
@@ -161,7 +157,9 @@ Source: [Tucker: Tucker Lager](https://tuckerbrewing.com/beer-collection/tucker-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Crisp, clean and crushable, it is the perfect balance of sweet and bitter. Refreshing light aromas of bread and honeysuckle packed in a frothy head.
+
+Source: [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/tucker-lager)
 
 ## ingredients
 
@@ -208,7 +206,7 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/tucker-lager), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/tucker-lager), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -216,3 +214,4 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 - The brewery page cites an earlier GABF gold in 2021; no 2026 medal announcement was found.
 - All specs come from the brewery page.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, 4.7% ABV and 19 IBU; no hops or malts.

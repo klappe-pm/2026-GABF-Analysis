@@ -30,13 +30,6 @@ description:
 entries: 161
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://beachwoodbrewing.com/locations.html"
-      - "https://beachwoodbrewing.com/secondpch.html"
-      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
-      - "https://www.beachwoodbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://beachwoodbrewing.com/locations.html"
@@ -116,13 +109,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
-hops: 
-  - "Hallertau Mittelfrüh"
+hops:
+  - "Hallertauer Mittelfruh"
 ibu: 33
 malts: []
 medal: "Bronze"
@@ -137,7 +130,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "German-Style Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "subtle bitterness, dry biscuit-like finish"
+  source: "https://beachwoodbrewing.com/secondpch.html"
 water: null
 yeast: []
 ---
@@ -173,7 +168,9 @@ Source: [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.h
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> subtle bitterness, dry biscuit-like finish
+
+Source: [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html)
 
 ## ingredients
 
@@ -183,7 +180,7 @@ The [matching Untappd description](https://untappd.com/b/beachwood-brewing-pazif
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
 
 ## brewing-details
 
@@ -223,7 +220,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/locations.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/locations.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -233,3 +230,4 @@ No brewery links have been checked yet.
 - Hops, malts and yeast were not found.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu gives tasting words, 5.5% ABV and 33 IBU; no hops.

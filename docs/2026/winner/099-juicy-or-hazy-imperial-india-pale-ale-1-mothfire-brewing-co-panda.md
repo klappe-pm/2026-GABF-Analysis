@@ -40,6 +40,7 @@ gaps:
       - "https://www.beermenus.com/beers/589834-mothfire-panda"
       - "https://www.mothfire.com/beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/589834-mothfire-panda"
@@ -51,11 +52,6 @@ gaps:
       - "https://www.mothfire.com/beer"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://www.beermenus.com/beers/589834-mothfire-panda"
-      - "https://www.mothfire.com/beer"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://www.beermenus.com/beers/589834-mothfire-panda"
       - "https://www.mothfire.com/beer"
@@ -103,14 +99,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.beermenus.com/beers/589834-mothfire-panda"
   - published: "Citra Dynaboost"
-    variety: "Citra Dynaboost"
-    form: null
+    variety: "Citra"
+    form: "DynaBoost"
     use: null
     lot-or-farm: null
     source: "https://www.beermenus.com/beers/589834-mothfire-panda"
   - published: "Citra Hyperboost"
-    variety: "Citra Hyperboost"
-    form: null
+    variety: "Citra"
+    form: "HyperBoost"
     use: null
     lot-or-farm: null
     source: "https://www.beermenus.com/beers/589834-mothfire-panda"
@@ -128,8 +124,6 @@ hop-profile:
     source: "https://www.beermenus.com/beers/589834-mothfire-panda"
 hops:
   - "Citra"
-  - "Citra Dynaboost"
-  - "Citra Hyperboost"
   - "Mosaic"
   - "Nelson Sauvin"
 ibu: null
@@ -192,8 +186,8 @@ Nothing beyond the hop list in the specs table is published.
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Citra Dynaboost | Citra Dynaboost | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
-| Citra Hyperboost | Citra Hyperboost | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Citra Dynaboost | Citra | DynaBoost | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
+| Citra Hyperboost | Citra | HyperBoost | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
 | Mosaic | Mosaic | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
 | Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda) |
 
@@ -233,7 +227,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
 - Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

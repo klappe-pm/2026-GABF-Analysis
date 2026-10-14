@@ -88,14 +88,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.firestonebeer.com/beer/dba/"
   - published: "US Tettnanger"
-    variety: "US Tettnanger"
+    variety: "US Tettnang"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.firestonebeer.com/beer/dba/"
 hops:
   - "Styrian Golding"
-  - "US Tettnanger"
+  - "US Tettnang"
 ibu: 30
 malts:
   - "Two-row malt"
@@ -159,7 +159,7 @@ The brewery describes Styrian Golding as herbaceous and earthy with lemongrass, 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Styrian Golding | Styrian Golding | not published | not published | not published | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
-| US Tettnanger | US Tettnanger | not published | not published | not published | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
+| US Tettnanger | US Tettnang | not published | not published | not published | [firestonebeer.com](https://www.firestonebeer.com/beer/dba/) |
 
 ## brewing-details
 

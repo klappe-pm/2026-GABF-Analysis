@@ -134,7 +134,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
   - published: "Mosaic LUPOMAX"
-    variety: "Mosaic LUPOMAX"
+    variety: "Mosaic"
     form: null
     use: null
     lot-or-farm: null
@@ -146,16 +146,16 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
   - published: "Strata Cryo"
-    variety: "Strata Cryo"
+    variety: "Strata"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
 hops:
   - "Chinook"
-  - "Mosaic LUPOMAX"
+  - "Mosaic"
   - "Simcoe"
-  - "Strata Cryo"
+  - "Strata"
 ibu: 75
 malts: []
 medal: "Silver"
@@ -218,9 +218,9 @@ No named malt varieties, yeast or adjuncts were found beyond the hops in the spe
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
-| Mosaic LUPOMAX | Mosaic LUPOMAX | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+| Mosaic LUPOMAX | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
 | Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
-| Strata Cryo | Strata Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+| Strata Cryo | Strata | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
 
 ## brewing-details
 

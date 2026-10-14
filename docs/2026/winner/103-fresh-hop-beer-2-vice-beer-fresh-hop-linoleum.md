@@ -38,6 +38,7 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
@@ -47,10 +48,6 @@ gaps:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
@@ -96,8 +93,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
   - published: "Mosaic Cryo"
-    variety: "Mosaic Cryo"
-    form: null
+    variety: "Mosaic"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
@@ -110,7 +107,6 @@ hop-profile:
 hops:
   - "Citra"
   - "Mosaic"
-  - "Mosaic Cryo"
   - "Simcoe"
 ibu: null
 malts: []
@@ -171,7 +167,7 @@ The [2026 release listing](https://untappd.com/b/vice-beer-fresh-hop-linoleum-20
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
 | Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
 | Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
 
 ## brewing-details
@@ -209,7 +205,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

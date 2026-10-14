@@ -39,6 +39,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "srm"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -47,6 +48,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "og"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -55,6 +57,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "fg"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -63,6 +66,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "hop-form"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -71,6 +75,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "hop-use"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -79,6 +84,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -87,6 +93,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "malts"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -95,6 +102,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "yeast"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -103,6 +111,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -111,6 +120,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "water"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -119,6 +129,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
   - field: "process"
     sources-checked:
       - "https://dbbrewingcompany.com/beer-finder/"
@@ -127,6 +138,7 @@ gaps:
       - "https://untappd.com/devilsbackbonebeers/beer"
       - "https://www.beeradvocate.com/beer/profile/18539/46792/"
       - "web searches recorded in the research notes"
+      - "https://dbbrewingcompany.com/"
 hop-profile:
   - published: "Northern Brewer"
     variety: "Northern Brewer"
@@ -257,7 +269,7 @@ Links checked 2026-10-14: [Website](https://dbbrewingcompany.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dbbrewingcompany.com](https://dbbrewingcompany.com/beer-finder/), [dbbrewingcompany.com](https://dbbrewingcompany.com/beers/), [untappd.com](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364), [untappd.com](https://untappd.com/devilsbackbonebeers/beer), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dbbrewingcompany.com](https://dbbrewingcompany.com/beer-finder/), [dbbrewingcompany.com](https://dbbrewingcompany.com/beers/), [untappd.com](https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364), [untappd.com](https://untappd.com/devilsbackbonebeers/beer), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/18539/46792/), web searches recorded in the research notes, [dbbrewingcompany.com](https://dbbrewingcompany.com/).
 
 ## research-notes
 
@@ -267,3 +279,4 @@ Links checked 2026-10-14: [Website](https://dbbrewingcompany.com/), [Instagram](
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Gold Leaf Lager](https://catalog.beer/beer/c51bfd5b-313b-4777-8ac3-372ba3511aa1) lists 4.5% ABV, 17 IBU, style "German-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

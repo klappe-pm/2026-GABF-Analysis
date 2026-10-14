@@ -31,18 +31,13 @@ description:
 entries: 123
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://transmissionbrewing.com/beers/"
-      - "https://www.beermenus.com/beers/422388-transmission-clutch-lager"
-      - "https://www.transmissionbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://transmissionbrewing.com/beers/"
       - "https://www.beermenus.com/beers/422388-transmission-clutch-lager"
       - "https://www.transmissionbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://transmissionbrewing.com/beers/"
@@ -130,7 +125,9 @@ sources:
   - "https://www.transmissionbrewing.com/"
 srm: null
 style: "German-Style Helles"
-tasting-notes: null
+tasting-notes:
+  text: "Lightly bready and remarkably balanced."
+  source: "https://transmissionbrewing.com/beers/"
 water: null
 yeast: []
 ---
@@ -166,7 +163,9 @@ Source: [Transmission: our beers](https://transmissionbrewing.com/beers/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Lightly bready and remarkably balanced.
+
+Source: [transmissionbrewing.com](https://transmissionbrewing.com/beers/)
 
 ## ingredients
 
@@ -213,8 +212,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -224,3 +223,4 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 - Brewery and BeerMenus (as Clutch Lager) agree on 5.2% ABV; neither gives IBU or ingredients.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives tasting words and 5.2% ABV only.

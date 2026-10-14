@@ -104,7 +104,7 @@ Varieties the hop farm data lists as grown here, each with the name the source p
 
 Brewery statements: 2026 medal beers whose profile names this farm for a hop.
 
-No 2026 beer profile names this farm.
+- [Crunchy Boi](../../2026/winner/046-american-pilsener-2-ladd-and-lass-brewing-crunchy-boi.md) by [Ladd & Lass Brewing](../../breweries/ladd-and-lass-brewing.md), hop [Adeena](../varieties/adeena.md)
 
 ### reached-through-varieties
 

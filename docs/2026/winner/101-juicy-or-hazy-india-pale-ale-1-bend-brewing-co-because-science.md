@@ -55,12 +55,6 @@ gaps:
       - "https://www.bendbrewingco.com/"
       - "https://www.bendbrewingco.com/beer"
       - "web searches recorded in the research notes"
-  - field: "hop-form"
-    sources-checked:
-      - "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
-      - "https://www.bendbrewingco.com/"
-      - "https://www.bendbrewingco.com/beer"
-      - "web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
@@ -93,8 +87,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
   - published: "Citra DynaBoost"
-    variety: "Citra DynaBoost"
-    form: null
+    variety: "Citra"
+    form: "DynaBoost"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
@@ -105,7 +99,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
   - published: "Dolcita DynaBoost"
-    variety: "Dolcita DynaBoost"
+    variety: "Dolcita"
     form: null
     use: null
     lot-or-farm: null
@@ -118,9 +112,7 @@ hop-profile:
     source: "https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391"
 hops:
   - "Citra"
-  - "Citra DynaBoost"
   - "Dolcita"
-  - "Dolcita DynaBoost"
   - "Krush"
 ibu: 45
 malts:
@@ -188,9 +180,9 @@ The listing describes a cooled whirlpool followed by dry hopping; fruit names de
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Citra DynaBoost | Citra DynaBoost | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Citra DynaBoost | Citra | DynaBoost | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 | Dolcita | Dolcita | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Dolcita DynaBoost | Dolcita DynaBoost | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Dolcita DynaBoost | Dolcita | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 | Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 
 ## brewing-details
@@ -230,7 +222,7 @@ Links checked 2026-10-14: [Website](https://www.bendbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

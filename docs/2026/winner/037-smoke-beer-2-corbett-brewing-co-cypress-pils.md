@@ -32,66 +32,82 @@ gaps:
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "tasting-notes"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "abv"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "ibu"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hops"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile: []
 hops: []
 ibu: null
@@ -184,8 +200,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file.
+- Not published: ABV, IBU. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -195,3 +211,4 @@ No brewery links have been checked yet.
 - First pass: The style label for this file is the category name.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Beer-specific searches found medal coverage but no matching technical specifications. A San Juan Brewfest beer list names Cypress Pils under Anarchy Brewing of Durango, not Corbett, so its figures are excluded.
+- Deep dive pass 2026-10-14: the brewery has no website on file and no new source was found beyond the earlier passes' searches.

@@ -106,7 +106,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Czech Saaz"
-    variety: "Czech Saaz"
+    variety: "Saaz"
     form: null
     use: null
     lot-or-farm: null
@@ -118,7 +118,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://tfbrewing.com/beer/albion-trippel/"
 hops:
-  - "Czech Saaz"
+  - "Saaz"
   - "Tettnang"
 ibu: null
 malts: []
@@ -180,7 +180,7 @@ The brewery names Czech Saaz and German Tettnang hops and a classic Trappist yea
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Czech Saaz | Czech Saaz | not published | not published | not published | [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/) |
+| Czech Saaz | Saaz | not published | not published | not published | [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/) |
 | Tettnang | Tettnang | not published | not published | not published | [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/) |
 
 ## brewing-details

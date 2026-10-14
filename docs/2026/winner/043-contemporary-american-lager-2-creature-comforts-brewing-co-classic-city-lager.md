@@ -30,12 +30,6 @@ description:
 entries: 46
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://creaturecomforts.co/beer/"
-      - "https://creaturecomforts.co/beers/classic-city-lager/"
-      - "https://untappd.com/creaturecomforts/beer"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://creaturecomforts.co/beer/"
@@ -124,7 +118,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Clean | Crisp | Easy Drinking"
+  source: "https://creaturecomforts.co/beers/classic-city-lager/"
 water: null
 yeast: []
 ---
@@ -160,7 +156,9 @@ Source: [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beer
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Clean | Crisp | Easy Drinking
+
+Source: [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/)
 
 ## ingredients
 
@@ -209,7 +207,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [creaturecomforts.co](https://creaturecomforts.co/beer/), [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/), [untappd.com](https://untappd.com/creaturecomforts/beer), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [creaturecomforts.co](https://creaturecomforts.co/beer/), [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/), [untappd.com](https://untappd.com/creaturecomforts/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -220,3 +218,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Classic City Lager](https://catalog.beer/beer/5174c633-13ff-4173-a53d-adf50d5e61ea) lists 4.2% ABV, style "American-Style Lager" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives three tasting words and 4.2% ABV; no recipe.

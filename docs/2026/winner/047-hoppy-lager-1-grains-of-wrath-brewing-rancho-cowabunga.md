@@ -24,26 +24,12 @@ brewery-state: "WA"
 brewery-url: "https://grainsofwrath.com/"
 category-name: "Hoppy Lager"
 category-number: 47
-description: null
+description:
+  text: "West Coast Pilsner brewed with light pilsner malt and new world hops to bring a sessionable, full flavored and refreshing crusher."
+  source: "https://gowbeer.com/beer/rancho-cowabunga/"
 entries: 57
 fg: null
 gaps:
-  - field: "description"
-    sources-checked:
-      - "https://gowbeer.com/beer/rancho-cowabunga/"
-      - "https://grainsofwrath.com/"
-      - "https://untappd.com/GrainsOfWrath/beer"
-      - "https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover"
-      - "https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560"
-      - "web searches recorded in the research notes"
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gowbeer.com/beer/rancho-cowabunga/"
-      - "https://grainsofwrath.com/"
-      - "https://untappd.com/GrainsOfWrath/beer"
-      - "https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover"
-      - "https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gowbeer.com/beer/rancho-cowabunga/"
@@ -52,6 +38,7 @@ gaps:
       - "https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover"
       - "https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gowbeer.com/beer/rancho-cowabunga/"
@@ -158,7 +145,9 @@ sources:
   - "https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560"
 srm: null
 style: "West Coast Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Flavors and aromas of ripe mango, tangerine, candied pineapple and pine resin."
+  source: "https://gowbeer.com/beer/rancho-cowabunga/"
 water: null
 yeast: []
 ---
@@ -192,7 +181,9 @@ No brewery description of the beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Flavors and aromas of ripe mango, tangerine, candied pineapple and pine resin.
+
+Source: [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/)
 
 ## ingredients
 
@@ -242,8 +233,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
 - Not published: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -254,3 +245,4 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: TapHunter explicitly lists a Rancho Cowabunga Wc Pils, supporting the selected lager strength; Belmont Station also names Rancho Cowabunga as a West Coast pilsner. TapHunter separately lists a same-name American Pale Ale, so no ale recipe details are transferred.
 - Pass 2026-10-14: the brewery page says the beer is "brewed with light pilsner malt and new world hops"; pilsner malt is recorded, the hops stay unnamed.
+- Deep dive pass 2026-10-14: the brewery page's description and flavor line are recorded; hop varieties are not named.

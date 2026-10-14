@@ -207,3 +207,4 @@ No brewery links have been checked yet.
 - All specs come from Untappd; the brewery publishes none.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

@@ -31,14 +31,6 @@ description:
 entries: 42
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
-      - "https://www.maplebranchbrew.com/"
-      - "https://www.maplebranchbrew.com/beer"
-      - "https://www.maplebranchbrew.com/brews"
-      - "https://www.maplebranchbrew.com/brews/seventh-hill"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
@@ -47,6 +39,7 @@ gaps:
       - "https://www.maplebranchbrew.com/brews"
       - "https://www.maplebranchbrew.com/brews/seventh-hill"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
@@ -153,7 +146,9 @@ sources:
   - "https://www.maplebranchbrew.com/brews/seventh-hill"
 srm: null
 style: "Robust Smoked Porter"
-tasting-notes: null
+tasting-notes:
+  text: "Smoked malt delivers a captivating aroma, while the roasty and chocolatey undertones create a smooth, velvety body. The robust smokiness balances perfectly with the beer's mellow sweetness, making it a must-try for those who love rich, layered stouts and porters."
+  source: "https://www.maplebranchbrew.com/brews/seventh-hill"
 water: null
 yeast: []
 ---
@@ -189,7 +184,9 @@ Source: [Maple Branch: Seventh Hill](https://www.maplebranchbrew.com/brews/seven
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Smoked malt delivers a captivating aroma, while the roasty and chocolatey undertones create a smooth, velvety body. The robust smokiness balances perfectly with the beer's mellow sweetness, making it a must-try for those who love rich, layered stouts and porters.
+
+Source: [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill)
 
 ## ingredients
 
@@ -238,8 +235,8 @@ Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -249,3 +246,4 @@ Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagra
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party IBU and hop searches supplied no additional beer-specific recipe source; the previously read brewery and Untappd pages were not repeated.
+- Deep dive pass 2026-10-14: the brewery pages give tasting words and style (Robust Smoked Porter); the beer list shows 7.2% ABV as on file, while the brews page shows 6.50%. No hops or yeast.

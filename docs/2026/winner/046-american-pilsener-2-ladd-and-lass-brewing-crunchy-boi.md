@@ -31,74 +31,74 @@ description:
 entries: 78
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.laddandlassbrewing.com/"
-      - "https://www.laddandlassbrewing.com/the-beer"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "srm"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "og"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "fg"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "hop-form"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "hop-use"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
-  - field: "lot-or-farm"
-    sources-checked:
-      - "https://www.laddandlassbrewing.com/"
-      - "https://www.laddandlassbrewing.com/the-beer"
-      - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "yeast"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "water"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
   - field: "process"
     sources-checked:
       - "https://www.laddandlassbrewing.com/"
       - "https://www.laddandlassbrewing.com/the-beer"
       - "web searches recorded in the research notes"
+      - "https://www.laddandlassbrewing.com/ontap"
 hop-profile:
   - published: "Adeena"
     variety: "Adeena"
     form: null
     use: null
-    lot-or-farm: null
-    source: "https://www.laddandlassbrewing.com/the-beer"
+    lot-or-farm: "Roy Farms"
+    source: "https://www.laddandlassbrewing.com/ontap"
   - published: "Mosaic"
     variety: "Mosaic"
     form: null
     use: null
     lot-or-farm: null
-    source: "https://www.laddandlassbrewing.com/the-beer"
+    source: "https://www.laddandlassbrewing.com/ontap"
 hops:
   - "Adeena"
   - "Mosaic"
@@ -117,7 +117,9 @@ sources:
   - "https://www.laddandlassbrewing.com/the-beer"
 srm: null
 style: "Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Crunchy Boi is dry and lightly bready with an undercurrent of lightly fruity and floral notes."
+  source: "https://www.laddandlassbrewing.com/ontap"
 water: null
 yeast: []
 ---
@@ -153,7 +155,9 @@ Source: [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Crunchy Boi is dry and lightly bready with an undercurrent of lightly fruity and floral notes.
+
+Source: [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap)
 
 ## ingredients
 
@@ -163,8 +167,8 @@ The [brewery listing](https://www.laddandlassbrewing.com/the-beer) gives a grain
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Adeena | Adeena | not published | not published | not published | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer) |
-| Mosaic | Mosaic | not published | not published | not published | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer) |
+| Adeena | Adeena | not published | not published | Roy Farms | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
+| Mosaic | Mosaic | not published | not published | not published | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
 
 ## brewing-details
 
@@ -202,8 +206,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: IBU. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Water, Process. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
 
 ## research-notes
 
@@ -213,3 +217,4 @@ No brewery links have been checked yet.
 - The bare domain laddandlass.com refused connections; the www.laddandlassbrewing.com site worked.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the tap list says the beer gets "a generous helping of Adeena hops from the good folks at Roy Farms", recorded as the Adeena lot or farm; it lists Extra Pale Premium Pilsner, Pilsner, Calrose rice and Chit malt.

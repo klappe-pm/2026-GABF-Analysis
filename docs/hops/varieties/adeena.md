@@ -138,7 +138,7 @@ No farm in the hop farm data publishes this variety.
 
 Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
 
-No 2026 beer profile names a farm for this hop.
+- [Roy Farms Inc](../farms/roy-farms.md), named for [Crunchy Boi](../../2026/winner/046-american-pilsener-2-ladd-and-lass-brewing-crunchy-boi.md) by [Ladd & Lass Brewing](../../breweries/ladd-and-lass-brewing.md)
 
 ### medal-beers-2026
 

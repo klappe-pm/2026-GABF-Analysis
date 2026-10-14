@@ -30,24 +30,6 @@ description:
 entries: 79
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://hiwirebrewing.com/"
-      - "https://hiwirebrewing.com/beer/"
-      - "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
-      - "https://hiwirebrewing.com/flagships/"
-      - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
-      - "https://untappd.com/HiWireBrewing/beer"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://hiwirebrewing.com/"
-      - "https://hiwirebrewing.com/beer/"
-      - "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
-      - "https://hiwirebrewing.com/flagships/"
-      - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
-      - "https://untappd.com/HiWireBrewing/beer"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://hiwirebrewing.com/"
@@ -129,15 +111,6 @@ gaps:
       - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
       - "https://untappd.com/HiWireBrewing/beer"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://hiwirebrewing.com/"
-      - "https://hiwirebrewing.com/beer/"
-      - "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
-      - "https://hiwirebrewing.com/flagships/"
-      - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
-      - "https://untappd.com/HiWireBrewing/beer"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 22
@@ -146,7 +119,9 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Extensively lagered to peak maturity"
+  source: "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
 sources:
   - "https://catalog.beer/beer/45aa37b2-1a36-4dfa-aade-f49d3d459582"
   - "https://hiwirebrewing.com/"
@@ -156,9 +131,13 @@ sources:
   - "https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316"
   - "https://untappd.com/HiWireBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Crisp, bright gold (no SRM number published)"
+  source: "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
 style: "American lager"
-tasting-notes: null
+tasting-notes:
+  text: "Pouring a crisp, bright gold, it strikes a perfect balance of light Pilsen malt and German hops after being extensively lagered to peak maturity."
+  source: "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
 water: null
 yeast: []
 ---
@@ -196,7 +175,9 @@ The brewery's medal post calls it "a true American lager that is as approachable
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Pouring a crisp, bright gold, it strikes a perfect balance of light Pilsen malt and German hops after being extensively lagered to peak maturity.
+
+Source: [hiwirebrewing.com](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/)
 
 ## ingredients
 
@@ -210,11 +191,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Crisp, bright gold (no SRM number published) | [hiwirebrewing.com](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Extensively lagered to peak maturity | [hiwirebrewing.com](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/) |
 
 ## style-context
 
@@ -244,7 +225,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [hiwirebrewing.com](https://hiwirebrewing.com/), [hiwirebrewing.com](https://hiwirebrewing.com/beer/), [hiwirebrewing.com](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/), [hiwirebrewing.com](https://hiwirebrewing.com/flagships/), [untappd.com](https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316), [untappd.com](https://untappd.com/HiWireBrewing/beer), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [hiwirebrewing.com](https://hiwirebrewing.com/), [hiwirebrewing.com](https://hiwirebrewing.com/beer/), [hiwirebrewing.com](https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/), [hiwirebrewing.com](https://hiwirebrewing.com/flagships/), [untappd.com](https://untappd.com/b/hi-wire-brewing-hi-wire-lager/365316), [untappd.com](https://untappd.com/HiWireBrewing/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -254,3 +235,4 @@ No brewery links have been checked yet.
 - The brewery post and Untappd both cite a 2025 World Beer Cup silver.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Hi-Wire Lager](https://catalog.beer/beer/45aa37b2-1a36-4dfa-aade-f49d3d459582) lists 4.6% ABV, style "American-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery's medal post gives color, the lagering and German hops without varieties.

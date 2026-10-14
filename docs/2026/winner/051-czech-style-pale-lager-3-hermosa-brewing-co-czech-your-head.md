@@ -241,3 +241,4 @@ No brewery links have been checked yet.
 - An Untappd search page fetch returned no results for the beer; web search budget ran out before other sources could be tried.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Czech Your Head description.

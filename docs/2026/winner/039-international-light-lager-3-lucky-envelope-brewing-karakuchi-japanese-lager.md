@@ -32,18 +32,13 @@ description:
 entries: 38
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://luckyenvelopebrewing.com/"
-      - "https://luckyenvelopebrewing.com/currentlyontap"
-      - "https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://luckyenvelopebrewing.com/"
       - "https://luckyenvelopebrewing.com/currentlyontap"
       - "https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://luckyenvelopebrewing.com/"
@@ -104,12 +99,6 @@ gaps:
       - "https://luckyenvelopebrewing.com/currentlyontap"
       - "https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://luckyenvelopebrewing.com/"
-      - "https://luckyenvelopebrewing.com/currentlyontap"
-      - "https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -117,7 +106,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Brewed with rice and corn for a dry (karakuchi) finish"
+  source: "https://luckyenvelopebrewing.com/currentlyontap"
 sources:
   - "https://luckyenvelopebrewing.com/"
   - "https://luckyenvelopebrewing.com/currentlyontap"
@@ -125,7 +116,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Japanese Lager"
-tasting-notes: null
+tasting-notes:
+  text: "A refreshing Japanese Lager brewed with rice and corn to mirror beloved crisp \"super dry\" lagers common in Japan."
+  source: "https://luckyenvelopebrewing.com/currentlyontap"
 water: null
 yeast: []
 ---
@@ -161,7 +154,9 @@ Source: [Lucky Envelope: currently on tap](https://luckyenvelopebrewing.com/curr
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A refreshing Japanese Lager brewed with rice and corn to mirror beloved crisp "super dry" lagers common in Japan.
+
+Source: [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap)
 
 ## ingredients
 
@@ -179,7 +174,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed with rice and corn for a dry (karakuchi) finish | [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap) |
 
 ## style-context
 
@@ -208,8 +203,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes.
 - Not published: IBU. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/), [luckyenvelopebrewing.com](https://luckyenvelopebrewing.com/currentlyontap), [untappd.com](https://untappd.com/LuckyEnvelopeBrewing/beer?q=karakuchi), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -217,3 +212,4 @@ No brewery links have been checked yet.
 - The brewery has no individual beer pages; its on tap page is the beer-url, and it already labels the beer "2026 GABF Bronze Medal".
 - Untappd agrees on 4.7% ABV and labels the style Lager, Japanese Rice.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the tap list gives 4.7% ABV and the rice and corn grist; no hops or yeast.

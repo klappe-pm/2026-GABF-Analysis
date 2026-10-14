@@ -30,14 +30,11 @@ description:
 entries: 78
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bissellbrothers.com/beer/precept"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://bissellbrothers.com/beer/precept"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://bissellbrothers.com/beer/precept"
@@ -58,10 +55,6 @@ gaps:
     sources-checked:
       - "https://bissellbrothers.com/beer/precept"
       - "web searches recorded in the research notes"
-  - field: "lot-or-farm"
-    sources-checked:
-      - "https://bissellbrothers.com/beer/precept"
-      - "web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://bissellbrothers.com/beer/precept"
@@ -74,25 +67,21 @@ gaps:
     sources-checked:
       - "https://bissellbrothers.com/beer/precept"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://bissellbrothers.com/beer/precept"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Mittelfrüh"
-    variety: "Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
-    lot-or-farm: null
+    lot-or-farm: "German-grown"
     source: "https://bissellbrothers.com/beer/precept"
   - published: "Saphir"
     variety: "Saphir"
     form: null
     use: null
-    lot-or-farm: null
+    lot-or-farm: "German-grown"
     source: "https://bissellbrothers.com/beer/precept"
 hops:
-  - "Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Saphir"
 ibu: null
 malts:
@@ -100,13 +89,17 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "100% Maine pilsner malt base, horizontally lagered for over a month"
+  source: "https://bissellbrothers.com/beer/precept"
 sources:
   - "https://bissellbrothers.com/beer/precept"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "German-style pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Approachable, snappy, and refreshing, Precept is our award-winning take on a German-style pilsner."
+  source: "https://bissellbrothers.com/beer/precept"
 water: null
 yeast: []
 ---
@@ -142,7 +135,9 @@ Source: [Bissell Brothers: Precept](https://bissellbrothers.com/beer/precept)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Approachable, snappy, and refreshing, Precept is our award-winning take on a German-style pilsner.
+
+Source: [bissellbrothers.com](https://bissellbrothers.com/beer/precept)
 
 ## ingredients
 
@@ -152,8 +147,8 @@ The [brewery page](https://bissellbrothers.com/beer/precept) gives an all Maine 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Mittelfrüh | not published | not published | not published | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
-| Saphir | Saphir | not published | not published | not published | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
+| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
+| Saphir | Saphir | not published | not published | German-grown | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 
 ## brewing-details
 
@@ -163,7 +158,7 @@ The [brewery page](https://bissellbrothers.com/beer/precept) gives an all Maine 
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | 100% Maine pilsner malt base, horizontally lagered for over a month | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 
 ## style-context
 
@@ -190,8 +185,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
 - Not published: IBU. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Adjuncts, Water. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -199,3 +194,4 @@ No brewery links have been checked yet.
 - The brewery page shows a Denver International Beer Competition silver seal; it does not mention GABF 2026.
 - The brewery home page was not fetched separately; brewery-url is the root of the beer page's domain.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page says the hops are German-grown Mittelfrüh and Saphir (origin only, recorded in the lot or farm column as such) and the beer is horizontally lagered for over a month; the hops list now uses the full variety name Hallertau Mittelfrüh.
