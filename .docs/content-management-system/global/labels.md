@@ -4,6 +4,8 @@ The one label dictionary. Each key is the raw value stored in the data; each val
 
 - `not_found`: Not Found
 
+- `not_found`: Not Found
+
 ## `medal`
 
 Where: medal columns, chips, chart legends, and stat tiles.

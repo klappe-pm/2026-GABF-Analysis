@@ -2,7 +2,7 @@
 name: side-sheet
 title: Explorer side sheet
 status: draft
-code: scripts/build-explorer.mjs
+code: web/app/(site)/analysis/explore/ExploreView.tsx
 ---
 
 ![Explorer side sheet](side-sheet.png)
