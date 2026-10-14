@@ -217,3 +217,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop searches found no named variety for 307. Tasting impressions of lemon or corn were not treated as recipe evidence.
+- Deep dive pass 2026-10-14: the brewery beer list gives 307 as an American light lager at 4.2% ABV and 10 IBU; no description.

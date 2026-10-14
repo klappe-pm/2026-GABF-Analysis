@@ -209,3 +209,4 @@ Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://u
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The matching Untappd page supplies the selected strength and ingredient description. Search excerpts from BeerAdvocate and a brewer interview showed 5%, but the interview returned HTTP 403; the discrepancy is unresolved and the Untappd value is not claimed as a competition-batch measurement.
 - Field pass 2026-10-13: Additional hop, IBU and brewery-domain searches found no verified new specification or brewery beer page. Previously documented pages and the inaccessible interview were not fetched again.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

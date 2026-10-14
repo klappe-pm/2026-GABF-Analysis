@@ -225,3 +225,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found, and the web search budget ran out before an Untappd lookup could be made.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's cervecería page explicitly names Puesto Negra and publishes the bitterness and hop variety recorded above.
+- Deep dive pass 2026-10-14: the menu lists Negra at 5.3% ABV as a GABF gold medalist brewed by master brewer Doug Hasker; no description.

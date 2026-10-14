@@ -36,6 +36,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "tasting-notes"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "srm"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "og"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "fg"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -68,6 +72,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "hops"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -76,6 +81,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "hop-form"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -84,6 +90,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "hop-use"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -92,6 +99,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -100,6 +108,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "malts"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -108,6 +117,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "yeast"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -116,6 +126,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "adjuncts"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -124,6 +135,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "water"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -132,6 +144,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
   - field: "process"
     sources-checked:
       - "http://locavorebeerworks.com/"
@@ -140,6 +153,7 @@ gaps:
       - "https://www.ipourit.com/beer/Locavore-Beer-Works"
       - "https://www.locavorebeerworks.com/pages/tap-list"
       - "web searches recorded in the research notes"
+      - "https://www.locavorebeerworks.com/"
 hop-profile: []
 hops: []
 ibu: 25
@@ -240,7 +254,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [locavorebeerworks.com](http://locavorebeerworks.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/locavore-beer-works), [taplist.io](https://taplist.io/locavorebeerworks), [ipourit.com](https://www.ipourit.com/beer/Locavore-Beer-Works), [locavorebeerworks.com](https://www.locavorebeerworks.com/pages/tap-list), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [locavorebeerworks.com](http://locavorebeerworks.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/locavore-beer-works), [taplist.io](https://taplist.io/locavorebeerworks), [ipourit.com](https://www.ipourit.com/beer/Locavore-Beer-Works), [locavorebeerworks.com](https://www.locavorebeerworks.com/pages/tap-list), web searches recorded in the research notes, [locavorebeerworks.com](https://www.locavorebeerworks.com/).
 
 ## research-notes
 
@@ -249,3 +263,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The iPourIt brewery directory names Friend of the Devil and supplies the bitterness above, but no hop varieties or brewery beer page. Its 5.1% ABV conflicts with the retained 5.5% from the [brewery digital menu](https://taplist.io/locavorebeerworks); the [directory](https://www.ipourit.com/beer/Locavore-Beer-Works) may describe a different batch.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Friend of the Devil description.
