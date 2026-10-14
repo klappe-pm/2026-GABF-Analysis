@@ -175,33 +175,48 @@ export function tileGrid(o: { tiles: Record<string, [number, number]>; value: (c
   };
 }
 
-// Area is the count: the biggest families are the biggest blocks.
+// Area is the count: the biggest families are the biggest blocks. A block shows its name only when the
+// name fits in it without breaking inside a word (its longest word fits the block's width, two lines fit
+// its height); every block names itself in the tooltip.
 export type TreeItem = { name: string; value: number; color: (kit: Kit) => string; detail: string };
 export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string; label: (item: TreeItem) => string }) {
   const byName = (name: string) => o.items.find((i) => i.name === name) ?? o.items[0];
-  return (kit: Kit, w: number): Built => ({
-    height: w < NARROW ? 420 : Math.round(w * 0.55),
-    option: {
-      tooltip: tooltip(kit, { formatter: (p: { name: string }) => o.tip(byName(p.name)) }),
-      series: [{
-        type: 'treemap',
-        roam: false,
-        nodeClick: false,
-        breadcrumb: { show: false },
-        left: 0,
-        right: 0,
-        top: 0,
-        bottom: 0,
-        squareRatio: 1,
-        data: o.items.map((i) => {
-          const fill = i.color(kit);
-          return { name: i.name, value: i.value, itemStyle: { color: fill, borderColor: kit.page, borderWidth: 2 }, label: { show: true, color: kit.textOn(fill) } };
-        }),
-        label: { show: true, fontSize: w < NARROW ? kit.small : kit.small + 2, fontWeight: 700, fontFamily: kit.family, lineHeight: 18, overflow: 'break', formatter: (p: { name: string }) => o.label(byName(p.name)) },
-        itemStyle: { gapWidth: 2, borderColor: kit.page, borderWidth: 2 },
-      }],
-    },
-  });
+  return (kit: Kit, w: number): Built => {
+    const height = w < NARROW ? 420 : Math.round(w * 0.55);
+    const size = w < NARROW ? kit.small : kit.small + 2;
+    const ctx = document.createElement('canvas').getContext('2d');
+    if (ctx) ctx.font = `700 ${size}px ${kit.family}`;
+    const total = o.items.reduce((s, i) => s + i.value, 0) || 1;
+    // The blocks are close to square, so a block's side is about the square root of its share of the area.
+    const fits = (i: TreeItem) => {
+      const side = Math.sqrt((i.value / total) * w * height) * 0.9 - 12;
+      const longest = Math.max(...o.label(i).split(/\s+/).map((word) => (ctx ? ctx.measureText(word).width : word.length * size * 0.65)));
+      return side >= longest && side >= size * 3.2;
+    };
+    return {
+      height,
+      option: {
+        tooltip: tooltip(kit, { formatter: (p: { name: string }) => o.tip(byName(p.name)) }),
+        series: [{
+          type: 'treemap',
+          roam: false,
+          nodeClick: false,
+          breadcrumb: { show: false },
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0,
+          squareRatio: 1,
+          data: o.items.map((i) => {
+            const fill = i.color(kit);
+            return { name: i.name, value: i.value, itemStyle: { color: fill, borderColor: kit.page, borderWidth: 2 }, label: { show: fits(i), color: kit.textOn(fill) } };
+          }),
+          label: { show: true, fontSize: size, fontWeight: 700, fontFamily: kit.family, lineHeight: 18, overflow: 'break', formatter: (p: { name: string }) => o.label(byName(p.name)) },
+          itemStyle: { gapWidth: 2, borderColor: kit.page, borderWidth: 2 },
+        }],
+      },
+    };
+  };
 }
 
 // A grid of values: rows by columns, each cell colored by its bin. A null cell is left empty.

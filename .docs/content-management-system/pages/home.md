@@ -14,9 +14,9 @@ Where: top of the page.
 Where: the scoresheet fields across the top of the page.
 
 - `competition_year`: Competition and year
-- `competition_value`: Great American Beer Festival {{year}}
+- `competition_value`: GABF {{year}}
 - `entries_judged`: Entries judged
-- `categories`: Categories
+- `categories`: Categories in {{year}}
 - `medals_awarded`: Medals awarded
 - `not_published`: Not published
 

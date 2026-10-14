@@ -18,6 +18,13 @@ Where: the dashboards index page and the tab row at the top of every dashboard.
 - `economics`: Ownership and economics
 - `economics_description`: Ownership, parent companies, and estimated revenue, margins, and distribution.
 
+## `coverage`
+
+Where: the row of year chips under the tabs on every dashboard. Each links to the Method page.
+
+- `label`: Coverage by year
+- `chip`: {{year}}, {{status}}
+
 ## `overview`
 
 Where: the overview dashboard.
@@ -89,7 +96,7 @@ Where: the summary tiles on every dashboard.
 - `medals`: Medals in view
 - `breweries`: Breweries
 - `states`: States
-- `categories`: Categories
+- `categories`: Categories in view
 - `categories_note`: {{count}} medals in special categories
 - `medal_split`: Gold, silver, bronze
 - `entrants`: Entrants in these categories

@@ -2,11 +2,11 @@
 name: chips
 title: Chips
 status: draft
-code: scripts/build-site.mjs
+code: web/components/Chips.tsx
 ---
 
 ![Chips](chips.png)
 
 ## chips-options
 
-- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.
+- Nothing yet: the chips are drawn from the theme and gain settings when the owner asks for them.
