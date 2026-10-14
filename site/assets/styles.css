@@ -72,6 +72,13 @@ p.small, p.note, figure.viz .note { max-width: 75ch; }
 @media (max-width: 480px) { .grid.two { grid-template-columns: 1fr; } }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
 .card h2, .card h3 { margin-top: 0; }
+/* beer and hop profile cards: one grid, one card shape, theme colors only */
+.profile-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.profile-grid > * { min-width: 0; }
+.profile-card { display: flex; flex-direction: column; gap: 6px; padding: 14px; }
+.profile-card h3 { margin: 0; font-size: 1.05rem; }
+.profile-card p { margin: 0; }
+.profile-card .kv { margin: 4px 0; }
 
 .stats { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 12px 0 20px; }
 .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }

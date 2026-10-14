@@ -115,6 +115,13 @@ export function hopEntries(fm) {
   return entries;
 }
 
+// A short passage for a card: whole words, ending in an ellipsis when it was cut.
+export function excerpt(text, max = 180) {
+  const s = str(text).replace(/\s+/g, ' ');
+  if (s.length <= max) return s;
+  return `${s.slice(0, max).replace(/\s+\S*$/, '')}…`;
+}
+
 export const DETAIL_KEYS = ['description', 'tasting-notes', 'srm', 'og', 'fg', 'water', 'process'];
 // { key, value, source } for each detail field a profile carries. A value may be plain, a list, or
 // { value, source }; a source may also sit beside it as `<key>-source`.
@@ -253,7 +260,7 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
       category_slug: row?.category_slug ?? hopSlug(fm['category-name']), category_number: fm['category-number'] ?? null,
       brewery: str(fm.brewery), brewery_key: row?.brewery_key ?? '', brewery_slug: brewery?.slug ?? row?.brewery_slug ?? hopSlug(fm.brewery),
       city: str(fm['brewery-city']), state: str(fm['brewery-state']), matched: Boolean(row), row,
-      usage: [], details: detailFields(fm),
+      style: str(fm.style), usage: [], details: detailFields(fm),
     };
     for (const e of hopEntries(fm)) {
       const v = resolveVariety(e.variety) ?? resolveVariety(e.published);
@@ -320,6 +327,11 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
     const r = beer.row;
     if (!r) continue;
     const names = (list) => [...new Set(list)].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
+    // Fields the beer profile card reads.
+    r.beer_style = beer.style || null;
+    const tasting = beer.details.find((d) => d.key === 'tasting-notes');
+    r.tasting_note = tasting ? excerpt(tasting.value) : null;
+    r.tasting_source = tasting?.source?.url ?? null;
     r.hop_varieties = names(beer.usage.map((u) => u.canonical));
     r.hop_farms_named = names(beer.usage.filter((u) => u.farm).map((u) => u.farm.name));
     r.hop_farms_grown = names(beer.usage.flatMap((u) => [...u.variety.farms.values()].map((x) => x.farm.name)));

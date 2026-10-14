@@ -11,6 +11,7 @@ import { hopSlug } from '../../site/assets/hop-links.mjs';
 import { valueLabel } from '../../site/assets/filter-bar.mjs';
 import { medalDot } from '../../site/assets/page-views.mjs';
 import { byMedalThenBeer, sourceOf } from './hops.mjs';
+import { beerCardsHtml } from '../../site/assets/profile-cards.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const wrap = (html) => `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${html}</div>`;
@@ -18,7 +19,7 @@ const label = (key) => humanize(String(key).replace(/_/g, '-'));
 // Form and use values read as words: "dry-hop" shows as "Dry hop".
 const word = (v) => valueLabel('hop_value', v);
 
-export function createHopPages({ model, ds, layout, write, COPY, renderMarkdownBody, registerDocs, notDefined, year }) {
+export function createHopPages({ model, ds, layout, write, COPY, renderMarkdownBody, registerDocs, notDefined, year, meta = null }) {
   const none = notDefined;
   const nav = { hops: COPY('global.navigation.header.hops'), farms: COPY('global.navigation.header.hop_farms') };
   const stateName = (code) => (code ? ds.stateByCode?.[code]?.name ?? code : '');
@@ -48,6 +49,39 @@ export function createHopPages({ model, ds, layout, write, COPY, renderMarkdownB
   const cellFor = (k, raw) => { const v = readable(raw); return cell(k, v); };
   const cell = (k, v) => (!v ? none : /^source/.test(k) || /^https?:/.test(v) ? v.split(/;\s*/).filter(Boolean).map((x) => sourceHtml(sourceOf(x))).join('<br>') : esc(v));
   const merchantTable = (list) => wrap(tableHtml(MERCHANT_COLS.filter((k) => list.some((m) => m[k])).map((k) => ({ key: k, label: label(k), render: (m) => cellFor(k, m[k]) })), list));
+  // ---------- profile cards ----------
+  const beerCards = (beers, r, tag = 'h2') => beerCardsHtml(beers.map((b) => b.row).filter(Boolean), { r, meta, tag });
+  const hc = (k, tokens) => COPY(`pages.profile-cards.hop.${k}`, tokens);
+  const trait = (v, re) => v.traits.filter((x) => re.test(x.key)).map((x) => `${label(x.key)}: ${x.value}`);
+  function hopCardHtml(v, r) {
+    const alpha = trait(v, /alpha/);
+    const oil = trait(v, /oil|myrcene|humulene|caryophyllene|farnesene/);
+    const lines = (list) => (list.length ? list.map(esc).join('<br>') : none);
+    const sources = [...new Map(v.aroma.map((a) => a.source).filter(Boolean).map((s) => [s.label + s.url, s])).values()];
+    const aroma = v.aroma.length ? `<span class="chips">${v.aroma.map((a) => `<span class="chip">${esc(a.descriptor)}</span>`).join('')}</span> <span class="small muted">${esc(hc('source'))}: ${sources.length ? sources.map(sourceHtml).join(', ') : none}</span>` : none;
+    const years = v.acreage.map((a) => Number(a.year)).filter(Boolean);
+    const latest = years.length ? Math.max(...years) : null;
+    const latestRows = v.acreage.filter((a) => Number(a.year) === latest);
+    const acres = latestRows.reduce((s, a) => s + (Number(String(a.acres).replace(/,/g, '')) || 0), 0);
+    const acreage = latest && acres ? esc(hc('acreage_value', { acres: fmt(acres), year: latest, states: latestRows.length })) : none;
+    const growers = [...v.farms.values()].map((x) => x.farm).sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+    const farmsHtml = growers.length ? `${growers.slice(0, 5).map((f) => farmLink(f, r)).join(', ')}${growers.length > 5 ? ` ${esc(hc('more', { count: growers.length - 5 }))}` : ''}` : none;
+    return `<article class="card profile-card hop-profile-card">
+<h3>${varietyLink(v, r)}</h3>
+<p class="small">${v.origin ? `<span class="pill">${esc(hc('origin', { origin: v.origin }))}</span>` : ''}${v.breeder ? `<span class="pill">${esc(hc('breeder', { breeder: v.breeder }))}</span>` : ''}</p>
+<dl class="kv">
+<dt>${esc(hc('alpha'))}</dt><dd>${lines(alpha)}</dd>
+<dt>${esc(hc('oil'))}</dt><dd>${lines(oil)}</dd>
+<dt>${esc(hc('aroma'))}</dt><dd>${aroma}</dd>
+<dt>${esc(hc('acreage'))}</dt><dd>${acreage}</dd>
+<dt>${esc(hc('beers', { year }))}</dt><dd>${v.counts.beers}</dd>
+<dt>${esc(hc('farms'))}</dt><dd>${farmsHtml}</dd>
+</dl>
+<p class="small"><a href="${r}hops/${esc(v.slug)}/">${esc(hc('open'))}</a></p>
+</article>`;
+  }
+  const hopCards = (list, r, tag = 'h2') => (list.length ? `<${tag}>${esc(hc('section'))}</${tag}><div class="profile-grid">${list.map((v) => hopCardHtml(v, r)).join('')}</div>` : '');
+
   const uniq = (list) => [...new Set(list.filter(Boolean))];
   const joinWords = (list) => { const u = uniq(list); return u.length ? esc(u.map(word).join(', ')) : none; };
   const docHtml = (doc, titleKey) => {

@@ -11,6 +11,7 @@ import { emptyStateHtml, includesPartial, partialNoticeHtml, valueLabel } from '
 import { estMark } from './estimates.mjs';
 import { compareLabels } from './sort-order.mjs';
 import { hopCopy, hopLinksHtml, hopSlug } from './hop-links.mjs';
+import { beerCardsHtml } from './profile-cards.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
@@ -124,7 +125,8 @@ function breweryView(rows, ctx) {
 ${hopsUsedHtml(rows, { r, meta })}
 <h2>gabf-medal-history</h2>
 <p class="small muted">Field is the number of entries in the category that year, from the official list; entries per medal divides it by the medals awarded there.</p>
-${medalTable([...rows].sort(byNewest), { r, odds: true, meta })}`;
+${medalTable([...rows].sort(byNewest), { r, odds: true, meta })}
+${beerCardsHtml(rows, { r, meta })}`;
 }
 
 // The hops used across a set of medal beers, one row per variety, each linking to its page.
@@ -154,7 +156,8 @@ function categoryView(rows, ctx) {
     : `<div class="card"><h2>entrants</h2><p class="muted">${withEntries.length === 1 ? `${fmt(withEntries[0].entries)} entries in ${withEntries[0].year}. A trend appears when a second year with entry counts is in view.` : 'No entry counts in view for this category.'}</p></div>`;
   return `${chart}
 <h2>medalists-by-year</h2>
-${[...list].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort(byNewest), { r, showYear: false, showBrewery: true, compact: true, meta })}`).join('')}`;
+${[...list].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort(byNewest), { r, showYear: false, showBrewery: true, compact: true, meta })}`).join('')}
+${beerCardsHtml(rows, { r, meta })}`;
 }
 
 // ---------- 2026 winners index ----------
@@ -190,7 +193,8 @@ ${g.rows.sort(byNewest).map((x) => {
   }).join('')}
 </tbody>`).join('');
   return `<div class="stats">${stats}</div>
-<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap winners-table"><table class="data-table">${head}${bodies}</table></div>`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap winners-table"><table class="data-table">${head}${bodies}</table></div>
+${beerCardsHtml(list, { r: ctx.r, meta: ctx.meta })}`;
 }
 
 // ---------- first time medalists ----------

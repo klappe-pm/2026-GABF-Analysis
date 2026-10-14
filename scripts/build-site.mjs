@@ -23,6 +23,7 @@ import { loadSiteCopy } from './lib/site-copy.mjs';
 import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
 import { createHopPages } from './lib/hop-pages.mjs';
 import { HOP_COPY_DEFAULTS } from '../site/assets/hop-links.mjs';
+import { BEER_CARD_DEFAULTS } from '../site/assets/profile-cards.mjs';
 
 const require = createRequire(import.meta.url);
 // Visible copy that has a key in .docs/content-management-system/ is read from there (see lib/site-copy.mjs).
@@ -38,6 +39,7 @@ const NOT_DEFINED = `<span class="muted">${esc(COPY('global.states.gaps.not_defi
 const HOP_SHARED_COPY = () => Object.fromEntries(Object.keys(HOP_COPY_DEFAULTS).map((k) => [k, COPY(`pages.hop-detail.shared_views.${k}`)]));
 // The hop model and pages of the current build (set in build()).
 let HOP_PAGES = null;
+const CARD_COPY = () => Object.fromEntries(Object.keys(BEER_CARD_DEFAULTS).map((k) => [k, COPY(`pages.profile-cards.beer.${k}`)]));
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
 const PROFILES = new Map();
@@ -138,7 +140,7 @@ function otherMedalsTable(rows) {
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown', 'beer_style', 'tasting_note', 'tasting_source'];
 
 // Decorate the medal rows once per dataset with what the views and the filter need: brewery
 // attributes, medals awarded per category and year (for entries per medal), the 2026 research
@@ -258,7 +260,7 @@ export function buildPayload(ds, cats) {
     ownership: Object.fromEntries(ds.breweries.filter((b) => b.ownership).map((b) => [b.key, { ownership_type: b.ownership.ownership_type, parent: b.ownership.parent }])),
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
-    copy: { hops: HOP_SHARED_COPY() },
+    copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY() },
   };
   const breweries = ds.breweries.map((b) => ({
     key: b.key, slug: b.slug, name: b.name, hq: b.hq, brewery_type: b.brewery_type, founded: b.founded, employees: b.employees, medals: b.medals.length, by_medal: b.by_medal, points: b.total_points, first_year: b.first_year, last_year: b.last_year, streak: b.streak, trend: b.trend,
