@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,135 @@ brewery-state: "TX"
 brewery-url: "https://www.pinthouse.com/"
 category-name: "American India Pale Ale"
 category-number: 100
+description:
+  text: "The result is a juicy pale ale, with refreshing bitterness and notes of sweet orchard fruit, tangerine, coconut, and mango."
+  source: "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
 entries: 165
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+      - "https://www.beeradvocate.com/beer/profile/31066/279546/"
+      - "https://www.pinthouse.com/"
+      - "https://www.pinthouse.com/beer-on-tap"
+      - "https://www.pinthouse.com/flagship-beers"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Chinook"
+    variety: "Chinook"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
 hops:
   - "Chinook"
   - "Citra"
@@ -32,15 +160,21 @@ hops:
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
+  - "https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84"
   - "https://untappd.com/b/pinthouse-brewing-green-battles/2065360"
   - "https://www.beeradvocate.com/beer/profile/31066/279546/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.pinthouse.com/"
   - "https://www.pinthouse.com/beer-on-tap"
   - "https://www.pinthouse.com/flagship-beers"
+srm: null
 style: "American Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +207,49 @@ Green Battles is an IPA from Pinthouse in Austin, Texas.
 
 Source: [Brewery description on Untappd](https://untappd.com/b/pinthouse-brewing-green-battles/2065360)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The base beer listing describes double dry hopping with Cryo-Hops but does not identify which varieties use that format.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style India Pale Ale gives 6.3 to 7.5 percent ABV and 50 to 70 IBU. The listed ABV fits; bitterness remains unpublished.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American India Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Pinthouse Pizza is in Austin, TX. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +260,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Green Battles base beer](https://untappd.com/b/pinthouse-brewing-green-battles/2065360)
 - [Green Battles comparison](https://www.beeradvocate.com/beer/profile/31066/279546/)
 
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/pinthouse-brewing-green-battles/2065360), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/31066/279546/), [pinthouse.com](https://www.pinthouse.com/), [pinthouse.com](https://www.pinthouse.com/beer-on-tap), [pinthouse.com](https://www.pinthouse.com/flagship-beers), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84).
+
 ## research-notes
 
 - Field pass 2026-10-13: Further brewery and IBU searches surfaced fresh hop Green Battles variants only; neither a base-beer brewery page nor a numeric IBU was verified.
@@ -98,3 +273,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Whether the entered beer was this fresh hop variant or a standard Green Battles could not be confirmed.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Green Battles](https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84) lists 6.7% ABV, style "American IPA" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

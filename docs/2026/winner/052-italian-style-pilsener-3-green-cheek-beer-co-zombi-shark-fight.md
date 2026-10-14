@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,83 @@ brewery-state: "CA"
 brewery-url: "https://greencheekbeer.com/"
 category-name: "Italian-Style Pilsener"
 category-number: 52
+description:
+  text: "Wonderfully aromatic with a dried lemon zest vibe along with some sage."
+  source: "https://greencheekbeer.com/"
 entries: 77
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://greencheekbeer.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Saphir"
+    variety: "Saphir"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://greencheekbeer.com/"
 hops:
   - "Saphir"
 ibu: null
 malts:
   - "Italian coastal barley"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://greencheekbeer.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Italian-Style Pils w/ Saphir"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,19 +133,59 @@ Zombi Shark Fight is an Italian-style pils hopped with Saphir, brewed at Green C
 
 Source: [Green Cheek: beer descriptions](https://greencheekbeer.com/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's description credits brewer Max at the Costa Mesa site with using Italian coastal barley and German-grown Saphir hops, which it says add tannin structure to a light body and a snappy finish ([Green Cheek: beer descriptions](https://greencheekbeer.com/)). No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Saphir | Saphir | not published | not published | not published | [greencheekbeer.com](https://greencheekbeer.com/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Italian-Style Pilsener calls for assertive, crisp and aromatic hop character, 4.5 to 5.3 percent ABV, 25 to 50 IBU and 3 to 4 SRM. The published 5.2% ABV fits; IBU cannot be checked.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2024 | Great American Beer Festival | Italian-Style Pilsener | Gold |
+| 2026 | Great American Beer Festival | Italian-Style Pilsener | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Green Cheek Beer Co. is in Costa Mesa, CA. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram](https://www.instagram.com/greencheekbeer/).
 
 ## links
 
 - [Beer page on brewery site](https://greencheekbeer.com/)
 - [Green Cheek Beer Co.](https://greencheekbeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://greencheekbeer.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [greencheekbeer.com](https://greencheekbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

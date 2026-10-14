@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,123 @@ brewery-state: "FL"
 brewery-url: "https://www.nybeerproject.com/"
 category-name: "American-Style Light Lager"
 category-number: 38
+description: null
 entries: 104
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
+      - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
+      - "https://untappd.com/NewYorkBeerProject/beer?q=light"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026"
   - "https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025"
   - "https://untappd.com/NewYorkBeerProject/beer?q=light"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "American-Style Light Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +171,45 @@ Beer Project Light is a light lager from New York Beer Project, a brewpub group 
 
 No brewery description was found; the brewery website blocked automated access.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published in any source that could be reached.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Light Lager calls for an extremely high degree of attenuation, very low malt, absent to very low hops, 3.5 to 4.4 percent ABV, 4 to 10 IBU and a very light to pale color (SRM 1.5 to 4). No specs are published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American-Style Light Lager | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+New York Beer Project is in Winter Garden, FL. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## links
 
@@ -81,6 +218,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: New York Beer Project light beers](https://untappd.com/NewYorkBeerProject/beer?q=light)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Buffalo Beer Buzz: March release news](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

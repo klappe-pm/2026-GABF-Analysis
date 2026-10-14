@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Wanderjack"
@@ -26,19 +26,135 @@ brewery-state: "OR"
 brewery-url: "https://breakside.com/"
 category-name: "Hoppy Lager"
 category-number: 47
+description:
+  text: "The beer that came out of that thought experiment is filled with three of the fruitiest hops around, Strata, Mosaic, and Azacca, along with a touch of Simcoe to anchor the beer in classic dank and catty West Coast flavor. The bitterness is modest."
+  source: "https://breakside.com/our_beer/wanderjack/"
 entries: 57
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/wanderjack/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://breakside.com/"
   - "https://breakside.com/awards/"
   - "https://breakside.com/beers/"
   - "https://breakside.com/our_beer/wanderjack/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Hoppy Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +189,45 @@ The brewery publishes no description of a lager Wanderjack. Its Wanderjack page 
 
 Source: [Breakside: Wanderjack IPA page](https://breakside.com/our_beer/wanderjack/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing is published for a lager version. The IPA page's ingredients are recorded in research-notes rather than the structured fields, because they may describe a different beer from the medal entry.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page read for this run lists no style named Hoppy Lager. As loose category context only, its nearest hop forward lager style, American-Style India Pale Lager, calls for high hop aroma and flavor at 5.6 to 7.9 percent ABV and 50 to 70 IBU. No lager specs are published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hoppy Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Breakside Brewery & Taproom is in Milwaukie, OR.
+
+Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https://www.instagram.com/breakside/).
 
 ## links
 
@@ -88,6 +236,11 @@ The [Brewers Association guidelines](https://www.brewersassociation.org/edu/brew
 - [Breakside: beers](https://breakside.com/beers/)
 - [Breakside: awards](https://breakside.com/awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/wanderjack/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/wanderjack/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

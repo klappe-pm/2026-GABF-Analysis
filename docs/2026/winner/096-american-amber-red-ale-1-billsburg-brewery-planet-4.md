@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,111 @@ brewery-state: "VA"
 brewery-url: "https://www.billsburg.com/"
 category-name: "American Amber/Red Ale"
 category-number: 96
+description: null
 entries: 85
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://billsburg.com/beer/"
+      - "https://taplist.io/taplist-739667"
+      - "https://www.billsburg.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 26
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://billsburg.com/beer/"
   - "https://taplist.io/taplist-739667"
   - "https://www.billsburg.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Red Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +159,45 @@ Planet 4 is a red ale from Billsburg Brewery in Williamsburg, Virginia.
 
 No brewery description of this beer was found; the tap list gives only its name, style and numbers.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about this beer's ingredients is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Amber/Red Ale calls for an amber to reddish brown ale with medium-high malt, low to medium caramel character and moderate hops, 4.4 to 6.1 percent ABV and 25 to 45 IBU. The published 5.4% ABV and 26 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Amber/Red Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Billsburg Brewery is in Williamsburg, VA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.billsburg.com/), [Instagram](https://www.instagram.com/billsburgbrewery/).
 
 ## links
 
@@ -80,6 +205,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Billsburg Brewery](https://www.billsburg.com/)
 - [Billsburg: tap list](https://taplist.io/taplist-739667)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [billsburg.com](https://billsburg.com/beer/), [taplist.io](https://taplist.io/taplist-739667), [billsburg.com](https://www.billsburg.com/), web searches recorded in the research notes.
 
 ## research-notes
 

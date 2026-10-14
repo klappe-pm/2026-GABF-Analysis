@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,139 @@ brewery-state: "UT"
 brewery-url: "https://offsetbier.com/"
 category-name: "Session India Pale Ale"
 category-number: 18
+description:
+  text: "Our GABF Gold Medal winning L IPA, Divi, is back. This beer bursts with tropical fruit character that's incredibly unique. It's absolutely saturated with hop flavor but at only 5% you can have a couple on a Tuesday and not regret it."
+  source: "https://offsetbier.com/taplist-1"
 entries: 67
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://offsetbier.com/"
+      - "https://offsetbier.com/cans-to-go"
+      - "https://offsetbier.com/taplist-1"
+      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
+      - "https://untappd.com/b/offset-bier-divi/4499932"
+      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Krush"
+    variety: "Krush"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
+  - published: "Nectaron"
+    variety: "Nectaron"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
+  - published: "Ramosa"
+    variety: "Ramosa"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
 hops:
   - "Krush"
   - "Nectaron"
@@ -32,7 +164,9 @@ hops:
 ibu: 45
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://offsetbier.com/"
   - "https://offsetbier.com/cans-to-go"
@@ -41,7 +175,10 @@ sources:
   - "https://untappd.com/b/offset-bier-divi/4499932"
   - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Tropical L IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +211,50 @@ Divi is a 5% tropical hazy "L IPA" (the brewery's term for a 5% IPA) from Offset
 
 Source: [Offset Bier: tap list](https://offsetbier.com/taplist-1)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The tap list names three hops, Krush, Nectaron and Ramosa, and nothing else. A 2021 TownLift profile says the name comes from the divi-divi tree and that the beer offers bright tropical notes ([TownLift](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/)). No malt or yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Krush | Krush | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Nectaron | Nectaron | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Ramosa | Ramosa | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session India Pale Ale describes lower alcohol versions of any IPA style at 0.5 to 5.0 percent ABV and 20 to 55 IBU, with assertive hop character balanced for drinkability. The published 5% ABV sits at the top of the range; the newly verified bitterness also falls within the category range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2024 | Great American Beer Festival | Session India Pale Ale | Gold |
+| 2026 | Great American Beer Festival | Session India Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Offset Bier Co. is in Park City, UT.
+
+Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https://www.instagram.com/offsetbier/), [Untappd](https://untappd.com/OffsetBierCo).
 
 ## links
 
@@ -91,6 +265,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [TownLift: Offset Bier profile](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/)
 - [Craft Beer and Brewing: Conor Brown podcast](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [untappd.com](https://untappd.com/b/offset-bier-divi/4499932), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), web searches recorded in the research notes.
 
 ## research-notes
 

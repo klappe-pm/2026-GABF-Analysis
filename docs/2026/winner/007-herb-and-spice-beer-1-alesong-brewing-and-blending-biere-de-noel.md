@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Bière de Noël"
@@ -26,19 +26,107 @@ brewery-state: "OR"
 brewery-url: "https://www.alesongbrewing.com/"
 category-name: "Herb and Spice Beer"
 category-number: 7
+description:
+  text: "The Belgian tradition of creating a special winter ale for the holidays lives on with us at Alesong. Our first-ever Bière de Noël was aged in brandy barrels and features a carefully selected blend of baking spices. Reminiscent of a family-favorite recipe for Christmas cake, this rich, aromatic ale will be best enjoyed with loved ones for creating festive memories and good cheer."
+  source: "https://alesongbrewing.com/biere-de-noel"
 entries: 67
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://alesongbrewing.com/biere-de-noel"
+      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
+      - "https://www.alesongbrewing.com/"
+      - "https://www.alesongbrewing.com/beer-library"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 22
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://alesongbrewing.com/biere-de-noel"
   - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
   - "https://www.alesongbrewing.com/"
   - "https://www.alesongbrewing.com/beer-library"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Winter ale aged in brandy barrels"
+tasting-notes: null
+water: null
 yeast:
   - "Saccharomyces"
 ---
@@ -72,13 +160,45 @@ Biere de Noel is a holiday ale from Alesong Brewing & Blending in Eugene, Oregon
 
 Source: [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names Saccharomyces as the microbe and brandy as the barrel, and describes the spicing only as a carefully selected blend of baking spices ([Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel)). Malts, hops and individual spices are not published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Herb and Spice Beer asks for herb or spice character from subtle to intense, notes that individual spices may not be identifiable, favors very low to medium-low bitterness, and lets IBU and ABV vary with the base style. A spiced winter ale fits; the brewery's unnamed spice blend matches the guideline's allowance for spices that are not individually identifiable.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Herb and Spice Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Alesong Brewing & Blending is in Eugene, OR.
+
+Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram](https://www.instagram.com/alesongbrewing/), [Untappd](https://untappd.com/Alesong).
 
 ## links
 
@@ -86,6 +206,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://alesongbrewing.com/biere-de-noel)
 - [Alesong Brewing & Blending](https://www.alesongbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
 
 ## research-notes
 

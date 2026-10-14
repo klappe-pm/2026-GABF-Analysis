@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,137 @@ brewery-state: "CO"
 brewery-url: "https://www.wildblueyonderbrewing.com/"
 category-name: "Pro-Am Comp"
 category-number: 500
+description:
+  text: "Notes of honey, bubblegum, white pepper, and citrus peel in a very dry and moderately hopped Belgian Single."
+  source: "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
 entries: 30
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://bierederock.com/"
+      - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby"
+      - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 42
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://bierederock.com/"
   - "https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495"
@@ -37,7 +162,10 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/"
   - "https://www.wildblueyonderbrewing.com/"
   - "https://www.wildblueyonderbrewing.com/drink-menu"
+srm: null
 style: "Belgian Single"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +198,45 @@ The Burden of Being Wonderful is a Belgian ale brewed at commercial scale by Wil
 
 Source: [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are published for the commercial batch. Sensory references to honey, pepper and citrus in its description do not establish recipe additions.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As competition context only, the [GABF Pro-Am page](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/) describes the Pro-Am as "an opportunity for commercial breweries to team up with homebrewers," with entries based on homebrew recipes that have won an award in competition and judged by the main GABF panel. Pro-Am medals are separate from the main competition and set no single style, so no style guideline applies.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Pro-Am Comp | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Wild Blue Yonder Brewing Co. is in Castle Rock, CO.
+
+Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [Instagram](https://www.instagram.com/wildblueyonderbrewing/), [Untappd](https://untappd.com/WildBlueYonderBrewingCo).
 
 ## links
 
@@ -86,6 +246,10 @@ As competition context only, the [GABF Pro-Am page](https://www.greatamericanbee
 - [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby)
 - [Homebrew competition results](https://bierederock.com/)
 - [Earlier homebrew recipe](https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierederock.com](https://bierederock.com/), [brewlog.geoffhumphrey.com](https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495), [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 

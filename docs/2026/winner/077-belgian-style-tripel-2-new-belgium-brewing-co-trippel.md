@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,87 @@ brewery-state: "CO"
 brewery-url: "https://www.newbelgium.com/"
 category-name: "Belgian-Style Tripel"
 category-number: 77
+description:
+  text: "A golden, sweet and pleasantly dry Belgian-style ale ... Brewed with Pilsner and Munich malts, Trippel is classically smooth and complex."
+  source: "https://www.newbelgium.com/beer/trippel/"
 entries: 33
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.newbelgium.com/"
+      - "https://www.newbelgium.com/beer/trippel/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau Mittelfrüh"
+    variety: "Hallertau Mittelfrüh"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.newbelgium.com/beer/trippel/"
+  - published: "Liberty"
+    variety: "Liberty"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.newbelgium.com/beer/trippel/"
+  - published: "Nugget"
+    variety: "Nugget"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.newbelgium.com/beer/trippel/"
+  - published: "Saaz"
+    variety: "Saaz"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.newbelgium.com/beer/trippel/"
 hops:
   - "Hallertau Mittelfrüh"
   - "Liberty"
@@ -36,12 +116,17 @@ malts:
   - "Pale malt"
   - "Pilsner malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.newbelgium.com/"
   - "https://www.newbelgium.com/beer/trippel/"
+srm: null
 style: "Belgian-style ale"
+tasting-notes: null
+water: null
 yeast:
   - "Trappist ale yeast"
 ---
@@ -75,19 +160,61 @@ Trippel is a golden Belgian-style ale from New Belgium Brewing Co. in Fort Colli
 
 Source: [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery publishes a full ingredient list on its beer page: pale, Munich and Pilsner malts, four hops (Nugget, Hallertau Mittelfrüh, Saaz and Liberty) and a Trappist ale yeast ([New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/)). No spice is listed.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Liberty | Liberty | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Nugget | Nugget | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Saaz | Saaz | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Tripel calls for 7.1 to 10.1 percent ABV, 20 to 50 IBU and 4 to 9 SRM, with a complex, sometimes mildly spicy aroma and flavor. The published 8.5% ABV and 43 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2021 | Great American Beer Festival | Belgian-Style Abbey Ale | Gold |
+| 2026 | Great American Beer Festival | Belgian-Style Tripel | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+New Belgium Brewing Co. is in Fort Collins, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.newbelgium.com/beer/trippel/)
 - [New Belgium Brewing Co.](https://www.newbelgium.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [newbelgium.com](https://www.newbelgium.com/), [newbelgium.com](https://www.newbelgium.com/beer/trippel/), web searches recorded in the research notes.
 
 ## research-notes
 

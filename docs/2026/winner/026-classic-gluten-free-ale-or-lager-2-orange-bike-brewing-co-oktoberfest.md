@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,19 +25,128 @@ brewery-state: "ME"
 brewery-url: "https://www.orangebikebrewing.com/"
 category-name: "Classic Gluten-Free Ale or Lager"
 category-number: 26
+description:
+  text: "The Orange Bike Oktoberfest boast toasty aroma of rich German style malts. Dominant malt flavor with hints of toast and biscuits. Balanced hop bitterness with a rich and clean finish."
+  source: "https://www.orangebikebrewing.com/whats-on-tap"
 entries: 21
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://business.untappd.com/locations/46338/themes/172032/js"
+      - "https://untappd.com/OrangeBikeBrewing/beer"
+      - "https://www.orangebikebrewing.com/"
+      - "https://www.orangebikebrewing.com/whats-on-tap"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://business.untappd.com/locations/46338/themes/172032/js"
   - "https://untappd.com/OrangeBikeBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.orangebikebrewing.com/"
   - "https://www.orangebikebrewing.com/whats-on-tap"
+srm: null
 style: "Märzen"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +179,46 @@ Oktoberfest is a gluten-free Märzen style beer from Orange Bike Brewing Co., wh
 
 Source: [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-tap)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The tap list mentions only "German style malts" without naming the grains, and no hop or yeast is named. Because the brewery is dedicated gluten-free, the grains must be gluten-free, but which ones are used is not published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Gluten-Free Beer require every ingredient to be free of gluten, exclude barley, wheat, spelt and rye, and let ABV, IBU and color vary with the underlying style; such beers are judged on their own merits rather than strict style parameters. No published figure conflicts with the guideline, though grains are not named to confirm the gluten-free grist beyond the brewery's dedicated gluten-free status.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2024 | Great American Beer Festival | Gluten-Free Beer | Silver |
+| 2026 | Great American Beer Festival | Classic Gluten-Free Ale or Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Orange Bike Brewing Co. is in Portland, ME.
+
+Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instagram](https://www.instagram.com/orangebikebrewing/).
 
 ## links
 
@@ -84,6 +226,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Orange Bike Brewing Co.](https://www.orangebikebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Orange Bike beer list](https://untappd.com/OrangeBikeBrewing/beer)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
+- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

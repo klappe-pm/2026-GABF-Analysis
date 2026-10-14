@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,132 @@ brewery-state: "OH"
 brewery-url: "https://mastheadbrewingco.com/"
 category-name: "American Lager"
 category-number: 42
+description:
+  text: "Shower Beer is as crisp and refreshing as the Canadian Rockies. Whether it's your favorite sporting event or an everyday activity like taking a shower, this Canadian Style Lager is sure to pair perfectly."
+  source: "https://www.beermenus.com/beers/549762-masthead-shower-beer"
 entries: 94
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://mastheadbrewingco.com/"
+      - "https://mastheadbrewingco.com/beer"
+      - "https://mastheadbrewingco.com/menu"
+      - "https://untappd.com/MastheadBrewingCo/beer"
+      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://mastheadbrewingco.com/"
   - "https://mastheadbrewingco.com/beer"
@@ -37,7 +157,10 @@ sources:
   - "https://untappd.com/MastheadBrewingCo/beer"
   - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Canadian Style Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +195,45 @@ The brewery site carries no description of the beer. The BeerMenus listing carri
 
 Source: [BeerMenus: Masthead Shower Beer](https://www.beermenus.com/beers/549762-masthead-shower-beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are published on the brewery site, its taproom menu or the BeerMenus listing.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Lager describes a very clean, crisp, highly carbonated lager often made with corn or rice, at 4.1 to 5.1 percent ABV and 5 to 15 IBU. The listed 5.1% ABV sits at the top of the range; no IBU is published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Lager | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Masthead Brewing Co. is in Cleveland, OH.
+
+Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram](https://www.instagram.com/mastheadbrewing/).
 
 ## links
 
@@ -86,6 +241,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Masthead: food and drink menu](https://mastheadbrewingco.com/menu)
 - [BeerMenus: Masthead Shower Beer](https://www.beermenus.com/beers/549762-masthead-shower-beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

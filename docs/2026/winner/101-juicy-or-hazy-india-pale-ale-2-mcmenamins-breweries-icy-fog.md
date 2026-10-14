@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,131 @@ brewery-state: "OR"
 brewery-url: "https://www.mcmenamins.com/"
 category-name: "Juicy or Hazy India Pale Ale"
 category-number: 101
+description:
+  text: "Hazy IPA, Tropical Fruit, Candied Oranges, Herbal Dankness"
+  source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
 entries: 260
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+      - "https://www.mcmenamins.com/"
+      - "https://www.mcmenamins.com/handcrafted/ales"
+      - "https://www.mcmenamins.com/handcrafted/beer"
+      - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Chinook"
+    variety: "Chinook"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+  - published: "Nectaron"
+    variety: "Nectaron"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
+  - published: "Vista"
+    variety: "Vista"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/mcmenamins-icy-fog/5689174"
 hops:
   - "Chinook"
   - "Mosaic"
@@ -38,7 +162,9 @@ malts:
   - "Pilsner malt"
   - "White wheat"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/mcmenamins-icy-fog/5689174"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -46,7 +172,10 @@ sources:
   - "https://www.mcmenamins.com/handcrafted/ales"
   - "https://www.mcmenamins.com/handcrafted/beer"
   - "https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy"
+srm: null
 style: "Hazy IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -79,13 +208,51 @@ Icy Fog is a hazy IPA from McMenamins Breweries.
 
 Source: [Brewery description on Untappd](https://untappd.com/b/mcmenamins-icy-fog/5689174)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No yeast strain or adjunct ingredients were found beyond the hops and grain bill in the specs table.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Nectaron | Nectaron | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Vista | Vista | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy India Pale Ale calls for straw to light amber color with variable haze, low to medium-low malt, medium-high to very high juicy or tropical hop character and soft bitterness, at 6.3 to 7.5 percent ABV and 20 to 50 IBU. The listed ABV exceeds the category range, while its IBU reaches the upper bound.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Juicy or Hazy India Pale Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+McMenamins Breweries is in Portland, OR. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -95,6 +262,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Icy Fog listing](https://untappd.com/b/mcmenamins-icy-fog/5689174)
 - [McMenamins beer archive](https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174), [mcmenamins.com](https://www.mcmenamins.com/), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/ales), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/beer), [mcmenamins.com](https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy), web searches recorded in the research notes.
 
 ## research-notes
 

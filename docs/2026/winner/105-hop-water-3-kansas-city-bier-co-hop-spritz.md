@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,18 +25,96 @@ brewery-state: "MO"
 brewery-url: "https://kcbier.com/"
 category-name: "Hop Water"
 category-number: 105
+description:
+  text: "Our hop-infused sparkling water is all-natural, refreshing, and perfect for anytime."
+  source: "https://kcbier.com/biers/hop-spritz/"
 entries: 37
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://kcbier.com/biers/hop-spritz/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Dried hops"
+    variety: "Dried hops"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://kcbier.com/biers/hop-spritz/"
+  - published: "Hop extract"
+    variety: "Hop extract"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://kcbier.com/biers/hop-spritz/"
 hops:
   - "Dried hops"
   - "Hop extract"
 ibu: 0
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://kcbier.com/biers/hop-spritz/"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Hop-Infused Refresher"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,19 +147,58 @@ Hop Spritz is a sparkling hop water made by Kansas City Bier Co. in Kansas City,
 
 Source: [KC Bier Co. drink details](https://kcbier.com/biers/hop-spritz/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The base is sparkling water. The brewery names no hop varieties or flavor compounds beyond the ingredients in the specs table ([KC Bier Co. drink details](https://kcbier.com/biers/hop-spritz/)).
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Dried hops | Dried hops | not published | not published | not published | [kcbier.com](https://kcbier.com/biers/hop-spritz/) |
+| Hop extract | Hop extract | not published | not published | not published | [kcbier.com](https://kcbier.com/biers/hop-spritz/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) define Hop Water as a sparkling drink with hop-derived aroma and flavor and no alcohol. The published formulation fits that description.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hop Water | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Kansas City Bier Co. is in Kansas City, MO. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://untappd.com/KCBierCo).
 
 ## links
 
 - [Kansas City Bier Co.](https://kcbier.com/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
 - [KC Bier Co. drink details](https://kcbier.com/biers/hop-spritz/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kcbier.com](https://kcbier.com/biers/hop-spritz/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

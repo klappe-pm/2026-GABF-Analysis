@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Day Cruise Pale Ale"
@@ -25,19 +25,140 @@ brewery-state: "CA"
 brewery-url: "https://www.ketchbrewing.com/"
 category-name: "New Zealand-Style Pale Ale"
 category-number: 90
+description: null
 entries: 39
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://ketchbrewing.com/beers"
+      - "https://untappd.com/v/ketch-brewing/8611018"
+      - "https://www.beeradvocate.com/beer/profile/55354/404532/"
+      - "https://www.ketchbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://ketchbrewing.com/beers"
   - "https://untappd.com/v/ketch-brewing/8611018"
   - "https://www.beeradvocate.com/beer/profile/55354/404532/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ketchbrewing.com/"
+srm: null
 style: "New Zealand-Style Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +189,45 @@ Day Cruise is a pale ale from Ketch Brewing in San Diego; the brewery has publis
 
 No brewery description of this beer was found; the only mention on the brewery site is a customer review.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about this beer's ingredients is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. No specs are published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | New Zealand-Style Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Ketch Brewing is in San Diego, CA.
+
+Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](https://www.instagram.com/ketchbrewing/), [Untappd](https://untappd.com/KetchBrewing).
 
 ## links
 
@@ -83,6 +236,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Ketch Brewing](https://www.ketchbrewing.com/)
 - [Ketch Brewing: beers](https://ketchbrewing.com/beers)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

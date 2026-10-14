@@ -241,3 +241,11 @@ test('the hops index, winners page, category pages, and brewery pages link hops'
   const brewery = readFileSync(resolve(DIST, 'breweries', row.brewery_slug, 'index.html'), 'utf8');
   assert.match(brewery, /href="\.\.\/\.\.\/hops\/[a-z0-9-]+\/"/);
 });
+
+test('every rendered page and the standalone dashboard carry the Catalog.beer attribution', () => {
+  ensureBuilt();
+  const line = /Some beer details are from <a href="https:\/\/catalog\.beer">Catalog\.beer<\/a>, licensed <a href="https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/">CC BY 4\.0<\/a> and adapted\./;
+  const missing = allPages().filter((f) => !line.test(readFileSync(f, 'utf8'))).map((f) => f.slice(DIST.length + 1));
+  assert.deepEqual(missing, []);
+  assert.match(readFileSync(resolve(ROOT, 'site/standalone/template.html'), 'utf8'), line);
+});

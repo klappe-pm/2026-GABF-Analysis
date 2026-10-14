@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,19 +26,114 @@ brewery-state: "CO"
 brewery-url: "https://www.theempourium.com/"
 category-name: "Specialty Beer"
 category-number: 22
+description:
+  text: "Delicate floral aromatics, fresh blueberries, and subtle honey sweetness define Empourium Brewing Honey Panda Lager. This inventive lager layers blueberry lavender tea over a crisp, clean malt foundation"
+  source: "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
 entries: 51
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
+      - "https://www.theempourium.com/"
+      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
+      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 10
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
   - "https://www.theempourium.com/"
   - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
   - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
+srm: null
 style: "Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +168,45 @@ No brewery description was found; the brewery's drink menu lists Honey Panda by 
 
 Source: [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The retailer listing names honey and a blueberry lavender tea over a crisp malt base; no specific malt, hop or yeast is named, and the brewery itself publishes no ingredient list.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Specialty Beer covers beers made with an unusual carbohydrate source and sets no ABV, IBU or color limits. Honey is the only fermentable adjunct named for this beer, which is consistent with that definition.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+The Empourium Brewing Co. is in Denver, CO.
+
+Links checked 2026-10-14: [Website](https://www.theempourium.com/), [Instagram](https://www.instagram.com/empouriumbrew/).
 
 ## links
 
@@ -88,6 +215,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado)
 - [Colorado Brewery List: The Empourium](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/), [theempourium.com](https://www.theempourium.com/), [theempourium.com](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu), [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado), web searches recorded in the research notes.
 
 ## research-notes
 

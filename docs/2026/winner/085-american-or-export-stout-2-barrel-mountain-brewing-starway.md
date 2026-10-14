@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Starway Stout"
@@ -25,7 +25,74 @@ brewery-state: "WA"
 brewery-url: "https://www.barrelmountainbrewing.com/"
 category-name: "American or Export Stout"
 category-number: 85
+description:
+  text: "Deep black ale with aromas of dried fruit and a hint of smoke. A raisin like sweetness is followed by a bittersweet chocolate finish."
+  source: "https://barrelmountainbrewing.com/beer"
 entries: 41
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://barrelmountainbrewing.com/beer"
+      - "https://www.barrelmountainbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Willamette"
+    variety: "Willamette"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://barrelmountainbrewing.com/beer"
 hops:
   - "Willamette"
 ibu: 35
@@ -37,12 +104,17 @@ malts:
   - "Pale chocolate malt"
   - "Roast barley"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://barrelmountainbrewing.com/beer"
   - "https://www.barrelmountainbrewing.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,19 +147,57 @@ Starway is a stout brewed with Golden Promise malt and oats by Barrel Mountain B
 
 Source: [Barrel Mountain: our beer](https://barrelmountainbrewing.com/beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery publishes a full grist and its single hop, all listed in the specs table; no yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Willamette | Willamette | not published | not published | not published | [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describe American-Style Stout as black and roasty with medium to high American hop character, 5.7 to 8.0 percent ABV and 35 to 60 IBU, and Export-Style Stout as a strong, dry roasted stout at 5.6 to 8.0 percent ABV and 30 to 60 IBU. The published 6.6% ABV and 35 IBU fit both.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American or Export Stout | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Barrel Mountain Brewing is in Battle Ground, WA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://barrelmountainbrewing.com/beer)
 - [Barrel Mountain Brewing](https://www.barrelmountainbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [barrelmountainbrewing.com](https://barrelmountainbrewing.com/beer), [barrelmountainbrewing.com](https://www.barrelmountainbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

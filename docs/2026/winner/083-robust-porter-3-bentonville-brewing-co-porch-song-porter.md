@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,124 @@ brewery-state: "AR"
 brewery-url: "https://www.bentonvillebrewing.com/"
 category-name: "Robust Porter"
 category-number: 83
+description:
+  text: "Moderately roasty with notes of dark chocolate, cacao, and coffee, it finishes smooth with a lingering bittersweet edge."
+  source: "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
 entries: 36
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://saucer.rechlin.net/beers/22209949"
+      - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
+      - "https://www.bentonvillebrewing.com/"
+      - "https://www.bentonvillebrewing.com/beer-finder/"
+      - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 28
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://saucer.rechlin.net/beers/22209949"
   - "https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684"
@@ -37,7 +149,10 @@ sources:
   - "https://www.bentonvillebrewing.com/beer-finder/"
   - "https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Robust Porter"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +185,45 @@ Porch Song Porter is a porter from Bentonville Brewing Co. in Bentonville, Arkan
 
 Source: [Bentonville: description on Untappd](https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients was found.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Robust Porter calls for a very dark, opaque beer with cocoa and caramel sweetness balanced by firm dark malt bitterness, 5.1 to 6.6 percent ABV and 25 to 40 IBU. The adopted strength and bitterness fit the cited ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Robust Porter | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Bentonville Brewing Co. is in Bentonville, AR.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -86,6 +233,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Bentonville Brewing: tap list](https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/)
 - [Bentonville Brewing: beer finder](https://www.bentonvillebrewing.com/beer-finder/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [saucer.rechlin.net](https://saucer.rechlin.net/beers/22209949), [untappd.com](https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684), [bentonvillebrewing.com](https://www.bentonvillebrewing.com/), [bentonvillebrewing.com](https://www.bentonvillebrewing.com/beer-finder/), [bentonvillebrewing.com](https://www.bentonvillebrewing.com/bentonville-bentonville-brewing-drink-menu/), web searches recorded in the research notes.
 
 ## research-notes
 

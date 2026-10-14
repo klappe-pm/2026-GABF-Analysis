@@ -222,7 +222,7 @@ test('the build with the unchanged copy matches the words the pages always showe
   assert.ok(home.includes('<a class="skip-link" href="#main">Skip to content</a>'));
   assert.ok(home.includes('aria-controls="site-nav">Menu</button>'));
   assert.ok(home.includes('>Filters</button>'));
-  assert.ok(home.includes('>Source and data</a>.</div></footer>'));
+  assert.ok(home.includes('>Source and data</a>. Some beer details are from <a href="https://catalog.beer">Catalog.beer</a>'));
 });
 
 test('a copy key the build needs but the copy folder lacks stops the build and names the key', () => {

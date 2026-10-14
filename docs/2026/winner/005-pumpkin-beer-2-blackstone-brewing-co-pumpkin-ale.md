@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -27,17 +27,91 @@ brewery-state: "TN"
 brewery-url: "https://www.blackstonebrewery.com/"
 category-name: "Pumpkin Beer"
 category-number: 5
+description: null
 entries: 69
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 13
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - "https://blackstonebeer.com/our-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Pumpkin Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +144,46 @@ No description on the brewery's own site could be read. The 2014 trade release s
 
 Source: [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The only published ingredients are the three spices from the November 7, 2014 trade release ([Beverage Industry](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale)); it describes a pumpkin flavor but does not say what form of pumpkin is used. Hops, malts and yeast are not published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Pumpkin Spice Beer as having pumpkin or squash character from very subtle to intense with spices present and in balance, at 5 to 35 IBU and 2.5 to 12 percent ABV. The published 5.1% ABV and 13 IBU fit both ranges, if the recipe is unchanged since 2014.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2023 | Great American Beer Festival | Pumpkin Beer | Gold |
+| 2026 | Great American Beer Festival | Pumpkin Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Blackstone Brewing Co. is in Nashville, TN.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +191,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Blackstone Brewing Co.](https://www.blackstonebrewery.com/)
 - [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 

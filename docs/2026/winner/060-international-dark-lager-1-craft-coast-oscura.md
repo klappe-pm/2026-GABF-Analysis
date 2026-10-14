@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,19 +25,96 @@ brewery-state: "CA"
 brewery-url: "https://craftcoast.co/"
 category-name: "International Dark Lager"
 category-number: 60
+description:
+  text: "We put a spin on our most popular beer, Agua Baja, and created Oscura, a negra Mexican lager."
+  source: "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
 entries: 71
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "German lager malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://craftcoast.co/"
   - "https://craftcoast.co/pages/menu"
   - "https://untappd.com/b/craft-coast-brewing-co-oscura/4211706"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Mexican Dark Lager"
+tasting-notes: null
+water: null
 yeast:
   - "Lager yeast"
 ---
@@ -71,13 +148,45 @@ Oscura is a beer from Craft Coast, an Oceanside, California brewery that pairs i
 
 Source: [Untappd: Oscura](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The product description names German lager malts, hops and yeast plus maize, but gives no hop varieties, malt brands or yeast strain. Its maize wording contains a spelling error, so the structured name is limited to the grain ([Untappd: Oscura](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page lists no style named International Dark Lager; its nearest entries are European-Style Dark Lager (4.8 to 5.3 percent ABV, 20 to 35 IBU, chocolate and roast malt balancing sweetness and hop bitterness) and American-Style Dark Lager (4.1 to 5.6 percent ABV, 14 to 24 IBU). The selected ABV is within the American-style comparison and above the European-style comparison; neither comparison determines the competition batch.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International Dark Lager | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Craft Coast is in Oceanside, CA.
+
+Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://untappd.com/w/craft-coast-brewing-co/475278).
 
 ## links
 
@@ -85,6 +194,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Craft Coast: menu](https://craftcoast.co/pages/menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Oscura](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706), web searches recorded in the research notes.
+- Not published: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

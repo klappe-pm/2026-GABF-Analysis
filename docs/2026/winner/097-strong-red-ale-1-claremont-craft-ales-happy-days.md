@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Happy Days Imperial Red"
@@ -26,7 +26,111 @@ brewery-state: "CA"
 brewery-url: "https://www.claremontcraftales.com/"
 category-name: "Strong Red Ale"
 category-number: 97
+description:
+  text: "We built the grist based on our double IPA grain bill, then added some caramel malt and roasted malt to get our color."
+  source: "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
 entries: 32
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.beerandbrewing.com/brewers-perspective-red-red-redemption"
+      - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "CTZ"
+    variety: "CTZ"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
 hops:
   - "CTZ"
   - "Mosaic"
@@ -37,7 +141,9 @@ malts:
   - "Crystal 150L malt"
   - "Pale 2-row malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
   - "https://harp-clownfish.squarespace.com/beers/"
@@ -45,7 +151,10 @@ sources:
   - "https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.claremontcraftales.com/"
+srm: null
 style: "Imperial red ale"
+tasting-notes: null
+water: null
 yeast:
   - "WLP001 California Ale"
 ---
@@ -82,13 +191,50 @@ Source: [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbre
 
 The quote above is from head brewer Brian Seffer writing in Craft Beer & Brewing. The [brewery beer catalog](https://harp-clownfish.squarespace.com/beers/) also provides its own description.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Head brewer Brian Seffer published a 5 gallon homebrew version of the beer: 16 lb pale two-row, 1 lb crystal 150L and 2 oz chocolate malt, CTZ at first wort, 1 lb dextrose and 6 oz Mosaic at flameout, then 4 oz each of Mosaic and Simcoe as a three day dry hop, fermented with WLP001 at 68°F, OG 1.095 and FG 1.020 ([Craft Beer & Brewing recipe](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/)). These are homebrew scale figures, not the brewery's production recipe.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| CTZ | CTZ | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
+| Mosaic | Mosaic | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
+| Simcoe | Simcoe | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the closest entry in the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) is Imperial Red Ale: deep amber to reddish brown, medium to high caramel malt, high hop aroma and flavor, very high bitterness and a prominent alcohol character, at 8.0 to 10.6 percent ABV and 55 to 85 IBU. The beer's published 9.5% ABV fits that range; GABF's Strong Red Ale category name differs from the guideline entry read, and its exact parameters were not confirmed.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2021 | Great American Beer Festival | Strong Red Ale | Bronze |
+| 2026 | Great American Beer Festival | Strong Red Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Claremont Craft Ales is in Claremont, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
 ## links
 
@@ -98,6 +244,11 @@ As category context only, the closest entry in the [Brewers Association guidelin
 - [Craft Beer & Brewing: head brewer on Happy Days](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption)
 - [BeerMenus: Happy Days Imperial Red](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption), [beermenus.com](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption), [beermenus.com](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
