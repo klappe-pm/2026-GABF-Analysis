@@ -9,6 +9,7 @@ import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stacke
 import { medalRates } from './rates.mjs';
 import { emptyStateHtml, includesPartial, partialNoticeHtml, valueLabel } from './filter-bar.mjs';
 import { estMark } from './estimates.mjs';
+import { compareLabels } from './sort-order.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
@@ -250,7 +251,7 @@ function categoriesIndexView(rows, ctx) {
     if (x.entries && (!cur.latestYear || x.year > cur.latestYear)) { cur.latest = x.entries; cur.latestYear = x.year; }
     agg.set(x.category_name, cur);
   }
-  const list = [...agg.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const list = [...agg.values()].sort((a, b) => compareLabels(a.name, b.name));
   const cols = [
     { key: 'name', label: 'Category', render: (c) => `<a href="${r}categories/${esc(c.slug)}/">${esc(c.name)}</a>` },
     { key: 'type', label: 'Type', render: (c) => (c.special ? '<span class="pill warn">special</span>' : '<span class="pill good">classic</span>') },

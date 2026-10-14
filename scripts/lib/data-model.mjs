@@ -64,6 +64,24 @@ function aliasKeys(record) {
   return keys;
 }
 
+// A category keeps one identity across years. Spellings that differ only in hyphens, slashes,
+// spacing or case ("Mixed-Culture Brett Beer", "Mixed Culture Brett Beer") fold to one key.
+export const categoryFold = (name) => String(name ?? '').toLowerCase().replace(/[\s\-\/]+/g, ' ').trim();
+
+// Display name per folded key: the spelling used in the newest year, so the official current
+// spelling wins. Rows are any records with a year and a category_name.
+export function canonicalCategoryNames(rows) {
+  const newest = new Map();
+  for (const r of rows) {
+    const k = categoryFold(r.category_name);
+    const year = Number(r.year);
+    if (!k) continue;
+    const cur = newest.get(k);
+    if (!cur || year > cur.year) newest.set(k, { year, name: String(r.category_name).trim() });
+  }
+  return new Map([...newest].map(([k, v]) => [k, v.name]));
+}
+
 export function loadDataset({ root } = {}) {
   const referenceDir = root ? resolve(root, 'data/reference') : REFERENCE;
   const resultsDir = root ? resolve(root, 'data/results') : RESULTS;
@@ -78,7 +96,7 @@ export function loadDataset({ root } = {}) {
   const stateIndicators = indexIndicators(readCsvIfExists(resolve(referenceDir, 'state-indicators.csv')), 'state');
   const districtIndicators = indexIndicators(readCsvIfExists(resolve(referenceDir, 'district-indicators.csv')), 'district_number');
   const categories = readCsvIfExists(resolve(referenceDir, 'categories.csv'));
-  const categoryByName = new Map(categories.map((c) => [c.category_name.toLowerCase(), c]));
+  const categoryByName = new Map(categories.map((c) => [categoryFold(c.category_name), c]));
   const ownership = readCsvIfExists(resolve(referenceDir, 'ownership.csv'));
   const ownershipByKey = new Map();
   for (const o of ownership) for (const k of aliasKeys(o)) ownershipByKey.set(k, o);
@@ -103,9 +121,11 @@ export function loadDataset({ root } = {}) {
   const gabfRows = resultFiles.flatMap((f) => readCsvRecords(readFileSync(f, 'utf8')));
   const otherRows = readCsvIfExists(resolve(resultsDir, 'world-beer-cup.csv'));
 
-  const decorate = (r) => {
+  const canonicalCategory = canonicalCategoryNames(gabfRows);
+  const decorate = (rawRow) => {
+    const r = { ...rawRow, category_name: canonicalCategory.get(categoryFold(rawRow.category_name)) ?? rawRow.category_name };
     const key = breweryKey(r.brewery_name);
-    const cat = categoryByName.get(String(r.category_name).toLowerCase());
+    const cat = categoryByName.get(categoryFold(r.category_name));
     const abvRow = abvByBeer.get(`${r.competition}|${r.year}|${key}|${String(r.beer_name).toLowerCase()}`);
     const abv = abvRow ? Number(abvRow.abv) : null;
     const abvMid = cat && cat.abv_min && cat.abv_max ? (Number(cat.abv_min) + Number(cat.abv_max)) / 2 : null;
@@ -304,7 +324,7 @@ export function categoryIndex(dataset) {
   const map = new Map();
   for (const r of dataset.results) {
     const k = r.category_name;
-    if (!map.has(k)) map.set(k, { name: k, slug: r.category_slug, style_family: r.style_family, special: r.special, years: new Map(), rows: [], ref: dataset.categoryByName.get(k.toLowerCase()) ?? null });
+    if (!map.has(k)) map.set(k, { name: k, slug: r.category_slug, style_family: r.style_family, special: r.special, years: new Map(), rows: [], ref: dataset.categoryByName.get(categoryFold(k)) ?? null });
     const c = map.get(k);
     c.rows.push(r);
     if (!c.years.has(r.year)) c.years.set(r.year, { year: r.year, entries: r.entries, number: r.category_number, medals: [] });
