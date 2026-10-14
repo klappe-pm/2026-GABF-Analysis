@@ -5,7 +5,9 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { Button } from '@/components/Button';
 import { ChartCard } from '@/components/ChartCard';
 import { Checkbox } from '@/components/Checkbox';
-import { EstimateTooltip } from '@/components/EstimateTooltip';
+import { EstimateTooltip, type EstimateInput } from '@/components/EstimateTooltip';
+import type { breweriesIndex as BreweriesIndex } from '@/lib/models/breweries.mjs';
+import { laneModel } from '@/lib/site-data';
 import { Field, FieldGrid } from '@/components/StatCard';
 import { FiltersForm, FiltersDialog, type FilterGroup, type FiltersCopy } from '@/components/FiltersDialog';
 import { PageHeader } from '@/components/PageHeader';
@@ -22,6 +24,7 @@ import { Select } from '@/components/Select';
 import { StatusChip } from '@/components/StatusChip';
 import { TextLink } from '@/components/TextLink';
 import { BeerProfileCard, type BeerCardData } from '@/components/BeerProfileCard';
+import { SpecCard } from '@/components/SpecCard';
 import { HopProfileCard, type HopCardData } from '@/components/HopProfileCard';
 import { fullBeerProfile, hopProfile, hopSlug } from '@/lib/profiles';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
@@ -163,7 +166,7 @@ function Section({ id, title, lead, children }: { id: string; title: string; lea
   );
 }
 
-export default function DesignSystemPage() {
+export default async function DesignSystemPage() {
   const title = t('pages.design-system.page.title');
   const summary = yearSummary(YEAR);
   const coverage = yearCoverage();
@@ -194,6 +197,15 @@ export default function DesignSystemPage() {
   const samples = sampleBeers();
   const sampleBeer = samples.inside.beer;
   const series = stateSeries(5);
+  // The inputs of a real brewery's revenue estimate, labelled with the brewery page's own words.
+  const { info: breweryInfo } = (await laneModel<{ breweriesIndex: typeof BreweriesIndex }>('breweries')).breweriesIndex();
+  const estimateSample = Object.values(breweryInfo).find((i) => !i.est.assumed && i.est.type);
+  const inputLabel = (key: string) => t(`pages.brewery-detail.estimates.input_${key}`);
+  const estimateInputs: EstimateInput[] = estimateSample ? [
+    { label: inputLabel('type'), value: group('global.labels.brewery_type')[estimateSample.est.type ?? ''] ?? estimateSample.est.type ?? '' },
+    { label: inputLabel('locations'), value: fmt.number(estimateSample.est.locations) },
+    { label: inputLabel('barrels'), value: fmt.number(Math.round(estimateSample.est.barrels)) },
+  ] : [];
 
   const filtersCopy: FiltersCopy = {
     trigger: t('global.filters.trigger.label'),
@@ -488,6 +500,7 @@ export default function DesignSystemPage() {
                 marker={t('global.states.estimates.marker')}
                 label={t('global.states.estimates.short')}
                 explanation={t('global.states.estimates.explanation')}
+                inputs={estimateInputs}
                 linkText={t('global.navigation.footer.method')}
               />
             </div>
@@ -589,6 +602,16 @@ export default function DesignSystemPage() {
                 <BeerProfileCard data={beerCard.data} />
               </div>
             ) : <p className="type-body-medium text-on-surface-variant">{t('global.labels.not_found')}</p>}
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'spec-card',
+      node: (
+        <Specimen name="spec-card" title={compName('spec_card')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <SpecCard id="spec-card-sample-card" title={hopCard.name} rows={hopCard.facts.map((f) => ({ label: f.label, value: f.value }))} />
           </State>
         </Specimen>
       ),

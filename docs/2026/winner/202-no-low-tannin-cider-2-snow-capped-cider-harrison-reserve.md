@@ -31,14 +31,6 @@ description:
 entries: 53
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/harrison/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/harrison/"
@@ -47,14 +39,7 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/harrison/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/harrison/"
@@ -135,14 +120,6 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/harrison/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -150,16 +127,22 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Single varietal Harrison apple cider"
+  source: "https://snowcappedcider.com/all-ciders/harrison/"
 sources:
   - "https://snowcappedcider.com/all-ciders/harrison/"
   - "https://snowcappedcider.com/shop-bottles/"
   - "https://snowcappedcider.com/shop-cans/"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
   - "https://www.snowcappedcider.com/"
-srm: null
+srm:
+  value: "Light golden (no number published)"
+  source: "https://snowcappedcider.com/all-ciders/harrison/"
 style: "Reserve Series single varietal cider"
-tasting-notes: null
+tasting-notes:
+  text: "The straightforward flavors as a single varietal are presented with a smooth juicy apple, slight sweetness, noteworthy orange peel, small hints of earthy spice, and lingering touches of lemon and ginger. Medium body boasts a soft tannin with a finish delivered on a light golden hue."
+  source: "https://snowcappedcider.com/all-ciders/harrison/"
 water: null
 yeast: []
 ---
@@ -195,7 +178,9 @@ Source: [Snow Capped: Harrison](https://snowcappedcider.com/all-ciders/harrison/
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> The straightforward flavors as a single varietal are presented with a smooth juicy apple, slight sweetness, noteworthy orange peel, small hints of earthy spice, and lingering touches of lemon and ginger. Medium body boasts a soft tannin with a finish delivered on a light golden hue.
+
+Source: [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/)
 
 ## ingredients
 
@@ -209,11 +194,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Light golden (no number published) | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Single varietal Harrison apple cider | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/) |
 
 ## style-context
 
@@ -247,8 +232,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/harrison/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -258,3 +243,4 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 - The official list places the cidery in Austin, CO; that location is kept as given.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives tasting words, color and the single varietal.

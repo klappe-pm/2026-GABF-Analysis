@@ -4,7 +4,7 @@ Thank you for helping. The most valuable contributions are data corrections back
 
 ## Set up
 
-You need Node 22 or newer, which is what CI runs: the test suite and the SQLite scripts (`scripts/build-winner-db.mjs` and `scripts/build-explorer.mjs`) use the built in `node:sqlite` module.
+You need Node 22 or newer, which is what CI runs: the test suite and the SQLite script (`scripts/build-winner-db.mjs`) uses the built in `node:sqlite` module.
 
 ```bash
 git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci
@@ -35,7 +35,7 @@ It runs, in order:
 5. `npm run build`: the site into `dist/`.
 6. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs a local agent-graph checkout, so CI runs only the design system check.
 
-The single file pages (`gabf-dashboard.html`, `gabf-explorer.html`, and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
+The single file pages (`gabf-dashboard.html` and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
 
 ## Data rules
 
