@@ -35,14 +35,14 @@ test('public facing files may use normal case headings but keep the dash and har
   assert.ok(rules.includes('hard-wrap'));
 });
 
-test('site copy under content/ is public facing; lookalike paths elsewhere are not', () => {
-  for (const rel of ['content/README.md', 'content/voice.md', 'content/analysis/medal-odds-by-category.md']) {
+test('site copy under .docs/content-management-system/ is public facing; lookalike paths elsewhere are not', () => {
+  for (const rel of ['.docs/content-management-system/README.md', '.docs/content-management-system/voice.md', '.docs/content-management-system/analysis/medal-odds-by-category.md']) {
     assert.equal(isPublicFacing(rel), true, rel);
   }
-  for (const rel of ['docs/content/README.md', 'contents/README.md', 'breweries/content.md']) {
+  for (const rel of ['docs/content/README.md', 'content/README.md', '.docs/other/README.md', 'breweries/content.md']) {
     assert.equal(isPublicFacing(rel), false, rel);
   }
   const page = ['---', 'title: "Medal odds"', '---', '', '# Medal odds by category', '', 'One line paragraph.', ''].join('\n');
-  assert.deepEqual(checkMarkdown(page, { publicFacing: isPublicFacing('content/analysis/medal-odds-by-category.md') }), []);
+  assert.deepEqual(checkMarkdown(page, { publicFacing: isPublicFacing('.docs/content-management-system/analysis/medal-odds-by-category.md') }), []);
   assert.ok(checkMarkdown(page, { publicFacing: isPublicFacing('docs/content/README.md') }).some((p) => p.rule === 'heading-case'));
 });
