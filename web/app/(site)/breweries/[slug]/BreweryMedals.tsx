@@ -16,7 +16,7 @@ import { TextLink } from '@/components/TextLink';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
 import type { BreweryRecord, BreweryRow } from '@/lib/models/breweries.mjs';
-import { type BarSeries, BarChartCard } from '../BarChartCard';
+import { ChartCard, type ChartSeries } from '@/components/ChartCard';
 import { type EstimateCopy, explain, markLabel } from '../estimate-text';
 import { abv, compact, fillText, usd, whole } from '../format';
 
@@ -53,9 +53,9 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   // Medals by year over the years of the trend.
   const years = useMemo(() => b.trend.map((t) => t.year), [b.trend]);
   const yearLabels = useMemo(() => years.map(String), [years]);
-  const series = useMemo<BarSeries[]>(() => MEDALS.map((m) => ({ name: medalNames[m], medal: m, values: years.map((y) => shown.filter((r) => r.year === y && r.medal === m).length) })), [shown, years, medalNames]);
+  const series = useMemo<ChartSeries[]>(() => MEDALS.map((m) => ({ name: medalNames[m], medal: m, values: years.map((y) => shown.filter((r) => r.year === y && r.medal === m).length) })), [shown, years, medalNames]);
   // A ranking as one series of bars: the top entries drawn, every entry in the table view.
-  const ranking = (list: [string, number][]) => ({ categories: list.map(([n]) => n), series: [{ name: c.tables.medals, values: list.map(([, n]) => n) }] as BarSeries[] });
+  const ranking = (list: [string, number][]) => ({ categories: list.map(([n]) => n), series: [{ name: c.tables.medals, values: list.map(([, n]) => n) }] as ChartSeries[] });
   const byCategory = useMemo(() => ranking(tally(shown, (r) => r.category_name).slice(0, 15)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
   const byLocation = useMemo(() => ranking(tally(shown, (r) => r.brewery_location || r.city)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
   const byFamily = useMemo(() => ranking(tally(shown, (r) => c.style_family[r.style_family] ?? r.style_family)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -179,9 +179,9 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
         <StateCard kind="empty" title={c.no_results.title}>{c.no_results.remove_hint}</StateCard>
       ) : null}
 
-      <BarChartCard
+      <ChartCard
         id="medals-by-year"
-        orientation="columns"
+        preset="stackedBar"
         title={c.charts.by_year_title}
         note={fillText(c.charts.by_year_subtitle, { brewery_name: b.name, first_year: years[0], last_year: years[years.length - 1] })}
         categories={yearLabels}
@@ -198,9 +198,9 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
 
       {shown.length ? (
         <div className="grid grid-cols-1 gap-6 expanded:grid-cols-2">
-          <BarChartCard id="medals-by-family" orientation="bars" title={c.charts.by_family_title} categories={byFamily.categories} series={byFamily.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.style_family} ariaLabel={fillText(c.tables.family_caption, { brewery_name: b.name })} />
-          <BarChartCard id="medals-by-category" orientation="bars" title={c.charts.by_category_title} categories={byCategory.categories} series={byCategory.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.category} ariaLabel={fillText(c.tables.category_caption, { brewery_name: b.name })} />
-          <BarChartCard id="medals-by-location" orientation="bars" title={c.charts.by_location_title} note={c.charts.by_location_subtitle} categories={byLocation.categories} series={byLocation.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.location_credited} ariaLabel={fillText(c.tables.location_caption, { brewery_name: b.name })} />
+          <ChartCard id="medals-by-family" preset="horizontalBar" title={c.charts.by_family_title} categories={byFamily.categories} series={byFamily.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.style_family} ariaLabel={fillText(c.tables.family_caption, { brewery_name: b.name })} />
+          <ChartCard id="medals-by-category" preset="horizontalBar" title={c.charts.by_category_title} categories={byCategory.categories} series={byCategory.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.category} ariaLabel={fillText(c.tables.category_caption, { brewery_name: b.name })} />
+          <ChartCard id="medals-by-location" preset="horizontalBar" title={c.charts.by_location_title} note={c.charts.by_location_subtitle} categories={byLocation.categories} series={byLocation.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.location_credited} ariaLabel={fillText(c.tables.location_caption, { brewery_name: b.name })} />
         </div>
       ) : null}
 
