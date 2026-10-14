@@ -2,11 +2,11 @@
 name: tabs
 title: Dashboard tabs
 status: draft
-code: scripts/build-site.mjs
+code: web/components/Tabs.tsx
 ---
 
 ![Dashboard tabs](tabs.png)
 
 ## tabs-options
 
-- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.
+- Nothing yet: the tabs are drawn from the theme and gain settings when the owner asks for them.
