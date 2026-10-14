@@ -14,6 +14,8 @@ import { aggregateBreweries, CHART_BREWERIES, TOP_BREWERIES, yearsInView } from 
 import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { BreweryInfo } from '@/lib/models/analysis.mjs';
 import { BarCard } from '@/app/(site)/analysis/parts/charts';
+import { Plot } from '@/app/(site)/analysis/parts/Plot';
+import { fmtN, stackedBars } from '@/app/(site)/dashboards/kit/charts';
 import { LazyEstimate } from '@/app/(site)/analysis/parts/LazyEstimate';
 import { fill, num, percent, usd, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
@@ -37,7 +39,13 @@ export function TopBreweriesView({ rows, info, streaks, meta, copy, firstComplet
   const { state } = useGlobalFilter();
   const shown = useFilteredRows(rows);
   const all = aggregateBreweries(shown).slice(0, TOP_BREWERIES);
-  const bars = all.slice(0, CHART_BREWERIES).map((b) => ({ label: b.name, value: b.points, href: href(paths.brewery(b.slug)) }));
+  const leaders = all.slice(0, CHART_BREWERIES);
+  const med = copy.view.medals;
+  const leaderRows: TableRow[] = leaders.map((b) => ({
+    key: b.slug,
+    sort: { brewery: b.name, split: b.points, points: b.points },
+    cells: { brewery: <TextLink href={href(paths.brewery(b.slug))}>{b.name}</TextLink>, split: `${b.g} / ${b.s} / ${b.b}`, points: fmtN(b.points) },
+  }));
   const perYear = yearsInView(meta, state).filter((y) => shown.some((x) => x.year === y)).reverse()
     .map((y) => ({ year: y, coverage: meta.coverage[y], list: aggregateBreweries(shown.filter((x) => x.year === y)).slice(0, 25) }));
   const columns: Column[] = [
@@ -70,7 +78,23 @@ export function TopBreweriesView({ rows, info, streaks, meta, copy, firstComplet
   return (
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
       <div className="grid gap-4 expanded:grid-cols-2">
-        <BarCard id="top-breweries-points" title={copy.chart.title} subtitle={copy.chart.subtitle} items={bars} valueName={copy.chart.valueName} labelHeader={copy.chart.labelHeader} tableSummary={copy.chart.tableSummary} ariaLabel={copy.chart.title} roleIndex={1} labelWidth={220} />
+        <Plot
+          id="top-breweries-points"
+          title={copy.chart.title}
+          subtitle={copy.chart.subtitle}
+          chrome={copy.view.chrome}
+          tableSummary={copy.chart.tableSummary}
+          build={stackedBars({
+            labels: leaders.map((b) => b.name),
+            series: (['Gold', 'Silver', 'Bronze'] as const).map((m, i) => ({ name: med[m] ?? m, data: leaders.map((b) => [b.g, b.s, b.b][i]), color: (k) => k.medal[m] })),
+            totals: { values: leaders.map((b) => b.points), format: (n) => `${fmtN(n)} ${copy.chart.valueName.toLowerCase()}` },
+            labelWidth: (w) => (w < 480 ? 108 : 168),
+            minLabel: 1,
+            tip: (i) => `<b>${leaders[i].name}</b><br>${med.Gold ?? 'Gold'} ${leaders[i].g}, ${med.Silver ?? 'Silver'} ${leaders[i].s}, ${med.Bronze ?? 'Bronze'} ${leaders[i].b}<br>${fmtN(leaders[i].points)} ${copy.chart.valueName.toLowerCase()}`,
+          })}
+          legend={(k) => (['Gold', 'Silver', 'Bronze'] as const).map((m) => ({ label: med[m] ?? m, color: k.medal[m] }))}
+          table={{ columns: [{ key: 'brewery', label: copy.chart.labelHeader, sortable: true }, { key: 'split', label: copy.columns.split }, { key: 'points', label: copy.columns.points, numeric: true, sortable: true }], rows: leaderRows, initialSort: { key: 'points', dir: 'descending' } }}
+        />
         <StateCard kind="notice" title={copy.streaks.title}>
           <p>{fill(copy.streaks.note, { year: meta.latestComplete })}</p>
           {streaks.length ? (

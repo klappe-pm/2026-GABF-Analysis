@@ -85,3 +85,4 @@ export function exploreRows(): ExploreRow[];
 export function estimateSlugs(): string[];
 export function estimateFacts(slug: string): { slug: string; name: string; facts: import('./breweries.mjs').EstimateFacts } | null;
 export function explorerIds(results: Record<string, any>[]): { award_id: string; beer_id: string; brewery_id: string }[];
+export function stateTiles(): Record<string, [number, number]>;

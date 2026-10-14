@@ -121,6 +121,7 @@ export default async function ReportPage({ params }: { params: Promise<Params> }
         states={states}
         indicators={meta.indicators}
         latest={meta.latestComplete}
+        tiles={model.stateTiles()}
         firstCompleteYear={first}
         copy={{
           view,

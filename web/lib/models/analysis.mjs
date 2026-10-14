@@ -5,6 +5,7 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
+import { TILES } from '../../../scripts/chart-gallery/data.mjs';
 import { readCsvRecords } from '../../../scripts/lib/csv.mjs';
 import { categoryFold } from '../../../scripts/lib/data-model.mjs';
 import { slugify } from '../../../scripts/lib/slug.mjs';
@@ -260,3 +261,6 @@ export function estimateFacts(slug) {
   const b = ds.breweries.find((x) => x.slug === slug && x.medals.length);
   return b ? { slug: b.slug, name: b.name, facts: estimateOf(b, ds.params) } : null;
 }
+
+// The column and row of each state on the square tile grid (north at the top, west at the left).
+export const stateTiles = () => TILES;

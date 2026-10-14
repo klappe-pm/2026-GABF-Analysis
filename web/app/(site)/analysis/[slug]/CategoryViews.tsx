@@ -10,7 +10,8 @@ import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
 import { countBy, mostEntered, MOST_ENTERED_BARS, oddsItems, ODDS_BARS } from '@/lib/models/analysis-calc.mjs';
 import type { Row } from '@/lib/models/analysis-calc.mjs';
-import { BarCard } from '@/app/(site)/analysis/parts/charts';
+import { Plot } from '@/app/(site)/analysis/parts/Plot';
+import { esc, fmtN, lollipop, treemap } from '@/app/(site)/dashboards/kit/charts';
 import { fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 export type TopCategoriesCopy = {
@@ -28,10 +29,16 @@ export function TopCategoriesView({ rows, copy, firstCompleteYear }: { rows: Row
   usePageScope({}, []);
   const shown = useFilteredRows(rows);
   const { list: entered, medalsBy } = mostEntered(shown);
-  const bars = entered.slice(0, MOST_ENTERED_BARS).map((c) => ({ label: c.special ? `${c.name} ${copy.mostEntered.special}` : c.name, value: c.entries, href: href(paths.category(c.slug)) }));
-  const families = countBy(shown, 'style_family').map(([label, value]) => ({ label: copy.familyNames[label] ?? label, value }));
+  const bars = entered.slice(0, MOST_ENTERED_BARS).map((c) => ({ name: c.slug, label: c.special ? `${c.name} ${copy.mostEntered.special}` : c.name, value: c.entries, slug: c.slug }));
+  const families = countBy(shown, 'style_family').map(([name, value]) => ({ name, label: copy.familyNames[name] ?? name, value }));
   const odds = oddsItems(shown);
-  const oddsBars = odds.list.slice(0, ODDS_BARS).map((o) => ({ label: o.label, value: o.value, href: href(paths.category(o.slug)) }));
+  const oddsBars = odds.list.slice(0, ODDS_BARS).map((o) => ({ name: o.slug, label: o.label, value: o.value, slug: o.slug, tip: `<b>${esc(o.label)}</b><br>${o.value.toFixed(1)} ${esc(copy.odds.valueName.toLowerCase())}` }));
+  const barRows = (items: { name: string; label: string; value: number; slug?: string }[], format: (n: number) => string): TableRow[] => items.map((i) => ({
+    key: i.name,
+    sort: { name: i.label, value: i.value },
+    cells: { name: i.slug ? <TextLink href={href(paths.category(i.slug))}>{i.label}</TextLink> : i.label, value: format(i.value) },
+  }));
+  const barColumns = (nameLabel: string, valueLabel: string): Column[] => [{ key: 'name', label: nameLabel, sortable: true }, { key: 'value', label: valueLabel, numeric: true, sortable: true }];
   const oddsNote = `${copy.odds.note}${odds.missing ? ` ${odds.missing === 1 ? copy.odds.missingOne : fill(copy.odds.missingMany, { count: odds.missing })}` : ''}`;
   const oddsColumns: Column[] = [
     { key: 'category', label: copy.odds.columns.category, sortable: true },
@@ -71,12 +78,40 @@ export function TopCategoriesView({ rows, copy, firstCompleteYear }: { rows: Row
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
       <div className="grid gap-4 expanded:grid-cols-2">
         {entered.length ? (
-          <BarCard id="most-entered" title={copy.mostEntered.title} subtitle={copy.mostEntered.subtitle} items={bars} valueName={copy.mostEntered.valueName} labelHeader={copy.mostEntered.labelHeader} tableSummary={copy.tableSummary} ariaLabel={copy.mostEntered.title} labelWidth={250} />
+          <Plot
+            id="most-entered"
+            title={copy.mostEntered.title}
+            subtitle={copy.mostEntered.subtitle}
+            chrome={copy.view.chrome}
+            tableSummary={copy.tableSummary}
+            build={lollipop({ items: bars, format: fmtN })}
+            table={{ columns: barColumns(copy.mostEntered.labelHeader, copy.mostEntered.valueName), rows: barRows(bars, fmtN), initialSort: { key: 'value', dir: 'descending' } }}
+          />
         ) : <StateCard kind="notice" title={copy.mostEntered.title}>{copy.mostEntered.empty}</StateCard>}
-        <BarCard id="family-medals" title={copy.families.title} items={families} valueName={copy.families.valueName} labelHeader={copy.families.labelHeader} tableSummary={copy.tableSummary} ariaLabel={copy.families.title} roleIndex={2} />
+        <Plot
+          id="family-medals"
+          title={copy.families.title}
+          chrome={copy.view.chrome}
+          tableSummary={copy.tableSummary}
+          build={treemap({
+            items: families.map((f, i) => ({ name: f.name, value: f.value, color: (k) => k.series[i % 4], detail: '' })),
+            label: (i) => `${copy.familyNames[i.name] ?? i.name}\n${fmtN(i.value)}`,
+            tip: (i) => `<b>${esc(copy.familyNames[i.name] ?? i.name)}</b><br>${fmtN(i.value)} ${esc(copy.families.valueName.toLowerCase())}`,
+          })}
+          table={{ columns: barColumns(copy.families.labelHeader, copy.families.valueName), rows: barRows(families, fmtN), initialSort: { key: 'value', dir: 'descending' } }}
+        />
       </div>
       {oddsBars.length ? (
-        <BarCard id="entry-odds" title={copy.odds.title} subtitle={copy.odds.subtitle} note={oddsNote} items={oddsBars} valueName={copy.odds.valueName} labelHeader={copy.odds.columns.category} tableSummary={copy.tableSummary} ariaLabel={copy.odds.title} labelWidth={250} detail={{ columns: oddsColumns, rows: oddsRows }} />
+        <Plot
+          id="entry-odds"
+          title={copy.odds.title}
+          subtitle={copy.odds.subtitle}
+          note={oddsNote}
+          chrome={copy.view.chrome}
+          tableSummary={copy.tableSummary}
+          build={lollipop({ items: oddsBars, format: (n) => n.toFixed(1) })}
+          table={{ columns: oddsColumns, rows: oddsRows, initialSort: { key: 'perMedal', dir: 'descending' } }}
+        />
       ) : null}
       <section className="flex flex-col gap-3" aria-labelledby="all-categories">
         <SectionHeader id="all-categories" title={copy.table.title} />
