@@ -8,7 +8,7 @@ import { TextLink } from './TextLink';
 // One hop variety on a Material card: its name, then origin, breeder, alpha and oil ranges, US acreage, and
 // the count of 2026 medal beers that use it as a description list, its aroma descriptors with their source,
 // and the farms that grow it, up to the spec's farm limit. The page passes every visible word; a value the
-// data does not hold arrives as the page's "not defined" text.
+// data does not hold arrives as the page's "Not Found" text.
 
 export type HopCardData = {
   name: string;

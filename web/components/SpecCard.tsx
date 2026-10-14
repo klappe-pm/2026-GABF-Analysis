@@ -6,7 +6,7 @@ import { cardSurface, labelFace } from '@/design/helpers';
 // A card of published specs: a title, an optional line under it, and each spec as a label and its value in a
 // description list. It carries a hop's variety data, a farm's data, and a beer's brewing details. A value
 // may hold links, so the page passes it as drawn; a spec the data does not hold arrives as the page's
-// "not defined" text.
+// "Not Found" text.
 
 export type SpecRow = { label: string; value: ReactNode };
 

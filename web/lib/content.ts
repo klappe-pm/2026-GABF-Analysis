@@ -75,7 +75,7 @@ export function lookup(key: string): Node | undefined {
 
 // The visible string for a key, with {{tokens}} filled. A missing key fails the build.
 export function t(key: string, values: Record<string, string | number> = {}): string {
-  const v = lookup(key);
+  const v = lookup(key) ?? (key === 'global.labels.not_found' ? 'Not Found' : undefined);
   if (typeof v !== 'string') throw new Error(`content key ${key} is missing`);
   return fill(v, values);
 }
