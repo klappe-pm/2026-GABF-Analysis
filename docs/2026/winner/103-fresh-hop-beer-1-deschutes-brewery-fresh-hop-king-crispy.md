@@ -37,6 +37,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "abv"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "ibu"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -51,6 +53,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "srm"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -58,6 +61,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "og"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -65,6 +69,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "fg"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -72,6 +77,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "hops"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -79,6 +85,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "hop-form"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -86,6 +93,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "hop-use"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -93,6 +101,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "lot-or-farm"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -100,6 +109,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "malts"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -107,6 +117,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "yeast"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -114,6 +125,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "adjuncts"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -121,6 +133,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "water"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -128,6 +141,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
   - field: "process"
     sources-checked:
       - "https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner"
@@ -135,6 +149,7 @@ gaps:
       - "https://www.deschutesbrewery.com/collections/all-beer"
       - "https://www.deschutesbrewery.com/collections/seasonals"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm"
 hop-profile: []
 hops: []
 ibu: null
@@ -240,8 +255,8 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm.
+- Not published: ABV, IBU. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -252,3 +267,4 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 - The session web search budget was exhausted before taproom menus or press could be searched.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the King Crispy page describes the base pilsner only, and a search found no fresh hop release notes or farm for this beer.

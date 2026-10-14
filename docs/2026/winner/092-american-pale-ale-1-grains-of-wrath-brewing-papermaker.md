@@ -32,62 +32,77 @@ gaps:
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "tasting-notes"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "ibu"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "srm"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "og"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "fg"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "hops"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "hop-form"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "hop-use"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "malts"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "yeast"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "water"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
   - field: "process"
     sources-checked:
       - "https://gowbeer.com/beer/papermaker-pale/"
       - "web searches recorded in the research notes"
+      - "https://gowbeer.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -186,8 +201,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/papermaker-pale/), web searches recorded in the research notes.
-- Not published: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/papermaker-pale/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/papermaker-pale/), web searches recorded in the research notes, [gowbeer.com](https://gowbeer.com/).
+- Not published: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/papermaker-pale/), web searches recorded in the research notes, [gowbeer.com](https://gowbeer.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -197,3 +212,4 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: a web search for the beer name with the brewery and ABV returned no page naming a Grains of Wrath beer called Papermaker, and the 2020 New School Beer can release post does not mention it; the search budget then ran out, so Untappd and BeerMenus were not reached and nothing more was found.
+- Deep dive pass 2026-10-14: the brewery site has no Papermaker page.

@@ -136,7 +136,7 @@ No 2026 beer profile names a farm for this hop.
 - [Dopo](../../2026/winner/018-session-india-pale-ale-2-offset-bier-co-dopo.md), silver, Session India Pale Ale, by [Offset Bier Co.](../../breweries/offset-bier-co.md); published as Nelson
 - [Nowhere To Be](../../2026/winner/048-west-coast-style-pilsener-2-cellarmaker-brewing-co-nowhere-to-be.md), silver, West Coast-Style Pilsener, by [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md); published as Nelson
 - [NPBC10 Hazy Triple IPA](../../2026/winner/099-juicy-or-hazy-imperial-india-pale-ale-2-north-park-beer-co-npbc10-hazy-triple-ipa.md), silver, Juicy or Hazy Imperial India Pale Ale, by [North Park Beer Co.](../../breweries/north-park-beer-co.md); published as Nelson Cryo, Nelson Sauvin
-- [Perpetual Fog](../../2026/winner/095-juicy-or-hazy-strong-pale-ale-2-urbanrest-brewing-co-perpetual-fog.md), silver, Juicy or Hazy Strong Pale Ale, by [Urbanrest Brewing Co.](../../breweries/urbanrest-brewing-co.md); published as Nelson Sauvin
+- [Perpetual Fog](../../2026/winner/095-juicy-or-hazy-strong-pale-ale-2-urbanrest-brewing-co-perpetual-fog.md), silver, Juicy or Hazy Strong Pale Ale, by [Urbanrest Brewing Co.](../../breweries/urbanrest-brewing-co.md); published as Nelson, Nelson Sauvin Hop Kief
 - [Coral Crush](../../2026/winner/048-west-coast-style-pilsener-3-alma-mader-brewing-coral-crush.md), bronze, West Coast-Style Pilsener, by [Alma Mader Brewing](../../breweries/alma-mader-brewing.md); published as Nelson Sauvin
 
 ### breweries
