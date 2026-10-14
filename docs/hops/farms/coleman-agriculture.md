@@ -23,18 +23,21 @@ county-source: "looked up from city"
 founded: 1847
 gaps: []
 generation: "six generations (Yakima Chief page); seventh generation (Indie Hops and VinePair)"
-merchant-affiliation: "Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops"
+merchant-affiliation: "Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops; on the YCR roster as Coleman Farms Inc and Coleman Ranches; Todd Koch sits on the Oregon Hop Commission board as Coleman Greenleaf"
 merchants:
   - "Indie Hops"
   - "Yakima Chief Hops"
+  - "Yakima Chief Ranches"
 name: "Coleman Agriculture"
 ownership: "Ben, Jen, Tom and Melissa Coleman"
 sells-direct: null
 slug: "coleman-agriculture"
 sources:
   - "http://web.archive.org/web/20260411025650/https://www.yakimachief.com/meet-the-growers"
+  - "http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/"
   - "http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers"
   - "https://www.indiehops.com/growers"
+  - "https://www.oregonhops.org/"
 state: "OR"
 varieties-grown:
   - "../varieties/cascade.md"
@@ -74,13 +77,14 @@ St. Paul, Marion County, OR. The county is derived: looked up from the city, not
 
 ## supply-chain
 
-- Affiliation as published: Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops
+- Affiliation as published: Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops; on the YCR roster as Coleman Farms Inc and Coleman Ranches; Todd Koch sits on the Oregon Hop Commission board as Coleman Greenleaf
 - Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 - Listed as a source farm of Indie Hops in the merchants file
 
 ## notes
 
-Archived Yakima Chief page: produces more than 2 million pounds a year, including 24 distinct hop varieties; also hazelnuts, seed crops, green beans and wheat. Indie Hops says five farms across the Willamette Valley and Central Oregon. Coleman Farms Inc, Coleman Ranches and Coleman Greenleaf appear separately on the YCR roster and the Oregon Hop Commission board and are not stated to be the same entity.
+Archived Yakima Chief page: produces more than 2 million pounds a year, including 24 distinct hop varieties; also hazelnuts, seed crops, green beans and wheat. Indie Hops says five farms across the Willamette Valley and Central Oregon. Coleman Farms Inc and Coleman Ranches (YCR roster) and Coleman Greenleaf (2025 to 2026 Oregon Hop Commission board, St. Paul) are counted here as one operation by owner decision on issue 62; no source read states that they are the same entity.
 
 ## sources
 
@@ -88,6 +92,8 @@ Archived Yakima Chief page: produces more than 2 million pounds a year, includin
 - http://web.archive.org/web/20260411025650/https://www.yakimachief.com/meet-the-growers
 - http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
 - https://www.indiehops.com/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
+- https://www.oregonhops.org/
 
 ## related
 
@@ -212,4 +218,5 @@ No 2026 beer profile names this farm.
 ### merchants
 
 - Yakima Chief Hops, merchant and cooperative, Yakima WA; [source](http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers)
+- Yakima Chief Ranches, breeder and brand manager, Yakima Valley WA; [source](http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/)
 - Indie Hops, merchant and pellet processor, Oregon; [source](https://www.indiehops.com/growers)

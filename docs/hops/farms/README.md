@@ -13,7 +13,7 @@ status: DRAFT
 aliases: []
 tags:
   - "hop-farms"
-farm-count: 113
+farm-count: 110
 merchant-count: 13
 ---
 
@@ -27,12 +27,12 @@ Every field is copied from a named source. Variety names are written exactly as 
 
 ## counts-against-published-totals
 
-113 farms are recorded. Idaho is complete against the 2026 Idaho State Department of Agriculture list of 17 distinct licensed growers. No other state has an official grower list or count: USDA NASS reports acreage and production for Idaho, Oregon and Washington only, a trade newsletter puts the Pacific Northwest at about 70 farms in 2023, the Oregon Encyclopedia says fewer than 30 families grow hops commercially in Oregon, and Hop Growers of Michigan reports more than 20 growers statewide. Yakima Chief Ranches publishes a roster of 41 farms across Washington, Idaho and Oregon. The gaps file lists every source checked and every list that could not be read.
+110 farms are recorded. Idaho is complete against the 2026 Idaho State Department of Agriculture list of 17 distinct licensed growers. No other state has an official grower list or count: USDA NASS reports acreage and production for Idaho, Oregon and Washington only, a trade newsletter puts the Pacific Northwest at about 70 farms in 2023, the Oregon Encyclopedia says fewer than 30 families grow hops commercially in Oregon, and Hop Growers of Michigan reports more than 20 growers statewide. Yakima Chief Ranches publishes a roster of 41 farms across Washington, Idaho and Oregon. The gaps file lists every source checked and every list that could not be read.
 
 | state | farms recorded |
 | --- | --- |
 | washington | 28 |
-| oregon | 23 |
+| oregon | 20 |
 | idaho | 17 |
 | michigan | 25 |
 | new-york | 12 |
@@ -78,7 +78,7 @@ Every field is copied from a named source. Variety names are written exactly as 
 | farm | city | affiliation as published | varieties recorded | verified |
 | --- | --- | --- | --- | --- |
 | [Goschie Farms](goschie-farms.md) | Silverton | Primary grower for Indie Hops | 3 | no |
-| [Coleman Agriculture](coleman-agriculture.md) | St. Paul | Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops | 4 | yes |
+| [Coleman Agriculture](coleman-agriculture.md) | St. Paul | Yakima Chief Hops grower-owner (joined 2019); primary grower for Indie Hops; on the YCR roster as Coleman Farms Inc and Coleman Ranches; Todd Koch sits on the Oregon Hop Commission board as Coleman Greenleaf | 4 | yes |
 | [Westwood Farms](westwood-farms.md) |  | Indie Hops grower; Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); Westwood Farms Inc on the YCR Oregon roster | 0 | yes |
 | [F & B Farms & Nursery LLC](f-and-b-farms-and-nursery.md) | Woodburn | Indie Hops grower; listed in the Hop Growers of America supplier directory | 1 | yes |
 | [Fobert Farms](fobert-farms.md) | Hubbard | Indie Hops grower; Fobert Farms on the YCR Oregon roster | 1 | yes |
@@ -91,14 +91,11 @@ Every field is copied from a named source. Variety names are written exactly as 
 | [Willamette Valley Hop Farms Inc](willamette-valley-hop-farms-inc.md) | St. Paul |  | 0 | no |
 | [Cascade Hop Farm](cascade-hop-farm.md) | Redmond |  | 0 | no |
 | [Capitol Farms Inc](capitol-farms.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
-| [Coleman Farms Inc](coleman-farms.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
-| [Coleman Ranches](coleman-ranches.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
 | [Lakeside Ranches](lakeside-ranches.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
 | [Pearmine Farms Inc](pearmine-farms.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
 | [Prairie Hop Farms LLC](prairie-hop-farms.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
 | [Scenic Valley Farms LLC](scenic-valley-farms.md) |  | On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon | 0 | yes |
 | [4B Farms](4b-farms.md) | Mt. Angel |  | 0 | yes |
-| [Coleman Greenleaf](coleman-greenleaf.md) | St. Paul |  | 0 | yes |
 | [McKay Agriculture](mckay-agriculture.md) | Brooks |  | 0 | yes |
 
 ## idaho
