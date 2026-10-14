@@ -21,11 +21,9 @@ Gasseling Ranches is recorded here from the sources listed below, and only as th
 
 WA.
 
-Not yet confirmed from the farm's own source. Reason: search summary only.
-
 ## ownership-and-history
 
-- Family or ownership: Gasseling family
+- Family or ownership: Patrick Gasseling
 
 ## varieties-as-published
 
@@ -33,14 +31,16 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Listed on the Yakima Chief Hops grower roster (search result summary)
+- Affiliation as published: Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); on the YCR roster
 - Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
-Page blocked by bot challenge; details not retrieved.
+Archived page lists the owner only; the individual farm page was not archived.
 
 ## sources
 
-- https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
 - https://seattlemag.com/news/hops-capital-world-eastern-washington/

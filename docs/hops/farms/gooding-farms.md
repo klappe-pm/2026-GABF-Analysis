@@ -19,9 +19,7 @@ Gooding Farms is recorded here from the sources listed below, and only as those 
 
 ## location
 
-Parma, Canyon County, ID. The county is derived: looked up from the city, not stated by the farm.
-
-Not yet confirmed from the farm's own source. Reason: Parma location from a search summary; farm site read.
+Canyon County, ID.
 
 ## ownership-and-history
 
@@ -39,14 +37,16 @@ Not yet confirmed from the farm's own source. Reason: Parma location from a sear
 
 ## supply-chain
 
-No merchant relationship was found in the sources checked.
+- Affiliation as published: On the YCR roster as an Idaho grower; two Gooding Farms entries (grower numbers 105 and 122) on the 2026 Idaho grower list
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
-Site says 12 varieties; only Idaho Gem is named. Parma is from an Idaho Business Review result summary; the site states no location.
+Site says 12 varieties; only Idaho Gem is named. A search summary reported Parma as the location; the Idaho list gives Canyon County only, so the city is left blank.
 
 ## sources
 
 - https://www.goodingfarms.com/
+- https://agri.idaho.gov/ag-inspections/agricultural-services/hops/hop-growers-in-idaho/
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
 - https://agri.idaho.gov/fsma-hemp-hops/hops/idaho-hop-commission/
-- https://idahobusinessreview.com/2025/11/10/idaho-hops-production-decline-farmers-adapt/

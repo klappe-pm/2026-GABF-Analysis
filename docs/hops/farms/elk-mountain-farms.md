@@ -15,17 +15,15 @@ tags: []
 
 # elk-mountain-farms
 
-Elk Mountain Farms is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
+Elk Mountain Farms LLC is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
 
 ## location
 
-Bonners Ferry, Boundary County, ID. The county is derived: looked up from the city, not stated by the farm.
-
-Not yet confirmed from the farm's own source. Reason: search summary only; site did not resolve.
+Boundary County, ID.
 
 ## ownership-and-history
 
-- Family or ownership: Owned by Anheuser-Busch (search result summary of Edible Idaho)
+No ownership, history or acreage figures were found in the sources checked.
 
 ## varieties-as-published
 
@@ -37,8 +35,9 @@ No merchant relationship was found in the sources checked.
 
 ## notes
 
-Site did not resolve. Described as a decent chunk of Idaho hop acreage near Bonners Ferry.
+Active licensed Idaho hop grower number 101, Boundary County, on the 2026 Idaho list. A search summary of Edible Idaho reported ownership by Anheuser-Busch and a Bonners Ferry location; that is not confirmed from a page read.
 
 ## sources
 
+- https://agri.idaho.gov/ag-inspections/agricultural-services/hops/hop-growers-in-idaho/
 - https://edibleidaho.ediblecommunities.com/hops-grown-in-idaho

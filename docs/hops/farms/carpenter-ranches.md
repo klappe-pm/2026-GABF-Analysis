@@ -21,11 +21,9 @@ Carpenter Ranches is recorded here from the sources listed below, and only as th
 
 near Ahtanum (south of Yakima), WA.
 
-Not yet confirmed from the farm's own source. Reason: Yakima Chief roster membership seen only in a search summary.
-
 ## ownership-and-history
 
-- Family or ownership: Carpenter family
+- Family or ownership: Carpenter family; one of three farms that own Yakima Chief Ranches
 - Founded: 1868 (Charles Carpenter planted first hop fields)
 - Generation: six generations
 - Proprietary variety role: Carpenter family named as a Yakima Chief Ranches founding family.
@@ -36,7 +34,7 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Listed on the Yakima Chief Hops grower roster (search result summary). Carpenter family named as a Yakima Chief Ranches founding family.
+- Affiliation as published: Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); owner of Yakima Chief Ranches; on the YCR roster
 - Listed as a source farm of Yakima Chief Hops in the merchants file
 - Listed as a source farm of Yakima Chief Ranches in the merchants file
 
@@ -49,3 +47,5 @@ Seattle Magazine says the family still owns and farms it. Yakima Chief grower pa
 - https://seattlemag.com/news/hops-capital-world-eastern-washington/
 - https://mackinnonreport.substack.com/p/the-secret-behind-who-controls-the
 - https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
