@@ -36,6 +36,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "tasting-notes"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -43,6 +44,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "abv"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -50,6 +52,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "ibu"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -57,6 +60,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "srm"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -64,6 +68,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "og"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -71,6 +76,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "fg"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -78,6 +84,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "hops"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -85,6 +92,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "hop-form"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -92,6 +100,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "hop-use"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -99,6 +108,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -106,6 +116,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "malts"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -113,6 +124,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "yeast"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -120,6 +132,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "adjuncts"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -127,6 +140,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "water"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -134,6 +148,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
   - field: "process"
     sources-checked:
       - "https://ketchbrewing.com/beers"
@@ -141,6 +156,7 @@ gaps:
       - "https://www.beeradvocate.com/beer/profile/55354/404532/"
       - "https://www.ketchbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)"
 hop-profile: []
 hops: []
 ibu: null
@@ -243,8 +259,8 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes, [ketchbrewing.com](https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)).
+- Not published: ABV, IBU. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes, [ketchbrewing.com](https://ketchbrewing.com/menu-itmes/day-cruise (no readable text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -255,3 +271,4 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: BeerAdvocate lists Day Cruise XPA at 5% ABV, while the brewery's Untappd menu search result identifies Day Cruise (remix) as an extra pale ale with New Zealand hops. The fetched menu did not reliably expose that entry. Neither version was conclusively tied to the medal name, so specifications remain null.
+- Deep dive pass 2026-10-14: the brewery's Day Cruise menu item, found in its sitemap, renders no readable text.

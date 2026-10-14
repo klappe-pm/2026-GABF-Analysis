@@ -246,3 +246,4 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 - The web search budget ran out before Untappd or press could be searched; this may be a taproom-only release.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery's 2026 collection explicitly lists Flanders Red Ale and its strength. Untappd's shorter name Flanders was not established as an alias, so its IBU was not transferred. No ingredients were found.
+- Deep dive pass 2026-10-14: the Barrelworks page has no Flanders Red Ale description.

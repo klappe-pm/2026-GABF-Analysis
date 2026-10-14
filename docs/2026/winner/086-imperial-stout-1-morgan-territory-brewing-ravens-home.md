@@ -233,3 +233,4 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplied strength, bitterness, style and grain names. Its description mentions a 2025 award, which was not used as evidence for the 2026 medal. No dedicated brewery beer page was found.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

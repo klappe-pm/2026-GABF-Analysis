@@ -54,7 +54,7 @@ export function BeerProfileCard({ data, headingLevel = 3 }: { data: BeerCardData
   const limit = Number(s['Tasting note length'] ?? 160);
   const plain = 'var(--md-ref-typeface-plain)';
   return (
-    <article className={`flex w-full min-w-0 max-w-measure flex-col gap-4 p-4 medium:p-5 ${card.className}`} style={card.style}>
+    <article className={`flex w-full min-w-0 max-w-measure flex-col gap-4 p-4 medium:p-5 ${card.className}`} style={card.style} data-component="beer-profile-card">
       {card.elevated ? <md-elevation /> : null}
       <header className="flex min-w-0 flex-col gap-1">
         <p className="inline-flex items-center gap-2">

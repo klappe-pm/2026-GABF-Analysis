@@ -37,6 +37,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "ibu"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -44,6 +45,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "srm"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -51,6 +53,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "og"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -58,6 +61,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "fg"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -65,6 +69,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "hops"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -72,6 +77,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "hop-form"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -79,6 +85,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "hop-use"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -86,6 +93,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -93,6 +101,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "malts"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -100,6 +109,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "yeast"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -107,6 +117,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "adjuncts"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -114,6 +125,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "water"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -121,6 +133,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
   - field: "process"
     sources-checked:
       - "https://beerandbrewing.com/review/grow-old-with-you/"
@@ -128,6 +141,7 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
 hop-profile: []
 hops: []
 ibu: null
@@ -233,8 +247,8 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes.
-- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)).
+- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -244,3 +258,4 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplied the adopted strength and style. A Craft Beer & Brewing review printed in December 2017 to January 2018 lists 13% ABV and 42 IBU and describes Dancing Pines bourbon aging. That older release was not established as the 2026 version, so its bitterness and process details were not transferred.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

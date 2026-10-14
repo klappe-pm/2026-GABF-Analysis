@@ -42,6 +42,7 @@ export function Icon({ name, label, size, slot }: { name: IconName; label?: stri
   return (
     <svg
       viewBox="0 0 16 16"
+      data-component="icon"
       slot={slot}
       width={px}
       height={px}

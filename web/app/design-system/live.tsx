@@ -9,9 +9,10 @@ import { NavigationRail } from '@/components/NavigationRail';
 import { EditableValue } from 'design-editor';
 import { DataTable } from '@/components/DataTable';
 import { useDesign, useScheme } from '@/design/runtime';
-import { COMPONENTS, type ColorRole, elevationLevels, globalKind, SHAPES, showValue } from '@/design/schema';
+import { type ColorRole, elevationLevels, globalKind, SHAPES, showValue } from '@/design/schema';
+import { Swatch } from '@/components/review/settings-list';
 import { contrastReport, corners, seriesReport, typeScale } from '@/design/theme';
-import { color, labelFace, typeOf } from '@/design/helpers';
+import { labelFace, typeOf } from '@/design/helpers';
 
 const key = (plain: string) => plain.replace(/ /g, '_');
 
@@ -95,10 +96,6 @@ export function SectionTabs({ label, items }: { label: string; items: { id: stri
       </md-tabs>
     </div>
   );
-}
-
-function Swatch({ value }: { value: string }) {
-  return <span aria-hidden="true" className="inline-block size-6 shrink-0 rounded-(--md-sys-shape-corner-extra-small) border border-outline-variant" style={{ background: value }} />;
 }
 
 const HEX = /^#[0-9a-fA-F]{6}$/;
@@ -244,19 +241,5 @@ export function SpecimenMeta({ name, statusLabel, statuses, specLink, href }: { 
       <span className="type-label-large inline-flex min-h-8 items-center rounded-(--md-sys-shape-corner-small) bg-secondary-container px-3 text-on-secondary-container">{statusLabel}: {statuses[meta[name]?.status ?? 'draft']}</span>
       <md-text-button href={href} target="_blank">{specLink}</md-text-button>
     </span>
-  );
-}
-
-export function SettingsList({ name, heading }: { name: string; heading: string }) {
-  const values = useDesign().components[name] ?? {};
-  return (
-    <div className="flex flex-col gap-2">
-      <h4 className="type-title-small text-on-surface">{heading}</h4>
-      <ul className="type-body-medium flex flex-col gap-1 text-on-surface-variant">
-        {Object.keys(COMPONENTS[name] ?? {}).map((k) => (
-          <li key={k}><span className="text-on-surface">{k}</span>: <EditableValue target={name} k={k} value={values[k] ?? ""}><span style={{ color: color("on surface variant") }}>{showValue(values[k] ?? "")}</span></EditableValue></li>
-        ))}
-      </ul>
-    </div>
   );
 }

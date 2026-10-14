@@ -30,16 +30,12 @@ description:
 entries: 46
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.monkscellar.com/"
-      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.monkscellar.com/"
       - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.monkscellar.com/"
@@ -56,11 +52,6 @@ gaps:
       - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
       - "web searches recorded in the research notes"
   - field: "hop-form"
-    sources-checked:
-      - "https://www.monkscellar.com/"
-      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
-      - "web searches recorded in the research notes"
-  - field: "hop-use"
     sources-checked:
       - "https://www.monkscellar.com/"
       - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
@@ -99,7 +90,7 @@ hop-profile:
   - published: "Saaz"
     variety: "Saaz"
     form: null
-    use: null
+    use: "dry hop"
     lot-or-farm: null
     source: "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
 hops:
@@ -116,7 +107,9 @@ sources:
   - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
 srm: null
 style: "Belgian Style Strong Golden Ale"
-tasting-notes: null
+tasting-notes:
+  text: "spice, golden raisin, white pepper, dry finish."
+  source: "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
 water: null
 yeast: []
 ---
@@ -152,7 +145,9 @@ Source: [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downto
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> spice, golden raisin, white pepper, dry finish.
+
+Source: [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu)
 
 ## ingredients
 
@@ -162,7 +157,7 @@ Saaz dry hopping is the only ingredient the menu names; the spice, golden raisin
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | not published | not published | [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
+| Saaz | Saaz | not published | dry hop | not published | [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
 
 ## brewing-details
 
@@ -205,8 +200,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes.
 - Not published: IBU. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -215,3 +210,4 @@ No brewery links have been checked yet.
 - The brewery home page cites California State Fair Brewery of the Year in 2023 and 2025 but no GABF 2026 announcement.
 - The web search budget ran out before Untappd or press could be searched for IBU or malts.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the drink menu says the beer is dry hopped with Saaz, recorded as the hop use.

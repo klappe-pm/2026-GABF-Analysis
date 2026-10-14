@@ -235,3 +235,4 @@ No brewery links have been checked yet.
 - The awards page lists 2026 World Beer Cup and Best of Craft medals and a 2025 GABF gold, but no 2026 GABF award and no mention of this beer.
 - A web search for the beer name returned nothing about it; the session search budget ran out before Untappd could be searched further.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Blah Blah Blah description.

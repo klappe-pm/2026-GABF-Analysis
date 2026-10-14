@@ -30,13 +30,6 @@ description:
 entries: 49
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://liabilitybrewing.co/"
-      - "https://liabilitybrewing.co/awards/"
-      - "https://liabilitybrewing.co/beer/feral-garden-gnome/"
-      - "https://liabilitybrewing.co/beers/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://liabilitybrewing.co/"
@@ -44,6 +37,7 @@ gaps:
       - "https://liabilitybrewing.co/beer/feral-garden-gnome/"
       - "https://liabilitybrewing.co/beers/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://liabilitybrewing.co/"
@@ -144,7 +138,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Belgian Blonde"
-tasting-notes: null
+tasting-notes:
+  text: "Belgian Blonde with notes of banana bread, clove, and Anjou pear."
+  source: "https://liabilitybrewing.co/beer/feral-garden-gnome/"
 water: null
 yeast: []
 ---
@@ -180,7 +176,9 @@ Source: [Liability: Feral Garden Gnome](https://liabilitybrewing.co/beer/feral-g
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Belgian Blonde with notes of banana bread, clove, and Anjou pear.
+
+Source: [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/)
 
 ## ingredients
 
@@ -235,8 +233,8 @@ Links checked 2026-10-14: [Website](https://liabilitybrewing.co/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
 - Not published: IBU. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -245,3 +243,4 @@ Links checked 2026-10-14: [Website](https://liabilitybrewing.co/), [Instagram](h
 - The old domain liabilitybrewing.com redirects to liabilitybrewing.co.
 - No IBU, malt or yeast is published on the brewery site; the web search budget ran out before third party sources could be searched.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page's tasting words are recorded.

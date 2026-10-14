@@ -42,8 +42,10 @@ export const entriesPerMedal = (r) => (r.entries && r.category_medals ? r.entrie
 // used here.
 export const NOT_DEFINED_HTML = '<span class="muted">Not defined</span>';
 const hasNum = (v) => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v));
-export const abvCell = (x) => (hasNum(x.abv) ? `${esc(Number(x.abv).toFixed(1).replace(/\.0$/, ''))}%` : NOT_DEFINED_HTML);
-export const ibuCell = (x) => (hasNum(x.ibu) ? esc(String(Number(x.ibu))) : NOT_DEFINED_HTML);
+// A current published value (not the medal year's figure) carries its note and source link.
+export const specNoteHtml = (x, url) => (x.spec_note ? ` <span class="muted small">(${url ? `<a href="${esc(url)}" rel="noopener">${esc(x.spec_note)}</a>` : esc(x.spec_note)})</span>` : '');
+export const abvCell = (x) => (hasNum(x.abv) ? `${esc(Number(x.abv).toFixed(1).replace(/\.0$/, ''))}%${specNoteHtml(x, x.abv_source)}` : NOT_DEFINED_HTML);
+export const ibuCell = (x) => (hasNum(x.ibu) ? `${esc(String(Number(x.ibu)))}${specNoteHtml(x, x.ibu_source)}` : NOT_DEFINED_HTML);
 const profileCell = (x, r) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">Full profile</a>` : NOT_DEFINED_HTML);
 
 // compact: drop columns whose value is the same on every row and columns empty on every row.

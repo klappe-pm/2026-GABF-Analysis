@@ -73,3 +73,45 @@ export function attachWinnerSpecs(results, { year = 2026, dir } = {}) {
   }
   return matched;
 }
+
+// Current published specs from data/reference/beer-specs.csv (Catalog.beer and brewery sites),
+// attached to every GABF medal row of the beer from `first` to `last` that has no profile spec. They
+// are the beer's values as published on the retrieval date, never the medal year's specification,
+// so the spec says so (current: true) and carries its source, retrieval date and match note.
+export function attachBeerSpecs(results, rows, { first = 2018, last = 2025, keyOf } = {}) {
+  const byKey = new Map();
+  for (const s of rows) {
+    const k = keyOf(s.brewery_name, s.beer_name);
+    // A brewery's own page wins over Catalog.beer for the same beer.
+    if (!byKey.has(k) || s.source_kind === 'brewery-site') byKey.set(k, s);
+  }
+  let matched = 0;
+  for (const r of results) {
+    if (r.spec || r.year < first || r.year > last || (r.competition && r.competition !== 'GABF')) continue;
+    const s = byKey.get(keyOf(r.brewery_name, r.beer_name));
+    if (!s) continue;
+    const num = (v) => (v === '' || v === undefined || !Number.isFinite(Number(v)) ? null : Number(v));
+    const source = { label: s.source_kind === 'catalog-beer' ? 'Catalog.beer' : 'brewery website', url: s.source_url };
+    const field = (v) => ({ value: v === '' ? null : v, source: v === '' || v === null ? null : source });
+    r.spec = {
+      page: null,
+      beer_url: null,
+      current: true,
+      retrieved: s.retrieved,
+      source_kind: s.source_kind,
+      confidence: s.match_confidence || null,
+      abv: field(num(s.abv)),
+      ibu: field(num(s.ibu)),
+      style: field(s.style || null),
+      hops: field(null),
+      malts: field(null),
+      yeast: field(null),
+      adjuncts: field(null),
+      description: null,
+    };
+    r.abv = r.spec.abv.value;
+    r.ibu = r.spec.ibu.value;
+    matched += 1;
+  }
+  return matched;
+}

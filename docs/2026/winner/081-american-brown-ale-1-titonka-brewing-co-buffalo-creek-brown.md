@@ -230,3 +230,4 @@ Links checked 2026-10-14: [Website](http://titonkabrewingco.com), [Instagram](ht
 - ABV comes only from Untappd; the brewery publishes no ABV or IBU.
 - The Untappd listing notes the 2026 GABF gold; no separate brewery announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.
