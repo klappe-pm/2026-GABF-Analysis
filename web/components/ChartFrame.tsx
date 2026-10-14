@@ -60,14 +60,8 @@ export function ChartFrame({ id, title, note, categories, series, tableSummary, 
     };
     draw();
     const resize = () => chart.resize();
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const observer = new MutationObserver(draw);
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-    mq.addEventListener('change', draw);
     window.addEventListener('resize', resize);
     return () => {
-      observer.disconnect();
-      mq.removeEventListener('change', draw);
       window.removeEventListener('resize', resize);
       chart.dispose();
     };

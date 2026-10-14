@@ -4,9 +4,9 @@ import { listRepo, readRepo, splitFrontmatter } from './repo';
 
 export type TokenNode = {
   id: string; kind: 'token'; type: string; cssVar: string; tailwind: string | null; description: string;
-  value?: unknown; values?: { light: string; dark: string }; aliases?: { light: string; dark: string };
+  value?: unknown; alias?: unknown;
 };
-export type ContrastRow = { theme: 'light' | 'dark'; token: string; against: string; fg: string; bg: string; ratio: number; min: number; pass: boolean };
+export type ContrastRow = { theme: string; token: string; against: string; fg: string; bg: string; ratio: number; min: number; pass: boolean };
 
 type TokenDoc = { nodes: (TokenNode | { kind: 'component' })[]; contrast: ContrastRow[] };
 

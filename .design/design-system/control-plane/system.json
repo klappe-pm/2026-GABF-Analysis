@@ -9,13 +9,6 @@
       "value": "#FFFFFF"
     },
     {
-      "id": "color.paper.chalk",
-      "type": "color",
-      "cssVar": "--gabf-color-paper-chalk",
-      "tailwind": null,
-      "value": "#E8E6DF"
-    },
-    {
       "id": "color.graphite.50",
       "type": "color",
       "cssVar": "--gabf-color-graphite-50",
@@ -79,39 +72,11 @@
       "value": "#2B2F33"
     },
     {
-      "id": "color.graphite.850",
-      "type": "color",
-      "cssVar": "--gabf-color-graphite-850",
-      "tailwind": null,
-      "value": "#23272B"
-    },
-    {
       "id": "color.graphite.900",
       "type": "color",
       "cssVar": "--gabf-color-graphite-900",
       "tailwind": null,
       "value": "#1C1F22"
-    },
-    {
-      "id": "color.graphite.950",
-      "type": "color",
-      "cssVar": "--gabf-color-graphite-950",
-      "tailwind": null,
-      "value": "#16181A"
-    },
-    {
-      "id": "color.chalk.200",
-      "type": "color",
-      "cssVar": "--gabf-color-chalk-200",
-      "tailwind": null,
-      "value": "#B6B4AC"
-    },
-    {
-      "id": "color.chalk.300",
-      "type": "color",
-      "cssVar": "--gabf-color-chalk-300",
-      "tailwind": null,
-      "value": "#9C9A92"
     },
     {
       "id": "color.green.100",
@@ -126,13 +91,6 @@
       "cssVar": "--gabf-color-green-200",
       "tailwind": null,
       "value": "#B5DCC3"
-    },
-    {
-      "id": "color.green.300",
-      "type": "color",
-      "cssVar": "--gabf-color-green-300",
-      "tailwind": null,
-      "value": "#8CC7A3"
     },
     {
       "id": "color.green.600",
@@ -156,25 +114,11 @@
       "value": "#1A4D33"
     },
     {
-      "id": "color.green.950",
-      "type": "color",
-      "cssVar": "--gabf-color-green-950",
-      "tailwind": null,
-      "value": "#1C2B23"
-    },
-    {
       "id": "color.red.100",
       "type": "color",
       "cssVar": "--gabf-color-red-100",
       "tailwind": null,
       "value": "#FBE7E3"
-    },
-    {
-      "id": "color.red.300",
-      "type": "color",
-      "cssVar": "--gabf-color-red-300",
-      "tailwind": null,
-      "value": "#F2907F"
     },
     {
       "id": "color.red.600",
@@ -184,25 +128,11 @@
       "value": "#B42A21"
     },
     {
-      "id": "color.red.950",
-      "type": "color",
-      "cssVar": "--gabf-color-red-950",
-      "tailwind": null,
-      "value": "#36211F"
-    },
-    {
       "id": "color.metal.gold",
       "type": "color",
       "cssVar": "--gabf-color-metal-gold",
       "tailwind": null,
       "value": "#C9A13B"
-    },
-    {
-      "id": "color.metal.gold-bright",
-      "type": "color",
-      "cssVar": "--gabf-color-metal-gold-bright",
-      "tailwind": null,
-      "value": "#D9B54E"
     },
     {
       "id": "color.metal.silver",
@@ -212,25 +142,11 @@
       "value": "#B4B9BD"
     },
     {
-      "id": "color.metal.silver-bright",
-      "type": "color",
-      "cssVar": "--gabf-color-metal-silver-bright",
-      "tailwind": null,
-      "value": "#C3C7CA"
-    },
-    {
       "id": "color.metal.bronze",
       "type": "color",
       "cssVar": "--gabf-color-metal-bronze",
       "tailwind": null,
       "value": "#BF7B4A"
-    },
-    {
-      "id": "color.metal.bronze-bright",
-      "type": "color",
-      "cssVar": "--gabf-color-metal-bronze-bright",
-      "tailwind": null,
-      "value": "#CC8A58"
     },
     {
       "id": "color.ink.iron-gall",
@@ -240,25 +156,11 @@
       "value": "#5B4A66"
     },
     {
-      "id": "color.ink.iron-gall-light",
-      "type": "color",
-      "cssVar": "--gabf-color-ink-iron-gall-light",
-      "tailwind": null,
-      "value": "#B9A6C4"
-    },
-    {
       "id": "color.ink.sepia",
       "type": "color",
       "cssVar": "--gabf-color-ink-sepia",
       "tailwind": null,
       "value": "#87643A"
-    },
-    {
-      "id": "color.ink.sepia-light",
-      "type": "color",
-      "cssVar": "--gabf-color-ink-sepia-light",
-      "tailwind": null,
-      "value": "#D2AF7F"
     },
     {
       "id": "font.family.sans",
@@ -762,250 +664,175 @@
       "type": "color",
       "cssVar": "--gabf-color-ground",
       "tailwind": "--color-ground",
-      "values": {
-        "light": "#FFFFFF",
-        "dark": "#1C1F22"
-      }
+      "value": "#FFFFFF"
     },
     {
       "id": "semantic.color.ground-tone",
       "type": "color",
       "cssVar": "--gabf-color-ground-tone",
       "tailwind": "--color-ground-tone",
-      "values": {
-        "light": "#F2F3F1",
-        "dark": "#23272B"
-      }
+      "value": "#F2F3F1"
     },
     {
       "id": "semantic.color.ink",
       "type": "color",
       "cssVar": "--gabf-color-ink",
       "tailwind": "--color-ink",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#E8E6DF"
-      }
+      "value": "#1C1F22"
     },
     {
       "id": "semantic.color.ink-muted",
       "type": "color",
       "cssVar": "--gabf-color-ink-muted",
       "tailwind": "--color-ink-muted",
-      "values": {
-        "light": "#50565C",
-        "dark": "#B6B4AC"
-      }
+      "value": "#50565C"
     },
     {
       "id": "semantic.color.ink-faint",
       "type": "color",
       "cssVar": "--gabf-color-ink-faint",
       "tailwind": "--color-ink-faint",
-      "values": {
-        "light": "#666C72",
-        "dark": "#9C9A92"
-      }
+      "value": "#666C72"
     },
     {
       "id": "semantic.color.on-ink",
       "type": "color",
       "cssVar": "--gabf-color-on-ink",
       "tailwind": "--color-on-ink",
-      "values": {
-        "light": "#FFFFFF",
-        "dark": "#1C1F22"
-      }
+      "value": "#FFFFFF"
     },
     {
       "id": "semantic.color.rule",
       "type": "color",
       "cssVar": "--gabf-color-rule",
       "tailwind": "--color-rule",
-      "values": {
-        "light": "#CDD1D2",
-        "dark": "#3A3F44"
-      }
+      "value": "#CDD1D2"
     },
     {
       "id": "semantic.color.rule-strong",
       "type": "color",
       "cssVar": "--gabf-color-rule-strong",
       "tailwind": "--color-rule-strong",
-      "values": {
-        "light": "#666C72",
-        "dark": "#8A9095"
-      }
+      "value": "#666C72"
     },
     {
       "id": "semantic.color.green",
       "type": "color",
       "cssVar": "--gabf-color-green",
       "tailwind": "--color-green",
-      "values": {
-        "light": "#22603F",
-        "dark": "#8CC7A3"
-      }
+      "value": "#22603F"
     },
     {
       "id": "semantic.color.green-tint",
       "type": "color",
       "cssVar": "--gabf-color-green-tint",
       "tailwind": "--color-green-tint",
-      "values": {
-        "light": "#E3F0E7",
-        "dark": "#1C2B23"
-      }
+      "value": "#E3F0E7"
     },
     {
       "id": "semantic.color.red",
       "type": "color",
       "cssVar": "--gabf-color-red",
       "tailwind": "--color-red",
-      "values": {
-        "light": "#B42A21",
-        "dark": "#F2907F"
-      }
+      "value": "#B42A21"
     },
     {
       "id": "semantic.color.red-tint",
       "type": "color",
       "cssVar": "--gabf-color-red-tint",
       "tailwind": "--color-red-tint",
-      "values": {
-        "light": "#FBE7E3",
-        "dark": "#36211F"
-      }
+      "value": "#FBE7E3"
     },
     {
       "id": "semantic.color.focus",
       "type": "color",
       "cssVar": "--gabf-color-focus",
       "tailwind": "--color-focus",
-      "values": {
-        "light": "#1A4D33",
-        "dark": "#8CC7A3"
-      }
+      "value": "#1A4D33"
     },
     {
       "id": "semantic.color.selection",
       "type": "color",
       "cssVar": "--gabf-color-selection",
       "tailwind": "--color-selection",
-      "values": {
-        "light": "#B5DCC3",
-        "dark": "#1C2B23"
-      }
+      "value": "#B5DCC3"
     },
     {
       "id": "semantic.color.gold",
       "type": "color",
       "cssVar": "--gabf-color-gold",
       "tailwind": "--color-gold",
-      "values": {
-        "light": "#C9A13B",
-        "dark": "#D9B54E"
-      }
+      "value": "#C9A13B"
     },
     {
       "id": "semantic.color.silver",
       "type": "color",
       "cssVar": "--gabf-color-silver",
       "tailwind": "--color-silver",
-      "values": {
-        "light": "#B4B9BD",
-        "dark": "#C3C7CA"
-      }
+      "value": "#B4B9BD"
     },
     {
       "id": "semantic.color.bronze",
       "type": "color",
       "cssVar": "--gabf-color-bronze",
       "tailwind": "--color-bronze",
-      "values": {
-        "light": "#BF7B4A",
-        "dark": "#CC8A58"
-      }
+      "value": "#BF7B4A"
     },
     {
       "id": "semantic.color.medal-stroke",
       "type": "color",
       "cssVar": "--gabf-color-medal-stroke",
       "tailwind": "--color-medal-stroke",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#E8E6DF"
-      }
+      "value": "#1C1F22"
     },
     {
       "id": "semantic.color.medal-letter",
       "type": "color",
       "cssVar": "--gabf-color-medal-letter",
       "tailwind": "--color-medal-letter",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#1C1F22"
-      }
+      "value": "#1C1F22"
     },
     {
       "id": "semantic.color.stamp",
       "type": "color",
       "cssVar": "--gabf-color-stamp",
       "tailwind": "--color-stamp",
-      "values": {
-        "light": "#B42A21",
-        "dark": "#F2907F"
-      }
+      "value": "#B42A21"
     },
     {
       "id": "semantic.color.series-1",
       "type": "color",
       "cssVar": "--gabf-color-series-1",
       "tailwind": "--color-series-1",
-      "values": {
-        "light": "#3A3F44",
-        "dark": "#E8E6DF"
-      }
+      "value": "#3A3F44"
     },
     {
       "id": "semantic.color.series-2",
       "type": "color",
       "cssVar": "--gabf-color-series-2",
       "tailwind": "--color-series-2",
-      "values": {
-        "light": "#2E7650",
-        "dark": "#8CC7A3"
-      }
+      "value": "#2E7650"
     },
     {
       "id": "semantic.color.series-3",
       "type": "color",
       "cssVar": "--gabf-color-series-3",
       "tailwind": "--color-series-3",
-      "values": {
-        "light": "#5B4A66",
-        "dark": "#B9A6C4"
-      }
+      "value": "#5B4A66"
     },
     {
       "id": "semantic.color.series-4",
       "type": "color",
       "cssVar": "--gabf-color-series-4",
       "tailwind": "--color-series-4",
-      "values": {
-        "light": "#87643A",
-        "dark": "#D2AF7F"
-      }
+      "value": "#87643A"
     },
     {
       "id": "semantic.color.series-5",
       "type": "color",
       "cssVar": "--gabf-color-series-5",
       "tailwind": "--color-series-5",
-      "values": {
-        "light": "#8A9095",
-        "dark": "#8A9095"
-      }
+      "value": "#8A9095"
     }
   ],
   "components": [
@@ -1338,8 +1165,7 @@
       "related": [
         "button",
         "filters-sheet",
-        "icon",
-        "theme-toggle"
+        "icon"
       ],
       "pages": [
         "/design-system"
@@ -1721,36 +1547,6 @@
       "related": [
         "button",
         "red-pen-note"
-      ],
-      "pages": [
-        "/design-system"
-      ]
-    },
-    {
-      "name": "theme-toggle",
-      "title": "Theme toggle",
-      "status": "review",
-      "spec": ".design/design-system/components/theme-toggle/spec.md",
-      "code": "web/components/ThemeToggle.tsx",
-      "tokens": [
-        "font.family.narrow",
-        "rule.hairline",
-        "semantic.color.ground",
-        "semantic.color.ground-tone",
-        "semantic.color.ink",
-        "semantic.color.rule-strong",
-        "space.1",
-        "space.3",
-        "space.6",
-        "type.label"
-      ],
-      "content": [
-        "global.site.header.theme_dark",
-        "global.site.header.theme_light"
-      ],
-      "related": [
-        "button",
-        "form-header"
       ],
       "pages": [
         "/design-system"

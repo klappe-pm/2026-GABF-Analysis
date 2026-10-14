@@ -32,8 +32,6 @@ export function runChecks() {
       try { resolveValue(t.value, scope); } catch (e) { fail(t.file, `${t.path}: ${e.message}`); }
     }
   }
-  const [a, b] = THEMES.map((th) => Object.keys(tokens.themes[th] ?? {}).sort().join(','));
-  if (a !== b) fail('tokens', 'light and dark theme files define different roles');
   for (const t of Object.values(tokens.base)) if (t.path.startsWith('radius.') && !/^0(px|rem)?$/.test(String(t.value))) fail(t.file, `${t.path} must be 0`);
   for (const t of Object.values(tokens.base)) if (t.type === 'fontFamily') for (const fam of [t.value].flat()) if (BANNED_FAMILIES.includes(fam)) fail(t.file, `${t.path}: ${fam} is not part of the system`);
 

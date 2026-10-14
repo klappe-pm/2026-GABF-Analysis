@@ -16,8 +16,6 @@ Where: header, on every page.
 
 - `skip_link`: Skip to content
 - `menu_button`: Menu
-- `theme_dark`: Dark mode
-- `theme_light`: Light mode
 - `nav_label`: Site
 
 ## `footer`

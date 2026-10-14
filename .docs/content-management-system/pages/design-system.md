@@ -1,13 +1,13 @@
 # Design system
 
-Design system: the living style guide. It shows every token and every component of the site, filled with real medal data, in both themes.
+Design system: the living style guide. It shows every token and every component of the site, filled with real medal data.
 
 ## `page`
 
 Where: top of the page.
 
 - `title`: Design system
-- `lede`: The tokens and components every page of GABF Analysis is built from, shown with real medal data in light and dark.
+- `lede`: The tokens and components every page of GABF Analysis is built from, shown with real medal data.
 - `spec_link`: Read the spec
 - `source_link`: Tokens and specs
 - `nav_label`: Sections
@@ -22,20 +22,18 @@ Where: the section headers of the page, in order.
 - `rules`: Rules, corners, and depth
 - `breakpoints`: Breakpoints
 - `components`: Components
-- `themes`: Light and dark
 
 ## `section_notes`
 
 Where: the line under each section header.
 
-- `color`: Every text and control color meets WCAG 2.2 AA in both themes. Ratios are computed from the tokens when the page is built.
+- `color`: Every text and control color meets WCAG 2.2 AA. Ratios are computed from the tokens when the page is built.
 - `medals`: Gold, silver, and bronze appear only on medals. Each mark carries an ink ring and its initial, so the metal is never the only cue.
 - `series`: Charts that are not about medals draw in inks: graphite, judging green, iron gall, sepia, and pencil. Each series also has its own mark.
 - `type`: Public Sans sets the interface, headings, and figures with tabular lining numerals. Archivo Narrow sets field labels, table headers, and stamps.
 - `space`: One scale, in quarter rem steps, for every gap and inset.
 - `rules`: Structure comes from rules. A hairline divides; a heavy rule closes a header. Every corner is square and nothing casts a shadow.
 - `breakpoints`: Layouts start at phone width and add columns at each breakpoint.
-- `themes`: The same component in white form stock and in graphite stock with chalk ink.
 
 ## `columns`
 
@@ -43,8 +41,6 @@ Where: the column headers of the token tables.
 
 - `role`: Role
 - `token`: Token
-- `light`: Light
-- `dark`: Dark
 - `on`: On
 - `ratio`: Ratio
 - `needs`: Needs
@@ -107,7 +103,6 @@ Where: the heading of each component on the page.
 - `estimate_popover`: Estimate note
 - `chart_frame`: Chart frame
 - `form_note`: Form notes
-- `theme_toggle`: Theme toggle
 - `icon`: Icons
 
 ## `states`
@@ -213,7 +208,7 @@ Where: the group headings inside the color section.
 - `accents`: Judging green and red pen
 - `medals`: Medals
 - `series`: Chart series
-- `contrast`: Contrast in each theme
+- `contrast`: Contrast
 - `step`: Step {{number}}
 - `breakpoint_note`: Columns are added from this width.
 

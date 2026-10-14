@@ -2,8 +2,7 @@
   "$description": "Published by scripts/design-system/build.mjs from .design/design-system for the screen feedback control plane. Each node is a token or a component that feedback can name.",
   "source": ".design/design-system",
   "themes": [
-    "light",
-    "dark"
+    "light"
   ],
   "nodes": [
     {
@@ -16,17 +15,6 @@
       "utilities": [],
       "description": "Form stock.",
       "value": "#FFFFFF"
-    },
-    {
-      "id": "color.paper.chalk",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-paper-chalk",
-      "tailwind": null,
-      "utilities": [],
-      "description": "Chalk ink on graphite stock.",
-      "value": "#E8E6DF"
     },
     {
       "id": "color.graphite.50",
@@ -128,17 +116,6 @@
       "value": "#2B2F33"
     },
     {
-      "id": "color.graphite.850",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-graphite-850",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#23272B"
-    },
-    {
       "id": "color.graphite.900",
       "kind": "token",
       "type": "color",
@@ -148,39 +125,6 @@
       "utilities": [],
       "description": "",
       "value": "#1C1F22"
-    },
-    {
-      "id": "color.graphite.950",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-graphite-950",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#16181A"
-    },
-    {
-      "id": "color.chalk.200",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-chalk-200",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#B6B4AC"
-    },
-    {
-      "id": "color.chalk.300",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-chalk-300",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#9C9A92"
     },
     {
       "id": "color.green.100",
@@ -203,17 +147,6 @@
       "utilities": [],
       "description": "",
       "value": "#B5DCC3"
-    },
-    {
-      "id": "color.green.300",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-green-300",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#8CC7A3"
     },
     {
       "id": "color.green.600",
@@ -249,17 +182,6 @@
       "value": "#1A4D33"
     },
     {
-      "id": "color.green.950",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-green-950",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#1C2B23"
-    },
-    {
       "id": "color.red.100",
       "kind": "token",
       "type": "color",
@@ -269,17 +191,6 @@
       "utilities": [],
       "description": "",
       "value": "#FBE7E3"
-    },
-    {
-      "id": "color.red.300",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-red-300",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#F2907F"
     },
     {
       "id": "color.red.600",
@@ -293,17 +204,6 @@
       "value": "#B42A21"
     },
     {
-      "id": "color.red.950",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-red-950",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#36211F"
-    },
-    {
       "id": "color.metal.gold",
       "kind": "token",
       "type": "color",
@@ -311,19 +211,8 @@
       "cssVar": "--gabf-color-metal-gold",
       "tailwind": null,
       "utilities": [],
-      "description": "Flat gold for medal marks in light theme.",
+      "description": "Flat gold for medal marks.",
       "value": "#C9A13B"
-    },
-    {
-      "id": "color.metal.gold-bright",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-metal-gold-bright",
-      "tailwind": null,
-      "utilities": [],
-      "description": "Flat gold for medal marks in dark theme.",
-      "value": "#D9B54E"
     },
     {
       "id": "color.metal.silver",
@@ -337,17 +226,6 @@
       "value": "#B4B9BD"
     },
     {
-      "id": "color.metal.silver-bright",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-metal-silver-bright",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#C3C7CA"
-    },
-    {
       "id": "color.metal.bronze",
       "kind": "token",
       "type": "color",
@@ -357,17 +235,6 @@
       "utilities": [],
       "description": "Flat bronze.",
       "value": "#BF7B4A"
-    },
-    {
-      "id": "color.metal.bronze-bright",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-metal-bronze-bright",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#CC8A58"
     },
     {
       "id": "color.ink.iron-gall",
@@ -381,17 +248,6 @@
       "value": "#5B4A66"
     },
     {
-      "id": "color.ink.iron-gall-light",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-ink-iron-gall-light",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#B9A6C4"
-    },
-    {
       "id": "color.ink.sepia",
       "kind": "token",
       "type": "color",
@@ -401,17 +257,6 @@
       "utilities": [],
       "description": "Sepia ink.",
       "value": "#87643A"
-    },
-    {
-      "id": "color.ink.sepia-light",
-      "kind": "token",
-      "type": "color",
-      "file": "tokens/primitives.tokens.json",
-      "cssVar": "--gabf-color-ink-sepia-light",
-      "tailwind": null,
-      "utilities": [],
-      "description": "",
-      "value": "#D2AF7F"
     },
     {
       "id": "font.family.sans",
@@ -1278,7 +1123,7 @@
       "id": "semantic.color.ground",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-ground",
       "tailwind": "--color-ground",
       "utilities": [
@@ -1295,20 +1140,14 @@
         "placeholder-ground"
       ],
       "description": "Page and field stock.",
-      "values": {
-        "light": "#FFFFFF",
-        "dark": "#1C1F22"
-      },
-      "aliases": {
-        "light": "{color.paper.white}",
-        "dark": "{color.graphite.900}"
-      }
+      "value": "#FFFFFF",
+      "alias": "{color.paper.white}"
     },
     {
       "id": "semantic.color.ground-tone",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-ground-tone",
       "tailwind": "--color-ground-tone",
       "utilities": [
@@ -1325,20 +1164,14 @@
         "placeholder-ground-tone"
       ],
       "description": "Header bands and table headers; elevation by tone.",
-      "values": {
-        "light": "#F2F3F1",
-        "dark": "#23272B"
-      },
-      "aliases": {
-        "light": "{color.graphite.50}",
-        "dark": "{color.graphite.850}"
-      }
+      "value": "#F2F3F1",
+      "alias": "{color.graphite.50}"
     },
     {
       "id": "semantic.color.ink",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-ink",
       "tailwind": "--color-ink",
       "utilities": [
@@ -1355,20 +1188,14 @@
         "placeholder-ink"
       ],
       "description": "Primary text and filled controls.",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#E8E6DF"
-      },
-      "aliases": {
-        "light": "{color.graphite.900}",
-        "dark": "{color.paper.chalk}"
-      }
+      "value": "#1C1F22",
+      "alias": "{color.graphite.900}"
     },
     {
       "id": "semantic.color.ink-muted",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-ink-muted",
       "tailwind": "--color-ink-muted",
       "utilities": [
@@ -1385,20 +1212,14 @@
         "placeholder-ink-muted"
       ],
       "description": "Secondary text, notes, metadata.",
-      "values": {
-        "light": "#50565C",
-        "dark": "#B6B4AC"
-      },
-      "aliases": {
-        "light": "{color.graphite.600}",
-        "dark": "{color.chalk.200}"
-      }
+      "value": "#50565C",
+      "alias": "{color.graphite.600}"
     },
     {
       "id": "semantic.color.ink-faint",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-ink-faint",
       "tailwind": "--color-ink-faint",
       "utilities": [
@@ -1415,20 +1236,14 @@
         "placeholder-ink-faint"
       ],
       "description": "Placeholder text and disabled labels.",
-      "values": {
-        "light": "#666C72",
-        "dark": "#9C9A92"
-      },
-      "aliases": {
-        "light": "{color.graphite.500}",
-        "dark": "{color.chalk.300}"
-      }
+      "value": "#666C72",
+      "alias": "{color.graphite.500}"
     },
     {
       "id": "semantic.color.on-ink",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-on-ink",
       "tailwind": "--color-on-ink",
       "utilities": [
@@ -1445,20 +1260,14 @@
         "placeholder-on-ink"
       ],
       "description": "Text on an ink filled control.",
-      "values": {
-        "light": "#FFFFFF",
-        "dark": "#1C1F22"
-      },
-      "aliases": {
-        "light": "{color.paper.white}",
-        "dark": "{color.graphite.900}"
-      }
+      "value": "#FFFFFF",
+      "alias": "{color.paper.white}"
     },
     {
       "id": "semantic.color.rule",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-rule",
       "tailwind": "--color-rule",
       "utilities": [
@@ -1475,20 +1284,14 @@
         "placeholder-rule"
       ],
       "description": "Hairline structure: cells, field boxes, dividers. Decorative; never the only boundary of a control.",
-      "values": {
-        "light": "#CDD1D2",
-        "dark": "#3A3F44"
-      },
-      "aliases": {
-        "light": "{color.graphite.200}",
-        "dark": "{color.graphite.700}"
-      }
+      "value": "#CDD1D2",
+      "alias": "{color.graphite.200}"
     },
     {
       "id": "semantic.color.rule-strong",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-rule-strong",
       "tailwind": "--color-rule-strong",
       "utilities": [
@@ -1505,20 +1308,14 @@
         "placeholder-rule-strong"
       ],
       "description": "Control boundaries: inputs, selects, checkboxes, outline buttons.",
-      "values": {
-        "light": "#666C72",
-        "dark": "#8A9095"
-      },
-      "aliases": {
-        "light": "{color.graphite.500}",
-        "dark": "{color.graphite.400}"
-      }
+      "value": "#666C72",
+      "alias": "{color.graphite.500}"
     },
     {
       "id": "semantic.color.green",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-green",
       "tailwind": "--color-green",
       "utilities": [
@@ -1535,20 +1332,14 @@
         "placeholder-green"
       ],
       "description": "Judging green: section headers, field numbers, section rules, current navigation.",
-      "values": {
-        "light": "#22603F",
-        "dark": "#8CC7A3"
-      },
-      "aliases": {
-        "light": "{color.green.700}",
-        "dark": "{color.green.300}"
-      }
+      "value": "#22603F",
+      "alias": "{color.green.700}"
     },
     {
       "id": "semantic.color.green-tint",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-green-tint",
       "tailwind": "--color-green-tint",
       "utilities": [
@@ -1565,20 +1356,14 @@
         "placeholder-green-tint"
       ],
       "description": "Selected rows and the field number box.",
-      "values": {
-        "light": "#E3F0E7",
-        "dark": "#1C2B23"
-      },
-      "aliases": {
-        "light": "{color.green.100}",
-        "dark": "{color.green.950}"
-      }
+      "value": "#E3F0E7",
+      "alias": "{color.green.100}"
     },
     {
       "id": "semantic.color.red",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-red",
       "tailwind": "--color-red",
       "utilities": [
@@ -1595,20 +1380,14 @@
         "placeholder-red"
       ],
       "description": "Red pen: findings, annotations, errors, and status stamps. Nothing else.",
-      "values": {
-        "light": "#B42A21",
-        "dark": "#F2907F"
-      },
-      "aliases": {
-        "light": "{color.red.600}",
-        "dark": "{color.red.300}"
-      }
+      "value": "#B42A21",
+      "alias": "{color.red.600}"
     },
     {
       "id": "semantic.color.red-tint",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-red-tint",
       "tailwind": "--color-red-tint",
       "utilities": [
@@ -1625,20 +1404,14 @@
         "placeholder-red-tint"
       ],
       "description": "Ground behind an error note.",
-      "values": {
-        "light": "#FBE7E3",
-        "dark": "#36211F"
-      },
-      "aliases": {
-        "light": "{color.red.100}",
-        "dark": "{color.red.950}"
-      }
+      "value": "#FBE7E3",
+      "alias": "{color.red.100}"
     },
     {
       "id": "semantic.color.focus",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-focus",
       "tailwind": "--color-focus",
       "utilities": [
@@ -1655,20 +1428,14 @@
         "placeholder-focus"
       ],
       "description": "Focus outline, 2px, offset 2px.",
-      "values": {
-        "light": "#1A4D33",
-        "dark": "#8CC7A3"
-      },
-      "aliases": {
-        "light": "{color.green.800}",
-        "dark": "{color.green.300}"
-      }
+      "value": "#1A4D33",
+      "alias": "{color.green.800}"
     },
     {
       "id": "semantic.color.selection",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-selection",
       "tailwind": "--color-selection",
       "utilities": [
@@ -1685,20 +1452,14 @@
         "placeholder-selection"
       ],
       "description": "Text selection highlight.",
-      "values": {
-        "light": "#B5DCC3",
-        "dark": "#1C2B23"
-      },
-      "aliases": {
-        "light": "{color.green.200}",
-        "dark": "{color.green.950}"
-      }
+      "value": "#B5DCC3",
+      "alias": "{color.green.200}"
     },
     {
       "id": "semantic.color.gold",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-gold",
       "tailwind": "--color-gold",
       "utilities": [
@@ -1715,20 +1476,14 @@
         "placeholder-gold"
       ],
       "description": "Gold medal mark fill. Medals only.",
-      "values": {
-        "light": "#C9A13B",
-        "dark": "#D9B54E"
-      },
-      "aliases": {
-        "light": "{color.metal.gold}",
-        "dark": "{color.metal.gold-bright}"
-      }
+      "value": "#C9A13B",
+      "alias": "{color.metal.gold}"
     },
     {
       "id": "semantic.color.silver",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-silver",
       "tailwind": "--color-silver",
       "utilities": [
@@ -1745,20 +1500,14 @@
         "placeholder-silver"
       ],
       "description": "Silver medal mark fill. Medals only.",
-      "values": {
-        "light": "#B4B9BD",
-        "dark": "#C3C7CA"
-      },
-      "aliases": {
-        "light": "{color.metal.silver}",
-        "dark": "{color.metal.silver-bright}"
-      }
+      "value": "#B4B9BD",
+      "alias": "{color.metal.silver}"
     },
     {
       "id": "semantic.color.bronze",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-bronze",
       "tailwind": "--color-bronze",
       "utilities": [
@@ -1775,20 +1524,14 @@
         "placeholder-bronze"
       ],
       "description": "Bronze medal mark fill. Medals only.",
-      "values": {
-        "light": "#BF7B4A",
-        "dark": "#CC8A58"
-      },
-      "aliases": {
-        "light": "{color.metal.bronze}",
-        "dark": "{color.metal.bronze-bright}"
-      }
+      "value": "#BF7B4A",
+      "alias": "{color.metal.bronze}"
     },
     {
       "id": "semantic.color.medal-stroke",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-medal-stroke",
       "tailwind": "--color-medal-stroke",
       "utilities": [
@@ -1805,20 +1548,14 @@
         "placeholder-medal-stroke"
       ],
       "description": "The 1px ring around every medal mark, so a mark reads on any ground.",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#E8E6DF"
-      },
-      "aliases": {
-        "light": "{color.graphite.900}",
-        "dark": "{color.paper.chalk}"
-      }
+      "value": "#1C1F22",
+      "alias": "{color.graphite.900}"
     },
     {
       "id": "semantic.color.medal-letter",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-medal-letter",
       "tailwind": "--color-medal-letter",
       "utilities": [
@@ -1835,20 +1572,14 @@
         "placeholder-medal-letter"
       ],
       "description": "The G, S, or B set inside a medal mark.",
-      "values": {
-        "light": "#1C1F22",
-        "dark": "#1C1F22"
-      },
-      "aliases": {
-        "light": "{color.graphite.900}",
-        "dark": "{color.graphite.900}"
-      }
+      "value": "#1C1F22",
+      "alias": "{color.graphite.900}"
     },
     {
       "id": "semantic.color.stamp",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-stamp",
       "tailwind": "--color-stamp",
       "utilities": [
@@ -1865,20 +1596,14 @@
         "placeholder-stamp"
       ],
       "description": "Status stamp ink: Partial, Not loaded, Draft, Estimate.",
-      "values": {
-        "light": "#B42A21",
-        "dark": "#F2907F"
-      },
-      "aliases": {
-        "light": "{color.red.600}",
-        "dark": "{color.red.300}"
-      }
+      "value": "#B42A21",
+      "alias": "{color.red.600}"
     },
     {
       "id": "semantic.color.series-1",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-series-1",
       "tailwind": "--color-series-1",
       "utilities": [
@@ -1895,20 +1620,14 @@
         "placeholder-series-1"
       ],
       "description": "Chart series 1, graphite.",
-      "values": {
-        "light": "#3A3F44",
-        "dark": "#E8E6DF"
-      },
-      "aliases": {
-        "light": "{color.graphite.700}",
-        "dark": "{color.paper.chalk}"
-      }
+      "value": "#3A3F44",
+      "alias": "{color.graphite.700}"
     },
     {
       "id": "semantic.color.series-2",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-series-2",
       "tailwind": "--color-series-2",
       "utilities": [
@@ -1925,20 +1644,14 @@
         "placeholder-series-2"
       ],
       "description": "Chart series 2, judging green.",
-      "values": {
-        "light": "#2E7650",
-        "dark": "#8CC7A3"
-      },
-      "aliases": {
-        "light": "{color.green.600}",
-        "dark": "{color.green.300}"
-      }
+      "value": "#2E7650",
+      "alias": "{color.green.600}"
     },
     {
       "id": "semantic.color.series-3",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-series-3",
       "tailwind": "--color-series-3",
       "utilities": [
@@ -1955,20 +1668,14 @@
         "placeholder-series-3"
       ],
       "description": "Chart series 3, iron gall ink.",
-      "values": {
-        "light": "#5B4A66",
-        "dark": "#B9A6C4"
-      },
-      "aliases": {
-        "light": "{color.ink.iron-gall}",
-        "dark": "{color.ink.iron-gall-light}"
-      }
+      "value": "#5B4A66",
+      "alias": "{color.ink.iron-gall}"
     },
     {
       "id": "semantic.color.series-4",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-series-4",
       "tailwind": "--color-series-4",
       "utilities": [
@@ -1985,20 +1692,14 @@
         "placeholder-series-4"
       ],
       "description": "Chart series 4, sepia ink.",
-      "values": {
-        "light": "#87643A",
-        "dark": "#D2AF7F"
-      },
-      "aliases": {
-        "light": "{color.ink.sepia}",
-        "dark": "{color.ink.sepia-light}"
-      }
+      "value": "#87643A",
+      "alias": "{color.ink.sepia}"
     },
     {
       "id": "semantic.color.series-5",
       "kind": "token",
       "type": "color",
-      "file": "tokens/theme.<theme>.tokens.json",
+      "file": "tokens/theme.light.tokens.json",
       "cssVar": "--gabf-color-series-5",
       "tailwind": "--color-series-5",
       "utilities": [
@@ -2015,14 +1716,8 @@
         "placeholder-series-5"
       ],
       "description": "Chart series 5, pencil.",
-      "values": {
-        "light": "#8A9095",
-        "dark": "#8A9095"
-      },
-      "aliases": {
-        "light": "{color.graphite.400}",
-        "dark": "{color.graphite.400}"
-      }
+      "value": "#8A9095",
+      "alias": "{color.graphite.400}"
     },
     {
       "id": "component.active-filters",
@@ -2665,33 +2360,6 @@
       "pages": [
         "/design-system"
       ]
-    },
-    {
-      "id": "component.theme-toggle",
-      "kind": "component",
-      "title": "Theme toggle",
-      "status": "review",
-      "spec": ".design/design-system/components/theme-toggle/spec.md",
-      "code": "web/components/ThemeToggle.tsx",
-      "tokens": [
-        "font.family.narrow",
-        "rule.hairline",
-        "semantic.color.ground",
-        "semantic.color.ground-tone",
-        "semantic.color.ink",
-        "semantic.color.rule-strong",
-        "space.1",
-        "space.3",
-        "space.6",
-        "type.label"
-      ],
-      "content": [
-        "global.site.header.theme_dark",
-        "global.site.header.theme_light"
-      ],
-      "pages": [
-        "/design-system"
-      ]
     }
   ],
   "contrast": [
@@ -3002,316 +2670,6 @@
       "fg": "#8A9095",
       "bg": "#FFFFFF",
       "ratio": 3.23,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink",
-      "against": "semantic.color.ground",
-      "fg": "#E8E6DF",
-      "bg": "#1C1F22",
-      "ratio": 13.26,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink",
-      "against": "semantic.color.ground-tone",
-      "fg": "#E8E6DF",
-      "bg": "#23272B",
-      "ratio": 12.04,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink",
-      "against": "semantic.color.green-tint",
-      "fg": "#E8E6DF",
-      "bg": "#1C2B23",
-      "ratio": 11.85,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink",
-      "against": "semantic.color.red-tint",
-      "fg": "#E8E6DF",
-      "bg": "#36211F",
-      "ratio": 12.06,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink-muted",
-      "against": "semantic.color.ground",
-      "fg": "#B6B4AC",
-      "bg": "#1C1F22",
-      "ratio": 7.97,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink-muted",
-      "against": "semantic.color.ground-tone",
-      "fg": "#B6B4AC",
-      "bg": "#23272B",
-      "ratio": 7.24,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink-faint",
-      "against": "semantic.color.ground",
-      "fg": "#9C9A92",
-      "bg": "#1C1F22",
-      "ratio": 5.87,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.ink-faint",
-      "against": "semantic.color.ground-tone",
-      "fg": "#9C9A92",
-      "bg": "#23272B",
-      "ratio": 5.34,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.on-ink",
-      "against": "semantic.color.ink",
-      "fg": "#1C1F22",
-      "bg": "#E8E6DF",
-      "ratio": 13.26,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.rule-strong",
-      "against": "semantic.color.ground",
-      "fg": "#8A9095",
-      "bg": "#1C1F22",
-      "ratio": 5.13,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.rule-strong",
-      "against": "semantic.color.ground-tone",
-      "fg": "#8A9095",
-      "bg": "#23272B",
-      "ratio": 4.66,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.green",
-      "against": "semantic.color.ground",
-      "fg": "#8CC7A3",
-      "bg": "#1C1F22",
-      "ratio": 8.52,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.green",
-      "against": "semantic.color.ground-tone",
-      "fg": "#8CC7A3",
-      "bg": "#23272B",
-      "ratio": 7.74,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.green",
-      "against": "semantic.color.green-tint",
-      "fg": "#8CC7A3",
-      "bg": "#1C2B23",
-      "ratio": 7.62,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.red",
-      "against": "semantic.color.ground",
-      "fg": "#F2907F",
-      "bg": "#1C1F22",
-      "ratio": 7.15,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.red",
-      "against": "semantic.color.ground-tone",
-      "fg": "#F2907F",
-      "bg": "#23272B",
-      "ratio": 6.5,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.red",
-      "against": "semantic.color.red-tint",
-      "fg": "#F2907F",
-      "bg": "#36211F",
-      "ratio": 6.51,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.focus",
-      "against": "semantic.color.ground",
-      "fg": "#8CC7A3",
-      "bg": "#1C1F22",
-      "ratio": 8.52,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.focus",
-      "against": "semantic.color.ground-tone",
-      "fg": "#8CC7A3",
-      "bg": "#23272B",
-      "ratio": 7.74,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.medal-stroke",
-      "against": "semantic.color.ground",
-      "fg": "#E8E6DF",
-      "bg": "#1C1F22",
-      "ratio": 13.26,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.medal-stroke",
-      "against": "semantic.color.ground-tone",
-      "fg": "#E8E6DF",
-      "bg": "#23272B",
-      "ratio": 12.04,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.medal-letter",
-      "against": "semantic.color.gold",
-      "fg": "#1C1F22",
-      "bg": "#D9B54E",
-      "ratio": 8.41,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.medal-letter",
-      "against": "semantic.color.silver",
-      "fg": "#1C1F22",
-      "bg": "#C3C7CA",
-      "ratio": 9.73,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.medal-letter",
-      "against": "semantic.color.bronze",
-      "fg": "#1C1F22",
-      "bg": "#CC8A58",
-      "ratio": 5.79,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.stamp",
-      "against": "semantic.color.ground",
-      "fg": "#F2907F",
-      "bg": "#1C1F22",
-      "ratio": 7.15,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.stamp",
-      "against": "semantic.color.ground-tone",
-      "fg": "#F2907F",
-      "bg": "#23272B",
-      "ratio": 6.5,
-      "min": 4.5,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.series-1",
-      "against": "semantic.color.ground",
-      "fg": "#E8E6DF",
-      "bg": "#1C1F22",
-      "ratio": 13.26,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.series-2",
-      "against": "semantic.color.ground",
-      "fg": "#8CC7A3",
-      "bg": "#1C1F22",
-      "ratio": 8.52,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.series-3",
-      "against": "semantic.color.ground",
-      "fg": "#B9A6C4",
-      "bg": "#1C1F22",
-      "ratio": 7.34,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.series-4",
-      "against": "semantic.color.ground",
-      "fg": "#D2AF7F",
-      "bg": "#1C1F22",
-      "ratio": 8.02,
-      "min": 3,
-      "pass": true
-    },
-    {
-      "theme": "dark",
-      "token": "semantic.color.series-5",
-      "against": "semantic.color.ground",
-      "fg": "#8A9095",
-      "bg": "#1C1F22",
-      "ratio": 5.13,
       "min": 3,
       "pass": true
     }

@@ -5,10 +5,10 @@ import { t } from '@/lib/content';
 import { firstParagraph, spec } from '@/lib/system';
 import { SOURCE_URL } from '@/lib/repo';
 
-// A token's color shown as a ruled square, resolved inside a forced theme so both columns are exact.
-export function Chip({ cssVar, theme }: { cssVar: string; theme: 'light' | 'dark' }) {
+// A token's color shown as a ruled square.
+export function Chip({ cssVar }: { cssVar: string }) {
   return (
-    <span data-theme={theme} className="inline-flex bg-transparent align-middle">
+    <span className="inline-flex bg-transparent align-middle">
       <span className="inline-block size-5 border border-rule-strong" style={{ background: `var(${cssVar})` }} />
     </span>
   );

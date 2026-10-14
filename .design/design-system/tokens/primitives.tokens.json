@@ -1,10 +1,9 @@
 {
-  "$description": "Primitive values for the GABF Analysis design system. Components never use these directly; they use the semantic theme tokens, which alias them.",
+  "$description": "Primitive values for the GABF Analysis design system. Components never use these directly; they use the semantic tokens, which alias them.",
   "color": {
     "$type": "color",
     "paper": {
-      "white": { "$value": "#FFFFFF", "$description": "Form stock." },
-      "chalk": { "$value": "#E8E6DF", "$description": "Chalk ink on graphite stock." }
+      "white": { "$value": "#FFFFFF", "$description": "Form stock." }
     },
     "graphite": {
       "50": { "$value": "#F2F3F1" },
@@ -16,42 +15,27 @@
       "600": { "$value": "#50565C" },
       "700": { "$value": "#3A3F44" },
       "800": { "$value": "#2B2F33" },
-      "850": { "$value": "#23272B" },
-      "900": { "$value": "#1C1F22" },
-      "950": { "$value": "#16181A" }
-    },
-    "chalk": {
-      "200": { "$value": "#B6B4AC" },
-      "300": { "$value": "#9C9A92" }
+      "900": { "$value": "#1C1F22" }
     },
     "green": {
       "100": { "$value": "#E3F0E7" },
       "200": { "$value": "#B5DCC3" },
-      "300": { "$value": "#8CC7A3" },
       "600": { "$value": "#2E7650" },
       "700": { "$value": "#22603F" },
-      "800": { "$value": "#1A4D33" },
-      "950": { "$value": "#1C2B23" }
+      "800": { "$value": "#1A4D33" }
     },
     "red": {
       "100": { "$value": "#FBE7E3" },
-      "300": { "$value": "#F2907F" },
-      "600": { "$value": "#B42A21" },
-      "950": { "$value": "#36211F" }
+      "600": { "$value": "#B42A21" }
     },
     "metal": {
-      "gold": { "$value": "#C9A13B", "$description": "Flat gold for medal marks in light theme." },
-      "gold-bright": { "$value": "#D9B54E", "$description": "Flat gold for medal marks in dark theme." },
+      "gold": { "$value": "#C9A13B", "$description": "Flat gold for medal marks." },
       "silver": { "$value": "#B4B9BD", "$description": "Flat silver, a neutral metal gray." },
-      "silver-bright": { "$value": "#C3C7CA" },
-      "bronze": { "$value": "#BF7B4A", "$description": "Flat bronze." },
-      "bronze-bright": { "$value": "#CC8A58" }
+      "bronze": { "$value": "#BF7B4A", "$description": "Flat bronze." }
     },
     "ink": {
       "iron-gall": { "$value": "#5B4A66", "$description": "Iron gall ink, a violet black." },
-      "iron-gall-light": { "$value": "#B9A6C4" },
-      "sepia": { "$value": "#87643A", "$description": "Sepia ink." },
-      "sepia-light": { "$value": "#D2AF7F" }
+      "sepia": { "$value": "#87643A", "$description": "Sepia ink." }
     }
   },
   "font": {

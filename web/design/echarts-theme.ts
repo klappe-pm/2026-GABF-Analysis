@@ -1,5 +1,4 @@
-// The chart theme for Apache ECharts, read from the design tokens at run time so charts follow the
-// theme of the element they are drawn in. Square bars, square tooltips, no shadows, rules for gridlines.
+// The chart theme for Apache ECharts, read from the design tokens at run time. Square bars, square tooltips, no shadows, rules for gridlines.
 
 const SERIES = ['series-1', 'series-2', 'series-3', 'series-4', 'series-5'];
 // A distinct mark per series, so color is never the only code. Circles are kept for medals.
