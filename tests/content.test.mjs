@@ -2,8 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
-import { parse } from 'yaml';
 import { ROOT } from '../scripts/lib/paths.mjs';
+import { parseContent } from '../scripts/lib/content-md.mjs';
 
 // The site copy in content/ is the single source of visible text. These checks keep it machine
 // readable and keep developer text and dash punctuation out of it.
@@ -16,7 +16,8 @@ const walk = (dir, out = []) => {
   return out;
 };
 const files = walk(CONTENT);
-const docs = Object.fromEntries(files.filter((f) => f.endsWith('.yaml')).map((f) => [relative(CONTENT, f).replace(/\.yaml$/, '').split('/').join('.'), parse(readFileSync(f, 'utf8'))]));
+// Copy documents are the Markdown files under pages/ and global/; analysis/ holds prose pages.
+const docs = Object.fromEntries(files.filter((f) => /\/(pages|global)\/[^/]+\.md$/.test(f)).map((f) => [relative(CONTENT, f).replace(/\.md$/, '').split('/').join('.'), parseContent(readFileSync(f, 'utf8'))]));
 
 function strings(node, path, out) {
   if (typeof node === 'string') out.push([path, node]);
@@ -40,9 +41,14 @@ function lookup(key) {
   return node;
 }
 
-test('every content YAML file parses to an object', () => {
+test('every content copy file parses to a non empty object', () => {
   assert.ok(Object.keys(docs).length >= 20);
-  for (const [name, doc] of Object.entries(docs)) assert.equal(typeof doc, 'object', name);
+  for (const [name, doc] of Object.entries(docs)) assert.ok(doc && Object.keys(doc).length > 0, name);
+});
+
+test('the Markdown copy format round trips keys, blanks, and lists', () => {
+  const md = '# T\n\nNote.\n\n## `a`\n\nWhere: x.\n\n- `k`: Text: with colon\n- `(blank)`: Not defined\n\n### `b`\n\n- `n`:\n\n## `list`\n\n- one\n- two\n';
+  assert.deepEqual(parseContent(md), { a: { k: 'Text: with colon', '': 'Not defined', b: { n: '' } }, list: ['one', 'two'] });
 });
 
 test('visible copy has no dash punctuation, paths, or commands', () => {
