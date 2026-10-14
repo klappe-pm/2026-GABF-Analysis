@@ -1,7 +1,7 @@
 // How an estimate is explained in words: the templates come from the copy documents (the estimates group of
 // pages/brewery-detail.md) and this fills them from the raw facts the model returns. The server page and the
 // client views both use it, so the index and a brewery page explain an estimate the same way.
-import type { EstimateFacts } from '@/lib/models/breweries.mjs';
+import type { EstimateFacts, IndexEstimate } from '@/lib/models/breweries.mjs';
 
 export type Metric = 'barrels' | 'arr' | 'gross_margin' | 'ebitda' | 'per_barrel' | 'per_location' | 'per_employee';
 
@@ -67,8 +67,9 @@ function inputsText(e: EstimateFacts, c: EstimateCopy) {
 }
 
 // The explanation shown in an estimate tooltip: how the figure was made, then the inputs behind it.
-export function explain(metric: Metric, e: EstimateFacts, c: EstimateCopy): string {
+export function explain(metric: Metric, facts: EstimateFacts | IndexEstimate, c: EstimateCopy): string {
   const t = c.templates;
+  const e = facts as EstimateFacts;
   const f = e.fin;
   let body: string;
   switch (metric) {

@@ -28,6 +28,9 @@ export type EstimateFacts = {
   volume: { gallons: number; cases: number; cans: number; pints: number; packagedShare: number };
 };
 
+// What the index keeps of an estimate: enough to explain the ARR figure.
+export type IndexEstimate = Omit<EstimateFacts, 'volume' | 'fin'> & { fin: { arr: number } };
+
 export type IndexInfo = {
   key: string;
   slug: string;
@@ -36,7 +39,7 @@ export type IndexInfo = {
   type: string | null;
   ownership: string;
   deepDive: boolean;
-  est: EstimateFacts;
+  est: IndexEstimate;
 };
 
 export type IndexRow = FilterFields & Pick<MedalRow, 'points' | 'brewery_slug'>;

@@ -91,6 +91,12 @@ export function estimateOf(b, params) {
 
 // ---------- the index ----------
 
+const slimForArr = (e) => ({
+  basis: e.basis, barrels: e.barrels, year: e.year, confidence: e.confidence, range: e.range, perType: e.perType, perExtraLocation: e.perExtraLocation,
+  locations: e.locations, type: e.type, assumed: e.assumed, kitchen: e.kitchen, channel: e.channel, channelKey: e.channelKey, employees: e.employees,
+  revenue: e.revenue, fin: { arr: e.fin.arr },
+});
+
 // The medal rows, and the attributes of every brewery that has medals. The page ranks them under the filter.
 export function breweriesIndex() {
   const { ds } = site();
@@ -106,7 +112,8 @@ export function breweriesIndex() {
       type: b.brewery_type ?? null,
       ownership: b.ownership?.ownership_type ?? 'unlisted',
       deepDive: Boolean(b.profile),
-      est: estimateOf(b, params),
+      // The index explains only the ARR estimate, so the rest of the figures stay out of the page.
+      est: slimForArr(estimateOf(b, params)),
     };
   }
   const rows = medalRows().map((r) => ({ ...filterRow(r, ['points', 'brewery_slug']) }));
