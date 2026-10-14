@@ -12,7 +12,7 @@ Density: 0
 
 ![Button](button.png)
 
-## what-you-can-change
+## button-options
 
 - Main action: filled
 - Other action: outlined

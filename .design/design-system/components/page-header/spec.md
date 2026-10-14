@@ -10,7 +10,7 @@ Current page color: secondary container
 
 ![Page header](page-header.png)
 
-## what-you-can-change
+## page-header-options
 
 - Container color: surface container
 - Title style: title large

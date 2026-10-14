@@ -9,7 +9,7 @@ Width on wide screens: 560
 
 ![Filters dialog](filters-dialog.png)
 
-## what-you-can-change
+## filters-dialog-options
 
 - Shape: extra large
 - Width on wide screens: 560

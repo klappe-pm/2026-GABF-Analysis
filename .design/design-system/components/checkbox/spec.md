@@ -8,6 +8,6 @@ Text style: body medium
 
 ![Checkbox](checkbox.png)
 
-## what-you-can-change
+## checkbox-options
 
 - Text style: body medium

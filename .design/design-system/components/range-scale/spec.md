@@ -10,7 +10,7 @@ Outside color: error
 
 ![Range scale](range-scale.png)
 
-## what-you-can-change
+## range-scale-options
 
 - Band color: primary container
 - Value color: on surface

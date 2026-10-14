@@ -9,7 +9,7 @@ Shape: small
 
 ![Filter chips](filter-chips.png)
 
-## what-you-can-change
+## filter-chips-options
 
 - Chip style: outlined
 - Shape: small

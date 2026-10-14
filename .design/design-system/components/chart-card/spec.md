@@ -16,7 +16,7 @@ Series colors:
 
 ![Chart card](chart-card.png)
 
-## what-you-can-change
+## chart-card-options
 
 - Card style: outlined
 - Line width: 2

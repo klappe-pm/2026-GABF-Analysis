@@ -10,7 +10,7 @@ Divider: yes
 
 ![Section header](section-header.png)
 
-## what-you-can-change
+## section-header-options
 
 - Title style: headline small
 - Title color: on surface

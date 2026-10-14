@@ -9,7 +9,7 @@ Accent color: tertiary
 
 ![Callout](callout.png)
 
-## what-you-can-change
+## callout-options
 
 - Card style: outlined
 - Accent color: tertiary

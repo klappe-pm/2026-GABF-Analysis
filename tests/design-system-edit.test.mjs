@@ -104,7 +104,7 @@ test('a saved component setting links the component spec and the picture of the 
   try {
     await applyDesignEdit({ target: 'button', key: 'Shape', value: next, feedbackDir: dir, capture: async ({ path }) => { writeFileSync(path, PNG); return true; } });
     const after = readFileSync(spec, 'utf8');
-    assert.deepEqual(changedLines(before, after).length, 2, 'the frontmatter line and its what-you-can-change line');
+    assert.deepEqual(changedLines(before, after).length, 2, 'the frontmatter line and its options line');
     const md = readdirSync(resolve(dir, 'design-system')).find((f) => f.endsWith('.md'));
     const { data, body } = parseTicket(readFileSync(resolve(dir, 'design-system', md), 'utf8'));
     assert.deepEqual(data.components, [{ name: 'button', spec: '.design/design-system/components/button/spec.md' }]);

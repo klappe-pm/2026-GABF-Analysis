@@ -10,7 +10,7 @@ Label style: label medium
 
 ![Stat card](stat-card.png)
 
-## what-you-can-change
+## stat-card-options
 
 - Card style: filled
 - Figure style: headline small

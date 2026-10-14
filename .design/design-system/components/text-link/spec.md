@@ -9,7 +9,7 @@ Underline: always
 
 ![Link](text-link.png)
 
-## what-you-can-change
+## text-link-options
 
 - Color: primary
 - Underline: always
