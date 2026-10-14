@@ -17,13 +17,52 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-variety: "Adeena"
+alpha-acid-percent: null
+alpha-class: null
+aroma-attribution: null
+aroma-descriptors: []
+beta-acid-percent: null
+breeder: null
+canonical-name: "Adeena"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "alpha-acid-percent"
+  - "aroma-descriptors"
+  - "beta-acid-percent"
+  - "breeder"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "proprietary-status"
+  - "release-year"
+  - "total-oil-ml-per-100g"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "not published"
+owner-program: null
+parentage: null
 proprietary-status: "not published"
+release-year: null
+release-year-note: null
 slug: "adeena"
-year-released: null
+sources:
+  - "https://www.laddandlassbrewing.com/the-beer"
+total-oil-ml-per-100g: null
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # adeena
@@ -82,3 +121,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [laddandlassbrewing.com/the-beer](https://www.laddandlassbrewing.com/the-beer)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Crunchy Boi](../../2026/winner/046-american-pilsener-2-ladd-and-lass-brewing-crunchy-boi.md), silver, American Pilsener, by [Ladd & Lass Brewing](../../breweries/ladd-and-lass-brewing.md); published as Adeena
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Ladd & Lass Brewing](../../breweries/ladd-and-lass-brewing.md), 1 beer

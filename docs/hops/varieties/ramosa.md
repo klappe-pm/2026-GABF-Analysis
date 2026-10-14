@@ -17,13 +17,51 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Ramosa"
+alpha-acid-percent: null
+alpha-class: null
+aroma-attribution: "Segal Ranch release (Washington Beer Blog)"
+aroma-descriptors:
+  - "and fresh-cut melon"
+  - "mango"
+  - "pineapple"
+beta-acid-percent: null
+breeder: "Segal Ranch (Yakima Valley, Washington)"
+canonical-name: "Ramosa"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "alpha-acid-percent"
+  - "beta-acid-percent"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "total-oil-ml-per-100g"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Segal Ranch (Yakima Valley, Washington)"
+owner-program: "Segal Ranch (Yakima Valley, Washington)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: 2026
+release-year-note: "Announced March 10, 2026 under the former experimental name D55."
 slug: "ramosa"
-year-released: "2026"
+sources:
+  - "https://washingtonbeerblog.com/introducing-a-new-hop-variety-from-segal-ranch-ramosa/"
+total-oil-ml-per-100g: null
+trademark: "Ramosa (trademark symbol used in the release)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # ramosa
@@ -76,3 +114,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [washingtonbeerblog.com/introducing-a-new-hop-variety-from-segal-ranch-ramosa](https://washingtonbeerblog.com/introducing-a-new-hop-variety-from-segal-ranch-ramosa/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Divi](../../2026/winner/018-session-india-pale-ale-1-offset-bier-co-divi.md), gold, Session India Pale Ale, by [Offset Bier Co.](../../breweries/offset-bier-co.md); published as Ramosa
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Offset Bier Co.](../../breweries/offset-bier-co.md), 1 beer

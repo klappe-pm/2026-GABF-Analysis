@@ -2,14 +2,14 @@
 // Build the hop reference data and pages from the catalogue (scripts/lib/hop-catalogue.mjs):
 //   data/reference/hop-varieties.csv   one row per variety, every field, a source column and a gap column per field group
 //   data/reference/hop-aliases.csv     the alias lookup read by scripts/lib/hop-aliases.mjs
-//   docs/hops/varieties/<slug>.md      one page per variety
-//   docs/hops/README.md                the hop section guide with the variety index
+// The variety pages and the hop section guide are written by scripts/build-hop-docs.mjs, which takes
+// their bodies from buildPage and buildReadme below and adds the frontmatter and the related links.
 // Acreage is built separately by scripts/ingest-nass-hops.mjs; the pages read data/reference/hop-acreage.csv when it exists.
 
-import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { REFERENCE, ROOT } from './lib/paths.mjs';
-import { readCsvRecords, toCsv } from './lib/csv.mjs';
+import { REFERENCE } from './lib/paths.mjs';
+import { toCsv } from './lib/csv.mjs';
 import { CATALOGUE } from './lib/hop-catalogue.mjs';
 import { HOP_FORMS, hopSlug, normalizeHopName } from './lib/hop-aliases.mjs';
 import { NASS_REPORTS } from './lib/nass-hops.mjs';
@@ -339,15 +339,7 @@ function main() {
   const aliasRows = buildAliasRows(records);
   writeFileSync(resolve(REFERENCE, 'hop-varieties.csv'), toCsv(records, VARIETY_COLUMNS));
   writeFileSync(resolve(REFERENCE, 'hop-aliases.csv'), toCsv(aliasRows, ['alias', 'normalized', 'slug', 'canonical', 'kind']));
-  const acreageFile = resolve(REFERENCE, 'hop-acreage.csv');
-  const acreage = existsSync(acreageFile) ? readCsvRecords(readFileSync(acreageFile, 'utf8')) : [];
-  const dir = resolve(ROOT, 'docs/hops/varieties');
-  mkdirSync(dir, { recursive: true });
-  const keep = new Set(records.map((r) => `${r.slug}.md`));
-  for (const f of readdirSync(dir)) if (f.endsWith('.md') && !keep.has(f)) rmSync(resolve(dir, f));
-  for (const r of records) writeFileSync(resolve(dir, `${r.slug}.md`), buildPage(r, acreage));
-  writeFileSync(resolve(ROOT, 'docs/hops/README.md'), buildReadme(records));
-  console.log(`wrote ${records.length} varieties, ${aliasRows.length} alias rows, ${records.length} pages`);
+  console.log(`wrote ${records.length} varieties and ${aliasRows.length} alias rows; run npm run docs:build for the pages`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();

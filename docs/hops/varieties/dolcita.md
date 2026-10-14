@@ -18,13 +18,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Dolcita"
+alpha-acid-percent: "10 to 12"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "crème-caramel"
+  - "orange"
+  - "Peach"
+  - "pineapple"
+beta-acid-percent: "9 to 10"
+breeder: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+canonical-name: "Dolcita"
+caryophyllene-percent-of-oil: "7.2"
+cohumulone-percent-of-alpha: "22 to 24"
+farnesene-percent-of-oil: "0.4"
+gaps:
+  - "release-year"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: "10.6"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "38.9"
 origin-country: "United States"
-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+owner-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+parentage: "A 2016 cross between two HBC developmental lines (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "dolcita"
-year-released: null
+sources:
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2025/08/Haas_Dolcita_SPEC-SHEET.pdf"
+total-oil-ml-per-100g: "1.3 to 2.2"
+trademark: "Dolcita (registered, per the Hop Breeding Company)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # dolcita
@@ -79,3 +111,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 
 - [johnihaas.com/wp-content/uploads/2025/08/Haas_Dolcita_SPEC-SHEET.pdf](https://www.johnihaas.com/wp-content/uploads/2025/08/Haas_Dolcita_SPEC-SHEET.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Because Science](../../2026/winner/101-juicy-or-hazy-india-pale-ale-1-bend-brewing-co-because-science.md), gold, Juicy or Hazy India Pale Ale, by [Bend Brewing Co.](../../breweries/bend-brewing-co.md); published as Dolcita, Dolcita DynaBoost
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Bend Brewing Co.](../../breweries/bend-brewing-co.md), 1 beer

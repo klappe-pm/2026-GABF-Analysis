@@ -52,7 +52,7 @@ export function withoutRelated(body) {
   let skipping = false;
   for (const line of lines) {
     const heading = line.match(/^(#{1,6})\s+(.+?)\s*$/);
-    if (heading) skipping = heading[1] === '##' && heading[2].trim() === 'related';
+    if (heading && heading[1].length <= 2) skipping = heading[1] === '##' && heading[2].trim() === 'related';
     if (!skipping) out.push(line);
   }
   return out.join('\n').replace(/\n+$/, '\n');
@@ -182,7 +182,7 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
   // ----- varieties and the alias map -----
   const makeVariety = (name, rec = null) => {
     const v = {
-      name, slug: '', listed: Boolean(rec), aliases: [], breeder: '', origin: '', aroma: [], traits: [], sources: [],
+      name, slug: '', docSlug: rec ? str(rec.slug) : '', listed: Boolean(rec), aliases: [], breeder: '', origin: '', aroma: [], traits: [], sources: [],
       acreage: [], farms: new Map(), usages: new Map(), doc: null,
     };
     v.slug = uniqueSlug(hopSlug(name));

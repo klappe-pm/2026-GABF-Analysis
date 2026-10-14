@@ -16,13 +16,44 @@ tags:
   - "england"
   - "public"
   - "variety"
-variety: "Fuggle"
+alpha-acid-percent: "3 to 6"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "Hopsteiner data sheet"
+aroma-descriptors:
+  - "earthy"
+  - "grassy"
+  - "mild"
+  - "mint"
+beta-acid-percent: "2 to 3"
+breeder: "English seedling selection"
+canonical-name: "Fuggle"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "30 to 33"
+farnesene-percent-of-oil: "5 to 6"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: "30 to 35"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "24 to 30"
 origin-country: "England"
-program: "English seedling selection"
+owner-program: "English seedling selection"
+parentage: "Seedling selection"
 proprietary-status: "public"
+release-year: 1875
+release-year-note: "Seedling selected in 1875 in England (Hopsteiner)."
 slug: "fuggle"
-year-released: "1875"
+sources:
+  - "https://hopsteiner.us/variety-data-sheets/Fuggle"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/06/Technical-datas-Fuggle-Eng.pdf"
+total-oil-ml-per-100g: "0.7 to 1.2"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # fuggle
@@ -77,3 +108,33 @@ This variety is not grown commercially in the United States as far as the source
 
 - [hopsteiner.us/variety-data-sheets/Fuggle](https://hopsteiner.us/variety-data-sheets/Fuggle)
 - [johnihaas.com/wp-content/uploads/2020/06/Technical-datas-Fuggle-Eng.pdf](https://www.johnihaas.com/wp-content/uploads/2020/06/Technical-datas-Fuggle-Eng.pdf)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [Goschie Farms](../farms/goschie-farms.md), OR; published as Fuggle; 2014
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Biere de Garde](../../2026/winner/066-european-style-amber-ale-1-white-bluffs-brewing-biere-de-garde.md), gold, European-Style Amber Ale, by [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md); published as Fuggles
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md), 1 beer

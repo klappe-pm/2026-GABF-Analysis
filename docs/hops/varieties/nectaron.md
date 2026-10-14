@@ -16,13 +16,42 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-variety: "Nectaron"
+alpha-acid-percent: "10.5 to 11.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Charles Faram"
+aroma-descriptors:
+  - "and juicy peach"
+  - "grapefruit"
+  - "ripe tropical fruit"
+beta-acid-percent: "4.5 to 5"
+breeder: "New Zealand Hops Ltd with Plant & Food Research"
+canonical-name: "Nectaron"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "26 to 28"
+farnesene-percent-of-oil: "0.2"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: "13 to 18"
 kind: "variety"
+medal-beers-2026: 8
+myrcene-percent-of-oil: "55 to 65"
 origin-country: "New Zealand"
-program: "New Zealand Hops Ltd with Plant & Food Research"
+owner-program: "New Zealand Hops Ltd with Plant & Food Research"
+parentage: "Full sister to Waimea; named for breeder Dr. Ron Beatson (Charles Faram)"
 proprietary-status: "proprietary"
+release-year: 2020
+release-year-note: null
 slug: "nectaron"
-year-released: "2020"
+sources:
+  - "https://charlesfaram.com/hop-oracle/nectaron/"
+total-oil-ml-per-100g: "1.6 to 1.9"
+trademark: "Nectaron (registered, per Charles Faram)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # nectaron
@@ -76,3 +105,47 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [charlesfaram.com/hop-oracle/nectaron](https://charlesfaram.com/hop-oracle/nectaron/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Divi](../../2026/winner/018-session-india-pale-ale-1-offset-bier-co-divi.md), gold, Session India Pale Ale, by [Offset Bier Co.](../../breweries/offset-bier-co.md); published as Nectaron
+- [No Fly Zone](../../2026/winner/091-new-zealand-style-india-pale-ale-1-8-bit-brewing-co-no-fly-zone.md), gold, New Zealand-Style India Pale Ale, by [8 Bit Brewing Co.](../../breweries/8-bit-brewing-co.md); published as Nectaron
+- [Dream Logic](../../2026/winner/091-new-zealand-style-india-pale-ale-2-meanwhile-brewing-co-dream-logic.md), silver, New Zealand-Style India Pale Ale, by [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md); published as Nectaron
+- [Elisabeth](../../2026/winner/031-mixed-culture-brett-beer-2-coldfire-barrel-house-elisabeth.md), silver, Mixed Culture Brett Beer, by [ColdFire Barrel House](../../breweries/coldfire-barrel-house.md); published as Nectaron
+- [Endless Groove](../../2026/winner/090-new-zealand-style-pale-ale-2-glenwood-canyon-brewing-co-endless-groove.md), silver, New Zealand-Style Pale Ale, by [Glenwood Canyon Brewing Co.](../../breweries/glenwood-canyon-brewing-co.md); published as Nectaron
+- [Icy Fog](../../2026/winner/101-juicy-or-hazy-india-pale-ale-2-mcmenamins-breweries-icy-fog.md), silver, Juicy or Hazy India Pale Ale, by [McMenamins Breweries](../../breweries/mcmenamins-breweries.md); published as Nectaron
+- [Sulking in The Brush](../../2026/winner/035-wood-and-barrel-aged-sour-beer-2-mieza-blendery-sulking-in-the-brush.md), silver, Wood- and Barrel-Aged Sour Beer, by [Mieza Blendery](../../breweries/mieza-blendery.md); published as Nectaron
+- [Rhyme To The Rhythm](../../2026/winner/095-juicy-or-hazy-strong-pale-ale-3-machinehead-brewing-co-rhyme-to-the-rhythm.md), bronze, Juicy or Hazy Strong Pale Ale, by [MachineHead Brewing Co.](../../breweries/machinehead-brewing-co.md); published as Nectaron
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [8 Bit Brewing Co.](../../breweries/8-bit-brewing-co.md), 1 beer
+- [ColdFire Barrel House](../../breweries/coldfire-barrel-house.md), 1 beer
+- [Glenwood Canyon Brewing Co.](../../breweries/glenwood-canyon-brewing-co.md), 1 beer
+- [MachineHead Brewing Co.](../../breweries/machinehead-brewing-co.md), 1 beer
+- [McMenamins Breweries](../../breweries/mcmenamins-breweries.md), 1 beer
+- [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md), 1 beer
+- [Mieza Blendery](../../breweries/mieza-blendery.md), 1 beer
+- [Offset Bier Co.](../../breweries/offset-bier-co.md), 1 beer

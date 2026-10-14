@@ -15,13 +15,43 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Liberty"
+alpha-acid-percent: "3 to 5"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Delicate floral"
+  - "lemon"
+  - "myrrh"
+beta-acid-percent: "3 to 4"
+breeder: "USDA public breeding program at Oregon State University"
+canonical-name: "Liberty"
+caryophyllene-percent-of-oil: "9 to 12"
+cohumulone-percent-of-alpha: "24 to 30"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "35 to 40"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "20 to 40"
 origin-country: "United States"
-program: "USDA public breeding program at Oregon State University"
+owner-program: "USDA public breeding program at Oregon State University"
+parentage: "Triploid from a female Hallertauer Mittelfruh and a downy mildew resistant German male"
 proprietary-status: "public"
+release-year: 1991
+release-year-note: "Bred in 1983 and released in the U.S. in 1991 (John I. Haas sheet)."
 slug: "liberty"
-year-released: "1991"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Liberty.pdf"
+total-oil-ml-per-100g: "0.6 to 1.2"
+trademark: null
+us-acres-latest:
+  - "Oregon 25"
+us-acres-latest-year: 2024
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # liberty
@@ -94,3 +124,33 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Liberty.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Liberty.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Trippel](../../2026/winner/077-belgian-style-tripel-2-new-belgium-brewing-co-trippel.md), silver, Belgian-Style Tripel, by [New Belgium Brewing Co.](../../breweries/new-belgium-brewing-co.md); published as Liberty
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [New Belgium Brewing Co.](../../breweries/new-belgium-brewing-co.md), 1 beer

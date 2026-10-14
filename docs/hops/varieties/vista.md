@@ -17,13 +17,51 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Vista"
+alpha-acid-percent: "11 to 12"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Yakima Valley Hops"
+aroma-descriptors:
+  - "Green Tea"
+  - "Melon"
+  - "Pear"
+  - "Tangerine"
+  - "Tropical Fruit"
+beta-acid-percent: "4 to 5"
+breeder: "USDA Agricultural Research Service public breeding program (bred by Dr. John Henning)"
+canonical-name: "Vista"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "USDA Agricultural Research Service public breeding program (bred by Dr. John Henning)"
+owner-program: "USDA Agricultural Research Service public breeding program (bred by Dr. John Henning)"
+parentage: null
 proprietary-status: "public"
+release-year: 2021
+release-year-note: "Charles Faram: named for commercial release in 2021 after development since 2006; formerly USDA 074."
 slug: "vista"
-year-released: "2021"
+sources:
+  - "https://charlesfaram.com/hop-oracle/vista/"
+  - "https://yakimavalleyhops.com/products/vista-hops"
+total-oil-ml-per-100g: "1 to 2"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # vista
@@ -79,3 +117,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 
 - [yakimavalleyhops.com/products/vista-hops](https://yakimavalleyhops.com/products/vista-hops)
 - [charlesfaram.com/hop-oracle/vista](https://charlesfaram.com/hop-oracle/vista/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Icy Fog](../../2026/winner/101-juicy-or-hazy-india-pale-ale-2-mcmenamins-breweries-icy-fog.md), silver, Juicy or Hazy India Pale Ale, by [McMenamins Breweries](../../breweries/mcmenamins-breweries.md); published as Vista
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [McMenamins Breweries](../../breweries/mcmenamins-breweries.md), 1 beer

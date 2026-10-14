@@ -17,13 +17,49 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Anchovy"
+alpha-acid-percent: "12.6"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Yakima Valley Hops"
+aroma-descriptors:
+  - "Pine"
+  - "Raspberry"
+  - "Watermelon"
+beta-acid-percent: "3.6"
+breeder: "Segal Ranch (Yakima Valley, Washington)"
+canonical-name: "Anchovy"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "release-year"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Segal Ranch (Yakima Valley, Washington)"
+owner-program: "Segal Ranch (Yakima Valley, Washington)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "anchovy"
-year-released: null
+sources:
+  - "https://yakimavalleyhops.com/products/anchovy-hops"
+total-oil-ml-per-100g: "1.61"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # anchovy
@@ -79,3 +115,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [yakimavalleyhops.com/products/anchovy-hops](https://yakimavalleyhops.com/products/anchovy-hops)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Old Head Red](../../2026/winner/096-american-amber-red-ale-2-cellarmaker-brewing-co-old-head-red.md), silver, American Amber/Red Ale, by [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md); published as Anchovy
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md), 1 beer
