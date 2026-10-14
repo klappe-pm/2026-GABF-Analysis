@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -17,7 +17,7 @@ tags:
 abv: 8.25
 adjuncts: []
 beer: "Winterbock"
-beer-url: null
+beer-url: "https://kcbier.com/biers/winterbock/"
 brewery: "Kansas City Bier Co."
 brewery-city: "Kansas City"
 brewery-state: "MO"
@@ -25,12 +25,16 @@ brewery-url: "https://kcbier.com/"
 category-name: "German-Style Strong Beer"
 category-number: 20
 entries: 39
-hops: []
+hops:
+  - "Perle"
 ibu: 24
-malts: []
+malts:
+  - "Munich"
+  - "Pilsner"
 medal: "Gold"
 place: 1
 sources:
+  - "https://kcbier.com/biers/winterbock/"
   - "https://www.beerandbrewing.com/review/winterbock"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.porchdrinking.com/?p=204145"
@@ -55,8 +59,8 @@ Winterbock is a dark, strong doppelbock lager from Kansas City Bier Co. in Kansa
 | Style | Doppelbock | [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock) |
 | ABV | 8.25% (the review lists 8.2%) | [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145) |
 | IBU | 24 | [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock) |
-| Hops | German imported, varieties not named | [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145) |
-| Malts and grains | 100% German imported malt, varieties not named | [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145) |
+| Hops | Perle | [KC Bier Co.: Winterbock](https://kcbier.com/biers/winterbock/) |
+| Malts and grains | Munich, Pilsner, specialty malts | [KC Bier Co.: Winterbock](https://kcbier.com/biers/winterbock/) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | none named | none found |
 | Other | double decoction, natural carbonation; seasonal | [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145) |
@@ -69,7 +73,7 @@ Source: [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.c
 
 ## ingredients
 
-The brewery's 2021 release text, carried by Porch Drinking, says Winterbock uses "100% German-imported malt and hops" and that "Double decoction and natural carbonation provide a smooth, clean finish" ([Porch Drinking](https://www.porchdrinking.com/?p=204145)). No malt or hop variety and no yeast is named.
+The brewery's 2021 release text, carried by Porch Drinking, says Winterbock uses "100% German-imported malt and hops" and that "Double decoction and natural carbonation provide a smooth, clean finish" ([Porch Drinking](https://www.porchdrinking.com/?p=204145)). The brewery's own Winterbock page lists Munich, Pilsner, and specialty malts and Perle hops ([KC Bier Co.](https://kcbier.com/biers/winterbock/)). No yeast is named.
 
 ## style-context
 
@@ -78,6 +82,7 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 ## links
 
 - [Kansas City Bier Co.](https://kcbier.com/)
+- [KC Bier Co.: Winterbock](https://kcbier.com/biers/winterbock/)
 - [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145)
 - [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
@@ -90,3 +95,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - A Brewbound release article returned HTTP 403.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Search found the brewery's Winterbock page naming Perle hops, but both host forms failed to open; beer-url and hops remain unfilled without a readable fetched page.
+- Pass 2026-10-14: the brewery's Winterbock page opened and lists 8.25% ABV, 24 IBU, Munich, Pilsner, and specialty malts, and Perle hops, matching the figures already recorded; it is now the beer-url.
