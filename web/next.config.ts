@@ -19,7 +19,12 @@ const nextConfig: NextConfig = {
   ...(review ? { distDir: 'out-review' } : {}),
   turbopack: {
     root: resolve(__dirname),
-    resolveAlias: { 'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx' },
+    resolveAlias: {
+      'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx',
+      // The review settings panel (web/components/review/ReviewSettingsPanel.tsx re-exports this alias):
+      // the panel in review mode, a stand in that renders nothing everywhere else.
+      'review-settings-panel': review ? './components/review/settings-panel.tsx' : './components/review/settings-panel-off.tsx',
+    },
   },
 };
 

@@ -20,7 +20,7 @@ export function StateCard({ kind, title, children, action, stamp }: Props) {
   const reduce = useReducedMotion();
   if (kind === 'loading') {
     return (
-      <div role="status" aria-live="polite" className={`flex flex-col gap-3 p-4 ${card.className}`} style={card.style}>
+      <div role="status" aria-live="polite" data-component="state-card" className={`flex flex-col gap-3 p-4 ${card.className}`} style={card.style}>
         {card.elevated ? <md-elevation /> : null}
         <p className="type-title-small text-on-surface">{title}</p>
         {reduce ? null : s['Loading indicator'] === 'circular' ? <md-circular-progress indeterminate aria-label={title} /> : <md-linear-progress indeterminate aria-label={title} className="w-full" />}
@@ -31,6 +31,7 @@ export function StateCard({ kind, title, children, action, stamp }: Props) {
   return (
     <div
       role={error ? 'alert' : 'status'}
+      data-component="state-card"
       className={`flex flex-col gap-2 p-4 ${card.className}`}
       style={error ? { ...card.style, background: 'var(--md-sys-color-error-container)', border: 'none' } : card.style}
     >

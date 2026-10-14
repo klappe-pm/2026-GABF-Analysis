@@ -12,7 +12,7 @@ export function Select({ id, label, options, defaultValue, disabled }: Props) {
   const Tag = (s['Field style'] === 'filled' ? 'md-filled-select' : 'md-outlined-select') as 'md-outlined-select';
   const value = defaultValue ?? options[0]?.value ?? '';
   return (
-    <Tag id={id} name={id} label={label} disabled={disabled || undefined} value={value} className="w-full">
+    <Tag data-component="select" id={id} name={id} label={label} disabled={disabled || undefined} value={value} className="w-full">
       {options.map((o) => (
         <md-select-option key={o.value} value={o.value} disabled={o.disabled || undefined} selected={o.value === value || undefined}>
           <div slot="headline">{o.label}</div>

@@ -11,6 +11,7 @@ export function SearchField({ id, label, placeholder, defaultValue, error, disab
   const Tag = (s['Field style'] === 'filled' ? 'md-filled-text-field' : 'md-outlined-text-field') as 'md-outlined-text-field';
   return (
     <Tag
+      data-component="search-field"
       id={id}
       type="search"
       name="q"

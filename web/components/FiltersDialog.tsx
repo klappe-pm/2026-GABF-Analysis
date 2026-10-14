@@ -49,6 +49,7 @@ export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy
   return (
     <form
       aria-labelledby={`${idPrefix}-title`}
+      data-component="filters-dialog"
       onSubmit={(e) => e.preventDefault()}
       className="flex flex-col gap-4 bg-surface-container-high p-6"
       style={{ borderRadius: shape(s.Shape ?? 'extra large'), maxWidth: `${Number(s['Width on wide screens'] ?? 560)}px` }}
@@ -83,6 +84,7 @@ export function FiltersDialog({ copy, groups }: { copy: FiltersCopy; groups: Fil
       <Button variant="secondary" aria-haspopup="dialog" onClick={() => ref.current?.show()}>{copy.trigger}</Button>
       <md-dialog
         ref={ref}
+        data-component="filters-dialog"
         quick={reduce || undefined}
         aria-labelledby="filters-sheet-title"
         style={vars({ '--md-dialog-container-shape': shape(s.Shape ?? 'extra large'), maxWidth: width, width })}

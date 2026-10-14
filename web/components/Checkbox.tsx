@@ -9,7 +9,7 @@ type Props = { id: string; label: string; hint?: string; defaultChecked?: boolea
 export function Checkbox({ id, label, hint, defaultChecked, disabled }: Props) {
   const s = useSettings('checkbox');
   return (
-    <div className="flex items-start gap-1">
+    <div className="flex items-start gap-1" data-component="checkbox">
       <md-checkbox
         id={id}
         name={id}

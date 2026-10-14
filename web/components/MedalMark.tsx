@@ -17,7 +17,7 @@ export function MedalMark({ medal, size = 'md', label = true, title }: { medal: 
   const ring = color(s['Ring color'] ?? 'on surface');
   const initial = label && s['Show initial'] !== 'no';
   return (
-    <svg viewBox="0 0 24 24" width={px} height={px} className="inline-block shrink-0 align-middle" role="img" aria-label={title ?? medal} focusable="false">
+    <svg viewBox="0 0 24 24" data-component="medal-mark" width={px} height={px} className="inline-block shrink-0 align-middle" role="img" aria-label={title ?? medal} focusable="false">
       <circle cx="12" cy="12" r="11" style={{ fill: FILL[medal], stroke: ring }} strokeWidth={1.25} vectorEffect="non-scaling-stroke" />
       {initial ? (
         <text x="12" y="12" textAnchor="middle" dominantBaseline="central" style={{ fill: ring, fontFamily: 'var(--app-typeface-label)', fontWeight: 700 }} fontSize={13} aria-hidden="true">

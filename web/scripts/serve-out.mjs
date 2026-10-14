@@ -4,8 +4,9 @@
 //             the copies in the export, so an edit to a settings file shows on the next reload.
 //   --review  review mode: serves the review build (web/out-review, built by npm run design-system:review),
 //             reads the settings live, and accepts edits from the style guide's in place editors at
-//             POST /__design/check and POST /__design/edit. Bound to 127.0.0.1 only. A save writes its
-//             ticket and picture to docs/feedback/design-system/ (GABF_DESIGN_FEEDBACK_DIR moves the store).
+//             POST /__design/check and POST /__design/edit, and from the review settings panel on any
+//             page. Bound to 127.0.0.1 only. A save writes its ticket and picture to docs/feedback/<page>/
+//             (design-system for the style guide; GABF_DESIGN_FEEDBACK_DIR moves the store).
 import { createServer } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
@@ -34,21 +35,31 @@ if (review) {
   }
 }
 
-// The picture a ticket carries: the edited component's states (or the settings row for a site wide
-// setting), drawn in a browser from the saved files. Playwright comes from PLAYWRIGHT_MODULE or
-// node_modules; without it the ticket says no image was captured.
+// The picture a ticket carries, drawn in a browser from the saved files. On the style guide: the edited
+// component's states, or the settings row for a site wide setting. On any other page (an edit from the
+// review settings panel): the first instance of the edited component on that page, or the window for a
+// site wide setting. Playwright comes from PLAYWRIGHT_MODULE or node_modules; without it the ticket says
+// no image was captured.
 let browser = null;
-async function capture({ target, key, path }) {
+async function capture({ target, key, path, route }) {
   const { createRequire } = await import('node:module');
   const { chromium } = createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE ?? 'playwright');
   browser ??= await chromium.launch(process.env.PLAYWRIGHT_CHANNEL ? { channel: process.env.PLAYWRIGHT_CHANNEL } : {}).catch(() => chromium.launch({ channel: 'chrome' }));
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+  const guide = !route || route === '/design-system/';
   try {
-    await page.goto(`http://${HOST}:${PORT}/design-system/`, { waitUntil: 'networkidle' });
+    await page.goto(`http://${HOST}:${PORT}${guide ? '/design-system/' : route}`, { waitUntil: 'networkidle' });
     await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
-    const el = target === 'settings' ? page.locator(`tr:has([data-setting=${JSON.stringify(`settings:${key}`)}])`) : page.locator(`#component-${target}-sample`);
-    if (!(await el.count())) return false;
     await page.evaluate(() => document.fonts.ready);
+    if (!guide && target === 'settings') {
+      await page.waitForTimeout(500);
+      await page.screenshot({ path, animations: 'disabled' });
+      return true;
+    }
+    const el = guide
+      ? (target === 'settings' ? page.locator(`tr:has([data-setting=${JSON.stringify(`settings:${key}`)}])`) : page.locator(`#component-${target}-sample`))
+      : page.locator(`[data-component=${JSON.stringify(target)}]:not([data-review-panel] *)`);
+    if (!(await el.count())) return false;
     await el.first().scrollIntoViewIfNeeded();
     await page.waitForTimeout(500);
     await el.first().screenshot({ path, animations: 'disabled' });

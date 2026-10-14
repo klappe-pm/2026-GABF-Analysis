@@ -17,6 +17,7 @@ export function EstimateTooltip({ id, marker, label, explanation, link }: Props)
     <>
       <button
         type="button"
+        data-component="estimate-tooltip"
         popoverTarget={id}
         aria-label={label}
         className="type-label-large cursor-help rounded-(--md-sys-shape-corner-extra-small) px-1 text-primary underline decoration-dotted state-hover:bg-primary-container"
