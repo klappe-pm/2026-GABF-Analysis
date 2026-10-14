@@ -6,6 +6,7 @@ import { fmt } from '@/lib/data';
 import { href, paths } from '@/lib/href';
 import { counts, WINNER_YEAR } from '@/lib/site-data';
 import { type Destination, moreDestinations, primaryDestinations } from './destinations.mjs';
+import { SaveViewControl } from '../saved/SaveViewControl';
 import { type ShellConfig, type ShellItem, SiteShell } from './SiteShell';
 
 const raw = (key: string) => lookup(key) as string;
@@ -66,5 +67,5 @@ export async function shellConfig(): Promise<ShellConfig> {
 }
 
 export async function SiteFrame({ children }: { children: ReactNode }) {
-  return <SiteShell config={await shellConfig()}>{children}</SiteShell>;
+  return <SiteShell config={await shellConfig()} saveControl={<SaveViewControl />}>{children}</SiteShell>;
 }

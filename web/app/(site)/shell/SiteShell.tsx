@@ -62,7 +62,7 @@ function SiteTabs({ label, items, active }: { label: string; items: ShellItem[];
   );
 }
 
-export function SiteShell({ config, children }: { config: ShellConfig; children: ReactNode }) {
+export function SiteShell({ config, saveControl, children }: { config: ShellConfig; saveControl?: ReactNode; children: ReactNode }) {
   const pathname = usePathname() ?? '/';
   const { layout, global } = useDesign();
   const order = layout['Site navigation'] ?? [];
@@ -80,7 +80,7 @@ export function SiteShell({ config, children }: { config: ShellConfig; children:
         menuLabel={config.menuLabel}
         skipLabel={config.skipLabel}
         skipTarget="#main"
-        actions={<SiteFilters config={config.filters} />}
+        actions={<>{saveControl}<SiteFilters config={config.filters} /></>}
       />
       <div className="flex">
         <NavigationRail label={config.navLabel} items={nav} active={primaryActive} className={drawer ? 'hidden medium:flex large:hidden' : 'hidden medium:flex'} />

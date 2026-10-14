@@ -1,6 +1,8 @@
 # Labels
 
-The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not defined".
+The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not Found".
+
+- `not_found`: Not Found
 
 ## `medal`
 
@@ -29,7 +31,7 @@ Where: ownership pills, ownership columns, the Ownership filter, and the ownersh
 - `private-equity-backed`: Backed by private equity
 - `beverage-conglomerate-owned`: Owned by a beverage company
 - `closed`: Closed
-- `unlisted`: Not defined
+- `unlisted`: Not Found
 
 ## `distribution_channel`
 
@@ -38,8 +40,8 @@ Where: distribution pills, distribution columns, and the Distribution filter.
 - `self-distribution`: Self distributed
 - `distributor`: Through a distributor
 - `taproom`: Taproom only
-- `unknown`: Not defined
-- `(blank)`: Not defined
+- `unknown`: Not Found
+- `(blank)`: Not Found
 
 ## `brewery_type`
 

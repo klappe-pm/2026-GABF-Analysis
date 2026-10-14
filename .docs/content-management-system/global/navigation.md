@@ -8,34 +8,34 @@ Where: header navigation, left to right.
 
 - `home`: Home
 - `results`: Medal Winners
-- `results_by_year`: By year
-- `results_by_category`: By category
+- `results_by_year`: By Year
+- `results_by_category`: By Category
 - `categories`: Categories
 - `breweries`: Breweries
 - `beers`: Beers
 - `analysis`: Analysis
-- `saved_views`: Saved views
+- `saved_views`: Saved Views
 - `hops`: Hops
-- `hop_farms`: Hop farms
+- `hop_farms`: Hop Farms
 
 ## `footer`
 
 Where: footer navigation.
 
 - `method`: Method
-- `saved_views`: Saved views
+- `saved_views`: Saved Views
 - `about`: About
-- `source`: Source and data
+- `source`: Source and Data
 
 ## `breadcrumbs`
 
 Where: small links above a page title that lead back to its index.
 
-- `all_results`: All results
-- `all_categories`: All categories
-- `all_breweries`: All breweries
+- `all_results`: All Results
+- `all_categories`: All Categories
+- `all_breweries`: All Breweries
 - `all_beers`: All {{year}} winners
-- `all_analysis`: All analysis
+- `all_analysis`: All Analysis
 - `category_number`: Category {{number}}
 
 ## `page_titles`
