@@ -7,6 +7,7 @@ import { fill, t } from '@/lib/content';
 import { href } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
 import { analysis, labelGroup, MAIN, raw } from './parts/copy';
+import { FindingList, findingsModel } from './parts/Findings';
 import { analysisPaths } from './parts/paths';
 
 const page = (key: string) => `pages.analysis-index.${key}`;
@@ -20,12 +21,14 @@ export default async function AnalysisIndex() {
   const meta = model.reportMeta();
   const coverage = labelGroup('coverage');
   const meaning = labelGroup('coverage_meaning');
+  const findings = (await findingsModel()).findings();
   return (
     <main id="main" tabIndex={-1} className={MAIN}>
       <header className="flex flex-col gap-3">
         <h1 className="type-display-small text-on-surface">{t(page('header.title'))}</h1>
         <p className="type-body-large max-w-measure text-on-surface-variant">{t(page('header.lede'))}</p>
       </header>
+      <FindingList findings={findings} title={t(page('findings.title'))} />
       <section className="flex flex-col gap-3" aria-labelledby="reports">
         <h2 id="reports" className="type-headline-small text-primary">{t(page('reports.title'))}</h2>
         <ul className="flex flex-col gap-3">

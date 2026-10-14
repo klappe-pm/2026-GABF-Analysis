@@ -33,7 +33,9 @@ export default async function ExplorePage() {
     },
     import: {
       title: t(page('import.title')), privacy: t(page('import.privacy')), help: t(page('import.help')), chooseFile: t(page('import.choose_file')), result: t(page('import.result'), { added: '{{added}}', skipped: '{{skipped}}' }), remove: t(page('import.remove')), removed: t(page('import.removed')), reading: t(page('import.reading')),
-      errors: Object.fromEntries(['unclosed_quote', 'no_rows', 'duplicate_columns', 'field_count', 'missing_column', 'blank_required', 'bad_medal', 'bad_year', 'too_many_rows', 'too_large'].map((k) => [k, t(page(`import.errors.${k}`), { row: '{{row}}', count: '{{count}}', expected: '{{expected}}', column: '{{column}}' })])),
+      kind: t(page('import.kind')), kinds: { new: t(page('import.kinds.new')), awards: t(page('import.kinds.awards')), beers: t(page('import.kinds.beers')), breweries: t(page('import.kinds.breweries')) },
+      helpById: t(page('import.help_by_id'), { column: '{{column}}' }), resultById: t(page('import.result_by_id'), { updated: '{{updated}}', skipped: '{{skipped}}' }),
+      errors: Object.fromEntries(['unclosed_quote', 'no_rows', 'duplicate_columns', 'field_count', 'missing_column', 'blank_required', 'bad_medal', 'bad_year', 'too_many_rows', 'too_large', 'blank_id', 'duplicate_id', 'no_evidence'].map((k) => [k, t(page(`import.errors.${k}`), { row: '{{row}}', count: '{{count}}', expected: '{{expected}}', column: '{{column}}' })])),
     },
     links: { savedViews: t(page('links.saved_views')) },
     empty: { awards: t(page('empty.awards')), hint: t(page('empty.awards_hint')) },

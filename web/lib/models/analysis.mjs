@@ -2,9 +2,15 @@
 // (lib/site-data.ts). Each loader slices the shared dataset (site() in ../site-model.mjs) into the plain records
 // one page needs; the filter-dependent aggregation lives in analysis-calc.mjs, which the client views run.
 
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
+import { TILES } from '../../../scripts/chart-gallery/data.mjs';
+import { readCsvRecords } from '../../../scripts/lib/csv.mjs';
+import { categoryFold } from '../../../scripts/lib/data-model.mjs';
 import { slugify } from '../../../scripts/lib/slug.mjs';
-import { filterRow, legacyCategoryNames, site } from '../site-model.mjs';
+import { beerIdOf, breweryIdOf } from './explore-import.mjs';
+import { filterRow, legacyCategoryNames, REPO, site, WINNER_YEAR } from '../site-model.mjs';
 
 export const REPORTS = [
   { slug: 'top-breweries', key: 'top_breweries' },
@@ -70,6 +76,8 @@ export function legacyCategories() {
 export const legacyCategoryParams = () => legacyCategories().redirects.map((r) => ({ slug: r.oldSlug }));
 export const legacyCategory = (slug) => legacyCategories().redirects.find((r) => r.oldSlug === slug) ?? null;
 
+const MEDAL_ORDER = ['Gold', 'Silver', 'Bronze'];
+
 export function category(slug) {
   const c = site().cats.find((x) => x.slug === slug);
   if (!c) return null;
@@ -89,6 +97,8 @@ export function category(slug) {
     abv: range(ref?.abv_min, ref?.abv_max),
     ibu: range(ref?.ibu_min, ref?.ibu_max),
     srm: range(ref?.srm_min, ref?.srm_max),
+    // The beers of the latest winners list that have a profile, in medal order, for the profile cards.
+    cardStems: rows.filter((r) => r.year === WINNER_YEAR && r.stem).sort((a, b) => MEDAL_ORDER.indexOf(a.medal) - MEDAL_ORDER.indexOf(b.medal)).map((r) => r.stem),
     description: ref?.description ? String(ref.description) : null,
     source: ref?.guideline_source ? String(ref.guideline_source) : null,
     confidence: ref?.confidence ? String(ref.confidence) : null,
@@ -203,15 +213,43 @@ export const TRAITS = {
 };
 export const traitsOf = (categoryName) => Object.entries(TRAITS).filter(([, re]) => re.test(categoryName)).map(([k]) => k);
 
+// The identifiers of the retired explorer, which exports and enrichment files still use: an award row `AW-<year>-<n>`,
+// a beer `BE-<beer>-<brewery>`, and a brewery location `BR-<brewery>-<city>-<state>` (for example
+// BR-gowan-s-heirloom-cider-philo-ca). A row on file in data/reference/explorer-ids.csv keeps its identifiers, matched
+// by year, section, category, medal, beer and brewery; a row that is not there gets the next number of its year and
+// the identifiers its names make, reusing a beer or brewery location identifier already on file.
+const idSig = (y, section, category, medal, beer, brewery) => [y, section || 'main', categoryFold(category), medal, beer, brewery].map((x) => String(x).trim().toLowerCase()).join('|');
+export function explorerIds(results) {
+  const known = readCsvRecords(readFileSync(resolve(REPO, 'data', 'reference', 'explorer-ids.csv'), 'utf8'));
+  const bySig = new Map(known.map((k) => [idSig(k.year, k.section, k.category, k.medal, k.beer, k.brewery), k]));
+  const seq = {};
+  for (const k of known) seq[k.year] = Math.max(seq[k.year] ?? 0, Number(k.award_id.split('-').at(-1)) || 0);
+  const beerIds = new Map(known.map((k) => [`${k.beer}|${k.brewery}`, k.beer_id]));
+  const breweryIds = new Map(known.map((k) => [`${k.brewery}|${k.city}|${k.state}`, k.brewery_id]));
+  return results.map((r) => {
+    const old = bySig.get(idSig(r.year, r.section, r.category_name, r.medal, r.beer_name, r.brewery_name));
+    return {
+      award_id: old?.award_id ?? `AW-${r.year}-${String((seq[r.year] = (seq[r.year] ?? 0) + 1)).padStart(4, '0')}`,
+      beer_id: beerIds.get(`${r.beer_name}|${r.brewery_name}`) ?? beerIdOf(r.beer_name, r.brewery_name),
+      brewery_id: breweryIds.get(`${r.brewery_name}|${r.city}|${r.state}`) ?? breweryIdOf(r.brewery_name, r.city, r.state),
+    };
+  });
+}
+
 // Every medal row with the fields the Explore page shows and filters on beyond the global filter: the
 // competition section (results), the investors (ownership research), and the category characteristics.
 export function exploreRows() {
   const { ds, payload } = site();
   const investor = new Map(ds.breweries.filter((b) => b.ownership?.investor).map((b) => [b.key, String(b.ownership.investor)]));
-  return payload.results.map((r) => ({
+  const ids = explorerIds(payload.results);
+  return payload.results.map((r, i) => ({
     ...filterRow(r, ['category_slug', 'category_number', 'brewery_slug', 'city', 'section', 'parent']),
+    ...ids[i],
     stem: stemOf(r),
     investor: investor.get(r.brewery_key) ?? null,
     traits: traitsOf(r.category_name),
   }));
 }
+
+// The column and row of each state on the square tile grid (north at the top, west at the left).
+export const stateTiles = () => TILES;

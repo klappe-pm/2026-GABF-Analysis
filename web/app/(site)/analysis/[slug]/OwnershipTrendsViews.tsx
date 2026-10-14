@@ -11,6 +11,8 @@ import { href, paths } from '@/lib/href';
 import { countBy, familySeries, movers, ownershipRollup, TREND_FAMILIES, yearsInView } from '@/lib/models/analysis-calc.mjs';
 import type { Row } from '@/lib/models/analysis-calc.mjs';
 import { BarCard, StackedCard } from '@/app/(site)/analysis/parts/charts';
+import { Plot } from '@/app/(site)/analysis/parts/Plot';
+import { esc, fmtN, stackedBars } from '@/app/(site)/dashboards/kit/charts';
 import { fill, num, share, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 export type OwnershipCopy = {
@@ -36,7 +38,22 @@ export function OwnershipView({ rows, ownershipKeys, copy, firstCompleteYear }: 
         <Field label={copy.stats.owned}>{num(o.ownedBreweries)}</Field>
       </FieldGrid>
       <div className="grid gap-4 expanded:grid-cols-2">
-        <BarCard id="ownership-type" title={copy.byType.title} items={byType} valueName={copy.byType.valueName} labelHeader={copy.byType.labelHeader} tableSummary={copy.tableSummary} ariaLabel={copy.byType.title} labelWidth={230} />
+        <Plot
+          id="ownership-type"
+          title={copy.byType.title}
+          chrome={copy.view.chrome}
+          tableSummary={copy.tableSummary}
+          build={stackedBars({
+            labels: [''],
+            series: byType.map((t, i) => ({ name: t.label, data: [t.value], color: (k) => k.series[i % k.series.length] })),
+            percent: true,
+            labelWidth: () => 8,
+            minLabel: 8,
+            tip: () => byType.map((t) => `${esc(t.label)}: ${fmtN(t.value)}`).join('<br>'),
+          })}
+          legend={(k) => byType.map((t, i) => ({ label: t.label, color: k.series[i % k.series.length] }))}
+          table={{ columns: [{ key: 'name', label: copy.byType.labelHeader }, { key: 'value', label: copy.byType.valueName, numeric: true }], rows: byType.map((t) => ({ key: t.label, cells: { name: t.label, value: fmtN(t.value) } })) }}
+        />
         {parents.length ? (
           <BarCard id="parents" title={copy.parents.title} subtitle={copy.parents.subtitle} items={parents} valueName={copy.byType.valueName} labelHeader={copy.parents.labelHeader} tableSummary={copy.tableSummary} ariaLabel={copy.parents.title} roleIndex={1} labelWidth={230} />
         ) : <StateCard kind="notice" title={copy.parents.title}>{copy.parents.empty}</StateCard>}

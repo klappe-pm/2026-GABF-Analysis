@@ -5,6 +5,7 @@ import { groupIndicators as staticGroups, oddsItems as staticOdds } from '../sit
 import { applyFilters } from '../web/lib/filter-model.mjs';
 import { about, awardsTable, category, categoryCount, categoryRows, info, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
 import { aggregateBreweries, categoryRollup, familySeries, groupIndicators, groupRollup, medalSplit, movers, oddsItems, ownershipRollup, stateRollup, TREND_FAMILIES, yearsInView } from '../web/lib/models/analysis-calc.mjs';
+import { estimateFacts, estimateSlugs } from '../web/lib/models/estimates.mjs';
 import { categoryParams } from '../web/lib/site-model.mjs';
 
 // The category, report, and About data of the Material app against the dataset and the static site's own views.
@@ -140,4 +141,25 @@ test('every old category address redirects to a current category and no old addr
   assert.equal(legacyCategory('german-style-pilsener')?.name, 'German Pilsener');
   assert.equal(names['German-Style Pilsener'], 'German Pilsener');
   assert.equal(names['Mixed-Culture Brett Beer'], 'Mixed Culture Brett Beer');
+});
+
+test('a category lists the beer profiles of its latest medalists in medal order', () => {
+  const withCards = cats.map((c) => category(c.slug)).filter((c) => c.cardStems.length > 1);
+  assert.ok(withCards.length > 0);
+  for (const c of withCards) {
+    const medals = c.cardStems.map((stem) => c.rows.find((r) => r.stem === stem).medal);
+    const rank = { Gold: 0, Silver: 1, Bronze: 2 };
+    assert.deepEqual(medals, [...medals].sort((a, b) => rank[a] - rank[b]), c.name);
+    assert.ok(c.rows.filter((r) => r.stem && r.year === 2026).length >= c.cardStems.length);
+  }
+});
+
+test('every brewery with medals has the facts behind its estimated figures, found by slug', () => {
+  const slugs = estimateSlugs();
+  assert.equal(new Set(slugs).size, slugs.length);
+  assert.equal(slugs.length, ds.breweries.filter((b) => b.medals.length).length);
+  const one = estimateFacts(slugs[0]);
+  assert.equal(one.slug, slugs[0]);
+  for (const k of ['basis', 'barrels', 'perType', 'locations', 'channel', 'fin', 'revenue']) assert.ok(k in one.facts, k);
+  assert.equal(estimateFacts('no-such-brewery'), null);
 });

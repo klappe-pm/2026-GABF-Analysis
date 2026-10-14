@@ -17,6 +17,7 @@ export const viewCopy = (): ViewCopy => ({
   partialMany: raw('global.states.partial_notice.many'),
   notDefined: t('global.labels.not_found'),
   medals: group('global.labels.medal'),
+  chrome: { savePng: t('global.charts.toolbox.save_png'), binRange: raw('pages.dashboards.chart.bin_range'), binSingle: raw('pages.dashboards.chart.bin_single'), binOpen: raw('pages.dashboards.chart.bin_open') },
 });
 
 export const labelGroup = (name: string) => group(`global.labels.${name}`);
