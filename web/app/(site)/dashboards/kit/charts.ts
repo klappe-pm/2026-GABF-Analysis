@@ -67,17 +67,19 @@ export function stackedBars(o: {
     });
     let max: number | undefined;
     if (o.totals && !o.percent) {
-      const peak = Math.max(1, ...o.totals.values);
-      max = Math.ceil((peak * (narrow ? 1.5 : 1.25)) / 5) * 5;
+      // The end label sits in an invisible bar of fixed room, so the axis follows the medals, not the totals.
+      const peak = Math.max(1, ...rowTotals);
+      const room = peak * (narrow ? 0.5 : 0.3);
+      max = Math.ceil((peak + room) / 5) * 5;
       series.push({
         name: ' ',
         type: 'bar',
         stack: 'rows',
         silent: true,
-        data: o.totals.values,
+        data: o.totals.values.map((total) => ({ value: room, total })),
         itemStyle: { color: 'transparent' },
         tooltip: { show: false },
-        label: { show: true, position: 'insideLeft', color: kit.ink, fontSize: kit.small, fontFamily: kit.family, fontWeight: 600, formatter: (p: { value: number }) => o.totals!.format(p.value) },
+        label: { show: true, position: 'insideLeft', color: kit.ink, fontSize: kit.small, fontFamily: kit.family, fontWeight: 600, formatter: (p: { data: { total: number } }) => o.totals!.format(p.data.total) },
       });
     }
     return {
@@ -176,10 +178,11 @@ export function tileGrid(o: { tiles: Record<string, [number, number]>; value: (c
 // Area is the count: the biggest families are the biggest blocks.
 export type TreeItem = { name: string; value: number; color: (kit: Kit) => string; detail: string };
 export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string; label: (item: TreeItem) => string }) {
+  const byName = (name: string) => o.items.find((i) => i.name === name) ?? o.items[0];
   return (kit: Kit, w: number): Built => ({
     height: w < NARROW ? 420 : Math.round(w * 0.55),
     option: {
-      tooltip: tooltip(kit, { formatter: (p: { dataIndex: number }) => o.tip(o.items[p.dataIndex]) }),
+      tooltip: tooltip(kit, { formatter: (p: { name: string }) => o.tip(byName(p.name)) }),
       series: [{
         type: 'treemap',
         roam: false,
@@ -194,7 +197,7 @@ export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string;
           const fill = i.color(kit);
           return { name: i.name, value: i.value, itemStyle: { color: fill, borderColor: kit.page, borderWidth: 2 }, label: { show: true, color: kit.textOn(fill) } };
         }),
-        label: { show: true, fontSize: w < NARROW ? kit.small : kit.small + 2, fontWeight: 700, fontFamily: kit.family, lineHeight: 18, overflow: 'break', formatter: (p: { dataIndex: number }) => o.label(o.items[p.dataIndex]) },
+        label: { show: true, fontSize: w < NARROW ? kit.small : kit.small + 2, fontWeight: 700, fontFamily: kit.family, lineHeight: 18, overflow: 'break', formatter: (p: { name: string }) => o.label(byName(p.name)) },
         itemStyle: { gapWidth: 2, borderColor: kit.page, borderWidth: 2 },
       }],
     },

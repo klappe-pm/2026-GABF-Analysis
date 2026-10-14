@@ -10,3 +10,8 @@ const doc = (group: 'global' | 'pages', name: string) => parseContent(readRepo(C
 export function dashboardCopy(): CopyTree {
   return { page: doc('pages', 'dashboards'), charts: doc('global', 'charts'), states: doc('global', 'states'), labels: doc('global', 'labels'), tables: doc('global', 'tables') };
 }
+
+// The home page's copy: its own document, with the labels and gap texts it shares.
+export function homeCopy(): CopyTree {
+  return { page: doc('pages', 'home'), charts: {}, states: doc('global', 'states'), labels: doc('global', 'labels'), tables: doc('global', 'tables') };
+}

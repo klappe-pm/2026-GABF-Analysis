@@ -1,8 +1,8 @@
-// The addresses of the five dashboards, in tab order. The overview is the home page.
+// The addresses of the five dashboards, in tab order.
 import type { DashboardKind } from './Dashboard';
 
 export const DASHBOARD_PATHS: Record<DashboardKind, string> = {
-  overview: '/',
+  overview: '/overview/',
   geography: '/dashboards/geography/',
   categories: '/dashboards/categories/',
   breweries: '/dashboards/breweries/',

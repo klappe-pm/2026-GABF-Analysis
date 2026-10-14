@@ -12,3 +12,12 @@ export function featuredBreweries(): { slug: string; name: string; city: string;
 export function defaultBrewery(): string;
 export function rateYears(): { latest: number; data: number };
 export function tileCheck(): { missing: string[]; extra: string[] };
+export function homeData(): {
+  year: number;
+  firstYear: number;
+  lastYear: number;
+  scoresheet: { medals: number; categories: number; entries: number | null };
+  categories: import('./home.mjs').CategoryLine[];
+  finding: Record<string, string>;
+};
+export function searchIndex(): import('./home.mjs').SearchEntry[];

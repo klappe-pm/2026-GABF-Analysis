@@ -19,7 +19,6 @@ export function dashboardMetadata(kind: DashboardKind): Metadata {
     title: t(page(`${kind}.title`)),
     description: t(page(`index.${kind}_description`)),
     path: DASHBOARD_PATHS[kind],
-    absoluteTitle: kind === 'overview',
   });
 }
 

@@ -11,6 +11,7 @@ import { breweryInfo, explainEstimate } from '../../../scripts/build-site.mjs';
 import { TILES } from '../../../scripts/chart-gallery/data.mjs';
 import { REFERENCE, RESULTS } from '../../../scripts/lib/paths.mjs';
 import { site } from '../site-model.mjs';
+import { categoryLines, scoresheet } from './home.mjs';
 
 export { TILES };
 
@@ -85,3 +86,51 @@ export function tileCheck() {
 }
 
 export { MEDAL_NAMES };
+
+// ---------- the home page ----------
+
+const pct = (x) => `${(x * 100).toFixed(1).replace(/\.0$/, '')}%`;
+
+// The page for the latest complete year: its scoresheet and category index, built from the same rows the
+// browser filters, and the figures of the headline finding (medal concentration over the complete years).
+export function homeData() {
+  const { payload } = site();
+  const { meta } = payload;
+  const year = meta.latest_complete;
+  const rows = payload.results.filter((r) => r.year === year);
+  const summary = meta.summary.find((s) => s.competition === 'GABF' && Number(s.year) === year);
+  const complete = payload.results.filter((r) => meta.coverage[r.year] === 'complete');
+  const perBrewery = new Map();
+  for (const r of complete) perBrewery.set(r.brewery_key, { name: r.brewery_name, n: (perBrewery.get(r.brewery_key)?.n ?? 0) + 1 });
+  const ranked = [...perBrewery.values()].sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+  const years = [...new Set(complete.map((r) => r.year))].sort();
+  const top = ranked.slice(0, Math.max(1, Math.ceil(ranked.length / 10)));
+  return {
+    year,
+    firstYear: Math.min(...meta.years),
+    lastYear: Math.max(...meta.years),
+    scoresheet: scoresheet(rows, summary?.entries ? Number(summary.entries) : null),
+    categories: categoryLines(rows),
+    finding: {
+      year_range: `${years[0]} to ${years.at(-1)}`,
+      brewery_count: ranked.length.toLocaleString('en-US'),
+      medal_count: complete.length.toLocaleString('en-US'),
+      top_decile_share: pct(top.reduce((s, b) => s + b.n, 0) / complete.length),
+      single_medal_share: pct(ranked.filter((b) => b.n === 1).length / ranked.length),
+      top_brewery: ranked[0].name,
+      top_brewery_medals: String(ranked[0].n),
+    },
+  };
+}
+
+// What the search field finds: every brewery, every category, and the winning beers of the research year.
+export function searchIndex() {
+  const { ds, cats } = site();
+  const entry = (kind, label, meta, path) => ({ kind, label, meta, path, text: `${label} ${meta}`.toLowerCase() });
+  const beers = ds.winnerProfiles.map((p) => entry('beer', String(p.fm.beer), `${p.fm.brewery}, ${p.year}`, `/beers/${p.year}/${p.stem}/`));
+  return [
+    ...ds.breweries.filter((b) => b.medals.length).map((b) => entry('brewery', b.name, [b.hq.city, b.hq.state].filter(Boolean).join(', '), `/breweries/${b.slug}/`)),
+    ...cats.map((c) => entry('category', c.name, c.style_family, `/categories/${c.slug}/`)),
+    ...beers,
+  ];
+}

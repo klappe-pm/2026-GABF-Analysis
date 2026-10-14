@@ -118,7 +118,7 @@ export function OptionChart({ spec }: { spec: ChartSpec }) {
           </ul>
         ) : null}
       </figcaption>
-      <div ref={host} role="img" aria-label={spec.ariaLabel} className="w-full px-2" style={{ minHeight: 160 }} />
+      <div className="px-2"><div ref={host} role="img" aria-label={spec.ariaLabel} className="w-full" style={{ minHeight: 160 }} /></div>
       {spec.note ? <p className="type-body-small px-4 pt-2 pb-3 text-on-surface-variant">{spec.note}</p> : null}
       <details className="border-t border-outline-variant">
         <summary className="type-label-large cursor-pointer px-4 py-3 text-primary state-hover:bg-surface-container-low">{spec.tableSummary}</summary>
