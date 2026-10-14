@@ -12,9 +12,11 @@
 // (design-feedback.mjs sanitize), passed in so the tests run without the agent-graph checkout.
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { relative, resolve } from 'node:path';
+import { relative, resolve, sep } from 'node:path';
 import { parse, stringify } from 'yaml';
 import { kebab } from './review-screens.mjs';
+import { componentWords } from './review-components.mjs';
+import { ROOT } from './paths.mjs';
 
 export const FEEDBACK_DIR = '.docs/feedback';
 export const CATEGORIES_PATH = 'docs/design/feedback-categories.json';
@@ -116,6 +118,28 @@ const spotOf = (s, i) => ({
 });
 const componentOf = (c) => (typeof c === 'string' ? { name: c, spec: null } : { name: String(c.name), spec: c.spec ?? null, ...(c.instance ? { instance: String(c.instance) } : {}) });
 
+// The components section of a ticket body: each component with a spec file is a relative Markdown
+// link from the ticket to that file, so the link works from the ticket in Obsidian; one without a
+// file is plain words that say so.
+export function componentsBody(components, ticketDir, root) {
+  if (!components?.length) return '';
+  const items = components.map((c) => {
+    const words = componentWords(c.name);
+    if (!c.spec) return `- ${words}, no design system file yet`;
+    const link = relative(ticketDir, resolve(root, c.spec)).split(sep).join('/');
+    return `- [${words}](${link})`;
+  });
+  return `## components\n\n${items.join('\n')}`;
+}
+
+// A ticket body with its components section replaced, kept right after the note.
+function withComponentsSection(body, section) {
+  const parts = body.split(/\n(?=## )/);
+  const kept = parts.filter((p) => !/^## components\s*(\n|$)/.test(p));
+  const note = kept.length && !kept[0].startsWith('## ') ? kept.shift() : '';
+  return [note, section, ...kept].filter(Boolean).join('\n\n');
+}
+
 function contentBody(edits) {
   if (!edits?.length) return '';
   return edits.map((e) => `## content-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}${e.instances?.length ? `\n- also updated: ${e.instances.map((i) => `${i.file}:${i.line}`).join(', ')}` : ''}`).join('\n\n');
@@ -132,7 +156,7 @@ function write(dir, page, name, data, body, sanitize) {
 
 // Register a ticket. `input` is what the panel sends plus what the server resolved from the
 // manifest for the screen (job, step, state, route, page).
-export function addTicket(dir, input, { sanitize, categories = [], now = new Date() }) {
+export function addTicket(dir, input, { sanitize, categories = [], now = new Date(), root = ROOT }) {
   const text = String(input.text ?? '').trim();
   const edits = Array.isArray(input.contentEdits) ? input.contentEdits : [];
   if (!text && !edits.length) throw new Error('feedback needs a note');
@@ -166,14 +190,14 @@ export function addTicket(dir, input, { sanitize, categories = [], now = new Dat
     created: input.created ?? stamp,
     revised: input.revised ?? stamp,
   };
-  const body = [text, contentBody(edits), input.extraBody ?? ''].filter(Boolean).join('\n\n');
+  const body = [text, componentsBody(data.components, resolve(dir, input.page), root), contentBody(edits), input.extraBody ?? ''].filter(Boolean).join('\n\n');
   const written = write(dir, input.page, fileName(id, title), data, body, sanitize);
   return { id, title, page: input.page, status: ACCEPTED, file: written.file, redacted: written.redacted, categoriesUnknown: picked.unknown };
 }
 
 // Edit a ticket. The status is not an input here: an edit keeps whatever the ticket is, and
 // registered tickets are ACCEPTED. Only revised moves.
-export function editTicket(dir, id, patch, { sanitize, categories = [], now = new Date() }) {
+export function editTicket(dir, id, patch, { sanitize, categories = [], now = new Date(), root = ROOT }) {
   const t = findTicket(dir, id);
   if (!t) throw new Error(`no ticket ${id}`);
   const data = { ...t.data };
@@ -191,7 +215,10 @@ export function editTicket(dir, id, patch, { sanitize, categories = [], now = ne
     if (picked.unknown.length) throw new Error(`unknown categories: ${picked.unknown.join(', ')}. Edit ${CATEGORIES_PATH} to add one.`);
     data.categories = picked.categories;
   }
-  if (patch.components !== undefined) data.components = patch.components.map(componentOf);
+  if (patch.components !== undefined) {
+    data.components = patch.components.map(componentOf);
+    body = withComponentsSection(body, componentsBody(data.components, resolve(dir, t.page), root));
+  }
   if (patch.contentKeys !== undefined) data['content-keys'] = [...new Set(patch.contentKeys)];
   data.revised = now.toISOString();
   const written = write(dir, t.page, t.rel.split('/').pop(), data, body, sanitize);

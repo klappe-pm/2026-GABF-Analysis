@@ -363,7 +363,7 @@ button, select, input, textarea { font: inherit; }
       if (!pair[1].length) return;
       c.appendChild(el('p', null, pair[0]));
       var chips = el('div', 'chips');
-      pair[1].forEach(function (id) { chips.appendChild(el('span', null, id)); });
+      pair[1].forEach(function (id) { chips.appendChild(window.gabfFeedback.chip(pair[0], id, el)); });
       c.appendChild(chips);
     });
     panelBody.appendChild(c);
