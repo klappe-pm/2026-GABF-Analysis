@@ -91,9 +91,36 @@ function repositoryMarkdown() {
   }
 }
 
+// The chart gallery is generated HTML plus the script, style, and data modules that feed it. Its
+// code comments and quoted copy follow the same dash rule as Markdown. The library and the data
+// blob are not checked.
+export const GALLERY_SOURCES = ['scripts/build-chart-gallery.mjs', 'scripts/chart-gallery/client.js', 'scripts/chart-gallery/data.mjs', 'scripts/chart-gallery/palette.mjs', 'scripts/chart-gallery/styles.css', 'scripts/chart-gallery/template.html'];
+export function checkGallerySource(text) {
+  const problems = [];
+  text.split(/\r?\n/).forEach((line, idx) => {
+    const n = idx + 1;
+    if (/[–—]/.test(line)) problems.push({ line: n, rule: 'dash', text: 'em or en dash' });
+    const comment = line.match(/^\s*(?:\/\/|\/\*|\*)\s?(.*)$/)?.[1] ?? '';
+    if (comment && (/\s-\s/.test(comment) || /(^|[^-])--([^-]|$)/.test(comment.replace(/\*\/$/, '')))) problems.push({ line: n, rule: 'dash', text: 'spaced or double hyphen in a comment' });
+    for (const str of line.match(/'(?:[^'\\]|\\.)*'|`(?:[^`\\]|\\.)*`/g) ?? []) {
+      const body = str.slice(1, -1).replace(/\$\{[^}]*\}/g, '');
+      if (/\s-\s|(^|[^-])--([^-]|$)/.test(body) && /[A-Za-z]{3}/.test(body) && !/[;{}]/.test(body)) problems.push({ line: n, rule: 'dash', text: 'spaced or double hyphen in quoted text' });
+    }
+  });
+  return problems;
+}
+
 function main() {
   const files = repositoryMarkdown();
   let total = 0;
+  for (const rel of GALLERY_SOURCES) {
+    const full = resolve(ROOT, rel);
+    if (!existsSync(full)) continue;
+    for (const p of checkGallerySource(readFileSync(full, 'utf8'))) {
+      total += 1;
+      console.log(`${rel}:${p.line} [${p.rule}] ${p.text}`);
+    }
+  }
   for (const file of files) {
     const rel = relative(ROOT, file);
     const problems = checkMarkdown(readFileSync(file, 'utf8'), { isRootReadme: rel === 'README.md', fileName: rel.split('/').pop(), publicFacing: isPublicFacing(rel) });
