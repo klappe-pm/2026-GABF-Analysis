@@ -94,13 +94,18 @@ export function reportMeta() {
   const { meta } = payload;
   const byState = meta.indicators.state;
   const indicators = Object.fromEntries(meta.states.map((s) => [s.state, { population: byState[s.state]?.population ?? {}, gdp_real: byState[s.state]?.gdp_real ?? {} }]));
-  const populationYears = Object.values(indicators).flatMap((i) => Object.keys(i.population).map(Number));
+  // The latest published year: a year the reference tables fill by repeating the one before it (the tables carry
+  // 2025 figures for 2026) is not a published year, so walk back while every state repeats its earlier value.
+  const gdp = Object.values(indicators).map((i) => i.gdp_real);
+  const yearsWithFigures = [...new Set(gdp.flatMap((g) => Object.keys(g).map(Number)))].sort((a, b) => a - b);
+  let dataYear = yearsWithFigures.at(-1) ?? null;
+  while (dataYear !== null && yearsWithFigures.includes(dataYear - 1) && gdp.every((g) => g[dataYear] === g[dataYear - 1])) dataYear -= 1;
   return {
     years: meta.years,
     coverage: meta.coverage,
     latestComplete: meta.latest_complete,
     latestYear: Math.max(...meta.years),
-    dataYear: populationYears.length ? Math.max(...populationYears) : null,
+    dataYear,
     states: meta.states.map((s) => ({ state: s.state, name: s.name, region: s.region, division: s.division })),
     indicators,
     ownershipKeys: ds.breweries.filter((b) => b.ownership).map((b) => b.key),
@@ -166,4 +171,32 @@ export function about() {
       distributor: range(channel.distributor),
     },
   };
+}
+
+// ---------- explore ----------
+
+// The category characteristics the Explore page filters on, each found by words in the category name.
+export const TRAITS = {
+  sour: /\b(sour|wild|gose|lambic|brett|berliner)/i,
+  fruit: /\b(fruit|berry|berries|cherry|peach|apple|citrus|pumpkin)/i,
+  spice: /\b(herb|spice|chile|chili|ginger|pepper)/i,
+  coffee: /\bcoffee\b/i,
+  chocolate: /\b(chocolate|cocoa)\b/i,
+  barrel_aged: /\b(wood|barrel|oak)/i,
+  non_alcoholic: /\bnon[- ]?alcohol/i,
+  gluten_free: /\bgluten/i,
+};
+export const traitsOf = (categoryName) => Object.entries(TRAITS).filter(([, re]) => re.test(categoryName)).map(([k]) => k);
+
+// Every medal row with the fields the Explore page shows and filters on beyond the global filter: the
+// competition section (results), the investors (ownership research), and the category characteristics.
+export function exploreRows() {
+  const { ds, payload } = site();
+  const investor = new Map(ds.breweries.filter((b) => b.ownership?.investor).map((b) => [b.key, String(b.ownership.investor)]));
+  return payload.results.map((r) => ({
+    ...filterRow(r, ['category_slug', 'category_number', 'brewery_slug', 'city', 'section', 'parent']),
+    stem: stemOf(r),
+    investor: investor.get(r.brewery_key) ?? null,
+    traits: traitsOf(r.category_name),
+  }));
 }

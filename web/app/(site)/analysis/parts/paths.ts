@@ -4,7 +4,9 @@
 export const analysisPaths = {
   index: '/analysis/',
   report: (slug: string) => `/analysis/${slug}/`,
+  explore: '/analysis/explore/',
   method: '/method/',
+  savedViews: '/saved-views/',
   oldIndex: '/reports/',
   oldReport: (slug: string) => `/reports/${slug}/`,
 };

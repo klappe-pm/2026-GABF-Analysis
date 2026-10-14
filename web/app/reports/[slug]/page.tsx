@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { t } from '@/lib/content';
 import { analysis } from '@/app/(site)/analysis/parts/copy';
 import { analysisPaths } from '@/app/(site)/analysis/parts/paths';
-import { Moved, movedMetadata } from '../moved';
+import { Moved, movedMetadata } from '@/app/(site)/analysis/parts/moved';
 
 type Params = { slug: string };
 

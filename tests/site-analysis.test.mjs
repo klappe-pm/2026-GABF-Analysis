@@ -69,6 +69,12 @@ test('brewery, state, and region totals add up to the medals in view', () => {
   assert.deepEqual(medalSplit(rows).reduce((a, b) => a + b, 0), rows.length);
 });
 
+test('the latest published indicator year is the year before a repeated one', () => {
+  const meta = reportMeta();
+  assert.ok(meta.dataYear && meta.dataYear <= meta.latestYear);
+  assert.equal(meta.dataYear, 2025, 'the reference tables carry 2025 figures for 2026');
+});
+
 test('partial years stay out of the years in view unless they are included', () => {
   const meta = reportMeta();
   const partial = meta.years.filter((y) => meta.coverage[y] === 'partial');

@@ -11,7 +11,7 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 
 const PENDING = [
   // dashboards lane
-  '/', '/dashboards/', '/dashboards/geography/', '/dashboards/categories/', '/dashboards/breweries/', '/dashboards/economics/', '/explorer/',
+  '/', '/dashboards/', '/dashboards/geography/', '/dashboards/categories/', '/dashboards/breweries/', '/dashboards/economics/',
   '/data/breweries.json', '/data/brewery-info.json', '/data/categories.json', '/data/estimates.json', '/data/csv/<file>',
   // breweries lane
   '/breweries/', '/breweries/<brewery>/', '/first-time-medalists/2026/',
@@ -20,7 +20,7 @@ const PENDING = [
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).
-const REDIRECTS = { '/reports/': '/analysis/', '/reports/<report>/': '/analysis/<report>/' };
+const REDIRECTS = { '/reports/': '/analysis/', '/reports/<report>/': '/analysis/<report>/', '/explorer/': '/analysis/explore/' };
 
 // The home page holds a placeholder route until the dashboards lane ports the Overview there.
 const PLACEHOLDERS = new Set(['/']);
@@ -107,7 +107,7 @@ test('a moved address is routed to a redirect page and its new address is routed
     assert.ok(routed(from), `${from} keeps a page that forwards to ${to}`);
     assert.ok(routed(to), `${to} is routed`);
   }
-  const moved = readFileSync(resolve(APP, 'reports', 'moved.tsx'), 'utf8');
+  const moved = readFileSync(resolve(APP, '(site)', 'analysis', 'parts', 'moved.tsx'), 'utf8');
   assert.match(moved, /httpEquiv="refresh"/, 'a meta refresh to the new address');
   assert.match(moved, /alternates: \{ canonical: canonical\(to\) \}/, 'a canonical link to the new address');
   assert.match(moved, /robots: \{ index: false/, 'marked noindex');

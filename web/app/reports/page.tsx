@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import { t } from '@/lib/content';
 import { analysisPaths } from '@/app/(site)/analysis/parts/paths';
-import { Moved, movedMetadata } from './moved';
+import { Moved, movedMetadata } from '@/app/(site)/analysis/parts/moved';
 
 const title = () => t('pages.analysis-index.header.title');
 

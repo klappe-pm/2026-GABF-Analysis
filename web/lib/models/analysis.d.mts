@@ -71,3 +71,8 @@ export type AboutRecord = {
   estimates: { direct: string; distributed: string; taproom: string; self: string; distributor: string };
 };
 export function about(): AboutRecord;
+
+export const TRAITS: Record<string, RegExp>;
+export function traitsOf(categoryName: string): string[];
+export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[] };
+export function exploreRows(): ExploreRow[];
