@@ -116,7 +116,8 @@ export function createHopPages({ model, ds, layout, write, COPY, renderMarkdownB
 <p class="link-row"><a class="btn-link" href="${r}hop-farms/">${esc(COPY('pages.hops.links.farms'))}</a><a class="btn-link" href="${r}beers/${year}/">${esc(COPY('pages.hops.links.winners', { year }))}</a></p>
 <div class="stats">${stats}</div>
 ${table}
-<p class="small muted">${esc(COPY('pages.hops.page.note', { year }))}</p>`;
+<p class="small muted">${esc(COPY('pages.hops.page.note', { year }))}</p>
+${hopCards(rows.map((x) => x.v), r)}`;
     write('hops/index.html', layout({ title: COPY('pages.hops.page.title'), description: COPY('pages.hops.page.description', { year }), body, depth: 1, active: nav.hops }));
   }
 
@@ -161,7 +162,7 @@ ${table}
       { key: 'form', label: COPY('pages.hop-detail.beers.form'), render: (x) => joinWords(x.entries.map((e) => e.form)) },
       { key: 'use', label: COPY('pages.hop-detail.beers.use'), render: (x) => joinWords(x.entries.map((e) => e.use)) },
       { key: 'farm', label: COPY('pages.hop-detail.beers.farm'), render: farmCell },
-    ], beerRows)) : `<p class="muted">${esc(COPY('pages.hop-detail.beers.missing', { year }))}</p>`}`;
+    ], beerRows)) : `<p class="muted">${esc(COPY('pages.hop-detail.beers.missing', { year }))}</p>`}${beerCards(beerRows.map((x) => x.beer), r, 'h3')}`;
     const grownRows = [...v.farms.values()].sort((a, b) => a.farm.name.localeCompare(b.farm.name, 'en', { sensitivity: 'base' }));
     const farms = `<h2>${esc(COPY('pages.hop-detail.farms.title'))}</h2><p class="small muted"><strong>${esc(COPY('pages.hop-detail.farms.label'))}</strong> ${esc(COPY('pages.hop-detail.farms.note'))}</p>${grownRows.length ? wrap(tableHtml([
       { key: 'farm', label: COPY('pages.hop-detail.farms.farm'), render: (x) => farmLink(x.farm, r) },
@@ -228,19 +229,19 @@ ${gaps}`;
       { key: 'source', label: COPY('pages.hop-farm-detail.varieties.source'), render: (x) => sourcesHtml(x.sources) },
       { key: 'verified', label: COPY('pages.hop-farm-detail.varieties.verified'), render: (x) => (x.verified.size ? esc([...x.verified].join(', ')) : none) },
       { key: 'notes', label: COPY('pages.hop-farm-detail.varieties.notes'), render: (x) => (x.notes.size ? esc([...x.notes].join(' ')) : none) },
-    ], vRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.varieties.missing'))}</p>`}`;
+    ], vRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.varieties.missing'))}</p>`}${hopCards(vRows.map((x) => x.variety), r, 'h3')}`;
     const namedRows = [...f.named.values()].sort((a, b) => byMedalThenBeer(a.beer, b.beer));
     const named = `<h2>${esc(COPY('pages.hop-farm-detail.named.title', { year }))}</h2><p class="small muted"><strong>${esc(COPY('pages.hop-farm-detail.named.label'))}</strong> ${esc(COPY('pages.hop-farm-detail.named.note'))}</p>${namedRows.length ? wrap(tableHtml([
       ...beerCols(r),
       { key: 'hop', label: COPY('pages.hop-farm-detail.named.hop'), render: (x) => uniq(x.entries.map((e) => e.variety.slug)).map((s) => varietyLink(model.varietyBySlug.get(s), r)).join(', ') },
       { key: 'published', label: COPY('pages.hop-farm-detail.named.published'), render: (x) => esc(uniq(x.entries.map((e) => e.lotOrFarm)).join(', ')) },
       { key: 'source', label: COPY('pages.hop-farm-detail.named.source'), render: (x) => sourcesHtml(x.entries.map((e) => e.source).filter(Boolean)) },
-    ], namedRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.named.missing', { year }))}</p>`}`;
+    ], namedRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.named.missing', { year }))}</p>`}${beerCards(namedRows.map((x) => x.beer), r, 'h3')}`;
     const grownRows = [...f.grown.values()].sort((a, b) => byMedalThenBeer(a.beer, b.beer));
     const grown = `<h2>${esc(COPY('pages.hop-farm-detail.grown.title', { year }))}</h2><p class="small muted"><strong>${esc(COPY('pages.hop-farm-detail.grown.label'))}</strong> ${esc(COPY('pages.hop-farm-detail.grown.note'))}</p>${grownRows.length ? wrap(tableHtml([
       ...beerCols(r),
       { key: 'hops', label: COPY('pages.hop-farm-detail.grown.hops'), render: (x) => [...x.varieties.values()].map((v) => varietyLink(v, r)).join(', ') },
-    ], grownRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.grown.missing', { year }))}</p>`}`;
+    ], grownRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.grown.missing', { year }))}</p>`}${beerCards(grownRows.map((x) => x.beer), r, 'h3')}`;
     const merchants = f.merchants.length ? `<h2>${esc(COPY('pages.hop-farm-detail.merchants.title'))}</h2>${merchantTable(f.merchants)}` : '';
     const body = `<p class="small"><a href="../">${esc(COPY('pages.hop-farm-detail.links.back'))}</a> · <a href="${r}hops/">${esc(COPY('pages.hop-farm-detail.links.hops'))}</a></p>
 <h1>${esc(f.name)}</h1>
@@ -284,7 +285,8 @@ ${docHtml(f.doc, 'pages.hop-farm-detail.doc.title')}`;
       return `<details class="table-view"><summary>${esc(t('grown_summary', { hop: u.variety.name, count: list.length }))}</summary><ul class="list-plain small">${list.map((f) => `<li>${farmLink(f, r)}${f.state ? ` <span class="muted">${esc(stateName(f.state))}</span>` : ''}</li>`).join('')}</ul></details>`;
     }).join('')}` : '';
     const detail = beer.details.length ? `<h3>${esc(t('details_title'))}</h3><dl class="kv">${beer.details.map((d) => `<dt>${esc(t(`detail_${d.key.replace(/-/g, '_')}`))}</dt><dd>${esc(d.value)}<div class="small muted">${esc(t('source'))}: ${sourceHtml(d.source)}</div></dd>`).join('')}</dl>` : '';
-    return `<section class="card" aria-labelledby="hop-profile-title"><h2 id="hop-profile-title">${esc(t('title'))}</h2>${profile}${grownBlock}${detail}</section>`;
+    const cards = hopCards([...new Map(usage.map((u) => [u.variety.slug, u.variety])).values()], r, 'h3');
+    return `<section class="card" aria-labelledby="hop-profile-title"><h2 id="hop-profile-title">${esc(t('title'))}</h2>${profile}${cards}${grownBlock}${detail}</section>`;
   }
 
   return { writeAll, beerHopHtml, nav, model };

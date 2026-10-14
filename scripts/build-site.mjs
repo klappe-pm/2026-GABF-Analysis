@@ -738,7 +738,7 @@ export function build({ clean = true } = {}) {
   trendsReport(ds);
   botyReport(ds);
   aboutPage(ds);
-  HOP_PAGES = createHopPages({ model: ds.hops, ds, layout, write, COPY, renderMarkdownBody, registerDocs: registerProseSlugs, notDefined: NOT_DEFINED, year: WINNER_YEAR });
+  HOP_PAGES = createHopPages({ model: ds.hops, ds, layout, write, COPY, renderMarkdownBody, registerDocs: registerProseSlugs, notDefined: NOT_DEFINED, year: WINNER_YEAR, meta: { copy: { cards: CARD_COPY() } } });
   const hopsBuilt = HOP_PAGES.writeAll();
   const winners = winnerPages(ds, ds.winnerProfiles);
   firstTimePage(ds);

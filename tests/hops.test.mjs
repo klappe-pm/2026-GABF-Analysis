@@ -7,6 +7,8 @@ import { matchKey } from '../scripts/lib/winner-profiles.mjs';
 import { applyFilters, FILTERS, optionList } from '../site/assets/filter-bar.mjs';
 import { hopSlug } from '../site/assets/hop-links.mjs';
 import { medalTable } from '../site/assets/page-views.mjs';
+import { beerCardHtml, beerCardsHtml } from '../site/assets/profile-cards.mjs';
+import { excerpt } from '../scripts/lib/hops.mjs';
 
 // Small fixtures stand in for the reference tables and winner profiles.
 const rec = (o) => normRecord(o);
@@ -152,4 +154,41 @@ test('profile helpers read hop entries, sources, and detail fields', () => {
   const d = detailFields({ description: 'Text', 'description-source': 'https://example.org/s', 'tasting-notes': { value: 'Citrus', source: 'https://example.org/t' }, og: 1.05 });
   assert.deepEqual(d.map((x) => [x.key, x.value, Boolean(x.source)]), [['description', 'Text', true], ['tasting-notes', 'Citrus', true], ['og', '1.05', false]]);
   assert.equal(hopSlug('Hallertau Mittelfrüh'), 'hallertau-mittelfruh');
+});
+
+test('a beer profile card carries the fields, linked hop chips, a sourced tasting excerpt, and the deep dive link', () => {
+  const r = rows();
+  profiles[0].fm['tasting-notes'] = { value: 'Hazy and bright. '.repeat(30), source: 'https://example.org/t' };
+  profiles[0].fm.style = 'Hazy IPA';
+  model(r);
+  Object.assign(r[0], { beer_profile: 'beers/2026/001-a/', abv: 6.5, ibu: 40 });
+  const card = beerCardHtml(r[0], { r: '../' });
+  assert.match(card, /Beer A/);
+  assert.match(card, /href="..\/hops\/citra\/"/);
+  assert.match(card, /6\.5%/);
+  assert.match(card, /Hazy IPA/);
+  assert.match(card, /example\.org/);
+  assert.match(card, /href="..\/beers\/2026\/001-a\/"/);
+  assert.ok(r[0].tasting_note.length <= 181 && r[0].tasting_note.endsWith('…'));
+  // A beer with no tasting note says so instead of inventing one.
+  Object.assign(r[1], { beer_profile: 'beers/2026/001-b/' });
+  assert.match(beerCardHtml(r[1], { r: '../' }), /Not defined/);
+  assert.equal(beerCardsHtml([{ year: 2025 }], { r: '../' }), '');
+  assert.equal(excerpt('short'), 'short');
+  delete profiles[0].fm['tasting-notes'];
+  delete profiles[0].fm.style;
+});
+
+test('the hops index, variety, farm and beer pages draw profile cards', () => {
+  const r = rows();
+  const m = model(r);
+  r.forEach((x, i) => { x.beer_profile = `beers/2026/${profiles[i].stem}/`; });
+  const out = new Map();
+  const COPY = loadSiteCopy();
+  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not defined', year: 2026, meta: null });
+  pages.writeAll();
+  assert.match(out.get('hops/index.html'), /hop-profile-card/);
+  assert.match(out.get('hops/citra/index.html'), /beer-profile-card/);
+  assert.match(out.get('hop-farms/alpha-ranch/index.html'), /hop-profile-card[\s\S]*beer-profile-card/);
+  assert.match(pages.beerHopHtml(m.beers.get('001-a'), { r: '../../../' }), /hop-profile-card/);
 });
