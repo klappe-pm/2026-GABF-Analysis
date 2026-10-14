@@ -48,8 +48,8 @@ const SHELL_ALIASES = `/* Shell aliases: the engine's prototype page is styled w
 :root {
   --bg-primary: var(--page);
   --bg-surface: var(--card);
-  --bg-surface-hover: var(--surface-1);
-  --bg-inset: var(--surface-1);
+  --bg-surface-hover: var(--fill);
+  --bg-inset: var(--fill);
   --border-default: var(--control-border);
   --border-muted: var(--border);
   --accent-blue: var(--link);
