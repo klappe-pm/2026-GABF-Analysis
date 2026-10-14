@@ -13,6 +13,7 @@ import { StateCard } from '@/components/StateCard';
 import { TextLink } from '@/components/TextLink';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
+import { INVESTOR_ON } from '@/app/(site)/shell/SiteFilters';
 import { type ImportError, readAwards } from '@/lib/models/explore-import.mjs';
 import type { ExploreRow } from '@/lib/models/analysis.mjs';
 import { Count, fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
@@ -146,7 +147,7 @@ export function ExploreView({ rows, copy, firstCompleteYear }: { rows: ExploreRo
           <SearchField id="explore-search" label={copy.search.label} placeholder={copy.search.placeholder} value={query} onValueChange={setQuery} />
           <Select id="explore-section" label={copy.filters.section} value={section} onValueChange={setSection} options={[{ value: '', label: copy.filters.sectionAll }, ...Object.entries(copy.filters.sections).map(([value, label]) => ({ value, label }))]} />
           <Select id="explore-trait" label={copy.filters.trait} value={trait} onValueChange={setTrait} options={[{ value: '', label: copy.filters.traitAll }, ...Object.entries(copy.filters.traits).map(([value, label]) => ({ value, label }))]} />
-          <SearchField id="explore-investors" label={copy.filters.investors} placeholder={copy.filters.investorsPlaceholder} value={investor} onValueChange={setInvestor} />
+          {INVESTOR_ON ? <SearchField id="explore-investors" label={copy.filters.investors} placeholder={copy.filters.investorsPlaceholder} value={investor} onValueChange={setInvestor} /> : null}
         </div>
         <p className="type-body-small text-on-surface-variant">{copy.search.hint}</p>
         {filtersOn ? <p><Button variant="quiet" onClick={reset}>{copy.filters.reset}</Button></p> : null}

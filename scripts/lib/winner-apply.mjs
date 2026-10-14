@@ -101,8 +101,36 @@ export function applyResult(text, ctx, result, { lookup = loadHopLookup(), file 
     const { rows, unresolved } = hopEntries(hops.value, hops.source, lookup);
     if (unresolved) result.unresolved = [...(result.unresolved ?? []), `hop name not in the alias map: ${unresolved}`];
     else {
-      put('hops', hops.value); put('hop-profile', rows); note('hops', hops.value.join(', '), hops.source); addSource(hops.source);
+      put('hops', [...new Set(rows.map((h) => h.variety))]); put('hop-profile', rows); note('hops', hops.value.join(', '), hops.source); addSource(hops.source);
       body = setSpecRow(body, SPEC_ROW.hops, hops.value.join(', '), hops.source);
+    }
+  }
+
+  // Hop details: { published, form, use, 'lot-or-farm', source } rows. A row adds a hop or fills blank
+  // form, use and lot-or-farm of the matching published hop; nothing already written is replaced.
+  const details = found['hop-profile'];
+  if (Array.isArray(details) && details.length) {
+    const profile = (d['hop-profile'] ?? []).map((h) => ({ ...h }));
+    let touched = false;
+    for (const row of details) {
+      const key = String(row.published).toLowerCase().replace(/[^a-z0-9]+/g, '');
+      let hit = profile.find((h) => String(h.published).toLowerCase().replace(/[^a-z0-9]+/g, '') === key);
+      if (!hit) {
+        const { rows, unresolved } = hopEntries([row.published], row.source, lookup);
+        if (unresolved) { result.unresolved = [...(result.unresolved ?? []), `hop name not in the alias map: ${unresolved}`]; continue; }
+        hit = rows[0]; profile.push(hit); touched = true;
+        note('hops', row.published, row.source);
+      }
+      for (const k of ['form', 'use', 'lot-or-farm']) {
+        const v = row[k];
+        if (!isBlank(v) && isBlank(hit[k])) { hit[k] = clean(v); hit.source = hit.source ?? row.source; touched = true; note(`hop-${k}`, `${row.published}: ${v}`, row.source); addSource(row.source); }
+      }
+    }
+    if (touched) {
+      put('hop-profile', profile);
+      if (isBlank(d.hops)) put('hops', [...new Set(profile.map((h) => h.variety))]);
+      else put('hops', [...new Set([...d.hops, ...profile.map((h) => h.variety)])]);
+      if (changed.has('hops')) body = setSpecRow(body, SPEC_ROW.hops, d.hops.join(', '), details[0].source);
     }
   }
 
@@ -130,7 +158,8 @@ export function applyResult(text, ctx, result, { lookup = loadHopLookup(), file 
 
   if (tried.length || changed.size) {
     const got = wrote.length ? `wrote ${[...new Set(wrote)].join(', ')}` : 'found nothing new';
-    body = appendToSection(body, 'research-notes', `- Brewery site scrape ${retrieved ?? ''}: ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried (robots.txt obeyed, one request every few seconds per host).`);
+    const lead = result.note ? `Second deep dive pass ${retrieved ?? ''} (${method}): ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried. ${clean(result.note)}` : `Brewery site scrape ${retrieved ?? ''}: ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried (robots.txt obeyed, one request every few seconds per host).`;
+    body = appendToSection(body, 'research-notes', `- ${lead}`);
   }
 
   const keys = orderKeys([...new Set([...blocks.keys(), ...changed])]);

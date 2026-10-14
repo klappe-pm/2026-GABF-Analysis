@@ -6,7 +6,7 @@
 // does in the Node build, and the node test runner imports it directly (tests/site-data.test.mjs).
 
 import { resolve } from 'node:path';
-import { categoryIndex, loadDataset } from '../../scripts/lib/data-model.mjs';
+import { categoryIndex, loadDataset, stripStyle } from '../../scripts/lib/data-model.mjs';
 import { buildPayload, enrichResults, renderMarkdownBody } from '../../scripts/build-site.mjs';
 import { humanizeHeadings } from '../../site/assets/charts.mjs';
 import { scopeRows } from '../../site/assets/filter-bar.mjs';
@@ -65,7 +65,15 @@ export const filterRow = (row, extra = []) => Object.fromEntries([...FILTER_FIEL
 // The two files the global filter loads in the browser: every medal row and the lookups that label them.
 export function filterData() {
   const { results, meta } = site().payload;
-  return { results, meta };
+  return { results, meta: { ...meta, legacy_category_names: legacyCategoryNames() } };
+}
+
+// Category names as the winners list printed them, mapped to the current name, for the names that changed when
+// the word Style left them. The browser uses it to read old #category_name= links.
+export function legacyCategoryNames() {
+  const out = {};
+  for (const r of site().ds.results) if (r.category_printed && r.category_printed !== r.category_name) out[r.category_printed] = r.category_name;
+  return out;
 }
 
 export function counts() {
@@ -139,7 +147,7 @@ export function beer(stem) {
     city: String(fm['brewery-city'] ?? ''),
     state: String(fm['brewery-state'] ?? ''),
     medal: String(fm.medal),
-    category: String(fm['category-name']),
+    category: row?.category_name ?? stripStyle(String(fm['category-name'])),
     categoryNumber: Number(fm['category-number']),
     entries: numberOrNull(fm.entries),
     abv: numberOrNull(fm.abv),

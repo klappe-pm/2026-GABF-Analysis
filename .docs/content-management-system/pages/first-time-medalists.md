@@ -42,9 +42,9 @@ Where: the summary tiles.
 Where: the four breakdowns.
 
 - `by_state_title`: By State
-- `by_state_subtitle`: Medals won by first time medalists, top 20
+- `by_state_subtitle`: Medals Won by First Time Medalists, Top 20
 - `by_district_title`: By Fed District
-- `by_district_subtitle`: Federal Reserve district of the medal city
+- `by_district_subtitle`: Federal Reserve District of the Medal City
 - `by_family_title`: By Style Family
 - `by_medal_title`: By Medal
 

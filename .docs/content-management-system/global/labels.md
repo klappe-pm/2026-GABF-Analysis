@@ -11,7 +11,7 @@ Where: medal columns, chips, chart legends, and stat tiles.
 - `Gold`: Gold
 - `Silver`: Silver
 - `Bronze`: Bronze
-- `Honorable Mention`: Honorable mention
+- `Honorable Mention`: Honorable Mention
 
 ## `section`
 
@@ -46,11 +46,11 @@ Where: competition column on brewery pages (other competitions table).
 Where: ownership pills, ownership columns, the Ownership filter, and the ownership charts.
 
 - `independent`: Independent
-- `employee-owned`: Employee owned
-- `public-company-owned`: Owned by a public company
-- `large-brewer-owned`: Owned by a large brewer
-- `private-equity-backed`: Backed by private equity
-- `beverage-conglomerate-owned`: Owned by a beverage company
+- `employee-owned`: Employee Owned
+- `public-company-owned`: Owned by a Public Company
+- `large-brewer-owned`: Owned by a Large Brewer
+- `private-equity-backed`: Backed by Private Equity
+- `beverage-conglomerate-owned`: Owned by a Beverage Company
 - `closed`: Closed
 - `unlisted`: Not Found
 
@@ -58,9 +58,9 @@ Where: ownership pills, ownership columns, the Ownership filter, and the ownersh
 
 Where: distribution pills, distribution columns, and the Distribution filter.
 
-- `self-distribution`: Self distributed
-- `distributor`: Through a distributor
-- `taproom`: Taproom only
+- `self-distribution`: Self Distributed
+- `distributor`: Through a Distributor
+- `taproom`: Taproom Only
 - `unknown`: Not Found
 - `(blank)`: Not Found
 
@@ -71,11 +71,11 @@ Where: brewery type pills, type columns, and the Brewery type filter.
 - `micro`: Microbrewery
 - `nano`: Nanobrewery
 - `brewpub`: Brewpub
-- `regional`: Regional brewery
-- `large`: Large brewery
-- `contract`: Contract brewer
-- `proprietor`: Alternating proprietor
-- `planning`: In planning
+- `regional`: Regional Brewery
+- `large`: Large Brewery
+- `contract`: Contract Brewer
+- `proprietor`: Alternating Proprietor
+- `planning`: In Planning
 - `bar`: Bar
 - `taproom`: Taproom
 - `closed`: Closed
@@ -84,7 +84,7 @@ Where: brewery type pills, type columns, and the Brewery type filter.
 
 Where: category type pills, columns, and the Category type filter.
 
-- `classic`: Classic style
+- `classic`: Classic Style
 - `special`: Special
 
 ## `category_pill`
@@ -93,8 +93,8 @@ Where: the pill beside a category name in medal tables and on category pages.
 
 - `special_short`: Special
 - `classic_short`: Classic
-- `special_long`: Special category
-- `classic_long`: Classic style category
+- `special_long`: Special Category
+- `classic_long`: Classic Style Category
 
 ## `region`
 
@@ -126,22 +126,22 @@ Where: division columns and the division charts. Census divisions.
 Where: the Style family filter, style family columns, and chart labels.
 
 - `IPA`: IPA
-- `Pale Ale`: Pale ale
+- `Pale Ale`: Pale Ale
 - `Lager`: Lager
 - `Pilsner`: Pilsner
 - `Wheat`: Wheat
-- `Stout and Porter`: Stout and porter
+- `Stout and Porter`: Stout and Porter
 - `Belgian and French`: Belgian and French
-- `Sour and Wild`: Sour and wild
-- `Strong and Barrel-Aged`: Strong and barrel-aged
-- `Brown, Amber, and Red`: Brown, amber, and red
+- `Sour and Wild`: Sour and Wild
+- `Strong and Barrel-Aged`: Strong and Barrel-Aged
+- `Brown, Amber, and Red`: Brown, Amber, and Red
 - `British and Irish`: British and Irish
-- `German Ale`: German ale
-- `Fruit, Spice, and Specialty`: Fruit, spice, and specialty
-- `Smoke and Wood`: Smoke and wood
-- `Gluten-Free and Non-Alcoholic`: Gluten-free and nonalcoholic
-- `Cider and Mead`: Cider and mead
-- `Pro-Am and Collaboration`: Pro-Am and collaboration
+- `German Ale`: German Ale
+- `Fruit, Spice, and Specialty`: Fruit, Spice, and Specialty
+- `Smoke and Wood`: Smoke and Wood
+- `Gluten-Free and Non-Alcoholic`: Gluten-Free and Nonalcoholic
+- `Cider and Mead`: Cider and Mead
+- `Pro-Am and Collaboration`: Pro-Am and Collaboration
 - `Other`: Other
 - `Fruit`: Fruit
 - `Brown`: Brown
@@ -156,7 +156,7 @@ Where: the ABV filter and chips.
 - `6-to-7`: 6.0% to 6.9%
 - `7-to-8`: 7.0% to 7.9%
 - `8-to-10`: 8.0% to 9.9%
-- `10-plus`: 10% and up
+- `10-plus`: 10% and Up
 
 ## `coverage`
 
@@ -165,7 +165,7 @@ Where: year pills, the coverage table, and chart notes under each year.
 - `complete`: Complete
 - `partial`: Partial
 - `draft`: Draft
-- `pending`: Not loaded
+- `pending`: Not Loaded
 
 ## `coverage_meaning`
 
@@ -181,21 +181,21 @@ Where: method page and the tooltip on each year pill.
 Where: a brewery's year by year status, in tables and the recent trend list.
 
 - `medaled`: Medaled
-- `no-medal`: No medal
-- `did-not-exist`: Not yet founded
+- `no-medal`: No Medal
+- `did-not-exist`: Not Yet Founded
 - `closed`: Closed
-- `not-yet-reported`: Results not loaded
-- `no-data`: Partial year
-- `no-results`: No results for this year
+- `not-yet-reported`: Results Not Loaded
+- `no-data`: Partial Year
+- `no-results`: No Results for This Year
 
 ## `trend_status_short`
 
 Where: short note under the year on medal by year charts. Empty means no note.
 
-- `did-not-exist`: Not founded
-- `not-yet-reported`: Not loaded
+- `did-not-exist`: Not Founded
+- `not-yet-reported`: Not Loaded
 - `no-data`: Partial
-- `no-results`: No results
+- `no-results`: No Results
 - `closed`: Closed
 - `medaled`:
 - `no-medal`:
@@ -215,29 +215,29 @@ Where: the one character note under a year on narrow screens.
 
 Where: first time medalist tables and chips.
 
-- `new`: First medal in the record
-- `new-complete`: First medal in the complete record
+- `new`: First Medal in the Record
+- `new-complete`: First Medal in the Complete Record
 
 ## `estimate_basis`
 
 Where: the basis beside every barrel estimate.
 
 - `reported`: Reported
-- `boty-bracket`: Brewery of the Year size bracket (E)
-- `bracket`: Size bracket (E)
-- `estimate`: Curated estimate (E)
-- `curated`: Curated estimate (E)
-- `profile estimate`: Brewery profile estimate (E)
-- `type-heuristic`: Estimated from brewery type (E)
-- `heuristic`: Estimated from brewery type (E)
+- `boty-bracket`: Brewery of the Year Size Bracket (E)
+- `bracket`: Size Bracket (E)
+- `estimate`: Curated Estimate (E)
+- `curated`: Curated Estimate (E)
+- `profile estimate`: Brewery Profile Estimate (E)
+- `type-heuristic`: Estimated from Brewery Type (E)
+- `heuristic`: Estimated from Brewery Type (E)
 
 ## `confidence`
 
 Where: the confidence beside every barrel estimate.
 
-- `high`: High confidence
-- `medium`: Medium confidence
-- `low`: Low confidence
+- `high`: High Confidence
+- `medium`: Medium Confidence
+- `low`: Low Confidence
 - `approximate`: Approximate
 
 ## `yes_no`
@@ -251,8 +251,8 @@ Where: brewery ownership details and the ownership table.
 
 Where: the verified column of the ownership table and distributor details.
 
-- `yes`: Checked against a primary source
-- `no`: Not checked
+- `yes`: Checked Against a Primary Source
+- `no`: Not Checked
 
 ## `fed_district`
 
@@ -276,30 +276,30 @@ Where: the Fed district filter, district charts, and district columns.
 
 Where: method page and district tooltips; how a medal was placed in a district.
 
-- `state`: Whole state in one district
-- `county`: Placed by the medal city's county
-- `approximation`: Whole state assigned to its main district (approximation)
+- `state`: Whole State in One District
+- `county`: Placed by the Medal City's County
+- `approximation`: Whole State Assigned to Its Main District (Approximation)
 - `approximation (city not resolved)`: City not placed; assigned to the state's main district (approximation)
 
 ## `indicator`
 
 Where: column headers of the state and district controls table on the geography dashboard.
 
-- `gdp_per_capita_real`: Real GDP per person (2017 dollars)
-- `gdp_per_capita_real_latest`: Real GDP per person, {{year}} (2017 dollars)
-- `median_household_income`: Median household income (2024 dollars)
-- `median_age`: Median age
-- `share_21_plus`: Age 21 and over (%)
-- `share_bachelors_or_higher`: Bachelor's degree or higher (%)
-- `share_hs_or_higher`: High school or higher (%)
-- `poverty_rate`: Poverty rate (%)
-- `share_nh_white`: White, not Hispanic (%)
-- `share_nh_black`: Black, not Hispanic (%)
+- `gdp_per_capita_real`: Real GDP per Person (2017 Dollars)
+- `gdp_per_capita_real_latest`: Real GDP per Person, {{year}} (2017 Dollars)
+- `median_household_income`: Median Household Income (2024 Dollars)
+- `median_age`: Median Age
+- `share_21_plus`: Age 21 and Over (%)
+- `share_bachelors_or_higher`: Bachelor's Degree or Higher (%)
+- `share_hs_or_higher`: High School or Higher (%)
+- `poverty_rate`: Poverty Rate (%)
+- `share_nh_white`: White, Not Hispanic (%)
+- `share_nh_black`: Black, Not Hispanic (%)
 - `share_hispanic`: Hispanic or Latino (%)
-- `share_nh_asian`: Asian, not Hispanic (%)
+- `share_nh_asian`: Asian, Not Hispanic (%)
 - `urban_share`: Urban, 2020 (%)
-- `literacy_level1_or_below`: Literacy at or below level 1 (%, modeled)
-- `life_expectancy`: Life expectancy, 2022
+- `literacy_level1_or_below`: Literacy at or Below Level 1 (%, Modeled)
+- `life_expectancy`: Life Expectancy, 2022
 
 ## `points`
 

@@ -12,12 +12,19 @@ import { pageMetadata } from '@/lib/seo';
 import { staticParams } from '@/lib/site-data';
 import type { CategoryRecord, Range } from '@/lib/models/analysis.mjs';
 import { analysis, firstComplete, labelGroup, MAIN, raw, viewCopy } from '@/app/(site)/analysis/parts/copy';
+import { Moved, movedMetadata } from '@/app/(site)/analysis/parts/moved';
 import { CategoryView, type CategoryCopy } from './CategoryView';
 
 type Params = { slug: string };
 
 export const dynamicParams = false;
-export const generateStaticParams = staticParams.categories;
+export async function generateStaticParams(): Promise<Params[]> {
+  const old = (await analysis()).legacyCategoryParams();
+  return [...(await staticParams.categories()), ...old];
+}
+
+// A category whose address changed when the word Style left the names: the page holds a redirect to the new one.
+const moved = async (slug: string) => (await analysis()).legacyCategory(slug);
 
 const page = (key: string) => `pages.category-detail.${key}`;
 
@@ -28,6 +35,8 @@ async function record(params: Promise<Params>): Promise<CategoryRecord> {
 }
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const old = await moved((await params).slug);
+  if (old) return movedMetadata(paths.category(old.slug), old.name);
   const c = await record(params);
   return pageMetadata({
     title: fill(raw('global.navigation.page_titles.category_detail'), { category_name: c.name }),
@@ -46,6 +55,8 @@ function scale(id: string, label: string, range: Range | null, summary: string, 
 }
 
 export default async function CategoryPage({ params }: { params: Promise<Params> }) {
+  const old = await moved((await params).slug);
+  if (old) return <Moved to={paths.category(old.slug)} pageTitle={old.name} />;
   const c = await record(params);
   const types = labelGroup('category_type');
   const families = labelGroup('style_family');

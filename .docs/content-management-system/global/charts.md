@@ -7,7 +7,7 @@ Chart chrome shared by every chart: toolbox, table view, tooltips, and units.
 Where: the small toolbox at the top right of every chart.
 
 - `save_png`: Save as PNG
-- `data`: View data
+- `data`: View Data
 - `data_close`: Close
 - `data_refresh`: Refresh
 - `reset`: Reset
@@ -35,9 +35,9 @@ Where: series names, axis names, and value columns.
 - `entries`: Entries
 - `entrants`: Entrants
 - `breweries`: Breweries
-- `per_million`: Per million residents
-- `per_100b_gdp`: Per $100B real GDP
-- `entries_per_medal`: Entries per medal
+- `per_million`: Per Million Residents
+- `per_100b_gdp`: Per $100B Real GDP
+- `entries_per_medal`: Entries per Medal
 - `revenue`: Revenue (E)
 - `arr`: ARR (E)
 
@@ -48,11 +48,11 @@ Where: legends on medal charts and stacked charts.
 - `gold`: Gold
 - `silver`: Silver
 - `bronze`: Bronze
-- `classic`: Classic style categories
-- `special`: Special categories
+- `classic`: Classic Style Categories
+- `special`: Special Categories
 - `other`: Other
-- `breweries_entering`: Breweries entering
-- `winning_breweries`: Winning breweries
+- `breweries_entering`: Breweries Entering
+- `winning_breweries`: Winning Breweries
 
 ## `table_columns`
 

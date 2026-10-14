@@ -3,33 +3,35 @@
 // browser storage, then the default), and the header control with its panel. The pure functions
 // run in Node (build and tests) and in the browser; createGlobalFilter needs a DOM.
 
+import { NOT_FOUND } from './not-found.mjs';
+import { titleCase } from './title-case.mjs';
 import { esc } from './charts.mjs';
 import { compareLabels, compareYearsNewestFirst, compareBands } from './sort-order.mjs';
 
 export const FILTERS = [
   { id: 'year', label: 'Year', group: 'When' },
   { id: 'medal', label: 'Medal', group: 'What' },
-  { id: 'category_type', label: 'Category type', group: 'What' },
-  { id: 'style_family', label: 'Style family', group: 'What' },
+  { id: 'category_type', label: 'Category Type', group: 'What' },
+  { id: 'style_family', label: 'Style Family', group: 'What' },
   { id: 'category_name', label: 'Category', group: 'What' },
-  { id: 'abv_band', label: 'ABV band', group: 'What' },
+  { id: 'abv_band', label: 'ABV Band', group: 'What' },
   // A beer lists several hops and farms, so these read an array on the row (`field`) and match when
   // it holds the picked value. The two farm filters are separate on purpose: one is the farm the
   // brewery named, the other a farm that grows a hop the beer uses. They are never combined.
   // The Explore filters. Characteristics are words found in the category name (a row lists several). The
   // investor filter is built but hidden until the owner turns it on (`hidden`).
   { id: 'section', label: 'Section', group: 'What' },
-  { id: 'characteristic', field: 'traits', multi: true, label: 'Category characteristic', group: 'What' },
+  { id: 'characteristic', field: 'traits', multi: true, label: 'Category Characteristic', group: 'What' },
   { id: 'investor', label: 'Investor', group: 'Who', hidden: true },
-  { id: 'hop_variety', field: 'hop_varieties', multi: true, label: 'Hop variety', group: 'What' },
-  { id: 'hop_farm_named', field: 'hop_farms_named', multi: true, label: 'Hop farm named by the brewery', group: 'What' },
-  { id: 'hop_farm_grown', field: 'hop_farms_grown', multi: true, label: 'Hop farm that grows a hop used', group: 'What' },
+  { id: 'hop_variety', field: 'hop_varieties', multi: true, label: 'Hop Variety', group: 'What' },
+  { id: 'hop_farm_named', field: 'hop_farms_named', multi: true, label: 'Hop Farm Named by the Brewery', group: 'What' },
+  { id: 'hop_farm_grown', field: 'hop_farms_grown', multi: true, label: 'Hop Farm That Grows a Hop Used', group: 'What' },
   { id: 'region', label: 'Region', group: 'Where' },
   { id: 'state', label: 'State', group: 'Where' },
   { id: 'city', label: 'City', group: 'Where' },
-  { id: 'fed_district_name', label: 'Fed district', group: 'Where' },
+  { id: 'fed_district_name', label: 'Fed District', group: 'Where' },
   { id: 'brewery_key', label: 'Brewery', group: 'Who' },
-  { id: 'brewery_type', label: 'Brewery type', group: 'Who' },
+  { id: 'brewery_type', label: 'Brewery Type', group: 'Who' },
   { id: 'ownership_type', label: 'Ownership', group: 'Who' },
   { id: 'distribution_channel', label: 'Distribution', group: 'Who' },
 ];
@@ -40,14 +42,14 @@ export const STORAGE_KEY = 'gabf-filters';
 
 // Display text for raw slugs stored in the data.
 export const VALUE_LABELS = {
-  ownership_type: { independent: 'Independent', 'employee-owned': 'Employee owned', 'public-company-owned': 'Public company owned', 'large-brewer-owned': 'Large brewer owned', 'private-equity-backed': 'Private equity backed', 'beverage-conglomerate-owned': 'Beverage conglomerate owned', closed: 'Closed', unlisted: 'Not defined' },
-  distribution_channel: { 'self-distribution': 'Self distributed', distributor: 'Through a distributor', taproom: 'Taproom only', unknown: 'Not defined', '': 'Not defined' },
-  brewery_type: { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regional brewery', planning: 'In planning', large: 'Large brewery', closed: 'Closed', contract: 'Contract brewer', proprietor: 'Alternating proprietor', nano: 'Nanobrewery', bar: 'Bar', taproom: 'Taproom' },
-  category_type: { classic: 'Classic style', special: 'Special' },
-  basis: { 'type-heuristic': 'Estimated from brewery type', 'boty-bracket': 'Brewery of the Year size bracket', estimate: 'Curated estimate', reported: 'Reported', bracket: 'Size bracket', curated: 'Curated estimate', heuristic: 'Estimated from brewery type', 'profile estimate': 'Brewery profile estimate' },
+  ownership_type: { independent: 'Independent', 'employee-owned': 'Employee Owned', 'public-company-owned': 'Public Company Owned', 'large-brewer-owned': 'Large Brewer Owned', 'private-equity-backed': 'Private Equity Backed', 'beverage-conglomerate-owned': 'Beverage Conglomerate Owned', closed: 'Closed', unlisted: NOT_FOUND },
+  distribution_channel: { 'self-distribution': 'Self Distributed', distributor: 'Through a Distributor', taproom: 'Taproom Only', unknown: NOT_FOUND, '': NOT_FOUND },
+  brewery_type: { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regional Brewery', planning: 'In Planning', large: 'Large Brewery', closed: 'Closed', contract: 'Contract Brewer', proprietor: 'Alternating Proprietor', nano: 'Nanobrewery', bar: 'Bar', taproom: 'Taproom' },
+  category_type: { classic: 'Classic Style', special: 'Special' },
+  basis: { 'type-heuristic': 'Estimated from Brewery Type', 'boty-bracket': 'Brewery of the Year Size Bracket', estimate: 'Curated Estimate', reported: 'Reported', bracket: 'Size Bracket', curated: 'Curated Estimate', heuristic: 'Estimated from Brewery Type', 'profile estimate': 'Brewery Profile Estimate' },
   section: { main: 'Main Competition', 'pro-am': 'Pro-Am', collaboration: 'Collaboration' },
   characteristic: { sour: 'Sour or Wild Category', fruit: 'Fruit Category', spice: 'Herb or Spice Category', coffee: 'Coffee Category', chocolate: 'Chocolate Category', barrel_aged: 'Wood or Barrel Category', non_alcoholic: 'Nonalcoholic Category', gluten_free: 'Gluten-Free Category' },
-  first_time: { new: 'First medal in the loaded record', 'new-complete': 'First medal in the complete record' },
+  first_time: { new: 'First Medal in the Loaded Record', 'new-complete': 'First Medal in the Complete Record' },
 };
 
 // Data slugs that must never show as text: every value label key plus trend status keys.
@@ -75,8 +77,8 @@ const foldBlank = (id, v) => (v === '' || v === LEGACY_BLANKS[id] ? NOT_DEFINED 
 
 export function valueLabel(id, value, meta = null) {
   const v = String(value ?? '');
-  if (v === NOT_DEFINED) return 'Not defined';
-  if (id === 'brewery_type' && !v) return 'Not defined';
+  if (v === NOT_DEFINED) return NOT_FOUND;
+  if (id === 'brewery_type' && !v) return NOT_FOUND;
   if (id === 'state') return meta?.states?.find((s) => s.state === v)?.name ?? v;
   if (id === 'city') return v.replace(/\s+-\s+/g, ', ');
   if (id === 'brewery_key') return meta?.names?.brewery_key?.[v] ?? v;
@@ -89,7 +91,7 @@ export function valueLabel(id, value, meta = null) {
   }
   if (VALUE_LABELS[id] && Object.hasOwn(VALUE_LABELS[id], v)) return VALUE_LABELS[id][v];
   // Unknown slug: show it as words rather than as a slug.
-  return /^[a-z0-9]+(-[a-z0-9]+)+$/.test(v) ? (v.charAt(0).toUpperCase() + v.slice(1)).replace(/-/g, ' ') : v;
+  return /^[a-z0-9]+(-[a-z0-9]+)+$/.test(v) ? titleCase(v.replace(/-/g, ' ')) : v;
 }
 
 // ---------- state ----------
@@ -162,7 +164,7 @@ export function fieldValues(row, id) {
   return Array.isArray(list) && list.length ? list.map(String) : [NOT_DEFINED];
 }
 
-// The value a selection holds, with the older gap tokens read as Not defined.
+// The value a selection holds, with the older gap tokens read as Not Found.
 export const selectedValue = (s, id) => foldBlank(id, String(s[id] ?? ''));
 
 // Partial years (seed rows only) stay out unless a year is picked or years=all.
@@ -208,7 +210,7 @@ export function optionList(scope, id, s = {}, meta = null) {
     for (const r of scope) if (r.city) states.set(r.city, (states.get(r.city) ?? new Set()).add(r.state));
     // One source row has a collaboration venue in its city field; a spaced hyphen there reads as a comma.
     const readable = (t) => t.replace(/\s+-\s+/g, ', ');
-    plainCity = (v) => { if (v === NOT_DEFINED) return 'Not defined'; const name = v.slice(0, v.lastIndexOf(', ')); return readable(states.get(name)?.size > 1 ? v : name); };
+    plainCity = (v) => { if (v === NOT_DEFINED) return NOT_FOUND; const name = v.slice(0, v.lastIndexOf(', ')); return readable(states.get(name)?.size > 1 ? v : name); };
   }
   const labelOf = (v) => (id === 'brewery_key' && v !== NOT_DEFINED ? names.get(v) : plainCity ? plainCity(v) : valueLabel(id, v, meta));
   const list = [...counts.entries()].map(([v, n]) => ({ value: v, count: n, label: labelOf(v) }));
@@ -234,7 +236,7 @@ export const partialYearsIn = (rows) => [...new Set(rows.filter((r) => r.partial
 export function activeChips(s, meta = null) {
   const chips = FILTERS.filter((d) => s[d.id]).map((d) => ({ id: d.id, text: `${d.label}: ${valueLabel(d.id, s[d.id], meta)}` }));
   if (s.q) chips.push({ id: 'q', text: `Search: ${s.q}` });
-  if (s.years === 'all' && !s.year) chips.push({ id: 'years', text: 'Partial years included' });
+  if (s.years === 'all' && !s.year) chips.push({ id: 'years', text: 'Partial Years Included' });
   return chips;
 }
 export const activeCount = (s) => activeChips(s).length;
@@ -334,7 +336,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     dialog = document.createElement('dialog');
     dialog.className = 'filter-panel';
     dialog.setAttribute('aria-labelledby', 'gf-title');
-    dialog.innerHTML = `<div class="filter-panel-head"><h2 id="gf-title">Filter medals</h2><button type="button" class="btn" data-close>Close</button></div><div class="filter-panel-body"></div><div class="filter-panel-foot"><p class="filter-panel-count" aria-live="polite"></p><button type="button" class="btn" data-clear>Reset</button><button type="button" class="btn primary" data-close>Show results</button></div>`;
+    dialog.innerHTML = `<div class="filter-panel-head"><h2 id="gf-title">Filter Medals</h2><button type="button" class="btn" data-close>Close</button></div><div class="filter-panel-body"></div><div class="filter-panel-foot"><p class="filter-panel-count" aria-live="polite"></p><button type="button" class="btn" data-clear>Reset</button><button type="button" class="btn primary" data-close>Show results</button></div>`;
     document.body.appendChild(dialog);
     dialog.addEventListener('change', (e) => {
       const t = e.target;

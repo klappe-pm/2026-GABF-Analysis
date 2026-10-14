@@ -32,6 +32,16 @@ type Value = {
 const Ctx = createContext<Value | null>(null);
 const EMPTY_SCOPE: Scope = { scope: {}, fixed: [] };
 
+// A link made before the word Style left the category names (#category_name=American-Style Pilsener) still finds its
+// category: the name is mapped through the table the data carries, and before the data loads by dropping the word.
+const dropStyle = (n: string) => n.replace(/[-\s]+Style\b/gi, '').replace(/\s+/g, ' ').trim();
+function currentNames(state: FilterState, names?: Record<string, string>): FilterState {
+  const n = state.category_name;
+  if (!n) return state;
+  const next = names?.[n] ?? dropStyle(n);
+  return next === n ? state : { ...state, category_name: next };
+}
+
 const storage = () => {
   try { return window.localStorage; } catch { return null; }
 };
@@ -77,11 +87,14 @@ export function GlobalFilterProvider({ children }: { children: ReactNode }) {
       .catch(() => { loading.current = false; setStatus('error'); });
   }, []);
 
+  const legacy = (data?.meta as { legacy_category_names?: Record<string, string> } | undefined)?.legacy_category_names;
+  const current = useMemo(() => currentNames(state, legacy), [state, legacy]);
+
   const value = useMemo<Value>(() => ({
-    state,
+    state: current,
     setState,
     remove: (key) => {
-      const next = { ...state };
+      const next = { ...current };
       delete next[key];
       setState(next);
     },
@@ -91,7 +104,7 @@ export function GlobalFilterProvider({ children }: { children: ReactNode }) {
     data,
     status,
     load,
-  }), [state, setState, scope, setScope, data, status, load]);
+  }), [current, setState, scope, setScope, data, status, load]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

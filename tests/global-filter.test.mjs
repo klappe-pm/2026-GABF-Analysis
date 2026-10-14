@@ -58,11 +58,11 @@ test('option counts follow the page scope and the partial year rule', () => {
 });
 
 test('chips and option labels read as words, never slugs', () => {
-  assert.equal(valueLabel('ownership_type', 'beverage-conglomerate-owned'), 'Beverage conglomerate owned');
-  assert.equal(valueLabel('distribution_channel', 'self-distribution'), 'Self distributed');
+  assert.equal(valueLabel('ownership_type', 'beverage-conglomerate-owned'), 'Beverage Conglomerate Owned');
+  assert.equal(valueLabel('distribution_channel', 'self-distribution'), 'Self Distributed');
   assert.equal(valueLabel('abv_band', '6-to-7'), '6 to 7%');
-  assert.equal(valueLabel('brewery_type', 'some-new-type'), 'Some new type');
-  assert.deepEqual(activeChips({ ownership_type: 'unlisted', years: 'all' }).map((c) => c.text), ['Ownership: Not defined', 'Partial years included']);
+  assert.equal(valueLabel('brewery_type', 'some-new-type'), 'Some New Type');
+  assert.deepEqual(activeChips({ ownership_type: 'unlisted', years: 'all' }).map((c) => c.text), ['Ownership: Not Found', 'Partial Years Included']);
   assert.equal(unslugText('<p>a did-not-exist year</p><code>did-not-exist</code><a href="/x/did-not-exist">link</a>', ['did-not-exist']), '<p>a did not exist year</p><code>did-not-exist</code><a href="/x/did-not-exist">link</a>');
 });
 

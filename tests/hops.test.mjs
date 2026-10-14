@@ -73,7 +73,7 @@ test('rendered pages keep the two farm link kinds in separate, labelled tables',
   const m = model();
   const out = new Map();
   const COPY = loadSiteCopy();
-  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not defined', year: 2026 });
+  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026 });
   pages.writeAll();
   const beta = out.get('hop-farms/beta-farm/index.html');
   const [named, grown] = beta.split(COPY('pages.hop-farm-detail.grown.title', { year: 2026 }));
@@ -100,7 +100,7 @@ test('every variety page lists every beer that uses it', () => {
   const m = model();
   const out = new Map();
   const COPY = loadSiteCopy();
-  createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not defined', year: 2026 }).writeAll();
+  createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026 }).writeAll();
   for (const v of m.varieties) {
     const html = out.get(`hops/${v.slug}/index.html`);
     const expected = [...m.beers.values()].filter((b) => b.usage.some((u) => u.variety === v));
@@ -128,13 +128,13 @@ test('the hop filters narrow the medal rows and offer only options that match', 
   }
 });
 
-test('rows without hops offer only Not defined in the hop filters, and the beer rows carry arrays', () => {
+test('rows without hops offer only Not Found in the hop filters, and the beer rows carry arrays', () => {
   const r = rows();
   model(r);
   assert.deepEqual(r[0].hop_varieties, ['Citra']);
   assert.deepEqual(r[0].hop_farms_named, ['Beta Farm']);
   assert.deepEqual(r[0].hop_farms_grown, ['Alpha Ranch']);
-  assert.deepEqual(optionList([{ year: 2025, medal: 'Gold' }], 'hop_variety', {}).map((o) => [o.value, o.label, o.count]), [['not-defined', 'Not defined', 1]]);
+  assert.deepEqual(optionList([{ year: 2025, medal: 'Gold' }], 'hop_variety', {}).map((o) => [o.value, o.label, o.count]), [['not-defined', 'Not Found', 1]]);
 });
 
 test('the Hops column of a medal table links each variety and is dropped when no row has hops', () => {
@@ -172,7 +172,7 @@ test('a beer profile card carries the fields, linked hop chips, a sourced tastin
   assert.ok(r[0].tasting_note.length <= 181 && r[0].tasting_note.endsWith('…'));
   // A beer with no tasting note says so instead of inventing one.
   Object.assign(r[1], { beer_profile: 'beers/2026/001-b/' });
-  assert.match(beerCardHtml(r[1], { r: '../' }), /Not defined/);
+  assert.match(beerCardHtml(r[1], { r: '../' }), /Not Found/);
   assert.equal(beerCardsHtml([{ year: 2025 }], { r: '../' }), '');
   assert.equal(excerpt('short'), 'short');
   delete profiles[0].fm['tasting-notes'];
@@ -185,7 +185,7 @@ test('the hops index, variety, farm and beer pages draw profile cards', () => {
   r.forEach((x, i) => { x.beer_profile = `beers/2026/${profiles[i].stem}/`; });
   const out = new Map();
   const COPY = loadSiteCopy();
-  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not defined', year: 2026, meta: null });
+  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026, meta: null });
   pages.writeAll();
   assert.match(out.get('hops/index.html'), /hop-profile-card/);
   assert.match(out.get('hops/citra/index.html'), /beer-profile-card/);
