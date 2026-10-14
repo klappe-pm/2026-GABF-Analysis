@@ -135,8 +135,10 @@
       if (spec.__links) chart.on('click', (p) => { const href = spec.__links[p.name]; if (href) window.location.href = href; });
       if (el.__onClick) chart.on('click', el.__onClick);
     };
-    if (spec.__map === 'usa') ensureMap().then(go);
-    else go();
+    // Canvas text does not swap fonts after drawing, so wait for Public Sans before the first draw.
+    const fonts = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    if (spec.__map === 'usa') Promise.all([ensureMap(), fonts]).then(go);
+    else fonts.then(go);
     return entry;
   }
 

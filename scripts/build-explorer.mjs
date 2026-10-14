@@ -23,6 +23,7 @@ import { readCsvRecords } from './lib/csv.mjs';
 import { beerDetailsHtml } from './lib/catalog-attribution.mjs';
 import { canonicalCategoryNames, categoryFold, districtAssigner, loadDataset, MEDAL_POINTS } from './lib/data-model.mjs';
 import { ROOT } from './lib/paths.mjs';
+import { inlineBrandCss } from './brand/build.mjs';
 import { slugify } from './lib/slug.mjs';
 import { matchKey } from './lib/winner-profiles.mjs';
 
@@ -37,11 +38,11 @@ const dbPath = resolve(ROOT, 'data', 'enriched', `winners-${year}.sqlite`);
 
 const FOOTER_DETAILS = /(<span id="beer-details">)([\s\S]*?)(<\/span>)/;
 const DATASET = /(<script type="application\/json" id="dataset">)([\s\S]*?)(<\/script>)/;
-// The brand colors, inlined from site/assets/brand.css (generated from the design settings).
+// The brand colors and fonts, inlined from site/assets/brand.css and the self hosted fonts (generated from the design settings).
 const BRAND = /(<style id="brand">)([\s\S]*?)(<\/style>)/;
 export const inlineBrand = (html) => {
   if (!BRAND.test(html)) throw new Error('explorer template has no brand style block');
-  return html.replace(BRAND, (_, open, _body, close) => `${open}\n${readFileSync(resolve(ROOT, 'site/assets/brand.css'), 'utf8')}${close}`);
+  return html.replace(BRAND, (_, open, _body, close) => `${open}\n${inlineBrandCss()}${close}`);
 };
 
 
