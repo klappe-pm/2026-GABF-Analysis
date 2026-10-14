@@ -46,10 +46,11 @@ Woodburn, Marion County, OR. The county is derived: looked up from the city, not
 
 ## notes
 
-Headquarters 18564 Arbor Grove Rd NE, Woodburn. Site names no hop varieties.
+Headquarters 18564 Arbor Grove Rd NE, Woodburn. Site names no hop varieties. Jackie Crosby of Crosby Hop Farm and Bill Delema of Crosby Hops LLC hold seats on the Oregon Hop Commission board.
 
 ## sources
 
 - https://www.crosbyhops.com/about
 - https://www.indiehops.com/growers
 - https://ericrsannerud.substack.com/p/hop-notes-25-2025-us-hop-acreage
+- https://www.oregonhops.org/

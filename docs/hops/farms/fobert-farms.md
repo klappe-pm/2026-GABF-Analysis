@@ -19,10 +19,11 @@ Fobert Farms is recorded here from the sources listed below, and only as those s
 
 ## location
 
-OR.
+Hubbard, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 
+- Family or ownership: Cheyne Fobert (Oregon Hop Commission board)
 - Proprietary variety role: Strata grower
 
 ## varieties-as-published
@@ -33,7 +34,8 @@ OR.
 
 ## supply-chain
 
-- Affiliation as published: Indie Hops grower
+- Affiliation as published: Indie Hops grower; Fobert Farms on the YCR Oregon roster
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 - Listed as a source farm of Indie Hops in the merchants file
 
 ## notes
@@ -43,3 +45,5 @@ State not stated by Indie Hops; it is listed among its Oregon Strata growers.
 ## sources
 
 - https://www.indiehops.com/growers
+- https://www.oregonhops.org/
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/

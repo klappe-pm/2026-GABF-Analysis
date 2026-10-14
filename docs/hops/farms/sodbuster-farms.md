@@ -19,12 +19,11 @@ Sodbuster Farms is recorded here from the sources listed below, and only as thos
 
 ## location
 
-state not stated.
-
-Not yet confirmed from the farm's own source. Reason: Yakima Chief brochure listing from a search summary; Indie Hops page read.
+OR.
 
 ## ownership-and-history
 
+- Family or ownership: Doug and Audrey Weathers
 - Proprietary variety role: Strata grower
 
 ## varieties-as-published
@@ -35,14 +34,17 @@ Not yet confirmed from the farm's own source. Reason: Yakima Chief brochure list
 
 ## supply-chain
 
-- Affiliation as published: Indie Hops grower; also listed in the Yakima Chief Hops brochure (search result summary)
+- Affiliation as published: Indie Hops grower; Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); Sodbuster Farms Inc on the YCR Oregon roster
+- Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 - Listed as a source farm of Indie Hops in the merchants file
 
 ## notes
 
-Indie Hops cites its Mission Bottom location as a favorite locale of Strata.
+State follows the Yakima Chief Ranches roster, which lists it under Oregon growers. Indie Hops cites its Mission Bottom location.
 
 ## sources
 
 - https://www.indiehops.com/growers
-- https://www.yakimachief.com/media/wysiwyg/Yakima_Chief_Hops_Brochure.pdf
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
