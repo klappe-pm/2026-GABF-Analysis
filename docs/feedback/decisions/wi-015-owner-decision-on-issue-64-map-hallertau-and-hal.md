@@ -1,6 +1,6 @@
 ---
 id: WI-015
-status: ACCEPTED
+status: DONE
 title: Map "Hallertau" and "Hallertauer" to Hallertau Mittelfrüh by convention?
 page: decisions
 job: null
@@ -47,6 +47,13 @@ images: []
 issue: 64
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/64
 kind: decision
+pr: 131
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/131
+resolution:
+  status: DONE
+  change: "pull request #131"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T23:27:13.615Z
 ---
 
 Owner decision on issue #64: Map "Hallertau" and "Hallertauer" to Hallertau Mittelfrüh by convention?
