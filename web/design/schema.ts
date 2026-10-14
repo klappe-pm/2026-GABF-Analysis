@@ -78,6 +78,12 @@ export const GLOBAL: Record<string, Kind> = {
   'Gold medal color': { type: 'hex' },
   'Silver medal color': { type: 'hex' },
   'Bronze medal color': { type: 'hex' },
+  // Chart series colors, in order of importance: categorical hues, each 3 to 1 on white.
+  'Series 1 color': { type: 'hex' },
+  'Series 2 color': { type: 'hex' },
+  'Series 3 color': { type: 'hex' },
+  'Series 4 color': { type: 'hex' },
+  'Series 5 color': { type: 'hex' },
 };
 
 // The page width a "Page width" value allows: none fills the window.
