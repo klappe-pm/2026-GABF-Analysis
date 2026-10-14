@@ -1,0 +1,31 @@
+# Saved views: planned. Views a visitor saves live only in their own browser.
+
+# where: top of the page.
+header:
+  title: "Saved views"
+  lede: "Views you saved on this device. They stay in this browser; nothing is sent or synced."
+
+# where: the save control on any filterable page.
+save:
+  button: "Save this view"
+  name_label: "Name this view"
+  name_placeholder: "For example, Hazy IPA in Colorado"
+  saved: "View saved."
+
+# where: each saved view in the list.
+item:
+  open: "Open"
+  rename: "Rename"
+  delete: "Delete"
+  copy_link: "Copy link"
+  link_copied: "Link copied."
+  filters_summary: "{{count}} filters on {{page_title}}"
+
+# where: in place of the list when nothing is saved.
+empty:
+  title: "No saved views yet."
+  body: "Set Filters on any page, then choose Save this view."
+
+# where: in place of the list when the browser blocks storage.
+storage_error:
+  body: "This browser is not keeping saved data, so views cannot be saved here. Copy the page link instead; it carries the filters."

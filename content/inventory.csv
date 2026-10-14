@@ -1,0 +1,1085 @@
+page,location,current_text,new_key
+every page,browser tab suffix, · GABF Analysis,global.navigation.page_titles.suffix
+every page,header brand,GABF Analysis,global.site.identity.name
+every page,skip link,Skip to content,global.site.header.skip_link
+every page,header menu button,Menu,global.site.header.menu_button
+every page,header nav label,Site,global.site.header.nav_label
+every page,header theme toggle,Dark mode,global.site.header.theme_dark
+every page,header theme toggle,Light mode,global.site.header.theme_light
+every page,header nav,Dashboards,pages.dashboards.index.title
+every page,header nav,{{year}} winners,global.navigation.header.beers
+every page,header nav,First time medalists,pages.first-time-medalists.table.title
+every page,header nav,Breweries,global.navigation.header.breweries
+every page,header nav,Categories,global.navigation.header.results_by_category
+every page,header nav,Reports,global.navigation.header.analysis
+every page,header nav,Explorer,pages.explorer.header.title
+every page,header nav,About,global.navigation.footer.about
+every page,footer,Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides.,global.site.footer.sources
+every page,footer,Charts by Apache ECharts.,pages.about.attribution.charts
+every page,footer,Estimates are marked (E).,global.site.footer.estimates
+every page,footer link,Source and data,global.site.footer.source_link
+every page (global filter),header button,Filters,global.filters.trigger.label
+every page (global filter),header button,Filters · {{count}},global.filters.trigger.label_with_count
+every page (global filter),header button aria label,"Filters, {{count}} active",global.filters.trigger.accessible_label_with_count
+every page (global filter),header button tooltip,Filter every page (shortcut: f),global.filters.trigger.tooltip
+every page (global filter),panel title,Filter medals,global.filters.panel.title
+every page (global filter),panel button,Close,global.filters.panel.close
+every page (global filter),panel button,Reset,global.filters.panel.reset
+every page (global filter),panel button,Show results,global.filters.panel.apply
+every page (global filter),panel count,{{count}} medal match,global.filters.panel.match_count_one
+every page (global filter),panel count,{{count}} medals match,global.filters.panel.match_count_many
+every page (global filter),panel count,{{count}} medals match on this page ({{scope}}),global.filters.panel.match_count_scoped
+every page (global filter),panel loading,Loading the medal data…,global.filters.panel.loading
+every page (global filter),panel error,"The medal data could not be loaded, so the filter options are unavailable. Reload the page to try again.",global.filters.panel.load_error
+every page (global filter),search label,Search,global.filters.search.label
+every page (global filter),search placeholder,"Beer, brewery, city, hop",global.filters.search.placeholder
+every page (global filter),group legend,When,global.filters.groups.when
+every page (global filter),group legend,What,global.filters.groups.what
+every page (global filter),group legend,Where,global.filters.groups.where
+every page (global filter),group legend,Who,global.filters.groups.who
+every page (global filter),dimension label,Year,global.filters.dimensions.year
+every page (global filter),dimension label,Medal,global.filters.dimensions.medal
+every page (global filter),dimension label,Category type,global.filters.dimensions.category_type
+every page (global filter),dimension label,Style family,global.filters.dimensions.style_family
+every page (global filter),dimension label,Category,global.filters.dimensions.category_name
+every page (global filter),dimension label,ABV band,global.filters.dimensions.abv_band
+every page (global filter),dimension label,Region,global.filters.dimensions.region
+every page (global filter),dimension label,State,global.filters.dimensions.state
+every page (global filter),dimension label,Fed district,global.filters.dimensions.fed_district_name
+every page (global filter),dimension label,Brewery type,global.filters.dimensions.brewery_type
+every page (global filter),dimension label,Ownership,global.filters.dimensions.ownership_type
+every page (global filter),dimension label,Distribution,global.filters.dimensions.distribution_channel
+every page (global filter),dropdown option,All,global.filters.options.all
+every page (global filter),dropdown option,{{label}} ({{count}}),global.filters.options.with_count
+every page (global filter),dropdown option,{{label}} (0),global.filters.options.not_in_view
+every page (global filter),partial years checkbox,Include partial years ({{years}}),global.filters.partial_years.include
+every page (global filter),partial years note,Complete official lists are shown by default.,global.filters.partial_years.default_note
+every page (global filter),chip bar label,Active filters,global.filters.chips.bar_label
+every page (global filter),chip,{{dimension}}: {{value}},global.filters.chips.chip
+every page (global filter),chip,Search: {{query}},global.filters.chips.search_chip
+every page (global filter),chip,Partial years included,global.filters.chips.partial_chip
+every page (global filter),fixed chip tooltip,This page is scoped to it,global.filters.chips.fixed_tooltip
+every page (global filter),fixed chip,Brewery: {{brewery_name}},global.filters.chips.fixed_brewery
+every page (global filter),fixed chip,Category: {{category_name}},global.filters.chips.fixed_category
+every page (global filter),fixed chip,Year: {{year}},global.filters.chips.fixed_year
+every page (global filter),chip aria label,Remove filter {{chip}},global.filters.chips.remove_label
+every page (global filter),chip hidden text,(remove),global.filters.chips.remove_hidden
+every page (global filter),chip bar button,Clear all,global.filters.chips.clear_all
+every page (global filter),live region,{{count}} medal in view,global.filters.live_region.one
+every page (global filter),live region,{{count}} medals in view,global.filters.live_region.many
+every page (global filter),empty state,No medals match these filters.,global.states.no_results.title
+every page (global filter),empty state,Remove a filter to widen the view.,global.states.no_results.remove_hint
+every page (global filter),empty state,"Some medals in this scope are in partial years, which are hidden by default.",global.states.no_results.partial_hint
+every page (global filter),empty state button,Include partial years,global.states.no_results.include_partial
+every page (global filter),partial notice,{{years}} includes only a sample of medals from secondary sources; complete official lists start in {{first_complete_year}}. Read counts for that year as partial.,global.states.partial_notice.one
+every page (global filter),partial notice,{{years}} include only a sample of medals from secondary sources; complete official lists start in {{first_complete_year}}. Read counts for those years as partial.,global.states.partial_notice.many
+every page (global filter),view error,"The medal data could not be loaded, so this view cannot follow the filter. Check the connection and reload the page. If the site was opened from a file, serve the dist folder instead (npm run serve).",global.states.errors.data_load
+every page (global filter),scope empty,No GABF medals in the loaded results for this page.,global.states.empty_scope.page
+dashboards (main build filter row),search placeholder,"beer, brewery, city",global.filters.search.placeholder
+dashboards (main build filter row),button,Reset,global.filters.panel.reset
+dashboards (main build filter row),button,Download CSV,global.tables.download.button
+dashboards (main build filter row),partial notice,Years {{years}} are only partially loaded (seed or transcript rows). Run the ingest to load the complete official lists; see the runbook in the repository.,global.states.partial_notice.many
+dashboards (main build filter row),error,Could not load data: {{error}},global.states.errors.dashboard_load
+dashboards (main build filter row),table pager,Showing {{shown}} of {{total}} rows. Show all or narrow the filters.,global.tables.pager.showing
+many pages (labels),medal,Gold,global.labels.medal.Gold
+many pages (labels),medal,Silver,global.labels.medal.Silver
+many pages (labels),medal,Bronze,global.labels.medal.Bronze
+many pages (labels),medal tile hidden text,gold,global.charts.legend.gold
+many pages (labels),medal tile hidden text,silver,global.charts.legend.silver
+many pages (labels),medal tile hidden text,bronze,global.charts.legend.bronze
+many pages (labels),ownership label,Independent,global.labels.ownership_type.independent
+many pages (labels),ownership label,Employee owned,global.labels.ownership_type.employee-owned
+many pages (labels),ownership label,Public company owned,global.labels.ownership_type.public-company-owned
+many pages (labels),ownership label,Large brewer owned,global.labels.ownership_type.large-brewer-owned
+many pages (labels),ownership label,Private equity backed,global.labels.ownership_type.private-equity-backed
+many pages (labels),ownership label,Beverage conglomerate owned,global.labels.ownership_type.beverage-conglomerate-owned
+many pages (labels),ownership label,Closed,global.labels.ownership_type.closed
+many pages (labels),ownership label,Ownership not researched,global.labels.ownership_type.unlisted
+main build (raw values),ownership pill and column,independent,global.labels.ownership_type.independent
+main build (raw values),ownership pill and column,employee-owned,global.labels.ownership_type.employee-owned
+main build (raw values),ownership pill and column,public-company-owned,global.labels.ownership_type.public-company-owned
+main build (raw values),ownership pill and column,large-brewer-owned,global.labels.ownership_type.large-brewer-owned
+main build (raw values),ownership pill and column,private-equity-backed,global.labels.ownership_type.private-equity-backed
+main build (raw values),ownership pill and column,beverage-conglomerate-owned,global.labels.ownership_type.beverage-conglomerate-owned
+main build (raw values),ownership pill and column,closed,global.labels.ownership_type.closed
+main build (raw values),ownership column,unlisted,global.labels.ownership_type.unlisted
+main build (raw values),ownership chart label,unlisted (presumed independent),global.labels.ownership_type.unlisted
+many pages (labels),distribution label,Self distributed,global.labels.distribution_channel.self-distribution
+many pages (labels),distribution label,Through a distributor,global.labels.distribution_channel.distributor
+many pages (labels),distribution label,Taproom only,global.labels.distribution_channel.taproom
+many pages (labels),distribution label,Distribution not researched,global.labels.distribution_channel.unknown
+main build (raw values),distribution pill and column,self-distribution,global.labels.distribution_channel.self-distribution
+main build (raw values),distribution column,unknown,global.labels.distribution_channel.unknown
+many pages (labels),brewery type label,Microbrewery,global.labels.brewery_type.micro
+many pages (labels),brewery type label,Brewpub,global.labels.brewery_type.brewpub
+many pages (labels),brewery type label,Regional brewery,global.labels.brewery_type.regional
+many pages (labels),brewery type label,In planning,global.labels.brewery_type.planning
+many pages (labels),brewery type label,Large brewery,global.labels.brewery_type.large
+many pages (labels),brewery type label,Closed,global.labels.brewery_type.closed
+many pages (labels),brewery type label,Contract brewer,global.labels.brewery_type.contract
+many pages (labels),brewery type label,Alternating proprietor,global.labels.brewery_type.proprietor
+many pages (labels),brewery type label,Nanobrewery,global.labels.brewery_type.nano
+many pages (labels),brewery type label,Bar,global.labels.brewery_type.bar
+many pages (labels),brewery type label,Taproom,global.labels.brewery_type.taproom
+main build (raw values),brewery type pill and column,micro,global.labels.brewery_type.micro
+main build (raw values),brewery type pill and column,brewpub,global.labels.brewery_type.brewpub
+main build (raw values),brewery type pill and column,regional,global.labels.brewery_type.regional
+main build (raw values),brewery type pill and column,large,global.labels.brewery_type.large
+main build (raw values),brewery type pill and column,contract,global.labels.brewery_type.contract
+main build (raw values),brewery type pill and column,proprietor,global.labels.brewery_type.proprietor
+main build (raw values),brewery type pill and column,planning,global.labels.brewery_type.planning
+main build (raw values),brewery type pill and column,closed,global.labels.brewery_type.closed
+many pages (labels),category type label,Classic style,global.labels.category_type.classic
+many pages (labels),category type label,Special,global.labels.category_type.special
+many pages (labels),medal table pill,special,global.labels.category_pill.special_short
+many pages (labels),category table pill,classic,global.labels.category_pill.classic_short
+many pages (labels),category page pill,special category,global.labels.category_pill.special_long
+many pages (labels),category page pill,classic style category,global.labels.category_pill.classic_long
+many pages (labels),chart label suffix,(special),pages.analysis-report.top_categories.special_suffix
+many pages (labels),estimate basis label,Estimated from brewery type,global.labels.estimate_basis.type-heuristic
+many pages (labels),estimate basis label,Brewery of the Year size bracket,global.labels.estimate_basis.boty-bracket
+many pages (labels),estimate basis label,Curated estimate,global.labels.estimate_basis.estimate
+many pages (labels),estimate basis label,Reported,global.labels.estimate_basis.reported
+many pages (labels),estimate basis label,Size bracket,global.labels.estimate_basis.bracket
+many pages (labels),estimate basis label,Curated estimate,global.labels.estimate_basis.curated
+many pages (labels),estimate basis label,Estimated from brewery type,global.labels.estimate_basis.heuristic
+many pages (labels),estimate basis label,Brewery profile estimate,global.labels.estimate_basis.profile estimate
+main build (raw values),estimate basis,type-heuristic,global.labels.estimate_basis.type-heuristic
+main build (raw values),estimate basis,boty-bracket,global.labels.estimate_basis.boty-bracket
+main build (raw values),estimate basis,estimate,global.labels.estimate_basis.estimate
+many pages (labels),confidence,{{confidence}} confidence,global.labels.confidence.low
+many pages (labels),first time label,First medal in the loaded record,global.labels.first_time.new
+many pages (labels),first time label,First medal in the complete record,global.labels.first_time.new-complete
+many pages (labels),year status,Medaled,global.labels.trend_status.medaled
+many pages (labels),year status,"Competed or eligible, no medal recorded",global.labels.trend_status.no-medal
+many pages (labels),year status,Brewery did not exist yet,global.labels.trend_status.did-not-exist
+many pages (labels),year status,Brewery closed,global.labels.trend_status.closed
+many pages (labels),year status,Results not yet published,global.labels.trend_status.not-yet-reported
+many pages (labels),year status,Year only partially loaded,global.labels.trend_status.no-data
+many pages (labels),year status,No results loaded for this year,global.labels.trend_status.no-results
+many pages (labels),chart note under year,not yet founded,global.labels.trend_status_short.did-not-exist
+many pages (labels),chart note under year,pending,global.labels.trend_status_short.not-yet-reported
+many pages (labels),chart note under year,partial,global.labels.trend_status_short.no-data
+many pages (labels),chart note under year,not loaded,global.labels.trend_status_short.no-results
+many pages (labels),chart note under year,closed,global.labels.trend_status_short.closed
+many pages (labels),chart note glyph (phone),…,global.labels.trend_status_glyph.not-yet-reported
+many pages (labels),chart note glyph (phone),·,global.labels.trend_status_glyph.no-data
+many pages (labels),chart note glyph (phone),·,global.labels.trend_status_glyph.draft
+many pages (labels),chart note glyph (phone),○,global.labels.trend_status_glyph.no-results
+many pages (labels),chart note glyph (phone),×,global.labels.trend_status_glyph.did-not-exist
+many pages (labels),chart note glyph (phone),×,global.labels.trend_status_glyph.closed
+many pages (labels),year pill and coverage column,complete,global.labels.coverage.complete
+many pages (labels),year pill and coverage column,partial,global.labels.coverage.partial
+many pages (labels),year pill and coverage column,draft,global.labels.coverage.draft
+many pages (labels),year pill and coverage column,pending,global.labels.coverage.pending
+many pages (labels),year pill,{{year}} · {{coverage}},pages.results-by-year.coverage.pill
+many pages (labels),year pill tooltip,{{coverage}},pages.results-by-year.coverage.pill_tooltip
+many pages (labels),ABV band option,Under 4.0%,global.labels.abv_band.under-4
+many pages (labels),ABV band option,4.0% to 4.9%,global.labels.abv_band.4-to-5
+many pages (labels),ABV band option,5.0% to 5.9%,global.labels.abv_band.5-to-6
+many pages (labels),ABV band option,6.0% to 6.9%,global.labels.abv_band.6-to-7
+many pages (labels),ABV band option,7.0% to 7.9%,global.labels.abv_band.7-to-8
+many pages (labels),ABV band option,8.0% to 9.9%,global.labels.abv_band.8-to-10
+many pages (labels),ABV band option,10.0% and up,global.labels.abv_band.10-plus
+many pages (labels),style family,IPA,global.labels.style_family.IPA
+many pages (labels),style family,Pale Ale,global.labels.style_family.Pale Ale
+many pages (labels),style family,Lager,global.labels.style_family.Lager
+many pages (labels),style family,Pilsner,global.labels.style_family.Pilsner
+many pages (labels),style family,Wheat,global.labels.style_family.Wheat
+many pages (labels),style family,Stout and Porter,global.labels.style_family.Stout and Porter
+many pages (labels),style family,Belgian and French,global.labels.style_family.Belgian and French
+many pages (labels),style family,Sour and Wild,global.labels.style_family.Sour and Wild
+many pages (labels),style family,Strong and Barrel-Aged,global.labels.style_family.Strong and Barrel-Aged
+many pages (labels),style family,"Brown, Amber, and Red","global.labels.style_family.Brown, Amber, and Red"
+many pages (labels),style family,British and Irish,global.labels.style_family.British and Irish
+many pages (labels),style family,German Ale,global.labels.style_family.German Ale
+many pages (labels),style family,"Fruit, Spice, and Specialty","global.labels.style_family.Fruit, Spice, and Specialty"
+many pages (labels),style family,Smoke and Wood,global.labels.style_family.Smoke and Wood
+many pages (labels),style family,Gluten-Free and Non-Alcoholic,global.labels.style_family.Gluten-Free and Non-Alcoholic
+many pages (labels),style family,Cider and Mead,global.labels.style_family.Cider and Mead
+many pages (labels),style family,Pro-Am and Collaboration,global.labels.style_family.Pro-Am and Collaboration
+many pages (labels),style family,Other,global.labels.style_family.Other
+many pages (labels),style family,Fruit,global.labels.style_family.Fruit
+many pages (labels),style family,Brown,global.labels.style_family.Brown
+many pages (labels),Fed district name,Boston,global.labels.fed_district.1
+many pages (labels),Fed district name,New York,global.labels.fed_district.2
+many pages (labels),Fed district name,Philadelphia,global.labels.fed_district.3
+many pages (labels),Fed district name,Cleveland,global.labels.fed_district.4
+many pages (labels),Fed district name,Richmond,global.labels.fed_district.5
+many pages (labels),Fed district name,Atlanta,global.labels.fed_district.6
+many pages (labels),Fed district name,Chicago,global.labels.fed_district.7
+many pages (labels),Fed district name,St. Louis,global.labels.fed_district.8
+many pages (labels),Fed district name,Minneapolis,global.labels.fed_district.9
+many pages (labels),Fed district name,Kansas City,global.labels.fed_district.10
+many pages (labels),Fed district name,Dallas,global.labels.fed_district.11
+many pages (labels),Fed district name,San Francisco,global.labels.fed_district.12
+many pages (labels),Fed district label,{{number}} {{name}},global.labels.fed_district.label_format
+many pages (labels),region,(unknown),global.states.gaps.not_defined
+geography dashboard,controls table header,Real GDP per capita (chained 2017 USD),global.labels.indicator.gdp_per_capita_real
+geography dashboard,controls table header,Median household income (2024 USD),global.labels.indicator.median_household_income
+geography dashboard,controls table header,Median age,global.labels.indicator.median_age
+geography dashboard,controls table header,Share 21 and over (%),global.labels.indicator.share_21_plus
+geography dashboard,controls table header,Bachelor's or higher (%),global.labels.indicator.share_bachelors_or_higher
+geography dashboard,controls table header,High school or higher (%),global.labels.indicator.share_hs_or_higher
+geography dashboard,controls table header,Poverty rate (%),global.labels.indicator.poverty_rate
+geography dashboard,controls table header,"White, not Hispanic (%)",global.labels.indicator.share_nh_white
+geography dashboard,controls table header,"Black, not Hispanic (%)",global.labels.indicator.share_nh_black
+geography dashboard,controls table header,Hispanic or Latino (%),global.labels.indicator.share_hispanic
+geography dashboard,controls table header,"Asian, not Hispanic (%)",global.labels.indicator.share_nh_asian
+geography dashboard,controls table header,Urban share 2020 (%),global.labels.indicator.urban_share
+geography dashboard,controls table header,"Literacy at or below Level 1 (%, modeled)",global.labels.indicator.literacy_level1_or_below
+geography dashboard,controls table header,Life expectancy 2022,global.labels.indicator.life_expectancy
+geography dashboard,controls table header,Real GDP per capita 2025 (chained 2017 USD),global.labels.indicator.gdp_per_capita_real_latest
+many pages (labels),points explanation,"gold 3, silver 2, bronze 1",global.labels.points.explanation
+every chart,toolbox,Save PNG,global.charts.toolbox.save_png
+every chart,toolbox,Data,global.charts.toolbox.data
+every chart,toolbox data view,Close,global.charts.toolbox.data_close
+every chart,toolbox data view,Refresh,global.charts.toolbox.data_refresh
+every chart,toolbox,Reset,global.charts.toolbox.reset
+every chart,table disclosure,Table view,global.charts.table_view.summary
+every chart,tooltip,{b}: {c},global.charts.tooltip.value
+every chart,tooltip,{b}: {c} medals,global.charts.tooltip.value_with_unit
+every chart,tooltip,"{b}: {c} (Entries, Breweries)",global.charts.tooltip.scatter
+every chart,series name,Medals,global.charts.units.medals
+every chart,series name,Points,global.charts.units.points
+every chart,series name,Entries,global.charts.units.entries
+every chart,series name,Entrants,global.charts.units.entrants
+every chart,axis name,Breweries,global.charts.units.breweries
+every chart,series name,Per million,global.charts.units.per_million
+every chart,series name,Per $100B,global.charts.units.per_100b_gdp
+every chart,series name,Entries per medal,global.charts.units.entries_per_medal
+every chart,series name,Revenue USD,global.charts.units.revenue
+every chart,series name,ARR USD,global.charts.units.arr
+every chart,legend,Classic style categories,global.charts.legend.classic
+every chart,legend,Special categories,global.charts.legend.special
+every chart,legend,Other,global.charts.legend.other
+every chart,legend,Breweries entering,global.charts.legend.breweries_entering
+every chart,legend,Winning breweries,global.charts.legend.winning_breweries
+every chart,table view header,Name,global.charts.table_columns.name
+every chart,table view header,Value,global.charts.table_columns.value
+many pages (tables),medal table header,Year,global.tables.medal_columns.year
+many pages (tables),medal table header,Medal,global.tables.medal_columns.medal
+many pages (tables),medal table header,Beer,global.tables.medal_columns.beer
+many pages (tables),medal table header,Brewery,global.tables.medal_columns.brewery
+many pages (tables),medal table header,Location credited,global.tables.medal_columns.location_credited
+many pages (tables),medal table header,City,global.tables.medal_columns.city
+many pages (tables),medal table header,Category,global.tables.medal_columns.category
+many pages (tables),medal table header,Entrants,global.tables.medal_columns.entrants
+many pages (tables),medal table header,Field (entries),global.tables.medal_columns.field
+many pages (tables),medal table header,Entries per medal,global.tables.medal_columns.entries_per_medal
+many pages (tables),medal table header,Style family,global.tables.medal_columns.style_family
+many pages (tables),medal table header,ABV,global.tables.medal_columns.abv
+many pages (tables),medal table header,Ownership,global.tables.medal_columns.ownership
+many pages (tables),medal table header,Distribution,global.tables.medal_columns.distribution
+many pages (tables),medal table header,Notes,global.tables.medal_columns.notes
+many pages (tables),medal table header,Competition,global.tables.medal_columns.competition
+many pages (tables),medal table cell,{{min}} to {{max}}% (style),global.tables.medal_columns.abv_style_value
+many pages (tables),medal table header,Entries,global.charts.units.entries
+many pages (tables),brewery table header,#,global.tables.brewery_columns.rank
+many pages (tables),brewery table header,HQ,global.tables.brewery_columns.hq
+many pages (tables),brewery table header,Type,global.tables.brewery_columns.type
+many pages (tables),brewery table header,Medals,global.tables.brewery_columns.medals
+many pages (tables),brewery table header,G / S / B,global.tables.brewery_columns.medal_split
+many pages (tables),brewery table header,Points,global.tables.brewery_columns.points
+many pages (tables),brewery table header,First,global.tables.brewery_columns.first
+many pages (tables),brewery table header,First in view,global.tables.brewery_columns.first_in_view
+many pages (tables),brewery table header,Latest,global.tables.brewery_columns.latest
+many pages (tables),brewery table header,Streak,global.tables.brewery_columns.streak
+many pages (tables),brewery table header,ARR (E),global.tables.brewery_columns.arr
+many pages (tables),category table header,ABV (style),global.tables.category_columns.abv
+many pages (tables),category table header,Latest entrants,global.tables.category_columns.latest_entrants
+many pages (tables),category table header,Medals in view,global.tables.category_columns.medals_in_view
+many pages (tables),category table header,Medals loaded,global.tables.category_columns.medals_in_view
+many pages (tables),category table header,Years,global.tables.category_columns.years
+many pages (tables),category table cell,{{min}} to {{max}}%,global.tables.category_columns.abv_value
+many pages (tables),place table header,State,global.tables.place_columns.state
+many pages (tables),place table header,Region,global.tables.place_columns.region
+many pages (tables),place table header,Division,global.tables.place_columns.division
+many pages (tables),place table header,District,global.tables.place_columns.district
+many pages (tables),place table header,Gold,global.tables.place_columns.gold
+many pages (tables),place table header,Breweries,global.tables.place_columns.breweries
+many pages (tables),place table header,States,global.tables.place_columns.states
+many pages (tables),place table header,Population {{year}},global.tables.place_columns.population
+many pages (tables),place table header,{{year}},global.tables.place_columns.latest_year
+many pages (tables),place table header,Per million,global.tables.place_columns.per_million
+many pages (tables),place table header,Per $100B real GDP,global.tables.place_columns.per_100b_gdp
+many pages (tables),place table header,Per $100B real GDP (E),global.tables.place_columns.per_100b_gdp_estimate
+many pages (tables),table pager,"Showing {{shown}} of {{total}} medals, newest first.",global.tables.pager.showing
+many pages (tables),table pager button,Show {{count}} more,global.tables.pager.show_more
+many pages (tables),table pager button,Show all,global.tables.pager.show_all
+many pages (tables),dashboard button,Download the medals in view (CSV),global.tables.download.button
+many pages (tables),sort hint,Click a column to sort.,global.tables.sorting.hint
+dashboards,browser tab,Dashboards,global.navigation.page_titles.dashboards
+dashboards,browser tab,{{dashboard}} dashboard,global.navigation.page_titles.dashboard_detail
+dashboards,meta description,Interactive Great American Beer Festival medal dashboards.,global.navigation.page_descriptions.dashboards
+dashboards,meta description,All dashboards.,global.navigation.page_descriptions.dashboards
+dashboards,meta description,"GABF medals by state, region, Federal Reserve district, per capita, and per GDP.",pages.dashboards.index.geography_description
+dashboards,meta description,GABF entrants by category and special categories.,pages.dashboards.index.categories_description
+dashboards,meta description,Per-brewery GABF medal trends.,pages.dashboards.index.breweries_description
+dashboards,meta description,"Ownership, investors, and estimated brewery economics.",pages.dashboards.index.economics_description
+dashboards,tab row and index,Overview,pages.dashboards.index.overview
+dashboards,index description,"Medals by year, state, style family, and brewery with every filter.",pages.dashboards.index.overview_description
+dashboards,tab row and index,Geography,pages.dashboards.index.geography
+dashboards,index description,"US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per real GDP, demographic controls.",pages.dashboards.index.geography_description
+dashboards,tab row and index,Categories,pages.dashboards.index.categories
+dashboards,index description,"Entrants by category, classic versus special categories, category size versus medal spread.",pages.dashboards.index.categories_description
+dashboards,tab row and index,Breweries,pages.dashboards.index.breweries
+dashboards,index description,"Pick a brewery: medals by year, by category, and by location.",pages.dashboards.index.breweries_description
+dashboards,tab row and index,Ownership and economics,pages.dashboards.index.economics
+dashboards,index description,"Ownership share, parents, estimated revenue, ARR, margins, distribution.",pages.dashboards.index.economics_description
+/ (overview dashboard),h1,Great American Beer Festival results dashboards,pages.dashboards.overview.title
+/ (overview dashboard),lede (site-polish),"Which states, styles, and breweries keep winning at the Great American Beer Festival. Start with the medal count by year, then see where the medals land on the map, which style families collect the most, and which breweries lead on points. The Filters button in the header narrows every page; click a bar, column, or state to focus it.",pages.dashboards.overview.lede
+/ (overview dashboard),lede (main),"Every medal from the official winners lists with linked filters: year, medal, classic or special category, style family, category, region, state, brewery type, ownership, distribution, ABV band, and search. Every panel and the table read the same slice, panels respond to clicks, and each chart saves as a PNG from its toolbox.",pages.dashboards.overview.lede
+/ (overview dashboard),h2,results,pages.dashboards.overview.results_title
+/ (overview dashboard),h2,featured-deep-dives,pages.dashboards.overview.deep_dives_title
+/ (overview dashboard),deep dive list item,"{{city}}, {{state}} · {{count}} GABF medals in the loaded data",pages.dashboards.overview.deep_dive_meta
+/dashboards/geography/,h1,geography,pages.dashboards.geography.title
+/dashboards/geography/,lede,"Where the medals go: the US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP using each medal year's population and GDP, and the demographic controls side by side. Click a state, region, or district to focus the other panels.",pages.dashboards.geography.lede
+/dashboards/geography/,h2,controls-by-state-and-district,pages.dashboards.geography.controls_title
+/dashboards/geography/,controls select label,Rows,pages.dashboards.geography.controls_rows
+/dashboards/geography/,controls select option,States,pages.dashboards.geography.controls_states
+/dashboards/geography/,controls select option,Federal Reserve districts,pages.dashboards.geography.controls_districts
+/dashboards/geography/,controls note,"Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are in docs/data-sources.md.",pages.dashboards.geography.controls_note
+/dashboards/categories/,h1,categories,pages.dashboards.categories.title
+/dashboards/categories/,lede,"Total entrants by category from the official category headers, with special categories (added ingredient, process, or catch all) marked, the classic versus special split by year, and category size against how many breweries medal.",pages.dashboards.categories.lede
+/dashboards/breweries/,h1,breweries,pages.dashboards.breweries.title
+/dashboards/breweries/,lede (site-polish),"Pick a brewery to see its medal trend (years before it opened and years not yet published are marked), its categories, and the locations credited. The global filter still scopes the stats and table.",pages.dashboards.breweries.lede
+/dashboards/breweries/,lede (main),"Pick a brewery to see its ten-year medal trend (with did-not-exist and not-yet-reported years marked), its categories, and the locations credited. The filters above still scope the stats and table.",pages.dashboards.breweries.lede
+/dashboards/breweries/,picker label,Brewery,pages.dashboards.breweries.picker_label
+/dashboards/breweries/,picker option,{{brewery_name}} ({{count}}),pages.dashboards.breweries.picker_option
+/dashboards/breweries/,picker meta,founded {{year}},pages.dashboards.breweries.picker_meta_founded
+/dashboards/breweries/,picker link,open profile,pages.dashboards.breweries.picker_profile_link
+/dashboards/breweries/,empty,Pick a brewery above.,pages.dashboards.breweries.pick_prompt
+/dashboards/economics/,h1,ownership-and-economics,pages.dashboards.economics.title
+/dashboards/economics/,lede,"Who owns the medalists and what they are worth: ownership share, parent companies, and estimated revenue, ARR, gross margin, EBITDA, and distribution channel per brewery. Every financial figure is an estimate (E); the method is on the About page.",pages.dashboards.economics.lede
+/dashboards/economics/,h2,financials-by-brewery,pages.dashboards.economics.table_title
+/dashboards/economics/,financial table header,Brewery,pages.dashboards.economics.columns.brewery
+/dashboards/economics/,financial table header,Type,pages.dashboards.economics.columns.type
+/dashboards/economics/,financial table header,Barrels (E),pages.dashboards.economics.columns.barrels
+/dashboards/economics/,financial table header,ARR USD (E),pages.dashboards.economics.columns.arr
+/dashboards/economics/,financial table header,Gross margin (E),pages.dashboards.economics.columns.gross_margin
+/dashboards/economics/,financial table header,EBITDA USD (E),pages.dashboards.economics.columns.ebitda
+/dashboards/economics/,financial table header,Distribution,pages.dashboards.economics.columns.distribution
+/dashboards/economics/,financial table header,Ownership,pages.dashboards.economics.columns.ownership
+/dashboards/economics/,financial table header,Volume basis,pages.dashboards.economics.columns.basis
+/dashboards/economics/,financial table cell,{{ebitda}} ({{low}} to {{high}}%),pages.dashboards.economics.columns.ebitda_value
+dashboards,stat tile,Medals in view,pages.dashboards.stats.medals
+dashboards,stat tile,Breweries,pages.dashboards.stats.breweries
+dashboards,stat tile,States,pages.dashboards.stats.states
+dashboards,stat tile,Categories,pages.dashboards.stats.categories
+dashboards,stat tile note,{{count}} medals in special categories,pages.dashboards.stats.categories_note
+dashboards,stat tile,"Gold, silver, bronze",pages.dashboards.stats.medal_split
+dashboards,stat tile (main),Gold / Silver / Bronze,pages.dashboards.stats.medal_split
+dashboards,stat tile,Entrants in categories shown,pages.dashboards.stats.entrants
+dashboards,stat tile note,sum of category entry counts,pages.dashboards.stats.entrants_note
+dashboards,stat tile value,n/a,pages.dashboards.stats.entrants_missing
+dashboards,dashboard error,"The medal data could not be loaded, so the dashboard cannot draw. Check the connection and reload the page. If the site was opened from a file, serve the dist folder instead (npm run serve).",global.states.errors.dashboard_load
+dashboards (panels),chart title,Medals by year,pages.dashboards.panels.medals_by_year.title
+dashboards (panels),chart subtitle,stacked by medal; click a column to focus that year,pages.dashboards.panels.medals_by_year.subtitle
+dashboards (panels),table view header,Coverage,pages.dashboards.panels.medals_by_year.coverage_column
+dashboards (panels),chart title,Medals by state,pages.dashboards.panels.map.title
+dashboards (panels),chart subtitle,click a state to focus it,pages.dashboards.panels.map.subtitle
+dashboards (panels),chart title,Medals by style family,pages.dashboards.panels.by_family.title
+dashboards (panels),chart subtitle,click to focus a family,pages.dashboards.panels.by_family.subtitle
+dashboards (panels),chart title,Top breweries,pages.dashboards.panels.top_breweries.title
+dashboards (panels),chart subtitle,"ranked by points (gold 3, silver 2, bronze 1); click to open the brewery",pages.dashboards.panels.top_breweries.subtitle
+dashboards (panels),chart title,Medals by Census region,pages.dashboards.panels.by_region.title
+dashboards (panels),chart title,Medals by Census division,pages.dashboards.panels.by_division.title
+dashboards (panels),chart title,Medals per million residents by state,pages.dashboards.panels.per_capita.title
+dashboards (panels),chart subtitle,each medal against its year's Census population estimate; 2026 uses 2025,pages.dashboards.panels.per_capita.subtitle
+dashboards (panels),chart title,Medals per $100 billion of real GDP by state,pages.dashboards.panels.per_gdp.title
+dashboards (panels),chart subtitle,BEA real GDP (chained 2017 dollars) in each medal's year; 2026 uses 2025,pages.dashboards.panels.per_gdp.subtitle
+dashboards (panels),chart title,Medals by Federal Reserve district,pages.dashboards.panels.by_fed_district.title
+dashboards (panels),chart subtitle,most medals first; split states assigned by the medal city county; click to focus a district,pages.dashboards.panels.by_fed_district.subtitle
+dashboards (panels),chart note,"{{count}} medals in view sit in West Virginia, which is assigned whole to the Richmond district as an approximation (no primary county list).",pages.dashboards.panels.by_fed_district.note_many
+dashboards (panels),chart title,Medals per million residents by Fed district,pages.dashboards.panels.district_rates.title
+dashboards (panels),chart subtitle,"district population from whole states plus split state counties, per medal year",pages.dashboards.panels.district_rates.subtitle
+dashboards (panels),chart note,Per $100B real GDP is in the table view; split state GDP is apportioned by county GDP shares (E).,pages.dashboards.panels.district_rates.note
+dashboards (panels),chart title,Entrants by category,pages.dashboards.panels.entrants.title
+dashboards (panels),chart subtitle,"entries judged, most competitive first; special categories marked; click to focus",pages.dashboards.panels.entrants.subtitle
+dashboards (panels),chart note,Entry counts come from the category headers of the official list; a year loaded only from seed rows shows counts for those rows alone.,pages.dashboards.panels.entrants.note
+dashboards (panels),chart title,Hardest categories to medal in,pages.dashboards.panels.entry_odds.title
+dashboards (panels),chart subtitle,"entries per medal, highest first; click to focus a category",pages.dashboards.panels.entry_odds.subtitle
+dashboards (panels),chart title,Classic versus special categories by year,pages.dashboards.panels.special_share.title
+dashboards (panels),chart title,Category size versus medal spread,pages.dashboards.panels.entries_vs_breweries.title
+dashboards (panels),chart subtitle,entries judged against distinct medal winning breweries across loaded years,pages.dashboards.panels.entries_vs_breweries.subtitle
+dashboards (panels),chart title,Brewery medals by year,pages.dashboards.panels.brewery_trend.title
+dashboards (panels),chart subtitle,"{{brewery_name}}, all medals in the record",pages.dashboards.panels.brewery_trend.subtitle
+dashboards (panels),chart title,Brewery medals by category,pages.dashboards.panels.brewery_categories.title
+dashboards (panels),chart title,Brewery medals by location credited,pages.dashboards.panels.brewery_locations.title
+dashboards (panels),chart title,Medals by ownership type,pages.dashboards.panels.ownership_share.title
+dashboards (panels),table view header,Ownership type,global.tables.medal_columns.ownership
+dashboards (panels),chart title,Medals by parent company,pages.dashboards.panels.parents.title
+dashboards (panels),chart subtitle,owners that are not independent,pages.dashboards.panels.parents.subtitle
+dashboards (panels),empty panel,No medalist in view is owned by a large brewer or conglomerate.,pages.dashboards.panels.parents.empty
+dashboards (panels),chart title,Estimated annual revenue by brewery (E),pages.dashboards.panels.revenue.title
+dashboards (panels),chart subtitle,"breweries in view, estimate method in About",pages.dashboards.panels.revenue.subtitle
+dashboards (panels),table view header,Basis,pages.dashboards.panels.revenue.basis_column
+dashboards (panels),chart title,Entries judged by year,pages.dashboards.panels.entries_trend.title
+dashboards (panels),chart subtitle,Brewers Association totals; years without a published figure are left blank,pages.dashboards.panels.entries_trend.subtitle
+dashboards (panels),chart title,Medals awarded and winning breweries,pages.dashboards.panels.medals_trend.title
+dashboards (panels),chart subtitle,Brewers Association totals; blank years have no published figure,pages.dashboards.panels.medals_trend.subtitle
+single file dashboard (gabf-dashboard.html),browser tab,GABF Analysis dashboard,pages.dashboards.single_file.title
+single file dashboard (gabf-dashboard.html),meta description,Interactive Great American Beer Festival results dashboard. One self-contained file; open it directly in a browser.,pages.dashboards.single_file.description
+single file dashboard (gabf-dashboard.html),h1,Great American Beer Festival results dashboard,pages.dashboards.single_file.title
+single file dashboard (gabf-dashboard.html),nav label,Dashboards,pages.dashboards.index.title
+single file dashboard (gabf-dashboard.html),tab,Overview,pages.dashboards.single_file.tabs.overview
+single file dashboard (gabf-dashboard.html),tab,Geography,pages.dashboards.single_file.tabs.geography
+single file dashboard (gabf-dashboard.html),tab,Categories,pages.dashboards.single_file.tabs.categories
+single file dashboard (gabf-dashboard.html),tab,Breweries,pages.dashboards.single_file.tabs.breweries
+single file dashboard (gabf-dashboard.html),tab,Ownership and economics,pages.dashboards.single_file.tabs.economics
+single file dashboard (gabf-dashboard.html),tab,Data,pages.dashboards.single_file.tabs.data
+single file dashboard (gabf-dashboard.html),tab,About,pages.dashboards.single_file.tabs.about
+single file dashboard (gabf-dashboard.html),filters tooltip,Filter every tab (shortcut: f),pages.dashboards.single_file.tab_tooltip
+single file dashboard (gabf-dashboard.html),lede (file),"Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.",pages.dashboards.single_file.lede_file
+single file dashboard (gabf-dashboard.html),lede (hosted),"Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), and each chart saves as a PNG from its toolbox. All data is embedded in this page.",pages.dashboards.single_file.lede_hosted
+single file dashboard (gabf-dashboard.html),about notice (file),"This is the single-file build: all data is embedded in this file as of the last build, so it works offline and nothing leaves your machine. To refresh it after loading new results, run npm run build:standalone and open the regenerated file.",pages.dashboards.single_file.about_file
+single file dashboard (gabf-dashboard.html),about notice (hosted),"This is a hosted copy of the single-file build: all data is embedded in this page as of the last build, and the page makes no network requests. To refresh it after loading new results, run npm run build:standalone and publish the regenerated hosted copy.",pages.dashboards.single_file.about_hosted
+single file dashboard (gabf-dashboard.html),footer,Results from the Brewers Association's official Great American Beer Festival winners lists. Charts by Apache ECharts. Estimates are marked (E).,global.site.footer.sources
+single file dashboard (gabf-dashboard.html),footer build note,Built from {{rows}} medal rows across {{years}} years (latest loaded: {{latest}}) and {{breweries}} breweries.,global.site.single_file_footer.build_note
+single file dashboard (gabf-dashboard.html),h2,results,pages.dashboards.single_file.results_title
+single file dashboard (gabf-dashboard.html),brewery tab notice,"No deep dive for this brewery yet. Scaffold one with node scripts/scaffold-brewery.mjs --brewery ""{{brewery_name}}"", fill it in, and rebuild this file.",pages.brewery-detail.deep_dive.missing
+single file dashboard (gabf-dashboard.html),brewery tab notice,Some years for this brewery come from seed rows (secondary sources) rather than the ingested official list. The official list wins once it is loaded.,global.states.partial_brewery.notice
+/breweries/,browser tab and h1,Breweries,pages.breweries-index.header.title
+/breweries/,h1 (main),breweries,pages.breweries-index.header.title
+/breweries/,meta description,Every medal winning brewery in the loaded GABF results.,global.navigation.page_descriptions.breweries_index
+/breweries/,lede (site-polish),"Every medal winning brewery in the loaded results, ranked by points (gold 3, silver 2, bronze 1). Use Filters in the header to narrow by year, style, place, or ownership, or search by name. ARR is an estimate (E).",pages.breweries-index.header.lede
+/breweries/,lede (main),"{{count}} breweries in the loaded results, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort. Type to filter. ARR is an estimate (E).",pages.breweries-index.header.lede
+/breweries/,search placeholder (main),"Filter by name, city, state, type, or ownership",global.filters.search.placeholder
+/breweries/,table note,"{{count}} breweries with medals in view, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort.",pages.breweries-index.table.count
+/breweries/,table pill,deep dive,pages.breweries-index.table.deep_dive_pill
+/breweries/,ownership cell (main),unlisted,global.labels.ownership_type.unlisted
+/breweries/{slug}/,meta description,"{{brewery_name}}: GABF medal history, locations, ownership, distribution, and scale estimates.",global.navigation.page_descriptions.brewery_detail
+/breweries/{slug}/,breadcrumb,All breweries,pages.brewery-detail.links.back
+/breweries/{slug}/,breadcrumb,open in the breweries dashboard,pages.brewery-detail.links.dashboard
+/breweries/{slug}/,lede link,website,pages.brewery-detail.links.website
+/breweries/{slug}/,pill,founded {{year}},pages.brewery-detail.pills.founded
+/breweries/{slug}/,pill,{{count}} year medal streak,pages.brewery-detail.pills.streak
+/breweries/{slug}/,pill (main),{{count}}-year medal streak,pages.brewery-detail.pills.streak
+/breweries/{slug}/,pill,{{ownership}}: {{parent}},pages.brewery-detail.pills.owner_with_parent
+/breweries/{slug}/,partial notice (main),Some years for this brewery come from seed rows (secondary sources) rather than the ingested official list. The official list wins when it is loaded.,global.states.partial_brewery.notice
+/breweries/{slug}/,stat tile,GABF medals in view,pages.brewery-detail.stats.medals
+/breweries/{slug}/,stat tile (main),GABF medals loaded,pages.brewery-detail.stats.medals
+/breweries/{slug}/,stat tile note (main),some years partial,global.states.partial_brewery.notice
+/breweries/{slug}/,stat tile,"Gold, silver, bronze",pages.brewery-detail.stats.medal_split
+/breweries/{slug}/,stat tile (main),Gold / Silver / Bronze,pages.brewery-detail.stats.medal_split
+/breweries/{slug}/,stat tile,First medal in view,pages.brewery-detail.stats.first_medal
+/breweries/{slug}/,stat tile (main),First GABF medal (loaded),pages.brewery-detail.stats.first_medal
+/breweries/{slug}/,stat tile value,none,pages.brewery-detail.stats.first_medal_none
+/breweries/{slug}/,stat tile,Categories medaled,pages.brewery-detail.stats.categories
+/breweries/{slug}/,stat tile note,{{count}} in special categories,pages.brewery-detail.stats.categories_note
+/breweries/{slug}/,stat tile,Estimated barrels per year,pages.brewery-detail.stats.barrels
+/breweries/{slug}/,stat tile (main),Estimated barrels / year,pages.brewery-detail.stats.barrels
+/breweries/{slug}/,stat tile note,reported,pages.brewery-detail.stats.barrels_note_reported
+/breweries/{slug}/,stat tile note,estimate (E),pages.brewery-detail.stats.barrels_note_estimate
+/breweries/{slug}/,stat tile,Estimated ARR,pages.brewery-detail.stats.arr
+/breweries/{slug}/,stat tile note,EBITDA {{ebitda}} at {{margin}} (E),pages.brewery-detail.stats.arr_note
+/breweries/{slug}/,chart title,GABF medals by year,pages.brewery-detail.charts.by_year_title
+/breweries/{slug}/,chart subtitle,"{{brewery_name}}, {{first_year}} to {{last_year}}",pages.brewery-detail.charts.by_year_subtitle
+/breweries/{slug}/,chart note (main),"Labels under the axis: not yet founded, pending (results not yet published), partial (year only partially loaded), not loaded.",pages.brewery-detail.charts.by_year_note
+/breweries/{slug}/,chart table header,Status,pages.brewery-detail.charts.table_status
+/breweries/{slug}/,chart title,GABF medals by style family,pages.brewery-detail.charts.by_family_title
+/breweries/{slug}/,chart subtitle (main),all loaded years,(removed)
+/breweries/{slug}/,chart title,GABF medals by location credited,pages.brewery-detail.charts.by_location_title
+/breweries/{slug}/,chart subtitle,as printed in the winners list,pages.brewery-detail.charts.by_location_subtitle
+/breweries/{slug}/,chart title,GABF medals by category,pages.brewery-detail.charts.by_category_title
+/breweries/{slug}/,h2,gabf-medal-history,pages.brewery-detail.history.title
+/breweries/{slug}/,history note,"Field is the number of entries in the category that year, from the official list; entries per medal divides it by the medals awarded there.",pages.brewery-detail.history.note
+/breweries/{slug}/,history empty,No GABF medals in the loaded data.,pages.brewery-detail.history.empty
+/breweries/{slug}/,h2,recent-trend,pages.brewery-detail.recent.title
+/breweries/{slug}/,recent line,{{count}} medals: {{split}},pages.brewery-detail.recent.line
+/breweries/{slug}/,recent line,{{count}} medal: {{split}},pages.brewery-detail.recent.line_one
+/breweries/{slug}/,recent split,{{count}} gold,pages.brewery-detail.recent.split_gold
+/breweries/{slug}/,recent split,{{count}} silver,pages.brewery-detail.recent.split_silver
+/breweries/{slug}/,recent split,{{count}} bronze,pages.brewery-detail.recent.split_bronze
+/breweries/{slug}/,recent status,No medal in view,pages.brewery-detail.recent.no_medal
+/breweries/{slug}/,h2,profile,pages.brewery-detail.profile.title
+/breweries/{slug}/,profile label,Type,pages.brewery-detail.profile.type
+/breweries/{slug}/,profile label,Headquarters,pages.brewery-detail.profile.headquarters
+/breweries/{slug}/,profile label,Founded,pages.brewery-detail.profile.founded
+/breweries/{slug}/,profile label,Employees,pages.brewery-detail.profile.employees
+/breweries/{slug}/,profile label,Website,pages.brewery-detail.profile.website
+/breweries/{slug}/,profile label,Locations,pages.brewery-detail.profile.locations
+/breweries/{slug}/,profile label,Known for,pages.brewery-detail.profile.known_for
+/breweries/{slug}/,profile value,{{count}} (reported),pages.brewery-detail.profile.employees_value
+/breweries/{slug}/,profile value,unknown,pages.brewery-detail.profile.missing
+/breweries/{slug}/,profile value,{{name}}: {{address}},pages.brewery-detail.profile.location_line
+/breweries/{slug}/,profile value,(opened {{year}}),pages.brewery-detail.profile.location_opened
+/breweries/{slug}/,profile value,", kitchen",pages.brewery-detail.profile.location_kitchen
+/breweries/{slug}/,profile link,map,pages.brewery-detail.profile.location_map
+/breweries/{slug}/,profile value,{{count}} location(s) seen in results; run the enrichment for addresses,pages.brewery-detail.profile.locations_missing
+/breweries/{slug}/,profile value,no medals loaded,pages.brewery-detail.profile.known_for_missing
+/breweries/{slug}/,h3,ownership-and-investors,pages.brewery-detail.ownership.title
+/breweries/{slug}/,ownership label,Ownership,pages.brewery-detail.ownership.type
+/breweries/{slug}/,ownership label,Parent,pages.brewery-detail.ownership.parent
+/breweries/{slug}/,ownership label,Investors,pages.brewery-detail.ownership.investors
+/breweries/{slug}/,ownership label,Stake,pages.brewery-detail.ownership.stake
+/breweries/{slug}/,ownership label,BA independent,pages.brewery-detail.ownership.ba_independent
+/breweries/{slug}/,ownership label,Status,pages.brewery-detail.ownership.status
+/breweries/{slug}/,ownership label,Source,pages.brewery-detail.ownership.source
+/breweries/{slug}/,ownership value,"{{stake}}, {{year}}",pages.brewery-detail.ownership.stake_value
+/breweries/{slug}/,ownership value,yes,global.labels.yes_no.yes
+/breweries/{slug}/,ownership value,no,global.labels.yes_no.no
+/breweries/{slug}/,ownership source note,(curated from public announcements; not checked again since),pages.brewery-detail.ownership.unverified
+/breweries/{slug}/,ownership source note (main),(curated from public announcements; not re-verified),pages.brewery-detail.ownership.unverified
+/breweries/{slug}/,ownership missing,"Not in the ownership table yet. Independent until shown otherwise; add a row to data/reference/ownership.csv when a deal, investor, or parent is confirmed.",pages.brewery-detail.ownership.missing
+/breweries/{slug}/,h3,distribution,pages.brewery-detail.distribution.title
+/breweries/{slug}/,distribution label,Channel,pages.brewery-detail.distribution.channel_fallback
+/breweries/{slug}/,distribution label (main),channel,pages.brewery-detail.distribution.channel_fallback
+/breweries/{slug}/,distribution value,(since {{year}}),pages.brewery-detail.distribution.since
+/breweries/{slug}/,distribution pill,unverified,pages.brewery-detail.distribution.unverified_pill
+/breweries/{slug}/,distribution source,Source: {{source}},pages.brewery-detail.distribution.source
+/breweries/{slug}/,distribution missing,"No distributor on record. Add a row to data/reference/distributors.csv (channel, wholesaler, territory, source).",pages.brewery-detail.distribution.missing
+/breweries/{slug}/,h3,scale-estimates,pages.brewery-detail.scale.title
+/breweries/{slug}/,scale label,Barrels / year,pages.brewery-detail.scale.barrels
+/breweries/{slug}/,scale note,"({{basis}}, {{confidence}} confidence, E)",pages.brewery-detail.scale.barrels_note
+/breweries/{slug}/,scale label,Equivalent,pages.brewery-detail.scale.equivalent
+/breweries/{slug}/,scale value,{{gallons}} gallons; {{cases}} cases of 24 twelve-ounce; about {{cans}} sixteen-ounce cans packaged ({{packaged_share}} packaged assumption) and {{pints}} pints on draft,pages.brewery-detail.scale.equivalent_value
+/breweries/{slug}/,scale label,Revenue / ARR,pages.brewery-detail.scale.revenue
+/breweries/{slug}/,scale note,"(range {{low}} to {{high}}, E)",pages.brewery-detail.scale.revenue_note
+/breweries/{slug}/,scale label,Gross margin,pages.brewery-detail.scale.gross_margin
+/breweries/{slug}/,scale note,"(gross profit {{gross_profit}}, E)",pages.brewery-detail.scale.gross_margin_note
+/breweries/{slug}/,scale label,EBITDA,pages.brewery-detail.scale.ebitda
+/breweries/{slug}/,scale value,{{ebitda}} at {{margin}},pages.brewery-detail.scale.ebitda_value
+/breweries/{slug}/,scale note,"(range {{margin_low}} to {{margin_high}}, {{low}} to {{high}}, E)",pages.brewery-detail.scale.ebitda_note
+/breweries/{slug}/,scale label,Revenue per barrel,pages.brewery-detail.scale.per_barrel
+/breweries/{slug}/,scale note,"(COGS assumption {{cogs}} per barrel, E)",pages.brewery-detail.scale.per_barrel_note
+/breweries/{slug}/,scale label,Per location,pages.brewery-detail.scale.per_location
+/breweries/{slug}/,scale note,"across {{count}} location(s), E",pages.brewery-detail.scale.per_location_note
+/breweries/{slug}/,scale note,"across {{count}} location(s) with kitchen(s), E",pages.brewery-detail.scale.per_location_note_kitchen
+/breweries/{slug}/,scale label,Per employee,pages.brewery-detail.scale.per_employee
+/breweries/{slug}/,scale note,E,global.states.estimates.marker
+/breweries/{slug}/,method link,Method: estimation notes,pages.brewery-detail.scale.method_link
+/breweries/{slug}/,h2,other-competitions,pages.brewery-detail.other_competitions.title
+/breweries/{slug}/,other competitions note,"World Beer Cup and other competitions, as recorded; the site filter covers GABF medals only.",pages.brewery-detail.other_competitions.note
+/breweries/{slug}/,h2,deep-dive,pages.brewery-detail.deep_dive.title
+/breweries/{slug}/,deep dive missing,No deep dive has been written for this brewery yet.,pages.brewery-detail.deep_dive.missing
+/breweries/{slug}/,deep dive missing (main),"No deep dive yet. Scaffold one with node scripts/scaffold-brewery.mjs --brewery ""{{brewery_name}}"", then research the brewery and fill in the sections.",pages.brewery-detail.deep_dive.missing
+/categories/,browser tab and h1,Categories,pages.results-by-category.header.title
+/categories/,h1 (main),categories,pages.results-by-category.header.title
+/categories/,meta description,"GABF categories, style families, special categories, and ABV ranges.",global.navigation.page_descriptions.results_by_category
+/categories/,lede,"{{count}} GABF categories seen in the loaded results ({{special_count}} special, {{classic_count}} classic), with the style family used for browsing, the style's ABV range, and total entrants from the latest year with counts.",pages.results-by-category.header.lede
+/categories/,"lede (main, second sentence)",Full category lists (around 100 per year) appear once each year's official list is ingested.,(removed)
+/categories/,h2,classic-versus-special,pages.results-by-category.classic_and_special.title
+/categories/,card text,"A special category is judged on an added ingredient, process, or nonstandard base (fruit, spice, coffee, barrel, smoke, gluten-free, non-alcohol, hybrid, specialty IPA, session beer, Pro-Am, collaboration, cider) rather than a single classic style.",pages.results-by-category.classic_and_special.special
+/categories/,card text,The rule lives in scripts/lib/style-families.mjs and the flag for each category in data/reference/categories.csv.,(removed)
+/categories/,card text,"Style families are a browsing layer over the official categories: IPA, Pale Ale, Lager, Pilsner, Wheat, Stout and Porter, Belgian and French, Sour and Wild, Strong and Barrel-Aged, Brown Amber and Red, British and Irish, German Ale, Fruit Spice and Specialty, Smoke and Wood, Gluten-Free and Non-Alcoholic, Cider and Mead, Pro-Am and Collaboration.",pages.results-by-category.classic_and_special.families
+/categories/,chart title,Medals by style family,pages.results-by-category.chart.title
+/categories/,chart subtitle (main),all loaded years,pages.results-by-category.chart.subtitle
+/categories/,h2,all-categories,pages.results-by-category.table.title
+/categories/,table note,{{count}} categories with medals in view.,pages.results-by-category.table.count
+/categories/{slug}/,meta description,"{{category_name}}: definition, entrants by year, and GABF medalists.",global.navigation.page_descriptions.category_detail
+/categories/{slug}/,breadcrumb,All categories,pages.category-detail.links.back
+/categories/{slug}/,lede link,open in dashboards,pages.category-detail.links.chart_this
+/categories/{slug}/,pill,ABV {{min}} to {{max}}%,pages.category-detail.pills.abv
+/categories/{slug}/,pill,IBU {{min}} to {{max}},pages.category-detail.pills.ibu
+/categories/{slug}/,pill,SRM {{min}} to {{max}},pages.category-detail.pills.srm
+/categories/{slug}/,pill,{{count}} entrants in {{year}},pages.category-detail.pills.entrants
+/categories/{slug}/,h2,definition,pages.category-detail.definition.title
+/categories/{slug}/,definition missing,No style description is on file for this category yet.,pages.category-detail.definition.missing
+/categories/{slug}/,definition missing (main),No definition loaded yet. Run the style guidelines import or add a row to data/reference/categories.csv.,pages.category-detail.definition.missing
+/categories/{slug}/,definition note,"Special categories are judged on an added ingredient, process, or nonstandard base rather than a single classic style.",pages.category-detail.definition.special_note
+/categories/{slug}/,definition note,Classic style categories are judged against a single Brewers Association style description.,pages.category-detail.definition.classic_note
+/categories/{slug}/,definition source,Source: {{source}} ({{confidence}}),pages.category-detail.definition.source_with_confidence
+/categories/{slug}/,definition source,", listed as {{variant_name}}",pages.category-detail.definition.variant
+/categories/{slug}/,chart title,Entrants by year,pages.category-detail.entrants.title
+/categories/{slug}/,chart subtitle,how competitive the category is,pages.category-detail.entrants.subtitle
+/categories/{slug}/,h2,entrants,pages.category-detail.entrants.title
+/categories/{slug}/,entrants card,{{count}} entries in {{year}}. A trend appears when a second year with entry counts is in view.,pages.category-detail.entrants.one_year
+/categories/{slug}/,entrants card,No entry counts in view for this category.,pages.category-detail.entrants.none
+/categories/{slug}/,entrants card (main),Entry counts appear once a full winners list is ingested for a year this category ran.,pages.category-detail.entrants.none
+/categories/{slug}/,h2,medalists-by-year,pages.category-detail.medalists.title
+/categories/{slug}/,h3,{{year}} · category {{number}} · {{count}} entrants,pages.category-detail.medalists.year_heading_entrants
+/reports/,browser tab and h1,Reports,pages.analysis-index.header.title
+/reports/,meta description,GABF analysis reports.,global.navigation.page_descriptions.analysis_index
+/reports/,lede,"Ready made views over the loaded results. Each follows the Filters selection in the header, carries a table view for every chart, and saves charts as PNG from the toolbox.",pages.analysis-index.header.lede
+/reports/,lede (main),Pre-built views over the loaded results. Each chart carries a table view and saves as a PNG from its toolbox.,pages.analysis-index.header.lede
+/reports/,report link,Top breweries,pages.analysis-index.reports.top_breweries.title
+/reports/,report description,Medal and point leaders and active streaks.,pages.analysis-index.reports.top_breweries.description
+/reports/top-breweries/,meta description,Top breweries report.,pages.analysis-index.reports.top_breweries.description
+/reports/,report link,Top categories,pages.analysis-index.reports.top_categories.title
+/reports/,report description,"Most competitive categories by entrants and entries per medal, and the style families that collect the most medals.",pages.analysis-index.reports.top_categories.description
+/reports/top-categories/,meta description,Top categories report.,pages.analysis-index.reports.top_categories.description
+/reports/,report link,By state,pages.analysis-index.reports.by_state.title
+/reports/,report description,Medals by state with population adjusted rates.,pages.analysis-index.reports.by_state.description
+/reports/by-state/,meta description,By state report.,pages.analysis-index.reports.by_state.description
+/reports/,report link,By region,pages.analysis-index.reports.by_region.title
+/reports/,report description,Census regions and divisions.,pages.analysis-index.reports.by_region.description
+/reports/by-region/,meta description,By region report.,pages.analysis-index.reports.by_region.description
+/reports/,report link,Ownership and investors,pages.analysis-index.reports.ownership.title
+/reports/,report description,"Independent versus large brewer owned medalists, parents, and investors.",pages.analysis-index.reports.ownership.description
+/reports/ownership/,meta description,Ownership and investors report.,pages.analysis-index.reports.ownership.description
+/reports/,report link,Economics,pages.analysis-index.reports.economics.title
+/reports/,report description,"Estimated barrels, ARR, margins, and distribution for every medalist.",pages.analysis-index.reports.economics.description
+/reports/economics/,meta description,Economics report.,pages.analysis-index.reports.economics.description
+/reports/,report link,Trends,pages.analysis-index.reports.trends.title
+/reports/,report description,"Entries, medals, breweries, and style family share over the years.",pages.analysis-index.reports.trends.description
+/reports/trends/,meta description,Trends report.,pages.analysis-index.reports.trends.description
+/reports/,report link,Brewery of the Year,pages.analysis-index.reports.brewery_of_the_year.title
+/reports/,report description,Brewery and Brewer of the Year awards by size bracket.,pages.analysis-index.reports.brewery_of_the_year.description
+/reports/brewery-of-the-year/,meta description,Brewery of the Year report.,pages.analysis-index.reports.brewery_of_the_year.description
+/reports/{slug}/,breadcrumb,All reports,pages.analysis-report.common.back
+/reports/{slug}/,h1 (main),{{report_slug}} (for example top-breweries),global.navigation.page_titles.analysis_report
+/reports/top-breweries/,lede,"Points weight gold 3, silver 2, bronze 1. Rankings use the medals in view; partial years join them only when you include them in Filters.",pages.analysis-report.top_breweries.lede
+/reports/top-breweries/,lede (main),"Points weight gold 3, silver 2, bronze 1. Years marked partial contain only seed rows, so rankings firm up as official lists are ingested.",pages.analysis-report.top_breweries.lede
+/reports/top-breweries/,chart title,Top 15 breweries by points,pages.analysis-report.top_breweries.chart_title
+/reports/top-breweries/,chart subtitle,medals in view,pages.analysis-report.top_breweries.chart_subtitle
+/reports/top-breweries/,h2,streaks,pages.analysis-report.top_breweries.streaks_title
+/reports/top-breweries/,h2 (main),streaks-and-first-timers,pages.analysis-report.top_breweries.streaks_title
+/reports/top-breweries/,card text,"Longest active medal streaks, consecutive loaded years through {{year}}. A streak needs every year, so it is computed over the full record and the filter does not change it.",pages.analysis-report.top_breweries.streaks_note
+/reports/top-breweries/,card list item,{{brewery_name}}: {{count}} years,pages.analysis-report.top_breweries.streak_item
+/reports/top-breweries/,card empty,No multi-year streaks yet.,pages.analysis-report.top_breweries.streaks_empty
+/reports/top-breweries/,card empty (main),No multi-year streaks can be computed until consecutive complete years are loaded.,pages.analysis-report.top_breweries.streaks_empty
+/reports/top-breweries/,card text,Breweries whose first medal came in {{year}}: first time medalists.,pages.analysis-report.top_breweries.first_time_line
+/reports/top-breweries/,card text (main),First-time medalists in {{year}}: {{list}},pages.analysis-report.top_breweries.first_time_line
+/reports/top-breweries/,card text (main),available once the latest year is completely loaded,(removed)
+/reports/top-breweries/,h2,top-50-in-view,pages.analysis-report.top_breweries.table_title
+/reports/top-breweries/,h2 (main),all-loaded-years,pages.analysis-report.top_breweries.table_title
+/reports/top-categories/,lede,"Total entrants per category come from the category headers of the official list and show where competition is fiercest. Entries per medal reads each category as odds: how many entries each medal had to beat. Special categories (added ingredient, process, or catch all) are marked.",pages.analysis-report.top_categories.lede
+/reports/top-categories/,"lede (main, last sentence)","Medal counts are fixed at three per category per year, so family totals mostly reflect how many categories a family spans.",analysis.style-trends
+/reports/top-categories/,chart title,Most entered categories,pages.analysis-report.top_categories.most_entered_title
+/reports/top-categories/,chart subtitle,latest year in view with entry counts,pages.analysis-report.top_categories.most_entered_subtitle
+/reports/top-categories/,empty card,No entry counts in view.,pages.analysis-report.top_categories.most_entered_empty
+/reports/top-categories/,empty card (main),Appears once a full winners list with entry counts is ingested.,pages.analysis-report.top_categories.most_entered_empty
+/reports/top-categories/,chart title,Medals by style family,pages.analysis-report.top_categories.families_title
+/reports/top-categories/,chart title,Hardest categories to medal in,pages.analysis-report.top_categories.odds_title
+/reports/top-categories/,chart subtitle,"entries per medal, highest first",pages.analysis-report.top_categories.odds_subtitle
+/reports/top-categories/,chart note,"Entries divided by medals awarded in the category, pooled over the years in view.",pages.analysis-report.top_categories.odds_note
+/reports/top-categories/,chart note,{{count}} medal in view has no published entry count and is left out.,pages.analysis-report.top_categories.odds_missing_one
+/reports/top-categories/,chart note,{{count}} medals in view have no published entry count and are left out.,pages.analysis-report.top_categories.odds_missing_many
+/reports/top-categories/,table view header,Medals awarded,pages.analysis-report.top_categories.odds_columns.medals_awarded
+/reports/top-categories/,h2,all-categories-in-view,pages.analysis-report.top_categories.table_title
+/reports/by-state/,lede,"Medals by state with population and GDP adjusted rates: each medal counts against its own year's Census population estimate and BEA real GDP (2026 medals use 2025, the latest published year). The geography dashboard adds Federal Reserve districts, demographic controls, and click to focus.",pages.analysis-report.by_state.lede
+/reports/by-state/,chart title,Medals by state,pages.analysis-report.by_state.map_title
+/reports/by-state/,chart subtitle,medals in view,pages.analysis-report.by_state.map_subtitle
+/reports/by-state/,chart subtitle,top 20,pages.analysis-report.by_state.bars_subtitle
+/reports/by-state/,chart title,Medals per million residents,pages.analysis-report.by_state.per_capita_title
+/reports/by-state/,chart subtitle,"top 20, annual population estimates",pages.analysis-report.by_state.per_capita_subtitle
+/reports/by-state/,h2,all-states-in-view,pages.analysis-report.by_state.table_title
+/reports/by-region/,lede,"Census regions (Northeast, Midwest, South, West) and their divisions. Per million uses each medal year's Census population estimate.",pages.analysis-report.by_region.lede
+/reports/by-region/,chart title,Medals by region,pages.analysis-report.by_region.regions_title
+/reports/by-region/,chart title,Medals by division,pages.analysis-report.by_region.divisions_title
+/reports/ownership/,lede,Who owns the medal winners. The Brewers Association counts a brewer as independent when less than 25 percent is owned or controlled by a non-craft alcohol company. The ownership table is curated from public deal announcements and marked unverified until each row is checked; breweries not in the table are presumed independent.,pages.analysis-report.ownership.lede
+/reports/ownership/,stat tile,Medals to independents,pages.analysis-report.ownership.stat_independent
+/reports/ownership/,stat tile note,"{{count}} of {{total}} medals in view, unlisted presumed independent",pages.analysis-report.ownership.stat_independent_note
+/reports/ownership/,stat tile note (main),{{count}} of {{total}} loaded medals,pages.analysis-report.ownership.stat_independent_note
+/reports/ownership/,stat tile,Medalists in the ownership table,pages.analysis-report.ownership.stat_listed
+/reports/ownership/,stat tile,Large brewer or conglomerate owned medalists,pages.analysis-report.ownership.stat_owned
+/reports/ownership/,chart title,Medals by ownership type,pages.analysis-report.ownership.by_type_title
+/reports/ownership/,chart title,Medals by parent company,pages.analysis-report.ownership.parents_title
+/reports/ownership/,chart subtitle,owners that are not independent,pages.analysis-report.ownership.parents_subtitle
+/reports/ownership/,chart subtitle (main),non-independent owners,pages.analysis-report.ownership.parents_subtitle
+/reports/ownership/,empty card,No medalist in view is owned by a large brewer or conglomerate.,pages.analysis-report.ownership.parents_empty
+/reports/ownership/,empty card (main),No medalist in the loaded results is owned by a large brewer or conglomerate yet. This fills in as official lists are ingested.,pages.analysis-report.ownership.parents_empty
+/reports/ownership/,h2,ownership-table,pages.analysis-report.ownership.table_title
+/reports/ownership/,table note,"All curated rows, whether or not the brewery has medaled in the loaded years; this table is the source list, so the site filter does not narrow it. Edit data/reference/ownership.csv to add deals, investors, and verification.",pages.analysis-report.ownership.table_note
+/reports/ownership/,table header,Brewery,pages.analysis-report.ownership.columns.brewery
+/reports/ownership/,table header,HQ,pages.analysis-report.ownership.columns.hq
+/reports/ownership/,table header,Type,pages.analysis-report.ownership.columns.type
+/reports/ownership/,table header,Parent,pages.analysis-report.ownership.columns.parent
+/reports/ownership/,table header,Investors,pages.analysis-report.ownership.columns.investors
+/reports/ownership/,table header,Stake,pages.analysis-report.ownership.columns.stake
+/reports/ownership/,table header,Year,pages.analysis-report.ownership.columns.year
+/reports/ownership/,table header,BA independent,pages.analysis-report.ownership.columns.ba_independent
+/reports/ownership/,table header,Status,pages.analysis-report.ownership.columns.status
+/reports/ownership/,table header,Verified,pages.analysis-report.ownership.columns.verified
+/reports/economics/,lede,"Estimated economics for every medalist in view: barrels, ARR (annual revenue run rate), gross margin, EBITDA with a channel based range, and distribution channel. Every figure is an estimate (E) unless a reported production number exists; the method and parameters are on the About page and in data/reference/estimation-parameters.json.",pages.analysis-report.economics.lede
+/reports/economics/,chart title,Estimated ARR by brewery (E),pages.analysis-report.economics.chart_title
+/reports/economics/,chart subtitle,top 15 medalists in view,pages.analysis-report.economics.chart_subtitle
+/reports/economics/,h2,all-medalists-in-view,pages.analysis-report.economics.table_title
+/reports/economics/,table header,Locations,pages.analysis-report.economics.columns.locations
+/reports/economics/,table header,Barrels (E),pages.analysis-report.economics.columns.barrels
+/reports/economics/,table header,Volume basis,pages.analysis-report.economics.columns.basis
+/reports/economics/,table header,Case equiv.,pages.analysis-report.economics.columns.cases
+/reports/economics/,table header,ARR USD (E),pages.analysis-report.economics.columns.arr
+/reports/economics/,table header,Gross margin,pages.analysis-report.economics.columns.gross_margin
+/reports/economics/,table header,EBITDA USD (E),pages.analysis-report.economics.columns.ebitda
+/reports/economics/,table header,EBITDA margin range,pages.analysis-report.economics.columns.ebitda_range
+/reports/trends/,lede,"Competition scale from the Brewers Association's annual releases, plus style family share and year over year movers from the loaded results. Blank cells are figures the release did not state.",pages.analysis-report.trends.lede
+/reports/trends/,note,"The first two charts and the scale table are the Brewers Association's published totals for the whole competition, so the site filter does not change them. The style family chart and the movers below follow the filter.",pages.analysis-report.trends.fixed_note
+/reports/trends/,chart title,Entries judged,pages.analysis-report.trends.entries_title
+/reports/trends/,chart title,Medals awarded and breweries entering,pages.analysis-report.trends.medals_title
+/reports/trends/,h2,competition-scale-by-year,pages.analysis-report.trends.scale_title
+/reports/trends/,table header,Awards date,pages.analysis-report.trends.scale_columns.date
+/reports/trends/,table header,Venue,pages.analysis-report.trends.scale_columns.venue
+/reports/trends/,table header,Breweries entering,pages.analysis-report.trends.scale_columns.breweries_entering
+/reports/trends/,table header,Winning breweries,pages.analysis-report.trends.scale_columns.winning_breweries
+/reports/trends/,table header,Categories,pages.analysis-report.trends.scale_columns.categories
+/reports/trends/,table header,Loaded,pages.analysis-report.trends.scale_columns.loaded
+/reports/trends/,table header,Notes,pages.analysis-report.trends.scale_columns.notes
+/reports/trends/,h2,style-families-and-movers,pages.analysis-report.trends.families_section
+/reports/trends/,chart title,Medals by style family and year,pages.analysis-report.trends.families_title
+/reports/trends/,chart subtitle,top seven families in view plus Other,pages.analysis-report.trends.families_subtitle
+/reports/trends/,h2,Movers {{previous_year}} to {{year}},pages.analysis-report.trends.movers_title
+/reports/trends/,h3,gained,pages.analysis-report.trends.gained
+/reports/trends/,h3,lost,pages.analysis-report.trends.lost
+/reports/trends/,notice,Year over year movers appear when two complete years are in view.,pages.analysis-report.trends.movers_empty
+/reports/trends/,notice (main),Year-over-year movers appear once two consecutive complete years are loaded.,pages.analysis-report.trends.movers_empty
+/reports/brewery-of-the-year/,lede,"Brewery and Brewer of the Year awards by production bracket. From 2026 the bracket is judged on a company's total production across all locations, with a new bracket above 100,000 barrels replacing the former Brewery Group award.",pages.analysis-report.brewery_of_the_year.lede
+/reports/brewery-of-the-year/,note,"These are awards, not medal rows, so the site filter does not narrow this list.",pages.analysis-report.brewery_of_the_year.note
+/reports/brewery-of-the-year/,note,Only the awards confirmed so far are listed; the ingest adds the full set for each year from the official list.,pages.analysis-report.brewery_of_the_year.partial
+/reports/brewery-of-the-year/,table header,Award,pages.analysis-report.brewery_of_the_year.columns.award
+/reports/brewery-of-the-year/,table header,Bracket,pages.analysis-report.brewery_of_the_year.columns.bracket
+/reports/brewery-of-the-year/,table header,Source,pages.analysis-report.brewery_of_the_year.columns.source
+/beers/{year}/,browser tab and h1,{{year}} winners,pages.beers-index.header.title
+/beers/{year}/,meta description,"All {{count}} medals of the {{year}} Great American Beer Festival with published ABV, IBU, hops, malts, yeast, and adjuncts.",global.navigation.page_descriptions.beers_index
+/beers/{year}/,lede,"Every medal from the {{year}} Great American Beer Festival with the beer's published specs: style, ABV, IBU, and named hops, malts, yeast, and adjuncts, each from the brewery or a cited source. Open a beer for its full research notes. Use Filters in the header to narrow by medal, style, place, or brewery, or search by beer, brewery, or hop.",pages.beers-index.header.lede
+/beers/{year}/,link button,First time medalists in {{year}},pages.beers-index.links.first_time
+/beers/{year}/,link button,Open the explorer,pages.beers-index.links.explorer
+/beers/{year}/,stat tile,Medals in view,pages.beers-index.stats.medals
+/beers/{year}/,stat tile note,{{count}} categories,pages.beers-index.stats.medals_note
+/beers/{year}/,stat tile,ABV published,pages.beers-index.stats.abv
+/beers/{year}/,stat tile,IBU published,pages.beers-index.stats.ibu
+/beers/{year}/,stat tile,Hops named,pages.beers-index.stats.hops
+/beers/{year}/,stat tile,Brewery beer page found,pages.beers-index.stats.beer_page
+/beers/{year}/,stat tile note,{{count}} of {{total}},pages.beers-index.stats.share_note
+/beers/{year}/,table header,Medal,pages.beers-index.table.medal
+/beers/{year}/,table header,Beer,pages.beers-index.table.beer
+/beers/{year}/,table header,Brewery,pages.beers-index.table.brewery
+/beers/{year}/,table header,ABV,pages.beers-index.table.abv
+/beers/{year}/,table header,IBU,pages.beers-index.table.ibu
+/beers/{year}/,table header,Hops,pages.beers-index.table.hops
+/beers/{year}/,table group row,{{number}}. {{category_name}},pages.beers-index.table.group_row
+/beers/{year}/,table group row,{{count}} entries,pages.beers-index.table.group_entries
+/beers/{year}/,table cell,not published,pages.beers-index.table.not_published
+/beers/{year}/{beer}/,browser tab,"{{beer_name}}, {{brewery_name}}",global.navigation.page_titles.beer_detail
+/beers/{year}/{beer}/,meta description,"{{beer_name}} by {{brewery_name}}: {{medal}} medal, {{year}} Great American Beer Festival, {{category_name}}. Published specs and research notes.",global.navigation.page_descriptions.beer_detail
+/beers/{year}/{beer}/,breadcrumb,{{year}} winners,pages.beer-detail.links.back
+/beers/{year}/{beer}/,breadcrumb,Category {{number}},pages.beer-detail.links.category_number
+/beers/{year}/{beer}/,lede,{{medal}} in {{category_name}},pages.beer-detail.lede.medal_line
+/beers/{year}/{beer}/,lede,({{count}} entries),pages.beer-detail.lede.entries
+/beers/{year}/{beer}/,lede,"{{brewery_name}}, {{city}}, {{state}}",pages.beer-detail.lede.brewery_line
+/beers/{year}/{beer}/,button,Beer page,pages.beer-detail.buttons.beer_page
+/beers/{year}/{beer}/,button,Brewery website,pages.beer-detail.buttons.brewery_website
+/beers/{year}/{beer}/,button,Brewery medal history,pages.beer-detail.buttons.brewery_history
+/beers/{year}/{beer}/,button,Category history,pages.beer-detail.buttons.category_history
+/beers/{year}/{beer}/,h2,Published specs,pages.beer-detail.specs.title
+/beers/{year}/{beer}/,spec label,ABV,pages.beer-detail.specs.abv
+/beers/{year}/{beer}/,spec label,IBU,pages.beer-detail.specs.ibu
+/beers/{year}/{beer}/,spec label,Style,pages.beer-detail.specs.style
+/beers/{year}/{beer}/,spec label,Hops,pages.beer-detail.specs.hops
+/beers/{year}/{beer}/,spec label,Malts,pages.beer-detail.specs.malts
+/beers/{year}/{beer}/,spec label,Yeast,pages.beer-detail.specs.yeast
+/beers/{year}/{beer}/,spec label,Adjuncts,pages.beer-detail.specs.adjuncts
+/beers/{year}/{beer}/,spec value,not published,pages.beer-detail.specs.not_published
+/beers/{year}/{beer}/,spec note,Specs come from the brewery and the sources cited below. A field the research could not find in any source is shown as not published; nothing is estimated.,pages.beer-detail.specs.note
+/first-time-medalists/{year}/,browser tab and h1,First time medalists in {{year}},pages.first-time-medalists.header.title
+/first-time-medalists/{year}/,meta description,Breweries whose first GABF medal in the loaded results came in {{year}}.,global.navigation.page_descriptions.first_time_medalists
+/first-time-medalists/{year}/,lede,"Breweries whose first GABF medal in the loaded results came in {{year}}, with each of their {{year}} medals and the field each medal beat.",pages.first-time-medalists.header.lede
+/first-time-medalists/{year}/,h2,How first time is defined,pages.first-time-medalists.definition.title
+/first-time-medalists/{year}/,definition,The loaded results run {{first_year}} to {{last_year}}.,pages.first-time-medalists.definition.range
+/first-time-medalists/{year}/,definition,{{partial_years}} hold only a sample of medals from secondary sources,pages.first-time-medalists.definition.partial
+/first-time-medalists/{year}/,definition,", and {{missing_years}} has no results loaded",pages.first-time-medalists.definition.missing
+/first-time-medalists/{year}/,definition,"A first time medalist has no medal in any loaded year before {{year}}; a medal in a year that is not loaded cannot be seen, so a brewery that last won only then is counted here.",pages.first-time-medalists.definition.rule
+/first-time-medalists/{year}/,definition,"Breweries are matched on the site's normalized brewery key, so renamed printings and location suffixes such as ""(Costa Mesa)"" roll up to one brewery.",pages.first-time-medalists.definition.matching
+/first-time-medalists/{year}/,definition,A brewery whose only earlier medals fall in the partial years is listed separately as first in the complete record ({{complete_range}}).,pages.first-time-medalists.definition.complete_record
+/first-time-medalists/{year}/,definition,"{{new_count}} breweries are first time medalists and {{complete_count}} are first in the complete record, before any filter.",pages.first-time-medalists.definition.totals
+/first-time-medalists/{year}/,stat tile,First time medalists,pages.first-time-medalists.stats.breweries
+/first-time-medalists/{year}/,stat tile note,no medal in the loaded years before {{year}},pages.first-time-medalists.stats.breweries_note
+/first-time-medalists/{year}/,stat tile,Share of {{year}} medals in view,pages.first-time-medalists.stats.share
+/first-time-medalists/{year}/,stat tile note,{{count}} of {{total}} medals,pages.first-time-medalists.stats.share_note
+/first-time-medalists/{year}/,stat tile,Golds among them,pages.first-time-medalists.stats.golds
+/first-time-medalists/{year}/,stat tile note,{{share}} of their medals,pages.first-time-medalists.stats.golds_note
+/first-time-medalists/{year}/,stat tile,First in the complete record,pages.first-time-medalists.stats.complete
+/first-time-medalists/{year}/,stat tile note,earlier medals only in partial years,pages.first-time-medalists.stats.complete_note
+/first-time-medalists/{year}/,chart title,By state,pages.first-time-medalists.charts.by_state_title
+/first-time-medalists/{year}/,chart subtitle,"medals won by first time medalists, top 20",pages.first-time-medalists.charts.by_state_subtitle
+/first-time-medalists/{year}/,chart title,By Fed district,pages.first-time-medalists.charts.by_district_title
+/first-time-medalists/{year}/,chart subtitle,Federal Reserve district of the medal city,pages.first-time-medalists.charts.by_district_subtitle
+/first-time-medalists/{year}/,chart title,By style family,pages.first-time-medalists.charts.by_family_title
+/first-time-medalists/{year}/,chart title,By medal,pages.first-time-medalists.charts.by_medal_title
+/first-time-medalists/{year}/,h2,first-time-medalists,pages.first-time-medalists.table.title
+/first-time-medalists/{year}/,table header,Entries beaten,pages.first-time-medalists.table.entries_beaten
+/first-time-medalists/{year}/,table cell,not published,global.states.gaps.not_published
+/first-time-medalists/{year}/,empty,No first time medalist in view.,pages.first-time-medalists.table.empty
+/first-time-medalists/{year}/,h2,first-in-the-complete-record,pages.first-time-medalists.complete_record.title
+/first-time-medalists/{year}/,note,"These breweries medaled in {{year}} and earlier only in partial years ({{partial_years}}), which hold a sample of medals rather than the official lists. They are first time medalists if only the complete lists ({{complete_range}}) count.",pages.first-time-medalists.complete_record.note
+/first-time-medalists/{year}/,empty,None in view.,pages.first-time-medalists.complete_record.empty
+/first-time-medalists/{year}/,h2,names-to-check,pages.first-time-medalists.names_to_check.title
+/first-time-medalists/{year}/,note,"These first time medalists share a city with an earlier medalist under a different name, or one name contains the other. They are kept as separate breweries because nothing in the data confirms they are the same; check them before relying on the count.",pages.first-time-medalists.names_to_check.note
+/first-time-medalists/{year}/,table header,First time medalist,pages.first-time-medalists.names_to_check.first_time
+/first-time-medalists/{year}/,table header,Earlier medalist to compare,pages.first-time-medalists.names_to_check.earlier
+/first-time-medalists/{year}/,empty,No first time medalist shares a city and a name token with an earlier medalist.,pages.first-time-medalists.names_to_check.empty
+/about/,browser tab,About,global.navigation.page_titles.about
+/about/,meta description,"Data sources, coverage, and methods.",global.navigation.page_descriptions.method
+/about/,h1,About this site,pages.about.header.title
+/about/,lede,An independent analysis of Great American Beer Festival competition results.,pages.about.header.lede
+/about/,lede,It is built from public data by a static pipeline in this repository and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG.,(removed)
+/about/,h2,coverage,pages.method.coverage.title
+/about/,table header,Status,pages.method.coverage.columns.status
+/about/,table header,Rows loaded,pages.method.coverage.columns.rows
+/about/,table header,Sources,pages.method.coverage.columns.sources
+/about/,coverage key,complete: the official winners list was ingested.,global.labels.coverage_meaning.complete
+/about/,coverage key,partial: only seed rows from secondary sources are present.,global.labels.coverage_meaning.partial
+/about/,coverage key,"draft: rows transcribed from the awards ceremony, pending the official list.",global.labels.coverage_meaning.draft
+/about/,coverage key,pending: the competition ran or is scheduled but no results are loaded.,global.labels.coverage_meaning.pending
+/about/,h2,data-sources,pages.method.sources.title
+/about/,source item,"Results: the Brewers Association's official GABF winners lists (PDF), parsed by scripts/parse-winners.mjs. Category names and total entrants come from the same lists. Before the PDF is posted, the ceremony transcript importer drafts rows from the live stream captions.",pages.method.sources.results
+/about/,source item,"Brewery locations, coordinates, type, and websites: Open Brewery DB (free, open) plus curated overrides.",pages.method.sources.breweries
+/about/,source item,The repository also configures the unofficial Open Brewery DB MCP server for agent lookups.,(removed)
+/about/,source item,"Style definitions and ABV, IBU, and SRM ranges: Brewers Association Beer Style Guidelines, imported with scripts/import-style-guidelines.mjs. Special categories are flagged by rule and per category in data/reference/categories.csv.",pages.method.sources.styles
+/about/,source item,"Ownership, investors, and distributors: curated from public announcements (company releases, Brewbound, trade press, state license lookups). Each row carries a verified flag.",pages.method.sources.ownership
+/about/,source item,"Demographics and denominators: Census Bureau annual population estimates (July 1, Vintage 2020 for 2018 and 2019, Vintage 2025 for 2020 to 2025; 2026 medals use 2025), BEA real GDP in chained 2017 dollars and nominal GDP by state (SAGDP1) and county (CAGDP1)",pages.method.sources.population
+/about/,source item,"ACS 2024 one year estimates (age, race and Hispanic origin, education, median household income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy estimates (pooled 2012, 2014, and 2017), and NCHS state life expectancy for 2022. Census regions and divisions come from data/reference/states.csv.",pages.method.sources.demographics
+/about/,source item,"Federal Reserve districts: the Board of Governors' district descriptions and the Reserve Banks' county lists (St. Louis, Minneapolis, Dallas, Philadelphia), with counts checked against Cleveland Fed and FRASER figures.",pages.method.sources.fed_districts
+/about/,source item,Medals in split states are assigned by the medal city's county from the Census place and county subdivision files. West Virginia has no published county list and is assigned whole to the Richmond district as an approximation. District GDP for split states is apportioned by county GDP shares (E).,pages.method.fed_districts.body
+/about/,source item,Competition totals: Brewers Association annual releases and same day coverage of each announcement.,pages.method.sources.totals
+/about/,h2,estimates,pages.method.estimates.title
+/about/,estimates,"Production, volume, revenue, and margin figures marked (E) are estimates.",pages.method.estimates.intro
+/about/,estimates,"Volume order of preference: a reported figure, then a Brewery of the Year bracket (midpoint), then a curated estimate in data/reference/production.csv or a brewery profile, then a heuristic by brewery type and location count.",pages.method.estimates.volume
+/about/,estimates,"Conversions use the US beer barrel (31 gallons): 13.78 cases of 24 twelve ounce containers, 248 sixteen ounce cans or pints, 330.7 twelve ounce cans.",pages.method.estimates.conversions
+/about/,estimates,"Revenue uses Brewers Association benchmark revenue per barrel by channel (direct to consumer 1,276 USD, distributed 602 USD, blended by brewery type) plus food revenue per kitchen location. ARR is the annual revenue run rate.",pages.method.estimates.revenue
+/about/,estimates,"Gross margin and EBITDA margin are point estimates by brewery type with channel ranges (taproom 8 to 24 percent, self distribution 5 to 11 percent, distributor 2 to 6 percent).",pages.method.estimates.margins
+/about/,estimates,Parameters and their sources live in data/reference/estimation-parameters.json.,(removed)
+/about/,h2,trend-semantics,pages.method.year_status.title
+/about/,paragraph,"A brewery's yearly trend distinguishes: medaled, no medal recorded, did not exist yet (year before its founding), closed, results not yet published, year only partially loaded, and no results loaded. A partially loaded year is labelled as such rather than counted as a miss.",pages.method.year_status.body
+/about/,h2,privacy-of-this-site,(removed)
+/about/,paragraph,"A GitHub Pages site is public even when its repository is private (Pages for a private repository needs a paid plan, and access control needs GitHub Enterprise Cloud). For a private copy, build locally and open dist/index.html, or publish dist/ behind authentication on a host such as Cloudflare Pages with Access or Netlify with password protection; the site is plain files and runs anywhere.",(removed)
+/about/,h2,attribution,pages.about.attribution.title
+/about/,attribution,Great American Beer Festival and GABF are trademarks of the Brewers Association.,pages.about.attribution.trademark
+/about/,attribution,Style guideline content is used with attribution for noncommercial analysis.,pages.about.attribution.styles
+/about/,attribution,Open Brewery DB data is open.,pages.about.attribution.breweries
+/about/,attribution,Apache ECharts is Apache 2.0 licensed.,pages.about.attribution.charts
+/about/,attribution,US state boundaries come from the us-atlas project (US Census Bureau cartographic boundaries).,pages.about.attribution.maps
+/about/,attribution,This site is not affiliated with the Brewers Association.,pages.about.independence.body
+/explorer/ (explorer prototype),ui,Skip to analysis,pages.explorer.header.skip_link
+/explorer/ (explorer prototype),ui,Explorer,pages.explorer.header.title
+/explorer/ (explorer prototype),ui,Awards research workspace,pages.explorer.header.subtitle
+/explorer/ (explorer prototype),ui,GABF Explorer home,pages.explorer.header.home_label
+/explorer/ (explorer prototype),ui,Import CSV,pages.explorer.header.import
+/explorer/ (explorer prototype),ui,Save dashboard,pages.explorer.header.save
+/explorer/ (explorer prototype),ui,Segment filters,pages.explorer.sidebar.label
+/explorer/ (explorer prototype),ui,Build a segment,pages.explorer.sidebar.title
+/explorer/ (explorer prototype),ui,Reset,pages.explorer.sidebar.reset
+/explorer/ (explorer prototype),ui,Search awards,pages.explorer.sidebar.search
+/explorer/ (explorer prototype),ui,"Beer, brewery, city, owner…",pages.explorer.sidebar.search_placeholder
+/explorer/ (explorer prototype),ui,Combine filters. Selections within a field use “or”; different fields use “and”.,pages.explorer.sidebar.combine_hint
+/explorer/ (explorer prototype),ui,"Ownership, ingredients & more",pages.explorer.sidebar.more
+/explorer/ (explorer prototype),ui,These filters expand as sourced enrichment is imported.,pages.explorer.sidebar.more_note
+/explorer/ (explorer prototype),ui,Find an option…,pages.explorer.sidebar.find_option
+/explorer/ (explorer prototype),ui,Find {{field}},pages.explorer.sidebar.find_field
+/explorer/ (explorer prototype),ui,All,pages.explorer.sidebar.all
+/explorer/ (explorer prototype),ui,Show filters,pages.explorer.sidebar.show
+/explorer/ (explorer prototype),ui,Hide filters,pages.explorer.sidebar.hide
+/explorer/ (explorer prototype),ui,{{count}} of {{total}} awards,pages.explorer.sidebar.count
+/explorer/ (explorer prototype),ui,{{count}} of {{target}} target years loaded,pages.explorer.sidebar.years_loaded
+/explorer/ (explorer prototype),ui,Review data coverage,pages.explorer.sidebar.review_coverage
+/explorer/ (explorer prototype),ui,Active filters,pages.explorer.sidebar.active_label
+/explorer/ (explorer prototype),ui,"{{years}} are missing. Brewery, recipe, and ownership enrichment is incomplete.",pages.explorer.coverage_banner.missing
+/explorer/ (explorer prototype),ui,Coverage & sources,pages.explorer.coverage_banner.link
+/explorer/ (explorer prototype),ui,Analysis views,pages.explorer.tabs.label
+/explorer/ (explorer prototype),ui,Overview,pages.explorer.tabs.overview
+/explorer/ (explorer prototype),ui,Award explorer,pages.explorer.tabs.awards
+/explorer/ (explorer prototype),ui,Breweries,pages.explorer.tabs.breweries
+/explorer/ (explorer prototype),ui,Compare,pages.explorer.tabs.compare
+/explorer/ (explorer prototype),ui,Trends & rankings,pages.explorer.tabs.trends
+/explorer/ (explorer prototype),ui,Forecast,pages.explorer.tabs.forecast
+/explorer/ (explorer prototype),ui,Data & methods,pages.explorer.tabs.data
+/explorer/ (explorer prototype),ui,"Every medal, in context",pages.explorer.tab_intros.overview_title
+/explorer/ (explorer prototype),ui,"Follow the styles, breweries, and places behind the medals.",pages.explorer.tab_intros.overview_lede
+/explorer/ (explorer prototype),ui,Explore the awards,pages.explorer.tab_intros.awards_title
+/explorer/ (explorer prototype),ui,"Search the records, change the columns, and open an award to see its evidence.",pages.explorer.tab_intros.awards_lede
+/explorer/ (explorer prototype),ui,Compare brewery portfolios,pages.explorer.tab_intros.breweries_title
+/explorer/ (explorer prototype),ui,"Compare reported brewery locations, their award portfolios, and their styles.",pages.explorer.tab_intros.breweries_lede
+/explorer/ (explorer prototype),ui,Start with the breweries you want to compare,pages.explorer.tab_intros.compare_title
+/explorer/ (explorer prototype),ui,Open Breweries and select up to four reported locations. Each comparison includes every loaded award for those locations.,pages.explorer.tab_intros.compare_lede
+/explorer/ (explorer prototype),ui,A side-by-side view of up to four reported brewery locations.,pages.explorer.tab_intros.compare_side_by_side
+/explorer/ (explorer prototype),ui,What changed between years?,pages.explorer.tab_intros.trends_title
+/explorer/ (explorer prototype),ui,Compare medal patterns and examine how past winners performed in a later year.,pages.explorer.tab_intros.trends_lede
+/explorer/ (explorer prototype),ui,Explore the next award cycle,pages.explorer.tab_intros.forecast_title
+/explorer/ (explorer prototype),ui,"Adjust a medal-trend scenario by style, brewery location, state, or city.",pages.explorer.tab_intros.forecast_lede
+/explorer/ (explorer prototype),ui,Know what is in the data,pages.explorer.tab_intros.data_title
+/explorer/ (explorer prototype),ui,"Coverage, source references, definitions, and the path to a five-year analysis.",pages.explorer.tab_intros.data_lede
+/explorer/ (explorer prototype),ui,Use the year controls below for this view. All other sidebar filters apply; the sidebar year filter is ignored here.,pages.explorer.trends.year_hint
+/explorer/ (explorer prototype),ui,"A five-year window, with gaps visible",pages.explorer.trends.window_title
+/explorer/ (explorer prototype),ui,Missing years are not zero-award years.,pages.explorer.trends.window_note
+/explorer/ (explorer prototype),ui,Missing,pages.explorer.trends.missing
+/explorer/ (explorer prototype),ui,Not loaded,pages.explorer.trends.not_loaded
+/explorer/ (explorer prototype),ui,{{year}} (not loaded),pages.explorer.trends.not_loaded_option
+/explorer/ (explorer prototype),ui,Compare the distribution,pages.explorer.trends.compare_title
+/explorer/ (explorer prototype),ui,"Changes describe the supplied winner records, not overall beer demand or entrant success rates.",pages.explorer.trends.compare_note
+/explorer/ (explorer prototype),ui,Earlier year,pages.explorer.trends.earlier_year
+/explorer/ (explorer prototype),ui,Later year,pages.explorer.trends.later_year
+/explorer/ (explorer prototype),ui,Compare by,pages.explorer.trends.compare_by
+/explorer/ (explorer prototype),ui,Export changes,pages.explorer.trends.export_changes
+/explorer/ (explorer prototype),ui,Export selection,pages.explorer.trends.export_selection
+/explorer/ (explorer prototype),ui,Showing up to 30 groups by absolute medal-count change. Export includes all groups. Shares use all selected medals in each year.,pages.explorer.trends.table_note
+/explorer/ (explorer prototype),ui,{{year}} medals,pages.explorer.trends.columns_medals
+/explorer/ (explorer prototype),ui,{{year}} share,pages.explorer.trends.columns_share
+/explorer/ (explorer prototype),ui,Change,pages.explorer.trends.change
+/explorer/ (explorer prototype),ui,Share change,pages.explorer.trends.share_change
+/explorer/ (explorer prototype),ui,Choose two loaded years in chronological order.,pages.explorer.trends.order_error
+/explorer/ (explorer prototype),ui,Load both years to compare them,pages.explorer.trends.both_needed
+/explorer/ (explorer prototype),ui,Annual selected medal counts. {{summary}},pages.explorer.trends.chart_label
+/explorer/ (explorer prototype),ui,"Past winners, tested against a later year",pages.explorer.recurrence.title
+/explorer/ (explorer prototype),ui,Exploratory recurrence ranking. Candidates are brewery location IDs with an earlier medal.,pages.explorer.recurrence.lede
+/explorer/ (explorer prototype),ui,Held-out year,pages.explorer.recurrence.held_out
+/explorer/ (explorer prototype),ui,Candidates,pages.explorer.recurrence.candidates
+/explorer/ (explorer prototype),ui,Top 10,pages.explorer.recurrence.top_10
+/explorer/ (explorer prototype),ui,Top 20,pages.explorer.recurrence.top_20
+/explorer/ (explorer prototype),ui,Top 50,pages.explorer.recurrence.top_50
+/explorer/ (explorer prototype),ui,Export rankings,pages.explorer.recurrence.export
+/explorer/ (explorer prototype),ui,"Score = earlier medal points (gold 3, silver 2, bronze 1), halved for each additional year of age. The held-out year is used only to show subsequent results.",pages.explorer.recurrence.score_note
+/explorer/ (explorer prototype),ui,Partial history.,pages.explorer.recurrence.partial_title
+/explorer/ (explorer prototype),ui,"The four-year training window is missing {{years}}. This is a recurrence experiment, not a calibrated winner forecast.",pages.explorer.recurrence.partial_body
+/explorer/ (explorer prototype),ui,Earlier years used,pages.explorer.recurrence.earlier_years
+/explorer/ (explorer prototype),ui,Prior winning location IDs,pages.explorer.recurrence.prior_locations
+/explorer/ (explorer prototype),ui,Top candidates with a later medal,pages.explorer.recurrence.later_medal
+/explorer/ (explorer prototype),ui,Observed recurrence in this selection,pages.explorer.recurrence.observed
+/explorer/ (explorer prototype),ui,Rank,pages.explorer.recurrence.columns.rank
+/explorer/ (explorer prototype),ui,Brewery / location,pages.explorer.recurrence.columns.location
+/explorer/ (explorer prototype),ui,Prior score,pages.explorer.recurrence.columns.prior_score
+/explorer/ (explorer prototype),ui,Earlier medals,pages.explorer.recurrence.columns.earlier_medals
+/explorer/ (explorer prototype),ui,Ties are ordered by brewery name and location ID. This does not measure entry-level win probability: entrants without medals and their entry counts are absent. Current enrichment filters may also contain information unavailable in the historical year.,pages.explorer.recurrence.ties_note
+/explorer/ (explorer prototype),ui,Conditional share-trend scenario; not a winning probability,pages.explorer.forecast.disclaimer
+/explorer/ (explorer prototype),ui,Research points (3 / 2 / 1),pages.explorer.forecast.points_research
+/explorer/ (explorer prototype),ui,GABF point weights (6 / 5 / 4),pages.explorer.forecast.points_gabf
+/explorer/ (explorer prototype),ui,No change modeled.,pages.explorer.forecast.no_change
+/explorer/ (explorer prototype),ui,No forecast is available for the current segment.,pages.explorer.forecast.empty
+/explorer/ (explorer prototype),ui,Clear a filter to bring award records into the forecast.,pages.explorer.forecast.empty_hint
+/explorer/ (explorer prototype),ui,No historical records for this scenario,pages.explorer.forecast.no_history
+/explorer/ (explorer prototype),ui,No medals in the latest loaded year,pages.explorer.forecast.no_latest
+/explorer/ (explorer prototype),ui,No awards match these filters.,pages.explorer.empty.awards
+/explorer/ (explorer prototype),ui,Remove a filter or try a shorter search. All searches match every word you enter.,pages.explorer.empty.awards_hint
+/explorer/ (explorer prototype),ui,No matching awards,pages.explorer.empty.no_matching
+/explorer/ (explorer prototype),ui,No brewery locations in this segment,pages.explorer.empty.breweries
+/explorer/ (explorer prototype),ui,"Try removing a location, category, or year filter.",pages.explorer.empty.location_hint
+/explorer/ (explorer prototype),ui,Keep at least one visible column.,pages.explorer.empty.one_column
+/explorer/ (explorer prototype),field label,Beer / cider,pages.explorer.fields.beer
+/explorer/ (explorer prototype),field label,Metro area,pages.explorer.fields.metro_area
+/explorer/ (explorer prototype),field label,Award category,pages.explorer.fields.category
+/explorer/ (explorer prototype),field label,Fermentation group,pages.explorer.fields.fermentation
+/explorer/ (explorer prototype),field label,Beverage,pages.explorer.fields.beverage
+/explorer/ (explorer prototype),field label,Competition,pages.explorer.fields.competition
+/explorer/ (explorer prototype),field label,Confirmed hops,pages.explorer.fields.hops
+/explorer/ (explorer prototype),field label,Hop name clues,pages.explorer.fields.hop_clues
+/explorer/ (explorer prototype),field label,Owner,pages.explorer.fields.owner
+/explorer/ (explorer prototype),field label,Investors,pages.explorer.fields.investors
+/explorer/ (explorer prototype),field label,Brewery type,pages.explorer.fields.brewery_type
+/explorer/ (explorer prototype),field label,Brewing association,pages.explorer.fields.association
+/explorer/ (explorer prototype),field label,ZIP,pages.explorer.fields.zip
+/explorer/ (explorer prototype),field label,Address,pages.explorer.fields.address
+/explorer/ (explorer prototype),field label,Phone,pages.explorer.fields.phone
+/explorer/ (explorer prototype),field label,Website,pages.explorer.fields.website
+/explorer/ (explorer prototype),field label,Beer page,pages.explorer.fields.beer_page
+/explorer/ (explorer prototype),field label,Brewer,pages.explorer.fields.brewer
+/explorer/ (explorer prototype),field label,ABV (%),pages.explorer.fields.abv
+/explorer/ (explorer prototype),field label,IBU,pages.explorer.fields.ibu
+/explorer/ (explorer prototype),field label,Category entries,pages.explorer.fields.entries
+/explorer/ (explorer prototype),field label,Subcategory,pages.explorer.fields.subcategory
+/explorer/ (explorer prototype),field label,Evidence,pages.explorer.fields.evidence
+/explorer/ (explorer prototype),field label,Award ID,pages.explorer.fields.award_id
+/explorer/ (explorer prototype),field label,Beer ID,pages.explorer.fields.beer_id
+/explorer/ (explorer prototype),field label,Brewery location ID,pages.explorer.fields.location_id
+/explorer/ (explorer prototype),field label,Award reference,pages.explorer.fields.reference
+/explorer/ (explorer prototype),field label,Import source,pages.explorer.fields.import_source
+/explorer/ (explorer prototype),field label,Not researched,pages.explorer.fields.not_researched
+/explorer/ (explorer prototype),field label,Not established from category,pages.explorer.fields.not_established
+/explorer/ (explorer prototype),characteristic,All characteristics,pages.explorer.characteristics.all
+/explorer/ (explorer prototype),characteristic,Sour / wild category,pages.explorer.characteristics.sour
+/explorer/ (explorer prototype),characteristic,Fruit category,pages.explorer.characteristics.fruit
+/explorer/ (explorer prototype),characteristic,Herb / spice category,pages.explorer.characteristics.spice
+/explorer/ (explorer prototype),characteristic,Coffee category,pages.explorer.characteristics.coffee
+/explorer/ (explorer prototype),characteristic,Chocolate category,pages.explorer.characteristics.chocolate
+/explorer/ (explorer prototype),characteristic,Wood / barrel category,pages.explorer.characteristics.barrel_aged
+/explorer/ (explorer prototype),characteristic,Non-alcoholic category,pages.explorer.characteristics.non_alcoholic
+/explorer/ (explorer prototype),characteristic,Gluten-free category,pages.explorer.characteristics.gluten_free
+/explorer/ (explorer prototype),characteristic,No characteristic identified in category wording,pages.explorer.characteristics.none_found
+/explorer/ (explorer prototype),explorer style grouping,Specialty / mixed,pages.explorer.taxonomy.specialty_mixed
+/explorer/ (explorer prototype),explorer style grouping,Special competition,pages.explorer.taxonomy.special_competition
+/explorer/ (explorer prototype),explorer style grouping,Cider / perry,pages.explorer.taxonomy.cider_perry
+/explorer/ (explorer prototype),explorer style grouping,Dark ale / stout,pages.explorer.taxonomy.dark_ale_stout
+/explorer/ (explorer prototype),explorer style grouping,Sour / wild,pages.explorer.taxonomy.sour_wild
+/explorer/ (explorer prototype),explorer style grouping,Hoppy lager / cold IPA,pages.explorer.taxonomy.hoppy_lager
+/explorer/ (explorer prototype),explorer style grouping,Pilsener,pages.explorer.taxonomy.pilsener
+/explorer/ (explorer prototype),explorer style grouping,Kölsch,pages.explorer.taxonomy.kolsch
+/explorer/ (explorer prototype),explorer style grouping,Wheat beer,pages.explorer.taxonomy.wheat
+/explorer/ (explorer prototype),explorer style grouping,Belgian / farmhouse,pages.explorer.taxonomy.belgian
+/explorer/ (explorer prototype),explorer style grouping,Brown ale,pages.explorer.taxonomy.brown_ale
+/explorer/ (explorer prototype),explorer style grouping,Strong ale,pages.explorer.taxonomy.strong_ale
+/explorer/ (explorer prototype),explorer style grouping,Pale ale,pages.explorer.taxonomy.pale_ale
+/explorer/ (explorer prototype),explorer style grouping,Other ale,pages.explorer.taxonomy.other_ale
+/explorer/ (explorer prototype),explorer style grouping,Non-alcoholic,pages.explorer.taxonomy.non_alcoholic
+/explorer/ (explorer prototype),explorer style grouping,Ale / lager,pages.explorer.taxonomy.fermentation_mixed
+/explorer/ (explorer prototype),explorer style grouping,Fruit fermentation,pages.explorer.taxonomy.fermentation_fruit
+/explorer/ (explorer prototype),explorer style grouping,Sour / mixed,pages.explorer.taxonomy.fermentation_sour
+/explorer/ (explorer prototype),explorer style grouping,Mixed / unspecified,pages.explorer.taxonomy.fermentation_unspecified
+/explorer/ (explorer prototype),explorer style grouping,Unspecified,pages.explorer.taxonomy.unspecified
+/explorer/ (explorer prototype),explorer style grouping,main,pages.explorer.taxonomy.competition_main
+/explorer/ (explorer prototype),explorer style grouping,pro-am,pages.explorer.taxonomy.competition_pro_am
+/explorer/ (explorer prototype),explorer style grouping,collaboration,pages.explorer.taxonomy.competition_collaboration
+/explorer/ (explorer prototype),ui,Award details,pages.explorer.details.title
+/explorer/ (explorer prototype),ui,Open reference,pages.explorer.details.open_reference
+/explorer/ (explorer prototype),ui,Map address,pages.explorer.details.map_address
+/explorer/ (explorer prototype),ui,Search beer,pages.explorer.details.search_beer
+/explorer/ (explorer prototype),ui,Search map,pages.explorer.details.search_map
+/explorer/ (explorer prototype),ui,Supplied record; not independently validated,pages.explorer.details.supplied_unvalidated
+/explorer/ (explorer prototype),ui,Imported records. Review their individual evidence.,pages.explorer.details.imported_note
+/explorer/ (explorer prototype),ui,Reference located; award records not imported.,pages.explorer.details.reference_found
+/explorer/ (explorer prototype),ui,Records were supplied in a CSV labeled 2026. Individual rows have not been cross-checked against this live reference.,pages.explorer.details.supplied_2026
+/explorer/ (explorer prototype),ui,Add to comparison,pages.explorer.compare.add
+/explorer/ (explorer prototype),ui,Brewery location added to comparison.,pages.explorer.compare.added
+/explorer/ (explorer prototype),ui,In comparison,pages.explorer.compare.in_comparison
+/explorer/ (explorer prototype),ui,Choose breweries,pages.explorer.compare.choose
+/explorer/ (explorer prototype),ui,Compare {{brewery_name}} in {{city}},pages.explorer.compare.compare_one
+/explorer/ (explorer prototype),ui,Total medals,pages.explorer.stats.total_medals
+/explorer/ (explorer prototype),ui,Gold medals,pages.explorer.stats.gold_medals
+/explorer/ (explorer prototype),ui,Gold / silver / bronze,pages.explorer.stats.medal_split
+/explorer/ (explorer prototype),ui,Medal count,pages.explorer.stats.medal_count
+/explorer/ (explorer prototype),ui,Award rows,pages.explorer.stats.award_rows
+/explorer/ (explorer prototype),ui,Distinct beer IDs,pages.explorer.stats.distinct_beers
+/explorer/ (explorer prototype),ui,Brewery locations,pages.explorer.stats.locations
+/explorer/ (explorer prototype),ui,Style families,pages.explorer.stats.style_families
+/explorer/ (explorer prototype),ui,Import data,pages.explorer.import.title
+/explorer/ (explorer prototype),ui,Add historical awards or match sourced brewery and beer details to existing IDs. Changes stay in this browser until you save a new dashboard.,pages.explorer.import.lede
+/explorer/ (explorer prototype),ui,Data to import,pages.explorer.import.kind_label
+/explorer/ (explorer prototype),ui,Awards: append missing records,pages.explorer.import.kind_awards
+/explorer/ (explorer prototype),ui,Brewery enrichment: match brewery_id,pages.explorer.import.kind_breweries
+/explorer/ (explorer prototype),ui,Beer enrichment: match beer_id,pages.explorer.import.kind_beers
+/explorer/ (explorer prototype),ui,Award enrichment: match award_id,pages.explorer.import.kind_award_details
+/explorer/ (explorer prototype),ui,Download CSV template,pages.explorer.import.template
+/explorer/ (explorer prototype),ui,Choose a CSV file,pages.explorer.import.choose_file
+/explorer/ (explorer prototype),ui,Apply import,pages.explorer.import.apply
+/explorer/ (explorer prototype),ui,Reading and checking the CSV…,pages.explorer.import.reading
+/explorer/ (explorer prototype),ui,"Imported: {{added}} added, {{updated}} updated, {{skipped}} skipped.",pages.explorer.import.result
+/explorer/ (explorer prototype),ui,Exported {{count}} rows.,pages.explorer.import.exported
+/explorer/ (explorer prototype),ui,Restore the data embedded when this file was opened? Unsaved CSV imports will be removed.,pages.explorer.import.restore_confirm
+/explorer/ (explorer prototype),ui,Restored the embedded baseline.,pages.explorer.import.restored
+/explorer/ (explorer prototype),ui,"Required: year, medal, beer, brewery, city, state, official_category (or category). Existing identical award rows are skipped. New columns are preserved.",pages.explorer.import.awards_help
+/explorer/ (explorer prototype),ui,"Required: {{id_column}} and evidence_url. Optional: address, metro_area, phone, website, beer_url, ownership, investors, brewery_type, association, confirmed_hops, brewer_name, ABV, IBU.",pages.explorer.import.details_help
+/explorer/ (explorer prototype),ui,An opening quote in the CSV has no closing quote.,pages.explorer.import.errors.unclosed_quote
+/explorer/ (explorer prototype),ui,The CSV needs a header and at least one data row.,pages.explorer.import.errors.no_rows
+/explorer/ (explorer prototype),ui,The CSV has duplicate column names.,pages.explorer.import.errors.duplicate_columns
+/explorer/ (explorer prototype),ui,Row {{row}} has {{count}} fields; expected {{expected}}.,pages.explorer.import.errors.field_count
+/explorer/ (explorer prototype),ui,Missing required column: {{column}}.,pages.explorer.import.errors.missing_column
+/explorer/ (explorer prototype),ui,"Row {{row}}: beer, brewery, and category cannot be blank.",pages.explorer.import.errors.blank_required
+/explorer/ (explorer prototype),ui,"Row {{row}}: medal must be Gold, Silver, or Bronze.",pages.explorer.import.errors.bad_medal
+/explorer/ (explorer prototype),ui,Row {{row}}: year must be four digits between 1982 and 2100.,pages.explorer.import.errors.bad_year
+/explorer/ (explorer prototype),ui,Row {{row}}: award_id already belongs to a different record.,pages.explorer.import.errors.id_taken
+/explorer/ (explorer prototype),ui,Every row needs a {{column}}.,pages.explorer.import.errors.needs_id
+/explorer/ (explorer prototype),ui,Duplicate {{column}} in enrichment file.,pages.explorer.import.errors.duplicate_id
+/explorer/ (explorer prototype),ui,Each enrichment row needs an http(s) evidence_url.,pages.explorer.import.errors.needs_evidence
+/explorer/ (explorer prototype),ui,This import needs {{column}} to match existing records.,pages.explorer.import.errors.match_needed
+/explorer/ (explorer prototype),ui,"Import at most 20,000 rows at a time.",pages.explorer.import.errors.too_many_rows
+/explorer/ (explorer prototype),ui,This dashboard accepts CSV files up to 8 MB.,pages.explorer.import.errors.too_large
+/explorer/ (explorer prototype),ui,Share this workspace,pages.explorer.share.title
+/explorer/ (explorer prototype),ui,Close,pages.explorer.share.close
+/explorer/ (explorer prototype),ui,Download one HTML file containing the data and your current filters. Send that file to anyone; it opens in a browser without an account or installation.,pages.explorer.share.lede
+/explorer/ (explorer prototype),ui,{{count}} award records · {{years}},pages.explorer.share.summary
+/explorer/ (explorer prototype),ui,{{count}} in the current segment · {{tab}},pages.explorer.share.segment
+/explorer/ (explorer prototype),ui,Download shareable HTML,pages.explorer.share.download
+/explorer/ (explorer prototype),ui,"Source links need internet access. Imported records are included in the saved file. This creates a file, not a public hosted URL.",pages.explorer.share.note
+/explorer/ (explorer prototype),ui,Saved a self-contained dashboard with your current data and view.,pages.explorer.share.saved
+/explorer/ (explorer prototype),ui,GABF Explorer · Research edition,pages.explorer.footer.edition
+/explorer/ (explorer prototype),ui,Embedded data · Works offline · No tracking,pages.explorer.footer.promise
+/about/,h1 (main),about-this-site,pages.about.header.title
+/reports/trends/,h2 (main),movers-{{previous_year}}-to-{{year}},pages.analysis-report.trends.movers_title
+/reports/trends/,chart subtitle (main),top seven families plus Other,pages.analysis-report.trends.families_subtitle
+/reports/ownership/,stat tile (main),Large-brewer or conglomerate owned medalists,pages.analysis-report.ownership.stat_owned
+/reports/ownership/,stat tile (main),Medalists in ownership table,pages.analysis-report.ownership.stat_listed
+/breweries/,meta description (main),Every medal-winning brewery in the loaded GABF results.,global.navigation.page_descriptions.breweries_index
+/reports/top-breweries/,card text (main),Longest active medal streaks (consecutive loaded years through {{year}}):,pages.analysis-report.top_breweries.streaks_note
+/reports/top-breweries/,card text,Breweries whose first medal came in {{year}}:,pages.analysis-report.top_breweries.first_time_line
+/reports/top-breweries/,card link,first time medalists,pages.analysis-report.top_breweries.first_time_link
+/breweries/{slug}/,method link prefix,Method:,pages.brewery-detail.scale.method_link
+/breweries/{slug}/,method link,estimation notes,pages.brewery-detail.scale.method_link

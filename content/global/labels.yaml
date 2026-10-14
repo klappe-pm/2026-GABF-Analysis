@@ -1,0 +1,236 @@
+# The one label dictionary. Each key is the raw value stored in the data; each value is the
+# label people see. Change the value, never the key. A raw value missing here reads "Not defined".
+
+# where: medal columns, chips, chart legends, and stat tiles.
+medal:
+  "Gold": "Gold"
+  "Silver": "Silver"
+  "Bronze": "Bronze"
+  "Honorable Mention": "Honorable mention"
+
+# where: competition column on brewery pages (other competitions table).
+competition:
+  "GABF": "Great American Beer Festival"
+  "WBC": "World Beer Cup"
+
+# where: ownership pills, ownership columns, the Ownership filter, and the ownership charts.
+ownership_type:
+  "independent": "Independent"
+  "employee-owned": "Employee owned"
+  "public-company-owned": "Owned by a public company"
+  "large-brewer-owned": "Owned by a large brewer"
+  "private-equity-backed": "Backed by private equity"
+  "beverage-conglomerate-owned": "Owned by a beverage company"
+  "closed": "Closed"
+  "unlisted": "Not defined"
+
+# where: distribution pills, distribution columns, and the Distribution filter.
+distribution_channel:
+  "self-distribution": "Self distributed"
+  "distributor": "Through a distributor"
+  "taproom": "Taproom only"
+  "unknown": "Not defined"
+  "": "Not defined"
+
+# where: brewery type pills, type columns, and the Brewery type filter.
+brewery_type:
+  "micro": "Microbrewery"
+  "nano": "Nanobrewery"
+  "brewpub": "Brewpub"
+  "regional": "Regional brewery"
+  "large": "Large brewery"
+  "contract": "Contract brewer"
+  "proprietor": "Alternating proprietor"
+  "planning": "In planning"
+  "bar": "Bar"
+  "taproom": "Taproom"
+  "closed": "Closed"
+
+# where: category type pills, columns, and the Category type filter.
+category_type:
+  "classic": "Classic style"
+  "special": "Special"
+
+# where: the pill beside a category name in medal tables and on category pages.
+category_pill:
+  special_short: "Special"
+  classic_short: "Classic"
+  special_long: "Special category"
+  classic_long: "Classic style category"
+
+# where: the Region filter, region columns, and the region charts. Census regions.
+region:
+  "Northeast": "Northeast"
+  "Midwest": "Midwest"
+  "South": "South"
+  "West": "West"
+  "Territories": "Territories"
+
+# where: division columns and the division charts. Census divisions.
+division:
+  "New England": "New England"
+  "Middle Atlantic": "Middle Atlantic"
+  "East North Central": "East North Central"
+  "West North Central": "West North Central"
+  "South Atlantic": "South Atlantic"
+  "East South Central": "East South Central"
+  "West South Central": "West South Central"
+  "Mountain": "Mountain"
+  "Pacific": "Pacific"
+  "Puerto Rico": "Puerto Rico"
+
+# where: the Style family filter, style family columns, and chart labels.
+style_family:
+  "IPA": "IPA"
+  "Pale Ale": "Pale ale"
+  "Lager": "Lager"
+  "Pilsner": "Pilsner"
+  "Wheat": "Wheat"
+  "Stout and Porter": "Stout and porter"
+  "Belgian and French": "Belgian and French"
+  "Sour and Wild": "Sour and wild"
+  "Strong and Barrel-Aged": "Strong and barrel-aged"
+  "Brown, Amber, and Red": "Brown, amber, and red"
+  "British and Irish": "British and Irish"
+  "German Ale": "German ale"
+  "Fruit, Spice, and Specialty": "Fruit, spice, and specialty"
+  "Smoke and Wood": "Smoke and wood"
+  "Gluten-Free and Non-Alcoholic": "Gluten-free and nonalcoholic"
+  "Cider and Mead": "Cider and mead"
+  "Pro-Am and Collaboration": "Pro-Am and collaboration"
+  "Other": "Other"
+  # Two values in the category reference data sit outside the family list above. They show
+  # as written until the data is corrected to a listed family.
+  "Fruit": "Fruit"
+  "Brown": "Brown"
+
+# where: the ABV filter and chips.
+abv_band:
+  "under-4": "Under 4%"
+  "4-to-5": "4.0% to 4.9%"
+  "5-to-6": "5.0% to 5.9%"
+  "6-to-7": "6.0% to 6.9%"
+  "7-to-8": "7.0% to 7.9%"
+  "8-to-10": "8.0% to 9.9%"
+  "10-plus": "10% and up"
+
+# where: year pills, the coverage table, and chart notes under each year.
+coverage:
+  "complete": "Complete"
+  "partial": "Partial"
+  "draft": "Draft"
+  "pending": "Not loaded"
+
+# where: method page and the tooltip on each year pill.
+coverage_meaning:
+  "complete": "The official winners list is loaded."
+  "partial": "Only a sample of medals from secondary sources is loaded."
+  "draft": "Medals transcribed from the awards ceremony; the official list is not out yet."
+  "pending": "The competition year is in range, but no results are loaded."
+
+# where: a brewery's year by year status, in tables and the recent trend list.
+trend_status:
+  "medaled": "Medaled"
+  "no-medal": "No medal"
+  "did-not-exist": "Not yet founded"
+  "closed": "Closed"
+  "not-yet-reported": "Results not loaded"
+  "no-data": "Partial year"
+  "no-results": "No results for this year"
+
+# where: short note under the year on medal by year charts. Empty means no note.
+trend_status_short:
+  "did-not-exist": "Not founded"
+  "not-yet-reported": "Not loaded"
+  "no-data": "Partial"
+  "no-results": "No results"
+  "closed": "Closed"
+  "medaled": ""
+  "no-medal": ""
+
+# where: the one character note under a year on narrow screens.
+trend_status_glyph:
+  "not-yet-reported": "…"
+  "no-data": "·"
+  "draft": "·"
+  "no-results": "○"
+  "did-not-exist": "×"
+  "closed": "×"
+
+# where: first time medalist tables and chips.
+first_time:
+  "new": "First medal in the record"
+  "new-complete": "First medal in the complete record"
+
+# where: the basis beside every barrel estimate.
+estimate_basis:
+  "reported": "Reported"
+  "boty-bracket": "Brewery of the Year size bracket (E)"
+  "bracket": "Size bracket (E)"
+  "estimate": "Curated estimate (E)"
+  "curated": "Curated estimate (E)"
+  "profile estimate": "Brewery profile estimate (E)"
+  "type-heuristic": "Estimated from brewery type (E)"
+  "heuristic": "Estimated from brewery type (E)"
+
+# where: the confidence beside every barrel estimate.
+confidence:
+  "high": "High confidence"
+  "medium": "Medium confidence"
+  "low": "Low confidence"
+  "approximate": "Approximate"
+
+# where: brewery ownership details and the ownership table.
+yes_no:
+  "yes": "Yes"
+  "no": "No"
+
+# where: the verified column of the ownership table and distributor details.
+verified:
+  "yes": "Checked against a primary source"
+  "no": "Not checked"
+
+# where: the Fed district filter, district charts, and district columns.
+fed_district:
+  "1": "Boston"
+  "2": "New York"
+  "3": "Philadelphia"
+  "4": "Cleveland"
+  "5": "Richmond"
+  "6": "Atlanta"
+  "7": "Chicago"
+  "8": "St. Louis"
+  "9": "Minneapolis"
+  "10": "Kansas City"
+  "11": "Dallas"
+  "12": "San Francisco"
+  label_format: "{{number}} {{name}}"
+
+# where: method page and district tooltips; how a medal was placed in a district.
+fed_district_method:
+  "state": "Whole state in one district"
+  "county": "Placed by the medal city's county"
+  "approximation": "Whole state assigned to its main district (approximation)"
+  "approximation (city not resolved)": "City not placed; assigned to the state's main district (approximation)"
+
+# where: column headers of the state and district controls table on the geography dashboard.
+indicator:
+  "gdp_per_capita_real": "Real GDP per person (2017 dollars)"
+  "gdp_per_capita_real_latest": "Real GDP per person, {{year}} (2017 dollars)"
+  "median_household_income": "Median household income (2024 dollars)"
+  "median_age": "Median age"
+  "share_21_plus": "Age 21 and over (%)"
+  "share_bachelors_or_higher": "Bachelor's degree or higher (%)"
+  "share_hs_or_higher": "High school or higher (%)"
+  "poverty_rate": "Poverty rate (%)"
+  "share_nh_white": "White, not Hispanic (%)"
+  "share_nh_black": "Black, not Hispanic (%)"
+  "share_hispanic": "Hispanic or Latino (%)"
+  "share_nh_asian": "Asian, not Hispanic (%)"
+  "urban_share": "Urban, 2020 (%)"
+  "literacy_level1_or_below": "Literacy at or below level 1 (%, modeled)"
+  "life_expectancy": "Life expectancy, 2022"
+
+# where: medal points wherever points are explained.
+points:
+  explanation: "Points: gold 3, silver 2, bronze 1."
