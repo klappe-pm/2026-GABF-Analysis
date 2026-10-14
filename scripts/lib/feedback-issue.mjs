@@ -37,7 +37,7 @@ export function labelSpec(name) {
 // Built from code points so this source carries no dash glyph itself.
 const EN = String.fromCharCode(0x2013);
 const EM = String.fromCharCode(0x2014);
-const DASH_GLYPHS = new RegExp(`[${EN}${EM}]`, 'g');
+const DASH_GLYPHS = new RegExp(`\\s*[${EN}${EM}]\\s*`, 'g');
 
 // Dashes used as punctuation become commas, and a data slug becomes spaced words.
 export function plain(text) {
