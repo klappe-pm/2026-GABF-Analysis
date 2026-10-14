@@ -192,11 +192,11 @@ This Must Be the Place is a Brettanomyces farmhouse ale from Syncopated Brewing 
 |---|---|---|
 | Style | Farmhouse Ale, Brett | [Syncopated: our beers](https://syncopatedbrewing.com/our-beers-1) |
 | ABV | 5.8% | [Syncopated: our beers](https://syncopatedbrewing.com/our-beers-1) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Brettanomyces (implied by the style label; strain not named) | [Syncopated: our beers](https://syncopatedbrewing.com/our-beers-1) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 500 ml bottles, bottle pour only in the taproom and to go | [Syncopated: our beers](https://syncopatedbrewing.com/our-beers-1) |
 
 ## brewery-description
@@ -205,7 +205,7 @@ No brewery description was found; the tap list entry carries only serving detail
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -213,17 +213,17 @@ The only ingredient signal is the style label, which names Brettanomyces; no gra
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,7 +241,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Syncopated Brewing Co. is in Lakewood, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://syncopatedbrewing.com/), [Instagram](https://www.instagram.com/syncopatedbrewing/), [Untappd](https://untappd.com/Syncopatedbrewing).
 
 ## related
 
@@ -256,8 +256,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)).
-- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)).
+- Not Found: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

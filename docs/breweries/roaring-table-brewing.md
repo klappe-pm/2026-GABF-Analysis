@@ -35,7 +35,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
 instagram: null
 known-for: []
@@ -51,9 +50,10 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "roaring-table-brewing"
-sources: []
+sources:
+  - "Untappd brewery page name and city match"
 state: "IL"
-untappd: null
+untappd: "https://untappd.com/RoaringTableBrewing"
 website: "http://www.roaringtable.com"
 world-beer-cup-medals: 0
 ---

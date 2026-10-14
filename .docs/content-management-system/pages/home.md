@@ -14,18 +14,19 @@ Where: top of the page.
 Where: the scoresheet fields across the top of the page.
 
 - `competition_year`: Competition and Year
-- `competition_value`: Great American Beer Festival {{year}}
+- `competition_value`: GABF {{year}}
 - `entries_judged`: Entries Judged
 - `categories`: Categories
+- `categories_in_year`: Categories in {{year}}
 - `medals_awarded`: Medals Awarded
-- `not_published`: Not Published
+- `not_published`: Not Found
 
 ## `search`
 
 Where: field 1, the primary search on the page.
 
 - `label`: Find a Brewery, Beer, or Category
-- `placeholder`: Brewery, beer, or category
+- `placeholder`: Brewery, Beer, or Category
 - `no_match`: Nothing matches "{{query}}".
 - `results_label`: Search Results
 - `kind_brewery`: Brewery

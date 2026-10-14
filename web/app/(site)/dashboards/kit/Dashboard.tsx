@@ -76,7 +76,7 @@ function Stats({ rows, copy }: { rows: P.MedalRow[]; copy: ReturnType<typeof mak
           ))}
         </span>
       </Field>
-      <Field label={copy.t('page.stats.entrants')} note={copy.t('page.stats.entrants_note')}>{entries ? fmtN(entries) : copy.t('page.stats.entrants_missing')}</Field>
+      <Field label={copy.t('page.stats.entrants')} note={copy.t('page.stats.entrants_note')}>{entries ? fmtN(entries) : copy.missing()}</Field>
     </FieldGrid>
   );
 }

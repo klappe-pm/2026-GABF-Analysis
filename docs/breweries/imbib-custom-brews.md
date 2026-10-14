@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Bock"
 city: "Reno"
 employees: null

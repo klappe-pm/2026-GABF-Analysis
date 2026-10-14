@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style India Pale Ale"
+  - "American India Pale Ale"
 city: "Los Angeles"
 employees: null
 farms-named: []

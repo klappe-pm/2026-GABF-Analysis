@@ -164,11 +164,11 @@ Dry Irish Stout is a dry stout in the Irish tradition from Bent Barley Brewing C
 | Style | Dry Irish Stout (from the beer name) | [Visit Aurora: Bent Barley profile](https://www.visitaurora.com/blog/meet-your-neighbor-bent-barley-brewing/) |
 | ABV | 4.8% | [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340) |
 | IBU | 39 | [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -176,7 +176,7 @@ No brewery description of this beer was found; the brewery's menu page lists no 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -184,17 +184,17 @@ Nothing about ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -228,7 +228,7 @@ Links checked 2026-10-14: [Website](https://www.bentbarley.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/v/bent-barley-brewing-company/8302340), [bentbarley.com](https://www.bentbarley.com/), [bentbarley.com](https://www.bentbarley.com/menu.html), [visitaurora.com](https://www.visitaurora.com/blog/meet-your-neighbor-bent-barley-brewing/), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/v/bent-barley-brewing-company/8302340), [bentbarley.com](https://www.bentbarley.com/), [bentbarley.com](https://www.bentbarley.com/menu.html), [visitaurora.com](https://www.visitaurora.com/blog/meet-your-neighbor-bent-barley-brewing/), web searches recorded in the research notes.
 
 ## research-notes
 

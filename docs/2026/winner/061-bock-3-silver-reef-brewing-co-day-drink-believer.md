@@ -144,21 +144,21 @@ Day Drink Believer is a beer from Silver Reef Brewing Co. of Saint George, Utah.
 | Style | German Pale Bock | [Cliffside: beer menu](https://www.cliffsiderestaurant.com/beer-and-wine.htm) |
 | ABV | 6.8% | [Cliffside: beer menu](https://www.cliffsiderestaurant.com/beer-and-wine.htm) |
 | IBU | 30 | [Cliffside: beer menu](https://www.cliffsiderestaurant.com/beer-and-wine.htm) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > A rich smooth and deceptively strong German pale bock.
 
-Source: [Untappd: Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
+Source: [Untappd (hand-read citation): Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -166,17 +166,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -203,12 +203,12 @@ No brewery links have been checked yet.
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
+- [Untappd (hand-read citation): Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
 - [Cliffside: beer menu](https://www.cliffsiderestaurant.com/beer-and-wine.htm)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146), [cliffsiderestaurant.com](https://www.cliffsiderestaurant.com/beer-and-wine.htm), web searches recorded in the research notes, no brewery website on file.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146), [cliffsiderestaurant.com](https://www.cliffsiderestaurant.com/beer-and-wine.htm), web searches recorded in the research notes, no brewery website on file.
 
 ## research-notes
 

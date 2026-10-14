@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Altbier"
+  - "German Altbier"
   - "Rye Beers"
 city: "Johnson City"
 employees: null

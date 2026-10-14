@@ -10,6 +10,8 @@ export type Copy = {
   has: (path: string) => boolean;
   /** The labels of a group, such as "labels.ownership_type", by raw value. */
   group: (path: string) => Record<string, string>;
+  /** What every missing value reads: the shared "not found" label. */
+  missing: () => string;
 };
 
 const fillText = (text: string, values: Record<string, string | number>) =>
@@ -27,7 +29,10 @@ export function makeCopy(tree: CopyTree): Copy {
     }
     return node;
   };
+  const text = (path: string): string | undefined => { const v = walk(path); return typeof v === 'string' ? v : undefined; };
   return {
+    // The shared label is global.labels.not_found; until it reaches main the gap text of the states copy stands in.
+    missing: () => text('labels.not_found') ?? text('states.gaps.not_defined') ?? '',
     t: (path, values = {}) => {
       const v = walk(path);
       if (typeof v !== 'string') throw new Error(`dashboard copy ${path} is missing`);

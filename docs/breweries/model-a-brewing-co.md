@@ -35,12 +35,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/model_a_brewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "model-a-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "SC"
 untappd: null
-website: null
+website: "https://modelabrewing.com/"
 world-beer-cup-medals: 0
 ---
 

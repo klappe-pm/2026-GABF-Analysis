@@ -147,12 +147,12 @@ Vintage 2026, listed by the brewery as Vintage 26, is a coolship and oak-aged Am
 | Field | Value | Source |
 |---|---|---|
 | Style | American Sour Ale | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
-| ABV | 7.6% | [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
-| IBU | 21 | [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
+| ABV | 7.6% | [Untappd (hand-read citation): Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
+| IBU | 21 | [Untappd (hand-read citation): Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549) |
 | Hops | aged whole cone hops (variety not named) | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
 | Malts and grains | raw wheat (other grains not named) | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
-| Yeast | not published; the brewery names a coolship step but no culture | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | not published; the brewery names a coolship step but no culture | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | oak aged; bottle refermented; brewed in the Wild Fruit Cave, sold only at the brewery | [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages/specialty-beers) |
 
 ## brewery-description
@@ -163,7 +163,7 @@ Source: [New Glarus: R&D specialty beers](https://www.newglarusbrewing.com/pages
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -173,16 +173,16 @@ The brewery names aged whole cone hops and raw wheat, a coolship step and oak ag
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Aged whole cone hops | Aged whole cone hops | not published | not published | not published | [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers) |
+| Aged whole cone hops | Aged whole cone hops | Not Found | Not Found | Not Found | [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Aged whole cone hops, raw wheat, coolship and oak aging; refermented in the bottle | [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers) |
 
 ## style-context
@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 New Glarus Brewing Co. is in New Glarus, WI. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://newglarusbrewing.com/), [Instagram](https://www.instagram.com/newglarusbrewing/), [Untappd](https://untappd.com/NewGlarusBrewingCompany).
 
 ## related
 
@@ -209,7 +209,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549)
+- [Untappd (hand-read citation): Vintage 2026 R&D](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549)
 - [Beer page on brewery site](https://www.newglarusbrewing.com/pages/specialty-beers)
 - [New Glarus Brewing Co.](https://newglarusbrewing.com/)
 - [New Glarus: our beers](https://www.newglarusbrewing.com/pages/our-beers)
@@ -217,7 +217,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [newglarusbrewing.com](https://newglarusbrewing.com/), [untappd.com](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/our-beers), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [newglarusbrewing.com](https://newglarusbrewing.com/), [untappd.com](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/our-beers), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers), web searches recorded in the research notes.
 
 ## research-notes
 

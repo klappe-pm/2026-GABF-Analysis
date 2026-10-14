@@ -20,11 +20,11 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style India Pale Ale"
+  - "American India Pale Ale"
   - "Golden or Blonde Ale"
   - "Juicy or Hazy India Pale Ale"
   - "Other Strong Beer"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Lemont"
 employees: null
 farms-named: []

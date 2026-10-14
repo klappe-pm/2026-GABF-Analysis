@@ -39,7 +39,7 @@ Where: the summary tiles.
 
 ## `charts`
 
-Where: the four charts.
+Where: the four breakdowns.
 
 - `by_state_title`: By State
 - `by_state_subtitle`: Medals Won by First Time Medalists, Top 20

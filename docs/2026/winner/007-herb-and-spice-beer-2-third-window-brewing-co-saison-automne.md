@@ -118,8 +118,8 @@ Saison Automne is an autumn farmhouse ale that Third Window Brewing Co. of Santa
 |---|---|---|
 | Style | Seasonal Farmhouse Ale | [Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 | ABV | 5.5% | [Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | malt and wheat grown on the FP Farm (varieties not named) | [Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 | Yeast | mixed Brettanomyces and Lactobacillus culture in secondary fermentation | [Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 | Adjuncts, fruit, spices | white and black sage from the Botanic Garden (as sage tea), Cuyama Valley wildflower honey | [Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026) |
@@ -143,16 +143,16 @@ The product page describes the brewery's Farmhouse Saison blended with a mixed B
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Golden orange (no SRM number published) | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | A blend of the brewery's Farmhouse Saison, brewed with malt and wheat grown on the FP Farm, re-fermented with a mixed culture of Brettanomyces and Lactobacillus; a tea of white and black sage from Santa Barbara Botanic Garden added during secondary fermentation; bottle conditioned with Cuyama Valley wildflower honey | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 
 ## style-context
@@ -171,7 +171,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Third Window Brewing Co. is in Santa Barbara, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.thirdwindowbrewing.com/).
 
 ## related
 
@@ -185,8 +185,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

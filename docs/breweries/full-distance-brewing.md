@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/041-mexican-style-pale-lager-3-full-distance-brewing-yucatan-sunrise.md"
 brewery-type: null
 categories-won:
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Stafford"
 employees: null
 farms-named: []
@@ -36,8 +36,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/lemondrop.md"
 instagram: null
@@ -54,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "full-distance-brewing"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "VA"
-untappd: null
-website: null
+untappd: "https://untappd.com/FullDistanceBrewing"
+website: "https://fulldistancebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

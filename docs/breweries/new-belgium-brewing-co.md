@@ -25,8 +25,8 @@ beers-2026:
   - "../2026/winner/077-belgian-style-tripel-2-new-belgium-brewing-co-trippel.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Tripel"
+  - "Belgian Abbey Ale"
+  - "Belgian Tripel"
   - "Historical Beer"
   - "Juicy or Hazy Pale Ale"
   - "Pro-Am Comp"
@@ -44,7 +44,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
   - "../hops/varieties/liberty.md"
@@ -70,9 +69,10 @@ region: "West"
 slug: "new-belgium-brewing-co"
 sources:
   - "Sold by its employee owners to Lion in 2019"
+  - "website resolved"
 state: "CO"
 untappd: null
-website: null
+website: "https://www.newbelgium.com/"
 world-beer-cup-medals: 0
 ---
 

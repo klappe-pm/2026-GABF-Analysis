@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
   - "Sweet Stout or Cream Stout"
 city: "Stafford"
 employees: null

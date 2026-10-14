@@ -5,7 +5,6 @@
 // history, and the cards of its latest beers. The page sends the brewery's own rows; this narrows them.
 import { Fragment, useMemo } from 'react';
 import { type BeerCardData, BeerProfileCard } from '@/components/BeerProfileCard';
-import { ChartCard } from '@/components/ChartCard';
 import { type Column, DataTable, type Row } from '@/components/DataTable';
 import { EstimateTooltip } from '@/components/EstimateTooltip';
 import { MedalMark, type MedalName } from '@/components/MedalMark';
@@ -17,6 +16,7 @@ import { TextLink } from '@/components/TextLink';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
 import type { BreweryRecord, BreweryRow } from '@/lib/models/breweries.mjs';
+import { ChartCard, type ChartSeries } from '@/components/ChartCard';
 import { type EstimateCopy, explain, markLabel } from '../estimate-text';
 import { abv, compact, fillText, usd, whole } from '../format';
 
@@ -38,7 +38,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   const c = copy;
   usePageScope({ brewery_key: b.key }, [fillText(c.fixed.brewery, { brewery_name: b.name })]);
   const shown = useFilteredRows(b.rows) as BreweryRow[];
-  const none = <span className="text-on-surface-variant">{c.gaps.not_defined}</span>;
+  const none = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
   const medalNames = c.medal as Record<MedalName, string>;
   const est = b.estimate;
   const mark = (id: string, metric: Parameters<typeof explain>[0]) => (
@@ -52,7 +52,13 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
 
   // Medals by year over the years of the trend.
   const years = useMemo(() => b.trend.map((t) => t.year), [b.trend]);
-  const series = useMemo(() => MEDALS.map((m) => ({ name: medalNames[m], values: years.map((y) => shown.filter((r) => r.year === y && r.medal === m).length) })), [shown, years, medalNames]);
+  const yearLabels = useMemo(() => years.map(String), [years]);
+  const series = useMemo<ChartSeries[]>(() => MEDALS.map((m) => ({ name: medalNames[m], medal: m, values: years.map((y) => shown.filter((r) => r.year === y && r.medal === m).length) })), [shown, years, medalNames]);
+  // A ranking as one series of bars: the top entries drawn, every entry in the table view.
+  const ranking = (list: [string, number][]) => ({ categories: list.map(([n]) => n), series: [{ name: c.tables.medals, values: list.map(([, n]) => n) }] as ChartSeries[] });
+  const byCategory = useMemo(() => ranking(tally(shown, (r) => r.category_name).slice(0, 15)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
+  const byLocation = useMemo(() => ranking(tally(shown, (r) => r.brewery_location || r.city)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
+  const byFamily = useMemo(() => ranking(tally(shown, (r) => c.style_family[r.style_family] ?? r.style_family)), [shown]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const trendColumns: Column[] = [
     { key: 'year', label: c.trend.year },
@@ -64,23 +70,11 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
     key: String(t.year),
     cells: {
       year: t.year,
-      status: c.trend_status[t.status] ?? c.gaps.not_defined,
+      status: c.trend_status[t.status] ?? c.gaps.not_found,
       medals: t.total,
       split: <MedalRecord counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} variant="value" names={medalNames} />,
     },
   }));
-
-  const simple = (caption: string, label: string, list: [string, number][], link?: (name: string) => string | null): { caption: string; columns: Column[]; rows: Row[] } => ({
-    caption,
-    columns: [{ key: 'name', label, sortable: true }, { key: 'medals', label: c.tables.medals, sortable: true }],
-    rows: list.map(([name, n]) => ({ key: name, sort: { name, medals: n }, cells: { name: link?.(name) ? <TextLink href={link(name)!}>{name}</TextLink> : name, medals: n } })),
-  });
-  const byCategory = simple(fillText(c.tables.category_caption, { brewery_name: b.name }), c.medalCols.category, tally(shown, (r) => r.category_name), (name) => {
-    const slug = shown.find((r) => r.category_name === name)?.category_slug;
-    return slug ? href(paths.category(slug)) : null;
-  });
-  const byLocation = simple(fillText(c.tables.location_caption, { brewery_name: b.name }), c.medalCols.location_credited, tally(shown, (r) => r.brewery_location || r.city));
-  const byFamily = simple(fillText(c.tables.family_caption, { brewery_name: b.name }), c.medalCols.style_family, tally(shown, (r) => c.style_family[r.style_family] ?? r.style_family));
 
   // Hops and farms reached through the beers in view.
   const hopTally = tally(shown.flatMap((r) => r.hop_varieties ?? []), (n) => n);
@@ -135,7 +129,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   // The cards of the latest year's beers, gold first.
   const cards = shown.filter((r) => r.stem && r.year === year).sort((x, y) => (RANK[x.medal] ?? 9) - (RANK[y.medal] ?? 9) || x.beer_name.localeCompare(y.beer_name));
   const cardData = (r: BreweryRow): BeerCardData => {
-    const nd = c.specs.not_published;
+    const nd = c.gaps.not_found;
     const list = (v: string[]) => (v.length ? v.join(', ') : nd);
     return {
       name: r.beer_name,
@@ -187,9 +181,10 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
 
       <ChartCard
         id="medals-by-year"
+        preset="stackedBar"
         title={c.charts.by_year_title}
         note={fillText(c.charts.by_year_subtitle, { brewery_name: b.name, first_year: years[0], last_year: years[years.length - 1] })}
-        categories={years}
+        categories={yearLabels}
         series={series}
         tableSummary={c.table_view.summary}
         nameColumn={c.table_columns.name}
@@ -202,20 +197,11 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
       </section>
 
       {shown.length ? (
-        <>
-          <section aria-labelledby="family-title" className="flex flex-col gap-3">
-            <SectionHeader id="family-title" title={c.charts.by_family_title} />
-            <DataTable caption={byFamily.caption} columns={byFamily.columns} rows={byFamily.rows} scroll={false} initialSort={{ key: 'medals', dir: 'descending' }} />
-          </section>
-          <section aria-labelledby="category-title" className="flex flex-col gap-3">
-            <SectionHeader id="category-title" title={c.charts.by_category_title} />
-            <DataTable caption={byCategory.caption} columns={byCategory.columns} rows={byCategory.rows} scroll={false} initialSort={{ key: 'medals', dir: 'descending' }} />
-          </section>
-          <section aria-labelledby="location-title" className="flex flex-col gap-3">
-            <SectionHeader id="location-title" title={c.charts.by_location_title} lead={c.charts.by_location_subtitle} />
-            <DataTable caption={byLocation.caption} columns={byLocation.columns} rows={byLocation.rows} scroll={false} initialSort={{ key: 'medals', dir: 'descending' }} />
-          </section>
-        </>
+        <div className="grid grid-cols-1 gap-6 expanded:grid-cols-2">
+          <ChartCard id="medals-by-family" preset="horizontalBar" title={c.charts.by_family_title} categories={byFamily.categories} series={byFamily.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.style_family} ariaLabel={fillText(c.tables.family_caption, { brewery_name: b.name })} />
+          <ChartCard id="medals-by-category" preset="horizontalBar" title={c.charts.by_category_title} categories={byCategory.categories} series={byCategory.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.category} ariaLabel={fillText(c.tables.category_caption, { brewery_name: b.name })} />
+          <ChartCard id="medals-by-location" preset="horizontalBar" title={c.charts.by_location_title} note={c.charts.by_location_subtitle} categories={byLocation.categories} series={byLocation.series} tableSummary={c.table_view.summary} nameColumn={c.medalCols.location_credited} ariaLabel={fillText(c.tables.location_caption, { brewery_name: b.name })} />
+        </div>
       ) : null}
 
       {hopTally.length ? (

@@ -142,11 +142,11 @@ Old Head Red is Cellarmaker Brewing Co.'s first red ale, an American red brewed 
 |---|---|---|
 | Style | American Red Ale | [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head-red/) |
 | ABV | 6.0% | [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head-red/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Cascade, Simcoe, Anchovy | [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head-red/) |
 | Malts and grains | caramel malts (not named further) | [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head-red/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | canned; listed as available at the Oakland location | [Cellarmaker: Old Head Red](https://cellarmakerbrewing.com/beer/old-head-red/) |
 
 ## brewery-description
@@ -169,18 +169,18 @@ The [beer page](https://cellarmakerbrewing.com/beer/old-head-red/) names Cascade
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Anchovy | Anchovy | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
-| Cascade | Cascade | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
-| Simcoe | Simcoe | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
+| Anchovy | Anchovy | Not Found | Not Found | Not Found | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Red ale brewed with Matt of Fast Fashion | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/) |
 
 ## style-context
@@ -200,7 +200,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Cellarmaker Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.cellarmakerbrewing.com/).
 
 ## related
 
@@ -218,8 +218,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -168,14 +168,14 @@ Southern Hemi is a beer from Transmission Brewing Co. of Ventura, California.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | New Zealand-Style Pale Ale | [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
-| ABV | 6% | [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | New Zealand-Style Pale Ale | [Untappd (hand-read citation): Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
+| ABV | 6% | [Untappd (hand-read citation): Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -183,7 +183,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -191,17 +191,17 @@ Nothing about this beer's ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -227,7 +227,7 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## links
 
-- [Untappd: Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256)
+- [Untappd (hand-read citation): Southern Hemi](https://untappd.com/b/transmission-brewing-southern-hemi/5008256)
 - [Transmission Brewing](https://transmissionbrewing.com/)
 - [Transmission Brewing: our beers](https://transmissionbrewing.com/beers/)
 - [Transmission Brewing: beer to go](https://transmissionbrewing.com/beer-to-go/)
@@ -235,8 +235,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes.
-- Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes.
+- Not Found: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

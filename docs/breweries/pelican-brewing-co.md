@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/069-english-style-pale-ale-1-pelican-brewing-co-beachcomber-1355.md"
 brewery-type: "regional"
 categories-won:
-  - "English-Style Pale Ale"
+  - "English Pale Ale"
   - "Stout"
 city: "Tillamook"
 employees: null

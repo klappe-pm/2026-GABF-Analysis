@@ -164,11 +164,11 @@ Rocktoberfest is an Oktoberfest lager from Almanac Beer Co., poured at its Alame
 |---|---|---|
 | Style | Oktoberfest Lager | [Almanac: Alameda drinks menu](https://almanacbeer.com/alameda) |
 | ABV | 5% | [Almanac: Alameda drinks menu](https://almanacbeer.com/alameda) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Authentic German barley, no varieties named | [BeerMenus: Almanac Rocktoberfest](https://www.beermenus.com/beers/382742-almanac-rocktoberfest) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | On the Alameda taproom drinks menu | [Almanac: Alameda drinks menu](https://almanacbeer.com/alameda) |
 
 ## brewery-description
@@ -177,7 +177,7 @@ The brewery's menu carries no tasting description, only the line "2026 GABF Bron
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -185,17 +185,17 @@ Nothing beyond the specs table is published; no hops or yeast are named anywhere
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -213,7 +213,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Almanac Beer Co. is in Alameda, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://almanacbeer.com/), [Instagram](https://www.instagram.com/almanacbeer/).
 
 ## related
 
@@ -228,8 +228,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes.
-- Not published: IBU. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes.
+- Not Found: IBU. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

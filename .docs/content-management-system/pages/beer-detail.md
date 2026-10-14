@@ -39,7 +39,7 @@ Where: the specs card.
 - `yeast`: Yeast
 - `adjuncts`: Adjuncts
 - `not_published`: Not Published
-- `note`: Specs come from the brewery and the sources cited below. A field no source publishes reads Not published. Nothing is estimated.
+- `note`: Specs come from the brewery and the sources cited below. A field no source publishes reads Not Found. Nothing is estimated.
 
 ## `card`
 
@@ -53,10 +53,11 @@ Where: the beer profile card at the top of the page.
 - `ibu`: IBU
 - `style`: Style
 - `hops`: Hops
-- `tasting_note`: Tasting notes
-- `description`: From the brewery's description
+- `tasting_note`: Tasting Notes
+- `description`: From the Brewery's Description
 - `source`: Source: {{site}}
 - `beer_page`: The Beer's Page at the Brewery
+- `open`: Open the Beer Profile
 - `no_beer_page`: The brewery publishes no page for this beer.
 
 ## `notes`
@@ -85,7 +86,7 @@ Where: the hop profile card above the research notes.
 - `grown_summary`: {{hop}}, Farms on Record: {{count}}
 - `details_title`: Beer Details
 - `detail_description`: Description
-- `detail_tasting_notes`: Tasting notes
+- `detail_tasting_notes`: Tasting Notes
 - `detail_srm`: SRM
 - `detail_og`: Original Gravity
 - `detail_fg`: Final Gravity

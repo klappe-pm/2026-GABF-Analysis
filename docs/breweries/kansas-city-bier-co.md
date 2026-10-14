@@ -22,9 +22,9 @@ beers-2026:
   - "../2026/winner/105-hop-water-3-kansas-city-bier-co-hop-spritz.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Doppelbock or Eisbock"
-  - "German-Style Koelsch"
-  - "German-Style Strong Beer"
+  - "German Doppelbock or Eisbock"
+  - "German Koelsch"
+  - "German Strong Beer"
   - "Hop Water"
 city: "Kansas City"
 employees: null

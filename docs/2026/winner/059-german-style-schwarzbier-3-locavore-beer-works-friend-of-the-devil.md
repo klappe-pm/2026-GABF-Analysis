@@ -193,11 +193,11 @@ Friend of the Devil is a schwarzbier from Locavore Beer Works, a Littleton, Colo
 | Style | Dark German Schwarzbier | [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks) |
 | ABV | 5.5% | [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks) |
 | IBU | 25 | [Locavore: pouring directory](https://www.ipourit.com/beer/Locavore-Beer-Works) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -205,7 +205,7 @@ No brewery description of Friend of the Devil was found; the tap menu gives only
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -213,17 +213,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,7 +241,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Locavore Beer Works is in Littleton, CO. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.locavorebeerworks.com/).
 
 ## related
 
@@ -258,7 +258,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [locavorebeerworks.com](http://locavorebeerworks.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/locavore-beer-works), [taplist.io](https://taplist.io/locavorebeerworks), [ipourit.com](https://www.ipourit.com/beer/Locavore-Beer-Works), [locavorebeerworks.com](https://www.locavorebeerworks.com/pages/tap-list), web searches recorded in the research notes, [locavorebeerworks.com](https://www.locavorebeerworks.com/).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [locavorebeerworks.com](http://locavorebeerworks.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/locavore-beer-works), [taplist.io](https://taplist.io/locavorebeerworks), [ipourit.com](https://www.ipourit.com/beer/Locavore-Beer-Works), [locavorebeerworks.com](https://www.locavorebeerworks.com/pages/tap-list), web searches recorded in the research notes, [locavorebeerworks.com](https://www.locavorebeerworks.com/).
 
 ## research-notes
 

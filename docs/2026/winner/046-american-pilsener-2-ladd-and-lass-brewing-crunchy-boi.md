@@ -140,12 +140,12 @@ Crunchy Boi is a dry, lightly bready pilsner hopped with Adeena from Roy Farms, 
 |---|---|---|
 | Style | Pilsner | [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer) |
 | ABV | 5.3% | [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Adeena, Mosaic | [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer) |
 | Malts and grains | Extra Pale Premium Pilsner, Pilsner, chit malt | [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Calrose rice | [Ladd & Lass: the beer](https://www.laddandlassbrewing.com/the-beer) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -167,18 +167,18 @@ The [brewery listing](https://www.laddandlassbrewing.com/the-beer) gives a grain
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Adeena | Adeena | not published | not published | Roy Farms | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
-| Mosaic | Mosaic | not published | not published | not published | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
+| Adeena | Adeena | Not Found | Not Found | Roy Farms | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -196,7 +196,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Ladd & Lass Brewing is in Seattle, WA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.laddandlassbrewing.com/), [Instagram](https://www.instagram.com/laddandlass/).
 
 ## related
 
@@ -215,8 +215,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Water, Process. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
+- Not Found: IBU. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Water, Process. Checked [laddandlassbrewing.com](https://www.laddandlassbrewing.com/), [laddandlassbrewing.com](https://www.laddandlassbrewing.com/the-beer), web searches recorded in the research notes, [laddandlassbrewing.com](https://www.laddandlassbrewing.com/ontap).
 
 ## research-notes
 

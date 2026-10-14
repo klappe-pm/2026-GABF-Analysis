@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Belgrade"
 employees: null
 farms-named: []

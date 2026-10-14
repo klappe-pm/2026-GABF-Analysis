@@ -29,7 +29,7 @@ Where: each saved view in the list.
 - `open`: Open
 - `rename`: Rename
 - `delete`: Delete
-- `copy_link`: Copy link
+- `copy_link`: Copy Link
 - `link_copied`: Link copied.
 - `filters_summary`: {{count}} Filters on {{page_title}}
 - `filters_summary_one`: 1 filter on {{page_title}}
@@ -49,8 +49,8 @@ Where: each saved view in the list.
 
 Where: in place of the list when nothing is saved.
 
-- `title`: No saved views yet.
-- `body`: Set Filters on any page, then choose Save this view.
+- `title`: No Saved Views Yet.
+- `body`: Set Filters on any page, then choose Save This View.
 
 ## `storage_error`
 

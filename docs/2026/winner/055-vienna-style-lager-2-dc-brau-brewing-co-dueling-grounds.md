@@ -133,11 +133,11 @@ Dueling Grounds is a Vienna lager from DC Brau Brewing Co. in Washington, D.C.
 |---|---|---|
 | Style | Vienna Lager | [DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna-lager) |
 | ABV | 5% | [DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna-lager) |
-| IBU | not published | none found |
-| Hops | not published (described as light peppery hop spice) | none found |
-| Malts and grains | not published (tasting notes of toast, caramel-like sweetness and toffee) | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| IBU | Not Found | Not Found |
+| Hops | not published (described as light peppery hop spice) | Not Found |
+| Malts and grains | not published (tasting notes of toast, caramel-like sweetness and toffee) | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Release began Friday, April 11 with a taproom event, then select D.C. area retailers, bars and restaurants (year not stated) | [DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna-lager) |
 
 ## brewery-description
@@ -158,17 +158,17 @@ The brewery names no malts, hops or yeast; it describes the beer as balanced, ne
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -186,7 +186,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.dcbrau.com/), [Instagram](https://www.instagram.com/dcbrau/), [Untappd](https://untappd.com/HopfheiserBrewingCompany).
 
 ## related
 
@@ -200,8 +200,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
+- Not Found: IBU. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
 
 ## research-notes
 

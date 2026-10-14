@@ -156,10 +156,10 @@ Cuppa Joe is a coffee brown ale from Kulshan Brewing Co. of Bellingham, Washingt
 |---|---|---|
 | Style | Coffee Brown Ale | [Kulshan Brewing: on tap](https://kulshanbrewing.com/on-tap) |
 | ABV | 4.2% | [Kulshan Brewing: on tap](https://kulshanbrewing.com/on-tap) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coffee (roaster not named) | [Kulshan Brewing: on tap](https://kulshanbrewing.com/on-tap) |
 | Other | served on nitro | [Kulshan Brewing: on tap](https://kulshanbrewing.com/on-tap) |
 
@@ -175,7 +175,7 @@ Source: [Kulshan Brewing: on tap](https://kulshanbrewing.com/on-tap)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -183,16 +183,16 @@ Nothing beyond coffee, implied by the brewery's style name, is published. No roa
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Served on nitro | [kulshanbrewing.com](https://kulshanbrewing.com/on-tap) |
 
 ## style-context
@@ -211,7 +211,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Kulshan Brewing Co. is in Bellingham, WA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://kulshanbrewing.com/), [Instagram](https://www.instagram.com/kulshanbrewery/).
 
 ## related
 
@@ -227,8 +227,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
-- Not published: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -150,14 +150,14 @@ Fresh Hop Linoleum is a fresh hop beer from Vice Beer in Vancouver, Washington; 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
+| Style | not published (category name used) | Not Found |
 | ABV | 7.2% | [Vice 2026 fresh hop release](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Mosaic, Mosaic Cryo, Simcoe | [Vice 2026 fresh hop release](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -167,7 +167,7 @@ Source: [Vice 2026 release description on Untappd](https://untappd.com/b/vice-be
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -177,20 +177,20 @@ The [2026 release listing](https://untappd.com/b/vice-beer-fresh-hop-linoleum-20
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Mosaic Cryo | Mosaic | Cryo | Not Found | Not Found | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -208,7 +208,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Vice Beer is in Vancouver, WA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/Vice_Beer).
 
 ## related
 
@@ -225,8 +225,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, [vicebeer.com](https://www.vicebeer.com/).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [vicebeer.com](https://www.vicebeer.com/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, [vicebeer.com](https://www.vicebeer.com/).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [vicebeer.com](https://www.vicebeer.com/).
 
 ## research-notes
 

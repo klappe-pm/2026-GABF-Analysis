@@ -48,17 +48,13 @@ function styleRef(c) {
   return hit ? { ...(c.ref ?? {}), description: hit.description, guideline_source: hit.guideline_source, confidence: hit.confidence, variant_of: hit.category_name } : c.ref;
 }
 
-// A style range is shown only when both ends are numbers. Some rows of data/reference/categories.csv have an
-// unquoted style family with commas that shifts their columns; a shifted row reads as Not Found here
-// rather than showing another column's figures.
+// A style range is shown only when both ends are numbers.
 const present = (v) => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v));
 
 export function category(slug) {
   const c = site().cats.find((x) => x.slug === slug);
   if (!c) return null;
-  const found = styleRef(c);
-  const shifted = found && found.abv_min && !Number.isFinite(Number(found.abv_min));
-  const ref = shifted ? null : found;
+  const ref = styleRef(c);
   const range = (min, max) => (present(min) && present(max) ? { min: String(min), max: String(max) } : null);
   const rows = site().payload.results.filter((r) => r.category_name === c.name).map((r) => {
     const stem = stemOf(r);

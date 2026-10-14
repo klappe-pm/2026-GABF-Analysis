@@ -22,11 +22,11 @@ beers-2026:
   - "../2026/winner/091-new-zealand-style-india-pale-ale-2-meanwhile-brewing-co-dream-logic.md"
 brewery-type: null
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "Experimental Beer"
-  - "German-Style Pilsener"
-  - "International-Style Pilsener"
-  - "New Zealand-Style India Pale Ale"
+  - "German Pilsener"
+  - "International Pilsener"
+  - "New Zealand India Pale Ale"
 city: "Austin"
 employees: null
 farms-named: []
@@ -41,16 +41,14 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/idaho-7.md"
   - "../hops/varieties/krush.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/nectaron.md"
-instagram: null
+instagram: "https://www.instagram.com/meanwhilebeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -67,10 +65,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "meanwhile-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "TX"
 untappd: null
-website: null
+website: "https://www.meanwhilebeer.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -30,8 +30,8 @@ const abvText = (x: number) => `${Number.isInteger(x) ? x : x.toFixed(1).replace
 export function FirstTimeView({ year, rows, copy: c, partialYears, completeRange }: { year: number; rows: FirstTimeRow[]; copy: Copy; partialYears: string; completeRange: string }) {
   usePageScope({ year: String(year) }, [fill(c.fixed.year, { year })]);
   const shown = useFilteredRows(rows) as FirstTimeRow[];
-  const none = <span className="text-on-surface-variant">{c.gaps.not_defined}</span>;
-  const notPublished = <span className="text-on-surface-variant">{c.gaps.not_published}</span>;
+  const none = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
+  const notPublished = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
   const medalNames = c.medal as Record<MedalName, string>;
 
   const fresh = useMemo(() => shown.filter((r) => r.first_time === 'new'), [shown]);

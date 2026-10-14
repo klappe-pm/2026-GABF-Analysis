@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Munich-Style Helles"
+  - "Munich Helles"
   - "Sweet Stout or Cream Stout"
 city: "Front Royal"
 employees: null

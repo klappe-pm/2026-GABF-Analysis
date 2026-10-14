@@ -217,12 +217,12 @@ Rough & Tumble is a beer from Fieldwork Brewing Co. of Berkeley, California, who
 |---|---|---|
 | Style | Bock Lager | [Fieldwork: 2026 brewery announcement](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival) |
 | ABV | 6.6% | [Fieldwork: Rough and Tumble listing](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -230,7 +230,7 @@ No brewery description of Rough & Tumble was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -238,17 +238,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -277,15 +277,15 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 - [Fieldwork: Rough and Tumble listing](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441)
 - [Fieldwork Brewing Co.](https://www.fieldworkbrewing.com/)
 - [Fieldwork: beer archive](https://fieldworkbrewing.com/beer/)
-- [Untappd: Fieldwork Brewing Company](https://untappd.com/FieldworkBrewingCompany)
-- [Untappd: Fieldwork beer list](https://untappd.com/w/fieldwork-brewing-company/184717/beer)
+- [Untappd (hand-read citation): Fieldwork Brewing Company](https://untappd.com/FieldworkBrewingCompany)
+- [Untappd (hand-read citation): Fieldwork beer list](https://untappd.com/w/fieldwork-brewing-company/184717/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Fieldwork: 2026 brewery announcement](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)).
-- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)).
+- Not Found: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

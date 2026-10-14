@@ -62,10 +62,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "creature-comforts-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "GA"
 untappd: null
-website: "http://www.creaturecomfortsbeer.com"
+website: "https://creaturecomforts.co/"
 world-beer-cup-medals: 0
 ---
 

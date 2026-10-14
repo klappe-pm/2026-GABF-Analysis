@@ -28,10 +28,10 @@ categories-won:
   - "Barley Wine or Wheat Wine"
   - "Bock"
   - "Chili Beer"
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
   - "Imperial India Pale Ale"
   - "Imperial Stout"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Tracy"
 employees: null
 farms-named: []

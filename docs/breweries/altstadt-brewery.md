@@ -22,9 +22,9 @@ beers-2026:
   - "../2026/winner/056-german-style-maerzen-1-altstadt-brewery-altstadt-oktoberfest.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Maerzen"
-  - "German-Style Pilsener"
-  - "Munich-Style Helles"
+  - "German Maerzen"
+  - "German Pilsener"
+  - "Munich Helles"
 city: "Fredericksburg"
 employees: null
 farms-named: []

@@ -34,12 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/roughtailbrewingco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "roughtail-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "OK"
 untappd: null
-website: null
+website: "https://roughtailbeer.com/"
 world-beer-cup-medals: 0
 ---
 

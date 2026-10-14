@@ -24,7 +24,7 @@ beers-2026:
 brewery-type: "planning"
 categories-won:
   - "American Fruit Beer"
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Imperial Stout"
   - "Pro-Am Comp"
   - "Smoke Beer"

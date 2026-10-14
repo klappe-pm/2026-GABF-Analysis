@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
 city: "Lompoc"
 employees: null
 farms-named: []

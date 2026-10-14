@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/079-belgian-style-or-spontaneous-sour-ale-3-new-glarus-brewing-co-vintage-2026.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style or Spontaneous Sour Ale"
-  - "Belgian-Style Sour Ale"
+  - "Belgian or Spontaneous Sour Ale"
+  - "Belgian Sour Ale"
 city: "New Glarus"
 employees: null
 farms-named: []
@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/newglarusbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "new-glarus-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "WI"
-untappd: null
-website: "http://www.newglarusbrewing.com"
+untappd: "https://untappd.com/NewGlarusBrewingCompany"
+website: "https://newglarusbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

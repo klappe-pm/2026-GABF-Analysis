@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/070-english-style-esb-or-ipa-2-field-artisan-brewing-lollygagger.md"
 brewery-type: null
 categories-won:
-  - "English-Style ESB or IPA"
+  - "English ESB or IPA"
   - "Herb and Spice Beer"
 city: "Westfield"
 employees: null
@@ -35,12 +35,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/fieldbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "field-artisan-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "IN"
-untappd: null
-website: null
+untappd: "https://untappd.com/FieldBrewing"
+website: "https://www.fieldbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

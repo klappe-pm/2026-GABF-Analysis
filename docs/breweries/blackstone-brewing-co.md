@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/073-english-style-brown-ale-3-blackstone-brewing-co-nut-brown-ale.md"
 brewery-type: null
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Pumpkin Beer"
 city: "Nashville"
 employees: null
@@ -38,7 +38,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
   - "website"
 hops-used: []
 instagram: null
@@ -56,9 +55,10 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "blackstone-brewing-co"
-sources: []
+sources:
+  - "Untappd brewery page name and city match"
 state: "TN"
-untappd: null
+untappd: "https://untappd.com/BlackstoneBrewingCompany"
 website: null
 world-beer-cup-medals: 0
 ---

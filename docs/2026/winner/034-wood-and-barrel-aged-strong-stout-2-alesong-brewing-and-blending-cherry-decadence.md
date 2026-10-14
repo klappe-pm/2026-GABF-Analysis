@@ -129,8 +129,8 @@ Cherry Decadence is an imperial oatmeal stout aged in Westward Whiskey barrels w
 |---|---|---|
 | Style | Imperial oatmeal stout | [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence) |
 | ABV | 14.2% | [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Oats (implied by "oatmeal stout"; no malt bill given) | [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence) |
 | Yeast | Saccharomyces | [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence) |
 | Adjuncts, fruit, spices | Cherry | [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence) |
@@ -154,16 +154,16 @@ The brewery page names Saccharomyces as the microbe, Westward Whiskey barrels fo
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Imperial oatmeal stout aged in Westward Whiskey barrels, with cherry | [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence) |
 
 ## style-context
@@ -197,8 +197,8 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
+- Not Found: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -127,24 +127,24 @@ Stein Altbier is an altbier from Sierra Nevada Brewing Co. of Chico, California.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Altbier (Untappd: Altbier, Traditional) | [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
-| ABV | 5% | [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
-| IBU | 42 | [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
-| Hops | whole-cone hops, varieties not named | [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published in a page that could be read | none found |
+| Style | Altbier (Untappd: Altbier, Traditional) | [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
+| ABV | 5% | [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
+| IBU | 42 | [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
+| Hops | whole-cone hops, varieties not named | [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | not published in a page that could be read | Not Found |
 
 ## brewery-description
 
 > Stein Alt is an old style German ale, golden in color with an interesting coffee-like malt flavor, paired with fruity aromas balanced by a moderate dose of whole-cone hops making it clean, complex, and amazingly drinkable.
 
-Source: [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
+Source: [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -152,17 +152,17 @@ The only ingredient detail published is the use of whole-cone hops; no hop varie
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -180,7 +180,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Sierra Nevada Brewing Co. is in Chico, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/SierraNevada).
 
 ## related
 
@@ -190,12 +190,12 @@ No brewery links have been checked yet.
 
 - [Beer page on brewery site](https://sierranevada.com/brews/stein-altbier)
 - [Sierra Nevada Brewing Co.](https://sierranevada.com/)
-- [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
+- [Untappd (hand-read citation): Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882), web searches recorded in the research notes, [sierranevada.com](https://sierranevada.com/ (HTTP 403)).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882), web searches recorded in the research notes, [sierranevada.com](https://sierranevada.com/ (HTTP 403)).
 
 ## research-notes
 

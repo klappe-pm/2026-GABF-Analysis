@@ -127,11 +127,11 @@ Traditions is a blend of oak-aged saison brewed with Oregon-grown ingredients an
 |---|---|---|
 | Style | Oak-aged saison (blend) | [Alesong: Traditions](https://alesongbrewing.com/traditions) |
 | ABV | 6.0% | [Alesong: Traditions](https://alesongbrewing.com/traditions) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (Oregon-grown ingredients, not itemized) | [Alesong: Traditions](https://alesongbrewing.com/traditions) |
 | Yeast | Brettanomyces (listed as microbes) | [Alesong: Traditions](https://alesongbrewing.com/traditions) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | American oak barrels; club exclusive; released May 2026 | [Alesong: Traditions](https://alesongbrewing.com/traditions) |
 
 ## brewery-description
@@ -152,16 +152,16 @@ The brewery says only that Traditions uses Oregon-grown ingredients, lists Brett
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Blend of oak-aged saison brewed with Oregon-grown ingredients and matured in seasoned Alesong barrels; American oak, Brettanomyces | [alesongbrewing.com](https://alesongbrewing.com/traditions) |
 
 ## style-context
@@ -194,8 +194,8 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes.
+- Not Found: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes.
 
 ## research-notes
 

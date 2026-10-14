@@ -22,8 +22,8 @@ beers-2026:
   - "../2026/winner/078-belgian-style-strong-specialty-ale-3-river-north-brewery-quandary.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style or French-Style Specialty Ale"
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian or French Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "Chocolate Beer"
   - "Coffee Beer"
   - "Other Strong Beer"
@@ -39,11 +39,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/rivernorthbrew/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -61,10 +60,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "river-north-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CO"
 untappd: null
-website: "http://www.rivernorthbrewery.com"
+website: "https://rivernorthbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

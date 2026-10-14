@@ -22,9 +22,9 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "Belgian Fruit Beer"
-  - "Berliner-Style Weisse"
-  - "Scottish-Style Ale"
-  - "Specialty Berliner-Style Weisse"
+  - "Berliner Weisse"
+  - "Scottish Ale"
+  - "Specialty Berliner Weisse"
 city: "Oregon City"
 employees: null
 farms-named: []

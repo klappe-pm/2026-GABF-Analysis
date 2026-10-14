@@ -219,14 +219,14 @@ Stupid Sticky Fingers is a collaboration beer between Werk Force Brewing Co. of 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -234,7 +234,7 @@ No brewery description of Stupid Sticky Fingers was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -242,16 +242,16 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Imperial s'mores stout brewed annually with Rocky Reef Brewing Co., with marshmallows roasted over a campfire at the brewery added to the kettle | [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am) |
 
 ## style-context
@@ -270,7 +270,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Werk Force Brewing Co. / Rocky Reef Brewing Co. is in Plainfield, IL.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.werkforcebrewing.com/), [Instagram](https://www.instagram.com/werkforcebrewing/).
 
 ## related
 
@@ -287,8 +287,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
-- Not published: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
+- Not Found: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
 
 ## research-notes
 

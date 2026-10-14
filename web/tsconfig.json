@@ -26,6 +26,9 @@
       "design-editor": [
         "./design/editor.tsx"
       ],
+      "web-review": [
+        "./review/widget-off.tsx"
+      ],
       "review-settings-panel": [
         "./components/review/settings-panel.tsx"
       ],
@@ -43,6 +46,7 @@
   ],
   "exclude": [
     "node_modules",
-    "out"
+    "out",
+    "out-*"
   ]
 }

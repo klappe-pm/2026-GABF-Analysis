@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "Columbia"
 employees: null
 farms-named: []

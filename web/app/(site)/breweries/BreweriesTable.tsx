@@ -3,7 +3,8 @@
 // The breweries index as a view that follows the global filter. The page sends the ranking under the default
 // selection (so the built page is complete) and the attributes of every brewery; under any other selection
 // the medal rows load once and the ranking is drawn again from them, the way the Filters dialog counts.
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { Button } from '@/components/Button';
 import { type Column, DataTable, type Row } from '@/components/DataTable';
 import { EstimateTooltip } from '@/components/EstimateTooltip';
 import { MedalRecord } from '@/components/MedalRecord';
@@ -19,7 +20,12 @@ import { type Agg, aggregate, type MedalLine } from './aggregate';
 import { type EstimateCopy, explain, markLabel } from './estimate-text';
 import { fillText, usd } from './format';
 
+const PAGE_SIZE = 100;
+
 export type IndexCopy = {
+  showing: string;
+  showMore: string;
+  showAll: string;
   caption: string;
   sortHint: string;
   columns: Record<'brewery' | 'hq' | 'type' | 'medals' | 'split' | 'points' | 'first' | 'latest' | 'ownership' | 'arr', string>;
@@ -42,6 +48,8 @@ export type IndexCopy = {
 
 export function BreweriesTable({ info, initial, copy }: { info: Record<string, IndexInfo>; initial: Agg[]; copy: IndexCopy }) {
   usePageScope({}, []);
+  // The page draws the first rows only; search and filter still read every brewery.
+  const [limit, setLimit] = useState(PAGE_SIZE);
   const { state, setState, data, status, load } = useGlobalFilter();
   const isDefault = isDefaultState(state);
   useEffect(() => { if (!isDefault) load(); }, [isDefault, load]);
@@ -63,7 +71,7 @@ export function BreweriesTable({ info, initial, copy }: { info: Record<string, I
     { key: 'arr', label: copy.columns.arr, numeric: true, sortable: true },
   ];
   const none = <span className="text-on-surface-variant">{copy.notDefined}</span>;
-  const rows: Row[] = (list ?? []).map((a) => {
+  const rows: Row[] = (list ?? []).slice(0, limit).map((a) => {
     const b = info[a.key];
     const typeText = b.type ? copy.types[b.type] ?? copy.notDefined : copy.notDefined;
     const ownerText = copy.ownership[b.ownership] ?? copy.notDefined;
@@ -122,7 +130,16 @@ export function BreweriesTable({ info, initial, copy }: { info: Record<string, I
         <>
           <p role="status" className="type-title-small tabular-nums text-on-surface">{list.length === 1 ? copy.countOne : fillText(copy.count, { count: list.length.toLocaleString('en-US') })}</p>
           {list.length ? (
-            <DataTable caption={copy.caption} sortHint={copy.sortHint} columns={columns} rows={rows} initialSort={{ key: 'points', dir: 'descending' }} scroll={false} />
+            <>
+              <DataTable caption={copy.caption} sortHint={copy.sortHint} columns={columns} rows={rows} initialSort={{ key: 'points', dir: 'descending' }} scroll={false} />
+              {list.length > limit ? (
+                <div className="flex flex-wrap items-center gap-4">
+                  <p className="type-body-medium tabular-nums text-on-surface-variant">{fillText(copy.showing, { shown: limit.toLocaleString('en-US'), total: list.length.toLocaleString('en-US') })}</p>
+                  <Button variant="secondary" onClick={() => setLimit(limit + PAGE_SIZE)}><span style={{ fontFamily: 'var(--md-ref-typeface-plain)' }}>{fillText(copy.showMore, { count: Math.min(PAGE_SIZE, list.length - limit) })}</span></Button>
+                  <Button variant="quiet" onClick={() => setLimit(list.length)}><span style={{ fontFamily: 'var(--md-ref-typeface-plain)' }}>{fillText(copy.showAll, { total: list.length.toLocaleString('en-US') })}</span></Button>
+                </div>
+              ) : null}
+            </>
           ) : (
             <StateCard kind="empty" title={copy.emptyTitle}>{copy.emptyHint}</StateCard>
           )}

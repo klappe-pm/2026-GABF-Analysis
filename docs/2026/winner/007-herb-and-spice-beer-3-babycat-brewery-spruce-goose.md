@@ -142,10 +142,10 @@ Spruce Goose is a strong seasonal ale conditioned on fresh Canadian spruce tips,
 |---|---|---|
 | Style | Winter Warmer (subtitled Canadian Spruce Ale) | [BabyCat: Spruce Goose](https://babycatbrewery.com/beer/spruce-goose/) |
 | ABV | 9% | [BabyCat: Spruce Goose](https://babycatbrewery.com/beer/spruce-goose/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | fresh Canadian spruce tips | [BabyCat: Spruce Goose](https://babycatbrewery.com/beer/spruce-goose/) |
 | Other | seasonal, on tap | [BabyCat: Spruce Goose](https://babycatbrewery.com/beer/spruce-goose/) |
 
@@ -157,24 +157,24 @@ Source: [BabyCat: Spruce Goose](https://babycatbrewery.com/beer/spruce-goose/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-Spruce tips are the only ingredient the brewery names. Untappd describes the beer as an "Imperial Red on Spruce Tips" and files it as an imperial red ale ([Untappd: Spruce Goose](https://untappd.com/b/babybat-brewery-spruce-goose/5214225)); no hop, malt or yeast names are published.
+Spruce tips are the only ingredient the brewery names. Untappd describes the beer as an "Imperial Red on Spruce Tips" and files it as an imperial red ale ([Untappd (hand-read citation): Spruce Goose](https://untappd.com/b/babybat-brewery-spruce-goose/5214225)); no hop, malt or yeast names are published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Conditioned on fresh Canadian spruce tips | [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/) |
 
 ## style-context
@@ -193,7 +193,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 BabyCat Brewery is in Kensington, MD.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://babycatbrewery.com/), [Instagram](https://www.instagram.com/babycatbrewery/), [Untappd](https://untappd.com/Babycat_Brewery).
 
 ## related
 
@@ -204,13 +204,13 @@ No brewery links have been checked yet.
 - [Beer page on brewery site](https://babycatbrewery.com/beer/spruce-goose/)
 - [BabyCat Brewery](https://babycatbrewery.com/)
 - [BabyCat: beer archive](https://babycatbrewery.com/beers/)
-- [Untappd: Spruce Goose](https://untappd.com/b/babybat-brewery-spruce-goose/5214225)
+- [Untappd (hand-read citation): Spruce Goose](https://untappd.com/b/babybat-brewery-spruce-goose/5214225)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes.
-- Not published: IBU. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes.
+- Not Found: IBU. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

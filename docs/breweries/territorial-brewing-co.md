@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "brewpub"
 categories-won:
   - "American Fruit Beer"
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
 city: "Springfield"
 employees: null
 farms-named: []

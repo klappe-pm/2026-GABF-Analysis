@@ -165,13 +165,13 @@ Higher Purpose is a milk stout from Third Eye Brewing Co. in Hamilton, Ohio.
 |---|---|---|
 | Beer page | Brewery beer list | [Third Eye: beer overview](https://thirdeyebrewingco.com/beer-overview/) |
 | Style | Milk Stout | [Third Eye Brewing: home page](https://thirdeyebrewingco.com/) |
-| ABV | 6.3% | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
-| IBU | 24 | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Lactose | [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
-| Other | not published | none found |
+| ABV | 6.3% | [Untappd (hand-read citation): Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
+| IBU | 24 | [Untappd (hand-read citation): Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Lactose | [Untappd (hand-read citation): Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -181,7 +181,7 @@ Source: [Third Eye: description on Untappd](https://untappd.com/b/third-eye-brew
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -189,17 +189,17 @@ The [beer listing](https://untappd.com/b/third-eye-brewing-company-higher-purpos
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,7 +218,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Third Eye Brewing Co. is in Hamilton, OH.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://thirdeyebrewingco.com/), [Instagram](https://www.instagram.com/thirdeyebrewing/).
 
 ## related
 
@@ -227,7 +227,7 @@ No brewery links have been checked yet.
 ## links
 
 - [Third Eye: beer overview](https://thirdeyebrewingco.com/beer-overview/)
-- [Untappd: Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
+- [Untappd (hand-read citation): Higher Purpose](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
 - [Craft Beer & Brewing: brewer interview](https://www.beerandbrewing.com/the-milk-stout-whisperer)
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
 - [Third Eye Brewing: our beers](https://thirdeyebrewingco.com/beer/)
@@ -235,7 +235,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer-overview/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995), [beerandbrewing.com](https://www.beerandbrewing.com/the-milk-stout-whisperer), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer-overview/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995), [beerandbrewing.com](https://www.beerandbrewing.com/the-milk-stout-whisperer), web searches recorded in the research notes.
 
 ## research-notes
 

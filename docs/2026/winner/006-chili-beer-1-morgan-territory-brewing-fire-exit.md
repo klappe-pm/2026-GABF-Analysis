@@ -150,42 +150,42 @@ Fire Exit is a beer from Morgan Territory Brewing of Tracy, California. The beer
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Chili lager, described as infused Snap Shot | [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
-| ABV | 4.6% | [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
-| IBU | 12 | [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Jalapeños | [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
-| Other | not published | none found |
+| Style | Chili lager, described as infused Snap Shot | [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
+| ABV | 4.6% | [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
+| IBU | 12 | [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Jalapeños | [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers) |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > Fire Exit is a special production of our Snap Shot lager infused with Five POUNDS of fresh jalapeños per keg.
 
-Source: [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
+Source: [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The listing describes a fresh pepper infusion into the base lager; no hop, malt or yeast varieties are named. [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
+The listing describes a fresh pepper infusion into the base lager; no hop, malt or yeast varieties are named. [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -211,7 +211,7 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 
 ## links
 
-- [Untappd: Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
+- [Untappd (hand-read citation): Fire Exit](https://untappd.com/v/morgan-territory-brewing/4844774/beers)
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
 - [Morgan Territory: on tap](https://www.morganterritorybrewing.com/on-tap)
 - [BeerMenus: Morgan Territory Tracy](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1)
@@ -219,7 +219,7 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/v/morgan-territory-brewing/4844774/beers), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/v/morgan-territory-brewing/4844774/beers), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

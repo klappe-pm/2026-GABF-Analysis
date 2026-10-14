@@ -122,13 +122,13 @@ Wee Heavy Wilson is a wee heavy from MudHen Brewing Co. in Wildwood, New Jersey.
 | Field | Value | Source |
 |---|---|---|
 | Style | Scotch Ale | [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/) |
-| ABV | 8% | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
-| IBU | 33 | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
-| Hops | not published | none found |
-| Malts and grains | Peat-smoked malt | [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| ABV | 8% | [Untappd (hand-read citation): MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
+| IBU | 33 | [Untappd (hand-read citation): MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Peat-smoked malt | [Untappd (hand-read citation): MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -148,17 +148,17 @@ The [Untappd description](https://untappd.com/MudHenBrewingCompany/beer) explici
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -176,7 +176,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 MudHen Brewing Co. is in Wildwood, NJ. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://mudhenbrew.com/), [Instagram](https://www.instagram.com/mudhenbrew/), [Untappd](https://untappd.com/MudHenBrewingCompany).
 
 ## related
 
@@ -184,13 +184,13 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer)
+- [Untappd (hand-read citation): MudHen beer list](https://untappd.com/MudHenBrewingCompany/beer)
 - [MudHen: Wee Heavy Wilson awards](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [mudhenbrew.com](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/), [untappd.com](https://untappd.com/MudHenBrewingCompany/beer), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [mudhenbrew.com](https://mudhenbrew.com/celebrating-success-world-beer-cup-triumph/), [untappd.com](https://untappd.com/MudHenBrewingCompany/beer), web searches recorded in the research notes.
 
 ## research-notes
 

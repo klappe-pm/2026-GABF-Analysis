@@ -164,10 +164,10 @@ Nut Brown Ale is a year-round English-style brown ale from Blackstone Brewing Co
 | Style | English-Style Brown Ale | [Blackstone: our beer](https://www.blackstonebeer.com/our-beer) |
 | ABV | 5.6% | [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814) |
 | IBU | 23 | [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed among year-round beers; earlier medals: GABF silver 1997, 2001 and 2007, World Beer Cup bronze 1998 and gold 2000 | [Blackstone: our beer](https://www.blackstonebeer.com/our-beer) |
 
 ## brewery-description
@@ -176,7 +176,7 @@ No description from the brewery was found; its beer page shows the beer as an im
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -184,17 +184,17 @@ No ingredient is published on the brewery site.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -212,7 +212,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Blackstone Brewing Co. is in Nashville, TN.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/BlackstoneBrewingCompany).
 
 ## related
 
@@ -227,7 +227,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814), [blackstonebeer.com](https://www.blackstonebeer.com/), [blackstonebeer.com](https://www.blackstonebeer.com/our-beer), web searches recorded in the research notes, [blackstonebeer.com](https://blackstonebeer.com/our-beer).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814), [blackstonebeer.com](https://www.blackstonebeer.com/), [blackstonebeer.com](https://www.blackstonebeer.com/our-beer), web searches recorded in the research notes, [blackstonebeer.com](https://blackstonebeer.com/our-beer).
 
 ## research-notes
 

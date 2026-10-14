@@ -186,11 +186,11 @@ Perpetual Peace is a barrel-aged Scottish wee heavy from No Label Brewing Co. in
 |---|---|---|
 | Style | Barrel-aged Scottish wee heavy | [Katy EDC: No Label 10th anniversary](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28) |
 | ABV | 12.3% (as announced for the 2020 release) | [Katy EDC: No Label 10th anniversary](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28) |
-| IBU | 21 | [Untappd: No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | 21 | [Untappd (hand-read citation): No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Barrel type not named; a co-owner says it "sits in barrels for months" | [Covering Katy: Beer EGOT](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/) |
 
 ## brewery-description
@@ -203,7 +203,7 @@ Source: [Covering Katy: quote from co-owner Tom Paynter](https://coveringkaty.co
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -211,17 +211,17 @@ No ingredients are published. The 2020 announcement credits the recipe to head b
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -240,7 +240,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No Label Brewing Co. is in Katy, TX.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.nolabelbrew.com/), [Instagram](https://www.instagram.com/nolabelbrew/), [Untappd](https://untappd.com/nolabelbrew).
 
 ## related
 
@@ -254,11 +254,11 @@ No brewery links have been checked yet.
 - [Covering Katy: Beer EGOT](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/)
 - [My Table: Off Label Perpetual Peace](https://my-table.com/off-label-perpetual-peace/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721)
+- [Untappd (hand-read citation): No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coveringkaty.com](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/), [my-table.com](https://my-table.com/off-label-perpetual-peace/), [untappd.com](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721), [katyedc.org](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28), [nolabelbrew.com](https://www.nolabelbrew.com/), [nolabelbrew.com](https://www.nolabelbrew.com/our-beers), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coveringkaty.com](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/), [my-table.com](https://my-table.com/off-label-perpetual-peace/), [untappd.com](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721), [katyedc.org](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28), [nolabelbrew.com](https://www.nolabelbrew.com/), [nolabelbrew.com](https://www.nolabelbrew.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 

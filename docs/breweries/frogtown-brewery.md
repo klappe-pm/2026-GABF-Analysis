@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/062-german-style-koelsch-3-frogtown-brewery-twin-suns.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "Los Angeles"
 employees: null
 farms-named: []
@@ -33,11 +33,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/frogtownbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -51,10 +49,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "frogtown-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.frogtownbrewery.com"
+untappd: "https://untappd.com/FrogTownBrewery"
+website: "https://www.frogtownbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

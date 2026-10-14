@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/056-german-style-maerzen-3-mainstage-brewing-co-oktoberfestfest.md"
 brewery-type: null
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Boulder"
 employees: null
 farms-named: []
@@ -34,12 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/mainstagebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "mainstage-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CO"
 untappd: null
-website: null
+website: "https://www.mainstagebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

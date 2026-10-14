@@ -124,11 +124,11 @@ Uncle Dave's IPA is a rye IPA from Discretion Brewing in Soquel, California.
 | Style | IPA with a Hint of Rye | [Discretion: beer menu](https://www.discretionbrewing.com/menu/beer-menu/) |
 | ABV | 6.5% | [Discretion: beer menu](https://www.discretionbrewing.com/menu/beer-menu/) |
 | IBU | 68 | [Discretion: beer menu](https://www.discretionbrewing.com/menu/beer-menu/) |
-| Hops | varieties not named | none found |
+| Hops | varieties not named | Not Found |
 | Malts and grains | rye | [Discretion: beer menu](https://www.discretionbrewing.com/menu/beer-menu/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -148,17 +148,17 @@ Rye is the only named grain, credited with a peppery spice; the hops are describ
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -190,7 +190,7 @@ Links checked 2026-10-14: [Website](https://www.discretionbrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [discretionbrewing.com](https://www.discretionbrewing.com/), [discretionbrewing.com](https://www.discretionbrewing.com/menu/beer-menu/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [discretionbrewing.com](https://www.discretionbrewing.com/), [discretionbrewing.com](https://www.discretionbrewing.com/menu/beer-menu/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -84,8 +84,8 @@ Where: the profile card, first block.
 - `location_opened`: opened {{year}}
 - `location_kitchen`: kitchen
 - `location_map`: Map
-- `locations_missing`: {{count}} locations in the results. Addresses: Not Found.
-- `locations_missing_one`: 1 location in the results. Address: Not Found.
+- `locations_missing`: {{count}} locations in the results. Addresses: {{not_found}}.
+- `locations_missing_one`: 1 location in the results. Address: {{not_found}}.
 - `known_for`: Known for
 - `known_for_missing`: Not Found
 - `missing`: Not Found
@@ -105,7 +105,7 @@ Where: the profile card, ownership block.
 - `source`: Source
 - `unverified`: Curated from public announcements; not checked against a primary source.
 - `missing`: Not Found
-- `missing_note`: Breweries without ownership research count as independent in totals.
+- `missing_note`: Breweries without ownership research are not counted as independent.
 
 ## `distribution`
 
@@ -142,8 +142,8 @@ Where: the profile card, estimated scale block. Every figure here is an estimate
 - `per_employee`: Revenue per Employee
 - `per_location_note_one`: for its one location, E
 - `per_location_note_kitchen_one`: for its one location, which has a kitchen, E
-- `method_link`: How these estimates are made
-- `assumed_note`: No source states the brewery type, so these estimates use an assumed generic type.
+- `method_link`: How These Estimates Are Made
+- `assumed_note`: No brewery type was found, so these estimates use an assumed generic type.
 
 ## `other_competitions`
 
@@ -154,10 +154,12 @@ Where: the other competitions section, when the brewery has medals outside this 
 
 ## `deep_dive`
 
-Where: the deep dive section at the bottom of the page.
+Where: the deep dive section at the bottom of the page, shown only when a deep dive exists.
 
 - `title`: Deep Dive
 - `missing`: No deep dive yet.
+- `record_title`: Research Record
+- `record_link`: Open the Tracked Research File for This Brewery
 
 ## `trend`
 
@@ -175,12 +177,12 @@ Where: the ten year trend table under the medal chart.
 
 Where: the medals by year chart.
 
-- `aria`: Line chart of the medals {{brewery_name}} won each year, gold, silver, and bronze.
+- `aria`: Stacked bar chart of the medals {{brewery_name}} won each year, gold, silver, and bronze.
 - `series_total`: All Medals
 
 ## `tables`
 
-Where: the medals by category and medals by location tables.
+Where: the table views of the charts and the medal history table.
 
 - `category_caption`: Medals of {{brewery_name}} by category.
 - `location_caption`: Medals of {{brewery_name}} by location credited.
@@ -235,6 +237,10 @@ Where: the profile card, extra rows.
 - `link_untappd`: Untappd
 - `link_beeradvocate`: BeerAdvocate
 - `links_checked`: Checked {{date}}
+- `source_line`: Source: {{source}}
+- `source_profile`: Brewery Profile
+- `source_override`: Hand Checked Correction
+- `source_open_brewery_db`: Open Brewery DB
 - `current_beers`: Current Beers
 - `current_beers_line`: As of {{date}}, from {{source}}.
 - `current_beer_detail`: ({{detail}})
@@ -256,7 +262,7 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `metric_per_location`: revenue per location
 - `metric_per_employee`: revenue per employee
 - `type_phrase_known`: its brewery type ({{type}})
-- `type_phrase_assumed`: an assumed generic type, because no source states the brewery type
+- `type_phrase_assumed`: an assumed generic type, because no brewery type was found
 - `barrels_reported`: Reported by the brewery: {{barrels}} barrels.
 - `barrels_reported_year`: Reported by the brewery for {{year}}: {{barrels}} barrels.
 - `barrels_bracket`: The midpoint of the Brewery of the Year size bracket it competed in ({{min}} to {{max}} barrels): {{barrels}} barrels.
@@ -278,7 +284,7 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `channel_distributor`: breweries that sell through a distributor
 - `channel_default`: similar breweries
 - `inputs`: Inputs: {{items}}.
-- `input_item`: {{label}} {{value}}
+- `input_item`: {{label}}: {{value}}
 - `input_barrels`: Barrels
 - `input_type`: Brewery Type
 - `input_locations`: Locations
@@ -286,5 +292,5 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `input_distribution`: Distribution
 - `input_employees`: Employees
 - `value_barrels`: {{barrels}} ({{basis}})
-- `value_type_assumed`: Not Found, so an assumed generic type is used
-- `value_kitchen_unknown`: Not Found, So No Food Revenue Is Added
+- `value_type_assumed`: {{not_found}}, So an Assumed Generic Type Is Used
+- `value_kitchen_unknown`: {{not_found}}, So No Food Revenue Is Added

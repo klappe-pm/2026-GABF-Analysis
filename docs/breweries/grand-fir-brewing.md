@@ -24,7 +24,7 @@ categories-won:
   - "American Amber Lager"
   - "Field Beer"
   - "Imperial India Pale Ale"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Rye Beers"
   - "Stout"
   - "Strong Red Ale"
@@ -40,12 +40,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/grandfirbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -62,10 +60,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "grand-fir-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "OR"
 untappd: null
-website: null
+website: "https://www.grandfirbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

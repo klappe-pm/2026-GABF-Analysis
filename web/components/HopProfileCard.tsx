@@ -8,11 +8,13 @@ import { TextLink } from './TextLink';
 // One hop variety on a Material card: its name, then origin, breeder, alpha and oil ranges, US acreage, and
 // the count of 2026 medal beers that use it as a description list, its aroma descriptors with their source,
 // and the farms that grow it, up to the spec's farm limit. The page passes every visible word; a value the
-// data does not hold arrives as the page's "not defined" text.
+// data does not hold arrives as the page's "Not Found" text.
 
 export type HopCardData = {
   name: string;
-  facts: { label: string; value: string }[];
+  // A fact marked wide holds long text (a breeder's full name) and spans the card's width; the rest are short
+  // figures that sit together in the grid.
+  facts: { label: string; value: string; wide?: boolean }[];
   aroma: { label: string; text: string | null; source?: { href: string; text: string } };
   // `more` holds {{count}}, filled with the number of farms past the limit.
   farms: { label: string; items: { name: string; href?: string }[]; more: string };
@@ -32,7 +34,17 @@ export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; 
     <article className={`flex w-full min-w-0 max-w-measure flex-col gap-4 p-4 medium:p-5 ${card.className}`} style={card.style} data-component="hop-profile-card">
       {card.elevated ? <md-elevation /> : null}
       <Heading className={`min-w-0 break-words text-on-surface ${typeOf(s['Name style'] ?? 'title large')}`}>{data.name}</Heading>
-      <Facts items={data.facts} />
+      <Facts items={data.facts.filter((f) => !f.wide)} columns="grid-cols-2 medium:grid-cols-3" />
+      {data.facts.some((f) => f.wide) ? (
+        <dl className="flex min-w-0 flex-col gap-2">
+          {data.facts.filter((f) => f.wide).map((f) => (
+            <div key={f.label} className="flex min-w-0 flex-col">
+              <dt className="type-label-medium text-on-surface-variant" style={labelFace(f.label)}>{f.label}</dt>
+              <dd className="type-body-large min-w-0 break-words text-on-surface">{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+      ) : null}
       {s['Show aroma'] === 'no' ? null : (
         <section className="flex min-w-0 flex-col gap-1">
           <p className="type-label-medium text-on-surface-variant" style={labelFace(data.aroma.label)}>{data.aroma.label}</p>

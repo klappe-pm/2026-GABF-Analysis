@@ -14,6 +14,10 @@ export const canonical = (path: string) => `${SITE_ORIGIN}${path}`;
 // The site paths of the dynamic pages, so every page links to the same address the route builds.
 export const paths = {
   home: '/',
+  overview: '/overview/',
+  analysis: '/analysis/',
+  analysisReport: (slug: string) => `/analysis/${slug}/`,
+  explore: '/analysis/explore/',
   breweries: '/breweries/',
   brewery: (slug: string) => `/breweries/${slug}/`,
   categories: '/categories/',
@@ -25,10 +29,7 @@ export const paths = {
   hop: (slug: string) => `/hops/${slug}/`,
   hopFarms: '/hop-farms/',
   hopFarm: (slug: string) => `/hop-farms/${slug}/`,
-  reports: '/reports/',
-  report: (slug: string) => `/reports/${slug}/`,
   dashboards: '/dashboards/',
-  explorer: '/explorer/',
   about: '/about/',
   method: '/method/',
   saved: '/saved/',

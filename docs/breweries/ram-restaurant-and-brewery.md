@@ -53,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "ram-restaurant-and-brewery"
-sources: []
+sources:
+  - "website resolved"
 state: "WA"
 untappd: null
-website: "http://www.theram.com"
+website: "https://www.theram.com/"
 world-beer-cup-medals: 0
 ---
 

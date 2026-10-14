@@ -149,10 +149,10 @@ Planet 4 is a red ale from Billsburg Brewery in Williamsburg, Virginia.
 | Style | Red Ale | [Billsburg: tap list](https://taplist.io/taplist-739667) |
 | ABV | 5.4% | [Billsburg: tap list](https://taplist.io/taplist-739667) |
 | IBU | 26 | [Billsburg: tap list](https://taplist.io/taplist-739667) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | SRM 22 | [Billsburg: tap list](https://taplist.io/taplist-739667) |
 
 ## brewery-description
@@ -161,7 +161,7 @@ No brewery description of this beer was found; the tap list gives only its name,
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -169,17 +169,17 @@ Nothing about this beer's ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -212,7 +212,7 @@ Links checked 2026-10-14: [Website](https://www.billsburg.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [billsburg.com](https://billsburg.com/beer/), [taplist.io](https://taplist.io/taplist-739667), [billsburg.com](https://www.billsburg.com/), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [billsburg.com](https://billsburg.com/beer/), [taplist.io](https://taplist.io/taplist-739667), [billsburg.com](https://www.billsburg.com/), web searches recorded in the research notes.
 
 ## research-notes
 

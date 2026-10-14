@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/044-rice-lager-2-silver-branch-brewing-co-mundo-especial.md"
 brewery-type: null
 categories-won:
-  - "Czech-Style Pale Lager"
+  - "Czech Pale Lager"
   - "Rice Lager"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Silver Spring"
 employees: null
 farms-named: []
@@ -36,12 +36,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/silverbranchus/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -57,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "silver-branch-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "MD"
 untappd: null
-website: null
+website: "https://www.silverbranchbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

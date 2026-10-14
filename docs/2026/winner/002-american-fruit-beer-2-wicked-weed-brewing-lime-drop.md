@@ -155,10 +155,10 @@ Lime Drop is a crisp lager flavored with lime and sea salt from Wicked Weed Brew
 |---|---|---|
 | Style | Lager with Fruit | [Wicked Weed: Lime Drop](https://www.wickedweedbrewing.com/beers/lime-drop/) |
 | ABV | 4.8% | [Wicked Weed: Lime Drop](https://www.wickedweedbrewing.com/beers/lime-drop/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | lime, sea salt | [Wicked Weed: Lime Drop](https://www.wickedweedbrewing.com/beers/lime-drop/) |
 | Other | sold in cans; silver medal at the 2026 World Beer Cup | [Wicked Weed: what's on tap](https://www.wickedweedbrewing.com/beers/whats-on-tap/) |
 
@@ -180,17 +180,17 @@ The brewery names only lime flavors and sea salt; the what's on tap listing call
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -208,7 +208,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Wicked Weed Brewing is in Asheville, NC. Brewery type in Open Brewery DB: Large brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.wickedweedbrewing.com/), [Instagram](https://www.instagram.com/wickedweedbrewing/).
 
 ## related
 
@@ -224,8 +224,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
+- Not Found: IBU. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, web search 2026-10-14: Wicked Weed Lime Drop hops and IBU.
 
 ## research-notes
 

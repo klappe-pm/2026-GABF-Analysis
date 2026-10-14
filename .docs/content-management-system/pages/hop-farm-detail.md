@@ -15,6 +15,12 @@ Where: the line under the farm name.
 
 - `varieties`: Varieties Published: {{count}}
 
+## `unfiltered`
+
+Where: under the heading of a section that shows the whole record and does not change with the Filters.
+
+- `note`: Whole record, not narrowed by the filters.
+
 ## `table`
 
 Where: every table on the page.
@@ -48,7 +54,7 @@ Where: the varieties section.
 Where: the section for medal beers whose brewery named this farm.
 
 - `title`: {{year}} Medal Beers That Name This Farm
-- `label`: Brewery named this farm.
+- `label`: Brewery Named This Farm.
 - `note`: The brewery published this farm for the hop shown. This is a direct link with its own source.
 - `hop`: Hop
 - `published`: Published as
@@ -69,12 +75,12 @@ Where: the section for medal beers that use a variety this farm grows.
 
 Where: the breweries section.
 
-- `title`: Breweries with a {{year}} Medal Beer Linked to This Farm
+- `title`: Breweries With a {{year}} Medal Beer Linked to This Farm
 - `note`: Each brewery links to its page, with how the farm is linked.
 - `brewery`: Brewery
 - `link`: Link
-- `named`: Named by the brewery.
-- `grown`: Grown by, through a variety the brewery uses.
+- `named`: Named by the Brewery.
+- `grown`: Grown Through a Variety the Brewery Uses.
 - `beers`: Medal Beers
 - `missing`: No brewery with a {{year}} medal beer is linked to this farm.
 

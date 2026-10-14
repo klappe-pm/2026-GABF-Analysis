@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/075-saison-3-third-window-brewing-co-saison-ete.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Brett Beer"
   - "Herb and Spice Beer"
   - "International Dark Lager"
@@ -43,7 +43,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -62,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "third-window-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.thirdwindowbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

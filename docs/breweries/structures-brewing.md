@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "International Dark Lager"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Bellingham"
 employees: null
 farms-named: []

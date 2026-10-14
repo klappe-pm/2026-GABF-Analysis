@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
 city: "Cleveland"
 employees: null
 farms-named: []

@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/089-international-style-pale-ale-3-original-pattern-brewing-co-hows-the-serenity.md"
 brewery-type: "micro"
 categories-won:
+  - "International Pale Ale"
   - "International Pale Ale or New Zealand Pale Ale"
-  - "International-Style Pale Ale"
   - "Session India Pale Ale"
 city: "Oakland"
 employees: null
@@ -38,7 +38,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/eclipse.md"
   - "../hops/varieties/enigma.md"
@@ -60,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "original-pattern-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.originalpatternbeer.com"
+untappd: "https://untappd.com/OriginalPattern"
+website: "https://www.originalpatternbeer.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -133,11 +133,11 @@ Sneakbox is the year-round, all Citra American pale ale of Kane Brewing Co. in O
 |---|---|---|
 | Style | American Pale Ale | [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box) |
 | ABV | 5.4% | [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra (100%) | [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | hazy golden yellow; year-round; cans and draft | [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box) |
 
 ## brewery-description
@@ -160,17 +160,17 @@ Citra is the only hop, as the brewery states on the [Sneakbox page](https://www.
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box) |
+| Citra | Citra | Not Found | Not Found | Not Found | [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Hazy golden yellow (no SRM number published) | [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -190,7 +190,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Kane Brewing Co. is in Ocean, NJ.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.kanebrewing.com/).
 
 ## related
 
@@ -208,8 +208,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15).
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
+- Not Found: IBU. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15).
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
 
 ## research-notes
 

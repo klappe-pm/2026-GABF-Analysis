@@ -9,10 +9,12 @@ import { fill, group, lookup, t } from '@/lib/content';
 import { fmt } from '@/lib/data';
 import { href, paths } from '@/lib/href';
 import { WINNER_YEAR } from '@/lib/site-data';
-import type { Cell, FarmLink, HopCard, Source, Table } from './data';
+import { beerCardData } from '../beers/cards';
+import type { BeerRef, Cell, FarmLink, HopCard, Source, Table } from './data';
+import type { FilteredCopy } from './filtered';
 
 export const raw = (key: string) => lookup(key) as string;
-export const notDefined = () => t('global.states.gaps.not_defined');
+export const notDefined = () => t('global.labels.not_found');
 
 // Sources as links, one under another. Plain text sources stay text.
 export function Sources({ sources }: { sources: Source[] }) {
@@ -91,14 +93,14 @@ export function ReferenceTable({ table, caption, sortHint }: { table: Table; cap
 // The data a hop profile card draws. `link` adds the line to the hop's own page.
 export function hopCardData(h: HopCard, { link = true }: { link?: boolean } = {}): HopCardData {
   const none = notDefined();
-  const hc = (k: string) => t(`pages.profile-cards.hop.${k}`, k === 'beers' ? { year: WINNER_YEAR } : {});
+  const hc = (k: string) => t(`pages.hop-detail.card.${k}`, k === 'beers' ? { year: WINNER_YEAR } : {});
   const detail = (k: string) => t(`pages.hop-detail.data.${k}`);
   const card = (k: string, v: Record<string, string | number>) => fill(raw(`pages.hop-detail.card.${k}`), v);
   return {
     name: h.name,
     facts: [
       { label: detail('origin'), value: h.origin ?? none },
-      { label: detail('breeder'), value: h.breeder ?? none },
+      { label: detail('breeder'), value: h.breeder ?? none, wide: true },
       { label: hc('alpha'), value: h.alpha ? card('range_percent', { min: fmt.one(h.alpha.min), max: fmt.one(h.alpha.max) }) : none },
       { label: hc('oil'), value: h.oil ? card('oil_range', { min: fmt.one(h.oil.min), max: fmt.one(h.oil.max) }) : none },
       { label: hc('acreage'), value: h.acreage ? fill(raw('pages.profile-cards.hop.acreage_value'), { acres: fmt.number(h.acreage.acres), year: h.acreage.year, states: h.acreage.states }) : none },
@@ -117,4 +119,22 @@ export function hopCardData(h: HopCard, { link = true }: { link?: boolean } = {}
     notDefined: none,
     link: link ? { href: href(paths.hop(h.slug)), text: hc('open') } : undefined,
   };
+}
+
+// The words the filtered beer views of a page need, all from the copy documents.
+export function filteredCopy(): FilteredCopy {
+  return {
+    countOne: t('global.filters.live_region.one'),
+    countMany: raw('global.filters.live_region.many'),
+    emptyTitle: t('global.states.no_results.title'),
+    emptyHint: t('global.states.no_results.remove_hint'),
+    fixedYear: fill(raw('global.filters.chips.fixed_year'), { year: WINNER_YEAR }),
+    cardsTitle: t('pages.hop-detail.beers.cards_title'),
+  };
+}
+
+// A beer as a row of a filtered view: the fields the filter reads, its table cells, and its profile card.
+export function beerRow(b: BeerRef, extra: Record<string, ReactNode>) {
+  const c = beerCells(b);
+  return { ...b.filter, key: b.stem, sort: c.sort, cells: { ...c.cells, ...extra }, card: beerCardData(b.card, { inList: true }) };
 }

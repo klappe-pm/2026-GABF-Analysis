@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
   - "Specialty Saison"
 city: "Seattle"
 employees: null

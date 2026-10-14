@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Strong Red Ale"
 city: "Cincinnati"
 employees: null

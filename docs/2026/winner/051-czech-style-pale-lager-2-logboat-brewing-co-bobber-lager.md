@@ -152,9 +152,9 @@ Bobber is an unfiltered core lager from Logboat Brewing Co. in Columbia, Missour
 | ABV | 5.0% | [BeerMenus: Logboat Bobber](https://www.beermenus.com/beers/213333-logboat-bobber) |
 | IBU | 15 | [Catalog.beer: Bobber Lager](https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9) |
 | Hops | Mittelfrüh (noble hops) | [Logboat: Bobber](https://www.logboatbrewing.com/bobber) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Unfiltered; light, clean, crisp; 12 oz cans; core beer | [Logboat: Bobber](https://www.logboatbrewing.com/bobber) |
 
 ## brewery-description
@@ -177,16 +177,16 @@ The brewery names Mittelfrüh as the hop and says "Noble Hops provide floral not
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
+| Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Unfiltered lager brewed with inspiration from pale German lagers | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
 
 ## style-context
@@ -205,7 +205,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Logboat Brewing Co. is in Columbia, MO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.logboatbrewing.com/), [Instagram](https://www.instagram.com/logboatbrewing/), [Untappd](https://untappd.com/LogboatBrewing).
 
 ## related
 
@@ -221,7 +221,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
 
 ## research-notes
 

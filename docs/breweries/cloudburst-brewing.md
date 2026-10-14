@@ -21,8 +21,8 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "American Pilsener"
-  - "Dortmunder or German-Style Oktoberfest"
-  - "German-Style Schwarzbier"
+  - "Dortmunder or German Oktoberfest"
+  - "German Schwarzbier"
   - "Kellerbier or Zwickelbier"
   - "Strong Red Ale"
 city: "Seattle"

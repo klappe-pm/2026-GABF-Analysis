@@ -27,7 +27,7 @@ test('generateStaticParams emits one page per record in the dataset', () => {
   // The record the site is built from today; a new year of results changes these on purpose.
   assert.ok(c.breweries >= 947, `${c.breweries} breweries`);
   assert.ok(c.beers >= 336, `${c.beers} beers`);
-  assert.ok(c.categories >= 175, `${c.categories} categories`);
+  assert.ok(c.categories >= 166, `${c.categories} categories`);
 });
 
 test('every dynamic route param is unique and URL safe', () => {

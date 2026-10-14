@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/071-scottish-style-ale-1-south-street-brewery-satans-pony.md"
 brewery-type: "brewpub"
 categories-won:
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Charlottesville"
 employees: null

@@ -18,11 +18,18 @@ Where: the dashboards index page and the tab row at the top of every dashboard.
 - `economics`: Ownership and Economics
 - `economics_description`: Ownership, parent companies, and estimated revenue, margins, and distribution.
 
+## `coverage`
+
+Where: the row of year chips under the tabs on every dashboard. Each links to the Method page.
+
+- `label`: Coverage by Year
+- `chip`: {{year}}, {{status}}
+
 ## `overview`
 
 Where: the overview dashboard.
 
-- `title`: Great American Beer Festival Results
+- `title`: Great American Beer Festival Results Dashboards
 - `lede`: Which states, styles, and breweries keep winning. Start with medals by year, then see where they land on the map, which style families win most, and which breweries lead on points. Select a bar, column, or state to filter by it.
 - `results_title`: Medal Winners
 - `deep_dives_title`: Brewery Deep Dives
@@ -57,7 +64,7 @@ Where: the breweries dashboard.
 - `picker_label`: Brewery
 - `picker_option`: {{brewery_name}} ({{count}})
 - `picker_meta_founded`: founded {{year}}
-- `picker_profile_link`: Open profile
+- `picker_profile_link`: Open Profile
 - `pick_prompt`: Pick a brewery above.
 - `results_title`: Medal Winners
 
@@ -89,12 +96,11 @@ Where: the summary tiles on every dashboard.
 - `medals`: Medals in View
 - `breweries`: Breweries
 - `states`: States
-- `categories`: Categories
+- `categories`: Categories in View
 - `categories_note`: {{count}} medals in special categories
 - `medal_split`: Gold, Silver, Bronze
 - `entrants`: Entrants in These Categories
 - `entrants_note`: Sum of category entry counts
-- `entrants_missing`: Not Published
 
 ## `panels`
 
@@ -143,7 +149,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 ### `per_gdp`
 
-- `title`: Medals per $100 billion of real GDP, by state
+- `title`: Medals per $100 Billion of Real GDP, by State
 - `subtitle`: Real GDP in 2017 dollars, in each medal's year; {{latest_year}} uses {{data_year}}.
 
 ### `by_fed_district`

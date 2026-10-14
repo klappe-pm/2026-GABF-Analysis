@@ -159,17 +159,17 @@ The brewery publishes a full ingredient line: 2-row and white wheat malts, yello
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Magnum | Hallertauer Magnum | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
-| Mandarina Bavaria | Mandarina Bavaria | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
+| Hallertau Magnum | Hallertauer Magnum | Not Found | Not Found | Not Found | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
+| Mandarina Bavaria | Mandarina Bavaria | Not Found | Not Found | Not Found | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Open-air fermentation with the house yeast; secondary fermentation with wildflower honey | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
 
 ## style-context
@@ -188,7 +188,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Brewery Ommegang is in Cooperstown, NY. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.ommegang.com/), [Instagram](https://www.instagram.com/breweryommegang/), [Untappd](https://untappd.com/breweryommegang).
 
 ## related
 
@@ -204,7 +204,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/), [ommegang.com](https://www.ommegang.com/our-beers/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/), [ommegang.com](https://www.ommegang.com/our-beers/), web searches recorded in the research notes.
 
 ## research-notes
 

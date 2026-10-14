@@ -175,13 +175,13 @@ El Poblano Borracho, listed by the brewery as El Borracho Poblano, is a repeat a
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Chili Beer (category name; no brewery label found) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Style | Chili Beer (category name; no brewery label found) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | awards: 2026 World Beer Cup bronze, 2025 Colorado Brewers Cup gold, 2024 GABF gold, 2023 North American Beer Awards gold | [Liquid Mechanics: awards](https://www.liquidmechanicsbrewing.com/awards) |
 
 ## brewery-description
@@ -190,7 +190,7 @@ No brewery description of El Poblano Borracho was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -198,17 +198,17 @@ No ingredient list is published. The name points to poblano peppers, but no page
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -227,7 +227,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Liquid Mechanics Brewing Co. is in Lafayette, CO. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [Untappd](https://untappd.com/LiquidMechanicsBrewingCo).
 
 ## related
 
@@ -242,8 +242,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results).
-- Not published: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results).
+- Not Found: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

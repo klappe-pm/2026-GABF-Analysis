@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Altbier"
+  - "German Altbier"
 city: "Renton"
 employees: null
 farms-named: []

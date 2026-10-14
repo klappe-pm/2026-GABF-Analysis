@@ -184,12 +184,12 @@ Oats is a stout entered by the Pizza Port brewpub in Solana Beach, California, o
 |---|---|---|
 | Style | Oatmeal Stout | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
 | ABV | 6% | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Maris Otter, flaked wheat, flaked barley and flaked oats | [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -209,17 +209,17 @@ The [brewery page](https://www.pizzaport.com/beer/oats/) says the recipe uses ei
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -237,7 +237,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Pizza Port Solana Beach is in Solana Beach, CA. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.pizzaport.com/brewpubs/solana-beach/), [Instagram](https://www.instagram.com/pizzaportbrewingco/).
 
 ## related
 
@@ -255,8 +255,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
 
 ## research-notes
 

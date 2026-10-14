@@ -168,14 +168,14 @@ Gravebier is a kellerbier from Ghost Town Brewing, an Oakland, California brewer
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Kellerbier / Zwickelbier | [Untappd: Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919) |
-| ABV | 4.7% | [Untappd: Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Kellerbier / Zwickelbier | [Untappd (hand-read citation): Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919) |
+| ABV | 4.7% | [Untappd (hand-read citation): Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -183,7 +183,7 @@ The brewery publishes no description of Gravebier, and its Untappd listing carri
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -191,17 +191,17 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -219,7 +219,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Ghost Town Brewing is in Oakland, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.ghosttownbrewing.com/), [Instagram](https://www.instagram.com/ghosttownbrewing/), [Untappd](https://untappd.com/ghosttownbrewing).
 
 ## related
 
@@ -229,14 +229,14 @@ No brewery links have been checked yet.
 
 - [Ghost Town Brewing](https://www.ghosttownbrewing.com/)
 - [Ghost Town: shop](https://www.ghosttownbrewing.com/shop)
-- [Untappd: Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919)
-- [Untappd: Ghost Town beer search](https://untappd.com/GhostTownBrewing/beer?q=gravebier)
+- [Untappd (hand-read citation): Gravebier](https://untappd.com/b/ghost-town-brewing-gravebier/6569919)
+- [Untappd (hand-read citation): Ghost Town beer search](https://untappd.com/GhostTownBrewing/beer?q=gravebier)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/ghost-town-brewing-gravebier/6569919), [untappd.com](https://untappd.com/GhostTownBrewing/beer?q=gravebier), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/shop), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/ghost-town-brewing-gravebier/6569919), [untappd.com](https://untappd.com/GhostTownBrewing/beer?q=gravebier), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/shop), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/ghost-town-brewing-gravebier/6569919), [untappd.com](https://untappd.com/GhostTownBrewing/beer?q=gravebier), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/shop), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/ghost-town-brewing-gravebier/6569919), [untappd.com](https://untappd.com/GhostTownBrewing/beer?q=gravebier), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/), [ghosttownbrewing.com](https://www.ghosttownbrewing.com/shop), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

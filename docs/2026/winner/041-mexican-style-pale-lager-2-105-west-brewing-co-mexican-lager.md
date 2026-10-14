@@ -132,14 +132,14 @@ Mexican Lager is a pale, crisp lager made with light barley and huskless corn by
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, Mexican | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
-| ABV | 5.2% | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
-| IBU | 19 | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
-| Hops | not published | none found |
-| Malts and grains | Light barley | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Huskless corn | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
-| Other | Aroma of unsalted cracker and light lemon zest | [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| Style | Lager, Mexican | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| ABV | 5.2% | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| IBU | 19 | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Light barley | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Huskless corn | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
+| Other | Aroma of unsalted cracker and light lemon zest | [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833) |
 
 ## brewery-description
 
@@ -147,11 +147,11 @@ The brewery site carries no description of the beer. The Untappd listing carries
 
 > Appearance: Sunshine in the Springtime. Aroma: Unsalted Cracker, Lite Citrusy Lemon Zest. Taste: Crisp, Clean, Refreshing. Mild light barley, husk-less corn.
 
-Source: [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833)
+Source: [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -159,17 +159,17 @@ The [Untappd listing](https://untappd.com/b/105-west-brewing-company-mexican-lag
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -187,7 +187,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 105 West Brewing Co. is in Castle Rock, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.105westbrewing.com/), [Instagram](https://www.instagram.com/105westbrewing/), [Untappd](https://untappd.com/105WestBrewing).
 
 ## related
 
@@ -196,13 +196,13 @@ No brewery links have been checked yet.
 ## links
 
 - [105 West Brewing Co.](https://www.105westbrewing.com/)
-- [Untappd: Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833)
-- [Untappd: 105 West beer list](https://untappd.com/105WestBrewing/beer)
+- [Untappd (hand-read citation): Mexican Lager](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833)
+- [Untappd (hand-read citation): 105 West beer list](https://untappd.com/105WestBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/105WestBrewing/beer), [untappd.com](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833), [105westbrewing.com](https://www.105westbrewing.com/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/105WestBrewing/beer), [untappd.com](https://untappd.com/b/105-west-brewing-company-mexican-lager/4277833), [105westbrewing.com](https://www.105westbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

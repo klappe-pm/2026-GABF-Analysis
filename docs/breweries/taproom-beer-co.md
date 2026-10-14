@@ -24,7 +24,7 @@ categories-won:
   - "Fresh Hop Beer"
   - "Juicy or Hazy Strong Pale Ale"
   - "Smoke Beer"
-  - "West Coast-Style India Pale Ale"
+  - "West Coast India Pale Ale"
 city: "San Diego"
 employees: null
 farms-named: []
@@ -39,14 +39,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/citra.md"
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/taproombeerco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -63,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "taproom-beer-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.taproombeerco.com/"
 world-beer-cup-medals: 0
 ---
 

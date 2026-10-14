@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/064-berliner-style-weisse-3-del-cielo-brewing-co-guava-dreams.md"
 brewery-type: "micro"
 categories-won:
-  - "Berliner-Style Weisse"
+  - "Berliner Weisse"
   - "Imperial India Pale Ale"
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Martinez"
 employees: null
 farms-named: []
@@ -37,7 +37,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/sterling.md"
 instagram: null
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "del-cielo-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.delcielobrewing.com"
+untappd: "https://untappd.com/DelCieloBrewing"
+website: "https://www.delcielobrewing.com/"
 world-beer-cup-medals: 0
 ---
 

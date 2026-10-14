@@ -186,11 +186,11 @@ Black Mesa Dunkel is a seasonal dunkel from Boxing Bear Brewing Co., which pours
 |---|---|---|
 | Style | Dunkel (from the beer name; the tap list gives no style) | [Boxing Bear: Bridges on tap](https://boxingbearbrewing.com/on-tap-bridges/) |
 | ABV | 5.2% | [Boxing Bear: Bridges on tap](https://boxingbearbrewing.com/on-tap-bridges/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed under Seasonal / Specialty on the Bridges on Tramway tap list | [Boxing Bear: Bridges on tap](https://boxingbearbrewing.com/on-tap-bridges/) |
 
 ## brewery-description
@@ -199,7 +199,7 @@ No brewery description of Black Mesa Dunkel was found; the tap list gives only t
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -207,17 +207,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -235,7 +235,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Boxing Bear Brewing Co. is in Albuquerque, NM. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://boxingbearbrewing.com/), [Instagram](https://www.instagram.com/boxingbearbrewing/).
 
 ## related
 
@@ -252,8 +252,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes.
-- Not published: IBU. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

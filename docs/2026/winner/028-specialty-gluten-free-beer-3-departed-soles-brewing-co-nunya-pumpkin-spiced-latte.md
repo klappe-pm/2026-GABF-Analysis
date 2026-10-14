@@ -190,11 +190,11 @@ Nunya: Pumpkin Spiced Latte is a gluten-free, non-alcoholic pumpkin ale from Dep
 |---|---|---|
 | Style | Pumpkin beer, described as an ale | [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer) |
 | ABV | not published (reported as non-alcoholic; no figure given) | [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | gluten-free, non-alcoholic; draft at the tasting room, then cans | [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer) |
 
 ## brewery-description
@@ -207,7 +207,7 @@ Source: [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-fir
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -215,17 +215,17 @@ No ingredient list was found; pumpkin, spices and coffee are not entered because
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -243,7 +243,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Departed Soles Brewing Co. is in Jersey City, NJ.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.departedsoles.com/), [Instagram](https://www.instagram.com/departedsoles/).
 
 ## related
 
@@ -258,8 +258,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

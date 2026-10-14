@@ -36,6 +36,20 @@ Where: the hop profile card at the top of the page.
 - `range_percent`: {{min}} to {{max}}%
 - `oil_range`: {{min}} to {{max}} mL per 100 g
 - `farm_line`: {{farm_name}}, {{state}}
+- `section`: Hop Profile Cards
+- `alpha`: Alpha Acid
+- `oil`: Oils
+- `acreage`: US Acreage
+- `beers`: Medal Beers in {{year}}
+- `aroma`: Aroma
+- `farms`: Grown by
+- `open`: Open the Hop Page
+
+## `unfiltered`
+
+Where: under the heading of a section that shows the whole record and does not change with the Filters.
+
+- `note`: Whole record, not narrowed by the filters.
 
 ## `table`
 
@@ -65,8 +79,7 @@ Where: the US acreage section.
 - `source`: Source
 - `missing`: No US acreage has been published for this hop yet.
 - `chart_title`: US Acres by Year
-- `chart_note`: The total of the states that reported acres for this hop in each year.
-- `series`: Total Reported Acres
+- `chart_note`: Acres of this hop that each state reported in each year. A year a state did not report is a gap in its line.
 - `name_column`: Measure
 - `table_summary`: Show the Acreage as a Table
 - `chart_label`: Line chart of the US acres of {{name}} by year
@@ -85,6 +98,7 @@ Where: the medal beers section.
 - `use`: Use
 - `farm`: Farm Named by the Brewery
 - `missing`: No {{year}} medal beer is on record for this hop.
+- `cards_title`: Beer Profile Cards
 
 ## `farms`
 
@@ -104,7 +118,7 @@ Where: the farms section.
 
 Where: the breweries section.
 
-- `title`: Breweries with a {{year}} Medal Beer That Uses It
+- `title`: Breweries With a {{year}} Medal Beer That Uses It
 - `note`: Each brewery links to its page.
 - `brewery`: Brewery
 - `beers`: Medal Beers

@@ -193,13 +193,13 @@ Wired Euphoria is a coffee stout from Third Eye Brewing Co., an Ohio brewery who
 | Field | Value | Source |
 |---|---|---|
 | Style | Coffee Stout | [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coffee (roaster not named) | [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -213,7 +213,7 @@ Source: [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -221,17 +221,17 @@ Nothing beyond coffee, implied by the brewery's style label, is published. The b
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -250,7 +250,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Third Eye Brewing Co. is in Hamilton, OH.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://thirdeyebrewingco.com/), [Instagram](https://www.instagram.com/thirdeyebrewing/).
 
 ## related
 
@@ -266,8 +266,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/).
-- Not published: ABV, IBU. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/).
+- Not Found: ABV, IBU. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

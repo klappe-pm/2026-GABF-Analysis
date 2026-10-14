@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Sterling"
 employees: null
 farms-named: []
