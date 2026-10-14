@@ -7,6 +7,7 @@ import { TextLink } from '@/components/TextLink';
 import { fill, group, lookup, t } from '@/lib/content';
 import { href, paths } from '@/lib/href';
 import type { BreweryRecord } from '@/lib/models/breweries.mjs';
+import { SOURCE_URL } from '@/lib/repo';
 import { pageMetadata } from '@/lib/seo';
 import { laneModel, staticParams, WINNER_YEAR } from '@/lib/site-data';
 import { estimateCopy } from '../copy';
@@ -84,7 +85,7 @@ export default async function BreweryPage({ params }: { params: Promise<Params> 
         </p>
       </header>
       <BreweryMedals b={{ key: b.key, slug: b.slug, name: b.name, trend: b.trend, rows: b.rows, estimate: b.estimate, hopLinks: b.hopLinks, hopFarms: b.hopFarms, namedFarms: b.namedFarms, farmSlugs: b.farmSlugs, varietySlugs: b.varietySlugs }} year={WINNER_YEAR} copy={c} estimate={estimateCopy()} />
-      <Profile b={b} copy={c} estimate={estimateCopy()} />
+      <Profile b={b} copy={c} estimate={estimateCopy()} recordUrl={`${SOURCE_URL}/docs/breweries/${b.slug}.md`} />
     </main>
   );
 }

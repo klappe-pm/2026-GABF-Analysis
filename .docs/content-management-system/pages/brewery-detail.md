@@ -105,7 +105,7 @@ Where: the profile card, ownership block.
 - `source`: Source
 - `unverified`: Curated from public announcements; not checked against a primary source.
 - `missing`: Not defined
-- `missing_note`: Breweries without ownership research count as independent in totals.
+- `missing_note`: Breweries without ownership research read Not defined and are not counted as independent.
 
 ## `distribution`
 
@@ -158,6 +158,8 @@ Where: the deep dive section at the bottom of the page.
 
 - `title`: Deep dive
 - `missing`: No deep dive yet.
+- `record_title`: Research record
+- `record_link`: Open the tracked research file for this brewery
 
 ## `trend`
 
@@ -235,6 +237,10 @@ Where: the profile card, extra rows.
 - `link_untappd`: Untappd
 - `link_beeradvocate`: BeerAdvocate
 - `links_checked`: Checked {{date}}
+- `source_line`: Source: {{source}}
+- `source_profile`: Brewery profile
+- `source_override`: Hand checked correction
+- `source_open_brewery_db`: Open Brewery DB
 - `current_beers`: Current beers
 - `current_beers_line`: As of {{date}}, from {{source}}.
 - `current_beer_detail`: ({{detail}})

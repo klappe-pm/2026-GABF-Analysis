@@ -29,6 +29,9 @@ export default async function BreweriesPage() {
   const columns = group('global.tables.brewery_columns');
   const copy: IndexCopy = {
     caption: t(page('table.caption')),
+    showing: raw(page('table.showing')),
+    showMore: raw(page('table.show_more')),
+    showAll: raw(page('table.show_all')),
     sortHint: t('global.tables.sorting.hint'),
     columns: { brewery: columns.brewery, hq: columns.hq, type: columns.type, medals: columns.medals, split: columns.medal_split, points: columns.points, first: columns.first, latest: columns.latest, ownership: columns.ownership, arr: columns.arr },
     deepDive: t(page('table.deep_dive_pill')),
