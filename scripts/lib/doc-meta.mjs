@@ -11,7 +11,7 @@ import { ROOT } from './paths.mjs';
 const EN = String.fromCharCode(8211);
 const EM = String.fromCharCode(8212);
 const HY = String.fromCharCode(45);
-const DASH_RUN = new RegExp(`[${EN}${EM}]`, 'g');
+const DASH_RUN = new RegExp(`\\s*[${EN}${EM}]\\s*`, 'g');
 const SPACED_HYPHEN = new RegExp(`\\s+${HY}+\\s+`, 'g');
 const DOUBLE_HYPHEN = new RegExp(`${HY}{2,}`, 'g');
 

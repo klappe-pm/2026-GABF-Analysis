@@ -18,6 +18,6 @@ CLAUDE.md
 web/.next/
 web/out/
 web/*.tsbuildinfo
-breweries/
+/breweries/
 web/public/design-settings/
 web/out-review/
