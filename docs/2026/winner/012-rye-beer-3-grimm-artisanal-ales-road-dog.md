@@ -134,11 +134,11 @@ Road Dog is a roggenbier, a German rye beer, brewed by Grimm Artisanal Ales of B
 |---|---|---|
 | Style | Roggenbier | [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/) |
 | ABV | 5.5% | [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Rye | [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/) |
 | Yeast | the strain Grimm uses for Grimm Weisse | [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on tap at the Grimm taproom | [Grimm Artisanal Ales: taproom](https://grimmales.com/location/taproom/) |
 
 ## brewery-description
@@ -159,16 +159,16 @@ The brewery names rye in place of wheat and a house yeast shared with its Grimm 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Roggenbier brewed with Human Robot, fermented with the yeast strain Grimm uses for Grimm Weisse | [grimmales.com](https://grimmales.com/beers/road-dog/) |
 
 ## style-context
@@ -202,8 +202,8 @@ Links checked 2026-10-14: [Website](https://www.grimmales.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: IBU. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473).
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
 
 ## research-notes
 

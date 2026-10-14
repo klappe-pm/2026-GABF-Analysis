@@ -23,7 +23,7 @@ beers-2026:
   - "../2026/winner/066-european-style-amber-ale-3-sierra-nevada-brewing-co-stein-altbier.md"
 brewery-type: null
 categories-won:
-  - "European-Style Amber Ale"
+  - "European Amber Ale"
   - "Fruit Wheat Beer"
   - "German Wheat Ale"
 city: "Chico"

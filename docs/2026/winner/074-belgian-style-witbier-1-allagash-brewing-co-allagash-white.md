@@ -162,18 +162,18 @@ The brewery publishes a full grain bill of a 2-row barley blend, local pale malt
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Crystal | Crystal | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
-| Czech Saaz | Saaz | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
-| Nugget | Nugget | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
+| Crystal | Crystal | Not Found | Not Found | Not Found | [allagash.com](https://www.allagash.com/beer/white/) |
+| Czech Saaz | Saaz | Not Found | Not Found | Not Found | [allagash.com](https://www.allagash.com/beer/white/) |
+| Nugget | Nugget | Not Found | Not Found | Not Found | [allagash.com](https://www.allagash.com/beer/white/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brewed with oats, malted wheat and raw wheat for a hazy appearance; spiced with the brewery's blend of coriander and Curaçao orange peel; house yeast | [allagash.com](https://www.allagash.com/beer/white/) |
 
 ## style-context
@@ -210,7 +210,7 @@ Links checked 2026-10-14: [Website](https://www.allagash.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [allagash.com](https://www.allagash.com/beer/white/), [beerandbrewing.com](https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [allagash.com](https://www.allagash.com/beer/white/), [beerandbrewing.com](https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642), web searches recorded in the research notes.
 
 ## research-notes
 

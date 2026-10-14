@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
 city: "Fort Worth"
 employees: null
 farms-named: []

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "closed"
 categories-won:
-  - "Bohemian-Style Pilsener"
+  - "Bohemian Pilsener"
 city: "Kirkland"
 employees: null
 farms-named: []

@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/066-european-style-amber-ale-2-bierkraft-bierkraft-biere-de-garde.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style or French-Style Specialty Ale"
+  - "Belgian or French Specialty Ale"
   - "English Mild or Bitter"
-  - "European-Style Amber Ale"
-  - "German-Style Altbier"
+  - "European Amber Ale"
+  - "German Altbier"
   - "Historical Beer"
 city: "McAlester"
 employees: null

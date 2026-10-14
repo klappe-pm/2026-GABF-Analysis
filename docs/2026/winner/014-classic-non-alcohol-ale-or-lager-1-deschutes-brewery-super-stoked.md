@@ -154,7 +154,7 @@ Super Stoked is a non-alcoholic golden lager from Deschutes Brewery of Bend, Ore
 | IBU | 20 | [Deschutes: Super Stoked](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
 | Hops | Callista | [Deschutes: Super Stoked](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
 | Malts and grains | Pilsen malt, Caramel malt, Rice flakes | [Deschutes: Super Stoked](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Rice flakes | [Deschutes: Super Stoked](https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
 | Other | 74 calories | [Deschutes: Super Stoked](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
 
@@ -178,17 +178,17 @@ The brewery's product page lists one hop, Callista, and a grist of Pilsen malt, 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Callista | Callista | not published | not published | not published | [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
+| Callista | Callista | Not Found | Not Found | Not Found | [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,15 +216,15 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 
 ## links
 
-- [Untappd: Deschutes Super Stoked](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101)
+- [Untappd (hand-read citation): Deschutes Super Stoked](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101)
 - [Beer page on brewery site](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden)
 - [Deschutes Brewery](https://www.deschutesbrewery.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: ABV. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [deschutesbrewery.com](https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes, [deschutesbrewery.com](https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden).
+- Not Found: ABV. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [deschutesbrewery.com](https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes, [deschutesbrewery.com](https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden).
 
 ## research-notes
 

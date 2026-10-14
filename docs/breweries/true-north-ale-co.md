@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "American Cream Ale"
-  - "Belgian-Style Ale or French-Style Ale"
+  - "Belgian Ale or French Ale"
   - "Juicy or Hazy Strong Pale Ale"
 city: "Ipswich"
 employees: null

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "San Diego"
 employees: null
 farms-named: []

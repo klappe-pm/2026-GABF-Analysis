@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/041-mexican-style-pale-lager-3-full-distance-brewing-yucatan-sunrise.md"
 brewery-type: null
 categories-won:
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Stafford"
 employees: null
 farms-named: []

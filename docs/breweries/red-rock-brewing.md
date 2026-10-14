@@ -23,7 +23,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Abbey Ale"
+  - "Belgian Abbey Ale"
   - "Contemporary Gose"
   - "Wood- and Barrel-Aged Beer"
 city: "Salt Lake City"

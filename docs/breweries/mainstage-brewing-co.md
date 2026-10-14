@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/056-german-style-maerzen-3-mainstage-brewing-co-oktoberfestfest.md"
 brewery-type: null
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Boulder"
 employees: null
 farms-named: []

@@ -169,11 +169,11 @@ Seventh Hill is a robust smoked porter from Maple Branch Craft Brewery, a Fort W
 |---|---|---|
 | Style | Robust Smoked Porter | [Maple Branch: beers on tap](https://www.maplebranchbrew.com/beer) |
 | ABV | 7.2% (the brewery's beer list says 6.50%; Untappd says 7.1%) | [Maple Branch: beers on tap](https://www.maplebranchbrew.com/beer) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Smoked malt | [Maple Branch: Seventh Hill](https://www.maplebranchbrew.com/brews/seventh-hill) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Suggested pizza pairings: bratwurst, meat lovers | [Maple Branch: Seventh Hill](https://www.maplebranchbrew.com/brews/seventh-hill) |
 
 ## brewery-description
@@ -194,17 +194,17 @@ Smoked malt is the only ingredient the brewery names; the roast and chocolate no
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -234,13 +234,13 @@ Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagra
 - [Maple Branch Craft Brewery](https://www.maplebranchbrew.com/)
 - [Maple Branch: beers on tap](https://www.maplebranchbrew.com/beer)
 - [Maple Branch: award winning beers](https://www.maplebranchbrew.com/brews)
-- [Untappd: The Seventh Hill](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387)
+- [Untappd (hand-read citation): The Seventh Hill](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
 
 ## research-notes
 

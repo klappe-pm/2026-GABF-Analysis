@@ -173,14 +173,14 @@ Old Diablo is a strong ale from Morgan Territory Brewing in Tracy, California.
 | Field | Value | Source |
 |---|---|---|
 | Beer page | Brewery beer list | [Morgan Territory: drinks catalog](https://www.morganterritorybrewing.com/drinks/) |
-| Style | English Barleywine | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| ABV | 11.3% | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| IBU | 85 | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| Hops | Amarillo and Centennial | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| Malts and grains | Maris Otter, Biscuit malt and Caramel malt | [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | English Barleywine | [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| ABV | 11.3% | [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| IBU | 85 | [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Hops | Amarillo and Centennial | [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Malts and grains | Maris Otter, Biscuit malt and Caramel malt | [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -190,7 +190,7 @@ Source: [Morgan Territory: description on Untappd](https://untappd.com/b/morgan-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -200,18 +200,18 @@ The [beer description](https://untappd.com/b/morgan-territory-brewing-old-diablo
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Amarillo | Amarillo | not published | not published | not published | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
-| Centennial | Centennial | not published | not published | not published | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Amarillo | Amarillo | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Centennial | Centennial | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -242,7 +242,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 ## links
 
 - [Morgan Territory: drinks catalog](https://www.morganterritorybrewing.com/drinks/)
-- [Untappd: Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753)
+- [Untappd (hand-read citation): Old Diablo](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753)
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
 - [Morgan Territory: on tap](https://www.morganterritorybrewing.com/on-tap)
 - [Morgan Territory: beer finder](https://www.morganterritorybrewing.com/beer-finder)
@@ -250,7 +250,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beer-finder), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/drinks/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beer-finder), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/drinks/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

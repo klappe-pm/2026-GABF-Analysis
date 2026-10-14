@@ -24,10 +24,9 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Pale Ale"
-  - "American-Style Pale Ale"
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "Experimental India Pale Ale"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "New Zealand India Pale Ale"
   - "Session India Pale Ale"
   - "Specialty Saison"

@@ -177,14 +177,14 @@ Grow Old With You is a strong ale from Verboten Brewing in Loveland, Colorado.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | English-Style Barleywine | [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
-| ABV | 13.5% | [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | English-Style Barleywine | [Untappd (hand-read citation): Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
+| ABV | 13.5% | [Untappd (hand-read citation): Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -194,7 +194,7 @@ Source: [Verboten: description on Untappd](https://untappd.com/b/verboten-brewin
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -202,17 +202,17 @@ The [beer listing](https://untappd.com/b/verboten-brewing-and-barrel-project-gro
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -239,7 +239,7 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## links
 
-- [Untappd: Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106)
+- [Untappd (hand-read citation): Grow Old With You](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106)
 - [Craft Beer & Brewing: archived beer review](https://beerandbrewing.com/review/grow-old-with-you/)
 - [Verboten Brewing](https://verbotenbrewing.com/)
 - [Verboten Brewing: beer menu](https://verbotenbrewing.com/beer-menu/)
@@ -247,8 +247,8 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)).
-- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)).
+- Not Found: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

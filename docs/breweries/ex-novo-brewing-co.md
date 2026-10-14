@@ -23,7 +23,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "International Pale Ale or New Zealand Pale Ale"
   - "Scotch Ale"
 city: "Corrales"

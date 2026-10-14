@@ -129,8 +129,8 @@ Bohemian Pilsner is a Czech-style pale lager hopped with Saaz from von Trapp Bre
 | IBU | 42 | [von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
 | Hops | Saaz | [von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
 | Malts and grains | Continental Pilsner malt | [von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | 12 oz cans in 6 and 12 packs; 1/6 and 1/2 kegs | [von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
 
 ## brewery-description
@@ -153,17 +153,17 @@ The brewery names Saaz hops for spicy, zesty aroma and continental Pilsner malt 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | not published | not published | [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -196,7 +196,7 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/), [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/), [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
 city: "Lincoln"
 employees: null
 farms-named: []

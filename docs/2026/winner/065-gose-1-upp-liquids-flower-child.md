@@ -206,14 +206,14 @@ Flower Child is a gose from UPP Liquids, the brewer-owned brewery and restaurant
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published by the brewery; Untappd lists "Sour, Other" | [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
-| ABV | 5.5% | [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
+| Style | not published by the brewery; Untappd lists "Sour, Other" | [Untappd (hand-read citation): Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
+| ABV | 5.5% | [Untappd (hand-read citation): Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863) |
 | IBU | 4 | [UPP Liquids: distribution lineup](https://www.goselfdistro.com/upp-liquids) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -221,7 +221,7 @@ No brewery description of Flower Child was found: the brewery's beer page does n
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -229,17 +229,17 @@ No hop varieties are named in the [distribution lineup](https://www.goselfdistro
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -270,14 +270,14 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - [Bend Source: UPP beer coverage](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/)
 - [UPP Liquids](https://www.uppliquids.com/)
 - [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/)
-- [Untappd: Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863)
-- [Untappd: UPP Liquids beer list](https://untappd.com/w/upp-liquids/574533/beer)
+- [Untappd (hand-read citation): Flower Child](https://untappd.com/b/upp-liquids-flower-child/6390863)
+- [Untappd (hand-read citation): UPP Liquids beer list](https://untappd.com/w/upp-liquids/574533/beer)
 - [New School Beer: Oregon at GABF 2025](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/b/upp-liquids-flower-child/6390863), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), [goselfdistro.com](https://www.goselfdistro.com/upp-liquids), [uppliquids.com](https://www.uppliquids.com/), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/b/upp-liquids-flower-child/6390863), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), [goselfdistro.com](https://www.goselfdistro.com/upp-liquids), [uppliquids.com](https://www.uppliquids.com/), web searches recorded in the research notes.
 
 ## research-notes
 

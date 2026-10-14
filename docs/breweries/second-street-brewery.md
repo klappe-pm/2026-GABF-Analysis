@@ -24,7 +24,7 @@ brewery-type: "brewpub"
 categories-won:
   - "American Brown Ale"
   - "Extra Special Bitter"
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Santa Fe"
 employees: null
 farms-named: []

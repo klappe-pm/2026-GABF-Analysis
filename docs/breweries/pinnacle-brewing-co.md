@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Scottsdale"
 employees: null
 farms-named: []

@@ -11,8 +11,11 @@ date-created: 2026-10-14
 date-revised: 2026-10-14
 status: DONE
 aliases:
+  - "German Hallertau Mittlefruh"
+  - "Hallertau"
   - "Hallertau Mittelfrueh"
   - "Hallertau Mittelfruh"
+  - "Hallertauer"
   - "Hallertauer Mittelfrueh"
   - "Hallertauer Mittelfruher"
   - "Mittelfruh"
@@ -39,7 +42,7 @@ gaps:
   - "use"
 humulene-percent-of-oil: "45 to 55"
 kind: "variety"
-medal-beers-2026: 11
+medal-beers-2026: 13
 myrcene-percent-of-oil: "20 to 28"
 origin-country: "Germany"
 owner-program: "German landrace"
@@ -78,7 +81,7 @@ Hallertauer Mittelfruh is a hop variety from Germany, public, from German landra
 | Published use | not published |
 | Alpha class | low (below 8 percent) |
 
-Also published as: Hallertau Mittelfruh, Hallertauer Mittelfruher, Mittelfruh, Hallertauer Mittelfrueh, Hallertau Mittelfrueh.
+Also published as: Hallertau, Hallertauer, German Hallertau Mittlefruh, Hallertau Mittelfruh, Hallertauer Mittelfruher, Mittelfruh, Hallertauer Mittelfrueh, Hallertau Mittelfrueh.
 
 ## chemistry
 
@@ -157,7 +160,9 @@ No 2026 beer profile names a farm for this hop.
 2026 medal beers whose profile names this hop.
 
 - [Altstadt Pils](../../2026/winner/050-german-style-pilsener-1-altstadt-brewery-altstadt-pils.md), gold, German-Style Pilsener, by [Altstadt Brewery](../../breweries/altstadt-brewery.md); published as Hallertau Mittelfrüh
+- [Biere de Garde](../../2026/winner/066-european-style-amber-ale-1-white-bluffs-brewing-biere-de-garde.md), gold, European-Style Amber Ale, by [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md); published as Hallertauer
 - [Brig Blonde](../../2026/winner/068-golden-or-blonde-ale-1-ketch-brewing-brig-blonde.md), gold, Golden or Blonde Ale, by [Ketch Brewing](../../breweries/ketch-brewing.md); published as Hallertau Mittelfrüh
+- [Ein Helles](../../2026/winner/053-munich-style-helles-1-counter-weight-brewing-co-ein-helles.md), gold, Munich-Style Helles, by [Counter Weight Brewing Co.](../../breweries/counter-weight-brewing-co.md); published as Hallertau
 - [Marzen (Whiskey Barrel Aged)](../../2026/winner/032-wood-and-barrel-aged-beer-1-wren-house-brewing-co-marzen-whiskey-barrel-aged.md), gold, Wood- and Barrel-Aged Beer, by [Wren House Brewing Co.](../../breweries/wren-house-brewing-co.md); published as Hallertauer Mittelfrüh
 - [Before the Break](../../2026/winner/073-english-style-brown-ale-2-worthy-brewing-before-the-break.md), silver, English-Style Brown Ale, by [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md); published as Mittelfrüh
 - [Bobber Lager](../../2026/winner/051-czech-style-pale-lager-2-logboat-brewing-co-bobber-lager.md), silver, Czech-Style Pale Lager, by [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md); published as Mittelfrüh
@@ -176,10 +181,12 @@ Breweries with a 2026 medal beer that names this hop.
 - [Beachwood Brewing](../../breweries/beachwood-brewing.md), 1 beer
 - [Bingo Beer Co.](../../breweries/bingo-beer-co.md), 1 beer
 - [Bissell Brothers Brewing](../../breweries/bissell-brothers-brewing.md), 1 beer
+- [Counter Weight Brewing Co.](../../breweries/counter-weight-brewing-co.md), 1 beer
 - [Fremont Brewing](../../breweries/fremont-brewing.md), 1 beer
 - [Ketch Brewing](../../breweries/ketch-brewing.md), 1 beer
 - [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md), 1 beer
 - [New Belgium Brewing Co.](../../breweries/new-belgium-brewing-co.md), 1 beer
 - [Prost Brewing Co.](../../breweries/prost-brewing-co.md), 1 beer
+- [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md), 1 beer
 - [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md), 1 beer
 - [Wren House Brewing Co.](../../breweries/wren-house-brewing-co.md), 1 beer

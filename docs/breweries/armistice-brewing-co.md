@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Juicy or Hazy Strong Pale Ale"
 city: "Richmond"
 employees: null

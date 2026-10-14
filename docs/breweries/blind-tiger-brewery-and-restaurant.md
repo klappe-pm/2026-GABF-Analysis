@@ -22,9 +22,9 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "Bock"
-  - "Munich-Style Dunkel"
+  - "Munich Dunkel"
   - "Smoke Beer"
-  - "South German-Style Wheat Beer"
+  - "South German Wheat Beer"
 city: "Topeka"
 employees: null
 farms-named: []

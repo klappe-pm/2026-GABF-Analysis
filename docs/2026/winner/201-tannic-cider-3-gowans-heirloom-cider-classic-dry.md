@@ -143,11 +143,11 @@ Classic Dry is a bold, tannic, dry cider from a proprietary blend of estate-grow
 |---|---|---|
 | Style | Tannic dry cider | [Gowan's: Classic Dry](https://www.gowansheirloomcider.com/classic-dry) |
 | ABV | 7.7% | [Gowan's: Classic Dry](https://www.gowansheirloomcider.com/classic-dry) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based; blend of organic heirloom cider apples, varieties not named) | [Gowan's: Classic Dry](https://www.gowansheirloomcider.com/classic-dry) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 500 mL bottle; sold only in California | [Gowan's: Classic Dry](https://www.gowansheirloomcider.com/classic-dry) |
 
 ## brewery-description
@@ -168,16 +168,16 @@ The cidery describes a "Proprietary blend of organic heirlooms, pressed fresh in
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Proprietary blend of organic heirloom cider apples, pressed fresh at harvest and estate-bottled on the family farm | [gowansheirloomcider.com](https://www.gowansheirloomcider.com/classic-dry) |
 
 ## style-context
@@ -212,8 +212,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/classic-dry), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/classic-dry), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/classic-dry), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/classic-dry), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/054-dortmunder-or-german-style-festbier-2-fat-heads-brewery-8th-anniversary-lager.md"
 brewery-type: "regional"
 categories-won:
-  - "Dortmunder or German-Style Festbier"
+  - "Dortmunder or German Festbier"
   - "German Wheat Ale"
   - "Imperial India Pale Ale"
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
   - "Specialty Non-Alcohol Beer"
   - "Strong Porter"
   - "Strong Red Ale"

@@ -163,8 +163,8 @@ Altstadt Pils is a golden German-style pilsner brewed entirely with German Pilsn
 | IBU | 25 | [Altstadt: German Pils](https://altstadtbeer.com/beers/german-pils/) |
 | Hops | Hallertau Mittelfrüh, Saaz | [Altstadt: German Pils](https://altstadtbeer.com/beers/german-pils/) |
 | Malts and grains | 100% German Pilsner malt | [Altstadt: German Pils](https://altstadtbeer.com/beers/german-pils/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | SRM 3, brilliant golden; on tap at the brewery and sold at retail | [Altstadt: German Pils](https://altstadtbeer.com/beers/german-pils/) |
 
 ## brewery-description
@@ -187,18 +187,18 @@ The beer page names 100% German Pilsner malt with Hallertau Mittelfrüh and Saaz
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
-| Saaz | Saaz | not published | not published | not published | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Brilliant golden (no SRM number published) | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -234,7 +234,7 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [visitfredericksburgtx.com](https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [visitfredericksburgtx.com](https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 

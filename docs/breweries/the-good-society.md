@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Table Beer or Belgian-Style Session Ale"
-  - "Session Beer or Belgian-Style Table Beer"
+  - "Belgian Table Beer or Belgian Session Ale"
+  - "Session Beer or Belgian Table Beer"
 city: "Seattle"
 employees: null
 farms-named: []

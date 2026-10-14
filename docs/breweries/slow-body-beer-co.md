@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
+  - "American Lager"
 city: "Tucson"
 employees: null
 farms-named: []

@@ -186,12 +186,12 @@ Beería is a brown ale brewed by Craft Coast (Craft Coast Beer & Tacos), a brewe
 | Field | Value | Source |
 |---|---|---|
 | Style | Brown ale (Untappd lists Brown Ale, Other) | [San Diego Beer News: Coastal Oceanside guide](https://sandiegobeer.news/coastal-oceanside/) |
-| ABV | 5.5% | [Untappd: Beeria](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| ABV | 5.5% | [Untappd (hand-read citation): Beeria](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | nutty nose, touch of pepperiness in the finish (press tasting note) | [San Diego Beer News: Coastal Oceanside guide](https://sandiegobeer.news/coastal-oceanside/) |
 
 ## brewery-description
@@ -200,7 +200,7 @@ No description from the brewery was found; its site lists no beers in text and i
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -208,17 +208,17 @@ No ingredient of any kind is published by the brewery, Untappd or the local pres
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -247,15 +247,15 @@ Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://u
 
 - [Craft Coast](https://craftcoast.co/)
 - [Craft Coast: menu page](https://craftcoast.co/pages/menu)
-- [Untappd: Beeria](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177)
-- [Untappd: Craft Coast beer list](https://untappd.com/w/craft-coast-brewing-co/475278/beer)
+- [Untappd (hand-read citation): Beeria](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177)
+- [Untappd (hand-read citation): Craft Coast beer list](https://untappd.com/w/craft-coast-brewing-co/475278/beer)
 - [San Diego Beer News: Coastal Oceanside guide](https://sandiegobeer.news/coastal-oceanside/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes.
+- Not Found: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

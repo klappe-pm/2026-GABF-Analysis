@@ -66,12 +66,16 @@ function aliasKeys(record) {
   return keys;
 }
 
-// A category keeps one identity across years. Spellings that differ only in hyphens, slashes,
-// spacing or case ("Mixed-Culture Brett Beer", "Mixed Culture Brett Beer") fold to one key.
-export const categoryFold = (name) => String(name ?? '').toLowerCase().replace(/[\s\-\/]+/g, ' ').trim();
+// The word "Style" is dropped from every category name ("American-Style Pilsener" is "American Pilsener"), so
+// the two spellings are one category. Only the word is removed, with the hyphen or space before it.
+export const stripStyle = (name) => String(name ?? '').replace(/[-\s]+Style\b/gi, '').replace(/\s+/g, ' ').trim();
 
-// Display name per folded key: the spelling used in the newest year, so the official current
-// spelling wins. Rows are any records with a year and a category_name.
+// A category keeps one identity across years. Spellings that differ only in the word Style, hyphens, slashes,
+// spacing or case ("Mixed-Culture Brett Beer", "Mixed Culture Brett Beer") fold to one key.
+export const categoryFold = (name) => stripStyle(name).toLowerCase().replace(/[\s\-\/]+/g, ' ').trim();
+
+// Display name per folded key: the spelling used in the newest year, so the official current spelling wins,
+// without the word Style. Rows are any records with a year and a category_name.
 export function canonicalCategoryNames(rows) {
   const newest = new Map();
   for (const r of rows) {
@@ -79,7 +83,7 @@ export function canonicalCategoryNames(rows) {
     const year = Number(r.year);
     if (!k) continue;
     const cur = newest.get(k);
-    if (!cur || year > cur.year) newest.set(k, { year, name: String(r.category_name).trim() });
+    if (!cur || year > cur.year) newest.set(k, { year, name: stripStyle(String(r.category_name).trim()) });
   }
   return new Map([...newest].map(([k, v]) => [k, v.name]));
 }
@@ -147,7 +151,7 @@ export function loadDataset({ root, localProfiles = true } = {}) {
 
   const canonicalCategory = canonicalCategoryNames(gabfRows);
   const decorate = (rawRow) => {
-    const r = { ...rawRow, category_name: canonicalCategory.get(categoryFold(rawRow.category_name)) ?? rawRow.category_name };
+    const r = { ...rawRow, category_name: canonicalCategory.get(categoryFold(rawRow.category_name)) ?? stripStyle(rawRow.category_name), category_printed: rawRow.category_name };
     const key = breweryKey(r.brewery_name);
     const cat = categoryByName.get(categoryFold(r.category_name));
     const abvRow = abvByBeer.get(`${r.competition}|${r.year}|${key}|${String(r.beer_name).toLowerCase()}`);

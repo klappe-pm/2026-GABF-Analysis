@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/025-historical-beer-3-gilde-brewery-broyhan-500.md"
 brewery-type: null
 categories-won:
-  - "German-Style Strong Beer"
+  - "German Strong Beer"
   - "Historical Beer"
 city: "Charlotte"
 employees: null

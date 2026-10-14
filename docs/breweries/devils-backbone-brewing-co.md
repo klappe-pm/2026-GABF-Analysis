@@ -23,10 +23,9 @@ beers-2026:
   - "../2026/winner/043-contemporary-american-lager-1-devils-backbone-brewing-co-gold-leaf-lager.md"
 brewery-type: "large"
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Classic Saison"
   - "Contemporary American Lager"
-  - "Contemporary American-Style Lager"
 city: "Roseland"
 employees: null
 farms-named: []

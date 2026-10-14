@@ -140,14 +140,14 @@ Broke & Famous is a hazy beer from Indio Brewing Co. in Sugar Hill, Georgia.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -155,7 +155,7 @@ The 2024 review quotes the brewer's hop list, but the current recipe was not ver
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -163,17 +163,17 @@ Historical recipe information is recorded in research-notes; the recipe of the c
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -204,8 +204,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file.
-- Not published: ABV, IBU. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file.
+- Not Found: ABV, IBU. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

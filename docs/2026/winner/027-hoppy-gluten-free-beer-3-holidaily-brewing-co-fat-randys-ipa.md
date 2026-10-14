@@ -141,8 +141,8 @@ Fat Randy's IPA is a gluten-free IPA brewed from roasts of millet and buckwheat 
 | IBU | 55 | [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/) |
 | Hops | Mosaic, Cascade, Centennial (named as part of a blend) | [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/) |
 | Malts and grains | Millet malt and buckwheat malt in a combination of roasts | [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | medium gold with hop haze; 12 oz cans in 4 packs; 100% gluten-free | [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/) |
 
 ## brewery-description
@@ -165,19 +165,19 @@ The brewery lists a grain bill of "a combination of roasts of millet malt and bu
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Cascade | Cascade | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
-| Centennial | Centennial | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
-| Mosaic | Mosaic | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+| Centennial | Centennial | Not Found | Not Found | Not Found | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Medium gold with a dry, hop-induced haziness (no SRM number published) | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -213,7 +213,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 

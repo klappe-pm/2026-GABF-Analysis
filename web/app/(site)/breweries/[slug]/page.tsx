@@ -7,6 +7,7 @@ import { TextLink } from '@/components/TextLink';
 import { fill, group, lookup, t } from '@/lib/content';
 import { href, paths } from '@/lib/href';
 import type { BreweryRecord } from '@/lib/models/breweries.mjs';
+import { SOURCE_URL } from '@/lib/repo';
 import { pageMetadata } from '@/lib/seo';
 import { laneModel, staticParams, WINNER_YEAR } from '@/lib/site-data';
 import { estimateCopy } from '../copy';
@@ -50,7 +51,7 @@ function pageCopy() {
     ownership_type: g('global.labels.ownership_type'), distribution_channel: g('global.labels.distribution_channel'), estimate_basis: g('global.labels.estimate_basis'),
     confidence: g('global.labels.confidence'), competition: g('global.labels.competition'), yes_no: g('global.labels.yes_no'),
     medalCols: g('global.tables.medal_columns'), sorting: g('global.tables.sorting'), table_view: g('global.charts.table_view'), table_columns: g('global.charts.table_columns'),
-    gaps: g('global.states.gaps'), no_results: g('global.states.no_results'), partial_brewery: g('global.states.partial_brewery'), est_state: g('global.states.estimates'),
+    gaps: { not_found: t('global.labels.not_found') }, no_results: g('global.states.no_results'), partial_brewery: g('global.states.partial_brewery'), est_state: g('global.states.estimates'),
     fixed: { brewery: raw('global.filters.chips.fixed_brewery') },
   };
 }
@@ -60,10 +61,10 @@ export default async function BreweryPage({ params }: { params: Promise<Params> 
   const c = pageCopy();
   const labels = (key: string) => group(`global.labels.${key}`);
   const facts = [
-    b.type ? labels('brewery_type')[b.type] : c.gaps.not_defined,
-    [b.hq.city, b.hq.state].filter(Boolean).join(', ') || c.gaps.not_defined,
+    b.type ? labels('brewery_type')[b.type] : c.gaps.not_found,
+    [b.hq.city, b.hq.state].filter(Boolean).join(', ') || c.gaps.not_found,
     b.founded ? fill(raw(`pages.brewery-detail.pills.founded`), { year: b.founded }) : null,
-    b.ownership ? (b.ownership.parent ? fill(raw('pages.brewery-detail.pills.owner_with_parent'), { ownership: labels('ownership_type')[b.ownership.type] ?? c.gaps.not_defined, parent: b.ownership.parent }) : labels('ownership_type')[b.ownership.type] ?? c.gaps.not_defined) : null,
+    b.ownership ? (b.ownership.parent ? fill(raw('pages.brewery-detail.pills.owner_with_parent'), { ownership: labels('ownership_type')[b.ownership.type] ?? c.gaps.not_found, parent: b.ownership.parent }) : labels('ownership_type')[b.ownership.type] ?? c.gaps.not_found) : null,
     b.channel ? labels('distribution_channel')[b.channel] : null,
     b.streak > 1 ? fill(raw('pages.brewery-detail.pills.streak'), { count: b.streak }) : null,
   ].filter((x): x is string => Boolean(x));
@@ -84,7 +85,7 @@ export default async function BreweryPage({ params }: { params: Promise<Params> 
         </p>
       </header>
       <BreweryMedals b={{ key: b.key, slug: b.slug, name: b.name, trend: b.trend, rows: b.rows, estimate: b.estimate, hopLinks: b.hopLinks, hopFarms: b.hopFarms, namedFarms: b.namedFarms, farmSlugs: b.farmSlugs, varietySlugs: b.varietySlugs }} year={WINNER_YEAR} copy={c} estimate={estimateCopy()} />
-      <Profile b={b} copy={c} estimate={estimateCopy()} />
+      <Profile b={b} copy={c} estimate={estimateCopy()} recordUrl={`${SOURCE_URL}/docs/breweries/${b.slug}.md`} />
     </main>
   );
 }

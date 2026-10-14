@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/102-west-coast-style-india-pale-ale-1-human-people-beer-before-and-after-science.md"
 brewery-type: "micro"
 categories-won:
-  - "West Coast-Style India Pale Ale"
+  - "West Coast India Pale Ale"
 city: "Seattle"
 employees: null
 farms-named: []

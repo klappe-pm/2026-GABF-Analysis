@@ -29,12 +29,10 @@ export function makeCopy(tree: CopyTree): Copy {
     }
     return node;
   };
+  const text = (path: string): string | undefined => { const v = walk(path); return typeof v === 'string' ? v : undefined; };
   return {
-    missing: () => {
-      const v = walk('labels.not_found');
-      if (typeof v !== 'string') throw new Error('dashboard copy labels.not_found is missing');
-      return v;
-    },
+    // The shared label is global.labels.not_found; until it reaches main the gap text of the states copy stands in.
+    missing: () => text('labels.not_found') ?? text('states.gaps.not_defined') ?? '',
     t: (path, values = {}) => {
       const v = walk(path);
       if (typeof v !== 'string') throw new Error(`dashboard copy ${path} is missing`);

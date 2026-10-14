@@ -68,7 +68,8 @@ export type BreweryRecord = {
   type: string | null;
   kitchen: boolean | null;
   website: string | null;
-  links: { instagram: string | null; untappd: string | null; beeradvocate: string | null; checked: string | null };
+  websiteSource: { kind: 'profile' | 'override' | 'links' | 'open_brewery_db'; text: string | null } | null;
+  links: { instagram: string | null; untappd: string | null; beeradvocate: string | null; checked: string | null; source: string | null };
   streak: number;
   knownFor: string[];
   topFamilies: string[];

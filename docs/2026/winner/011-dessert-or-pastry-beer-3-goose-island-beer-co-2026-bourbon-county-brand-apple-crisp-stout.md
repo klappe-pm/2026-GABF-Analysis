@@ -126,10 +126,10 @@ The 2026 Bourbon County Brand Apple Crisp Stout is a bourbon barrel aged imperia
 |---|---|---|
 | Style | Imperial Stout Aged in Bourbon Barrels | [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
 | ABV | 13.9% | [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Oats | [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Apple, cinnamon, clove, nutmeg, panela sugar | [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
 | Other | allergen wheat; tasting notes of fresh baked oat crumble, caramel and apple; 2026 lineup release on Black Friday, November 27 | [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
 
@@ -151,16 +151,16 @@ The brewery's ingredient line reads "Bourbon County with apple, cinnamon, clove,
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Imperial stout aged in bourbon barrels, with apple, cinnamon, clove, nutmeg, oats and panela sugar | [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
 
 ## style-context
@@ -193,8 +193,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not published: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Classic Non-Alcohol Ale or Lager"
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
   - "New Zealand India Pale Ale"
 city: "Cincinnati"
 employees: null

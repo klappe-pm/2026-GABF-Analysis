@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/064-berliner-style-weisse-3-del-cielo-brewing-co-guava-dreams.md"
 brewery-type: "micro"
 categories-won:
-  - "Berliner-Style Weisse"
+  - "Berliner Weisse"
   - "Imperial India Pale Ale"
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Martinez"
 employees: null
 farms-named: []

@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "Experimental Wood-Aged Beer"
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "Crystal Lake"
 employees: null
 farms-named: []

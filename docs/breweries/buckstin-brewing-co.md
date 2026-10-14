@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Dubbel"
+  - "Belgian Dubbel"
 city: "Beaumont"
 employees: null
 farms-named: []

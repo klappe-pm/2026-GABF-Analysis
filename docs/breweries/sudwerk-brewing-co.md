@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Bohemian-Style Pilsener"
-  - "Contemporary American-Style Lager"
+  - "Bohemian Pilsener"
+  - "Contemporary American Lager"
 city: "Davis"
 employees: null
 farms-named: []

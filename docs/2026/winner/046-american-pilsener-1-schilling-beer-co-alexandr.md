@@ -154,11 +154,11 @@ Alexandr is the original Czech-style pilsner of Schilling Beer Co. in Littleton,
 |---|---|---|
 | Style | Czech-Style Pilsner | [Schilling: Alexandr](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner) |
 | ABV | 5% | [Schilling: Alexandr](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner) |
-| IBU | 25 | [Untappd: Alexandr](https://untappd.com/b/schilling-beer-co-alexandr/1036259) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | 25 | [Untappd (hand-read citation): Alexandr](https://untappd.com/b/schilling-beer-co-alexandr/1036259) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Sold in 4 packs and by the case | [Schilling: Alexandr](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner) |
 
 ## brewery-description
@@ -179,17 +179,17 @@ The brewery mentions only "authentic raw materials" and a firm hop backbone; no 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -215,7 +215,7 @@ Links checked 2026-10-14: [Website](https://www.schillingbeer.com/), [Instagram]
 
 ## links
 
-- [Untappd: Alexandr](https://untappd.com/b/schilling-beer-co-alexandr/1036259)
+- [Untappd (hand-read citation): Alexandr](https://untappd.com/b/schilling-beer-co-alexandr/1036259)
 - [Craft Beer & Brewing: Alexandr 10°](https://www.beerandbrewing.com/review/alexandr-10)
 - [Beer page on brewery site](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner)
 - [Schilling Beer Co.](https://www.schillingbeer.com/)
@@ -223,7 +223,7 @@ Links checked 2026-10-14: [Website](https://www.schillingbeer.com/), [Instagram]
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/schilling-beer-co-alexandr/1036259), [beerandbrewing.com](https://www.beerandbrewing.com/review/alexandr-10), [schillingbeer.com](https://www.schillingbeer.com/), [schillingbeer.com](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/schilling-beer-co-alexandr/1036259), [beerandbrewing.com](https://www.beerandbrewing.com/review/alexandr-10), [schillingbeer.com](https://www.schillingbeer.com/), [schillingbeer.com](https://www.schillingbeer.com/products/alexandr-czech-style-pilsner), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -182,8 +182,8 @@ Lunch Break is Breakside Brewery's hop-forward session ale, first brewed in 2013
 | IBU | 31 | [Breakside: Lunch Break](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
 | Hops | Amarillo, Cascade, Galaxy, Rakau, Simcoe | [Breakside: Lunch Break](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
 | Malts and grains | Light Crystal, Munich, Two Row | [Breakside: Lunch Break](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | flavor profile grapefruit, lemongrass, fruity; 22 oz bottles and kegs; page marked Archived | [Breakside: Lunch Break](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
 
 ## brewery-description
@@ -208,21 +208,21 @@ The archived [beer page](https://breakside.com/our_beer/lunch-break-india-sessio
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Amarillo | Amarillo | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
-| Cascade | Cascade | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
-| Galaxy | Galaxy | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
-| Rakau | Rakau | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
-| Simcoe | Simcoe | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
+| Amarillo | Amarillo | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
+| Galaxy | Galaxy | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
+| Rakau | Rakau | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -260,7 +260,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/our_location/taproom-brewery/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/our_location/taproom-brewery/), web searches recorded in the research notes.
 
 ## research-notes
 

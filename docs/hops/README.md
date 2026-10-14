@@ -14,19 +14,19 @@ aliases: []
 tags:
   - "hops"
 farm-count: 113
-variety-count: 81
+variety-count: 82
 ---
 
 # README.MD
 
-The hop section links every hop named in a 2026 medal beer profile to a published variety record: who bred or owns it, when it was released, what it is crossed from, its alpha, beta, cohumulone and oil figures, how its breeder or supplier describes its aroma, and, for the US grown ones, how many acres and pounds the USDA counts by state. 81 records are held: 42 proprietary, 30 public and 9 whose status no source states.
+The hop section links every hop named in a 2026 medal beer profile to a published variety record: who bred or owns it, when it was released, what it is crossed from, its alpha, beta, cohumulone and oil figures, how its breeder or supplier describes its aroma, and, for the US grown ones, how many acres and pounds the USDA counts by state. 82 records are held: 42 proprietary, 30 public and 10 whose status no source states.
 
 ## what-is-here
 
 - [hop-varieties.csv](../../data/reference/hop-varieties.csv) holds one row per variety with every field, a source column per field group and a gap column per field group.
 - [hop-acreage.csv](../../data/reference/hop-acreage.csv) holds NASS harvested acres, yield and production by variety, state and crop year.
 - [hop-acreage-totals.csv](../../data/reference/hop-acreage-totals.csv) holds the NASS state totals and the experimental and other varieties lines, kept apart so the acreage file lists only varieties.
-- [hop-aliases.csv](../../data/reference/hop-aliases.csv) maps every published name, brand name, experimental code and spelling to a canonical variety, and lists the product forms (Cryo, LupuLN2, LUPOMAX, Incognito, Lupocore, HyperBoost, DynaBoost, Spectrum, T90) that brewers append to a name.
+- [hop-aliases.csv](../../data/reference/hop-aliases.csv) maps every published name, brand name, experimental code and spelling to a canonical variety, and lists the product forms (Cryo, LupuLN2, LUPOMAX, Incognito, Lupocore, HyperBoost, DynaBoost, Spectrum, Hop Kief, T90) that brewers append to a name.
 - [hop-unmapped.csv](../../data/reference/hop-unmapped.csv) lists the names that are deliberately not a single variety, each with its reason.
 - One page per variety sits in [varieties](varieties).
 
@@ -67,6 +67,7 @@ The catalogue in `scripts/lib/hop-catalogue.mjs` is the hand curated source: eac
 | [Amarillo](varieties/amarillo.md) | United States | proprietary | Virgil Gamache Farms (Washington State) |
 | [Anchovy](varieties/anchovy.md) | United States | proprietary | Segal Ranch (Yakima Valley, Washington) |
 | [Apollo](varieties/apollo.md) | United States | proprietary | Hopsteiner breeding program |
+| [Ariana](varieties/ariana.md) | Germany | not published | Hop Research Center Hüll |
 | [Azacca](varieties/azacca.md) | United States | proprietary | Association for the Development of Hop Agronomy (ADHA), Yakima Valley |
 | [Barbe Rouge](varieties/barbe-rouge.md) | France | proprietary | Comptoir Agricole breeding program (R&D Alsace) |
 | [Bravo](varieties/bravo.md) | United States | proprietary | Hopsteiner breeding program |

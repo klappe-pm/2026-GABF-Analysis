@@ -196,12 +196,12 @@ Pyro's Prost is an American rye ale brewed with Anaheim chiles by Hop Dogma Brew
 |---|---|---|
 | Style | American rye ale with chiles; listed as Spiced Beer in one entry and Double IPA in another | [BeerMenus: Pyro's Prost](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost) |
 | ABV | not settled: 6.0% in one listing, 7.1% in another | [BeerMenus: Pyro's Prost](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | rye (from the style description) | [BeerMenus: Pyros Prost](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Anaheim chiles | [BeerMenus: Pyros Prost](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -211,7 +211,7 @@ Source: [BeerMenus: Pyros Prost](https://www.beermenus.com/beers/77810-hop-dogma
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -219,17 +219,17 @@ Rye and Anaheim chiles are the only ingredients named, both in the BeerMenus des
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -255,7 +255,7 @@ Links checked 2026-10-14: [Website](https://www.hopdogma.com/), [Instagram](http
 
 ## links
 
-- [Untappd: Hop Dogma beer list](https://untappd.com/HopDogmaBrewingCo/beer)
+- [Untappd (hand-read citation): Hop Dogma beer list](https://untappd.com/HopDogmaBrewingCo/beer)
 - [Hop Dogma Brewing Co.](https://www.hopdogma.com/)
 - [BeerMenus: Pyro's Prost (6.0%)](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost)
 - [BeerMenus: Pyros Prost (7.1%)](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost)
@@ -263,8 +263,8 @@ Links checked 2026-10-14: [Website](https://www.hopdogma.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

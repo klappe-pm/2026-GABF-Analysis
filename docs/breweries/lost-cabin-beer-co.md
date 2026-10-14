@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Table Beer or Belgian-Style Session Ale"
+  - "Belgian Table Beer or Belgian Session Ale"
   - "Experimental India Pale Ale"
 city: "Rapid City"
 employees: null

@@ -171,42 +171,42 @@ Frequency of Expansion is a beer from The Big Friendly, a small Oklahoma City br
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Farmhouse ale with Brett | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
-| ABV | 3.3% (2026 release) | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | Brettanomyces | [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Farmhouse ale with Brett | [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
+| ABV | 3.3% (2026 release) | [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Brettanomyces | [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781) |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > Farmhouse Ale with Brett.
 
-Source: [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
+Source: [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-Neither the current listing nor the magazine review names hop or malt varieties. [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
+Neither the current listing nor the magazine review names hop or malt varieties. [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -234,17 +234,17 @@ Links checked 2026-10-14: [Website](https://thebigfriendly.com/), [Instagram](ht
 
 ## links
 
-- [Untappd: 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
+- [Untappd (hand-read citation): 2026 release](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781)
 - [Craft Beer and Brewing: Frequency review](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674)
 - [The Big Friendly](https://thebigfriendly.com/)
 - [The Big Friendly: tap list](https://thebigfriendly.com/menu)
-- [Untappd: The Big Friendly beer list](https://untappd.com/The_Big_Friendly/beer)
+- [Untappd (hand-read citation): The Big Friendly beer list](https://untappd.com/The_Big_Friendly/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes.
-- Not published: IBU. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes.
+- Not Found: IBU. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -138,10 +138,10 @@ Cloud Gazer is a fall seasonal lager from Falling Sky Brewing of Eugene, Oregon,
 | Style | Marzen Lager in the listing title, Vienna style lager in the description | [Falling Sky: beer list](https://www.fallingskybrewing.com/beer) |
 | ABV | 5.7% (2018 release) | [Beerstone: 2018 Eugene Oktoberfest roundup](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/) |
 | IBU | 25 (2018 release) | [Beerstone: 2018 Eugene Oktoberfest roundup](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/) |
-| Hops | not published (described only as "a small wisp of hops") | none found |
+| Hops | not published (described only as "a small wisp of hops") | Not Found |
 | Malts and grains | Toasty sweet malts grown in Oregon | [Falling Sky: beer list](https://www.fallingskybrewing.com/beer) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Seasonal release, fall | [Falling Sky: beer list](https://www.fallingskybrewing.com/beer) |
 
 ## brewery-description
@@ -164,17 +164,17 @@ The brewery names only Oregon-grown malts and a light hop presence, with no vari
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -207,7 +207,7 @@ Links checked 2026-10-14: [Website](https://www.fallingskybrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerstone.com](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/), [fallingskybrewing.com](https://www.fallingskybrewing.com/), [fallingskybrewing.com](https://www.fallingskybrewing.com/beer), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerstone.com](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/), [fallingskybrewing.com](https://www.fallingskybrewing.com/), [fallingskybrewing.com](https://www.fallingskybrewing.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

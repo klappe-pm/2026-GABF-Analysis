@@ -24,7 +24,7 @@ categories-won:
   - "American Amber Lager"
   - "Field Beer"
   - "Imperial India Pale Ale"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Rye Beers"
   - "Stout"
   - "Strong Red Ale"

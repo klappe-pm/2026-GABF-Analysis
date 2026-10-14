@@ -24,7 +24,7 @@ brewery-type: "micro"
 categories-won:
   - "American Amber/Red Ale"
   - "American Pilsener"
-  - "West Coast-Style Pilsener"
+  - "West Coast Pilsener"
 city: "Berkeley"
 employees: null
 farms-named: []

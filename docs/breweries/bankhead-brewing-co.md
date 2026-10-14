@@ -22,7 +22,7 @@ brewery-type: "brewpub"
 categories-won:
   - "Bock"
   - "Old Ale or Strong Ale or Barley Wine"
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
 city: "Rowlett"
 employees: null
 farms-named: []

@@ -26,7 +26,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Amber Lager"
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
   - "English India Pale Ale or New Zealand India Pale Ale"
   - "German Dark Lager"
   - "Herb and Spice Beer"
@@ -35,7 +35,7 @@ categories-won:
   - "Specialty India Pale Ale"
   - "Strong Porter"
   - "Strong Red Ale"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Buellton"
 employees: null
 farms-named: []

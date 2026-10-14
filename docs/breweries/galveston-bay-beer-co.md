@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "Coffee Stout or Porter"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Dickinson"
 employees: null
 farms-named: []

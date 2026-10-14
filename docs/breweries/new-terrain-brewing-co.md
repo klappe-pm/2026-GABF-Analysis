@@ -21,8 +21,8 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "American Sour Ale"
-  - "Belgian-Style Witbier"
-  - "German-Style Koelsch"
+  - "Belgian Witbier"
+  - "German Koelsch"
 city: "Golden"
 employees: null
 farms-named: []

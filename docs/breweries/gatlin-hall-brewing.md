@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Orlando"
 employees: null
 farms-named: []

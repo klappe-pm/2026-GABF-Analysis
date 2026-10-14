@@ -22,11 +22,11 @@ beers-2026:
   - "../2026/winner/102-west-coast-style-india-pale-ale-3-pfriem-family-brewers-mosaic-krush-cryo-west-coast-ipa.md"
 brewery-type: "regional"
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "Australasian, Latin American or Tropical Light Lager"
-  - "Italian-Style Pilsener"
+  - "Italian Pilsener"
+  - "West Coast India Pale Ale"
   - "West Coast IPA"
-  - "West Coast-Style India Pale Ale"
 city: "Hood River"
 employees: null
 farms-named: []

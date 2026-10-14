@@ -22,9 +22,9 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "American Black Ale or American Stout"
-  - "American-Style India Pale Ale"
-  - "International-Style Pale Ale"
-  - "Mexican-Style Light Lager"
+  - "American India Pale Ale"
+  - "International Pale Ale"
+  - "Mexican Light Lager"
   - "New Zealand India Pale Ale"
 city: "Huntington Beach"
 employees: null

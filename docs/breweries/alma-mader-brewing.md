@@ -23,7 +23,7 @@ brewery-type: "micro"
 categories-won:
   - "Hoppy Lager"
   - "West Coast IPA"
-  - "West Coast-Style Pilsener"
+  - "West Coast Pilsener"
 city: "Kansas City"
 employees: null
 farms-named: []

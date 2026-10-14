@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style Lager"
+  - "American Lager"
 city: "Boone"
 employees: null
 farms-named: []

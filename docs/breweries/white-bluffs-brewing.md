@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/066-european-style-amber-ale-1-white-bluffs-brewing-biere-de-garde.md"
 brewery-type: "micro"
 categories-won:
-  - "European-Style Amber Ale"
+  - "European Amber Ale"
 city: "Richland"
 employees: null
 farms-named: []
@@ -38,6 +38,7 @@ gaps:
   - "ownership"
 hops-used:
   - "../hops/varieties/fuggle.md"
+  - "../hops/varieties/hallertauer-mittelfruh.md"
 instagram: null
 known-for: []
 last-medal-year: 2026
@@ -78,7 +79,7 @@ White Bluffs Brewing of Richland, WA (micro) has won 1 GABF medal (1 gold, 0 sil
 ## hops
 
 - [Fuggle](../hops/varieties/fuggle.md), 1 beer
-- Hallertauer, 1 beer
+- [Hallertauer Mittelfruh](../hops/varieties/hallertauer-mittelfruh.md), 1 beer
 
 ## related
 
