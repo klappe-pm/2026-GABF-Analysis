@@ -33,6 +33,12 @@ Components:
   - chart-card
   - state-card
   - icon
+  - footer
+  - tabs
+  - chips
+  - spec-card
+  - side-sheet
+  - explorer-app
 ---
 
 # Page layout

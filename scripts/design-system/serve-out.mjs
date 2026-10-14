@@ -8,11 +8,11 @@ import { WEB } from './lib.mjs';
 export const OUT = resolve(WEB, 'out');
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.md': 'text/markdown; charset=utf-8', '.png': 'image/png', '.txt': 'text/plain' };
 
-export function serveOut() {
+export function serveOut(dir = OUT) {
   const server = createServer((req, res) => {
-    let file = join(OUT, decodeURIComponent((req.url ?? '/').split('?')[0]));
+    let file = join(dir, decodeURIComponent((req.url ?? '/').split('?')[0]));
     if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
-    if (!file.startsWith(OUT) || !existsSync(file)) { res.writeHead(404).end(); return; }
+    if (!file.startsWith(dir) || !existsSync(file)) { res.writeHead(404).end(); return; }
     res.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream', 'cache-control': 'no-store' }).end(readFileSync(file));
   });
   return new Promise((ok) => server.listen(0, '127.0.0.1', () => ok(server)));
