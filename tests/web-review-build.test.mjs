@@ -15,7 +15,7 @@ const WEB = resolve(ROOT, 'web');
 const ready = existsSync(resolve(WEB, 'node_modules/next'));
 
 // What only the review widget, the in place editor, or the marking can leave in a page.
-const REVIEW_TRACES = ['gfw-', 'data-gfw', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', '/__design/', 'Open In Obsidian', 'Journey Step', 'Spots On The Page', OPEN, SEP, CLOSE];
+const REVIEW_TRACES = ['gfw-', 'data-gfw', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', '/__design/', 'Open in Obsidian', 'Journey Step', 'Spots on the Page', OPEN, SEP, CLOSE];
 
 function build(dist, env) {
   const full = resolve(WEB, dist);
@@ -52,7 +52,7 @@ test('the public export contains no review code, and the review build does', { s
     const present = hits(review);
     assert.ok(present.has('gfw-'), 'the review build holds the widget, so the scan above could find it');
     assert.ok(present.has('/review/feedback'), 'the review build holds the endpoint the widget sends to');
-    assert.ok(present.has('Spots On The Page'), 'the review build carries the widget words read from the copy documents');
+    assert.ok(present.has('Spots on the Page'), 'the review build carries the widget words read from the copy documents');
     assert.ok(present.has('/__design/'), 'the review build holds the settings panel, mounted inside the widget');
   } finally {
     rmSync(pub, { recursive: true, force: true });

@@ -17,7 +17,12 @@ function buildInto(env) {
   delete clean.GABF_FEEDBACK;
   delete clean.CI;
   delete clean.GITHUB_ACTIONS;
-  execFileSync(process.execPath, [resolve(ROOT, 'scripts/build-site.mjs')], { cwd: ROOT, env: { ...clean, GABF_DIST: dir, ...env }, stdio: 'ignore' });
+  try {
+    execFileSync(process.execPath, [resolve(ROOT, 'scripts/build-site.mjs')], { cwd: ROOT, env: { ...clean, GABF_DIST: dir, ...env }, stdio: 'ignore' });
+  } catch (error) {
+    rmSync(dir, { recursive: true, force: true });
+    throw error;
+  }
   return dir;
 }
 

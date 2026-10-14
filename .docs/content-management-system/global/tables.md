@@ -15,7 +15,7 @@ Where: the column headers of every medal table (results, brewery history, catego
 - `state`: State
 - `entrants`: Entrants
 
-- `location_credited`: Location credited
+- `location_credited`: Location Credited
 
 
 
