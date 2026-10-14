@@ -265,3 +265,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery's craft beer page loads its menu from an Untappd for Business embed; the style, ABV and hop list were read from that embed. There is no individual beer page.
 - The Untappd beer page, which carries the brewery's own description, confirms the 6.9% ABV and the 2026 GABF gold and lists the style as an American IPA; IBU is shown as N/A.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended into hop forms or uses.

@@ -27,6 +27,10 @@ Where: field 1, the primary search on the page.
 - `label`: Find a brewery, beer, or category
 - `placeholder`: Brewery, beer, or category
 - `no_match`: Nothing matches "{{query}}".
+- `results_label`: Search results
+- `kind_brewery`: Brewery
+- `kind_category`: Category
+- `kind_beer`: Beer
 
 ## `finding`
 
@@ -61,6 +65,7 @@ Where: links below the category index.
 - `beers`: See the {{year}} winning beers
 - `first_time`: Meet the {{year}} first time medalists
 - `analysis`: Read the analysis
+- `overview`: Open the overview dashboard
 
 ## `deep_dives`
 

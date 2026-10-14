@@ -16,11 +16,11 @@ export function MedalRecord({ counts, variant = 'split', names }: { counts: Meda
   const spoken = ORDER.map(([k, m]) => `${counts[k]} ${names[m].toLowerCase()}`).join(', ');
   const value = `${counts.gold} / ${counts.silver} / ${counts.bronze}`;
   if (variant === 'value') {
-    return <span className="type-body-large font-plain tabular-nums" aria-label={spoken}>{value}</span>;
+    return <span className="type-body-large font-plain tabular-nums" aria-label={spoken} data-component="medal-record">{value}</span>;
   }
   if (variant === 'tally') {
     return (
-      <span className="inline-flex flex-col gap-1" role="img" aria-label={spoken}>
+      <span className="inline-flex flex-col gap-1" role="img" aria-label={spoken} data-component="medal-record">
         {ORDER.map(([k, m]) => (
           <span key={k} className="inline-flex flex-wrap items-center gap-1" aria-hidden="true">
             {Array.from({ length: Math.min(counts[k], limit) }, (_, i) => <MedalMark key={i} medal={m} size="sm" label={false} />)}
@@ -32,7 +32,7 @@ export function MedalRecord({ counts, variant = 'split', names }: { counts: Meda
     );
   }
   return (
-    <span className="inline-flex items-center gap-3 tabular-nums" role="img" aria-label={spoken}>
+    <span className="inline-flex items-center gap-3 tabular-nums" role="img" aria-label={spoken} data-component="medal-record">
       {ORDER.map(([k, m]) => (
         <span key={k} className="inline-flex items-center gap-1" aria-hidden="true">
           <MedalMark medal={m} size="sm" />

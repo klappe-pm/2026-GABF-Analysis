@@ -32,13 +32,6 @@ description:
 entries: 53
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/beers/"
-      - "https://breakside.com/our_location/slabtown-pub-brewery/"
-      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://breakside.com/"
@@ -46,6 +39,7 @@ gaps:
       - "https://breakside.com/our_location/slabtown-pub-brewery/"
       - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://breakside.com/"
@@ -146,7 +140,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "West Coast IPA"
-tasting-notes: null
+tasting-notes:
+  text: "tangerine, stonefruit, diesel"
+  source: "https://breakside.com/our_location/slabtown-pub-brewery/"
 water: null
 yeast: []
 ---
@@ -184,7 +180,9 @@ Source: [Breakside: NW Slabtown beer list](https://breakside.com/our_location/sl
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> tangerine, stonefruit, diesel
+
+Source: [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/)
 
 ## ingredients
 
@@ -239,8 +237,8 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf), web searches recorded in the research notes.
 - Not published: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -251,3 +249,4 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 - Not found on the Breakside beers page, the 2026 January to June release calendar, or the Milwaukie, Dekum, Lake Oswego, Astoria, Beaverton and Vancouver beer lists.
 - No 2026 medal announcement from the brewery was found; the home page mentions Oregon Beer Awards honors but not GABF 2026.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the Slabtown tap list gives three tasting words, Riwaka and 6.5% ABV.

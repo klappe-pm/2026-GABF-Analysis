@@ -282,3 +282,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Green Battles](https://catalog.beer/beer/1cbaaebb-4b1f-4047-b650-e8e1d9c4ab84) lists 6.7% ABV, style "American IPA" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

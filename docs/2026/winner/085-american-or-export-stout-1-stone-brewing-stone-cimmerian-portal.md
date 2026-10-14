@@ -221,3 +221,4 @@ Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](
 - The web search budget ran out before Untappd or press for this beer could be searched; IBU remains unpublished.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Cimmerian Portal](https://catalog.beer/beer/241e7720-ada6-40fa-af88-0ee56f087778) lists 7.2% ABV, 65 IBU, style "Foreign (Export)-Style Stout" (entry last modified 2026-07-25). It fills the empty IBU; where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the draft list gives 6.5% ABV and "Multi-Award Winning American Stout" only.

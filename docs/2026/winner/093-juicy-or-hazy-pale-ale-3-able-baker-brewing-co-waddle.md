@@ -30,11 +30,6 @@ description:
 entries: 62
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.ablebakerbrewing.com/"
-      - "https://www.ablebakerbrewing.com/current-beer"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.ablebakerbrewing.com/"
@@ -108,7 +103,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Session New England IPA"
-tasting-notes: null
+tasting-notes:
+  text: "The simplified malt bill and low ABV allow the beauty of Mosaic hops and fresh citrus to shine through. Light, crisp, and delicately refreshing"
+  source: "https://www.ablebakerbrewing.com/current-beer"
 water: null
 yeast: []
 ---
@@ -144,7 +141,9 @@ Source: [Able Baker: downtown tap list](https://www.ablebakerbrewing.com/current
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> The simplified malt bill and low ABV allow the beauty of Mosaic hops and fresh citrus to shine through. Light, crisp, and delicately refreshing
+
+Source: [ablebakerbrewing.com](https://www.ablebakerbrewing.com/current-beer)
 
 ## ingredients
 
@@ -200,7 +199,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ablebakerbrewing.com](https://www.ablebakerbrewing.com/), [ablebakerbrewing.com](https://www.ablebakerbrewing.com/current-beer), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ablebakerbrewing.com](https://www.ablebakerbrewing.com/), [ablebakerbrewing.com](https://www.ablebakerbrewing.com/current-beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -208,3 +207,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery labels it a session New England IPA; it medaled in the Juicy or Hazy Pale Ale category.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and a wheat and 2-row base.

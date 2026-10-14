@@ -231,3 +231,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery's earlier award list gives an ABV cap for an award class; that cap is not used as this beer's strength.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

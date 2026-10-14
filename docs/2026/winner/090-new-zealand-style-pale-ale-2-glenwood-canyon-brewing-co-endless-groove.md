@@ -32,54 +32,67 @@ gaps:
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "tasting-notes"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile:
   - published: "Mosaic"
     variety: "Mosaic"
@@ -205,7 +218,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street), web searches recorded in the research notes, no brewery website on file.
 
 ## research-notes
 
@@ -215,3 +228,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches located brewery Toast listings for an Endless Groove New Zealand pale ale and a separate West Coast IPA. The New Zealand item pages repeatedly timed out when opened, so no figures or hops were accepted from their search snippets. All structured gaps remain.
+- Deep dive pass 2026-10-14: no brewery website is on file; no new source was found.

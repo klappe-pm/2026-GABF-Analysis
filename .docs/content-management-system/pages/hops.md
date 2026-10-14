@@ -36,6 +36,8 @@ Where: the column headers of the hops table.
 - `beers`: Medal beers
 - `medals`: Medals
 - `farms`: Farms that grow it
+- `caption`: Hop varieties with their medal beers, medals, and the farms that grow them
+- `sort_hint`: Select a column header to sort.
 
 ## `states`
 

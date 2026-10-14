@@ -7,7 +7,7 @@ import { labelFace, typeOf } from '@/design/helpers';
 export function Breadcrumb({ label, items }: { label: string; items: { href?: string; text: string }[] }) {
   const s = useSettings('breadcrumb');
   return (
-    <nav aria-label={label}>
+    <nav aria-label={label} data-component="breadcrumb">
       <ol className={`flex flex-wrap items-baseline gap-x-2 gap-y-1 text-on-surface-variant ${typeOf(s['Text style'] ?? 'label large')}`}>
         {items.map((item, i) => (
           <li key={`${item.text}-${i}`} className="flex items-baseline gap-2" style={labelFace(item.text)}>

@@ -52,3 +52,18 @@ test('current published values attach to earlier medal rows with their label, ne
   assert.match(html, /6\.5%/);
   assert.match(html, /current published value, Catalog\.beer, retrieved 2026-10-14/);
 });
+
+test('brewery site research imports only brewery pages and records gaps with the sources checked', async () => {
+  const { importResults } = await import('../scripts/import-beer-site-specs.mjs');
+  const out = importResults([
+    { brewery: 'A Brewing Co.', beer: 'X', status: 'found', abv: 5.2, ibu: null, style: 'Pilsner', source_url: 'https://abrewing.com/beers/x' },
+    { brewery: 'A Brewing Co.', beer: 'Y', status: 'found', abv: 7, source_url: 'https://untappd.com/b/a/1' },
+    { brewery: 'B Brewing', beer: 'Z', status: 'gap', sources_checked: ['https://bbrewing.com/beers', 'B Brewing Z'] },
+  ], { specs: [], gaps: [], retrieved: '2026-10-14' });
+  assert.equal(out.found, 1);
+  assert.equal(out.specs[0].source_kind, 'brewery-site');
+  assert.equal(out.specs[0].abv, '5.2');
+  assert.equal(out.refused.length, 1);
+  assert.deepEqual(out.gaps.map((g) => g.beer_name), ['Y', 'Z']);
+  assert.equal(out.gaps[1].sources_checked, 'https://bbrewing.com/beers ; B Brewing Z');
+});

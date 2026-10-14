@@ -7,6 +7,7 @@ import { fill, group, lookup, t } from '@/lib/content';
 import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
 import { WINNER_YEAR, winners } from '@/lib/site-data';
+import { winnerRows } from '../../hops/data';
 import { WinnersTable, type WinnersCopy } from './WinnersTable';
 
 type Params = { year: string };
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 export default async function WinnersPage({ params }: { params: Promise<Params> }) {
   const year = Number((await params).year);
-  const rows = await winners(year);
+  const rows = await winnerRows(year);
   const copy: WinnersCopy = {
     caption: fill(raw(page('table.caption')), { year }),
     sortHint: t(page('table.sort_hint')),
@@ -52,6 +53,16 @@ export default async function WinnersPage({ params }: { params: Promise<Params> 
     fixedYear: fill(raw('global.filters.chips.fixed_year'), { year }),
     emptyTitle: t('global.states.no_results.title'),
     emptyHint: t('global.states.no_results.remove_hint'),
+    stats: {
+      label: t(page('stats.label')),
+      medals: t(page('stats.medals')),
+      medalsNote: raw(page('stats.medals_note')),
+      abv: t(page('stats.abv')),
+      ibu: t(page('stats.ibu')),
+      hops: t(page('stats.hops')),
+      beerPage: t(page('stats.beer_page')),
+      share: raw(page('stats.share_note')),
+    },
   };
   return (
     <main id="main" tabIndex={-1} className="mx-auto flex max-w-(--app-page-max) flex-col gap-6 px-(--app-margin) py-8">
