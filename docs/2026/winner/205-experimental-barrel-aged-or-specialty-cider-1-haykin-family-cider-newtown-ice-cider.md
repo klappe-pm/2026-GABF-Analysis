@@ -31,13 +31,6 @@ description:
 entries: 28
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://haykinfamilycider.com/"
-      - "https://haykinfamilycider.com/bottle-menu"
-      - "https://haykinfamilycider.com/tasting-menu"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://haykinfamilycider.com/"
@@ -45,6 +38,7 @@ gaps:
       - "https://haykinfamilycider.com/tasting-menu"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://haykinfamilycider.com/"
@@ -144,7 +138,9 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Ice Cider"
-tasting-notes: null
+tasting-notes:
+  text: "Tea with lemon and honey, crushed rocks."
+  source: "https://haykinfamilycider.com/bottle-menu"
 water: null
 yeast: []
 ---
@@ -180,7 +176,9 @@ Source: [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Tea with lemon and honey, crushed rocks.
+
+Source: [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu)
 
 ## ingredients
 
@@ -231,8 +229,8 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -242,3 +240,4 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 - The winner's name is kept exactly as printed on the official list, including its capitalization.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the bottle menu's tasting line is recorded.

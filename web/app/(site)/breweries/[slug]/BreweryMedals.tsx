@@ -42,7 +42,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   const medalNames = c.medal as Record<MedalName, string>;
   const est = b.estimate;
   const mark = (id: string, metric: Parameters<typeof explain>[0]) => (
-    <EstimateTooltip id={`est-${b.slug}-${id}`} marker={c.est_state.marker} label={markLabel(metric, estimate)} explanation={explain(metric, est, estimate)} link={{ href: href(paths.about), text: c.scale.method_link }} />
+    <EstimateTooltip id={`est-${b.slug}-${id}`} marker={c.est_state.marker} label={markLabel(metric, estimate)} explanation={explain(metric, est, estimate)} linkText={c.scale.method_link} />
   );
 
   const counts = useMemo(() => ({ gold: shown.filter((r) => r.medal === 'Gold').length, silver: shown.filter((r) => r.medal === 'Silver').length, bronze: shown.filter((r) => r.medal === 'Bronze').length }), [shown]);

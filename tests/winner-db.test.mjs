@@ -13,5 +13,5 @@ test('the winners database holds exactly one beer per 2026 profile', () => {
   const rows = db.prepare('SELECT id FROM beers ORDER BY id').all().map((r) => r.id);
   db.close();
   assert.ok(ids.length > 300, `expected the 2026 profiles, found ${ids.length}`);
-  assert.deepEqual(rows, ids, 'run npm run explorer to rebuild data/enriched/winners-2026.sqlite from the profiles');
+  assert.deepEqual(rows, ids, 'run npm run winner-db to rebuild data/enriched/winners-2026.sqlite from the profiles');
 });
