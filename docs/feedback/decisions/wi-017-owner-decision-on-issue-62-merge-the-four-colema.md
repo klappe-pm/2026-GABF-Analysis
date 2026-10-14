@@ -1,6 +1,6 @@
 ---
 id: WI-017
-status: ACCEPTED
+status: DONE
 title: Merge the four Coleman entities into one operation?
 page: decisions
 job: null
@@ -47,6 +47,13 @@ images: []
 issue: 62
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/62
 kind: decision
+pr: 135
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/135
+resolution:
+  status: DONE
+  change: "pull request #135"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T23:33:12.664Z
 ---
 
 Owner decision on issue #62: Merge the four Coleman entities into one operation?
