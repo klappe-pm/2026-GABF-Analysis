@@ -252,3 +252,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the explicitly dated 2026 release and retained its published ABV. The [August 2025 review](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674) reports 3.1% for an earlier release; that value was not transferred to this year's profile. No IBU or hop varieties were found.
 - Field pass 2026-10-13: A targeted brewery domain search found no matching page. A search excluding the already recorded Untappd and magazine sources found no matching IBU or hop specification source.
+- Deep dive pass 2026-10-14: the brewery menu was read again; it gives no detail beyond the style.

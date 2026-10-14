@@ -36,6 +36,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "tasting-notes"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -44,6 +47,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "abv"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -52,6 +58,10 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "ibu"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -60,6 +70,10 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "srm"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -68,6 +82,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "og"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -76,6 +93,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "fg"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -84,6 +104,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "hops"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -92,6 +115,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "hop-form"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -100,6 +126,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "hop-use"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -108,6 +137,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "lot-or-farm"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -116,6 +148,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "malts"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -124,6 +159,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "yeast"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -132,6 +170,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "adjuncts"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -140,6 +181,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - field: "water"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
@@ -148,14 +192,9 @@ gaps:
       - "https://www.bestdaybrewing.com/collections/core-beers"
       - "https://www.bestdaybrewing.com/pages/our-beer"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
-      - "https://www.bestdaybrewing.com/"
-      - "https://www.bestdaybrewing.com/collections/all"
-      - "https://www.bestdaybrewing.com/collections/core-beers"
-      - "https://www.bestdaybrewing.com/pages/our-beer"
-      - "web searches recorded in the research notes"
+      - "https://bestdaybrewing.com/pages/our-beer"
+      - "web search 2026-10-14: Best Day Brewing Light American Pils hops"
+      - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
 hop-profile: []
 hops: []
 ibu: null
@@ -163,8 +202,11 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Brewed to full strength, then the alcohol is removed (the brewery's stated method for its beers)"
+  source: "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
 sources:
+  - "https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner"
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
   - "https://www.bestdaybrewing.com/"
   - "https://www.bestdaybrewing.com/collections/all"
@@ -225,7 +267,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed to full strength, then the alcohol is removed (the brewery's stated method for its beers) | [newschoolbeer.com](https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner) |
 
 ## style-context
 
@@ -255,8 +297,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), [bestdaybrewing.com](https://www.bestdaybrewing.com/), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/all), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/core-beers), [bestdaybrewing.com](https://www.bestdaybrewing.com/pages/our-beer), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), [bestdaybrewing.com](https://www.bestdaybrewing.com/), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/all), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/core-beers), [bestdaybrewing.com](https://www.bestdaybrewing.com/pages/our-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), [bestdaybrewing.com](https://www.bestdaybrewing.com/), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/all), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/core-beers), [bestdaybrewing.com](https://www.bestdaybrewing.com/pages/our-beer), web searches recorded in the research notes, [bestdaybrewing.com](https://bestdaybrewing.com/pages/our-beer), web search 2026-10-14: Best Day Brewing Light American Pils hops, [newschoolbeer.com](https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner).
+- Not published: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), [bestdaybrewing.com](https://www.bestdaybrewing.com/), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/all), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/core-beers), [bestdaybrewing.com](https://www.bestdaybrewing.com/pages/our-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [bestdaybrewing.com](https://bestdaybrewing.com/pages/our-beer), web search 2026-10-14: Best Day Brewing Light American Pils hops, [newschoolbeer.com](https://newschoolbeer.com/home/2026/4/best-day-brewing-introduces-wild-american-non-alcoholic-pilsner).
 
 ## research-notes
 
@@ -266,3 +308,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no verified specifications for this exact beer. A retailer lists Best Day Wild American Classic American Pils, but no source establishes that it is Light American Pils; that product and Fieldwork's similarly named beer were excluded.
 - Field pass 2026-10-13: A retailer and hop focused search found distributor medal coverage but no new matching specification or brewery beer page. The previously excluded Wild American and Fieldwork products remain excluded.
+- Deep dive pass 2026-10-14: the brewery's beer page renders by script; New School Beer's April 2026 release story says Best Day brews its beer to full strength and then removes the alcohol, recorded as the process. Search results describe the separate Wild American pilsner, which is not this beer.

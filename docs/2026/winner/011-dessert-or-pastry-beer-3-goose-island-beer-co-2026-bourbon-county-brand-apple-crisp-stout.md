@@ -35,16 +35,12 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.gooseisland.com/"
-      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.gooseisland.com/"
@@ -90,11 +86,6 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.gooseisland.com/"
-      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -103,14 +94,18 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Imperial stout aged in bourbon barrels, with apple, cinnamon, clove, nutmeg, oats and panela sugar"
+  source: "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.gooseisland.com/"
   - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
 srm: null
 style: "Imperial Stout Aged in Bourbon Barrels"
-tasting-notes: null
+tasting-notes:
+  text: "Fresh Baked Oat Crumble, Caramel & Apple"
+  source: "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
 water: null
 yeast: []
 ---
@@ -146,7 +141,9 @@ Source: [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Fresh Baked Oat Crumble, Caramel & Apple
+
+Source: [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout)
 
 ## ingredients
 
@@ -164,7 +161,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Imperial stout aged in bourbon barrels, with apple, cinnamon, clove, nutmeg, oats and panela sugar | [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout) |
 
 ## style-context
 
@@ -192,8 +189,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
 - Not published: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -202,3 +199,4 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - No 2026 GABF announcement was found; the brewery home page promotes the 2026 lineup but does not mention the medal.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A 2026 Apple Crisp IBU and hops search found a release tasting event and medal coverage, without bitterness or hop varieties. No values from other Bourbon County variants were transferred.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes, 13.9% ABV and the finishing ingredients; it names no hops for this variant.

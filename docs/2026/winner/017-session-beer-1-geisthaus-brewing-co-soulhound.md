@@ -38,6 +38,7 @@ gaps:
     sources-checked:
       - "https://www.geisthausbeer.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.geisthausbeer.com/"
@@ -54,10 +55,6 @@ gaps:
     sources-checked:
       - "https://www.geisthausbeer.com/"
       - "web searches recorded in the research notes"
-  - field: "hop-use"
-    sources-checked:
-      - "https://www.geisthausbeer.com/"
-      - "web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.geisthausbeer.com/"
@@ -70,15 +67,11 @@ gaps:
     sources-checked:
       - "https://www.geisthausbeer.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.geisthausbeer.com/"
-      - "web searches recorded in the research notes"
 hop-profile:
-  - published: "Saaz"
+  - published: "Czech Saaz"
     variety: "Saaz"
     form: null
-    use: null
+    use: "kettle and whirlpool"
     lot-or-farm: null
     source: "https://www.geisthausbeer.com/"
 hops:
@@ -89,7 +82,9 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Fermented cool with the house lager yeast, spunded for natural carbonation, and lagered cold for weeks in horizontal tanks"
+  source: "https://www.geisthausbeer.com/"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.geisthausbeer.com/"
@@ -142,7 +137,7 @@ The grist is a single malt, Haná heritage barley floor malted by Admiral Maltin
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | not published | not published | [geisthausbeer.com](https://www.geisthausbeer.com/) |
+| Czech Saaz | Saaz | not published | kettle and whirlpool | not published | [geisthausbeer.com](https://www.geisthausbeer.com/) |
 
 ## brewing-details
 
@@ -152,7 +147,7 @@ The grist is a single malt, Haná heritage barley floor malted by Admiral Maltin
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Fermented cool with the house lager yeast, spunded for natural carbonation, and lagered cold for weeks in horizontal tanks | [geisthausbeer.com](https://www.geisthausbeer.com/) |
 
 ## style-context
 
@@ -180,7 +175,7 @@ Links checked 2026-10-14: [Website](https://www.geisthausbeer.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Adjuncts, Water. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -191,3 +186,4 @@ Links checked 2026-10-14: [Website](https://www.geisthausbeer.com/), [Instagram]
 - No IBU was found on any page that could be opened.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Untappd menu search results show N/A IBU for Soulhound, but the opened Rustwater menu omits it. A separate bitterness search found a TapHunter menu without numeric IBU in its excerpt; no numeric bitterness was verified.
+- Deep dive pass 2026-10-14: the brewery description gives the hop use (Czech Saaz in the kettle and whirlpool), the Admiral Maltings Haná malt and the process; no IBU or color.

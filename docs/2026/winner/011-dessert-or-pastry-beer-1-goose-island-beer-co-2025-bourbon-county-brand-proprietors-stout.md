@@ -34,14 +34,6 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
-      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
-      - "https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos"
-      - "https://www.gooseisland.com/"
-      - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -50,6 +42,7 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -122,23 +115,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
-      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
-      - "https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos"
-      - "https://www.gooseisland.com/"
-      - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
-      - "web searches recorded in the research notes"
 hop-profile:
-  - published: "Alchemy"
-    variety: "Alchemy"
+  - published: "Millenium"
+    variety: "Millennium"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
-  - published: "Millennium"
-    variety: "Millennium"
+  - published: "Alchemy"
+    variety: "Alchemy"
     form: null
     use: null
     lot-or-farm: null
@@ -151,7 +136,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Imperial stout aged in bourbon barrels, then finished with walnuts, pistachios, cassia bark and honey"
+  source: "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
 sources:
   - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -161,7 +148,9 @@ sources:
   - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
 srm: null
 style: "Imperial Stout aged in bourbon barrels with walnuts, pistachios, cassia bark & honey"
-tasting-notes: null
+tasting-notes:
+  text: "Caramelized honeycomb, baking spice & roasted candied nuts"
+  source: "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
 water: null
 yeast: []
 ---
@@ -197,7 +186,9 @@ Source: [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beer
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Caramelized honeycomb, baking spice & roasted candied nuts
+
+Source: [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout)
 
 ## ingredients
 
@@ -207,8 +198,8 @@ Goose Island says the recipe came from brewer Colby Magratten, inspired by the b
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
+| Millenium | Millennium | not published | not published | not published | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 | Alchemy | Alchemy | not published | not published | not published | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
-| Millennium | Millennium | not published | not published | not published | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 
 ## brewing-details
 
@@ -218,7 +209,7 @@ Goose Island says the recipe came from brewer Colby Magratten, inspired by the b
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Imperial stout aged in bourbon barrels, then finished with walnuts, pistachios, cassia bark and honey | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 
 ## style-context
 
@@ -249,8 +240,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes.
 - Not published: IBU. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -260,3 +251,4 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - No 2026 GABF announcement was found; the brewery home page makes no mention of the medal.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact 2025 Proprietor's Stout listing gives N/A IBU; no numeric bitterness was found. Other vintages and Proprietor's Barleywine were excluded.
+- Deep dive pass 2026-10-14: the brewery page's tasting notes and finishing process are recorded; it prints the hops as "Millenium/Alchemy", kept as published with Millennium as the variety name. No malt, yeast or IBU is given.

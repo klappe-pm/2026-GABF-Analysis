@@ -31,13 +31,6 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
-      - "https://www.ommegang.com/"
-      - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
-      - "https://www.ommegang.com/limited-release/"
-      - "web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -45,13 +38,7 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
-      - "https://www.ommegang.com/"
-      - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
-      - "https://www.ommegang.com/limited-release/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -143,9 +130,13 @@ sources:
   - "https://www.ommegang.com/"
   - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
   - "https://www.ommegang.com/limited-release/"
-srm: null
+srm:
+  value: "Golden hue (no SRM number published)"
+  source: "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
 style: "Non-Alcoholic Belgian-Style Blonde Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Pouring a beautiful golden hue with a white foamy cap, this Non-alcoholic Belgian-style Blonde Ale has notes of ginger, clove, and banana with a classic Belgian-style finish."
+  source: "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
 water: null
 yeast: []
 ---
@@ -181,7 +172,9 @@ Source: [Ommegang: NA Belgian-Style Blonde](https://www.ommegang.com/beerinfo/no
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Pouring a beautiful golden hue with a white foamy cap, this Non-alcoholic Belgian-style Blonde Ale has notes of ginger, clove, and banana with a classic Belgian-style finish.
+
+Source: [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/)
 
 ## ingredients
 
@@ -195,7 +188,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Golden hue (no SRM number published) | [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -229,8 +222,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes.
 - Not published: ABV. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -240,3 +233,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd page names no hop varieties and lists 0.5% ABV against the existing brewery less than 0.5% bound. No measured alcohol value was established; ABV remains null.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes, color, under 0.5% ABV and 12 IBU; no hops, malts or yeast.

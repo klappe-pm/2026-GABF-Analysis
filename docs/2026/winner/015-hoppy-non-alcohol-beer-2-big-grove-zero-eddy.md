@@ -30,14 +30,6 @@ description:
 entries: 48
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://biggrove.com/"
-      - "https://biggrove.com/collections/beer"
-      - "https://biggrove.com/products/zero-eddy"
-      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
-      - "https://untappd.com/b/big-grove-brewery-zero-eddy/6524642"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://biggrove.com/"
@@ -46,6 +38,7 @@ gaps:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://untappd.com/b/big-grove-brewery-zero-eddy/6524642"
       - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5"
   - field: "srm"
     sources-checked:
       - "https://biggrove.com/"
@@ -160,7 +153,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Non-Alcoholic Hazy IPA"
-tasting-notes: null
+tasting-notes:
+  text: "We took the bold tropical aromatics and smooth drinking Easy Eddy and produced it in an N/A version."
+  source: "https://biggrove.com/products/zero-eddy"
 water: null
 yeast: []
 ---
@@ -196,7 +191,9 @@ Source: [Big Grove: Zero Eddy](https://biggrove.com/products/zero-eddy)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> We took the bold tropical aromatics and smooth drinking Easy Eddy and produced it in an N/A version.
+
+Source: [biggrove.com](https://biggrove.com/products/zero-eddy)
 
 ## ingredients
 
@@ -245,8 +242,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes.
 - Not published: IBU. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5).
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -257,3 +254,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 0.4% ABV, consistent with the existing brewery upper bound. IBU is N/A and hop varieties are not named.
 - Catalog.beer 2026-10-14: [Catalog.beer: Zero Eddy](https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5) lists 0.4% ABV, style "Non-Alcoholic Hazy IPA" (entry last modified 2026-09-24). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery product page describes Zero Eddy as the non-alcoholic version of Easy Eddy; it names no hops, malts or figures.
