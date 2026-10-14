@@ -100,6 +100,11 @@ test('a ported address leaves the pending list', () => {
   assert.deepEqual(stale, [], 'routed in web/app: remove these from PENDING');
 });
 
+// The Method and Saved views pages are in no inventory row: the static site never built them.
+test('the method and saved views pages are routed', () => {
+  for (const p of ['/method/', '/saved/']) assert.ok(routed(p), p);
+});
+
 test('the reference port is routed', () => {
   for (const p of ['/beers/2026/', '/beers/2026/<beer>/', '/data/results.json', '/data/meta.json', '/design-system/']) assert.ok(routed(p), p);
 });

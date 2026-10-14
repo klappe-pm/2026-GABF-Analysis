@@ -30,5 +30,8 @@ export const paths = {
   dashboards: '/dashboards/',
   explorer: '/explorer/',
   about: '/about/',
+  method: '/method/',
+  estimates: '/method/#estimates',
+  saved: '/saved/',
   designSystem: '/design-system/',
 };
