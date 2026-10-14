@@ -249,7 +249,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
       {cards.length ? (
         <section aria-labelledby="cards-title" className="flex flex-col gap-4">
           <SectionHeader id="cards-title" title={fillText(c.beers.title, { year })} />
-          <div className="grid grid-cols-1 gap-4 medium:grid-cols-2 expanded:grid-cols-3">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,26rem),1fr))] gap-4">
             {cards.map((r) => <BeerProfileCard key={`${r.stem}`} data={cardData(r)} headingLevel={3} />)}
           </div>
         </section>

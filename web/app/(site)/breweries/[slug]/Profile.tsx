@@ -83,7 +83,7 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
                   );
                 })}
               </ul>
-            ) : fillText(c.profile.locations_missing, { count: b.locationsCount })}
+            ) : b.locationsCount === 1 ? c.profile.locations_missing_one : fillText(c.profile.locations_missing, { count: b.locationsCount })}
           </Item>
           <Item term={c.profile.known_for}>{b.knownFor.length ? b.knownFor.join('; ') : b.topFamilies.length ? <span className="text-on-surface-variant">{b.topFamilies.map((x) => c.style_family[x] ?? x).join(', ')}</span> : c.profile.known_for_missing}</Item>
         </DefList>
@@ -155,7 +155,7 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
           <Item term={c.scale.gross_margin}>{percent(f.grossMargin)} {mark('gross-margin', 'gross_margin')} <span className="text-on-surface-variant">{fillText(c.scale.gross_margin_note, { gross_profit: usd(f.grossProfit) })}</span></Item>
           <Item term={c.scale.ebitda}>{fillText(c.scale.ebitda_value, { ebitda: usd(f.ebitda), margin: percent(f.ebitdaMargin) })} {mark('ebitda', 'ebitda')} <span className="text-on-surface-variant">{fillText(c.scale.ebitda_note, { margin_low: percent(f.ebitdaLowMargin), margin_high: percent(f.ebitdaHighMargin), low: usd(f.ebitdaLow), high: usd(f.ebitdaHigh) })}</span></Item>
           {f.perBarrel ? <Item term={c.scale.per_barrel}>{usd(f.perBarrel)} {mark('per-barrel', 'per_barrel')} <span className="text-on-surface-variant">{fillText(c.scale.per_barrel_note, { cogs: usd(f.cogsPerBarrel) })}</span></Item> : null}
-          {f.perLocation ? <Item term={c.scale.per_location}>{usd(f.perLocation)} {mark('per-location', 'per_location')} <span className="text-on-surface-variant">{fillText(est.kitchen ? c.scale.per_location_note_kitchen : c.scale.per_location_note, { count: est.locations })}</span></Item> : null}
+          {f.perLocation ? <Item term={c.scale.per_location}>{usd(f.perLocation)} {mark('per-location', 'per_location')} <span className="text-on-surface-variant">{fillText(est.locations === 1 ? (est.kitchen ? c.scale.per_location_note_kitchen_one : c.scale.per_location_note_one) : est.kitchen ? c.scale.per_location_note_kitchen : c.scale.per_location_note, { count: est.locations })}</span></Item> : null}
           {f.perEmployee ? <Item term={c.scale.per_employee}>{usd(f.perEmployee)} {mark('per-employee', 'per_employee')}</Item> : null}
         </DefList>
         <p className="type-body-medium"><TextLink href={href(paths.about)}>{c.scale.method_link}</TextLink></p>

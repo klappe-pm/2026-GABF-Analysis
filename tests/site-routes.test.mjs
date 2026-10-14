@@ -13,8 +13,6 @@ const PENDING = [
   // dashboards lane
   '/', '/dashboards/', '/dashboards/geography/', '/dashboards/categories/', '/dashboards/breweries/', '/dashboards/economics/', '/explorer/',
   '/data/breweries.json', '/data/brewery-info.json', '/data/categories.json', '/data/estimates.json', '/data/csv/<file>',
-  // breweries lane
-  '/first-time-medalists/2026/',
   // categories and analysis lane
   '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
   // hops lane
