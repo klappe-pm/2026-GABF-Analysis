@@ -132,6 +132,17 @@ export function hopsIndex() {
   };
 }
 
+// The breweries behind a list of beers, with how many of the beers each has, most first.
+function breweriesOf(beers, extra = {}) {
+  const per = new Map();
+  for (const b of beers) {
+    const slot = per.get(b.brewery_slug) ?? { brewery: b.brewery, brewerySlug: b.brewery_slug, count: 0, ...extra };
+    slot.count += 1;
+    per.set(b.brewery_slug, slot);
+  }
+  return [...per.values()].sort((a, b) => b.count - a.count || byText(a.brewery, b.brewery));
+}
+
 // ---------- one variety ----------
 function acreageOf(v) {
   const rows = [...v.acreage]
@@ -190,6 +201,7 @@ export function hop(slug) {
     acreage: acreageOf(v),
     counts: v.counts,
     beers: varietyBeers(v),
+    breweries: breweriesOf([...v.usages.values()].map((x) => x.beer)),
     farmRows: grown.map((x) => ({
       ...farmLink(x.farm),
       published: [...x.entry.published],
@@ -270,6 +282,10 @@ export function hopFarm(slug) {
       sources: sourceList(x.entries.map((e) => e.source).filter(Boolean)),
     })),
     grown: grown.map((x) => ({ ...beerRef(x.beer), hops: [...x.varieties.values()].map(varietyLink) })),
+    breweries: [
+      ...breweriesOf(named.map((x) => x.beer), { kind: 'named' }),
+      ...breweriesOf(grown.map((x) => x.beer), { kind: 'grown' }),
+    ],
     merchants: f.merchants.length ? merchantTable(f.merchants) : null,
     notesHtml: f.doc?.body?.trim() ? notesHtml(f.doc.body) : null,
   };

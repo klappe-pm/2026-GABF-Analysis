@@ -44,6 +44,7 @@ export type Hop = HopCard & {
   };
   counts: { beers: number; medals: number; gold: number; silver: number; bronze: number; farms: number };
   beers: (BeerRef & { forms: string[]; uses: string[]; farms: FarmLink[]; otherFarms: string[] })[];
+  breweries: { brewery: string; brewerySlug: string; count: number }[];
   farmRows: (FarmLink & { published: string[]; years: string[]; sources: Source[] })[];
   notesHtml: string | null;
 };
@@ -68,6 +69,8 @@ export type HopFarm = {
   varietyCards: HopCard[];
   named: (BeerRef & { hops: VarietyLink[]; published: string[]; sources: Source[] })[];
   grown: (BeerRef & { hops: VarietyLink[] })[];
+  // Named breweries first, then those linked through a variety the farm grows.
+  breweries: { brewery: string; brewerySlug: string; count: number; kind: 'named' | 'grown' }[];
   merchants: Table | null;
   notesHtml: string | null;
 };
