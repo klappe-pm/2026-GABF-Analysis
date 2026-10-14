@@ -12,8 +12,6 @@ type Paths = {
   hops: string;
   hopFarms: string;
   analysis: string;
-  reports: string;
-  explorer: string;
   saved: string;
 };
 

@@ -60,3 +60,29 @@ export function baseOption(el: Element) {
 }
 
 export type ChartTheme = ReturnType<typeof readTheme>;
+
+export function baseOption(el: Element) {
+  const t = readTheme(el);
+  const axisLabel = { color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small };
+  return {
+    theme: t,
+    option: {
+      color: t.series,
+      backgroundColor: 'transparent',
+      animation: false,
+      textStyle: { fontFamily: t.family, color: t.onSurface },
+      grid: { left: 8, right: 16, top: 16, bottom: 8, containLabel: true },
+      xAxis: { type: 'category' as const, axisLine: { lineStyle: { color: t.outline } }, axisTick: { lineStyle: { color: t.outlineVariant } }, axisLabel, splitLine: { show: false } },
+      yAxis: { type: 'value' as const, axisLine: { show: false }, axisTick: { show: false }, axisLabel, splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
+      tooltip: {
+        trigger: 'axis' as const,
+        backgroundColor: t.container,
+        borderWidth: 0,
+        borderRadius: t.radius,
+        padding: 8,
+        textStyle: { color: t.onContainer, fontFamily: t.family, fontSize: t.medium },
+        axisPointer: { type: 'line' as const, lineStyle: { color: t.outline, width: 1 } },
+      },
+    },
+  };
+}
