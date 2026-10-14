@@ -43,10 +43,11 @@ export function generateMetadata(): Metadata {
 const raw = (key: string) => lookup(key) as string;
 const YEAR = 2026;
 const MEDALS: MedalName[] = ['Gold', 'Silver', 'Bronze'];
-const ICONS: IconName[] = ['close', 'chevron-down', 'search', 'check', 'menu', 'filter', 'sort', 'sort-ascending', 'sort-descending', 'tune', 'palette', 'type', 'shape', 'layers', 'widgets'];
+const ICONS: IconName[] = ['close', 'chevron-down', 'search', 'check', 'menu', 'filter', 'sort', 'sort-ascending', 'sort-descending', 'tune', 'palette', 'type', 'shape', 'layers', 'widgets', 'medal', 'brewery', 'beer', 'chart', 'list', 'hop', 'farm'];
 const ICON_LABELS: Record<IconName, string> = {
   close: 'Close', 'chevron-down': 'Chevron', search: 'Search', check: 'Check', menu: 'Menu', filter: 'Filter', sort: 'Sort', 'sort-ascending': 'Sort ascending', 'sort-descending': 'Sort descending',
   tune: 'Settings', palette: 'Color', type: 'Type', shape: 'Shape', layers: 'Elevation', widgets: 'Components',
+  medal: 'Results', brewery: 'Breweries', beer: 'Beers', chart: 'Analysis', list: 'Categories', hop: 'Hops', farm: 'Hop farms',
 };
 
 const rangeText = (key: 'inside' | 'below' | 'above', min: number, max: number, format: (n: number) => string) => fill(raw(`global.scales.range.${key}`), { min: format(min), max: format(max) });
