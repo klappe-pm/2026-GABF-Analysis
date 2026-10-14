@@ -8,7 +8,7 @@ topics:
 types:
   - design
 date-created: 2026-10-11
-date-revised: 2026-10-11
+date-revised: 2026-10-14
 status: ACCEPTED
 aliases: []
 tags: []
@@ -28,7 +28,7 @@ Four stages, each a Node script with no framework, chained by `scripts/new-year.
 1. Ingest: `fetch-winners.mjs` downloads the official winners list PDF; `parse-winners.mjs` extracts text with unpdf and `lib/parse-winners-lib.mjs` turns it into one CSV row per medal plus Brewery of the Year awards. `import-results-csv.mjs` is the fallback for a hand-made sheet.
 2. Enrich: `enrich-breweries.mjs` looks every brewery up in Open Brewery DB, scores candidates by normalized name and city, applies `data/reference/brewery-overrides.csv`, and writes `data/enriched/breweries.json`. `import-style-guidelines.mjs` refreshes ABV, IBU, and SRM ranges from the Brewers Association guidelines.
 3. Model: `lib/data-model.mjs` loads every CSV, the markdown profiles, and the enrichment file into one dataset: decorated result rows (style family, ABV band, region, points), brewery entities (locations, ownership, production, estimates, yearly trend with did-not-exist handling, streaks), categories, coverage per year.
-4. Publish: `build-site.mjs` renders dist/ (five dashboards, breweries, categories, reports, about, JSON and CSV exports) and vendors ECharts; the deploy-pages workflow uploads dist/ to GitHub Pages on every push to main. `import-ceremony-transcript.mjs` is the stopgap between the live announcement and the PDF.
+4. Publish: `build-site.mjs` renders dist/ (five dashboards, breweries, categories, reports, about, JSON and CSV exports) and vendors ECharts. The ci workflow runs every gate as the required `build` check; after it passes on main, the deploy workflow lays the Material 3 app's static export (web/out) over dist/ with `assemble-pages.mjs` and publishes the result to GitHub Pages (workflows, URL map, base path, and custom domain in [deployment.md](deployment.md)). `import-ceremony-transcript.mjs` is the stopgap between the live announcement and the PDF.
 
 ## why-static
 

@@ -3,9 +3,12 @@ name: ingest-results
 # Fetch the official GABF winners list for a year, parse it, enrich breweries, and
 # commit the data. Runs on demand, and on a schedule every two hours from October 11
 # to October 20 (the window in which the Brewers Association publishes the list).
-# With publish set to true the data lands on main and this workflow dispatches deploy-pages
-# (a push made with the workflow token does not trigger other workflows); with publish
-# false a pull request is opened instead.
+# The data always arrives as a pull request, because branch protection on main requires the
+# build check and rejects a direct push. A pull request opened with the workflow token does not
+# trigger workflows, so this workflow dispatches ci.yml on the new branch, which puts the build
+# check on its head commit. With publish true (and on the schedule) it waits for that check,
+# merges the pull request, and dispatches deploy.yml (a merge made with the workflow token does
+# not trigger workflows either); with publish false it leaves the pull request for review.
 
 on:
   workflow_dispatch:
@@ -19,7 +22,7 @@ on:
         required: false
         default: ""
       publish:
-        description: Commit to main directly (true) or open a pull request (false)
+        description: Merge the pull request once ci passes and deploy (true), or leave it for review (false)
         required: false
         default: "true"
   schedule:
@@ -87,22 +90,17 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/ gabf-dashboard.html
+          # gabf-dashboard.html and the other single file pages are build outputs, not in git.
+          git add data/
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "data: ingest GABF ${{ steps.year.outputs.year }} winners list"
           echo "changed=true" >> "$GITHUB_OUTPUT"
-      - name: push-to-main
-        if: steps.commit.outputs.changed == 'true' && (github.event.inputs.publish == 'true' || github.event_name == 'schedule')
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git push origin HEAD:main
-          gh workflow run deploy-pages.yml --ref main
       - name: open-pull-request
-        if: steps.commit.outputs.changed == 'true' && github.event.inputs.publish == 'false'
+        if: steps.commit.outputs.changed == 'true'
+        id: pr
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -110,3 +108,21 @@ jobs:
           git checkout -b "$BRANCH"
           git push origin "$BRANCH"
           gh pr create --title "data: ingest GABF ${{ steps.year.outputs.year }} winners list" --body "Automated ingest of the official GABF ${{ steps.year.outputs.year }} winners list. Review data/results/gabf-${{ steps.year.outputs.year }}.csv for parse problems before merging." --base main --head "$BRANCH"
+          gh workflow run ci.yml --ref "$BRANCH"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+      - name: merge-and-deploy
+        if: steps.commit.outputs.changed == 'true' && (github.event.inputs.publish == 'true' || github.event_name == 'schedule')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.pr.outputs.branch }}
+        run: |
+          RUN_ID=""
+          for i in $(seq 1 30); do
+            RUN_ID="$(gh run list --workflow ci.yml --branch "$BRANCH" --event workflow_dispatch --limit 1 --json databaseId --jq '.[0].databaseId // empty')"
+            [ -n "$RUN_ID" ] && break
+            sleep 10
+          done
+          if [ -z "$RUN_ID" ]; then echo "the ci run for $BRANCH did not start; merge the pull request by hand once build passes"; exit 1; fi
+          gh run watch "$RUN_ID" --exit-status
+          gh pr merge "$BRANCH" --merge --delete-branch
+          gh workflow run deploy.yml --ref main

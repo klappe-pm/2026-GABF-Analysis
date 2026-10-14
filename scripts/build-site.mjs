@@ -678,8 +678,8 @@ function winnerPages(ds, profiles) {
   return { pages: profiles.length, matched: rowFor.size, unmatched: profiles.filter((p) => !rowFor.has(p.stem)).map((p) => p.stem) };
 }
 
-// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (committed); the
-// site serves that file as is.
+// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (a build output that
+// npm run build writes first, not a file in git); the site serves that file as is.
 function copyExplorer() {
   const src = resolve(ROOT, 'gabf-explorer.html');
   if (!existsSync(src)) return;
