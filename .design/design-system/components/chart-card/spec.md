@@ -6,6 +6,8 @@ code: web/components/ChartCard.tsx
 Card style: outlined
 Line width: 2
 Point size: 8
+Bar width: 24
+Series patterns: yes
 ---
 
 ![Chart card](chart-card.png)
@@ -15,3 +17,5 @@ Point size: 8
 - Card style: outlined
 - Line width: 2
 - Point size: 8
+- Bar width: 24
+- Series patterns: yes

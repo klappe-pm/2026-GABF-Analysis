@@ -108,7 +108,15 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   'filter-chips': { 'Chip style': enumOf(['outlined', 'elevated']), Shape: shape },
   breadcrumb: { Separator: enumOf(['/', '›', '·']), 'Text style': typeRole },
   button: { 'Main action': buttonStyle, 'Other action': buttonStyle, 'Quiet action': buttonStyle, Shape: shape, Density: numberOf([0, -1, -2, -3]) },
-  'chart-card': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]) },
+  // Line width also sets a lollipop's stem, and Point size its dot. Bar width is the widest a bar draws;
+  // Series patterns fills the second to fifth bar series with lines or dots, so color is not the only code.
+  'chart-card': {
+    'Card style': cardStyle,
+    'Line width': numberOf([1, 1.5, 2, 3]),
+    'Point size': numberOf([4, 6, 8, 10, 12]),
+    'Bar width': numberOf([12, 16, 20, 24, 32]),
+    'Series patterns': yesNo,
+  },
   checkbox: { 'Text style': typeRole },
   'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
   'filters-dialog': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },
