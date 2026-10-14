@@ -43,7 +43,7 @@ const ESTIMATES = ['intro', 'volume', 'conversions', 'revenue', 'margins'];
 
 export default async function MethodPage() {
   const { coverage, values } = await model();
-  const notDefined = t('global.states.gaps.not_defined');
+  const notDefined = t('global.labels.not_found');
   const v: Record<string, string | number> = { ...values, data_year: values.data_year ?? notDefined };
   const text = (key: string) => fill(raw(page(key)), v);
   const status = group('global.labels.coverage');

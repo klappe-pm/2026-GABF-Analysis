@@ -6,21 +6,21 @@ Saved views: planned. Views a visitor saves live only in their own browser.
 
 Where: top of the page.
 
-- `title`: Saved views
+- `title`: Saved Views
 - `lede`: Views you saved on this device. They stay in this browser; nothing is sent or synced.
 
 ## `save`
 
 Where: the save control on any filterable page.
 
-- `button`: Save this view
-- `name_label`: Name this view
+- `button`: Save This View
+- `name_label`: Name This View
 - `name_placeholder`: For example, Hazy IPA in Colorado
 - `saved`: View saved.
 - `submit`: Save
 - `cancel`: Cancel
 - `name_required`: Give this view a name.
-- `view_all`: See saved views
+- `view_all`: See Saved Views
 
 ## `item`
 
@@ -29,7 +29,7 @@ Where: each saved view in the list.
 - `open`: Open
 - `rename`: Rename
 - `delete`: Delete
-- `copy_link`: Copy link
+- `copy_link`: Copy Link
 - `link_copied`: Link copied.
 - `filters_summary`: {{count}} filters on {{page_title}}
 - `filters_summary_one`: 1 filter on {{page_title}}
@@ -38,8 +38,8 @@ Where: each saved view in the list.
 - `open_label`: Open {{name}}
 - `rename_label`: Rename {{name}}
 - `delete_label`: Delete {{name}}
-- `copy_label`: Copy link to {{name}}
-- `rename_submit`: Save name
+- `copy_label`: Copy Link to {{name}}
+- `rename_submit`: Save Name
 - `rename_cancel`: Cancel
 - `renamed`: View renamed.
 - `deleted`: View deleted.
@@ -49,8 +49,8 @@ Where: each saved view in the list.
 
 Where: in place of the list when nothing is saved.
 
-- `title`: No saved views yet.
-- `body`: Set Filters on any page, then choose Save this view.
+- `title`: No Saved Views Yet.
+- `body`: Set Filters on any page, then choose Save This View.
 
 ## `storage_error`
 

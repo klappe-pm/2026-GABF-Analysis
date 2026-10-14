@@ -13,21 +13,21 @@ Where: top of the page.
 
 Where: the coverage section. Status labels and meanings come from labels.yaml (coverage, coverage_meaning).
 
-- `title`: Coverage by year
+- `title`: Coverage by Year
 - `lede`: The record runs {{first_year}} to {{last_year}}. Complete official lists cover {{complete_range}}.
 
 ### `columns`
 
 - `year`: Year
 - `status`: Status
-- `rows`: Medals loaded
+- `rows`: Medals Loaded
 - `sources`: Sources
 
 ## `sources`
 
 Where: the data sources section, one item per source.
 
-- `title`: Data sources
+- `title`: Data Sources
 - `results`: Results: the official Great American Beer Festival winners lists, published by the Brewers Association. Category names and entry counts come from the same lists. Before a list is posted, medals can be drafted from the awards ceremony broadcast; those rows are marked draft until the list replaces them.
 - `breweries`: Brewery locations, coordinates, types, and websites: Open Brewery DB, an open database, with curated corrections.
 - `styles`: Style definitions and ABV, IBU, and SRM ranges: the Brewers Association Beer Style Guidelines. Special categories are flagged by a naming rule and a setting for each category.
@@ -42,14 +42,14 @@ Where: the data sources section, one item per source.
 
 Where: the rates section.
 
-- `title`: Medals per resident and per dollar of GDP
+- `title`: Medals per Resident and per Dollar of GDP
 - `body`: Each medal counts against its own year. Medals per million residents adds, for every medal, one million divided by its place's population that year. Medals per $100 billion of real GDP does the same with real GDP. A year with no published figure uses the nearest published year.
 
 ## `fed_districts`
 
 Where: the Fed district section.
 
-- `title`: Placing medals in Fed districts
+- `title`: Placing Medals in Fed Districts
 - `body`: Most states sit in one district. In a split state, a medal is placed by the county of the medal city. West Virginia has no published county list, so it is assigned whole to the Richmond district as an approximation. District GDP for split states is apportioned by county GDP shares (E).
 
 ## `estimates`
@@ -67,14 +67,14 @@ Where: the estimates section. Linked from every (E).
 
 Where: the year status section, which explains the notes on brewery charts.
 
-- `title`: Year status on brewery pages
+- `title`: Year Status on Brewery Pages
 - `body`: Each year on a brewery page has one status: medaled, no medal, not yet founded, closed, results not loaded, partial year, or no results for this year. A partial year is never counted as a miss.
 
 ## `first_time`
 
 Where: the first time medalists section.
 
-- `title`: First time medalists
+- `title`: First Time Medalists
 - `body`: A first time medalist has no medal in any loaded year before the year shown. Years that are not loaded cannot count against a brewery, so first always means first in the record.
 
 ## `keyboard`
