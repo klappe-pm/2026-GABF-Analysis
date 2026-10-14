@@ -21,13 +21,11 @@ Perrault Farms is recorded here from the sources listed below, and only as those
 
 Toppenish, Yakima County, WA. The county is derived: looked up from the city, not stated by the farm.
 
-Not yet confirmed from the farm's own source. Reason: grower-owner status seen only in a search summary of a Yakima Chief post.
-
 ## ownership-and-history
 
-- Family or ownership: Perrault family
+- Family or ownership: Perrault family; one of three farms that own Yakima Chief Ranches
 - Founded: 1902 (family arrival in the Yakima Valley)
-- Proprietary variety role: Perrault family named as a Yakima Chief Ranches founding family; Jason Perrault credited as a Mosaic breeder in press.
+- Proprietary variety role: Owner of Yakima Chief Ranches, which manages Simcoe, Citra, Mosaic and Loral (YCR page).
 
 ## varieties-as-published
 
@@ -37,7 +35,7 @@ Not yet confirmed from the farm's own source. Reason: grower-owner status seen o
 
 ## supply-chain
 
-- Affiliation as published: Described as a Yakima Chief grower-owner in a Yakima Chief post. Perrault family named as a Yakima Chief Ranches founding family.
+- Affiliation as published: Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); owner of Yakima Chief Ranches; on the YCR roster
 - Listed as a source farm of Yakima Chief Hops in the merchants file
 - Listed as a source farm of Yakima Chief Ranches in the merchants file
 
@@ -51,3 +49,6 @@ Crops listed on its site: hops, blueberries, bison. ZIP 98948. Simcoe for a 2017
 - https://careers.yakimachief.com/?p=778
 - https://mackinnonreport.substack.com/p/the-secret-behind-who-controls-the
 - https://punchdrink.com/articles/get-to-know-mosaic-hop-beers-hottest-hops-variety/
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
+- http://web.archive.org/web/20260326185512/https://www.yakimachief.com/yakima-chief-ranches

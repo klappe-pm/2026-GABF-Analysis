@@ -15,7 +15,7 @@ tags: []
 
 # morrier-ranch
 
-Morrier Ranch is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
+Morrier Ranch Inc is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
 
 ## location
 
@@ -32,7 +32,8 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-No merchant relationship was found in the sources checked.
+- Affiliation as published: On the Yakima Chief Ranches roster of 41 farms in Washington, Idaho and Oregon
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
@@ -41,3 +42,4 @@ Yakima Valley location per Seattle Magazine. No varieties or acreage stated.
 ## sources
 
 - https://seattlemag.com/news/hops-capital-world-eastern-washington/
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/

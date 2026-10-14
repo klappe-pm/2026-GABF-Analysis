@@ -21,14 +21,13 @@ Coleman Agriculture is recorded here from the sources listed below, and only as 
 
 St. Paul, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
 
-Not yet confirmed from the farm's own source. Reason: acreage, variety counts and Yakima Chief details from search summaries; Indie Hops page read.
-
 ## ownership-and-history
 
-- Family or ownership: Coleman family
-- Founded: mid-1800s (family arrived in Oregon 1847)
-- Generation: seventh generation (Indie Hops and VinePair); a 2018 post says sixth
-- Acreage: over 8,000 acres in the Willamette Valley (Yakima Chief page, search summary)
+- Family or ownership: Ben, Jen, Tom and Melissa Coleman
+- Founded: 1847
+- Generation: six generations (Yakima Chief page); seventh generation (Indie Hops and VinePair)
+- Acreage: more than 2,000 acres of hops harvested; over 8,000 acres managed in the Willamette Valley (Yakima Chief page)
+- Certifications: Partners with Salmon Safe (Yakima Chief page)
 
 ## varieties-as-published
 
@@ -47,11 +46,11 @@ Not yet confirmed from the farm's own source. Reason: acreage, variety counts an
 
 ## notes
 
-Indie Hops says five farms across the Willamette Valley and Central Oregon; also grows hazelnuts, seed crops and vegetables. Yakima Chief page reported as saying 24 distinct hop varieties and over 2 million pounds a year (search summary); a 2018 post says 22 varieties.
+Archived Yakima Chief page: produces more than 2 million pounds a year, including 24 distinct hop varieties; also hazelnuts, seed crops, green beans and wheat. Indie Hops says five farms across the Willamette Valley and Central Oregon. Coleman Farms Inc, Coleman Ranches and Coleman Greenleaf appear separately on the YCR roster and the Oregon Hop Commission board and are not stated to be the same entity.
 
 ## sources
 
+- http://web.archive.org/web/20260411025650/https://www.yakimachief.com/meet-the-growers
+- http://web.archive.org/web/20260411025650/https://www.yakimachief.com/meet-the-growers
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
 - https://www.indiehops.com/growers
-- https://washingtonbeerblog.com/four-more-family-farms-join-yakima-chief-hops/
-- https://vinepair.com/articles/workers-who-build-pacific-northwest-hop-harvest
-- https://www.cascadeemployers.com/blog/2018/10/01/weekly-blog/five-things-you-may-not-know-about-coleman-agriculture

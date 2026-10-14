@@ -21,11 +21,9 @@ Sauve and Son Farms is recorded here from the sources listed below, and only as 
 
 WA.
 
-Not yet confirmed from the farm's own source. Reason: search summary only.
-
 ## ownership-and-history
 
-No ownership, history or acreage figures were found in the sources checked.
+- Family or ownership: Rick Sauve
 
 ## varieties-as-published
 
@@ -33,14 +31,15 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Listed in the Yakima Chief Hops brochure (search result summary); page exists at /about-us/growers/sauve-and-son-farms
+- Affiliation as published: Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); on the YCR roster
 - Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
-Brochure is said to note that some owner farms grow HBC experimentals; not retrieved.
+Archived page lists the owner only; the individual farm page was not archived.
 
 ## sources
 
-- https://www.yakimachief.com/media/wysiwyg/Yakima_Chief_Hops_Brochure.pdf
-- https://www.yakimachief.com/about-us/growers/sauve-and-son-farms
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/

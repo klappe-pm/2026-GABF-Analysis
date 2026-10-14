@@ -23,7 +23,7 @@ Yakima, Yakima County, WA. The county is derived: looked up from the city, not s
 
 ## ownership-and-history
 
-- Family or ownership: Smith and Quinn family (Seattle Magazine)
+- Family or ownership: Mike and Patrick Smith (archived YCH growers page); Smith and Quinn family (Seattle Magazine)
 - Founded: growing hops since 1932
 
 ## varieties-as-published
@@ -32,7 +32,9 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Site shows logos for Olympic Orchards, Tributary Hop Farms, Loftus Labs and Bale Breaker without explaining relationships
+- Affiliation as published: Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); owner of Yakima Chief Ranches as Loftus Ranches
+- Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
@@ -42,3 +44,5 @@ No variety list for this farm was found in the sources checked.
 
 - https://www.loftusranches.com/
 - https://seattlemag.com/news/hops-capital-world-eastern-washington/
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/

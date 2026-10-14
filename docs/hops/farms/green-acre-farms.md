@@ -36,7 +36,7 @@ No variety list for this farm was found in the sources checked.
 
 ## notes
 
-Location and varieties not stated in the source.
+Location and varieties not stated. Not on the Yakima Chief Ranches roster of 41 farms.
 
 ## sources
 

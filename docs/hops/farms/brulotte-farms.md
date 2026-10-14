@@ -15,13 +15,11 @@ tags: []
 
 # brulotte-farms
 
-Brulotte farms is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
+Brulotte Farms Inc is recorded here from the sources listed below, and only as those sources state it. A blank field means no source checked states it.
 
 ## location
 
 WA.
-
-Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 
@@ -33,14 +31,15 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Listed in the Yakima Chief Hops brochure (search result summary)
-- Listed as a source farm of Yakima Chief Hops in the merchants file
+- Affiliation as published: On the earlier Yakima Chief Hops grower list (archived April 2026) and on the YCR roster; not on the October 2026 archived growers page
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 
 ## notes
 
-Exact farm name not confirmed; search summary says Brulotte and 3D farms. Seattle Magazine names the Brulotte family among Yakima Valley hop families.
+The October 2026 archived growers page lists 14 grower-owners and does not include Brulotte; the April 2026 archived page does. Whether it left is not stated.
 
 ## sources
 
-- https://www.yakimachief.com/media/wysiwyg/Yakima_Chief_Hops_Brochure.pdf
+- http://web.archive.org/web/20260411025650/https://www.yakimachief.com/meet-the-growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
 - https://seattlemag.com/news/hops-capital-world-eastern-washington/

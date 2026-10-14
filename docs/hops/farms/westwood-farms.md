@@ -23,7 +23,7 @@ OR.
 
 ## ownership-and-history
 
-- Family or ownership: Founded by John Coleman and co-owned with Liz Coleman
+- Family or ownership: John and Liz Coleman
 
 ## varieties-as-published
 
@@ -31,7 +31,9 @@ No variety list for this farm was found in the sources checked.
 
 ## supply-chain
 
-- Affiliation as published: Indie Hops grower
+- Affiliation as published: Indie Hops grower; Yakima Chief Hops grower-owner (archived YCH growers page, October 2026); Westwood Farms Inc on the YCR Oregon roster
+- Listed as a source farm of Yakima Chief Hops in the merchants file
+- Listed as a source farm of Yakima Chief Ranches in the merchants file
 - Listed as a source farm of Indie Hops in the merchants file
 
 ## notes
@@ -41,3 +43,5 @@ Willamette Valley fields; Indie Hops describes a commitment to regenerative agri
 ## sources
 
 - https://www.indiehops.com/growers
+- http://web.archive.org/web/20261009213521/https://www.yakimachief.com/about-us/growers
+- http://web.archive.org/web/20260710201349/https://yakimachiefranches.com/history/
