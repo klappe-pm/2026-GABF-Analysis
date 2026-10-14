@@ -9,4 +9,4 @@ code: web/components/Tabs.tsx
 
 ## tabs-options
 
-- Nothing yet: the tabs are drawn from the theme and gain settings when the owner asks for them.
+- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.
