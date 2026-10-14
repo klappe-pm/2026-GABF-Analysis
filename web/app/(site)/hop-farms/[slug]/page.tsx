@@ -122,7 +122,7 @@ export default async function HopFarmPage({ params }: { params: Promise<Params> 
               initialSort={{ key: 'variety', dir: 'ascending' }}
               scroll={false}
             />
-            <div className="grid grid-cols-1 gap-4 medium:grid-cols-2 expanded:grid-cols-3">
+            <div className="grid grid-cols-1 gap-4 medium:grid-cols-2">
               {f.varietyCards.map((c) => <HopProfileCard key={c.slug} data={hopCardData(c)} headingLevel={3} />)}
             </div>
           </>
