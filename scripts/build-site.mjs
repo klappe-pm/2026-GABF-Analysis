@@ -160,6 +160,51 @@ export function enrichResults(ds) {
   return ds;
 }
 
+// How one brewery's estimates were made, in plain words, for the (E) popovers. Mirrors the method
+// in scripts/lib/estimate.mjs: barrels from the best evidence, revenue from barrels times a price
+// per barrel by brewery type plus kitchen revenue, margins by brewery type and distribution channel.
+export function explainEstimate(b, params) {
+  const est = b.estimate;
+  const rev = est.revenue;
+  const f = b.financials;
+  const type = valueLabel('brewery_type', b.brewery_type).toLowerCase();
+  const n = b.locations_count;
+  const num = (x) => Number(x).toLocaleString('en-US');
+  const money = (x) => `$${num(Math.round(x))}`;
+  let barrels;
+  if (est.basis === 'reported') barrels = `Reported by the brewery${est.year ? ` for ${est.year}` : ''}: ${num(est.barrels)} barrels.`;
+  else if (est.basis === 'boty-bracket') barrels = est.range?.max ? `The midpoint of the Brewery of the Year size bracket it competed in (${num(est.range.min)} to ${num(est.range.max)} barrels): ${num(est.barrels)} barrels.` : `1.25 times the floor of the open Brewery of the Year size bracket it competed in (over ${num((est.range?.min ?? 1) - 1)} barrels): ${num(est.barrels)} barrels.`;
+  else if (est.basis === 'estimate') barrels = `A researched estimate from published reporting on this brewery (${est.confidence || 'low'} confidence): ${num(est.barrels)} barrels.`;
+  else {
+    const perType = params.barrels_by_brewery_type[b.brewery_type] ?? params.barrels_by_brewery_type.default;
+    barrels = `No production figure is published, so this uses a typical volume for a ${type} (${num(perType)} barrels)${n > 1 ? ` plus ${num(params.barrels_per_additional_location)} barrels for each of ${n - 1} more location${n - 1 === 1 ? '' : 's'}` : ''}: ${num(est.barrels)} barrels.`;
+  }
+  const arr = rev.basis === 'profile estimate'
+    ? `A researched revenue estimate for this brewery of ${money(rev.total_revenue_usd)}, with a range of ${money(rev.low_usd)} to ${money(rev.high_usd)}.`
+    : `${num(est.barrels)} barrels times ${money(rev.revenue_per_barrel_usd)} per barrel, the benchmark price for a ${type}${rev.food_revenue_usd ? `, plus ${money(params.food_revenue_per_kitchen_location)} of food sales for each of ${n} location${n === 1 ? '' : 's'} with a kitchen` : ''}, gives ${money(rev.total_revenue_usd)} a year. The range shown is 0.7 to 1.35 times that.`;
+  const channelKey = params.ebitda_margin_range_by_channel[b.distribution_channel] ? b.distribution_channel : (b.brewery_type === 'brewpub' || b.brewery_type === 'taproom' ? 'taproom' : 'self-distribution');
+  const channelText = { taproom: 'taproom sales', 'self-distribution': 'self distributed', distributor: 'distributor sold' }[channelKey] ?? 'similar';
+  const pctText = (x) => `${Math.round(x * 100)} percent`;
+  const text = {
+    barrels,
+    arr,
+    gross_margin: `Annual revenue (${money(f.arr_usd)}) times a ${pctText(f.gross_margin)} gross margin, typical for a ${type}, gives ${money(f.gross_profit_usd)} of gross profit.`,
+    ebitda: `Annual revenue (${money(f.arr_usd)}) times a ${pctText(f.ebitda_margin)} EBITDA margin, typical for a ${type}, gives ${money(f.ebitda_usd)}. The range uses ${pctText(f.ebitda_margin_low)} to ${pctText(f.ebitda_margin_high)}, typical for ${channelText} breweries.`,
+    per_barrel: `Annual revenue (${money(f.arr_usd)}) divided by ${num(est.barrels)} barrels.`,
+    per_location: `Annual revenue (${money(f.arr_usd)}) divided by ${n} location${n === 1 ? '' : 's'}.`,
+    per_employee: `Annual revenue (${money(f.arr_usd)}) divided by ${b.employees ? num(b.employees) : 'the reported'} employees.`,
+  };
+  const inputs = [
+    ['Barrels', `${num(est.barrels)} (${valueLabel('basis', est.basis).toLowerCase()})`],
+    ['Brewery type', valueLabel('brewery_type', b.brewery_type)],
+    ['Locations', String(n)],
+    ['Kitchen', b.has_kitchen ? 'Yes' : 'No'],
+    ['Distribution', b.distribution_channel ? valueLabel('distribution_channel', b.distribution_channel) : 'Not defined'],
+    ['Employees', b.employees ? num(b.employees) : 'Not defined'],
+  ];
+  return { name: b.name, text, inputs };
+}
+
 // Brewery attributes the index and report views join to medal rows (data/brewery-info.json).
 export function breweryInfo(ds) {
   return Object.fromEntries(ds.breweries.filter((b) => b.medals.length).map((b) => [b.key, {
@@ -203,6 +248,7 @@ export function buildPayload(ds, cats) {
     distribution_channel: b.distribution_channel, distributors: b.distributors.map((d) => ({ channel: d.channel, distributor: d.distributor, territory: d.territory })),
     estimate: { barrels: b.estimate.barrels, basis: b.estimate.basis, revenue_usd: b.estimate.revenue.total_revenue_usd },
     financials: b.financials, has_profile: Boolean(b.profile), locations: b.locations, locations_count: b.locations_count,
+    explain: explainEstimate(b, ds.params),
   }));
   return { results, meta, breweries };
 }
@@ -213,6 +259,7 @@ function writeData(ds, cats) {
   VIEW.meta = meta;
   VIEW.info = breweryInfo(ds);
   write('data/brewery-info.json', JSON.stringify(VIEW.info));
+  write('data/estimates.json', JSON.stringify(Object.fromEntries(ds.breweries.map((b) => [b.key, explainEstimate(b, ds.params)]))));
   write('data/results.json', JSON.stringify(results));
   write('data/meta.json', JSON.stringify({ generated_at: new Date().toISOString(), ...meta }));
   write('data/breweries.json', JSON.stringify(breweries));
