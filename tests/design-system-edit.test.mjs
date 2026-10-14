@@ -25,9 +25,9 @@ test('a key write changes only that key and keeps every other byte', () => {
 });
 
 test('a list value replaces its own lines only, and a missing key is added at the end of the block', () => {
-  const text = '---\nname: chart-frame\nSeries colors:\n  - primary\n  - tertiary\nLine width: 2\n---\n\n- Series colors: primary, tertiary\n- Line width: 2\n';
+  const text = '---\nname: chart-card\nSeries colors:\n  - primary\n  - tertiary\nLine width: 2\n---\n\n- Series colors: primary, tertiary\n- Line width: 2\n';
   const out = setListLine(setFrontmatterKey(text, 'Series colors', ['primary', 'secondary', 'outline']), 'Series colors', 'primary, secondary, outline');
-  assert.equal(out, '---\nname: chart-frame\nSeries colors:\n  - primary\n  - secondary\n  - outline\nLine width: 2\n---\n\n- Series colors: primary, secondary, outline\n- Line width: 2\n');
+  assert.equal(out, '---\nname: chart-card\nSeries colors:\n  - primary\n  - secondary\n  - outline\nLine width: 2\n---\n\n- Series colors: primary, secondary, outline\n- Line width: 2\n');
   const added = setFrontmatterKey(text, 'Point size', 8);
   assert.deepEqual(changedLines(text, added), [6, 7, 8, 9, 10, 11]);
   assert.equal(splitFrontmatter(added).data['Point size'], 8);
@@ -48,7 +48,7 @@ test('a failing value is refused with a plain reason', async () => {
     [{ target: 'settings', key: 'Label font', value: 'Roboto' }, /must be one of: Public Sans, Archivo Narrow|must be one of: Archivo Narrow, Public Sans/],
     [{ target: 'settings', key: 'Seed color', value: null }, /quoted six digit hex/],
     [{ target: 'settings', key: 'Hue', value: 'green' }, /not a setting/],
-    [{ target: 'chart-frame', key: 'Series colors', value: ['primary', 'tertiary', 'secondary', 'outline', 'surface container'] }, /needs 3 to 1 \(WCAG AA\)/],
+    [{ target: 'chart-card', key: 'Series colors', value: ['primary', 'tertiary', 'secondary', 'outline', 'surface container'] }, /needs 3 to 1 \(WCAG AA\)/],
     [{ target: '../../etc', key: 'x', value: 'y' }, /no design setting file/],
   ];
   for (const [edit, reason] of cases) {

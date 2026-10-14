@@ -27,26 +27,32 @@ export type Scheme = Record<ColorRole, string>;
 // The seed sets the primary, secondary, and tertiary palettes; Material takes primary at tone 40 of the
 // seed's hue, so the primary color is a darker relative of the seed, not the seed itself. With
 // "Surface tint: none" the neutral palettes carry no chroma, so surfaces are white and true grays and the
-// seed's hue shows only in the accent roles.
+// seed's hue shows only in the accent roles. "Primary color" pins the primary role to that exact hex:
+// the primary palette keeps that color's own hue and colorfulness, so the containers and on colors
+// stay its relatives, and the primary role itself is set to the hex.
 export function schemeFor(g: Settings): Scheme {
   const Style = STYLES[String(g['Color style'])] ?? SchemeTonalSpot;
   const source = Hct.fromInt(argbFromHex(String(g['Seed color'])));
   const contrastLevel = CONTRAST[String(g.Contrast)] ?? 0;
   const base = new Style(source, false, contrastLevel);
-  const scheme = g['Surface tint'] === 'seed' ? base : new DynamicScheme({
+  const pinned = /^#[0-9a-fA-F]{6}$/.test(String(g['Primary color'] ?? '')) ? String(g['Primary color']) : null;
+  const primaryPalette = pinned ? TonalPalette.fromInt(argbFromHex(pinned)) : base.primaryPalette;
+  const neutral = g['Surface tint'] !== 'seed';
+  const scheme = !neutral && !pinned ? base : new DynamicScheme({
     sourceColorHct: source,
     variant: base.variant,
     contrastLevel,
     isDark: false,
-    primaryPalette: base.primaryPalette,
+    primaryPalette,
     secondaryPalette: base.secondaryPalette,
     tertiaryPalette: base.tertiaryPalette,
     errorPalette: base.errorPalette,
-    neutralPalette: TonalPalette.fromHueAndChroma(source.hue, 0),
-    neutralVariantPalette: TonalPalette.fromHueAndChroma(source.hue, 0),
+    neutralPalette: neutral ? TonalPalette.fromHueAndChroma(source.hue, 0) : base.neutralPalette,
+    neutralVariantPalette: neutral ? TonalPalette.fromHueAndChroma(source.hue, 0) : base.neutralVariantPalette,
   });
   const colors = MaterialDynamicColors as unknown as Record<string, { getArgb(s: DynamicScheme): number }>;
   const out = Object.fromEntries(COLOR_ROLES.map((role) => [role, hexFromArgb(colors[camel(role)].getArgb(scheme))])) as Scheme;
+  if (pinned) out.primary = pinned.toLowerCase();
   // "Page background: white" puts every page on pure white; the container roles keep their grays,
   // so cards, the app bar, and the navigation still stand apart from the page.
   if (g['Page background'] !== 'scheme') for (const role of ['background', 'surface', 'surface bright'] as const) out[role] = '#ffffff';

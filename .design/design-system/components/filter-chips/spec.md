@@ -1,13 +1,13 @@
 ---
-name: active-filters
-title: Active filters
+name: filter-chips
+title: Filter chips
 status: review
-code: web/components/ActiveFilters.tsx
+code: web/components/FilterChips.tsx
 Chip style: outlined
 Shape: small
 ---
 
-![Active filters](active-filters.png)
+![Filter chips](filter-chips.png)
 
 ## what-you-can-change
 

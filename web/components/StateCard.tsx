@@ -14,8 +14,8 @@ type Props = {
 
 // Empty, loading, error, and notice states, on a card in place of the view they replace.
 // Loading shows a Material progress indicator (none under reduced motion); an error sits on the error container.
-export function FormNote({ kind, title, children, action, stamp }: Props) {
-  const s = useSettings('form-note');
+export function StateCard({ kind, title, children, action, stamp }: Props) {
+  const s = useSettings('state-card');
   const card = cardSurface(s['Card style']);
   const reduce = useReducedMotion();
   if (kind === 'loading') {

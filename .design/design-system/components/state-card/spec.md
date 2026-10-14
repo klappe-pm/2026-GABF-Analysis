@@ -1,13 +1,13 @@
 ---
-name: form-note
-title: Form notes
+name: state-card
+title: State card
 status: review
-code: web/components/FormNote.tsx
+code: web/components/StateCard.tsx
 Card style: outlined
 Loading indicator: linear
 ---
 
-![Form notes](form-note.png)
+![State card](state-card.png)
 
 ## what-you-can-change
 

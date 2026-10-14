@@ -1,13 +1,13 @@
 ---
-name: red-pen-note
-title: Red pen note
+name: callout
+title: Callout
 status: review
-code: web/components/RedPenNote.tsx
+code: web/components/Callout.tsx
 Card style: outlined
 Accent color: tertiary
 ---
 
-![Red pen note](red-pen-note.png)
+![Callout](callout.png)
 
 ## what-you-can-change
 

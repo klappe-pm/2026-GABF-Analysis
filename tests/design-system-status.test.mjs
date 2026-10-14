@@ -37,11 +37,11 @@ test('the layout file orders every section, navigation item, and component once'
 });
 
 test('every data table reads the table rule from its spec: no wrapping, left aligned, bold header', () => {
-  const table = loadSpecs().find((s) => s.dir === 'ruled-table');
+  const table = loadSpecs().find((s) => s.dir === 'data-table');
   assert.equal(table.data['Cell wrapping'], 'never');
   assert.equal(table.data['Cell alignment'], 'left');
   assert.equal(table.data['Header weight'], 'bold');
-  const src = readFileSync(resolve(WEB, 'components/RuledTable.tsx'), 'utf8');
+  const src = readFileSync(resolve(WEB, 'components/DataTable.tsx'), 'utf8');
   for (const key of ['Cell wrapping', 'Cell alignment', 'Header weight']) assert.match(src, new RegExp(`s\\['${key}'\\]`), key);
   assert.match(src, /overflow-x-auto|overflow-auto/);
 });

@@ -12,26 +12,26 @@ Site navigation:
   - beers
   - analysis
 Components:
-  - form-header
+  - page-header
   - breadcrumb
   - section-header
-  - form-field
-  - ruled-table
+  - stat-card
+  - data-table
   - medal-mark
   - medal-record
   - range-scale
-  - red-pen-note
-  - status-stamp
-  - filters-sheet
-  - active-filters
+  - callout
+  - status-chip
+  - filters-dialog
+  - filter-chips
   - button
   - text-link
   - select
   - checkbox
   - search-field
-  - estimate-popover
-  - chart-frame
-  - form-note
+  - estimate-tooltip
+  - chart-card
+  - state-card
   - icon
 ---
 

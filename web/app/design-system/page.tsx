@@ -1,25 +1,25 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
-import { ActiveFilters } from '@/components/ActiveFilters';
+import { FilterChips } from '@/components/FilterChips';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { Button } from '@/components/Button';
-import { ChartFrame } from '@/components/ChartFrame';
+import { ChartCard } from '@/components/ChartCard';
 import { Checkbox } from '@/components/Checkbox';
-import { EstimatePopover } from '@/components/EstimatePopover';
-import { Field, FieldGrid } from '@/components/FormField';
-import { FiltersForm, FiltersSheet, type FilterGroup, type FiltersCopy } from '@/components/FiltersSheet';
-import { FormHeader } from '@/components/FormHeader';
-import { FormNote } from '@/components/FormNote';
+import { EstimateTooltip } from '@/components/EstimateTooltip';
+import { Field, FieldGrid } from '@/components/StatCard';
+import { FiltersForm, FiltersDialog, type FilterGroup, type FiltersCopy } from '@/components/FiltersDialog';
+import { PageHeader } from '@/components/PageHeader';
+import { StateCard } from '@/components/StateCard';
 import { Icon, type IconName } from '@/components/Icon';
 import { MedalMark, type MedalName } from '@/components/MedalMark';
 import { MedalRecord } from '@/components/MedalRecord';
 import { RangeScale } from '@/components/RangeScale';
-import { RedPenNote } from '@/components/RedPenNote';
-import { RuledTable } from '@/components/RuledTable';
+import { Callout } from '@/components/Callout';
+import { DataTable } from '@/components/DataTable';
 import { SearchField } from '@/components/SearchField';
 import { SectionHeader } from '@/components/SectionHeader';
 import { Select } from '@/components/Select';
-import { StatusStamp } from '@/components/StatusStamp';
+import { StatusChip } from '@/components/StatusChip';
 import { TextLink } from '@/components/TextLink';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
 import { sampleBeers, type SampleBeer } from '@/lib/samples';
@@ -147,12 +147,12 @@ export default function DesignSystemPage() {
 
   const components: { id: string; node: ReactNode }[] = [
     {
-      id: 'form-header',
+      id: 'page-header',
       node: (
-        <Specimen name="form-header" title={compName('form_header')} columns="grid-cols-1">
+        <Specimen name="page-header" title={compName('page_header')} columns="grid-cols-1">
           <State label={states('default')} wide>
             <div className="w-full">
-              <FormHeader
+              <PageHeader
                 menuId="specimen-menu"
                 brand={{ text: t('global.site.identity.name'), href: '#component-form-header' }}
                 nav={[
@@ -192,12 +192,12 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'form-field',
+      id: 'stat-card',
       node: (
-        <Specimen name="form-field" title={compName('form_field')} columns="grid-cols-1">
+        <Specimen name="stat-card" title={compName('stat_card')} columns="grid-cols-1">
           <State label={states('value')} wide>
             <div className="w-full">
-              <FieldGrid label={compName('form_field')}>
+              <FieldGrid label={compName('stat_card')}>
                 <Field label={t('pages.home.scoresheet.competition_year')} size="text">{fill(raw('pages.home.scoresheet.competition_value'), { year: YEAR })}</Field>
                 <Field label={t('pages.home.scoresheet.entries_judged')}>{summary?.entries ? fmt.number(summary.entries) : t('pages.home.scoresheet.not_published')}</Field>
                 <Field label={t('pages.home.scoresheet.categories')}>{summary?.categories ? fmt.number(summary.categories) : t('pages.home.scoresheet.not_published')}</Field>
@@ -209,13 +209,13 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'ruled-table',
+      id: 'data-table',
       node: (
-        <Specimen name="ruled-table" title={compName('ruled_table')} columns="grid-cols-1">
+        <Specimen name="data-table" title={compName('data_table')} columns="grid-cols-1">
           <State label={states('default')} wide>
             <div className="w-full">
               <p className="type-body-medium pb-2 text-on-surface-variant">{fill(raw('pages.design-system.samples.category_index'), { year: YEAR })}</p>
-              <RuledTable
+              <DataTable
                 caption={fill(raw('pages.home.category_index.title'), { year: YEAR })}
                 sortHint={t('global.tables.sorting.hint')}
                 initialSort={{ key: 'number', dir: 'ascending' }}
@@ -277,40 +277,40 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'red-pen-note',
+      id: 'callout',
       node: (
-        <Specimen name="red-pen-note" title={compName('red_pen_note')}>
+        <Specimen name="callout" title={compName('callout')}>
           <State label={states('default')} wide>
-            <RedPenNote label={t('pages.home.finding.label')} link={{ href: '#component-red-pen-note', text: t('pages.home.finding.link') }}>{headline}</RedPenNote>
+            <Callout label={t('pages.home.finding.label')} link={{ href: '#component-red-pen-note', text: t('pages.home.finding.link') }}>{headline}</Callout>
           </State>
         </Specimen>
       ),
     },
     {
-      id: 'status-stamp',
+      id: 'status-chip',
       node: (
-        <Specimen name="status-stamp" title={compName('status_stamp')}>
-          <State label={t('global.labels.coverage.partial')}><StatusStamp label={t('global.labels.coverage.partial')} meaning={t('global.labels.coverage_meaning.partial')} /></State>
-          <State label={t('global.labels.coverage.pending')}><StatusStamp label={t('global.labels.coverage.pending')} meaning={t('global.labels.coverage_meaning.pending')} /></State>
-          <State label={t('global.states.estimates.short')}><StatusStamp label={t('global.states.estimates.short')} /></State>
+        <Specimen name="status-chip" title={compName('status_chip')}>
+          <State label={t('global.labels.coverage.partial')}><StatusChip label={t('global.labels.coverage.partial')} meaning={t('global.labels.coverage_meaning.partial')} /></State>
+          <State label={t('global.labels.coverage.pending')}><StatusChip label={t('global.labels.coverage.pending')} meaning={t('global.labels.coverage_meaning.pending')} /></State>
+          <State label={t('global.states.estimates.short')}><StatusChip label={t('global.states.estimates.short')} /></State>
         </Specimen>
       ),
     },
     {
-      id: 'filters-sheet',
+      id: 'filters-dialog',
       node: (
-        <Specimen name="filters-sheet" title={compName('filters_sheet')} columns="grid-cols-1">
-          <State label={states('default')}><FiltersSheet copy={filtersCopy} groups={filterGroups} /></State>
+        <Specimen name="filters-dialog" title={compName('filters_dialog')} columns="grid-cols-1">
+          <State label={states('default')}><FiltersDialog copy={filtersCopy} groups={filterGroups} /></State>
           <State label={states('open')} wide><div className="w-full"><FiltersForm idPrefix="specimen-filters" copy={filtersCopy} groups={filterGroups} /></div></State>
         </Specimen>
       ),
     },
     {
-      id: 'active-filters',
+      id: 'filter-chips',
       node: (
-        <Specimen name="active-filters" title={compName('active_filters')}>
+        <Specimen name="filter-chips" title={compName('filter_chips')}>
           <State label={states('default')} wide>
-            <ActiveFilters
+            <FilterChips
               label={t('global.filters.chips.bar_label')}
               clearLabel={t('global.filters.chips.clear_all')}
               entries={[
@@ -398,14 +398,14 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'estimate-popover',
+      id: 'estimate-tooltip',
       node: (
-        <Specimen name="estimate-popover" title={compName('estimate_popover')}>
+        <Specimen name="estimate-tooltip" title={compName('estimate_tooltip')}>
           <State label={states('default')} wide>
             <div className="type-body-large">
               {t('global.states.estimates.short')}
               {' '}
-              <EstimatePopover
+              <EstimateTooltip
                 id="specimen-estimate"
                 marker={t('global.states.estimates.marker')}
                 label={t('global.states.estimates.short')}
@@ -418,12 +418,12 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'chart-frame',
+      id: 'chart-card',
       node: (
-        <Specimen name="chart-frame" title={compName('chart_frame')} columns="grid-cols-1">
+        <Specimen name="chart-card" title={compName('chart_card')} columns="grid-cols-1">
           <State label={states('default')} wide>
             <div className="w-full">
-              <ChartFrame
+              <ChartCard
                 id="specimen-chart"
                 title={fill(raw('pages.design-system.samples.chart_title'), { year_range: yearRange })}
                 note={t('pages.design-system.samples.chart_note')}
@@ -439,17 +439,17 @@ export default function DesignSystemPage() {
       ),
     },
     {
-      id: 'form-note',
+      id: 'state-card',
       node: (
-        <Specimen name="form-note" title={compName('form_note')}>
+        <Specimen name="state-card" title={compName('state_card')}>
           <State label={states('missing')}>
-            <div className="w-full"><FormNote kind="empty" title={t('global.states.no_results.title')}>{t('global.states.no_results.remove_hint')}</FormNote></div>
+            <div className="w-full"><StateCard kind="empty" title={t('global.states.no_results.title')}>{t('global.states.no_results.remove_hint')}</StateCard></div>
           </State>
           <State label={t('global.states.loading.data')}>
-            <div className="w-full"><FormNote kind="loading" title={t('global.states.loading.data')} /></div>
+            <div className="w-full"><StateCard kind="loading" title={t('global.states.loading.data')} /></div>
           </State>
           <State label={states('error')}>
-            <div className="w-full"><FormNote kind="error" title={t('global.states.errors.data_load')} /></div>
+            <div className="w-full"><StateCard kind="error" title={t('global.states.errors.data_load')} /></div>
           </State>
         </Specimen>
       ),
@@ -555,7 +555,7 @@ export default function DesignSystemPage() {
 
   return (
     <>
-      <FormHeader
+      <PageHeader
         brand={{ text: t('global.site.identity.name'), href: '/' }}
         nav={[]}
         navLabel={t('global.site.header.nav_label')}

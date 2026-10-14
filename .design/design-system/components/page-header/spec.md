@@ -1,14 +1,14 @@
 ---
-name: form-header
-title: Form header
+name: page-header
+title: Page header
 status: review
-code: web/components/FormHeader.tsx
+code: web/components/PageHeader.tsx
 Container color: surface container
 Title style: title large
 Current page color: secondary container
 ---
 
-![Form header](form-header.png)
+![Page header](page-header.png)
 
 ## what-you-can-change
 

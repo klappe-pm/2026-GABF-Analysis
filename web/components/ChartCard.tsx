@@ -8,7 +8,7 @@ import { SVGRenderer } from 'echarts/renderers';
 import { baseOption, SERIES_SYMBOLS } from '@/design/echarts-theme';
 import { SETTINGS_EVENT, useDesign, useSettings } from '@/design/runtime';
 import { cardSurface, color, labelFace } from '@/design/helpers';
-import { RuledTable } from './RuledTable';
+import { DataTable } from './DataTable';
 
 echarts.use([LineChart, GridComponent, TooltipComponent, SVGRenderer]);
 
@@ -38,8 +38,8 @@ function Swatch({ index, role }: { index: number; role: string }) {
 
 // A chart on a card: title, legend of drawn marks, the plot, and a table view of the same numbers.
 // The plot reads the scheme when it draws, and draws again when the settings load or change.
-export function ChartFrame({ id, title, note, categories, series, tableSummary, nameColumn, ariaLabel }: Props) {
-  const s = useSettings('chart-frame');
+export function ChartCard({ id, title, note, categories, series, tableSummary, nameColumn, ariaLabel }: Props) {
+  const s = useSettings('chart-card');
   const { global } = useDesign();
   const roles = (Array.isArray(s['Series colors']) ? s['Series colors'] : ['primary', 'tertiary', 'secondary', 'on surface variant', 'outline']) as string[];
   const lineWidth = Number(s['Line width'] ?? 2);
@@ -99,7 +99,7 @@ export function ChartFrame({ id, title, note, categories, series, tableSummary, 
       <details className="border-t border-outline-variant">
         <summary className="type-label-large cursor-pointer px-4 py-3 text-primary state-hover:bg-surface-container-low">{tableSummary}</summary>
         <div className="px-4 pb-4">
-          <RuledTable
+          <DataTable
             caption={title}
             scroll={false}
             columns={[{ key: 'name', label: nameColumn }, ...categories.map((c) => ({ key: String(c), label: String(c), numeric: true }))]}

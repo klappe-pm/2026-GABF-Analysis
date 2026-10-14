@@ -45,7 +45,7 @@ function Fields({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCop
 
 // The filters laid out in place, as the sheet shows them when open.
 export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[] }) {
-  const s = useSettings('filters-sheet');
+  const s = useSettings('filters-dialog');
   return (
     <form
       aria-labelledby={`${idPrefix}-title`}
@@ -64,8 +64,8 @@ export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy
 }
 
 // The Filters button and its Material dialog. F opens it; Escape closes it; focus stays inside while open.
-export function FiltersSheet({ copy, groups }: { copy: FiltersCopy; groups: FilterGroup[] }) {
-  const s = useSettings('filters-sheet');
+export function FiltersDialog({ copy, groups }: { copy: FiltersCopy; groups: FilterGroup[] }) {
+  const s = useSettings('filters-dialog');
   const reduce = useReducedMotion();
   const ref = useRef<HTMLElement & { show(): void; close(): void; open: boolean }>(null);
   useEffect(() => {
@@ -89,7 +89,7 @@ export function FiltersSheet({ copy, groups }: { copy: FiltersCopy; groups: Filt
       >
         <div slot="headline" id="filters-sheet-title">{copy.title}</div>
         <form slot="content" id="filters-sheet-form" method="dialog">
-          <Fields idPrefix="filters-sheet" copy={copy} groups={groups} />
+          <Fields idPrefix="filters-dialog" copy={copy} groups={groups} />
         </form>
         <div slot="actions">
           <Button variant="quiet" onClick={() => ref.current?.close()}>{copy.close}</Button>

@@ -96,26 +96,26 @@ Where: the rules, corners, and depth table.
 
 Where: the heading of each component on the page.
 
-- `form_header`: Form header
+- `page_header`: Page header
 - `breadcrumb`: Breadcrumb
 - `section_header`: Section header
-- `form_field`: Form field
-- `ruled_table`: Ruled table
+- `stat_card`: Stat card
+- `data_table`: Data table
 - `medal_mark`: Medal mark
 - `medal_record`: Medal record
 - `range_scale`: Range scale
-- `red_pen_note`: Red pen note
-- `status_stamp`: Status stamp
-- `filters_sheet`: Filters sheet
-- `active_filters`: Active filters
+- `callout`: Callout
+- `status_chip`: Status chip
+- `filters_dialog`: Filters dialog
+- `filter_chips`: Filter chips
 - `button`: Button
 - `text_link`: Link
 - `select`: Select
 - `checkbox`: Checkbox
 - `search_field`: Search field
-- `estimate_popover`: Estimate note
-- `chart_frame`: Chart frame
-- `form_note`: Form notes
+- `estimate_tooltip`: Estimate tooltip
+- `chart_card`: Chart card
+- `state_card`: State card
 - `icon`: Icons
 
 ## `states`

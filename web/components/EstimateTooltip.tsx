@@ -9,8 +9,8 @@ type Props = { id: string; marker: string; label: string; explanation: string; l
 
 // The (E) beside an estimated figure: a button that opens a note explaining the estimate, drawn like
 // Material's rich tooltip. It uses the native popover: light dismiss, Escape to close, focus returns to the mark.
-export function EstimatePopover({ id, marker, label, explanation, link }: Props) {
-  const s = useSettings('estimate-popover');
+export function EstimateTooltip({ id, marker, label, explanation, link }: Props) {
+  const s = useSettings('estimate-tooltip');
   const anchor = `--estimate-${id}`;
   const surface = s.Surface ?? 'surface container';
   return (

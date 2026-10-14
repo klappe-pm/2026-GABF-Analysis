@@ -6,8 +6,8 @@ import { cardSurface, color, labelFace } from '@/design/helpers';
 import { TextLink } from './TextLink';
 
 // A written finding on a card, marked with the spec's accent color. A page carries one or two at most.
-export function RedPenNote({ label, children, link }: { label: string; children: ReactNode; link?: { href: string; text: string } }) {
-  const s = useSettings('red-pen-note');
+export function Callout({ label, children, link }: { label: string; children: ReactNode; link?: { href: string; text: string } }) {
+  const s = useSettings('callout');
   const card = cardSurface(s['Card style']);
   const accent = color(s['Accent color'] ?? 'tertiary');
   return (

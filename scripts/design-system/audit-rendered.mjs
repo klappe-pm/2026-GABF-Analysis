@@ -60,7 +60,7 @@ function fontsAndFigures() {
   return bad;
 }
 
-// Runs in the page: the table rules (settings in the ruled-table spec): cells never wrap, every cell is
+// Runs in the page: the table rules (settings in the data-table spec): cells never wrap, every cell is
 // left aligned, the header row is bold, and a wide table scrolls inside its container, not the page.
 function tableRules() {
   const bad = [];

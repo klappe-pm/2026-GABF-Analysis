@@ -4,8 +4,8 @@ import { useSettings } from '@/design/runtime';
 import { color, labelFace, onColor, shape } from '@/design/helpers';
 
 // A data status label (Partial, Not loaded, Estimate) on a small container. Never for categories or tags.
-export function StatusStamp({ label, meaning }: { label: string; meaning?: string }) {
-  const s = useSettings('status-stamp');
+export function StatusChip({ label, meaning }: { label: string; meaning?: string }) {
+  const s = useSettings('status-chip');
   const role = s['Container color'] ?? 'tertiary container';
   return (
     <span

@@ -1,13 +1,13 @@
 ---
-name: status-stamp
-title: Status stamp
+name: status-chip
+title: Status chip
 status: review
-code: web/components/StatusStamp.tsx
+code: web/components/StatusChip.tsx
 Container color: tertiary container
 Shape: small
 ---
 
-![Status stamp](status-stamp.png)
+![Status chip](status-chip.png)
 
 ## what-you-can-change
 

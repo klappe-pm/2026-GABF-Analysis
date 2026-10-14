@@ -1,14 +1,14 @@
 ---
-name: estimate-popover
-title: Estimate note
+name: estimate-tooltip
+title: Estimate tooltip
 status: review
-code: web/components/EstimatePopover.tsx
+code: web/components/EstimateTooltip.tsx
 Shape: medium
 Surface: surface container
 Elevation: 2
 ---
 
-![Estimate note](estimate-popover.png)
+![Estimate tooltip](estimate-tooltip.png)
 
 ## what-you-can-change
 

@@ -1,13 +1,13 @@
 ---
-name: filters-sheet
-title: Filters sheet
+name: filters-dialog
+title: Filters dialog
 status: review
-code: web/components/FiltersSheet.tsx
+code: web/components/FiltersDialog.tsx
 Shape: extra large
 Width on wide screens: 560
 ---
 
-![Filters sheet](filters-sheet.png)
+![Filters dialog](filters-dialog.png)
 
 ## what-you-can-change
 

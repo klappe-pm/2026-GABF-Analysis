@@ -1,8 +1,8 @@
 ---
-name: chart-frame
-title: Chart frame
+name: chart-card
+title: Chart card
 status: review
-code: web/components/ChartFrame.tsx
+code: web/components/ChartCard.tsx
 Card style: outlined
 Line width: 2
 Point size: 8
@@ -14,7 +14,7 @@ Series colors:
   - outline
 ---
 
-![Chart frame](chart-frame.png)
+![Chart card](chart-card.png)
 
 ## what-you-can-change
 

@@ -81,8 +81,8 @@ export async function runChecks() {
   // Contrast in the generated light scheme, including the chart series on the chart card.
   if (settings && !Object.keys(d.GLOBAL).some((k) => d.valueProblem(d.GLOBAL[k], settings[k]))) {
     const g = d.mergeGlobal({}, settings);
-    const chart = specs.find((s) => s.dir === 'chart-frame');
-    const series = chart ? d.componentSettings('chart-frame', chart.data)['Series colors'] ?? [] : [];
+    const chart = specs.find((s) => s.dir === 'chart-card');
+    const series = chart ? d.componentSettings('chart-card', chart.data)['Series colors'] ?? [] : [];
     for (const r of d.contrastReport(d.schemeFor(g), series.map((role) => [role, 'surface']))) {
       if (!r.pass) fail(`contrast ${rel(SETTINGS)}`, `${r.fg} ${r.fgHex} on ${r.bg} ${r.bgHex} is ${r.ratio}:1, needs ${r.min}:1`);
     }

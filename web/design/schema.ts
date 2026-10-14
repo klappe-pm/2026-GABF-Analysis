@@ -58,6 +58,7 @@ const buttonStyle = enumOf(['filled', 'tonal', 'elevated', 'outlined', 'text']);
 // Global settings: .design/design-system/settings.md. Keys are written exactly as here.
 export const GLOBAL: Record<string, Kind> = {
   'Seed color': { type: 'hex' },
+  'Primary color': { type: 'hex' },
   'Color style': enumOf(['tonal spot', 'neutral', 'vibrant', 'expressive', 'fidelity', 'content']),
   'Surface tint': enumOf(['none', 'seed']),
   'Page background': enumOf(['white', 'scheme']),
@@ -82,22 +83,22 @@ export const SITE_NAVIGATION = ['results', 'breweries', 'beers', 'analysis'] as 
 
 // Per component settings: .design/design-system/components/<name>/spec.md frontmatter.
 export const COMPONENTS: Record<string, Record<string, Kind>> = {
-  'active-filters': { 'Chip style': enumOf(['outlined', 'elevated']), Shape: shape },
+  'filter-chips': { 'Chip style': enumOf(['outlined', 'elevated']), Shape: shape },
   breadcrumb: { Separator: enumOf(['/', '›', '·']), 'Text style': typeRole },
   button: { 'Main action': buttonStyle, 'Other action': buttonStyle, 'Quiet action': buttonStyle, Shape: shape, Density: numberOf([0, -1, -2, -3]) },
-  'chart-frame': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]), 'Series colors': { type: 'list', values: colorRole.type === 'enum' ? colorRole.values : [], min: 5 } },
+  'chart-card': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]), 'Series colors': { type: 'list', values: colorRole.type === 'enum' ? colorRole.values : [], min: 5 } },
   checkbox: { 'Text style': typeRole },
-  'estimate-popover': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
-  'filters-sheet': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },
-  'form-field': { 'Card style': cardStyle, 'Figure style': typeRole, 'Label style': typeRole },
-  'form-header': { 'Container color': colorRole, 'Title style': typeRole, 'Current page color': colorRole },
-  'form-note': { 'Card style': cardStyle, 'Loading indicator': enumOf(['linear', 'circular']) },
+  'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
+  'filters-dialog': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },
+  'stat-card': { 'Card style': cardStyle, 'Figure style': typeRole, 'Label style': typeRole },
+  'page-header': { 'Container color': colorRole, 'Title style': typeRole, 'Current page color': colorRole },
+  'state-card': { 'Card style': cardStyle, 'Loading indicator': enumOf(['linear', 'circular']) },
   icon: { Size: numberOf([16, 20, 24, 32]), 'Stroke width': numberOf([1, 1.5, 2]) },
   'medal-mark': { Size: numberOf([16, 20, 24, 28, 32]), 'Show initial': yesNo, 'Ring color': colorRole },
   'medal-record': { 'Tally limit': numberOf([6, 8, 10, 12, 15, 20]) },
   'range-scale': { 'Band color': colorRole, 'Value color': colorRole, 'Outside color': colorRole },
-  'red-pen-note': { 'Card style': cardStyle, 'Accent color': colorRole },
-  'ruled-table': {
+  'callout': { 'Card style': cardStyle, 'Accent color': colorRole },
+  'data-table': {
     'Header color': colorRole,
     'Header weight': enumOf(['bold', 'medium', 'regular']),
     'Row height': numberOf([36, 40, 44, 48, 52, 56]),
@@ -108,7 +109,7 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   'search-field': { 'Field style': fieldStyle },
   'section-header': { 'Title style': typeRole, 'Title color': colorRole, Divider: yesNo },
   select: { 'Field style': fieldStyle },
-  'status-stamp': { 'Container color': colorRole, Shape: shape },
+  'status-chip': { 'Container color': colorRole, Shape: shape },
   'text-link': { Color: colorRole, Underline: enumOf(['always', 'on hover']) },
 };
 

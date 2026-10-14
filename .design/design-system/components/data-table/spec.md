@@ -1,8 +1,8 @@
 ---
-name: ruled-table
-title: Ruled table
+name: data-table
+title: Data table
 status: review
-code: web/components/RuledTable.tsx
+code: web/components/DataTable.tsx
 Header color: surface container
 Header weight: bold
 Row height: 48
@@ -11,7 +11,7 @@ Cell wrapping: never
 Cell alignment: left
 ---
 
-![Ruled table](ruled-table.png)
+![Data table](data-table.png)
 
 ## what-you-can-change
 

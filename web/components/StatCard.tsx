@@ -16,7 +16,7 @@ export function FieldGrid({ children, label }: { children: ReactNode; label?: st
 }
 
 export function Field({ label, children, note, size = 'figure' }: { label: string; children: ReactNode; note?: ReactNode; size?: 'figure' | 'text' }) {
-  const s = useSettings('form-field');
+  const s = useSettings('stat-card');
   const card = cardSurface(s['Card style']);
   return (
     <div className={`flex flex-col gap-1 px-4 py-3 ${card.className}`} style={card.style}>

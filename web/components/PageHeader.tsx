@@ -20,8 +20,8 @@ type Props = {
 
 // The site header as a Material top app bar: the site name, then the navigation in the order the layout
 // file gives. On phones the navigation folds behind a menu button.
-export function FormHeader({ brand, nav, navLabel, menuLabel, skipLabel, skipTarget, actions, menuId = 'site-header-menu' }: Props) {
-  const s = useSettings('form-header');
+export function PageHeader({ brand, nav, navLabel, menuLabel, skipLabel, skipTarget, actions, menuId = 'site-header-menu' }: Props) {
+  const s = useSettings('page-header');
   const order = useDesign().layout['Site navigation'];
   const items = [...nav].sort((a, b) => (order.indexOf(a.id) + 1 || 99) - (order.indexOf(b.id) + 1 || 99));
   const [open, setOpen] = useState(false);

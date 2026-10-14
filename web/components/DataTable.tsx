@@ -20,8 +20,8 @@ type Props = {
 // A data table in Material's manner: a tinted header row, row dividers, tabular figures, sortable headers.
 // Header color and weight, row height, dividers, wrapping, and alignment come from the table spec.
 // A table wider than its container scrolls inside the container, never the page.
-export function RuledTable({ caption, sortHint, columns, rows, initialSort, scroll = true }: Props) {
-  const s = useSettings('ruled-table');
+export function DataTable({ caption, sortHint, columns, rows, initialSort, scroll = true }: Props) {
+  const s = useSettings('data-table');
   const [sort, setSort] = useState(initialSort ?? null);
   const sorted = useMemo(() => {
     if (!sort) return rows;

@@ -4,7 +4,7 @@
 // (the built values first, then the loaded files), so every value shown is the value in use.
 import { type ReactNode, useEffect, useRef } from 'react';
 import { EditableValue } from 'design-editor';
-import { RuledTable } from '@/components/RuledTable';
+import { DataTable } from '@/components/DataTable';
 import { useDesign, useScheme } from '@/design/runtime';
 import { COMPONENTS, type ColorRole, elevationLevels, globalKind, SHAPES, showValue } from '@/design/schema';
 import { contrastReport, corners, typeScale } from '@/design/theme';
@@ -67,7 +67,7 @@ const HEX = /^#[0-9a-fA-F]{6}$/;
 export function SettingsTable({ caption, cols }: { caption: string; cols: { setting: string; value: string } }) {
   const { global } = useDesign();
   return (
-    <RuledTable
+    <DataTable
       caption={caption}
       scroll={false}
       columns={[{ key: 'setting', label: cols.setting }, { key: 'value', label: cols.value }]}
@@ -94,7 +94,7 @@ export const SCHEME_GROUPS: Record<string, ColorRole[]> = {
 export function SchemeTable({ group, caption, roleNames, cols }: { group: string; caption: string; roleNames: Record<string, string>; cols: { role: string; value: string } }) {
   const scheme = useScheme();
   return (
-    <RuledTable
+    <DataTable
       caption={caption}
       scroll={false}
       columns={[{ key: 'role', label: cols.role }, { key: 'value', label: cols.value }]}
@@ -112,14 +112,14 @@ export function MedalTable({ caption, names, cols }: { caption: string; names: R
     const v = String(global[`${m[0].toUpperCase()}${m.slice(1)} medal color`]);
     return { key: m, cells: { role: names[m], value: <span className="inline-flex items-center gap-2"><Swatch value={v} />{v}</span> } };
   });
-  return <RuledTable caption={caption} scroll={false} columns={[{ key: 'role', label: cols.role }, { key: 'value', label: cols.value }]} rows={rows} />;
+  return <DataTable caption={caption} scroll={false} columns={[{ key: 'role', label: cols.role }, { key: 'value', label: cols.value }]} rows={rows} />;
 }
 
 export function ContrastTable({ caption, roleNames, cols }: { caption: string; roleNames: Record<string, string>; cols: Record<'role' | 'on' | 'ratio' | 'needs' | 'result' | 'pass' | 'fail', string> }) {
   const scheme = useScheme();
-  const series = (useDesign().components['chart-frame']?.['Series colors'] ?? []) as ColorRole[];
+  const series = (useDesign().components['chart-card']?.['Series colors'] ?? []) as ColorRole[];
   return (
-    <RuledTable
+    <DataTable
       caption={caption}
       columns={[
         { key: 'role', label: cols.role },
@@ -139,7 +139,7 @@ export function ContrastTable({ caption, roleNames, cols }: { caption: string; r
 export function TypeTable({ caption, roleNames, sample, cols }: { caption: string; roleNames: Record<string, string>; sample: string; cols: Record<'use' | 'sample' | 'family' | 'size' | 'line_height' | 'weight', string> }) {
   const { global } = useDesign();
   return (
-    <RuledTable
+    <DataTable
       caption={caption}
       columns={[
         { key: 'use', label: cols.use },
@@ -168,7 +168,7 @@ export function ShapeTable({ caption, names, cols }: { caption: string; names: R
   const { global } = useDesign();
   const c = corners(global);
   return (
-    <RuledTable
+    <DataTable
       caption={caption}
       scroll={false}
       columns={[{ key: 'name', label: cols.name }, { key: 'value', label: cols.value, numeric: true }, { key: 'sample', label: cols.sample }]}

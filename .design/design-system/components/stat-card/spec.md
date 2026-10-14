@@ -1,14 +1,14 @@
 ---
-name: form-field
-title: Form field
+name: stat-card
+title: Stat card
 status: review
-code: web/components/FormField.tsx
+code: web/components/StatCard.tsx
 Card style: filled
 Figure style: headline small
 Label style: label medium
 ---
 
-![Form field](form-field.png)
+![Stat card](stat-card.png)
 
 ## what-you-can-change
 
