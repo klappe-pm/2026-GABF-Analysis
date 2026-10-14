@@ -5,6 +5,9 @@ import { DesignSettings } from '@/design/runtime';
 import { rootCss } from '@/design/theme';
 import { t } from '@/lib/content';
 import { bakedState } from '@/lib/design-source';
+import { href, paths, SITE_ORIGIN } from '@/lib/href';
+
+const REPO_URL = 'https://github.com/klappe-pm/GABF-Analysis';
 import './globals.css';
 
 // Public Sans sets body text, headings, and every figure. Archivo Narrow sets short labels only.
@@ -12,9 +15,12 @@ import './globals.css';
 const sans = Public_Sans({ subsets: ['latin'], variable: '--font-public-sans', display: 'swap', weight: 'variable' });
 const narrow = Archivo_Narrow({ subsets: ['latin'], variable: '--font-archivo-narrow', display: 'swap', weight: 'variable' });
 
+// Canonical and Open Graph addresses resolve against the public address; pages set their own with pageMetadata().
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_ORIGIN),
   title: { default: t('global.navigation.page_titles.home'), template: `%s${t('global.navigation.page_titles.suffix')}` },
   description: t('global.navigation.page_descriptions.home'),
+  applicationName: t('global.site.identity.name'),
 };
 
 export const viewport: Viewport = {
@@ -22,7 +28,8 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-// The footer every page carries, with the Catalog.beer attribution its license asks for.
+// The footer every page carries: where the data comes from, the estimate mark, the independence notice,
+// the About and source links, and the Catalog.beer attribution its license asks for.
 function SiteFooter() {
   // One line of copy (global.site.footer.beer_details); its two names become links.
   const LINKS: Record<string, string> = { 'Catalog.beer': 'https://catalog.beer', 'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/' };
@@ -30,9 +37,19 @@ function SiteFooter() {
   return (
     <footer className="mt-12 bg-surface-container">
       <md-divider />
-      <p className="type-body-small mx-auto max-w-(--app-page-max) px-(--app-margin) py-6 text-on-surface-variant" data-attribution="catalog-beer">
-        {parts.map((p, i) => (LINKS[p] ? <a key={i} href={LINKS[p]} className="text-primary underline">{p}</a> : <Fragment key={i}>{p}</Fragment>))}
-      </p>
+      <div className="type-body-small mx-auto flex max-w-(--app-page-max) flex-col gap-2 px-(--app-margin) py-6 text-on-surface-variant">
+        <nav aria-label={t('global.navigation.footer.source')}>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <li><a href={href(paths.about)} className="text-primary underline">{t('global.navigation.footer.about')}</a></li>
+            <li><a href={REPO_URL} className="text-primary underline">{t('global.navigation.footer.source')}</a></li>
+          </ul>
+        </nav>
+        <p className="max-w-measure">{t('global.site.footer.sources')} {t('global.site.footer.estimates')}</p>
+        <p className="max-w-measure">{t('global.site.footer.independence')}</p>
+        <p className="max-w-measure" data-attribution="catalog-beer">
+          {parts.map((p, i) => (LINKS[p] ? <a key={i} href={LINKS[p]} className="text-primary underline">{p}</a> : <Fragment key={i}>{p}</Fragment>))}
+        </p>
+      </div>
     </footer>
   );
 }

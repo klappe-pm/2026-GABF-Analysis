@@ -22,7 +22,7 @@ export type BeerCardData = {
   noHops: string;
   note: { label: string; text: string; source?: { href: string; text: string } } | null;
   noNote: string;
-  link: { href: string; text: string };
+  link?: { href: string; text: string };
 };
 
 // Cut a note at the last word boundary within `limit` characters.
@@ -46,10 +46,11 @@ export function Facts({ items }: { items: { label: string; value: ReactNode }[] 
   );
 }
 
-export function BeerProfileCard({ data, headingLevel = 3 }: { data: BeerCardData; headingLevel?: 2 | 3 | 4 }) {
+// headingLevel 1 makes the card the head of its page, as on a beer's own page.
+export function BeerProfileCard({ data, headingLevel = 3 }: { data: BeerCardData; headingLevel?: 1 | 2 | 3 | 4 }) {
   const s = useSettings('beer-profile-card');
   const card = cardSurface(s.Variant ?? 'outlined');
-  const Heading = `h${headingLevel}` as 'h2' | 'h3' | 'h4';
+  const Heading = `h${headingLevel}` as 'h1' | 'h2' | 'h3' | 'h4';
   const limit = Number(s['Tasting note length'] ?? 160);
   const plain = 'var(--md-ref-typeface-plain)';
   return (
@@ -92,7 +93,7 @@ export function BeerProfileCard({ data, headingLevel = 3 }: { data: BeerCardData
           </>
         ) : <p className="type-body-medium text-on-surface-variant">{data.noNote}</p>}
       </section>
-      <p className="type-body-medium"><TextLink href={data.link.href}>{data.link.text}</TextLink></p>
+      {data.link ? <p className="type-body-medium"><TextLink href={data.link.href}>{data.link.text}</TextLink></p> : null}
     </article>
   );
 }

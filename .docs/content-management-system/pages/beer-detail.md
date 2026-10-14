@@ -41,6 +41,24 @@ Where: the specs card.
 - `not_published`: Not published
 - `note`: Specs come from the brewery and the sources cited below. A field no source publishes reads Not published. Nothing is estimated.
 
+## `card`
+
+Where: the beer profile card at the top of the page.
+
+- `label`: Beer profile
+- `brewery_line`: {{brewery_name}}, {{city}}, {{state}}
+- `category`: Category
+- `entries`: Entries
+- `abv`: ABV
+- `ibu`: IBU
+- `style`: Style
+- `hops`: Hops
+- `tasting_note`: Tasting notes
+- `description`: From the brewery's description
+- `source`: Source: {{site}}
+- `beer_page`: The beer's page at the brewery
+- `no_beer_page`: The brewery publishes no page for this beer.
+
 ## `notes`
 
 Where: the research notes beside the specs card.

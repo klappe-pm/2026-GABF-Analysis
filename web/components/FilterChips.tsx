@@ -9,7 +9,7 @@ type Entry = { text: string; removeLabel?: string; fixedNote?: string };
 // The active filters as Material chips: an input chip with a remove button for each filter the reader
 // set, an assist chip for one the page fixes. Chips that hold a figure set it in Public Sans.
 // The page owns the filter state: removing a chip calls onRemove, and the chip stays until the page drops it.
-export function FilterChips({ label, entries, clearLabel, onRemove }: { label: string; entries: Entry[]; clearLabel: string; onRemove?: (text: string) => void }) {
+export function FilterChips({ label, entries, clearLabel, onRemove, onClear }: { label: string; entries: Entry[]; clearLabel: string; onRemove?: (text: string) => void; onClear?: () => void }) {
   const s = useSettings('filter-chips');
   const corner = shape(s.Shape ?? 'small');
   const plain = 'var(--md-ref-typeface-plain)';
@@ -35,7 +35,7 @@ export function FilterChips({ label, entries, clearLabel, onRemove }: { label: s
           />
         )))}
       </md-chip-set>
-      <Button variant="quiet">{clearLabel}</Button>
+      {entries.some((e) => e.removeLabel) ? <Button variant="quiet" onClick={onClear}>{clearLabel}</Button> : null}
     </section>
   );
 }
