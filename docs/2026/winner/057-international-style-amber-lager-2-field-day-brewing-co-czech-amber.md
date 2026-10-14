@@ -218,7 +218,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Field Day Brewing Co. is in North Liberty, IA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.fielddaybrewing.com/), [Untappd](https://untappd.com/FieldDayBrewingCompany).
 
 ## related
 

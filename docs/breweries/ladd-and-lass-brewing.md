@@ -36,14 +36,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/adeena.md"
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/laddandlass/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -57,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "ladd-and-lass-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "WA"
 untappd: null
-website: null
+website: "https://www.laddandlassbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

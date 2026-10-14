@@ -211,7 +211,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Barrio Brewing Co. is in Tucson, AZ.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://barriobrewing.com/), [Instagram](https://www.instagram.com/barriobrewing/), [Untappd](https://untappd.com/BarrioBrewing).
 
 ## related
 

@@ -35,12 +35,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/peticolas/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "peticolas-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "TX"
 untappd: null
-website: null
+website: "https://www.peticolasbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -176,7 +176,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Bissell Brothers Brewing is in Portland, ME. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://bissellbrothers.com/), [Instagram](https://www.instagram.com/bissellbrothers/).
 
 ## related
 

@@ -36,14 +36,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/chinook.md"
   - "../hops/varieties/citra.md"
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/pinthousebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -57,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "pinthouse-pizza"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "TX"
-untappd: null
-website: "http://www.pinthousepizza.com"
+untappd: "https://untappd.com/PinthousePizza"
+website: "https://www.pinthouse.com/"
 world-beer-cup-medals: 0
 ---
 

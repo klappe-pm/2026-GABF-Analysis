@@ -203,7 +203,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Pattern Break Brewing Co. is in Boulder, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.patternbreakbrewing.com/), [Instagram](https://www.instagram.com/patternbreakbrewing/).
 
 ## related
 

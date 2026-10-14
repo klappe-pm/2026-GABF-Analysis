@@ -38,7 +38,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/eclipse.md"
   - "../hops/varieties/enigma.md"
@@ -60,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "original-pattern-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.originalpatternbeer.com"
+untappd: "https://untappd.com/OriginalPattern"
+website: "https://www.originalpatternbeer.com/"
 world-beer-cup-medals: 0
 ---
 

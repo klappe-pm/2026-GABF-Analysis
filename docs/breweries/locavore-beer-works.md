@@ -51,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "locavore-beer-works"
-sources: []
+sources:
+  - "website resolved"
 state: "CO"
 untappd: null
-website: "http://www.locavorebeerworks.com"
+website: "https://www.locavorebeerworks.com/"
 world-beer-cup-medals: 0
 ---
 

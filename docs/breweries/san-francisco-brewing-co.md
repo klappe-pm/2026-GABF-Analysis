@@ -36,8 +36,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "san-francisco-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: null
+untappd: "https://untappd.com/sfbrewingco"
+website: "https://www.sfbrewingco.com/"
 world-beer-cup-medals: 0
 ---
 

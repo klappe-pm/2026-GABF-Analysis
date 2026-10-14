@@ -228,7 +228,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Gilde Brewery is in Charlotte, NC.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://gilde1546.com/), [Instagram](https://www.instagram.com/gilde1546/), [Untappd](https://untappd.com/Gilde1546).
 
 ## related
 

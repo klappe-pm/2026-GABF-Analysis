@@ -249,7 +249,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Pinthouse Pizza is in Austin, TX. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.pinthouse.com/), [Instagram](https://www.instagram.com/pinthousebrewing/), [Untappd](https://untappd.com/PinthousePizza).
 
 ## related
 

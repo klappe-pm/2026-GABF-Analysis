@@ -35,7 +35,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
 instagram: null
 known-for: []
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "12-west-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "AZ"
-untappd: null
-website: "http://www.12westbrewing.com"
+untappd: "https://untappd.com/12WestBrewing"
+website: "https://12westbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

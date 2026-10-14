@@ -34,12 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/otherwisebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "otherwise-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.otherwisebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

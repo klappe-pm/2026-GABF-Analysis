@@ -35,12 +35,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/bentonvillebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "bentonville-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "AR"
-untappd: null
-website: null
+untappd: "https://untappd.com/BentonvilleBrewingCo"
+website: "https://www.bentonvillebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

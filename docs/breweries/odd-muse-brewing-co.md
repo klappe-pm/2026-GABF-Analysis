@@ -39,7 +39,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "odd-muse-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "TX"
 untappd: null
-website: null
+website: "https://oddmusebrewing.com/"
 world-beer-cup-medals: 0
 ---
 
