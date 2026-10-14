@@ -38,7 +38,7 @@ export type Hop = HopCard & {
   data: { key: string; label: string; value: string; max?: string }[];
   sourceRows: { label: string; sources: Source[] }[];
   aromaRows: { descriptor: string; source: Source[] }[];
-  acreage: {
+  acreageByState: {
     rows: { state: string | null; year: number | null; acres: number | null; production: number | null; source: Source[] }[];
     trend: { years: number[]; totals: number[] };
   };

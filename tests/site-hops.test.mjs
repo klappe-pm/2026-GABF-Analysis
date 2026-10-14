@@ -36,9 +36,9 @@ test('a variety record carries its card, data, acreage trend, beers, and farms',
   assert.ok(!v.data.some((d) => d.key === 'slug' || /_(min|max)$/.test(d.key) && v.data.some((x) => x.key === d.key.replace(/_(min|max)$/, ''))), 'a range is one row and the slug is not shown');
   assert.ok(v.data.some((d) => d.max !== undefined), 'a minimum and maximum read as one range');
   assert.equal(v.beerRows.length, v.counts.medals);
-  assert.ok(v.acreage.trend.years.length >= 2, 'acreage trend has years');
-  assert.equal(v.acreage.trend.years.length, v.acreage.trend.totals.length);
-  assert.deepEqual(v.acreage.trend.years, [...v.acreage.trend.years].sort((a, b) => a - b));
+  assert.ok(v.acreageByState.trend.years.length >= 2, 'acreage trend has years');
+  assert.equal(v.acreageByState.trend.years.length, v.acreageByState.trend.totals.length);
+  assert.deepEqual(v.acreageByState.trend.years, [...v.acreageByState.trend.years].sort((a, b) => a - b));
   assert.equal(v.farmRows.length, v.counts.farms);
   assert.ok(v.notesHtml, 'the research notes render');
 });
@@ -108,4 +108,13 @@ test('the winners list adds whether the brewery publishes a page for each beer',
   assert.ok(withPage.length > 0 && withPage.length < rows.length);
   assert.ok(withPage.every((r) => r.stem), 'only a profiled beer can have a brewery page on record');
   assert.ok(rows.some((r) => r.ibu !== null) && rows.some((r) => r.hops.length));
+});
+
+test('a variety record is also a hop card: the card fields keep the card shape', () => {
+  for (const { slug } of hopParams()) {
+    const h = hop(slug);
+    assert.equal(typeof h.beers, 'number', `${slug} beers`);
+    assert.ok(h.acreage === null || typeof h.acreage.acres === 'number', `${slug} acreage`);
+    assert.ok(Array.isArray(h.farms), `${slug} farms`);
+  }
 });

@@ -88,7 +88,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
     { key: 'years', label: copy('farms.years') },
     { key: 'source', label: copy('farms.source') },
   ];
-  const trend = h.acreage.trend;
+  const trend = h.acreageByState.trend;
 
   return (
     <main id="main" tabIndex={-1} className="mx-auto flex max-w-(--app-page-max) flex-col gap-8 px-(--app-margin) py-8">
@@ -128,7 +128,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
       </Section>
 
       <Section id="acreage" title={copy('acreage.title')}>
-        {h.acreage.rows.length ? (
+        {h.acreageByState.rows.length ? (
           <>
             {trend.years.length > 1 ? (
               <ChartCard
@@ -146,7 +146,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
               caption={copy('acreage.title')}
               sortHint={sortHint}
               columns={acreageColumns}
-              rows={h.acreage.rows.map((a, i) => ({
+              rows={h.acreageByState.rows.map((a, i) => ({
                 key: `${a.state}-${a.year}-${i}`,
                 sort: { state: a.state, year: a.year, acres: a.acres, production: a.production },
                 cells: {
