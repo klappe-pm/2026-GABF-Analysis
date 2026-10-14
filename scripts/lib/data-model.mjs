@@ -8,6 +8,7 @@ import { breweryKey, slugify } from './slug.mjs';
 import { abvBand, isSpecialCategory, styleFamily } from './style-families.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
 import { estimateBarrels, estimateFinancials, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
+import { attachWinnerSpecs } from './winner-specs.mjs';
 import { BREWERIES, ENRICHED, REFERENCE, RESULTS } from './paths.mjs';
 
 const MEDAL_ORDER = { Gold: 0, Silver: 1, Bronze: 2, 'Honorable Mention': 3 };
@@ -140,6 +141,8 @@ export function loadDataset({ root } = {}) {
 
   const results = gabfRows.map(decorate).sort((a, b) => a.year - b.year || Number(a.category_number) - Number(b.category_number) || a.medal_rank - b.medal_rank);
   const otherResults = otherRows.map(decorate);
+  attachWinnerSpecs(results, { dir: root ? resolve(root, 'docs/2026/winner') : undefined });
+  for (const r of results) if (r.spec && r.spec.abv.value !== null) r.abv_band = abvBand(r.abv);
 
   // Year coverage: complete, partial, draft (transcript), pending (competition held but no rows yet).
   const years = new Set([...results.map((r) => r.year), ...summary.filter((s) => s.competition === 'GABF').map((s) => Number(s.year))]);

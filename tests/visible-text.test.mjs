@@ -115,3 +115,55 @@ test('no kebab-case slug shows in the visible text of any page', () => {
   }
   assert.deepEqual(hits, [], `kebab-case tokens in visible text:\n${hits.join('\n')}`);
 });
+
+// A beer's own published figures reach the shared medal tables; a missing figure reads "Not defined"
+// and is never replaced by the style range.
+function rowFor(html, href) {
+  const at = html.indexOf(`href="../../${href}"`);
+  assert.ok(at > -1, `no link to ${href}`);
+  const start = html.lastIndexOf('<tr>', at);
+  return html.slice(start, html.indexOf('</tr>', at));
+}
+const cell = (row, label) => row.match(new RegExp(`data-label="${label}"[^>]*>([\\s\\S]*?)</td>`))?.[1] ?? '';
+
+test('a researched beer shows its own ABV and IBU on its brewery and category pages', async () => {
+  ensureBuilt();
+  const { loadWinnerProfiles } = await import('../scripts/lib/winner-profiles.mjs');
+  const rows = JSON.parse(readFileSync(resolve(DIST, 'data/results.json'), 'utf8'));
+  const withAbv = rows.find((r) => r.year === 2026 && r.beer_profile && r.abv && r.ibu && r.category_slug !== 'mixed-culture-brett-beer');
+  assert.ok(withAbv, 'a 2026 row with ABV and IBU');
+  const profile = loadWinnerProfiles(2026).find((p) => `beers/2026/${p.stem}/` === withAbv.beer_profile);
+  assert.equal(withAbv.abv, profile.fm.abv, 'row ABV is the profile ABV');
+  assert.ok(withAbv.abv_source, 'the ABV carries its source link');
+  const abvText = `${Number(profile.fm.abv).toFixed(1).replace(/\.0$/, '')}%`;
+  for (const page of [`breweries/${withAbv.brewery_slug}`, `categories/${withAbv.category_slug}`]) {
+    const row = rowFor(readFileSync(resolve(DIST, page, 'index.html'), 'utf8'), withAbv.beer_profile);
+    assert.equal(cell(row, 'ABV').trim(), abvText, `${page} ABV`);
+    assert.equal(cell(row, 'IBU').trim(), String(profile.fm.ibu), `${page} IBU`);
+    assert.match(cell(row, 'Beer profile'), /Full profile/);
+  }
+});
+
+test('a beer without a published ABV shows Not defined and never a style range', () => {
+  ensureBuilt();
+  const rows = JSON.parse(readFileSync(resolve(DIST, 'data/results.json'), 'utf8'));
+  const none = rows.find((r) => r.year === 2026 && r.beer_profile && r.abv === null && r.abv_min && r.category_slug !== 'mixed-culture-brett-beer' && r.category_slug !== 'no-low-tannin-cider');
+  assert.ok(none, 'a 2026 row with no ABV in a category that has a style range');
+  const range = `${none.abv_min} to ${none.abv_max}`;
+  for (const page of [`breweries/${none.brewery_slug}`, `categories/${none.category_slug}`, 'first-time-medalists/2026']) {
+    const html = readFileSync(resolve(DIST, page, 'index.html'), 'utf8');
+    if (!html.includes(`href="../../${none.beer_profile}"`)) continue;
+    const row = rowFor(html, none.beer_profile);
+    assert.match(cell(row, 'ABV'), /Not defined/, `${page} ABV`);
+    assert.ok(!row.includes(range) && !/\(style\)/.test(row), `${page} shows no style range`);
+  }
+  const dashboards = readFileSync(resolve(ROOT, 'site/assets/dashboards.js'), 'utf8');
+  assert.ok(!/\(style\)/.test(dashboards), 'the dashboards table no longer labels a style range as the ABV');
+});
+
+test('the first time medalists page shows ABV and IBU', () => {
+  ensureBuilt();
+  const html = readFileSync(resolve(DIST, 'first-time-medalists/2026/index.html'), 'utf8');
+  assert.ok((html.match(/data-label="ABV"[^>]*>\d/g) ?? []).length > 20, 'ABV values appear');
+  assert.match(html, /<th scope="col" class="num">IBU<\/th>/);
+});
