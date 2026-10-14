@@ -86,6 +86,21 @@ The agent step is `claude -p --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npm 
 
 The pipeline touches only `klappe-pm/GABF-Analysis`: every `gh` call names it and the origin remote is checked first. `GABF_FEEDBACK_PIPELINE=off` turns off the automatic run in the review server and the watcher. `npm run tickets -- process` runs the queue by hand, naming tickets to queue them or adding `--scan` to queue every accepted ticket without an issue, and `--dry-run` prints every `gh` and `git` command without running any. The panel shows each ticket's status (queued, issue, in progress, pull request, merged, needs attention) with links to the issue, the pull request and the images, and the same states are at `/review/pipeline`.
 
+## owner-decisions
+
+A question only the owner can answer is an issue assigned to klappe-pm, labelled `needs: owner decision` and `area: <plain area>`, written to the form `.github/ISSUE_TEMPLATE/owner-decision.yml`: the question, the context with links, the options (each with what choosing it means), the recommended option, what is blocked until it is answered, and how to answer. A person fills in the form on GitHub; an agent or session files the same thing from the command line, and an open issue that asks the same question is returned instead of filed twice.
+
+```bash
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- open --question "Keep the tables sideways on phones?" --option "Yes => one design at every width" --option "No => cards at phone width" --recommend A --blocks "The phone layout" --context "See the medal tables page" --area design
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- open --file decisions.json
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- list
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- poll
+```
+
+The owner answers by replying to the issue with an option letter or free text. The review server (every two minutes, `GABF_DECISION_POLL_MS` changes it) and `npm run tickets -- process` look at the comments on every open decision issue. The latest comment authored by klappe-pm is the answer; comments by anyone else are ignored. Agents post through the owner's own GitHub login, so every comment the pipeline writes begins with `<!-- feedback-pipeline -->` and is never read as an answer.
+
+An answer becomes an ACCEPTED ticket of kind `decision` in `docs/feedback/decisions/`, with the issue number, the option chosen, and the owner's words, and it runs through the same pipeline as other feedback: a branch, the agent step with the question, the context and the answer as the prompt, verify, a pull request that closes the decision issue (no second issue is made), checks, merge, handoff and cleanup. When the answer needs no change to the repository the agent changes nothing, verify is skipped, and the pull request carries only the ticket; the issue is closed by that pull request with a comment saying so. The panel lists the open decisions under Open decisions, each a link to the issue.
+
 ## never-public
 
 The page picker, the step marker, the pins and their source attributes exist only in the review build (`GABF_FEEDBACK=1`, written to `dist-review/`). The build refuses that flag in continuous integration, `tests/review-build.test.mjs` builds the public site and fails if any part of it appears there, and the picker will not start on any host but this machine or outside the control plane's frame.
