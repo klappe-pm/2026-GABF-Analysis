@@ -26,7 +26,8 @@ test('standalone build is one self-contained file with the data embedded', async
   assert.ok(data.meta.years.includes(2026));
   assert.ok(data.breweries.some((b) => b.key === 'green cheek'));
   assert.match(data.brewery_html['green cheek'], /Doom Sludge/);
-  assert.match(data.brewery_html['green cheek'], /deep-dive/);
+  assert.match(data.brewery_html['green cheek'], /<h2>Deep dive<\/h2>/);
+  assert.ok(!/<h[2-6][^>]*>[a-z]+(-[a-z0-9]+)+<\/h[2-6]>/.test(html), 'no kebab-case slug shows as a heading');
   assert.ok(Object.keys(data.brewery_html).length === data.breweries.length, 'every brewery has a detail view');
   assert.match(html, /window\.GABF_GEO = \{"type":"FeatureCollection"/);
 });
@@ -57,7 +58,7 @@ test('hosted copy is content only, self-contained, and says it is hosted', async
   assert.ok(!/<script[^>]+\ssrc=/i.test(hosted), 'no external script tags');
   assert.ok(result.hostedBytes < 16 * 1024 * 1024, 'under the 16 MB page limit');
   assert.match(hosted, /window\.GABF_DATA = /);
-  assert.match(hosted, /hosted copy of the single-file build/);
+  assert.match(hosted, /hosted copy of the single file dashboard/);
   assert.ok(!/address bar so a view can be bookmarked/.test(hosted), 'no address bar promise in a sandboxed frame');
-  assert.match(hosted, /<main data-default-brewery="green cheek">/);
+  assert.match(hosted, /<main [^>]*data-default-brewery="green cheek">/);
 });

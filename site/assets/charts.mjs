@@ -33,10 +33,13 @@ export function compact(v) {
 }
 
 export function tableHtml(columns, rows, { className = 'data-table sortable', caption = '' } = {}) {
-  const head = columns.map((c) => `<th scope="col"${c.numeric ? ' class="num"' : ''}>${esc(c.label)}</th>`).join('');
+  const sortable = /\bsortable\b/.test(className) ? ' tabindex="0"' : '';
+  const cls = (c) => [c.numeric ? 'num' : '', c.cellClass ?? ''].filter(Boolean).join(' ');
+  const attr = (c) => (cls(c) ? ` class="${cls(c)}"` : '');
+  const head = columns.map((c) => `<th scope="col"${attr(c)}${sortable}>${c.labelHtml ?? esc(c.label)}</th>`).join('');
   const body = rows.map((r) => `<tr>${columns.map((c) => {
     const v = typeof c.render === 'function' ? c.render(r) : esc(r[c.key] ?? '');
-    return `<td${c.numeric ? ' class="num"' : ''}>${v}</td>`;
+    return `<td${attr(c)} data-label="${esc(c.label)}"${typeof c.sortValue === 'function' ? ` data-sort="${esc(c.sortValue(r))}"` : ''}>${v}</td>`;
   }).join('')}</tr>`).join('');
   return `<table class="${className}">${caption ? `<caption>${esc(caption)}</caption>` : ''}<thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
 }
@@ -55,8 +58,46 @@ export function figure({ id, title, subtitle = '', option, height = 300, table =
   return `<figure class="viz" id="${esc(id)}" data-figure="${esc(id)}" data-echart><figcaption><strong>${esc(title)}</strong>${subtitle ? `<span class="subtitle">${esc(subtitle)}</span>` : ''}</figcaption><div class="echart" style="height:${Number(height)}px"></div><script type="application/json">${serializeOption(option)}</script>${note ? `<p class="note">${esc(note)}</p>` : ''}${table ? `<details class="table-view"><summary>Table view</summary>${table}</details>` : ''}</figure>`;
 }
 
-export function statTile({ label, value, delta = '', note = '' }) {
-  return `<div class="stat"><div class="stat-label">${esc(label)}</div><div class="stat-value">${esc(value)}</div>${delta ? `<div class="stat-delta">${esc(delta)}</div>` : ''}${note ? `<div class="stat-note">${esc(note)}</div>` : ''}</div>`;
+// Gold, silver, and bronze counts as one compact value, "4-4-2", never wrapped. Screen readers
+// hear the counts with their medal names.
+export const gsbText = (g, s, b) => `${Number(g) || 0}-${Number(s) || 0}-${Number(b) || 0}`;
+export function gsbHtml(g, s, b) {
+  return `<span class="gsb" aria-hidden="true">${gsbText(g, s, b)}</span><span class="visually-hidden">${Number(g) || 0} gold, ${Number(s) || 0} silver, ${Number(b) || 0} bronze</span>`;
+}
+// A table column for the split; get(row) returns [gold, silver, bronze]. Sorts by total medals, then gold.
+export function gsbColumn(get, { key = 'gsb' } = {}) {
+  return {
+    key,
+    label: 'G-S-B',
+    labelHtml: '<span aria-hidden="true">G-S-B</span><span class="visually-hidden">Gold, silver, bronze</span>',
+    numeric: true,
+    cellClass: 'gsb-cell',
+    render: (r) => gsbHtml(...get(r)),
+    sortValue: (r) => { const [g, s, b] = get(r).map((n) => Number(n) || 0); return (g + s + b) * 10000 + g; },
+  };
+}
+
+// A medal split tile shows gold, silver, and bronze counts as one compact value that never wraps.
+// mark: trusted HTML placed after the value (the (E) estimate button).
+export function statTile({ label, value, delta = '', note = '', medals = null, mark = '' }) {
+  const shown = medals
+    ? `<div class="stat-value stat-medals">${gsbHtml(...medals)}</div>`
+    : `<div class="stat-value">${esc(value)}${mark ? ` ${mark}` : ''}</div>`;
+  return `<div class="stat"><div class="stat-label">${esc(label)}</div>${shown}${delta ? `<div class="stat-delta">${esc(delta)}</div>` : ''}${note ? `<div class="stat-note">${esc(note)}</div>` : ''}</div>`;
+}
+
+// Display text for a kebab-case slug: "ownership-and-investors" becomes "Ownership and investors".
+const ACRONYMS = { gabf: 'GABF', abv: 'ABV', ibu: 'IBU', srm: 'SRM', ipa: 'IPA', arr: 'ARR', ebitda: 'EBITDA', us: 'US', usa: 'USA', ba: 'BA', fed: 'Fed' };
+const PHRASES = [[/\bworld beer cup\b/g, 'World Beer Cup'], [/\bgreat american beer festival\b/g, 'Great American Beer Festival'], [/\bbrewery of the year\b/g, 'Brewery of the Year']];
+export function humanize(slug) {
+  let s = String(slug ?? '').split('-').filter(Boolean).map((w) => ACRONYMS[w] ?? w).join(' ');
+  for (const [re, to] of PHRASES) s = s.replace(re, to);
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+// Rewrite h2 to h6 headings whose whole text is a kebab-case slug (the markdown source convention) into display text.
+export function humanizeHeadings(html) {
+  return String(html).replace(/<(h[2-6])(\s[^>]*)?>([a-z0-9]+(?:-[a-z0-9]+)*)<\/\1>/g, (m, tag, attrs = '', text) => (/[a-z]/.test(text) ? `<${tag}${attrs}>${humanize(text)}</${tag}>` : m));
 }
 
 export function countBy(rows, key) {
