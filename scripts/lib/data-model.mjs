@@ -224,7 +224,9 @@ export function loadDataset({ root, localProfiles = true } = {}) {
     b.founded = Number(pd.founded ?? b.ownership?.founded ?? '') || null;
     b.defunct = Number(pd.defunct ?? '') || null;
     b.employees = Number(pd.employees ?? '') || null;
-    b.brewery_type = pd['brewery-type'] ?? b.overrides.find((o) => !o.brewery_location)?.brewery_type ?? b.enriched?.best?.brewery_type ?? 'micro';
+    b.brewery_type = pd['brewery-type'] ?? b.overrides.find((o) => !o.brewery_location)?.brewery_type ?? b.enriched?.best?.brewery_type ?? null;
+    // A null type is a stated gap. Estimates then use the generic default rows of estimation-parameters.json and say so.
+    b.brewery_type_assumed = !b.brewery_type;
     b.links = linksByKey.get(b.key) ?? null;
     b.current_beers = currentBeersByKey.get(b.key) ?? [];
     b.website = pd.website ?? b.overrides.find((o) => o.website)?.website ?? (b.links?.website || null) ?? b.enriched?.best?.website_url ?? '';
@@ -232,7 +234,8 @@ export function loadDataset({ root, localProfiles = true } = {}) {
     b.hq = { city: pd['hq-city'] ?? b.enriched?.best?.city ?? [...b.locations.values()][0]?.city ?? '', state: pd['hq-state'] ?? b.enriched?.best?.state ?? [...b.locations.values()][0]?.state ?? '' };
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
     b.locations_count = b.location_list.length || Number(pd['locations-count'] ?? '') || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
-    b.has_kitchen = Boolean(pd['has-kitchen'] ?? b.location_list.some((l) => l.kitchen));
+    // null when no profile or fact states it; the revenue estimate then adds no food revenue.
+    b.has_kitchen = pd['has-kitchen'] !== undefined ? Boolean(pd['has-kitchen']) : (b.location_list.length ? b.location_list.some((l) => l.kitchen) : null);
     b.distribution_channel = pd['distribution-channel'] ?? b.distributors[0]?.channel ?? '';
     const barrels = pd['barrels-estimate'] ? { barrels: Number(pd['barrels-estimate']), basis: 'estimate', confidence: 'low', source: 'brewery profile' } : estimateBarrels({ production: b.production, breweryType: b.brewery_type, locationsCount: b.locations_count, botyBracket: b.awards[0]?.bracket ?? '' }, params);
     const revenue = pd['revenue-estimate-usd']

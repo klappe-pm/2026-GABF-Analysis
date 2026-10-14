@@ -188,7 +188,9 @@ export function explainEstimate(b, params) {
   const est = b.estimate;
   const rev = est.revenue;
   const f = b.financials;
-  const type = valueLabel('brewery_type', b.brewery_type).toLowerCase();
+  const assumed = !b.brewery_type;
+  // No source states the type, so the generic default row of estimation-parameters.json is used and the text says so.
+  const type = assumed ? 'brewery of an assumed generic type (brewery type is not defined)' : valueLabel('brewery_type', b.brewery_type).toLowerCase();
   const n = b.locations_count;
   const num = (x) => Number(x).toLocaleString('en-US');
   const money = (x) => `$${num(Math.round(x))}`;
@@ -217,9 +219,9 @@ export function explainEstimate(b, params) {
   };
   const inputs = [
     ['Barrels', `${num(est.barrels)} (${valueLabel('basis', est.basis).toLowerCase()})`],
-    ['Brewery type', valueLabel('brewery_type', b.brewery_type)],
+    ['Brewery type', assumed ? 'Not defined (estimate uses an assumed generic type)' : valueLabel('brewery_type', b.brewery_type)],
     ['Locations', String(n)],
-    ['Kitchen', b.has_kitchen ? 'Yes' : 'No'],
+    ['Kitchen', b.has_kitchen === null || b.has_kitchen === undefined ? 'Not defined (no food revenue is added)' : b.has_kitchen ? 'Yes' : 'No'],
     ['Distribution', b.distribution_channel ? valueLabel('distribution_channel', b.distribution_channel) : 'Not defined'],
     ['Employees', b.employees ? num(b.employees) : 'Not defined'],
   ];

@@ -61,6 +61,7 @@ export function unslugText(html, slugs) {
 
 export function valueLabel(id, value, meta = null) {
   const v = String(value ?? '');
+  if (id === 'brewery_type' && !v) return 'Not defined';
   if (id === 'state') return meta?.states?.find((s) => s.state === v)?.name ?? v;
   if (id === 'city') return v.replace(/\s+-\s+/g, ', ');
   if (id === 'brewery_key') return meta?.names?.brewery_key?.[v] ?? v;
