@@ -57,7 +57,7 @@ The join runs from `beers.brewery` to `breweries` (city and state from the profi
 
 ## editing
 
-Follow `CLAUDE.md` at the repository root: no dash as punctuation, one physical line per paragraph, lowercase kebab-case headings, no credit to any agent or model. Never fabricate a figure, hop, or link; a stated gap beats a guess. After editing profiles, rebuild the database, then run the gate.
+Follow the repository writing rules: no dash as punctuation, one physical line per paragraph, lowercase kebab-case headings, no credit to any agent or model. Never fabricate a figure, hop, or link; a stated gap beats a guess. After editing profiles, rebuild the database, then run the gate.
 
 ```bash
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run verify

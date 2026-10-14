@@ -12,3 +12,6 @@ data/cache/
 !.env.example
 settings.local.json
 reports/*-page*.png
+.claude/
+CLAUDE.md
+.impeccable/
