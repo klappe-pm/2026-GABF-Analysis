@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
-import { applyDesignEdit, checkDesignEdit, setFrontmatterKey, setListLine, yamlValue } from '../scripts/design-system/edit.mjs';
-import { SETTINGS, WEB, splitFrontmatter } from '../scripts/design-system/lib.mjs';
+import { applyDesignEdit, checkDesignEdit, setFrontmatterKey, setListLine, tokenShaped, yamlValue } from '../scripts/design-system/edit.mjs';
+import { ROOT } from '../scripts/lib/paths.mjs';
+import { parseTicket } from '../scripts/lib/review-store.mjs';
+import { COMPONENTS_DIR, SETTINGS, WEB, splitFrontmatter } from '../scripts/design-system/lib.mjs';
 
 const changedLines = (a, b) => {
   const x = a.split('\n');
@@ -61,20 +63,71 @@ test('a failing value is refused with a plain reason', async () => {
   assert.equal(readFileSync(SETTINGS, 'utf8'), before);
 });
 
-test('a saved change writes one line and records an ACCEPTED ticket with the old and new value', async () => {
+const PNG = Buffer.from('89504e470d0a1a0a', 'hex');
+
+test('a saved site setting writes one line and drops a ticket in the feedback pipeline\'s shape', async () => {
   const before = readFileSync(SETTINGS, 'utf8');
   const dir = mkdtempSync(join(tmpdir(), 'design-edit-'));
   const current = splitFrontmatter(before).data['Corner shape'];
   const next = current === 'large' ? 'small' : 'large';
   try {
-    const r = await applyDesignEdit({ target: 'settings', key: 'Corner shape', value: next, feedbackDir: dir });
-    const after = readFileSync(SETTINGS, 'utf8');
-    assert.equal(after, before.replace(`Corner shape: ${current}`, `Corner shape: ${next}`));
+    const r = await applyDesignEdit({ target: 'settings', key: 'Corner shape', value: next, feedbackDir: dir, capture: async ({ path }) => { writeFileSync(path, PNG); return true; } });
+    assert.equal(readFileSync(SETTINGS, 'utf8'), before.replace(`Corner shape: ${current}`, `Corner shape: ${next}`));
+    const files = readdirSync(resolve(dir, 'design-system'));
+    const md = files.find((f) => f.endsWith('.md'));
+    const base = md.replace(/\.md$/, '');
+    assert.deepEqual(files.sort(), [base, md].sort());
+    assert.deepEqual(readFileSync(resolve(dir, 'design-system', base, 'component.png')), PNG);
+    const { data, body } = parseTicket(readFileSync(resolve(dir, 'design-system', md), 'utf8'));
+    assert.deepEqual(Object.keys(data), ['id', 'status', 'title', 'page', 'step', 'components', 'created', 'revised', 'images', 'setting-edits']);
+    assert.equal(data.status, 'ACCEPTED');
+    assert.equal(data.page, 'design-system');
+    assert.equal(data.step, null);
+    assert.deepEqual(data.components, []);
+    assert.deepEqual(data.images, [{ path: `${base}/component.png`, kind: 'component', spot: null, component: null, url: null }]);
+    assert.deepEqual(data['setting-edits'], [{ file: '.design/design-system/settings.md', key: 'Corner shape', old: current, new: next }]);
+    assert.equal(data.created, data.revised);
+    assert.match(body, new RegExp(`\\]\\(${base}/component\\.png\\)`));
     assert.equal(r.ticket.status, 'ACCEPTED');
-    const ticket = readFileSync(resolve(dir, 'design-system', readdirSync(resolve(dir, 'design-system'))[0]), 'utf8');
-    assert.match(ticket, /status: ACCEPTED/);
-    assert.match(ticket, new RegExp(`- old: ${current}`));
-    assert.match(ticket, new RegExp(`- new: ${next}`));
+  } finally {
+    writeFileSync(SETTINGS, before);
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('a saved component setting links the component spec and the picture of the component', async () => {
+  const spec = resolve(COMPONENTS_DIR, 'button', 'spec.md');
+  const before = readFileSync(spec, 'utf8');
+  const dir = mkdtempSync(join(tmpdir(), 'design-edit-'));
+  const current = splitFrontmatter(before).data.Shape;
+  const next = current === 'medium' ? 'small' : 'medium';
+  try {
+    await applyDesignEdit({ target: 'button', key: 'Shape', value: next, feedbackDir: dir, capture: async ({ path }) => { writeFileSync(path, PNG); return true; } });
+    const after = readFileSync(spec, 'utf8');
+    assert.deepEqual(changedLines(before, after).length, 2, 'the frontmatter line and its what-you-can-change line');
+    const md = readdirSync(resolve(dir, 'design-system')).find((f) => f.endsWith('.md'));
+    const { data, body } = parseTicket(readFileSync(resolve(dir, 'design-system', md), 'utf8'));
+    assert.deepEqual(data.components, [{ name: 'button', spec: '.design/design-system/components/button/spec.md' }]);
+    assert.equal(data.images[0].component, 'button');
+    assert.deepEqual(data['setting-edits'], [{ file: '.design/design-system/components/button/spec.md', key: 'Shape', old: current, new: next }]);
+    const link = /\[Button\]\(([^)]+)\)/.exec(body);
+    assert.equal(resolve(dir, 'design-system', link[1]), resolve(ROOT, '.design/design-system/components/button/spec.md'));
+  } finally {
+    writeFileSync(spec, before);
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('a ticket that would carry a token shaped value is refused and nothing is written', async () => {
+  const before = readFileSync(SETTINGS, 'utf8');
+  const dir = mkdtempSync(join(tmpdir(), 'design-edit-'));
+  try {
+    const sanitize = (text) => (/Corner shape/.test(text) ? { text: '[REDACTED:token]', redacted: ['token'] } : { text, redacted: [] });
+    await assert.rejects(applyDesignEdit({ target: 'settings', key: 'Corner shape', value: 'square', feedbackDir: dir, sanitize }), /shaped like a secret/);
+    assert.equal(readFileSync(SETTINGS, 'utf8'), before);
+    assert.equal(existsSync(resolve(dir, 'design-system')), false);
+    assert.equal(tokenShaped('token ghp_0123456789abcdefghijABCDEFGHIJ').redacted.length > 0, true);
+    assert.equal(tokenShaped('#2D6A4F').redacted.length, 0);
   } finally {
     writeFileSync(SETTINGS, before);
     rmSync(dir, { recursive: true, force: true });

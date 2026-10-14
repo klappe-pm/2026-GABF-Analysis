@@ -3,15 +3,20 @@
 // The write changes only that key's lines (and, in a spec, the matching line of its
 // what-you-can-change list); every other byte of the file stays as it was. A value that fails the
 // checks (allowed values, approved fonts, WCAG AA contrast in the generated scheme) is refused with a
-// plain reason and nothing is written. Each saved change is recorded as an ACCEPTED ticket under
-// .docs/feedback/design-system/, the same store the feedback tool uses.
+// plain reason and nothing is written. Each saved change is recorded as an ACCEPTED ticket in the
+// tracked docs/feedback/design-system/, with a picture of what changed, for the feedback pipeline to commit.
 
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
-import { addTicket } from '../lib/review-store.mjs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { relative, resolve } from 'node:path';
+import { ROOT } from '../lib/paths.mjs';
+import { componentWords } from '../lib/review-components.mjs';
+import { kebab } from '../lib/review-screens.mjs';
+import { ACCEPTED, nextId, renderTicket, sanitizeDeep } from '../lib/review-store.mjs';
 import { COMPONENTS_DIR, SETTINGS, design, rel, splitFrontmatter } from './lib.mjs';
 
 export const TICKET_PAGE = 'design-system';
+// The tracked ticket store (the feedback pipeline's own folder for design system edits).
+export const FEEDBACK_DIR = 'docs/feedback';
 
 export function targetFile(target) {
   if (target === 'settings') return SETTINGS;
@@ -85,7 +90,7 @@ export async function checkDesignEdit({ target, key, value }) {
 }
 
 // Check, write, and record one change. Throws with `problems` when the value is refused.
-export async function applyDesignEdit({ target, key, value, feedbackDir, sanitize, now = new Date() }) {
+export async function applyDesignEdit({ target, key, value, feedbackDir, sanitize, capture, now = new Date() }) {
   const d = await design();
   const { problems, file, old, kind } = await checkDesignEdit({ target, key, value });
   if (problems.length) {
@@ -99,21 +104,75 @@ export async function applyDesignEdit({ target, key, value, feedbackDir, sanitiz
     error.problems = [error.message];
     throw error;
   }
+  const shown = (v) => (v === undefined ? 'not set' : d.showValue(v));
+  const plan = ticketFor({ target, key, file: rel(file), old: old ?? null, next: clean, shown, feedbackDir, now });
+  // The ticket goes to a public repository: a value the secret scan would change is refused, not redacted.
+  const scan = sanitize ?? tokenShaped;
+  if (plan && sanitizeDeep(plan.data, scan).redacted.size + sanitizeDeep(plan.body, scan).redacted.size) {
+    const error = new Error('The change carries a value shaped like a secret. Nothing is written.');
+    error.problems = [error.message];
+    throw error;
+  }
   const before = readFileSync(file, 'utf8');
   let after = setFrontmatterKey(before, key, clean);
   if (target !== 'settings') after = setListLine(after, key, d.showValue(clean));
   writeFileSync(file, after);
-  const shown = (v) => (v === undefined ? 'not set' : d.showValue(v));
   let ticket = null;
-  if (feedbackDir) {
-    ticket = addTicket(feedbackDir, {
-      page: TICKET_PAGE,
-      text: `Design setting ${key} changed from ${shown(old)} to ${shown(clean)} in ${rel(file)}.`,
-      route: '/design-system/',
-      served: 'design-system-review',
-      components: target === 'settings' ? [] : [{ name: target, spec: rel(file) }],
-      extraBody: `## design-edit\n\n${key} in ${rel(file)}\n\n- old: ${shown(old)}\n- new: ${shown(clean)}`,
-    }, { sanitize: sanitize ?? ((t) => ({ text: t, redacted: [] })), now });
+  if (plan) {
+    mkdirSync(plan.imageDir, { recursive: true });
+    let captured = false;
+    if (capture) {
+      try { captured = Boolean(await capture({ target, key, path: plan.imageFile })); } catch { captured = false; }
+    }
+    if (!captured) { plan.data.images = []; plan.body = plan.body.replace(/\n\n## images\n\n[\s\S]*$/, '\n\n## images\n\n- No image: the browser capture was not available when this was saved.'); }
+    writeFileSync(plan.ticketFile, renderTicket(plan.data, plan.body));
+    ticket = { id: plan.data.id, file: rel(plan.ticketFile), status: ACCEPTED, image: captured ? rel(plan.imageFile) : null };
   }
-  return { target, key, file: rel(file), old: old ?? null, new: clean, ticket: ticket ? { id: ticket.id, file: rel(ticket.file), status: ticket.status } : null };
+  return { target, key, file: rel(file), old: old ?? null, new: clean, ticket };
+}
+
+// The ticket the feedback pipeline picks up: docs/feedback/design-system/<id>-<title>.md, its image in
+// the folder of the same name. Frontmatter: id, status, title, page, step, components, images,
+// setting-edits, created, revised. The pipeline commits it; this never does.
+export function ticketFor({ target, key, file, old, next, shown, feedbackDir, now = new Date() }) {
+  if (!feedbackDir) return null;
+  const pageDir = resolve(feedbackDir, TICKET_PAGE);
+  const id = nextId(feedbackDir);
+  const title = `Design setting ${key} changed from ${shown(old ?? undefined)} to ${shown(next)}`;
+  const base = `${id.toLowerCase()}-${kebab(title).slice(0, 48).replace(/-+$/, '')}`;
+  const component = target === 'settings' ? null : target;
+  const spec = component ? `.design/design-system/components/${component}/spec.md` : null;
+  const stamp = now.toISOString();
+  const data = {
+    id,
+    status: ACCEPTED,
+    title,
+    page: TICKET_PAGE,
+    step: null,
+    components: component ? [{ name: component, spec }] : [],
+    images: [{ path: `${base}/component.png`, kind: 'component', spot: null, component, url: null }],
+    'setting-edits': [{ file, key, old, new: next }],
+    created: stamp,
+    revised: stamp,
+  };
+  const toRoot = relative(pageDir, ROOT).split('\\').join('/');
+  const body = [
+    `${title} in ${file}.`,
+    `## setting-edit\n\n${key} in ${file}\n\n- old: ${shown(old ?? undefined)}\n- new: ${shown(next)}`,
+    `## components\n\n${component ? `- [${componentWords(component)}](${toRoot}/${spec})` : '- The whole site: global settings in .design/design-system/settings.md'}`,
+    `## images\n\n- [${component ? componentWords(component) : key} after the change](${base}/component.png)`,
+  ].join('\n\n');
+  return { data, body, ticketFile: resolve(pageDir, `${base}.md`), imageDir: resolve(pageDir, base), imageFile: resolve(pageDir, base, 'component.png') };
+}
+
+// A local stand in for the engine's secret scan when its checkout is absent: the token shapes the
+// owner's rules name (key prefixes, JWTs, PEM blocks, long hex or base64 runs).
+const TOKEN_SHAPES = [
+  /\b(AKIA|ASIA)[0-9A-Z]{16}\b/, /\bgh[pousr]_[A-Za-z0-9]{20,}\b/, /\bgithub_pat_[A-Za-z0-9_]{20,}\b/, /\bsk-[A-Za-z0-9_-]{20,}\b/,
+  /\bxox[abprs]-[A-Za-z0-9-]{10,}\b/, /\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\b/, /-----BEGIN [A-Z ]*PRIVATE KEY-----/,
+  /(key|token|secret|password)[^\n]{0,20}[A-Fa-f0-9]{32,}/i, /(key|token|secret|password)[^\n]{0,20}[A-Za-z0-9+/=]{40,}/i,
+];
+export function tokenShaped(text) {
+  const found = TOKEN_SHAPES.filter((re) => re.test(text)).map((re) => re.source);
+  return { text: found.length ? '[REDACTED:token]' : text, redacted: found };
 }

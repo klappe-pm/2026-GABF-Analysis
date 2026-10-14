@@ -73,7 +73,7 @@ export function EditableValue({ target, k, value, children }: { target: string; 
       if (!res.ok) { setProblems(body.problems ?? ['The value was not saved.']); return; }
       setSaved(draft);
       setOpen(false);
-      setNote(`Saved to ${body.file}${body.ticket ? `, ticket ${body.ticket.id}` : ''}`);
+      setNote(`Saved to ${body.file}${body.ticket ? `; ticket ${body.ticket.id} in ${body.ticket.file}` : ''}`);
     } catch {
       setProblems(['The review server did not answer. Start it with npm run design-system:review.']);
     } finally {
@@ -83,7 +83,7 @@ export function EditableValue({ target, k, value, children }: { target: string; 
 
   if (!open) {
     return (
-      <span className="inline-flex flex-wrap items-center gap-2" data-design-editor="">
+      <span className="inline-flex flex-wrap items-center gap-2" data-design-editor="" data-setting={`${target}:${k}`}>
         {children}
         <md-text-button onClick={() => { setDraft(saved); setOpen(true); setNote(''); }} aria-label={`Change ${k}`}>Change</md-text-button>
         {note ? <span role="status" className="type-body-small text-on-surface-variant">{note}</span> : null}
@@ -91,7 +91,7 @@ export function EditableValue({ target, k, value, children }: { target: string; 
     );
   }
   return (
-    <span className="inline-flex flex-col gap-2 rounded-(--md-sys-shape-corner-medium) bg-surface-container-high p-3" data-design-editor="open">
+    <span className="inline-flex flex-col gap-2 rounded-(--md-sys-shape-corner-medium) bg-surface-container-high p-3" data-design-editor="open" data-setting={`${target}:${k}`}>
       <Field kind={kind} value={draft} onValue={change} label={k} />
       {problems.length ? <span role="alert" className="type-body-small max-w-measure text-error">{problems.join(' ')}</span> : null}
       <span className="flex gap-2">

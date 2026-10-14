@@ -4,7 +4,8 @@
 //             the copies in the export, so an edit to a settings file shows on the next reload.
 //   --review  review mode: serves the review build (web/out-review, built by npm run design-system:review),
 //             reads the settings live, and accepts edits from the style guide's in place editors at
-//             POST /__design/check and POST /__design/edit. Bound to 127.0.0.1 only.
+//             POST /__design/check and POST /__design/edit. Bound to 127.0.0.1 only. A save writes its
+//             ticket and picture to docs/feedback/design-system/ (GABF_DESIGN_FEEDBACK_DIR moves the store).
 import { createServer } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
@@ -33,6 +34,27 @@ if (review) {
   }
 }
 
+// The picture a ticket carries: the edited component's states (or the settings row for a site wide
+// setting), drawn in a browser from the saved files. Playwright comes from PLAYWRIGHT_MODULE or
+// node_modules; without it the ticket says no image was captured.
+let browser = null;
+async function capture({ target, key, path }) {
+  const { createRequire } = await import('node:module');
+  const { chromium } = createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE ?? 'playwright');
+  browser ??= await chromium.launch(process.env.PLAYWRIGHT_CHANNEL ? { channel: process.env.PLAYWRIGHT_CHANNEL } : {}).catch(() => chromium.launch({ channel: 'chrome' }));
+  const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+  try {
+    await page.goto(`http://${HOST}:${PORT}/design-system/`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
+    const el = target === 'settings' ? page.locator(`tr:has([data-setting=${JSON.stringify(`settings:${key}`)}])`) : page.locator(`#component-${target}-sample`);
+    if (!(await el.count())) return false;
+    await el.first().screenshot({ path, animations: 'disabled' });
+    return true;
+  } finally {
+    await page.close();
+  }
+}
+
 const readBody = (req) => new Promise((ok, fail) => {
   let data = '';
   req.on('data', (c) => { data += c; if (data.length > 1e5) req.destroy(); });
@@ -51,8 +73,8 @@ createServer(async (req, res) => {
     try {
       const body = await readBody(req);
       if (url === '/__design/check') return json(res, 200, await edits.checkDesignEdit(body));
-      const feedbackDir = process.env.GABF_FEEDBACK_DIR || resolve(ROOT, '.docs/feedback');
-      return json(res, 200, await edits.applyDesignEdit({ ...body, feedbackDir, sanitize }));
+      const feedbackDir = process.env.GABF_DESIGN_FEEDBACK_DIR || resolve(ROOT, edits.FEEDBACK_DIR);
+      return json(res, 200, await edits.applyDesignEdit({ ...body, feedbackDir, sanitize, capture }));
     } catch (e) {
       return json(res, 422, { problems: e.problems ?? [e.message] });
     }
