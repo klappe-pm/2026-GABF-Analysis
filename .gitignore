@@ -1,6 +1,7 @@
 node_modules/
 dist/
 dist-hosted/
+dist-review/
 data/raw/*.pdf
 data/cache/
 .DS_Store
