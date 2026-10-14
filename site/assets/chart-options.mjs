@@ -113,7 +113,7 @@ export function mapOption({ data, valueName = 'Medals', saveName = 'map', max })
     textStyle: textStyle(),
     tooltip: { trigger: 'item', formatter: `{b}: {c} ${valueName.toLowerCase()}` },
     toolbox: toolbox(saveName),
-    visualMap: { min: 0, max: top, left: 0, bottom: 0, orient: 'horizontal', calculable: true, text: [String(top), '0'], textStyle: { color: TEXT.muted }, inRange: { color: SEQUENTIAL_BLUE } },
+    visualMap: { min: 0, max: top, left: 0, bottom: 0, orient: 'horizontal', calculable: true, textStyle: { color: TEXT.muted }, inRange: { color: SEQUENTIAL_BLUE } },
     series: [{ name: valueName, type: 'map', map: 'usa', roam: false, nameProperty: 'name', data, itemStyle: { borderColor: 'var(--surface-1)', borderWidth: 1, areaColor: 'var(--grid)' }, emphasis: { label: { show: true, color: TEXT.primary }, itemStyle: { areaColor: 'var(--series-2)' } }, select: { disabled: true }, label: { show: false } }],
     __map: 'usa',
   };

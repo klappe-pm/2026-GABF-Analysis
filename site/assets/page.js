@@ -16,6 +16,29 @@
     });
   }
 
+  // Phone header: the site nav folds behind a Menu button.
+  const navToggle = document.querySelector('.nav-toggle');
+  if (navToggle) {
+    const header = navToggle.closest('.site-header');
+    navToggle.addEventListener('click', () => {
+      const open = navToggle.getAttribute('aria-expanded') !== 'true';
+      navToggle.setAttribute('aria-expanded', String(open));
+      header.classList.toggle('open', open);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && header.classList.contains('open')) { header.classList.remove('open'); navToggle.setAttribute('aria-expanded', 'false'); navToggle.focus(); }
+    });
+  }
+
+  // Sortable headers carry tabindex 0; Enter or Space sorts like a click (static and dashboard tables).
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const th = e.target.closest ? e.target.closest('table.sortable thead th') : null;
+    if (!th) return;
+    e.preventDefault();
+    th.click();
+  });
+
   const tip = document.createElement('div');
   tip.className = 'tooltip';
   tip.setAttribute('role', 'status');
@@ -56,7 +79,8 @@
   function sortTable(table, idx, numeric, dir) {
     const tbody = table.tBodies[0];
     const rows = Array.from(tbody.rows);
-    const val = (tr) => tr.cells[idx] ? tr.cells[idx].textContent.trim() : '';
+    // A cell may carry its own sort key (the G-S-B column sorts by total medals, then gold).
+    const val = (tr) => { const c = tr.cells[idx]; if (!c) return ''; return c.hasAttribute('data-sort') ? c.getAttribute('data-sort') : c.textContent.trim(); };
     rows.sort((a, b) => {
       const va = val(a); const vb = val(b);
       if (numeric) {
@@ -68,16 +92,15 @@
     });
     rows.forEach((r) => tbody.appendChild(r));
   }
-  document.querySelectorAll('table.sortable').forEach((table) => {
-    Array.from(table.tHead ? table.tHead.rows[0].cells : []).forEach((th, idx) => {
-      th.addEventListener('click', () => {
-        const numeric = th.classList.contains('num');
-        const current = th.getAttribute('aria-sort');
-        const dir = current === 'descending' ? 'asc' : 'desc';
-        Array.from(th.parentNode.cells).forEach((c) => c.removeAttribute('aria-sort'));
-        th.setAttribute('aria-sort', dir === 'asc' ? 'ascending' : 'descending');
-        sortTable(table, idx, numeric, dir);
-      });
-    });
+  // Delegated, so tables drawn after load (filtered views, dashboards) sort too.
+  document.addEventListener('click', (e) => {
+    const th = e.target.closest ? e.target.closest('table.sortable thead th') : null;
+    if (!th) return;
+    const table = th.closest('table');
+    const idx = Array.from(th.parentNode.cells).indexOf(th);
+    const dir = th.getAttribute('aria-sort') === 'descending' ? 'asc' : 'desc';
+    Array.from(th.parentNode.cells).forEach((c) => c.removeAttribute('aria-sort'));
+    th.setAttribute('aria-sort', dir === 'asc' ? 'ascending' : 'descending');
+    sortTable(table, idx, th.classList.contains('num'), dir);
   });
 })();
