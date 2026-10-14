@@ -24,7 +24,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Amber Lager"
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
   - "Pro-Am Comp"
   - "Scotch Ale"
   - "Wood- and Barrel-Aged Strong Beer"

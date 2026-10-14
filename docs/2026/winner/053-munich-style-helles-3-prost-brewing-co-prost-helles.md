@@ -139,7 +139,7 @@ Prost Helles is a helles lager from Prost Brewing Co., entered from its Northgle
 | Hops | Hallertau Mittelfrüh | [Prost: Helles](https://www.prostbrewing.com/helles) |
 | Malts and grains | Weyermann Premium Pils, Weyermann Vienna | [Prost: Helles](https://www.prostbrewing.com/helles) |
 | Yeast | Augustiner Lager | [Prost: Helles](https://www.prostbrewing.com/helles) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Limited time offering; six-packs and draft | [Prost: Helles](https://www.prostbrewing.com/helles) |
 
 ## brewery-description
@@ -150,7 +150,7 @@ Source: [Prost: Helles](https://www.prostbrewing.com/helles)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -160,17 +160,17 @@ The brewery also publishes husk separation, single decoction, open fermentation,
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [prostbrewing.com](https://www.prostbrewing.com/helles) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [prostbrewing.com](https://www.prostbrewing.com/helles) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -204,7 +204,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/146633-prost-helles), [prostbrewing.com](https://www.prostbrewing.com/helles), web searches recorded in the research notes, [prostbrewing.com](https://www.prostbrewing.com/helles (HTTP 403 on this pass)).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/146633-prost-helles), [prostbrewing.com](https://www.prostbrewing.com/helles), web searches recorded in the research notes, [prostbrewing.com](https://www.prostbrewing.com/helles (HTTP 403 on this pass)).
 
 ## research-notes
 

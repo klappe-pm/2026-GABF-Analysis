@@ -185,12 +185,12 @@ Before & After Science is a double dry hopped West Coast IPA from Human People B
 |---|---|---|
 | Style | DDH West Coast IPA | [Beer listing](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 | ABV | 7% | [Beer listing](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Columbus Cryo, Krush, Mosaic, Mosaic Cryo, Simcoe | [Beer listing](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -200,7 +200,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/human-people-befo
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -210,21 +210,21 @@ No malt, yeast or adjunct details were found beyond the hops in the specs table.
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Columbus Cryo | Columbus | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Columbus Cryo | Columbus | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Krush | Krush | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Mosaic Cryo | Mosaic | Cryo | Not Found | Not Found | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -261,8 +261,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, [humanpeoplebeer.com](https://humanpeoplebeer.com/).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [humanpeoplebeer.com](https://humanpeoplebeer.com/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, [humanpeoplebeer.com](https://humanpeoplebeer.com/).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [humanpeoplebeer.com](https://humanpeoplebeer.com/).
 
 ## research-notes
 

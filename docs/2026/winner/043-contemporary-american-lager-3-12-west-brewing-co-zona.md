@@ -153,11 +153,11 @@ Zona is a light, crisp pilsner that 12 West Brewing Co. of Gilbert, Arizona brew
 |---|---|---|
 | Style | Pilsner | [12 West: beer list](https://12westbrewing.com/beer-2/) |
 | ABV | 4.3% | [12 West: beer list](https://12westbrewing.com/beer-2/) |
-| IBU | 16 | [Untappd: Zona](https://untappd.com/b/12-west-brewing-co-zona/3022455) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | 16 | [Untappd (hand-read citation): Zona](https://untappd.com/b/12-west-brewing-co-zona/3022455) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 16 oz cans in 4 packs | [12 West: beer list](https://12westbrewing.com/beer-2/) |
 
 ## brewery-description
@@ -180,17 +180,17 @@ Nothing beyond the specs table is published; neither the brewery site nor the [U
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,12 +218,12 @@ Links checked 2026-10-14: [Website](https://12westbrewing.com/), [Untappd](https
 
 - [Beer page on brewery site](https://12westbrewing.com/beer-2/)
 - [12 West Brewing Co.](https://12westbrewing.com/)
-- [Untappd: Zona](https://untappd.com/b/12-west-brewing-co-zona/3022455)
+- [Untappd (hand-read citation): Zona](https://untappd.com/b/12-west-brewing-co-zona/3022455)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [12westbrewing.com](https://12westbrewing.com/), [12westbrewing.com](https://12westbrewing.com/beer-2/), [untappd.com](https://untappd.com/12WestBrewing/beer), [untappd.com](https://untappd.com/b/12-west-brewing-co-zona/3022455), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [12westbrewing.com](https://12westbrewing.com/), [12westbrewing.com](https://12westbrewing.com/beer-2/), [untappd.com](https://untappd.com/12WestBrewing/beer), [untappd.com](https://untappd.com/b/12-west-brewing-co-zona/3022455), web searches recorded in the research notes.
 
 ## research-notes
 

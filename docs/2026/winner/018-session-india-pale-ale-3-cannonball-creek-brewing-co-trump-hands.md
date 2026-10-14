@@ -200,14 +200,14 @@ Trump Hands is a session IPA from Cannonball Creek Brewing Co. in Golden, Colora
 
 | Field | Value | Source |
 |---|---|---|
-| Style | IPA, Session | [Untappd: Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082) |
-| ABV | 4.6% | [Untappd: Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | IPA, Session | [Untappd (hand-read citation): Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082) |
+| ABV | 4.6% | [Untappd (hand-read citation): Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -215,7 +215,7 @@ No brewery description of this beer was found; the brewery site lists Trump Hand
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -223,17 +223,17 @@ Nothing about ingredients is published. In a 5280 interview, brewer Brian Hutchi
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -263,14 +263,14 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 - [PorchDrinking: 2017 hoppy beer guide](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/)
 - [Cannonball Creek Brewing Co.](https://www.cannonballcreekbrewing.com/)
 - [Cannonball Creek: beers](https://www.cannonballcreekbrewing.com/beers)
-- [Untappd: Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082)
+- [Untappd (hand-read citation): Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082)
 - [5280: Cannonball Creek interview](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops.
-- Not published: IBU. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops, [catalog.beer](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops.
+- Not Found: IBU. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, web search 2026-10-14: Cannonball Creek Trump Hands session IPA hops, [catalog.beer](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993).
 
 ## research-notes
 

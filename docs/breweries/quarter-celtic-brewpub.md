@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/058-munich-style-dunkel-2-quarter-celtic-brewpub-step-drunkle.md"
 brewery-type: "brewpub"
 categories-won:
-  - "Munich-Style Dunkel"
+  - "Munich Dunkel"
   - "Scotch Ale"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Albuquerque"
 employees: null
 farms-named: []

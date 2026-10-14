@@ -173,10 +173,10 @@ UPP Yours is a cucumber tart ale from UPP Liquids in Bend, Oregon.
 |---|---|---|
 | Style | Cucumber Tart Ale | [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/) |
 | ABV | 5.5% | [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | cucumber | [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/) |
 | Other | described in press as a cucumber gose | [Bend Source: UPP at GABF](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/) |
 
@@ -188,7 +188,7 @@ Source: [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-or
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -196,17 +196,17 @@ Cucumber is the only ingredient named, through the brewery's style label and a B
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -233,7 +233,7 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## links
 
-- [Untappd: UPP Liquids beer list](https://untappd.com/w/upp-liquids/574533/beer)
+- [Untappd (hand-read citation): UPP Liquids beer list](https://untappd.com/w/upp-liquids/574533/beer)
 - [Beer page on brewery site](https://uppliquids.com/handcrafted-beer-bend-oregon/)
 - [UPP Liquids](https://uppliquids.com/)
 - [Bend Source: UPP at GABF](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/)
@@ -242,8 +242,8 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes.
-- Not published: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -20,9 +20,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Belgo-Style Ale"
-  - "Belgian-Style Dubbel"
-  - "Belgian-Style Strong Specialty Ale"
+  - "American-Belgo Ale"
+  - "Belgian Dubbel"
+  - "Belgian Strong Specialty Ale"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Bargersville"
 employees: null

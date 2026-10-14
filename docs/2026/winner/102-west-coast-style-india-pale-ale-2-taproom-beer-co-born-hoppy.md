@@ -142,11 +142,11 @@ Born Hoppy is a Citra and Mosaic West Coast IPA brewed by TapRoom Beer Co. in Sa
 |---|---|---|
 | Style | WCIPA | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
 | ABV | 7% | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Mosaic | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on draft, listed under Hop Forward & Flavorful | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
 
 ## brewery-description
@@ -171,18 +171,18 @@ Only the two hops are published; the brewery credits grapefruit, lime and mango 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
-| Mosaic | Mosaic | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+| Citra | Citra | Not Found | Not Found | Not Found | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [taproombeerco.com](https://www.taproombeerco.com/beer) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,8 +218,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
+- Not Found: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

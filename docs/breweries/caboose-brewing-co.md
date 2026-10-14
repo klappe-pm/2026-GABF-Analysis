@@ -20,9 +20,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "American-Style Brown Ale"
-  - "Belgian-Style Sour Ale"
-  - "German-Style Altbier"
+  - "American Brown Ale"
+  - "Belgian Sour Ale"
+  - "German Altbier"
 city: "Vienna"
 employees: null
 farms-named: []

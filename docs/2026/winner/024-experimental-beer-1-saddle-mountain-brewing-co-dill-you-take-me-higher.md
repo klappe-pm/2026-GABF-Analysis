@@ -165,10 +165,10 @@ Dill You Take Me Higher? is a 5.7% dill pickle sour from Saddle Mountain Brewing
 |---|---|---|
 | Style | Dill Pickle Sour | [Saddle Mountain: drinks menu (PDF)](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf) |
 | ABV | 5.7% | [Saddle Mountain: drinks menu (PDF)](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | dill pickle | [KTAR: Arizona GABF medals](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition) |
 | Other | on the brewpub's current drinks menu | [Saddle Mountain: drinks menu (PDF)](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf) |
 
@@ -180,7 +180,7 @@ Source: [Saddle Mountain: drinks menu (PDF)](https://www.saddlemountainbrewing.c
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -188,17 +188,17 @@ The menu's style label names dill pickle, and KTAR's report on the 2026 Arizona 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -232,8 +232,8 @@ Links checked 2026-10-14: [Website](https://www.saddlemountainbrewing.com/), [In
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes.
-- Not published: IBU. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes.
+- Not Found: IBU. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd).
 
 ## research-notes
 

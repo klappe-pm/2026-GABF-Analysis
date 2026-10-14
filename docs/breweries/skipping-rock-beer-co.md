@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "planning"
 categories-won:
   - "American Amber Lager"
-  - "Belgian-Style Abbey Ale"
+  - "Belgian Abbey Ale"
 city: "Staunton"
 employees: null
 farms-named: []

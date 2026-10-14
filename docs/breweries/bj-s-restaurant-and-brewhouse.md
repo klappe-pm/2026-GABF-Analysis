@@ -23,7 +23,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Boulder"
 employees: null

@@ -135,8 +135,8 @@ Favorite Blonde is a gluten-free blonde ale brewed from millet and buckwheat mal
 | IBU | 25 | [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/) |
 | Hops | Cascade, Centennial (named as part of a blend) | [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/) |
 | Malts and grains | Millet malt, buckwheat malt | [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | clear golden color; 12 oz cans in 4 packs; 100% gluten-free | [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/) |
 
 ## brewery-description
@@ -159,18 +159,18 @@ The brewery publishes a grain bill of millet malt and buckwheat malt and a hop b
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Cascade | Cascade | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
-| Centennial | Centennial | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
+| Centennial | Centennial | Not Found | Not Found | Not Found | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Clear golden (no SRM number published) | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -206,7 +206,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/), web searches recorded in the research notes.
 
 ## research-notes
 

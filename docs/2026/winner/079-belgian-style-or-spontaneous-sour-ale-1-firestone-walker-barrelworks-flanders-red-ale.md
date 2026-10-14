@@ -170,12 +170,12 @@ Flanders Red Ale is a sour ale from Barrelworks, the wild and barrel-aged beer p
 |---|---|---|
 | Style | Flanders Red Ale | [Firestone Walker: 2026 collection](https://www.firestonewalker.com/brewmasters-collective/) |
 | ABV | 5.5% | [Firestone Walker: 2026 collection](https://www.firestonewalker.com/brewmasters-collective/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -183,7 +183,7 @@ The brewery's 2026 collection names this beer and style but provides no tasting 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -191,17 +191,17 @@ No ingredient is published for this beer on any page found.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -235,8 +235,8 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
-- Not published: IBU. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

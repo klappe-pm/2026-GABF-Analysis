@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Munich-Style Dunkel"
-  - "Session Beer or Belgian-Style Table Beer"
+  - "Munich Dunkel"
+  - "Session Beer or Belgian Table Beer"
 city: "Tampa"
 employees: null
 farms-named: []

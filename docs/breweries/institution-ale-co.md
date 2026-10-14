@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
   - "English Ale"
 city: "Camarillo"
 employees: null

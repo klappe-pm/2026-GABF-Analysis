@@ -167,11 +167,11 @@ Chance Favors The Prepared Mind is a double dry hopped West Coast double IPA bre
 |---|---|---|
 | Style | DDH West Coast DIPA | [BeerMenus: Chance Favors the Prepared Mind](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
 | ABV | 8.6% | [BeerMenus: Chance Favors the Prepared Mind](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Citra Cryo, Mosaic | [BeerMenus: Chance Favors the Prepared Mind](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | about 290 calories per serving as listed | [BeerMenus: Chance Favors the Prepared Mind](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
 
 ## brewery-description
@@ -196,19 +196,19 @@ Only the hops are published: Citra, Citra Cryo and Mosaic, used as a double dry 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
-| Citra Cryo | Citra | Cryo | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
-| Mosaic | Mosaic | not published | not published | not published | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
+| Citra | Citra | Not Found | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
+| Citra Cryo | Citra | Cryo | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -246,8 +246,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
+- Not Found: IBU. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
 
 ## research-notes
 

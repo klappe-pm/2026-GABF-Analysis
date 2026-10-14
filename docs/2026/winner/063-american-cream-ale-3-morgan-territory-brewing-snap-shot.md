@@ -169,44 +169,44 @@ Snap Shot is a beer from Morgan Territory Brewing in Tracy, California.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | American Lager | [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
-| ABV | 4.6% | [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
-| IBU | 12 | [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
-| Hops | Callista | [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | American Lager | [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
+| ABV | 4.6% | [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
+| IBU | 12 | [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
+| Hops | Callista | [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > It’s light-bodied with elevated carbonation.
 
-Source: [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)
+Source: [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The product description names the hop shown above. Rice and corn appear in a historical explanation of American lager, so neither is assigned to this recipe without a direct ingredient statement ([Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)).
+The product description names the hop shown above. Rice and corn appear in a historical explanation of American lager, so neither is assigned to this recipe without a direct ingredient statement ([Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)).
 
 ## hop-profile
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Callista | Callista | not published | not published | not published | [untappd.com](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
+| Callista | Callista | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -238,11 +238,11 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - [Morgan Territory: beer on tap](https://www.morganterritorybrewing.com/beermenus)
 - [BeerMenus: Morgan Territory Tracy](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)
+- [Untappd (hand-read citation): Snap Shot](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beermenus), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-snap-shot/4142990), [beermenus.com](https://www.beermenus.com/places/69229-morgan-territory-brewing-tracy?follow=1), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beermenus), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

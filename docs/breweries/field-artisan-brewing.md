@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/070-english-style-esb-or-ipa-2-field-artisan-brewing-lollygagger.md"
 brewery-type: null
 categories-won:
-  - "English-Style ESB or IPA"
+  - "English ESB or IPA"
   - "Herb and Spice Beer"
 city: "Westfield"
 employees: null

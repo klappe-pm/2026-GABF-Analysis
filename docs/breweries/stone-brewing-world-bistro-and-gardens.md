@@ -22,7 +22,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "American Black Ale or American Stout"
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
   - "Other Strong Beer"
 city: "San Diego"
 employees: null

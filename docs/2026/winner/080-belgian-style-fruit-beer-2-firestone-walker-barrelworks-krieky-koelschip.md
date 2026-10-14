@@ -158,14 +158,14 @@ Krieky Koelschip is a Belgian-style fruit beer from Barrelworks, the wild and ba
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published by the brewery; the competition category is used | none found |
-| ABV | 6.3% | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Balaton cherries | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
-| Other | Cooled in a barn coolship; aged in French oak for 3 to 5 years | [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
+| Style | not published by the brewery; the competition category is used | Not Found |
+| ABV | 6.3% | [Untappd (hand-read citation): Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Balaton cherries | [Untappd (hand-read citation): Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
+| Other | Cooled in a barn coolship; aged in French oak for 3 to 5 years | [Untappd (hand-read citation): Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998) |
 
 ## brewery-description
 
@@ -175,7 +175,7 @@ Source: [Firestone Walker: description on Untappd](https://untappd.com/b/firesto
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -183,17 +183,17 @@ The [Untappd beer description](https://untappd.com/b/firestone-walker-brewing-co
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -219,7 +219,7 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 
 ## links
 
-- [Untappd: Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998)
+- [Untappd (hand-read citation): Krieky Koelschip](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998)
 - [Firestone Walker: Barrelworks](https://www.firestonewalker.com/barrelworks/)
 - [Firestone Walker: our beers](https://www.firestonewalker.com/our-beers/)
 - [Firestone Walker](https://www.firestonewalker.com/)
@@ -227,8 +227,8 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc).
 
 ## research-notes
 

@@ -23,7 +23,7 @@ brewery-type: "micro"
 categories-won:
   - "Contemporary Gose"
   - "Fruited Wood- and Barrel-Aged Sour Beer"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Afton"
 employees: null
 farms-named: []

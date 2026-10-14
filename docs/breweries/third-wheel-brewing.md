@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "St. Peters"
 employees: null
 farms-named: []

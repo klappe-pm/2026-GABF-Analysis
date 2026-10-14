@@ -37,6 +37,7 @@ gaps:
   - "founded"
   - "ownership"
 hops-used:
+  - "../hops/varieties/ariana.md"
   - "../hops/varieties/callista.md"
   - "../hops/varieties/fuggle.md"
 instagram: "https://www.instagram.com/blacklungbrewing_grayslake/"
@@ -78,7 +79,7 @@ Black Lung Brewing Co. of Grayslake, IL has won 1 GABF medal (0 gold, 1 silver, 
 
 ## hops
 
-- Ariana, 1 beer
+- [Ariana](../hops/varieties/ariana.md), 1 beer
 - [Callista](../hops/varieties/callista.md), 1 beer
 - [Fuggle](../hops/varieties/fuggle.md), 1 beer
 

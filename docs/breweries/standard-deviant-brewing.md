@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "San Francisco"
 employees: null
 farms-named: []

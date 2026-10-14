@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/090-new-zealand-style-pale-ale-2-glenwood-canyon-brewing-co-endless-groove.md"
 brewery-type: null
 categories-won:
-  - "Dortmunder or German-Style Oktoberfest"
-  - "Munich-Style Helles"
-  - "New Zealand-Style Pale Ale"
+  - "Dortmunder or German Oktoberfest"
+  - "Munich Helles"
+  - "New Zealand Pale Ale"
 city: "Glenwood Springs"
 employees: null
 farms-named: []

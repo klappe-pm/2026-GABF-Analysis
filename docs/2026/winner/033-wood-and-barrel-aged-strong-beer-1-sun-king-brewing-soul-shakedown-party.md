@@ -198,42 +198,42 @@ Soul Shakedown Party is a barrel-aged specialty beer from Sun King Brewing, an I
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Rum barrel aged Scotch ale | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
-| ABV | 13.7% (Untappd listing) | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
-| IBU | 30 | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | Wee Muckle base; rum barrel aging | [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| Style | Rum barrel aged Scotch ale | [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| ABV | 13.7% (Untappd listing) | [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| IBU | 30 | [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Wee Muckle base; rum barrel aging | [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879) |
 
 ## brewery-description
 
 > Soul Shakedown Party uses rum barrel aging to round out the huge toffee and port character of our Wee Muckle Scotch Ale
 
-Source: [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
+Source: [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The listing gives molasses and orange peel as flavors rather than confirmed additions; no recipe ingredients are entered. [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
+The listing gives molasses and orange peel as flavors rather than confirmed additions; no recipe ingredients are entered. [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -262,7 +262,7 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 ## links
 
 - [BeerAdvocate: Soul Shakedown Party](https://www.beeradvocate.com/beer/profile/20672/119571/)
-- [Untappd: Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
+- [Untappd (hand-read citation): Soul Shakedown Party](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879)
 - [Sun King Brewing](https://www.sunkingbrewing.com/)
 - [Sun King: our beers](https://www.sunkingbrewing.com/our-beers)
 - [Sun King: blog](https://www.sunkingbrewing.com/blog)
@@ -271,7 +271,7 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/20672/119571/), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), web searches recorded in the research notes, [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/20672/119571/), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), web searches recorded in the research notes, [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party).
 
 ## research-notes
 

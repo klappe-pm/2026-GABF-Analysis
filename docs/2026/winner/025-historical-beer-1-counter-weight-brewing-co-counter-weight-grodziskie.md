@@ -128,12 +128,12 @@ Counter Weight Grodziskie is a low-strength Polish style smoked wheat beer brewe
 |---|---|---|
 | Style | Polish Style Smoked Beer | [Counter Weight: all brews](https://www.counterweightbrewing.com/brews/) |
 | ABV | 3.4% | [Counter Weight: all brews](https://www.counterweightbrewing.com/brews/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Czech-sourced hops (varieties not named) | [Counter Weight: all brews](https://www.counterweightbrewing.com/brews/) |
 | Malts and grains | 100% oak-smoked wheat | [Counter Weight: all brews](https://www.counterweightbrewing.com/brews/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -155,16 +155,16 @@ The brewery names a single grain, oak-smoked wheat, making up the entire grist, 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Czech hops | Czech hops | not published | not published | not published | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
+| Czech hops | Czech hops | Not Found | Not Found | Not Found | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brewed with 100% oak-smoked wheat and a hearty dose of Czech-sourced hops | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
 
 ## style-context
@@ -197,8 +197,8 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 
 ## gaps
 
-- Not published: IBU. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 

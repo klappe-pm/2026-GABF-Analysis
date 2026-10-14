@@ -27,12 +27,12 @@ categories-won:
   - "American Sour Ale"
   - "Experimental Beer"
   - "Field Beer"
+  - "German Altbier"
+  - "German Koelsch"
   - "German Sour Ale"
-  - "German-Style Altbier"
-  - "German-Style Koelsch"
   - "Honey Beer"
   - "Imperial Stout"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Bend"
 employees: null
 farms-named: []

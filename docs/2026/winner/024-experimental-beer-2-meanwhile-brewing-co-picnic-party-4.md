@@ -166,22 +166,22 @@ Picnic Party #4 is a beer from Meanwhile Brewing Co. in Austin, Texas.
 |---|---|---|
 | Style | Paper Plane Lager | [Meanwhile: August release announcement](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup) |
 | ABV | 5.4% | [Meanwhile: August release announcement](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup) |
-| IBU | 25 | [Untappd: Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | Blend of amber lager and barrel aged barleywine | [Untappd: Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos) |
+| IBU | 25 | [Untappd (hand-read citation): Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Blend of amber lager and barrel aged barleywine | [Untappd (hand-read citation): Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos) |
 
 ## brewery-description
 
 > The final installation in our Picnic Party series brings delicious layers of complexity.
 
-Source: [Untappd: Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos)
+Source: [Untappd (hand-read citation): Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -189,16 +189,16 @@ The release announcement describes orange peel, gentian root, chamomile and fenn
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Paper Plane Lager, a lager inspired by the classic cocktail, released in 750ml bottles | [meanwhilebeer.com](https://www.meanwhilebeer.com/events/summer-picnic-party-no-4-%2D-beer-release) |
 
 ## style-context
@@ -226,14 +226,14 @@ Links checked 2026-10-14: [Website](https://www.meanwhilebeer.com/), [Instagram]
 ## links
 
 - [Meanwhile: August release announcement](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup)
-- [Untappd: Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos)
+- [Untappd (hand-read citation): Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos)
 - [Meanwhile Brewing Co.](https://www.meanwhilebeer.com/)
 - [Meanwhile: beer list](https://www.meanwhilebeer.com/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [say-my-name.prezly.com](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup), [untappd.com](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos), [meanwhilebeer.com](https://www.meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer), web searches recorded in the research notes, [meanwhilebeer.com](https://www.meanwhilebeer.com/events/summer-picnic-party-no-4-%2D-beer-release).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [say-my-name.prezly.com](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup), [untappd.com](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos), [meanwhilebeer.com](https://www.meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer), web searches recorded in the research notes, [meanwhilebeer.com](https://www.meanwhilebeer.com/events/summer-picnic-party-no-4-%2D-beer-release).
 
 ## research-notes
 

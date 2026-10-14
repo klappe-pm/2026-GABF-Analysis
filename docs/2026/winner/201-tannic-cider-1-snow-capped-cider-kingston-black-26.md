@@ -189,13 +189,13 @@ Kingston Black 26 is a single varietal cider from Snow Capped Cider of Colorado 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published for this exact name (category name used) | none found |
+| Style | not published for this exact name (category name used) | Not Found |
 | ABV | not published for this exact name; the Reserve bottle lists 8.4%, the can lists 8.5% | [Snow Capped: Kingston Black Reserve](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based: 100% Kingston Black on both candidate pages) | [Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Reserve bottle: 750 ml, aged 3 years; can: 12 fl oz, completely dry, club members and taproom only | [Snow Capped: Kingston Black Reserve](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) |
 
 ## brewery-description
@@ -216,16 +216,16 @@ Both candidate listings describe single varietal Kingston Black cider. The Reser
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | 100% single varietal Kingston Black from the cidery's high elevation orchards, completely dry | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) |
 
 ## style-context
@@ -261,8 +261,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: ABV, IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 

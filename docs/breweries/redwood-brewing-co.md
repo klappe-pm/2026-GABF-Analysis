@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/075-saison-2-redwood-brewing-co-stable-genius.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style or French-Style Specialty Ale"
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian or French Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "Saison"
 city: "Flint"
 employees: null

@@ -158,13 +158,13 @@ House of Zest is a Brettanomyces saison with orange peel, yuzu and white pepperc
 | Field | Value | Source |
 |---|---|---|
 | Style | Brett Saison | [False Idol Brewing: home page](https://www.falseidolbrew.com/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Brettanomyces | [False Idol Brewing: home page](https://www.falseidolbrew.com/) |
 | Adjuncts, fruit, spices | Orange peel, yuzu, white peppercorn | [False Idol Brewing: home page](https://www.falseidolbrew.com/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -174,7 +174,7 @@ Source: [False Idol Brewing: home page](https://www.falseidolbrew.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -182,16 +182,16 @@ The only published ingredients are the Brettanomyces fermentation and the orange
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brett saison with orange peel, yuzu and white peppercorn, brewed in collaboration with Boulevard Brewing | [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/) |
 
 ## style-context
@@ -220,13 +220,13 @@ Links checked 2026-10-14: [Website](https://www.falseidolbrew.com/), [Instagram]
 
 - [False Idol Brewing](https://www.falseidolbrew.com/)
 - [False Idol Brewing: our beers](https://www.falseidolbrew.com/false-idol-beer/)
-- [Untappd: False Idol taproom menu](https://untappd.com/v/false-idol-brewing/8496115)
+- [Untappd (hand-read citation): False Idol taproom menu](https://untappd.com/v/false-idol-brewing/8496115)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [falseidolbrew.com](https://www.falseidolbrew.com/2025/12/05/house-of-zest/).
 
 ## research-notes
 

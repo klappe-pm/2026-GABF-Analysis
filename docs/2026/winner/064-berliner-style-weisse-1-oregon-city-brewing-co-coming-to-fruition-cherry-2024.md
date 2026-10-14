@@ -130,24 +130,24 @@ Coming To Fruition: Cherry is an oak aged wheat sour finished on whole Montmoren
 
 | Field | Value | Source |
 |---|---|---|
-| Style | American wild sour (Untappd category: Wild Ale, American) | [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
-| ABV | 6% (series listing, not vintage specific) | [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
-| IBU | 5 | [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
-| Hops | not published | none found |
+| Style | American wild sour (Untappd category: Wild Ale, American) | [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
+| ABV | 6% (series listing, not vintage specific) | [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
+| IBU | 5 | [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830) |
+| Hops | Not Found | Not Found |
 | Malts and grains | imported German wheat and Pilsner base malt | [New School Beer: Coming to Fruition](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry) |
 | Yeast | clean house ale yeast and Imperial Suburban Brett (Brettanomyces); wort pre-acidified to the low 3.0s pH | [New School Beer: Coming to Fruition](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry) |
 | Adjuncts, fruit, spices | about 3 pounds per gallon of fresh, ripe Montmorency cherries, pits in, lightly mashed | [New School Beer: Coming to Fruition](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry) |
-| Other | aged a year in French oak barrels, about 60 barrels per blend | [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830), [New School Beer](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry) |
+| Other | aged a year in French oak barrels, about 60 barrels per blend | [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830), [New School Beer](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry) |
 
 ## brewery-description
 
 > Coming To Fruition is just that: an idea. We started with multiple barrels of a multi-fermentation sour, and aged them in French oak for a year. Then we added tart cherries for the last four months of the aging process, and blended them for this delectable American wild sour.
 
-Source: [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
+Source: [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -155,17 +155,17 @@ In a 2022 brewer's account published by [New School Beer](https://newschoolbeer.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -192,13 +192,13 @@ Links checked 2026-10-14: [Website](https://www.ocbeerco.com/), [Untappd](https:
 ## links
 
 - [Oregon City Brewing Co.](https://www.ocbeerco.com/)
-- [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
+- [Untappd (hand-read citation): Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
 - [New School Beer: Coming to Fruition](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry), [untappd.com](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830), [ocbeerco.com](https://www.ocbeerco.com/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry), [untappd.com](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830), [ocbeerco.com](https://www.ocbeerco.com/), web searches recorded in the research notes.
 
 ## research-notes
 

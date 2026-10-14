@@ -23,10 +23,10 @@ beers-2026:
   - "../2026/winner/054-dortmunder-or-german-style-festbier-3-counter-weight-brewing-co-counter-weight-fest-bier.md"
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
-  - "Dortmunder or German-Style Festbier"
+  - "American Lager"
+  - "Dortmunder or German Festbier"
   - "Historical Beer"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Cheshire"
 employees: null
 farms-named: []
@@ -40,7 +40,8 @@ gaps:
   - "brewery-type"
   - "founded"
   - "ownership"
-hops-used: []
+hops-used:
+  - "../hops/varieties/hallertauer-mittelfruh.md"
 instagram: "https://www.instagram.com/counterweightbrewingco/"
 known-for: []
 last-medal-year: 2026
@@ -89,7 +90,7 @@ Counter Weight Brewing Co. of Cheshire, CT has won 6 GABF medals (3 gold, 1 silv
 ## hops
 
 - Czech hops, 1 beer
-- Hallertau, 1 beer
+- [Hallertauer Mittelfruh](../hops/varieties/hallertauer-mittelfruh.md), 1 beer
 
 ## related
 

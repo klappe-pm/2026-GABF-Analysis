@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/072-irish-style-red-ale-3-logoff-brewing-dragonfire.md"
 brewery-type: "planning"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Rancho Cordova"
 employees: null
 farms-named: []

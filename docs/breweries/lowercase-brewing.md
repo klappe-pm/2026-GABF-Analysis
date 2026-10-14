@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "closed"
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
 city: "Seattle"
 employees: null
 farms-named: []

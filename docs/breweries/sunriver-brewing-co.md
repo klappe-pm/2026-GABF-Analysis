@@ -23,12 +23,12 @@ beers-2026:
   - "../2026/winner/103-fresh-hop-beer-3-sunriver-brewing-co-figata-fresca.md"
 brewery-type: null
 categories-won:
+  - "American Pale Ale"
+  - "American Strong Pale Ale"
   - "American Wheat Beer"
-  - "American-Style Pale Ale"
-  - "American-Style Strong Pale Ale"
   - "Fresh Hop Beer"
-  - "Italian-Style Pilsener"
-  - "Scottish-Style Ale"
+  - "Italian Pilsener"
+  - "Scottish Ale"
 city: "Sunriver"
 employees: null
 farms-named: []

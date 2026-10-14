@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/020-german-style-strong-beer-2-northbound-smokehouse-brewpub-eisbock.md"
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Doppelbock or Eisbock"
-  - "German-Style Strong Beer"
+  - "German Doppelbock or Eisbock"
+  - "German Strong Beer"
 city: "Minneapolis"
 employees: null
 farms-named: []

@@ -159,7 +159,7 @@ Because Science is a hazy IPA from Bend Brewing Co. in Bend, Oregon.
 | Malts and grains | Gabrinus Pils, North Star Pils, white wheat, rolled oats, chit malt | [Beer listing](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 | Yeast | London Ale yeast | [Beer listing](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 | Adjuncts, fruit, spices | Brewers Crystals | [Beer listing](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -169,7 +169,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/bend-brewing-comp
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -179,21 +179,21 @@ The listing describes a cooled whirlpool followed by dry hopping; fruit names de
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Citra DynaBoost | Citra | DynaBoost | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Dolcita | Dolcita | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Dolcita DynaBoost | Dolcita | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
-| Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Citra DynaBoost | Citra | DynaBoost | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Dolcita | Dolcita | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Dolcita DynaBoost | Dolcita | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
+| Krush | Krush | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -230,7 +230,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-because-science-hazy-ipa/5921391), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

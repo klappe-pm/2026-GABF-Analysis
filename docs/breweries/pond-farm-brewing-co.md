@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Session Beer or Belgian-Style Table Beer"
+  - "Session Beer or Belgian Table Beer"
 city: "San Rafael"
 employees: null
 farms-named: []

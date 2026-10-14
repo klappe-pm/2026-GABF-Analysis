@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Belgo-Style Ale"
-  - "Bohemian-Style Pilsener"
+  - "American-Belgo Ale"
+  - "Bohemian Pilsener"
 city: "Lorton"
 employees: null
 farms-named: []

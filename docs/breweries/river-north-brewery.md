@@ -22,8 +22,8 @@ beers-2026:
   - "../2026/winner/078-belgian-style-strong-specialty-ale-3-river-north-brewery-quandary.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style or French-Style Specialty Ale"
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian or French Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "Chocolate Beer"
   - "Coffee Beer"
   - "Other Strong Beer"

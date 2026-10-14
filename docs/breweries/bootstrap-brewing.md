@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style Pale Ale"
+  - "American Pale Ale"
   - "Strong Red Ale"
 city: "Longmont"
 employees: null

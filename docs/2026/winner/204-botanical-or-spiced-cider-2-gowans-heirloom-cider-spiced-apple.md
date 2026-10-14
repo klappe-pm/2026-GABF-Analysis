@@ -143,10 +143,10 @@ Spiced Apple is an apple pie style cider of estate-grown organic heirloom apples
 |---|---|---|
 | Style | Spiced apple cider, "not too sweet" | [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider) |
 | ABV | 6.8% | [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based: Sierra Beauty, Red Jonathan and Philo Gold heirlooms) | [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Whole cinnamon, clove, orange | [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider) |
 | Other | 500 mL bottle; served cold or gently warmed | [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider) |
 
@@ -170,17 +170,17 @@ The product page names Sierra Beauty, Red Jonathan and Philo Gold heirloom apple
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -213,8 +213,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/spiced-apple-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/spiced-apple-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/spiced-apple-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/spiced-apple-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "Chicago"
 employees: null
 farms-named: []

@@ -143,10 +143,10 @@ Stone Cimmerian Portal is an American stout poured on draft at Stone Brewing's L
 | Style | American Stout | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | ABV | 6.5% | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 | IBU | 65 | [Catalog.beer: Cimmerian Portal](https://catalog.beer/beer/241e7720-ada6-40fa-af88-0ee56f087778) |
-| Hops | not published | none found |
+| Hops | Not Found | Not Found |
 | Malts and grains | contains wheat (allergen note; form not stated) | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | draft at Liberty Station main and garden bars | [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list) |
 
 ## brewery-description
@@ -159,7 +159,7 @@ Source: [Stone Liberty Station: draft list](https://www.stonebrewing.com/visit/b
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -167,17 +167,17 @@ Only the wheat allergen note is published; no hops, specific malts or yeast are 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -211,7 +211,7 @@ Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770), [stonebrewing.com](https://www.stonebrewing.com/beer), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770), [stonebrewing.com](https://www.stonebrewing.com/beer), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes.
 
 ## research-notes
 

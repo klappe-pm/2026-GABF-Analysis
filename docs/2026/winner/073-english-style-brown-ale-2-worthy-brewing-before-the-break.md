@@ -241,13 +241,13 @@ Before the Break is a brown ale from Worthy Brewing, a brewery and pub in Bend, 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published by the brewery; English-Style Brown Ale is the competition category | none found |
+| Style | not published by the brewery; English-Style Brown Ale is the competition category | Not Found |
 | ABV | 6.0% | [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | East Kent Goldings, Mittelfrüh, Tradition | [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | earlier 2026 awards: gold, Oregon Beer Awards (Classic UK and North American Styles); bronze, World Beer Cup | [Bend Source: Oregon Beer Awards](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/) |
 
 ## brewery-description
@@ -256,7 +256,7 @@ No description from the brewery was found; its beer page lists only six year-rou
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -266,19 +266,19 @@ The [brewery's pub ordering menu](https://order.toasttab.com/online/worthy-brewi
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| East Kent Goldings | East Kent Goldings | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
-| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
-| Tradition | Hallertauer Tradition | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
+| East Kent Goldings | East Kent Goldings | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
+| Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
+| Tradition | Hallertauer Tradition | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -311,13 +311,13 @@ Links checked 2026-10-14: [Website](https://worthybrewing.com/), [Instagram](htt
 - [New School Beer: Oregon at GABF 2026](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf)
 - [Bend Source: Oregon Beer Awards](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/)
 - [Bend Source: World Beer Cup results](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/)
-- [Untappd: Worthy Brewing beer list](https://untappd.com/w/worthy-brewing/62706/beer)
+- [Untappd (hand-read citation): Worthy Brewing beer list](https://untappd.com/w/worthy-brewing/62706/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
-- Not published: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
+- Not Found: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -155,8 +155,8 @@ The Sublime is Breakside Brewery's helles lager, first brewed with Templin Famil
 | IBU | 18 | [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/) |
 | Hops | Hersbrucker, Lorien | [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/) |
 | Malts and grains | German Pilsner malt | [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Flavor notes of sweet herbs, soft, baguette; kegs and cans; listed availability May to July 2024 | [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/) |
 
 ## brewery-description
@@ -179,17 +179,17 @@ The [brewery page](https://breakside.com/our_beer/the-sublime/) names German Pil
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hersbrucker | Hersbrucker | not published | whirlpool | not published | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
-| Lorien | Lorien | not published | whirlpool | not published | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
+| Hersbrucker | Hersbrucker | Not Found | whirlpool | Not Found | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
+| Lorien | Lorien | Not Found | whirlpool | Not Found | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Cool pooled, with a Pilsner level of hops added in the whirlpool for herbal and floral aroma without added bitterness | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
 
 ## style-context
@@ -224,7 +224,7 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Yeast, Adjuncts, Water. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/our_beer/the-sublime/), web searches recorded in the research notes, [breakside.com](https://breakside.com/our_beer-sitemap.xml), [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Yeast, Adjuncts, Water. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/our_beer/the-sublime/), web searches recorded in the research notes, [breakside.com](https://breakside.com/our_beer-sitemap.xml), [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/).
 
 ## research-notes
 

@@ -24,13 +24,13 @@ beers-2026:
   - "../2026/winner/065-gose-1-upp-liquids-flower-child.md"
 brewery-type: null
 categories-won:
-  - "Berliner-Style Weisse"
+  - "Berliner Weisse"
   - "Contemporary Gose"
   - "Field Beer"
   - "Gose"
   - "Honey Beer"
   - "Imperial Stout"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Bend"
 employees: null
 farms-named: []

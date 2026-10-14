@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "German-Style Altbier"
+  - "German Altbier"
 city: "Bellevue"
 employees: null
 farms-named: []

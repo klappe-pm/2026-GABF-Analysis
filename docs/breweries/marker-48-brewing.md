@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/072-irish-style-red-ale-1-marker-48-brewing-red-right-return.md"
 brewery-type: "micro"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Brooksville"
 employees: null
 farms-named: []

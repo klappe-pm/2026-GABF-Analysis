@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: "regional"
 categories-won:
   - "American Lager"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Washington"
 employees: null
 farms-named: []

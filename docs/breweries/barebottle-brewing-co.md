@@ -23,12 +23,12 @@ beers-2026:
   - "../2026/winner/098-imperial-india-pale-ale-1-barebottle-brewing-co-power-plants.md"
 brewery-type: "micro"
 categories-won:
-  - "American-Style Light Lager"
+  - "American Light Lager"
   - "Chili Beer"
   - "Imperial India Pale Ale"
   - "Juicy or Hazy Imperial India Pale Ale"
   - "Juicy or Hazy Strong Pale Ale"
-  - "New Zealand-Style India Pale Ale"
+  - "New Zealand India Pale Ale"
 city: "San Francisco"
 employees: null
 farms-named: []

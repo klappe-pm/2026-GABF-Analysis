@@ -178,10 +178,10 @@ Tropic Pines is an IPA from Bend Brewing Co. in Bend, Oregon, offered on tap and
 | Style | IPA | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
 | ABV | 6.5% | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
 | IBU | 65 | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
-| Hops | Chinook, Mosaic, Mosaic Cryo, Simcoe | [Untappd: Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Chinook, Mosaic, Mosaic Cryo, Simcoe | [Untappd (hand-read citation): Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on tap and in the to-go list | [Bend Brewing: beer](https://www.bendbrewingco.com/beer) |
 
 ## brewery-description
@@ -190,7 +190,7 @@ No brewery description of this beer was found; the beer page gives only its name
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -200,20 +200,20 @@ The [current beer entry](https://untappd.com/b/bend-brewing-company-tropic-pines
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
-| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Mosaic Cryo | Mosaic | Cryo | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -243,7 +243,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## links
 
-- [Untappd: Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116)
+- [Untappd (hand-read citation): Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116)
 - [Additional beer research](https://www.beerandbrewing.com/review/tropic-pines-ipa)
 - [Beer page on brewery site](https://www.bendbrewingco.com/beer)
 - [Bend Brewing Co.](https://www.bendbrewingco.com/)
@@ -251,7 +251,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116), [beerandbrewing.com](https://www.beerandbrewing.com/review/tropic-pines-ipa), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116), [beerandbrewing.com](https://www.beerandbrewing.com/review/tropic-pines-ipa), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

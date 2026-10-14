@@ -168,11 +168,11 @@ Rancho Cowabunga is a West Coast pilsner from Grains of Wrath Brewing of Camas, 
 |---|---|---|
 | Style | West Coast Pilsner | [TapHunter: Grains of Wrath beers](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560) |
 | ABV | 5.8% | [TapHunter: Grains of Wrath beers](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | light pilsner malt | [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Dedicated brewery beer page available | [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/) |
 
 ## brewery-description
@@ -191,17 +191,17 @@ The brewery page names light pilsner malt and new world hops, without hop variet
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -230,15 +230,15 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 - [Grains of Wrath: Rancho Cowabunga](https://gowbeer.com/beer/rancho-cowabunga/)
 - [Grains of Wrath Brewing](https://grainsofwrath.com/)
-- [Untappd: Grains of Wrath beer list](https://untappd.com/GrainsOfWrath/beer)
+- [Untappd (hand-read citation): Grains of Wrath beer list](https://untappd.com/GrainsOfWrath/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Belmont Station: Grains of Wrath event](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover)
 - [TapHunter: Grains of Wrath beers](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560)
 
 ## gaps
 
-- Not published: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
 
 ## research-notes
 

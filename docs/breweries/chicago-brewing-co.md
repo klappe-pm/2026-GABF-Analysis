@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Abbey Ale"
+  - "Belgian Abbey Ale"
   - "Chili Beer"
 city: "Las Vegas"
 employees: null

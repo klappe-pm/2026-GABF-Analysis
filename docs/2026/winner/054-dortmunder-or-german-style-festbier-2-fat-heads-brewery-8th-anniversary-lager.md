@@ -142,24 +142,24 @@ yeast: []
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Dortmunder / Export Lager | [Untappd: 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
-| ABV | 5.7% | [Untappd: 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
-| IBU | 31 | [Untappd: 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Dortmunder / Export Lager | [Untappd (hand-read citation): 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
+| ABV | 5.7% | [Untappd (hand-read citation): 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
+| IBU | 31 | [Untappd (hand-read citation): 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > A pale lager. Features a toasted malt sweetness with a crisp hop bitterness.
 
-Source: [Untappd: 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955)
+Source: [Untappd (hand-read citation): 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -167,17 +167,17 @@ No ingredients are published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -206,11 +206,11 @@ Links checked 2026-10-14: [Website](https://fatheads.com/), [Instagram](https://
 - [Fat Head's Brewery](https://fatheads.com/)
 - [Fat Head's: beer list](https://fatheads.com/beer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955)
+- [Untappd (hand-read citation): 8th Anniversary Lager](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fatheads.com](https://fatheads.com/), [fatheads.com](https://fatheads.com/beer/), [untappd.com](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fatheads.com](https://fatheads.com/), [fatheads.com](https://fatheads.com/beer/), [untappd.com](https://untappd.com/b/fat-head-s-brewery-8th-anniversary-lager/6836955), web searches recorded in the research notes.
 
 ## research-notes
 

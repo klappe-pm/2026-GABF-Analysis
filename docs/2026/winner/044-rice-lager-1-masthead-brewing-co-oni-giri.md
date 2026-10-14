@@ -166,12 +166,12 @@ Oni Giri is a Japanese-style rice lager hopped with Callista and Hallertau Blanc
 |---|---|---|
 | Style | Lager, Japanese Rice | [Tavour: Oni Giri](https://beerdb.tavour.com/b/oni-giri-b490663) |
 | ABV | 4.5% | [Tavour: Oni Giri](https://beerdb.tavour.com/b/oni-giri-b490663) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Callista, Hallertau Blanc | [Tavour: Oni Giri](https://beerdb.tavour.com/b/oni-giri-b490663) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Flaked rice in the mash | [Tavour: Oni Giri](https://beerdb.tavour.com/b/oni-giri-b490663) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -183,7 +183,7 @@ Source: [Tavour: Oni Giri](https://beerdb.tavour.com/b/oni-giri-b490663)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -193,18 +193,18 @@ The [Tavour listing](https://beerdb.tavour.com/b/oni-giri-b490663) names Callist
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Callista | Callista | not published | not published | not published | [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663) |
-| Hallertau Blanc | Hallertau Blanc | not published | not published | not published | [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663) |
+| Callista | Callista | Not Found | Not Found | Not Found | [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663) |
+| Hallertau Blanc | Hallertau Blanc | Not Found | Not Found | Not Found | [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -237,8 +237,8 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

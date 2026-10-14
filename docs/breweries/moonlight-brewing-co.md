@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Bohemian-Style Pilsener"
+  - "Bohemian Pilsener"
   - "Classic Saison"
 city: "Santa Rosa"
 employees: null

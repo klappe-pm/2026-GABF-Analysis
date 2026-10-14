@@ -146,14 +146,14 @@ Endless Groove is a beer from Glenwood Canyon Brewing Co., a brewpub in downtown
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
+| Style | not published (category name used) | Not Found |
 | ABV | 5.95% | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
 | IBU | 63.3 | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
 | Hops | Mosaic, Nectaron, Riwaka | [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -161,7 +161,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -171,19 +171,19 @@ The [brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-br
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mosaic | Mosaic | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
-| Nectaron | Nectaron | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
-| Riwaka | Riwaka | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Nectaron | Nectaron | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Riwaka | Riwaka | Not Found | Not Found | Not Found | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -218,7 +218,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street), web searches recorded in the research notes, no brewery website on file.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street), web searches recorded in the research notes, no brewery website on file.
 
 ## research-notes
 

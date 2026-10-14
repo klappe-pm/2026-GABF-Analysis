@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/076-belgian-style-abbey-ale-1-liability-brewing-co-feral-garden-gnome.md"
 brewery-type: "planning"
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Blonde Ale"
+  - "Belgian Abbey Ale"
+  - "Belgian Blonde Ale"
 city: "Greenville"
 employees: null
 farms-named: []

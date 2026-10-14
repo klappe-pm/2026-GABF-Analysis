@@ -22,7 +22,7 @@ brewery-type: null
 categories-won:
   - "American Wheat Beer"
   - "English Ale"
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
 city: "Helena"
 employees: null
 farms-named: []

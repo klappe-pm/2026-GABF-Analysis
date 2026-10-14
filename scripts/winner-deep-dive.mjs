@@ -91,7 +91,7 @@ const host = (url) => { try { const h = new URL(url).hostname.replace(/^www\./, 
 // A literal double hyphen in a URL is escaped so the prose check does not read it as a dash.
 const link = (url) => (/^https?:\/\//.test(String(url)) ? `[${host(url)}](${String(url).replace(/--/g, '-%2D')})` : String(url));
 const cell = (v) => String(v ?? '').replace(/\|/g, '&#124;');
-const sourceCell = (url) => (url ? link(url) : 'none found');
+const sourceCell = (url) => (url ? link(url) : 'Not Found');
 
 // Seed values from the existing body.
 function seedDescription(body) {
@@ -184,12 +184,12 @@ export function deepDive(text, ctx, file = '') {
   // body
   let body = body0;
   const tn = d['tasting-notes'];
-  body = setSection(body, 'tasting-notes', tn ? `> ${tn.text}\n\nSource: ${link(tn.source)}` : 'The brewery has published no tasting notes for this beer that the research could find.', ['brewery-description']);
+  body = setSection(body, 'tasting-notes', tn ? `> ${tn.text}\n\nSource: ${link(tn.source)}` : 'Not Found', ['brewery-description']);
   const hp = d['hop-profile'] ?? [];
   body = setSection(body, 'hop-profile', hp.length
-    ? `| Hop as published | Variety | Form | Use | Lot or farm | Source |\n|---|---|---|---|---|---|\n${hp.map((h) => `| ${cell(h.published)} | ${cell(h.variety)} | ${cell(h.form ?? 'not published')} | ${cell(h.use ?? 'not published')} | ${cell(h['lot-or-farm'] ?? 'not published')} | ${sourceCell(h.source)} |`).join('\n')}`
-    : 'No hop variety is published for this beer.', ['ingredients']);
-  const detail = (label, v) => `| ${label} | ${v ? cell(v.value) : 'not published'} | ${v ? sourceCell(v.source) : 'none found'} |`;
+    ? `| Hop as published | Variety | Form | Use | Lot or farm | Source |\n|---|---|---|---|---|---|\n${hp.map((h) => `| ${cell(h.published)} | ${cell(h.variety)} | ${cell(h.form ?? 'Not Found')} | ${cell(h.use ?? 'Not Found')} | ${cell(h['lot-or-farm'] ?? 'Not Found')} | ${sourceCell(h.source)} |`).join('\n')}`
+    : 'Not Found', ['ingredients']);
+  const detail = (label, v) => `| ${label} | ${v ? cell(v.value) : 'Not Found'} | ${v ? sourceCell(v.source) : 'Not Found'} |`;
   body = setSection(body, 'brewing-details', `| Field | Value | Source |\n|---|---|---|\n${detail('Color (SRM)', d.srm)}\n${detail('Original gravity', d.og)}\n${detail('Final gravity', d.fg)}\n${detail('Water', d.water)}\n${detail('Process', d.process)}`, ['hop-profile']);
   const awards = awardsFor(ctx, d.brewery, d.beer);
   body = setSection(body, 'awards-history', `${awards.length ? `| Year | Competition | Category | Medal |\n|---|---|---|---|\n${awards.map((a) => `| ${a.year} | ${COMPETITION[a.competition] ?? cell(a.competition)} | ${cell(a.category_name)} | ${cell(a.medal)} |`).join('\n')}` : 'No medal rows for this beer are loaded.'}\n\nGenerated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.`, ['style-context']);
@@ -210,7 +210,7 @@ export function deepDive(text, ctx, file = '') {
     groups.get(k).fields.push(GAP_LABEL[g.field] ?? g.field);
   }
   body = setSection(body, 'gaps', gaps.length
-    ? [...groups.values()].map((g) => `- Not published: ${g.fields.join(', ')}. Checked ${g.checked.length ? g.checked.map(link).join(', ') : 'no source yet'}.`).join('\n')
+    ? [...groups.values()].map((g) => `- Not Found: ${g.fields.join(', ')}. Checked ${g.checked.length ? g.checked.map(link).join(', ') : 'no source yet'}.`).join('\n')
     : 'Every field has a published value.', ['links']);
 
   // frontmatter

@@ -24,7 +24,7 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Experimental Beer"
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "Asheville"
 employees: null
 farms-named: []

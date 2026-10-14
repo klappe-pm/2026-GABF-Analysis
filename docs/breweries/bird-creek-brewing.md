@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Pale Ale"
+  - "American Pale Ale"
 city: "Temple"
 employees: null
 farms-named: []

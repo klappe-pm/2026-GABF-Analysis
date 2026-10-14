@@ -145,12 +145,12 @@ Dark Matter is a roasty porter brewed with wheat from Logboat Brewing Co. in Col
 | Field | Value | Source |
 |---|---|---|
 | Style | Porter (Untappd lists it as Dark Matter Wheat Porter) | [Logboat: Dark Matter](https://www.logboatbrewing.com/dark-matter) |
-| ABV | 6.6% | [Untappd: Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142) |
-| IBU | 25 | [Untappd: Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142) |
+| ABV | 6.6% | [Untappd (hand-read citation): Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142) |
+| IBU | 25 | [Untappd (hand-read citation): Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142) |
 | Hops | Willamette | [Logboat: Dark Matter](https://www.logboatbrewing.com/dark-matter) |
 | Malts and grains | Chocolate malt, other roasted malts (unnamed), wheat malt | [Logboat: Dark Matter](https://www.logboatbrewing.com/dark-matter) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed among core beers | [Logboat: beers](https://www.logboatbrewing.com/beers) |
 
 ## brewery-description
@@ -173,17 +173,17 @@ The brewery's beer page names Willamette hops, chocolate malt and other roasted 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Willamette | Willamette | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter) |
+| Willamette | Willamette | Not Found | Not Found | Not Found | [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Deep, dark brown with ruby notes (no SRM number published) | [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -213,12 +213,12 @@ Links checked 2026-10-14: [Website](https://www.logboatbrewing.com/), [Instagram
 - [Beer page on brewery site](https://www.logboatbrewing.com/dark-matter)
 - [Logboat Brewing Co.](https://www.logboatbrewing.com/)
 - [Logboat: beers](https://www.logboatbrewing.com/beers)
-- [Untappd: Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142)
+- [Untappd (hand-read citation): Dark Matter Wheat Porter](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -124,11 +124,11 @@ Mystic Voyage is a blueberry and lemon sour ale built on a Berliner Weisse style
 | Style | Blueberry + Lemon Sour Ale (Berliner Weisse style base) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 | ABV | 5.5% (as of summer 2023) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 | IBU | 15 | [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Real blueberries, lemons, milk sugar (lactose) | [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 | Beer page | Brewery page naming this beer | [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage) |
 
 ## brewery-description
@@ -151,16 +151,16 @@ The brewmaster names real blueberries, lemons and a touch of milk sugar added to
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Berliner Weisse style ale with 100 percent real blueberries and lemons and a touch of milk sugar | [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 
 ## style-context
@@ -194,7 +194,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/), [greatbasinbrewingco.com](https://www.greatbasinbrewingco.com/mystic-voyage), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/), [greatbasinbrewingco.com](https://www.greatbasinbrewingco.com/mystic-voyage), web searches recorded in the research notes.
 
 ## research-notes
 

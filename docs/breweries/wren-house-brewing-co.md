@@ -23,8 +23,8 @@ beers-2026:
   - "../2026/winner/054-dortmunder-or-german-style-festbier-1-wren-house-brewing-co-festbier.md"
 brewery-type: "micro"
 categories-won:
-  - "Dortmunder or German-Style Festbier"
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Festbier"
+  - "Dortmunder or German Oktoberfest"
   - "Extra Special Bitter"
   - "Juicy or Hazy Imperial India Pale Ale"
   - "Wood- and Barrel-Aged Beer"

@@ -23,7 +23,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "English Ale"
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Sylvania"
 employees: null
 farms-named: []

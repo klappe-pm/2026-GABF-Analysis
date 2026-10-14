@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "Strong Porter"
 city: "Oceanside"
 employees: null

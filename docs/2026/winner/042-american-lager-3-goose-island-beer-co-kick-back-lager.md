@@ -224,14 +224,14 @@ Kick Back Lager is a lager from Goose Island Beer Co. of Chicago; no published d
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -239,7 +239,7 @@ No brewery description of the beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -247,17 +247,17 @@ Nothing is published about the ingredients.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -284,14 +284,14 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 ## links
 
 - [Goose Island: all beers](https://www.gooseisland.com/view-all)
-- [Untappd: Goose Island beer list](https://untappd.com/GooseIsland/beer)
+- [Untappd (hand-read citation): Goose Island beer list](https://untappd.com/GooseIsland/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Goose Island: Salt Shed pub](https://www.gooseisland.com/saltshedpub)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager.
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

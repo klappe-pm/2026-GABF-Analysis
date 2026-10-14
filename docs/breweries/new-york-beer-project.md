@@ -24,7 +24,7 @@ beers-2026:
   - "../2026/winner/101-juicy-or-hazy-india-pale-ale-3-new-york-beer-project-the-goat.md"
 brewery-type: "brewpub"
 categories-won:
-  - "American-Style Light Lager"
+  - "American Light Lager"
   - "Classic Saison"
   - "Experimental India Pale Ale"
   - "Juicy or Hazy India Pale Ale"

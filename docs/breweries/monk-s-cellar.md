@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/078-belgian-style-strong-specialty-ale-2-monks-cellar-diabolique.md"
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
 city: "Roseville"
 employees: null
 farms-named: []

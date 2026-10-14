@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
 city: "Lakewood"
 employees: null
 farms-named: []

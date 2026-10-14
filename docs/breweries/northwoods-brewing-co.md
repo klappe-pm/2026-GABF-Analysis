@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "British Strong Ale or Aged Beer"
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
 city: "Northwood"
 employees: null
 farms-named: []

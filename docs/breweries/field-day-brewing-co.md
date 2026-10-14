@@ -23,8 +23,8 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Fruit Beer"
+  - "International Amber Lager"
   - "International Dark Lager"
-  - "International-Style Amber Lager"
 city: "North Liberty"
 employees: null
 farms-named: []

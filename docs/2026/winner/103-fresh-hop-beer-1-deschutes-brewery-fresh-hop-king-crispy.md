@@ -185,13 +185,13 @@ Fresh Hop King Crispy is a fresh hop version of King Crispy, the year-round Germ
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published for the fresh hop version (category name used) | none found |
-| ABV | not published for the fresh hop version | none found |
-| IBU | not published for the fresh hop version | none found |
-| Hops | not published for the fresh hop version | none found |
-| Malts and grains | not published for the fresh hop version | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Style | not published for the fresh hop version (category name used) | Not Found |
+| ABV | not published for the fresh hop version | Not Found |
+| IBU | not published for the fresh hop version | Not Found |
+| Hops | not published for the fresh hop version | Not Found |
+| Malts and grains | not published for the fresh hop version | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | the base King Crispy Pilsner is 4.8% ABV and 30 IBU | [Deschutes: King Crispy Pilsner](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner) |
 
 ## brewery-description
@@ -204,7 +204,7 @@ Source: [Deschutes: King Crispy Pilsner](https://deschutesbrewery.com/collection
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -212,17 +212,17 @@ Nothing is published for the fresh hop version. The base King Crispy Pilsner pag
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -255,8 +255,8 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm.
-- Not published: ABV, IBU. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm.
+- Not Found: ABV, IBU. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, web search 2026-10-14: Deschutes Fresh Hop King Crispy 2026 fresh hops farm, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

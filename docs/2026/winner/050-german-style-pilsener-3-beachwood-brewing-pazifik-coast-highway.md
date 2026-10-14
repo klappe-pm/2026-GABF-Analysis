@@ -154,10 +154,10 @@ Pazifik Coast Highway is a German-style pilsner from Beachwood Brewing, poured a
 | Style | German-Style Pilsner | [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.html) |
 | ABV | 5.5% | [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.html) |
 | IBU | 33 | [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.html) |
-| Hops | Hallertau Mittelfrüh | [Untappd: Pazifik Coast Highway details](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Hallertau Mittelfrüh | [Untappd (hand-read citation): Pazifik Coast Highway details](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | On the 2nd & PCH taproom tap list | [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.html) |
 
 ## brewery-description
@@ -180,17 +180,17 @@ The [matching Untappd description](https://untappd.com/b/beachwood-brewing-pazif
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -217,7 +217,7 @@ Links checked 2026-10-14: [Website](https://www.beachwoodbrewing.com/), [Instagr
 
 ## links
 
-- [Untappd: Pazifik Coast Highway details](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos)
+- [Untappd (hand-read citation): Pazifik Coast Highway details](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos)
 - [Beer page on brewery site](https://beachwoodbrewing.com/secondpch.html)
 - [Beachwood Brewing](https://www.beachwoodbrewing.com/)
 - [Beachwood: locations and tap lists](https://beachwoodbrewing.com/locations.html)
@@ -225,7 +225,7 @@ Links checked 2026-10-14: [Website](https://www.beachwoodbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/locations.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/locations.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
