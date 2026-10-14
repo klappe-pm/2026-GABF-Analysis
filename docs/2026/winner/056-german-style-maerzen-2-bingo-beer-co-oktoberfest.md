@@ -30,24 +30,13 @@ description:
 entries: 184
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bingobeerco.com/beer/oktoberfest/"
-      - "https://bingobeerco.com/beers/"
-      - "https://www.bingobeerco.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://bingobeerco.com/beer/oktoberfest/"
       - "https://bingobeerco.com/beers/"
       - "https://www.bingobeerco.com/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://bingobeerco.com/beer/oktoberfest/"
-      - "https://bingobeerco.com/beers/"
-      - "https://www.bingobeerco.com/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://bingobeerco.com/beer/oktoberfest/"
@@ -132,9 +121,13 @@ sources:
   - "https://bingobeerco.com/beers/"
   - "https://www.bingobeerco.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Deep copper (no SRM number published)"
+  source: "https://bingobeerco.com/beer/oktoberfest/"
 style: "Marzen-style Lager"
-tasting-notes: null
+tasting-notes:
+  text: "a richly malty, medium bodied brew with loads of toasty melanoidin notes. German Mittlefrüh and Tettnang hops provide a touch of noble hop spice and enough balance for drinkability by the stein-full. Flavor Profile: Fresh Bread/Malty/Roasty"
+  source: "https://bingobeerco.com/beer/oktoberfest/"
 water: null
 yeast: []
 ---
@@ -170,7 +163,9 @@ Source: [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> a richly malty, medium bodied brew with loads of toasty melanoidin notes. German Mittlefrüh and Tettnang hops provide a touch of noble hop spice and enough balance for drinkability by the stein-full. Flavor Profile: Fresh Bread/Malty/Roasty
+
+Source: [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/)
 
 ## ingredients
 
@@ -187,7 +182,7 @@ The description adds that "German Mittlefrüh and Tettnang hops provide a touch 
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Deep copper (no SRM number published) | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -225,8 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -236,3 +231,4 @@ No brewery links have been checked yet.
 - IBU and yeast were not published on the brewery page.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, deep copper color, Melanoiden, Munich and Vienna malts and Hallertau Mittelfruh and Tettnang hops.

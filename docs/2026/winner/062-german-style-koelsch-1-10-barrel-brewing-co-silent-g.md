@@ -36,6 +36,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "tasting-notes"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "abv"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "ibu"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "srm"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -68,6 +72,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "og"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -76,6 +81,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "fg"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -84,6 +90,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "hops"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -92,6 +99,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "hop-form"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -100,6 +108,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "hop-use"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -108,6 +117,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "lot-or-farm"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -116,6 +126,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "malts"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -124,6 +135,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "yeast"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -132,6 +144,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "adjuncts"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -140,6 +153,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "water"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -148,6 +162,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
   - field: "process"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -156,6 +171,7 @@ gaps:
       - "https://www.10barrel.com/"
       - "https://www.greatamericanbeerfestival.com/2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 10 Barrel San Diego Silent G kolsch"
 hop-profile: []
 hops: []
 ibu: null
@@ -260,8 +276,8 @@ Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch.
+- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -271,3 +287,4 @@ Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Beer-name searches produced no technical specifications. New School Beer reports that the San Diego attribution was corrected to Oregon, while the opened official winners page still lists San Diego, CA; the official location is retained pending a corresponding official correction.
 - Field pass 2026-10-13: Additional brewery-domain and technical-field searches found no verified ABV, IBU, hop variety or brewery beer page for Silent G. The previously documented location issue was not revisited.
+- Deep dive pass 2026-10-14: a web search found only coverage of the San Diego brewpub, not this beer.

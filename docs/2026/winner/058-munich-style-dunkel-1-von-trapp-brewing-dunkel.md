@@ -31,10 +31,6 @@ description:
 entries: 49
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
@@ -96,7 +92,9 @@ sources:
   - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
 srm: null
 style: "Munich-style dark lager"
-tasting-notes: null
+tasting-notes:
+  text: "This Munich-style dark lager is brewed and fermented with traditional Bavarian ingredients and techniques, creating robust malt notes of caramel and chocolate with a smooth mouthfeel and crisp finish."
+  source: "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
 water: null
 yeast: []
 ---
@@ -132,7 +130,9 @@ Source: [Von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This Munich-style dark lager is brewed and fermented with traditional Bavarian ingredients and techniques, creating robust malt notes of caramel and chocolate with a smooth mouthfeel and crisp finish.
+
+Source: [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm)
 
 ## ingredients
 
@@ -182,7 +182,7 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -192,3 +192,4 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop searches and the brewery's Dunkel sell sheet yielded no named variety; sensory references to floral hops do not identify a cultivar.
+- Deep dive pass 2026-10-14: the brewery lagers page gives tasting words, 5.7% ABV and 22 IBU; no named hops or malts.
