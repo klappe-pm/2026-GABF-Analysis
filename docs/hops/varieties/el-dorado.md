@@ -16,7 +16,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "El Dorado"
+variety: "El Dorado"
 kind: "variety"
 origin-country: "United States"
 program: "CLS Farms, LLC (Moxee, Washington)"
@@ -61,7 +61,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Pear, watermelon, apricot, wintergreen, mandarin."
+As published by John I. Haas variety sheet: "Pear, watermelon, apricot, wintergreen, mandarin"
 
 ## acreage
 

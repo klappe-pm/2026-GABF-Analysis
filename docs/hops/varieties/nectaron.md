@@ -16,7 +16,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Nectaron"
+variety: "Nectaron"
 kind: "variety"
 origin-country: "New Zealand"
 program: "New Zealand Hops Ltd with Plant & Food Research"

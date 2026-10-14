@@ -17,7 +17,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Mt. Rainier"
+variety: "Mt. Rainier"
 kind: "variety"
 origin-country: "United States"
 program: "USDA Agricultural Research Service public breeding program (Corvallis, Oregon)"

@@ -20,7 +20,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Hallertauer Mittelfruh"
+variety: "Hallertauer Mittelfruh"
 kind: "variety"
 origin-country: "Germany"
 program: "German landrace"
@@ -67,7 +67,7 @@ NASS acreage is for U.S. grown Hallertauer Mittelfruher (Idaho only).
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Sage, rosemary, lavender, pine."
+As published by John I. Haas variety sheet: "Sage, rosemary, lavender, pine"
 
 ## acreage
 

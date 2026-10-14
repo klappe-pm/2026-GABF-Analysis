@@ -19,7 +19,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Strata"
+variety: "Strata"
 kind: "variety"
 origin-country: "United States"
 program: "Indie Hops (Oregon)"
@@ -66,7 +66,7 @@ Alpha, beta and cohumulone are single published values on the sheet.
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Melon, bubblegum, strawberries, fresh-rubbed sage."
+As published by John I. Haas variety sheet: "Melon, bubblegum, strawberries, fresh-rubbed sage"
 
 ## acreage
 

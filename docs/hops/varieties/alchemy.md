@@ -15,7 +15,7 @@ tags:
   - "blend"
   - "not-published"
   - "united-states"
-canonical-name: "Alchemy"
+variety: "Alchemy"
 kind: "blend"
 origin-country: "United States"
 program: "not published"
@@ -70,7 +70,7 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 
 ## gaps
 
-- Identity, breeder_program: not published in the sources checked (`https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout`)
+- Identity, breeder: not published in the sources checked (`https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout`)
 - Identity, year_released: not published in the sources checked (`https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout`)
 - Identity, parentage: not published in the sources checked (`https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout`)
 - Identity, Breeder program, trademark, release year and parentage: a search summary describes Alchemy as a blend of Pacific Northwest hops selected by Widmer Brothers brewers and pelletized together for the brewery; the page behind it returned an access block, so this is unconfirmed.

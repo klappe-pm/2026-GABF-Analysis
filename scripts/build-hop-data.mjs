@@ -29,7 +29,7 @@ export const MEASURES = [
 ];
 
 export const VARIETY_COLUMNS = [
-  'slug', 'canonical_name', 'kind', 'aliases', 'origin_country', 'us_grown', 'breeder_program', 'trademark', 'status', 'year_released', 'year_note', 'parentage',
+  'slug', 'canonical_variety', 'kind', 'aliases', 'origin_country', 'us_grown', 'breeder', 'trademark', 'status', 'year_released', 'year_note', 'parentage',
   'use', 'use_basis', 'alpha_class',
   ...MEASURES.flatMap((m) => [`${m.col}_min`, `${m.col}_max`]),
   'aroma_descriptors', 'aroma_attribution', 'nass_label',
@@ -79,7 +79,7 @@ export function buildVarietyRecords() {
     const missing = MEASURES.filter((m) => !ranges[m.key]).map((m) => m.label);
     const idSources = rec.src?.id ?? [];
     const idMissing = [];
-    if (!rec.program) idMissing.push('breeder_program');
+    if (!rec.program) idMissing.push('breeder');
     if (!rec.year) idMissing.push('year_released');
     if (!rec.parentage) idMissing.push('parentage');
     const idGapParts = idMissing.map((f) => {
@@ -96,12 +96,12 @@ export function buildVarietyRecords() {
     const published = useFromPublished(usePublished);
     const row = {
       slug,
-      canonical_name: rec.canonical,
+      canonical_variety: rec.canonical,
       kind: rec.kind ?? 'variety',
       aliases: (rec.aliases ?? []).join(';'),
       origin_country: rec.origin,
       us_grown: rec.nass || rec.origin === 'United States' ? 'yes' : 'no',
-      breeder_program: rec.program ?? '',
+      breeder: rec.program ?? '',
       trademark: rec.trademark ?? '',
       status: rec.status,
       year_released: rec.year ?? '',
@@ -110,7 +110,7 @@ export function buildVarietyRecords() {
       use: published || 'not published',
       use_basis: published ? usePublished : '',
       alpha_class: alphaClass(ranges.a),
-      aroma_descriptors: rec.aroma?.text ?? '',
+      aroma_descriptors: (rec.aroma?.text ?? '').replace(/\.$/, ''),
       aroma_attribution: rec.aroma?.by ?? '',
       nass_label: rec.nass ?? '',
       identity_source_urls: asList(idSources),
@@ -148,8 +148,8 @@ export function buildAliasRows(records) {
     rows.push({ alias, normalized: key, slug, canonical, kind });
   };
   for (const r of records) {
-    add(r.canonical_name, r.slug, r.canonical_name, 'canonical');
-    for (const alias of r.aliases ? r.aliases.split(';') : []) add(alias, r.slug, r.canonical_name, kindOfAlias(alias));
+    add(r.canonical_variety, r.slug, r.canonical_variety, 'canonical');
+    for (const alias of r.aliases ? r.aliases.split(';') : []) add(alias, r.slug, r.canonical_variety, kindOfAlias(alias));
   }
   for (const f of HOP_FORMS) for (const v of f.variants) rows.push({ alias: v, normalized: normalizeHopName(v), slug: '', canonical: f.form, kind: 'form' });
   return rows;
@@ -180,7 +180,7 @@ function acreageSection(row, acreage) {
       ? 'NASS names no line for this variety in the National Hop Report, so no state acreage is published for it.'
       : 'This variety is not grown commercially in the United States as far as the sources checked show, so US acreage does not apply.';
   }
-  const rows = acreage.filter((a) => a.variety === row.slug);
+  const rows = acreage.filter((a) => a.variety_slug === row.slug);
   const years = [...new Set(rows.map((a) => a.year))].sort();
   const states = ['Idaho', 'Oregon', 'Washington'];
   const cell = (state, year, measure) => {
@@ -223,10 +223,10 @@ export function buildPage(row, acreage) {
     'status: DONE',
     `aliases:${yamlList(aliases)}`,
     `tags:${yamlList(tags)}`,
-    `canonical-name: ${JSON.stringify(row.canonical_name)}`,
+    `variety: ${JSON.stringify(row.canonical_variety)}`,
     `kind: ${JSON.stringify(row.kind)}`,
     `origin-country: ${JSON.stringify(row.origin_country)}`,
-    `program: ${JSON.stringify(row.breeder_program || 'not published')}`,
+    `program: ${JSON.stringify(row.breeder || 'not published')}`,
     `proprietary-status: ${JSON.stringify(row.status)}`,
     `slug: ${JSON.stringify(row.slug)}`,
     `year-released: ${row.year_released ? JSON.stringify(row.year_released) : 'null'}`,
@@ -235,7 +235,7 @@ export function buildPage(row, acreage) {
   const measureRows = MEASURES.map((m) => `| ${m.label} | ${range(row[`${m.col}_min`], row[`${m.col}_max`])} | ${m.unit} |`).join('\n');
   const idRows = [
     ['Origin', row.origin_country],
-    ['Breeder or owner program', row.breeder_program || 'not published'],
+    ['Breeder or owner program', row.breeder || 'not published'],
     ['Trademark', row.trademark || 'none found'],
     ['Proprietary or public', row.status],
     ['Year released', row.year_released ? `${row.year_released}${row.year_note ? ` (${row.year_note})` : ''}` : 'not published'],
@@ -249,7 +249,7 @@ export function buildPage(row, acreage) {
   const lines = [
     fm, '',
     `# ${row.slug}`, '',
-    `${row.canonical_name} is ${row.kind === 'variety' ? 'a hop variety' : `a hop ${row.kind}`} from ${row.origin_country === 'United States' ? 'the United States' : row.origin_country}, ${row.status === 'proprietary' ? 'proprietary' : row.status === 'public' ? 'public' : 'with proprietary status not published'}${row.breeder_program ? `, from ${row.breeder_program}` : ''}. ${row.year_released ? `It was released in ${row.year_released}. ` : ''}${row.alpha_class ? `Its published alpha acid range is ${range(row.alpha_min, row.alpha_max)} percent.` : 'No alpha acid range was published on any page that could be read.'}`, '',
+    `${row.canonical_variety} is ${row.kind === 'variety' ? 'a hop variety' : `a hop ${row.kind}`} from ${row.origin_country === 'United States' ? 'the United States' : row.origin_country}, ${row.status === 'proprietary' ? 'proprietary' : row.status === 'public' ? 'public' : 'with proprietary status not published'}${row.breeder ? `, from ${row.breeder}` : ''}. ${row.year_released ? `It was released in ${row.year_released}. ` : ''}${row.alpha_class ? `Its published alpha acid range is ${range(row.alpha_min, row.alpha_max)} percent.` : 'No alpha acid range was published on any page that could be read.'}`, '',
     '## identity', '',
     '| Field | Value |', '|---|---|', idRows, '',
     aliases.length ? `Also published as: ${aliases.join(', ')}.` : 'No other published names were found.', '',
@@ -267,7 +267,7 @@ export function buildPage(row, acreage) {
 
 export function buildReadme(records) {
   const count = (pred) => records.filter(pred).length;
-  const index = records.slice().sort((a, b) => a.canonical_name.localeCompare(b.canonical_name)).map((r) => `| [${r.canonical_name}](varieties/${r.slug}.md) | ${r.origin_country} | ${r.status} | ${r.breeder_program || 'not published'} |`).join('\n');
+  const index = records.slice().sort((a, b) => a.canonical_variety.localeCompare(b.canonical_variety)).map((r) => `| [${r.canonical_variety}](varieties/${r.slug}.md) | ${r.origin_country} | ${r.status} | ${r.breeder || 'not published'} |`).join('\n');
   return `---
 domain: beer
 category: hops
@@ -293,6 +293,7 @@ The hop section links every hop named in a 2026 medal beer profile to a publishe
 
 - [hop-varieties.csv](../../data/reference/hop-varieties.csv) holds one row per variety with every field, a source column per field group and a gap column per field group.
 - [hop-acreage.csv](../../data/reference/hop-acreage.csv) holds NASS harvested acres, yield and production by variety, state and crop year.
+- [hop-acreage-totals.csv](../../data/reference/hop-acreage-totals.csv) holds the NASS state totals and the experimental and other varieties lines, kept apart so the acreage file lists only varieties.
 - [hop-aliases.csv](../../data/reference/hop-aliases.csv) maps every published name, brand name, experimental code and spelling to a canonical variety, and lists the product forms (Cryo, LupuLN2, LUPOMAX, Incognito, HyperBoost, DynaBoost, Spectrum, T90) that brewers append to a name.
 - [hop-unmapped.csv](../../data/reference/hop-unmapped.csv) lists the names that are deliberately not a single variety, each with its reason.
 - One page per variety sits in [varieties](varieties).

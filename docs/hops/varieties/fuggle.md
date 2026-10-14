@@ -16,7 +16,7 @@ tags:
   - "england"
   - "public"
   - "variety"
-canonical-name: "Fuggle"
+variety: "Fuggle"
 kind: "variety"
 origin-country: "England"
 program: "English seedling selection"

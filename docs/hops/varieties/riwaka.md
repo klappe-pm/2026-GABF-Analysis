@@ -16,7 +16,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Riwaka"
+variety: "Riwaka"
 kind: "variety"
 origin-country: "New Zealand"
 program: "Plant & Food Research hop breeding program (New Zealand)"

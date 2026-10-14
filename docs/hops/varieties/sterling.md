@@ -15,7 +15,7 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-canonical-name: "Sterling"
+variety: "Sterling"
 kind: "variety"
 origin-country: "United States"
 program: "Not stated on the John I. Haas sheet"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Tarragon, orange blossom, lemon pepper."
+As published by John I. Haas variety sheet: "Tarragon, orange blossom, lemon pepper"
 
 ## acreage
 

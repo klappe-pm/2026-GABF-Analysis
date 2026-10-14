@@ -17,7 +17,7 @@ tags:
   - "new-zealand"
   - "not-published"
   - "variety"
-canonical-name: "Peacharine"
+variety: "Peacharine"
 kind: "variety"
 origin-country: "New Zealand"
 program: "not published"
@@ -72,7 +72,7 @@ This variety is not grown commercially in the United States as far as the source
 
 ## gaps
 
-- Identity, breeder_program: not published in the sources checked (`https://kegland.com.au/products/peacharine-500g-pellet-hop`)
+- Identity, breeder: not published in the sources checked (`https://kegland.com.au/products/peacharine-500g-pellet-hop`)
 - Identity, year_released: not published in the sources checked (`https://kegland.com.au/products/peacharine-500g-pellet-hop`)
 - Identity, parentage: not published in the sources checked (`https://kegland.com.au/products/peacharine-500g-pellet-hop`)
 - Identity, Breeder program, trademark, release year and parentage: search listings place it in the Freestyle Hops breeding program (with Garage Project) in Nelson; the Freestyle Hops site is a script rendered page that could not be read, so none of it is recorded as published. The retailer listing gives origin NZ.

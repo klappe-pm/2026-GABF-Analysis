@@ -7,7 +7,7 @@ import { toCsv } from '../scripts/lib/csv.mjs';
 import { loadHopLookup, normalizeHopName, resolveHop } from '../scripts/lib/hop-aliases.mjs';
 import { nassKey, parseNassVarietyTables } from '../scripts/lib/nass-hops.mjs';
 import { VARIETY_COLUMNS, buildAliasRows, buildVarietyRecords, parseRange } from '../scripts/build-hop-data.mjs';
-import { ACREAGE_COLUMNS } from '../scripts/ingest-nass-hops.mjs';
+import { ACREAGE_COLUMNS, TOTALS_COLUMNS } from '../scripts/ingest-nass-hops.mjs';
 import { checkAcreageRows, checkVarietyRows, classifyProfileHops, csvHeader, profileHopNames, readCsvFile } from '../scripts/validate-hops.mjs';
 
 const varieties = readCsvFile('hop-varieties.csv');
@@ -21,6 +21,8 @@ test('hop-varieties.csv has exactly the expected columns, one field group source
     assert.ok(VARIETY_COLUMNS.includes(`${m}_min`) && VARIETY_COLUMNS.includes(`${m}_max`), m);
   }
   assert.deepEqual(csvHeader('hop-acreage.csv'), ACREAGE_COLUMNS);
+  assert.deepEqual(csvHeader('hop-acreage-totals.csv'), TOTALS_COLUMNS);
+  for (const col of ['canonical_variety', 'breeder', 'origin_country', 'aliases', 'aroma_descriptors']) assert.ok(VARIETY_COLUMNS.includes(col), col);
   assert.deepEqual(csvHeader('hop-aliases.csv'), ['alias', 'normalized', 'slug', 'canonical', 'kind']);
 });
 
@@ -53,6 +55,7 @@ test('every hop named in a 2026 profile maps to a variety or is on the explicit 
   const { mapped, unmapped, unknown } = classifyProfileHops(mentions, lookup);
   assert.deepEqual(unknown.map((u) => `${u.file}: ${u.name}`), []);
   assert.equal(mapped.length + unmapped.length, mentions.length);
+  assert.ok(mapped.filter((m) => m.counted).length >= 200, 'expected most counted mentions to map');
   const slugs = new Set(varieties.map((v) => v.slug));
   for (const m of mapped) assert.ok(slugs.has(m.slug), `${m.name} maps to missing variety ${m.slug}`);
   for (const u of unmapped) assert.ok(u.reason.length > 10, `${u.name} has no reason`);
@@ -139,10 +142,14 @@ test('the NASS parser reads three year tables, codes and the 2023 side by side l
 
 test('acreage rows match the National Hop Report and reference real varieties', () => {
   assert.deepEqual(checkAcreageRows(acreage, varieties), []);
-  const row = (v, s, y) => acreage.find((r) => r.variety === v && r.state === s && r.year === y);
+  const totals = readCsvFile('hop-acreage-totals.csv');
+  const row = (v, s, y) => acreage.find((r) => r.variety_slug === v && r.state === s && r.year === y);
   assert.equal(row('citra', 'Washington', '2025').acres, '5327');
   assert.equal(row('citra', 'Washington', '2025').production_1000_lb, '8741.6');
-  assert.equal(row('all-varieties', 'United States', '2025').acres, '41654');
+  assert.equal(totals.find((t) => t.line === 'all varieties' && t.state === 'United States' && t.year === '2025').acres, '41654');
+  assert.equal(row('citra', 'Washington', '2025').variety, 'Citra');
+  assert.equal(row('citra', 'Washington', '2025').production_lbs, '8741600');
+  assert.equal(acreage.some((r) => /^all|^experimental|^other/.test(r.variety_slug)), false);
   assert.equal(row('cascade', 'Idaho', '2025').acres, '');
   assert.equal(row('cascade', 'Idaho', '2025').acres_code, 'D');
   assert.equal(row('citra', 'Idaho', '2021').acres, '1743');
@@ -154,6 +161,6 @@ test('US acreage applies only to US grown varieties', () => {
   for (const slug of ['galaxy', 'nelson-sauvin', 'hallertau-blanc', 'nectaron']) {
     const v = varieties.find((x) => x.slug === slug);
     assert.equal(v.us_grown, 'no', slug);
-    assert.equal(acreage.some((r) => r.variety === slug), false, slug);
+    assert.equal(acreage.some((r) => r.variety_slug === slug), false, slug);
   }
 });

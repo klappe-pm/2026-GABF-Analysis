@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Helios"
+variety: "Helios"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner breeding program"

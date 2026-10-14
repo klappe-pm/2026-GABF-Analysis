@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Cashmere"
+variety: "Cashmere"
 kind: "variety"
 origin-country: "United States"
 program: "Washington State University and USDA public breeding program"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lemon, lime, ripe melon, stone fruit, thyme."
+As published by John I. Haas variety sheet: "Lemon, lime, ripe melon, stone fruit, thyme"
 
 ## acreage
 

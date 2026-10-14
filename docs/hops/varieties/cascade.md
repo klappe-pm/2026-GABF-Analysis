@@ -16,7 +16,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Cascade"
+variety: "Cascade"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program at Oregon State University"
@@ -61,7 +61,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Floral, grapefruit, pine resin."
+As published by John I. Haas variety sheet: "Floral, grapefruit, pine resin"
 
 ## acreage
 

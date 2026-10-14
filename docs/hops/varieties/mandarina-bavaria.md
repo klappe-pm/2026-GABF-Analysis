@@ -16,7 +16,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Mandarina Bavaria"
+variety: "Mandarina Bavaria"
 kind: "variety"
 origin-country: "Germany"
 program: "Hüll Hop Research Center (Germany)"
@@ -63,7 +63,7 @@ Classed public because Hüll is a public research center; licensing is unverifie
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lime, lemon, pineapple, strawberry, cassis."
+As published by John I. Haas variety sheet: "Lime, lemon, pineapple, strawberry, cassis"
 
 ## acreage
 

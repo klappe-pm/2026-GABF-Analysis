@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "BRU-1"
+variety: "BRU-1"
 kind: "variety"
 origin-country: "United States"
 program: "Brulotte Farms (Toppenish, Washington)"

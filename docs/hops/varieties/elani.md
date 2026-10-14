@@ -18,7 +18,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Elani"
+variety: "Elani"
 kind: "variety"
 origin-country: "United States"
 program: "Yakima Quality Hops"

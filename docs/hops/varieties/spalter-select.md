@@ -18,7 +18,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Spalter Select"
+variety: "Spalter Select"
 kind: "variety"
 origin-country: "Germany"
 program: "Hüll Hop Research Center breeding stock (Germany)"
@@ -65,7 +65,7 @@ Classed public because Hüll is a public research center; licensing is unverifie
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Citrus, woody, black tea, chamomile blossoms."
+As published by John I. Haas variety sheet: "Citrus, woody, black tea, chamomile blossoms"
 
 ## acreage
 

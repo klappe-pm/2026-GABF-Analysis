@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Chinook"
+variety: "Chinook"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program in Washington State"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Grapefruit, apricot, pine resin, juniper."
+As published by John I. Haas variety sheet: "Grapefruit, apricot, pine resin, juniper"
 
 ## acreage
 

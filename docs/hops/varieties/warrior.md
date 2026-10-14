@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Warrior"
+variety: "Warrior"
 kind: "variety"
 origin-country: "United States"
 program: "Yakima Chief Ranches"
@@ -62,7 +62,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Tangerine, honeysuckle, sweet basil."
+As published by John I. Haas variety sheet: "Tangerine, honeysuckle, sweet basil"
 
 ## acreage
 

@@ -17,7 +17,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Tettnang"
+variety: "Tettnang"
 kind: "variety"
 origin-country: "Germany"
 program: "Traditional Lake Constance landrace of the Saaz group"
@@ -62,7 +62,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lily of the valley, cognac, chocolate, bergamot."
+As published by John I. Haas variety sheet: "Lily of the valley, cognac, chocolate, bergamot"
 
 ## acreage
 

@@ -23,6 +23,7 @@ The hop section links every hop named in a 2026 medal beer profile to a publishe
 
 - [hop-varieties.csv](../../data/reference/hop-varieties.csv) holds one row per variety with every field, a source column per field group and a gap column per field group.
 - [hop-acreage.csv](../../data/reference/hop-acreage.csv) holds NASS harvested acres, yield and production by variety, state and crop year.
+- [hop-acreage-totals.csv](../../data/reference/hop-acreage-totals.csv) holds the NASS state totals and the experimental and other varieties lines, kept apart so the acreage file lists only varieties.
 - [hop-aliases.csv](../../data/reference/hop-aliases.csv) maps every published name, brand name, experimental code and spelling to a canonical variety, and lists the product forms (Cryo, LupuLN2, LUPOMAX, Incognito, HyperBoost, DynaBoost, Spectrum, T90) that brewers append to a name.
 - [hop-unmapped.csv](../../data/reference/hop-unmapped.csv) lists the names that are deliberately not a single variety, each with its reason.
 - One page per variety sits in [varieties](varieties).

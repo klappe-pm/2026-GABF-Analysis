@@ -16,7 +16,7 @@ tags:
   - "australia"
   - "proprietary"
   - "variety"
-canonical-name: "Galaxy"
+variety: "Galaxy"
 kind: "variety"
 origin-country: "Australia"
 program: "Hop Products Australia (Tasmania and Victoria)"

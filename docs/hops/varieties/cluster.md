@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Cluster"
+variety: "Cluster"
 kind: "variety"
 origin-country: "United States"
 program: "Long established U.S. variety; rootstock origin uncertain"
@@ -62,7 +62,7 @@ Classed public because it is a long established variety with no trademark found.
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lilac, apricot, lemon."
+As published by John I. Haas variety sheet: "Lilac, apricot, lemon"
 
 ## acreage
 

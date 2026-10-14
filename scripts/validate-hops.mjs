@@ -11,14 +11,14 @@ import { resolve } from 'node:path';
 import YAML from 'yaml';
 import { REFERENCE, ROOT } from './lib/paths.mjs';
 import { readCsvRecords } from './lib/csv.mjs';
-import { loadHopLookup, resolveHop } from './lib/hop-aliases.mjs';
+import { loadHopLookup, normalizeHopName, resolveHop } from './lib/hop-aliases.mjs';
 import { MEASURES, VARIETY_COLUMNS } from './build-hop-data.mjs';
-import { ACREAGE_COLUMNS } from './ingest-nass-hops.mjs';
+import { ACREAGE_COLUMNS, TOTALS_COLUMNS } from './ingest-nass-hops.mjs';
 
 export const STATUSES = new Set(['proprietary', 'public', 'not published']);
 export const KINDS = new Set(['variety', 'blend', 'group']);
 export const ACREAGE_STATES = new Set(['Idaho', 'Oregon', 'Washington', 'United States']);
-export const ACREAGE_SPECIAL = new Set(['all-varieties', 'experimental', 'other-varieties']);
+export const TOTALS_LINES = new Set(['all varieties', 'experimental', 'other varieties']);
 
 export function readCsvFile(name, dir = REFERENCE) {
   return readCsvRecords(readFileSync(resolve(dir, name), 'utf8'));
@@ -37,7 +37,7 @@ export function checkVarietyRows(rows) {
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(r.slug)) errors.push(`${id}: slug is not lowercase kebab-case`);
     if (seen.has(r.slug)) errors.push(`${id}: duplicate slug`);
     seen.add(r.slug);
-    if (!r.canonical_name) errors.push(`${id}: empty canonical_name`);
+    if (!r.canonical_variety) errors.push(`${id}: empty canonical_variety`);
     if (!r.origin_country) errors.push(`${id}: empty origin_country`);
     if (!KINDS.has(r.kind)) errors.push(`${id}: unknown kind "${r.kind}"`);
     if (!STATUSES.has(r.status)) errors.push(`${id}: unknown status "${r.status}"`);
@@ -55,7 +55,7 @@ export function checkVarietyRows(rows) {
     if (missing.length && !r.chemistry_gap) errors.push(`${id}: ${missing.map((m) => m.col).join(', ')} missing with no stated gap`);
     if (!r.aroma_descriptors && !r.aroma_gap) errors.push(`${id}: no aroma descriptors and no stated gap`);
     if (r.aroma_descriptors && !r.aroma_attribution) errors.push(`${id}: aroma descriptors without an attribution`);
-    if (!r.breeder_program && !/breeder_program/.test(r.identity_gap)) errors.push(`${id}: no breeder program and no stated gap`);
+    if (!r.breeder && !/breeder/.test(r.identity_gap)) errors.push(`${id}: no breeder and no stated gap`);
     if (!r.year_released && !/year_released/.test(r.identity_gap)) errors.push(`${id}: no release year and no stated gap`);
     if (!r.parentage && !/parentage/.test(r.identity_gap)) errors.push(`${id}: no parentage and no stated gap`);
     if (r.nass_label && !r.acreage_source_url) errors.push(`${id}: NASS label without an acreage source`);
@@ -70,11 +70,12 @@ export function checkAcreageRows(rows, varietyRows) {
   const withNass = new Set(varietyRows.filter((v) => v.nass_label).map((v) => v.slug));
   const seen = new Set();
   for (const r of rows) {
-    const id = `${r.variety}|${r.state}|${r.year}`;
+    const id = `${r.variety_slug}|${r.state}|${r.year}`;
     if (seen.has(id)) errors.push(`${id}: duplicate acreage row`);
     seen.add(id);
-    if (!ACREAGE_SPECIAL.has(r.variety) && !slugs.has(r.variety)) errors.push(`${id}: variety is not in hop-varieties.csv`);
-    if (slugs.has(r.variety) && !withNass.has(r.variety)) errors.push(`${id}: acreage for a variety with no NASS label`);
+    if (!slugs.has(r.variety_slug)) errors.push(`${id}: variety is not in hop-varieties.csv`);
+    else if (!withNass.has(r.variety_slug)) errors.push(`${id}: acreage for a variety with no NASS label`);
+    if (!r.variety) errors.push(`${id}: empty variety name`);
     if (!ACREAGE_STATES.has(r.state)) errors.push(`${id}: unknown state`);
     if (!/^20(2[1-5])$/.test(r.year)) errors.push(`${id}: year outside 2021 to 2025`);
     if (!/^https:\/\//.test(r.source)) errors.push(`${id}: source is not an https URL`);
@@ -97,11 +98,20 @@ export function profileHopNames(dir = resolve(ROOT, 'docs/2026/winner')) {
     const m = text.match(/^---\n([\s\S]*?)\n---/);
     if (!m) continue;
     const fm = YAML.parse(m[1]) ?? {};
-    for (const name of fm.hops ?? []) out.push({ name: String(name), file, field: 'hops' });
-    for (const entry of fm['hop-profile'] ?? []) {
-      if (entry?.published) out.push({ name: String(entry.published), file, field: 'hop-profile.published' });
-      if (entry?.variety) out.push({ name: String(entry.variety), file, field: 'hop-profile.variety' });
+    // One counted mention per hop a beer names: a hop-profile entry (by its published name), else a hops list name.
+    // The normalized variety of an entry, and any hops list name an entry covers, are checked but not counted again.
+    const entries = (fm['hop-profile'] ?? []).filter((e) => e && (e.published || e.variety));
+    const covered = new Set();
+    for (const entry of entries) {
+      const published = String(entry.published ?? entry.variety);
+      out.push({ name: published, file, field: 'hop-profile.published', counted: true });
+      covered.add(normalizeHopName(published));
+      if (entry.variety) {
+        out.push({ name: String(entry.variety), file, field: 'hop-profile.variety', counted: false });
+        covered.add(normalizeHopName(String(entry.variety)));
+      }
     }
+    for (const name of fm.hops ?? []) out.push({ name: String(name), file, field: 'hops', counted: !covered.has(normalizeHopName(String(name))) });
   }
   return out;
 }
@@ -129,6 +139,8 @@ function main() {
   const errors = [];
   if (csvHeader('hop-varieties.csv').join(',') !== VARIETY_COLUMNS.join(',')) errors.push('hop-varieties.csv columns differ from the expected set');
   if (csvHeader('hop-acreage.csv').join(',') !== ACREAGE_COLUMNS.join(',')) errors.push('hop-acreage.csv columns differ from the expected set');
+  if (csvHeader('hop-acreage-totals.csv').join(',') !== TOTALS_COLUMNS.join(',')) errors.push('hop-acreage-totals.csv columns differ from the expected set');
+  for (const t of readCsvFile('hop-acreage-totals.csv')) if (!TOTALS_LINES.has(t.line)) errors.push(`totals: unknown line "${t.line}"`);
   errors.push(...checkVarietyRows(varieties), ...checkAcreageRows(acreage, varieties));
   const lookup = loadHopLookup();
   const { mapped, unmapped, unknown } = classifyProfileHops(profileHopNames(), lookup);
@@ -136,8 +148,8 @@ function main() {
   const count = (s) => varieties.filter((v) => v.status === s).length;
   console.log(`${varieties.length} varieties: ${count('proprietary')} proprietary, ${count('public')} public, ${count('not published')} status not published`);
   console.log(`${acreage.length} acreage rows`);
-  const total = mapped.length + unmapped.length + unknown.length;
-  console.log(`2026 profile hop mentions: ${total}; mapped ${mapped.length}; on the unmapped list ${unmapped.length}; unknown ${unknown.length}`);
+  const n = (list) => list.filter((m) => m.counted).length;
+  console.log(`2026 profile hop mentions: ${n(mapped) + n(unmapped) + n(unknown)}; mapped ${n(mapped)}; on the unmapped list ${n(unmapped)}; unknown ${n(unknown)}`);
   console.log(`distinct names: ${unique([...mapped, ...unmapped, ...unknown].map((m) => m.name)).length}; unmapped names: ${unique(unmapped.map((m) => m.name)).join('; ') || 'none'}`);
   for (const e of errors) console.log(`error: ${e}`);
   console.log(`${errors.length} errors`);

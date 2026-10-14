@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Tahoma"
+variety: "Tahoma"
 kind: "variety"
 origin-country: "United States"
 program: "Washington State University and USDA public breeding program"

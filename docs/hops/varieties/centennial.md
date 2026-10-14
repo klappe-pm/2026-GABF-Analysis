@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Centennial"
+variety: "Centennial"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program at Washington State University"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Orange, lime, cherry, pine resin, orange blossom."
+As published by John I. Haas variety sheet: "Orange, lime, cherry, pine resin, orange blossom"
 
 ## acreage
 

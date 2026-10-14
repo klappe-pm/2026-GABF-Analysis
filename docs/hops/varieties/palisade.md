@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Palisade"
+variety: "Palisade"
 kind: "variety"
 origin-country: "United States"
 program: "Yakima Chief Ranches"

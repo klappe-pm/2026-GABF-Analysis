@@ -21,7 +21,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Mosaic"
+variety: "Mosaic"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
@@ -68,7 +68,7 @@ The Hop Breeding Company lists caryophyllene as 5.2 to 7.8 percent of total oil,
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Tangerine, lime, peach, passion fruit, blueberry."
+As published by John I. Haas variety sheet: "Tangerine, lime, peach, passion fruit, blueberry"
 
 ## acreage
 

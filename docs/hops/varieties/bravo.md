@@ -15,7 +15,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Bravo"
+variety: "Bravo"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner breeding program"

@@ -18,7 +18,7 @@ tags:
   - "blend"
   - "not-published"
   - "united-states"
-canonical-name: "Falconer's Flight"
+variety: "Falconer's Flight"
 kind: "blend"
 origin-country: "United States"
 program: "not published"
@@ -73,7 +73,7 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 
 ## gaps
 
-- Identity, breeder_program: not published in the sources checked (`https://breakside.com/our_beer/breakside-ipa/`)
+- Identity, breeder: not published in the sources checked (`https://breakside.com/our_beer/breakside-ipa/`)
 - Identity, year_released: not published in the sources checked (`https://breakside.com/our_beer/breakside-ipa/`)
 - Identity, parentage: A blend, not a cultivar; the component varieties and proportions are not published by Hopunion or Yakima Chief Hops.
 - Identity, Breeder program, trademark and release year: search listings describe a Hopunion pellet blend (now Yakima Chief Hops) created around 2010; the Yakima Chief Hops page returned a bot check and no readable page confirms it, so none of it is recorded as published.

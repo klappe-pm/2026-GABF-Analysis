@@ -21,7 +21,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Simcoe"
+variety: "Simcoe"
 kind: "variety"
 origin-country: "United States"
 program: "Yakima Chief Ranches"

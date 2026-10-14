@@ -19,7 +19,7 @@ tags:
   - "not-published"
   - "slovenia"
   - "variety"
-canonical-name: "Styrian Golding"
+variety: "Styrian Golding"
 kind: "variety"
 origin-country: "Slovenia"
 program: "Slovenia (Hopsteiner sheet describes the Celeia line; the institute is not named on the sheet)"

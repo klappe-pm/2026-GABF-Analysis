@@ -16,7 +16,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Apollo"
+variety: "Apollo"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner breeding program"

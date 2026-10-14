@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Ramosa"
+variety: "Ramosa"
 kind: "variety"
 origin-country: "United States"
 program: "Segal Ranch (Yakima Valley, Washington)"

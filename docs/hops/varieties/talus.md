@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Talus"
+variety: "Talus"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"

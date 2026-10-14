@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Comet"
+variety: "Comet"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Mandarin, lemongrass, black currant, apricot, pineapple."
+As published by John I. Haas variety sheet: "Mandarin, lemongrass, black currant, apricot, pineapple"
 
 ## acreage
 

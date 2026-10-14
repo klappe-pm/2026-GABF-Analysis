@@ -17,7 +17,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Rakau"
+variety: "Rakau"
 kind: "variety"
 origin-country: "New Zealand"
 program: "HortResearch (now Plant & Food Research)"

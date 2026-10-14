@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Crystal"
+variety: "Crystal"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Cedar, myrrh, chamomile, nutmeg."
+As published by John I. Haas variety sheet: "Cedar, myrrh, chamomile, nutmeg"
 
 ## acreage
 

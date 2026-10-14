@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Lemondrop"
+variety: "Lemondrop"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner breeding program"

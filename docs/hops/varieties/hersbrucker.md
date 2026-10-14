@@ -18,7 +18,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Hersbrucker"
+variety: "Hersbrucker"
 kind: "variety"
 origin-country: "Germany"
 program: "Traditional German variety from the Hersbrucker growing area"
@@ -63,7 +63,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lemon balm, orange, black tea, marjoram."
+As published by John I. Haas variety sheet: "Lemon balm, orange, black tea, marjoram"
 
 ## acreage
 

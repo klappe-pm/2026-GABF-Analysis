@@ -16,7 +16,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Lorien"
+variety: "Lorien"
 kind: "variety"
 origin-country: "United States"
 program: "Indie Hops (Oregon)"

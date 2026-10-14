@@ -16,7 +16,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Hallertau Blanc"
+variety: "Hallertau Blanc"
 kind: "variety"
 origin-country: "Germany"
 program: "Hüll Hop Research Center (Germany)"
@@ -63,7 +63,7 @@ Myrcene is a single published value. Classed public because Hüll is a public re
 
 ## aroma
 
-As published by John I. Haas variety sheet: "White grapes, cassis, lemongrass, grapefruit."
+As published by John I. Haas variety sheet: "White grapes, cassis, lemongrass, grapefruit"
 
 ## acreage
 

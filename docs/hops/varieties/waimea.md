@@ -16,7 +16,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Waimea"
+variety: "Waimea"
 kind: "variety"
 origin-country: "New Zealand"
 program: "Plant & Food Research hop breeding program (New Zealand)"

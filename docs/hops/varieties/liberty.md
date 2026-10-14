@@ -15,7 +15,7 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-canonical-name: "Liberty"
+variety: "Liberty"
 kind: "variety"
 origin-country: "United States"
 program: "USDA public breeding program at Oregon State University"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Delicate floral, lemon, myrrh."
+As published by John I. Haas variety sheet: "Delicate floral, lemon, myrrh"
 
 ## acreage
 

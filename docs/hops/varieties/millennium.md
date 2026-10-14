@@ -16,7 +16,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Millennium"
+variety: "Millennium"
 kind: "variety"
 origin-country: "United States"
 program: "John I. Haas breeding program"

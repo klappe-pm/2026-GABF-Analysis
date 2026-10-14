@@ -18,7 +18,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Amarillo"
+variety: "Amarillo"
 kind: "variety"
 origin-country: "United States"
 program: "Virgil Gamache Farms (Washington State)"
@@ -63,7 +63,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Tangerine, lemon, apricot, melon, wild flowers."
+As published by John I. Haas variety sheet: "Tangerine, lemon, apricot, melon, wild flowers"
 
 ## acreage
 

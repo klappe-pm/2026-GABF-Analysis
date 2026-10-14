@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Loral"
+variety: "Loral"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
@@ -64,7 +64,7 @@ The Hop Breeding Company lists alpha as 11.3 to 12.2 percent and total oil as 1.
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Violet, lily, fennel frond, lemon."
+As published by John I. Haas variety sheet: "Violet, lily, fennel frond, lemon"
 
 ## acreage
 

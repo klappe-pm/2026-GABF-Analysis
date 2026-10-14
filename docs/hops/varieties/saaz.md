@@ -19,7 +19,7 @@ tags:
   - "czechia"
   - "public"
   - "variety"
-canonical-name: "Saaz"
+variety: "Saaz"
 kind: "variety"
 origin-country: "Czechia"
 program: "Czech landrace, cultivated into nine clones since 1952 (John I. Haas sheet)"
@@ -66,7 +66,7 @@ NASS acreage is for U.S. grown Saaz; Czech grown Saaz named in a profile is the 
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Bergamot, honey, woody, chamomile tea, spicy."
+As published by John I. Haas variety sheet: "Bergamot, honey, woody, chamomile tea, spicy"
 
 ## acreage
 

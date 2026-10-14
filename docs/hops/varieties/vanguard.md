@@ -15,7 +15,7 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-canonical-name: "Vanguard"
+variety: "Vanguard"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner marketing; breeding program not stated"

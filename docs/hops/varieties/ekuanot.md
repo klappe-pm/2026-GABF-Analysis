@@ -18,7 +18,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Ekuanot"
+variety: "Ekuanot"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
@@ -63,7 +63,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Green pepper, papaya, lime, apple blossom."
+As published by John I. Haas variety sheet: "Green pepper, papaya, lime, apple blossom"
 
 ## acreage
 

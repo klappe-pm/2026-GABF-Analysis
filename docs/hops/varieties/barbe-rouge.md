@@ -15,7 +15,7 @@ tags:
   - "france"
   - "proprietary"
   - "variety"
-canonical-name: "Barbe Rouge"
+variety: "Barbe Rouge"
 kind: "variety"
 origin-country: "France"
 program: "Comptoir Agricole breeding program (R&D Alsace)"

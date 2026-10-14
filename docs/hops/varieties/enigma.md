@@ -15,7 +15,7 @@ tags:
   - "australia"
   - "proprietary"
   - "variety"
-canonical-name: "Enigma"
+variety: "Enigma"
 kind: "variety"
 origin-country: "Australia"
 program: "Hop Products Australia (Tasmania)"

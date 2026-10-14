@@ -19,7 +19,7 @@ tags:
   - "group"
   - "proprietary"
   - "united-states"
-canonical-name: "Columbus/Tomahawk/Zeus"
+variety: "Columbus/Tomahawk/Zeus"
 kind: "group"
 origin-country: "United States"
 program: "Not stated on the John I. Haas sheet"
@@ -66,7 +66,7 @@ NASS reports Columbus, Tomahawk and Zeus together as one line, so the acreage ap
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lemon, black pepper, green onion, mango."
+As published by John I. Haas variety sheet: "Lemon, black pepper, green onion, mango"
 
 ## acreage
 

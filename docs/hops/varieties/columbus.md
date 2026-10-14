@@ -16,7 +16,7 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-canonical-name: "Columbus"
+variety: "Columbus"
 kind: "variety"
 origin-country: "United States"
 program: "Not stated on the John I. Haas sheet"
@@ -63,7 +63,7 @@ One sheet serves Columbus, Tomahawk and Zeus, so the figures are shared across t
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lemon, black pepper, green onion, mango."
+As published by John I. Haas variety sheet: "Lemon, black pepper, green onion, mango"
 
 ## acreage
 

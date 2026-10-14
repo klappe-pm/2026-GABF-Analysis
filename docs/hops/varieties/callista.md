@@ -15,7 +15,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Callista"
+variety: "Callista"
 kind: "variety"
 origin-country: "Germany"
 program: "Hüll Hop Research Center (Germany)"
@@ -62,7 +62,7 @@ Classed public because Hüll is a public research center; licensing is unverifie
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Strawberry, orange, passion fruit, pear, caramel."
+As published by John I. Haas variety sheet: "Strawberry, orange, passion fruit, pear, caramel"
 
 ## acreage
 

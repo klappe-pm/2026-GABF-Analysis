@@ -17,7 +17,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "Hallertauer Magnum"
+variety: "Hallertauer Magnum"
 kind: "variety"
 origin-country: "Germany"
 program: "Hüll Hop Research Center (Germany)"
@@ -64,7 +64,7 @@ Classed public because Hüll is a public research center; licensing is unverifie
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Lemon, green pepper, spearmint, apple."
+As published by John I. Haas variety sheet: "Lemon, green pepper, spearmint, apple"
 
 ## acreage
 

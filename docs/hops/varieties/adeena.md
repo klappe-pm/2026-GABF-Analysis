@@ -17,7 +17,7 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-canonical-name: "Adeena"
+variety: "Adeena"
 kind: "variety"
 origin-country: "United States"
 program: "not published"
@@ -72,7 +72,7 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 
 ## gaps
 
-- Identity, breeder_program: not published in the sources checked (`https://www.laddandlassbrewing.com/the-beer`)
+- Identity, breeder: not published in the sources checked (`https://www.laddandlassbrewing.com/the-beer`)
 - Identity, year_released: not published in the sources checked (`https://www.laddandlassbrewing.com/the-beer`)
 - Identity, parentage: not published in the sources checked (`https://www.laddandlassbrewing.com/the-beer`)
 - Identity, Breeder program, trademark, release year and parentage: a search summary reports an Association for the Development of Hop Agronomy (ADHA) release in 2020 from a Summit female and an ADHA 34/95/57 male; the John I. Haas sheet that summary cited returned HTTP 404 and no other page was readable, so none of it is recorded as published.

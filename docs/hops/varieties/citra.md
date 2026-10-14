@@ -19,7 +19,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Citra"
+variety: "Citra"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
@@ -64,7 +64,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Mango, grapefruit flesh, lime zest."
+As published by John I. Haas variety sheet: "Mango, grapefruit flesh, lime zest"
 
 ## acreage
 

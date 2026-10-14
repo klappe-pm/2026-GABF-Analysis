@@ -15,7 +15,7 @@ tags:
   - "germany"
   - "not-published"
   - "variety"
-canonical-name: "Perle"
+variety: "Perle"
 kind: "variety"
 origin-country: "Germany"
 program: "German breeding program (John I. Haas sheet does not name the institute)"
@@ -60,7 +60,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Marjoram, peppermint, lime, pear."
+As published by John I. Haas variety sheet: "Marjoram, peppermint, lime, pear"
 
 ## acreage
 

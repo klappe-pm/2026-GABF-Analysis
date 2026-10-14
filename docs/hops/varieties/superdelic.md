@@ -15,7 +15,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Superdelic"
+variety: "Superdelic"
 kind: "variety"
 origin-country: "New Zealand"
 program: "New Zealand Hops Ltd with Plant & Food Research"

@@ -20,7 +20,7 @@ tags:
   - "england"
   - "public"
   - "variety"
-canonical-name: "East Kent Goldings"
+variety: "East Kent Goldings"
 kind: "variety"
 origin-country: "England"
 program: "English landrace grown in East Kent since 1838"

@@ -15,7 +15,7 @@ tags:
   - "england"
   - "public"
   - "variety"
-canonical-name: "Northern Brewer"
+variety: "Northern Brewer"
 kind: "variety"
 origin-country: "England"
 program: "English breeding; grown in the U.S., U.K. and Germany"
@@ -62,7 +62,7 @@ The sheet states 1934 as the year it was bred, not a release year.
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Pine, tobacco, lemon balm."
+As published by John I. Haas variety sheet: "Pine, tobacco, lemon balm"
 
 ## acreage
 

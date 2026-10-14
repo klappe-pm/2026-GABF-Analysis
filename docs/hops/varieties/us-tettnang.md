@@ -18,7 +18,7 @@ tags:
   - "germany"
   - "public"
   - "variety"
-canonical-name: "US Tettnang"
+variety: "US Tettnang"
 kind: "variety"
 origin-country: "Germany"
 program: "Traditional German landrace grown in the U.S. (Yakima Valley Hops)"

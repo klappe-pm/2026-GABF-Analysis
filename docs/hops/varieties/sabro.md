@@ -17,7 +17,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Sabro"
+variety: "Sabro"
 kind: "variety"
 origin-country: "United States"
 program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
@@ -62,7 +62,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Tangerine, tropical fruit, stone fruit, coconut."
+As published by John I. Haas variety sheet: "Tangerine, tropical fruit, stone fruit, coconut"
 
 ## acreage
 

@@ -18,7 +18,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Azacca"
+variety: "Azacca"
 kind: "variety"
 origin-country: "United States"
 program: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
@@ -63,7 +63,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "Ripe mango, papaya, pineapple, Valencia orange, grapefruit, pine resin, fresh grass."
+As published by John I. Haas variety sheet: "Ripe mango, papaya, pineapple, Valencia orange, grapefruit, pine resin, fresh grass"
 
 ## acreage
 

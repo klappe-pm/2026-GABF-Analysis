@@ -19,7 +19,7 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-canonical-name: "Nelson Sauvin"
+variety: "Nelson Sauvin"
 kind: "variety"
 origin-country: "New Zealand"
 program: "HortResearch (now Plant & Food Research) hop breeding program"
@@ -64,7 +64,7 @@ Ranges are as published by the breeder or supplier named under sources; a single
 
 ## aroma
 
-As published by John I. Haas variety sheet: "White wine, gooseberry, grapefruit, mango, lychee, melon."
+As published by John I. Haas variety sheet: "White wine, gooseberry, grapefruit, mango, lychee, melon"
 
 ## acreage
 

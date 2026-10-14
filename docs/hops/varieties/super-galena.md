@@ -16,7 +16,7 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-canonical-name: "Super Galena"
+variety: "Super Galena"
 kind: "variety"
 origin-country: "United States"
 program: "Hopsteiner breeding program"
