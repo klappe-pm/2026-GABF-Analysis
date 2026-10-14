@@ -25,10 +25,10 @@ breadcrumbs:
   all_analysis: "All analysis"
   category_number: "Category {{number}}"
 
-# where: the browser tab. Every page title is followed by the suffix.
+# where: the browser tab. Every page title except home is followed by the suffix.
 page_titles:
   suffix: " · GABF Analysis"
-  home: "GABF Analysis"
+  home: "GABF Analysis: Great American Beer Festival results"
   results_by_year: "{{year}} results"
   results_by_category: "Results by category"
   category_detail: "{{category_name}}"
