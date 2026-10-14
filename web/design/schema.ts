@@ -119,6 +119,20 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   'spec-card': {},
   'side-sheet': {},
   'explorer-app': {},
+  'beer-profile-card': {
+    Variant: cardStyle,
+    'Name style': typeRole,
+    'Show hop chips': yesNo,
+    'Hop chip style': enumOf(['outlined', 'elevated']),
+    'Tasting note length': numberOf([80, 120, 160, 200, 240, 320]),
+  },
+  'hop-profile-card': {
+    Variant: cardStyle,
+    'Name style': typeRole,
+    'Show aroma': yesNo,
+    'Show grower farms': yesNo,
+    'Farm limit': numberOf([3, 5, 8, 10, 12]),
+  },
 };
 
 // Identity keys every spec carries besides its settings.

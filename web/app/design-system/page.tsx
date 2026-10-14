@@ -21,10 +21,13 @@ import { SectionHeader } from '@/components/SectionHeader';
 import { Select } from '@/components/Select';
 import { StatusChip } from '@/components/StatusChip';
 import { TextLink } from '@/components/TextLink';
+import { BeerProfileCard, type BeerCardData } from '@/components/BeerProfileCard';
+import { HopProfileCard, type HopCardData } from '@/components/HopProfileCard';
+import { fullBeerProfile, hopProfile, hopSlug } from '@/lib/profiles';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
 import { sampleBeers, type SampleBeer } from '@/lib/samples';
 import { fill, finding, group, lookup, t } from '@/lib/content';
-import { SOURCE_URL } from '@/lib/repo';
+import { existsInRepo, SOURCE_URL } from '@/lib/repo';
 import { ContrastTable, ElevationRow, MedalTable, Ordered, SchemeTable, SectionTabs, SettingsTable, ShapeTable, TypeTable } from './live';
 import { Specimen, State } from './parts';
 
@@ -75,6 +78,68 @@ function BeerScales({ idPrefix, sample, medalNames }: { idPrefix: string; sample
       ) : null}
     </div>
   );
+}
+
+// The specimen hop and the first 2026 winner that uses it with every card field published.
+const CARD_HOP = 'Cascade';
+const site = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } };
+const card = (key: string) => t(`pages.design-system.profile_cards.${key}`);
+const cardFill = (key: string, values: Record<string, string | number>) => fill(raw(`pages.design-system.profile_cards.${key}`), values);
+
+function beerCardData(medalNames: Record<MedalName, string>): { data: BeerCardData; beer: string } | null {
+  const b = fullBeerProfile(CARD_HOP);
+  if (!b) return null;
+  const none = t('global.states.gaps.not_defined');
+  const note = b.tastingNote ?? b.description;
+  return {
+    beer: b.beer,
+    data: {
+      name: b.beer,
+      breweryLine: cardFill('brewery_line', { brewery_name: b.brewery, city: b.city, state: b.state }),
+      medal: b.medal,
+      medalLabel: medalNames[b.medal],
+      facts: [
+        { label: card('category'), value: b.category },
+        { label: card('abv'), value: b.abv === null ? none : fmt.abv(b.abv) },
+        { label: card('ibu'), value: b.ibu === null ? none : String(b.ibu) },
+        { label: card('style'), value: b.style ?? none },
+      ],
+      hops: b.hops.map((h) => ({ name: h, href: `/hops/${hopSlug(h)}/` })),
+      hopsLabel: card('hops'),
+      noHops: none,
+      note: note ? { label: card('note'), text: note.text, source: note.source ? { href: note.source, text: cardFill('source', { site: site(note.source) }) } : undefined } : null,
+      noNote: none,
+      link: { href: `${SOURCE_URL}/${b.file}`, text: card('deep_dive') },
+    },
+  };
+}
+
+function hopCardData(): HopCardData {
+  const h = hopProfile(CARD_HOP);
+  const none = t('global.states.gaps.not_defined');
+  const pct = (r: { min: number; max: number } | null) => (r ? cardFill('range_percent', { min: fmt.one(r.min), max: fmt.one(r.max) }) : none);
+  return {
+    name: h.variety,
+    facts: [
+      { label: card('origin'), value: h.origin ?? none },
+      { label: card('breeder'), value: h.breeder ?? none },
+      { label: card('alpha'), value: pct(h.alpha) },
+      { label: card('oil'), value: h.oil ? cardFill('oil_range', { min: fmt.one(h.oil.min), max: fmt.one(h.oil.max) }) : none },
+      { label: card('acreage'), value: h.acreage ? cardFill('acreage_value', { acres: fmt.number(h.acreage.acres), year: h.acreage.year }) : none },
+      { label: card('medal_beers'), value: fmt.number(h.medalBeers) },
+    ],
+    aroma: {
+      label: card('aroma'),
+      text: h.aroma ? h.aroma.descriptors.join(', ') : null,
+      source: h.aroma?.source ? { href: h.aroma.source, text: cardFill('source', { site: site(h.aroma.source) }) } : undefined,
+    },
+    farms: {
+      label: card('farms'),
+      items: h.farms.map((f) => ({ name: f.state ? cardFill('farm_line', { farm_name: f.name, state: f.state }) : f.name, href: f.doc ? `${SOURCE_URL}/${f.doc}` : undefined })),
+      more: raw('pages.design-system.profile_cards.farms_more'),
+    },
+    notDefined: none,
+  };
 }
 
 function Section({ id, title, lead, children }: { id: string; title: string; lead?: string; children: ReactNode }) {
@@ -472,6 +537,43 @@ export default function DesignSystemPage() {
       ),
     },
   ];
+
+  const beerCard = beerCardData(medalNames);
+  const hopCard = hopCardData();
+  const varietyTable = existsInRepo('data', 'reference', 'hop-varieties.csv');
+  components.push(
+    {
+      id: 'beer-profile-card',
+      node: (
+        <Specimen name="beer-profile-card" title={compName('beer_profile_card')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            {beerCard ? (
+              <div className="flex w-full min-w-0 flex-col gap-3">
+                <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.beer_card'), { beer_name: beerCard.beer })}</p>
+                <BeerProfileCard data={beerCard.data} />
+              </div>
+            ) : <p className="type-body-medium text-on-surface-variant">{t('global.states.gaps.not_defined')}</p>}
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'hop-profile-card',
+      node: (
+        <Specimen name="hop-profile-card" title={compName('hop_profile_card')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <div className="flex w-full min-w-0 flex-col gap-3">
+              <p className="type-body-medium text-on-surface-variant">
+                {fill(raw('pages.design-system.samples.hop_card'), { variety: hopCard.name })}
+                {varietyTable ? null : ` ${t('pages.design-system.samples.hop_card_gap')}`}
+              </p>
+              <HopProfileCard data={hopCard} />
+            </div>
+          </State>
+        </Specimen>
+      ),
+    },
+  );
 
   const colorCols = { role: col('role'), value: col('value') };
   const sections: { id: string; node: ReactNode }[] = [
