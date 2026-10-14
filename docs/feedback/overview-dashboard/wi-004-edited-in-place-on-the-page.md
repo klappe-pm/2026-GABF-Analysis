@@ -1,6 +1,6 @@
 ---
 id: WI-004
-status: ACCEPTED
+status: DONE
 title: Edited in place on the page
 page: overview-dashboard
 job: JOB-1
@@ -71,6 +71,13 @@ images:
     url: https://github.com/klappe-pm/GABF-Analysis/blob/main/docs/feedback/overview-dashboard/wi-004-edited-in-place-on-the-page/spot-1.png?raw=true
 issue: 77
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/77
+pr: 78
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/78
+resolution:
+  status: DONE
+  change: "pull request #78"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T21:20:29.977Z
 ---
 
 Edited in place on the page.
