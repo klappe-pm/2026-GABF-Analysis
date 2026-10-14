@@ -13,7 +13,7 @@ import { relative, resolve } from 'node:path';
 import { ROOT } from './lib/paths.mjs';
 
 // .impeccable holds the design tool's working files (critiques, surface briefs), not site prose.
-const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'data', '.impeccable']);
+const SKIP_DIRS = new Set(['node_modules', 'dist', 'dist-review', '.git', 'data', '.impeccable']);
 
 function walk(dir, out = []) {
   for (const entry of readdirSync(dir)) {

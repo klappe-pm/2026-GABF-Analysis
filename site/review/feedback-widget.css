@@ -1,0 +1,47 @@
+/* Review build only. Uses the site's tokens, with fallbacks for the explorer page, which does not load styles.css. */
+.gfw-fab {
+  position: fixed; right: 16px; bottom: 16px; z-index: 2147483000;
+  font: 600 14px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: 11px 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--control-border, #8a8980);
+  background: var(--text-primary, #0b0b0b); color: var(--page, #f9f9f7);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.gfw-fab:focus-visible, .gfw-panel :focus-visible, .gfw-pin:focus-visible { outline: 2px solid var(--focus, #2a78d6); outline-offset: 2px; }
+.gfw-panel {
+  position: fixed; right: 16px; bottom: 64px; z-index: 2147483001;
+  width: min(380px, calc(100vw - 32px)); max-height: calc(100vh - 96px); overflow-y: auto;
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--card, #ffffff); color: var(--text-primary, #0b0b0b);
+  border: 1px solid var(--control-border, #8a8980); border-radius: 10px; padding: 12px 14px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.22);
+}
+.gfw-panel[hidden] { display: none; }
+.gfw-head { display: flex; justify-content: space-between; align-items: center; }
+.gfw-head h2 { font-size: 16px; margin: 0; }
+.gfw-panel button { font: inherit; cursor: pointer; border: 1px solid var(--control-border, #8a8980); background: var(--surface-1, #fcfcfb); color: inherit; border-radius: 6px; padding: 5px 10px; }
+.gfw-panel .gfw-send { background: var(--text-primary, #0b0b0b); color: var(--card, #ffffff); }
+.gfw-modes { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 10px 0 6px; }
+.gfw-target p { margin: 6px 0; font-size: 13px; color: var(--text-secondary, #52514e); overflow-wrap: anywhere; }
+.gfw-cats { border: 1px solid var(--border, rgba(11, 11, 11, 0.1)); border-radius: 8px; margin: 8px 0; padding: 6px 10px 8px; }
+.gfw-cats legend { font-size: 13px; color: var(--text-secondary, #52514e); }
+.gfw-cat-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 2px 8px; font-size: 13px; }
+.gfw-note { display: block; font-size: 13px; color: var(--text-secondary, #52514e); }
+.gfw-note textarea { display: block; width: 100%; margin-top: 4px; font: inherit; color: var(--text-primary, #0b0b0b); background: var(--card, #ffffff); border: 1px solid var(--control-border, #8a8980); border-radius: 6px; padding: 6px 8px; resize: vertical; }
+.gfw-row { display: flex; gap: 10px; align-items: center; margin-top: 8px; }
+.gfw-said { font-size: 13px; color: var(--text-secondary, #52514e); }
+.gfw-open h3 { font-size: 13px; margin: 12px 0 4px; }
+.gfw-open ol { margin: 0; padding-left: 18px; font-size: 13px; color: var(--text-secondary, #52514e); }
+.gfw-pins { position: absolute; left: 0; top: 0; width: 0; height: 0; z-index: 2147482999; }
+.gfw-pin {
+  position: absolute; transform: translate(-50%, -50%); min-width: 26px; height: 26px; padding: 0 6px;
+  border-radius: 999px; border: 2px solid #ffffff; cursor: pointer;
+  font: 700 12px/22px system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--series-8, #e34948); color: #ffffff; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+.gfw-pin.draft { background: var(--focus, #2a78d6); }
+.gfw-pin.detached { opacity: 0.6; border-style: dashed; }
+.gfw-hover { position: absolute; z-index: 2147482998; pointer-events: none; outline: 2px solid var(--focus, #2a78d6); background: rgba(42, 120, 214, 0.08); border-radius: 3px; }
+.gfw-hover[hidden] { display: none; }
+html.gfw-targeting, html.gfw-targeting * { cursor: crosshair !important; }
+@media (prefers-reduced-motion: reduce) { .gfw-panel, .gfw-fab { transition: none; } }
