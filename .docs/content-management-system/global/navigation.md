@@ -68,7 +68,7 @@ Where: meta description for search results and link previews.
 - `category_detail`: {{category_name}}: style definition, entries by year, and every medalist.
 - `breweries_index`: Every medal winning brewery in the record, ranked by points.
 - `brewery_detail`: {{brewery_name}}: medal history, locations, ownership, distribution, and estimated scale.
-- `design_system`: The tokens and components of GABF Analysis, shown with real medal data in light and dark.
+- `design_system`: The tokens and components of GABF Analysis, shown with real medal data.
 - `beers_index`: All {{count}} medal winning beers of {{year}} with published ABV, IBU, hops, malts, yeast, and adjuncts.
 - `beer_detail`: {{beer_name}} by {{brewery_name}}: {{medal}} in {{category_name}}, {{year}}. Published specs and research notes.
 - `first_time_medalists`: Breweries that won their first medal in the record in {{year}}.

@@ -2644,32 +2644,6 @@
       "pages": [
         "/design-system"
       ]
-    },
-    {
-      "id": "component.theme-toggle",
-      "kind": "component",
-      "title": "Theme toggle",
-      "spec": ".design/design-system/components/theme-toggle/spec.md",
-      "code": "web/components/ThemeToggle.tsx",
-      "tokens": [
-        "font.family.narrow",
-        "rule.hairline",
-        "semantic.color.ground",
-        "semantic.color.ground-tone",
-        "semantic.color.ink",
-        "semantic.color.rule-strong",
-        "space.1",
-        "space.3",
-        "space.6",
-        "type.label"
-      ],
-      "content": [
-        "global.site.header.theme_dark",
-        "global.site.header.theme_light"
-      ],
-      "pages": [
-        "/design-system"
-      ]
     }
   ],
   "contrast": [

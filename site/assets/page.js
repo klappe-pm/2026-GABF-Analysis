@@ -1,21 +1,5 @@
-// Shared page behavior: tooltips for chart marks, sortable tables, theme toggle.
+// Shared page behavior: tooltips for chart marks, sortable tables.
 (function () {
-  const root = document.documentElement;
-  const stored = (() => { try { return localStorage.getItem('gabf-theme'); } catch (e) { return null; } })();
-  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
-  const toggle = document.querySelector('.theme-toggle');
-  if (toggle) {
-    const sync = () => { toggle.textContent = root.getAttribute('data-theme') === 'dark' ? 'Light mode' : 'Dark mode'; };
-    sync();
-    toggle.addEventListener('click', () => {
-      const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : (root.getAttribute('data-theme') === 'light' ? 'light' : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-      const next = current === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      try { localStorage.setItem('gabf-theme', next); } catch (e) { /* storage unavailable */ }
-      sync();
-    });
-  }
-
   // Phone header: the site nav folds behind a Menu button.
   const navToggle = document.querySelector('.nav-toggle');
   if (navToggle) {

@@ -94,4 +94,4 @@ Rows that match a category name get guideline ranges; new styles are appended wi
 npm install --no-save playwright@1.56.1 && npx playwright install chromium && npm run render-visuals -- --brewery green-cheek-beer-co
 ```
 
-PNG files land in reports/: each chart figure, the stat tiles, and the full page, with `--dark` for the dark theme.
+PNG files land in reports/: each chart figure, the stat tiles, and the full page.

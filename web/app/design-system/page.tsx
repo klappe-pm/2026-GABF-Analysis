@@ -20,7 +20,6 @@ import { SectionHeader } from '@/components/SectionHeader';
 import { Select } from '@/components/Select';
 import { StatusStamp } from '@/components/StatusStamp';
 import { TextLink } from '@/components/TextLink';
-import { ThemeToggle } from '@/components/ThemeToggle';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
 import { sampleBeers, type SampleBeer } from '@/lib/samples';
 import { fill, finding, group, lookup, t } from '@/lib/content';
@@ -179,7 +178,6 @@ export default function DesignSystemPage() {
         menuLabel={t('global.site.header.menu_button')}
         skipLabel={t('global.site.header.skip_link')}
         skipTarget="#main"
-        actions={<ThemeToggle darkLabel={t('global.site.header.theme_dark')} lightLabel={t('global.site.header.theme_light')} />}
       />
       <main id="main" className="mx-auto flex max-w-page flex-col gap-7 px-4 py-6">
         <div className="flex flex-col gap-3">
@@ -611,12 +609,6 @@ export default function DesignSystemPage() {
             </State>
             <State label={states('error')}>
               <div className="w-full"><FormNote kind="error" title={t('global.states.errors.data_load')} /></div>
-            </State>
-          </Specimen>
-
-          <Specimen name="theme-toggle" title={compName('theme_toggle')} specLink={t('pages.design-system.page.spec_link')}>
-            <State label={states('default')}>
-              <ThemeToggle darkLabel={t('global.site.header.theme_dark')} lightLabel={t('global.site.header.theme_light')} />
             </State>
           </Specimen>
 

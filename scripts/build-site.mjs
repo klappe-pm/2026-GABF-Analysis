@@ -83,7 +83,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 </head>
 <body${bodyAttrs}>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="site-nav" id="site-nav" aria-label="Site">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every page (shortcut: f)">Filters</button><button class="theme-toggle" type="button">Dark mode</button></div></header>
+<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="site-nav" id="site-nav" aria-label="Site">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every page (shortcut: f)">Filters</button></div></header>
 <div class="filter-chips-bar" id="filter-chips" hidden></div>
 <p class="visually-hidden" id="filter-live" aria-live="polite"></p>
 <main id="main" tabindex="-1">

@@ -1329,8 +1329,7 @@
       "related": [
         "button",
         "filters-sheet",
-        "icon",
-        "theme-toggle"
+        "icon"
       ],
       "pages": [
         "/design-system"
@@ -1700,35 +1699,6 @@
       "related": [
         "button",
         "red-pen-note"
-      ],
-      "pages": [
-        "/design-system"
-      ]
-    },
-    {
-      "name": "theme-toggle",
-      "title": "Theme toggle",
-      "spec": ".design/design-system/components/theme-toggle/spec.md",
-      "code": "web/components/ThemeToggle.tsx",
-      "tokens": [
-        "font.family.narrow",
-        "rule.hairline",
-        "semantic.color.ground",
-        "semantic.color.ground-tone",
-        "semantic.color.ink",
-        "semantic.color.rule-strong",
-        "space.1",
-        "space.3",
-        "space.6",
-        "type.label"
-      ],
-      "content": [
-        "global.site.header.theme_dark",
-        "global.site.header.theme_light"
-      ],
-      "related": [
-        "button",
-        "form-header"
       ],
       "pages": [
         "/design-system"
