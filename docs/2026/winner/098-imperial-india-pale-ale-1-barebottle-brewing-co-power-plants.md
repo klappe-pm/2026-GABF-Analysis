@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,121 @@ brewery-state: "CA"
 brewery-url: "https://www.barebottle.com/"
 category-name: "Imperial India Pale Ale"
 category-number: 98
+description:
+  text: "These super hops are the perfect power-up. Just look out for those grain Goombas!"
+  source: "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
 entries: 87
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
+      - "https://www.barebottle.com/"
+      - "https://www.barebottle.com/flagships"
+      - "https://www.barebottle.com/homebrew-recipes"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 117
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/barebottle-brewing-company-power-plants/6592210"
   - "https://www.barebottle.com/"
   - "https://www.barebottle.com/flagships"
   - "https://www.barebottle.com/homebrew-recipes"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Imperial India Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +171,45 @@ Power Plants is an imperial IPA from Barebottle Brewing Co. in San Francisco.
 
 Source: [Brewery description on Untappd](https://untappd.com/b/barebottle-brewing-company-power-plants/6592210)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published in any source reached.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Imperial or Double IPA calls for straw to medium amber color, high to intense fresh American hop character, very high bitterness and medium-high to high alcohol, at 7.6 to 10.6 percent ABV and 65 to 100 IBU. The listed ABV fits this range; the reported IBU exceeds it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Imperial India Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Barebottle Brewing Co. is in San Francisco, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.barebottle.com/), [Instagram](https://www.instagram.com/barebottle/), [Untappd](https://untappd.com/BarebottleBrewingCompany).
 
 ## links
 
@@ -84,6 +218,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Barebottle: homebrew recipes](https://www.barebottle.com/homebrew-recipes)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Power Plants listing](https://untappd.com/b/barebottle-brewing-company-power-plants/6592210)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/barebottle-brewing-company-power-plants/6592210), [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/homebrew-recipes), web searches recorded in the research notes.
 
 ## research-notes
 

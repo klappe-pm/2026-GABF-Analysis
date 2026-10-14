@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "The Sublime"
@@ -26,7 +26,95 @@ brewery-state: "OR"
 brewery-url: "https://breakside.com/"
 category-name: "International-Style Pilsener"
 category-number: 45
+description: null
 entries: 79
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/our_beer/the-sublime/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hersbrucker"
+    variety: "Hersbrucker"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://breakside.com/our_beer/the-sublime/"
+  - published: "Lorien"
+    variety: "Lorien"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://breakside.com/our_beer/the-sublime/"
 hops:
   - "Hersbrucker"
   - "Lorien"
@@ -34,13 +122,18 @@ ibu: 18
 malts:
   - "German Pilsner malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://breakside.com/"
   - "https://breakside.com/awards/"
   - "https://breakside.com/our_beer/the-sublime/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Bavarian-style Helles lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +166,48 @@ The brewery page frames lagers as "refreshing, smooth, drinkable, clean, and com
 
 Source: [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [brewery page](https://breakside.com/our_beer/the-sublime/) names German Pilsner malt and Hersbrucker and Lorien hops, with the late hop addition described above. No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hersbrucker | Hersbrucker | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/the-sublime/) |
+| Lorien | Lorien | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/the-sublime/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International-Style Pilsener describes a low to medium malt and hop lager that may show corn, rice or wheat adjunct character, at 4.6 to 5.3 percent ABV and 15 to 40 IBU. The 5.2% ABV and 18 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International-Style Pilsener | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Breakside Brewery & Taproom is in Milwaukie, OR.
+
+Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https://www.instagram.com/breakside/).
 
 ## links
 
@@ -87,6 +215,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Breakside Brewery](https://breakside.com/)
 - [Breakside: awards](https://breakside.com/awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/our_beer/the-sublime/), web searches recorded in the research notes.
 
 ## research-notes
 

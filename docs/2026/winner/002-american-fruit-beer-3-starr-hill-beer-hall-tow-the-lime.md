@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,19 +25,121 @@ brewery-state: "VA"
 brewery-url: "https://starrhill.com/"
 category-name: "American Fruit Beer"
 category-number: 2
+description:
+  text: "a crisp and refreshing pale Mexican-style lager with a squeeze of lime."
+  source: "https://starrhill.com/news/gabf2026"
 entries: 79
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://starrhill.com/"
+      - "https://starrhill.com/beer"
+      - "https://starrhill.com/news/gabf2026"
+      - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://starrhill.com/"
   - "https://starrhill.com/beer"
   - "https://starrhill.com/news/gabf2026"
   - "https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Mexican-style pale lager with lime"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +172,45 @@ Tow The Lime is a pale Mexican-style lager finished with lime, brewed by Starr H
 
 Source: [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Lime is the only ingredient the brewery names ([Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)). Hops, malts, yeast and any salt are not published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Fruit Beer calls for fruit aroma from subtle to intense that is not overpowered by hops, bitterness from 5 to 70 IBU in balance with the fruit, and 2.5 to 12 percent ABV. The newly verified strength falls within the category range; bitterness remains unpublished.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Fruit Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Starr Hill Beer Hall is in Richmond, VA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +219,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Starr Hill: GABF 2026 news](https://starrhill.com/news/gabf2026)
 - [Starr Hill: beer list](https://starrhill.com/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes.
+- Not published: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

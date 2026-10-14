@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Mystic Voyage Blueberry + Lemon Sour Ale"
@@ -28,17 +28,88 @@ brewery-state: "NV"
 brewery-url: "https://greatbasinbrewingco.com/"
 category-name: "American Sour Ale"
 category-number: 29
+description:
+  text: "We began with a Berliner Weisse-style ale that has roots going all the way back to the 16th century in northern Germany. From there, we experimented to find the perfect blend of fruits that would really shine through, eventually landing on 100 percent real blueberries and lemons. We also add a touch of milk sugar to give it a complex fruitiness that dances on the palate, with a tart finish."
+  source: "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
 entries: 111
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
+      - "https://www.greatbasinbrewingco.com/mystic-voyage"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 15
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greatbasinbrewingco.com/mystic-voyage"
+srm: null
 style: "Blueberry + Lemon Sour Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +145,45 @@ The brewery's own site could not be read. The brewmaster, Evan Eldridge, is quot
 
 Source: [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewmaster names real blueberries, lemons and a touch of milk sugar added to a Berliner Weisse style base ([Edible Reno-Tahoe](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/)). Grains, hops and the souring culture are not named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Sour Ale call for medium-low to high natural acidity from bacteria and yeasts, fruity esters, no Brettanomyces, no wood-derived character, and ABV and IBU that may vary widely; that guideline places fruited versions elsewhere. The tart profile fits, while the blueberry and lemon additions are elements the guideline would usually route to another category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Sour Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Great Basin Brewing Co. is in Sparks, NV. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +191,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Great Basin: Mystic Voyage](https://www.greatbasinbrewingco.com/mystic-voyage)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/), [greatbasinbrewingco.com](https://www.greatbasinbrewingco.com/mystic-voyage), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Barrel-Aged Kelly's Private Stash (Ferd's Addition)"
@@ -29,12 +29,116 @@ brewery-state: "OH"
 brewery-url: "https://thirdeyebrewingco.com/"
 category-name: "Dessert or Pastry Beer"
 category-number: 11
+description:
+  text: "this barleywine embodies patience and tradition."
+  source: "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
 entries: 67
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 20
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
   - "https://thirdeyebrewingco.com/"
@@ -42,7 +146,10 @@ sources:
   - "https://thirdeyebrewingco.com/beer/"
   - "https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Barrel Aged Barleywine"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +182,45 @@ Kelly's Private Stash Ferds Addition is a barrel aged barleywine from Third Eye 
 
 Source: [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The published finishing ingredients are listed above; no hop, malt or yeast varieties are named. [Untappd: Ferd's Edition](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Dessert or Pastry Beer describes beers that "build on a strong dark beer base and incorporate culinary ingredients," deep amber to black, at 5.5 to 10.25 percent ABV or more and 20 to 65 IBU. The brewery labels the beer a barrel aged barleywine rather than a stout, and the published finishing ingredients support the category's culinary ingredient expectation.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Dessert or Pastry Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Third Eye Brewing Co. is in Hamilton, OH.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -91,6 +230,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Third Eye Brewing: beer categories](https://thirdeyebrewingco.com/?page_id=3044)
 - [World Beer Cup 2026 winners list](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055), web searches recorded in the research notes.
 
 ## research-notes
 

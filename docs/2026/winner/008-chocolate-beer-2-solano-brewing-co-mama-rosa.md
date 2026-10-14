@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,133 @@ brewery-state: "CA"
 brewery-url: "https://solanobrew.com/"
 category-name: "Chocolate Beer"
 category-number: 8
+description: null
 entries: 30
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://solanobrew.com/"
+      - "https://solanobrew.com/our-beers/"
+      - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
+      - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 24
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://solanobrew.com/"
   - "https://solanobrew.com/our-beers/"
   - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
+srm: null
 style: "Chocolate Beer"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,13 +181,46 @@ Mama Rosa is a beer from Solano Brewing Co. in Vacaville, California, shown on t
 
 No brewery description of Mama Rosa was found; the Our Beers page carries its image with no text.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Chocolate or Cocoa Beer asks that chocolate or cocoa character be apparent and blend with the base beer, with malt sweetness in balance, very low to medium-low bitterness, and IBU and ABV varying with the base style. No published specs exist to compare against it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Chocolate Beer | Silver |
+| 2026 | Great American Beer Festival | Chocolate Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Solano Brewing Co. is in Vacaville, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +229,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Solano Brewing Co.](https://solanobrew.com/)
 - [Visit Vacaville: Solano Brewing](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes.
+- Not published: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

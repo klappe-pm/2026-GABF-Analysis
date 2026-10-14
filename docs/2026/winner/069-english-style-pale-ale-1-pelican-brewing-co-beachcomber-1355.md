@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,132 @@ brewery-state: "OR"
 brewery-url: "https://pelicanbrewing.com/"
 category-name: "English-Style Pale Ale"
 category-number: 69
+description:
+  text: "• light Gold Color • Floral, Herbal Hop Aroma • Crisp Clean Finish • Outstanding Drinkability •"
+  source: "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
 entries: 47
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://pelicanbrewing.com/"
+      - "https://pelicanbrewing.com/awards/"
+      - "https://pelicanbrewing.com/beer/"
+      - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
+      - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://pelicanbrewing.com/"
   - "https://pelicanbrewing.com/awards/"
@@ -37,7 +157,10 @@ sources:
   - "https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937"
   - "https://untappd.com/PelicanBrewing/beer?sort=created_at_desc"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "English-Style Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +193,45 @@ Beachcomber 1355 is an English-style pale ale from Pelican Brewing Co., the Oreg
 
 Source: [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients is published beyond a floral, herbal hop aroma.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Classic English-Style Pale Ale call for a gold to copper ale with floral, earthy English-style hops and medium body, at 4.4 to 5.3 percent ABV and 20 to 40 IBU. The listed 5% ABV fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | English-Style Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Pelican Brewing Co. is in Tillamook, OR. Brewery type in Open Brewery DB: Regional brewery.
+
+Links checked 2026-10-14: [Website](https://pelicanbrewing.com/), [Instagram](https://www.instagram.com/pelicanbrewing/), [Untappd](https://untappd.com/PelicanBrewing).
 
 ## links
 
@@ -85,6 +240,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Untappd: Beachcomber 1355](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937)
 - [Untappd: Pelican beer list](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes.
+- Not published: IBU. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

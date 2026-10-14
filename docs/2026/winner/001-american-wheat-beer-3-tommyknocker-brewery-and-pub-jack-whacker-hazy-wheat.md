@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Jack Whacker Wheat"
@@ -26,7 +26,79 @@ brewery-state: "CO"
 brewery-url: "https://www.tommyknocker.com/"
 category-name: "American Wheat Beer"
 category-number: 1
+description:
+  text: "American unfiltered wheat beer with lemongrass."
+  source: "https://www.tommyknocker.com/drink-menu"
 entries: 35
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
+      - "https://www.tommyknocker.com/"
+      - "https://www.tommyknocker.com/drink-menu"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Perle"
+    variety: "Perle"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
 hops:
   - "Perle"
 ibu: 15
@@ -35,13 +107,18 @@ malts:
   - "Munich malt"
   - "Wheat malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.tommyknocker.com/"
   - "https://www.tommyknocker.com/drink-menu"
+srm: null
 style: "American unfiltered wheat beer"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +151,47 @@ Jack Whacker Hazy Wheat is an unfiltered American wheat beer brewed with lemongr
 
 Source: [Tommyknocker: drink menu](https://www.tommyknocker.com/drink-menu)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's menu names only lemongrass. A third party club listing for the same beer under the name Jack Whacker Wheat adds 2-row, Munich and wheat malts and Perle hops, and confirms the lemongrass ([Beer of the Month Club](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat)). No yeast is named anywhere.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Perle | Perle | not published | not published | not published | [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Wheat Beer calls for low to medium bitterness, 10 to 35 IBU and 3.5 to 5.6 percent ABV. The published 4.6% ABV and 15 IBU fit inside both ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Wheat Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Tommyknocker Brewery & Pub is in Idaho Springs, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +199,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Tommyknocker Brewery & Pub](https://www.tommyknocker.com/)
 - [Beer of the Month Club: Jack Whacker Wheat](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 

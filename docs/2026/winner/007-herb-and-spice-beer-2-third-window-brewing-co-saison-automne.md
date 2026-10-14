@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -27,18 +27,84 @@ brewery-state: "CA"
 brewery-url: "https://www.thirdwindowbrewing.com/"
 category-name: "Herb and Spice Beer"
 category-number: 7
+description:
+  text: "Crafted with white & black sage sourced from Santa Barbara Botanic Garden and Cuyama Valley wildflower honey."
+  source: "https://www.thirdwindowbrewing.com/"
 entries: 67
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Wheat"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://thirdwindowbrewing.com/products/saison-automne-2026"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.thirdwindowbrewing.com/"
+srm: null
 style: "Seasonal Farmhouse Ale"
+tasting-notes: null
+water: null
 yeast:
   - "Brettanomyces"
   - "Lactobacillus"
@@ -73,19 +139,56 @@ Saison Automne is an autumn farmhouse ale that Third Window Brewing Co. of Santa
 
 Source: [Third Window Brewing](https://www.thirdwindowbrewing.com/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The product page describes the brewery's Farmhouse Saison blended with a mixed Brettanomyces and Lactobacillus culture, then dosed with sage tea and honey, on a grist of malt and wheat from the FP Farm; it lists herbal, pine and black pepper aromas with a light, dry finish ([Third Window: Saison Automne](https://thirdwindowbrewing.com/products/saison-automne-2026)). Hops and the primary yeast strain are not named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Herb and Spice Beer asks for herb or spice character from subtle to intense, favors very low to medium-low bitterness so the herb shows, and lets IBU and ABV vary with the base style. A sage and honey saison fits, with the sage as the featured herb.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Herb and Spice Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Third Window Brewing Co. is in Santa Barbara, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://thirdwindowbrewing.com/products/saison-automne-2026)
 - [Third Window Brewing](https://www.thirdwindowbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

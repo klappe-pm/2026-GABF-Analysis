@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Barrel Aged 1314"
@@ -25,19 +25,121 @@ brewery-state: "WY"
 brewery-url: "https://www.blacktoothbrewingcompany.com/"
 category-name: "Wood- and Barrel-Aged Strong Beer"
 category-number: 33
+description:
+  text: "A Wyoming Whiskey barrel aged English Strong Ale that has been aged for 12 months. English strong ale is a rich, complex malty sweet beer with hints of figs, raisins, dark fruits and balanced with a dry alcohol finish. Barrel aging will impart bourbon flavors of wood, coconut, vanilla, caramel, licorice, brown sugar and cinnamon."
+  source: "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
 entries: 61
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
+      - "https://www.blacktoothbrewingcompany.com/news/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 45
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.blacktoothbrewingcompany.com/"
   - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
   - "https://www.blacktoothbrewingcompany.com/news/"
   - "https://www.blacktoothbrewingcompany.com/the-beer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "English Strong Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +172,48 @@ yeast: []
 
 Source: [Black Tooth: Barrel Aged 1314](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names no hops, malts or yeast. Its page describes the flavor as "Prominent maltiness with layers of fig, toffee and vanilla. Oaky and complex." and the aroma as vanilla, bourbon, woody and sweet, all attributed to the base beer and the barrels rather than to added ingredients ([Black Tooth: Barrel Aged 1314](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) have no standalone entry for this competition category; their Other Strong Ale or Lager entry sets elevated alcohol at 8% ABV and up and notes that wood- and barrel-aged beers meeting that threshold are categorized separately. The published 11.7% ABV clears that threshold.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2021 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Silver |
+| 2022 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Bronze |
+| 2023 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Silver |
+| 2026 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Black Tooth Brewing Co. is in Sheridan, WY.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +222,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Black Tooth: the beer](https://www.blacktoothbrewingcompany.com/the-beer/)
 - [Black Tooth: news](https://www.blacktoothbrewingcompany.com/news/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/news/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
 
 ## research-notes
 

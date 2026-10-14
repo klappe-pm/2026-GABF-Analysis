@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,16 +24,79 @@ brewery-state: "CA"
 brewery-url: "https://sierranevada.com/"
 category-name: "European-Style Amber Ale"
 category-number: 66
+description:
+  text: "Stein Alt is an old style German ale, golden in color with an interesting coffee-like malt flavor, paired with fruity aromas balanced by a moderate dose of whole-cone hops making it clean, complex, and amazingly drinkable."
+  source: "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
 entries: 49
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 42
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Altbier"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +129,45 @@ Stein Altbier is an altbier from Sierra Nevada Brewing Co. of Chico, California.
 
 Source: [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The only ingredient detail published is the use of whole-cone hops; no hop varieties, malts or yeast are named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Altbier call for a clean, crisp beer with toasty malt and a firm, dry, bitter finish, at 4.6 to 5.6 percent ABV, 25 to 52 IBU and 11 to 19 SRM (copper to dark brown). The published 5% ABV and 42 IBU fit; the golden color described sits lighter than the guideline's color range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | European-Style Amber Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Sierra Nevada Brewing Co. is in Chico, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -80,6 +175,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Sierra Nevada Brewing Co.](https://sierranevada.com/)
 - [Untappd: Stein Altbier](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882), web searches recorded in the research notes.
 
 ## research-notes
 

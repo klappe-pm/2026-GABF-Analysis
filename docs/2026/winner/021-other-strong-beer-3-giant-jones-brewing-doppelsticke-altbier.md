@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Doppelsticke"
@@ -25,12 +25,132 @@ brewery-state: "WI"
 brewery-url: "https://www.giantjones.com/"
 category-name: "Other Strong Beer"
 category-number: 21
+description:
+  text: "Strong, Northern German-style altbier. Toasty & nutty, herbal hop character & distinct bitterness, 3 weeks cold-conditioning for a clean, lager-like impression."
+  source: "https://giantjones.com/beer/"
 entries: 24
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://giantjones.com/beer/"
+      - "https://giantjones.com/on-tap/"
+      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
+      - "https://www.giantjones.com/"
+      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://giantjones.com/beer/"
   - "https://giantjones.com/on-tap/"
@@ -38,7 +158,10 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.giantjones.com/"
   - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
+srm: null
 style: "Strong, Northern German-style altbier"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +196,46 @@ Punctuation lightly normalized.
 
 Source: [Giant Jones: our beer](https://giantjones.com/beer/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient list is published for this beer. The brewery says in general that it makes strong beers "with the best organic ingredients", but the Doppelsticke entry itself names no malt, hop or yeast.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Other Strong Ale or Lager covers any style intentionally brewed to a higher alcohol content than its own guideline allows, at 8 percent ABV or more and not wood or barrel aged. At 9.6% ABV this altbier is far above a standard altbier's strength and clears that threshold.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2022 | Great American Beer Festival | Other Strong Beer | Bronze |
+| 2026 | Great American Beer Festival | Other Strong Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Giant Jones Brewing is in Madison, WI. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +244,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Giant Jones: tasting room list](https://giantjones.com/on-tap/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [PBS: Giant Jones brewing visit](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes.
+- Not published: IBU. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

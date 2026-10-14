@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,183 @@ brewery-state: "NY"
 brewery-url: "https://www.strongropebrewery.com/"
 category-name: "English-Style Pale Ale"
 category-number: 69
+description: null
 entries: 47
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://strongropebreweryorder.square.site"
+      - "https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view"
+      - "https://www.goodfork.com/menus/"
+      - "https://www.strongropebrewery.com/"
+      - "https://www.strongropebrewery.com/beer"
+      - "https://www.strongropebrewery.com/menu"
+      - "https://www.strongropebrewery.com/press-awards"
+      - "https://www.strongropebrewery.com/taproom"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://strongropebreweryorder.square.site"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -40,7 +211,10 @@ sources:
   - "https://www.strongropebrewery.com/menu"
   - "https://www.strongropebrewery.com/press-awards"
   - "https://www.strongropebrewery.com/taproom"
+srm: null
 style: "English Bitter"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +245,45 @@ Pub Ale is an English-style bitter from Strong Rope Brewery in Brooklyn, New Yor
 
 No brewery description of Pub Ale was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing is published for this beer. The brewery's beer page makes a general claim for its whole range, "NEW YORK STATE INgredients. Truly Regional Ales & Lagers.", and describes its beers as malt and hop-forward ales and lagers ([Strong Rope: our beer](https://www.strongropebrewery.com/beer)); whether Pub Ale uses New York grown malt or hops is not stated.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Classic English-Style Pale Ale call for a gold to copper ale with floral, earthy English-style hops and medium body, at 4.4 to 5.3 percent ABV and 20 to 40 IBU. The published strength fits the category range; bitterness remains unknown.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | English-Style Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Strong Rope Brewery is in Brooklyn, NY. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +293,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [The Good Fork: beer menu](https://www.goodfork.com/menus/)
 - [Strong Rope: awards](https://www.strongropebrewery.com/press-awards)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://strongropebreweryorder.square.site), [canva.com](https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view), [goodfork.com](https://www.goodfork.com/menus/), [strongropebrewery.com](https://www.strongropebrewery.com/), [strongropebrewery.com](https://www.strongropebrewery.com/beer), [strongropebrewery.com](https://www.strongropebrewery.com/menu), [strongropebrewery.com](https://www.strongropebrewery.com/press-awards), [strongropebrewery.com](https://www.strongropebrewery.com/taproom), web searches recorded in the research notes.
+- Not published: IBU. Checked [web page](https://strongropebreweryorder.square.site), [canva.com](https://www.canva.com/design/DAFfQRV_UnA/ypQbkyENQvlf64Fl-GLGzg/view), [goodfork.com](https://www.goodfork.com/menus/), [strongropebrewery.com](https://www.strongropebrewery.com/), [strongropebrewery.com](https://www.strongropebrewery.com/beer), [strongropebrewery.com](https://www.strongropebrewery.com/menu), [strongropebrewery.com](https://www.strongropebrewery.com/press-awards), [strongropebrewery.com](https://www.strongropebrewery.com/taproom), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -93,7 +93,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 ${body}
 </main>
 ${pageData ? `<script type="application/json" id="page-data">${JSON.stringify(pageData).replace(/</g, '\\u003c')}</script>` : ''}
-<footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">${esc(COPY('global.site.footer.source_link'))}</a>.</div></footer>
+<footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">${esc(COPY('global.site.footer.source_link'))}</a>.${CATALOG_BEER_ATTRIBUTION}</div></footer>
 <script src="${r}assets/vendor/echarts.min.js"></script>
 <script src="${r}assets/page.js" defer></script>
 <script src="${r}assets/echarts-init.js" defer></script>
@@ -315,6 +315,9 @@ function dashboardPages(ds) {
 
   write('dashboards/index.html', layout({ title: 'Dashboards', description: 'All dashboards.', body: `<h1>Dashboards</h1><ul class="list-plain">${DASHBOARDS.map(([href, label, desc]) => `<li><a href="../${href}">${esc(label)}</a> <span class="muted">${esc(desc)}</span></li>`).join('')}</ul>`, depth: 1, active: 'Dashboards' }));
 }
+
+// Attribution for values taken from Catalog.beer (CC BY 4.0); shown in every page footer.
+export const CATALOG_BEER_ATTRIBUTION = ' Some beer details are from <a href="https://catalog.beer">Catalog.beer</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> and adapted.';
 
 // ---------- breweries ----------
 const LINK_LABELS = [['instagram', 'Instagram'], ['untappd', 'Untappd'], ['beeradvocate', 'BeerAdvocate']];

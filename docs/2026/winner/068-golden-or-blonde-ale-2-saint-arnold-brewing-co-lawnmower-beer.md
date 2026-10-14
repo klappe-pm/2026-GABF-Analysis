@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Lawnmower"
@@ -25,7 +25,69 @@ brewery-state: "TX"
 brewery-url: "https://www.saintarnold.com/"
 category-name: "Golden or Blonde Ale"
 category-number: 68
+description:
+  text: "A Kölsch-style blonde. This beer is crisp and refreshing, yet has a sweet malty body that is balanced by a complex, citrus hop character. Multiple additions of German Hallertauer hops are used to achieve this delicate flavor."
+  source: "https://www.saintarnold.com/beers-more/lawnmower/"
 entries: 84
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.saintarnold.com/beers"
+      - "https://www.saintarnold.com/beers-more/lawnmower/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertauer Hersbrucker"
+    variety: "Hallertauer Hersbrucker"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.saintarnold.com/beers-more/lawnmower/"
 hops:
   - "Hallertauer Hersbrucker"
 ibu: 18
@@ -33,12 +95,17 @@ malts:
   - "Pilsner malt"
   - "Wheat malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.saintarnold.com/beers"
   - "https://www.saintarnold.com/beers-more/lawnmower/"
+srm: null
 style: "Kölsch-style blonde"
+tasting-notes: null
+water: null
 yeast:
   - "Kölsch yeast"
 ---
@@ -72,13 +139,47 @@ Lawnmower is a light golden ale from Saint Arnold Brewing Co. of Houston, first 
 
 Source: [Saint Arnold: Lawnmower](https://www.saintarnold.com/beers-more/lawnmower/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery says the beer uses "just pale malted barley and a dash of malted wheat", importing pils and wheat malts, with Hallertauer Hersbrucker as the only hop, and a special Kölsch yeast that "ferments at lager temperatures, to yield the slightly fruity, clean flavor of this beer" ([Saint Arnold: Lawnmower](https://www.saintarnold.com/beers-more/lawnmower/)).
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertauer Hersbrucker | Hallertauer Hersbrucker | not published | not published | not published | [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Golden or Blonde Ale call for a crisp, light-bodied straw to gold ale with subtle pale malt and moderate hop character, at 4.1 to 5.1 percent ABV and 15 to 25 IBU. The published 4.9% ABV and 18 IBU fit inside both ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Golden or Blonde Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Saint Arnold Brewing Co. is in Houston, TX.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -86,6 +187,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Saint Arnold Brewing Co.](https://www.saintarnold.com/)
 - [Saint Arnold: beers](https://www.saintarnold.com/beers)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [saintarnold.com](https://www.saintarnold.com/beers), [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/), web searches recorded in the research notes.
 
 ## research-notes
 

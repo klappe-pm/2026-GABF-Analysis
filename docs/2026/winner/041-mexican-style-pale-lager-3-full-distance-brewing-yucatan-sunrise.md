@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Yucatán Sunrise"
@@ -26,21 +26,108 @@ brewery-state: "VA"
 brewery-url: "https://fulldistancebrewing.com/"
 category-name: "Mexican-Style Pale Lager"
 category-number: 41
+description:
+  text: "Light, crisp, and refreshing this lager hints of Vienna malt and Lemondrop hops with a whisper of sweetness from flaked corn. A perfect choice for the beach, BBQ, or your favorite easy chair."
+  source: "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
 entries: 146
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://fulldistancebrewing.com/"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
+      - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
+      - "https://untappd.com/FullDistanceBrewing/beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Lemondrop"
+    variety: "Lemondrop"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
 hops:
   - "Lemondrop"
 ibu: 10
 malts:
   - "Vienna malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://fulldistancebrewing.com/"
   - "https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904"
   - "https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890"
   - "https://untappd.com/FullDistanceBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Lager, Mexican"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +162,47 @@ The brewery site returned no readable beer content. The Untappd listing carries 
 
 Source: [Untappd: Yucatan Sunrise](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Vienna malt, Lemondrop hops and flaked corn are the only ingredients named, all in the [Untappd listing](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904). The listing for the darker sibling [Yucatan Sunset](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890) says both beers use a lot of corn.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Lemondrop | Lemondrop | not published | not published | not published | [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mexican-Style Pale Lager describes a clean, dry finishing pale lager with low malt sweetness and low hop character, at 4.5 to 5.0 percent ABV and 15 to 22 IBU. The listed 5.1% ABV is just above the range and the listed 10 IBU is below it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mexican-Style Pale Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Full Distance Brewing is in Stafford, VA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +211,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Yucatan Sunset](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890)
 - [Untappd: Full Distance beer list](https://untappd.com/FullDistanceBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fulldistancebrewing.com](https://fulldistancebrewing.com/), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunrise/5361904), [untappd.com](https://untappd.com/b/full-distance-brewing-yucatan-sunset/5776890), [untappd.com](https://untappd.com/FullDistanceBrewing/beer), web searches recorded in the research notes.
 
 ## research-notes
 

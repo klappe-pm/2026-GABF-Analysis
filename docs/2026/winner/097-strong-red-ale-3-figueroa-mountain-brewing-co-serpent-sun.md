@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,123 @@ brewery-state: "CA"
 brewery-url: "https://www.figmtnbrew.com/"
 category-name: "Strong Red Ale"
 category-number: 97
+description: null
 entries: 32
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.figmtnbrew.com/"
+      - "https://www.figmtnbrew.com/awards"
+      - "https://www.figmtnbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.figmtnbrew.com/"
   - "https://www.figmtnbrew.com/awards"
   - "https://www.figmtnbrew.com/our-beers"
+srm: null
 style: "Strong Red Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +171,45 @@ Serpent Sun is a strong red ale from Figueroa Mountain Brewing Co. of Buellton, 
 
 No brewery description of this beer was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published in any source reached.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the closest entry in the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) is Imperial Red Ale: deep amber to reddish brown, medium to high caramel malt, high hop aroma and flavor, very high bitterness and a prominent alcohol character, at 8.0 to 10.6 percent ABV and 55 to 85 IBU. No published specs exist to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Strong Red Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Figueroa Mountain Brewing Co. is in Buellton, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -80,6 +217,11 @@ As category context only, the closest entry in the [Brewers Association guidelin
 - [Figueroa Mountain: our beers](https://www.figmtnbrew.com/our-beers)
 - [Figueroa Mountain: awards](https://www.figmtnbrew.com/awards)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/awards), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/awards), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

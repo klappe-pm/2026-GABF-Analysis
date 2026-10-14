@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,20 +24,109 @@ brewery-state: "CT"
 brewery-url: "https://www.counterweightbrewing.com/"
 category-name: "Munich-Style Helles"
 category-number: 53
+description:
+  text: "Brewed with the finest German pilsner malts, and Hallertau hops, this beer is very traditional. Clean, drinkable, with a mild sweet maltiness."
+  source: "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
 entries: 123
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau"
+    variety: "Hallertau"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.counterweightbrewing.com/brews/"
 hops:
   - "Hallertau"
 ibu: null
 malts:
   - "German Pilsner malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://www.beermenus.com/beers/257731-counter-weight-ein-helles"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.counterweightbrewing.com/"
   - "https://www.counterweightbrewing.com/brews/"
+srm: null
 style: "German Helles"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +159,48 @@ Ein Helles is a traditional German helles from Counter Weight Brewing Co. in Che
 
 Source: [BeerMenus: Counter Weight Ein Helles](https://www.beermenus.com/beers/257731-counter-weight-ein-helles) (brewery text; the brewery's own brews page carries the same tasting line)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names German pilsner malts and Hallertau hops without a specific Hallertau variety ([Counter Weight: brews](https://www.counterweightbrewing.com/brews/)). No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau | Hallertau | not published | not published | not published | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Munich-Style Helles calls for pronounced malt aroma and flavor with no caramel character, 4.8 to 5.6 percent ABV, 15 to 25 IBU and 2.5 to 5 SRM. The published 5% ABV fits; IBU cannot be checked.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2023 | Great American Beer Festival | Munich-Style Helles | Bronze |
+| 2026 | Great American Beer Festival | Munich-Style Helles | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Counter Weight Brewing Co. is in Cheshire, CT.
+
+Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Instagram](https://www.instagram.com/counterweightbrewingco/), [Untappd](https://untappd.com/CounterWeightBrewingCo).
 
 ## links
 
@@ -84,6 +208,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Counter Weight Brewing Co.](https://www.counterweightbrewing.com/)
 - [BeerMenus: Counter Weight Ein Helles](https://www.beermenus.com/beers/257731-counter-weight-ein-helles)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/257731-counter-weight-ein-helles), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

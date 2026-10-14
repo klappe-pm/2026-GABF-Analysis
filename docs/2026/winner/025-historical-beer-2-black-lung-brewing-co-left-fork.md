@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,74 @@ brewery-state: "IL"
 brewery-url: "https://www.blacklungbrewing.com/"
 category-name: "Historical Beer"
 category-number: 25
+description:
+  text: "Light and crushable with flaked maize, black malt, Noble hops."
+  source: "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
 entries: 39
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Noble hops"
+    variety: "Noble hops"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
 hops: 
   - "Noble hops"
 ibu: 20
@@ -32,12 +99,17 @@ malts:
   - "Black malt"
   - "Flaked maize"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
+srm: null
 style: "Kentucky Common Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +142,47 @@ Left Fork is a beer from Black Lung Brewing Co., a craft brewery and taproom wit
 
 Source: [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewer's description names a hop family but no individual variety; no yeast strain is published. [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126)
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Noble hops | Noble hops | not published | not published | not published | [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Historical Beer as established historical beers or brewing traditions from any era or part of the world that do not fit another defined style, with ABV, IBU and color varying with the underlying style. The published Kentucky Common identity provides the historical style context.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Historical Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Black Lung Brewing Co. is in Grayslake, IL.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +190,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Black Lung Brewing Co.](https://www.blacklungbrewing.com/)
 - [Visit Lake County: Black Lung Brewing Grayslake](https://www.visitlakecounty.org/BlackLungBrewingGrayslake)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126), [visitlakecounty.org](https://www.visitlakecounty.org/BlackLungBrewingGrayslake), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,61 @@ brewery-state: "VA"
 brewery-url: "https://www.palefirebrewing.com/"
 category-name: "Irish-Style Red Ale"
 category-number: 72
+description:
+  text: "Red Molly ‘s rich character starts with a foundation of authentic Irish Ale malt. Cherry notes and a slight residual sweetness come from Crystal and Munich malts, with a touch of chocolate wheat. A clean bitterness, courtesy of mild British hops, balances the malt complexity and results in a flavorful and refreshing pint."
+  source: "https://www.palefirebrewing.com/"
 entries: 50
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.palefirebrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 20
 malts:
@@ -33,11 +87,16 @@ malts:
   - "Irish ale malt"
   - "Munich malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.palefirebrewing.com/"
+srm: null
 style: "Irish Red Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,18 +129,54 @@ Red Molly is an Irish red ale from Pale Fire Brewing Co. of Harrisonburg, Virgin
 
 Source: [Pale Fire Brewing](https://www.palefirebrewing.com/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing is published beyond the description: the British hop varieties are not identified, malt proportions are not given and no yeast is named.
+
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Irish-Style Red Ale call for a copper-red ale with caramel sweetness, toasted malt and a slight roast finish, at 4.0 to 4.8 percent ABV and 20 to 28 IBU. The published 20 IBU fits at the low end, while 5.6% ABV is above the range.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Irish-Style Red Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Pale Fire Brewing Co. is in Harrisonburg, VA.
+
+No brewery links have been checked yet.
+
 ## links
 
 - [Pale Fire Brewing Co.](https://www.palefirebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [palefirebrewing.com](https://www.palefirebrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

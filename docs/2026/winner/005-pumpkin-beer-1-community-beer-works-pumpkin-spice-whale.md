@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -28,19 +28,121 @@ brewery-state: "NY"
 brewery-url: "https://communitybeerworks.com/"
 category-name: "Pumpkin Beer"
 category-number: 5
+description:
+  text: "Pumpkin spice dominates the palate of fall flavors, whether in beloved coffee drinks or other seasonal offerings. We wanted to have a little fun with the flavor profile and create a beer that latched onto the hype."
+  source: "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
 entries: 69
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://communitybeerworks.com/"
+      - "https://communitybeerworks.com/beers"
+      - "https://untappd.com/communitybeerworks/beer"
+      - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://communitybeerworks.com/"
   - "https://communitybeerworks.com/beers"
   - "https://untappd.com/communitybeerworks/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
+srm: null
 style: "Brown ale (Whale series)"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -77,13 +179,45 @@ Punctuation lightly normalized.
 
 Source: [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The launch report lists the spice blend and says "Distinct English malts and hops are also layered into the brew" without naming varieties ([WKBW](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew)). It does not say whether actual pumpkin is used.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Pumpkin Spice Beer as having pumpkin or squash character from very subtle to intense with spices present and in balance, at 5 to 35 IBU and 2.5 to 12 percent ABV. A spiced brown ale matches the spiced side of the pumpkin category; the newly verified strength falls within the category range; bitterness remains unpublished.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Pumpkin Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Community Beer Works is in Buffalo, NY. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://communitybeerworks.com/).
 
 ## links
 
@@ -91,6 +225,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Community Beer Works](https://communitybeerworks.com/)
 - [WKBW: Pumpkin Spice Whale launch](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes.
+- Not published: IBU. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

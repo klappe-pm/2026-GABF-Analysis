@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Pachanga Mexican-Style Lager"
@@ -25,14 +25,149 @@ brewery-state: "IN"
 brewery-url: "https://www.sunkingbrewing.com/"
 category-name: "Mexican-Style Light Lager"
 category-number: 40
+description:
+  text: "Mexican style lager with a crisp malt flavor and thirst-quenching character."
+  source: "https://www.beerandbrewing.com/review/pachanga"
 entries: 39
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
+      - "https://www.beerandbrewing.com/review/pachanga"
+      - "https://www.sunkingbrewing.com/"
+      - "https://www.sunkingbrewing.com/blog"
+      - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
+      - "https://www.sunkingbrewing.com/our-beers"
+      - "https://www.target.com/p/-/A-53477068"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Bravo"
+    variety: "Bravo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.target.com/p/-/A-53477068"
 hops: 
   - "Bravo"
 ibu: 24
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
+  - "https://catalog.beer/beer/3c0e6c21-ad04-4262-ad2f-6852c4820da8"
   - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
   - "https://www.beerandbrewing.com/review/pachanga"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -41,7 +176,10 @@ sources:
   - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
   - "https://www.sunkingbrewing.com/our-beers"
   - "https://www.target.com/p/-/A-53477068"
+srm: null
 style: "Mexican-Style Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -76,13 +214,47 @@ Punctuation lightly normalized.
 
 The brewery's own listing shows only name, style and ABV, so this is the brewer description quoted in the Beer & Brewing review. Source: [Beer & Brewing: Pachanga review](https://www.beerandbrewing.com/review/pachanga)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The retailer’s [Pachanga listing](https://www.target.com/p/-/A-53477068) identifies the hop variety shown in the specs table. The subtle lime note describes flavor; no lime addition, yeast or malt varieties were verified.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Bravo | Bravo | not published | not published | not published | [target.com](https://www.target.com/p/-/A-53477068) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mexican-Style Light Lager calls for a clean fermentation profile, a very light to light body with a dry finish, 3.2 to 4.2 percent ABV, 8 to 17 IBU and a straw to pale gold color (SRM 2 to 3). The brewery's 4.5% ABV and the published 24 IBU both sit above those ranges; the older 4.2% figure would sit at the top of the ABV range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mexican-Style Light Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Sun King Brewing is in Fishers, IN. Brewery type in Open Brewery DB: In planning.
+
+Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
 ## links
 
@@ -95,6 +267,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Pachanga](https://untappd.com/b/sun-king-brewery-pachanga/2014545)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-pachanga/2014545), [beerandbrewing.com](https://www.beerandbrewing.com/review/pachanga), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), [target.com](https://www.target.com/p/-/A-53477068), web searches recorded in the research notes.
+
 ## research-notes
 
 - Field pass 2026-10-13: The matching [Target Pachanga listing](https://www.target.com/p/-/A-53477068) names Bravo hops. Its 4.2% ABV disagrees with the existing 4.5% from the [brewery beer list](https://www.sunkingbrewing.com/our-beers), which is retained. The separate Dry Hopped Pachanga variant names Amarillo and is excluded.
@@ -104,3 +280,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - Style label conflict: the brewery's July 2025 post calls Pachanga "our German Leichtbier" when reporting a 1st place at the 2025 Indiana Brewers Cup, while its beer list calls it Mexican-Style Lager.
 - No 2026 GABF post was found on the brewery blog.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Pachanga](https://catalog.beer/beer/3c0e6c21-ad04-4262-ad2f-6852c4820da8) lists 4.2% ABV, 24 IBU, style "American-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
