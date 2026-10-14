@@ -59,7 +59,7 @@ The parse prints category, medal, brewery, and award counts followed by problems
 
 1. `npm run enrich` runs Open Brewery DB lookups for every new brewery (about a quarter second each, cached under data/cache/). Breweries the API does not know get an override row in data/reference/brewery-overrides.csv when you want a map pin.
 2. `node scripts/build-fed-districts.mjs`, then `node scripts/fetch-state-indicators.mjs`: the first resolves new medal cities in split states to counties and Federal Reserve districts, the second adds the year's population and GDP rows (a year not yet published reuses the latest one and says so). When Census publishes a new population vintage or BEA a new GDP release, rerun the second with `--refresh`; a new Census vintage also needs the two vintage URLs and `POP_LAST` updated at the top of the script. Sources are in docs/data-sources.md.
-3. `npm run build` and `npm run serve`, then open the explorer with the new year selected and the top-breweries report.
+3. `npm run build` and `npm run serve`, then open Explore (`/analysis/explore/`) with the new year selected and the top-breweries report.
 4. Fill the year's row in data/results/year-summary.csv from the Brewers Association release (entries, breweries entering, medals, categories).
 5. Optionally scaffold local deep dives for the breweries you care about: `node scripts/scaffold-brewery.mjs --brewery "Name"`, then research and fill the sections. breweries/ is ignored by git, so these stay on your machine.
 6. Commit data/ and docs/ on a branch, open a pull request, and queue it with `gh pr merge <number> --auto --merge`. It merges when the required `build` check passes, and the deploy workflow publishes main within a few minutes.

@@ -46,7 +46,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/cascade.md"
   - "../hops/varieties/centennial.md"
@@ -68,10 +67,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "holidaily-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "CO"
 untappd: null
-website: null
+website: "https://holidailybrewing.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -40,13 +40,11 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/el-dorado.md"
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/hopsaintbrewingco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 3
@@ -62,10 +60,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "hopsaint-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.hopsaint.com"
+untappd: "https://untappd.com/HopSaintBrewingCompany"
+website: "https://www.hopsaint.com/"
 world-beer-cup-medals: 0
 ---
 

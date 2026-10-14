@@ -53,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "fate-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "AZ"
 untappd: null
-website: "http://mcfatebrewing.com"
+website: "https://fatebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

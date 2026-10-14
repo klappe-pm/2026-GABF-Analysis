@@ -29,7 +29,7 @@ Runs of ci on a pull request cancel older runs for the same pull request; runs o
 
 ## generated-files
 
-These are build outputs and are not in git: `gabf-dashboard.html`, `gabf-explorer.html`, `docs/design/chart-gallery/index.html`, and `data/enriched/winners-2026.sqlite` (built from the profiles in `docs/2026/winner/`, and read only by the explorer build). `npm run generate` writes all four (and `npm test` runs it first), `npm run explorer` writes the database and then the explorer, `npm run build` runs it before the site build copies the explorer, and the deploy publishes the dashboard at `/gabf-dashboard.html`. `tests/winner-db.test.mjs` checks that the rebuilt database holds exactly one beer per profile. Two pull requests that each regenerate a committed copy can merge into a stale one even when both pass their checks, and a 12 MB page or a 7 MB database conflicts on every parallel research change; building them in CI removes both failures. A branch never carries them. The brand outputs (`site/assets/brand.css`, `site/assets/brand.json`, and the README banners) stay in git, because the README renders the banners on GitHub; `npm run brand:check` keeps them current and is deterministic.
+These are build outputs and are not in git: `gabf-dashboard.html`, `docs/design/chart-gallery/index.html`, and `data/enriched/winners-2026.sqlite` (built from the profiles in `docs/2026/winner/`, and read only by the tests). `npm run generate` writes all three (and `npm test` runs it first), `npm run winner-db` writes the database, and the deploy publishes the dashboard at `/gabf-dashboard.html`. `tests/winner-db.test.mjs` checks that the rebuilt database holds exactly one beer per profile. Two pull requests that each regenerate a committed copy can merge into a stale one even when both pass their checks, and a 12 MB page or a 7 MB database conflicts on every parallel research change; building them in CI removes both failures. A branch never carries them. The brand outputs (`site/assets/brand.css`, `site/assets/brand.json`, and the README banners) stay in git, because the README renders the banners on GitHub; `npm run brand:check` keeps them current and is deterministic.
 
 ## url-map
 
@@ -41,7 +41,7 @@ The deploy lays the web/ export over the old static site (`scripts/assemble-page
 | `/design-system/` | the web/ style guide |
 | `/404.html` | the web/ not found page |
 | `/overview/` | the old overview dashboard, with its links rewritten one level down; old `/#year=…` links now open the web/ home |
-| `/dashboards/`, `/breweries/`, `/categories/`, `/beers/`, `/hops/`, `/hop-farms/`, `/reports/`, `/first-time-medalists/`, `/explorer/`, `/about/`, `/data/`, `/assets/` | the old static site, unchanged |
+| `/dashboards/`, `/breweries/`, `/categories/`, `/beers/`, `/hops/`, `/hop-farms/`, `/reports/`, `/first-time-medalists/`, `/about/`, `/data/`, `/assets/` | the old static site, unchanged |
 | `/gabf-dashboard.html` | the single file dashboard |
 
 As pages are ported to web/, their routes take over the old paths automatically. The old site retires when nothing in the URL map comes from dist/.

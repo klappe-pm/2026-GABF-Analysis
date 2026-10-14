@@ -6,27 +6,27 @@ Beers index: every winning beer of the profiled year with its published specs.
 
 Where: top of the page.
 
-- `title`: {{year}} winning beers
+- `title`: {{year}} Winning Beers
 - `lede`: Every {{year}} medal with the beer's published specs: style, ABV, IBU, hops, malts, yeast, and adjuncts, each from the brewery or a cited source. Open a beer for its research notes.
 
 ## `links`
 
 Where: links under the lede.
 
-- `first_time`: First time medalists in {{year}}
-- `explorer`: Open the explorer
+- `first_time`: First Time Medalists in {{year}}
+- `explorer`: Open the Explorer
 
 ## `stats`
 
 Where: the summary tiles.
 
-- `label`: Summary of the medals in view
-- `medals`: Medals in view
+- `label`: Summary of the Medals in View
+- `medals`: Medals in View
 - `medals_note`: {{count}} categories
-- `abv`: ABV published
-- `ibu`: IBU published
-- `hops`: Hops named
-- `beer_page`: Brewery beer page found
+- `abv`: ABV Published
+- `ibu`: IBU Published
+- `hops`: Hops Named
+- `beer_page`: Brewery Beer Page Found
 - `share_note`: {{count}} of {{total}}
 
 ## `table`

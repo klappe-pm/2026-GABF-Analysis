@@ -35,11 +35,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/dcbrau/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "dc-brau-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "DC"
-untappd: null
-website: "http://www.dcbrau.com"
+untappd: "https://untappd.com/HopfheiserBrewingCompany"
+website: "https://www.dcbrau.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -34,13 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/nectaron.md"
-instagram: null
+instagram: "https://www.instagram.com/coldfire_brewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -54,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "coldfire-barrel-house"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OR"
-untappd: null
-website: null
+untappd: "https://untappd.com/ColdFire_Brewing"
+website: "https://coldfirebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

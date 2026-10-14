@@ -6,22 +6,22 @@ Analysis reports: the ready made report pages, one group per report. Titles and 
 
 Where: link above every report title.
 
-- `back`: All analysis
+- `back`: All Analysis
 
 ## `top_breweries`
 
 Where: the top breweries report.
 
 - `lede`: Points weight gold 3, silver 2, bronze 1. Rankings use the medals in view. Partial years count only when you include them in Filters.
-- `chart_title`: Top 15 breweries by points
+- `chart_title`: Top 15 Breweries by Points
 - `chart_subtitle`: Medals in view
-- `streaks_title`: Longest active streaks
+- `streaks_title`: Longest Active Streaks
 - `streaks_note`: Consecutive years with a medal, through {{year}}. A streak needs every year, so it uses the full record and ignores Filters.
 - `streak_item`: {{brewery_name}}: {{count}} years
 - `streaks_empty`: No streak longer than one year.
 - `first_time_line`: Breweries whose first medal came in {{year}}: see the first time medalists.
 - `first_time_link`: first time medalists
-- `table_title`: Top 50 in view
+- `table_title`: Top 50 in View
 - `year_heading`: {{year}}
 
 ## `top_categories`
@@ -29,24 +29,24 @@ Where: the top breweries report.
 Where: the top categories report.
 
 - `lede`: Entry counts come from the official list and show where competition is fiercest. Entries per medal reads each category as odds: how many entries each medal had to beat. Special categories are marked.
-- `most_entered_title`: Most entered categories
+- `most_entered_title`: Most Entered Categories
 - `most_entered_subtitle`: Latest year in view with entry counts
 - `most_entered_empty`: No entry counts in view.
 - `special_suffix`: (special)
-- `families_title`: Medals by style family
-- `odds_title`: Hardest categories to medal in
+- `families_title`: Medals by Style Family
+- `odds_title`: Hardest Categories to Medal In
 - `odds_subtitle`: Entries per medal, highest first
 - `odds_note`: Entries divided by medals awarded in the category, pooled over the years in view.
 - `odds_missing_one`: 1 medal in view has no published entry count and is left out.
 - `odds_missing_many`: {{count}} medals in view have no published entry count and are left out.
-- `table_title`: All categories in view
+- `table_title`: All Categories in View
 
 ### `odds_columns`
 
 - `category`: Category
-- `entries_per_medal`: Entries per medal
+- `entries_per_medal`: Entries per Medal
 - `entries`: Entries
-- `medals_awarded`: Medals awarded
+- `medals_awarded`: Medals Awarded
 - `years`: Years
 
 ## `by_state`
@@ -54,38 +54,37 @@ Where: the top categories report.
 Where: the by state report.
 
 - `lede`: Medals by state, adjusted for population and economy. Each medal counts against its own year's Census population and real GDP; {{latest_year}} medals use {{data_year}}, the latest published year.
-- `map_title`: Medals by state
+- `map_title`: Medals by State
 - `map_subtitle`: Medals in view
 - `map_tooltip`: {{state}}: {{count}} medals
-- `bars_title`: Medals by state
+- `bars_title`: Medals by State
 - `bars_subtitle`: Top 20
-- `per_capita_title`: Medals per million residents
+- `per_capita_title`: Medals per Million Residents
 - `per_capita_subtitle`: Top 20, by each year's population
-- `table_title`: All states in view
+- `table_title`: All States in View
 
 ## `by_region`
 
 Where: the by region report.
 
 - `lede`: Medals by Census region (Northeast, Midwest, South, West) and division. Per million residents uses each medal year's Census population.
-- `regions_title`: Medals by region
-- `divisions_title`: Medals by division
-- `unknown`: Not defined
+- `regions_title`: Medals by Region
+- `divisions_title`: Medals by Division
 
 ## `ownership`
 
 Where: the ownership report.
 
 - `lede`: Who owns the medal winners. The Brewers Association counts a brewer as independent when less than 25 percent is owned or controlled by an alcohol company that is not a craft brewer. Ownership here is curated from public deal announcements, and each row says whether it has been checked against a primary source. Breweries without ownership research count as independent.
-- `stat_independent`: Medals to independent breweries
+- `stat_independent`: Medals to Independent Breweries
 - `stat_independent_note`: {{count}} of {{total}} medals in view; breweries without ownership research count as independent
-- `stat_listed`: Medalists with ownership research
-- `stat_owned`: Medalists owned by a large brewer or other company
-- `by_type_title`: Medals by ownership
-- `parents_title`: Medals by parent company
+- `stat_listed`: Medalists with Ownership Research
+- `stat_owned`: Medalists Owned by a Large Brewer or Other Company
+- `by_type_title`: Medals by Ownership
+- `parents_title`: Medals by Parent Company
 - `parents_subtitle`: Owners that are not independent
 - `parents_empty`: No medalist in view is owned by a large brewer or other company.
-- `table_title`: Ownership research
+- `table_title`: Ownership Research
 - `table_note`: Every researched brewery, whether or not it medaled in the years in view. Filters do not narrow this table.
 
 ### `columns`
@@ -96,7 +95,7 @@ Where: the ownership report.
 - `parent`: Parent
 - `investors`: Investors
 - `stake`: Stake
-- `year`: Deal year
+- `year`: Deal Year
 - `ba_independent`: Independent (Brewers Association)
 - `status`: Status
 - `verified`: Checked
@@ -106,9 +105,9 @@ Where: the ownership report.
 Where: the economics report.
 
 - `lede`: Estimated economics for every medalist in view: barrels, annual revenue (ARR), gross margin, EBITDA with a range by sales channel, and distribution. Every figure is an estimate (E) unless a reported production figure exists. See Method for how each is made.
-- `chart_title`: Estimated ARR by brewery (E)
+- `chart_title`: Estimated ARR by Brewery (E)
 - `chart_subtitle`: Top 15 medalists in view
-- `table_title`: All medalists in view
+- `table_title`: All Medalists in View
 
 ### `columns`
 
@@ -116,12 +115,12 @@ Where: the economics report.
 - `type`: Type
 - `locations`: Locations
 - `barrels`: Barrels (E)
-- `basis`: Volume basis
-- `cases`: Case equivalents
+- `basis`: Volume Basis
+- `cases`: Case Equivalents
 - `arr`: ARR (E)
-- `gross_margin`: Gross margin (E)
+- `gross_margin`: Gross Margin (E)
 - `ebitda`: EBITDA (E)
-- `ebitda_range`: EBITDA margin range (E)
+- `ebitda_range`: EBITDA Margin Range (E)
 - `distribution`: Distribution
 - `ownership`: Ownership
 
@@ -131,11 +130,11 @@ Where: the trends report.
 
 - `lede`: Competition scale from the Brewers Association's annual announcements, plus style family share and the biggest movers from the record. A blank cell is a figure the announcement did not state.
 - `fixed_note`: The first two charts and the scale table are totals for the whole competition, so Filters do not change them. The style family chart and the movers follow Filters.
-- `entries_title`: Entries judged
-- `medals_title`: Medals awarded and breweries entering
-- `scale_title`: Competition scale by year
-- `families_section`: Style families and movers
-- `families_title`: Medals by style family and year
+- `entries_title`: Entries Judged
+- `medals_title`: Medals Awarded and Breweries Entering
+- `scale_title`: Competition Scale by Year
+- `families_section`: Style Families and Movers
+- `families_title`: Medals by Style Family and Year
 - `families_subtitle`: Top seven families in view, plus Other
 - `movers_title`: Movers, {{previous_year}} to {{year}}
 - `gained`: Gained
@@ -145,12 +144,12 @@ Where: the trends report.
 ### `scale_columns`
 
 - `year`: Year
-- `date`: Awards date
+- `date`: Awards Date
 - `venue`: Venue
 - `entries`: Entries
-- `breweries_entering`: Breweries entering
+- `breweries_entering`: Breweries Entering
 - `medals`: Medals
-- `winning_breweries`: Winning breweries
+- `winning_breweries`: Winning Breweries
 - `categories`: Categories
 - `loaded`: Coverage
 - `notes`: Notes

@@ -38,7 +38,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/citra.md"
   - "../hops/varieties/mosaic.md"
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "alvarado-street-brewery"
-sources: []
+sources:
+  - "website resolved"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.alvaradostreetbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

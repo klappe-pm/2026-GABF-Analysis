@@ -53,27 +53,62 @@ function valuePattern(value) {
 // The copy entries behind a piece of visible text: entries whose value is exactly that text first,
 // then entries whose value sits inside a larger piece of text (a picked section, not a line). The
 // inventory maps the old built text to its key, which finds an entry whose value has since changed.
+// The pieces of each entry that matching needs, built once per list of entries: the page asks about
+// hundreds of texts in one request, and compiling a pattern per entry per text made that take
+// seconds. A list is read-only after it is loaded, so keying the work on the list itself is safe.
+const prepared = new WeakMap();
+function prepare(copy) {
+  let rows = prepared.get(copy);
+  if (rows) return rows;
+  rows = copy.map((e, order) => {
+    const placeholders = /\{\{/.test(e.value ?? '');
+    // A value that is only placeholders ({{year}}) would match any text; it needs words of its own.
+    const literal = norm(String(e.value ?? '').replace(/\{\{[^}]+\}\}/g, ''));
+    return { e, order, placeholders, literal, value: norm(e.value), pattern: e.value && literal.length >= 3 ? valuePattern(e.value) : null };
+  });
+  // Entries with no placeholder match only their own words, case aside, so they are found by lookup
+  // instead of by testing a pattern against every one.
+  const plain = new Map();
+  for (const r of rows) if (r.pattern && !r.placeholders) { const k = r.value.toLowerCase(); (plain.get(k) ?? plain.set(k, []).get(k)).push(r); }
+  rows = { all: rows, plain, holders: rows.filter((r) => r.pattern && r.placeholders) };
+  prepared.set(copy, rows);
+  return rows;
+}
+const inventoryIndex = new WeakMap();
+function indexInventory(inventory) {
+  let idx = inventoryIndex.get(inventory);
+  if (!idx) {
+    idx = new Map();
+    for (const row of inventory) { const k = norm(row.current_text); if (k && row.new_key) (idx.get(k) ?? idx.set(k, []).get(k)).push(row); }
+    inventoryIndex.set(inventory, idx);
+  }
+  return idx;
+}
+
+// The copy entries behind a piece of visible text: entries whose value is exactly that text first,
+// then entries whose value sits inside a larger piece of text (a picked section, not a line). The
+// inventory maps the old built text to its key, which finds an entry whose value has since changed.
 export function matchContent(text, copy, inventory = []) {
   const t = norm(text);
   if (!t) return [];
-  // A value that is only placeholders ({{year}}) would match any text; it needs words of its own.
-  const literal = (e) => norm(e.value.replace(/\{\{[^}]+\}\}/g, ''));
+  const rows = prepare(copy);
   // With placeholders the words of the entry must make up most of the text, or "Great American
   // Beer Festival {{year}}" would claim any heading that starts the same way.
-  const fits = (e) => !/\{\{/.test(e.value) || literal(e).length / t.length >= 0.7;
-  const exact = copy.filter((e) => e.value && literal(e).length >= 3 && fits(e) && valuePattern(e.value).test(t)).map((e) => ({ ...e, match: 'exact' }));
+  // Keep the order of the copy list: same-words entries first as they were listed.
+  const hits = [...(rows.plain.get(t.toLowerCase()) ?? []), ...rows.holders.filter((r) => r.literal.length / t.length >= 0.7 && r.pattern.test(t))].sort((a, b) => a.order - b.order);
+  const exact = hits.map((r) => ({ ...r.e, match: 'exact' }));
   const seen = new Set(exact.map((e) => e.key));
-  for (const row of inventory) {
-    if (norm(row.current_text) !== t || !row.new_key || seen.has(row.new_key)) continue;
+  for (const row of indexInventory(inventory).get(t) ?? []) {
+    if (seen.has(row.new_key)) continue;
     const hit = copy.find((e) => e.key === row.new_key);
     if (hit) { exact.push({ ...hit, match: 'inventory' }); seen.add(hit.key); }
   }
   if (exact.length) return exact;
-  return copy
-    .filter((e) => norm(e.value).length >= 12 && !/\{\{/.test(e.value) && t.includes(norm(e.value)))
-    .sort((a, b) => b.value.length - a.value.length)
+  return rows.all
+    .filter((r) => r.value.length >= 12 && !r.placeholders && t.includes(r.value))
+    .sort((a, b) => b.e.value.length - a.e.value.length)
     .slice(0, 4)
-    .map((e) => ({ ...e, match: 'inside' }));
+    .map((r) => ({ ...r.e, match: 'inside' }));
 }
 
 export function loadInventory(cmsDir) {
@@ -99,7 +134,8 @@ export function sourceFiles(root) {
       if (!existsSync(dir)) continue;
       for (const name of readdirSync(dir)) {
         const full = resolve(dir, name);
-        if (statSync(full).isDirectory()) { if (!SKIP_DIRS.has(name)) stack.push(full); continue; }
+        // out-* are the web builds (out-review, out-web-review): generated pages, never a place copy is written by hand.
+        if (statSync(full).isDirectory()) { if (!SKIP_DIRS.has(name) && !name.startsWith('out-')) stack.push(full); continue; }
         const rel = relative(root, full).split('\\').join('/');
         if (SOURCE_FILE.test(name) && !SKIP_FILES.test(rel)) files.push(rel);
       }

@@ -31,18 +31,13 @@ description:
 entries: 58
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.2townsciderhouse.com/"
-      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.2townsciderhouse.com/"
       - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.2townsciderhouse.com/"
@@ -103,12 +98,6 @@ gaps:
       - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.2townsciderhouse.com/"
-      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -116,14 +105,18 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Imperial cider of Cosmic Crisp apples made with calamansi golden limes"
+  source: "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
 sources:
   - "https://www.2townsciderhouse.com/"
   - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Imperial Cider"
-tasting-notes: null
+tasting-notes:
+  text: "Exotic, ultra zesty, and wildly floral, these unique and rare golden limes elevate Cosmic Crisp® apples to create a tropical universe of refreshment."
+  source: "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
 water: null
 yeast: []
 ---
@@ -159,7 +152,9 @@ Source: [2 Towns: Golden Lime Cosmic Crisp](https://www.2townsciderhouse.com/cid
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Exotic, ultra zesty, and wildly floral, these unique and rare golden limes elevate Cosmic Crisp® apples to create a tropical universe of refreshment.
+
+Source: [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp)
 
 ## ingredients
 
@@ -177,7 +172,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Imperial cider of Cosmic Crisp apples made with calamansi golden limes | [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp) |
 
 ## style-context
 
@@ -195,7 +190,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 2 Towns Ciderhouse is in Corvallis, OR.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.2townsciderhouse.com/), [Instagram](https://www.instagram.com/2townscider/).
 
 ## related
 
@@ -209,8 +204,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [2townsciderhouse.com](https://www.2townsciderhouse.com/), [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [2townsciderhouse.com](https://www.2townsciderhouse.com/), [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [2townsciderhouse.com](https://www.2townsciderhouse.com/), [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -219,3 +214,4 @@ No brewery links have been checked yet.
 - Sweetness, other apples and yeast are not published.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives tasting words, calamansi limes and 8% ABV.

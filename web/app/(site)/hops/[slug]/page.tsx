@@ -14,7 +14,8 @@ import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
 import { staticParams, WINNER_YEAR } from '@/lib/site-data';
 import { type Hop, hop as loadHop } from '../data';
-import { BEER_COLUMNS, beerCells, farmLinks, hopCardData, joined, notDefined, raw, Sources } from '../parts';
+import { FilteredBeers, FilteredBreweries, PageYear } from '../filtered';
+import { BEER_COLUMNS, beerRow, farmLinks, filteredCopy, hopCardData, joined, notDefined, raw, Sources } from '../parts';
 
 type Params = { slug: string };
 
@@ -37,11 +38,12 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 const year = WINNER_YEAR;
 const text = (v: string | null | undefined) => v || notDefined();
 
-function Section({ id, title, note, children }: { id: string; title: string; note?: React.ReactNode; children: React.ReactNode }) {
+function Section({ id, title, note, whole = false, children }: { id: string; title: string; note?: React.ReactNode; whole?: boolean; children: React.ReactNode }) {
   return (
     <section aria-labelledby={`${id}-title`} className="flex min-w-0 flex-col gap-3">
       <h2 id={`${id}-title`} className="type-headline-small text-on-surface">{title}</h2>
       {note ? <p className="type-body-medium max-w-measure text-on-surface-variant">{note}</p> : null}
+      {whole ? <p className="type-label-large text-on-surface-variant">{copy('unfiltered.note')}</p> : null}
       {children}
     </section>
   );
@@ -51,6 +53,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
   const h = await record(params);
   const sortHint = copy('table.sort_hint');
   const none = notDefined();
+  const filtered = filteredCopy();
 
   const dataRows = ([
     h.aliases.length ? { label: copy('data.aliases'), value: h.aliases.join(', ') } : null,
@@ -74,10 +77,6 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
     { key: 'form', label: copy('beers.form') },
     { key: 'use', label: copy('beers.use') },
     { key: 'farm', label: copy('beers.farm') },
-  ];
-  const breweryColumns: Column[] = [
-    { key: 'brewery', label: copy('breweries.brewery'), sortable: true },
-    { key: 'count', label: copy('breweries.beers'), numeric: true, sortable: true },
   ];
   const farmColumns: Column[] = [
     { key: 'farm', label: copy('farms.farm'), sortable: true },
@@ -107,7 +106,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
         {dataRows.length ? <SpecCard id="variety-data" title={copy('data.title')} rows={dataRows} /> : <p className="type-body-medium text-on-surface-variant">{copy('data.missing')}</p>}
       </div>
 
-      <Section id="aroma" title={copy('aroma.title')} note={h.aromaRows.length ? copy('aroma.note') : undefined}>
+      <Section id="aroma" whole title={copy('aroma.title')} note={h.aromaRows.length ? copy('aroma.note') : undefined}>
         {h.aromaRows.length ? (
           <DataTable
             caption={copy('aroma.title')}
@@ -119,7 +118,7 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
         ) : <p className="type-body-medium text-on-surface-variant">{copy('aroma.missing')}</p>}
       </Section>
 
-      <Section id="acreage" title={copy('acreage.title')}>
+      <Section id="acreage" whole title={copy('acreage.title')}>
         {h.acreageByState.rows.length ? (
           <>
             {trend.years.length > 1 ? (
@@ -128,7 +127,8 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
                 title={copy('acreage.chart_title')}
                 note={copy('acreage.chart_note')}
                 categories={trend.years}
-                series={[{ name: copy('acreage.series'), values: trend.totals }]}
+                // A year a state does not report is a gap (null) in its line.
+                series={trend.series.map((x) => ({ name: x.state, values: x.values as unknown as number[] }))}
                 tableSummary={copy('acreage.table_summary')}
                 nameColumn={copy('acreage.name_column')}
                 ariaLabel={copy('acreage.chart_label', { name: h.name })}
@@ -155,45 +155,37 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
         ) : <p className="type-body-medium text-on-surface-variant">{copy('acreage.missing')}</p>}
       </Section>
 
+      <PageYear year={year} fixedYear={filtered.fixedYear} />
       <Section id="beers" title={copy('beers.title', { year })} note={copy('beers.note')}>
         {h.beerRows.length ? (
-          <DataTable
+          <FilteredBeers
+            rows={h.beerRows.map((b) => {
+              const other = b.otherFarms.length ? b.otherFarms.join(', ') : null;
+              return beerRow(b, { form: joined(b.forms), use: joined(b.uses), farm: b.farms.length ? farmLinks(b.farms) : other ?? none });
+            })}
+            columns={beerColumns}
+            initialSort={{ key: 'medal', dir: 'ascending' }}
             caption={copy('beers.title', { year })}
             sortHint={sortHint}
-            columns={beerColumns}
-            rows={h.beerRows.map((b) => {
-              const c = beerCells(b);
-              const other = b.otherFarms.length ? b.otherFarms.join(', ') : null;
-              return {
-                key: b.stem,
-                sort: c.sort,
-                cells: { ...c.cells, form: joined(b.forms), use: joined(b.uses), farm: b.farms.length ? farmLinks(b.farms) : other ?? none },
-              };
-            })}
-            initialSort={{ key: 'medal', dir: 'ascending' }}
-            scroll={false}
+            copy={filtered}
           />
         ) : <p className="type-body-medium text-on-surface-variant">{copy('beers.missing', { year })}</p>}
       </Section>
 
       <Section id="breweries" title={copy('breweries.title', { year })} note={copy('breweries.note')}>
-        {h.breweries.length ? (
-          <DataTable
+        {h.beerRows.length ? (
+          <FilteredBreweries
+            rows={h.beerRows.map((b) => ({ ...b.filter, brewery: b.brewery, brewerySlug: b.brewerySlug }))}
+            columns={{ brewery: copy('breweries.brewery'), kind: '', beers: copy('breweries.beers') }}
+            kindLabels={{}}
             caption={copy('breweries.title', { year })}
             sortHint={sortHint}
-            columns={breweryColumns}
-            rows={h.breweries.map((b) => ({
-              key: b.brewerySlug,
-              sort: { brewery: b.brewery, count: b.count },
-              cells: { brewery: <TextLink href={href(paths.brewery(b.brewerySlug))}>{b.brewery}</TextLink>, count: fmt.number(b.count) },
-            }))}
-            initialSort={{ key: 'count', dir: 'descending' }}
-            scroll={false}
+            copy={filtered}
           />
         ) : <p className="type-body-medium text-on-surface-variant">{copy('breweries.missing', { year })}</p>}
       </Section>
 
-      <Section id="farms" title={copy('farms.title')} note={<><strong>{copy('farms.label')}</strong> {copy('farms.note')}</>}>
+      <Section id="farms" whole title={copy('farms.title')} note={<><strong>{copy('farms.label')}</strong> {copy('farms.note')}</>}>
         {h.farmRows.length ? (
           <DataTable
             caption={copy('farms.title')}

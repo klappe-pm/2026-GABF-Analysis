@@ -13,14 +13,14 @@ Where: top of the page.
 
 Where: the audience section.
 
-- `title`: Who it is for
+- `title`: Who It Is For
 - `body`: Brewers first: benchmark against the field, choose which categories to enter, and study the beers that won. Beer fans, press, and analysts use the same public data.
 
 ## `offer`
 
 Where: the section on what the site offers.
 
-- `title`: What is here
+- `title`: What Is Here
 - `medals`: Every medal from {{first_year}} to {{last_year}}, linked across breweries, categories, and beers.
 - `beers`: The {{profile_year}} winning beers with their published specs and the brewery's own description.
 - `findings`: Written findings, each traceable to the data.
@@ -47,5 +47,5 @@ Where: the attribution section.
 
 Where: the closing links.
 
-- `method`: How the data is built
-- `source`: Source code and data on GitHub
+- `method`: How the Data Is Built
+- `source`: Source Code and Data on GitHub

@@ -227,7 +227,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Liquid Mechanics Brewing Co. is in Lafayette, CO. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [Untappd](https://untappd.com/LiquidMechanicsBrewingCo).
 
 ## related
 

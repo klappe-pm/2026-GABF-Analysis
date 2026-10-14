@@ -39,12 +39,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/thebigfriendly/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -62,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "the-big-friendly"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OK"
-untappd: null
-website: null
+untappd: "https://untappd.com/The_Big_Friendly"
+website: "https://thebigfriendly.com/"
 world-beer-cup-medals: 0
 ---
 

@@ -34,12 +34,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/palefirebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "pale-fire-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "VA"
 untappd: null
-website: null
+website: "https://www.palefirebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

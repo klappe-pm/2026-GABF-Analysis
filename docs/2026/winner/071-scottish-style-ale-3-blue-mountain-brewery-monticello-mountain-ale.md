@@ -170,7 +170,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Blue Mountain Brewery is in Afton, VA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://bluemountainbrewery.com/), [Instagram](https://www.instagram.com/bluemountainbrewery/).
 
 ## related
 

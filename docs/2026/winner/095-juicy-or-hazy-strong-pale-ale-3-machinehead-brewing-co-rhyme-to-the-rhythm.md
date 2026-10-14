@@ -212,7 +212,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 MachineHead Brewing Co. is in Clovis, CA. Brewery type in Open Brewery DB: In planning.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://machineheadbrewing.com/), [Instagram](https://www.instagram.com/machineheadbrewing/), [Untappd](https://untappd.com/MachineHeadBrewingCo).
 
 ## related
 
