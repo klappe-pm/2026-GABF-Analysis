@@ -8,10 +8,10 @@ Where: top of the page.
 
 - `title`: Design system
 - `lede`: The Material 3 settings and components every page of GABF Analysis is built from, shown with real medal data.
-- `spec_link`: Read the spec
+- `spec_link`: GitHub: {{name}} Spec
 - `source_link`: Settings and specs
 - `nav_label`: Sections
-- `settings_heading`: What you can change
+- `options_heading`: {{name}} Options
 
 ## `sections`
 
@@ -117,6 +117,8 @@ Where: the heading of each component on the page.
 - `chart_card`: Chart card
 - `state_card`: State card
 - `icon`: Icons
+- `beer_profile_card`: Beer profile card
+- `hop_profile_card`: Hop profile card
 
 ## `states`
 
@@ -150,6 +152,9 @@ Where: captions that say where a component's sample data comes from.
 - `chart_note`: The five states with the most medals in the complete years.
 - `chart_label`: Line chart of medals per year for {{states}}, {{year_range}}.
 - `finding`: {{category_name}}: {{value}} entries per medal in {{year}}, the longest odds of the year.
+- `beer_card`: {{beer_name}}, from its published 2026 winner profile.
+- `hop_card`: {{variety}}, from the hop farm tables and the 2026 winner profiles.
+- `hop_card_gap`: The hop variety table is not in the record yet, so origin, breeder, ranges, aroma, and acreage read Not defined.
 
 ## `headings`
 
@@ -325,3 +330,30 @@ Where: the steps of the corner scale in the shape table.
 Where: the name of each level in the elevation section.
 
 - `level`: Level {{number}}
+
+## `profile_cards`
+
+Where: the labels and links on the beer profile card and the hop profile card.
+
+- `brewery_line`: {{brewery_name}}, {{city}}, {{state}}
+- `category`: Category
+- `abv`: ABV
+- `ibu`: IBU
+- `style`: Style
+- `hops`: Hops
+- `note`: From the brewery's description
+- `source`: Source: {{site}}
+- `deep_dive`: Read the full beer profile
+- `origin`: Origin
+- `breeder`: Breeder
+- `alpha`: Alpha acids
+- `oil`: Total oil
+- `range_percent`: {{min}} to {{max}}%
+- `oil_range`: {{min}} to {{max}} mL per 100 g
+- `acreage`: US acreage
+- `acreage_value`: {{acres}} acres ({{year}})
+- `medal_beers`: 2026 medal beers
+- `aroma`: Aroma
+- `farms`: Grower farms
+- `farms_more`: and {{count}} more
+- `farm_line`: {{farm_name}}, {{state}}

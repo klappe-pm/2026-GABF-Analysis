@@ -9,7 +9,7 @@ Loading indicator: linear
 
 ![State card](state-card.png)
 
-## what-you-can-change
+## state-card-options
 
 - Card style: outlined
 - Loading indicator: linear

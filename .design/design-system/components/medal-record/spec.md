@@ -8,6 +8,6 @@ Tally limit: 12
 
 ![Medal record](medal-record.png)
 
-## what-you-can-change
+## medal-record-options
 
 - Tally limit: 12

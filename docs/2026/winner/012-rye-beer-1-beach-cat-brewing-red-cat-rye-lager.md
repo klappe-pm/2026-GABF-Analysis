@@ -33,81 +33,113 @@ gaps:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "abv"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "ibu"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "srm"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "og"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "fg"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "hops"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "hop-form"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "hop-use"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "malts"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "yeast"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "water"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
   - field: "process"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
       - "https://www.beachcatbrewing.com/taplist"
       - "web searches recorded in the research notes"
+      - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
+      - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
 hop-profile: []
 hops: []
 ibu: null
@@ -202,8 +234,8 @@ Links checked 2026-10-14: [Website](https://www.beachcatbrewing.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager.
+- Not published: ABV, IBU. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -214,3 +246,4 @@ Links checked 2026-10-14: [Website](https://www.beachcatbrewing.com/).
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name, ABV, Untappd and medal searches found award coverage but no additional beer specifications. No matching beer page with ABV, IBU or named ingredients was found.
 - Field pass 2026-10-13: A specification focused exact-name search found competition and Washington medal coverage but no ABV, IBU, brewery beer page or hop names.
+- Deep dive pass 2026-10-14: the tap list, TapHunter and a web search found no Red Cat Rye Lager listing.

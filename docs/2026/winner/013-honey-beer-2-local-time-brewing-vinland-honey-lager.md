@@ -45,6 +45,7 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "ibu"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -52,6 +53,7 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -115,13 +117,6 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://localtimebrewing.com/"
-      - "https://localtimebrewing.com/?s=vinland"
-      - "https://localtimebrewing.com/our-menu/"
-      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -130,7 +125,9 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Orange blossom honey added in the whirlpool"
+  source: "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
 sources:
   - "https://localtimebrewing.com/"
   - "https://localtimebrewing.com/?s=vinland"
@@ -193,7 +190,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Orange blossom honey added in the whirlpool | [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) |
 
 ## style-context
 
@@ -222,7 +219,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
 - Not published: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -234,3 +231,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found a medal report and the co-owner's explanatory comment confirming style, honey variety and barley malt. ABV, IBU and hop varieties remain unpublished in the sources found.
 - Field pass 2026-10-13: An ABV focused search excluding the already recorded local report found competition coverage without specs. No new ABV, IBU, brewery beer page or hop names were verified.
+- Deep dive pass 2026-10-14: the co-owner's comment gives the honey addition point (whirlpool); no hops or figures.

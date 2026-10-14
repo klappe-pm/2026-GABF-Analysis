@@ -30,15 +30,6 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "https://www.beerandbrewing.com/review/offset-bier--dopo-1710424461"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://offsetbier.com/"
@@ -58,15 +49,6 @@ gaps:
       - "https://www.beerandbrewing.com/review/offset-bier--dopo-1710424461"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "https://www.beerandbrewing.com/review/offset-bier--dopo-1710424461"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://offsetbier.com/"
       - "https://offsetbier.com/cans-to-go"
@@ -129,30 +111,27 @@ gaps:
       - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
       - "https://www.beerandbrewing.com/review/offset-bier--dopo-1710424461"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://offsetbier.com/"
-      - "https://offsetbier.com/cans-to-go"
-      - "https://offsetbier.com/taplist-1"
-      - "https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/"
-      - "https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier"
-      - "https://www.beerandbrewing.com/review/offset-bier--dopo-1710424461"
-      - "web searches recorded in the research notes"
 hop-profile:
-  - published: "Mosaic"
-    variety: "Mosaic"
-    form: null
-    use: null
-    lot-or-farm: null
-    source: "https://offsetbier.com/taplist-1"
-  - published: "Nelson Sauvin"
-    variety: "Nelson Sauvin"
-    form: null
-    use: null
-    lot-or-farm: null
-    source: "https://offsetbier.com/taplist-1"
   - published: "Riwaka"
     variety: "Riwaka"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
+  - published: "Mosaic T90"
+    variety: "Mosaic"
+    form: "T90 pellet"
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
+  - published: "Mosaic Lupocore"
+    variety: "Mosaic"
+    form: "Lupocore (lupulin concentrate)"
+    use: null
+    lot-or-farm: null
+    source: "https://offsetbier.com/taplist-1"
+  - published: "Nelson"
+    variety: "Nelson Sauvin"
     form: null
     use: null
     lot-or-farm: null
@@ -166,7 +145,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Hop load closer to that of a 7% beer in a 5% IPA"
+  source: "https://offsetbier.com/taplist-1"
 sources:
   - "https://offsetbier.com/"
   - "https://offsetbier.com/cans-to-go"
@@ -177,7 +158,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Modern L IPA"
-tasting-notes: null
+tasting-notes:
+  text: "A blend of our favorite hops from the Pacific Northwest and Southern Hemisphere brings out modern fruit forward flavors and aromas with a touch of that classic resin."
+  source: "https://offsetbier.com/taplist-1"
 water: null
 yeast: []
 ---
@@ -213,7 +196,9 @@ Source: [Offset Bier: tap list](https://offsetbier.com/taplist-1)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A blend of our favorite hops from the Pacific Northwest and Southern Hemisphere brings out modern fruit forward flavors and aromas with a touch of that classic resin.
+
+Source: [offsetbier.com](https://offsetbier.com/taplist-1)
 
 ## ingredients
 
@@ -223,9 +208,10 @@ The tap list names Riwaka, Mosaic (as T90 pellets and as Lupocore) and Nelson, a
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mosaic | Mosaic | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
 | Riwaka | Riwaka | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Mosaic T90 | Mosaic | T90 pellet | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Mosaic Lupocore | Mosaic | Lupocore (lupulin concentrate) | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Nelson | Nelson Sauvin | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## brewing-details
 
@@ -235,7 +221,7 @@ The tap list names Riwaka, Mosaic (as T90 pellets and as Lupocore) and Nelson, a
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Hop load closer to that of a 7% beer in a 5% IPA | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## style-context
 
@@ -267,7 +253,7 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), [beerandbrewing.com](https://www.beerandbrewing.com/review/offset-bier-%2Ddopo-1710424461), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), [beerandbrewing.com](https://www.beerandbrewing.com/review/offset-bier-%2Ddopo-1710424461), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -277,3 +263,4 @@ Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https:
 - Craft Beer and Brewing named Dopo one of its best 20 beers of 2024 (podcast page).
 - No malt or yeast was found; no 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the tap list prints the hops as Riwaka, Mosaic T90, Mosaic Lupocore and Nelson, which gives two hop forms for Mosaic; recorded as published with normalized variety names.

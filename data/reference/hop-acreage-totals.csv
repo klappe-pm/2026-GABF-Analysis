@@ -1,0 +1,48 @@
+line,state,year,acres,production_1000_lb,production_lbs,yield_lb_per_acre,acres_code,production_code,yield_code,nass_label,source
+all varieties,Idaho,2021,9694,18414.8,18414800,1900,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+all varieties,Idaho,2022,9561,16572.3,16572300,1733,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+all varieties,Idaho,2023,8645,16853,16853000,1949,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Idaho,2024,5797,13178.8,13178800,2273,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Idaho,2025,5102,11637.2,11637200,2281,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Oregon,2021,7395,12607.9,12607900,1705,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+all varieties,Oregon,2022,7790,13471.9,13471900,1729,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+all varieties,Oregon,2023,6822,10629.7,10629700,1558,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Oregon,2024,5635,9759.3,9759300,1732,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Oregon,2025,5354,9417.9,9417900,1759,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,United States,2021,60872,115630.9,115630900,1900,,,,United States,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+all varieties,United States,2022,60113,101855.7,101855700,1694,,,,United States,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+all varieties,United States,2023,54318,104042.5,104042500,1915,,,,United States,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,United States,2024,44793,87072.2,87072200,1944,,,,United States,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,United States,2025,41654,83143.4,83143400,1996,,,,United States,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Washington,2021,43783,84608.2,84608200,1932,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+all varieties,Washington,2022,42762,71811.5,71811500,1679,,,,Total,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+all varieties,Washington,2023,38851,76559.8,76559800,1971,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Washington,2024,33361,64134.1,64134100,1922,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+all varieties,Washington,2025,31198,62088.3,62088300,1990,,,,Total,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Idaho,2022,,,,,D,D,D,Experimental,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+experimental,Idaho,2023,,,,,D,D,D,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Idaho,2024,31,52.4,52400,1691,,,,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Idaho,2025,,,,,D,D,D,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Oregon,2023,,,,,D,D,D,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Oregon,2024,,,,,D,D,D,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Oregon,2025,33,53.8,53800,1629,,,,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Washington,2021,575,985,985000,1713,,,,Experimental,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+experimental,Washington,2022,702,1205.3,1205300,1717,,,,Experimental,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+experimental,Washington,2023,602,1064.9,1064900,1769,,,,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Washington,2024,411,790.8,790800,1924,,,,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+experimental,Washington,2025,322,589.6,589600,1831,,,,Experimental,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Idaho,2021,850,1465.9,1465900,1725,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+other varieties,Idaho,2022,1100,1779.2,1779200,1617,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+other varieties,Idaho,2023,510,906.8,906800,1778,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Idaho,2024,688,1384.6,1384600,2013,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Idaho,2025,1886,4132.9,4132900,2191,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Oregon,2021,604,1704.9,1704900,1780,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+other varieties,Oregon,2022,586,934.8,934800,1595,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+other varieties,Oregon,2023,337,651.9,651900,1934,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Oregon,2024,545,957.3,957300,1757,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Oregon,2025,429,705.6,705600,1645,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Washington,2021,3329,6436.8,6436800,1934,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/4b29ct10c/n5840f59r/hopsan23.txt
+other varieties,Washington,2022,2447,3858,3858000,1577,,,,Other varieties 1/,https://usda.library.cornell.edu/sites/default/release-files/s7526c41m/cj82n3552/3r076q47v/hopsan24.txt
+other varieties,Washington,2023,1730,3765.5,3765500,2177,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Washington,2024,2550,4432.1,4432100,1738,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
+other varieties,Washington,2025,3266,7225.6,7225600,2212,,,,Other varieties 1/,https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt

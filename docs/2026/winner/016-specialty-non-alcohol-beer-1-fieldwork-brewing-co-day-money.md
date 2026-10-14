@@ -31,13 +31,6 @@ description:
 entries: 26
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
-      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
-      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
-      - "https://www.fieldworkbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
@@ -45,6 +38,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "ibu"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
@@ -52,6 +46,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
@@ -152,7 +147,9 @@ sources:
   - "https://www.fieldworkbrewing.com/"
 srm: null
 style: "NA Grapefruit Blonde"
-tasting-notes: null
+tasting-notes:
+  text: "Day Money goes down like a well crafted Golden Ale with its subtle malt profile, light fruity hoppiness, and exceptionally bright finish of grapefruit."
+  source: "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
 water: null
 yeast: []
 ---
@@ -188,7 +185,9 @@ Source: [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Day Money goes down like a well crafted Golden Ale with its subtle malt profile, light fruity hoppiness, and exceptionally bright finish of grapefruit.
+
+Source: [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans)
 
 ## ingredients
 
@@ -236,8 +235,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
 - Not published: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -247,3 +246,4 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The non-alcoholic Untappd listing gives 0.5% ABV, N/A IBU and no named hops; the existing brewery less than 0.5% bound is retained and structured ABV remains null. The 2019 to 2020 alcoholic Day Money with Mosaic hops was excluded.
+- Deep dive pass 2026-10-14: the brewery shop page gives the tasting language and "less than 0.5% ABV"; no exact ABV, hops or malts.

@@ -30,18 +30,13 @@ description:
 entries: 30
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
-      - "https://www.lagovistabrewingco.com/"
-      - "https://www.lagovistabrewingco.com/whatsontap"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -124,7 +119,9 @@ sources:
   - "https://www.lagovistabrewingco.com/whatsontap"
 srm: null
 style: "Rye Lager"
-tasting-notes: null
+tasting-notes:
+  text: "This rye lager brings a smooth, toasty backbone with just a hint of spice from the rye, clean, crisp, and dangerously easy to drink."
+  source: "https://www.lagovistabrewingco.com/whatsontap"
 water: null
 yeast: []
 ---
@@ -160,7 +157,9 @@ Source: [Lago Vista Brewing: on tap](https://www.lagovistabrewingco.com/whatsont
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This rye lager brings a smooth, toasty backbone with just a hint of spice from the rye, clean, crisp, and dangerously easy to drink.
+
+Source: [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap)
 
 ## ingredients
 
@@ -207,8 +206,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
 - Not published: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -217,3 +216,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The opened brewery Untappd beer list did not include Howdyfest, despite an indexed name match. Neither IBU nor hops were verified; Vista hops belong to another beer and were excluded.
+- Deep dive pass 2026-10-14: the tasting notes are the tap list's own words (its dash replaced with a comma); no hops, yeast or brewing figures are given.

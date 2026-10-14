@@ -33,12 +33,6 @@ description:
 entries: 54
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.ommegang.com/"
-      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
-      - "https://www.ommegang.com/our-beers/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.ommegang.com/"
@@ -81,12 +75,6 @@ gaps:
       - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
       - "https://www.ommegang.com/our-beers/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.ommegang.com/"
-      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
-      - "https://www.ommegang.com/our-beers/"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Magnum"
     variety: "Hallertau Magnum"
@@ -110,7 +98,9 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Open-air fermentation with the house yeast; secondary fermentation with wildflower honey"
+  source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ommegang.com/"
@@ -118,7 +108,9 @@ sources:
   - "https://www.ommegang.com/our-beers/"
 srm: null
 style: "Honey Beer"
-tasting-notes: null
+tasting-notes:
+  text: "Inviting wildflower aromas reveals the delicate complexities of our house yeast and the natural wonders of open-air fermentation. Its warm color offers a refreshing glow and the crisp body mirrors a light and sparkling spring morning."
+  source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
 water: null
 yeast:
   - "House yeast"
@@ -155,7 +147,9 @@ Source: [Ommegang: Farm Fresh Ale](https://www.ommegang.com/beerinfo/farm-fresh-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Inviting wildflower aromas reveals the delicate complexities of our house yeast and the natural wonders of open-air fermentation. Its warm color offers a refreshing glow and the crisp body mirrors a light and sparkling spring morning.
+
+Source: [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/)
 
 ## ingredients
 
@@ -176,7 +170,7 @@ The brewery publishes a full ingredient line: 2-row and white wheat malts, yello
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Open-air fermentation with the house yeast; secondary fermentation with wildflower honey | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
 
 ## style-context
 
@@ -205,10 +199,11 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/), [ommegang.com](https://www.ommegang.com/our-beers/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water. Checked [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/), [ommegang.com](https://www.ommegang.com/our-beers/), web searches recorded in the research notes.
 
 ## research-notes
 
 - Every spec comes from the brewery's beer page, which gives no formal style label.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting language and the process (open-air fermentation, honey in secondary); it lists yellow corn flakes among the fermentables.
