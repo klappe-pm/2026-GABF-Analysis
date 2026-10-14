@@ -46,6 +46,9 @@ async function main() {
     }
     const el = page.locator(`#component-${s.dir}-sample`);
     if (!(await el.count())) { console.log(`no sample on the page for ${s.dir}`); missing += 1; continue; }
+    // A sample far down the page captures blank unless it is scrolled into view first.
+    await el.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(200);
     await el.screenshot({ path: file, animations: 'disabled' });
     console.log(`wrote ${rel(file)}`);
   }
