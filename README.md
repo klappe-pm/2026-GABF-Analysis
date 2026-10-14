@@ -81,7 +81,7 @@ All commands run from the repository root.
 | `data/reference/` | categories and style families, states, Fed districts and county splits, state and district indicators, ownership, distributors, production, overrides, estimation parameters, US competition registry |
 | `data/enriched/` | generated Open Brewery DB enrichment and the 2026 winners SQLite database |
 | `data/raw/` | text extracted from the official winners list PDFs |
-| `breweries/` | brewery deep dives in markdown; `template-brewery.md` is the scaffold |
+| `breweries/` | local only and ignored by git: brewery deep dives in markdown, with `template-brewery.md` as the scaffold |
 | `docs/2026/winner/` | 336 researched beer profiles, one per 2026 medal |
 | `docs/` | architecture, data sources, data dictionary, estimation method, research playbook, runbook |
 | `scripts/` | the pipeline: fetch, parse, import, enrich, validate, build, and helpers in `scripts/lib/` |

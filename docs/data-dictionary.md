@@ -93,6 +93,10 @@ brewery_name, year, barrels, basis (reported, boty-bracket, estimate), source, c
 
 brewery_name, channel (self-distribution or wholesaler), distributor, territory, since, source, verified (yes or no), notes.
 
+## reference-brewery-facts-csv
+
+brewery_name, employees, has_kitchen (yes or no), locations_count, known_for (semicolon separated), barrels_estimate, revenue_estimate_usd, revenue_low_usd, revenue_high_usd, source, verified (yes or no), notes. Tracked brewery facts that a local deep dive in breweries/ would otherwise supply; breweries/ is ignored by git, and a local deep dive wins when both exist. Barrels and revenue here are estimates (E).
+
 ## reference-beer-abv-overrides-csv
 
 competition, year, brewery_name, beer_name, abv, source. Lets a beer's actual ABV replace the style range in the explorer's ABV band.
