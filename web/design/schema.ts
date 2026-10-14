@@ -110,7 +110,7 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   button: { 'Main action': buttonStyle, 'Other action': buttonStyle, 'Quiet action': buttonStyle, Shape: shape, Density: numberOf([0, -1, -2, -3]) },
   'chart-card': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]) },
   checkbox: { 'Text style': typeRole },
-  'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
+  'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels), 'Show inputs': yesNo },
   'filters-dialog': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },
   'stat-card': { 'Card style': cardStyle, 'Figure style': typeRole, 'Label style': typeRole },
   'page-header': { 'Container color': colorRole, 'Title style': typeRole, 'Current page color': colorRole },

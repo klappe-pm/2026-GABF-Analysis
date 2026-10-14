@@ -17,6 +17,10 @@ Where: the save control on any filterable page.
 - `name_label`: Name this view
 - `name_placeholder`: For example, Hazy IPA in Colorado
 - `saved`: View saved.
+- `submit`: Save
+- `cancel`: Cancel
+- `name_required`: Give this view a name.
+- `view_all`: See saved views
 
 ## `item`
 
@@ -28,6 +32,18 @@ Where: each saved view in the list.
 - `copy_link`: Copy link
 - `link_copied`: Link copied.
 - `filters_summary`: {{count}} filters on {{page_title}}
+- `filters_summary_one`: 1 filter on {{page_title}}
+- `filters_summary_none`: No filters on {{page_title}}
+- `saved_on`: Saved {{date}}
+- `open_label`: Open {{name}}
+- `rename_label`: Rename {{name}}
+- `delete_label`: Delete {{name}}
+- `copy_label`: Copy link to {{name}}
+- `rename_submit`: Save name
+- `rename_cancel`: Cancel
+- `renamed`: View renamed.
+- `deleted`: View deleted.
+- `link_failed`: The link could not be copied from here. Copy it from the address bar after opening the view.
 
 ## `empty`
 
