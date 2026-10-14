@@ -91,6 +91,11 @@ test('a missing value in the table view reads as the not-found label the caller 
   assert.equal(rows('bar', 'Not Found')[0].cells.a, '1');
 });
 
+test('every tile of a flat treemap carries the series color', () => {
+  const opt = p.buildChartOption({ preset: 'treemap', categories: ['a', 'b'], series: [{ name: 'Medals', values: [3, 2] }] }, T);
+  assert.deepEqual(opt.series[0].data.map((d) => d.itemStyle.color), ['S1', 'S1']);
+});
+
 test('the chart card builds its table view from rows and columns the caller supplies', () => {
   const src = readFileSync(resolve(WEB, 'components/ChartCard.tsx'), 'utf8');
   assert.match(src, /if \(props\.rows && props\.columns\) return \{ rows: props\.rows, columns: props\.columns \}/);
