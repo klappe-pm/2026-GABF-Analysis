@@ -44,7 +44,8 @@ test('the fonts are self hosted with their licenses, and every page loads them',
   assert.match(read('site/assets/styles.css'), /font-family: var\(--brand-font-plain\)/);
 });
 
-test('every committed single file page carries the current brand.css and fonts', () => {
+// These pages are build outputs (npm run generate, which npm test runs first), not files in git.
+test('every generated single file page carries the current brand.css and fonts', () => {
   const brand = inlineBrandCss();
   for (const page of ['gabf-dashboard.html', 'gabf-explorer.html', 'docs/design/chart-gallery/index.html']) {
     assert.ok(read(page).includes(brand), `${page} has an old copy of brand.css or the fonts; rebuild it`);

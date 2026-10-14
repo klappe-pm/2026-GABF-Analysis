@@ -35,6 +35,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -42,6 +43,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -49,6 +51,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -56,6 +59,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -63,6 +67,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -70,6 +75,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -77,6 +83,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -84,6 +91,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -91,6 +99,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -98,6 +107,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -105,6 +115,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -112,6 +123,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952"
@@ -119,6 +131,7 @@ gaps:
       - "https://www.delcielobrewing.com/award-winning-beers"
       - "https://www.delcielobrewing.com/martinez-menu"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile:
   - published: "Sterling"
     variety: "Sterling"
@@ -231,7 +244,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952), [delcielobrewing.com](https://www.delcielobrewing.com/), [delcielobrewing.com](https://www.delcielobrewing.com/award-winning-beers), [delcielobrewing.com](https://www.delcielobrewing.com/martinez-menu), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952), [delcielobrewing.com](https://www.delcielobrewing.com/), [delcielobrewing.com](https://www.delcielobrewing.com/award-winning-beers), [delcielobrewing.com](https://www.delcielobrewing.com/martinez-menu), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -241,3 +254,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Del Cielo Untappd listing supplies ABV, IBU and the hop variety recorded in the specs table. These are product figures, not independently verified measurements of the competition batch.
+- Deep dive pass 2026-10-14: no new source was found.

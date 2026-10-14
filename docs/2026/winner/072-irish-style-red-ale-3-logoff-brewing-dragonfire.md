@@ -206,3 +206,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional ingredient searches found no named hop variety for LogOff Dragonfire. Malty and dried-fruit tasting notes do not establish ingredients.
+- Deep dive pass 2026-10-14: the only description is the brewery's own menu feed on Untappd for Business; it is not extended.

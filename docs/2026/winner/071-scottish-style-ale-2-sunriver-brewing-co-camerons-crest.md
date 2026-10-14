@@ -30,24 +30,13 @@ description:
 entries: 34
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.sunriverbrewingcompany.com/"
-      - "https://www.sunriverbrewingcompany.com/beer"
-      - "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.sunriverbrewingcompany.com/"
-      - "https://www.sunriverbrewingcompany.com/beer"
-      - "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://www.sunriverbrewingcompany.com/"
@@ -127,9 +116,13 @@ sources:
   - "https://www.sunriverbrewingcompany.com/"
   - "https://www.sunriverbrewingcompany.com/beer"
   - "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
-srm: null
+srm:
+  value: "Amber (no SRM number published)"
+  source: "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
 style: "Scottish Ale"
-tasting-notes: null
+tasting-notes:
+  text: "This 90-schilling ale is light-bodied and amber colored, featuring malty notes of biscuit, toffee and caramel."
+  source: "https://www.sunriverbrewingcompany.com/beer/camerons-crest"
 water: null
 yeast: []
 ---
@@ -165,7 +158,9 @@ Source: [Sunriver: Cameron's Crest](https://www.sunriverbrewingcompany.com/beer/
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This 90-schilling ale is light-bodied and amber colored, featuring malty notes of biscuit, toffee and caramel.
+
+Source: [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest)
 
 ## ingredients
 
@@ -179,7 +174,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Amber (no SRM number published) | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -216,8 +211,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
 - Not published: IBU. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -225,3 +220,4 @@ No brewery links have been checked yet.
 - The beer page does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A hosted menu names Cameron's Crest with Nugget and 18 IBU, but never names the brewery, so neither requested field is accepted. A Sunriver Galveston menu excerpt suggests Northern Brewer and 20 IBU, but the opened directory returned an error. Both leads remain unverified.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and color.
