@@ -3,6 +3,8 @@
 //   1. no dash used as punctuation (em dash, en dash, spaced hyphen, double hyphen),
 //   2. no hard-wrapped paragraphs,
 //   3. headings in lowercase kebab-case (the root README H1 may carry the project name).
+// Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG,
+// PRODUCT, and DESIGN, and anything under .github/) may use title or sentence case headings; rules 1 and 2 still apply.
 // Code fences and frontmatter are skipped.
 
 import { readdirSync, readFileSync, statSync } from 'node:fs';
@@ -24,7 +26,17 @@ function walk(dir, out = []) {
 
 const RESERVED = new Set(['README.md', 'CLAUDE.md', 'AGENTS.md', 'CODEX.md', 'GEMINI.md', 'MEMORY.md']);
 
-export function checkMarkdown(text, { isRootReadme = false, fileName = '' } = {}) {
+// Root level files GitHub shows to visitors; headings there follow normal case.
+// PRODUCT.md and DESIGN.md follow the Impeccable design schema, whose headings are title case.
+const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'CODE_OF_CONDUCT.md', 'CHANGELOG.md', 'PRODUCT.md', 'DESIGN.md']);
+
+// True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
+export function isPublicFacing(rel) {
+  const path = rel.split('\\').join('/');
+  return PUBLIC_FACING.has(path) || path.startsWith('.github/');
+}
+
+export function checkMarkdown(text, { isRootReadme = false, fileName = '', publicFacing = false } = {}) {
   const problems = [];
   const lines = text.split(/\r?\n/);
   let inFence = false;
@@ -50,7 +62,7 @@ export function checkMarkdown(text, { isRootReadme = false, fileName = '' } = {}
       flushParagraph();
       const textPart = heading[2].trim();
       const allowed = heading[1] === '#' && (isRootReadme || (RESERVED.has(fileName) && textPart === fileName.toUpperCase()));
-      if (!allowed && !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(textPart)) problems.push({ line: n, rule: 'heading-case', text: `heading "${textPart}" is not lowercase kebab-case` });
+      if (!allowed && !publicFacing && !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(textPart)) problems.push({ line: n, rule: 'heading-case', text: `heading "${textPart}" is not lowercase kebab-case` });
       return;
     }
     const isProse = trimmed.length > 0 && !/^[-*]\s/.test(trimmed) && !/^\d+\.\s/.test(trimmed) && !/^\|/.test(trimmed) && !/^>/.test(trimmed) && !/^<!--/.test(trimmed) && !/^!\[/.test(trimmed);
@@ -66,7 +78,7 @@ function main() {
   let total = 0;
   for (const file of files) {
     const rel = relative(ROOT, file);
-    const problems = checkMarkdown(readFileSync(file, 'utf8'), { isRootReadme: rel === 'README.md', fileName: rel.split('/').pop() });
+    const problems = checkMarkdown(readFileSync(file, 'utf8'), { isRootReadme: rel === 'README.md', fileName: rel.split('/').pop(), publicFacing: isPublicFacing(rel) });
     for (const p of problems) {
       total += 1;
       console.log(`${rel}:${p.line} [${p.rule}] ${p.text}`);
