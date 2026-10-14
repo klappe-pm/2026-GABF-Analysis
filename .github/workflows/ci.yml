@@ -1,0 +1,72 @@
+name: ci
+
+# Every gate in one job named build, the status check that branch protection on main requires.
+# Pull requests and pushes to main run it; deploy.yml publishes after a successful run on main.
+# A newer push to the same pull request cancels the older run; runs on main never cancel each other.
+# workflow_dispatch lets ingest-results.yml start the check for the pull request it opens (a pull
+# request opened with the workflow token does not trigger workflows on its own).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            web/package-lock.json
+      - name: install
+        run: |
+          npm ci
+          npm ci --prefix web
+      - run: npm run check
+      - run: npm run brand:check
+      # npm test runs npm run generate first: the explorer, the chart gallery, and the single file dashboard.
+      - run: npm test
+      - run: npm run validate
+      - run: npm run hops:check
+      - run: npm run build
+      - run: npm run design:check
+      - run: npm run design-system:check
+      - name: web-build
+        # The rendered audit serves web/out at the origin root, so this build has no base path.
+        env:
+          NEXT_BASE_PATH: ""
+        run: npm run web:build
+      - name: playwright-version
+        id: playwright
+        run: echo "version=$(node -p "require('playwright/package.json').version")" >> "$GITHUB_OUTPUT"
+      - name: playwright-cache
+        id: playwright-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+      - name: playwright-install
+        run: |
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" = "true" ]; then
+            npx playwright install-deps chromium
+          else
+            npx playwright install --with-deps chromium
+          fi
+      - run: npm run design-system:audit
+      - name: pages-assemble
+        run: npm run pages:assemble

@@ -24,7 +24,8 @@ test('the primary is the owner\'s exact accent and every page is white', async (
   assert.equal(m.series[0], m.scheme.primary, 'the first chart series is the primary');
 });
 
-test('every committed single file page carries the current brand.css', () => {
+// These pages are build outputs (npm run generate, which npm test runs first), not files in git.
+test('every generated single file page carries the current brand.css', () => {
   const brand = readFileSync(BRAND_CSS, 'utf8');
   for (const page of ['gabf-dashboard.html', 'gabf-explorer.html', 'docs/design/chart-gallery/index.html']) {
     assert.ok(read(page).includes(brand), `${page} has an old copy of brand.css; rebuild it`);

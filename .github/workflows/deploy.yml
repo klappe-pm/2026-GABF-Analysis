@@ -1,0 +1,79 @@
+name: deploy
+
+# Publish the site to GitHub Pages after ci succeeds on main (a push, or a dispatched ci run on main),
+# or on demand. Deploys queue under the single concurrency group pages and never cancel a deploy in
+# progress; GitHub keeps only the newest waiting run, so a burst of merges publishes the latest main.
+#
+# The artifact (scripts/assemble-pages.mjs, URL map in docs/deployment.md) is the web/ static export at
+# the root, laid over the old static site (dist/) so every old URL keeps working, plus the single file
+# dashboard and a CNAME. The web/ base path is read from one place, the Pages setting itself, through
+# actions/configure-pages: /GABF-Analysis while the site is served from klappe-pm.github.io, and empty
+# once the custom domain is set (scripts/pages-domain.mjs switches it and dispatches this workflow).
+
+on:
+  workflow_run:
+    workflows: [ci]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  site:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       (github.event.workflow_run.event == 'push' || github.event.workflow_run.event == 'workflow_dispatch'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            web/package-lock.json
+      - name: install
+        run: |
+          npm ci
+          npm ci --prefix web
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: old-site
+        run: |
+          npm run build
+          npm run build:standalone
+      - name: web-build
+        env:
+          NEXT_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          echo "base path: '${NEXT_BASE_PATH}'"
+          npm run web:build
+      - run: npm run pages:assemble
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: site
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

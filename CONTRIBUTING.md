@@ -29,12 +29,13 @@ cd GABF-Analysis && npm run verify
 It runs, in order:
 
 1. `npm run check`: markdown prose rules (see Writing style below).
-2. `npm test`: the node test runner suites in `tests/`.
-3. `npm run validate`: structural checks on every medal row and the year totals.
-4. `npm run build`: the site into `dist/`.
-5. `npm run build:standalone`: regenerates `gabf-dashboard.html`.
+2. `npm run brand:check`: the committed brand outputs match the design settings.
+3. `npm test`: runs `npm run generate` (the single file pages) and then the node test runner suites in `tests/`.
+4. `npm run validate` and `npm run hops:check`: structural checks on every medal row, the year totals, and the hop tables.
+5. `npm run build`: the site into `dist/`.
+6. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system.
 
-`gabf-dashboard.html` is committed. If your change touches data or dashboard code, commit the regenerated file too; CI fails when it is stale.
+The single file pages (`gabf-dashboard.html`, `gabf-explorer.html`, and `docs/design/chart-gallery/index.html`) are build outputs and are not committed; CI and the deploy build them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
 
 ## Data rules
 
@@ -43,7 +44,7 @@ These keep the dataset trustworthy. A pull request that breaks one will be asked
 - **Official winners lists win.** Rows whose notes say "Partial seed" are placeholders from secondary sources and are replaced wholesale once a year's official list is ingested. Do not hand patch an ingested year to match a news story.
 - **Estimates are marked (E).** Every estimate must trace to `data/reference/estimation-parameters.json`, `data/reference/production.csv`, or a brewery profile.
 - **Ownership needs a primary source.** Set an ownership row's `verified` flag to yes only after checking a primary source, and name that source.
-- **Generated files are never hand edited.** Change the inputs and rebuild `dist/`, `data/enriched/breweries.json`, `data/enriched/winners-2026.sqlite`, and `gabf-dashboard.html`.
+- **Generated files are never hand edited.** Change the inputs and rebuild `dist/`, `data/enriched/breweries.json`, `data/enriched/winners-2026.sqlite`, and the single file pages.
 - **Never fabricate.** No invented medals, figures, or sources. A gap stated plainly beats a guess.
 
 ## Proposing a data correction
@@ -65,4 +66,6 @@ The no dash rule also applies to code comments and chart labels.
 
 ## Pull requests
 
-Keep each pull request to one concern, describe what changed and how you verified it, and fill in the checklist in the template. The deploy-pages workflow runs the same gates on every pull request; a green run is expected before merge.
+Keep each pull request to one concern, describe what changed and how you verified it, and fill in the checklist in the template. The ci workflow runs every gate on each pull request as the `build` check, and branch protection on main requires it to pass before merge.
+
+Merge with auto-merge, never by hand: `gh pr merge <number> --auto --merge` queues the merge and GitHub completes it when `build` passes. After a merge, the deploy workflow publishes main to GitHub Pages; see [docs/deployment.md](docs/deployment.md).
