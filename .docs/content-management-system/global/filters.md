@@ -15,10 +15,10 @@ Where: the Filters button in the header, on every page.
 
 Where: the filter panel that opens from the header button.
 
-- `title`: Filter medals
+- `title`: Filter Medals
 - `close`: Close
-- `reset`: Clear all
-- `apply`: Show results
+- `reset`: Clear All
+- `apply`: Show Results
 - `match_count_one`: 1 medal matches
 - `match_count_many`: {{count}} medals match
 - `match_count_scoped`: {{count}} medals match on this page ({{scope}})
@@ -47,19 +47,19 @@ Where: the label above each dropdown in the panel, and the start of each chip.
 
 - `year`: Year
 - `medal`: Medal
-- `category_type`: Category type
-- `style_family`: Style family
+- `category_type`: Category Type
+- `style_family`: Style Family
 - `category_name`: Category
 - `abv_band`: ABV
-- `hop_variety`: Hop variety
-- `hop_farm_named`: Hop farm named by the brewery
-- `hop_farm_grown`: Hop farm that grows a hop used
+- `hop_variety`: Hop Variety
+- `hop_farm_named`: Hop Farm Named by the Brewery
+- `hop_farm_grown`: Hop Farm That Grows a Hop Used
 - `region`: Region
 - `state`: State
 - `city`: City
-- `fed_district_name`: Fed district
+- `fed_district_name`: Fed District
 - `brewery_key`: Brewery
-- `brewery_type`: Brewery type
+- `brewery_type`: Brewery Type
 - `ownership_type`: Ownership
 - `distribution_channel`: Distribution
 
@@ -75,24 +75,24 @@ Where: options inside each dropdown.
 
 Where: the When group, below the year dropdown.
 
-- `include`: Include partial years ({{years}})
+- `include`: Include Partial Years ({{years}})
 - `default_note`: Shows complete official lists by default.
 
 ## `chips`
 
 Where: the chip bar under the header when a filter is active.
 
-- `bar_label`: Active filters
+- `bar_label`: Active Filters
 - `chip`: {{dimension}}: {{value}}
 - `search_chip`: Search: {{query}}
-- `partial_chip`: Partial years included
+- `partial_chip`: Partial Years Included
 - `fixed_tooltip`: This page is limited to this value
 - `fixed_brewery`: Brewery: {{brewery_name}}
 - `fixed_category`: Category: {{category_name}}
 - `fixed_year`: Year: {{year}}
-- `remove_label`: Remove filter {{chip}}
-- `remove_hidden`: (remove)
-- `clear_all`: Clear all
+- `remove_label`: Remove Filter {{chip}}
+- `remove_hidden`: (Remove)
+- `clear_all`: Clear All
 
 ## `live_region`
 

@@ -6,7 +6,7 @@ Beer detail: one winning beer, its published specs, and its research notes.
 
 Where: links above the title.
 
-- `back`: {{year}} winners
+- `back`: {{year}} Winners
 - `category_number`: Category {{number}}
 
 ## `lede`
@@ -14,23 +14,23 @@ Where: links above the title.
 Where: the line under the beer name.
 
 - `medal_line`: {{medal}} in {{category_name}}
-- `entries`: ({{count}} entries)
+- `entries`: ({{count}} Entries)
 - `brewery_line`: {{brewery_name}}, {{city}}, {{state}}
 
 ## `buttons`
 
 Where: the row of buttons under the lede.
 
-- `beer_page`: Beer page
-- `brewery_website`: Brewery website
-- `brewery_history`: Brewery medal history
-- `category_history`: Category history
+- `beer_page`: Beer Page
+- `brewery_website`: Brewery Website
+- `brewery_history`: Brewery Medal History
+- `category_history`: Category History
 
 ## `specs`
 
 Where: the specs card.
 
-- `title`: Published specs
+- `title`: Published Specs
 - `abv`: ABV
 - `ibu`: IBU
 - `style`: Style
@@ -38,14 +38,14 @@ Where: the specs card.
 - `malts`: Malts
 - `yeast`: Yeast
 - `adjuncts`: Adjuncts
-- `not_published`: Not published
+- `not_published`: Not Published
 - `note`: Specs come from the brewery and the sources cited below. A field no source publishes reads Not published. Nothing is estimated.
 
 ## `card`
 
 Where: the beer profile card at the top of the page.
 
-- `label`: Beer profile
+- `label`: Beer Profile
 - `brewery_line`: {{brewery_name}}, {{city}}, {{state}}
 - `category`: Category
 - `entries`: Entries
@@ -56,38 +56,38 @@ Where: the beer profile card at the top of the page.
 - `tasting_note`: Tasting notes
 - `description`: From the brewery's description
 - `source`: Source: {{site}}
-- `beer_page`: The beer's page at the brewery
+- `beer_page`: The Beer's Page at the Brewery
 - `no_beer_page`: The brewery publishes no page for this beer.
 
 ## `notes`
 
 Where: the research notes beside the specs card.
 
-- `title`: Research notes
+- `title`: Research Notes
 
 ## `hop_profile`
 
 Where: the hop profile card above the research notes.
 
-- `title`: Hop profile
+- `title`: Hop Profile
 - `hop`: Hop
 - `published`: Published as
 - `form`: Form
 - `use`: Use
-- `farm`: Farm or lot
+- `farm`: Farm or Lot
 - `source`: Source
-- `named_label`: Brewery named this farm
+- `named_label`: Brewery Named This Farm
 - `missing`: No hop profile is on record for this beer.
 - `sort_hint`: Select a column header to sort.
-- `grown_title`: Where these hops are grown
+- `grown_title`: Where These Hops Are Grown
 - `grown_label`: Grown by.
 - `grown_note`: These farms publish the variety as grown. It does not mean this beer used hops from them.
-- `grown_summary`: {{hop}}, farms on record: {{count}}
-- `details_title`: Beer details
+- `grown_summary`: {{hop}}, Farms on Record: {{count}}
+- `details_title`: Beer Details
 - `detail_description`: Description
 - `detail_tasting_notes`: Tasting notes
 - `detail_srm`: SRM
-- `detail_og`: Original gravity
-- `detail_fg`: Final gravity
+- `detail_og`: Original Gravity
+- `detail_fg`: Final Gravity
 - `detail_water`: Water
 - `detail_process`: Process

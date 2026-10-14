@@ -6,14 +6,14 @@ One hop farm: its data, its varieties, and the medal beers linked to it, in two 
 
 Where: links above the title.
 
-- `back`: All hop farms
-- `hops`: All hops
+- `back`: All Hop Farms
+- `hops`: All Hops
 
 ## `pills`
 
 Where: the line under the farm name.
 
-- `varieties`: Varieties published: {{count}}
+- `varieties`: Varieties Published: {{count}}
 
 ## `table`
 
@@ -25,19 +25,19 @@ Where: every table on the page.
 
 Where: the farm data card.
 
-- `title`: Farm data
+- `title`: Farm Data
 - `state`: State
-- `aliases`: Also published as
+- `aliases`: Also Published as
 
 ## `varieties`
 
 Where: the varieties section.
 
-- `title`: Varieties grown here
-- `variety`: Hop variety
+- `title`: Varieties Grown Here
+- `variety`: Hop Variety
 - `published`: Published as
 - `years`: Years
-- `medal_beers`: Medal beers in {{year}}
+- `medal_beers`: Medal Beers in {{year}}
 - `source`: Source
 - `verified`: Verified
 - `notes`: Notes
@@ -47,7 +47,7 @@ Where: the varieties section.
 
 Where: the section for medal beers whose brewery named this farm.
 
-- `title`: {{year}} medal beers that name this farm
+- `title`: {{year}} Medal Beers That Name This Farm
 - `label`: Brewery named this farm.
 - `note`: The brewery published this farm for the hop shown. This is a direct link with its own source.
 - `hop`: Hop
@@ -59,36 +59,36 @@ Where: the section for medal beers whose brewery named this farm.
 
 Where: the section for medal beers that use a variety this farm grows.
 
-- `title`: {{year}} medal beers that use hops grown here
+- `title`: {{year}} Medal Beers That Use Hops Grown Here
 - `label`: Grown by.
 - `note`: These beers use a hop variety this farm publishes as grown. It does not mean the brewery bought from this farm.
-- `hops`: Hop varieties
+- `hops`: Hop Varieties
 - `missing`: No {{year}} medal beer uses a variety this farm grows.
 
 ## `breweries`
 
 Where: the breweries section.
 
-- `title`: Breweries with a {{year}} medal beer linked to this farm
+- `title`: Breweries with a {{year}} Medal Beer Linked to This Farm
 - `note`: Each brewery links to its page, with how the farm is linked.
 - `brewery`: Brewery
 - `link`: Link
 - `named`: Named by the brewery.
 - `grown`: Grown by, through a variety the brewery uses.
-- `beers`: Medal beers
+- `beers`: Medal Beers
 - `missing`: No brewery with a {{year}} medal beer is linked to this farm.
 
 ## `merchants`
 
 Where: the merchants table, when merchants are on record for the farm.
 
-- `title`: Hop merchants
+- `title`: Hop Merchants
 
 ## `doc`
 
 Where: the research notes under the tables, when a research document exists for the farm.
 
-- `title`: Research notes
+- `title`: Research Notes
 
 ## `meta`
 

@@ -1,5 +1,5 @@
 // Real records for the beer and hop profile cards, read at build time from the 2026 winner profiles and the
-// hop reference tables. A field the data does not hold stays null, and the card shows it as not defined.
+// hop reference tables. A field the data does not hold stays null, and the card shows it as Not Found.
 import { existsInRepo, listRepo, parseCsv, readRepo, splitFrontmatter } from './repo';
 import type { Medal } from './data';
 

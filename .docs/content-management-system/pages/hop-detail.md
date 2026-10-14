@@ -6,8 +6,8 @@ One hop variety: its data, aroma, US acreage by state, the medal beers that use 
 
 Where: links above the title.
 
-- `back`: All hops
-- `farms`: All hop farms
+- `back`: All Hops
+- `farms`: All Hop Farms
 
 ## `pills`
 
@@ -15,17 +15,17 @@ Where: the line under the hop name.
 
 - `origin`: Origin: {{origin}}
 - `breeder`: Bred by {{breeder}}
-- `aliases`: Also published as {{aliases}}
-- `medal_beers`: Medal beers in {{year}}: {{count}}
+- `aliases`: Also Published as {{aliases}}
+- `medal_beers`: Medal Beers in {{year}}: {{count}}
 
 ## `data`
 
 Where: the variety data card.
 
-- `title`: Variety data
+- `title`: Variety Data
 - `breeder`: Breeder
-- `origin`: Origin country
-- `aliases`: Also published as
+- `origin`: Origin Country
+- `aliases`: Also Published as
 - `missing`: No variety data has been published for this hop yet.
 - `range`: {{min}} to {{max}}
 
@@ -47,7 +47,7 @@ Where: every table on the page.
 
 Where: the aroma section.
 
-- `title`: Aroma descriptors
+- `title`: Aroma Descriptors
 - `note`: Each descriptor is attributed to the source that published it.
 - `descriptor`: Descriptor
 - `source`: Source
@@ -57,25 +57,25 @@ Where: the aroma section.
 
 Where: the US acreage section.
 
-- `title`: US acreage by state
+- `title`: US Acreage by State
 - `state`: State
 - `year`: Year
 - `acres`: Acres
 - `production`: Production
 - `source`: Source
 - `missing`: No US acreage has been published for this hop yet.
-- `chart_title`: US acres by year
+- `chart_title`: US Acres by Year
 - `chart_note`: The total of the states that reported acres for this hop in each year.
-- `series`: Total reported acres
+- `series`: Total Reported Acres
 - `name_column`: Measure
-- `table_summary`: Show the acreage as a table
+- `table_summary`: Show the Acreage as a Table
 - `chart_label`: Line chart of the US acres of {{name}} by year
 
 ## `beers`
 
 Where: the medal beers section.
 
-- `title`: {{year}} medal beers that use it
+- `title`: {{year}} Medal Beers That Use It
 - `note`: The farm column shows only a farm the brewery itself named for this hop.
 - `medal`: Medal
 - `beer`: Beer
@@ -83,14 +83,14 @@ Where: the medal beers section.
 - `category`: Category
 - `form`: Form
 - `use`: Use
-- `farm`: Farm named by the brewery
+- `farm`: Farm Named by the Brewery
 - `missing`: No {{year}} medal beer is on record for this hop.
 
 ## `farms`
 
 Where: the farms section.
 
-- `title`: Farms that grow it
+- `title`: Farms That Grow It
 - `label`: Grown by.
 - `note`: These farms publish this variety as grown. It does not mean a medal beer used hops from that farm.
 - `farm`: Farm
@@ -104,17 +104,17 @@ Where: the farms section.
 
 Where: the breweries section.
 
-- `title`: Breweries with a {{year}} medal beer that uses it
+- `title`: Breweries with a {{year}} Medal Beer That Uses It
 - `note`: Each brewery links to its page.
 - `brewery`: Brewery
-- `beers`: Medal beers
+- `beers`: Medal Beers
 - `missing`: No brewery has a {{year}} medal beer on record for this hop.
 
 ## `doc`
 
 Where: the research notes under the farms section, when a research document exists for the hop.
 
-- `title`: Research notes
+- `title`: Research Notes
 
 ## `meta`
 
@@ -127,15 +127,15 @@ Where: the search description of the page.
 Where: the Hops column of the medal tables and the hops table on brewery pages.
 
 - `column`: Hops
-- `none`: Not defined
-- `brewery_title`: Hops in these medal beers
+- `none`: Not Found
+- `brewery_title`: Hops in These Medal Beers
 - `brewery_note`: Each variety links to its page, with the farms that grow it.
-- `brewery_variety`: Hop variety
-- `brewery_beers`: Medal beers
+- `brewery_variety`: Hop Variety
+- `brewery_beers`: Medal Beers
 - `brewery_farm`: Farm
-- `brewery_farms_named_title`: Farms these breweries named
+- `brewery_farms_named_title`: Farms These Breweries Named
 - `brewery_farms_named_label`: Brewery named this farm.
 - `brewery_farms_named_note`: The brewery published this farm for a hop in one of these beers.
-- `brewery_farms_grown_title`: Farms that grow these hops
+- `brewery_farms_grown_title`: Farms That Grow These Hops
 - `brewery_farms_grown_label`: Grown by.
 - `brewery_farms_grown_note`: These farms publish a variety used in these beers as grown. It does not mean the brewery bought from them.

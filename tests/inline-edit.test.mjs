@@ -197,7 +197,7 @@ function build({ cms, dist }) {
 test('the build renders a changed copy key on every page that uses it', () => {
   const t = tempCms([
     ['global/site.md', '- `menu_button`: Menu', '- `menu_button`: Open the menu'],
-    ['pages/beer-detail.md', '- `title`: Published specs', '- `title`: What the brewery published'],
+    ['pages/beer-detail.md', '- `title`: Published Specs', '- `title`: What the brewery published'],
   ]);
   const r = build(t);
   assert.equal(r.status, 0, r.stderr);

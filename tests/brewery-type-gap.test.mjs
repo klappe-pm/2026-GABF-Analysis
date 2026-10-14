@@ -21,13 +21,13 @@ test('some medal-winning breweries have no sourced type, and none is defaulted',
   }
 });
 
-test('a brewery with no sourced type reads Not defined on its page and never Microbrewery', () => {
+test('a brewery with no sourced type reads Not Found on its page and never Microbrewery', () => {
   const b = untyped[0];
   const card = profileCard(b);
-  assert.match(card, /<dt>Type<\/dt><dd>Not defined<\/dd>/);
-  assert.equal(valueLabel('brewery_type', b.brewery_type), 'Not defined');
+  assert.match(card, /<dt>Type<\/dt><dd>Not Found<\/dd>/);
+  assert.equal(valueLabel('brewery_type', b.brewery_type), 'Not Found');
   const detail = breweryDetailHtml(b);
-  assert.match(detail, /Not defined/);
+  assert.match(detail, /Not Found/);
   for (const html of [card, detail]) assert.ok(!/Microbrewery/.test(html), 'no default type text');
 });
 
@@ -38,16 +38,16 @@ test('the dashboard data carries no type for a brewery without one', () => {
   assert.ok(rows.length > 0);
   for (const r of rows) assert.equal(r.brewery_type, '', 'row type is blank, not micro');
   assert.equal(breweryInfo(ds)[b.key].brewery_type, null);
-  assert.equal(valueLabel('brewery_type', rows[0].brewery_type), 'Not defined');
+  assert.equal(valueLabel('brewery_type', rows[0].brewery_type), 'Not Found');
 });
 
-test('the explorer shows Not defined for a blank type', () => {
+test('the explorer shows Not Found for a blank type', () => {
   const data = dataOf(readFileSync(resolve(ROOT, 'gabf-explorer.html'), 'utf8'));
   const blank = data.records.filter((r) => !String(r.brewery_type ?? '').trim());
   assert.ok(blank.length > 0, 'some explorer rows have no sourced type');
   const proto = readFileSync(resolve(ROOT, 'site/explorer/gabf-explorer-prototype.html'), 'utf8');
-  assert.match(proto, /k==='brewery_type'\)return clean\(v\)\?H\(v\):'<span class="muted">Not defined<\/span>'/);
-  assert.match(proto, /field\('Business type',r\.brewery_type\|\|'Not defined'\)/);
+  assert.match(proto, /k==='brewery_type'\)return clean\(v\)\?H\(v\):'<span class="muted">'\+H\(UNKNOWN\)\+'<\/span>'/);
+  assert.match(proto, /field\('Business type',r\.brewery_type\|\|UNKNOWN\)/);
 });
 
 test('an estimate that depends on an unknown type says the type is assumed', () => {
@@ -56,6 +56,6 @@ test('an estimate that depends on an unknown type says the type is assumed', () 
   assert.match(ex.text.gross_margin, /assumed generic type/);
   assert.match(ex.text.ebitda, /assumed generic type/);
   assert.match(ex.text.arr + ex.text.barrels, /assumed generic type|researched|Reported|bracket/);
-  assert.equal(ex.inputs.find(([k]) => k === 'Brewery type')[1], 'Not defined (estimate uses an assumed generic type)');
+  assert.equal(ex.inputs.find(([k]) => k === 'Brewery type')[1], 'Not Found (estimate uses an assumed generic type)');
   assert.ok(!/microbrewery/i.test(JSON.stringify(ex)));
 });

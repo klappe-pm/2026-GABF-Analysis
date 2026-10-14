@@ -6,25 +6,25 @@ Home: the landing page. Planned layout from the design direction: a scoresheet h
 
 Where: top of the page.
 
-- `title`: {{year}} Great American Beer Festival results
+- `title`: {{year}} Great American Beer Festival Results
 - `lede`: Every medal from {{first_year}} to {{last_year}}, linked to its brewery, its category, and the winning beer. Filter any page by year, style, place, or ownership.
 
 ## `scoresheet`
 
 Where: the scoresheet fields across the top of the page.
 
-- `competition_year`: Competition and year
+- `competition_year`: Competition and Year
 - `competition_value`: Great American Beer Festival {{year}}
-- `entries_judged`: Entries judged
+- `entries_judged`: Entries Judged
 - `categories`: Categories
-- `medals_awarded`: Medals awarded
-- `not_published`: Not published
+- `medals_awarded`: Medals Awarded
+- `not_published`: Not Published
 
 ## `search`
 
 Where: field 1, the primary search on the page.
 
-- `label`: Find a brewery, beer, or category
+- `label`: Find a Brewery, Beer, or Category
 - `placeholder`: Brewery, beer, or category
 - `no_match`: Nothing matches "{{query}}".
 
@@ -34,7 +34,7 @@ Where: the margin note beside the scoresheet that states the year's headline fin
 
 - `label`: Finding
 - `text`: {{headline_finding}}
-- `link`: Read the analysis
+- `link`: Read the Analysis
 
 ## `category_index`
 
@@ -48,7 +48,7 @@ Where: the category index table below the scoresheet.
 
 - `category`: Category
 - `entries`: Entries
-- `odds`: Entries per medal
+- `odds`: Entries per Medal
 - `gold`: Gold
 - `silver`: Silver
 - `bronze`: Bronze
@@ -57,14 +57,14 @@ Where: the category index table below the scoresheet.
 
 Where: links below the category index.
 
-- `breweries`: Browse breweries
-- `beers`: See the {{year}} winning beers
-- `first_time`: Meet the {{year}} first time medalists
-- `analysis`: Read the analysis
+- `breweries`: Browse Breweries
+- `beers`: See the {{year}} Winning Beers
+- `first_time`: Meet the {{year}} First Time Medalists
+- `analysis`: Read the Analysis
 
 ## `deep_dives`
 
 Where: list of breweries with written deep dives.
 
-- `title`: Brewery deep dives
+- `title`: Brewery Deep Dives
 - `item_meta`: {{city}}, {{state}} · {{count}} medals in the record

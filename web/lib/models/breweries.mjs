@@ -3,7 +3,7 @@
 // word in from the copy documents.
 //
 // A brewery type, a kitchen, or a founding year the data does not hold stays null here, and the page writes
-// "Not defined". A null type also marks the estimates as using an assumed generic type.
+// "Not Found". A null type also marks the estimates as using an assumed generic type.
 
 import { filterRow, medalRows, notesHtml, site, WINNER_YEAR } from '../site-model.mjs';
 import { buildGraph, reachOf } from '../../../scripts/lib/doc-graph.mjs';

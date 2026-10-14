@@ -6,8 +6,8 @@ Brewery detail: one brewery's medals, profile, ownership, distribution, and esti
 
 Where: links above the title.
 
-- `back`: All breweries
-- `dashboard`: Open in the breweries dashboard
+- `back`: All Breweries
+- `dashboard`: Open in the Breweries Dashboard
 - `website`: Website
 
 ## `pills`
@@ -15,20 +15,20 @@ Where: links above the title.
 Where: the pills under the title; type, ownership, and channel labels come from labels.yaml.
 
 - `founded`: Founded {{year}}
-- `streak`: {{count}} year medal streak
+- `streak`: {{count}} Year Medal Streak
 - `owner_with_parent`: {{ownership}}: {{parent}}
 
 ## `stats`
 
 Where: the summary tiles at the top of the page.
 
-- `medals`: Medals in view
-- `medal_split`: Gold, silver, bronze
-- `first_medal`: First medal in view
+- `medals`: Medals in View
+- `medal_split`: Gold, Silver, Bronze
+- `first_medal`: First Medal in View
 - `first_medal_none`: None
-- `categories`: Categories medaled
+- `categories`: Categories Medaled
 - `categories_note`: {{count}} in special categories
-- `barrels`: Estimated barrels per year
+- `barrels`: Estimated Barrels per Year
 - `barrels_note_reported`: Reported
 - `barrels_note_estimate`: Estimate (E)
 - `arr`: Estimated ARR
@@ -38,20 +38,20 @@ Where: the summary tiles at the top of the page.
 
 Where: the charts beside the profile card.
 
-- `by_year_title`: Medals by year
+- `by_year_title`: Medals by Year
 - `by_year_subtitle`: {{brewery_name}}, {{first_year}} to {{last_year}}
 - `by_year_note`: Notes under a year: not founded, not loaded, partial, or no results.
-- `by_family_title`: Medals by style family
-- `by_location_title`: Medals by location credited
-- `by_location_subtitle`: As printed in the winners list
-- `by_category_title`: Medals by category
+- `by_family_title`: Medals by Style Family
+- `by_location_title`: Medals by Location Credited
+- `by_location_subtitle`: As Printed in the Winners List
+- `by_category_title`: Medals by Category
 - `table_status`: Status
 
 ## `history`
 
 Where: the medal history table.
 
-- `title`: Medal history
+- `title`: Medal History
 - `note`: Field is the number of entries in the category that year. Entries per medal divides the field by the medals awarded.
 - `empty`: No medals in the record.
 
@@ -59,13 +59,13 @@ Where: the medal history table.
 
 Where: the recent years list.
 
-- `title`: Recent years
+- `title`: Recent Years
 - `line`: {{count}} medals: {{split}}
 - `line_one`: 1 medal: {{split}}
 - `split_gold`: {{count}} gold
 - `split_silver`: {{count}} silver
 - `split_bronze`: {{count}} bronze
-- `no_medal`: No medal in view
+- `no_medal`: No Medal in View
 
 ## `profile`
 
@@ -83,26 +83,26 @@ Where: the profile card, first block.
 - `location_opened`: opened {{year}}
 - `location_kitchen`: kitchen
 - `location_map`: Map
-- `locations_missing`: {{count}} locations in the results. Addresses: Not defined.
+- `locations_missing`: {{count}} locations in the results. Addresses: Not Found.
 - `known_for`: Known for
-- `known_for_missing`: Not defined
-- `missing`: Not defined
+- `known_for_missing`: Not Found
+- `missing`: Not Found
 
 ## `ownership`
 
 Where: the profile card, ownership block.
 
-- `title`: Ownership and investors
+- `title`: Ownership and Investors
 - `type`: Ownership
 - `parent`: Parent
 - `investors`: Investors
 - `stake`: Stake
 - `stake_value`: {{stake}}, {{year}}
-- `ba_independent`: Independent (Brewers Association definition)
+- `ba_independent`: Independent (Brewers Association Definition)
 - `status`: Status
 - `source`: Source
 - `unverified`: Curated from public announcements; not checked against a primary source.
-- `missing`: Not defined
+- `missing`: Not Found
 - `missing_note`: Breweries without ownership research count as independent in totals.
 
 ## `distribution`
@@ -112,58 +112,58 @@ Where: the profile card, distribution block.
 - `title`: Distribution
 - `channel_fallback`: Channel
 - `since`: since {{year}}
-- `unverified_pill`: Not checked
+- `unverified_pill`: Not Checked
 - `source`: Source: {{source}}
-- `missing`: Not defined
+- `missing`: Not Found
 
 ## `scale`
 
 Where: the profile card, estimated scale block. Every figure here is an estimate unless marked reported.
 
-- `title`: Estimated scale
-- `barrels`: Barrels per year
+- `title`: Estimated Scale
+- `barrels`: Barrels per Year
 - `barrels_note`: ({{basis}}, {{confidence}})
 - `equivalent`: Equivalent
 - `equivalent_value`: {{gallons}} gallons, or {{cases}} cases of 24 twelve ounce cans. About {{cans}} sixteen ounce cans packaged (assuming {{packaged_share}} packaged) and {{pints}} pints on draft.
 - `revenue`: Revenue (ARR)
 - `revenue_note`: (range {{low}} to {{high}}, E)
-- `gross_margin`: Gross margin
+- `gross_margin`: Gross Margin
 - `gross_margin_note`: (gross profit {{gross_profit}}, E)
 - `ebitda`: EBITDA
 - `ebitda_value`: {{ebitda}} at {{margin}}
 - `ebitda_note`: (range {{margin_low}} to {{margin_high}}, {{low}} to {{high}}, E)
-- `per_barrel`: Revenue per barrel
+- `per_barrel`: Revenue per Barrel
 - `per_barrel_note`: (cost of goods assumed at {{cogs}} per barrel, E)
-- `per_location`: Revenue per location
+- `per_location`: Revenue per Location
 - `per_location_note`: across {{count}} locations, E
 - `per_location_note_kitchen`: across {{count}} locations with kitchens, E
-- `per_employee`: Revenue per employee
+- `per_employee`: Revenue per Employee
 - `method_link`: How these estimates are made
 
 ## `other_competitions`
 
 Where: the other competitions section, when the brewery has medals outside this competition.
 
-- `title`: Other competitions
+- `title`: Other Competitions
 - `note`: World Beer Cup and other competitions, as recorded. Filters cover Great American Beer Festival medals only.
 
 ## `deep_dive`
 
 Where: the deep dive section at the bottom of the page.
 
-- `title`: Deep dive
+- `title`: Deep Dive
 - `missing`: No deep dive yet.
 
 ## `trend`
 
 Where: the ten year trend table under the medal chart.
 
-- `title`: Ten year trend
+- `title`: Ten Year Trend
 - `note`: Each year says whether the brewery medaled. When it did not, the status says why there is nothing to count, including years before the brewery opened.
 - `year`: Year
 - `status`: Status
 - `medals`: Medals
-- `split`: Gold / silver / bronze
+- `split`: Gold / Silver / Bronze
 - `caption`: Medals and status of {{brewery_name}} in the last ten years.
 
 ## `chart`
@@ -171,7 +171,7 @@ Where: the ten year trend table under the medal chart.
 Where: the medals by year chart.
 
 - `aria`: Line chart of the medals {{brewery_name}} won each year, gold, silver, and bronze.
-- `series_total`: All medals
+- `series_total`: All Medals
 
 ## `tables`
 
@@ -183,8 +183,8 @@ Where: the medals by category and medals by location tables.
 - `history_caption`: Every Great American Beer Festival medal of {{brewery_name}} in view.
 - `other_caption`: Medals of {{brewery_name}} in other competitions.
 - `ibu`: IBU
-- `beer_profile`: Beer profile
-- `open_profile`: Full profile
+- `beer_profile`: Beer Profile
+- `open_profile`: Full Profile
 - `medals`: Medals
 
 ## `hops`
@@ -197,9 +197,9 @@ Where: the hops used section.
 
 Where: the hop farms section, which keeps the two kinds of link apart.
 
-- `title`: Hop farms reached through these hops
+- `title`: Hop Farms Reached Through These Hops
 - `note`: A farm the brewery named is a direct statement in a beer profile. A farm that grows one of these hops is published as growing it, and it does not mean the beer used hops from that farm.
-- `named_label`: Brewery named this farm
+- `named_label`: Brewery Named This Farm
 - `named_empty`: No beer profile of this brewery names a farm.
 - `named_caption`: Hop farms named by {{brewery_name}} for a hop in a beer profile.
 - `grown_label`: Grown by
@@ -212,7 +212,7 @@ Where: the hop farms section, which keeps the two kinds of link apart.
 
 Where: the beer profile cards of the latest year.
 
-- `title`: {{year}} medal beers
+- `title`: {{year}} Medal Beers
 
 ## `partial`
 
@@ -230,12 +230,12 @@ Where: the profile card, extra rows.
 - `link_untappd`: Untappd
 - `link_beeradvocate`: BeerAdvocate
 - `links_checked`: Checked {{date}}
-- `current_beers`: Current beers
+- `current_beers`: Current Beers
 - `current_beers_line`: As of {{date}}, from {{source}}.
 - `current_beer_detail`: ({{detail}})
 - `abv_suffix`: {{abv}}% ABV
 - `parent_type`: ({{type}})
-- `location_none`: Not defined
+- `location_none`: Not Found
 
 ## `estimates`
 
@@ -251,7 +251,7 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `metric_per_location`: revenue per location
 - `metric_per_employee`: revenue per employee
 - `type_phrase_known`: its brewery type ({{type}})
-- `type_phrase_assumed`: an assumed generic type, because the brewery type is not defined
+- `type_phrase_assumed`: an assumed generic type, because no source states the brewery type
 - `barrels_reported`: Reported by the brewery: {{barrels}} barrels.
 - `barrels_reported_year`: Reported by the brewery for {{year}}: {{barrels}} barrels.
 - `barrels_bracket`: The midpoint of the Brewery of the Year size bracket it competed in ({{min}} to {{max}} barrels): {{barrels}} barrels.
@@ -275,11 +275,11 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `inputs`: Inputs: {{items}}.
 - `input_item`: {{label}} {{value}}
 - `input_barrels`: Barrels
-- `input_type`: Brewery type
+- `input_type`: Brewery Type
 - `input_locations`: Locations
 - `input_kitchen`: Kitchen
 - `input_distribution`: Distribution
 - `input_employees`: Employees
 - `value_barrels`: {{barrels}} ({{basis}})
-- `value_type_assumed`: Not defined, so an assumed generic type is used
-- `value_kitchen_unknown`: Not defined, so no food revenue is added
+- `value_type_assumed`: Not Found, so an assumed generic type is used
+- `value_kitchen_unknown`: Not Found, So No Food Revenue Is Added

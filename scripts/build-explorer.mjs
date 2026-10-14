@@ -7,7 +7,7 @@
 // Every record also gains fed_district_name (Federal Reserve district, county based in split states)
 // and the brewery attributes of the site's data model (type, ownership, investors, distribution, kitchen,
 // region), read through breweryAttributeLookup so the explorer and the site cannot disagree. A value no
-// source states is left empty and the explorer shows Not defined.
+// source states is left empty and the explorer shows Not Found.
 // The embedded dataset JSON and the Catalog.beer footer line change; the prototype's markup, styles,
 // and code are otherwise copied as is.
 // Records are matched on beer name, medal, and award category, which are unique within a year.
@@ -129,7 +129,7 @@ export function buildDataset(rows, previous = [], summary = []) {
 }
 
 // The brewery attributes of one record, taken from the data model (breweryAttributeLookup) and stored as
-// text: a value no source states is the empty string, which the explorer shows as Not defined.
+// text: a value no source states is the empty string, which the explorer shows as Not Found.
 export function attributeFields(a) {
   return {
     brewery_type: a.brewery_type ?? '',
@@ -143,7 +143,7 @@ export function attributeFields(a) {
 
 // The words shown for each stored slug, the same labels the site uses.
 export function valueLabels() {
-  const only = (m) => Object.fromEntries(Object.entries(m).filter(([k, v]) => k && v !== 'Not defined'));
+  const only = (m) => Object.fromEntries(Object.entries(m).filter(([k, v]) => k && v !== 'Not Found'));
   return { brewery_type: only(VALUE_LABELS.brewery_type), ownership_type: only(VALUE_LABELS.ownership_type), distribution_channel: only(VALUE_LABELS.distribution_channel) };
 }
 

@@ -6,15 +6,15 @@ Saved views: planned. Views a visitor saves live only in their own browser.
 
 Where: top of the page.
 
-- `title`: Saved views
+- `title`: Saved Views
 - `lede`: Views you saved on this device. They stay in this browser; nothing is sent or synced.
 
 ## `save`
 
 Where: the save control on any filterable page.
 
-- `button`: Save this view
-- `name_label`: Name this view
+- `button`: Save This View
+- `name_label`: Name This View
 - `name_placeholder`: For example, Hazy IPA in Colorado
 - `saved`: View saved.
 
@@ -27,7 +27,7 @@ Where: each saved view in the list.
 - `delete`: Delete
 - `copy_link`: Copy link
 - `link_copied`: Link copied.
-- `filters_summary`: {{count}} filters on {{page_title}}
+- `filters_summary`: {{count}} Filters on {{page_title}}
 
 ## `empty`
 

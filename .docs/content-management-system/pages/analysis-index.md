@@ -14,7 +14,7 @@ Where: top of the page.
 Where: the findings list. Each finding's own copy lives in content/analysis.
 
 - `title`: Findings
-- `read_more`: Read the finding
+- `read_more`: Read the Finding
 
 ## `reports`
 
@@ -24,27 +24,27 @@ Where: the reports list, one line per report: the title, then the description.
 
 ### `top_breweries`
 
-- `title`: Top breweries
+- `title`: Top Breweries
 - `description`: Medal and point leaders, and the longest active streaks.
 
 ### `top_categories`
 
-- `title`: Top categories
+- `title`: Top Categories
 - `description`: The most entered categories, the hardest to medal in, and the style families that win the most.
 
 ### `by_state`
 
-- `title`: By state
+- `title`: By State
 - `description`: Medals by state, per million residents, and per dollar of real GDP.
 
 ### `by_region`
 
-- `title`: By region
+- `title`: By Region
 - `description`: Medals by Census region and division.
 
 ### `ownership`
 
-- `title`: Ownership and investors
+- `title`: Ownership and Investors
 - `description`: How many medals go to independent breweries, and who owns the rest.
 
 ### `economics`
