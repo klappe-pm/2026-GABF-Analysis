@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Pyros Prost"
@@ -26,13 +26,145 @@ brewery-state: "CA"
 brewery-url: "https://www.hopdogma.com/"
 category-name: "Chili Beer"
 category-number: 6
+description: null
 entries: 55
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/HopDogmaBrewingCo/beer"
+      - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
+      - "https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost"
+      - "https://www.hopdogma.com/"
+      - "https://www.hopdogma.com/beers-2"
+      - "https://www.hopdogma.com/welcome"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Rye"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/HopDogmaBrewingCo/beer"
   - "https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost"
@@ -41,7 +173,10 @@ sources:
   - "https://www.hopdogma.com/"
   - "https://www.hopdogma.com/beers-2"
   - "https://www.hopdogma.com/welcome"
+srm: null
 style: "American rye ale brewed with chiles"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +209,45 @@ No description on the brewery's own site could be read. The BeerMenus listings c
 
 Source: [BeerMenus: Pyros Prost](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Rye and Anaheim chiles are the only ingredients named, both in the BeerMenus descriptions; no hops, specific malts or yeast are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) defines Chili Beer as any beer using chili peppers for flavor, aroma or heat, with chili character from subtle to intense in harmony with the base style, and IBU and ABV varying with that style. A rye ale with Anaheim chiles fits that definition.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Chili Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Hop Dogma Brewing Co. is in Half Moon Bay, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -89,6 +256,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [BeerMenus: Pyro's Prost (6.0%)](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost)
 - [BeerMenus: Pyros Prost (7.1%)](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
 
 ## research-notes
 

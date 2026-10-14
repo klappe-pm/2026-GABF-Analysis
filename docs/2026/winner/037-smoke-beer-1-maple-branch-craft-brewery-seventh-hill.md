@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "The Seventh Hill"
@@ -25,13 +25,125 @@ brewery-state: "TX"
 brewery-url: "https://www.maplebranchbrew.com/"
 category-name: "Smoke Beer"
 category-number: 37
+description:
+  text: "Smoked malt delivers a captivating aroma, while the roasty and chocolatey undertones create a smooth, velvety body. The robust smokiness balances perfectly with the beer's mellow sweetness."
+  source: "https://www.maplebranchbrew.com/brews/seventh-hill"
 entries: 42
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
+      - "https://www.maplebranchbrew.com/"
+      - "https://www.maplebranchbrew.com/beer"
+      - "https://www.maplebranchbrew.com/brews"
+      - "https://www.maplebranchbrew.com/brews/seventh-hill"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Smoked malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -39,7 +151,10 @@ sources:
   - "https://www.maplebranchbrew.com/beer"
   - "https://www.maplebranchbrew.com/brews"
   - "https://www.maplebranchbrew.com/brews/seventh-hill"
+srm: null
 style: "Robust Smoked Porter"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +187,45 @@ Seventh Hill is a robust smoked porter from Maple Branch Craft Brewery, a Fort W
 
 Source: [Maple Branch: Seventh Hill](https://www.maplebranchbrew.com/brews/seventh-hill)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Smoked malt is the only ingredient the brewery names; the roast and chocolate notes are described as flavors, not as named malts. No smoke source, hops or yeast are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Smoke Beer covers any style incorporating smoke, from very light to black, and asks for a balance between the base style's character and the smoky properties; ABV and IBU vary with the underlying style. A smoked robust porter fits that frame.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Smoke Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Maple Branch Craft Brewery is in Fort Worth, TX. Brewery type in Open Brewery DB: In planning.
+
+Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagram](https://www.instagram.com/maplebranchbrew/), [Untappd](https://untappd.com/MapleBranchCraftBrewery).
 
 ## links
 
@@ -88,6 +235,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Maple Branch: award winning beers](https://www.maplebranchbrew.com/brews)
 - [Untappd: The Seventh Hill](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
 
 ## research-notes
 

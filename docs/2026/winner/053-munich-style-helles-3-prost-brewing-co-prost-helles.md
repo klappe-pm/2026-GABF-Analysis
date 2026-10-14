@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,69 @@ brewery-state: "CO"
 brewery-url: "https://www.prostbrewing.com/"
 category-name: "Munich-Style Helles"
 category-number: 53
+description:
+  text: "An everyday session bier, light in color but massively flavorful."
+  source: "https://www.prostbrewing.com/helles"
 entries: 123
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beermenus.com/beers/146633-prost-helles"
+      - "https://www.prostbrewing.com/helles"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau Mittelfrüh"
+    variety: "Hallertau Mittelfrüh"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.prostbrewing.com/helles"
 hops:
   - "Hallertau Mittelfrüh"
 ibu: 17
@@ -32,12 +94,17 @@ malts:
   - "Weyermann Premium Pils"
   - "Weyermann Vienna"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.beermenus.com/beers/146633-prost-helles"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.prostbrewing.com/helles"
+srm: null
 style: "Munich-Style Golden Lager"
+tasting-notes: null
+water: null
 yeast:
   - "Augustiner Lager"
 ---
@@ -71,13 +138,47 @@ Prost Helles is a helles lager from Prost Brewing Co., entered from its Northgle
 
 Source: [Prost: Helles](https://www.prostbrewing.com/helles)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery also publishes husk separation, single decoction, open fermentation, horizontal lagering, natural carbonation and ceramic filtration ([Prost: Helles](https://www.prostbrewing.com/helles)).
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [prostbrewing.com](https://www.prostbrewing.com/helles) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Munich-Style Helles calls for pronounced malt aroma and flavor with no caramel character, 4.8 to 5.6 percent ABV, 15 to 25 IBU and 2.5 to 5 SRM. The published strength and bitterness fall within those category ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Munich-Style Helles | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Prost Brewing Co. is in Northglenn, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +186,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [BeerMenus: Prost Helles](https://www.beermenus.com/beers/146633-prost-helles)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Prost: Helles](https://www.prostbrewing.com/helles)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/146633-prost-helles), [prostbrewing.com](https://www.prostbrewing.com/helles), web searches recorded in the research notes.
 
 ## research-notes
 

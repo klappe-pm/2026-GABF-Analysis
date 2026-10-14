@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,18 +26,107 @@ brewery-state: "NC"
 brewery-url: "https://www.enoriverbrewing.com/"
 category-name: "American Sour Ale"
 category-number: 29
+description:
+  text: "Second Pick, 6.2% Berliner Weisse w/ NC Strawberries and Local Basil. Second Pick is BACK and pouring better than ever, but this year WE PUT IT IN CANS. We sourced over 600 pounds of strawberries from Central NC Farms"
+  source: "https://www.enoriverbrewing.com/"
 entries: 111
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
+      - "https://www.enoriverbrewing.com/"
+      - "https://www.enoriverbrewing.com/menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.enoriverbrewing.com/"
   - "https://www.enoriverbrewing.com/menu"
+srm: null
 style: "Berliner Weisse"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +161,45 @@ Punctuation lightly normalized.
 
 Source: [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewing.com/), from the brewery's [Instagram post](https://www.instagram.com/p/DZcsA7QlvoZ/) embedded there. The embedded text is cut off after this point.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's release post names North Carolina strawberries, more than 600 pounds sourced from Central NC farms, and local basil. Grains, hops and the souring culture are not named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Sour Ale call for medium-low to high natural acidity from bacteria and yeasts, fruity esters, no Brettanomyces, and ABV and IBU that may vary widely; that guideline places fruited versions elsewhere. The 6.2% ABV is unrestricted by the guideline, while the strawberry and basil additions are elements the guideline would usually route to another category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Sour Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Eno River Brewing is in Hillsborough, NC. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +208,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Eno River Brewing: menu](https://www.enoriverbrewing.com/menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Eno River Second Pick](https://untappd.com/b/eno-river-brewing-second-pick/5500598)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
 
 ## research-notes
 

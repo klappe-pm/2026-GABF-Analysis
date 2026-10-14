@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,162 @@ brewery-state: "IL"
 brewery-url: "https://www.werkforcebrewing.com/"
 category-name: "Collab Comp"
 category-number: 501
+description: null
 entries: 54
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
+      - "https://www.rockyreefbrewing.com/"
+      - "https://www.rockyreefbrewing.com/master-beer-list"
+      - "https://www.rockyreefbrewing.com/menus"
+      - "https://www.werkforcebrewing.com/"
+      - "https://www.werkforcebrewing.com/menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
   - "https://www.rockyreefbrewing.com/"
@@ -37,7 +187,10 @@ sources:
   - "https://www.rockyreefbrewing.com/menus"
   - "https://www.werkforcebrewing.com/"
   - "https://www.werkforcebrewing.com/menu"
+srm: null
 style: "Collab Comp"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +221,45 @@ Stupid Sticky Fingers is a collaboration beer between Werk Force Brewing Co. of 
 
 No brewery description of Stupid Sticky Fingers was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As competition context only, the [GABF Collaboration Competition page](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/) says the contest celebrates "the spirit and community of American commercial craft breweries," that entering brewers choose the style of each entry, and that entries are judged best of show by the main GABF panel. With no published style, no style guideline is applied.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Collab Comp | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Werk Force Brewing Co. / Rocky Reef Brewing Co. is in Plainfield, IL.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +269,10 @@ As competition context only, the [GABF Collaboration Competition page](https://w
 - [Rocky Reef: beer menu](https://www.rockyreefbrewing.com/menus)
 - [Rocky Reef: master beer list](https://www.rockyreefbrewing.com/master-beer-list)
 - [GABF Collaboration Competition page](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes.
 
 ## research-notes
 

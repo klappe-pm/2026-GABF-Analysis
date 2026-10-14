@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Coming To Fruition: Cherry"
@@ -26,20 +26,91 @@ brewery-state: "OR"
 brewery-url: "https://www.ocbeerco.com/"
 category-name: "Berliner-Style Weisse"
 category-number: 64
+description:
+  text: "Coming To Fruition is just that: an idea. We started with multiple barrels of a multi-fermentation sour, and aged them in French oak for a year. Then we added tart cherries for the last four months of the aging process, and blended them for this delectable American wild sour."
+  source: "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
 entries: 38
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
+      - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
+      - "https://www.ocbeerco.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 5
 malts:
   - "Pilsner malt"
   - "Wheat malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry"
   - "https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ocbeerco.com/"
+srm: null
 style: "American wild sour"
+tasting-notes: null
+water: null
 yeast:
   - "Ale yeast"
   - "Brettanomyces"
@@ -74,13 +145,45 @@ Coming To Fruition: Cherry is an oak aged wheat sour finished on whole Montmoren
 
 Source: [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 In a 2022 brewer's account published by [New School Beer](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry), the base is a wheat beer built on imported German wheat and Pilsner malt, fermented with a clean house ale yeast plus Imperial's Suburban Brett strain, then aged in oak and finished on the cherries for the last 2 to 4 months. No hop variety is named. These details describe the process in 2022 and are not confirmed for the 2024 vintage.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Berliner-Style Weisse calls for a light, very dry, highly carbonated beer with sharp lactic sourness, 2.8 to 5.0 percent ABV and 3 to 6 IBU. The published 5 IBU fits; the 6% ABV sits above the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Berliner-Style Weisse | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Oregon City Brewing Co. is in Oregon City, OR. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.ocbeerco.com/), [Untappd](https://untappd.com/OregonCityBrewingCo).
 
 ## links
 
@@ -88,6 +191,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Coming To Fruition Cherry](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830)
 - [New School Beer: Coming to Fruition](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2022/10/oregon-city-brewing-classic-award-winning-coming-to-fruition-cherry), [untappd.com](https://untappd.com/b/oregon-city-brewing-company-coming-to-fruition-cherry/2393830), [ocbeerco.com](https://www.ocbeerco.com/), web searches recorded in the research notes.
 
 ## research-notes
 

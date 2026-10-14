@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,123 @@ brewery-state: "CO"
 brewery-url: "https://www.mainstagebrewing.com/"
 category-name: "German-Style Maerzen"
 category-number: 56
+description: null
 entries: 184
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
+      - "https://www.mainstagebrewing.com/"
+      - "https://www.mainstagebrewing.com/gunbarrel/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.mainstagebrewing.com/"
   - "https://www.mainstagebrewing.com/gunbarrel/"
+srm: null
 style: "German-Style Maerzen"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +171,45 @@ Oktoberfestfest is a lager from MainStage Brewing Co., a Colorado brewery whose 
 
 No brewery description of the beer was found; the brewery's site has no beer list.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients were found.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Maerzen calls for bready or biscuity malt with light toast rather than strong caramel, 5.1 to 6.0 percent ABV, 18 to 25 IBU and 4 to 15 SRM. With no published specs, fit cannot be checked.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Maerzen | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+MainStage Brewing Co. is in Boulder, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -80,6 +217,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [MainStage: Gunbarrel](https://www.mainstagebrewing.com/gunbarrel/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: MainStage Oktoberfest comparison](https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/mainstage-brewing-co-oktoberfest/4509842), [mainstagebrewing.com](https://www.mainstagebrewing.com/), [mainstagebrewing.com](https://www.mainstagebrewing.com/gunbarrel/), web searches recorded in the research notes.
 
 ## research-notes
 

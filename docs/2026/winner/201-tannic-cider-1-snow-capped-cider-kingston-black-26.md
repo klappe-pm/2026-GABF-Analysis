@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,155 @@ brewery-state: "CO"
 brewery-url: "https://www.snowcappedcider.com/"
 category-name: "Tannic Cider"
 category-number: 201
+description:
+  text: "This is a 100% Single Varietal completely dry representation of 19th century Kingston Black"
+  source: "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
 entries: 28
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
+      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
+      - "https://snowcappedcider.com/shop-bottles/"
+      - "https://snowcappedcider.com/shop-cans/"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "https://www.snowcappedcider.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
   - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
@@ -37,7 +180,10 @@ sources:
   - "https://snowcappedcider.com/shop-cans/"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
   - "https://www.snowcappedcider.com/"
+srm: null
 style: "Tannic Cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +216,45 @@ Kingston Black 26 is a single varietal cider from Snow Capped Cider of Colorado 
 
 Source: [Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) (the can listing; which version was entered is not stated)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Both candidate listings describe single varietal Kingston Black cider. The Reserve bottle page calls the apple "the most famous English cider apple in the world," originating in Taunton, England, and notes leathery tannin and three years of aging ([Snow Capped: Kingston Black Reserve](https://snowcappedcider.com/all-ciders/kingston-black-reserve/)). The can page describes dry tannin and high complex flavors ([Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) describe Tannic Cider as dry or sweet versions of high-tannin ciders, at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. Both candidate versions (8.4% and 8.5%) sit inside that range and both are described as tannic.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Tannic Cider | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Snow Capped Cider is in Austin, CO.
+
+Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagram](https://www.instagram.com/snowcappedcider/).
 
 ## links
 
@@ -86,6 +264,10 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 - [Snow Capped: bottle shop](https://snowcappedcider.com/shop-bottles/)
 - [Snow Capped: can shop](https://snowcappedcider.com/shop-cans/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 

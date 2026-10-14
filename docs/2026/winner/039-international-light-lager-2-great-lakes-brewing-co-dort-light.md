@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,97 @@ brewery-state: "OH"
 brewery-url: "https://www.greatlakesbrewing.com/"
 category-name: "International Light Lager"
 category-number: 39
+description:
+  text: "They say you can't improve a classic. We say lighten up! Meet our award-winning Dortmunder recipe, reimagined."
+  source: "https://www.greatlakesbrewing.com/beer/dort-light"
 entries: 38
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
+      - "https://www.greatlakesbrewing.com/"
+      - "https://www.greatlakesbrewing.com/beer/dort-light"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Cascade"
+    variety: "Cascade"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.greatlakesbrewing.com/beer/dort-light"
+  - published: "Mt. Hood"
+    variety: "Mt. Hood"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.greatlakesbrewing.com/beer/dort-light"
 hops:
   - "Cascade"
   - "Mt. Hood"
@@ -33,13 +123,18 @@ malts:
   - "2-row malt"
   - "Caramel 60"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greatlakesbrewing.com/"
   - "https://www.greatlakesbrewing.com/beer/dort-light"
+srm: null
 style: "International Light Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +167,48 @@ Dort Light is a lighter reworking of the Dortmunder lager recipe from Great Lake
 
 Source: [Great Lakes: Dort Light](https://www.greatlakesbrewing.com/beer/dort-light)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery page lists Cascade and Mt. Hood hops and a 2-row base with Caramel 60 malt. No yeast or adjuncts are named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Cascade | Cascade | not published | not published | not published | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
+| Mt. Hood | Mt. Hood | not published | not published | not published | [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International Light Lager calls for no malt sweetness, often sugar adjuncts to lighten body and flavor, 4.1 to 5.1 percent ABV, 9 to 18 IBU and a straw to gold color (SRM 2 to 5). The published 2.9% ABV is below that range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International Light Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Great Lakes Brewing Co. is in Cleveland, OH.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -86,6 +216,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Great Lakes Brewing Co.](https://www.greatlakesbrewing.com/)
 - [Untappd: Great Lakes Dort Light](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes.
 
 ## research-notes
 

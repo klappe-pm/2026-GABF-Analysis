@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,111 @@ brewery-state: "TN"
 brewery-url: "https://www.blackstonebeer.com/"
 category-name: "English-Style Brown Ale"
 category-number: 73
+description: null
 entries: 43
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
+      - "https://www.blackstonebeer.com/"
+      - "https://www.blackstonebeer.com/our-beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 23
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
   - "https://www.blackstonebeer.com/"
   - "https://www.blackstonebeer.com/our-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "English-Style Brown Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,13 +159,45 @@ Nut Brown Ale is a year-round English-style brown ale from Blackstone Brewing Co
 
 No description from the brewery was found; its beer page shows the beer as an image label with a list of past awards and no text description.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient is published on the brewery site.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. The published strength and bitterness fit the category ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | English-Style Brown Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Blackstone Brewing Co. is in Nashville, TN.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -80,6 +205,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://www.blackstonebeer.com/our-beer)
 - [Blackstone Brewing Co.](https://www.blackstonebeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814), [blackstonebeer.com](https://www.blackstonebeer.com/), [blackstonebeer.com](https://www.blackstonebeer.com/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 

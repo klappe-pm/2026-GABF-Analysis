@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,117 @@ brewery-state: "CA"
 brewery-url: "https://www.urbanrootsbrewing.com/"
 category-name: "American or Export Stout"
 category-number: 85
+description: null
 entries: 41
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.urbanrootsbrewing.com/"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.urbanrootsbrewing.com/"
   - "https://www.urbanrootsbrewing.com/home"
   - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+srm: null
 style: "Export Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,19 +165,55 @@ No Tricks is an export stout on draft at Urban Roots Brewing, a brewery and smok
 
 The brewery publishes no description of this beer beyond its draught list entry.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describe Export-Style Stout as a strong, dry roasted stout with coffee-like roast softened by malt sweetness, 5.6 to 8.0 percent ABV and 30 to 60 IBU, and American-Style Stout at 5.7 to 8.0 percent ABV and 35 to 60 IBU. The published 6.5% ABV fits both.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American or Export Stout | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Urban Roots Brewing is in Sacramento, CA. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Untappd](https://untappd.com/UrbanRootsBeer).
 
 ## links
 
 - [Beer page on brewery site](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf)
 - [Urban Roots Brewing](https://www.urbanrootsbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
 
 ## research-notes
 

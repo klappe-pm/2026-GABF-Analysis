@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,102 @@ brewery-state: "NY"
 brewery-url: "https://www.grimmales.com/"
 category-name: "Rye Beer"
 category-number: 12
+description:
+  text: "Roggenbier is most similar to dunkelweizen (a supple dark wheat beer), but it is made with spicy rye rather than wheat. Made with the same expressive yeast strain that we use for Grimm Weisse, Road Dog is rife with elegant notes of clove and dark dried fruit. A balancing hint of caramel sweetness is here, but the sip finishes dry."
+  source: "https://grimmales.com/beers/road-dog/"
 entries: 30
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://grimmales.com/beers/road-dog/"
+      - "https://grimmales.com/location/taproom/"
+      - "https://www.grimmales.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Rye"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://grimmales.com/beers/road-dog/"
   - "https://grimmales.com/location/taproom/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.grimmales.com/"
+srm: null
 style: "Roggenbier"
+tasting-notes: null
+water: null
 yeast:
   - "Grimm Weisse yeast strain"
 ---
@@ -70,13 +153,45 @@ Road Dog is a roggenbier, a German rye beer, brewed by Grimm Artisanal Ales of B
 
 Source: [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names rye in place of wheat and a house yeast shared with its Grimm Weisse, and lists no added spice. The page says the beer was brewed "In time for Oktoberfest" with Human Robot. No hop varieties, base malts or yeast strain name are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Rye Beer says "The grist should include sufficient rye so that rye character is evident in the beer," accepts a wide range of color, and lets ABV and IBU vary with the underlying style. A roggenbier built on rye in place of wheat fits that requirement.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Rye Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Grimm Artisanal Ales is in Brooklyn, NY. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +199,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Grimm Artisanal Ales](https://www.grimmales.com/)
 - [Grimm Artisanal Ales: taproom](https://grimmales.com/location/taproom/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
 
 ## research-notes
 

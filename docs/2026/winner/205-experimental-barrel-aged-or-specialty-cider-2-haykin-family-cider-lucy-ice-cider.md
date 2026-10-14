@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,127 @@ brewery-state: "CO"
 brewery-url: "https://haykinfamilycider.com/"
 category-name: "Experimental, Barrel-Aged or Specialty Cider"
 category-number: 205
+description:
+  text: "Lychee, poached pears, cloves and spices."
+  source: "https://haykinfamilycider.com/bottle-menu"
 entries: 28
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://haykinfamilycider.com/"
+      - "https://haykinfamilycider.com/bottle-menu"
+      - "https://haykinfamilycider.com/tasting-menu"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://haykinfamilycider.com/"
   - "https://haykinfamilycider.com/bottle-menu"
   - "https://haykinfamilycider.com/tasting-menu"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Ice Cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +177,45 @@ LUCY Ice Cider is a sweet dessert ice cider made entirely from LUCY apples by Ha
 
 Source: [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Both cidery menus list the ice cider as made from LUCY apples grown at Topcliff Orchards, with the same 12% and 2025 vintage on each ([Haykin: tasting menu](https://haykinfamilycider.com/tasting-menu)). The cloves and spices in the description are tasting notes, not listed additions.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) say Experimental, Barrel-Aged or Specialty Cider "focuses on combinations of fruits, spices, adjuncts, fortifications, fermentations, barrel treatments" and give no fixed ABV range, noting that sweetness, alcohol and carbonation vary. The Brewers Association beer style guidelines carry no cider entries. A sweet 12% ice cider fits a specialty category without a set alcohol range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Experimental, Barrel-Aged or Specialty Cider | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Haykin Family Cider is in Aurora, CO.
+
+Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram](https://www.instagram.com/haykinfamilycider/).
 
 ## links
 
@@ -82,6 +223,10 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 - [Haykin Family Cider](https://haykinfamilycider.com/)
 - [Haykin: tasting menu](https://haykinfamilycider.com/tasting-menu)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

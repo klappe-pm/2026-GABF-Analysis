@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,15 +24,72 @@ brewery-state: "NY"
 brewery-url: null
 category-name: "Juicy or Hazy India Pale Ale"
 category-number: 101
+description: null
 entries: 260
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Juicy or Hazy India Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -63,17 +120,53 @@ The Goat is a hazy IPA from New York Beer Project's Orchard Park location (print
 
 No brewery description of this beer was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published in any source reached.
+
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy India Pale Ale calls for straw to light amber color with variable haze, low to medium-low malt, medium-high to very high juicy or tropical hop character and soft bitterness, at 6.3 to 7.5 percent ABV and 20 to 50 IBU. No published specs exist to compare.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Juicy or Hazy India Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+New York Beer Project is in Orchard Park, NY. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://nybeerproject.com/).
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes.
 
 ## research-notes
 

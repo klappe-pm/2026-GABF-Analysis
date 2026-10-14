@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -27,17 +27,106 @@ brewery-state: "CA"
 brewery-url: "https://gowansheirloomcider.com/"
 category-name: "Botanical or Spiced Cider"
 category-number: 204
+description:
+  text: "Our estate-grown organic heirloom apples, cinnamon, clove, and orange, fresh-baked apple pie in a glass."
+  source: "https://www.gowansheirloomcider.com/spiced-apple-cider"
 entries: 21
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/spiced-apple-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://gowansheirloomcider.com/"
   - "https://www.gowansheirloomcider.com/spiced-apple-cider"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Spiced apple cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,19 +161,56 @@ Punctuation lightly normalized.
 
 Source: [Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The product page names Sierra Beauty, Red Jonathan and Philo Gold heirloom apples from the estate, spiced with whole cinnamon, clove and orange ([Gowan's: Spiced Apple](https://www.gowansheirloomcider.com/spiced-apple-cider)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) say Botanical or Spiced Cider "focuses on ciders with added botanicals (including herbs, spices, hops, vegetables, chilis)," at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. The spice additions and the published 6.8% fit the category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Botanical or Spiced Cider | Gold |
+| 2026 | Great American Beer Festival | Botanical or Spiced Cider | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Gowan's Heirloom Cider is in Philo, CA.
+
+Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagram](https://www.instagram.com/gowansheirloomcider/).
 
 ## links
 
 - [Beer page on brewery site](https://www.gowansheirloomcider.com/spiced-apple-cider)
 - [Gowan's Heirloom Cider](https://gowansheirloomcider.com/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/spiced-apple-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

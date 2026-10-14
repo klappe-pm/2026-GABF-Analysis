@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,19 +25,128 @@ brewery-state: "OH"
 brewery-url: "https://thirdeyebrewingco.com/"
 category-name: "Coffee Stout or Porter"
 category-number: 10
+description:
+  text: "Bronze, Wired Euphoria, Coffee Stout"
+  source: "https://thirdeyebrewingco.com/"
 entries: 53
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/?page_id=3044"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://thirdeyebrewingco.com/"
   - "https://thirdeyebrewingco.com/?page_id=3044"
   - "https://thirdeyebrewingco.com/beer/"
   - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Coffee Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +183,46 @@ Punctuation lightly normalized.
 
 Source: [Third Eye Brewing: home page medal post](https://thirdeyebrewingco.com/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing beyond coffee, implied by the brewery's style label, is published. The beer is not on the brewery's beer listing, its category page or its Hamilton tap page.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Coffee Beer entry directs coffee stouts and porters to the Coffee Stout or Porter category and describes coffee beers as beers that "incorporate coffee in any form." The dedicated Coffee Stout or Porter entry was not in the portion of the guideline page that could be read, so no ranges are compared here.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Coffee Stout or Porter | Silver |
+| 2026 | Great American Beer Festival | Coffee Stout or Porter | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Third Eye Brewing Co. is in Hamilton, OH.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -89,6 +231,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Third Eye Brewing: beer categories](https://thirdeyebrewingco.com/?page_id=3044)
 - [Third Eye Brewing: on tap in Hamilton](https://thirdeyebrewingco.com/whats-on-tap-hamilton/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes.
 
 ## research-notes
 

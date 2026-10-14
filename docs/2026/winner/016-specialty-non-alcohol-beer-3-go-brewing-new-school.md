@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "New School Sour Berry"
@@ -27,14 +27,116 @@ brewery-state: "IL"
 brewery-url: "https://gobrewing.com/"
 category-name: "Specialty Non-Alcohol Beer"
 category-number: 16
+description:
+  text: "New School Sour Berry is a non-alcoholic kettle sour (less than 0.5% ABV) with blueberry and strawberry"
+  source: "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
 entries: 26
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
+      - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
 hops:
   - "Citra"
 ibu: null
 malts:
   - "Barley"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
   - "https://gobrewing.com/"
@@ -42,7 +144,10 @@ sources:
   - "https://gobrewing.com/products/new-school-sour-non-alcoholic-beer"
   - "https://untappd.com/b/go-brewing-new-school-sour-berry/5439582"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Non-alcoholic kettle sour"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +180,47 @@ New School is a non-alcoholic kettle sour from the New School Sour series of Go 
 
 Source: [Go Brewing: New School Sour Berry](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's ingredient list reads "Water, barley, hops, yeast, blueberry, strawberry." The description ties the beer to Go Brewing's World Beer Cup winning New School Sour series ([Go Brewing](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer)).
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Non-Alcohol Malt Beverage entry caps alcohol below 0.5% ABV (0.4% ABW) and says these beers should not be penalized for lacking alcohol; the guideline page read did not include a separate specialty non-alcohol entry. The published 0.44% sits under that cap.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Non-Alcohol Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Go Brewing is in Naperville, IL.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -91,6 +230,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
 - [World Beer Cup 2026 winners list](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/new-school-sour-non-alcoholic-beer), [untappd.com](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Oktoberfest"
@@ -25,7 +25,97 @@ brewery-state: "TX"
 brewery-url: "https://www.altstadtbeer.com/"
 category-name: "German-Style Maerzen"
 category-number: 56
+description:
+  text: "Altstadt Oktoberfest is a traditional Märzen brewed in Fredericksburg, Texas."
+  source: "https://altstadtbeer.com/beers/oktoberfest/"
 entries: 184
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://altstadtbeer.com/beers/"
+      - "https://altstadtbeer.com/beers/oktoberfest/"
+      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+      - "https://www.altstadtbeer.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 16
 malts:
@@ -33,14 +123,19 @@ malts:
   - "Munich malt"
   - "Vienna malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://altstadtbeer.com/beers/"
   - "https://altstadtbeer.com/beers/oktoberfest/"
   - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
   - "https://www.altstadtbeer.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Märzen"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +168,45 @@ Altstadt Oktoberfest is the copper Märzen that Altstadt Brewery of Fredericksbu
 
 Source: [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The beer page names "A blend of German Pilsner, Vienna, and Munich malts" and says "Mild hopping provides balance" ([Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/)); the brewery's medal post adds a "light copper color" and "smooth body" ([Altstadt: 2026 GABF news](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/)). No hop varieties or yeast are named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Maerzen calls for bready or biscuity malt with light toast rather than strong caramel, 5.1 to 6.0 percent ABV, 18 to 25 IBU and 4 to 15 SRM. The published 5.9% ABV and SRM 13 fit; the 16 IBU sits just below the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Maerzen | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Altstadt Brewery is in Fredericksburg, TX. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](https://www.instagram.com/altstadtbrewery/).
 
 ## links
 
@@ -88,6 +215,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Altstadt: beer list](https://altstadtbeer.com/beers/)
 - [Altstadt: 2026 GABF news](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 

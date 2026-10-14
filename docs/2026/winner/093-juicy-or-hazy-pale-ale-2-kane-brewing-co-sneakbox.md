@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,100 @@ brewery-state: "NJ"
 brewery-url: "https://www.kanebrewing.com/"
 category-name: "Juicy or Hazy Pale Ale"
 category-number: 93
+description:
+  text: "Sneakbox is our 5.4% American Pale Ale. A highly drinkable Jersey favorite, Sneakbox is made with 100% Citra hops and pours a hazy golden yellow, with a citrus aroma that finishes smooth, dry, and crisp."
+  source: "https://www.kanebrewing.com/products/sneak-box"
 entries: 62
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.kanebrewing.com/"
+      - "https://www.kanebrewing.com/products/sneak-box"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.kanebrewing.com/products/sneak-box"
 hops:
   - "Citra"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.kanebrewing.com/"
   - "https://www.kanebrewing.com/products/sneak-box"
+srm: null
 style: "American Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,19 +150,59 @@ Sneakbox is the year-round, all Citra American pale ale of Kane Brewing Co. in O
 
 Source: [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Citra is the only hop, as the brewery states on the [Sneakbox page](https://www.kanebrewing.com/products/sneak-box). No malt, yeast or other ingredient is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy Pale Ale calls for a hazy beer with very prominent fruity, juicy hop character and soft bitterness, 4.4 to 5.4 percent ABV and 5 to 30 IBU. The 5.4% ABV sits at the top of the range, and the brewery's hazy golden description fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2023 | Great American Beer Festival | Juicy or Hazy Pale Ale | Silver |
+| 2025 | Great American Beer Festival | Juicy or Hazy Pale Ale | Bronze |
+| 2026 | Great American Beer Festival | Juicy or Hazy Pale Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Kane Brewing Co. is in Ocean, NJ.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.kanebrewing.com/products/sneak-box)
 - [Kane Brewing](https://www.kanebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
 
 ## research-notes
 

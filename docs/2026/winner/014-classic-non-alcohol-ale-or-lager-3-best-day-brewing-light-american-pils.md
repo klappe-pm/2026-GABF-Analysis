@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,146 @@ brewery-state: "CA"
 brewery-url: "https://www.bestdaybrewing.com/"
 category-name: "Classic Non-Alcohol Ale or Lager"
 category-number: 14
+description: null
 entries: 39
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
+      - "https://www.bestdaybrewing.com/"
+      - "https://www.bestdaybrewing.com/collections/all"
+      - "https://www.bestdaybrewing.com/collections/core-beers"
+      - "https://www.bestdaybrewing.com/pages/our-beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans"
   - "https://www.bestdaybrewing.com/"
@@ -37,7 +171,10 @@ sources:
   - "https://www.bestdaybrewing.com/collections/core-beers"
   - "https://www.bestdaybrewing.com/pages/our-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Classic Non-Alcohol Ale or Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +205,45 @@ Light American Pils is a non-alcoholic beer entered by Best Day Brewing, a San F
 
 No brewery description of the beer was found; it is not on the brewery's shop or beer pages.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing specific is published. The brewery's beer page says only that its beers are made from "water, barley, hops, and yeast."
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Non-Alcohol Malt Beverage entry caps alcohol below 0.5% ABV (0.4% ABW), says these beers should not be penalized for lacking alcohol, and says ethyl acetate should not be present; the guideline page read did not include a separate entry for this classic ale or lager category. No published specs exist to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Classic Non-Alcohol Ale or Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Best Day Brewing is in San Francisco, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -83,6 +252,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Best Day Brewing: core beers](https://www.bestdaybrewing.com/collections/core-beers)
 - [Best Day Brewing: all products](https://www.bestdaybrewing.com/collections/all)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/fieldwork-light-na-american-pils-6-pack-of-12oz-cans), [bestdaybrewing.com](https://www.bestdaybrewing.com/), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/all), [bestdaybrewing.com](https://www.bestdaybrewing.com/collections/core-beers), [bestdaybrewing.com](https://www.bestdaybrewing.com/pages/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 

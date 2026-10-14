@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,17 +24,106 @@ brewery-state: "CO"
 brewery-url: "https://verbotenbrewing.com/"
 category-name: "Field Beer"
 category-number: 4
+description: null
 entries: 34
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://verbotenbrewing.com/"
+      - "https://verbotenbrewing.com/beer-menu/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://verbotenbrewing.com/"
   - "https://verbotenbrewing.com/beer-menu/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Field Beer"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -65,19 +154,55 @@ Coconut GO is a beer from Verboten Brewing of Loveland, Colorado. No published d
 
 No brewery description of Coconut GO was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient list is published. The name points to coconut, but no page read confirms it.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Field Beer asks for vegetable aroma and flavor, subtle to intense, not masked by hops, with IBU and ABV varying with the base style; the same guidelines class coconut as a vegetable, so a coconut beer is judged as Field Beer. No published specs exist to compare against it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Field Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Verboten Brewing is in Loveland, CO. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](https://www.instagram.com/verbotenbrewing/), [Untappd](https://untappd.com/VerbotenBrewing).
 
 ## links
 
 - [Verboten Brewing](https://verbotenbrewing.com/)
 - [Verboten Brewing: Loveland tap menu](https://verbotenbrewing.com/beer-menu/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes.
 
 ## research-notes
 

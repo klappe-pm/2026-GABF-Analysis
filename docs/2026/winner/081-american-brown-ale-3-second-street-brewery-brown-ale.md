@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,14 +24,142 @@ brewery-state: "NM"
 brewery-url: "https://secondstreetbrewery.com/"
 category-name: "American Brown Ale"
 category-number: 81
+description:
+  text: "a really well balanced, focused formulation, just Centennial and Cascade hops"
+  source: "https://www.ediblenm.com/?p=3448239"
 entries: 45
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
+      - "https://secondstreetbrewery.com/"
+      - "https://secondstreetbrewery.com/beers/"
+      - "https://untappd.com/SecondStreetBrewery/beer"
+      - "https://www.beeradvocate.com/beer/profile/62969/10954/"
+      - "https://www.ediblenm.com/?p=3448239"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Cascade"
+    variety: "Cascade"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.ediblenm.com/?p=3448239"
+  - published: "Centennial"
+    variety: "Centennial"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.ediblenm.com/?p=3448239"
 hops:
   - "Cascade"
   - "Centennial"
 ibu: 38
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
   - "https://secondstreetbrewery.com/"
@@ -40,7 +168,10 @@ sources:
   - "https://www.beeradvocate.com/beer/profile/62969/10954/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ediblenm.com/?p=3448239"
+srm: null
 style: "Brown ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -77,13 +208,48 @@ Punctuation lightly normalized.
 
 Source: [Edible New Mexico: Second Street Brewery interview](https://www.ediblenm.com/?p=3448239)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The interview is the only published ingredient source; it names the two hops and nothing about malt or yeast.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Cascade | Cascade | not published | not published | not published | [ediblenm.com](https://www.ediblenm.com/?p=3448239) |
+| Centennial | Centennial | not published | not published | not published | [ediblenm.com](https://www.ediblenm.com/?p=3448239) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Brown Ale calls for roasted, caramel and chocolate malt with balanced hop flavor, 4.2 to 6.3 percent ABV and 30 to 45 IBU. The current listed strength and bitterness fit the cited ranges; the two named hops are American varieties, in keeping with the style.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Brown Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Second Street Brewery is in Santa Fe, NM. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -94,6 +260,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Second Street Brewery: beer list](https://secondstreetbrewery.com/beers/)
 - [Edible New Mexico: Second Street Brewery interview](https://www.ediblenm.com/?p=3448239)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/), [secondstreetbrewery.com](https://secondstreetbrewery.com/), [secondstreetbrewery.com](https://secondstreetbrewery.com/beers/), [untappd.com](https://untappd.com/SecondStreetBrewery/beer), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/62969/10954/), [ediblenm.com](https://www.ediblenm.com/?p=3448239), web searches recorded in the research notes.
 
 ## research-notes
 

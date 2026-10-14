@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,16 +24,89 @@ brewery-state: "MI"
 brewery-url: "https://beardedlamb.com/"
 category-name: "Sweet Stout or Cream Stout"
 category-number: 84
+description: null
 entries: 42
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://beardedlamb.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://beardedlamb.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Chocolate Milk Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -64,18 +137,54 @@ Chugga Chocolate Milk Stout is a chocolate milk stout from Bearded Lamb Brewing 
 
 No brewery description of this beer could be read; the brewery site is a placeholder.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients was found; the name implies chocolate and lactose, but no source confirms either.
+
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. No specs are published to compare.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Sweet Stout or Cream Stout | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Bearded Lamb Brewing Co. is in Plymouth, MI.
+
+Links checked 2026-10-14: [Website](https://beardedlamb.com/), [Instagram](https://www.instagram.com/beardedlambbrewing/).
+
 ## links
 
 - [Bearded Lamb Brewing Co.](https://beardedlamb.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beardedlamb.com](https://beardedlamb.com/), web searches recorded in the research notes.
 
 ## research-notes
 

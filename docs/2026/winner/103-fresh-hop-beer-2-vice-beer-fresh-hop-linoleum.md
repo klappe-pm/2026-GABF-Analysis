@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,89 @@ brewery-state: "WA"
 brewery-url: null
 category-name: "Fresh Hop Beer"
 category-number: 103
+description:
+  text: "Crisp, bitter, and ready for the pit. Watch your step."
+  source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
 entries: 72
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+  - published: "Mosaic Cryo"
+    variety: "Mosaic Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
 hops:
   - "Citra"
   - "Mosaic"
@@ -33,11 +115,16 @@ hops:
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Fresh Hop Beer"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,18 +157,59 @@ Fresh Hop Linoleum is a fresh hop beer from Vice Beer in Vancouver, Washington; 
 
 Source: [Vice 2026 release description on Untappd](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [2026 release listing](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) identifies fresh Mosaic from Coleman Ag and a dry hop using Mosaic Cryo, Mosaic and Citra. No named malt or yeast was found.
+
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Fresh Hop Beer calls for prominent fresh hop aroma and flavor (green grass, fresh mown hay or other fresh hop attributes) from hops added soon after harvest, usually within 72 hours, with malt, bitterness and color following the underlying style. The verified alcohol strength is published above; no numeric bitterness was found.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Fresh Hop Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Vice Beer is in Vancouver, WA.
+
+No brewery links have been checked yet.
+
 ## links
 
 - [Vice 2026 fresh hop release](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes.
 
 ## research-notes
 

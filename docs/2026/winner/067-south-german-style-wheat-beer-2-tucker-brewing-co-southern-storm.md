@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,102 @@ brewery-state: "GA"
 brewery-url: "https://tuckerbrewing.com/"
 category-name: "South German-Style Wheat Beer"
 category-number: 67
+description:
+  text: "GABF Silver Winner 2025. An unfiltered wheat ale, very similar to our Southern Heaven Hefeweizen, with clove and bubblegum notes, as well as caramel bread flavors from the roasted malts used."
+  source: "https://tuckerbrewing.com/beer-collection/southern-storm"
 entries: 120
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://tuckerbrewing.com/"
+      - "https://tuckerbrewing.com/beer"
+      - "https://tuckerbrewing.com/beer-collection/southern-storm"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 15
 malts:
   - "Roasted malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://tuckerbrewing.com/"
   - "https://tuckerbrewing.com/beer"
   - "https://tuckerbrewing.com/beer-collection/southern-storm"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Dunkelweisse"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +154,46 @@ Punctuation lightly normalized.
 
 Source: [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Roasted malts are the only named ingredient, without varieties; no wheat malt share, hops or yeast strain is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for South German-Style Dunkel Weizen call for distinct sweet, chocolate-like maltiness from dark malts with the phenols and esters of weissbier, at 4.8 to 5.4 percent ABV and 10 to 15 IBU, with at least 50 percent wheat malt. The published 5% ABV and 15 IBU fit inside both ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | German Wheat Ale | Silver |
+| 2026 | Great American Beer Festival | South German-Style Wheat Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Tucker Brewing Co. is in Tucker, GA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](https://www.instagram.com/tuckerbrewingco/), [Untappd](https://untappd.com/tuckerbrewingco).
 
 ## links
 
@@ -85,6 +201,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Tucker Brewing Co.](https://tuckerbrewing.com/)
 - [Tucker Brewing: beer list](https://tuckerbrewing.com/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm), web searches recorded in the research notes.
 
 ## research-notes
 

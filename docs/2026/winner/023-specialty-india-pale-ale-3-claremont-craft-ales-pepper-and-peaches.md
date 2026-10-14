@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Pepper & Peaches IPA"
@@ -27,19 +27,108 @@ brewery-state: "CA"
 brewery-url: "https://www.claremontcraftales.com/"
 category-name: "Specialty India Pale Ale"
 category-number: 23
+description:
+  text: "A Citra-hopped West Coast-style IPA that's crisp, dry, and super hoppy ... gets additions of pink peppercorns for a floral punch and peaches for a bright, fruity finish."
+  source: "https://bevmo.com/products/28372"
 entries: 65
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://bevmo.com/products/28372"
+      - "https://harp-clownfish.squarespace.com/beers/"
+      - "https://www.claremontcraftales.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://bevmo.com/products/28372"
 hops:
   - "Citra"
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://bevmo.com/products/28372"
   - "https://harp-clownfish.squarespace.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.claremontcraftales.com/"
+srm: null
 style: "West Coast-style IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +164,47 @@ The brewery's beer list now confirms the retailer description below; the excerpt
 
 Source: [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The only published ingredients are Citra hops, pink peppercorns (for a floral note) and peaches (for a fruity finish), all from the retailer listing. No malt, yeast or IBU is given.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [bevmo.com](https://bevmo.com/products/28372) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Experimental India Pale Ale, the entry that covers fruited and spiced IPAs, allows 6.3 to 10.6 percent ABV and 30 to 100 IBU, with fruit and spice attributes typical of the ingredients. The published 6.7% ABV fits that range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty India Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Claremont Craft Ales is in Claremont, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
 ## links
 
@@ -89,6 +212,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Claremont Craft Ales: beer lineup](https://harp-clownfish.squarespace.com/beers/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
 
 ## research-notes
 

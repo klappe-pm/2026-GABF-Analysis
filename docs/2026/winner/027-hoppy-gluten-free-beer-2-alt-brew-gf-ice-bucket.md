@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Ice Bucket"
@@ -26,20 +26,125 @@ brewery-state: "WI"
 brewery-url: "https://www.altbrew.com/"
 category-name: "Hoppy Gluten-Free Beer"
 category-number: 27
+description: null
 entries: 19
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+      - "https://www.altbrew.com/"
+      - "https://www.altbrew.com/beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Krush"
+    variety: "Krush"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/alt-brew-ice-bucket/6351634"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/alt-brew-ice-bucket/6351634"
 hops: 
   - "Krush"
   - "Mosaic"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
   - "https://www.altbrew.com/"
   - "https://www.altbrew.com/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Hoppy Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +175,48 @@ Ice Bucket is a gluten-free hoppy lager from ALT Brew, a dedicated gluten-free b
 
 The brewery's beer page lists the beer only as "ICE BUCKET" with the style "Hoppy Lager"; no longer description was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The matching Ice Bucket listing names Krush and Mosaic in an Ales for ALS hop blend; no grain or yeast is named. [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Gluten-Free Beer require every ingredient to be free of gluten, exclude barley, wheat, spelt and rye, and let ABV, IBU and color vary with the underlying style, judging entries on their own merits. A hoppy lager from a dedicated gluten-free brewery fits the hoppy gluten-free category; the published strength does not conflict with the guideline.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hoppy Gluten-Free Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+ALT Brew is in Madison, WI. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +224,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [ALT Brew](https://www.altbrew.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: ALT Brew Ice Bucket](https://untappd.com/b/alt-brew-ice-bucket/6351634)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

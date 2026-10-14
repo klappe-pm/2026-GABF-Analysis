@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,133 @@ brewery-state: "CA"
 brewery-url: "https://www.firestonewalker.com/barrelworks/"
 category-name: "Belgian-Style or Spontaneous Sour Ale"
 category-number: 79
+description: null
 entries: 31
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.firestonewalker.com/"
+      - "https://www.firestonewalker.com/barrelworks/"
+      - "https://www.firestonewalker.com/brewmasters-collective/"
+      - "https://www.firestonewalker.com/our-beers/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.firestonewalker.com/"
   - "https://www.firestonewalker.com/barrelworks/"
   - "https://www.firestonewalker.com/brewmasters-collective/"
   - "https://www.firestonewalker.com/our-beers/"
+srm: null
 style: "Flanders Red Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,13 +181,45 @@ Flanders Red Ale is a sour ale from Barrelworks, the wild and barrel-aged beer p
 
 The brewery's 2026 collection names this beer and style but provides no tasting description.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient is published for this beer on any page found.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Flanders Oud Bruin or Oud Red Ale calls for 4.8 to 6.6 percent ABV, 5 to 18 IBU and 12 to 25 SRM, with a complex, vinous character and refreshing acidity. The published strength fits that range; bitterness remains unverified.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Belgian-Style or Spontaneous Sour Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Firestone Walker Barrelworks is in Buellton, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/), [Instagram](https://www.instagram.com/firestonewalker/).
 
 ## links
 
@@ -82,6 +228,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Firestone Walker: our beers](https://www.firestonewalker.com/our-beers/)
 - [Firestone Walker](https://www.firestonewalker.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
 
 ## research-notes
 

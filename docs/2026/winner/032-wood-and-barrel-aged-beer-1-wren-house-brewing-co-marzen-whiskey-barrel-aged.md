@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,7 +25,109 @@ brewery-state: "AZ"
 brewery-url: "https://www.wrenhousebrewing.com/"
 category-name: "Wood- and Barrel-Aged Beer"
 category-number: 32
+description:
+  text: "Our classic Märzen takes a turn through the barrelhouse."
+  source: "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
 entries: 23
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://business.untappd.com/locations/20116/themes/76289/js"
+      - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+      - "https://www.wrenhousebrewing.com/"
+      - "https://www.wrenhousebrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertauer Mittelfrüh"
+    variety: "Hallertauer Mittelfrüh"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
+  - published: "Tradition"
+    variety: "Tradition"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
 hops: 
   - "Hallertauer Mittelfrüh"
   - "Tradition"
@@ -34,14 +136,19 @@ malts:
   - "German base malt"
   - "Specialty malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://business.untappd.com/locations/20116/themes/76289/js"
   - "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wrenhousebrewing.com/"
   - "https://www.wrenhousebrewing.com/on-tap"
+srm: null
 style: "Whiskey Barrel Aged Märzen"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +181,48 @@ Marzen (Whiskey Barrel Aged) is a whiskey barrel aged version of the Märzen lag
 
 Source: [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The whiskey variant's own description explicitly confirms the traditional recipe. The named hops and broad malt groups are recorded above; no specific malt products or yeast strain are published. [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertauer Mittelfrüh | Hallertauer Mittelfrüh | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Tradition | Tradition | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page read for this run lists Wood- and Barrel-Aged Sour Beer and refers to "several Wood- and Barrel-Aged Beers" for elevated alcohol entries of 8 percent ABV and above, but no standalone entry for a non-sour Wood- and Barrel-Aged Beer of normal strength was found on it. A barrel aged Märzen would be judged on its underlying lager style plus wood and spirit character; the verified variant describes both components.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Wood- and Barrel-Aged Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Wren House Brewing Co. is in Phoenix, AZ. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd](https://untappd.com/WrenHouseBrewing).
 
 ## links
 
@@ -88,6 +230,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Wren House Brewing Co.](https://www.wrenhousebrewing.com/)
 - [Wren House: on tap](https://www.wrenhousebrewing.com/on-tap)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

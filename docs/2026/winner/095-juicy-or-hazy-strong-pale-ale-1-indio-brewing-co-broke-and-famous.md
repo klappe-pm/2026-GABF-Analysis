@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,16 +24,89 @@ brewery-state: "GA"
 brewery-url: null
 category-name: "Juicy or Hazy Strong Pale Ale"
 category-number: 95
+description: null
 entries: 108
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Juicy or Hazy Strong Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -64,18 +137,54 @@ Broke & Famous is a hazy beer from Indio Brewing Co. in Sugar Hill, Georgia.
 
 The 2024 review quotes the brewer's hop list, but the current recipe was not verified.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Historical recipe information is recorded in research-notes; the recipe of the competition entry remains unconfirmed.
+
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy Strong Pale Ale describes a stronger hazy ale with juicy, fruity hop flavor and soft, well-integrated bitterness, 5.6 to 6.4 percent ABV and 15 to 40 IBU. No specs are published to compare.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Juicy or Hazy Strong Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Indio Brewing Co. is in Sugar Hill, GA.
+
+No brewery links have been checked yet.
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Indio beer review](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes.
 
 ## research-notes
 

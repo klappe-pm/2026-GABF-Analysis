@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,122 @@ brewery-state: "CA"
 brewery-url: "https://www.originalpatternbeer.com/"
 category-name: "International-Style Pale Ale"
 category-number: 89
+description:
+  text: "A delightful pale ale that captures the essence of calm in every sip."
+  source: "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
 entries: 53
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
+      - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+      - "https://www.goodeggs.com/originalpatternbrewingcompany"
+      - "https://www.originalpatternbeer.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Eclipse"
+    variety: "Eclipse"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+  - published: "Enigma"
+    variety: "Enigma"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
 hops:
   - "Eclipse"
   - "Enigma"
@@ -32,14 +147,19 @@ hops:
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://originalpatternbeer.myshopify.com/pages/2-4-pk"
   - "https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.goodeggs.com/originalpatternbrewingcompany"
   - "https://www.originalpatternbeer.com/"
+srm: null
 style: "Australian-Style Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +192,49 @@ How's The Serenity is a beer from Original Pattern Brewing Co., an employee-owne
 
 Source: [Original Pattern: description on Untappd](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [beer listing](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) identifies the first two hop varieties as Australian. No malt bill, yeast strain or adjuncts are named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Eclipse | Eclipse | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Enigma | Enigma | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International-Style Pale Ale calls for an easy-drinking, well-integrated ale with varied hop character, 4.4 to 6.6 percent ABV and 20 to 42 IBU. The published strength fits the cited range; bitterness remains unverified.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International-Style Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Original Pattern Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +243,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Original Pattern: online shop](https://originalpatternbeer.myshopify.com/pages/2-4-pk)
 - [Good Eggs: Original Pattern Brewing Company](https://www.goodeggs.com/originalpatternbrewingcompany)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 

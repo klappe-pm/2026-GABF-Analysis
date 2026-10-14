@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,138 @@ brewery-state: "CO"
 brewery-url: "https://www.cannonballcreekbrewing.com/"
 category-name: "Session India Pale Ale"
 category-number: 18
+description: null
 entries: 67
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+      - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
+      - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
+      - "https://www.cannonballcreekbrewing.com/"
+      - "https://www.cannonballcreekbrewing.com/beers"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
   - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
@@ -37,7 +163,10 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.cannonballcreekbrewing.com/"
   - "https://www.cannonballcreekbrewing.com/beers"
+srm: null
 style: "Session IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +197,46 @@ Trump Hands is a session IPA from Cannonball Creek Brewing Co. in Golden, Colora
 
 No brewery description of this beer was found; the brewery site lists Trump Hands only in its awards section, and its beers page is an image of the menu.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients is published. In a 5280 interview, brewer Brian Hutchinson said the recipe was inspired by session IPAs he drank while brewing a collaboration with Pizza Port in San Diego, and that it is "one of the few beers that we didn't change much after the first go around" ([5280](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Session India Pale Ale describes lower alcohol versions of any IPA style at 0.5 to 5.0 percent ABV and 20 to 55 IBU, with assertive hop character balanced for drinkability. The published 4.6% ABV fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Session India Pale Ale | Bronze |
+| 2026 | Great American Beer Festival | Session India Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Cannonball Creek Brewing Co. is in Golden, CO.
+
+Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [Instagram](https://www.instagram.com/cannonballcreekbrewingco/), [Untappd](https://untappd.com/CannonballCreek).
 
 ## links
 
@@ -84,6 +246,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Trump Hands](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082)
 - [5280: Cannonball Creek interview](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
 
 ## research-notes
 

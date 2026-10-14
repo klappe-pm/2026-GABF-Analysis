@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,107 @@ brewery-state: "GA"
 brewery-url: "https://creaturecomforts.co/"
 category-name: "Contemporary American Lager"
 category-number: 43
+description:
+  text: "Classic City Lager, a clean, crisp, easy-drinking lager, has been voted America's best pilsner, winning a gold medal at the American Beer Festival in 2022 and 2024!"
+  source: "https://creaturecomforts.co/beers/classic-city-lager/"
 entries: 46
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://creaturecomforts.co/beer/"
+      - "https://creaturecomforts.co/beers/classic-city-lager/"
+      - "https://untappd.com/creaturecomforts/beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 20
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://creaturecomforts.co/beer/"
   - "https://creaturecomforts.co/beers/classic-city-lager/"
   - "https://untappd.com/creaturecomforts/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +157,47 @@ Classic City Lager is a clean, crisp, easy drinking year-round lager from Creatu
 
 Source: [Creature Comforts: Classic City Lager](https://creaturecomforts.co/beers/classic-city-lager/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing beyond the specs table is published; neither the brewery page nor Untappd names hops, malts or yeast.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Contemporary American-Style Lager describes a clean, crisp lager with more hop aroma and flavor than traditional American lager, at 4.1 to 5.1 percent ABV and 5 to 16 IBU. The 4.2% ABV fits; the Untappd figure of 20 IBU is above the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2022 | Great American Beer Festival | American Pilsener | Gold |
+| 2024 | Great American Beer Festival | American Pilsener | Gold |
+| 2026 | Great American Beer Festival | Contemporary American Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Creature Comforts Brewing Co. is in Athens, GA. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +205,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Creature Comforts Brewing Co.](https://creaturecomforts.co/)
 - [Untappd: Creature Comforts beer list](https://untappd.com/creaturecomforts/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [creaturecomforts.co](https://creaturecomforts.co/beer/), [creaturecomforts.co](https://creaturecomforts.co/beers/classic-city-lager/), [untappd.com](https://untappd.com/creaturecomforts/beer), web searches recorded in the research notes.
 
 ## research-notes
 

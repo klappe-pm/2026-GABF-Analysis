@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,138 @@ brewery-state: "NM"
 brewery-url: "https://boxingbearbrewing.com/"
 category-name: "Munich-Style Dunkel"
 category-number: 58
+description: null
 entries: 49
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://boxingbearbrewing.com/"
+      - "https://boxingbearbrewing.com/brews/"
+      - "https://boxingbearbrewing.com/on-tap-bridges/"
+      - "https://boxingbearbrewing.com/on-tap-firestone/"
+      - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://boxingbearbrewing.com/"
   - "https://boxingbearbrewing.com/brews/"
@@ -37,7 +163,10 @@ sources:
   - "https://boxingbearbrewing.com/on-tap-firestone/"
   - "https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Dunkel"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +197,45 @@ Black Mesa Dunkel is a seasonal dunkel from Boxing Bear Brewing Co., which pours
 
 No brewery description of Black Mesa Dunkel was found; the tap list gives only the name and ABV.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Munich-Style Dunkel calls for light brown to brown color, chocolate, bread or biscuit malt flavor, 4.8 to 5.3 percent ABV and 16 to 25 IBU. The published 5.2% ABV fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Munich-Style Dunkel | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Boxing Bear Brewing Co. is in Albuquerque, NM. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +245,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Boxing Bear: Firestone on tap](https://boxingbearbrewing.com/on-tap-firestone/)
 - [NM Dark Side Brew Crew: 2025 NABA medals](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes.
 
 ## research-notes
 

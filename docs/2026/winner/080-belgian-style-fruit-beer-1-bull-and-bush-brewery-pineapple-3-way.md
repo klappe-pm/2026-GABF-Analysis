@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,17 +26,93 @@ brewery-state: "CO"
 brewery-url: "https://bullandbush.com/"
 category-name: "Belgian-Style Fruit Beer"
 category-number: 80
+description:
+  text: "Way One: Farmhouse Ale fermented on 50lbs pineapple puree."
+  source: "https://bullandbush.com/pages/menu"
 entries: 31
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://bullandbush.com/pages/menu"
+      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://bullandbush.com/pages/menu"
   - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Farmhouse Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,19 +145,55 @@ Pineapple 3 Way is a Belgian-style fruit beer from Bull & Bush Brewery in Denver
 
 Source: [Bull & Bush: beer menu](https://bullandbush.com/pages/menu)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [brewery menu](https://bullandbush.com/pages/menu) describes three pineapple additions: puree during fermentation, grilled rings during barrel refermentation and Tokaji-glazed grilled rings at finishing.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Belgian-Style Fruit Beer calls for 2.5 to 12.0 percent ABV, 5 to 30 IBU and 5 to 50 SRM, with fruit aromas ranging from subtle to intense. The published strength fits the category range; bitterness remains unverified.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Belgian-Style Fruit Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Bull & Bush Brewery is in Denver, CO.
+
+Links checked 2026-10-14: [Website](https://bullandbush.com/), [Instagram](https://www.instagram.com/bullandbushbrewery/).
 
 ## links
 
 - [Bull & Bush: beer menu](https://bullandbush.com/pages/menu)
 - [American Craft Beer: 2026 GABF winners](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,20 +24,115 @@ brewery-state: "CA"
 brewery-url: "https://www.hopsaint.com/"
 category-name: "American Pale Ale"
 category-number: 92
+description:
+  text: "Pale Ale with a touch of specialty malts and dry-hopped with Mosaic and El Dorado. Tropical, hoppy, and delicious. Gold medal at the 2019 LA International Beer Competition & silver medal at the 2017 Great American Beer Festival!"
+  source: "https://www.hopsaint.com/our-beers"
 entries: 98
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/our-beers"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "El Dorado"
+    variety: "El Dorado"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.hopsaint.com/our-beers"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.hopsaint.com/our-beers"
 hops:
   - "El Dorado"
   - "Mosaic"
 ibu: 45
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.hopsaint.com/"
   - "https://www.hopsaint.com/our-beers"
+srm: null
 style: "American Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +165,48 @@ Pure Intention is a pale ale dry-hopped with Mosaic and El Dorado, brewed by Hop
 
 Source: [HopSaint: on tap](https://www.hopsaint.com/our-beers)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 HopSaint's tap list names Mosaic and El Dorado as dry hops and mentions unnamed specialty malts ([HopSaint: on tap](https://www.hopsaint.com/our-beers)). No yeast or base malt is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| El Dorado | El Dorado | not published | not published | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+| Mosaic | Mosaic | not published | not published | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Pale Ale calls for assertive American hop aroma and flavor with medium to medium-high bitterness, 4.4 to 5.4 percent ABV and 30 to 50 IBU. The 45 IBU fits; the published 5.7% ABV is above the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+HopSaint Brewing Co. is in Torrance, CA. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +214,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [HopSaint Brewing](https://www.hopsaint.com/)
 - [Untappd: Pure Intention](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 

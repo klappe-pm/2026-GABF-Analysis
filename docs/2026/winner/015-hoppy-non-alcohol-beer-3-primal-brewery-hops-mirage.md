@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Hops Mirage NA IPA"
@@ -25,19 +25,133 @@ brewery-state: "NC"
 brewery-url: "https://primalbrewery.com/"
 category-name: "Hoppy Non-Alcohol Beer"
 category-number: 15
+description: null
 entries: 48
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://primalbrewery.com/"
+      - "https://primalbrewery.com/beer-finder/"
+      - "https://primalbrewery.com/huntersville-draft-list/"
+      - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://primalbrewery.com/"
   - "https://primalbrewery.com/beer-finder/"
   - "https://primalbrewery.com/huntersville-draft-list/"
   - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "NA IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +182,45 @@ Hops Mirage is a non-alcoholic IPA from Primal Brewery of Huntersville, North Ca
 
 No brewery description of the beer was found; the brewery's pages name it only in its draft list and award listings.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describes hoppier non-alcohol beers "ranging from Pale Ales to IPA" that "should showcase a prominent hop presence emblematic of hop-forward pale ale to India Pale Ale profiles," under the non-alcohol cap of less than 0.5% ABV. The brewery's NA IPA label fits that frame; the newly verified alcohol listing appears in the specs table.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hoppy Non-Alcohol Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Primal Brewery is in Huntersville, NC. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -83,6 +229,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Primal Brewery](https://primalbrewery.com/)
 - [Primal Brewery: beer finder](https://primalbrewery.com/beer-finder/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes.
 
 ## research-notes
 

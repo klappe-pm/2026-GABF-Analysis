@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,95 @@ brewery-state: "CA"
 brewery-url: "https://www.cellarmakerbrewing.com/"
 category-name: "West Coast-Style Pilsener"
 category-number: 48
+description:
+  text: "Nowhere to Be is a beer we dreamt up while in New Zealand. Sure, this really is a simple beer, but it's very much in that desert island zone, a beer you can enjoy in abundance. Low ABV, fruity Nelson hops and Lager yeast come together to create a real happy beverage that begs for another sip."
+  source: "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
 entries: 97
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
+      - "https://www.cellarmakerbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Nelson"
+    variety: "Nelson"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
 hops:
   - "Nelson"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.cellarmakerbrewing.com/"
+srm: null
 style: "NZ Pilsner"
+tasting-notes: null
+water: null
 yeast:
   - "Lager yeast"
 ---
@@ -69,19 +146,57 @@ Nowhere To Be is a New Zealand style pilsner built on fruity Nelson hops and lag
 
 Source: [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere-to-be/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [brewery page](https://cellarmakerbrewing.com/beer/nowhere-to-be/) names only Nelson hops and lager yeast; no malt is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Nelson | Nelson | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for West Coast-Style Pilsener describes an assertive, crisp lager with bold modern hop character and a body built to carry heavy dry hopping, at 5.0 to 6.0 percent ABV and 30 to 50 IBU. The 5.0% ABV sits at the bottom of the range; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | West Coast-Style Pilsener | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Cellarmaker Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://cellarmakerbrewing.com/beer/nowhere-to-be/)
 - [Cellarmaker Brewing Co.](https://www.cellarmakerbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

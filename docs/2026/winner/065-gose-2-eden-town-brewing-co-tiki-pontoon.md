@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,17 +24,98 @@ brewery-state: "MD"
 brewery-url: "https://www.edentownbrewing.com/"
 category-name: "Gose"
 category-number: 65
+description:
+  text: "Fruited Kettle Sour. Tropical flavors or passionfruit, orange, and guava."
+  source: "https://www.edentownbrewing.com/beers"
 entries: 36
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.edentownbrewing.com/"
+      - "https://www.edentownbrewing.com/beers"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.edentownbrewing.com/"
   - "https://www.edentownbrewing.com/beers"
+srm: null
 style: "Fruited Kettle Sour"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,19 +150,55 @@ Punctuation lightly normalized.
 
 Source: [Eden Town: beer menu](https://www.edentownbrewing.com/beers)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The menu describes flavors rather than ingredients; it does not say whether passionfruit, orange and guava are added as fruit, puree or flavoring, so the adjunct list is left empty. Salt and coriander, typical of gose, are not mentioned.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Contemporary-Style Gose call for lactic sourness at 4.4 to 5.4 percent ABV and 5 to 30 IBU, and allow fruit and other additions. The published 5.3% ABV fits; the brewery labels the beer a fruited kettle sour rather than a gose.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Gose | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Eden Town Brewing Co. is in Denton, MD. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.edentownbrewing.com/beers)
 - [Eden Town Brewing Co.](https://www.edentownbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
 
 ## research-notes
 

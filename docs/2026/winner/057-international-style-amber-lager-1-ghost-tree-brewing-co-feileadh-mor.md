@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Feileadh Mor"
@@ -25,18 +25,123 @@ brewery-state: "OH"
 brewery-url: "https://www.ghosttreebrewing.com/"
 category-name: "International-Style Amber Lager"
 category-number: 57
+description: null
 entries: 50
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://ghosttreebrewing.com/beer-finder/"
+      - "https://ghosttreebrewing.com/beers/"
+      - "https://www.ghosttreebrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://ghosttreebrewing.com/beer-finder/"
   - "https://ghosttreebrewing.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ghosttreebrewing.com/"
+srm: null
 style: "International-Style Amber Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,13 +172,45 @@ Fèileadh Mòr is an amber lager from Ghost Tree Brewing Co., a brewpub in Amher
 
 No brewery description of Fèileadh Mòr was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page lists no style named International-Style Amber Lager; its nearest entries are Vienna-Style Lager (4.8 to 5.4 percent ABV, 20 to 26 IBU, deep gold to reddish brown with light toasted or caramel malt) and American-Style Amber Lager (4.8 to 5.4 percent ABV, 18 to 30 IBU). No published specs exist to compare against them.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International-Style Amber Lager | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Ghost Tree Brewing Co. is in Amherst, OH.
+
+Links checked 2026-10-14: [Website](https://www.ghosttreebrewing.com/).
 
 ## links
 
@@ -81,6 +218,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Ghost Tree: beer finder](https://ghosttreebrewing.com/beer-finder/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Ghost Tree: beer lineup](https://ghosttreebrewing.com/beers/)
+
+## gaps
+
+- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ghosttreebrewing.com](https://ghosttreebrewing.com/beer-finder/), [ghosttreebrewing.com](https://ghosttreebrewing.com/beers/), [ghosttreebrewing.com](https://www.ghosttreebrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

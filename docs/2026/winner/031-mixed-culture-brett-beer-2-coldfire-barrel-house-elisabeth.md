@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,20 +25,128 @@ brewery-state: "OR"
 brewery-url: "https://coldfirebrewing.com/"
 category-name: "Mixed Culture Brett Beer"
 category-number: 31
+description:
+  text: "This lively ale is blend of young and old. One part Pinot barrel aged Saison Lily and two parts sour blonde ale aged in Sauvignon Blanc and Chardonnay barrels. After blending, we dry hopped with the juicy New Zealand Nectaron hop for an elegant, citrusy experience. The second in a series of farmhouse-style ales that pays homage to those people that help us grow and become more than we can be alone."
+  source: "https://coldfirebrewing.com/beer/"
 entries: 24
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://coldfirebrewing.com/"
+      - "https://coldfirebrewing.com/awards/"
+      - "https://coldfirebrewing.com/beer/"
+      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Nectaron"
+    variety: "Nectaron"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://coldfirebrewing.com/beer/"
 hops:
   - "Nectaron"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://coldfirebrewing.com/"
   - "https://coldfirebrewing.com/awards/"
   - "https://coldfirebrewing.com/beer/"
   - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Bière de Coupage"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +179,47 @@ Elisabeth is a wine barrel aged, blended farmhouse ale (a bière de coupage) fro
 
 Source: [ColdFire: beer list](https://coldfirebrewing.com/beer/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery describes Elisabeth as one part Saison Lily aged in Pinot barrels and two parts sour blonde ale aged in Sauvignon Blanc and Chardonnay barrels, dry hopped after blending with New Zealand Nectaron; its tasting notes are stone fruit, lemon, floral and lightly herbal ([ColdFire: beer list](https://coldfirebrewing.com/beer/)). Grains, yeast and the souring or Brettanomyces cultures are not named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Nectaron | Nectaron | not published | not published | not published | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mixed-Culture Brett Beer call for Brettanomyces character together with bacteria that are "incorporated and in evidence", medium to high fruity esters, and ABV and IBU that vary with the underlying style; wood vessels may be used. A barrel aged blend including a sour blonde fits the mixed culture profile, though the brewery does not name the cultures.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mixed Culture Brett Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+ColdFire Barrel House is in Eugene, OR.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -86,6 +228,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [ColdFire: awards](https://coldfirebrewing.com/awards/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: ColdFire Elisabeth](https://untappd.com/b/coldfire-brewing-elisabeth/2336777)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes.
 
 ## research-notes
 

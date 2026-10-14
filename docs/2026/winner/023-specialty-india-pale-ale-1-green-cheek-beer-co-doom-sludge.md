@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,96 @@ brewery-state: "CA"
 brewery-url: "https://www.greencheekbeer.com/"
 category-name: "Specialty India Pale Ale"
 category-number: 23
+description:
+  text: "BLACK. Deep as the abyss, immeasurably smooth. A mountain of Mosaic loomed vast, crowned with a gate of clean, unerring bitterness. A tower of Ekuanot ascended, and the plains of Chinook stretched into shadowed infinity."
+  source: "https://www.greencheekbeer.com/costa-mesa/#on-tap"
 entries: 65
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.greencheekbeer.com/"
+      - "https://www.greencheekbeer.com/costa-mesa/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Chinook"
+    variety: "Chinook"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.greencheekbeer.com/costa-mesa/#on-tap"
+  - published: "Ekuanot"
+    variety: "Ekuanot"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.greencheekbeer.com/costa-mesa/#on-tap"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.greencheekbeer.com/costa-mesa/#on-tap"
 hops:
   - "Chinook"
   - "Ekuanot"
@@ -32,12 +121,17 @@ hops:
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greencheekbeer.com/"
   - "https://www.greencheekbeer.com/costa-mesa/"
+srm: null
 style: "West Coast Black IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,19 +164,60 @@ Doom Sludge is a 7.0% West Coast black IPA hopped with Mosaic, Ekuanot and Chino
 
 Source: [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-mesa/#on-tap)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The tap list names three hops, Mosaic, Ekuanot and Chinook, and otherwise speaks only of "hop upon hop, malt upon malt" without naming a malt or yeast.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Chinook | Chinook | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+| Ekuanot | Ekuanot | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+| Mosaic | Mosaic | not published | not published | not published | [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the closest [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) entry is American-Style Black Ale (also called Black IPA): very dark to black, 6.3 to 7.6 percent ABV and 40 to 70 IBU, with dark roasted malt under assertive citrusy, fruity or piney hops. The published 7.0% ABV and black color fit; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | American Black Ale or American Stout | Silver |
+| 2026 | Great American Beer Festival | Specialty India Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Green Cheek Beer Co. is in Costa Mesa, CA. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram](https://www.instagram.com/greencheekbeer/).
 
 ## links
 
 - [Beer page on brewery site](https://www.greencheekbeer.com/costa-mesa/#on-tap)
 - [Green Cheek Beer Co.](https://www.greencheekbeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes.
 
 ## research-notes
 

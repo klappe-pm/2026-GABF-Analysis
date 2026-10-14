@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,115 @@ brewery-state: "VT"
 brewery-url: "https://www.zerogravitybeer.com/"
 category-name: "Hoppy Non-Alcohol Beer"
 category-number: 15
+description:
+  text: "The \"Original New England IPA\" but without the buzz. Motueka, Strata, Simcoe and Nelson Sauvin hops give this NA IPA aromas of citrus and tropical fruit."
+  source: "https://www.zerogravitybeer.com/coneheadzero"
 entries: 48
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
+      - "https://www.zerogravitybeer.com/"
+      - "https://www.zerogravitybeer.com/coneheadzero"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Motueka"
+    variety: "Motueka"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.zerogravitybeer.com/coneheadzero"
+  - published: "Nelson Sauvin"
+    variety: "Nelson Sauvin"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.zerogravitybeer.com/coneheadzero"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.zerogravitybeer.com/coneheadzero"
+  - published: "Strata"
+    variety: "Strata"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.zerogravitybeer.com/coneheadzero"
 hops:
   - "Motueka"
   - "Nelson Sauvin"
@@ -36,13 +144,18 @@ malts:
   - "Pilsner malt"
   - "Vienna malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.zerogravitybeer.com/"
   - "https://www.zerogravitybeer.com/coneheadzero"
+srm: null
 style: "Non-Alc IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +188,50 @@ Conehead Zero is a non-alcoholic IPA from Zero Gravity Craft Brewery of Burlingt
 
 Source: [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadzero)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery publishes four hops and a grist of Canada Maltage Superior Pilsner malt, Weyermann Vienna malt and oats. No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Motueka | Motueka | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Simcoe | Simcoe | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+| Strata | Strata | not published | not published | not published | [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) describes hoppier non-alcohol beers "ranging from Pale Ales to IPA" that "should showcase a prominent hop presence emblematic of hop-forward pale ale to India Pale Ale profiles," under the non-alcohol cap of less than 0.5% ABV. A four hop NA IPA under 0.5% fits that description.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hoppy Non-Alcohol Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Zero Gravity Craft Brewery is in Burlington, VT. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.zerogravitybeer.com/), [Instagram](https://www.instagram.com/zerogravitybeer/), [Untappd](https://untappd.com/ZeroGravityCraftBrewery).
 
 ## links
 
@@ -89,6 +239,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://www.zerogravitybeer.com/coneheadzero)
 - [Zero Gravity Craft Brewery](https://www.zerogravitybeer.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes.
 
 ## research-notes
 

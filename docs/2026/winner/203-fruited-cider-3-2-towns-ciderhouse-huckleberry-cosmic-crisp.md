@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Huckleberry Cosmic Crisp Imperial"
@@ -28,18 +28,120 @@ brewery-state: "OR"
 brewery-url: "https://www.2townsciderhouse.com/"
 category-name: "Fruited Cider"
 category-number: 203
+description:
+  text: "This cider is tart, woodsy, and berry-forward with a hint of grip on the finish"
+  source: "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
 entries: 58
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/"
   - "https://www.2townsciderhouse.com/"
   - "https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Imperial cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -75,13 +177,46 @@ The [cidery product page](https://www.2townsciderhouse.com/ciders/huckleberry-co
 
 Source: [Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The September 2025 release says the cider "layers huckleberries, PNW blueberries, and a touch of cranberry over a Cosmic Crisp® backbone," and the cidermaker adds that the cranberry is Oregon grown ([Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) describe Fruited Cider as dry or sweet ciders with added fruit, at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. Three added fruits and the published 8% fit the category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Fruited Cider | Bronze |
+| 2026 | Great American Beer Festival | Fruited Cider | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+2 Towns Ciderhouse is in Corvallis, OR.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -89,6 +224,10 @@ As category context only, the [GABF 2026 style categories](https://www.greatamer
 - [2 Towns Ciderhouse](https://www.2townsciderhouse.com/)
 - [Cidercraft: Huckleberry launch](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cidercraftmag.com](https://cidercraftmag.com/2-towns-expands-cosmic-crisp-line-with-new-huckleberry-imperial/), [2townsciderhouse.com](https://www.2townsciderhouse.com/), [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

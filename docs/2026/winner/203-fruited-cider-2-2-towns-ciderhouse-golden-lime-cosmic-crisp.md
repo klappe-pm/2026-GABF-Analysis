@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,17 +25,106 @@ brewery-state: "OR"
 brewery-url: "https://www.2townsciderhouse.com/"
 category-name: "Fruited Cider"
 category-number: 203
+description:
+  text: "Exotic, ultra zesty, and wildly floral, these unique and rare golden limes elevate Cosmic Crisp® apples"
+  source: "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
 entries: 58
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.2townsciderhouse.com/"
+      - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.2townsciderhouse.com/"
   - "https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Imperial Cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,19 +157,55 @@ Golden Lime Cosmic Crisp is a year-round imperial cider from 2 Towns Ciderhouse 
 
 Source: [2 Towns: Golden Lime Cosmic Crisp](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The cidery names Cosmic Crisp apples and calamansi golden limes and lists no other ingredient ([2 Towns: Golden Lime Cosmic Crisp](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) describe Fruited Cider as dry or sweet ciders with added fruit, at 3 to 10 percent ABV. The Brewers Association beer style guidelines carry no cider entries. Lime is added fruit and the published 8% fits the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Fruited Cider | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+2 Towns Ciderhouse is in Corvallis, OR.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp)
 - [2 Towns Ciderhouse](https://www.2townsciderhouse.com/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [2townsciderhouse.com](https://www.2townsciderhouse.com/), [2townsciderhouse.com](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 

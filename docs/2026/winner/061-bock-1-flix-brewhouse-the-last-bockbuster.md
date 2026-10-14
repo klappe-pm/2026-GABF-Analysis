@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,124 @@ brewery-state: "TX"
 brewery-url: "https://www.flixbrewhouse.com/"
 category-name: "Bock"
 category-number: 61
+description:
+  text: "Pours a very dark brown nearly black color body with a tan foam head."
+  source: "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
 entries: 36
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
+      - "https://untappd.com/FlixBrewhouse"
+      - "https://untappd.com/w/flix-brewhouse/15976/beer"
+      - "https://www.flixbrewhouse.com/"
+      - "https://www.flixbrewhouse.com/beer/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 24
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488"
   - "https://untappd.com/FlixBrewhouse"
@@ -37,7 +149,10 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.flixbrewhouse.com/"
   - "https://www.flixbrewhouse.com/beer/"
+srm: null
 style: "Traditional Bock"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +185,46 @@ The Last Bockbuster is a beer from Flix Brewhouse, a cinema and brewery chain; t
 
 Source: [Untappd: Mansfield Last Bockbuster](https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Traditional German-Style Bock calls for dark brown to very dark color, toasted or nutty malt sweetness without caramel, very low hop aroma and flavor, 6.3 to 7.6 percent ABV and 20 to 30 IBU. The published strength and bitterness fall within those category ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Bock | Bronze |
+| 2026 | Great American Beer Festival | Bock | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Flix Brewhouse is in Mansfield, TX. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.flixbrewhouse.com/), [Instagram](https://www.instagram.com/flixbrewhouse/), [Untappd](https://untappd.com/Flix_Brewhouse_Mansfield).
 
 ## links
 
@@ -86,6 +234,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Flix Brewhouse beer list](https://untappd.com/w/flix-brewhouse/15976/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Mansfield Last Bockbuster](https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/flix-brewhouse-mansfield-the-last-bockbuster/6483488), [untappd.com](https://untappd.com/FlixBrewhouse), [untappd.com](https://untappd.com/w/flix-brewhouse/15976/beer), [flixbrewhouse.com](https://www.flixbrewhouse.com/), [flixbrewhouse.com](https://www.flixbrewhouse.com/beer/), web searches recorded in the research notes.
 
 ## research-notes
 

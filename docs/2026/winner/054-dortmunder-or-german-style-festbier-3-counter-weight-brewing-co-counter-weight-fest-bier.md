@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Fest Bier"
@@ -25,18 +25,113 @@ brewery-state: "CT"
 brewery-url: "https://www.counterweightbrewing.com/"
 category-name: "Dortmunder or German-Style Festbier"
 category-number: 54
+description:
+  text: "This is a traditional German Fest Bier. Unlike the Marzen style, the traditional fest beer is lighter, drier, and less sweet. Clean and well defined bready malt qualities take center stage."
+  source: "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
 entries: 161
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
+      - "https://www.counterweightbrewing.com/"
+      - "https://www.counterweightbrewing.com/brews/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.counterweightbrewing.com/"
   - "https://www.counterweightbrewing.com/brews/"
+srm: null
 style: "German Fest Bier"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +164,45 @@ Fest Bier is a festbier-style lager from Counter Weight Brewing Co. in Cheshire,
 
 Source: [BeerMenus: Counter Weight Fest Bier](https://www.beermenus.com/beers/223066-counter-weight-fest-bier) (brewery text; the brewery's own brews page carries the same lines)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are named by the brewery or on BeerMenus.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Oktoberfest/Festbier calls for a clean, sweet, bready malt profile at a low to medium-low level, 5.1 to 6.1 percent ABV, 23 to 29 IBU and 3 to 8 SRM. The published 5.9% ABV fits; IBU cannot be checked.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Dortmunder or German-Style Festbier | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Counter Weight Brewing Co. is in Cheshire, CT.
+
+Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Instagram](https://www.instagram.com/counterweightbrewingco/), [Untappd](https://untappd.com/CounterWeightBrewingCo).
 
 ## links
 
@@ -83,6 +210,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Counter Weight Brewing Co.](https://www.counterweightbrewing.com/)
 - [BeerMenus: Counter Weight Fest Bier](https://www.beermenus.com/beers/223066-counter-weight-fest-bier)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "F*k'in Pum'kin Ale"
@@ -32,20 +32,115 @@ brewery-state: "IL"
 brewery-url: "https://gobrewing.com/"
 category-name: "Specialty Non-Alcohol Beer"
 category-number: 16
+description:
+  text: "a pumpkin ale brewed with real pumpkin purée and warming fall spices"
+  source: "https://gobrewing.com/products/fk-in-pumkin-ale"
 entries: 26
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://gobrewing.com/"
+      - "https://gobrewing.com/collections/beers"
+      - "https://gobrewing.com/products/fk-in-pumkin-ale"
+      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Malted barley"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://gobrewing.com/"
   - "https://gobrewing.com/collections/beers"
   - "https://gobrewing.com/products/fk-in-pumkin-ale"
   - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Pumpkin Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -78,13 +173,45 @@ F\*kin Pumpkin, sold by the brewery as F\*k'in Pum'kin Ale, is a non-alcoholic p
 
 Source: [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's ingredient list reads "Water, malted barley, pumpkin puree, lactose, spices (cinnamon, nutmeg, clove, allspice, ginger)." Its description adds pumpkin pie notes, moderate sweetness and a smooth, medium bodied finish, and its FAQ mentions yeast without naming a strain ([Go Brewing](https://gobrewing.com/products/fk-in-pumkin-ale)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Non-Alcohol Malt Beverage entry caps alcohol below 0.5% ABV (0.4% ABW), says these beers can emulate amber to dark styles and should not be penalized for lacking alcohol; the guideline page read did not include a separate specialty non-alcohol entry. The published 0.39% sits under that cap.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Non-Alcohol Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Go Brewing is in Naperville, IL.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -93,6 +220,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Go Brewing](https://gobrewing.com/)
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
 
 ## research-notes
 

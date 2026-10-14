@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,113 @@ brewery-state: "OR"
 brewery-url: "https://www.grandfirbrewing.com/"
 category-name: "American Amber Lager"
 category-number: 49
+description:
+  text: "Clean, bready, light caramel"
+  source: "https://www.grandfirbrewing.com/s/BEER1017.pdf"
 entries: 94
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
+      - "https://www.grandfirbrewing.com/"
+      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.grandfirbrewing.com/"
   - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
+srm: null
 style: "East Texas Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +163,45 @@ Tack Shack is the lager Grand Fir Brewing, a family-owned brewpub in southeast P
 
 Source: [Grand Fir: drinks menu (PDF)](https://www.grandfirbrewing.com/s/BEER1017.pdf)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are published by the brewery or found in press coverage.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Amber Lager calls for low to medium-low caramel or toasted malt, 4.8 to 5.4 percent ABV, 18 to 30 IBU and 6 to 14 SRM. The menu's light caramel note fits, but the 6.0% ABV is above the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Amber Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Grand Fir Brewing is in Portland, OR.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +209,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Grand Fir Brewing](https://www.grandfirbrewing.com/)
 - [Beervana: Portland's brewery of the year](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,126 @@ brewery-state: "AZ"
 brewery-url: "https://fatebrewing.com/"
 category-name: "International-Style Amber Lager"
 category-number: 57
+description: null
 entries: 50
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://byo.com/?p=152670"
+      - "https://fatebrewing.com/"
+      - "https://fatebrewing.com/scottsdale-menu"
+      - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 28
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://byo.com/?p=152670"
   - "https://fatebrewing.com/"
   - "https://fatebrewing.com/scottsdale-menu"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413"
+srm: null
 style: "Vienna Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,13 +174,45 @@ Pueblo Vienna Lager is an amber lager from Fate Brewing Co., which runs brewpubs
 
 No brewery description of Pueblo Vienna Lager was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients of Pueblo Vienna Lager is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page lists no style named International-Style Amber Lager; its Vienna-Style Lager entry calls for 4.8 to 5.4 percent ABV and 20 to 26 IBU, deep gold to reddish brown, with light toasted or caramel malt sweetness and low, clean noble hop bitterness. The published strength and bitterness are slightly above those Vienna category ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International-Style Amber Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Fate Brewing Co. is in Scottsdale, AZ. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +221,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brew Your Own: McFate Vienna Lager clone](https://byo.com/?p=152670)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [TapHunter: Fate Scottsdale beers](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [byo.com](https://byo.com/?p=152670), [fatebrewing.com](https://fatebrewing.com/), [fatebrewing.com](https://fatebrewing.com/scottsdale-menu), [taphunter.com](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413), web searches recorded in the research notes.
 
 ## research-notes
 

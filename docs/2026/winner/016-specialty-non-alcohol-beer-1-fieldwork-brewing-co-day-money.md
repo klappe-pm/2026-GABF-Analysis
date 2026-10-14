@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Day Money NA Grapefruit Blonde"
@@ -25,19 +25,135 @@ brewery-state: "CA"
 brewery-url: "https://www.fieldworkbrewing.com/"
 category-name: "Specialty Non-Alcohol Beer"
 category-number: 16
+description:
+  text: "Day Money goes down like a well crafted Golden Ale with its subtle malt profile, light fruity hoppiness, and exceptionally bright finish of grapefruit."
+  source: "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
 entries: 26
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
+      - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
+      - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
+      - "https://www.fieldworkbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic"
   - "https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans"
   - "https://untappd.com/b/fieldwork-brewing-company-day-money/5708822"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.fieldworkbrewing.com/"
+srm: null
 style: "NA Grapefruit Blonde"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +186,45 @@ Day Money is a non-alcoholic grapefruit blonde from Fieldwork Brewing Co. of Ber
 
 Source: [Fieldwork: Day Money](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient list is published. The brewery describes "a hyper-crushable and intensely refreshing non-alcoholic option," but names no hops, malts, yeast or form of grapefruit.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Non-Alcohol Malt Beverage entry caps alcohol below 0.5% ABV (0.4% ABW), says these beers should not be penalized for lacking alcohol, and says ethyl acetate should not be present; the guideline page read did not include a separate specialty non-alcohol entry. The published ABV sits under that cap.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Non-Alcohol Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Fieldwork Brewing Co. is in Berkeley, CA.
+
+Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagram](https://www.instagram.com/drinkfieldwork/), [Untappd](https://untappd.com/FieldworkBrewingCompany).
 
 ## links
 
@@ -85,6 +233,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Fieldwork Brewing Co.](https://www.fieldworkbrewing.com/)
 - [Fieldwork: non-alcoholic collection](https://shop.fieldworkbrewing.com/collections/non-alcoholic)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

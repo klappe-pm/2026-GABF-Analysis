@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,91 @@ brewery-state: "CA"
 brewery-url: "https://drinkdrakes.com/"
 category-name: "Golden or Blonde Ale"
 category-number: 68
+description:
+  text: "This is the treasure you’re looking for! Crisp and crushable, Bold Rush is the perfect companion for any courageous endeavor. This easy-drinking Golden Ale shines with hoppy aromas of sweet fruit and light bitterness. Enjoy a refreshing beer worth its weight in gold."
+  source: "https://drinkdrakes.com/beer/bold-rush/"
 entries: 84
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://drinkdrakes.com/"
+      - "https://drinkdrakes.com/beer-library/"
+      - "https://drinkdrakes.com/beer/bold-rush/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Loral Cryo"
+    variety: "Loral Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://drinkdrakes.com/beer/bold-rush/"
+  - published: "Vanguard"
+    variety: "Vanguard"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://drinkdrakes.com/beer/bold-rush/"
 hops:
   - "Loral Cryo"
   - "Vanguard"
@@ -34,13 +118,18 @@ malts:
   - "Gallagher's Best malt"
   - "Two-row malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://drinkdrakes.com/"
   - "https://drinkdrakes.com/beer-library/"
   - "https://drinkdrakes.com/beer/bold-rush/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Golden Ale"
+tasting-notes: null
+water: null
 yeast:
   - "Verdant"
 ---
@@ -74,13 +163,48 @@ Bold Rush is a year-round golden ale from Drake's Brewing Company, an independen
 
 Source: [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The beer page's ingredient panel gives hops, malts and yeast by name but no quantities, and nothing beyond the specs table ([Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/)). The yeast is named only as Verdant, without a lab or strain code. The page also suggests pairing with roasted chicken, fish tacos, pizza and hot dogs.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Loral Cryo | Loral Cryo | not published | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
+| Vanguard | Vanguard | not published | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Golden or Blonde Ale call for a crisp, light-bodied straw to gold ale with subtle pale malt and moderate hop character, at 4.1 to 5.1 percent ABV and 15 to 25 IBU. The published 4.8% ABV fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Golden or Blonde Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Drake's Brewing Company/Bear Republic is in San Leandro, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +212,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Drake's Brewing Company](https://drinkdrakes.com/)
 - [Drake's: beer library](https://drinkdrakes.com/beer-library/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
 
 ## research-notes
 

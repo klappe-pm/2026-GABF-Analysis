@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,20 +24,115 @@ brewery-state: "VA"
 brewery-url: "https://www.smartmouthbrewing.com/"
 category-name: "Kellerbier or Zwickelbier"
 category-number: 36
+description:
+  text: "A crisp, clean, premium lager brewed with imported German malts."
+  source: "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
 entries: 48
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
+      - "https://www.smartmouthbrewing.com/"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
+      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 26
 malts:
   - "German malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.smartmouthbrewing.com/"
   - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
   - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
+srm: null
 style: "Pilsner"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +165,45 @@ Safety Dance is Smartmouth Brewing's year-round pilsner, entered here by its Vir
 
 Source: [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery menu names only imported German malts. The longer Untappd description adds "European noble hops keep this glowing straw-colored beer mellow and refreshing" and notes faint spicy, herbal aromas, a hint of sweetness and gentle breadiness ([Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)). No hop varieties or yeast are named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Kellerbier or Zwickelbier covers unfiltered versions of European lager or ale styles, typically slightly hazy to moderately cloudy, with ABV, IBU and color following the underlying style. The brewery sells Safety Dance as a pilsner; no unfiltered version is described, so how the entered beer met the unfiltered expectation is not published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Kellerbier or Zwickelbier | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Smartmouth Brewing Pilot House is in Virginia Beach, VA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +212,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Smartmouth: beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu)
 - [Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach), web searches recorded in the research notes.
 
 ## research-notes
 

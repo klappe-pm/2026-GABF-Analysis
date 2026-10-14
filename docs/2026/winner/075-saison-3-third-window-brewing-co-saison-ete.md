@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Saison Été 2026"
@@ -27,7 +27,79 @@ brewery-state: "CA"
 brewery-url: "https://www.thirdwindowbrewing.com/"
 category-name: "Saison"
 category-number: 75
+description:
+  text: "Saison Été 2026 was crafted in collaboration with Santa Barbara Botanic Garden in celebration of its centennial."
+  source: "https://thirdwindowbrewing.com/products/saison-ete-2026"
 entries: 73
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
+      - "https://www.thirdwindowbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
@@ -35,13 +107,18 @@ malts:
   - "Rye"
   - "Wheat"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://thirdwindowbrewing.com/pages/beer"
   - "https://thirdwindowbrewing.com/products/saison-ete-2026"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.thirdwindowbrewing.com/"
+srm: null
 style: "Seasonal Farmhouse Ale"
+tasting-notes: null
+water: null
 yeast:
   - "Brettanomyces"
   - "Lactobacillus"
@@ -76,13 +153,45 @@ Saison Été 2026 is a barrel-aged farmhouse ale from Third Window Brewing Co. i
 
 Source: [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery describes the beer as "a barrel-aged blend of our traditional Farmhouse Saison and Rye Saison," "both brewed with malt and wheat grown on the FP Farm," then "refermented for a year with our mixed culture of Brettanomyces and Lactobacillus." Purple sage blossoms from the Botanic Garden were added "to accentuate its wildflower and peppercorn character," followed by "a light touch of FP Farm jasmine flowers" ([Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026)). Barrel type and hops are not named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Classic French and Belgian-Style Saison calls for 4.5 to 6.5 percent ABV, 20 to 38 IBU and 2 to 15 SRM, with a refreshing character. The published 6% ABV fits; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Saison | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Third Window Brewing Co. is in Santa Barbara, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +199,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Third Window Brewing Co.](https://www.thirdwindowbrewing.com/)
 - [Third Window: beer collection](https://thirdwindowbrewing.com/pages/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

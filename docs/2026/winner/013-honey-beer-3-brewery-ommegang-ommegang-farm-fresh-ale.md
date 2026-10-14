@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Farm Fresh Ale"
@@ -27,7 +27,79 @@ brewery-state: "NY"
 brewery-url: "https://www.ommegang.com/"
 category-name: "Honey Beer"
 category-number: 13
+description:
+  text: "Introducing Farm Fresh Ale, a new year-round beer that pays homage to our heritage and our authentic Belgian brewing practices."
+  source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
 entries: 54
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.ommegang.com/"
+      - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+      - "https://www.ommegang.com/our-beers/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau Magnum"
+    variety: "Hallertau Magnum"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
+  - published: "Mandarina Bavaria"
+    variety: "Mandarina Bavaria"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
 hops:
   - "Hallertau Magnum"
   - "Mandarina Bavaria"
@@ -36,13 +108,18 @@ malts:
   - "2-row malt"
   - "White wheat"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ommegang.com/"
   - "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
   - "https://www.ommegang.com/our-beers/"
+srm: null
 style: "Honey Beer"
+tasting-notes: null
+water: null
 yeast:
   - "House yeast"
 ---
@@ -76,13 +153,48 @@ Ommegang Farm Fresh Ale is a Belgian-inspired ale refermented with wildflower ho
 
 Source: [Ommegang: Farm Fresh Ale](https://www.ommegang.com/beerinfo/farm-fresh-ale/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery publishes a full ingredient line: 2-row and white wheat malts, yellow corn flakes, and Hallertau Magnum and Mandarina Bavaria hops. It states that "Farm Fresh Ale undergoes secondary fermentation with wildflower honey," and credits its house yeast and open air fermentation for wildflower aromas, with a warm color and crisp body ([Ommegang](https://www.ommegang.com/beerinfo/farm-fresh-ale/)).
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau Magnum | Hallertau Magnum | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
+| Mandarina Bavaria | Mandarina Bavaria | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Specialty Honey Beer says these beers "incorporate honey as a fermentable sugar in addition to malted barley," with honey character "present in aroma and flavor but should not be overpowering," at 2 to 9.5 percent ABV and 1 to 100 IBU. The published 4.8% and 12 IBU sit inside both ranges, and the honey is used as a fermentable in secondary fermentation.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Honey Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Brewery Ommegang is in Cooperstown, NY. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +202,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brewery Ommegang](https://www.ommegang.com/)
 - [Ommegang: our beers](https://www.ommegang.com/our-beers/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/), [ommegang.com](https://www.ommegang.com/our-beers/), web searches recorded in the research notes.
 
 ## research-notes
 

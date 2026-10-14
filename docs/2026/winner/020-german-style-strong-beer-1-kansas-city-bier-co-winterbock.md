@@ -24,7 +24,85 @@ brewery-state: "MO"
 brewery-url: "https://kcbier.com/"
 category-name: "German-Style Strong Beer"
 category-number: 20
+description:
+  text: "full-bodied, dark doppelbock-style lager with rich malt flavors of chocolate and caramel ... with hints of coffee, low bitterness, and a satisfying smooth finish."
+  source: "https://www.beerandbrewing.com/review/winterbock"
 entries: 39
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://kcbier.com/biers/winterbock/"
+      - "https://www.beerandbrewing.com/review/winterbock"
+      - "https://www.porchdrinking.com/?p=204145"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Perle"
+    variety: "Perle"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://kcbier.com/biers/winterbock/"
 hops:
   - "Perle"
 ibu: 24
@@ -32,13 +110,18 @@ malts:
   - "Munich"
   - "Pilsner"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://kcbier.com/biers/winterbock/"
   - "https://www.beerandbrewing.com/review/winterbock"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.porchdrinking.com/?p=204145"
+srm: null
 style: "Doppelbock"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +154,47 @@ Winterbock is a dark, strong doppelbock lager from Kansas City Bier Co. in Kansa
 
 Source: [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's 2021 release text, carried by Porch Drinking, says Winterbock uses "100% German-imported malt and hops" and that "Double decoction and natural carbonation provide a smooth, clean finish" ([Porch Drinking](https://www.porchdrinking.com/?p=204145)). The brewery's own Winterbock page lists Munich, Pilsner, and specialty malts and Perle hops ([KC Bier Co.](https://kcbier.com/biers/winterbock/)). No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Perle | Perle | not published | not published | not published | [kcbier.com](https://kcbier.com/biers/winterbock/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Doppelbock calls for a strong, full-bodied lager, copper to dark brown, at 6.6 to 7.9 percent ABV and 17 to 27 IBU, where "Malty sweetness is pronounced but should not be cloying." The 24 IBU fits; the 8.25% ABV sits above the doppelbock range, which suits this broader strong beer category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Strong Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Kansas City Bier Co. is in Kansas City, MO. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://untappd.com/KCBierCo).
 
 ## links
 
@@ -86,6 +203,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Porch Drinking: Winterbock](https://www.porchdrinking.com/?p=204145)
 - [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.com/review/winterbock)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [kcbier.com](https://kcbier.com/biers/winterbock/), [beerandbrewing.com](https://www.beerandbrewing.com/review/winterbock), [porchdrinking.com](https://www.porchdrinking.com/?p=204145), web searches recorded in the research notes.
 
 ## research-notes
 
