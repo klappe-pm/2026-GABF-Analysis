@@ -26,4 +26,4 @@ It runs `check` (markdown prose rules), `test` (node test runner), `build` (the 
 
 ## writing
 
-No dash as punctuation anywhere in any file, including code comments and chart labels: use commas, colons, periods, or parentheses, and write ranges as "3 to 5". Every markdown paragraph and list item is one physical line. Headings are lowercase kebab-case. Filenames are lowercase kebab-case. Nothing in this repository credits a coding agent, model, or runtime.
+No dash as punctuation anywhere in any file, including code comments and chart labels: use commas, colons, periods, or parentheses, and write ranges as "3 to 5". Every markdown paragraph and list item is one physical line. Headings are lowercase kebab-case, except in the public facing README.md, CONTRIBUTING.md, SECURITY.md, CODE_OF_CONDUCT.md, CHANGELOG.md, PRODUCT.md, DESIGN.md, and files under .github/, which may use title or sentence case. Filenames are lowercase kebab-case. Nothing in this repository credits a coding agent, model, or runtime.
