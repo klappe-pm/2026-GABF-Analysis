@@ -1,0 +1,48 @@
+name: Owner decision
+description: A question only the owner can answer. A person or an agent files it; the answer is acted on automatically.
+title: "Decision: "
+labels: ["needs: owner decision"]
+assignees: ["klappe-pm"]
+body:
+  - type: markdown
+    attributes:
+      value: "Ask one question in plain words, give the options with what each one means, and say which you recommend. Add an area label such as area: data or area: design. The owner answers by replying with an option letter or free text."
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      description: The question in plain words, ending in a question mark.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What the owner needs to know, with links to the pull request, file, page or image involved.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: One option per line, each starting with its letter and ending with what choosing it means.
+      placeholder: "- **A.** Keep them separate. Consequence: nothing changes.\n- **B.** Merge them. Consequence: the four become one."
+    validations:
+      required: true
+  - type: input
+    id: recommended
+    attributes:
+      label: Recommended option
+      description: The letter you recommend and a few words on why.
+    validations:
+      required: true
+  - type: textarea
+    id: blocked
+    attributes:
+      label: What is blocked until it is answered
+      description: The work that waits for this answer.
+  - type: textarea
+    id: how-to-answer
+    attributes:
+      label: How to answer
+      value: "Reply to this issue with the letter of the option you choose, or with your own answer in plain words. Add a sentence if the reason matters. The next comment from klappe-pm is taken as the answer."

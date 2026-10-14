@@ -91,8 +91,11 @@ if (command === 'list') {
 } else if (command === 'process') {
   const { buildContext, processQueue } = await import('./feedback-pipeline.mjs');
   const { enqueue, scanStore } = await import('./lib/feedback-queue.mjs');
+  const { pollAndQueue } = await import('./feedback-pipeline.mjs');
   const ctx = buildContext({ dry: Boolean(args['dry-run']) });
   if (ctx.dry) ctx.sanitize = (text) => ({ text, redacted: [] }); else ctx.sanitize = await sanitizer();
+  // Owner answers on open decision issues become tickets first.
+  for (const t of pollAndQueue(ctx, loadCategories(ROOT))) console.log(`queued ${t.id} from the owner's answer to #${t.data['decision-issue']}`);
   for (const id of args._.slice(1)) { if (!findTicket(ctx.storeDir, id)) { console.error(`no ticket ${id}`); process.exit(1); } enqueue(ctx.queueDir, id); }
   if (args.scan) for (const id of scanStore(ctx.storeDir, ctx.queueDir)) console.log(`queued ${id}`);
   const results = await processQueue(ctx);
