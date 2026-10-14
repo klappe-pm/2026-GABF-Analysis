@@ -37,6 +37,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "tasting-notes"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -45,6 +46,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "ibu"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -53,6 +55,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "srm"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -61,6 +64,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "og"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -69,6 +73,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "fg"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -77,6 +82,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "hops"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -85,6 +91,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "hop-form"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -93,6 +100,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "hop-use"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -101,6 +109,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -109,6 +118,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "malts"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -117,6 +127,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "yeast"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -125,6 +136,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "adjuncts"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -133,6 +145,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "water"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -141,6 +154,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
   - field: "process"
     sources-checked:
       - "https://fieldworkbrewing.com/"
@@ -149,6 +163,7 @@ gaps:
       - "https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076"
       - "https://untappd.com/FieldworkBrewingCompany/beer"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)"
 hop-profile: []
 hops: []
 ibu: null
@@ -248,8 +263,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)).
+- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -258,3 +273,4 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 - The visible part of the Fieldwork Untappd beer list (25 of 469 beers) did not include it.
 - Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer page renders no readable beer text.

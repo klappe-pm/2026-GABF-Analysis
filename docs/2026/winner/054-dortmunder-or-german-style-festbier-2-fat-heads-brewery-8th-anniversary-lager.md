@@ -217,3 +217,4 @@ No brewery links have been checked yet.
 - First pass: A BeerMenus search returned nothing, and web search budget ran out before Untappd or press could be tried.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd beer page supplies the strength, bitterness and Dortmunder / Export label. No named ingredients or brewery product page were found.
+- Deep dive pass 2026-10-14: the brewery home page announces the medal only; the description on file comes from Untappd and is not extended.

@@ -30,18 +30,13 @@ description:
 entries: 77
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/SecondDawnBrewingCo/beer"
-      - "https://www.seconddawnbrewing.com/"
-      - "https://www.seconddawnbrewing.com/menus"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/SecondDawnBrewingCo/beer"
       - "https://www.seconddawnbrewing.com/"
       - "https://www.seconddawnbrewing.com/menus"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/SecondDawnBrewingCo/beer"
@@ -144,7 +139,9 @@ sources:
   - "https://www.seconddawnbrewing.com/menus"
 srm: null
 style: "Italian Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Crisp, refreshing and assertively hoppy."
+  source: "https://www.seconddawnbrewing.com/menus"
 water: null
 yeast: []
 ---
@@ -180,7 +177,9 @@ Source: [Second Dawn: menus](https://www.seconddawnbrewing.com/menus)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Crisp, refreshing and assertively hoppy.
+
+Source: [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus)
 
 ## ingredients
 
@@ -232,8 +231,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/SecondDawnBrewingCo/beer), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/), [seconddawnbrewing.com](https://www.seconddawnbrewing.com/menus), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -242,3 +241,4 @@ No brewery links have been checked yet.
 - A BeerMenus search returned no listing for the beer, and web search budget ran out before Untappd could be tried, so IBU and ingredients remain unpublished.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu gives the tasting words and 5.1% ABV only.

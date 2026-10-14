@@ -31,22 +31,6 @@ description:
 entries: 161
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://altstadtbeer.com/beers/"
-      - "https://altstadtbeer.com/beers/german-pils/"
-      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
-      - "https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/"
-      - "https://www.altstadtbeer.com/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://altstadtbeer.com/beers/"
-      - "https://altstadtbeer.com/beers/german-pils/"
-      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
-      - "https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/"
-      - "https://www.altstadtbeer.com/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://altstadtbeer.com/beers/"
@@ -149,9 +133,13 @@ sources:
   - "https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/"
   - "https://www.altstadtbeer.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Brilliant golden (no SRM number published)"
+  source: "https://altstadtbeer.com/beers/german-pils/"
 style: "Pilsner, German"
-tasting-notes: null
+tasting-notes:
+  text: "Floral aromas, light spice, and firm but approachable bitterness lead to a dry, clean finish."
+  source: "https://altstadtbeer.com/beers/german-pils/"
 water: null
 yeast: []
 ---
@@ -187,7 +175,9 @@ Source: [Altstadt: German Pils](https://altstadtbeer.com/beers/german-pils/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Floral aromas, light spice, and firm but approachable bitterness lead to a dry, clean finish.
+
+Source: [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/)
 
 ## ingredients
 
@@ -204,7 +194,7 @@ The beer page names 100% German Pilsner malt with Hallertau Mittelfrüh and Saaz
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Brilliant golden (no SRM number published) | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -239,7 +229,7 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [visitfredericksburgtx.com](https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [visitfredericksburgtx.com](https://visitfredericksburgtx.com/listing/altstadt-brewery/1113/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -247,3 +237,4 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 - ABV conflict: the brewery page says 5.1%; HEB and Central Market retail listings shown in search results said 5%, but those pages returned no content when fetched, so the brewery figure is used.
 - The brewery's medal post quotes head brewer Craig Rowan and notes 2026 silvers for the Pils at the Texas Craft Brewers Cup and the U.S. Open Beer Championship.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, color, 100% German Pilsner malt and Hallertau Mittelfrüh and Saaz; no yeast.

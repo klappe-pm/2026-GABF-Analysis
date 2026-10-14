@@ -30,11 +30,6 @@ description:
 entries: 104
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.vontrappbrewing.com/"
-      - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.vontrappbrewing.com/"
@@ -108,7 +103,9 @@ sources:
   - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
 srm: null
 style: "Bohemian Style Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Spicy and zesty aromatics from Saaz hops combine with notes of honey and hay from continental Pilsner malt to create a fulfilling and quenching bright lager with a dry and subtly bitter finish."
+  source: "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
 water: null
 yeast: []
 ---
@@ -144,7 +141,9 @@ Source: [von Trapp: lagers and beers](https://www.vontrappbrewing.com/von-trapp-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Spicy and zesty aromatics from Saaz hops combine with notes of honey and hay from continental Pilsner malt to create a fulfilling and quenching bright lager with a dry and subtly bitter finish.
+
+Source: [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm)
 
 ## ingredients
 
@@ -192,7 +191,7 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/), [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [vontrappbrewing.com](https://www.vontrappbrewing.com/), [vontrappbrewing.com](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -201,3 +200,4 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 - The brewery home page mentions its 2024 GABF Brewery of the Year award but not the 2026 medal.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Bohemian Pilsner](https://catalog.beer/beer/63374fcd-f234-49b7-834a-fb5527b19a08) lists 5.4% ABV, 42 IBU, style "Bohemian-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery's tasting words are recorded; no yeast or process detail.

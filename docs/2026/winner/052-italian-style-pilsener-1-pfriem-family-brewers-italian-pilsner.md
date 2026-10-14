@@ -30,56 +30,36 @@ description:
 entries: 77
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/italian-pilsner/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/italian-pilsner/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/italian-pilsner/"
       - "web searches recorded in the research notes"
+      - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
   - field: "fg"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/italian-pilsner/"
       - "web searches recorded in the research notes"
+      - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
   - field: "hop-form"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/italian-pilsner/"
       - "web searches recorded in the research notes"
-  - field: "hop-use"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/italian-pilsner/"
-      - "web searches recorded in the research notes"
-  - field: "lot-or-farm"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/italian-pilsner/"
-      - "web searches recorded in the research notes"
+      - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
   - field: "adjuncts"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/italian-pilsner/"
       - "web searches recorded in the research notes"
+      - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
   - field: "water"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/italian-pilsner/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/italian-pilsner/"
-      - "web searches recorded in the research notes"
+      - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
 hop-profile:
   - published: "Perle"
     variety: "Perle"
@@ -90,21 +70,21 @@ hop-profile:
   - published: "Saphir"
     variety: "Saphir"
     form: null
-    use: null
-    lot-or-farm: null
-    source: "https://www.pfriembeer.com/beer/italian-pilsner/"
-  - published: "Spalt Select"
-    variety: "Spalter Select"
-    form: null
-    use: null
-    lot-or-farm: null
-    source: "https://www.pfriembeer.com/beer/italian-pilsner/"
+    use: "dry hop"
+    lot-or-farm: "from Germany"
+    source: "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
   - published: "Tettnang"
     variety: "Tettnang"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.pfriembeer.com/beer/italian-pilsner/"
+  - published: "Spalt Select"
+    variety: "Spalter Select"
+    form: null
+    use: "dry hop"
+    lot-or-farm: "from Germany"
+    source: "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
 hops:
   - "Perle"
   - "Saphir"
@@ -117,14 +97,21 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Classic German brewing techniques, dry hopped with Spalt Select and Saphir"
+  source: "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.pfriembeer.com/"
   - "https://www.pfriembeer.com/beer/italian-pilsner/"
-srm: null
+  - "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
+srm:
+  value: "Light golden with a touch of haze (no SRM number published)"
+  source: "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
 style: "Italian Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Fluffy white foam on top of light golden body with a touch of haze. Floral aromas of citrus zest, lavender, lemon balm, dandelions, white pepper, juniper, and spring bloom. Pungent and perfumy flavors of citrus rind, herbs, menthol, black tea, dill, basil, and orange zest. Finishes round, resinous, floral, clean, hoppy, and quenching."
+  source: "https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf"
 water: null
 yeast:
   - "Lager yeast"
@@ -161,7 +148,9 @@ Source: [pFriem: Italian Pilsner](https://www.pfriembeer.com/beer/italian-pilsne
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Fluffy white foam on top of light golden body with a touch of haze. Floral aromas of citrus zest, lavender, lemon balm, dandelions, white pepper, juniper, and spring bloom. Pungent and perfumy flavors of citrus rind, herbs, menthol, black tea, dill, basil, and orange zest. Finishes round, resinous, floral, clean, hoppy, and quenching.
+
+Source: [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf)
 
 ## ingredients
 
@@ -172,19 +161,19 @@ Everything published is in the specs table: four European hop varieties, two Pil
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Perle | Perle | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Saphir | Saphir | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Spalt Select | Spalter Select | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
+| Saphir | Saphir | not published | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 | Tettnang | Tettnang | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
+| Spalt Select | Spalter Select | not published | dry hop | from Germany | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Light golden with a touch of haze (no SRM number published) | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Classic German brewing techniques, dry hopped with Spalt Select and Saphir | [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf) |
 
 ## style-context
 
@@ -212,7 +201,7 @@ Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Adjuncts, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/), web searches recorded in the research notes, [pfriembeer.com](https://www.pfriembeer.com/images/uploads/documents/pFriem_ItalianPilsner-SS.pdf).
 
 ## research-notes
 
@@ -220,3 +209,4 @@ Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](ht
 - The page gives no packaging and no yeast strain beyond lager.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's spec sheet gives full tasting notes and says the beer is dry hopped with Spalt Select and Saphir hops from Germany; Perle and Tettnang have no published use.

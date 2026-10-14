@@ -30,16 +30,12 @@ description:
 entries: 97
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
-      - "https://www.cellarmakerbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
       - "https://www.cellarmakerbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
@@ -111,7 +107,9 @@ sources:
   - "https://www.cellarmakerbrewing.com/"
 srm: null
 style: "NZ Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Low ABV, fruity Nelson hops and Lager yeast come together to create a real happy beverage that begs for another sip."
+  source: "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
 water: null
 yeast:
   - "Lager yeast"
@@ -148,7 +146,9 @@ Source: [Cellarmaker: Nowhere to Be](https://cellarmakerbrewing.com/beer/nowhere
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Low ABV, fruity Nelson hops and Lager yeast come together to create a real happy beverage that begs for another sip.
+
+Source: [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/)
 
 ## ingredients
 
@@ -196,8 +196,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +206,4 @@ No brewery links have been checked yet.
 - The brewery wrote "Sure, this really is a simple beer, but it's very much in that desert island zone" followed by an ellipsis; the ellipsis is shown as a comma in the quote.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page prints the hop as "Nelson", kept as published with Nelson Sauvin as the variety.

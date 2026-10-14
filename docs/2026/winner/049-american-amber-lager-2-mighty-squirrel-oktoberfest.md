@@ -30,14 +30,6 @@ description:
 entries: 94
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
-      - "https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482"
-      - "https://www.mightysquirrel.com/"
-      - "https://www.mightysquirrel.com/beerfinder"
-      - "https://www.mightysquirrel.com/beers"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -46,6 +38,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "og"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -54,6 +47,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "fg"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -62,6 +56,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "hops"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -70,6 +65,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -78,6 +74,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -86,6 +83,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -94,6 +92,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "malts"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -102,6 +101,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "yeast"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -110,6 +110,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -118,6 +119,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "water"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -126,6 +128,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
   - field: "process"
     sources-checked:
       - "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
@@ -134,6 +137,7 @@ gaps:
       - "https://www.mightysquirrel.com/beerfinder"
       - "https://www.mightysquirrel.com/beers"
       - "web searches recorded in the research notes"
+      - "https://www.mightysquirrel.com/oktoberfest2024"
 hop-profile: []
 hops: []
 ibu: 23
@@ -151,7 +155,9 @@ sources:
   - "https://www.mightysquirrel.com/beers"
 srm: null
 style: "Marzen lager"
-tasting-notes: null
+tasting-notes:
+  text: "Our Oktoberfest marzen lager is clean, smooth, and creamy with a sweet malty backbone and toasty and bready notes plus a slightly herbal character."
+  source: "https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest"
 water: null
 yeast: []
 ---
@@ -187,7 +193,9 @@ Source: [BeerMenus: Mighty Squirrel Oktoberfest](https://www.beermenus.com/beers
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Our Oktoberfest marzen lager is clean, smooth, and creamy with a sweet malty backbone and toasty and bready notes plus a slightly herbal character.
+
+Source: [beermenus.com](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest)
 
 ## ingredients
 
@@ -236,7 +244,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest), [cbcliquors.com](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482), [mightysquirrel.com](https://www.mightysquirrel.com/), [mightysquirrel.com](https://www.mightysquirrel.com/beerfinder), [mightysquirrel.com](https://www.mightysquirrel.com/beers), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/465159-mighty-squirrel-oktoberfest), [cbcliquors.com](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482), [mightysquirrel.com](https://www.mightysquirrel.com/), [mightysquirrel.com](https://www.mightysquirrel.com/beerfinder), [mightysquirrel.com](https://www.mightysquirrel.com/beers), web searches recorded in the research notes, [mightysquirrel.com](https://www.mightysquirrel.com/oktoberfest2024).
 
 ## research-notes
 
@@ -246,3 +254,4 @@ No brewery links have been checked yet.
 - A web search turned up a 2022 report of a GABF gold for Mighty Squirrel's Oktoberfest in German-Style Maerzen; that page was not opened and the claim is not relied on here.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's Oktoberfest 2024 page is an event page with no beer description; the brewery description carried by BeerMenus is recorded as tasting notes.

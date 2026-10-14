@@ -35,51 +35,61 @@ gaps:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "og"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "fg"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "water"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
   - field: "process"
     sources-checked:
       - "https://www.beermenus.com/beers/146633-prost-helles"
       - "https://www.prostbrewing.com/helles"
       - "web searches recorded in the research notes"
+      - "https://www.prostbrewing.com/helles (HTTP 403 on this pass)"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
     variety: "Hallertauer Mittelfruh"
@@ -189,7 +199,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/146633-prost-helles), [prostbrewing.com](https://www.prostbrewing.com/helles), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/146633-prost-helles), [prostbrewing.com](https://www.prostbrewing.com/helles), web searches recorded in the research notes, [prostbrewing.com](https://www.prostbrewing.com/helles (HTTP 403 on this pass)).
 
 ## research-notes
 
@@ -199,3 +209,4 @@ No brewery links have been checked yet.
 - First pass: The medal list prints the brewery as Prost Brewing Co. (Northglenn location).
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery Helles page was readable and supplies the listed strength, bitterness, hop variety, malts, yeast and packaging. These are direct brewery specifications.
+- Deep dive pass 2026-10-14: the brewery page refused this pass's reader.
