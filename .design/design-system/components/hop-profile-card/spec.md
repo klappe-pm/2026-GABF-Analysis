@@ -12,7 +12,7 @@ Farm limit: 5
 
 ![Hop profile card](hop-profile-card.png)
 
-## what-you-can-change
+## hop-profile-card-options
 
 - Variant: outlined
 - Name style: title large
