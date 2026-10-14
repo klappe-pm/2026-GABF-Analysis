@@ -9,7 +9,7 @@ import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { marked } from 'marked';
 import { DIST, REFERENCE, RESULTS, ROOT, SITE, parseArgs } from './lib/paths.mjs';
-import { categoryIndex, loadDataset } from './lib/data-model.mjs';
+import { breweryAttributeLookup, categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { ABV_BANDS } from './lib/style-families.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { compact, countBy, esc, figure, humanizeHeadings, tableHtml } from '../site/assets/charts.mjs';
@@ -157,12 +157,15 @@ export function enrichResults(ds) {
   for (const r of ds.results) perCat.set(`${r.year}|${r.category_name}`, (perCat.get(`${r.year}|${r.category_name}`) ?? 0) + 1);
   const partialYears = ds.years.filter((y) => ds.coverage[y] === 'partial');
   const status = firstTimeStatus(ds.results, { year: WINNER_YEAR, partialYears });
+  const attrs = breweryAttributeLookup(ds);
   for (const r of ds.results) {
     const b = byKey.get(r.brewery_key);
-    r.brewery_type = b?.brewery_type ?? '';
-    r.ownership_type = b?.ownership?.ownership_type ?? 'unlisted';
+    const a = attrs(r);
+    // The site's stated-gap tokens: a blank type, 'unlisted' ownership and 'unknown' distribution all read Not defined.
+    r.brewery_type = a.brewery_type ?? '';
+    r.ownership_type = a.ownership_type ?? 'unlisted';
     r.parent = b?.ownership?.parent ?? '';
-    r.distribution_channel = b?.distribution_channel || 'unknown';
+    r.distribution_channel = a.distribution_channel ?? 'unknown';
     r.category_medals = perCat.get(`${r.year}|${r.category_name}`) ?? null;
     const p = profileFor(r);
     if (p) {
