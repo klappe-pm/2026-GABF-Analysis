@@ -264,3 +264,4 @@ No brewery links have been checked yet.
 - The beer catalog page lists flagship, seasonal and limited releases but not Two Track ESB; the what's on tap page returned no beer data; the news page does not mention it.
 - The home page notice confirms the medal from the brewery's side.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery home page mentions the medal only.

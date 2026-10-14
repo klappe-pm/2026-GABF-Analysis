@@ -239,3 +239,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery beer page lists 12 beers with style, ABV and IBU but no hop or description detail; Because Science is not among them.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

@@ -279,3 +279,4 @@ Links checked 2026-10-14: [Website](https://sweetheartbrands.com/).
 - ABV, apple varieties and sweetness are not published; the menu advises asking staff.
 - No 2026 medal announcement was found on any Sweet Heart site.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the site was read; it has no Spiced Apple description.

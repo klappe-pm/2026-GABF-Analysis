@@ -48,8 +48,8 @@ test('every content copy file parses to a non empty object', () => {
 });
 
 test('the Markdown copy format round trips keys, blanks, and lists', () => {
-  const md = '# T\n\nNote.\n\n## `a`\n\nWhere: x.\n\n- `k`: Text: with colon\n- `(blank)`: Not defined\n\n### `b`\n\n- `n`:\n\n## `list`\n\n- one\n- two\n';
-  assert.deepEqual(parseContent(md), { a: { k: 'Text: with colon', '': 'Not defined', b: { n: '' } }, list: ['one', 'two'] });
+  const md = '# T\n\nNote.\n\n## `a`\n\nWhere: x.\n\n- `k`: Text: with colon\n- `(blank)`: Not Found\n\n### `b`\n\n- `n`:\n\n## `list`\n\n- one\n- two\n';
+  assert.deepEqual(parseContent(md), { a: { k: 'Text: with colon', '': 'Not Found', b: { n: '' } }, list: ['one', 'two'] });
 });
 
 test('visible copy has no dash punctuation, paths, or commands', () => {

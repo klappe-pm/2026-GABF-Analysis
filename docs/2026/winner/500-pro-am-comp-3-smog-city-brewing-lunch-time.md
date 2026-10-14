@@ -38,6 +38,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -46,6 +47,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -54,6 +56,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -62,6 +65,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -70,6 +74,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -78,6 +83,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -86,6 +92,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -94,6 +101,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -102,6 +110,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -110,6 +119,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -118,6 +128,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -126,6 +137,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -134,6 +146,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos"
@@ -142,6 +155,7 @@ gaps:
       - "https://www.smogcitybrewing.com/beer-finder"
       - "https://www.smogcitybrewing.com/meet-the-beers"
       - "web searches recorded in the research notes"
+      - "https://smogcitybrewing.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -246,8 +260,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, [smogcitybrewing.com](https://smogcitybrewing.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -256,3 +270,4 @@ No brewery links have been checked yet.
 - The brewery home page, year-round lineup and beer finder do not mention Lunch Time!, the Pro-Am or the homebrewer.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

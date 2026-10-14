@@ -32,6 +32,8 @@ Where: the summary tiles.
 - `share_note`: {{count}} of {{total}} medals
 - `golds`: Golds Among Them
 - `golds_note`: {{share}} of their medals
+- `split`: Their Gold, Silver, Bronze
+- `title`: Summary
 - `complete`: First in the Complete Record
 - `complete_note`: Earlier medals only in partial years
 
@@ -57,6 +59,12 @@ Where: the medal tables.
 - `category`: Category
 - `entries_beaten`: Entries Beaten
 - `empty`: No first time medalist in view.
+- `abv`: ABV
+- `ibu`: IBU
+- `beer_profile`: Beer Profile
+- `open_profile`: Full Profile
+- `caption`: Medals of first time medalists in {{year}}, grouped by brewery.
+- `sort_hint`: Select a column header to sort.
 
 ## `complete_record`
 
@@ -65,6 +73,7 @@ Where: the second table.
 - `title`: First in the Complete Record
 - `note`: These breweries medaled in {{year}} and earlier only in partial years ({{partial_years}}), which hold a sample of medals, not the official lists. Counting only the complete lists ({{complete_range}}), they are first time medalists.
 - `empty`: None in view.
+- `caption`: Medals of breweries that are first in the complete record in {{year}}.
 
 ## `names_to_check`
 
@@ -76,3 +85,4 @@ Where: the names to check section at the bottom.
 - `earlier`: Earlier Medalist to Compare
 - `earlier_value`: {{name}} ({{city}}, {{state}}; {{years}})
 - `empty`: No first time medalist shares a city and a name with an earlier medalist.
+- `caption`: First time medalists next to the earlier medalists they may be the same as.
