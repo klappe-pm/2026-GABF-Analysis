@@ -198,7 +198,7 @@ function boot() {
     picking = on;
     hover.hidden = true;
     document.documentElement.classList.toggle('gfw-picking', on);
-    if (on) scanSoon(); else { cancelEdit(false); unmark(); tip.hidden = true; }
+    if (on) scanSoon(); else { clearTimeout(scanTimer); scanRun += 1; scanning = false; cancelEdit(false); unmark(); tip.hidden = true; }
   }
   // Only a person's click is a pick: the control plane clicks the Filters button and the estimate
   // mark itself to drive a screen into its state, and those clicks must go through.
@@ -221,7 +221,8 @@ function boot() {
       return;
     }
     const spot = spotFor(target, { x: e.pageX, y: e.pageY });
-    if (!keyed.has(target)) { post({ kind: 'spot', spot }); return; }
+    // Page copy, or text the scan has not answered for yet, may be the first half of a double click.
+    if (!keyed.has(target) && !(scanning && isTextLeaf(target))) { post({ kind: 'spot', spot }); return; }
     clearTimeout(pendingPin);
     pendingPin = setTimeout(() => { pendingPin = null; post({ kind: 'spot', spot }); }, 260);
   }, true);
@@ -256,6 +257,9 @@ function boot() {
   const known = new Map();
   let editing = null;
   let scanTimer = null;
+  let scanRun = 0;
+  let scanning = false;
+  let reported = false;
   const tip = el('div', 'gfw-tip');
   tip.hidden = true;
   tip.setAttribute('role', 'status');
@@ -276,16 +280,11 @@ function boot() {
     keyed.clear();
     document.querySelectorAll('.gfw-editable').forEach((n) => { n.classList.remove('gfw-editable'); if (n.hasAttribute('data-gfw-tab')) { n.removeAttribute('data-gfw-tab'); n.removeAttribute('tabindex'); } });
   }
-  function scanSoon() { clearTimeout(scanTimer); scanTimer = setTimeout(scan, 250); }
-  async function scan() {
-    if (!picking || editing) return;
-    const list = leaves();
-    const need = [...new Set(list.map(([, t]) => t).filter((t) => !known.has(t)))];
-    for (let i = 0; i < need.length; i += 300) {
-      const chunk = need.slice(i, i + 300);
-      try { const res = await api('/review/inline/resolve', { screen, texts: chunk }); for (const t of chunk) known.set(t, res[t] ?? null); } catch { return; }
-    }
-    if (!picking) return;
+  function scanSoon() { clearTimeout(scanTimer); scanning = true; scanTimer = setTimeout(scan, 250); }
+  // Marks every text the server knows to be page copy. Each answered chunk is marked at once, so a
+  // slow server shows editable text as it arrives, and a newer scan replaces an older one instead
+  // of racing it.
+  function mark(list) {
     unmark();
     for (const [n, t] of list) {
       const info = known.get(t);
@@ -293,6 +292,31 @@ function boot() {
       keyed.set(n, info);
       n.classList.add('gfw-editable');
       if (!n.matches('a[href], button, [tabindex]')) { n.setAttribute('tabindex', '0'); n.setAttribute('data-gfw-tab', '1'); }
+    }
+  }
+  // Tells the control plane panel, in plain words, that in place editing is unavailable (or fine again).
+  function problem(message) { if (message || reported) post({ kind: 'inline-problem', message }); reported = Boolean(message); }
+  async function scan() {
+    if (!picking || editing) { scanning = false; return; }
+    const run = ++scanRun;
+    scanning = true;
+    try {
+      const list = leaves();
+      const need = [...new Set(list.map(([, t]) => t).filter((t) => !known.has(t)))];
+      for (let i = 0; i < need.length; i += 300) {
+        const chunk = need.slice(i, i + 300);
+        const res = await api('/review/inline/resolve', { screen, texts: chunk });
+        for (const t of chunk) known.set(t, res[t] ?? null);
+        if (run !== scanRun || !picking || editing) return;
+        mark(list);
+      }
+      if (run !== scanRun || !picking || editing) return;
+      mark(list);
+      problem('');
+    } catch (err) {
+      if (run === scanRun) problem(`Editing text on the page is not available: ${err && err.message ? err.message : 'the review server did not answer'}. Reload the page, or restart the review server.`);
+    } finally {
+      if (run === scanRun) scanning = false;
     }
   }
   function tipFor(node, force) {

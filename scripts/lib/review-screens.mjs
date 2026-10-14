@@ -67,3 +67,33 @@ export function regionsPayload(manifest) {
   }
   return { screens, controls: manifest.controls ?? {} };
 }
+
+// ---------- the web review build: a page is found by its route ----------
+
+const segments = (route) => String(route).split('?')[0].split('#')[0].split('/').filter(Boolean);
+
+// Every screen of the manifest in step order, each with its page's route, for a reviewer to choose from.
+export function listScreens(root, manifest) {
+  const out = [];
+  for (const [id, node] of Object.entries(manifest.nodes)) {
+    if (!id.startsWith('screen:')) continue;
+    const screen = describeScreen(root, manifest, id.slice('screen:'.length));
+    if (screen) out.push({ id: screen.step, label: `${screen.step} ${screen.state}`, page: screen.page, surface: screen.surface, route: screen.route, path: node.path });
+  }
+  return out.sort((a, b) => a.id.localeCompare(b.id, 'en', { numeric: true }));
+}
+
+// The steps whose page a route belongs to: a page with the route itself first, then a page of the same
+// shape (the same address with a different last segment, such as another brewery), each in step order.
+// A route that matches no page returns an empty list and the reviewer picks the step.
+export function screensForRoute(root, manifest, route) {
+  const want = segments(route);
+  const all = listScreens(root, manifest);
+  const exact = all.filter((s) => segments(s.route).join('/') === want.join('/'));
+  if (exact.length) return exact;
+  if (want.length < 2) return [];
+  return all.filter((s) => {
+    const have = segments(s.route);
+    return have.length === want.length && have.slice(0, -1).join('/') === want.slice(0, -1).join('/');
+  });
+}
