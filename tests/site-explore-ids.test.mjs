@@ -34,3 +34,11 @@ test('enrichment matches records by identifier and needs evidence', () => {
   assert.equal(readEnrichment('name,evidence_url\nx,https://e.com', 'breweries', known).error.column, 'brewery_id');
   assert.equal(readEnrichment(`beer_id,ownership\nx,y`, 'beers', known).error.column, 'evidence_url');
 });
+
+test('every imported detail column has a label in the Explore copy', async () => {
+  const { readFileSync } = await import('node:fs');
+  const { PATCHABLE } = await import('../web/lib/models/explore-import.mjs');
+  const copy = readFileSync(new URL('../.docs/content-management-system/pages/explore.md', import.meta.url), 'utf8');
+  const fields = copy.slice(copy.indexOf('### `fields`'), copy.indexOf('## `import`'));
+  for (const f of PATCHABLE.filter((x) => x !== 'ownership')) assert.match(fields, new RegExp(`- \`${f}\`: `), f);
+});

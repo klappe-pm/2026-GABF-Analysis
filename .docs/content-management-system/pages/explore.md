@@ -72,6 +72,26 @@ Where: the award table.
 - `family`: Style Family
 - `owner`: Owner
 
+### `fields`
+
+Where: the columns for details imported by identifier. A record without a value shows Not Found.
+
+- `investors`: Investors
+- `brewery_type`: Brewery Type
+- `brewer_name`: Brewer
+- `association`: Association
+- `website`: Website
+- `phone`: Phone
+- `street_address`: Street Address
+- `zip_code`: ZIP Code
+- `metro_area`: Metro Area
+- `beer_url`: Beer Page
+- `abv`: ABV
+- `ibu`: IBU
+- `confirmed_hops`: Confirmed Hops
+- `ingredients`: Ingredients
+- `subcategory`: Subcategory
+
 ## `import`
 
 Where: the import card.

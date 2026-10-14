@@ -30,6 +30,7 @@ export default async function ExplorePage() {
     table: {
       title: t(page('table.title')), count: t(page('table.count'), { count: '{{count}}', total: '{{total}}' }), sortHint: t(page('table.sort_hint')), imported: t(page('table.imported')), importedCount: t(page('table.imported_count'), { count: '{{count}}' }),
       columns: prefixed(page('table.columns'), ['year', 'medal', 'beer', 'brewery', 'city', 'category', 'family', 'owner']) as ExploreCopy['table']['columns'],
+      fields: prefixed(page('table.fields'), ['investors', 'brewery_type', 'brewer_name', 'association', 'website', 'phone', 'street_address', 'zip_code', 'metro_area', 'beer_url', 'abv', 'ibu', 'confirmed_hops', 'ingredients', 'subcategory']),
     },
     import: {
       title: t(page('import.title')), privacy: t(page('import.privacy')), help: t(page('import.help')), chooseFile: t(page('import.choose_file')), result: t(page('import.result'), { added: '{{added}}', skipped: '{{skipped}}' }), remove: t(page('import.remove')), removed: t(page('import.removed')), reading: t(page('import.reading')),

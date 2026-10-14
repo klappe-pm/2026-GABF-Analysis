@@ -14,7 +14,7 @@ import { TextLink } from '@/components/TextLink';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
 import { INVESTOR_ON } from '@/app/(site)/shell/SiteFilters';
-import { beerIdOf, breweryIdOf, type EnrichKind, ENRICH_KINDS, type ImportedAward, type ImportError, importedAwardId, type Patch, readAwards, readEnrichment } from '@/lib/models/explore-import.mjs';
+import { beerIdOf, PATCHABLE, breweryIdOf, type EnrichKind, ENRICH_KINDS, type ImportedAward, type ImportError, importedAwardId, type Patch, readAwards, readEnrichment } from '@/lib/models/explore-import.mjs';
 import type { ExploreRow } from '@/lib/models/analysis.mjs';
 import { Count, fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
@@ -22,7 +22,7 @@ export type ExploreCopy = {
   view: ViewCopy;
   search: { label: string; placeholder: string; hint: string };
   filters: { title: string; reset: string; section: string; sectionAll: string; investors: string; investorsPlaceholder: string; trait: string; traitAll: string; sections: Record<string, string>; traits: Record<string, string> };
-  table: { title: string; count: string; sortHint: string; imported: string; importedCount: string; columns: Record<'year' | 'medal' | 'beer' | 'brewery' | 'city' | 'category' | 'family' | 'owner', string> };
+  table: { title: string; count: string; sortHint: string; imported: string; importedCount: string; columns: Record<'year' | 'medal' | 'beer' | 'brewery' | 'city' | 'category' | 'family' | 'owner', string>; fields: Record<string, string> };
   import: { title: string; privacy: string; help: string; chooseFile: string; result: string; remove: string; removed: string; reading: string; kind: string; kinds: Record<'new' | EnrichKind, string>; helpById: string; resultById: string; errors: Record<string, string> };
   links: { savedViews: string };
   empty: { awards: string; hint: string };
@@ -34,7 +34,7 @@ export type ExploreCopy = {
 const MEDAL_RANK: Record<string, number> = { Gold: 0, Silver: 1, Bronze: 2 };
 const words = (s: string) => s.toLowerCase().split(/\s+/).filter(Boolean);
 
-type Entry = ExploreRow & { imported?: boolean };
+type Entry = ExploreRow & { imported?: boolean; details?: Record<string, string> };
 
 function asRow(a: ImportedAward, ids: { beers: Map<string, string>; breweries: Map<string, string> }): Entry {
   return {
@@ -68,10 +68,10 @@ export function ExploreView({ rows, copy, firstCompleteYear }: { rows: ExploreRo
     const byJoin = new Map<string, Patch['fields'][]>();
     for (const { join, patch } of patches) byJoin.set(`${join}|${patch.id}`, [...(byJoin.get(`${join}|${patch.id}`) ?? []), patch.fields]);
     return base.map((r) => {
-      let out = r;
+      let out = r as Entry;
       for (const join of Object.values(ENRICH_KINDS)) {
         for (const f of byJoin.get(`${join}|${(r as Record<string, unknown>)[join] as string}`) ?? []) {
-          out = { ...out, ...(f.ownership ? { parent: f.ownership } : {}), ...(f.investors ? { investor: f.investors } : {}), ...(f.brewery_type ? { brewery_type: f.brewery_type } : {}) } as Entry;
+          out = { ...out, details: { ...(out.details ?? {}), ...f }, ...(f.ownership ? { parent: f.ownership } : {}), ...(f.investors ? { investor: f.investors } : {}), ...(f.brewery_type ? { brewery_type: f.brewery_type } : {}) } as Entry;
         }
       }
       return out;
@@ -123,6 +123,10 @@ export function ExploreView({ rows, copy, firstCompleteYear }: { rows: ExploreRo
     setMessage({ error: false, text: fill(copy.import.result, { added: num(fresh.length), skipped: num(result.skipped + result.awards.length - fresh.length) }) });
   }
 
+  // The details imported by identifier: one column for each field some record received (the owner has its own
+  // column), and a Not Found cell where a record has none.
+  const detailFields = PATCHABLE.filter((f) => f !== 'ownership' && patches.some((x) => f in x.patch.fields));
+  const link = (v: string) => (/^https?:\/\//.test(v) ? <a className="text-primary underline" href={v} rel="noopener noreferrer">{v}</a> : v);
   const columns: Column[] = [
     { key: 'year', label: copy.table.columns.year, numeric: true, sortable: true },
     { key: 'medal', label: copy.table.columns.medal, sortable: true },
@@ -132,12 +136,13 @@ export function ExploreView({ rows, copy, firstCompleteYear }: { rows: ExploreRo
     { key: 'category', label: copy.table.columns.category, sortable: true },
     { key: 'family', label: copy.table.columns.family, sortable: true },
     { key: 'owner', label: copy.table.columns.owner, sortable: true },
+    ...detailFields.map((f) => ({ key: `d_${f}`, label: copy.table.fields[f] ?? f, sortable: true })),
   ];
   const table: Row[] = shown.map((r, i) => {
     const family = r.style_family ? copy.families[r.style_family as string] ?? (r.style_family as string) : '';
     return {
       key: `${r.year}-${r.medal}-${r.beer_name}-${i}`,
-      sort: { year: r.year as number, medal: MEDAL_RANK[r.medal as string] ?? 9, beer: r.beer_name as string, brewery: r.brewery_name as string, city: `${r.city}, ${r.state}`, category: r.category_name as string, family, owner: owner(r) },
+      sort: { year: r.year as number, medal: MEDAL_RANK[r.medal as string] ?? 9, beer: r.beer_name as string, brewery: r.brewery_name as string, city: `${r.city}, ${r.state}`, category: r.category_name as string, family, owner: owner(r), ...Object.fromEntries(detailFields.map((f) => [`d_${f}`, r.details?.[f] ?? ''])) },
       cells: {
         year: r.year,
         medal: (
@@ -157,6 +162,7 @@ export function ExploreView({ rows, copy, firstCompleteYear }: { rows: ExploreRo
         category: r.category_slug ? <TextLink href={href(paths.category(r.category_slug as string))}>{r.category_name as string}</TextLink> : (r.category_name as string),
         family,
         owner: owner(r),
+        ...Object.fromEntries(detailFields.map((f) => [`d_${f}`, r.details?.[f] ? link(r.details[f]) : copy.view.notDefined])),
       },
     };
   });
