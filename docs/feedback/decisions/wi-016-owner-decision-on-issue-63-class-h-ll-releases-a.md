@@ -1,6 +1,6 @@
 ---
 id: WI-016
-status: ACCEPTED
+status: DONE
 title: Class Hüll releases as public although licensing is unverified?
 page: decisions
 job: null
@@ -47,6 +47,13 @@ images: []
 issue: 63
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/63
 kind: decision
+pr: 132
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/132
+resolution:
+  status: DONE
+  change: "pull request #132"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T23:27:58.220Z
 ---
 
 Owner decision on issue #63: Class Hüll releases as public although licensing is unverified?
