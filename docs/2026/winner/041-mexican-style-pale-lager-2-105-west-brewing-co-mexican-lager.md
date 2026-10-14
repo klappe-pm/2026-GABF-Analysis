@@ -189,6 +189,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [105 West Brewing Co.](../../breweries/105-west-brewing-co.md)
+
 ## links
 
 - [105 West Brewing Co.](https://www.105westbrewing.com/)

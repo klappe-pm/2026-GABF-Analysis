@@ -214,6 +214,10 @@ Marker 48 Brewing is in Brooksville, FL. Brewery type in Open Brewery DB: Microb
 
 Links checked 2026-10-14: [Website](https://www.marker48.com/).
 
+## related
+
+- Brewery: [Marker 48 Brewing](../../breweries/marker-48-brewing.md)
+
 ## links
 
 - [Marker 48: package transcription](https://www.directionsforme.org/product/274117)

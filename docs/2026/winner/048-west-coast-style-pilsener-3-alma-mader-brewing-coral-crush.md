@@ -259,6 +259,14 @@ Alma Mader Brewing is in Kansas City, MO. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Alma Mader Brewing](../../breweries/alma-mader-brewing.md)
+- Hop varieties: [Krush](../../hops/varieties/krush.md), [Mosaic](../../hops/varieties/mosaic.md), [Nelson Sauvin](../../hops/varieties/nelson-sauvin.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Alma Mader Brewing](https://www.almamaderbrewing.com/)

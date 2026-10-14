@@ -229,6 +229,11 @@ MachineHead Brewing Co. is in Clovis, CA. Brewery type in Open Brewery DB: In pl
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [MachineHead Brewing Co.](../../breweries/machinehead-brewing-co.md)
+- Hop varieties: [Motueka](../../hops/varieties/motueka.md), [Nectaron](../../hops/varieties/nectaron.md), [Peacharine](../../hops/varieties/peacharine.md)
+
 ## links
 
 - [MachineHead beer listing](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858)

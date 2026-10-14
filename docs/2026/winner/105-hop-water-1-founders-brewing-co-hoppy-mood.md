@@ -230,6 +230,14 @@ Founders Brewing Co. is in Grand Rapids, MI.
 
 Links checked 2026-10-14: [Website](https://foundersbrewing.com/), [Instagram](https://www.instagram.com/foundersbrewing/), [Untappd](https://untappd.com/foundersbrewing).
 
+## related
+
+- Brewery: [Founders Brewing Co.](../../breweries/founders-brewing-co.md)
+- Hop varieties: [Amarillo](../../hops/varieties/amarillo.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://foundersbrewing.com/our-beer/hoppy-mood/)

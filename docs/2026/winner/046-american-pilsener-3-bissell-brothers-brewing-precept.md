@@ -178,6 +178,11 @@ Bissell Brothers Brewing is in Portland, ME. Brewery type in Open Brewery DB: Mi
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Bissell Brothers Brewing](../../breweries/bissell-brothers-brewing.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md), [Saphir](../../hops/varieties/saphir.md)
+
 ## links
 
 - [Beer page on brewery site](https://bissellbrothers.com/beer/precept)

@@ -224,6 +224,11 @@ Masthead Brewing Co. is in Cleveland, OH.
 
 Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram](https://www.instagram.com/mastheadbrewing/).
 
+## related
+
+- Brewery: [Masthead Brewing Co.](../../breweries/masthead-brewing-co.md)
+- Hop varieties: [Callista](../../hops/varieties/callista.md), [Hallertau Blanc](../../hops/varieties/hallertau-blanc.md)
+
 ## links
 
 - [Masthead Brewing Co.](https://mastheadbrewingco.com/)

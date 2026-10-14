@@ -204,6 +204,10 @@ Big Dog's Brewing Co. is in Las Vegas, NV.
 
 Links checked 2026-10-14: [Website](https://www.bigdogsbrews.com/), [Instagram](https://www.instagram.com/bigdogsbrewing/).
 
+## related
+
+- Brewery: [Big Dog's Brewing Co.](../../breweries/big-dog-s-brewing-co.md)
+
 ## links
 
 - [595 Craft and Kitchen: tap list](https://595craftandkitchen.com/tap-list)

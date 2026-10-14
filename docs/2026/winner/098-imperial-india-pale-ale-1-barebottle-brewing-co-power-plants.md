@@ -211,6 +211,10 @@ Barebottle Brewing Co. is in San Francisco, CA. Brewery type in Open Brewery DB:
 
 Links checked 2026-10-14: [Website](https://www.barebottle.com/), [Instagram](https://www.instagram.com/barebottle/), [Untappd](https://untappd.com/BarebottleBrewingCompany).
 
+## related
+
+- Brewery: [Barebottle Brewing Co.](../../breweries/barebottle-brewing-co.md)
+
 ## links
 
 - [Barebottle Brewing Co.](https://www.barebottle.com/)

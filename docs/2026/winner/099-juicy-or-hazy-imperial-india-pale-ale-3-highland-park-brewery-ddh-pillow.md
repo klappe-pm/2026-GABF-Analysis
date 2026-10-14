@@ -266,6 +266,14 @@ Highland Park Brewery is in Los Angeles, CA. Brewery type in Open Brewery DB: Mi
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Highland Park Brewery](../../breweries/highland-park-brewery.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Highland Park Brewery](https://hpb.la/)

@@ -232,6 +232,14 @@ Human People Beer is in Seattle, WA. Brewery type in Open Brewery DB: Microbrewe
 
 Links checked 2026-10-14: [Website](https://www.humanpeoplebeer.com/), [Instagram](https://www.instagram.com/humanpeoplebeer/), [Untappd](https://untappd.com/Human_People).
 
+## related
+
+- Brewery: [Human People Beer](../../breweries/human-people-beer.md)
+- Hop varieties: [Columbus](../../hops/varieties/columbus.md), [Krush](../../hops/varieties/krush.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Human People Beer](https://www.humanpeoplebeer.com/)

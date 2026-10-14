@@ -235,6 +235,10 @@ Ogopogo Brewing is in San Gabriel, CA. Brewery type in Open Brewery DB: Microbre
 
 Links checked 2026-10-14: [Website](https://www.ogopogobrewing.com/), [Instagram](https://www.instagram.com/ogopogobrewing/).
 
+## related
+
+- Brewery: [Ogopogo Brewing](../../breweries/ogopogo-brewing.md)
+
 ## links
 
 - [Ogopogo Brewing](https://www.ogopogobrewing.com/)
@@ -257,3 +261,4 @@ Links checked 2026-10-14: [Website](https://www.ogopogobrewing.com/), [Instagram
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Nachtkrapp Untappd product page shows N/A IBU and retells the legend without naming ingredients. Additional brewery-domain searches found no product page or hop variety.
+- Deep dive pass 2026-10-14: the brewery site has no Nachtkrapp page; the description on file comes from Untappd.

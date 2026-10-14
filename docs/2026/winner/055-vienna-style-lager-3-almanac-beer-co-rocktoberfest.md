@@ -215,6 +215,10 @@ Almanac Beer Co. is in Alameda, CA. Brewery type in Open Brewery DB: Microbrewer
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Almanac Beer Co.](../../breweries/almanac-beer-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://almanacbeer.com/alameda)
@@ -234,3 +238,4 @@ No brewery links have been checked yet.
 - Brewery menu and BeerMenus agree on 5% ABV.
 - Style labels differ: the brewery says Oktoberfest Lager, BeerMenus calls it a traditional festbier, and the medal came in Vienna-Style Lager.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the Alameda menu lists Rocktoberfest as an Oktoberfest lager at 5% with its 2026 bronze; no description.

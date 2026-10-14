@@ -218,6 +218,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [2 Towns Ciderhouse](../../breweries/2-towns-ciderhouse.md)
+
 ## links
 
 - [2 Towns: Huckleberry Cosmic Crisp](https://www.2townsciderhouse.com/ciders/huckleberry-cosmic-crisp)

@@ -178,6 +178,11 @@ Firestone Walker Brewing Co. is in Paso Robles, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Firestone Walker Brewing Co.](../../breweries/firestone-walker-brewing-co.md)
+- Hop varieties: [Styrian Golding](../../hops/varieties/styrian-golding.md), [US Tettnang](../../hops/varieties/us-tettnang.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.firestonebeer.com/beer/dba/)

@@ -195,6 +195,10 @@ Rickety Cricket Brewing is in Kingman, AZ. Brewery type in Open Brewery DB: Brew
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Rickety Cricket Brewing](../../breweries/rickety-cricket-brewing.md)
+
 ## links
 
 - [Rickety Cricket Brewing](https://ricketycricketbrewing.com/)

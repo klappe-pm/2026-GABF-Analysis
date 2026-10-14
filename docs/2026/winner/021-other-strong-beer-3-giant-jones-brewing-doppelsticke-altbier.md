@@ -228,6 +228,10 @@ Giant Jones Brewing is in Madison, WI. Brewery type in Open Brewery DB: Microbre
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Giant Jones Brewing Co.](../../breweries/giant-jones-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://giantjones.com/beer/)

@@ -234,6 +234,10 @@ Mighty Squirrel is in Waltham, MA. Brewery type in Open Brewery DB: Regional bre
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Mighty Squirrel Brewing Co.](../../breweries/mighty-squirrel-brewing-co.md)
+
 ## links
 
 - [CBC Liquors: Mighty Squirrel Oktoberfest](https://www.cbcliquors.com/product/oktoberfest-marzen-mighty-squirrel/54960659?format=56201779&variant=2074482)

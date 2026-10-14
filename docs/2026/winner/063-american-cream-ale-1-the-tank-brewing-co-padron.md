@@ -204,6 +204,10 @@ The Tank Brewing Co. is in Miami, FL. Brewery type in Open Brewery DB: Microbrew
 
 Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](https://www.instagram.com/thetankbrewing/), [Untappd](https://untappd.com/TheTankBrewing).
 
+## related
+
+- Brewery: [The Tank Brewing Co.](../../breweries/the-tank-brewing-co.md)
+
 ## links
 
 - [The Tank Brewing Co.](https://thetankbrewing.com/)
@@ -225,3 +229,4 @@ Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](ht
 - Second pass 2026-10-13: Untappd verifies the exact beer and strength. CraftBeer.com reports the brewery's Cuban-American Lager label, which differs from the competition category; no separate Padron version was identified. No IBU or ingredients were published.
 - Field pass 2026-10-13: Additional technical-field and brewery-page searches found staff favorite mentions and ordering excerpts for Padron, but no verified IBU, hop variety or qualifying brewery beer page.
 - Catalog.beer 2026-10-14: [Catalog.beer: Padron](https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85) lists 4.5% ABV, style "Cuban-American Lager" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

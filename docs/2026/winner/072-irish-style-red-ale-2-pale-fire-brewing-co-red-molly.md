@@ -169,6 +169,10 @@ Pale Fire Brewing Co. is in Harrisonburg, VA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Pale Fire Brewing Co.](../../breweries/pale-fire-brewing-co.md)
+
 ## links
 
 - [Pale Fire Brewing Co.](https://www.palefirebrewing.com/)

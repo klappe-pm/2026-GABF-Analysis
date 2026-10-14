@@ -218,6 +218,10 @@ Haykin Family Cider is in Aurora, CO.
 
 Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram](https://www.instagram.com/haykinfamilycider/).
 
+## related
+
+- Brewery: [Haykin Family Cider](../../breweries/haykin-family-cider.md)
+
 ## links
 
 - [Beer page on brewery site](https://haykinfamilycider.com/bottle-menu)

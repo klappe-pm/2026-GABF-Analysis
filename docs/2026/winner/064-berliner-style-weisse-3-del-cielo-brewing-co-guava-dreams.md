@@ -229,6 +229,11 @@ Del Cielo Brewing Co. is in Martinez, CA. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Del Cielo Brewing Co.](../../breweries/del-cielo-brewing-co.md)
+- Hop varieties: [Sterling](../../hops/varieties/sterling.md)
+
 ## links
 
 - [Del Cielo: Guava Dreams listing](https://untappd.com/b/del-cielo-brewing-co-guava-dreams/2983952)

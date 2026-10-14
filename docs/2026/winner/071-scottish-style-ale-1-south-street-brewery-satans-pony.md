@@ -220,6 +220,10 @@ South Street Brewery is in Charlottesville, VA. Brewery type in Open Brewery DB:
 
 Links checked 2026-10-14: [Website](https://www.southstreetbrewery.com/), [Untappd](https://untappd.com/SouthStreetBrewery).
 
+## related
+
+- Brewery: [South Street Brewery](../../breweries/south-street-brewery.md)
+
 ## links
 
 - [South Street Brewery](https://www.southstreetbrewery.com/)

@@ -197,6 +197,10 @@ Stone Brewing is in Paso Robles, CA. Brewery type in Open Brewery DB: Regional b
 
 Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](https://www.instagram.com/stonebrewing/).
 
+## related
+
+- Brewery: [Stone Brewing](../../breweries/stone-brewing.md)
+
 ## links
 
 - [Additional beer research](https://untappd.com/b/stone-brewing-stone-cimmerian-portal/433770)

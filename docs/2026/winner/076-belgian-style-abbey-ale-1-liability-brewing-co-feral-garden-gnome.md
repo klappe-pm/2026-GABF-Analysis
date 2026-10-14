@@ -221,6 +221,11 @@ Liability Brewing Co. is in Greenville, SC. Brewery type in Open Brewery DB: In 
 
 Links checked 2026-10-14: [Website](https://liabilitybrewing.co/), [Instagram](https://www.instagram.com/liabilitybeer/).
 
+## related
+
+- Brewery: [Liability Brewing Co.](../../breweries/liability-brewing-co.md)
+- Hop varieties: [Sterling](../../hops/varieties/sterling.md)
+
 ## links
 
 - [Beer page on brewery site](https://liabilitybrewing.co/beer/feral-garden-gnome/)

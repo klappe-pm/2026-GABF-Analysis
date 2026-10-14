@@ -250,6 +250,11 @@ Sun King Brewing is in Fishers, IN. Brewery type in Open Brewery DB: In planning
 
 Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
+## related
+
+- Brewery: [Sun King Brewing](../../breweries/sun-king-brewing.md)
+- Hop varieties: [Bravo](../../hops/varieties/bravo.md)
+
 ## links
 
 - [Target: Pachanga](https://www.target.com/p/-/A-53477068)

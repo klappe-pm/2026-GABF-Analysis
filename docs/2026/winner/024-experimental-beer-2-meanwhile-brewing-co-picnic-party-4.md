@@ -219,6 +219,10 @@ Meanwhile Brewing Co. is in Austin, TX.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md)
+
 ## links
 
 - [Meanwhile: August release announcement](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup)

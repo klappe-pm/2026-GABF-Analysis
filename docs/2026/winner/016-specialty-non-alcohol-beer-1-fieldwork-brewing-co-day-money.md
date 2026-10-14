@@ -225,6 +225,10 @@ Fieldwork Brewing Co. is in Berkeley, CA.
 
 Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagram](https://www.instagram.com/drinkfieldwork/), [Untappd](https://untappd.com/FieldworkBrewingCompany).
 
+## related
+
+- Brewery: [Fieldwork Brewing Co.](../../breweries/fieldwork-brewing-co.md)
+
 ## links
 
 - [Untappd: Fieldwork Day Money](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822)

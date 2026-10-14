@@ -211,6 +211,10 @@ MainStage Brewing Co. is in Boulder, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [MainStage Brewing Co.](../../breweries/mainstage-brewing-co.md)
+
 ## links
 
 - [MainStage Brewing Co.](https://www.mainstagebrewing.com/)
@@ -232,3 +236,4 @@ No brewery links have been checked yet.
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd lists MainStage Oktoberfest as a collaboration with New Image at 5.3% ABV, but it does not use the medal entry's Oktoberfestfest name. No source confirms equivalence, so that strength is excluded.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Oktoberfestfest description.

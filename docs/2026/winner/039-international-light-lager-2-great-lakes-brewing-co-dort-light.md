@@ -211,6 +211,14 @@ Great Lakes Brewing Co. is in Cleveland, OH.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Great Lakes Brewing Co.](../../breweries/great-lakes-brewing-co.md)
+- Hop varieties: [Cascade](../../hops/varieties/cascade.md), [Mt. Hood](../../hops/varieties/mt-hood.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.greatlakesbrewing.com/beer/dort-light)

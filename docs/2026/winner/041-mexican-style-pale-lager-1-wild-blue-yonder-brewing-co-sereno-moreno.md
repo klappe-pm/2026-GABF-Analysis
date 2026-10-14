@@ -202,6 +202,10 @@ Wild Blue Yonder Brewing Co. is in Castle Rock, CO.
 
 Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [Instagram](https://www.instagram.com/wildblueyonderbrewing/), [Untappd](https://untappd.com/WildBlueYonderBrewingCo).
 
+## related
+
+- Brewery: [Wild Blue Yonder Brewing Co.](../../breweries/wild-blue-yonder-brewing-co.md)
+
 ## links
 
 - [Wild Blue Yonder Brewing Co.](https://www.wildblueyonderbrewing.com/)

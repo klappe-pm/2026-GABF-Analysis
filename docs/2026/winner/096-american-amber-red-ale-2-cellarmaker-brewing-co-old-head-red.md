@@ -205,6 +205,14 @@ Cellarmaker Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB: Micr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md)
+- Hop varieties: [Anchovy](../../hops/varieties/anchovy.md), [Cascade](../../hops/varieties/cascade.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://cellarmakerbrewing.com/beer/old-head-red/)

@@ -209,6 +209,10 @@ Morgan Territory Brewing is in Tracy, CA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [Instagram](https://www.instagram.com/morganterritorybrewing/), [Untappd](https://untappd.com/MorganTerritoryBrewing).
 
+## related
+
+- Brewery: [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md)
+
 ## links
 
 - [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196)

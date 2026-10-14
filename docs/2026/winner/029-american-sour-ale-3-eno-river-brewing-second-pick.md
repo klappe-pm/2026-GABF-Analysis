@@ -198,6 +198,10 @@ Eno River Brewing is in Hillsborough, NC. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Eno River Brewing](../../breweries/eno-river-brewing.md)
+
 ## links
 
 - [Eno River Brewing](https://www.enoriverbrewing.com/)

@@ -202,6 +202,14 @@ TapRoom Beer Co. is in San Diego, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [TapRoom Beer Co.](../../breweries/taproom-beer-co.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.taproombeerco.com/beer)

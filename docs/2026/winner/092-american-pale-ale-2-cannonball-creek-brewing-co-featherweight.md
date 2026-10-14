@@ -190,6 +190,10 @@ Cannonball Creek Brewing Co. is in Golden, CO.
 
 Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [Instagram](https://www.instagram.com/cannonballcreekbrewingco/), [Untappd](https://untappd.com/CannonballCreek).
 
+## related
+
+- Brewery: [Cannonball Creek Brewing Co.](../../breweries/cannonball-creek-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.cannonballcreekbrewing.com/beers)

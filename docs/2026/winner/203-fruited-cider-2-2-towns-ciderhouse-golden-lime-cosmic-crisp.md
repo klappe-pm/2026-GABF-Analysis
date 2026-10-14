@@ -197,6 +197,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [2 Towns Ciderhouse](../../breweries/2-towns-ciderhouse.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.2townsciderhouse.com/ciders/golden-lime-cosmic-crisp)

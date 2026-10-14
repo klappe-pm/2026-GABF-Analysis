@@ -245,6 +245,11 @@ Wormtown Brewery is in Worcester, MA. Brewery type in Open Brewery DB: Microbrew
 
 Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](https://www.instagram.com/wormtownbrewery/), [Untappd](https://untappd.com/WormtownBrewery).
 
+## related
+
+- Brewery: [Wormtown Brewery](../../breweries/wormtown-brewery.md)
+- Hop varieties: [Azacca](../../hops/varieties/azacca.md), [BRU-1](../../hops/varieties/bru-1.md)
+
 ## links
 
 - [Untappd: Wormtown Summer](https://untappd.com/b/wormtown-brewery-summer/3748097)

@@ -226,6 +226,10 @@ Verboten Brewing is in Loveland, CO. Brewery type in Open Brewery DB: Microbrewe
 
 Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](https://www.instagram.com/verbotenbrewing/), [Untappd](https://untappd.com/VerbotenBrewing).
 
+## related
+
+- Brewery: [Verboten Brewing](../../breweries/verboten-brewing.md)
+
 ## links
 
 - [Verboten Brewing](https://verbotenbrewing.com/)

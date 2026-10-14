@@ -204,6 +204,10 @@ Old 121 Brewhouse is in Lakewood, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Old 121 Brewhouse](../../breweries/old-121-brewhouse.md)
+
 ## links
 
 - [Old 121: menu](https://www.old121brewhouse.com/menu)

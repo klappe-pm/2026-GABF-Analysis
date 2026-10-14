@@ -185,6 +185,10 @@ Counter Weight Brewing Co. is in Cheshire, CT.
 
 Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Instagram](https://www.instagram.com/counterweightbrewingco/), [Untappd](https://untappd.com/CounterWeightBrewingCo).
 
+## related
+
+- Brewery: [Counter Weight Brewing Co.](../../breweries/counter-weight-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.counterweightbrewing.com/brews/)

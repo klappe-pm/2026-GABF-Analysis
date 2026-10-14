@@ -235,6 +235,14 @@ White Bluffs Brewing is in Richland, WA. Brewery type in Open Brewery DB: Microb
 
 Links checked 2026-10-14: [Website](https://whitebluffsbrewing.com/), [Untappd](https://untappd.com/w/white-bluffs-brewing/10846).
 
+## related
+
+- Brewery: [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md)
+- Hop varieties: [Fuggle](../../hops/varieties/fuggle.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [White Bluffs Brewing](https://whitebluffsbrewing.com/)

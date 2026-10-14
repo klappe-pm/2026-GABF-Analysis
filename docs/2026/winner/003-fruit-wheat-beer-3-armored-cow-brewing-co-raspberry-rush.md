@@ -197,6 +197,10 @@ Armored Cow Brewing Co. is in Charlotte, NC.
 
 Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instagram](https://www.instagram.com/armoredcowbrewing/), [Untappd](https://untappd.com/Armored_Cow_Brewing_).
 
+## related
+
+- Brewery: [Armored Cow Brewing Co.](../../breweries/armored-cow-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.armoredcowbrewing.com/on-tap)

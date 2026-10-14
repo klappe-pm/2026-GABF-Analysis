@@ -200,6 +200,10 @@ Roaring Table Brewing is in Lake Zurich, IL. Brewery type in Open Brewery DB: Mi
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Roaring Table Brewing](../../breweries/roaring-table-brewing.md)
+
 ## links
 
 - [Untappd: Direct Fire](https://untappd.com/b/roaring-table-brewing-direct-fire/6791463)

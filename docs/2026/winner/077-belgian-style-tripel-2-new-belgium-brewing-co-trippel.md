@@ -206,6 +206,11 @@ New Belgium Brewing Co. is in Fort Collins, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [New Belgium Brewing Co.](../../breweries/new-belgium-brewing-co.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md), [Liberty](../../hops/varieties/liberty.md), [Nugget](../../hops/varieties/nugget.md), [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.newbelgium.com/beer/trippel/)
