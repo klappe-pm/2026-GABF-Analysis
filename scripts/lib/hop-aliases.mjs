@@ -42,6 +42,7 @@ export const HOP_FORMS = [
   { form: 'HyperBoost', variants: ['HyperBoost', 'Hyper Boost'] },
   { form: 'DynaBoost', variants: ['DynaBoost', 'Dyna Boost'] },
   { form: 'Spectrum', variants: ['Spectrum'] },
+  { form: 'Hop Kief', variants: ['Hop Kief', 'Kief'] },
   { form: 'T90', variants: ['T90', 'T 90', 'T90 pellets', 'pellets', 'pellet'] },
 ];
 

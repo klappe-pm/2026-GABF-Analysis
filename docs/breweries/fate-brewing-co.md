@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "American Sour Ale"
-  - "International-Style Amber Lager"
+  - "International Amber Lager"
 city: "Scottsdale"
 employees: null
 farms-named: []
@@ -53,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "fate-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "AZ"
 untappd: null
-website: "http://mcfatebrewing.com"
+website: "https://fatebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

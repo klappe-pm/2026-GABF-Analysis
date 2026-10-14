@@ -143,12 +143,12 @@ Honey Citron is a cider of estate-grown organic heirloom apples, California hone
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not labelled by the cidery (category name used) | none found |
+| Style | not labelled by the cidery (category name used) | Not Found |
 | ABV | 6.5% | [Gowan's: Honey Citron](https://www.gowansheirloomcider.com/honey-citron-cider) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based; heirloom varieties not named) | [Gowan's: Honey Citron](https://www.gowansheirloomcider.com/honey-citron-cider) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | California honey, citron fruit | [Gowan's: Honey Citron](https://www.gowansheirloomcider.com/honey-citron-cider) |
 | Other | 500 mL bottle; sweetness not stated | [Gowan's: Honey Citron](https://www.gowansheirloomcider.com/honey-citron-cider) |
 
@@ -160,7 +160,7 @@ Source: [Gowan's: Honey Citron](https://www.gowansheirloomcider.com/honey-citron
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -168,17 +168,17 @@ The cidery names its organic single-farm heirloom apples, "real California honey
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -211,8 +211,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/honey-citron-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
-- Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/honey-citron-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/honey-citron-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/honey-citron-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -221,3 +221,4 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 - Apple varieties, honey type and yeast are not published.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives the ingredients only.

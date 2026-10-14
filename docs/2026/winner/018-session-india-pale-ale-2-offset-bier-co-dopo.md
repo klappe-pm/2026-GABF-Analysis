@@ -183,8 +183,8 @@ Dopo is the house beer of Offset Bier Co. in Park City, Utah: a 5% hazy "L IPA" 
 | ABV | 5% | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | IBU | 54 | [Craft Beer and Brewing: Dopo review](https://www.beerandbrewing.com/review/offset-bier-%2Ddopo-1710424461) |
 | Hops | Riwaka, Mosaic T90, Mosaic Lupocore, Nelson | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | none named | [Offset Bier: tap list](https://offsetbier.com/taplist-1) |
 | Other | sold in cans to go | [Offset Bier: cans to go](https://offsetbier.com/cans-to-go) |
 
@@ -208,19 +208,19 @@ The tap list names Riwaka, Mosaic (as T90 pellets and as Lupocore) and Nelson, a
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Riwaka | Riwaka | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Mosaic T90 | Mosaic | T90 pellet | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Mosaic Lupocore | Mosaic | Lupocore (lupulin concentrate) | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
-| Nelson | Nelson Sauvin | not published | not published | not published | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Riwaka | Riwaka | Not Found | Not Found | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Mosaic T90 | Mosaic | T90 pellet | Not Found | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Mosaic Lupocore | Mosaic | Lupocore (lupulin concentrate) | Not Found | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
+| Nelson | Nelson Sauvin | Not Found | Not Found | Not Found | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Hop load closer to that of a 7% beer in a 5% IPA | [offsetbier.com](https://offsetbier.com/taplist-1) |
 
 ## style-context
@@ -261,7 +261,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), [beerandbrewing.com](https://www.beerandbrewing.com/review/offset-bier-%2Ddopo-1710424461), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [offsetbier.com](https://offsetbier.com/), [offsetbier.com](https://offsetbier.com/cans-to-go), [offsetbier.com](https://offsetbier.com/taplist-1), [townlift.com](https://townlift.com/2021/11/offset-bier-co-local-beers-for-locals/), [beerandbrewing.com](https://www.beerandbrewing.com/podcast-episode-403-conor-brown-of-offset-bier), [beerandbrewing.com](https://www.beerandbrewing.com/review/offset-bier-%2Ddopo-1710424461), web searches recorded in the research notes.
 
 ## research-notes
 

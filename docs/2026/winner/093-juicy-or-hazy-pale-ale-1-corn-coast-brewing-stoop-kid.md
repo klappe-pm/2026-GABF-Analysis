@@ -161,14 +161,14 @@ Stoop Kid is a beer from Corn Coast Brewing, a nano brewery and taproom in Linco
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | 5.8% | [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
-| IBU | not published | none found |
-| Hops | Citra, Citra Hyperboost, Mosaic | [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | 5.8% | [Untappd (hand-read citation): Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| IBU | Not Found | Not Found |
+| Hops | Citra, Citra Hyperboost, Mosaic | [Untappd (hand-read citation): Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -176,7 +176,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -186,19 +186,19 @@ The [exact beer entry](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/685
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
-| Citra Hyperboost | Citra | HyperBoost | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| Citra | Citra | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| Citra Hyperboost | Citra | HyperBoost | Not Found | Not Found | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -228,15 +228,15 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## links
 
-- [Untappd: Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367)
+- [Untappd (hand-read citation): Corn Coast Stoop Kid](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367)
 - [Corn Coast Brewing](https://www.corncoastbrewing.com/)
 - [Corn Coast: on tap in Lincoln](https://www.corncoastbrewing.com/on-tap-lincoln)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -156,10 +156,10 @@ F\*kin Pumpkin, sold by the brewery as F\*k'in Pum'kin Ale, is a non-alcoholic p
 |---|---|---|
 | Style | Pumpkin Ale (non-alcoholic) | [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale) |
 | ABV | 0.39% | [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Malted barley | [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Pumpkin purée, lactose, cinnamon, nutmeg, clove, allspice, ginger | [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale) |
 | Other | 115 calories per 12 fl oz | [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-ale) |
 
@@ -181,17 +181,17 @@ The brewery's ingredient list reads "Water, malted barley, pumpkin puree, lactos
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -209,7 +209,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Go Brewing is in Naperville, IL.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://gobrewing.com/), [Instagram](https://www.instagram.com/gobrewing/), [Untappd](https://untappd.com/go_brewing).
 
 ## related
 
@@ -217,7 +217,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Go Brewing pumpkin ale](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884)
+- [Untappd (hand-read citation): Go Brewing pumpkin ale](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884)
 - [Beer page on brewery site](https://gobrewing.com/products/fk-in-pumkin-ale)
 - [Go Brewing](https://gobrewing.com/)
 - [Go Brewing: all beers](https://gobrewing.com/collections/beers)
@@ -225,8 +225,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
 
 ## research-notes
 

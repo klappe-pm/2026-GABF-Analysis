@@ -28,8 +28,8 @@ categories-won:
   - "Brown Porter"
   - "Coffee Beer"
   - "German Sour Ale"
-  - "Munich-Style Helles"
-  - "South German-Style Hefeweizen"
+  - "Munich Helles"
+  - "South German Hefeweizen"
 city: "Bellingham"
 employees: null
 farms-named: []
@@ -41,11 +41,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/kulshanbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 3
@@ -63,10 +62,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "kulshan-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "WA"
 untappd: null
-website: "http://www.kulshanbrewing.com"
+website: "https://kulshanbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

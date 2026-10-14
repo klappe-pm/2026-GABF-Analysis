@@ -136,11 +136,11 @@ Matcha Tart is a gose brewed with Japanese matcha by Ikasu Brewing, a Japanese-i
 | Style | Gose w/ Matcha | [Ikasu: beer menu](https://ikasubrewing.com/menu-light/) |
 | ABV | 4.0% (the six-pack sampler sheet on the home page gives 4.7%) | [Ikasu: beer menu](https://ikasubrewing.com/menu-light/) |
 | IBU | 10 | [Ikasu: Matcha Tart listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Japanese matcha | [Ikasu: beer menu](https://ikasubrewing.com/menu-light/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -160,17 +160,17 @@ Matcha is the only named ingredient. The description mentions gentle salinity, b
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -188,7 +188,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Ikasu Brewing is in Los Angeles, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.ikasubrewing.com/), [Untappd](https://untappd.com/Ikasu_Brewing).
 
 ## related
 
@@ -203,7 +203,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ikasubrewing.com](https://ikasubrewing.com/menu-light/), [untappd.com](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486), [ikasubrewing.com](https://www.ikasubrewing.com/), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ikasubrewing.com](https://ikasubrewing.com/menu-light/), [untappd.com](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486), [ikasubrewing.com](https://www.ikasubrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

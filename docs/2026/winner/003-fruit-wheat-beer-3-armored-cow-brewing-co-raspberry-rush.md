@@ -142,12 +142,12 @@ Raspberry Rush is a seasonal wheat ale from Armored Cow Brewing Co. in Charlotte
 |---|---|---|
 | Style | wheat ale on a German hefe base (Untappd: Wheat Beer, Fruited) | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
 | ABV | 5.4% | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | raspberry puree | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
-| Other | seasonal; billed on Untappd as a 2026 World Beer Cup gold medal winner | [Untappd: Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670) |
+| Other | seasonal; billed on Untappd as a 2026 World Beer Cup gold medal winner | [Untappd (hand-read citation): Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670) |
 
 ## brewery-description
 
@@ -163,21 +163,21 @@ Source: [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap)
 
 ## ingredients
 
-Raspberry puree and a German hefeweizen base are the only ingredients named; the brewery's Untappd entry says "a ton of raspberry puree" went in ([Untappd: Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670)). No hop, malt or yeast names are published.
+Raspberry puree and a German hefeweizen base are the only ingredients named; the brewery's Untappd entry says "a ton of raspberry puree" went in ([Untappd (hand-read citation): Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670)). No hop, malt or yeast names are published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -205,13 +205,13 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 
 - [Beer page on brewery site](https://www.armoredcowbrewing.com/on-tap)
 - [Armored Cow Brewing Co.](https://www.armoredcowbrewing.com/)
-- [Untappd: Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670)
+- [Untappd (hand-read citation): Raspberry Rush](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

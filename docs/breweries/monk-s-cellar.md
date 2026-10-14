@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/078-belgian-style-strong-specialty-ale-2-monks-cellar-diabolique.md"
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
 city: "Roseville"
 employees: null
 farms-named: []
@@ -33,12 +33,11 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used:
   - "../hops/varieties/saaz.md"
-instagram: null
+instagram: "https://www.instagram.com/themonkscellar/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "monk-s-cellar"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: "http://monkscellar.com"
+website: "https://www.monkscellar.com/"
 world-beer-cup-medals: 0
 ---
 

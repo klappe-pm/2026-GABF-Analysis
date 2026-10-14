@@ -5,7 +5,7 @@ import { laneModel } from '@/lib/site-data';
 type Model = typeof import('@/lib/models/hops.mjs');
 const model = () => laneModel<Model>('hops');
 
-export type { BeerHopProfile, Cell, FarmLink, Hop, HopCard, HopFarm, HopFarmsIndex, HopsIndex, HopWinnerRow, Source, Table } from '@/lib/models/hops.mjs';
+export type { BeerHopProfile, BeerRef, Cell, FarmLink, Hop, HopCard, HopFarm, HopFarmsIndex, HopsIndex, HopWinnerRow, Source, Table } from '@/lib/models/hops.mjs';
 
 export const hopsIndex = async () => (await model()).hopsIndex();
 export const hop = async (slug: string) => (await model()).hop(slug);

@@ -26,7 +26,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Amber Lager"
-  - "American-Style Brown Ale"
+  - "American Brown Ale"
   - "English India Pale Ale or New Zealand India Pale Ale"
   - "German Dark Lager"
   - "Herb and Spice Beer"
@@ -35,7 +35,7 @@ categories-won:
   - "Specialty India Pale Ale"
   - "Strong Porter"
   - "Strong Red Ale"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Buellton"
 employees: null
 farms-named: []
@@ -50,14 +50,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/amarillo.md"
   - "../hops/varieties/citra.md"
-instagram: null
+instagram: "https://www.instagram.com/figmtnbrew/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 3
@@ -76,10 +74,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "figueroa-mountain-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.figmtnbrew.com/"
 world-beer-cup-medals: 0
 ---
 

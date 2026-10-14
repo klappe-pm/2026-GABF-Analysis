@@ -1,12 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { canonicalCategoryNames, categoryFold, categoryIndex, loadDataset } from '../scripts/lib/data-model.mjs';
+import { canonicalCategoryNames, categoryFold, categoryIndex, loadDataset, stripStyle } from '../scripts/lib/data-model.mjs';
 import { optionList } from '../site/assets/filter-bar.mjs';
 
 test('spellings that differ only in hyphens, slashes, spacing or case fold to one key', () => {
   assert.equal(categoryFold('Mixed-Culture Brett Beer'), categoryFold('Mixed Culture Brett Beer'));
   assert.equal(categoryFold('No/Low-Tannin Cider'), categoryFold('No/Low Tannin Cider'));
-  assert.notEqual(categoryFold('American-Style Pilsener'), categoryFold('American Pilsener'));
+  assert.equal(categoryFold('American-Style Pilsener'), categoryFold('American Pilsener'), 'the word Style is dropped');
+  assert.notEqual(categoryFold('American Pilsener'), categoryFold('German Pilsener'));
 });
 
 test('the newest year spelling is the display name', () => {
@@ -30,4 +31,14 @@ test('each category has one name, one page address and one filter option across 
   assert.equal(options.filter((v) => /brett|tannin/i.test(v) && /mixed|tannin/i.test(v)).length, 2);
   const brett = categoryIndex(ds).find((c) => c.slug === 'mixed-culture-brett-beer');
   assert.deepEqual(brett.years.map((y) => y.year), [2021, 2022, 2023, 2024, 2025, 2026]);
+});
+
+test('no category name carries the word Style, and the spellings that differ only by it are one category', () => {
+  const ds = loadDataset();
+  for (const r of ds.results) assert.ok(!/\bstyle\b/i.test(r.category_name), `${r.year} ${r.beer_name}: ${r.category_name}`);
+  const names = new Set(ds.results.map((r) => r.category_name));
+  assert.ok(names.has('American Brown Ale') && !names.has('American-Style Brown Ale'));
+  assert.equal(names.size, new Set([...names].map(categoryFold)).size, 'no two names fold to one key');
+  assert.equal(stripStyle('Dortmunder or German-Style Festbier'), 'Dortmunder or German Festbier');
+  assert.equal(stripStyle('Berliner-Style Weisse'), 'Berliner Weisse');
 });

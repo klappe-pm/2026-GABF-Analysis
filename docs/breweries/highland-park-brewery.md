@@ -22,11 +22,11 @@ beers-2026:
   - "../2026/winner/099-juicy-or-hazy-imperial-india-pale-ale-3-highland-park-brewery-ddh-pillow.md"
 brewery-type: "micro"
 categories-won:
-  - "American-Style India Pale Ale"
-  - "American-Style Pale Ale"
-  - "Contemporary American-Style Lager"
+  - "American India Pale Ale"
+  - "American Pale Ale"
+  - "Contemporary American Lager"
   - "India Pale Lager"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Juicy or Hazy Imperial India Pale Ale"
   - "Kellerbier or Zwickelbier"
 city: "Los Angeles"
@@ -42,13 +42,11 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/citra.md"
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/highlandparkbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -66,10 +64,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "highland-park-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.hpb.la"
+untappd: "https://untappd.com/HighlandParkBrewery"
+website: "https://hpb.la/"
 world-beer-cup-medals: 0
 ---
 

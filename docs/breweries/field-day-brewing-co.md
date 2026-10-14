@@ -23,8 +23,8 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Fruit Beer"
+  - "International Amber Lager"
   - "International Dark Lager"
-  - "International-Style Amber Lager"
 city: "North Liberty"
 employees: null
 farms-named: []
@@ -39,8 +39,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/saaz.md"
 instagram: null
@@ -58,10 +56,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "field-day-brewing-co"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "IA"
-untappd: null
-website: null
+untappd: "https://untappd.com/FieldDayBrewingCompany"
+website: "https://www.fielddaybrewing.com/"
 world-beer-cup-medals: 0
 ---
 

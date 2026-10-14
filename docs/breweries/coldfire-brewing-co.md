@@ -23,9 +23,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Czech-Style Pale Lager"
+  - "Czech Pale Lager"
   - "Mixed Culture Brett Beer"
-  - "Session Beer or Belgian-Style Table Beer"
+  - "Session Beer or Belgian Table Beer"
   - "Wood- and Barrel-Aged Sour Beer"
 city: "Eugene"
 employees: null

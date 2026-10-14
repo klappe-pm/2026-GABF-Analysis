@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/054-dortmunder-or-german-style-festbier-2-fat-heads-brewery-8th-anniversary-lager.md"
 brewery-type: "regional"
 categories-won:
-  - "Dortmunder or German-Style Festbier"
+  - "Dortmunder or German Festbier"
   - "German Wheat Ale"
   - "Imperial India Pale Ale"
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
   - "Specialty Non-Alcohol Beer"
   - "Strong Porter"
   - "Strong Red Ale"
@@ -39,11 +39,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/fatheadsbeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 3
@@ -60,10 +58,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "fat-head-s-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OH"
-untappd: null
-website: "http://www.fatheads.com"
+untappd: "https://untappd.com/fatheadsbrewery"
+website: "https://fatheads.com/"
 world-beer-cup-medals: 0
 ---
 

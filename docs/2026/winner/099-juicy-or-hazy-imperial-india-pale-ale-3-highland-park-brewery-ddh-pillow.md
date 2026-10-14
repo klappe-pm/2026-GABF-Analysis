@@ -199,11 +199,11 @@ DDH Pillow is a double dry hopped juicy imperial IPA from Highland Park Brewery 
 |---|---|---|
 | Style | Hazy Double IPA | [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/) |
 | ABV | 8% | [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Citra Cryo, Mosaic, Mosaic Cryo | [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/) |
 | Malts and grains | Admiral Maltings malt, varieties not specified | [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | earlier GABF golds in 2022, 2023 and 2024 | [Highland Park Brewery: awards and press](https://hpb.la/awards-press/) |
 
 ## brewery-description
@@ -226,20 +226,20 @@ The brewery identifies its malt supplier in the specs table but does not name in
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
-| Citra Cryo | Citra | Cryo | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
-| Mosaic | Mosaic | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
-| Mosaic Cryo | Mosaic | Cryo | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Citra | Citra | Not Found | Not Found | Not Found | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Citra Cryo | Citra | Cryo | Not Found | Not Found | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Mosaic Cryo | Mosaic | Cryo | Not Found | Not Found | [web page](https://hpb.la/shop/product/ffdelivery3/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -259,7 +259,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Highland Park Brewery is in Los Angeles, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://hpb.la/), [Instagram](https://www.instagram.com/highlandparkbrewery/), [Untappd](https://untappd.com/HighlandParkBrewery).
 
 ## related
 
@@ -279,8 +279,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
+- Not Found: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
 
 ## research-notes
 

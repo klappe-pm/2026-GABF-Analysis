@@ -186,11 +186,11 @@ The Burden of Being Wonderful is a Belgian ale brewed at commercial scale by Wil
 | Style | Belgian Single | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
 | ABV | 6% | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
 | IBU | 42 | [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -200,7 +200,7 @@ Source: [Commercial beer listing](https://untappd.com/b/wild-blue-yonder-brewing
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -208,17 +208,17 @@ No ingredients are published for the commercial batch. Sensory references to hon
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -253,7 +253,7 @@ Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [In
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierederock.com](https://bierederock.com/), [brewlog.geoffhumphrey.com](https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495), [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierederock.com](https://bierederock.com/), [brewlog.geoffhumphrey.com](https://brewlog.geoffhumphrey.com/brewblog/the-burden-of-being-wonderful/belgian-single/detail/geoff/495), [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-the-burden-of-being-wonderful/6860321/nearby), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -263,3 +263,4 @@ Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [In
 - The drink menu shows the same news item but no ABV, IBU or ingredients; the brewery has no individual beer pages.
 - The brewery page does not name the homebrewer; the name comes from the official winners list.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu names the Pro-Am medal only; the description on file comes from Untappd.

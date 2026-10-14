@@ -25,10 +25,10 @@ beers-2026:
 brewery-type: "planning"
 categories-won:
   - "American Amber Lager"
-  - "American-Style Light Lager"
+  - "American Light Lager"
   - "Golden or Blonde Ale"
-  - "Munich-Style Helles"
-  - "New Zealand-Style Pale Ale"
+  - "Munich Helles"
+  - "New Zealand Pale Ale"
 city: "Ventura"
 employees: null
 farms-named: []

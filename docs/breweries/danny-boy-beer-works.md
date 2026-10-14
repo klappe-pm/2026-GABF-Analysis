@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "brewpub"
 categories-won:
   - "Bock"
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
 city: "Carmel"
 employees: null
 farms-named: []

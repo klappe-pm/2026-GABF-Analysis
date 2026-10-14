@@ -197,12 +197,12 @@ Big Cone, first released in 2014 as Big Cone Black Ale, is a hoppy black ale fro
 | Field | Value | Source |
 |---|---|---|
 | Style | American-Style Black Ale | [The Full Pint: Big Cone release](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/) |
-| ABV | not published | none found |
-| IBU | not published | none found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
 | Hops | Citra and Amarillo (finishing hops) | [Food GPS: founders interview](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none named | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none named | Not Found |
 | Other | bottled at its 2014 release | [The Full Pint: Big Cone release](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/) |
 
 ## brewery-description
@@ -225,17 +225,17 @@ The 2014 release copy describes piney, earthy kettle hops and a dry hop of flora
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Amarillo | Amarillo | not published | not published | not published | [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/) |
-| Citra | Citra | not published | not published | not published | [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/) |
+| Amarillo | Amarillo | Not Found | Not Found | Not Found | [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/) |
+| Citra | Citra | Not Found | Not Found | Not Found | [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Kettle hopped, then dry-hopped | [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/) |
 
 ## style-context
@@ -254,7 +254,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Figueroa Mountain Brewing Co. is in Buellton, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.figmtnbrew.com/), [Instagram](https://www.instagram.com/figmtnbrew/).
 
 ## related
 
@@ -275,8 +275,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: ABV, IBU. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 

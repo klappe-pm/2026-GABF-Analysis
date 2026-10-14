@@ -156,11 +156,11 @@ Hell Yeah is a gluten-free hazy IPA hopped with Mosaic and El Dorado, one of the
 |---|---|---|
 | Style | GF Hazy IPA | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
 | ABV | 6.5% | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Mosaic, El Dorado | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed as a flagship | [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap) |
 
 ## brewery-description
@@ -183,18 +183,18 @@ The tap list names two hops, Mosaic (spelled "Mosiac" on the page) and El Dorado
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| El Dorado | El Dorado | not published | not published | not published | [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap) |
-| Mosaic | Mosaic | not published | not published | not published | [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap) |
+| El Dorado | El Dorado | Not Found | Not Found | Not Found | [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -227,12 +227,12 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - [Beer page on brewery site](https://www.armoredcowbrewing.com/on-tap)
 - [Armored Cow Brewing Co.](https://www.armoredcowbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Armored Cow Hell Yeah](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387)
+- [Untappd (hand-read citation): Armored Cow Hell Yeah](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

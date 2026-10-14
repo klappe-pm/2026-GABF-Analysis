@@ -11,13 +11,19 @@ const basePath = process.env.NEXT_BASE_PATH ?? '';
 // that only shows values, so no editing code reaches web/out.
 const review = process.env.DESIGN_REVIEW === '1';
 
+// WEB_REVIEW=1 builds the feedback widget and the in place copy editor into web/out-web-review (npm run
+// web:review). Every other build aliases them to a stand in that renders nothing, so no review code reaches
+// the public export. WEB_DIST_DIR names another output folder, which the test of that claim builds into.
+const webReview = process.env.WEB_REVIEW === '1';
+const distDir = process.env.WEB_DIST_DIR ?? (webReview ? 'out-web-review' : review ? 'out-review' : undefined);
+
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath,
   images: { unoptimized: true },
   env: { NEXT_PUBLIC_BASE_PATH: basePath },
-  ...(review ? { distDir: 'out-review' } : {}),
+  ...(distDir ? { distDir } : {}),
   // The root is the repository, so the app can bundle the filter rules the current site uses
   // (site/assets/filter-bar.mjs through lib/filter-model.mjs). Build time data is not bundled: see lib/site-data.ts.
   turbopack: {
@@ -27,6 +33,7 @@ const nextConfig: NextConfig = {
       // The review settings panel (web/components/review/ReviewSettingsPanel.tsx re-exports this alias):
       // the panel in review mode, a stand in that renders nothing everywhere else.
       'review-settings-panel': review ? './components/review/settings-panel.tsx' : './components/review/settings-panel-off.tsx',
+      'web-review': webReview ? './review/widget.tsx' : './review/widget-off.tsx',
     },
   },
 };

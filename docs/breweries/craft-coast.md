@@ -23,9 +23,9 @@ beers-2026:
   - "../2026/winner/073-english-style-brown-ale-1-craft-coast-beeria.md"
 brewery-type: null
 categories-won:
-  - "English-Style Brown Ale"
+  - "English Brown Ale"
   - "International Dark Lager"
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "Oceanside"
 employees: null
 farms-named: []

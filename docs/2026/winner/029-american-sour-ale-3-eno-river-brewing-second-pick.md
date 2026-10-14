@@ -143,10 +143,10 @@ Second Pick is a Berliner Weisse brewed with North Carolina strawberries and loc
 |---|---|---|
 | Style | Berliner Weisse | [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewing.com/) |
 | ABV | 6.2% | [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewing.com/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | NC strawberries (over 600 pounds from Central NC farms), local basil | [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewing.com/) |
 | Other | returning beer, canned for the first time this year | [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewing.com/) |
 
@@ -160,7 +160,7 @@ Source: [Eno River Brewing: home page Instagram feed](https://www.enoriverbrewin
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -168,16 +168,16 @@ The brewery's release post names North Carolina strawberries, more than 600 poun
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Berliner Weisse with over 600 pounds of strawberries from Central NC farms and local basil | [enoriverbrewing.com](https://www.enoriverbrewing.com/) |
 
 ## style-context
@@ -196,7 +196,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Eno River Brewing is in Hillsborough, NC. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.enoriverbrewing.com/), [Instagram](https://www.instagram.com/enoriverbrewing/), [Untappd](https://untappd.com/EnoRiverBrewing).
 
 ## related
 
@@ -208,12 +208,12 @@ No brewery links have been checked yet.
 - [Eno River Brewing: Instagram post on Second Pick](https://www.instagram.com/p/DZcsA7QlvoZ/)
 - [Eno River Brewing: menu](https://www.enoriverbrewing.com/menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Eno River Second Pick](https://untappd.com/b/eno-river-brewing-second-pick/5500598)
+- [Untappd (hand-read citation): Eno River Second Pick](https://untappd.com/b/eno-river-brewing-second-pick/5500598)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

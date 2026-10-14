@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
-  - "German-Style Doppelbock or Eisbock"
+  - "Belgian Strong Specialty Ale"
+  - "German Doppelbock or Eisbock"
   - "Honey Beer"
 city: "Akron"
 employees: null

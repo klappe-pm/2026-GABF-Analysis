@@ -208,14 +208,14 @@ Imperial Stout is the beer entered by OHB in Hickory, North Carolina.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Imperial Stout (category name; no brewery label found) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Imperial Stout (category name; no brewery label found) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -223,7 +223,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -231,17 +231,17 @@ Nothing about ingredients was found.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -274,8 +274,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file.
-- Not published: ABV, IBU. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file.
+- Not Found: ABV, IBU. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

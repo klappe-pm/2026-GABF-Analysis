@@ -22,7 +22,7 @@ beers-2026:
   - "../2026/winner/025-historical-beer-3-gilde-brewery-broyhan-500.md"
 brewery-type: null
 categories-won:
-  - "German-Style Strong Beer"
+  - "German Strong Beer"
   - "Historical Beer"
 city: "Charlotte"
 employees: null
@@ -36,12 +36,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/gilde1546/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -55,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "gilde-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NC"
-untappd: null
-website: null
+untappd: "https://untappd.com/Gilde1546"
+website: "https://gilde1546.com/"
 world-beer-cup-medals: 0
 ---
 

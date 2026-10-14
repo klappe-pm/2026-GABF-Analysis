@@ -25,9 +25,9 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "English Mild or Bitter"
-  - "English-Style Pale Ale"
+  - "English Pale Ale"
   - "International Light Lager"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Sweet Stout or Cream Stout"
 city: "Paso Robles"
 employees: null
@@ -40,13 +40,11 @@ founded: 1996
 gaps:
   - "beeradvocate"
   - "brewery-type"
-  - "instagram"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/styrian-golding.md"
   - "../hops/varieties/us-tettnang.md"
-instagram: null
+instagram: "https://www.instagram.com/firestonewalker/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -65,9 +63,10 @@ region: "West"
 slug: "firestone-walker-brewing-co"
 sources:
   - "Duvel Moortgat acquisition 2015"
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://www.firestonebeer.com/"
 world-beer-cup-medals: 0
 ---
 

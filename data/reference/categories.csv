@@ -17,9 +17,9 @@ Classic English-Style Pale Ale,British and Irish,4.5,5.5,20,40,5,12,English pale
 Extra Special Bitter,British and Irish,4.8,5.8,30,45,8,14,Stronger English bitter with notable hop and malt character in balance.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Ordinary or Special Bitter,British and Irish,3.0,4.8,20,40,6,14,Session-strength English bitter.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 English-Style Mild Ale,British and Irish,3.2,4.0,10,24,8,34,"Low alcohol malt-forward English session ale,  pale or dark.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
-English-Style Brown Ale,Brown, Amber, and Red,4.2,6.0,12,25,"12, 17, Malty,  nutty brown ale with low hop character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
-American-Style Brown Ale,Brown, Amber, and Red,4.2,6.3,25,45,"15, 26, Brown ale with more hop character and roast than its English counterpart.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
-American-Style Amber/Red Ale,Brown, Amber, and Red,4.4,6.1,25,45,"11, 18, Amber to red ale with caramel malt character and American hops.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+English-Style Brown Ale,"Brown, Amber, and Red",4.2,6.0,12,25,12,17,"Malty,  nutty brown ale with low hop character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Brown Ale,"Brown, Amber, and Red",4.2,6.3,25,45,15,26,"Brown ale with more hop character and roast than its English counterpart.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
+American-Style Amber/Red Ale,"Brown, Amber, and Red",4.4,6.1,25,45,11,18,"Amber to red ale with caramel malt character and American hops.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Imperial Red Ale,Strong and Barrel-Aged,7.9,10.5,55,85,10,15,Strong hoppy red ale with intense caramel malt and hop bitterness.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Irish-Style Red Ale,British and Irish,4.0,4.8,20,28,11,18,Malty red ale with low hop bitterness and a light roast finish.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Scottish-Style Ale,British and Irish,2.8,5.3,9,25,6,19,Malt-forward Scottish ale with low hop character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
@@ -68,7 +68,7 @@ German-Style Altbier,German Ale,4.6,5.6,25,52,11,19,Copper ale with firm bittern
 American Wheat Beer,Wheat,3.7,5.6,10,35,4,10,Light wheat beer fermented with neutral ale yeast.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 South German-Style Hefeweizen,Wheat,4.9,5.6,10,15,3,9,Cloudy wheat beer with banana and clove yeast character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Belgian-Style Witbier,Wheat,4.8,5.6,10,17,2,4,Spiced Belgian wheat beer with coriander and orange peel.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
-Fruit Wheat Beer,Fruit, Spice, and Specialty,3.7,5.6,10,35,"2, 10, Wheat beer with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Fruit Wheat Beer,"Fruit, Spice, and Specialty",3.7,5.6,10,35,2,10,"Wheat beer with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
 Fruited American-Style Sour Ale,Sour and Wild,2.5,12.0,5,30,2,40,Sour ale with fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
 American-Style Sour Ale,Sour and Wild,2.5,12.0,5,30,2,40,Clean sour ale without fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Contemporary Gose,Sour and Wild,4.4,5.4,5,15,3,9,Tart wheat beer with salt and coriander and often fruit.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
@@ -86,21 +86,21 @@ Belgian-Style Strong Golden Ale,Belgian and French,7.1,11.2,20,50,4,7,"Strong go
 Belgian-Style Dark Strong Ale,Belgian and French,7.1,11.2,20,50,9,35,Strong dark Belgian ale.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Belgian-Style Pale Ale,Belgian and French,4.1,6.3,20,30,6,12,Copper Belgian ale with mild yeast character.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
 Biere de Garde,Belgian and French,4.4,8.0,20,30,4,19,French farmhouse lagered ale with toasty malt.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,no
-Coffee Beer,Fruit, Spice, and Specialty,2.5,12.0,5,80,"2, 40, Any style with coffee added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Chocolate or Cocoa Beer,Fruit, Spice, and Specialty,2.5,12.0,5,80,"2, 40, Any style with chocolate or cocoa.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Fruit Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Any non-wheat style with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Field Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with vegetables or botanicals.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Pumpkin Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with pumpkin or squash and often spice.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Chili Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with chili peppers.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Herb and Spice Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with herbs or spices.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Specialty Beer,Fruit, Spice, and Specialty,2.5,12.0,5,100,"2, 40, Beer with unusual ingredients or processes not covered elsewhere.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Experimental Beer,Fruit, Spice, and Specialty,2.5,14.0,5,100,"2, 40, Beer using experimental techniques or ingredients.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Honey Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Beer with honey character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Historical Beer,Fruit, Spice, and Specialty,2.5,12.0,5,70,"2, 40, Recreations of historical styles.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Coffee Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,80,2,40,"Any style with coffee added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Chocolate or Cocoa Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,80,2,40,"Any style with chocolate or cocoa.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Fruit Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Any non-wheat style with fruit added.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Field Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Beer with vegetables or botanicals.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Pumpkin Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Beer with pumpkin or squash and often spice.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Chili Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Beer with chili peppers.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Herb and Spice Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Beer with herbs or spices.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Specialty Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,100,2,40,"Beer with unusual ingredients or processes not covered elsewhere.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Experimental Beer,"Fruit, Spice, and Specialty",2.5,14.0,5,100,2,40,"Beer using experimental techniques or ingredients.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Honey Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Beer with honey character.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
+Historical Beer,"Fruit, Spice, and Specialty",2.5,12.0,5,70,2,40,"Recreations of historical styles.",Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
 Non-Alcohol Beer,Gluten-Free and Non-Alcoholic,0.0,0.5,5,70,2,40,Beer at or below 0.5% ABV.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
 Hop Water,Gluten-Free and Non-Alcoholic,0.0,0.5,0,10,0,2,New for 2026: non-alcoholic carbonated water flavored with hops.,GABF 2026 competition update,approximate,yes
 Gluten-Free Beer,Gluten-Free and Non-Alcoholic,2.5,12.0,5,70,2,40,Beer brewed without gluten-containing grains.,Brewers Association Beer Style Guidelines (approximate ranges),approximate,yes
-Craft Malt,Fruit, Spice, and Specialty,2.5,12.0,5,100,"2, 40, One-time 2026 category for beers showcasing craft malt.",GABF 2026 competition update,approximate,yes
+Craft Malt,"Fruit, Spice, and Specialty",2.5,12.0,5,100,2,40,"One-time 2026 category for beers showcasing craft malt.",GABF 2026 competition update,approximate,yes
 Pro-Am,Pro-Am and Collaboration,2.5,14.0,5,100,2,40,Professional and amateur collaboration entries judged in their own competition.,GABF competition rules,approximate,yes
 Collaboration,Pro-Am and Collaboration,2.5,14.0,5,100,2,40,Collaboration entries judged in their own competition.,GABF competition rules,approximate,yes
 Cider,Cider and Mead,4.5,12.0,0,0,0,0,Fermented apple beverages judged alongside beer at GABF since 2023.,GABF competition rules,approximate,yes

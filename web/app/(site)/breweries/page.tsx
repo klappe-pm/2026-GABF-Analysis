@@ -29,6 +29,9 @@ export default async function BreweriesPage() {
   const columns = group('global.tables.brewery_columns');
   const copy: IndexCopy = {
     caption: t(page('table.caption')),
+    showing: raw(page('table.showing')),
+    showMore: raw(page('table.show_more')),
+    showAll: raw(page('table.show_all')),
     sortHint: t('global.tables.sorting.hint'),
     columns: { brewery: columns.brewery, hq: columns.hq, type: columns.type, medals: columns.medals, split: columns.medal_split, points: columns.points, first: columns.first, latest: columns.latest, ownership: columns.ownership, arr: columns.arr },
     deepDive: t(page('table.deep_dive_pill')),
@@ -36,7 +39,7 @@ export default async function BreweriesPage() {
     countOne: t(page('table.count_one')),
     searchLabel: t(page('table.search_label')),
     searchPlaceholder: t(page('table.search_placeholder')),
-    notDefined: t('global.states.gaps.not_defined'),
+    notDefined: t('global.labels.not_found'),
     methodLink: t(page('table.method_link')),
     mark: t('global.states.estimates.marker'),
     medalNames: group('global.labels.medal') as IndexCopy['medalNames'],

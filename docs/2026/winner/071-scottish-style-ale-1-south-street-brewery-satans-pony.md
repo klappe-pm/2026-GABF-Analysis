@@ -165,24 +165,24 @@ Satan's Pony is an ale from South Street Brewery of Charlottesville, Virginia.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Amber Ale (Untappd: Red Ale, American Amber / Red) | [South Street Brewery](https://www.southstreetbrewery.com/), [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
-| ABV | 5.3% | [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
-| IBU | 12 | [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
-| Hops | not published | none found |
-| Malts and grains | Cara Red and medium crystal malts | [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
-| Other | not published | none found |
+| Style | Amber Ale (Untappd: Red Ale, American Amber / Red) | [South Street Brewery](https://www.southstreetbrewery.com/), [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
+| ABV | 5.3% | [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
+| IBU | 12 | [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Cara Red and medium crystal malts | [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > Malty amber ale with a blend of Cara Red and medium crystal malts. "Satan's Pony" is a nickname for a motorcycle, for those who were curious.
 
-Source: [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140)
+Source: [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -190,17 +190,17 @@ The two named specialty malts are the only published ingredients; no base malt, 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -228,12 +228,12 @@ Links checked 2026-10-14: [Website](https://www.southstreetbrewery.com/), [Untap
 
 - [South Street Brewery](https://www.southstreetbrewery.com/)
 - [Blue Mountain Barrel House](https://bluemountainbarrel.com/)
-- [Untappd: Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140)
+- [Untappd (hand-read citation): Satan's Pony](https://untappd.com/b/south-street-brewery-satan-s-pony/695140)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bluemountainbarrel.com](https://bluemountainbarrel.com/), [untappd.com](https://untappd.com/b/south-street-brewery-satan-s-pony/695140), [untappd.com](https://untappd.com/SouthStreetBrewery/beer), [untappd.com](https://untappd.com/v/blue-mountain-barrel-house/325306), [southstreetbrewery.com](https://www.southstreetbrewery.com/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bluemountainbarrel.com](https://bluemountainbarrel.com/), [untappd.com](https://untappd.com/b/south-street-brewery-satan-s-pony/695140), [untappd.com](https://untappd.com/SouthStreetBrewery/beer), [untappd.com](https://untappd.com/v/blue-mountain-barrel-house/325306), [southstreetbrewery.com](https://www.southstreetbrewery.com/), web searches recorded in the research notes.
 
 ## research-notes
 

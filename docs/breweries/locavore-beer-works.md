@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/059-german-style-schwarzbier-3-locavore-beer-works-friend-of-the-devil.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Schwarzbier"
+  - "German Schwarzbier"
 city: "Littleton"
 employees: null
 farms-named: []
@@ -51,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "locavore-beer-works"
-sources: []
+sources:
+  - "website resolved"
 state: "CO"
 untappd: null
-website: "http://www.locavorebeerworks.com"
+website: "https://www.locavorebeerworks.com/"
 world-beer-cup-medals: 0
 ---
 

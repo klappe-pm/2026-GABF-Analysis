@@ -23,7 +23,7 @@ brewery-type: "micro"
 categories-won:
   - "American Amber/Red Ale"
   - "American Black Ale or American Stout"
-  - "American-Style Pale Ale"
+  - "American Pale Ale"
 city: "Seattle"
 employees: null
 farms-named: []

@@ -24,7 +24,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Experimental Beer"
   - "Fruited Wood- and Barrel-Aged Sour Beer"
   - "New Zealand India Pale Ale"

@@ -30,13 +30,6 @@ description:
 entries: 28
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://haykinfamilycider.com/"
-      - "https://haykinfamilycider.com/bottle-menu"
-      - "https://haykinfamilycider.com/tasting-menu"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://haykinfamilycider.com/"
@@ -44,6 +37,7 @@ gaps:
       - "https://haykinfamilycider.com/tasting-menu"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://haykinfamilycider.com/"
@@ -143,7 +137,9 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Ice Cider"
-tasting-notes: null
+tasting-notes:
+  text: "Lychee, poached pears, cloves and spices."
+  source: "https://haykinfamilycider.com/bottle-menu"
 water: null
 yeast: []
 ---
@@ -164,11 +160,11 @@ LUCY Ice Cider is a sweet dessert ice cider made entirely from LUCY apples by Ha
 |---|---|---|
 | Style | Ice Cider (sweet) | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
 | ABV | 12% | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based: 100% LUCY from Topcliff Orchards) | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 375 ml bottle; 2025 vintage | [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu) |
 
 ## brewery-description
@@ -179,7 +175,9 @@ Source: [Haykin: bottle menu](https://haykinfamilycider.com/bottle-menu)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Lychee, poached pears, cloves and spices.
+
+Source: [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu)
 
 ## ingredients
 
@@ -187,17 +185,17 @@ Both cidery menus list the ice cider as made from LUCY apples grown at Topcliff 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -230,8 +228,8 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
-- Not published: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -240,3 +238,4 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 - The cidery also sells a semi-dry LUCY cider at 6.2%; the ice cider is the separate 12% dessert product.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the bottle menu's tasting line for the ice cider is recorded; the menu's separate LUCY still cider is a different product.

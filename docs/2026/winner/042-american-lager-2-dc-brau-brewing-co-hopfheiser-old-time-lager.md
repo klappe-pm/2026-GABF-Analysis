@@ -166,12 +166,12 @@ Old Time Lager is a light bodied American lager of 2-row barley and flaked corn,
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Lager, American | [Untappd: Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176) |
-| ABV | 4% | [Untappd: Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| Style | Lager, American | [Untappd (hand-read citation): Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176) |
+| ABV | 4% | [Untappd (hand-read citation): Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | North American 2-row barley | [DC Beer: Old Time relaunch](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Flaked corn | [DC Beer: Old Time relaunch](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/) |
 | Other | 12 oz cans in 12 packs and 16 oz tallboys in 4 packs | [DC Beer: Old Time relaunch](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/) |
 
@@ -183,7 +183,7 @@ Source: [Old Time Lager: brand site](https://www.oldtimelager.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -191,17 +191,17 @@ The 2022 launch release, quoted by [DC Beer](https://dcbeer.com/2022/04/05/old-t
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -219,7 +219,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.dcbrau.com/), [Instagram](https://www.instagram.com/dcbrau/), [Untappd](https://untappd.com/HopfheiserBrewingCompany).
 
 ## related
 
@@ -231,13 +231,13 @@ No brewery links have been checked yet.
 - [DC Brau Brewing Co.](https://www.dcbrau.com/)
 - [DC Brau: awards](https://www.dcbrau.com/awards)
 - [DC Beer: Old Time relaunch](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/)
-- [Untappd: Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176)
+- [Untappd (hand-read citation): Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

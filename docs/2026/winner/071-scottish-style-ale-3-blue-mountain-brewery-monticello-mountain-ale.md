@@ -118,9 +118,9 @@ Monticello Mountain Ale is a honey ale from Blue Mountain Brewery of Afton, Virg
 | Style | Local Honey Ale | [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 | ABV | 5.5% | [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 | IBU | 12 | [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
-| Hops | varieties not named | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | varieties not named | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | honey from Monticello's beehives | [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 | Other | year round | [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 
@@ -142,16 +142,16 @@ Honey is the only named ingredient; the beer is described as lightly hopped, wit
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Brilliant copper (no SRM number published) | [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Brewed with honey from Monticello's own beehives, in collaboration with Thomas Jefferson's Monticello | [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 
 ## style-context
@@ -170,7 +170,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Blue Mountain Brewery is in Afton, VA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://bluemountainbrewery.com/), [Instagram](https://www.instagram.com/bluemountainbrewery/).
 
 ## related
 
@@ -184,7 +184,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bluemountainbrewery.com](https://bluemountainbrewery.com/), [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bluemountainbrewery.com](https://bluemountainbrewery.com/), [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/), web searches recorded in the research notes.
 
 ## research-notes
 

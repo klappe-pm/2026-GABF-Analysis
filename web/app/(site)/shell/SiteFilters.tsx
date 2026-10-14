@@ -29,6 +29,8 @@ export type SiteFiltersConfig = {
 const GROUP_KEYS: Record<string, string> = { When: 'when', What: 'what', Where: 'where', Who: 'who' };
 // The option that clears a dimension; never a value in the data.
 const ALL = 'all';
+// The investor filter is built but hidden until the owner sets NEXT_PUBLIC_FILTER_INVESTOR=on.
+const INVESTOR_ON = process.env.NEXT_PUBLIC_FILTER_INVESTOR === 'on';
 
 const fill = (text: string, values: Record<string, string | number>) => text.replace(/\{\{(\w+)\}\}/g, (m, k) => (k in values ? String(values[k]) : m));
 
@@ -65,7 +67,7 @@ export function useFilterFields(config: SiteFiltersConfig, draft: FilterState) {
   const groups: FilterGroup[] = useMemo(() => Object.keys(GROUP_KEYS).map((g) => ({
     key: GROUP_KEYS[g],
     title: config.groups[GROUP_KEYS[g]],
-    fields: FILTERS.filter((d) => d.group === g && !Object.hasOwn(scope.scope, d.id)).map((d) => {
+    fields: FILTERS.filter((d) => d.group === g && (!d.hidden || INVESTOR_ON) && !Object.hasOwn(scope.scope, d.id)).map((d) => {
       const opts = data ? optionList(pool, d.id, draft).map((o) => ({ value: o.value, label: fill(config.withCount, { label: label(d.id, o.value), count: o.count }) })) : [];
       const current = draft[d.id];
       if (current && !opts.some((o) => o.value === current)) opts.unshift({ value: current, label: label(d.id, current) });

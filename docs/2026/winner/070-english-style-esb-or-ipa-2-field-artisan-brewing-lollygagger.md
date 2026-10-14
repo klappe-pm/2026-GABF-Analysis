@@ -190,14 +190,14 @@ Lollygagger is an English-style bitter from Field Artisan Brewing, which trades 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published by the brewery; Untappd lists "Bitter, Session / Ordinary" | [Untappd: Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
-| ABV | 5.1% | [Untappd: Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
-| IBU | 40 | [Untappd: Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published by the brewery; Untappd lists "Bitter, Session / Ordinary" | [Untappd (hand-read citation): Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
+| ABV | 5.1% | [Untappd (hand-read citation): Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
+| IBU | 40 | [Untappd (hand-read citation): Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -205,7 +205,7 @@ No brewery description of Lollygagger was found on the brewery site or on its Un
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -213,17 +213,17 @@ Nothing about ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,7 +241,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Field Artisan Brewing is in Westfield, IN.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.fieldbrewing.com/), [Instagram](https://www.instagram.com/fieldbrewing/), [Untappd](https://untappd.com/FieldBrewing).
 
 ## related
 
@@ -250,13 +250,13 @@ No brewery links have been checked yet.
 ## links
 
 - [Field Brewing](https://www.fieldbrewing.com/)
-- [Untappd: Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097)
-- [Untappd: Field Brewing beer list](https://untappd.com/FieldBrewing/beer)
+- [Untappd (hand-read citation): Lollygagger](https://untappd.com/b/field-brewing-lollygagger/2870097)
+- [Untappd (hand-read citation): Field Brewing beer list](https://untappd.com/FieldBrewing/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-brewing-lollygagger/2870097), [untappd.com](https://untappd.com/FieldBrewing/beer), [fieldbrewing.com](https://www.fieldbrewing.com/), [fieldbrewing.com](https://www.fieldbrewing.com/menu), [fieldbrewing.com](https://www.fieldbrewing.com/our-beer), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-brewing-lollygagger/2870097), [untappd.com](https://untappd.com/FieldBrewing/beer), [fieldbrewing.com](https://www.fieldbrewing.com/), [fieldbrewing.com](https://www.fieldbrewing.com/menu), [fieldbrewing.com](https://www.fieldbrewing.com/our-beer), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 

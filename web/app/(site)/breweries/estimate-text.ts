@@ -53,11 +53,11 @@ function arrText(e: EstimateFacts, c: EstimateCopy) {
 function inputsText(e: EstimateFacts, c: EstimateCopy) {
   const t = c.templates;
   const item = (label: string, value: string) => fill(t.input_item, { label, value });
-  const kitchen = e.kitchen === null ? t.value_kitchen_unknown : c.yesNo[e.kitchen ? 'yes' : 'no'];
+  const kitchen = e.kitchen === null ? fill(t.value_kitchen_unknown, { not_found: c.notDefined }) : c.yesNo[e.kitchen ? 'yes' : 'no'];
   return fill(t.inputs, {
     items: [
       item(t.input_barrels, fill(t.value_barrels, { barrels: n(e.barrels), basis: lower(c.basis[e.basis] ?? e.basis).replace(/\s*\(e\)$/, '') })),
-      item(t.input_type, e.assumed ? t.value_type_assumed : c.types[e.type ?? ''] ?? c.notDefined),
+      item(t.input_type, e.assumed ? fill(t.value_type_assumed, { not_found: c.notDefined }) : c.types[e.type ?? ''] ?? c.notDefined),
       item(t.input_locations, String(e.locations)),
       item(t.input_kitchen, kitchen),
       item(t.input_distribution, e.channel ? c.channels[e.channel] ?? c.notDefined : c.notDefined),

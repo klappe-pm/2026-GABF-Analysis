@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/080-belgian-style-fruit-beer-1-bull-and-bush-brewery-pineapple-3-way.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Fruit Beer"
+  - "Belgian Fruit Beer"
   - "Wood- and Barrel-Aged Beer"
 city: "Denver"
 employees: null

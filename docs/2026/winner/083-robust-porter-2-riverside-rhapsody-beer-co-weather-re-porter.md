@@ -168,14 +168,14 @@ Weather Re-Porter is a porter from Riverside Rhapsody Beer Co., whose taproom si
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Robust Porter (category name; no brewery label found) | none found |
-| ABV | 6% | [Untappd: Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Robust Porter (category name; no brewery label found) | Not Found |
+| ABV | 6% | [Untappd (hand-read citation): Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -183,7 +183,7 @@ No brewery description of this beer could be read; the tap list loads from a sep
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -191,17 +191,17 @@ Nothing about ingredients was found.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -219,7 +219,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Riverside Rhapsody Beer Co. is in Asheville, NC.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.riversiderhapsody.com/), [Instagram](https://www.instagram.com/riversiderhapsody/).
 
 ## related
 
@@ -227,7 +227,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309)
+- [Untappd (hand-read citation): Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309)
 - [Riverside Rhapsody Beer Co.](https://www.riversiderhapsody.com/)
 - [Riverside Rhapsody: beer menu](https://www.riversiderhapsody.com/food-menu)
 - [Riverside Rhapsody: drink menu](https://www.riversiderhapsody.com/drink-menu)
@@ -235,8 +235,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

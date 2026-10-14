@@ -30,13 +30,6 @@ description:
 entries: 37
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://asb.beer/products/froth-water"
-      - "https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/"
-      - "https://www.alvaradostreetbrewery.com/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://asb.beer/products/froth-water"
@@ -44,6 +37,7 @@ gaps:
       - "https://www.alvaradostreetbrewery.com/"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://asb.beer/products/froth-water"
@@ -150,7 +144,9 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Sparkling Hop Water"
-tasting-notes: null
+tasting-notes:
+  text: "Zero Alcohol. Zero calories. Zero Hangover. Unbelievable amounts of flavor."
+  source: "https://asb.beer/products/froth-water"
 water: null
 yeast: []
 ---
@@ -171,11 +167,11 @@ Froth Water is a zero alcohol sparkling hop water from Alvarado Street Brewery, 
 |---|---|---|
 | Style | Sparkling Hop Water | [Alvarado Street: Froth Water](https://asb.beer/products/froth-water) |
 | ABV | 0.0% | [Alvarado Street: Froth Water](https://asb.beer/products/froth-water) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Mosaic | [Alvarado Street: Froth Water](https://asb.beer/products/froth-water) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Zero calories; 4-pack of 16 oz cans; carbonated with CO2 recaptured from the brewery's fermentations | [Alvarado Street: Froth Water](https://asb.beer/products/froth-water), [The Brewer Magazine: release](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/) |
 
 ## brewery-description
@@ -186,7 +182,9 @@ Source: [Alvarado Street: Froth Water](https://asb.beer/products/froth-water)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Zero Alcohol. Zero calories. Zero Hangover. Unbelievable amounts of flavor.
+
+Source: [asb.beer](https://asb.beer/products/froth-water)
 
 ## ingredients
 
@@ -196,18 +194,18 @@ The brewery names only sparkling water and Citra and Mosaic hops. A December 202
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [asb.beer](https://asb.beer/products/froth-water) |
-| Mosaic | Mosaic | not published | not published | not published | [asb.beer](https://asb.beer/products/froth-water) |
+| Citra | Citra | Not Found | Not Found | Not Found | [asb.beer](https://asb.beer/products/froth-water) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [asb.beer](https://asb.beer/products/froth-water) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -225,7 +223,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Alvarado Street Brewery is in Salinas, CA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.alvaradostreetbrewery.com/).
 
 ## related
 
@@ -244,8 +242,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
-- Not published: IBU. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: IBU. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -255,3 +253,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No IBU, malt or yeast information is published.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery shop page names Citra and Mosaic and gives no further detail.

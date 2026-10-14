@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Style Light Lager"
+  - "American Light Lager"
 city: "Jackson Hole"
 employees: null
 farms-named: []

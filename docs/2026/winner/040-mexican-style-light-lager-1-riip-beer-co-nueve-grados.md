@@ -147,11 +147,11 @@ Nueve Grados is a Mexican-style pilsner from Riip Beer Co., a Huntington Beach, 
 |---|---|---|
 | Style | Mexican Pilsner | [Riip shop: Nueve Grados](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9) |
 | ABV | 3.9% | [Riip shop: Nueve Grados](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Sold out in the online shop at research time | [Riip shop: Nueve Grados](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9) |
 
 ## brewery-description
@@ -172,17 +172,17 @@ Nothing about the ingredients is published beyond the style and strength.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -215,8 +215,8 @@ Links checked 2026-10-14: [Website](https://riip.com/), [Instagram](https://www.
 
 ## gaps
 
-- Not published: IBU. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
+- Not Found: IBU. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
 
 ## research-notes
 

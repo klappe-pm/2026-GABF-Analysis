@@ -31,51 +31,67 @@ gaps:
   - field: "description"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "tasting-notes"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "abv"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "ibu"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "srm"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "og"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "fg"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hops"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-form"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-use"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "malts"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "yeast"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "adjuncts"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "water"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "process"
     sources-checked:
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -107,14 +123,14 @@ The Goat is a hazy IPA from New York Beer Project's Orchard Park location (print
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -122,7 +138,7 @@ No brewery description of this beer was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -130,17 +146,17 @@ Nothing about the ingredients is published in any source reached.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -170,8 +186,8 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/).
+- Not Found: ABV, IBU. Checked web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -181,3 +197,4 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 - The session web search budget was exhausted before this beer could be searched, so Untappd, retailer listings and press were not reached.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site has no page for The Goat.

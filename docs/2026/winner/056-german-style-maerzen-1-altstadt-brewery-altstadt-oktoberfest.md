@@ -147,10 +147,10 @@ Altstadt Oktoberfest is the copper Märzen that Altstadt Brewery of Fredericksbu
 | Style | Märzen | [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/) |
 | ABV | 5.9% | [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/) |
 | IBU | 16 | [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/) |
-| Hops | not published (described only as mild hopping) | none found |
+| Hops | not published (described only as mild hopping) | Not Found |
 | Malts and grains | German Pilsner, Vienna, Munich | [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | SRM 13; on tap at the brewery and sold across Texas in season | [Altstadt: beer list](https://altstadtbeer.com/beers/) |
 
 ## brewery-description
@@ -171,17 +171,17 @@ The beer page names "A blend of German Pilsner, Vienna, and Munich malts" and sa
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Copper (no SRM number published) | [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -215,7 +215,7 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -147,7 +147,7 @@ Haru is a light straw Japanese lager brewed with flaked rice and a mix of Mosaic
 | IBU | 17 | [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Hops | Mosaic, Hallertau Mittelfrüh, Saaz | [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Malts and grains | Bohemian Pilsner, Carafoam, acidulated malt | [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Crisp flaked rice | [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Other | Light straw color; released March 2026 in limited quantities; Brewer's Reserve, sold only at the Seattle Urban Beer Garden | [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager) |
 
@@ -171,19 +171,19 @@ The [brewery page](https://www.fremontbrewing.com/haru-japanese-lager) gives the
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mosaic | Mosaic | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
-| German Hallertau Mittlefruh | Hallertauer Mittelfruh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
-| Saaz | Saaz | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| German Hallertau Mittlefruh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| Saaz | Saaz | Not Found | Not Found | Not Found | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Light straw (no SRM number published) | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Fremont Brewing is in Seattle, WA. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.fremontbrewing.com/), [Instagram](https://www.instagram.com/fremontbrewing/).
 
 ## related
 
@@ -220,7 +220,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fremontbrewing.com](https://www.fremontbrewing.com/), [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager), [fremontbrewing.com](https://www.fremontbrewing.com/our-beer), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fremontbrewing.com](https://www.fremontbrewing.com/), [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager), [fremontbrewing.com](https://www.fremontbrewing.com/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 

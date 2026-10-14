@@ -31,54 +31,41 @@ description:
 entries: 277
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/all/"
-      - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/all/"
-      - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
+      - "pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page"
   - field: "fg"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
+      - "pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page"
   - field: "hop-use"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
+      - "pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
+      - "pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page"
   - field: "water"
     sources-checked:
       - "https://www.pfriembeer.com/"
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/all/"
-      - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
-      - "web searches recorded in the research notes"
+      - "pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page"
 hop-profile:
   - published: "Columbus Cryo"
     variety: "Columbus"
@@ -108,15 +95,21 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "A slight-handed addition of flaked rice for a lean, ultra-dry profile; American ale yeast"
+  source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.pfriembeer.com/"
   - "https://www.pfriembeer.com/beer/all/"
   - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
-srm: null
+srm:
+  value: "Golden straw (no SRM number published)"
+  source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
 style: "West Coast IPA"
-tasting-notes: null
+tasting-notes:
+  text: "This West Coast IPA pours a golden straw and is crowned with a thick cap of rocky white foam. The aroma opens with pungent tropical fruits like pineapple and mango followed by notes of juicy peach and ripe kiwi. The palate brings layers of mixed berry, sweet citrus, white wine and candy. The beer finishes very tropical with assertive bitterness and saturation."
+  source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
 water: null
 yeast:
   - "American ale yeast"
@@ -155,7 +148,9 @@ The page adds that it is crystalline in appearance and aggressively aromatic, wi
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This West Coast IPA pours a golden straw and is crowned with a thick cap of rocky white foam. The aroma opens with pungent tropical fruits like pineapple and mango followed by notes of juicy peach and ripe kiwi. The palate brings layers of mixed berry, sweet citrus, white wine and candy. The beer finishes very tropical with assertive bitterness and saturation.
+
+Source: [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/)
 
 ## ingredients
 
@@ -165,19 +160,19 @@ The brewery's page names every ingredient in the specs table, with the malt from
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Columbus Cryo | Columbus | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Krush Cryo | Krush | Cryo | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Mosaic | Mosaic | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Columbus Cryo | Columbus | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Krush Cryo | Krush | Cryo | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Golden straw (no SRM number published) | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | A slight-handed addition of flaked rice for a lean, ultra-dry profile; American ale yeast | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 
 ## style-context
 
@@ -214,10 +209,11 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Water, Process. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes.
+- Not Found: Original gravity, Final gravity, Hop use, Hop lot or farm, Water. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes, pFriem spec sheet for Mosaic + Krush Cryo West Coast IPA, linked from the beer page.
 
 ## research-notes
 
 - Every spec comes from the brewery's own beer page, which already lists the award as 2026 Bronze, Great American Beer Festival.
 - The all beers list gives the same 7.2% ABV and 55 IBU, and shows a related archived beer, Columbus Cryo + Mosaic West Coast IPA, at the same figures.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery spec sheet gives full tasting notes, golden straw color and the flaked rice method; it says Mosaic leads, Krush Cryo adds guava and pine and Columbus Cryo the dank backbone and bitterness, without naming the stage of each addition.

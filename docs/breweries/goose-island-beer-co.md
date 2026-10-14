@@ -27,7 +27,7 @@ beers-2026:
 brewery-type: "large"
 categories-won:
   - "American Lager"
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Brett Beer"
   - "Dessert or Pastry Beer"
 city: "Chicago"

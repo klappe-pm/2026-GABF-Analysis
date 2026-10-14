@@ -10,6 +10,7 @@ import { categoryIndex, loadDataset } from '../../scripts/lib/data-model.mjs';
 import { buildPayload, enrichResults, renderMarkdownBody } from '../../scripts/build-site.mjs';
 import { humanizeHeadings } from '../../site/assets/charts.mjs';
 import { scopeRows } from '../../site/assets/filter-bar.mjs';
+import { traitsOf } from './models/analysis.mjs';
 
 export const REPO = resolve(import.meta.dirname, '..', '..');
 export const WINNER_YEAR = 2026;
@@ -25,6 +26,13 @@ export function site() {
     enrichResults(ds);
     const cats = categoryIndex(ds);
     const payload = buildPayload(ds, cats);
+    // The Explore filters read two fields the shared rows do not carry: the investor of the brewery's
+    // ownership research and the category characteristics found by words in the category name.
+    const investor = new Map(ds.breweries.filter((b) => b.ownership?.investor).map((b) => [b.key, String(b.ownership.investor)]));
+    for (const r of payload.results) {
+      r.investor = investor.get(r.brewery_key) ?? null;
+      r.traits = traitsOf(r.category_name);
+    }
     g[KEY] = { ds, cats, payload, profiles: new Map(ds.winnerProfiles.map((p) => [p.stem, p])) };
   }
   return g[KEY];
@@ -49,7 +57,7 @@ export const medalRows = (scope = {}) => scopeRows(site().payload.results, scope
 // text. A page that passes rows to a client view sends these plus its own display fields, not whole rows.
 export const FILTER_FIELDS = [
   'year', 'medal', 'category_type', 'style_family', 'category_name', 'abv_band', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown',
-  'region', 'state', 'city', 'fed_district_name', 'brewery_key', 'brewery_type', 'ownership_type', 'distribution_channel', 'partial',
+  'section', 'traits', 'investor', 'region', 'state', 'city', 'fed_district_name', 'brewery_key', 'brewery_type', 'ownership_type', 'distribution_channel', 'partial',
   'beer_name', 'brewery_name', 'brewery_location', 'state_name', 'search_extra',
 ];
 export const filterRow = (row, extra = []) => Object.fromEntries([...FILTER_FIELDS, ...extra].map((k) => [k, row[k] ?? null]));

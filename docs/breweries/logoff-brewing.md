@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/072-irish-style-red-ale-3-logoff-brewing-dragonfire.md"
 brewery-type: "planning"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Rancho Cordova"
 employees: null
 farms-named: []
@@ -33,12 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/logoffbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -52,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "logoff-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: null
+website: "https://logoffbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

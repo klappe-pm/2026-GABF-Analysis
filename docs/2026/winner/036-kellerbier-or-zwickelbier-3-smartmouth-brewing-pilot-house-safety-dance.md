@@ -148,11 +148,11 @@ Safety Dance is Smartmouth Brewing's year-round pilsner, entered here by its Vir
 |---|---|---|
 | Style | Pilsner | [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach) |
 | ABV | 4.8% | [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach) |
-| IBU | 26 | [Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885) |
-| Hops | European noble hops (no varieties named) | [Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885) |
+| IBU | 26 | [Untappd (hand-read citation): Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885) |
+| Hops | European noble hops (no varieties named) | [Untappd (hand-read citation): Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885) |
 | Malts and grains | Imported German malts | [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | Year-round | [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach) |
 
 ## brewery-description
@@ -169,21 +169,21 @@ Source: [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-bre
 
 ## ingredients
 
-The brewery menu names only imported German malts. The longer Untappd description adds "European noble hops keep this glowing straw-colored beer mellow and refreshing" and notes faint spicy, herbal aromas, a hint of sweetness and gentle breadiness ([Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)). No hop varieties or yeast are named.
+The brewery menu names only imported German malts. The longer Untappd description adds "European noble hops keep this glowing straw-colored beer mellow and refreshing" and notes faint spicy, herbal aromas, a hint of sweetness and gentle breadiness ([Untappd (hand-read citation): Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)). No hop varieties or yeast are named.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Smartmouth Brewing Pilot House is in Virginia Beach, VA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.smartmouthbrewing.com/), [Instagram](https://www.instagram.com/smartmouthbeer/), [Untappd](https://untappd.com/SmartmouthBrewing).
 
 ## related
 
@@ -212,12 +212,12 @@ No brewery links have been checked yet.
 - [Beer page on brewery site](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach)
 - [Smartmouth Brewing](https://www.smartmouthbrewing.com/)
 - [Smartmouth: beers](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu)
-- [Untappd: Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)
+- [Untappd (hand-read citation): Safety Dance](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach), web searches recorded in the research notes.
 
 ## research-notes
 

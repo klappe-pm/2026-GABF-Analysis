@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "American Fruit Beer"
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Richmond"
 employees: null
 farms-named: []
@@ -36,12 +36,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/starrhillbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -56,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "starr-hill-beer-hall"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "VA"
 untappd: null
-website: null
+website: "https://starrhill.com/"
 world-beer-cup-medals: 0
 ---
 

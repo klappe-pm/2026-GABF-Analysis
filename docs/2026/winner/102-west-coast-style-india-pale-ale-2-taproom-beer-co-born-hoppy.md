@@ -30,16 +30,12 @@ description:
 entries: 277
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.taproombeerco.com/"
-      - "https://www.taproombeerco.com/beer"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.taproombeerco.com/"
       - "https://www.taproombeerco.com/beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.taproombeerco.com/"
@@ -123,7 +119,9 @@ sources:
   - "https://www.taproombeerco.com/beer"
 srm: null
 style: "WCIPA"
-tasting-notes: null
+tasting-notes:
+  text: "Bright punches of grapefruit zest, lime and splashes of mango from the Citra hops. The Mosaic adds depth with notes of blueberry, ripe peach and a subtle earthy/dank undertone."
+  source: "https://www.taproombeerco.com/beer"
 water: null
 yeast: []
 ---
@@ -144,11 +142,11 @@ Born Hoppy is a Citra and Mosaic West Coast IPA brewed by TapRoom Beer Co. in Sa
 |---|---|---|
 | Style | WCIPA | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
 | ABV | 7% | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Citra, Mosaic | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | on draft, listed under Hop Forward & Flavorful | [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer) |
 
 ## brewery-description
@@ -161,7 +159,9 @@ Source: [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright punches of grapefruit zest, lime and splashes of mango from the Citra hops. The Mosaic adds depth with notes of blueberry, ripe peach and a subtle earthy/dank undertone.
+
+Source: [taproombeerco.com](https://www.taproombeerco.com/beer)
 
 ## ingredients
 
@@ -171,18 +171,18 @@ Only the two hops are published; the brewery credits grapefruit, lime and mango 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
-| Mosaic | Mosaic | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+| Citra | Citra | Not Found | Not Found | Not Found | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [taproombeerco.com](https://www.taproombeerco.com/beer) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -200,7 +200,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 TapRoom Beer Co. is in San Diego, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.taproombeerco.com/), [Instagram](https://www.instagram.com/taproombeerco/).
 
 ## related
 
@@ -218,8 +218,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -228,3 +228,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The session web search budget was exhausted before Untappd or press could be searched for IBU or malts.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list's tasting words are recorded; 7% ABV.

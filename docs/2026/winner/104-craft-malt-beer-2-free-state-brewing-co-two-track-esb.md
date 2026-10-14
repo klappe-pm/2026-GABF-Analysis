@@ -186,10 +186,10 @@ Two Track ESB is an extra special bitter from Free State Brewing Co. in Lawrence
 | Style | ESB (from the beer's name) | [Free State Brewing Co.](https://www.freestatebrewing.com/) |
 | ABV | 5.2% | [Beer listing](https://www.beeradvocate.com/beer/profile/642/817169/) |
 | IBU | 33 | [Beer listing](https://www.beeradvocate.com/beer/profile/642/817169/) |
-| Hops | not published | none found |
-| Malts and grains | not published (maltster not named) | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | not published (maltster not named) | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | served at the brewpub for Friday lunch per a home page notice | [Free State Brewing Co.](https://www.freestatebrewing.com/) |
 
 ## brewery-description
@@ -202,7 +202,7 @@ This home page notice is the only brewery text found about the beer.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -210,17 +210,17 @@ Nothing about the ingredients, including which craft maltster supplied the grain
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -238,7 +238,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Free State Brewing Co. is in Lawrence, KS. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.freestatebrewing.com/), [Instagram](https://www.instagram.com/freestatebeer/), [Untappd](https://untappd.com/fsb).
 
 ## related
 
@@ -255,7 +255,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/642/817169/), [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [freestatebrewing.com](https://www.freestatebrewing.com/), [freestatebrewing.com](https://www.freestatebrewing.com/beer/), [freestatebrewing.com](https://www.freestatebrewing.com/news/), [freestatebrewing.com](https://www.freestatebrewing.com/whats-on-tap/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/642/817169/), [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [freestatebrewing.com](https://www.freestatebrewing.com/), [freestatebrewing.com](https://www.freestatebrewing.com/beer/), [freestatebrewing.com](https://www.freestatebrewing.com/news/), [freestatebrewing.com](https://www.freestatebrewing.com/whats-on-tap/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -264,3 +264,4 @@ No brewery links have been checked yet.
 - The beer catalog page lists flagship, seasonal and limited releases but not Two Track ESB; the what's on tap page returned no beer data; the news page does not mention it.
 - The home page notice confirms the medal from the brewery's side.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery home page mentions the medal only.

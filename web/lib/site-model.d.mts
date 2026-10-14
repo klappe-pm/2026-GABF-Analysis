@@ -42,13 +42,16 @@ export type MedalRow = {
   hop_varieties: string[] | null;
   hop_farms_named: string[] | null;
   hop_farms_grown: string[] | null;
+  section: string | null;
+  traits: string[];
+  investor: string | null;
   [field: string]: unknown;
 };
 
 export type HopLink = { name: string; slug: string };
 
 // The fields the global filter reads; filterRow keeps these (plus any named extras) and drops the rest.
-export type FilterFields = Pick<MedalRow, 'year' | 'medal' | 'category_type' | 'style_family' | 'category_name' | 'abv_band' | 'hop_varieties' | 'hop_farms_named' | 'hop_farms_grown'
+export type FilterFields = Pick<MedalRow, 'year' | 'medal' | 'category_type' | 'style_family' | 'category_name' | 'abv_band' | 'hop_varieties' | 'hop_farms_named' | 'hop_farms_grown' | 'section' | 'traits' | 'investor'
   | 'region' | 'state' | 'city' | 'fed_district_name' | 'brewery_key' | 'brewery_type' | 'ownership_type' | 'distribution_channel' | 'partial'
   | 'beer_name' | 'brewery_name' | 'brewery_location' | 'state_name' | 'search_extra'>;
 

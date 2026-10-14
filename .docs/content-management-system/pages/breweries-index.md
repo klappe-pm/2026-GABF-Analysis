@@ -14,9 +14,12 @@ Where: top of the page.
 Where: above the table.
 
 - `count`: {{count}} breweries with medals in view. Select a column header to sort.
-- `count_one`: 1 brewery with medals in view. Select a column header to sort.
-- `deep_dive_pill`: Deep dive
 - `caption`: Breweries with medals in view, ranked by points.
-- `search_label`: Search breweries
+- `showing`: Showing {{shown}} of {{total}} breweries. Sorting applies to the rows shown.
+- `show_more`: Show {{count}} More
+- `show_all`: Show All {{total}}
+- `search_label`: Search Breweries
 - `search_placeholder`: Brewery name, city, beer, or hop
-- `method_link`: How these estimates are made
+- `method_link`: How These Estimates Are Made
+- `count_one`: 1 brewery with medals in view. Select a column header to sort.
+- `deep_dive_pill`: Deep Dive

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "proprietor"
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
 city: "Oxnard"
 employees: null
 farms-named: []

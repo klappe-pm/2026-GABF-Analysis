@@ -24,8 +24,8 @@ beers-2026:
   - "../2026/winner/101-juicy-or-hazy-india-pale-ale-1-bend-brewing-co-because-science.md"
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
-  - "American-Style Strong Pale Ale"
+  - "American Lager"
+  - "American Strong Pale Ale"
   - "Brown Porter"
   - "English Ale"
   - "Juicy or Hazy India Pale Ale"

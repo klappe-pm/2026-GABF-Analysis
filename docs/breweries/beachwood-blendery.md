@@ -22,7 +22,6 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Belgian Fruit Beer"
-  - "Belgian-Style Fruit Beer"
 city: "Long Beach"
 employees: null
 farms-named: []
@@ -34,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/beachwoodbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "beachwood-blendery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: "http://beachwoodbbq.com/blendery.html"
+website: "https://beachwoodbrewing.com/blendery.html"
 world-beer-cup-medals: 0
 ---
 

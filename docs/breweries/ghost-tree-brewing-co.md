@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/057-international-style-amber-lager-1-ghost-tree-brewing-co-feileadh-mor.md"
 brewery-type: null
 categories-won:
-  - "International-Style Amber Lager"
+  - "International Amber Lager"
 city: "Amherst"
 employees: null
 farms-named: []

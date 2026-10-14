@@ -21,8 +21,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Bohemian-Style Pilsener"
-  - "German-Style Pilsener"
+  - "Bohemian Pilsener"
+  - "German Pilsener"
   - "Herb and Spice Beer"
   - "Smoke Beer"
 city: "Austin"

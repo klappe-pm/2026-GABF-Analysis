@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Belgian Fruit Beer"
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Brett Beer"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Cascade Locks"

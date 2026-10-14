@@ -142,11 +142,11 @@ Bold Rush is a year-round golden ale from Drake's Brewing Company, an independen
 |---|---|---|
 | Style | Golden Ale | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
 | ABV | 4.8% | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Loral 291 Cryo, Vanguard | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
 | Malts and grains | Two Row, Admiral Maltings Gallagher's Best, flaked barley | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
 | Yeast | Verdant | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
-| Adjuncts, fruit, spices | none listed | none found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | aroma notes of light honey, bready and sweet fruit; sold at BevMo, Whole Foods, Total Wine & More, Bel Air and Grocery Outlet among others | [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/) |
 
 ## brewery-description
@@ -169,18 +169,18 @@ The beer page's ingredient panel gives hops, malts and yeast by name but no quan
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Loral Cryo | Loral | Cryo | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
-| Vanguard | Vanguard | not published | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
+| Loral Cryo | Loral | Cryo | Not Found | Not Found | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
+| Vanguard | Vanguard | Not Found | Not Found | Not Found | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -198,7 +198,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Drake's Brewing Company/Bear Republic is in San Leandro, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://drinkdrakes.com/), [Instagram](https://www.instagram.com/drakesbeer/).
 
 ## related
 
@@ -214,8 +214,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567).
-- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
 
 ## research-notes
 

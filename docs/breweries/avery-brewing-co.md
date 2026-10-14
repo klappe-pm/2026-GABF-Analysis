@@ -22,9 +22,9 @@ beers-2026:
   - "../2026/winner/074-belgian-style-witbier-2-avery-brewing-co-white-rascal.md"
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
+  - "American Lager"
   - "Belgian Fruit Beer"
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Experimental Beer"
 city: "Boulder"
 employees: null
@@ -37,14 +37,12 @@ founded: 1993
 gaps:
   - "beeradvocate"
   - "brewery-type"
-  - "instagram"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/bravo.md"
   - "../hops/varieties/hersbrucker.md"
   - "../hops/varieties/sterling.md"
-instagram: null
+instagram: "https://www.instagram.com/averybrewingcompany/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -63,9 +61,10 @@ region: "West"
 slug: "avery-brewing-co"
 sources:
   - "Mahou 30% in 2017 and 70% in 2019"
+  - "website resolved; Instagram linked from the brewery website"
 state: "CO"
 untappd: null
-website: null
+website: "https://www.averybrewing.com/"
 world-beer-cup-medals: 0
 ---
 

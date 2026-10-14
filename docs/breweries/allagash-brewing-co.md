@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/074-belgian-style-witbier-1-allagash-brewing-co-allagash-white.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Tripel"
-  - "Belgian-Style Witbier"
-  - "International-Style Pilsener"
+  - "Belgian Abbey Ale"
+  - "Belgian Tripel"
+  - "Belgian Witbier"
+  - "International Pilsener"
 city: "Portland"
 employees: null
 farms-named: []

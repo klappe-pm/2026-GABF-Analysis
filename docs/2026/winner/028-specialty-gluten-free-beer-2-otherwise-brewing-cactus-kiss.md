@@ -132,7 +132,7 @@ Cactus Kiss is a gluten-free fruit beer made with rice, strawberry and prickly p
 | IBU | 10 | [Otherwise: Cactus Kiss](https://www.otherwisebrewing.com/beers/cactus-kiss) |
 | Hops | not published (the hop list on the brewery's beer data is empty) | [Otherwise: beers](https://www.otherwisebrewing.com/beers) |
 | Malts and grains | Rice | [Otherwise: Cactus Kiss](https://www.otherwisebrewing.com/beers/cactus-kiss) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Strawberry, prickly pear, natural sugars | [Otherwise: Cactus Kiss](https://www.otherwisebrewing.com/beers/cactus-kiss) |
 | Other | released April 27, 2025 | [Otherwise: Cactus Kiss](https://www.otherwisebrewing.com/beers/cactus-kiss) |
 
@@ -154,16 +154,16 @@ The brewery lists the fermentables as rice, strawberry, prickly pear and natural
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Fermented clean and bright with real strawberry and prickly pear; fermentables rice, strawberry, prickly pear and natural sugars | [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss) |
 
 ## style-context
@@ -182,7 +182,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Otherwise Brewing is in San Carlos, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.otherwisebrewing.com/), [Instagram](https://www.instagram.com/otherwisebrewing/).
 
 ## related
 
@@ -197,7 +197,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [otherwisebrewing.com](https://www.otherwisebrewing.com/), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [otherwisebrewing.com](https://www.otherwisebrewing.com/), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss), web searches recorded in the research notes.
 
 ## research-notes
 

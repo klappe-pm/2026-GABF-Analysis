@@ -152,10 +152,10 @@ Pumpkin Ale is a gluten-free dark amber ale brewed with pumpkin puree and fall s
 |---|---|---|
 | Style | Pumpkin | [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-tap) |
 | ABV | 6.1% | [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-tap) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Pumpkin puree, a blend of fall spices (not itemized) | [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-tap) |
 | Other | dark amber; gluten-free (dedicated gluten-free brewery) | [Orange Bike Brewing](https://www.orangebikebrewing.com/) |
 
@@ -177,17 +177,17 @@ The tap list names pumpkin puree and an unspecified blend of fall spices; cinnam
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Dark amber (no SRM number published) | [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,12 +216,12 @@ Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instag
 - [Beer page on brewery site](https://www.orangebikebrewing.com/whats-on-tap)
 - [Orange Bike Brewing Co.](https://www.orangebikebrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Orange Bike beer list](https://untappd.com/OrangeBikeBrewing/beer)
+- [Untappd (hand-read citation): Orange Bike beer list](https://untappd.com/OrangeBikeBrewing/beer)
 
 ## gaps
 
-- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

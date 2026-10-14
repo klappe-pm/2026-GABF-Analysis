@@ -24,7 +24,7 @@ brewery-type: "micro"
 categories-won:
   - "American Amber/Red Ale"
   - "American Pilsener"
-  - "West Coast-Style Pilsener"
+  - "West Coast Pilsener"
 city: "Berkeley"
 employees: null
 farms-named: []
@@ -63,10 +63,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "cellarmaker-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "CA"
 untappd: null
-website: "http://www.cellarmakerbrewing.com"
+website: "https://www.cellarmakerbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

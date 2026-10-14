@@ -198,8 +198,8 @@ Icy Fog is a hazy IPA from McMenamins Breweries.
 | IBU | 50 | [Beer listing](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
 | Hops | Chinook, Mosaic, Nectaron, Simcoe, Vista | [Beer listing](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
 | Malts and grains | Pilsen, white wheat, oat malt, flaked oats | [Beer listing](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | OG 1.079; TG 1.016; SRM 5 | [Beer listing](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
 
 ## brewery-description
@@ -210,7 +210,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/mcmenamins-icy-fo
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -220,21 +220,21 @@ No yeast strain or adjunct ingredients were found beyond the hops and grain bill
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
-| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
-| Nectaron | Nectaron | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
-| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
-| Vista | Vista | not published | not published | not published | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Nectaron | Nectaron | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Simcoe | Simcoe | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
+| Vista | Vista | Not Found | Not Found | Not Found | [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -252,7 +252,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 McMenamins Breweries is in Portland, OR. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.mcmenamins.com/), [Instagram](https://www.instagram.com/mcmenamins/), [Untappd](https://untappd.com/McMenamins).
 
 ## related
 
@@ -273,7 +273,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174), [mcmenamins.com](https://www.mcmenamins.com/), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/ales), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/beer), [mcmenamins.com](https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/mcmenamins-icy-fog/5689174), [mcmenamins.com](https://www.mcmenamins.com/), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/ales), [mcmenamins.com](https://www.mcmenamins.com/handcrafted/beer), [mcmenamins.com](https://www.mcmenamins.com/old-st-francis-school/old-st-francis-school-brewery/where-to-buy), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -283,3 +283,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - McMenamins brews at many pub locations; which one brewed Icy Fog was not found.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

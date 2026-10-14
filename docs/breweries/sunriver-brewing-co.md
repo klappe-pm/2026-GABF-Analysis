@@ -23,12 +23,12 @@ beers-2026:
   - "../2026/winner/103-fresh-hop-beer-3-sunriver-brewing-co-figata-fresca.md"
 brewery-type: null
 categories-won:
+  - "American Pale Ale"
+  - "American Strong Pale Ale"
   - "American Wheat Beer"
-  - "American-Style Pale Ale"
-  - "American-Style Strong Pale Ale"
   - "Fresh Hop Beer"
-  - "Italian-Style Pilsener"
-  - "Scottish-Style Ale"
+  - "Italian Pilsener"
+  - "Scottish Ale"
 city: "Sunriver"
 employees: null
 farms-named: []
@@ -44,15 +44,12 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/cascade.md"
   - "../hops/varieties/chinook.md"
   - "../hops/varieties/lemondrop.md"
-instagram: null
+instagram: "https://www.instagram.com/sunriverbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -68,10 +65,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "sunriver-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OR"
-untappd: null
-website: null
+untappd: "https://untappd.com/SunriverBrewingCompany"
+website: "https://www.sunriverbrewingcompany.com/"
 world-beer-cup-medals: 0
 ---
 

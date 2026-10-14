@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/020-german-style-strong-beer-2-northbound-smokehouse-brewpub-eisbock.md"
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Doppelbock or Eisbock"
-  - "German-Style Strong Beer"
+  - "German Doppelbock or Eisbock"
+  - "German Strong Beer"
 city: "Minneapolis"
 employees: null
 farms-named: []
@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/northboundsmokehousebrewpub/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "northbound-smokehouse-brewpub"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "MN"
-untappd: null
-website: "http://www.smokehousebrewpub.com"
+untappd: "https://untappd.com/NorthboundSmokehouseBrewpub"
+website: "https://www.northboundbrewpub.com/"
 world-beer-cup-medals: 0
 ---
 

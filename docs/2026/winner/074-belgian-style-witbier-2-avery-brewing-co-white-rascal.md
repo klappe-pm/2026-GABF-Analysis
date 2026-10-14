@@ -165,8 +165,8 @@ White Rascal is the flagship unfiltered Belgian-style white ale of Avery Brewing
 | ABV | 5.6% | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
 | IBU | 20 (third party; the brewery page lists none) | [Wikipedia: Avery Brewing Company](https://en.wikipedia.org/wiki/Avery_Brewing_Company) |
 | Hops | Bravo, Hersbrucker, Sterling | [Avery: historical White Rascal review](https://www.guruofbrew.com/avery_white_rascal) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coriander, Curaçao orange peel | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
 | Other | unfiltered; 6-pack and 15-pack cans, variety pack, draft | [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal) |
 
@@ -178,7 +178,7 @@ Source: [Avery: White Rascal](https://www.averybrewing.com/beers/white-rascal)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -188,18 +188,18 @@ The current [brewery page](https://www.averybrewing.com/beers/white-rascal) name
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Bravo | Bravo | not published | not published | not published | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
-| Hersbrucker | Hersbrucker | not published | not published | not published | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
-| Sterling | Sterling | not published | not published | not published | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
+| Bravo | Bravo | Not Found | Not Found | Not Found | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
+| Hersbrucker | Hersbrucker | Not Found | Not Found | Not Found | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
+| Sterling | Sterling | Not Found | Not Found | Not Found | [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Unfiltered, spiced with coriander and Curaçao orange peel | [averybrewing.com](https://www.averybrewing.com/beers/white-rascal) |
 
 ## style-context
@@ -219,7 +219,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Avery Brewing Co. is in Boulder, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.averybrewing.com/), [Instagram](https://www.instagram.com/averybrewingcompany/).
 
 ## related
 
@@ -236,7 +236,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [en.wikipedia.org](https://en.wikipedia.org/wiki/Avery_Brewing_Company), [averybrewing.com](https://www.averybrewing.com/), [averybrewing.com](https://www.averybrewing.com/beers/white-rascal), [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [en.wikipedia.org](https://en.wikipedia.org/wiki/Avery_Brewing_Company), [averybrewing.com](https://www.averybrewing.com/), [averybrewing.com](https://www.averybrewing.com/beers/white-rascal), [guruofbrew.com](https://www.guruofbrew.com/avery_white_rascal), web searches recorded in the research notes.
 
 ## research-notes
 

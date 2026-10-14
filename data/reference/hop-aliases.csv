@@ -127,6 +127,9 @@ Saaz Czech,saaz czech,saaz,Saaz,alias
 Zatec,zatec,saaz,Saaz,alias
 Zatecky,zatecky,saaz,Saaz,alias
 Hallertauer Mittelfruh,hallertauer mittelfruh,hallertauer-mittelfruh,Hallertauer Mittelfruh,canonical
+Hallertau,hallertau,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
+Hallertauer,hallertauer,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
+German Hallertau Mittlefruh,german hallertau mittlefruh,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
 Hallertau Mittelfruh,hallertau mittelfruh,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
 Hallertauer Mittelfruher,hallertauer mittelfruher,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
 Mittelfruh,mittelfruh,hallertauer-mittelfruh,Hallertauer Mittelfruh,alias
@@ -196,6 +199,7 @@ Nectaron NZ Hops,nectaron nz hops,nectaron,Nectaron,alias
 Superdelic,superdelic,superdelic,Superdelic,canonical
 Peacharine,peacharine,peacharine,Peacharine,canonical
 Codename Peacharine,codename peacharine,peacharine,Peacharine,alias
+Ariana,ariana,ariana,Ariana,canonical
 Galaxy,galaxy,galaxy,Galaxy,canonical
 Galaxy Cryo,galaxy cryo,galaxy,Galaxy,alias
 Eclipse,eclipse,eclipse,Eclipse,canonical
@@ -223,6 +227,8 @@ Hyper Boost,hyper boost,,HyperBoost,form
 DynaBoost,dynaboost,,DynaBoost,form
 Dyna Boost,dyna boost,,DynaBoost,form
 Spectrum,spectrum,,Spectrum,form
+Hop Kief,hop kief,,Hop Kief,form
+Kief,kief,,Hop Kief,form
 T90,t90,,T90,form
 T 90,t 90,,T90,form
 T90 pellets,t90 pellets,,T90,form

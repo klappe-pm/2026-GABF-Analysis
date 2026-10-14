@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "brewpub"
 categories-won:
   - "Coffee Stout or Porter"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "San Clemente"
 employees: null
 farms-named: []

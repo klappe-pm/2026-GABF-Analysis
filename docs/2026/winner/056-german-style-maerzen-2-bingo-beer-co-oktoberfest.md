@@ -148,11 +148,11 @@ Oktoberfest is the seasonal Märzen-style lager from Bingo Beer Co. in Richmond,
 |---|---|---|
 | Style | Marzen-style Lager | [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/) |
 | ABV | 5.7% | [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Hallertau Mittelfrüh, Tettnang | [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/) |
 | Malts and grains | German Melanoidin, Munich, Vienna | [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
 | Other | Deep copper; seasonal | [Bingo: Oktoberfest](https://bingobeerco.com/beer/oktoberfest/) |
 
 ## brewery-description
@@ -175,18 +175,18 @@ The description adds that "German Mittlefrüh and Tettnang hops provide a touch 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
-| Tettnang | Tettnang | not published | not published | not published | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | Not Found | Not Found | Not Found | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
+| Tettnang | Tettnang | Not Found | Not Found | Not Found | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Deep copper (no SRM number published) | [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -204,7 +204,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Bingo Beer Co. is in Richmond, VA. Brewery type in Open Brewery DB: In planning.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.bingobeerco.com/), [Instagram](https://www.instagram.com/bingobeerco/).
 
 ## related
 
@@ -220,8 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bingobeerco.com](https://bingobeerco.com/beer/oktoberfest/), [bingobeerco.com](https://bingobeerco.com/beers/), [bingobeerco.com](https://www.bingobeerco.com/), web searches recorded in the research notes.
 
 ## research-notes
 

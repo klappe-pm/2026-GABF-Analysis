@@ -35,13 +35,11 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/mosaic.md"
-instagram: null
+instagram: "https://www.instagram.com/ablebakerbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "able-baker-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "NV"
 untappd: null
-website: null
+website: "https://www.ablebakerbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

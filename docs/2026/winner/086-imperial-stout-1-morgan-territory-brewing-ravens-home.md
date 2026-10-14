@@ -153,14 +153,14 @@ Raven's Home is an imperial stout from Morgan Territory Brewing in Tracy, Califo
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Russian Imperial Stout | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
-| ABV | 8.5% | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
-| IBU | 45 | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
-| Hops | not published | none found |
-| Malts and grains | Flaked oats, white wheat, dark malts and crystal malts | [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Russian Imperial Stout | [Untappd (hand-read citation): Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| ABV | 8.5% | [Untappd (hand-read citation): Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| IBU | 45 | [Untappd (hand-read citation): Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Flaked oats, white wheat, dark malts and crystal malts | [Untappd (hand-read citation): Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -170,7 +170,7 @@ Source: [Morgan Territory: description on Untappd](https://untappd.com/b/morgan-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -178,17 +178,17 @@ The [beer description](https://untappd.com/b/morgan-territory-brewing-raven-s-ho
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -215,7 +215,7 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 
 ## links
 
-- [Untappd: Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196)
+- [Untappd (hand-read citation): Raven's Home](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196)
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
 - [Morgan Territory: on tap](https://www.morganterritorybrewing.com/on-tap)
 - [Morgan Territory: beer finder](https://www.morganterritorybrewing.com/beer-finder)
@@ -223,7 +223,7 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beer-finder), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-raven-s-home/6370196), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beer-finder), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 

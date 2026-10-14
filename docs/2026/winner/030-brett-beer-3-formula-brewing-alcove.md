@@ -146,11 +146,11 @@ Alcove is a 5.6% Brett saison from Formula Brewing, a small batch brewery, tapro
 |---|---|---|
 | Style | Brett Saison | [Formula Brewing: home page Instagram feed](https://www.formulabrewing.com/) |
 | ABV | 5.6% | [Formula Brewing: home page Instagram feed](https://www.formulabrewing.com/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Brettanomyces (implied by the style label; strain not named) | [Formula Brewing: home page Instagram feed](https://www.formulabrewing.com/) |
-| Adjuncts, fruit, spices | not published | none found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | released on tap as one of five new beers on a season opening day | [Formula Brewing: home page Instagram feed](https://www.formulabrewing.com/) |
 
 ## brewery-description
@@ -163,7 +163,7 @@ Source: [Formula Brewing: home page Instagram feed](https://www.formulabrewing.c
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -171,17 +171,17 @@ Beyond the Brett saison label, no ingredient for Alcove is published on the brew
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -199,7 +199,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Formula Brewing is in Issaquah, WA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.formulabrewing.com/), [Instagram](https://www.instagram.com/formulabeers/).
 
 ## related
 
@@ -215,8 +215,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes.
-- Not published: IBU. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

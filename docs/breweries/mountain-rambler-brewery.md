@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "Robust Porter"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Bishop"
 employees: null
 farms-named: []

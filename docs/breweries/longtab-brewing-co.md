@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "American-Belgo-Style Ale"
+  - "American-Belgo Ale"
 city: "San Antonio"
 employees: null
 farms-named: []

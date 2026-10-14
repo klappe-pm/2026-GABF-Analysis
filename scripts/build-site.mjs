@@ -79,7 +79,7 @@ const DASHBOARDS = [
 
 function layout({ title, description = '', body, depth = 0, active = '', scripts = '', bodyAttrs = '', pageData = null }) {
   const r = depth === 0 ? './' : '../'.repeat(depth);
-  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['hops/', COPY('global.navigation.header.hops')], ['hop-farms/', COPY('global.navigation.header.hop_farms')], ['reports/', 'Reports'], ['explorer/', 'Explorer'], ['about/', 'About']]
+  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['hops/', COPY('global.navigation.header.hops')], ['hop-farms/', COPY('global.navigation.header.hop_farms')], ['reports/', 'Reports'], ['about/', 'About']]
     .map(([href, label]) => `<a href="${r}${href}"${active === label ? ' class="active" aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
@@ -317,7 +317,7 @@ ${extra}
 
 function dashboardPages(ds) {
   const featured = ds.breweries.filter((b) => b.profile).slice(0, 6);
-  const overview = dashboardBody(ds, { href: '', r: './', intro: `<h1>Great American Beer Festival results dashboards</h1><p class="lede">Which states, styles, and breweries keep winning at the Great American Beer Festival. Start with the medal count by year, then see where the medals land on the map, which style families collect the most, and which breweries lead on points. The Filters button in the header narrows every page; click a bar, column, or state to focus it.</p>`, panels: [['medals-by-year'], ['map'], ['by-family'], ['top-breweries']], extra: '<div id="stats" class="stats"></div>' });
+  const overview = dashboardBody(ds, { href: '', r: './', intro: `<h1>${esc(COPY('pages.dashboards.overview.title'))}</h1><p class="lede">Which states, styles, and breweries keep winning at the Great American Beer Festival. Start with the medal count by year, then see where the medals land on the map, which style families collect the most, and which breweries lead on points. The Filters button in the header narrows every page; click a bar, column, or state to focus it.</p>`, panels: [['medals-by-year'], ['map'], ['by-family'], ['top-breweries']], extra: '<div id="stats" class="stats"></div>' });
   const featuredList = featured.length ? `<h2>featured-deep-dives</h2><ul class="list-plain">${featured.map((b) => `<li><a href="breweries/${b.slug}/">${esc(b.name)}</a> <span class="muted small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${b.medals.length} GABF medals in the loaded data</span></li>`).join('')}</ul>` : '';
   write('index.html', layout({ title: 'Dashboards', description: 'Interactive Great American Beer Festival medal dashboards.', body: `${overview}<h2>results</h2><div id="table"></div>${featuredList}`, depth: 0, active: 'Dashboards', scripts: '<script type="module" src="assets/dashboards.js"></script>' }));
 
@@ -647,7 +647,7 @@ function winnersIndex(year, profiles) {
   const body = `
 <h1>${year} winners</h1>
 <p class="lede">Every medal from the ${year} Great American Beer Festival with the beer's published specs: style, ABV, IBU, and named hops, malts, yeast, and adjuncts, each from the brewery or a cited source. Open a beer for its full research notes. Use Filters in the header to narrow by medal, style, place, or brewery, or search by beer, brewery, or hop.</p>
-<p class="link-row"><a class="btn-link" href="../../first-time-medalists/${year}/">First time medalists in ${year}</a><a class="btn-link" href="../../explorer/">Open the explorer</a></p>
+<p class="link-row"><a class="btn-link" href="../../first-time-medalists/${year}/">First time medalists in ${year}</a><a class="btn-link" href="../../analysis/explore/">Open the explorer</a></p>
 ${view.html}`;
   write(`beers/${year}/index.html`, layout({ title: `${year} winners`, description: `All ${profiles.length} medals of the ${year} Great American Beer Festival with published ABV, IBU, hops, malts, yeast, and adjuncts.`, body, depth: 2, active: `${year} winners`, pageData: view.pageData }));
 }
@@ -682,16 +682,6 @@ function winnerPages(ds, profiles) {
   for (const p of profiles) beerPage(p, rowFor.get(p.stem));
   if (profiles.length) winnersIndex(WINNER_YEAR, profiles);
   return { pages: profiles.length, matched: rowFor.size, unmatched: profiles.filter((p) => !rowFor.has(p.stem)).map((p) => p.stem) };
-}
-
-// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (a build output that
-// npm run build writes first, not a file in git); the site serves that file as is.
-function copyExplorer() {
-  const src = resolve(ROOT, 'gabf-explorer.html');
-  if (!existsSync(src)) return;
-  mkdirSync(resolve(DIST, 'explorer'), { recursive: true });
-  if (REVIEW) writeFileSync(resolve(DIST, 'explorer', 'index.html'), annotatePage(readFileSync(src, 'utf8'), 'explorer/index.html', 'scripts/build-explorer.mjs'));
-  else cpSync(src, resolve(DIST, 'explorer', 'index.html'));
 }
 
 // ---------- about ----------
@@ -761,7 +751,6 @@ export function build({ clean = true } = {}) {
   const hopsBuilt = HOP_PAGES.writeAll();
   const winners = winnerPages(ds, ds.winnerProfiles);
   firstTimePage(ds);
-  copyExplorer();
   // Review build only: the copy keys the pages above read, so an inline edit changes the key the build draws.
   if (REVIEW) writeFileSync(resolve(DIST, 'review-copy-keys.json'), JSON.stringify([...COPY.used].sort()));
   return { winners, hops: hopsBuilt, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };

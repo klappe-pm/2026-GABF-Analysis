@@ -166,9 +166,9 @@ Migrating Coconuts is a winter seasonal imperial porter with toasted coconut and
 | Style | Imperial Porter | [Roughtail: Migrating Coconuts](https://roughtailbeer.com/migrating-coconuts/) |
 | ABV | 7.8% | [Craft Beer & Brewing review](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660) |
 | IBU | 20 | [Craft Beer & Brewing review](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | toasted coconut, Madagascar vanilla | [Craft Beer & Brewing review](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660) |
 | Other | winter seasonal | [Roughtail: Migrating Coconuts](https://roughtailbeer.com/migrating-coconuts/) |
 
@@ -180,7 +180,7 @@ Source: [Craft Beer & Brewing review](https://www.beerandbrewing.com/review/roug
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -188,17 +188,17 @@ Toasted coconut and Madagascar vanilla are the only ingredients named, in the br
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,7 +216,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Roughtail Brewing Co. is in Oklahoma City, OK.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://roughtailbeer.com/), [Instagram](https://www.instagram.com/roughtailbrewingco/).
 
 ## related
 
@@ -232,7 +232,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes, web search 2026-10-14: Roughtail Migrating Coconuts hops and malt.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes, web search 2026-10-14: Roughtail Migrating Coconuts hops and malt.
 
 ## research-notes
 

@@ -132,11 +132,11 @@ Dragonfire is a red ale from LogOff Brewing in Rancho Cordova, California.
 | Style | Red Ale, American Amber | [LogOff: tap menu feed](https://business.untappd.com/locations/33272/themes/128617/js) |
 | ABV | 5.5% | [LogOff: tap menu feed](https://business.untappd.com/locations/33272/themes/128617/js) |
 | IBU | 32 | [LogOff: tap menu feed](https://business.untappd.com/locations/33272/themes/128617/js) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -146,7 +146,7 @@ Source: [LogOff: tap menu feed](https://business.untappd.com/locations/33272/the
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -154,17 +154,17 @@ Nothing about ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -182,7 +182,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 LogOff Brewing is in Rancho Cordova, CA. Brewery type in Open Brewery DB: In planning.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://logoffbrewing.com/), [Instagram](https://www.instagram.com/logoffbrewing/).
 
 ## related
 
@@ -196,7 +196,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/33272/themes/128617/js), [logoffbrewing.com](https://logoffbrewing.com/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/33272/themes/128617/js), [logoffbrewing.com](https://logoffbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

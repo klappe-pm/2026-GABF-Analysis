@@ -130,11 +130,11 @@ Diabolique is a Saaz dry-hopped Belgian-style strong golden ale from The Monk's 
 |---|---|---|
 | Style | Belgian Style Strong Golden Ale | [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
 | ABV | 7.7% | [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Saaz (dry hop) | [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | also sold in 750 ml bottles | [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
 
 ## brewery-description
@@ -157,17 +157,17 @@ Saaz dry hopping is the only ingredient the menu names; the spice, golden raisin
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saaz | Saaz | not published | dry hop | not published | [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
+| Saaz | Saaz | Not Found | dry hop | Not Found | [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -185,7 +185,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Monk's Cellar is in Roseville, CA. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.monkscellar.com/), [Instagram](https://www.instagram.com/themonkscellar/).
 
 ## related
 
@@ -200,8 +200,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: IBU. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes.
+- Not Found: IBU. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 

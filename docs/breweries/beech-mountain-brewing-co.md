@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Fruit Wheat Beer"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Beech Mountain"
 employees: null
 farms-named: []
@@ -34,11 +34,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/beechmtnbrewingco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "beech-mountain-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "NC"
-untappd: null
-website: "http://www.beechmountainresort.com"
+untappd: "https://untappd.com/BeechMountainBrewingCompany"
+website: "https://www.beechmountainbrewingco.com/"
 world-beer-cup-medals: 0
 ---
 

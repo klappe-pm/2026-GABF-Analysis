@@ -30,13 +30,6 @@ description:
 entries: 53
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/the-russets/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/the-russets/"
@@ -44,6 +37,7 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/the-russets/"
@@ -121,13 +115,6 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/the-russets/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -135,7 +122,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Three russeted apples blended and aged"
+  source: "https://snowcappedcider.com/all-ciders/the-russets/"
 sources:
   - "https://snowcappedcider.com/all-ciders/the-russets/"
   - "https://snowcappedcider.com/shop-bottles/"
@@ -143,7 +132,9 @@ sources:
   - "https://www.snowcappedcider.com/"
 srm: null
 style: "Specialty Series blended cider"
-tasting-notes: null
+tasting-notes:
+  text: "The nose will speak deeply of honey, spice, and warm pie out of grandma's oven. Crisp balanced acid flows over the pallet giving way to earthy notes and lasting finish."
+  source: "https://snowcappedcider.com/all-ciders/the-russets/"
 water: null
 yeast: []
 ---
@@ -164,11 +155,11 @@ The Russets is a blended and aged cider made from three russeted apple varieties
 |---|---|---|
 | Style | Specialty Series blend of russeted apples | [Snow Capped: bottle shop](https://snowcappedcider.com/shop-bottles/) |
 | ABV | 7% | [Snow Capped: The Russets](https://snowcappedcider.com/all-ciders/the-russets/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | not published (apple based; three russeted varieties, not named) | [Snow Capped: The Russets](https://snowcappedcider.com/all-ciders/the-russets/) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 375 ml bottle; gluten-free; first released in 2024 | [Snow Capped: The Russets](https://snowcappedcider.com/all-ciders/the-russets/) |
 
 ## brewery-description
@@ -179,7 +170,9 @@ Source: [Snow Capped: The Russets](https://snowcappedcider.com/all-ciders/the-ru
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> The nose will speak deeply of honey, spice, and warm pie out of grandma's oven. Crisp balanced acid flows over the pallet giving way to earthy notes and lasting finish.
+
+Source: [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/)
 
 ## ingredients
 
@@ -187,17 +180,17 @@ The cidery describes "Three favorite russeted apples blended and aged," without 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Three russeted apples blended and aged | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/) |
 
 ## style-context
 
@@ -231,8 +224,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/the-russets/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -242,3 +235,4 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 - The official list places the cidery in Austin, CO; that location is kept as given.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives tasting words, the blend and 7% ABV.

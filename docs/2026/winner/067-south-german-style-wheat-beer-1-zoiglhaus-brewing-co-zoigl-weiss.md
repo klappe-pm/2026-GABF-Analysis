@@ -131,13 +131,13 @@ Zoigl-Weiss is a German-style wheat beer from Zoiglhaus Brewing Co. in Portland,
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not labelled by the brewery (category name used) | none found |
+| Style | not labelled by the brewery (category name used) | Not Found |
 | ABV | 5.2% | [Zoiglhaus: beers](https://www.zoiglhaus.com/beers) |
 | IBU | 15 | [Zoiglhaus: beers](https://www.zoiglhaus.com/beers) |
-| Hops | not published for this beer | none found |
-| Malts and grains | not published for this beer | none found |
-| Yeast | not published for this beer | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | not published for this beer | Not Found |
+| Malts and grains | not published for this beer | Not Found |
+| Yeast | not published for this beer | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | listed under year round | [Zoiglhaus: beers](https://www.zoiglhaus.com/beers) |
 
 ## brewery-description
@@ -146,7 +146,7 @@ The brewery lists Zoigl-Weiss by name, ABV and IBU only, with no description of 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -154,17 +154,17 @@ The beers page carries a house statement that applies to all its traditional Ger
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -196,7 +196,7 @@ Links checked 2026-10-14: [Website](https://zoiglhaus.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [zoiglhaus.com](https://www.zoiglhaus.com/beers), [zoiglhaus.com](https://zoiglhaus.com/), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [zoiglhaus.com](https://www.zoiglhaus.com/beers), [zoiglhaus.com](https://zoiglhaus.com/), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -60,10 +60,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "urbanrest-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "MI"
 untappd: null
-website: "http://www.urbanrest.com"
+website: "https://www.urbanrest.com/"
 world-beer-cup-medals: 0
 ---
 

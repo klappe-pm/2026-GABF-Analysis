@@ -156,10 +156,10 @@ Ghirardelli Chocolate Stout appears on San Francisco Brewing Co.'s menus as the 
 |---|---|---|
 | Style | Imperial Stout (from the menu name, under Darker Beers) | [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewingco.com/drink-menu) |
 | ABV | 9.5% | [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewingco.com/drink-menu) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | Pale, Crystal and Chocolate malts | [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewingco.com/drink-menu) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Ghirardelli cacao nibs | [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewingco.com/drink-menu) |
 | Other | draft pours of 5, 10 and 13 oz | [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewingco.com/drink-menu) |
 
@@ -171,7 +171,7 @@ Source: [SF Brewing Ghirardelli Square: drink menu](https://ghirardelli.sfbrewin
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -179,17 +179,17 @@ The menu entry is the full published ingredient list: three malts and Ghirardell
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -207,7 +207,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 San Francisco Brewing Co. is in San Francisco, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.sfbrewingco.com/), [Untappd](https://untappd.com/sfbrewingco).
 
 ## related
 
@@ -215,7 +215,7 @@ No brewery links have been checked yet.
 
 ## links
 
-- [Untappd: Ghirardelli Chocolate Stout](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319)
+- [Untappd (hand-read citation): Ghirardelli Chocolate Stout](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319)
 - [Beer page on brewery site](https://ghirardelli.sfbrewingco.com/drink-menu)
 - [San Francisco Brewing Co.](https://www.sfbrewingco.com/)
 - [SF Brewing Mission Bay: drink menu](https://missionbay.sfbrewingco.com/drink-menu)
@@ -223,8 +223,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

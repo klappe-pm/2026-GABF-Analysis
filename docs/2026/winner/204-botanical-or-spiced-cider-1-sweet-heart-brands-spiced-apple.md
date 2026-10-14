@@ -200,12 +200,12 @@ Spiced Apple is a cinnamon cider poured on tap at the Loveland and Fort Collins 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not labelled (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published (apple based; varieties not named) | none found |
-| Yeast | not published | none found |
+| Style | not labelled (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | not published (apple based; varieties not named) | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Cinnamon | [Sweet Heart Winery: menu](https://www.sweetheartwinery.com/menu) |
 | Other | On tap in Loveland and Fort Collins | [Sweet Heart Winery: menu](https://www.sweetheartwinery.com/menu) |
 
@@ -215,7 +215,7 @@ No description of Spiced Apple beyond its listing and a cinnamon note on the tas
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -223,17 +223,17 @@ The menu notes only that the cider contains cinnamon. The house cider on the sam
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -268,8 +268,8 @@ Links checked 2026-10-14: [Website](https://sweetheartbrands.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -279,3 +279,4 @@ Links checked 2026-10-14: [Website](https://sweetheartbrands.com/).
 - ABV, apple varieties and sweetness are not published; the menu advises asking staff.
 - No 2026 medal announcement was found on any Sweet Heart site.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the site was read; it has no Spiced Apple description.

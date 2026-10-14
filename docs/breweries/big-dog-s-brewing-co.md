@@ -21,9 +21,9 @@ beers-2026:
   - "../2026/winner/077-belgian-style-tripel-1-big-dogs-brewing-co-tripel-dog-dare.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
-  - "Belgian-Style Tripel"
-  - "Contemporary American-Style Lager"
+  - "Belgian Strong Specialty Ale"
+  - "Belgian Tripel"
+  - "Contemporary American Lager"
 city: "Las Vegas"
 employees: null
 farms-named: []

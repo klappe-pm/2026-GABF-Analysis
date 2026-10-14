@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Belgo-Style Ale"
+  - "American-Belgo Ale"
   - "Chocolate Beer"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Placentia"

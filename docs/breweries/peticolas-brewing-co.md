@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/076-belgian-style-abbey-ale-2-peticolas-brewing-co-room-for-more.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Dubbel"
+  - "Belgian Abbey Ale"
+  - "Belgian Dubbel"
 city: "Dallas"
 employees: null
 farms-named: []
@@ -35,12 +35,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/peticolas/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "peticolas-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "TX"
 untappd: null
-website: null
+website: "https://www.peticolasbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

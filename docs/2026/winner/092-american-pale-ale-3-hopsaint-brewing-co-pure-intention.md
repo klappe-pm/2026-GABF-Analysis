@@ -142,12 +142,12 @@ Pure Intention is a pale ale dry-hopped with Mosaic and El Dorado, brewed by Hop
 |---|---|---|
 | Style | American Pale Ale | [HopSaint: on tap](https://www.hopsaint.com/our-beers) |
 | ABV | 5.7% | [HopSaint: on tap](https://www.hopsaint.com/our-beers) |
-| IBU | 45 | [Untappd: Pure Intention](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092) |
+| IBU | 45 | [Untappd (hand-read citation): Pure Intention](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092) |
 | Hops | Mosaic, El Dorado (dry hop) | [HopSaint: on tap](https://www.hopsaint.com/our-beers) |
 | Malts and grains | a touch of specialty malts (not named) | [HopSaint: on tap](https://www.hopsaint.com/our-beers) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -169,18 +169,18 @@ HopSaint's tap list names Mosaic and El Dorado as dry hops and mentions unnamed 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| El Dorado | El Dorado | not published | dry hop | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
-| Mosaic | Mosaic | not published | dry hop | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+| El Dorado | El Dorado | Not Found | dry hop | Not Found | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+| Mosaic | Mosaic | Not Found | dry hop | Not Found | [hopsaint.com](https://www.hopsaint.com/our-beers) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -198,7 +198,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 HopSaint Brewing Co. is in Torrance, CA. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.hopsaint.com/), [Instagram](https://www.instagram.com/hopsaintbrewingco/), [Untappd](https://untappd.com/HopSaintBrewingCompany).
 
 ## related
 
@@ -212,12 +212,12 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 - [Beer page on brewery site](https://www.hopsaint.com/our-beers)
 - [HopSaint Brewing](https://www.hopsaint.com/)
-- [Untappd: Pure Intention](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092)
+- [Untappd (hand-read citation): Pure Intention](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/our-beers), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -167,10 +167,10 @@ Fuzztail is the American style hefeweizen of Sunriver Brewing Co. in Sunriver, O
 |---|---|---|
 | Style | Hefeweizen (described as American style) | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | ABV | 5% | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| IBU | 20 | [Untappd: Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030) |
+| IBU | 20 | [Untappd (hand-read citation): Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030) |
 | Hops | Chinook, Cascade, Lemon Drop | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | Malts and grains | Idaho grown pale and wheat malts | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| Yeast | not published | none found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | none listed (the page's contains field is blank) | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | Other | hazy; notes of grapefruit, lemon and evergreen | [Sunriver Brewing: Fuzztail](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 
@@ -194,18 +194,18 @@ The brewery's page names three hops (Chinook, Cascade and Lemon Drop) and Idaho 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Cascade | Cascade | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| Chinook | Chinook | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| Lemon Drop | Lemondrop | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
+| Cascade | Cascade | Not Found | Not Found | Not Found | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
+| Chinook | Chinook | Not Found | Not Found | Not Found | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
+| Lemon Drop | Lemondrop | Not Found | Not Found | Not Found | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Unfiltered and hazy | [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/) |
 
 ## style-context
@@ -225,7 +225,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Sunriver Brewing Co. is in Sunriver, OR.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.sunriverbrewingcompany.com/), [Instagram](https://www.instagram.com/sunriverbrewing/), [Untappd](https://untappd.com/SunriverBrewingCompany).
 
 ## related
 
@@ -238,14 +238,14 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 ## links
 
 - [The Waterhole Tavern: beer menu](https://www.thewaterholetavern.com/menu?menu=menu)
-- [Untappd: Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030)
+- [Untappd (hand-read citation): Sunriver Fuzztail](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030)
 - [Beer page on brewery site](https://www.sunriverbrewingcompany.com/beer/fuzztail)
 - [Sunriver Brewing Co.](https://www.sunriverbrewingcompany.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM.
 
 ## research-notes
 

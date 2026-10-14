@@ -22,10 +22,10 @@ beers-2026:
   - "../2026/winner/053-munich-style-helles-3-prost-brewing-co-prost-helles.md"
 brewery-type: null
 categories-won:
-  - "German-Style Pilsener"
-  - "German-Style Schwarzbier"
-  - "Munich-Style Helles"
-  - "Vienna-Style Lager"
+  - "German Pilsener"
+  - "German Schwarzbier"
+  - "Munich Helles"
+  - "Vienna Lager"
 city: "Northglenn"
 employees: null
 farms-named: []

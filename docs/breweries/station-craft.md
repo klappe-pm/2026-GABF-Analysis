@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Dana Point"
 employees: null
 farms-named: []

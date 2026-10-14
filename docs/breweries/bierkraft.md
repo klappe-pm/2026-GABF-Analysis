@@ -21,10 +21,10 @@ beers-2026:
   - "../2026/winner/066-european-style-amber-ale-2-bierkraft-bierkraft-biere-de-garde.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style or French-Style Specialty Ale"
+  - "Belgian or French Specialty Ale"
   - "English Mild or Bitter"
-  - "European-Style Amber Ale"
-  - "German-Style Altbier"
+  - "European Amber Ale"
+  - "German Altbier"
   - "Historical Beer"
 city: "McAlester"
 employees: null
@@ -38,12 +38,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/bierkraft_brewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -60,10 +57,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "bierkraft"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OK"
-untappd: null
-website: null
+untappd: "https://untappd.com/BierKraft"
+website: "https://bierkraft.us/"
 world-beer-cup-medals: 0
 ---
 

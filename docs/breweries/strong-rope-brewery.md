@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/069-english-style-pale-ale-3-strong-rope-brewery-pub-ale.md"
 brewery-type: "micro"
 categories-won:
-  - "English-Style Pale Ale"
+  - "English Pale Ale"
 city: "Brooklyn"
 employees: null
 farms-named: []
@@ -33,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/strongropebrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "strong-rope-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "NY"
 untappd: null
-website: "http://www.strongropebrewery.com"
+website: "https://www.strongropebrewery.com/"
 world-beer-cup-medals: 0
 ---
 

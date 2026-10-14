@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Chico"
 employees: null
 farms-named: []

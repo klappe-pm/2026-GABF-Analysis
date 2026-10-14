@@ -35,6 +35,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -42,6 +44,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "abv"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -49,6 +53,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "ibu"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -56,6 +62,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "srm"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -63,6 +71,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "og"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -70,6 +80,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "fg"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -77,6 +89,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "hops"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -84,6 +98,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "hop-form"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -91,6 +107,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "hop-use"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -98,6 +116,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -105,6 +125,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "malts"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -112,6 +134,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "yeast"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -119,6 +143,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "adjuncts"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -126,6 +152,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "water"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -133,6 +161,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
   - field: "process"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -140,6 +170,8 @@ gaps:
       - "https://www.offsetbier.com/cans-to-go"
       - "https://www.offsetbier.com/taplist-1"
       - "web searches recorded in the research notes"
+      - "https://offsetbier.com/taplist-1"
+      - "https://offsetbier.com/cans-to-go"
 hop-profile: []
 hops: []
 ibu: null
@@ -174,14 +206,14 @@ Neon Lady is a collaboration beer between Offset Bier Co. of Park City, Utah, an
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -189,7 +221,7 @@ No brewery description of Neon Lady was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -197,17 +229,17 @@ Nothing about the ingredients is published.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -225,7 +257,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Offset Bier Co. / New Image Brewing is in Park City, UT.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.offsetbier.com/), [Instagram](https://www.instagram.com/offsetbier/).
 
 ## related
 
@@ -240,8 +272,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [offsetbier.com](https://www.offsetbier.com/), [offsetbier.com](https://www.offsetbier.com/cans-to-go), [offsetbier.com](https://www.offsetbier.com/taplist-1), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [offsetbier.com](https://www.offsetbier.com/), [offsetbier.com](https://www.offsetbier.com/cans-to-go), [offsetbier.com](https://www.offsetbier.com/taplist-1), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [offsetbier.com](https://www.offsetbier.com/), [offsetbier.com](https://www.offsetbier.com/cans-to-go), [offsetbier.com](https://www.offsetbier.com/taplist-1), web searches recorded in the research notes, [offsetbier.com](https://offsetbier.com/taplist-1), [offsetbier.com](https://offsetbier.com/cans-to-go).
+- Not Found: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [offsetbier.com](https://www.offsetbier.com/), [offsetbier.com](https://www.offsetbier.com/cans-to-go), [offsetbier.com](https://www.offsetbier.com/taplist-1), web searches recorded in the research notes, [offsetbier.com](https://offsetbier.com/taplist-1), [offsetbier.com](https://offsetbier.com/cans-to-go), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -252,3 +284,4 @@ No brewery links have been checked yet.
 - The web search budget for this session ran out before a dedicated search for this beer, and Untappd search pages did not return results to automated fetches.
 - Style, ABV, IBU and ingredients remain unverified; nothing is estimated.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery tap and can lists do not include Neon Lady.

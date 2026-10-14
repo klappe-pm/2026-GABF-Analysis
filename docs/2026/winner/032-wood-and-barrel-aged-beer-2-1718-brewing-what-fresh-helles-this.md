@@ -136,14 +136,14 @@ What Fresh Helles This? is a beer from 1718 Brewing (printed on the official win
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | 4.8% | [Untappd: 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | 4.8% | [Untappd (hand-read citation): 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -151,7 +151,7 @@ No brewery description was found because the brewery's website could not be loca
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -159,17 +159,17 @@ Nothing about the ingredients, or the wood or barrel treatment, was found. The n
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -187,7 +187,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 1718 Brewing is in Ocracoke, NC.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/1718Brewing).
 
 ## related
 
@@ -196,12 +196,12 @@ No brewery links have been checked yet.
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487)
+- [Untappd (hand-read citation): 1718 What Fresh Helles This](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only).
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

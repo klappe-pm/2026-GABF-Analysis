@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Ale or French-Style Ale"
+  - "Belgian Abbey Ale"
+  - "Belgian Ale or French Ale"
 city: "Driftwood"
 employees: null
 farms-named: []
