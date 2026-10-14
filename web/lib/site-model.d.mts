@@ -109,6 +109,7 @@ export const FILTER_FIELDS: string[];
 export function filterRow<K extends keyof MedalRow>(row: MedalRow, extra?: K[]): FilterFields & Pick<MedalRow, K>;
 export function medalRows(scope?: Record<string, string>): MedalRow[];
 export function filterData(): { results: MedalRow[]; meta: Record<string, unknown> };
+export function legacyCategoryNames(): Record<string, string>;
 export function counts(): SiteCounts;
 export function winners(year?: number): WinnerRow[];
 export function notesHtml(body: string): string;

@@ -29,6 +29,10 @@ export type CategoryRecord = {
   rows: CategoryMedalRow[];
 };
 export function category(slug: string): CategoryRecord | null;
+export type LegacyCategory = { oldSlug: string; slug: string; name: string };
+export function legacyCategories(): { redirects: LegacyCategory[]; names: Record<string, string> };
+export function legacyCategoryParams(): { slug: string }[];
+export function legacyCategory(slug: string): LegacyCategory | null;
 
 export function reportRows<K extends keyof MedalRow>(extra: K[]): (FilterFields & Pick<MedalRow, K>)[];
 
