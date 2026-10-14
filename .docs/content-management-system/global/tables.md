@@ -6,14 +6,19 @@ Column headers and controls shared by tables on many pages. A page file sets onl
 
 Where: the column headers of every medal table (results, brewery history, category medalists).
 
-- `year`: Year
 - `medal`: Medal
 - `beer`: Beer
 - `brewery`: Brewery
-- `location_credited`: Location credited
-- `city`: City
 - `category`: Category
+- `year`: Year
+- `city`: City
+- `state`: State
 - `entrants`: Entrants
+
+- `location_credited`: Location credited
+
+
+
 - `field`: Field (entries)
 - `entries_per_medal`: Entries per medal
 - `style_family`: Style family
