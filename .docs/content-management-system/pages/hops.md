@@ -15,27 +15,27 @@ Where: the top of the hops page and its browser tab.
 
 Where: the row of buttons under the lede.
 
-- `farms`: Hop farms
-- `winners`: {{year}} winners
+- `farms`: Hop Farms
+- `winners`: {{year}} Winners
 
 ## `stats`
 
 Where: the tiles above the table.
 
-- `varieties`: Hop varieties on record
-- `used`: Varieties in medal beers
+- `varieties`: Hop Varieties on Record
+- `used`: Varieties in Medal Beers
 - `used_note`: In the {{year}} medal beers
-- `farms`: Hop farms on record
+- `farms`: Hop Farms on Record
 
 ## `table`
 
 Where: the column headers of the hops table.
 
-- `variety`: Hop variety
+- `variety`: Hop Variety
 - `origin`: Origin
-- `beers`: Medal beers
+- `beers`: Medal Beers
 - `medals`: Medals
-- `farms`: Farms that grow it
+- `farms`: Farms That Grow It
 - `caption`: Hop varieties with their medal beers, medals, and the farms that grow them
 - `sort_hint`: Select a column header to sort.
 

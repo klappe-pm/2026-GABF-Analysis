@@ -552,6 +552,12 @@
     else if (d.kind === 'spot' && isOpen) addSpot(d.spot);
     else if (d.kind === 'pin' && isOpen) { var li = document.getElementById('fbp-spot-' + d.n); if (li) { li.scrollIntoView({ block: 'nearest' }); var b = li.querySelector('button'); if (b) b.focus(); } }
     else if (d.kind === 'inline-saved') { var s2 = current(); s2.said = 'Edited in place and recorded as ' + d.id + ', accepted.' + (d.rebuilt ? ' The page is reloading with the new copy.' : ' Rebuild the review site to see it.'); s2.bad = false; mountAgain(); }
+    else if (d.kind === 'inline-problem') {
+      // Editing text in the page could not start; say so in plain words, and clear the words once it works.
+      var c2 = current();
+      if (d.message) { c2.said = String(d.message); c2.bad = true; c2.inlineProblem = true; paintSaid(); }
+      else if (c2.inlineProblem) { c2.said = ''; c2.bad = false; c2.inlineProblem = false; paintSaid(); }
+    }
     else if (d.kind === 'nothing-focused') { var c = current(); c.said = 'Nothing in the page has keyboard focus. Tab to an element in the page first.'; c.bad = true; paintSaid(); }
   });
   document.addEventListener('keydown', function (e) {

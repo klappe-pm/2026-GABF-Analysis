@@ -32,11 +32,12 @@
 
 html.gfw-picking, html.gfw-picking * { cursor: crosshair !important; }
 
-/* Editing page copy in place: page copy gets a quiet dotted underline while the panel is open, the
-   element being edited a solid blue outline, and the editor (a field, Save and Cancel) sits on it.
-   Square corners, no shadows. */
-html.gfw-picking .gfw-editable { outline: 1px dotted #0b4fb3; outline-offset: 2px; }
-.gfw-editable.gfw-editing { outline: 3px solid #0b4fb3 !important; outline-offset: 2px; }
+/* Editing page copy in place: page copy gets a quiet dotted underline while the panel is open, and
+   the editor (a field with a solid blue border, Save and Cancel) sits on the element being edited.
+   The underline marks the text, not the element's box, so a full-width heading or a padded card
+   gains no frame around it. Square corners, no shadows. */
+html.gfw-picking .gfw-editable { text-decoration: underline dotted #0b4fb3; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+html.gfw-picking .gfw-editable.gfw-editing { text-decoration: none; }
 .gfw-tip {
   position: absolute; transform: translate(0, calc(-100% - 6px)); max-width: 320px; box-sizing: border-box;
   font: 600 12px/1.35 "Public Sans", "Helvetica Neue", Arial, sans-serif; background: #14213d; color: #ffffff; padding: 5px 8px;

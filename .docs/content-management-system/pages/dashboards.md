@@ -29,7 +29,7 @@ Where: the row of year chips under the tabs on every dashboard. Each links to th
 
 Where: the overview dashboard.
 
-- `title`: Great American Beer Festival Results
+- `title`: Great American Beer Festival results dashboards
 - `lede`: Which states, styles, and breweries keep winning. Start with medals by year, then see where they land on the map, which style families win most, and which breweries lead on points. Select a bar, column, or state to filter by it.
 - `results_title`: Medal Winners
 - `deep_dives_title`: Brewery Deep Dives

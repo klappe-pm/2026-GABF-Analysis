@@ -73,8 +73,8 @@ export default async function HopsPage() {
       )}
       {rows.length ? (
         <section aria-labelledby="hop-cards-title" className="flex flex-col gap-4">
-          <h2 id="hop-cards-title" className="type-headline-small text-on-surface">{t('pages.profile-cards.hop.section')}</h2>
-          <div className="grid grid-cols-1 gap-4 medium:grid-cols-2 expanded:grid-cols-3">
+          <h2 id="hop-cards-title" className="type-headline-small text-on-surface">{t('pages.hop-detail.card.section')}</h2>
+          <div className="grid grid-cols-1 gap-4 medium:grid-cols-2">
             {index.varieties.map((v) => <HopProfileCard key={v.slug} data={hopCardData(v.card)} headingLevel={3} />)}
           </div>
         </section>
