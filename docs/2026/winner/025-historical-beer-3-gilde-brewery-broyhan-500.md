@@ -30,14 +30,6 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gilde-brauerei.com/en/history/"
-      - "https://gilde1546.com/"
-      - "https://gilde1546.com/-on-tap"
-      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
-      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gilde-brauerei.com/en/history/"
@@ -46,6 +38,7 @@ gaps:
       - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
       - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gilde-brauerei.com/en/history/"
@@ -159,7 +152,9 @@ sources:
   - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
 srm: null
 style: "Historic Wheat Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Hazy wheat bier with a full body, fruity with notes of banana, cinnamon, and clove."
+  source: "https://gilde1546.com/-on-tap"
 water: null
 yeast: []
 ---
@@ -195,7 +190,9 @@ Source: [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Hazy wheat bier with a full body, fruity with notes of banana, cinnamon, and clove.
+
+Source: [gilde1546.com](https://gilde1546.com/-on-tap)
 
 ## ingredients
 
@@ -243,8 +240,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes.
 - Not published: IBU. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -256,3 +253,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact Charlotte listing and matching Untappd entry. The brewery confirms the historical inspiration, style and ABV; no IBU or named recipe ingredients were found.
 - Field pass 2026-10-13: A new search excluding previously read brewery and Untappd pages found no beer-specific IBU or hops; historic Broyhan recipes are not evidence for this Charlotte beer.
+- Deep dive pass 2026-10-14: the tap list gives the tasting words and 5.5% ABV; no recipe.

@@ -31,18 +31,13 @@ description:
 entries: 19
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387"
-      - "https://www.armoredcowbrewing.com/"
-      - "https://www.armoredcowbrewing.com/on-tap"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387"
@@ -138,7 +133,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "GF Hazy IPA"
-tasting-notes: null
+tasting-notes:
+  text: "Soft haze, bright citrus, and endlessly drinkable."
+  source: "https://www.armoredcowbrewing.com/on-tap"
 water: null
 yeast: []
 ---
@@ -174,7 +171,9 @@ Source: [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Soft haze, bright citrus, and endlessly drinkable.
+
+Source: [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap)
 
 ## ingredients
 
@@ -224,8 +223,8 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-hell-yeah/3241387), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -234,3 +233,4 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 - No 2026 medal announcement was found on the brewery's home or on tap pages.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Hell Yeah listing reports N/A IBU; no numerical bitterness was verified.
+- Deep dive pass 2026-10-14: the tap list prints the hops as "Mosiac and El Dorado" (Mosaic misspelled); no grain bill or IBU.
