@@ -13,7 +13,7 @@ status: DONE
 aliases: []
 tags:
   - "hops"
-farm-count: 113
+farm-count: 110
 variety-count: 82
 ---
 
@@ -179,9 +179,6 @@ The catalogue in `scripts/lib/hop-catalogue.mjs` is the hand curated source: eac
 - [Civil Sass Hops](farms/civil-sass-hops.md)
 - [CLS Farms](farms/cls-farms.md)
 - [Coleman Agriculture](farms/coleman-agriculture.md)
-- [Coleman Farms Inc](farms/coleman-farms.md)
-- [Coleman Greenleaf](farms/coleman-greenleaf.md)
-- [Coleman Ranches](farms/coleman-ranches.md)
 - [Colorado Hop Company](farms/colorado-hop-company.md)
 - [Come on get Hoppy](farms/come-on-get-hoppy.md)
 - [Condzella Hops](farms/condzella-hops.md)
