@@ -30,10 +30,6 @@ description:
 entries: 50
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.palefirebrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.palefirebrewing.com/"
@@ -95,7 +91,9 @@ sources:
   - "https://www.palefirebrewing.com/"
 srm: null
 style: "Irish Red Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Cherry notes and a slight residual sweetness come from Crystal and Munich malts, with a touch of chocolate wheat. A clean bitterness, courtesy of mild British hops, balances the malt complexity and results in a flavorful and refreshing pint."
+  source: "https://www.palefirebrewing.com/"
 water: null
 yeast: []
 ---
@@ -131,7 +129,9 @@ Source: [Pale Fire Brewing](https://www.palefirebrewing.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Cherry notes and a slight residual sweetness come from Crystal and Munich malts, with a touch of chocolate wheat. A clean bitterness, courtesy of mild British hops, balances the malt complexity and results in a flavorful and refreshing pint.
+
+Source: [palefirebrewing.com](https://www.palefirebrewing.com/)
 
 ## ingredients
 
@@ -180,7 +180,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [palefirebrewing.com](https://www.palefirebrewing.com/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [palefirebrewing.com](https://www.palefirebrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -189,3 +189,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Pale Fire Untappd description says British hops without identifying varieties. Additional ingredient searches found no cultivar specific to Red Molly.
+- Deep dive pass 2026-10-14: the brewery text gives tasting words and malts; the hops are only "mild British hops".

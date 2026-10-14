@@ -258,3 +258,4 @@ Links checked 2026-10-14: [Website](https://pelicanbrewing.com/), [Instagram](ht
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU, hop and brewery-page searches found no verified missing field. Results for the Beachcomber pub's street address do not identify the winning beer's recipe.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.
