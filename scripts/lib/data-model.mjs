@@ -84,6 +84,24 @@ export function canonicalCategoryNames(rows) {
   return new Map([...newest].map(([k, v]) => [k, v.name]));
 }
 
+// The brewery attributes a medal row carries, defined once for the site rows and the explorer
+// records so the two cannot disagree. Each is null where no source states it; nothing is defaulted.
+export const BREWERY_ATTRIBUTES = ['brewery_type', 'ownership_type', 'investors', 'distribution_channel', 'has_kitchen', 'region'];
+export function breweryAttributeLookup(ds) {
+  const byKey = new Map(ds.breweries.map((b) => [b.key, b]));
+  return (row) => {
+    const b = byKey.get(row.brewery_key ?? breweryKey(row.brewery_name ?? row.brewery)) ?? null;
+    return {
+      brewery_type: b?.brewery_type || null,
+      ownership_type: b?.ownership?.ownership_type || null,
+      investors: b?.ownership?.investor || null,
+      distribution_channel: b?.distribution_channel || null,
+      has_kitchen: b?.has_kitchen ?? null,
+      region: ds.stateByCode[String(row.state ?? '').toUpperCase()]?.region || null,
+    };
+  };
+}
+
 // localProfiles: false ignores the git-ignored breweries/ deep dives, so generated documents are the same on every checkout.
 export function loadDataset({ root, localProfiles = true } = {}) {
   const referenceDir = root ? resolve(root, 'data/reference') : REFERENCE;
@@ -235,7 +253,9 @@ export function loadDataset({ root, localProfiles = true } = {}) {
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
     b.locations_count = b.location_list.length || Number(pd['locations-count'] ?? '') || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
     // null when no profile or fact states it; the revenue estimate then adds no food revenue.
-    b.has_kitchen = pd['has-kitchen'] !== undefined ? Boolean(pd['has-kitchen']) : (b.location_list.length ? b.location_list.some((l) => l.kitchen) : null);
+    // A kitchen is stated only where a fact, profile, or listed location says so; a location that is silent on it states nothing.
+    const stated = b.location_list.map((l) => l.kitchen).filter((k) => k !== undefined && k !== null && k !== '');
+    b.has_kitchen = pd['has-kitchen'] !== undefined ? Boolean(pd['has-kitchen']) : (stated.length ? stated.some(Boolean) : null);
     b.distribution_channel = pd['distribution-channel'] ?? b.distributors[0]?.channel ?? '';
     const barrels = pd['barrels-estimate'] ? { barrels: Number(pd['barrels-estimate']), basis: 'estimate', confidence: 'low', source: 'brewery profile' } : estimateBarrels({ production: b.production, breweryType: b.brewery_type, locationsCount: b.locations_count, botyBracket: b.awards[0]?.bracket ?? '' }, params);
     const revenue = pd['revenue-estimate-usd']
