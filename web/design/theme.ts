@@ -6,7 +6,7 @@ import {
   argbFromHex, DynamicScheme, Hct, hexFromArgb, MaterialDynamicColors,
   SchemeContent, SchemeExpressive, SchemeFidelity, SchemeNeutral, SchemeTonalSpot, SchemeVibrant, TonalPalette,
 } from '@material/material-color-utilities';
-import { COLOR_ROLES, type ColorRole, pageMax, type Settings, TYPE_ROLES, type TypeRole, typeClass, typeSizeKey } from './schema';
+import { COLOR_ROLES, type ColorRole, pageMax, SERIES_KEYS, type Settings, TYPE_ROLES, type TypeRole, typeClass, typeSizeKey } from './schema';
 
 const STYLES: Record<string, new (source: Hct, isDark: boolean, contrastLevel: number) => DynamicScheme> = {
   'tonal spot': SchemeTonalSpot,
@@ -128,6 +128,8 @@ export function themeVars(g: Settings): Record<string, string> {
   vars['--app-color-gold'] = String(g['Gold medal color']);
   vars['--app-color-silver'] = String(g['Silver medal color']);
   vars['--app-color-bronze'] = String(g['Bronze medal color']);
+  // Chart series colors, the same five site/assets/brand.css carries.
+  SERIES_KEYS.forEach((k, i) => { if (g[k]) vars[`--app-color-series-${i + 1}`] = String(g[k]); });
   // Adaptive layout: the page width (none fills the window), and Material's margins per window size class.
   vars['--app-page-max'] = pageMax(g['Page width']);
   vars['--app-margin-compact'] = `${Number(g['Compact margin'] ?? 16)}px`;
@@ -205,4 +207,13 @@ export function contrastReport(scheme: Scheme, extraNonText: [ColorRole, ColorRo
   for (const [fg, bg] of TEXT_PAIRS) { out.push(row(fg, bg, 4.5)); seen.add(`${fg}|${bg}`); }
   for (const [fg, bg] of [...NON_TEXT_PAIRS, ...extraNonText]) if (!seen.has(`${fg}|${bg}`)) { out.push(row(fg, bg, 3)); seen.add(`${fg}|${bg}`); }
   return out;
+}
+
+// Each chart series color against the page background: chart marks need 3 to 1 (WCAG 2.2 AA, non text).
+export function seriesReport(g: Settings, scheme: Scheme): ContrastRow[] {
+  return SERIES_KEYS.filter((k) => typeof g[k] === 'string').map((k) => {
+    const fgHex = String(g[k]);
+    const ratio = contrast(fgHex, scheme.background);
+    return { fg: k, bg: 'background', fgHex, bgHex: scheme.background, ratio, min: 3, pass: ratio >= 3 };
+  });
 }
