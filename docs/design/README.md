@@ -45,9 +45,9 @@ A step carries the part of the page it concerns: a square blue outline with a sm
 
 ## where-tickets-live
 
-One Markdown file per ticket under `.docs/feedback/<page-name>/`, where the page name is the surface's plain name in lowercase kebab case (`overview-dashboard`, `brewery-detail`). `.docs/` is excluded from git on this machine, so tickets are local and CI, which has no `.docs/` folder, simply finds none. `GABF_FEEDBACK_DIR` moves the store, which tests and screenshots use.
+One Markdown file per ticket under `docs/feedback/<page-name>/`, tracked in git, where the page name is the surface's plain name in lowercase kebab case (`overview-dashboard`, `brewery-detail`). The design system page's Save writes to `docs/feedback/design-system/`. Each ticket's captured images sit in a folder named after the ticket file, `docs/feedback/<page-name>/<ticket-name>/`, with `page.png` for the framed page, `spot-<n>.png` for each picked element, and `component.png` where the design system Save supplies one. `GABF_FEEDBACK_DIR` moves the store, which tests and screenshots use. The pipeline's own queue, log and work folders live under `.docs/feedback/` (`.queue/`, `.work/`), which git ignores.
 
-The frontmatter holds the id, status, job, step, state, route, spots (selector, rect and element text per pin), components, content keys, categories, created and revised; the note is the body. Every ticket is ACCEPTED when it is registered, and an edit keeps it ACCEPTED and moves only revised. Every string is scanned with the token shape detector from the agent-graph engine before it is written.
+The frontmatter holds the id, status, job, step, state, route, spots (selector, rect and element text per pin), components, content keys, content edits, setting edits, categories, images, the issue and pull request numbers once they exist, created and revised; the note is the body. Each image is `{ path, kind, spot, component, url }`: the path is relative to the ticket, the kind is `page`, `spot` or `component`, and the url is the address the image has on main once the pull request merges. Every ticket is ACCEPTED when it is registered, and an edit keeps it ACCEPTED and moves only revised. Every string is scanned with the token shape detector from the agent-graph engine before it is written, and again before anything is sent to GitHub, because the repository is public. Tickets hold a reviewer's own words, so `npm run check` skips `docs/feedback/`; `npm run design:check` checks their structure instead.
 
 ```bash
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- list
@@ -56,9 +56,35 @@ cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- refine 
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- resolve WI-003 --commit <sha> --note "What was done"
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- decline WI-003 --note "Why not"
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- migrate
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- process --scan --dry-run
 ```
 
-`migrate` copies the notes of the retired `design-feedback.jsonl` into the new layout once, from the file or from git when the file is gone, and skips any note already copied. `export-github` prints the `gh issue create` commands that would turn accepted tickets into GitHub issues. It does not run them.
+`migrate` moves tickets from the retired local folder `.docs/feedback/` to `docs/feedback/` unchanged: the note and every frontmatter line stay byte for byte, only `images: []` and `issue: null` are added, the id is kept, and an image folder moves with its ticket. It also copies the notes of the retired `design-feedback.jsonl` into the layout once, from the file or from git when the file is gone, and skips any note already copied. `export-github` prints the `gh issue create` commands that would turn accepted tickets into GitHub issues. It does not run them.
+
+## captured-images
+
+When a ticket is registered the review server answers at once and then captures PNG screenshots with the local Playwright: one of the framed page at the reviewer's viewport with the numbered pins and the step marker drawn over it, and one cropped to each picked element. Only the review site on this machine is opened, so nothing outside the framed site is captured. Playwright is not a dependency of the repository. It is found through `PLAYWRIGHT_MODULE`, then `node_modules`, then the global npm root, then the npx copy under `~/.npm/_npx`, and Chromium is the newest headless shell in `~/Library/Caches/ms-playwright` unless `PLAYWRIGHT_CHROMIUM` names one. When no browser is available the ticket records `capture: unavailable` and goes on without images.
+
+A ticket links every component to its spec, with Open in Obsidian beside the link in the local ticket and the panel, and says "No design system file yet" for a component with no spec. Every image is embedded and also a link that opens it in one click: a relative link in the local ticket, `[![Spot 1](url)](url)` in the GitHub issue. The review server serves a ticket's images at `/review/feedback-image/<ticket id>/<file>.png` so the panel can open them.
+
+## the-feedback-pipeline
+
+A saved ticket becomes a GitHub issue and a merged pull request with no one at the keyboard. The review server starts the pipeline when it registers a ticket, after the images are captured, and a watcher on `docs/feedback/` starts it for a ticket file written by someone else, such as the design system Save, once the file has stopped changing. A ticket id is queued once, so it never creates two issues. Jobs run one at a time from a queue saved in `.docs/feedback/.queue/queue.json`, with one line per step in `.docs/feedback/.queue/log.jsonl`. Saving never waits for it.
+
+For each ticket, in order:
+
+- A worktree under `.docs/feedback/.work/<id>/` on the branch `feedback/<id>-<slug>`, from a fresh `origin/main`.
+- The ticket and its images are committed and the branch is pushed, so the issue can link the images from the branch.
+- The issue is made from `.github/ISSUE_TEMPLATE/design-feedback.yml`'s sections, with the labels `feedback`, one per category, `page: <page>`, `kind: content`, `kind: setting` or `kind: design`, and `status: in progress`, created if missing. The number is recorded in the ticket.
+- Copy edits and setting edits are reapplied from the ticket's old and new values with the same byte preserving writer. A note with no mechanical edit goes to `claude -p`, run in the worktree with the issue as the prompt.
+- A commit with a plain message and `Refs #n`, then `npm ci` if needed and `npm run verify`. A failure is commented on the issue, the issue is labelled `status: needs attention`, the branch is left for review and the job stops.
+- Push, a pull request with `Closes #n`, `gh pr checks <n> --watch` (retried while no checks are reported yet), and a merge with `gh pr merge --merge --delete-branch` only when the checks pass.
+- A `## session handoff` comment with Delivered, Gates, Next, Blocked, Do not and Open decisions on the pull request and on the merge commit. The issue body is edited to point at main and the issue is labelled `status: done`.
+- The worktree and local branch are removed, the ticket is DONE with its pull request recorded, and the main checkout is fast forwarded only when it is clean and on main. Otherwise the job records that it needs a pull.
+
+The agent step is `claude -p --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npm run verify),Bash(git status),Bash(git diff *)" --permission-prompts none --output-format json --no-session-persistence --max-budget-usd 5`, with the prompt on stdin and the worktree as the working directory. It names no flag that bypasses permissions or guards, it loads the session's usual settings and hooks, and anything outside the allowed tools is denied rather than asked. The prompt carries the repository rules: no dash used as punctuation, no attribution, plain copy, run `npm run verify`.
+
+The pipeline touches only `klappe-pm/GABF-Analysis`: every `gh` call names it and the origin remote is checked first. `GABF_FEEDBACK_PIPELINE=off` turns off the automatic run in the review server and the watcher. `npm run tickets -- process` runs the queue by hand, naming tickets to queue them or adding `--scan` to queue every accepted ticket without an issue, and `--dry-run` prints every `gh` and `git` command without running any. The panel shows each ticket's status (queued, issue, in progress, pull request, merged, needs attention) with links to the issue, the pull request and the images, and the same states are at `/review/pipeline`.
 
 ## never-public
 

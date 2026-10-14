@@ -481,11 +481,34 @@
     }
     if (categories) fillCategories(); else api('GET', '/review/categories').then(function (r) { categories = r.categories; fillCategories(); }).catch(function () { catBox.textContent = 'Categories are unavailable: the review server did not answer.'; });
     if (lists) fillDatalists(); else loadLists().then(function (r) { if (r) fillDatalists(); });
-    api('GET', '/review/feedback?step=' + encodeURIComponent(ctx.current)).then(function (items) {
-      recorded.innerHTML = '';
-      if (!items.length) { recorded.appendChild(h('li', { text: 'Nothing yet.' })); return; }
-      items.slice(-6).forEach(function (t) { recorded.appendChild(h('li', { text: t.id + ' ' + t.status.toLowerCase() + ': ' + excerpt(t.title, 70) })); });
-    }).catch(function () { recorded.appendChild(h('li', { text: 'The review server did not answer.' })); });
+    // What is already recorded for the step, each ticket with where it is in the pipeline: queued,
+    // issue, in progress, pull request, merged, or needs attention, with links to the issue and the
+    // pull request and to the images captured with it. The list refreshes while the panel is open.
+    function loadRecorded() {
+      api('GET', '/review/feedback?step=' + encodeURIComponent(ctx.current)).then(function (items) {
+        recorded.innerHTML = '';
+        if (!items.length) { recorded.appendChild(h('li', { text: 'Nothing yet.' })); return; }
+        items.slice(-6).forEach(function (t) {
+          var li = h('li', { text: t.id + ' ' + t.status.toLowerCase() + ': ' + excerpt(t.title, 70) });
+          var p = t.pipeline;
+          if (p) {
+            li.appendChild(document.createTextNode(' '));
+            li.appendChild(h('strong', { class: 'fbp-pipeline fbp-pipeline-' + p.state.replace(/\s+/g, '-'), text: p.label }));
+            if (p.issueUrl) { li.appendChild(document.createTextNode(' ')); li.appendChild(h('a', { href: p.issueUrl, target: '_blank', rel: 'noopener', text: 'Issue' })); }
+            if (p.prUrl) { li.appendChild(document.createTextNode(' ')); li.appendChild(h('a', { href: p.prUrl, target: '_blank', rel: 'noopener', text: 'Pull request' })); }
+            if (p.error) li.appendChild(h('span', { class: 'fbp-hint', text: ' ' + p.error }));
+            if (p.needsPull) li.appendChild(h('span', { class: 'fbp-hint', text: ' ' + p.needsPull }));
+          }
+          (t.images || []).forEach(function (img) {
+            li.appendChild(document.createTextNode(' '));
+            li.appendChild(h('a', { href: img.url, target: '_blank', rel: 'noopener', text: img.kind === 'page' ? 'Page image' : img.kind === 'component' ? 'Component image' : 'Spot ' + img.spot + ' image' }));
+          });
+          recorded.appendChild(li);
+        });
+      }).catch(function () { recorded.innerHTML = ''; recorded.appendChild(h('li', { text: 'The review server did not answer.' })); });
+    }
+    loadRecorded();
+    var recordedTimer = setInterval(function () { if (!recorded.isConnected) { clearInterval(recordedTimer); return; } loadRecorded(); }, 8000);
 
     refresh();
     if (isOpen) { setTimeout(function () { note.focus(); }, 0); syncPage(); derive(); }
