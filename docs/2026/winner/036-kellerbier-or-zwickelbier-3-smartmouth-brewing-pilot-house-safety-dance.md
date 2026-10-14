@@ -203,6 +203,10 @@ Smartmouth Brewing Pilot House is in Virginia Beach, VA. Brewery type in Open Br
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Smartmouth Brewing Pilot House](../../breweries/smartmouth-brewing-pilot-house.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach)

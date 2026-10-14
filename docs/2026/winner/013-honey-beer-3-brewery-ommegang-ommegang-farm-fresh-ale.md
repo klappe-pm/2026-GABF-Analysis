@@ -190,6 +190,11 @@ Brewery Ommegang is in Cooperstown, NY. Brewery type in Open Brewery DB: Regiona
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Brewery Ommegang](../../breweries/brewery-ommegang.md)
+- Hop varieties: [Hallertauer Magnum](../../hops/varieties/hallertauer-magnum.md), [Mandarina Bavaria](../../hops/varieties/mandarina-bavaria.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.ommegang.com/beerinfo/farm-fresh-ale/)

@@ -212,6 +212,10 @@ Ghost Tree Brewing Co. is in Amherst, OH.
 
 Links checked 2026-10-14: [Website](https://www.ghosttreebrewing.com/).
 
+## related
+
+- Brewery: [Ghost Tree Brewing Co.](../../breweries/ghost-tree-brewing-co.md)
+
 ## links
 
 - [Ghost Tree Brewing Co.](https://www.ghosttreebrewing.com/)
@@ -232,3 +236,4 @@ Links checked 2026-10-14: [Website](https://www.ghosttreebrewing.com/).
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery's beer page names Féileadh Mòr as an Irish Red Ale at 5.8% ABV, conflicting with the winning amber lager category. No page establishes a lager version or ties that recipe to this medal; strength and ingredients remain unassigned.
 - Field pass 2026-10-13: Additional field-specific searches found no lager-specific ABV, IBU, hop variety or brewery beer page. The previously documented Irish red ale mismatch remains unresolved; no values from that recipe were transferred.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Fèileadh Mòr description.

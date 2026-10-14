@@ -17,13 +17,47 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "TerraFlux"
+alpha-acid-percent: "14.4 to 22.6"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "and woody"
+  - "citrus"
+  - "earthy"
+  - "herbal"
+  - "stone fruit"
+beta-acid-percent: "4 to 8.9"
+breeder: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+canonical-name: "TerraFlux"
+caryophyllene-percent-of-oil: "2 to 7"
+cohumulone-percent-of-alpha: "28 to 32"
+farnesene-percent-of-oil: "up to 0.6"
+gaps:
+  - "parentage"
+  - "release-year"
+humulene-percent-of-oil: "5 to 16"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "45 to 79"
 origin-country: "United States"
-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+owner-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "terraflux"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2026/08/Haas_TFL-HBC682_SPEC-SHEET.pdf"
+total-oil-ml-per-100g: "1 to 5.3"
+trademark: "TerraFlux (trademark of Hop Breeding Company, per the John I. Haas sheet)"
+us-acres-latest:
+  - "Washington 2,059"
+us-acres-latest-year: 2025
+us-grown: true
+use: "bittering"
+use-basis: "bittering (Hop Breeding Company: first high alpha bittering hop it released)"
 ---
 
 # terraflux
@@ -100,3 +134,33 @@ A three state total cannot be computed for any year because at least one state i
 - [johnihaas.com/wp-content/uploads/2026/08/Haas_TFL-HBC682_SPEC-SHEET.pdf](https://www.johnihaas.com/wp-content/uploads/2026/08/Haas_TFL-HBC682_SPEC-SHEET.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

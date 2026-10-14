@@ -30,18 +30,6 @@ description:
 entries: 82
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.portcitybrewing.com/"
-      - "https://www.portcitybrewing.com/beer"
-      - "https://www.portcitybrewing.com/oktoberfest"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.portcitybrewing.com/"
-      - "https://www.portcitybrewing.com/beer"
-      - "https://www.portcitybrewing.com/oktoberfest"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://www.portcitybrewing.com/"
@@ -90,12 +78,6 @@ gaps:
       - "https://www.portcitybrewing.com/beer"
       - "https://www.portcitybrewing.com/oktoberfest"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.portcitybrewing.com/"
-      - "https://www.portcitybrewing.com/beer"
-      - "https://www.portcitybrewing.com/oktoberfest"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Noble hops"
     variety: "Noble hops"
@@ -111,16 +93,22 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Märzen-style lager brewed with German malts and hops, served keller or zwickel style: unfiltered and naturally carbonated"
+  source: "https://www.portcitybrewing.com/oktoberfest"
 sources:
   - "https://catalog.beer/beer/e8fbebba-ab2c-4d4b-98ca-8a919e3ed7be"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.portcitybrewing.com/"
   - "https://www.portcitybrewing.com/beer"
   - "https://www.portcitybrewing.com/oktoberfest"
-srm: null
+srm:
+  value: "Bright amber (no SRM number published)"
+  source: "https://www.portcitybrewing.com/oktoberfest"
 style: "Märzen-style lager"
-tasting-notes: null
+tasting-notes:
+  text: "TOASTY, SWEET, SOFT BITTERNESS. This bright amber beer has subtle flavors of toasted bread, leading to a clean, dry finish punctuated by just a touch of Noble hops."
+  source: "https://www.portcitybrewing.com/oktoberfest"
 water: null
 yeast: []
 ---
@@ -156,7 +144,9 @@ Source: [Port City: Oktoberfest](https://www.portcitybrewing.com/oktoberfest)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> TOASTY, SWEET, SOFT BITTERNESS. This bright amber beer has subtle flavors of toasted bread, leading to a clean, dry finish punctuated by just a touch of Noble hops.
+
+Source: [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest)
 
 ## ingredients
 
@@ -172,11 +162,11 @@ The brewery says the beer is brewed with German malts and "just a touch of Noble
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Bright amber (no SRM number published) | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Märzen-style lager brewed with German malts and hops, served keller or zwickel style: unfiltered and naturally carbonated | [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest) |
 
 ## style-context
 
@@ -197,6 +187,10 @@ Port City Brewing Co. is in Alexandria, VA. Brewery type in Open Brewery DB: Reg
 
 Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagram](https://www.instagram.com/portcitybrew/).
 
+## related
+
+- Brewery: [Port City Brewing Co.](../../breweries/port-city-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.portcitybrewing.com/oktoberfest)
@@ -206,7 +200,7 @@ Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [portcitybrewing.com](https://www.portcitybrewing.com/), [portcitybrewing.com](https://www.portcitybrewing.com/beer), [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [portcitybrewing.com](https://www.portcitybrewing.com/), [portcitybrewing.com](https://www.portcitybrewing.com/beer), [portcitybrewing.com](https://www.portcitybrewing.com/oktoberfest), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -214,3 +208,4 @@ Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagra
 - No 2026 medal announcement from the brewery was found; its home page does not mention Oktoberfest.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Oktoberfest](https://catalog.beer/beer/e8fbebba-ab2c-4d4b-98ca-8a919e3ed7be) lists 5.5% ABV, 24 IBU, style "German-Style Märzen" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, bright amber color and the unfiltered, naturally carbonated serve; hops are named only as Noble.

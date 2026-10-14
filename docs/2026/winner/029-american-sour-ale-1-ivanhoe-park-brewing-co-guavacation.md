@@ -177,6 +177,10 @@ Ivanhoe Park Brewing Co. is in Orlando, FL. Brewery type in Open Brewery DB: Mic
 
 Links checked 2026-10-14: [Website](https://ivanhoeparkbrewing.com/), [Instagram](https://www.instagram.com/ivanhoeparkbrew/), [Untappd](https://untappd.com/IvanhoeParkBrewingCompany).
 
+## related
+
+- Brewery: [Ivanhoe Park Brewing Co.](../../breweries/ivanhoe-park-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://ivanhoeparkbrewing.com/beer/guavacation/)

@@ -31,20 +31,6 @@ description:
 entries: 184
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://altstadtbeer.com/beers/"
-      - "https://altstadtbeer.com/beers/oktoberfest/"
-      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
-      - "https://www.altstadtbeer.com/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://altstadtbeer.com/beers/"
-      - "https://altstadtbeer.com/beers/oktoberfest/"
-      - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
-      - "https://www.altstadtbeer.com/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://altstadtbeer.com/beers/"
@@ -133,9 +119,13 @@ sources:
   - "https://catalog.beer/beer/966aa886-6040-42e7-be05-0a58a7e0e992"
   - "https://www.altstadtbeer.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Copper (no SRM number published)"
+  source: "https://altstadtbeer.com/beers/oktoberfest/"
 style: "Märzen"
-tasting-notes: null
+tasting-notes:
+  text: "A blend of German Pilsner, Vienna, and Munich malts gives this copper-colored lager its rich, lightly sweet malt character. Mild hopping provides balance while allowing the toasted malt flavors to shine. The result is a smooth, full-bodied beer with a clean, complex finish."
+  source: "https://altstadtbeer.com/beers/oktoberfest/"
 water: null
 yeast: []
 ---
@@ -171,7 +161,9 @@ Source: [Altstadt: Oktoberfest](https://altstadtbeer.com/beers/oktoberfest/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A blend of German Pilsner, Vienna, and Munich malts gives this copper-colored lager its rich, lightly sweet malt character. Mild hopping provides balance while allowing the toasted malt flavors to shine. The result is a smooth, full-bodied beer with a clean, complex finish.
+
+Source: [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/)
 
 ## ingredients
 
@@ -185,7 +177,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Copper (no SRM number published) | [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -209,6 +201,10 @@ Altstadt Brewery is in Fredericksburg, TX. Brewery type in Open Brewery DB: Micr
 
 Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](https://www.instagram.com/altstadtbrewery/).
 
+## related
+
+- Brewery: [Altstadt Brewery](../../breweries/altstadt-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://altstadtbeer.com/beers/oktoberfest/)
@@ -219,7 +215,7 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [altstadtbeer.com](https://altstadtbeer.com/beers/), [altstadtbeer.com](https://altstadtbeer.com/beers/oktoberfest/), [altstadtbeer.com](https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/), [altstadtbeer.com](https://www.altstadtbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -229,3 +225,4 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 - The beer page notes the Houston Chronicle named it a favorite among 12 Oktoberfest beers; that article was not opened.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Oktoberfest](https://catalog.beer/beer/966aa886-6040-42e7-be05-0a58a7e0e992) lists 5.9% ABV, 16 IBU, style "Märzen" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and copper color; it names no hop variety.

@@ -24,7 +24,7 @@ Where: the overview dashboard.
 
 - `title`: Great American Beer Festival results
 - `lede`: Which states, styles, and breweries keep winning. Start with medals by year, then see where they land on the map, which style families win most, and which breweries lead on points. Select a bar, column, or state to filter by it.
-- `results_title`: Results
+- `results_title`: Medal Winners
 - `deep_dives_title`: Brewery deep dives
 - `deep_dive_meta`: {{city}}, {{state}} · {{count}} medals in the record
 
@@ -46,7 +46,7 @@ Where: the categories dashboard.
 
 - `title`: Categories
 - `lede`: Entrants by category from the official list, the hardest categories to medal in, the classic and special split by year, and category size against how many breweries medal.
-- `results_title`: Results
+- `results_title`: Medal Winners
 
 ## `breweries`
 
@@ -59,7 +59,7 @@ Where: the breweries dashboard.
 - `picker_meta_founded`: founded {{year}}
 - `picker_profile_link`: Open profile
 - `pick_prompt`: Pick a brewery above.
-- `results_title`: Results
+- `results_title`: Medal Winners
 
 ## `economics`
 
@@ -222,7 +222,7 @@ Where: the single file dashboard (one HTML file that works offline).
 - `lede_hosted`: Every medal in the record. Filters apply to every tab, charts filter when you select a bar or state, and each chart saves as a PNG. All data is in this page.
 - `about_file`: All data is in this file as of its last build, so it works offline and nothing leaves your device.
 - `about_hosted`: All data is in this page as of its last build, and the page makes no network requests.
-- `results_title`: Results
+- `results_title`: Medal Winners
 
 ### `tabs`
 

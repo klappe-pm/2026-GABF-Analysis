@@ -10,7 +10,7 @@ The profiles in this folder are the source. The database is generated output and
 cd /Users/kevinlappe/projects/active/gabf-analysis && node scripts/build-winner-db.mjs 2026
 ```
 
-The build writes `data/enriched/winners-2026.sqlite` from scratch on every run and needs Node 22 or newer.
+The build writes `data/enriched/winners-2026.sqlite` from scratch on every run and needs Node 22 or newer. The database is a local build output and is not in git: never commit it, `gabf-dashboard.html`, or `gabf-explorer.html` on a research branch. `npm run generate`, `npm run build`, CI, and the deploy rebuild them from the profiles.
 
 ## file-names
 

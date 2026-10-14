@@ -45,7 +45,7 @@ The name is "GABF Analysis". Voice is plain, precise, and brief: state the findi
 ## Evidence on Hand
 
 - Medal results: `data/results/gabf-2018.csv` to `gabf-2026.csv` (official lists for 2021 to 2026).
-- 336 researched 2026 winner profiles: `docs/2026/winner/`, queryable in `data/enriched/winners-2026.sqlite`. Specs are published values only; about 42 beers have no published specs, and gaps are stated, never filled.
+- 336 researched 2026 winner profiles: `docs/2026/winner/`, queryable in `data/enriched/winners-2026.sqlite` once `npm run explorer` builds it locally. Specs are published values only; about 42 beers have no published specs, and gaps are stated, never filled.
 - Brewery deep dives and estimates: `breweries/`, `data/reference/` (estimates marked (E) and traceable to `data/reference/estimation-parameters.json`).
 - Federal Reserve districts and state controls (population, GDP, ACS 2024 demographics, NCES literacy, NCHS life expectancy): `data/reference/`.
 - No testimonials, users, press coverage, or endorsements exist; none may be invented.

@@ -15,13 +15,48 @@ tags:
   - "not-published"
   - "united-states"
   - "variety"
-variety: "Vanguard"
+alpha-acid-percent: "4 to 6"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "Hopsteiner data sheet"
+aroma-descriptors:
+  - "grass"
+  - "lemon"
+  - "tea"
+  - "tropical fruit"
+beta-acid-percent: "5 to 7.5"
+breeder: "Hopsteiner marketing; breeding program not stated"
+canonical-name: "Vanguard"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "14 to 16"
+farnesene-percent-of-oil: "0 to 1"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "proprietary-status"
+  - "release-year"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Hopsteiner marketing; breeding program not stated"
+owner-program: "Hopsteiner marketing; breeding program not stated"
+parentage: "A cross between a selected Hallertauer daughter and a USDA selected German aroma male; a triploid hop similar to Hallertauer Mittelfruh (Hopsteiner)"
 proprietary-status: "not published"
+release-year: null
+release-year-note: null
 slug: "vanguard"
-year-released: null
+sources:
+  - "https://hopsteiner.us/variety-data-sheets/Vanguard"
+total-oil-ml-per-100g: "0.8 to 1.2"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # vanguard
@@ -75,3 +110,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [hopsteiner.us/variety-data-sheets/Vanguard](https://hopsteiner.us/variety-data-sheets/Vanguard)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Bold Rush](../../2026/winner/068-golden-or-blonde-ale-3-drakes-brewing-company-bear-republic-bold-rush.md), bronze, Golden or Blonde Ale, by [Drake's Brewing Company/Bear Republic](../../breweries/drake-s-brewing-company-bear-republic.md); published as Vanguard
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Drake's Brewing Company/Bear Republic](../../breweries/drake-s-brewing-company-bear-republic.md), 1 beer

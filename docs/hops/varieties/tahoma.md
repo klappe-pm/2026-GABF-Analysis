@@ -15,13 +15,48 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Tahoma"
+alpha-acid-percent: "7 to 8.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Hopsteiner data sheet"
+aroma-descriptors:
+  - "citrus"
+  - "lemon"
+  - "orange"
+  - "spicy"
+beta-acid-percent: "8.5 to 9.5"
+breeder: "Washington State University and USDA public breeding program"
+canonical-name: "Tahoma"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "15 to 17"
+farnesene-percent-of-oil: "0 to 1"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Washington State University and USDA public breeding program"
+owner-program: "Washington State University and USDA public breeding program"
+parentage: "Daughter of Glacier (Hopsteiner sheet)"
 proprietary-status: "public"
+release-year: 2013
+release-year-note: null
 slug: "tahoma"
-year-released: "2013"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Tahoma"
+total-oil-ml-per-100g: "1 to 2"
+trademark: null
+us-acres-latest:
+  - "Oregon 0"
+  - "Washington 0"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # tahoma
@@ -94,3 +129,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [hopsteiner.us/variety-data-sheets/Tahoma](https://hopsteiner.us/variety-data-sheets/Tahoma)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

@@ -6,12 +6,6 @@ code: web/components/ChartCard.tsx
 Card style: outlined
 Line width: 2
 Point size: 8
-Series colors:
-  - primary
-  - tertiary
-  - secondary
-  - on surface variant
-  - outline
 ---
 
 ![Chart card](chart-card.png)
@@ -21,4 +15,3 @@ Series colors:
 - Card style: outlined
 - Line width: 2
 - Point size: 8
-- Series colors: primary, tertiary, secondary, on surface variant, outline

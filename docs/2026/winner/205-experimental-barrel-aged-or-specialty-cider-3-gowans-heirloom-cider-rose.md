@@ -198,6 +198,10 @@ Gowan's Heirloom Cider is in Philo, CA.
 
 Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagram](https://www.instagram.com/gowansheirloomcider/).
 
+## related
+
+- Brewery: [Gowan's Heirloom Cider](../../breweries/gowan-s-heirloom-cider.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.gowansheirloomcider.com/rose-cider)

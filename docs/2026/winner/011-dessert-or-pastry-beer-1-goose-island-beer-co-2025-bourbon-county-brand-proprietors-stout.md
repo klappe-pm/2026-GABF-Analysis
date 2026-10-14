@@ -229,6 +229,11 @@ Goose Island Beer Co. is in Chicago, IL. Brewery type in Open Brewery DB: Large 
 
 Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](https://www.instagram.com/gooseisland/), [Untappd](https://untappd.com/gooseisland).
 
+## related
+
+- Brewery: [Goose Island Beer Co.](../../breweries/goose-island-beer-co.md)
+- Hop varieties: [Millennium](../../hops/varieties/millennium.md), [Alchemy](../../hops/varieties/alchemy.md)
+
 ## links
 
 - [Untappd: 2025 Proprietor's Stout](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos)

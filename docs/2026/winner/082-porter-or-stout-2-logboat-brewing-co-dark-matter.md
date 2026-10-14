@@ -211,6 +211,11 @@ Logboat Brewing Co. is in Columbia, MO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md)
+- Hop varieties: [Willamette](../../hops/varieties/willamette.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.logboatbrewing.com/dark-matter)

@@ -18,13 +18,53 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Elani"
+alpha-acid-percent: "4 to 7"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "Yakima Valley Hops"
+aroma-descriptors:
+  - "guava"
+  - "lime"
+  - "orange zest"
+  - "Pineapple"
+  - "white peach"
+beta-acid-percent: null
+breeder: "Yakima Quality Hops"
+canonical-name: "Elani"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "beta-acid-percent"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Yakima Quality Hops"
+owner-program: "Yakima Quality Hops"
+parentage: "A found variety, discovered growing wild in a river valley in Idaho (Charles Faram)"
 proprietary-status: "proprietary"
+release-year: 2021
+release-year-note: "Charles Faram states commercial release in 2021; Yakima Valley Hops states 2022."
 slug: "elani"
-year-released: "2021"
+sources:
+  - "https://charlesfaram.com/hop-oracle/elani/"
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://yakimavalleyhops.com/products/elani-hops"
+total-oil-ml-per-100g: "1.6 to 2"
+trademark: "Elani (registered, per NASS and Yakima Valley Hops)"
+us-acres-latest:
+  - "Idaho 8"
+  - "Washington 78"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # elani
@@ -100,3 +140,33 @@ A three state total cannot be computed for any year because at least one state i
 - [charlesfaram.com/hop-oracle/elani](https://charlesfaram.com/hop-oracle/elani/)
 - [yakimavalleyhops.com/products/elani-hops](https://yakimavalleyhops.com/products/elani-hops)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

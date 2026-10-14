@@ -197,6 +197,10 @@ Los Dos Potrillos Cervecería is in Parker, CO.
 
 Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 
+## related
+
+- Brewery: [Los Dos Potrillos Cervecería](../../breweries/los-dos-potrillos-cerveceria.md)
+
 ## links
 
 - [Untappd: Los Dos Potrillos Agua Fresca](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536)

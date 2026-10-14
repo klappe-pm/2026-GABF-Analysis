@@ -243,6 +243,10 @@ OHB is in Hickory, NC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Oak Highlands Brewery](../../breweries/oak-highlands-brewery.md)
+
 ## links
 
 - [GABF: official 2026 results](https://www.greatamericanbeerfestival.com/2026-winners/)

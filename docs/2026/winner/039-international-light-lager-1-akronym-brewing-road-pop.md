@@ -267,6 +267,10 @@ Akronym Brewing is in Akron, OH. Brewery type in Open Brewery DB: Microbrewery.
 
 Links checked 2026-10-14: [Website](https://akronymbrewing.com/), [Instagram](https://www.instagram.com/akronymbrewery/), [Untappd](https://untappd.com/AkronymBrewing).
 
+## related
+
+- Brewery: [Akronym Brewing](../../breweries/akronym-brewing.md)
+
 ## links
 
 - [Akronym: beer release news](https://akronymbrewing.com/events/)

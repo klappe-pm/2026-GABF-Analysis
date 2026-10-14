@@ -221,6 +221,10 @@ DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regio
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [DC Brau Brewing Co.](../../breweries/dc-brau-brewing-co.md)
+
 ## links
 
 - [Old Time Lager: brand site](https://www.oldtimelager.com/)

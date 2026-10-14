@@ -163,6 +163,17 @@ ${hopCards(rows.map((x) => x.v), r)}`;
       { key: 'use', label: COPY('pages.hop-detail.beers.use'), render: (x) => joinWords(x.entries.map((e) => e.use)) },
       { key: 'farm', label: COPY('pages.hop-detail.beers.farm'), render: farmCell },
     ], beerRows)) : `<p class="muted">${esc(COPY('pages.hop-detail.beers.missing', { year }))}</p>`}${beerCards(beerRows.map((x) => x.beer), r, 'h3')}`;
+    const byBrewery = new Map();
+    for (const x of beerRows) {
+      const slot = byBrewery.get(x.beer.brewery_slug) ?? { beer: x.beer, count: 0 };
+      slot.count += 1;
+      byBrewery.set(x.beer.brewery_slug, slot);
+    }
+    const breweryRows = [...byBrewery.values()].sort((a, b) => b.count - a.count || a.beer.brewery.localeCompare(b.beer.brewery, 'en', { sensitivity: 'base' }));
+    const breweries = `<h2>${esc(COPY('pages.hop-detail.breweries.title', { year }))}</h2><p class="small muted">${esc(COPY('pages.hop-detail.breweries.note'))}</p>${breweryRows.length ? wrap(tableHtml([
+      { key: 'brewery', label: COPY('pages.hop-detail.breweries.brewery'), render: (x) => breweryLink(x.beer, r) },
+      { key: 'count', label: COPY('pages.hop-detail.breweries.beers'), numeric: true },
+    ], breweryRows)) : `<p class="muted">${esc(COPY('pages.hop-detail.breweries.missing', { year }))}</p>`}`;
     const grownRows = [...v.farms.values()].sort((a, b) => a.farm.name.localeCompare(b.farm.name, 'en', { sensitivity: 'base' }));
     const farms = `<h2>${esc(COPY('pages.hop-detail.farms.title'))}</h2><p class="small muted"><strong>${esc(COPY('pages.hop-detail.farms.label'))}</strong> ${esc(COPY('pages.hop-detail.farms.note'))}</p>${grownRows.length ? wrap(tableHtml([
       { key: 'farm', label: COPY('pages.hop-detail.farms.farm'), render: (x) => farmLink(x.farm, r) },
@@ -178,6 +189,7 @@ ${dataCard}
 ${aroma}
 ${acreage}
 ${beers}
+${breweries}
 ${farms}
 ${docHtml(v.doc, 'pages.hop-detail.doc.title')}`;
     write(`hops/${v.slug}/index.html`, layout({ title: v.name, description: COPY('pages.hop-detail.meta.description', { name: v.name, year }), body, depth: 2, active: nav.hops }));
@@ -242,6 +254,20 @@ ${gaps}`;
       ...beerCols(r),
       { key: 'hops', label: COPY('pages.hop-farm-detail.grown.hops'), render: (x) => [...x.varieties.values()].map((v) => varietyLink(v, r)).join(', ') },
     ], grownRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.grown.missing', { year }))}</p>`}${beerCards(grownRows.map((x) => x.beer), r, 'h3')}`;
+    const linkRows = [];
+    const addLinks = (kind, source) => {
+      const per = new Map();
+      for (const { beer } of source.values()) per.set(beer.brewery_slug, { beer, count: (per.get(beer.brewery_slug)?.count ?? 0) + 1 });
+      for (const x of per.values()) linkRows.push({ ...x, kind });
+    };
+    addLinks('named', f.named);
+    addLinks('grown', f.grown);
+    linkRows.sort((a, b) => (a.kind === b.kind ? b.count - a.count || a.beer.brewery.localeCompare(b.beer.brewery, 'en', { sensitivity: 'base' }) : a.kind === 'named' ? -1 : 1));
+    const breweries = `<h2>${esc(COPY('pages.hop-farm-detail.breweries.title', { year }))}</h2><p class="small muted">${esc(COPY('pages.hop-farm-detail.breweries.note'))}</p>${linkRows.length ? wrap(tableHtml([
+      { key: 'brewery', label: COPY('pages.hop-farm-detail.breweries.brewery'), render: (x) => breweryLink(x.beer, r) },
+      { key: 'kind', label: COPY('pages.hop-farm-detail.breweries.link'), render: (x) => esc(COPY(`pages.hop-farm-detail.breweries.${x.kind}`)) },
+      { key: 'count', label: COPY('pages.hop-farm-detail.breweries.beers'), numeric: true },
+    ], linkRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.breweries.missing', { year }))}</p>`}`;
     const merchants = f.merchants.length ? `<h2>${esc(COPY('pages.hop-farm-detail.merchants.title'))}</h2>${merchantTable(f.merchants)}` : '';
     const body = `<p class="small"><a href="../">${esc(COPY('pages.hop-farm-detail.links.back'))}</a> · <a href="${r}hops/">${esc(COPY('pages.hop-farm-detail.links.hops'))}</a></p>
 <h1>${esc(f.name)}</h1>
@@ -250,6 +276,7 @@ ${dataCard}
 ${varieties}
 ${named}
 ${grown}
+${breweries}
 ${merchants}
 ${docHtml(f.doc, 'pages.hop-farm-detail.doc.title')}`;
     write(`hop-farms/${f.slug}/index.html`, layout({ title: f.name, description: COPY('pages.hop-farm-detail.meta.description', { name: f.name }), body, depth: 2, active: nav.farms }));

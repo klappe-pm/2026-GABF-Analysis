@@ -1,6 +1,6 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.svg"><img src="docs/assets/banner-light.svg" width="200" height="200" alt="GABF Analysis: Great American Beer Festival Results, 2018 to 2026, with a gold, silver, and bronze medal podium"></picture></p>
 
-[![CI](https://img.shields.io/github/actions/workflow/status/klappe-pm/GABF-Analysis/deploy-pages.yml?branch=main&label=CI&style=flat)](https://github.com/klappe-pm/GABF-Analysis/actions/workflows/deploy-pages.yml) [![Pages](https://img.shields.io/github/deployments/klappe-pm/GABF-Analysis/github-pages?label=Pages&style=flat)](https://github.com/klappe-pm/GABF-Analysis/deployments) [![live site](https://img.shields.io/badge/live%20site-open-1c5cab?style=flat)](https://klappe-pm.github.io/GABF-Analysis/) [![license](https://img.shields.io/github/license/klappe-pm/GABF-Analysis?style=flat)](LICENSE) [![node](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fklappe-pm%2FGABF-Analysis%2Fmain%2Fpackage.json&query=%24.engines.node&label=node&color=5fa04e&style=flat)](package.json) [![last commit](https://img.shields.io/github/last-commit/klappe-pm/GABF-Analysis?style=flat)](https://github.com/klappe-pm/GABF-Analysis/commits/main) [![medals](https://img.shields.io/badge/medals-1%2C907-b8901f?style=flat)](data/results) [![breweries](https://img.shields.io/badge/breweries-947-8a8d91?style=flat)](data/enriched/breweries.json) [![years](https://img.shields.io/badge/years-2018%20to%202026-b0682a?style=flat)](#data-sources-and-honesty-notes) [![2026 beer profiles](https://img.shields.io/badge/2026%20beer%20profiles-336-52514e?style=flat)](docs/2026/winner)
+[![CI](https://img.shields.io/github/actions/workflow/status/klappe-pm/GABF-Analysis/ci.yml?branch=main&label=CI&style=flat)](https://github.com/klappe-pm/GABF-Analysis/actions/workflows/ci.yml) [![Pages](https://img.shields.io/github/deployments/klappe-pm/GABF-Analysis/github-pages?label=Pages&style=flat)](https://github.com/klappe-pm/GABF-Analysis/deployments) [![live site](https://img.shields.io/badge/live%20site-open-1c5cab?style=flat)](https://klappe-pm.github.io/GABF-Analysis/) [![license](https://img.shields.io/github/license/klappe-pm/GABF-Analysis?style=flat)](LICENSE) [![node](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fklappe-pm%2FGABF-Analysis%2Fmain%2Fpackage.json&query=%24.engines.node&label=node&color=5fa04e&style=flat)](package.json) [![last commit](https://img.shields.io/github/last-commit/klappe-pm/GABF-Analysis?style=flat)](https://github.com/klappe-pm/GABF-Analysis/commits/main) [![medals](https://img.shields.io/badge/medals-1%2C907-b8901f?style=flat)](data/results) [![breweries](https://img.shields.io/badge/breweries-947-8a8d91?style=flat)](data/enriched/breweries.json) [![years](https://img.shields.io/badge/years-2018%20to%202026-b0682a?style=flat)](#data-sources-and-honesty-notes) [![2026 beer profiles](https://img.shields.io/badge/2026%20beer%20profiles-336-52514e?style=flat)](docs/2026/winner)
 
 # GABF Analysis
 
@@ -17,7 +17,7 @@ An open, reproducible dataset and static dashboard site for the Great American B
 - **Geography with controls:** a US map, Census regions and divisions, Federal Reserve districts (county level for split states), medals per million residents and per $100 billion of real GDP, and demographic controls by state and district.
 - **Brewery deep dives** with locations, ownership, distributors, a ten year medal trend that says plainly when a brewery did not exist yet, and estimated barrels, revenue, and margins marked (E).
 - **336 researched 2026 beer profiles**, one per medal, with style, ABV, IBU, hops, malts, yeast, adjuncts, and source links, plus a SQLite database built from them with full text search.
-- **A single file dashboard**, [gabf-dashboard.html](gabf-dashboard.html), that embeds ECharts, the map, every medal row, and the deep dives, so it opens by double click with no server and no network.
+- **A single file dashboard**, [gabf-dashboard.html](https://klappe-pm.github.io/GABF-Analysis/gabf-dashboard.html), that embeds ECharts, the map, every medal row, and the deep dives, so a saved copy opens by double click with no server and no network.
 - **One command per new year:** when the Brewers Association posts the official list, `node scripts/new-year.mjs --year 2027` fetches, parses, enriches, tests, and rebuilds.
 - **No runtime network dependency:** ECharts is vendored at build time; every chart has a table view and a save as PNG button.
 
@@ -29,10 +29,10 @@ Use Node 22 or newer, which is what CI runs: the test suite and the SQLite scrip
 git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci && npm run build && npm run serve
 ```
 
-Then open http://localhost:8080/ for the overview dashboard and http://localhost:8080/dashboards/ for the others. To skip the server entirely, open the committed single file dashboard from the repository root:
+Then open http://localhost:8080/ for the overview dashboard and http://localhost:8080/dashboards/ for the others. To skip the server entirely, generate the single file dashboard and open it from the repository root:
 
 ```bash
-cd GABF-Analysis && open gabf-dashboard.html
+cd GABF-Analysis && npm run generate && open gabf-dashboard.html
 ```
 
 Before opening a pull request, run the full gate from the repository root:
@@ -45,10 +45,10 @@ cd GABF-Analysis && npm run verify
 
 1. **Ingest.** `scripts/fetch-winners.mjs` downloads the official winners list PDF and `scripts/parse-winners.mjs` turns it into `data/results/gabf-YYYY.csv`, one row per medal with total entrants per category, plus Brewery of the Year awards. A hand made sheet can come in through `npm run import-csv`, and the awards ceremony captions can be drafted into rows with `scripts/import-ceremony-transcript.mjs` until the PDF is posted; drafts are replaced wholesale by the official list.
 2. **Enrich.** `scripts/enrich-breweries.mjs` matches every brewery in Open Brewery DB by normalized name and city, applies `data/reference/brewery-overrides.csv`, and writes `data/enriched/breweries.json`. Curated reference tables add categories and style families, states and regions, ownership and investors, distributors, production, and the estimation parameters.
-3. **Research profiles.** Each 2026 medal has a markdown profile under `docs/2026/winner/`. `node scripts/build-winner-db.mjs 2026` builds `data/enriched/winners-2026.sqlite` (beers, breweries, categories, ingredients, sources, full text search, and rate views), and `node scripts/build-explorer.mjs` fills the explorer prototype from that database into `gabf-explorer.html`.
+3. **Research profiles.** Each 2026 medal has a markdown profile under `docs/2026/winner/`. `node scripts/build-winner-db.mjs 2026` builds `data/enriched/winners-2026.sqlite` (beers, breweries, categories, ingredients, sources, full text search, and rate views), and `node scripts/build-explorer.mjs` fills the explorer prototype from that database into `gabf-explorer.html`. Both are build outputs, not files in git; `npm run explorer` runs the pair.
 4. **Fed districts and controls.** `scripts/build-fed-districts.mjs` assigns every medal to a Federal Reserve district from Census county files, and `scripts/fetch-state-indicators.mjs` adds Census population, BEA GDP, ACS demographics, urban share, PIAAC literacy, and NCHS life expectancy so medal counts can be read per capita and per unit of output.
 5. **Validate.** `npm run validate` checks every medal row (known state and medal, no duplicates, consistent entry counts), compares each year with `data/results/year-summary.csv`, and compares matched breweries' Open Brewery DB states with the printed state.
-6. **Publish.** `npm run build` renders `dist/` (dashboards, brewery and category pages, reports, JSON and CSV exports) and `npm run build:standalone` regenerates `gabf-dashboard.html`. The deploy-pages workflow runs the same gates on every pull request and publishes to GitHub Pages from main.
+6. **Publish.** `npm run build` renders `dist/` (dashboards, brewery and category pages, reports, JSON and CSV exports) and `npm run build:standalone` writes `gabf-dashboard.html`. The ci workflow runs every gate on each pull request as the required `build` check; after it passes on main, the deploy workflow publishes the Material 3 app in `web/` at the root of GitHub Pages, with the older pages kept at their URLs until they are ported. Workflows, the URL map, and the gabf.beer domain switch are in [docs/deployment.md](docs/deployment.md).
 
 The ingest-results workflow runs every two hours from October 11 to October 20 and on demand, so a new year's list lands without a manual step. The full procedure is in [docs/runbook-new-year.md](docs/runbook-new-year.md) and the design is in [docs/architecture.md](docs/architecture.md).
 
@@ -65,9 +65,12 @@ All commands run from the repository root.
 | `npm run styles -- --input guidelines.pdf --year 2026` | refresh category ABV, IBU, and SRM ranges from the style guidelines |
 | `npm run validate` | structural data checks; add `-- --live` to re-query Open Brewery DB |
 | `npm run build` | render dist/ |
-| `npm run build:standalone` | regenerate gabf-dashboard.html |
+| `npm run build:standalone` | write gabf-dashboard.html |
+| `npm run generate` | write the single file pages: gabf-dashboard.html, gabf-explorer.html, and the chart gallery |
 | `npm run serve` | preview dist/ at http://localhost:8080/ |
-| `npm run verify` | prose check, tests, validation, site build, single file build |
+| `npm run verify` | prose and brand checks, single file builds, tests, validation, site build, design checks |
+| `npm run web:build` | build the Material 3 app in web/ into web/out |
+| `npm run pages:dns` | check that gabf.beer DNS points at GitHub Pages |
 | `node scripts/new-year.mjs --year 2027` | fetch, parse, enrich, test, and rebuild for a new year |
 | `node scripts/build-winner-db.mjs 2026` | build the 2026 winners SQLite database (Node 22 or newer) |
 | `node scripts/build-explorer.mjs` | build gabf-explorer.html from that database (Node 22 or newer) |
@@ -79,7 +82,7 @@ All commands run from the repository root.
 |---|---|
 | `data/results/` | one normalized CSV per year, plus year totals, Brewery of the Year, and World Beer Cup rows |
 | `data/reference/` | categories and style families, states, Fed districts and county splits, state and district indicators, ownership, distributors, production, overrides, estimation parameters, US competition registry |
-| `data/enriched/` | generated Open Brewery DB enrichment and the 2026 winners SQLite database |
+| `data/enriched/` | generated Open Brewery DB enrichment; the 2026 winners SQLite database is built here locally and is not in git |
 | `data/raw/` | text extracted from the official winners list PDFs |
 | `breweries/` | local only and ignored by git: brewery deep dives in markdown, with `template-brewery.md` as the scaffold |
 | `docs/2026/winner/` | 336 researched beer profiles, one per 2026 medal |
@@ -87,8 +90,8 @@ All commands run from the repository root.
 | `scripts/` | the pipeline: fetch, parse, import, enrich, validate, build, and helpers in `scripts/lib/` |
 | `site/` | stylesheet, ECharts option builders, dashboard client, US states GeoJSON, standalone and explorer templates |
 | `tests/` | node test runner suites with fixtures |
-| `gabf-dashboard.html` | generated single file dashboard, committed so it opens without a build |
-| `.github/workflows/` | deploy-pages (gates and publish) and ingest-results (scheduled ingest) |
+| `web/` | the Material 3 app (Next.js static export) that becomes the whole site |
+| `.github/workflows/` | ci (the required `build` check), deploy (GitHub Pages after ci passes on main), and ingest-results (scheduled ingest) |
 
 ## Data sources and honesty notes
 

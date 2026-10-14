@@ -269,6 +269,10 @@ Frogtown Brewery is in Los Angeles, CA. Brewery type in Open Brewery DB: Microbr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Frogtown Brewery](../../breweries/frogtown-brewery.md)
+
 ## links
 
 - [Frogtown Brewery](https://www.frogtownbrewery.com/)
@@ -293,3 +297,4 @@ No brewery links have been checked yet.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Frogtown beer listing verifies strength and style but publishes no IBU, description or ingredients. No brewery beer page was found.
 - Field pass 2026-10-13: Additional brewery-domain and ingredient searches found no verified IBU, hop variety or brewery beer page for Twin Suns.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Twin Suns description.

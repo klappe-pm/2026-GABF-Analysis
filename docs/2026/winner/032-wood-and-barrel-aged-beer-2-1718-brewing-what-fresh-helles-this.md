@@ -189,6 +189,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [1718 Brewing](../../breweries/1718-brewing.md)
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)

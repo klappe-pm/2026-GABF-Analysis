@@ -256,6 +256,10 @@ Snow Capped Cider is in Austin, CO.
 
 Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagram](https://www.instagram.com/snowcappedcider/).
 
+## related
+
+- Brewery: [Snow Capped Cider](../../breweries/snow-capped-cider.md)
+
 ## links
 
 - [Snow Capped Cider](https://www.snowcappedcider.com/)

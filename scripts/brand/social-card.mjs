@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Render the repository's social card, docs/assets/social-preview.png (1280 by 640), from
 // scripts/brand/social-card.html. The template takes every color from site/assets/brand.css, so run
-// npm run brand first when the settings change. Needs Playwright with Chromium (or a local Chrome)
-// and a network connection for the two web fonts. Not part of verify: font rendering differs by machine.
+// npm run brand first when the settings change. Needs Playwright with Chromium (or a local Chrome);
+// the fonts are the self hosted ones in site/assets/fonts. Not part of verify: rendering differs by machine.
 //
 //   node scripts/brand/social-card.mjs [--playwright path/to/playwright]
 

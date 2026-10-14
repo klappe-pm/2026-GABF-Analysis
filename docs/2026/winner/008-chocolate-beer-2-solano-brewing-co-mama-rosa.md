@@ -237,6 +237,10 @@ Solano Brewing Co. is in Vacaville, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Solano Brewing Co.](../../breweries/solano-brewing-co.md)
+
 ## links
 
 - [Untappd: Solano Mama Rosa](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205)
