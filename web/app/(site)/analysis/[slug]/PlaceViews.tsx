@@ -78,7 +78,7 @@ export function ByStateView({ rows, states, indicators, latest, tiles, copy, fir
         legend={(k) => binLegend(copy.view.chrome, medalBins(k))}
         table={{ ...stateColumns(copy.map.valueName, (s) => num(s.medals)), initialSort: { key: 'value', dir: 'descending' } }}
       />
-      <div className="grid gap-4 expanded:grid-cols-2">
+      <div className="grid gap-4">
         <Plot
           id="state-medals"
           title={copy.bars.title}
@@ -145,7 +145,7 @@ export function ByRegionView({ rows, states, indicators, copy, firstCompleteYear
   }));
   return (
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
-      <div className="grid gap-4 expanded:grid-cols-2">
+      <div className="grid gap-4">
         <Plot
           id="region-medals"
           title={copy.regions.title}

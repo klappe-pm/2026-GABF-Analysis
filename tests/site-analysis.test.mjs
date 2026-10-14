@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 import { categoryIndex, loadDataset } from '../scripts/lib/data-model.mjs';
 import { groupIndicators as staticGroups, oddsItems as staticOdds } from '../site/assets/page-views.mjs';
 import { applyFilters } from '../web/lib/filter-model.mjs';
-import { about, awardsTable, category, categoryCount, categoryRows, info, estimateFacts, estimateSlugs, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
+import { about, awardsTable, category, categoryCount, categoryRows, info, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
 import { aggregateBreweries, categoryRollup, familySeries, groupIndicators, groupRollup, medalSplit, movers, oddsItems, ownershipRollup, stateRollup, TREND_FAMILIES, yearsInView } from '../web/lib/models/analysis-calc.mjs';
+import { estimateFacts, estimateSlugs } from '../web/lib/models/estimates.mjs';
 import { categoryParams } from '../web/lib/site-model.mjs';
 
 // The category, report, and About data of the Material app against the dataset and the static site's own views.

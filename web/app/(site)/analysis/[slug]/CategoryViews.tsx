@@ -76,7 +76,7 @@ export function TopCategoriesView({ rows, copy, firstCompleteYear }: { rows: Row
   }));
   return (
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
-      <div className="grid gap-4 expanded:grid-cols-2">
+      <div className="grid gap-4">
         {entered.length ? (
           <Plot
             id="most-entered"

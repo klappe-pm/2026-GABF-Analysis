@@ -10,7 +10,7 @@ export const dynamic = 'force-static';
 export const dynamicParams = false;
 
 type Params = { file: string };
-const model = () => laneModel<typeof import('@/lib/models/analysis.mjs')>('analysis');
+const model = () => laneModel<typeof import('@/lib/models/estimates.mjs')>('estimates');
 
 export async function generateStaticParams(): Promise<Params[]> {
   return (await model()).estimateSlugs().map((slug) => ({ file: `${slug}.json` }));

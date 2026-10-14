@@ -77,7 +77,7 @@ export function TopBreweriesView({ rows, info, streaks, meta, copy, firstComplet
   const [streakBefore, streakAfter] = copy.streaks.item.split('{{brewery_name}}');
   return (
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
-      <div className="grid gap-4 expanded:grid-cols-2">
+      <div className="grid gap-4">
         <Plot
           id="top-breweries-points"
           title={copy.chart.title}
