@@ -30,6 +30,14 @@ Where: the definition card.
 - `source_with_confidence`: Source: {{source}} ({{confidence}})
 - `variant`: Listed there as {{variant_name}}.
 
+## `ranges`
+
+Where: the labels of the style range scales in the definition card. Each scale reads its summary from the pills above.
+
+- `abv`: ABV
+- `ibu`: IBU
+- `srm`: SRM
+
 ## `entrants`
 
 Where: the entrants chart, or the card that replaces it.

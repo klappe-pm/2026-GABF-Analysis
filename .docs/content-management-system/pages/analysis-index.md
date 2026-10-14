@@ -67,3 +67,11 @@ Where: the reports list, one line per report: the title, then the description.
 Where: the year pills under the list.
 
 - `pill`: {{year}} · {{coverage}}
+
+## `moved`
+
+Where: the page left at an old address (/reports/) after the reports moved to the analysis address. It forwards to the new address and offers a link for browsers that do not follow the forward.
+
+- `title`: This page has moved
+- `body`: Analysis has its own address now. You are being taken there.
+- `link`: Go to {{page_title}}

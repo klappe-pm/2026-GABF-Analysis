@@ -15,14 +15,12 @@ const PENDING = [
   '/data/breweries.json', '/data/brewery-info.json', '/data/categories.json', '/data/estimates.json', '/data/csv/<file>',
   // breweries lane
   '/breweries/', '/breweries/<brewery>/', '/first-time-medalists/2026/',
-  // categories and analysis lane
-  '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
   // hops lane
   '/hops/', '/hops/<variety>/', '/hop-farms/', '/hop-farms/<farm>/',
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).
-const REDIRECTS = {};
+const REDIRECTS = { '/reports/': '/analysis/', '/reports/<report>/': '/analysis/<report>/' };
 
 // The home page holds a placeholder route until the dashboards lane ports the Overview there.
 const PLACEHOLDERS = new Set(['/']);
@@ -102,4 +100,16 @@ test('a ported address leaves the pending list', () => {
 
 test('the reference port is routed', () => {
   for (const p of ['/beers/2026/', '/beers/2026/<beer>/', '/data/results.json', '/data/meta.json', '/design-system/']) assert.ok(routed(p), p);
+});
+
+test('a moved address is routed to a redirect page and its new address is routed', () => {
+  for (const [from, to] of Object.entries(REDIRECTS)) {
+    assert.ok(routed(from), `${from} keeps a page that forwards to ${to}`);
+    assert.ok(routed(to), `${to} is routed`);
+  }
+  const moved = readFileSync(resolve(APP, 'reports', 'moved.tsx'), 'utf8');
+  assert.match(moved, /httpEquiv="refresh"/, 'a meta refresh to the new address');
+  assert.match(moved, /alternates: \{ canonical: canonical\(to\) \}/, 'a canonical link to the new address');
+  assert.match(moved, /robots: \{ index: false/, 'marked noindex');
+  assert.match(moved, /<TextLink href=\{href\(to\)\}>/, 'a plain link for readers whose browsers do not follow the refresh');
 });

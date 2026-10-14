@@ -11,7 +11,7 @@ export function categoryRows(): CategoryRow[];
 export function categoryCount(): { total: number; special: number; classic: number };
 
 export type Range = { min: string; max: string };
-export type CategoryMedalRow = FilterFields & Pick<MedalRow, 'category_number' | 'category_slug' | 'entries' | 'special' | 'brewery_slug' | 'city' | 'abv' | 'ibu'> & { stem: string | null; hops: HopLink[] };
+export type CategoryMedalRow = FilterFields & Pick<MedalRow, 'category_number' | 'category_slug' | 'entries' | 'special' | 'brewery_slug' | 'city' | 'abv'> & { ibu: number | null; stem: string | null; hops: HopLink[] };
 export type CategoryRecord = {
   name: string;
   slug: string;
