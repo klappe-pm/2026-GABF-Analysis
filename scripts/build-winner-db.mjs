@@ -9,7 +9,11 @@ import { resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import YAML from 'yaml';
 import { readCsvRecords } from './lib/csv.mjs';
+import { loadDataset } from './lib/data-model.mjs';
+import { firstTimeStatus } from './lib/first-time.mjs';
 import { ROOT } from './lib/paths.mjs';
+import { breweryKey } from './lib/slug.mjs';
+import { matchKey } from './lib/winner-profiles.mjs';
 
 const year = process.argv[2] || '2026';
 const dir = resolve(ROOT, 'docs', year, 'winner');
@@ -91,6 +95,38 @@ const REFERENCE_TABLES = [
   ['district_indicators', 'district-indicators.csv', ['district_number', 'district_name', 'year', 'indicator', 'value', 'unit', 'source', 'source_url', 'verified']],
 ];
 
+// First time medalists: each beer gets the site's normalized brewery key from its official medal row
+// (matched on beer, medal, and category, as the site does), because a profile may name the brewery
+// differently from the winners list. first_time_breweries holds the status computed over all loaded
+// GABF results (scripts/lib/first-time.mjs): new (no medal in an earlier loaded year) or new-complete
+// (earlier medals only in partial years).
+const FIRST_TIME_SCHEMA = `
+CREATE TABLE beer_brewery_keys (beer_id TEXT PRIMARY KEY REFERENCES beers(id), brewery_key TEXT NOT NULL, official_brewery TEXT);
+CREATE TABLE first_time_breweries (brewery_key TEXT PRIMARY KEY, status TEXT NOT NULL);
+CREATE VIEW v_first_time_medalists AS
+  SELECT b.id AS beer_id, b.year, b.medal, b.beer, b.brewery, k.official_brewery, k.brewery_key, f.status, c.name AS category, c.entries
+  FROM beers b JOIN beer_brewery_keys k ON k.beer_id = b.id JOIN first_time_breweries f ON f.brewery_key = k.brewery_key
+  JOIN categories c ON c.number = b.category_number;
+`;
+
+export function addFirstTimeTables(db, year) {
+  db.exec(FIRST_TIME_SCHEMA);
+  const ds = loadDataset();
+  const partialYears = ds.years.filter((y) => ds.coverage[y] === 'partial');
+  const status = firstTimeStatus(ds.results, { year: Number(year), partialYears });
+  const official = new Map(ds.results.filter((r) => r.year === Number(year)).map((r) => [matchKey(r.beer_name, r.medal, r.category_name), r]));
+  const insKey = db.prepare('INSERT INTO beer_brewery_keys VALUES (?, ?, ?)');
+  const insStatus = db.prepare('INSERT INTO first_time_breweries VALUES (?, ?)');
+  db.exec('BEGIN');
+  for (const b of db.prepare('SELECT b.id, b.beer, b.medal, b.brewery, c.name AS category FROM beers b JOIN categories c ON c.number = b.category_number').all()) {
+    const row = official.get(matchKey(b.beer, b.medal, b.category));
+    insKey.run(b.id, row?.brewery_key ?? breweryKey(b.brewery), row?.brewery_name ?? null);
+  }
+  for (const [key, st] of status) insStatus.run(key, st);
+  db.exec('COMMIT');
+  return status.size;
+}
+
 export function addReferenceTables(db, referenceDir = resolve(ROOT, 'data', 'reference')) {
   db.exec(REFERENCE_SCHEMA);
   const counts = {};
@@ -148,10 +184,12 @@ function main() {
     if (insFts) insFts.run(id, fm.beer, fm.brewery, fm.style ?? '', body);
   }
   db.exec('COMMIT');
+  addFirstTimeTables(db, year);
   const count = db.prepare('SELECT COUNT(*) AS n FROM beers').get().n;
+  const firstTime = db.prepare("SELECT COUNT(DISTINCT brewery_key) AS n FROM v_first_time_medalists WHERE status = 'new'").get().n;
   db.close();
   renameSync(tmp, out);
-  console.log(`${out}: ${count} beers from ${files.length} files${fts ? ' (fts5 on)' : ''}`);
+  console.log(`${out}: ${count} beers from ${files.length} files${fts ? ' (fts5 on)' : ''}, ${firstTime} first time medalist breweries`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();
