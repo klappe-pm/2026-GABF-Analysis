@@ -41,6 +41,7 @@
     "web:install": "npm ci --prefix web",
     "web:build": "npm run build --prefix web",
     "web:serve": "npm run serve --prefix web",
+    "web:review": "WEB_REVIEW=1 npm run build --prefix web && node web/scripts/review-server.mjs",
     "build:standalone": "node scripts/brand/build.mjs && node scripts/build-standalone.mjs",
     "brand": "node scripts/brand/build.mjs",
     "brand:check": "node scripts/brand/build.mjs --check",

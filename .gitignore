@@ -28,3 +28,5 @@ web/*.tsbuildinfo
 .docs/feedback/
 web/public/design-settings/
 web/out-review/
+web/out-web-review/
+web/out-test-*/
