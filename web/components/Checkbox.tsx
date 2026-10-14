@@ -1,27 +1,28 @@
-import { Icon } from './Icon';
+'use client';
 
-type Props = { id: string; label: string; hint?: string; defaultChecked?: boolean; disabled?: boolean; state?: string };
+import { useSettings } from '@/design/runtime';
+import { typeOf } from '@/design/helpers';
 
-// A square ruled box, like the tick boxes on a scoresheet. The check is drawn; the input stays native.
-export function Checkbox({ id, label, hint, defaultChecked, disabled, state }: Props) {
+type Props = { id: string; label: string; hint?: string; defaultChecked?: boolean; disabled?: boolean };
+
+// A Material checkbox with its label beside it; the whole row is the target.
+export function Checkbox({ id, label, hint, defaultChecked, disabled }: Props) {
+  const s = useSettings('checkbox');
   return (
-    <div className="flex items-start gap-2">
-      <span className="relative mt-1 inline-flex size-4 shrink-0">
-        <input
-          id={id}
-          type="checkbox"
-          name={id}
-          defaultChecked={defaultChecked}
-          disabled={disabled}
-          data-state={state}
-          aria-describedby={hint ? `${id}-hint` : undefined}
-          className="peer size-4 cursor-pointer border border-rule-strong bg-ground checked:border-ink checked:bg-ink state-hover:border-ink state-disabled:cursor-not-allowed state-disabled:border-rule state-disabled:bg-ground-tone"
-        />
-        <span className="pointer-events-none absolute inset-0 hidden text-on-ink peer-checked:flex"><Icon name="check" /></span>
-      </span>
-      <span className="flex flex-col">
-        <label htmlFor={id} className="text-data text-ink peer-disabled:text-ink-faint">{label}</label>
-        {hint ? <span id={`${id}-hint`} className="text-data text-ink-muted">{hint}</span> : null}
+    <div className="flex items-start gap-1">
+      <md-checkbox
+        id={id}
+        name={id}
+        touch-target="wrapper"
+        checked={defaultChecked || undefined}
+        disabled={disabled || undefined}
+        aria-describedby={hint ? `${id}-hint` : undefined}
+      />
+      <span className="flex flex-col pt-3">
+        <label htmlFor={id} className={disabled ? 'text-on-surface-variant' : 'text-on-surface'}>
+          <span className={typeOf(s['Text style'] ?? 'body medium')}>{label}</span>
+        </label>
+        {hint ? <span id={`${id}-hint`} className="type-body-small text-on-surface-variant">{hint}</span> : null}
       </span>
     </div>
   );

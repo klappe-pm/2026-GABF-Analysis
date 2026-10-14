@@ -1,113 +1,129 @@
 #!/usr/bin/env node
 // Check the design system and the code that implements it. Fails on:
-//   a token alias that does not resolve, or theme files that define different roles;
-//   a declared contrast requirement that a theme does not meet;
-//   a spec missing frontmatter or sections, naming an unknown token or content key, or pointing at missing code;
-//   a component file with no spec;
-//   a raw color, length, radius, shadow, gradient, arbitrary value, or unlisted font in component code;
-//   a component using a token its spec does not declare;
-//   any stylesheet with a nonzero radius, a shadow, a gradient, or blur;
-//   build products that are stale (run npm run design-system:build);
-//   a broken hash chain in the local change log.
+//   a global setting, layout list, or component setting that is unknown, missing, or not an allowed value;
+//   a spec missing its identity keys or a valid status (draft, review, approved), or pointing at missing code;
+//   a spec body that no longer matches its frontmatter, or a missing component image;
+//   a component file with no folder and spec.md of its own, or component docs anywhere else in web/ or .design/;
+//   a text or control color pair in the generated light scheme that fails WCAG 2.2 AA;
+//   a font outside Public Sans and Archivo Narrow, or figures asked of Archivo Narrow;
+//   a raw color literal in page or component code;
+//   any dark theme rule or switch;
+//   anything that credits an assistant, model, or tool.
 
 import { existsSync, readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { basename, resolve } from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
-import { products } from './build.mjs';
+import { staleSpecs } from './build.mjs';
 import {
-  BANNED_FAMILIES, REQUIRED_FRONTMATTER, REQUIRED_SECTIONS, THEMES, WEB, contrastReport, cssProblems,
-  listFiles, loadContent, loadFoundations, lookupContent, rawValueProblems, readLog, rel, resolveValue, scopeFor,
-  narrowFigureProblems, statusProblem, tokenIndex, usedTokens, verifyChain,
+  COMPONENTS_DIR, DS, LAYOUT, SETTINGS, WEB, attributionProblems, darkThemeProblems, design, fontProblems, listFiles,
+  loadSpecs, narrowFigureProblems, rawColorProblems, readDoc, rel, statusProblem,
 } from './lib.mjs';
 
-export function runChecks() {
+export async function runChecks() {
+  const d = await design();
   const problems = [];
   const fail = (where, msg) => problems.push(`${where}: ${msg}`);
-  const { tokens, specs, files } = products();
 
-  // Tokens resolve, and both themes define the same roles.
-  for (const theme of THEMES) {
-    const scope = scopeFor(tokens, theme);
-    for (const t of Object.values(scope)) {
-      try { resolveValue(t.value, scope); } catch (e) { fail(t.file, `${t.path}: ${e.message}`); }
+  // Global settings.
+  const settings = existsSync(SETTINGS) ? readDoc(SETTINGS).data : null;
+  if (!settings) fail(rel(SETTINGS), 'missing');
+  else {
+    for (const key of Object.keys(d.GLOBAL)) if (!Object.hasOwn(settings, key)) fail(rel(SETTINGS), `missing setting "${key}"`);
+    for (const [key, value] of Object.entries(settings)) {
+      const kind = d.globalKind(key);
+      if (!kind) { fail(rel(SETTINGS), `unknown setting "${key}"`); continue; }
+      const p = d.valueProblem(kind, value);
+      if (p) fail(rel(SETTINGS), `${key} ${p}`);
     }
   }
-  for (const t of Object.values(tokens.base)) if (t.path.startsWith('radius.') && !/^0(px|rem)?$/.test(String(t.value))) fail(t.file, `${t.path} must be 0`);
-  for (const t of Object.values(tokens.base)) if (t.type === 'fontFamily') for (const fam of [t.value].flat()) if (BANNED_FAMILIES.includes(fam)) fail(t.file, `${t.path}: ${fam} is not part of the system`);
 
-  // Contrast.
-  for (const r of contrastReport(tokens)) if (!r.pass) fail(`contrast ${r.theme}`, `${r.token} on ${r.against} is ${r.ratio}:1, needs ${r.min}:1`);
+  // Layout.
+  const layout = existsSync(LAYOUT) ? readDoc(LAYOUT).data : null;
+  if (!layout) fail(rel(LAYOUT), 'missing');
+  else {
+    for (const key of Object.keys(layout)) if (!d.LAYOUT_KEYS.includes(key)) fail(rel(LAYOUT), `unknown list "${key}"`);
+    for (const key of d.LAYOUT_KEYS) {
+      const list = layout[key];
+      const known = d.layoutIds(key);
+      if (!Array.isArray(list)) { fail(rel(LAYOUT), `"${key}" must be a list`); continue; }
+      for (const id of list) if (!known.includes(id)) fail(rel(LAYOUT), `"${key}" names ${id}, which does not exist; use: ${known.join(', ')}`);
+      for (const id of known) if (!list.includes(id)) fail(rel(LAYOUT), `"${key}" is missing ${id}`);
+      if (new Set(list).size !== list.length) fail(rel(LAYOUT), `"${key}" lists an item twice`);
+    }
+  }
 
-  // Specs.
-  const index = tokenIndex(tokens);
-  const allTokens = new Set([...Object.keys(tokens.base), ...Object.keys(tokens.themes.light)]);
-  const content = loadContent();
+  // Component specs.
+  const specs = loadSpecs();
   const codeToSpec = {};
+  for (const name of Object.keys(d.COMPONENTS)) if (!specs.some((s) => s.dir === name)) fail(rel(resolve(COMPONENTS_DIR, name)), 'component has no spec.md');
   for (const s of specs) {
-    if (!s.exists) { fail(rel(resolve(s.file, '..')), 'component folder has no spec.md'); continue; }
-    for (const key of REQUIRED_FRONTMATTER) if (!Object.hasOwn(s.data, key)) fail(s.spec, `frontmatter is missing ${key}`);
-    const statusIssue = statusProblem(s.data);
+    if (!s.exists) { fail(rel(resolve(COMPONENTS_DIR, s.dir)), 'component folder has no spec.md'); continue; }
+    const schema = d.COMPONENTS[s.dir];
+    if (!schema) { fail(s.spec, `${s.dir} has no settings schema in web/design/schema.ts`); continue; }
+    for (const key of d.SPEC_KEYS) if (!Object.hasOwn(s.data, key)) fail(s.spec, `frontmatter is missing ${key}`);
+    const statusIssue = statusProblem([...d.STATUSES], s.data);
     if (statusIssue) fail(s.spec, statusIssue);
     if (s.data.name && s.data.name !== s.dir) fail(s.spec, `name ${s.data.name} does not match its folder`);
-    for (const sec of REQUIRED_SECTIONS) if (!s.sections[sec]) fail(s.spec, `section "${sec}" is missing or empty`);
-    for (const t of s.data.tokens ?? []) if (!allTokens.has(t)) fail(s.spec, `token ${t} does not exist`);
-    for (const k of s.data.content ?? []) if (typeof lookupContent(content, k) !== 'string') fail(s.spec, `content key ${k} does not exist`);
-    for (const r of s.data.related ?? []) if (!specs.some((x) => x.dir === r)) fail(s.spec, `related component ${r} has no spec`);
+    for (const [key, kind] of Object.entries(schema)) {
+      if (!Object.hasOwn(s.data, key)) { fail(s.spec, `missing setting "${key}"`); continue; }
+      const p = d.valueProblem(kind, s.data[key]);
+      if (p) fail(s.spec, `${key} ${p}`);
+    }
+    for (const key of Object.keys(s.data)) if (!d.SPEC_KEYS.includes(key) && !Object.hasOwn(schema, key)) fail(s.spec, `unknown setting "${key}"`);
+    if (!existsSync(resolve(COMPONENTS_DIR, s.dir, `${s.dir}.png`))) fail(s.spec, `image ${s.dir}.png is missing: run npm run design-system:images`);
     if (s.data.code) {
       if (!existsSync(resolve(ROOT, s.data.code))) fail(s.spec, `code ${s.data.code} does not exist`);
       else codeToSpec[s.data.code] = s;
     }
   }
-  for (const f of loadFoundations()) { const issue = statusProblem(f.data); if (issue) fail(f.spec, issue); }
-  for (const f of loadFoundations()) for (const t of f.data.tokens ?? []) if (!allTokens.has(t.replace(/\.\*$/, '')) && !t.endsWith('.*')) fail(f.spec, `token ${t} does not exist`);
+  for (const s of await staleSpecs()) fail(s.spec, 'the body does not match the frontmatter: run npm run design-system:build');
 
-  // Component code: every file has a spec, carries no raw values, and uses only declared tokens.
+  // Contrast in the generated light scheme, including the chart series on the chart card.
+  if (settings && !Object.keys(d.GLOBAL).some((k) => d.valueProblem(d.GLOBAL[k], settings[k]))) {
+    const g = d.mergeGlobal({}, settings);
+    const chart = specs.find((s) => s.dir === 'chart-card');
+    const series = chart ? d.componentSettings('chart-card', chart.data)['Series colors'] ?? [] : [];
+    for (const r of d.contrastReport(d.schemeFor(g), series.map((role) => [role, 'surface']))) {
+      if (!r.pass) fail(`contrast ${rel(SETTINGS)}`, `${r.fg} ${r.fgHex} on ${r.bg} ${r.bgHex} is ${r.ratio}:1, needs ${r.min}:1`);
+    }
+  }
+
+  // One home per component: web/components/<Name>.tsx has .design/design-system/components/<name>/spec.md,
+  // and that spec names the file as its code.
   for (const file of listFiles(resolve(WEB, 'components'), ['.tsx', '.ts'])) {
-    const path = rel(file);
-    const spec = codeToSpec[path];
-    if (!spec) fail(path, 'component code has no spec in .design/design-system/components');
+    const folder = basename(file).replace(/\.tsx?$/, '').replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
+    if (!existsSync(resolve(COMPONENTS_DIR, folder, 'spec.md'))) fail(rel(file), `component code has no folder .design/design-system/components/${folder}/ with a spec.md`);
+    else if (codeToSpec[rel(file)]?.dir !== folder) fail(rel(file), `.design/design-system/components/${folder}/spec.md does not name ${rel(file)} as its code`);
+  }
+  // No component descriptions outside that folder: no Markdown in web/, and nothing in .design/ but
+  // settings.md, layout.md, and the component folders.
+  for (const file of listFiles(WEB, ['.md'])) fail(rel(file), 'component docs belong in .design/design-system/components/<name>/');
+  for (const file of listFiles(resolve(DS, '..'), ['.md', '.json', '.png', '.svg', '.txt', '.yml', '.yaml'])) {
+    const r = rel(file);
+    if (r === rel(SETTINGS) || r === rel(LAYOUT)) continue;
+    if (!/^\.design\/design-system\/components\/[a-z0-9-]+\/[^/]+$/.test(r)) fail(r, 'files in .design/ live in .design/design-system/components/<name>/, besides settings.md and layout.md');
+  }
+  const code = [...listFiles(resolve(WEB, 'app'), ['.tsx', '.ts', '.css']), ...listFiles(resolve(WEB, 'components'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'lib'), ['.ts']), ...listFiles(resolve(WEB, 'design'), ['.ts', '.tsx', '.css'])];
+  for (const file of code) {
     const src = readFileSync(file, 'utf8');
-    for (const p of [...rawValueProblems(src), ...narrowFigureProblems(src)]) fail(path, p);
-    const { used, errors } = usedTokens(file, index);
-    for (const e of errors) fail(path, e);
-    if (spec) {
-      const declared = new Set(spec.data.tokens ?? []);
-      for (const t of used) if (!declared.has(t)) fail(path, `uses ${t}, which ${spec.spec} does not declare`);
-    }
-  }
-  // App code (routes and helpers) follows the same raw value and class rules.
-  for (const file of [...listFiles(resolve(WEB, 'app'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'lib'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'design'), ['.ts'])]) {
     const path = rel(file);
-    for (const p of [...rawValueProblems(readFileSync(file, 'utf8')), ...narrowFigureProblems(readFileSync(file, 'utf8'))]) fail(path, p);
-    for (const e of usedTokens(file, index).errors) fail(path, e);
+    const issues = [...fontProblems(src), ...narrowFigureProblems(src), ...darkThemeProblems(src), ...attributionProblems(src)];
+    if (!path.startsWith('web/design/')) issues.push(...rawColorProblems(src));
+    for (const p of issues) fail(path, p);
   }
-  for (const file of listFiles(WEB, ['.css'])) {
-    const css = readFileSync(file, 'utf8');
-    for (const p of cssProblems(css)) fail(rel(file), p);
-    if (!file.endsWith('tokens.css')) {
-      for (const fam of BANNED_FAMILIES) if (new RegExp(`(^|[^\\w-])${fam}([^\\w-]|$)`).test(css)) fail(rel(file), `font family ${fam} is not part of the system`);
-      if (/#[0-9a-fA-F]{3,8}\b/.test(css.replace(/\/\*[\s\S]*?\*\//g, ''))) fail(rel(file), 'raw hex color outside the token build');
-    }
-  }
-
-  // Build products are current.
-  for (const [file, text] of Object.entries(files)) {
-    const now = existsSync(file) ? readFileSync(file, 'utf8') : null;
-    if (now !== text) fail(rel(file), 'stale build product: run npm run design-system:build');
-  }
-
-  // Local change log integrity (the log is local and may be absent).
-  const chain = verifyChain(readLog());
-  if (chain) fail('.docs/design/design-system/changes.jsonl', chain);
+  const layoutSrc = readFileSync(resolve(WEB, 'app/layout.tsx'), 'utf8');
+  const loaded = [...layoutSrc.matchAll(/import\s*\{([^}]*)\}\s*from\s*'next\/font\/google'/g)].flatMap((m) => m[1].split(',').map((x) => x.trim()).filter(Boolean)).sort();
+  if (loaded.join(',') !== 'Archivo_Narrow,Public_Sans') fail('web/app/layout.tsx', `loads ${loaded.join(', ') || 'no fonts'}; the system uses Public Sans and Archivo Narrow`);
+  for (const file of listFiles(DS, ['.md'])) for (const p of [...attributionProblems(readFileSync(file, 'utf8')), ...darkThemeProblems(readFileSync(file, 'utf8'))]) fail(rel(file), p);
 
   return problems;
 }
 
-function main() {
-  const problems = runChecks();
+async function main() {
+  const problems = await runChecks();
   for (const p of problems) console.log(p);
   console.log(`design system check: ${problems.length} problem${problems.length === 1 ? '' : 's'}`);
   process.exit(problems.length ? 1 : 0);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) main();
+if (import.meta.url === `file://${process.argv[1]}`) await main();

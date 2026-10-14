@@ -2,20 +2,22 @@
   "name": "gabf-analysis-web",
   "version": "0.1.0",
   "private": true,
-  "description": "The Next.js rebuild of the GABF Analysis site, starting with the design system and its style guide.",
+  "description": "The Next.js rebuild of the GABF Analysis site on Material 3, starting with the design system and its style guide.",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "tokens": "node ../scripts/design-system/build.mjs",
+    "settings": "node ../scripts/design-system/build.mjs",
     "check": "node ../scripts/design-system/check.mjs",
-    "predev": "npm run tokens",
+    "predev": "npm run settings",
     "dev": "next dev",
-    "prebuild": "npm run tokens && npm run check",
+    "prebuild": "npm run settings",
     "build": "next build",
     "serve": "node scripts/serve-out.mjs"
   },
   "dependencies": {
+    "@material/material-color-utilities": "0.4.0",
+    "@material/web": "2.5.0",
     "echarts": "5.6.0",
     "next": "16.4.1",
     "react": "19.3.1",

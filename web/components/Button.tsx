@@ -1,35 +1,46 @@
-import type { ButtonHTMLAttributes, ReactNode } from 'react';
+'use client';
 
+import type { MouseEventHandler, ReactNode } from 'react';
+import { useSettings } from '@/design/runtime';
+import { shape, vars } from '@/design/helpers';
+
+// The three jobs a button does; the button spec says which Material button style each one uses.
 export type ButtonVariant = 'primary' | 'secondary' | 'quiet';
 
-const BASE = 'inline-flex min-h-6 items-center justify-center gap-2 border px-4 py-2 font-sans text-data font-semibold transition-colors duration-(--gabf-duration-quick) state-disabled:cursor-not-allowed';
+const ROLE_KEY: Record<ButtonVariant, string> = { primary: 'Main action', secondary: 'Other action', quiet: 'Quiet action' };
+const TAGS = { filled: 'md-filled-button', tonal: 'md-filled-tonal-button', elevated: 'md-elevated-button', outlined: 'md-outlined-button', text: 'md-text-button' } as const;
+const PREFIX = { filled: 'filled', tonal: 'filled-tonal', elevated: 'elevated', outlined: 'outlined', text: 'text' } as const;
 
-const VARIANTS: Record<ButtonVariant, string> = {
-  primary: 'border-ink bg-ink text-on-ink state-hover:border-ink-muted state-hover:bg-ink-muted state-disabled:border-rule state-disabled:bg-ground-tone state-disabled:text-ink-faint',
-  secondary: 'border-rule-strong bg-ground text-ink state-hover:bg-ground-tone state-active:bg-green-tint state-disabled:border-rule state-disabled:bg-ground state-disabled:text-ink-faint',
-  quiet: 'border-transparent bg-transparent px-2 text-ink underline decoration-rule-strong state-hover:decoration-ink state-disabled:text-ink-faint state-disabled:no-underline',
-};
-
-type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
+type Props = {
   variant?: ButtonVariant;
   busy?: boolean;
   busyLabel?: string;
+  disabled?: boolean;
+  type?: 'button' | 'submit' | 'reset';
+  form?: string;
+  value?: string;
+  onClick?: MouseEventHandler<HTMLElement>;
   children: ReactNode;
-  state?: string;
+  'aria-haspopup'?: 'dialog';
+  'aria-label'?: string;
 };
 
-// A form control: square, ruled, labelled with the action it performs.
-export function Button({ variant = 'secondary', busy = false, busyLabel, children, className = '', state, type = 'button', ...rest }: Props) {
+// A Material button. Busy buttons are disabled and say what is happening.
+export function Button({ variant = 'secondary', busy = false, busyLabel, disabled, type = 'button', children, ...rest }: Props) {
+  const s = useSettings('button');
+  const style = String(s[ROLE_KEY[variant]] ?? 'outlined') as keyof typeof TAGS;
+  const Tag = (TAGS[style] ?? TAGS.outlined) as 'md-filled-button';
+  const p = `--md-${PREFIX[style] ?? 'outlined'}-button`;
+  const density = Number(s.Density ?? 0);
   return (
-    <button
+    <Tag
       type={type}
+      disabled={disabled || busy || undefined}
       aria-busy={busy || undefined}
-      data-state={state}
-      className={`${BASE} ${VARIANTS[variant]} ${className}`}
+      style={vars({ [`${p}-container-shape`]: shape(s.Shape ?? 'full'), [`${p}-container-height`]: `${40 + 4 * density}px` })}
       {...rest}
-      disabled={rest.disabled || busy}
     >
       {busy && busyLabel ? busyLabel : children}
-    </button>
+    </Tag>
   );
 }
