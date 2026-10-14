@@ -34,7 +34,8 @@ images:
     spot: null
     component: null
     url: https://github.com/klappe-pm/GABF-Analysis/blob/main/docs/feedback/overview-dashboard/wi-003-pipeline-check-fix-a-typo-in-a-test-fixture-comm/page.png?raw=true
-issue: null
+issue: 58
+issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/58
 ---
 
 Pipeline check: fix a typo in a test fixture comment. In tests/fixtures/pipeline-check.txt the comment spells pipeline as pipline. Correct that one word and change nothing else.
