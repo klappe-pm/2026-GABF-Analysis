@@ -13,7 +13,7 @@ Where: top of the page.
 
 Where: the audience section.
 
-- `title`: Who It Is For
+- `title`: Who It Is for
 - `body`: Brewers first: benchmark against the field, choose which categories to enter, and study the beers that won. Beer fans, press, and analysts use the same public data.
 
 ## `offer`

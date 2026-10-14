@@ -38,7 +38,7 @@
   "revenue_range_low_multiplier": 0.7,
   "revenue_range_high_multiplier": 1.35,
   "notes": [
-    "When no source states a brewery type, the type stays null (shown as Not defined) and every estimate uses the default row of each table above. The estimate text and the Brewery type input say the type is assumed.",
+    "When no source states a brewery type, the type stays null (shown as Not Found) and every estimate uses the default row of each table above. The estimate text and the Brewery type input say the type is assumed.",
     "Revenue per barrel: the Brewers Association 2023 financial benchmarking survey reported average total revenue of 1,511 USD per barrel (25th percentile 454, 75th percentile 1,714), direct-to-consumer beer revenue of 1,276 USD per barrel, and distributed beer revenue of 602 USD per barrel; brewpub and taproom types use the DTC figure for beer with food added separately, regional uses the distributed figure, micro blends the two.",
     "Cost of goods: the same survey put average beer COGS above 500 USD per barrel in 2023 (up 34 percent since 2018) and the average beer gross margin at 41 percent across respondents; taproom-heavy models run far higher gross margins because the brewery keeps the retail margin.",
     "EBITDA margin ranges by channel come from the Brewery Profit Workshop deck (taproom 8 to 24 percent, self-distribution 5 to 11 percent, distributor 2 to 6 percent); about a third of breweries analyzed were profitable, so the point estimates sit near the lower middle of each range.",

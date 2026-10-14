@@ -41,8 +41,9 @@ test('the widget code carries no visible text of its own', () => {
   }
 });
 
-const SMALL = new Set(['a', 'an', 'the', 'of', 'on', 'in', 'for', 'to', 'and', 'or']);
-const titleCase = (text) => text.split(/\s+/).every((w) => /^[A-Z]/.test(w));
+// voice.md: every word capitalized, except short joining words after the first word.
+const SMALL = new Set(['a', 'an', 'the', 'and', 'or', 'but', 'for', 'nor', 'of', 'in', 'on', 'at', 'to', 'by', 'per', 'vs', 'from', 'as', 'with', 'into', 'than']);
+const titleCase = (text) => text.split(/\s+/).every((w, i) => /^[A-Z]/.test(w) || (i > 0 && SMALL.has(w)) || !/^[a-z]/.test(w));
 
 test('headings, labels, and buttons are in title case', { skip }, () => {
   const keys = ['panel.entry', 'panel.title', 'panel.close', 'panel.note_label', 'panel.step_label', 'panel.step_choose', 'panel.step_none', 'panel.step_group_page', 'panel.step_group_all', 'panel.spots_heading', 'panel.spot_remove', 'panel.categories_heading', 'panel.components_heading', 'panel.component_add_placeholder', 'panel.component_add', 'panel.component_obsidian', 'panel.content_heading', 'panel.recorded_heading', 'panel.image_page', 'panel.image_spot', 'panel.send', 'editor.aria', 'editor.input_label', 'editor.save', 'editor.cancel', 'editor.related_copy', 'editor.related_code', ...Object.keys(copy.elements ?? {}).map((k) => `elements.${k}`)];

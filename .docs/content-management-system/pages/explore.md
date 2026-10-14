@@ -56,10 +56,10 @@ Where: the category characteristic options; each is found by words in the catego
 Where: the award table.
 
 - `title`: Awards
-- `count`: {{count}} of {{total}} awards
+- `count`: {{count}} of {{total}} Awards
 - `sort_hint`: Select a column header to sort.
 - `imported`: Imported
-- `imported_count`: {{count}} imported
+- `imported_count`: {{count}} Imported
 
 ### `columns`
 

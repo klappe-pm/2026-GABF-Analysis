@@ -36,7 +36,7 @@ test('brewery links join by normalized name and the checked website wins', () =>
   assert.match(html, />Untappd</);
   assert.doesNotMatch(html, /BeerAdvocate/, 'an empty column renders nothing');
   assert.match(html, /checked 2026-10-14/);
-  assert.match(breweryLinks(s), /Not defined/);
+  assert.match(breweryLinks(s), /Not Found/);
 });
 
 test('current beers join per brewery and render dated, grouped by source', () => {
@@ -48,7 +48,7 @@ test('current beers join per brewery and render dated, grouped by source', () =>
   assert.match(html, /As of 2026-10-14, from <a href="https:\/\/wormtownbrewery.com\/beer\/" rel="noopener">wormtownbrewery.com<\/a>/);
   assert.match(html, /Be Hoppy <span class="muted">\(American IPA, 6.5% ABV\)<\/span>/);
   assert.match(html, /<li>Summer Ale<\/li>/);
-  assert.match(currentBeersHtml(ds.breweries.find((b) => b.key === 'sunriver')), /Not defined/);
+  assert.match(currentBeersHtml(ds.breweries.find((b) => b.key === 'sunriver')), /Not Found/);
 });
 
 test('the tracked reference tables are well formed', () => {

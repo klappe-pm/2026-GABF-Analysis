@@ -34,7 +34,7 @@ Where: small links above a page title that lead back to its index.
 - `all_results`: All Results
 - `all_categories`: All Categories
 - `all_breweries`: All Breweries
-- `all_beers`: All {{year}} winners
+- `all_beers`: All {{year}} Winners
 - `all_analysis`: All Analysis
 - `category_number`: Category {{number}}
 
@@ -43,25 +43,25 @@ Where: small links above a page title that lead back to its index.
 Where: the browser tab. Every page title except home is followed by the suffix.
 
 - `suffix`:  · GABF Analysis
-- `home`: GABF Analysis: Great American Beer Festival results
-- `results_by_year`: {{year}} results
-- `results_by_category`: Results by category
+- `home`: GABF Analysis: Great American Beer Festival Results
+- `results_by_year`: {{year}} Results
+- `results_by_category`: Results by Category
 - `category_detail`: {{category_name}}
 - `breweries_index`: Breweries
 - `brewery_detail`: {{brewery_name}}
-- `beers_index`: {{year}} winning beers
+- `beers_index`: {{year}} Winning Beers
 - `beer_detail`: {{beer_name}}, {{brewery_name}}
-- `first_time_medalists`: First time medalists, {{year}}
+- `first_time_medalists`: First Time Medalists, {{year}}
 - `analysis_index`: Analysis
 - `analysis_report`: {{report_title}}
-- `saved_views`: Saved views
+- `saved_views`: Saved Views
 - `dashboards`: Dashboards
-- `dashboard_detail`: {{dashboard_title}} dashboard
+- `dashboard_detail`: {{dashboard_title}} Dashboard
 - `explorer`: Explorer
 - `method`: Method
 - `about`: About
-- `not_found`: Page not found
-- `design_system`: Design system
+- `not_found`: Page Not Found
+- `design_system`: Design System
 
 ## `page_descriptions`
 

@@ -142,7 +142,7 @@ test('no kebab-case slug shows in the visible text of any page', () => {
   assert.deepEqual(hits, [], `kebab-case tokens in visible text:\n${hits.join('\n')}`);
 });
 
-// A beer's own published figures reach the shared medal tables; a missing figure reads "Not defined"
+// A beer's own published figures reach the shared medal tables; a missing figure reads "Not Found"
 // and is never replaced by the style range.
 function rowFor(html, href) {
   const at = html.indexOf(`href="../../${href}"`);
@@ -166,11 +166,11 @@ test('a researched beer shows its own ABV and IBU on its brewery and category pa
     const row = rowFor(readFileSync(resolve(DIST, page, 'index.html'), 'utf8'), withAbv.beer_profile);
     assert.equal(cell(row, 'ABV').trim(), abvText, `${page} ABV`);
     assert.equal(cell(row, 'IBU').trim(), String(profile.fm.ibu), `${page} IBU`);
-    assert.match(cell(row, 'Beer profile'), /Full profile/);
+    assert.match(cell(row, 'Beer Profile'), /Full Profile/);
   }
 });
 
-test('a beer without a published ABV shows Not defined and never a style range', () => {
+test('a beer without a published ABV shows Not Found and never a style range', () => {
   ensureBuilt();
   const rows = JSON.parse(readFileSync(resolve(DIST, 'data/results.json'), 'utf8'));
   const none = rows.find((r) => r.year === 2026 && r.beer_profile && r.abv === null && r.abv_min && r.category_slug !== 'mixed-culture-brett-beer' && r.category_slug !== 'no-low-tannin-cider');
@@ -180,7 +180,7 @@ test('a beer without a published ABV shows Not defined and never a style range',
     const html = readFileSync(resolve(DIST, page, 'index.html'), 'utf8');
     if (!html.includes(`href="../../${none.beer_profile}"`)) continue;
     const row = rowFor(html, none.beer_profile);
-    assert.match(cell(row, 'ABV'), /Not defined/, `${page} ABV`);
+    assert.match(cell(row, 'ABV'), /Not Found/, `${page} ABV`);
     assert.ok(!row.includes(range) && !/\(style\)/.test(row), `${page} shows no style range`);
   }
   const dashboards = readFileSync(resolve(ROOT, 'site/assets/dashboards.js'), 'utf8');
