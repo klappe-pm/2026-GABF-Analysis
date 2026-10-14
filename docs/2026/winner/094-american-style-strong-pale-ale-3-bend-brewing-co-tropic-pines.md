@@ -260,3 +260,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The web search quota ran out before a search for hop details could run, and Untappd search requires a login.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Tropic Pines description.

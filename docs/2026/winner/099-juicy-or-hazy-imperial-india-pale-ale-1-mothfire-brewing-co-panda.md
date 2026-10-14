@@ -30,11 +30,6 @@ description:
 entries: 107
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beermenus.com/beers/589834-mothfire-panda"
-      - "https://www.mothfire.com/beer"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.beermenus.com/beers/589834-mothfire-panda"
@@ -138,7 +133,9 @@ sources:
   - "https://www.mothfire.com/beer"
 srm: null
 style: "Hazy IPA"
-tasting-notes: null
+tasting-notes:
+  text: "Rich and full bodied, exploding with candied pineapple, pink starburst, and honeysuckle."
+  source: "https://www.mothfire.com/beer"
 water: null
 yeast: []
 ---
@@ -175,7 +172,9 @@ Source: [Mothfire beer library](https://www.mothfire.com/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Rich and full bodied, exploding with candied pineapple, pink starburst, and honeysuckle.
+
+Source: [mothfire.com](https://www.mothfire.com/beer)
 
 ## ingredients
 
@@ -235,8 +234,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
 - Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/589834-mothfire-panda), [mothfire.com](https://www.mothfire.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -245,3 +244,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - BeerMenus lists the brewer as Mothfire Nanobrewery, Ann Arbor, MI, and shows a menu dated 07/24/2026 at one Grand Rapids venue.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer page's tasting words are recorded.

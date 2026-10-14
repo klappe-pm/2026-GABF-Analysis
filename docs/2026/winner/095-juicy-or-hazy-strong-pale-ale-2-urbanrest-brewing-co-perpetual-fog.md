@@ -31,16 +31,12 @@ description:
 entries: 108
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.urbanrest.com/"
-      - "https://www.urbanrest.com/on-tap/brewery/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.urbanrest.com/"
       - "https://www.urbanrest.com/on-tap/brewery/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.urbanrest.com/"
@@ -52,11 +48,6 @@ gaps:
       - "https://www.urbanrest.com/on-tap/brewery/"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://www.urbanrest.com/"
-      - "https://www.urbanrest.com/on-tap/brewery/"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://www.urbanrest.com/"
       - "https://www.urbanrest.com/on-tap/brewery/"
@@ -91,26 +82,15 @@ gaps:
       - "https://www.urbanrest.com/"
       - "https://www.urbanrest.com/on-tap/brewery/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.urbanrest.com/"
-      - "https://www.urbanrest.com/on-tap/brewery/"
-      - "web searches recorded in the research notes"
 hop-profile:
-  - published: "Citra"
-    variety: "Citra"
-    form: null
-    use: null
-    lot-or-farm: null
-    source: "https://www.urbanrest.com/on-tap/brewery/"
-  - published: "Nelson Sauvin"
-    variety: "Nelson Sauvin"
-    form: null
-    use: null
-    lot-or-farm: null
-    source: "https://www.urbanrest.com/on-tap/brewery/"
   - published: "Simcoe"
     variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.urbanrest.com/on-tap/brewery/"
+  - published: "Citra"
+    variety: "Citra"
     form: null
     use: null
     lot-or-farm: null
@@ -118,6 +98,18 @@ hop-profile:
   - published: "Waimea"
     variety: "Waimea"
     form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.urbanrest.com/on-tap/brewery/"
+  - published: "Nelson"
+    variety: "Nelson Sauvin"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.urbanrest.com/on-tap/brewery/"
+  - published: "Nelson Sauvin Hop Kief"
+    variety: "Nelson Sauvin"
+    form: "Hop Kief"
     use: null
     lot-or-farm: null
     source: "https://www.urbanrest.com/on-tap/brewery/"
@@ -131,14 +123,18 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Double dry hopped (DDH) double IPA"
+  source: "https://www.urbanrest.com/on-tap/brewery/"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.urbanrest.com/"
   - "https://www.urbanrest.com/on-tap/brewery/"
 srm: null
 style: "DDH DIPA"
-tasting-notes: null
+tasting-notes:
+  text: "Tropical basket of passionfruit, peach, weedy mandarin, gooseberry"
+  source: "https://www.urbanrest.com/on-tap/brewery/"
 water: null
 yeast: []
 ---
@@ -174,7 +170,9 @@ Source: [Urbanrest: on tap](https://www.urbanrest.com/on-tap/brewery/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Tropical basket of passionfruit, peach, weedy mandarin, gooseberry
+
+Source: [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/)
 
 ## ingredients
 
@@ -184,10 +182,11 @@ The tap list names Simcoe, Citra and Waimea hops, plus Nelson and Nelson Sauvin 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Citra | Citra | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
-| Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 | Simcoe | Simcoe | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Citra | Citra | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 | Waimea | Waimea | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Nelson | Nelson Sauvin | not published | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
+| Nelson Sauvin Hop Kief | Nelson Sauvin | Hop Kief | not published | not published | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 
 ## brewing-details
 
@@ -197,7 +196,7 @@ The tap list names Simcoe, Citra and Waimea hops, plus Nelson and Nelson Sauvin 
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Double dry hopped (DDH) double IPA | [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/) |
 
 ## style-context
 
@@ -233,8 +232,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes.
 - Not published: IBU. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [urbanrest.com](https://www.urbanrest.com/), [urbanrest.com](https://www.urbanrest.com/on-tap/brewery/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -244,3 +243,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - Treating Nelson as Nelson Sauvin is an inference; the page does not say what form either takes beyond the kief.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the tap list names Simcoe, Citra, Waimea, Nelson and Nelson Sauvin Hop Kief, recorded as published with the kief as a hop form; it calls the beer a DDH DIPA.
