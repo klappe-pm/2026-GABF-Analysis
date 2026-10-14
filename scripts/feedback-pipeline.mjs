@@ -246,7 +246,8 @@ export async function runJob(id, ctx) {
     const live = () => findTicket(ctx.storeDir, id) ?? t;
 
     // Ticket and images first, on the ticket's branch, so the issue can link them.
-    git(ctx, wt, 'add', '--', `${storeRel}/${own.file}`, `${storeRel}/${own.dir}`);
+    const wantAdded = [`${storeRel}/${own.file}`, ...(ctx.dry || existsSync(resolve(wtStore, own.dir)) ? [`${storeRel}/${own.dir}`] : [])];
+    must(git(ctx, wt, 'add', '--', ...wantAdded), 'staging the ticket');
     let ref = 'main';
     if (git(ctx, wt, 'diff', '--cached', '--quiet').status !== 0) {
       must(git(ctx, wt, 'commit', '-m', `Add feedback ticket ${t.id}`), 'committing the ticket');
@@ -272,7 +273,7 @@ export async function runJob(id, ctx) {
     const needsAgent = applyChange(ctx, id, t, wt) === 'agent';
     if (needsAgent) await runAgent(ctx, id, issueBody, wt);
     if (!ctx.dry) {
-      const changed = git(ctx, wt, 'status', '--porcelain').stdout.trim();
+      const changed = git(ctx, wt, 'status', '--porcelain', '--untracked-files=all').stdout.trim();
       if (!changed.split('\n').some((l) => l.trim() && !l.includes(`${storeRel}/`))) throw new NeedsAttention('the change produced no edit to commit');
     }
 
