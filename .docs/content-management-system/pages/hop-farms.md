@@ -25,6 +25,7 @@ Where: the column headers of each state table.
 - `grown`: Medal beers using hops grown here
 - `named`: Medal beers that name this farm
 - `no_state`: State not defined
+- `sort_hint`: Select a column header to sort.
 
 ## `merchants`
 

@@ -27,6 +27,21 @@ Where: the variety data card.
 - `origin`: Origin country
 - `aliases`: Also published as
 - `missing`: No variety data has been published for this hop yet.
+- `range`: {{min}} to {{max}}
+
+## `card`
+
+Where: the hop profile card at the top of the page.
+
+- `range_percent`: {{min}} to {{max}}%
+- `oil_range`: {{min}} to {{max}} mL per 100 g
+- `farm_line`: {{farm_name}}, {{state}}
+
+## `table`
+
+Where: every table on the page.
+
+- `sort_hint`: Select a column header to sort.
 
 ## `aroma`
 
@@ -49,6 +64,12 @@ Where: the US acreage section.
 - `production`: Production
 - `source`: Source
 - `missing`: No US acreage has been published for this hop yet.
+- `chart_title`: US acres by year
+- `chart_note`: The total of the states that reported acres for this hop in each year.
+- `series`: Total reported acres
+- `name_column`: Measure
+- `table_summary`: Show the acreage as a table
+- `chart_label`: Line chart of the US acres of {{name}} by year
 
 ## `beers`
 

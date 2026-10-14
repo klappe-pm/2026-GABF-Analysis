@@ -17,6 +17,8 @@ export type HopCardData = {
   // `more` holds {{count}}, filled with the number of farms past the limit.
   farms: { label: string; items: { name: string; href?: string }[]; more: string };
   notDefined: string;
+  // The link to the hop's own page, on cards listed on other pages. The hop's own page leaves it out.
+  link?: { href: string; text: string };
 };
 
 export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; headingLevel?: 2 | 3 | 4 }) {
@@ -56,6 +58,7 @@ export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; 
           </section>
         </>
       )}
+      {data.link ? <p className="type-body-medium"><TextLink href={data.link.href}>{data.link.text}</TextLink></p> : null}
     </article>
   );
 }
