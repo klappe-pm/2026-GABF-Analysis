@@ -41,15 +41,6 @@ test('the dashboard data carries no type for a brewery without one', () => {
   assert.equal(valueLabel('brewery_type', rows[0].brewery_type), 'Not Found');
 });
 
-test('the explorer shows Not Found for a blank type', () => {
-  const data = dataOf(readFileSync(resolve(ROOT, 'gabf-explorer.html'), 'utf8'));
-  const blank = data.records.filter((r) => !String(r.brewery_type ?? '').trim());
-  assert.ok(blank.length > 0, 'some explorer rows have no sourced type');
-  const proto = readFileSync(resolve(ROOT, 'site/explorer/gabf-explorer-prototype.html'), 'utf8');
-  assert.match(proto, /k==='brewery_type'\)return clean\(v\)\?H\(v\):'<span class="muted">'\+H\(UNKNOWN\)\+'<\/span>'/);
-  assert.match(proto, /field\('Business type',r\.brewery_type\|\|UNKNOWN\)/);
-});
-
 test('an estimate that depends on an unknown type says the type is assumed', () => {
   const b = untyped.find((x) => x.estimate.basis === 'type-heuristic') ?? untyped[0];
   const ex = explainEstimate(b, params);

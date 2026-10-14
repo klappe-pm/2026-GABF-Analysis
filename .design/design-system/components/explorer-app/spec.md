@@ -2,7 +2,7 @@
 name: explorer-app
 title: Explorer
 status: draft
-code: scripts/build-explorer.mjs
+code: web/app/(site)/analysis/explore/ExploreView.tsx
 ---
 
 ![Explorer](explorer-app.png)

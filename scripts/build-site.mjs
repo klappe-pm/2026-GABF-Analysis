@@ -81,7 +81,7 @@ const DASHBOARDS = [
 
 function layout({ title, description = '', body, depth = 0, active = '', scripts = '', bodyAttrs = '', pageData = null }) {
   const r = depth === 0 ? './' : '../'.repeat(depth);
-  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['hops/', COPY('global.navigation.header.hops')], ['hop-farms/', COPY('global.navigation.header.hop_farms')], ['reports/', 'Reports'], ['explorer/', 'Explorer'], ['about/', 'About']]
+  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['hops/', COPY('global.navigation.header.hops')], ['hop-farms/', COPY('global.navigation.header.hop_farms')], ['reports/', 'Reports'], ['about/', 'About']]
     .map(([href, label]) => `<a href="${r}${href}"${active === label ? ' class="active" aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
@@ -648,9 +648,9 @@ function winnersIndex(year, profiles) {
   const specs = Object.fromEntries(profiles.map((p) => [`beers/${p.year}/${p.stem}/`, { abv: p.fm.abv ?? null, ibu: p.fm.ibu ?? null, hops: HOP_PAGES.model.beers.get(p.stem)?.usage.map((u) => u.canonical) ?? p.fm.hops ?? [], beer_url: p.fm['beer-url'] ?? null }]));
   const view = viewRegion('winners', { depth: 2, scope: { year: String(year) }, fixed: [{ text: `Year: ${year}` }], page: { specs } });
   const body = `
-<h1>${year} winners</h1>
+<h1>${year} Winners</h1>
 <p class="lede">Every medal from the ${year} Great American Beer Festival with the beer's published specs: style, ABV, IBU, and named hops, malts, yeast, and adjuncts, each from the brewery or a cited source. Open a beer for its full research notes. Use Filters in the header to narrow by medal, style, place, or brewery, or search by beer, brewery, or hop.</p>
-<p class="link-row"><a class="btn-link" href="../../first-time-medalists/${year}/">First Time Medalists in ${year}</a><a class="btn-link" href="../../explorer/">Open the explorer</a></p>
+<p class="link-row"><a class="btn-link" href="../../first-time-medalists/${year}/">First Time Medalists in ${year}</a><a class="btn-link" href="../../analysis/explore/">Open the Explorer</a></p>
 ${view.html}`;
   write(`beers/${year}/index.html`, layout({ title: `${year} winners`, description: `All ${profiles.length} medals of the ${year} Great American Beer Festival with published ABV, IBU, hops, malts, yeast, and adjuncts.`, body, depth: 2, active: `${year} winners`, pageData: view.pageData }));
 }
@@ -685,16 +685,6 @@ function winnerPages(ds, profiles) {
   for (const p of profiles) beerPage(p, rowFor.get(p.stem));
   if (profiles.length) winnersIndex(WINNER_YEAR, profiles);
   return { pages: profiles.length, matched: rowFor.size, unmatched: profiles.filter((p) => !rowFor.has(p.stem)).map((p) => p.stem) };
-}
-
-// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (a build output that
-// npm run build writes first, not a file in git); the site serves that file as is.
-function copyExplorer() {
-  const src = resolve(ROOT, 'gabf-explorer.html');
-  if (!existsSync(src)) return;
-  mkdirSync(resolve(DIST, 'explorer'), { recursive: true });
-  if (REVIEW) writeFileSync(resolve(DIST, 'explorer', 'index.html'), annotatePage(readFileSync(src, 'utf8'), 'explorer/index.html', 'scripts/build-explorer.mjs'));
-  else cpSync(src, resolve(DIST, 'explorer', 'index.html'));
 }
 
 // ---------- about ----------
@@ -764,7 +754,6 @@ export function build({ clean = true } = {}) {
   const hopsBuilt = HOP_PAGES.writeAll();
   const winners = winnerPages(ds, ds.winnerProfiles);
   firstTimePage(ds);
-  copyExplorer();
   // Review build only: the copy keys the pages above read, so an inline edit changes the key the build draws.
   if (REVIEW) writeFileSync(resolve(DIST, 'review-copy-keys.json'), JSON.stringify([...COPY.used].sort()));
   return { winners, hops: hopsBuilt, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };

@@ -31,7 +31,7 @@ This folder holds every word the site shows: page titles, ledes, headings, chart
 	  - `about.md`
 	  - `not-found.md`
   - `dashboards.md`: current dashboards and the single file dashboard
-  - `explorer.md`: the research explorer
+  - `explore.md`: the Explore page under Analysis
 - `analysis/`: one markdown file per written finding, with a title and summary in the frontmatter and a short body.
 - `inventory.csv`: every string found on the current site, where it appears, and the key it became.
 
@@ -80,7 +80,7 @@ These need a choice before the rebuild. The files hold a working answer for each
 
 1. 
 2. Dashboards. Whether the five dashboards stay as their own section or fold into Results and Analysis. Their copy is kept in `pages/dashboards.md` either way.
-3. Explorer. It is not in the new navigation, and its style grouping differs from the site's style families. Keep it, fold it in, or drop it. Its copy is in `pages/explorer.md`.
+3. Explorer. Decided: the standalone explorer is retired and its unique features live on Explore, whose copy is in `pages/explore.md`.
 4. Footer credit. The current footer says "Charts by Apache ECharts", which conflicts with crediting no tools. The draft moves it to the license notice under About, Attribution.
 5. Developer notes on About. The GitHub Pages privacy section and the sentence about an agent lookup server are dropped from public copy.
 6. Terms. "BA independent" is spelled out as "Independent (Brewers Association definition)". ARR and EBITDA are kept as terms; decide whether to spell them out.

@@ -23,12 +23,19 @@ Where: the pills under the title; type and family labels come from labels.yaml.
 Where: the definition card.
 
 - `title`: Style Definition
-- `missing`: Not Found
 - `special_note`: Special categories are judged on an added ingredient, a process, or a nonstandard base, not on one classic style.
 - `classic_note`: Classic style categories are judged against one Brewers Association style description.
 - `source`: Source: {{source}}
 - `source_with_confidence`: Source: {{source}} ({{confidence}})
 - `variant`: Listed there as {{variant_name}}.
+
+## `ranges`
+
+Where: the labels of the style range scales in the definition card. Each scale reads its summary from the pills above.
+
+- `abv`: ABV
+- `ibu`: IBU
+- `srm`: SRM
 
 ## `entrants`
 

@@ -70,7 +70,6 @@ Where: the by region report.
 - `lede`: Medals by Census region (Northeast, Midwest, South, West) and division. Per million residents uses each medal year's Census population.
 - `regions_title`: Medals by Region
 - `divisions_title`: Medals by Division
-- `unknown`: Not Found
 
 ## `ownership`
 
@@ -80,7 +79,7 @@ Where: the ownership report.
 - `stat_independent`: Medals to Independent Breweries
 - `stat_independent_note`: {{count}} of {{total}} medals in view; breweries without ownership research count as independent
 - `stat_listed`: Medalists with Ownership Research
-- `stat_owned`: Medalists owned by a large brewer or other company
+- `stat_owned`: Medalists Owned by a Large Brewer or Other Company
 - `by_type_title`: Medals by Ownership
 - `parents_title`: Medals by Parent Company
 - `parents_subtitle`: Owners That Are Not Independent
