@@ -79,7 +79,8 @@
   function sortTable(table, idx, numeric, dir) {
     const tbody = table.tBodies[0];
     const rows = Array.from(tbody.rows);
-    const val = (tr) => tr.cells[idx] ? tr.cells[idx].textContent.trim() : '';
+    // A cell may carry its own sort key (the G-S-B column sorts by total medals, then gold).
+    const val = (tr) => { const c = tr.cells[idx]; if (!c) return ''; return c.hasAttribute('data-sort') ? c.getAttribute('data-sort') : c.textContent.trim(); };
     rows.sort((a, b) => {
       const va = val(a); const vb = val(b);
       if (numeric) {
