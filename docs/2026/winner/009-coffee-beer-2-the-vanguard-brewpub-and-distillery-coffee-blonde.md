@@ -208,6 +208,10 @@ The Vanguard Brewpub & Distillery is in Hampton, VA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [The Vanguard Brewpub & Distillery](../../breweries/the-vanguard-brewpub-and-distillery.md)
+
 ## links
 
 - [The Vanguard: drinks menu](https://www.thevanguard757.com/drinks)

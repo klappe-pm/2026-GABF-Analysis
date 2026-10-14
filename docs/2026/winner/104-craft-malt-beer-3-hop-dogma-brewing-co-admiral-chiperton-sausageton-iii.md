@@ -261,6 +261,10 @@ Hop Dogma Brewing Co. is in Half Moon Bay, CA. Brewery type in Open Brewery DB: 
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Hop Dogma Brewing Co.](../../breweries/hop-dogma-brewing-co.md)
+
 ## links
 
 - [Hop Dogma Brewing Co.](https://www.hopdogma.com/)

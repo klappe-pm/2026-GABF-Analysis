@@ -199,6 +199,11 @@ Ketch Brewing is in San Diego, CA.
 
 Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](https://www.instagram.com/ketchbrewing/), [Untappd](https://untappd.com/KetchBrewing).
 
+## related
+
+- Brewery: [Ketch Brewing](../../breweries/ketch-brewing.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md)
+
 ## links
 
 - [Ketch: Brig Blonde listing](https://untappd.com/b/ketch-brewing-brig-blonde/5206013)

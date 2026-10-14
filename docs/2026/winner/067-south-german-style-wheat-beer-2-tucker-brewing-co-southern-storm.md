@@ -195,6 +195,10 @@ Tucker Brewing Co. is in Tucker, GA. Brewery type in Open Brewery DB: Microbrewe
 
 Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](https://www.instagram.com/tuckerbrewingco/), [Untappd](https://untappd.com/tuckerbrewingco).
 
+## related
+
+- Brewery: [Tucker Brewing Co.](../../breweries/tucker-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://tuckerbrewing.com/beer-collection/southern-storm)

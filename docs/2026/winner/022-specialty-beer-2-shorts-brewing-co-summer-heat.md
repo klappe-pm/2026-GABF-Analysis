@@ -196,6 +196,10 @@ Short's Brewing Co. is in Elk Rapids, MI. Brewery type in Open Brewery DB: Regio
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Short's Brewing Co.](../../breweries/short-s-brewing-co.md)
+
 ## links
 
 - [Short's Brewing Co.](https://www.shortsbrewing.com/)

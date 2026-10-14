@@ -246,6 +246,10 @@ Community Beer Works is in Buffalo, NY. Brewery type in Open Brewery DB: Microbr
 
 Links checked 2026-10-14: [Website](https://communitybeerworks.com/).
 
+## related
+
+- Brewery: [Community Beer Works](../../breweries/community-beer-works.md)
+
 ## links
 
 - [Untappd: Community Beer Works beer list](https://untappd.com/communitybeerworks/beer)

@@ -215,6 +215,10 @@ Fate Brewing Co. is in Scottsdale, AZ. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Fate Brewing Co.](../../breweries/fate-brewing-co.md)
+
 ## links
 
 - [Fate Brewing Co.](https://fatebrewing.com/)

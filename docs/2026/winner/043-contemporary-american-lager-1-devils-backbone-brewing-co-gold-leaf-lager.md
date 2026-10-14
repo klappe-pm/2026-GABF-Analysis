@@ -259,6 +259,11 @@ Devils Backbone Brewing Co. is in Roseland, VA. Brewery type in Open Brewery DB:
 
 Links checked 2026-10-14: [Website](https://dbbrewingcompany.com/), [Instagram](https://www.instagram.com/devilsbackbonebrewingcompany/), [Untappd](https://untappd.com/devilsbackbonebeers).
 
+## related
+
+- Brewery: [Devils Backbone Brewing Co.](../../breweries/devils-backbone-brewing-co.md)
+- Hop varieties: [Northern Brewer](../../hops/varieties/northern-brewer.md), [Saaz](../../hops/varieties/saaz.md), [Tettnang](../../hops/varieties/tettnang.md)
+
 ## links
 
 - [BeerAdvocate: Gold Leaf Lager](https://www.beeradvocate.com/beer/profile/18539/46792/)

@@ -195,6 +195,10 @@ Little Brother Brewing is in Greensboro, NC. Brewery type in Open Brewery DB: Mi
 
 Links checked 2026-10-14: [Website](https://www.littlebrotherbrew.com/), [Instagram](https://www.instagram.com/littlebrotherbrew/), [Untappd](https://untappd.com/LittleBrotherBrewing).
 
+## related
+
+- Brewery: [Little Brother Brewing](../../breweries/little-brother-brewing.md)
+
 ## links
 
 - [Untappd: Little Brother Gatekeeper](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825)

@@ -184,6 +184,10 @@ LogOff Brewing is in Rancho Cordova, CA. Brewery type in Open Brewery DB: In pla
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [LogOff Brewing](../../breweries/logoff-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://logoffbrewing.com/)

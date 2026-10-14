@@ -192,6 +192,10 @@ Ikasu Brewing is in Los Angeles, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Ikasu Brewing](../../breweries/ikasu-brewing.md)
+
 ## links
 
 - [Ikasu: Matcha Tart listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486)

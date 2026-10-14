@@ -80,9 +80,8 @@ export async function checkDesignEdit({ target, key, value }) {
     // Contrast: the scheme these settings would generate, with the chart series on the page.
     const settings = readFileSync(SETTINGS, 'utf8');
     const g = d.mergeGlobal({}, { ...splitFrontmatter(settings).data, ...(target === 'settings' ? { [key]: value } : {}) });
-    const chart = splitFrontmatter(readFileSync(resolve(COMPONENTS_DIR, 'chart-card', 'spec.md'), 'utf8')).data;
-    const series = target === 'chart-card' && key === 'Series colors' ? (Array.isArray(value) ? value : String(value).split(',').map((s) => s.trim())) : d.componentSettings('chart-card', chart)['Series colors'] ?? [];
-    for (const r of d.contrastReport(d.schemeFor(g), series.map((role) => [role, 'surface']))) {
+    const scheme = d.schemeFor(g);
+    for (const r of [...d.contrastReport(scheme), ...d.seriesReport(g, scheme)]) {
       if (!r.pass) problems.push(`With this value, ${r.fg} on ${r.bg} would be ${r.ratio} to 1 and needs ${r.min} to 1 (WCAG AA).`);
     }
   }

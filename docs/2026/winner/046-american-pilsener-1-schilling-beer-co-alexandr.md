@@ -209,6 +209,10 @@ Schilling Beer Co. is in Littleton, NH.
 
 Links checked 2026-10-14: [Website](https://www.schillingbeer.com/), [Instagram](https://www.instagram.com/schillingbeerco/), [Untappd](https://untappd.com/SchillingBeerCompany).
 
+## related
+
+- Brewery: [Schilling Cider](../../breweries/schilling-cider.md)
+
 ## links
 
 - [Untappd: Alexandr](https://untappd.com/b/schilling-beer-co-alexandr/1036259)

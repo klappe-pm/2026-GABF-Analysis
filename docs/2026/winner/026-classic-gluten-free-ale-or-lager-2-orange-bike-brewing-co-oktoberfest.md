@@ -218,6 +218,10 @@ Orange Bike Brewing Co. is in Portland, ME.
 
 Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instagram](https://www.instagram.com/orangebikebrewing/).
 
+## related
+
+- Brewery: [Orange Bike Brewing Co.](../../breweries/orange-bike-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.orangebikebrewing.com/whats-on-tap)

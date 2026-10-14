@@ -4,14 +4,16 @@
 // A distinct mark per series, so color is never the only code. Circles are kept for medals.
 export const SERIES_SYMBOLS = ['rect', 'triangle', 'diamond', 'emptyRect', 'emptyTriangle'] as const;
 
-const cssName = (role: string) => `--md-sys-color-${role.trim().replace(/\s+/g, '-')}`;
+// The five chart series colors from settings.md (Series 1 color to Series 5 color).
+export const SERIES_COUNT = 5;
+export const seriesVar = (i: number) => `--app-color-series-${(i % SERIES_COUNT) + 1}`;
 
-export function readTheme(el: Element, seriesRoles: string[]) {
+export function readTheme(el: Element) {
   const css = getComputedStyle(el);
   const v = (name: string) => css.getPropertyValue(name).trim();
   const px = (name: string) => parseFloat(v(name)) * parseFloat(getComputedStyle(document.documentElement).fontSize);
   return {
-    series: seriesRoles.map((r) => v(cssName(r))),
+    series: Array.from({ length: SERIES_COUNT }, (_, i) => v(seriesVar(i))),
     onSurface: v('--md-sys-color-on-surface'),
     onSurfaceVariant: v('--md-sys-color-on-surface-variant'),
     outline: v('--md-sys-color-outline'),
@@ -25,8 +27,8 @@ export function readTheme(el: Element, seriesRoles: string[]) {
   };
 }
 
-export function baseOption(el: Element, seriesRoles: string[]) {
-  const t = readTheme(el, seriesRoles);
+export function baseOption(el: Element) {
+  const t = readTheme(el);
   const axisLabel = { color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small };
   return {
     theme: t,

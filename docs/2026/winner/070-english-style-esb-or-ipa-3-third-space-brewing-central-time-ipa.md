@@ -237,6 +237,14 @@ Third Space Brewing is in Milwaukee, WI. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Third Space Brewing](../../breweries/third-space-brewing.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Krush](../../hops/varieties/krush.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Perrault Farms](../../hops/farms/perrault-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Third Space: brewer interview](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/)

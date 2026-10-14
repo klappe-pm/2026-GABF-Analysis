@@ -200,6 +200,10 @@ Blackstone Brewing Co. is in Nashville, TN.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Blackstone Brewing Co.](../../breweries/blackstone-brewing-co.md)
+
 ## links
 
 - [Blackstone: Nut Brown Ale listing](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814)

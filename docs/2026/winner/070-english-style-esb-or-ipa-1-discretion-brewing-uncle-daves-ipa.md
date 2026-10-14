@@ -179,6 +179,10 @@ Discretion Brewing is in Soquel, CA. Brewery type in Open Brewery DB: Microbrewe
 
 Links checked 2026-10-14: [Website](https://www.discretionbrewing.com/), [Instagram](https://www.instagram.com/discretionbrewing/).
 
+## related
+
+- Brewery: [Discretion Brewing](../../breweries/discretion-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.discretionbrewing.com/menu/beer-menu/)

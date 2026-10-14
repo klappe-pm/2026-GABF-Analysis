@@ -173,6 +173,11 @@ Green Cheek Beer Co. is in Costa Mesa, CA. Brewery type in Open Brewery DB: Brew
 
 Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram](https://www.instagram.com/greencheekbeer/).
 
+## related
+
+- Brewery: [Green Cheek Beer Co.](../../breweries/green-cheek-beer-co.md)
+- Hop varieties: [Saphir](../../hops/varieties/saphir.md)
+
 ## links
 
 - [Beer page on brewery site](https://greencheekbeer.com/)

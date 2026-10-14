@@ -212,6 +212,10 @@ Ghost Tree Brewing Co. is in Amherst, OH.
 
 Links checked 2026-10-14: [Website](https://www.ghosttreebrewing.com/).
 
+## related
+
+- Brewery: [Ghost Tree Brewing Co.](../../breweries/ghost-tree-brewing-co.md)
+
 ## links
 
 - [Ghost Tree Brewing Co.](https://www.ghosttreebrewing.com/)

@@ -185,6 +185,10 @@ Wren House Brewing Co. is in Phoenix, AZ. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd](https://untappd.com/WrenHouseBrewing).
 
+## related
+
+- Brewery: [Wren House Brewing Co.](../../breweries/wren-house-brewing-co.md)
+
 ## links
 
 - [Wren House Brewing Co.](https://www.wrenhousebrewing.com/)

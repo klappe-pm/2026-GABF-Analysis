@@ -188,7 +188,9 @@ export function explainEstimate(b, params) {
   const est = b.estimate;
   const rev = est.revenue;
   const f = b.financials;
-  const type = valueLabel('brewery_type', b.brewery_type).toLowerCase();
+  const assumed = !b.brewery_type;
+  // No source states the type, so the generic default row of estimation-parameters.json is used and the text says so.
+  const type = assumed ? 'brewery of an assumed generic type (brewery type is not defined)' : valueLabel('brewery_type', b.brewery_type).toLowerCase();
   const n = b.locations_count;
   const num = (x) => Number(x).toLocaleString('en-US');
   const money = (x) => `$${num(Math.round(x))}`;
@@ -217,9 +219,9 @@ export function explainEstimate(b, params) {
   };
   const inputs = [
     ['Barrels', `${num(est.barrels)} (${valueLabel('basis', est.basis).toLowerCase()})`],
-    ['Brewery type', valueLabel('brewery_type', b.brewery_type)],
+    ['Brewery type', assumed ? 'Not defined (estimate uses an assumed generic type)' : valueLabel('brewery_type', b.brewery_type)],
     ['Locations', String(n)],
-    ['Kitchen', b.has_kitchen ? 'Yes' : 'No'],
+    ['Kitchen', b.has_kitchen === null || b.has_kitchen === undefined ? 'Not defined (no food revenue is added)' : b.has_kitchen ? 'Yes' : 'No'],
     ['Distribution', b.distribution_channel ? valueLabel('distribution_channel', b.distribution_channel) : 'Not defined'],
     ['Employees', b.employees ? num(b.employees) : 'Not defined'],
   ];
@@ -603,6 +605,10 @@ function specCard(fm) {
 </section>`;
 }
 
+// The profile's related section links the markdown documents under docs/; the page already links the
+// brewery and hop pages itself, so that section is not rendered here.
+const RELATED_SECTION = /^## related\s*\n[\s\S]*?(?=^## |(?![\s\S]))/m;
+
 function beerPage(p, row) {
   const depth = 3;
   const r = '../'.repeat(depth);
@@ -624,7 +630,7 @@ ${links ? `<p class="link-row">${links}</p>` : ''}
 ${HOP_PAGES.beerHopHtml(HOP_PAGES.model.beers.get(p.stem), { r })}
 <div class="beer-layout">
 ${specCard(fm)}
-<section class="prose">${renderMarkdownBody(p.body)}</section>
+<section class="prose">${renderMarkdownBody(p.body.replace(RELATED_SECTION, ''))}</section>
 </div>`;
   write(`beers/${p.year}/${p.stem}/index.html`, layout({ title: `${fm.beer}, ${fm.brewery}`, description: `${fm.beer} by ${fm.brewery}: ${medal} medal, ${p.year} Great American Beer Festival, ${fm['category-name']}. Published specs and research notes.`, body, depth, active: `${p.year} winners` }));
 }

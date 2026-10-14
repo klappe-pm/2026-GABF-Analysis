@@ -188,6 +188,10 @@ Craft Coast is in Oceanside, CA.
 
 Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://untappd.com/w/craft-coast-brewing-co/475278).
 
+## related
+
+- Brewery: [Craft Coast](../../breweries/craft-coast.md)
+
 ## links
 
 - [Craft Coast](https://craftcoast.co/)

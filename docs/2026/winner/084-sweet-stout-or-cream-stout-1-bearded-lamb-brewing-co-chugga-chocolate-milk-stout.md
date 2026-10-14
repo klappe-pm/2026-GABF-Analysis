@@ -177,6 +177,10 @@ Bearded Lamb Brewing Co. is in Plymouth, MI.
 
 Links checked 2026-10-14: [Website](https://beardedlamb.com/), [Instagram](https://www.instagram.com/beardedlambbrewing/).
 
+## related
+
+- Brewery: [Bearded Lamb Brewing Co.](../../breweries/bearded-lamb-brewing-co.md)
+
 ## links
 
 - [Bearded Lamb Brewing Co.](https://beardedlamb.com/)

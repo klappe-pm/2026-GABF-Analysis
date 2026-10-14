@@ -202,6 +202,10 @@ Riip Beer Co. is in Huntington Beach, CA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://riip.com/), [Instagram](https://www.instagram.com/riipbeer/), [Untappd](https://untappd.com/RiipBeerCompany).
 
+## related
+
+- Brewery: [Riip Beer Co.](../../breweries/riip-beer-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9)

@@ -220,6 +220,10 @@ Third Eye Brewing Co. is in Hamilton, OH.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Third Eye Brewing Co.](../../breweries/third-eye-brewing-co.md)
+
 ## links
 
 - [Third Eye: beer overview](https://thirdeyebrewingco.com/beer-overview/)

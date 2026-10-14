@@ -185,6 +185,10 @@ Oregon City Brewing Co. is in Oregon City, OR. Brewery type in Open Brewery DB: 
 
 Links checked 2026-10-14: [Website](https://www.ocbeerco.com/), [Untappd](https://untappd.com/OregonCityBrewingCo).
 
+## related
+
+- Brewery: [Oregon City Brewing Co.](../../breweries/oregon-city-brewing-co.md)
+
 ## links
 
 - [Oregon City Brewing Co.](https://www.ocbeerco.com/)

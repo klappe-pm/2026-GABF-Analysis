@@ -229,6 +229,10 @@ Locavore Beer Works is in Littleton, CO. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Locavore Beer Works](../../breweries/locavore-beer-works.md)
+
 ## links
 
 - [Locavore: pouring directory](https://www.ipourit.com/beer/Locavore-Beer-Works)
