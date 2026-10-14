@@ -37,6 +37,7 @@ jobs:
         run: |
           npm ci
           npm ci --prefix web
+      - run: npm run docs:check
       - run: npm run check
       - run: npm run brand:check
       # npm test runs npm run generate first: the explorer, the chart gallery, and the single file dashboard.

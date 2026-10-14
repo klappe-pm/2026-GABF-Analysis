@@ -28,7 +28,7 @@ cd GABF-Analysis && npm run verify
 
 It runs, in order:
 
-1. `npm run check`: markdown prose rules (see Writing style below).
+1. `npm run docs:check` and `npm run check`: the generated hop and brewery docs are current, and markdown prose rules (see Writing style below).
 2. `npm run brand:check`: the committed brand outputs match the design settings.
 3. `npm test`: runs `npm run generate` (the single file pages) and then the node test runner suites in `tests/`.
 4. `npm run validate` and `npm run hops:check`: structural checks on every medal row, the year totals, and the hop tables.

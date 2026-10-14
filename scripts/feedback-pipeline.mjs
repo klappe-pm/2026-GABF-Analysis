@@ -4,7 +4,8 @@
 //
 //   branch from origin/main, ticket and images committed first, issue opened with the images
 //   linked from that branch, the change applied, commit with "Refs #n", npm run verify, push,
-//   pull request with "Closes #n", watch the checks, merge only when they pass, session handoff
+//   pull request with "Closes #n", auto-merge on so GitHub merges when the required check passes, the
+//   pull request watched until merged or a check fails, session handoff
 //   on the pull request and on the merge commit, then clean up.
 //
 //   node scripts/feedback-pipeline.mjs [process] [WI-001 ...] [--scan] [--dry-run]
@@ -53,7 +54,7 @@ export function dryExec(repo, print = console.log) {
     let stdout = '';
     if (cmd === 'gh' && a.startsWith('issue create')) stdout = `https://github.com/${repo}/issues/1001\n`;
     else if (cmd === 'gh' && a.startsWith('pr create')) stdout = `https://github.com/${repo}/pull/1002\n`;
-    else if (cmd === 'gh' && a.startsWith('pr view')) stdout = JSON.stringify({ state: 'MERGED', mergeCommit: { oid: '0'.repeat(40) } });
+    else if (cmd === 'gh' && a.startsWith('pr view')) stdout = JSON.stringify({ state: 'MERGED', mergeCommit: { oid: '0'.repeat(40) }, statusCheckRollup: [] });
     else if (cmd === 'gh' && (a.startsWith('label list') || a.startsWith('issue list') || (args[0] === 'api' && !args.includes('-X')))) stdout = '[]';
     else if (cmd === 'git' && a.includes('remote get-url')) stdout = `https://github.com/${repo}.git\n`;
     else if (cmd === 'git' && a.includes('rev-parse --abbrev-ref')) stdout = 'main\n';
@@ -81,7 +82,9 @@ export function buildContext(opts = {}) {
     sleep: opts.sleep ?? ((ms) => new Promise((done) => setTimeout(done, ms))),
     remotePattern: opts.remotePattern ?? new RegExp(`github\\.com[:/]${repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\.git)?$`, 'i'),
     verifyCommand: opts.verifyCommand ?? ['npm', ['run', 'verify']],
-    checkRetries: opts.checkRetries ?? 20,
+    // How often and how many times the pull request is looked at while auto-merge waits for the check.
+    pollMs: opts.pollMs ?? 15000,
+    checkRetries: opts.checkRetries ?? 240,
     agent: opts.agent ?? null,
     print,
     now: opts.now ?? (() => new Date()),
@@ -357,21 +360,28 @@ export async function runJob(id, ctx) {
     }
     must(git(ctx, wt, 'push', 'origin', branch), 'pushing the ticket record');
 
-    // Checks, then merge only on a pass.
-    let passed = false;
-    let lastOut = '';
+    // Auto-merge: GitHub merges the pull request when the required check passes. The pipeline asks
+    // for that right after the ticket record is pushed, then watches the pull request until it is
+    // merged, closed, or a check fails.
+    must(gh(ctx, 'pr', 'merge', String(pr), '-R', ctx.repo, '--auto', '--merge', '--delete-branch'), 'turning on auto-merge');
+    step(ctx, id, 'auto-merge', 'on');
+    let view = null;
+    const FAILED = new Set(['FAILURE', 'CANCELLED', 'TIMED_OUT', 'ACTION_REQUIRED', 'STARTUP_FAILURE', 'ERROR']);
     for (let tries = 0; tries < ctx.checkRetries; tries += 1) {
-      const c = gh(ctx, 'pr', 'checks', String(pr), '-R', ctx.repo, '--watch');
-      lastOut = `${c.stdout}\n${c.stderr}`;
-      if (c.status === 0) { passed = true; break; }
-      if (/no checks reported/i.test(lastOut)) { await ctx.sleep(15000); continue; }
-      break;
+      view = JSON.parse(must(gh(ctx, 'pr', 'view', String(pr), '-R', ctx.repo, '--json', 'state,mergeCommit,statusCheckRollup'), 'reading the pull request') || '{}');
+      if (view.state === 'MERGED') break;
+      const failed = (view.statusCheckRollup ?? []).filter((c) => FAILED.has(String(c.conclusion ?? c.state ?? '').toUpperCase()));
+      if (view.state === 'CLOSED' || failed.length) {
+        gh(ctx, 'pr', 'merge', String(pr), '--disable-auto', '-R', ctx.repo);
+        throw new NeedsAttention(view.state === 'CLOSED' ? 'the pull request was closed without merging' : `a check did not pass: ${failed.map((c) => c.name ?? c.context).join(', ')}`);
+      }
+      await ctx.sleep(ctx.pollMs);
     }
-    if (!passed) throw new NeedsAttention(`the checks did not pass\n\n${scrub(ctx, lastOut.trim().split('\n').slice(-30).join('\n'))}`);
+    if (view?.state !== 'MERGED') {
+      gh(ctx, 'pr', 'merge', String(pr), '--disable-auto', '-R', ctx.repo);
+      throw new NeedsAttention('the pull request was not merged in time; auto-merge was turned off');
+    }
     step(ctx, id, 'checks', 'passed');
-    gh(ctx, 'pr', 'merge', String(pr), '-R', ctx.repo, '--merge', '--delete-branch');
-    const view = JSON.parse(must(gh(ctx, 'pr', 'view', String(pr), '-R', ctx.repo, '--json', 'state,mergeCommit'), 'reading the pull request') || '{}');
-    if (view.state !== 'MERGED') throw new NeedsAttention(`the pull request is ${view.state ?? 'not merged'} after the merge command`);
     const merge = view.mergeCommit?.oid ?? '';
     updateJob(ctx.queueDir, id, { state: 'merged', mergeCommit: merge }, ctx.now());
     step(ctx, id, 'merge', merge);

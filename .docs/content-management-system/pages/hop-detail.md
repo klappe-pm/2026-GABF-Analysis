@@ -79,6 +79,16 @@ Where: the farms section.
 - `source`: Source
 - `missing`: No farm has been published as growing this hop yet.
 
+## `breweries`
+
+Where: the breweries section.
+
+- `title`: Breweries with a {{year}} medal beer that uses it
+- `note`: Each brewery links to its page.
+- `brewery`: Brewery
+- `beers`: Medal beers
+- `missing`: No brewery has a {{year}} medal beer on record for this hop.
+
 ## `doc`
 
 Where: the research notes under the farms section, when a research document exists for the hop.
@@ -101,3 +111,10 @@ Where: the Hops column of the medal tables and the hops table on brewery pages.
 - `brewery_note`: Each variety links to its page, with the farms that grow it.
 - `brewery_variety`: Hop variety
 - `brewery_beers`: Medal beers
+- `brewery_farm`: Farm
+- `brewery_farms_named_title`: Farms these breweries named
+- `brewery_farms_named_label`: Brewery named this farm.
+- `brewery_farms_named_note`: The brewery published this farm for a hop in one of these beers.
+- `brewery_farms_grown_title`: Farms that grow these hops
+- `brewery_farms_grown_label`: Grown by.
+- `brewery_farms_grown_note`: These farms publish a variety used in these beers as grown. It does not mean the brewery bought from them.

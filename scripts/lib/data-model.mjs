@@ -84,7 +84,8 @@ export function canonicalCategoryNames(rows) {
   return new Map([...newest].map(([k, v]) => [k, v.name]));
 }
 
-export function loadDataset({ root } = {}) {
+// localProfiles: false ignores the git-ignored breweries/ deep dives, so generated documents are the same on every checkout.
+export function loadDataset({ root, localProfiles = true } = {}) {
   const referenceDir = root ? resolve(root, 'data/reference') : REFERENCE;
   const resultsDir = root ? resolve(root, 'data/results') : RESULTS;
   const enrichedDir = root ? resolve(root, 'data/enriched') : ENRICHED;
@@ -119,7 +120,7 @@ export function loadDataset({ root } = {}) {
   const awards = readCsvIfExists(resolve(resultsDir, 'brewery-of-the-year.csv'));
   const enrichedPath = resolve(enrichedDir, 'breweries.json');
   const enriched = existsSync(enrichedPath) ? JSON.parse(readFileSync(enrichedPath, 'utf8')) : { breweries: {} };
-  const profiles = loadProfiles(breweriesDir);
+  const profiles = localProfiles ? loadProfiles(breweriesDir) : [];
   const profileByKey = new Map(profiles.map((p) => [p.key, p]));
 
   const resultFiles = readdirSync(resultsDir).filter((f) => /^gabf-\d{4}\.csv$/.test(f)).map((f) => resolve(resultsDir, f)).sort();

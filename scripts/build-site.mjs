@@ -88,6 +88,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)} · ${SITE_TITLE}</title>
 <meta name="description" content="${esc(description)}">
+<link rel="stylesheet" href="${r}assets/fonts.css">
 <link rel="stylesheet" href="${r}assets/brand.css">
 <link rel="stylesheet" href="${r}assets/styles.css">
 <link rel="icon" href="data:,">
@@ -262,6 +263,8 @@ export function buildPayload(ds, cats) {
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
     copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY() },
+    // Farm name to page slug, so a brewery page can link the farms its beers reach.
+    hop_farm_slugs: Object.fromEntries(ds.hops.farms.map((f) => [f.name, f.slug])),
   };
   const breweries = ds.breweries.map((b) => ({
     key: b.key, slug: b.slug, name: b.name, hq: b.hq, brewery_type: b.brewery_type, founded: b.founded, employees: b.employees, medals: b.medals.length, by_medal: b.by_medal, points: b.total_points, first_year: b.first_year, last_year: b.last_year, streak: b.streak, trend: b.trend,
@@ -669,8 +672,8 @@ function winnerPages(ds, profiles) {
   return { pages: profiles.length, matched: rowFor.size, unmatched: profiles.filter((p) => !rowFor.has(p.stem)).map((p) => p.stem) };
 }
 
-// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (committed); the
-// site serves that file as is.
+// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (a build output that
+// npm run build writes first, not a file in git); the site serves that file as is.
 function copyExplorer() {
   const src = resolve(ROOT, 'gabf-explorer.html');
   if (!existsSync(src)) return;
