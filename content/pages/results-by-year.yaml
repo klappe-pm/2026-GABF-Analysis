@@ -1,0 +1,35 @@
+# Results by year: every medal of one competition year, grouped by category.
+
+# where: top of the page.
+header:
+  title: "{{year}} results"
+  lede: "{{medal_count}} medals in {{category_count}} categories. Each row links to the brewery, the category, and, for {{profile_year}}, the winning beer."
+  year_picker: "Year"
+
+# where: year pills under the title; the label is the coverage label from labels.yaml.
+coverage:
+  pill: "{{year}} · {{coverage}}"
+  pill_tooltip: "{{coverage_meaning}}"
+
+# where: the summary tiles under the title.
+stats:
+  medals: "Medals"
+  breweries: "Breweries"
+  states: "States"
+  categories: "Categories"
+  categories_note: "{{count}} medals in special categories"
+  medal_split: "Gold, silver, bronze"
+  entrants: "Entrants in these categories"
+  entrants_note: "Sum of category entry counts"
+  entrants_missing: "Not published"
+
+# where: the medal table.
+table:
+  title: "All medals"
+  group_row: "{{number}}. {{category_name}}"
+  group_entries: "{{count}} entries"
+
+# where: in place of the table when the year has no medals loaded.
+empty:
+  no_results: "No results are loaded for {{year}}."
+  partial: "{{year}} holds only a sample of medals from secondary sources."
