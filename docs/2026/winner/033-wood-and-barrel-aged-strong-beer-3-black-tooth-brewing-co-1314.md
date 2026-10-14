@@ -31,13 +31,6 @@ description:
 entries: 61
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.blacktoothbrewingcompany.com/"
-      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
-      - "https://www.blacktoothbrewingcompany.com/news/"
-      - "https://www.blacktoothbrewingcompany.com/the-beer/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.blacktoothbrewingcompany.com/"
@@ -115,13 +108,6 @@ gaps:
       - "https://www.blacktoothbrewingcompany.com/news/"
       - "https://www.blacktoothbrewingcompany.com/the-beer/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.blacktoothbrewingcompany.com/"
-      - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
-      - "https://www.blacktoothbrewingcompany.com/news/"
-      - "https://www.blacktoothbrewingcompany.com/the-beer/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 45
@@ -129,7 +115,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Aged 12 months in Wyoming Whiskey barrels"
+  source: "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
 sources:
   - "https://www.blacktoothbrewingcompany.com/"
   - "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
@@ -138,7 +126,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "English Strong Ale"
-tasting-notes: null
+tasting-notes:
+  text: "English strong ale is a rich, complex malty sweet beer with hints of figs, raisins, dark fruits and balanced with a dry alcohol finish. Barrel aging will impart bourbon flavors of wood, coconut, vanilla, caramel, licorice, brown sugar and cinnamon."
+  source: "https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/"
 water: null
 yeast: []
 ---
@@ -174,7 +164,9 @@ Source: [Black Tooth: Barrel Aged 1314](https://www.blacktoothbrewingcompany.com
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> English strong ale is a rich, complex malty sweet beer with hints of figs, raisins, dark fruits and balanced with a dry alcohol finish. Barrel aging will impart bourbon flavors of wood, coconut, vanilla, caramel, licorice, brown sugar and cinnamon.
+
+Source: [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/)
 
 ## ingredients
 
@@ -192,7 +184,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Aged 12 months in Wyoming Whiskey barrels | [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/) |
 
 ## style-context
 
@@ -225,7 +217,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/news/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/barrel-aged-1314/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/news/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -234,3 +226,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found on the brewery's news page (first page checked).
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party searches found no hop varieties for 1314; the previously read brewery beer page was not fetched again.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes and twelve months in Wyoming Whiskey barrels; the beer list shows 11.7% ABV and 45 IBU for the base 1314.

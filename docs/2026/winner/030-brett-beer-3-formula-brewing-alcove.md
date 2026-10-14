@@ -221,3 +221,4 @@ No brewery links have been checked yet.
 - IBU, grains, hops and the Brett strain were not found; web search was unavailable for most of this run.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New IBU and hop searches found no matching recipe source or brewery beer page; previously recorded home-page and menu checks were not repeated.
+- Deep dive pass 2026-10-14: the brewery's post gives only the style and strength.

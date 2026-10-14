@@ -241,3 +241,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New search snippets show Gravebier on the brewery's live list at 4.9% ABV and on retailer lists at 5.4% ABV and 30 IBU, versus the existing Untappd figure of 4.7%. The opened brewery and retailer pages did not retain the beer details, and TapHunter failed to open, so these are unverified conflicts and leads only. IBU, beer-url and hops remain unfilled.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no Gravebier description.

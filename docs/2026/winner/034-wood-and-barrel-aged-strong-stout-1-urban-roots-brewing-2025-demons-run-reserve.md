@@ -268,3 +268,4 @@ Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Un
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Searches found no verified specifications for the 2025 Reserve. The Untappd listing is explicitly the 2024 Reserve at 15.8% ABV, so its strength and barrel details are not transferred to this vintage.
 - Field pass 2026-10-13: A new vintage-specific recipe search produced award records and the previously excluded 2024 Reserve, but no verified ABV, IBU, brewery beer page or hops for the 2025 Reserve.
+- Deep dive pass 2026-10-14: the brewery awards page lists the medals only.

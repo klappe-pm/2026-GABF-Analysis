@@ -31,16 +31,12 @@ description:
 entries: 24
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://alesongbrewing.com/"
-      - "https://alesongbrewing.com/traditions"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://alesongbrewing.com/"
       - "https://alesongbrewing.com/traditions"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://alesongbrewing.com/"
@@ -91,11 +87,6 @@ gaps:
       - "https://alesongbrewing.com/"
       - "https://alesongbrewing.com/traditions"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://alesongbrewing.com/"
-      - "https://alesongbrewing.com/traditions"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -103,14 +94,18 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Blend of oak-aged saison brewed with Oregon-grown ingredients and matured in seasoned Alesong barrels; American oak, Brettanomyces"
+  source: "https://alesongbrewing.com/traditions"
 sources:
   - "https://alesongbrewing.com/"
   - "https://alesongbrewing.com/traditions"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Oak-aged saison"
-tasting-notes: null
+tasting-notes:
+  text: "Bright citrus notes dance with a complex yeast profile and a cracker-like malt aroma. Balanced acidity and oak tannin bring substance and body with a refreshingly light finish."
+  source: "https://alesongbrewing.com/traditions"
 water: null
 yeast:
   - "Brettanomyces"
@@ -147,7 +142,9 @@ Source: [Alesong: Traditions](https://alesongbrewing.com/traditions)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright citrus notes dance with a complex yeast profile and a cracker-like malt aroma. Balanced acidity and oak tannin bring substance and body with a refreshingly light finish.
+
+Source: [alesongbrewing.com](https://alesongbrewing.com/traditions)
 
 ## ingredients
 
@@ -165,7 +162,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Blend of oak-aged saison brewed with Oregon-grown ingredients and matured in seasoned Alesong barrels; American oak, Brettanomyces | [alesongbrewing.com](https://alesongbrewing.com/traditions) |
 
 ## style-context
 
@@ -193,8 +190,8 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes.
 - Not published: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/traditions), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -202,3 +199,4 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 - IBU, grains, hops and any bacterial culture were not found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party searches found no readable specification naming IBU or hops for Traditions; the Northwest Beer Guide result opened to unrelated older content and was excluded.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, barrels and microbes; no named hops or malts.
