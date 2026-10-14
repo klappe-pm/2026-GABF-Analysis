@@ -78,10 +78,11 @@ export function gsbColumn(get, { key = 'gsb' } = {}) {
 }
 
 // A medal split tile shows gold, silver, and bronze counts as one compact value that never wraps.
-export function statTile({ label, value, delta = '', note = '', medals = null }) {
+// mark: trusted HTML placed after the value (the (E) estimate button).
+export function statTile({ label, value, delta = '', note = '', medals = null, mark = '' }) {
   const shown = medals
     ? `<div class="stat-value stat-medals">${gsbHtml(...medals)}</div>`
-    : `<div class="stat-value">${esc(value)}</div>`;
+    : `<div class="stat-value">${esc(value)}${mark ? ` ${mark}` : ''}</div>`;
   return `<div class="stat"><div class="stat-label">${esc(label)}</div>${shown}${delta ? `<div class="stat-delta">${esc(delta)}</div>` : ''}${note ? `<div class="stat-note">${esc(note)}</div>` : ''}</div>`;
 }
 

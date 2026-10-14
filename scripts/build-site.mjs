@@ -16,6 +16,7 @@ import { compact, countBy, esc, figure, humanizeHeadings, tableHtml } from '../s
 import { lineOption, SERIES_COLORS } from '../site/assets/chart-options.mjs';
 import { applyFilters, DATA_SLUGS, scopeRows, unslugText, valueLabel } from '../site/assets/filter-bar.mjs';
 import { medalDot, renderView } from '../site/assets/page-views.mjs';
+import { estMark } from '../site/assets/estimates.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
 
@@ -208,7 +209,7 @@ export function explainEstimate(b, params) {
 // Brewery attributes the index and report views join to medal rows (data/brewery-info.json).
 export function breweryInfo(ds) {
   return Object.fromEntries(ds.breweries.filter((b) => b.medals.length).map((b) => [b.key, {
-    name: b.name, slug: b.slug, hq: [b.hq.city, b.hq.state].filter(Boolean).join(', '), brewery_type: b.brewery_type, ownership_type: b.ownership?.ownership_type ?? 'unlisted', streak: b.streak, deep_dive: Boolean(b.profile),
+    key: b.key, name: b.name, slug: b.slug, hq: [b.hq.city, b.hq.state].filter(Boolean).join(', '), brewery_type: b.brewery_type, ownership_type: b.ownership?.ownership_type ?? 'unlisted', streak: b.streak, deep_dive: Boolean(b.profile),
     arr: b.financials.arr_usd, barrels: b.estimate.barrels, basis: b.estimate.basis, cases: b.estimate.volume.cases_24x12_equivalent, gross_margin: b.financials.gross_margin, ebitda: b.financials.ebitda_usd, ebitda_margin_low: b.financials.ebitda_margin_low, ebitda_margin_high: b.financials.ebitda_margin_high,
     distribution_channel: b.distribution_channel, locations_count: b.locations_count,
   }]));
@@ -262,7 +263,8 @@ function writeData(ds, cats) {
   write('data/estimates.json', JSON.stringify(Object.fromEntries(ds.breweries.map((b) => [b.key, explainEstimate(b, ds.params)]))));
   write('data/results.json', JSON.stringify(results));
   write('data/meta.json', JSON.stringify({ generated_at: new Date().toISOString(), ...meta }));
-  write('data/breweries.json', JSON.stringify(breweries));
+  // The site serves explanations separately (data/estimates.json, loaded on first use).
+  write('data/breweries.json', JSON.stringify(breweries.map(({ explain, ...b }) => b)));
   write('data/categories.json', JSON.stringify(cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special, ref: c.ref, years: c.years.map((y) => ({ year: y.year, entries: y.entries, number: y.number, medals: y.medals.length })) }))));
   mkdirSync(resolve(DIST, 'data/csv'), { recursive: true });
   for (const dir of [RESULTS, REFERENCE]) {
@@ -335,16 +337,16 @@ ${o.stake ? `<dt>Stake</dt><dd>${esc(o.stake)}${o.deal_year ? `, ${esc(o.deal_ye
 ${b.distributors.length ? `<dl class="kv">${b.distributors.map((d) => `<dt>${esc(d.channel ? valueLabel('distribution_channel', d.channel) : 'Channel')}</dt><dd>${d.distributor ? `${esc(d.distributor)}, ` : ''}${esc(d.territory)}${d.since ? ` (since ${esc(d.since)})` : ''}${d.verified === 'no' ? ' <span class="pill warn">unverified</span>' : ''}<div class="small muted">${esc(d.notes)}</div><div class="small muted">Source: ${esc(d.source)}</div></dd>`).join('')}</dl>` : `<p>${b.distribution_channel ? esc(valueLabel('distribution_channel', b.distribution_channel)) : NOT_DEFINED}</p>`}
 <h3>scale-estimates</h3>
 <dl class="kv">
-<dt>Barrels / year</dt><dd>${fmt(est.barrels)} <span class="muted small">(${esc(valueLabel('basis', est.basis))}${est.confidence ? `, ${esc(est.confidence)} confidence` : ''}${est.basis === 'reported' ? '' : ', E'})</span></dd>
+<dt>Barrels / year</dt><dd>${fmt(est.barrels)}${est.basis === 'reported' ? ' <span class="muted small">(reported)</span>' : ` ${estMark(b.key, 'barrels')} <span class="muted small">(${esc(valueLabel('basis', est.basis).toLowerCase())}${est.confidence ? `, ${esc(est.confidence)} confidence` : ''})</span>`}</dd>
 <dt>Equivalent</dt><dd class="small">${fmt(est.volume.gallons)} gallons; ${fmt(est.volume.cases_24x12_equivalent)} cases of 24 twelve ounce; about ${fmt(est.volume.cans_16oz_equivalent)} sixteen ounce cans packaged (${Math.round(est.volume.packaged_share * 100)}% packaged assumption) and ${fmt(est.volume.pints_equivalent_draft)} pints on draft</dd>
-<dt>Revenue / ARR</dt><dd>${usd(rev.total_revenue_usd)} <span class="muted small">(range ${usd(rev.low_usd)} to ${usd(rev.high_usd)}, E)</span></dd>
-<dt>Gross margin</dt><dd>${pctOf(f.gross_margin)} <span class="muted small">(gross profit ${usd(f.gross_profit_usd)}, E)</span></dd>
-<dt>EBITDA</dt><dd>${usd(f.ebitda_usd)} at ${pctOf(f.ebitda_margin)} <span class="muted small">(range ${pctOf(f.ebitda_margin_low)} to ${pctOf(f.ebitda_margin_high)}, ${usd(f.ebitda_low_usd)} to ${usd(f.ebitda_high_usd)}, E)</span></dd>
-<dt>Revenue per barrel</dt><dd>${f.revenue_per_barrel_usd ? usd(f.revenue_per_barrel_usd) : ''} <span class="muted small">(COGS assumption ${usd(f.cogs_per_barrel_usd)} per barrel, E)</span></dd>
-<dt>Per location</dt><dd>${f.revenue_per_location_usd ? usd(f.revenue_per_location_usd) : ''} <span class="muted small">across ${b.locations_count} location(s)${b.has_kitchen ? ' with kitchen(s)' : ''}, E</span></dd>
-${f.revenue_per_employee_usd ? `<dt>Per employee</dt><dd>${usd(f.revenue_per_employee_usd)} <span class="muted small">E</span></dd>` : ''}
+<dt>Revenue / ARR</dt><dd>${usd(rev.total_revenue_usd)} ${estMark(b.key, 'arr')} <span class="muted small">(range ${usd(rev.low_usd)} to ${usd(rev.high_usd)})</span></dd>
+<dt>Gross margin</dt><dd>${pctOf(f.gross_margin)} ${estMark(b.key, 'gross_margin')} <span class="muted small">(gross profit ${usd(f.gross_profit_usd)})</span></dd>
+<dt>EBITDA</dt><dd>${usd(f.ebitda_usd)} at ${pctOf(f.ebitda_margin)} ${estMark(b.key, 'ebitda')} <span class="muted small">(range ${pctOf(f.ebitda_margin_low)} to ${pctOf(f.ebitda_margin_high)}, ${usd(f.ebitda_low_usd)} to ${usd(f.ebitda_high_usd)})</span></dd>
+<dt>Revenue per barrel</dt><dd>${f.revenue_per_barrel_usd ? usd(f.revenue_per_barrel_usd) : ''} ${estMark(b.key, 'per_barrel')} <span class="muted small">(cost of goods assumption ${usd(f.cogs_per_barrel_usd)} per barrel)</span></dd>
+<dt>Per location</dt><dd>${f.revenue_per_location_usd ? usd(f.revenue_per_location_usd) : ''} ${estMark(b.key, 'per_location')} <span class="muted small">across ${b.locations_count} location${b.locations_count === 1 ? '' : 's'}${b.has_kitchen ? ' with kitchens' : ''}</span></dd>
+${f.revenue_per_employee_usd ? `<dt>Per employee</dt><dd>${usd(f.revenue_per_employee_usd)} ${estMark(b.key, 'per_employee')}</dd>` : ''}
 </dl>
-<p class="small muted">(E) marks an estimate. <a href="../../about/#estimates">How the estimates are made</a>.</p>
+<p class="small muted">(E) marks an estimate; select it to see how that figure was made. <a href="../../about/#estimates">How the estimates are made</a>.</p>
 </div>`;
 }
 
@@ -369,7 +371,7 @@ function breweryPage(ds, b) {
     depth,
     scope: { brewery_key: b.key },
     fixed: [{ text: `Brewery: ${b.name}` }],
-    page: { brewery: { name: b.name, slug: b.slug, trend: b.trend.map((t) => ({ year: t.year, status: t.status })), barrels: b.estimate.barrels, basis: b.estimate.basis, arr: b.financials.arr_usd, ebitda: b.financials.ebitda_usd, ebitda_margin: b.financials.ebitda_margin } },
+    page: { brewery: { key: b.key, explain: explainEstimate(b, ds.params), name: b.name, slug: b.slug, trend: b.trend.map((t) => ({ year: t.year, status: t.status })), barrels: b.estimate.barrels, basis: b.estimate.basis, arr: b.financials.arr_usd, ebitda: b.financials.ebitda_usd, ebitda_margin: b.financials.ebitda_margin } },
   });
   const other = b.other_medals.length ? `<h2>other-competitions</h2><p class="small muted">World Beer Cup and other competitions, as recorded; the site filter covers GABF medals only.</p>${otherMedalsTable([...b.other_medals].sort((x, y) => y.year - x.year))}` : '';
   const deepDive = b.profile ? `<section class="prose">${renderMarkdownBody(b.profile.body)}</section>` : '<div class="notice">No deep dive has been written for this brewery yet.</div>';

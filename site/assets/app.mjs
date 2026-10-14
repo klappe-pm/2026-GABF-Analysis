@@ -4,6 +4,7 @@
 // fetches no data until the filter is used.
 import { applyFilters, createGlobalFilter, decorateRows, isDefaultState, scopeRows } from './filter-bar.mjs';
 import { renderView } from './page-views.mjs';
+import { installEstimates } from './estimates.mjs';
 
 const base = window.GABF_BASE || './';
 let dataPromise = null;
@@ -25,6 +26,18 @@ const filter = createGlobalFilter({ trigger: document.querySelector('.filter-tri
 filter.setScope(pageData.scope ?? {}, pageData.fixed ?? []);
 window.GABF_FILTER = filter;
 window.GABF_LOAD = loadData;
+
+// (E) marks: this brewery's explanation ships in the page; others load once on first use.
+let estimatesPromise = null;
+installEstimates({
+  aboutHref: `${base}about/#estimates`,
+  lookup: async (key) => {
+    const own = pageData.page?.brewery;
+    if (own && own.key === key && own.explain) return own.explain;
+    estimatesPromise ??= fetch(`${base}data/estimates.json`).then((r) => { if (!r.ok) throw new Error(`estimates ${r.status}`); return r.json(); });
+    return (await estimatesPromise)[key] ?? null;
+  },
+});
 
 const live = document.getElementById('filter-live');
 const region = document.querySelector('[data-view]');
