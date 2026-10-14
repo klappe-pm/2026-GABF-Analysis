@@ -14,7 +14,7 @@ test('no rule lets the browser split words in the middle to fit a table', () => 
 });
 
 test('table cells keep whole words and the table scrolls sideways instead', () => {
-  assert.match(css, /table\.data-table th, table\.data-table td \{[^}]*overflow-wrap: normal/);
+  assert.match(css, /\nth, td \{[^}]*overflow-wrap: normal/);
   assert.match(css, /\.table-wrap \{[^}]*overflow-x: auto/);
 });
 
@@ -24,7 +24,7 @@ test('chart cards can shrink below the width their canvas was drawn at', () => {
 });
 
 test('wide tables in a deep dive scroll sideways instead of widening the page', () => {
-  assert.match(css, /\.prose table \{[^}]*max-width: 100%[^}]*overflow-x: auto/);
+  assert.match(css, /\.table-wrap \{[^}]*overflow-x: auto[^}]*max-width: 100%/);
 });
 
 test('the light theme tokens and page background exist', () => {

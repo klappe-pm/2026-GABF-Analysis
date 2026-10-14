@@ -68,7 +68,7 @@ export function medalTable(rows, { r, showYear = true, showBrewery = false, comp
     if (v.size === 1 && v.has('') && !c.keep && (c.key === 'notes' || c.key === 'odds' || compactCols)) return false;
     return !(compactCols && c.droppable && v.size === 1);
   });
-  return `<div class="table-wrap stack">${tableHtml(cols, rows)}</div>`;
+  return `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, rows)}</div>`;
 }
 
 function barsFigure(id, title, list, { subtitle = '', color, labelWidth = 200, valueName = 'Medals', note = '', labelHeader = 'Name' } = {}) {
@@ -116,7 +116,7 @@ function breweryView(rows, ctx) {
   return `<div class="stats">${stats}</div>
 <div class="grid">${figs.join('')}</div>
 <h2>medals-by-year</h2>
-<div class="table-wrap">${recent}</div>
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${recent}</div>
 <h2>gabf-medal-history</h2>
 <p class="small muted">Field is the number of entries in the category that year, from the official list; entries per medal divides it by the medals awarded there.</p>
 ${medalTable([...rows].sort(byNewest), { r, odds: true })}`;
@@ -171,7 +171,7 @@ ${g.rows.sort(byNewest).map((x) => {
   }).join('')}
 </tbody>`).join('');
   return `<div class="stats">${stats}</div>
-<div class="table-wrap winners-table"><table class="data-table">${head}${bodies}</table></div>`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap winners-table"><table class="data-table">${head}${bodies}</table></div>`;
 }
 
 // ---------- first time medalists ----------
@@ -203,7 +203,7 @@ ${barsFigure('first-time-by-medal', 'By medal', medals, { color: 'var(--series-4
     const byB = new Map();
     for (const x of list) { if (!byB.has(x.brewery_key)) byB.set(x.brewery_key, []); byB.get(x.brewery_key).push(x); }
     const out = [...byB.values()].sort((a, b) => b.length - a.length || a[0].brewery_name.localeCompare(b[0].brewery_name));
-    return `<div class="table-wrap stack"><table class="data-table"><thead><tr><th scope="col">Brewery</th><th scope="col">Medal</th><th scope="col">Beer</th><th scope="col" class="num">ABV</th><th scope="col" class="num">IBU</th><th scope="col">Beer profile</th><th scope="col">Category</th><th scope="col" class="num">Entries beaten</th></tr></thead><tbody>${out.map((ms) => ms.sort(byNewest).map((x, i) => `<tr>${i === 0 ? `<td data-label="Brewery" rowspan="${ms.length}"><a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td>` : ''}<td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer">${x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)}</td><td class="num" data-label="ABV">${abvCell(x)}</td><td class="num" data-label="IBU">${ibuCell(x)}</td><td data-label="Beer profile">${profileCell(x, r)}</td><td data-label="Category"><a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a></td><td class="num" data-label="Entries beaten">${x.entries ? fmt(Math.max(0, x.entries - 1)) : '<span class="muted">not published</span>'}</td></tr>`).join('')).join('')}</tbody></table></div>`;
+    return `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap"><table class="data-table"><thead><tr><th scope="col">Brewery</th><th scope="col">Medal</th><th scope="col">Beer</th><th scope="col" class="num">ABV</th><th scope="col" class="num">IBU</th><th scope="col">Beer profile</th><th scope="col">Category</th><th scope="col" class="num">Entries beaten</th></tr></thead><tbody>${out.map((ms) => ms.sort(byNewest).map((x, i) => `<tr>${i === 0 ? `<td data-label="Brewery" rowspan="${ms.length}"><a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td>` : ''}<td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer">${x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)}</td><td class="num" data-label="ABV">${abvCell(x)}</td><td class="num" data-label="IBU">${ibuCell(x)}</td><td data-label="Beer profile">${profileCell(x, r)}</td><td data-label="Category"><a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a></td><td class="num" data-label="Entries beaten">${x.entries ? fmt(Math.max(0, x.entries - 1)) : '<span class="muted">not published</span>'}</td></tr>`).join('')).join('')}</tbody></table></div>`;
   };
   return `<div class="stats">${stats}</div>
 ${charts}
@@ -238,7 +238,7 @@ function breweriesIndexView(rows, ctx) {
     { key: 'ownership', label: 'Ownership', render: (b) => esc(valueLabel('ownership_type', b.ownership_type || 'unlisted')) },
     { key: 'arr', label: 'ARR (E)', numeric: true, sortValue: (b) => b.arr ?? 0, cellClass: 'est-cell', render: (b) => (b.arr ? `${usd(b.arr)} ${estMark(b.key, 'arr')}` : '') },
   ];
-  return `<p class="small muted">${list.length.toLocaleString('en-US')} breweries with medals in view, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort.</p><div class="table-wrap">${tableHtml(cols, list)}</div>`;
+  return `<p class="small muted">${list.length.toLocaleString('en-US')} breweries with medals in view, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort.</p><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, list)}</div>`;
 }
 
 function categoriesIndexView(rows, ctx) {
@@ -264,7 +264,7 @@ function categoriesIndexView(rows, ctx) {
   return `<div class="grid">${barsFigure('medals-by-family', 'Medals by style family', families, { color: 'var(--series-3)', labelHeader: 'Style family' })}</div>
 <h2>all-categories</h2>
 <p class="small muted">${list.length} categories with medals in view.</p>
-<div class="table-wrap">${tableHtml(cols, list)}</div>`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, list)}</div>`;
 }
 
 // ---------- reports ----------
@@ -301,8 +301,8 @@ ${barsFigure('top-breweries-points', 'Top 15 breweries by points', bars, { subti
 <div class="card"><h2>streaks</h2><p class="small">Longest active medal streaks, consecutive loaded years through ${meta.latest_complete}. A streak needs every year, so it is computed over the full record and the filter does not change it.</p><ol class="small">${streaks.map((b) => `<li><a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>: ${b.streak} years</li>`).join('') || '<li class="muted">No streaks longer than one year yet.</li>'}</ol><p class="small">Breweries whose first medal came in ${meta.latest_complete}: <a href="${r}first-time-medalists/${meta.latest_complete}/">first time medalists</a>.</p></div>
 </div>
 <h2>top-50-in-view</h2>
-<div class="table-wrap">${tableHtml(cols, all)}</div>
-${perYear.map((p) => `<h2>${p.year}${p.coverage !== 'complete' ? ` <span class="pill ${esc(p.coverage)}">${esc(p.coverage)}</span>` : ''}</h2><div class="table-wrap">${tableHtml([{ key: 'name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a>` }, { key: 'points', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => [x.g, x.s, x.b])], p.list)}</div>`).join('')}`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, all)}</div>
+${perYear.map((p) => `<h2>${p.year}${p.coverage !== 'complete' ? ` <span class="pill ${esc(p.coverage)}">${esc(p.coverage)}</span>` : ''}</h2><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a>` }, { key: 'points', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => [x.g, x.s, x.b])], p.list)}</div>`).join('')}`;
 }
 
 function topCategoriesView(rows, ctx) {
@@ -325,7 +325,7 @@ ${barsFigure('family-medals', 'Medals by style family', families, { color: 'var(
 </div>
 ${odds.figure}
 <h2>all-categories-in-view</h2>
-<div class="table-wrap">${tableHtml([{ key: 'name', label: 'Category', render: (c) => `<a href="${r}categories/${esc(c.slug)}/">${esc(c.name)}</a>` }, { key: 'type', label: 'Type', render: (c) => (c.special ? 'special' : 'classic') }, { key: 'style_family', label: 'Style family' }, { key: 'entries', label: 'Latest entrants', numeric: true, render: (c) => fmt(c.entries) }, { key: 'year', label: 'Year', numeric: true }, { key: 'medals', label: 'Medals in view', numeric: true, render: (c) => medalsBy.get(c.name) ?? 0 }, { key: 'abv', label: 'ABV (style)', render: (c) => (c.abv_min ? `${esc(c.abv_min)} to ${esc(c.abv_max)}%` : '') }], withEntries)}</div>`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'name', label: 'Category', render: (c) => `<a href="${r}categories/${esc(c.slug)}/">${esc(c.name)}</a>` }, { key: 'type', label: 'Type', render: (c) => (c.special ? 'special' : 'classic') }, { key: 'style_family', label: 'Style family' }, { key: 'entries', label: 'Latest entrants', numeric: true, render: (c) => fmt(c.entries) }, { key: 'year', label: 'Year', numeric: true }, { key: 'medals', label: 'Medals in view', numeric: true, render: (c) => medalsBy.get(c.name) ?? 0 }, { key: 'abv', label: 'ABV (style)', render: (c) => (c.abv_min ? `${esc(c.abv_min)} to ${esc(c.abv_max)}%` : '') }], withEntries)}</div>`;
 }
 
 // Medal odds: entries per medal by category, pooled over the years in view. Rows without an
@@ -369,7 +369,7 @@ ${barsFigure('state-medals', 'Medals by state', list.slice(0, 20).map((s) => ({ 
 ${barsFigure('state-per-capita', 'Medals per million residents', perCap, { subtitle: 'top 20, annual population estimates', color: 'var(--series-3)', valueName: 'Per million', labelHeader: 'State' })}
 </div>
 <h2>all-states-in-view</h2>
-<div class="table-wrap">${tableHtml([{ key: 'name', label: 'State' }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((s) => s.split), { key: 'latest', label: `${latest}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'pop_latest', label: `Population ${latest}`, numeric: true, render: (s) => fmt(s.pop_latest) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }, { key: 'per_100b', label: 'Per $100B real GDP', numeric: true, render: (s) => s.per_100b.toFixed(2) }], list)}</div>`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'name', label: 'State' }, { key: 'region', label: 'Region' }, { key: 'division', label: 'Division' }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((s) => s.split), { key: 'latest', label: `${latest}`, numeric: true }, { key: 'breweries', label: 'Breweries', numeric: true }, { key: 'pop_latest', label: `Population ${latest}`, numeric: true, render: (s) => fmt(s.pop_latest) }, { key: 'per_million', label: 'Per million', numeric: true, render: (s) => s.per_million.toFixed(2) }, { key: 'per_100b', label: 'Per $100B real GDP', numeric: true, render: (s) => s.per_100b.toFixed(2) }], list)}</div>`;
 }
 
 // Population and real GDP summed over the states in each Census region or division.
@@ -432,7 +432,7 @@ function economicsView(rows, ctx) {
   const bars = list.slice(0, 15).map((b) => ({ label: b.name, value: b.arr, href: `${r}breweries/${b.slug}/` }));
   return `${barsFigure('arr-by-brewery', 'Estimated ARR by brewery (E)', bars, { subtitle: 'top 15 medalists in view', color: 'var(--series-6)', labelWidth: 220, valueName: 'ARR USD', labelHeader: 'Brewery' })}
 <h2>all-medalists-in-view</h2>
-<div class="table-wrap">${tableHtml([
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([
     { key: 'name', label: 'Brewery', render: (b) => `<a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>` },
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'locations', label: 'Locations', numeric: true, render: (b) => b.locations_count },

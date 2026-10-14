@@ -208,7 +208,7 @@ function renderControlsTable(rows) {
     { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
     ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
   ];
-  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option><option value="state"${level === 'state' ? ' selected' : ''}>States</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
+  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option><option value="state"${level === 'state' ? ' selected' : ''}>States</option></select></label><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
   qs('controls-level').addEventListener('change', (e) => { state.controlsLevel = e.target.value; renderControlsTable(applyFilters(state.rows)); });
   wireSortable(el);
 }
@@ -256,7 +256,7 @@ function renderTable(rows) {
   const rank = { Gold: 1, Silver: 2, Bronze: 3 };
   rows = [...rows].sort((a, b) => b.year - a.year || String(a.category_name).localeCompare(String(b.category_name)) || (rank[a.medal] ?? 9) - (rank[b.medal] ?? 9));
   const medalDot = (m) => `<span class="badge-medal ${String(m).toLowerCase()}"></span>${esc(m)}`;
-  el.innerHTML = `<div class="table-wrap stack">${tableHtml([
+  el.innerHTML = `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([
     { key: 'year', label: 'Year', numeric: true },
     { key: 'medal', label: 'Medal', render: (r) => medalDot(r.medal) },
     { key: 'beer_name', label: 'Beer', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">${esc(r.beer_name)}</a>` : esc(r.beer_name)) },
@@ -312,7 +312,7 @@ function renderFinancialTable(rows) {
   if (!el) return;
   const keys = new Set(rows.map((r) => r.brewery_key));
   const list = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.financials.arr_usd - a.financials.arr_usd);
-  el.innerHTML = `<div class="table-wrap">${tableHtml([
+  el.innerHTML = `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([
     { key: 'name', label: 'Brewery', render: (b) => `<a href="${esc(bHref(b.slug))}">${esc(b.name)}</a>` },
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'barrels', label: 'Barrels (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.estimate.barrels, render: (b) => `${compact(b.estimate.barrels)}${b.estimate.basis === 'reported' ? '' : ` ${estMark(b.key, 'barrels')}`}` },

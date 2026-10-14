@@ -55,7 +55,7 @@ export function serializeOption(option) {
 }
 
 export function figure({ id, title, subtitle = '', option, height = 300, table = '', note = '' }) {
-  return `<figure class="viz" id="${esc(id)}" data-figure="${esc(id)}" data-echart><figcaption><strong>${esc(title)}</strong>${subtitle ? `<span class="subtitle">${esc(subtitle)}</span>` : ''}</figcaption><div class="echart" style="height:${Number(height)}px"></div><script type="application/json">${serializeOption(option)}</script>${note ? `<p class="note">${esc(note)}</p>` : ''}${table ? `<details class="table-view"><summary>Table view</summary>${table}</details>` : ''}</figure>`;
+  return `<figure class="viz" id="${esc(id)}" data-figure="${esc(id)}" data-echart><figcaption><strong>${esc(title)}</strong>${subtitle ? `<span class="subtitle">${esc(subtitle)}</span>` : ''}</figcaption><div class="echart" style="height:${Number(height)}px"></div><script type="application/json">${serializeOption(option)}</script>${note ? `<p class="note">${esc(note)}</p>` : ''}${table ? `<details class="table-view"><summary>Table view</summary><div tabindex="0" role="region" aria-label="Table view of the chart values" class="table-wrap">${table}</div></details>` : ''}</figure>`;
 }
 
 // Gold, silver, and bronze counts as one compact value, "4-4-2", never wrapped. Screen readers

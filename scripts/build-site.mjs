@@ -128,7 +128,7 @@ function otherMedalsTable(rows) {
     { key: 'city', label: 'City', render: (x) => `${esc(x.city)}, ${esc(x.state)}` },
     { key: 'category_name', label: 'Category' },
   ];
-  return `<div class="table-wrap stack">${tableHtml(cols, rows)}</div>`;
+  return `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, rows)}</div>`;
 }
 
 // ---------- data exports ----------
@@ -371,7 +371,10 @@ export function registerProseSlugs(docs) {
   }
 }
 export function renderMarkdownBody(body) {
-  return unslugText(marked.parse(body.replace(/^#\s+.*\n+/m, ''), { gfm: true }), PROSE_SLUGS);
+  const html = marked.parse(body.replace(/^#\s+.*\n+/m, ''), { gfm: true })
+    .replace(/<table>/g, '<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap"><table class="data-table">')
+    .replace(/<\/table>/g, '</table></div>');
+  return unslugText(html, PROSE_SLUGS);
 }
 
 function breweryPage(ds, b) {
@@ -491,7 +494,7 @@ function ownershipReport(ds) {
   const r = '../../';
   const after = `<h2>ownership-table</h2>
 <p class="small muted">Every ownership record on file, whether or not the brewery has medaled in the loaded years. The site filter does not narrow this list.</p>
-<div class="table-wrap">${tableHtml([
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([
     { key: 'brewery_name', label: 'Brewery', render: (o) => { const b = ds.breweries.find((x) => x.ownership === o); return b ? `<a href="${r}breweries/${b.slug}/">${esc(o.brewery_name)}</a>` : esc(o.brewery_name); } },
     { key: 'hq', label: 'HQ', render: (o) => `${esc(o.hq_city)}, ${esc(o.hq_state)}` },
     { key: 'ownership_type', label: 'Type', render: (o) => esc(valueLabel('ownership_type', o.ownership_type)) },
@@ -519,7 +522,7 @@ ${figure({ id: 'entries-trend', title: 'Entries judged', height: 260, option: li
 ${figure({ id: 'medals-breweries-trend', title: 'Medals awarded and breweries entering', height: 260, option: lineOption({ labels, series: [{ name: 'Medals', data: summary.map((s) => (s.medals ? Number(s.medals) : null)), color: SERIES_COLORS[0] }, { name: 'Breweries entering', data: summary.map((s) => (s.entering_breweries ? Number(s.entering_breweries) : null)), color: SERIES_COLORS[1] }], saveName: 'medals-and-breweries' }), table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'medals', label: 'Medals', numeric: true, render: (s) => fmt(s.medals) }, { key: 'entering_breweries', label: 'Breweries entering', numeric: true, render: (s) => fmt(s.entering_breweries) }], summary, { className: 'data-table' }) })}
 </div>
 <h2>competition-scale-by-year</h2>
-<div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'ceremony_date', label: 'Awards date' }, { key: 'venue', label: 'Venue' }, { key: 'entries', label: 'Entries', numeric: true, render: (s) => fmt(s.entries) }, { key: 'entering_breweries', label: 'Breweries entering', numeric: true, render: (s) => fmt(s.entering_breweries) }, { key: 'medals', label: 'Medals', numeric: true, render: (s) => fmt(s.medals) }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true, render: (s) => fmt(s.winning_breweries) }, { key: 'categories', label: 'Categories', numeric: true }, { key: 'loaded', label: 'Loaded', render: (s) => `<span class="pill ${ds.coverage[s.year] ?? 'pending'}">${esc(ds.coverage[s.year] ?? 'pending')}</span>` }, { key: 'notes', label: 'Notes', render: (s) => `<span class="small">${esc(s.notes)}</span>` }], summary)}</div>
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'ceremony_date', label: 'Awards date' }, { key: 'venue', label: 'Venue' }, { key: 'entries', label: 'Entries', numeric: true, render: (s) => fmt(s.entries) }, { key: 'entering_breweries', label: 'Breweries entering', numeric: true, render: (s) => fmt(s.entering_breweries) }, { key: 'medals', label: 'Medals', numeric: true, render: (s) => fmt(s.medals) }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true, render: (s) => fmt(s.winning_breweries) }, { key: 'categories', label: 'Categories', numeric: true }, { key: 'loaded', label: 'Loaded', render: (s) => `<span class="pill ${ds.coverage[s.year] ?? 'pending'}">${esc(ds.coverage[s.year] ?? 'pending')}</span>` }, { key: 'notes', label: 'Notes', render: (s) => `<span class="small">${esc(s.notes)}</span>` }], summary)}</div>
 <h2>style-families-and-movers</h2>`;
   reportLayout('trends', 'Trends', { viewName: 'trends', before, lede: "Competition scale from the Brewers Association's annual releases, plus style family share and year over year movers from the loaded results. Blank cells are figures the release did not state." });
 }
@@ -528,7 +531,7 @@ function botyReport(ds) {
   const r = '../../';
   const rows = [...ds.awards].sort((a, b) => Number(b.year) - Number(a.year) || a.award.localeCompare(b.award));
   const after = `<p class="small muted">These are awards, not medal rows, so the site filter does not narrow this list.</p>
-<div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'award', label: 'Award' }, { key: 'bracket', label: 'Bracket' }, { key: 'brewery_name', label: 'Brewery', render: (a) => { const b = ds.breweries.find((x) => x.names?.includes?.(a.brewery_name) || x.name === a.brewery_name); return b ? `<a href="${r}breweries/${b.slug}/">${esc(a.brewery_printed)}</a>` : esc(a.brewery_printed); } }, { key: 'city', label: 'City', render: (a) => `${esc(a.city)}, ${esc(a.state)}` }, { key: 'source', label: 'Source', render: (a) => `<span class="small muted">${esc(a.source)}</span>` }], rows)}</div>
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'award', label: 'Award' }, { key: 'bracket', label: 'Bracket' }, { key: 'brewery_name', label: 'Brewery', render: (a) => { const b = ds.breweries.find((x) => x.names?.includes?.(a.brewery_name) || x.name === a.brewery_name); return b ? `<a href="${r}breweries/${b.slug}/">${esc(a.brewery_printed)}</a>` : esc(a.brewery_printed); } }, { key: 'city', label: 'City', render: (a) => `${esc(a.city)}, ${esc(a.state)}` }, { key: 'source', label: 'Source', render: (a) => `<span class="small muted">${esc(a.source)}</span>` }], rows)}</div>
 ${rows.length < 12 ? '<p class="small muted">Only the awards confirmed so far are listed; the ingest adds the full set for each year from the official list.</p>' : ''}`;
   reportLayout('brewery-of-the-year', 'Brewery of the Year', { after, lede: "Brewery and Brewer of the Year awards by production bracket. From 2026 the bracket is judged on a company's total production across all locations, with a new bracket above 100,000 barrels replacing the former Brewery Group award." });
 }
@@ -608,7 +611,7 @@ function firstTimePage(ds) {
 ${view.html}
 <h2>names-to-check</h2>
 ${ambiguous.length ? `<p class="small muted">These first time medalists share a city with an earlier medalist under a different name, or one name contains the other. They are kept as separate breweries because nothing in the data confirms they are the same; check them before relying on the count.</p>
-<div class="table-wrap"><table class="data-table"><thead><tr><th scope="col">First time medalist</th><th scope="col">Earlier medalist to compare</th></tr></thead><tbody>${ambiguous.map((a) => `<tr><td>${esc(a.name)} <span class="muted small">${esc(a.city)}, ${esc(a.state)}</span></td><td>${a.candidates.map((c) => `${esc(c.name)} <span class="muted small">${esc(c.city)}, ${esc(c.state)}; ${c.years.join(', ')}</span>`).join('<br>')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">No first time medalist shares a city and a name token with an earlier medalist.</p>'}`;
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap"><table class="data-table"><thead><tr><th scope="col">First time medalist</th><th scope="col">Earlier medalist to compare</th></tr></thead><tbody>${ambiguous.map((a) => `<tr><td>${esc(a.name)} <span class="muted small">${esc(a.city)}, ${esc(a.state)}</span></td><td>${a.candidates.map((c) => `${esc(c.name)} <span class="muted small">${esc(c.city)}, ${esc(c.state)}; ${c.years.join(', ')}</span>`).join('<br>')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">No first time medalist shares a city and a name token with an earlier medalist.</p>'}`;
   write(`first-time-medalists/${year}/index.html`, layout({ title: `First time medalists in ${year}`, description: `Breweries whose first GABF medal in the loaded results came in ${year}.`, body, depth: 2, active: 'First time medalists', pageData: view.pageData }));
 }
 
@@ -641,7 +644,7 @@ export function aboutHtml(ds) {
 <h1>About this site</h1>
 <p class="lede">An independent analysis of Great American Beer Festival competition results, built from public data and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG. The <a href="${REPO_URL}">source code and data</a> are public.</p>
 <h2>coverage</h2>
-<div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'status', label: 'Status', render: (x) => `<span class="pill ${x.status}">${esc(x.status.charAt(0).toUpperCase() + x.status.slice(1))}</span>` }, { key: 'rows', label: 'Medals on this site', numeric: true }, { key: 'source', label: 'Source', render: (x) => `<span class="small">${esc(x.source)}</span>` }], rows)}</div>
+<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'status', label: 'Status', render: (x) => `<span class="pill ${x.status}">${esc(x.status.charAt(0).toUpperCase() + x.status.slice(1))}</span>` }, { key: 'rows', label: 'Medals on this site', numeric: true }, { key: 'source', label: 'Source', render: (x) => `<span class="small">${esc(x.source)}</span>` }], rows)}</div>
 <p class="small">Complete years carry every medal from the official list. Partial years hold only a sample of medals from secondary sources and are hidden by default; include them from Filters. Pending years have no results on this site.</p>
 <h2>data-sources</h2>
 <ul class="list-plain">

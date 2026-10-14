@@ -44,7 +44,7 @@ function medalTable(rows, { showCompetition = false } = {}) {
     { key: 'entries', label: 'Entrants', numeric: true, render: (x) => (x.entries ? fmt(x.entries) : '') },
     { key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(noteFor(x))}</span>` },
   );
-  return `<div class="table-wrap">${tableHtml(cols, rows)}</div>`;
+  return `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, rows)}</div>`;
 }
 
 export function breweryDetailHtml(b) {
