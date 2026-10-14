@@ -283,3 +283,4 @@ Links checked 2026-10-14: [Website](https://mondaynightbrewing.com/), [Instagram
 - Researched 2026-10-13.
 - Second pass 2026-10-13: nothing more was found. The brewery's awards category holds only US Open and 2023 GABF posts, no BeerMenus or Tavour listing for Madrigal turned up, and the taproom Toast menus seen in search results returned 403 when opened.
 - Field pass 2026-10-13: New brewery-domain searches found Madrigal on ordering-menu snippets, but the fetched Garage menu did not retain it and the Preservation menu failed to open. No numeric ABV, IBU, brewery beer page or hops were verified beyond previously recorded yearly editions.
+- Deep dive pass 2026-10-14: the brewery site has no Madrigal page; the description on file comes from Untappd and is not extended.

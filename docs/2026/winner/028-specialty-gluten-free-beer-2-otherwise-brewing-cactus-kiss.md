@@ -34,12 +34,6 @@ description:
 entries: 17
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.otherwisebrewing.com/"
-      - "https://www.otherwisebrewing.com/beers"
-      - "https://www.otherwisebrewing.com/beers/cactus-kiss"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.otherwisebrewing.com/"
@@ -94,12 +88,6 @@ gaps:
       - "https://www.otherwisebrewing.com/beers"
       - "https://www.otherwisebrewing.com/beers/cactus-kiss"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.otherwisebrewing.com/"
-      - "https://www.otherwisebrewing.com/beers"
-      - "https://www.otherwisebrewing.com/beers/cactus-kiss"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 10
@@ -108,7 +96,9 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Fermented clean and bright with real strawberry and prickly pear; fermentables rice, strawberry, prickly pear and natural sugars"
+  source: "https://www.otherwisebrewing.com/beers/cactus-kiss"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.otherwisebrewing.com/"
@@ -116,7 +106,9 @@ sources:
   - "https://www.otherwisebrewing.com/beers/cactus-kiss"
 srm: null
 style: "Fruit Beer"
-tasting-notes: null
+tasting-notes:
+  text: "Expect a vibrant, fruit-forward burst of jammy strawberries and sweet desert nectar that will make you want to kiss and tell as soon as you try your first sip."
+  source: "https://www.otherwisebrewing.com/beers/cactus-kiss"
 water: null
 yeast: []
 ---
@@ -152,7 +144,9 @@ Source: [Otherwise: Cactus Kiss](https://www.otherwisebrewing.com/beers/cactus-k
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Expect a vibrant, fruit-forward burst of jammy strawberries and sweet desert nectar that will make you want to kiss and tell as soon as you try your first sip.
+
+Source: [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss)
 
 ## ingredients
 
@@ -170,7 +164,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Fermented clean and bright with real strawberry and prickly pear; fermentables rice, strawberry, prickly pear and natural sugars | [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss) |
 
 ## style-context
 
@@ -199,7 +193,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [otherwisebrewing.com](https://www.otherwisebrewing.com/), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [otherwisebrewing.com](https://www.otherwisebrewing.com/), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers), [otherwisebrewing.com](https://www.otherwisebrewing.com/beers/cactus-kiss), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -208,3 +202,4 @@ No brewery links have been checked yet.
 - Hops and yeast were not found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party hop searches found no recipe naming hop varieties; the brewery's previously recorded empty hop list was not fetched again.
+- Deep dive pass 2026-10-14: the brewery page lists 5.4% ABV, 10 IBU and the fermentables; no hops or yeast.

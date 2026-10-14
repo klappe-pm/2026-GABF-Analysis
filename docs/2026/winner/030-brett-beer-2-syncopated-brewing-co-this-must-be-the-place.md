@@ -35,6 +35,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "tasting-notes"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -42,6 +44,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "ibu"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -49,6 +53,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "srm"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -56,6 +62,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "og"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -63,6 +71,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "fg"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -70,6 +80,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "hops"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -77,6 +89,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "hop-form"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -84,6 +98,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "hop-use"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -91,6 +107,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -98,6 +116,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "malts"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -105,6 +125,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "adjuncts"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -112,6 +134,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "water"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -119,6 +143,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
   - field: "process"
     sources-checked:
       - "https://business.untappd.com/locations/35178/themes/136241/js"
@@ -126,6 +152,8 @@ gaps:
       - "https://syncopatedbrewing.com/our-beers-1"
       - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Syncopated Brewing This Must Be The Place"
+      - "https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)"
 hop-profile: []
 hops: []
 ibu: null
@@ -224,8 +252,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes.
-- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)).
+- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, web search 2026-10-14: Syncopated Brewing This Must Be The Place, [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition (HTTP 403)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -234,3 +262,4 @@ No brewery links have been checked yet.
 - IBU, grains, hops and the Brett strain were not found; web search was unavailable for most of this run.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact 2026 medal announcement identifies the Brett beer but yields no numerical IBU or named hops.
+- Deep dive pass 2026-10-14: the brewery's October 12, 2026 medal release (Brewbound and Nombase) refused every reader; a search excerpt of it calls the beer a Brettanomyces fermented ale brewed for the brewery's fifth anniversary, which is not recorded as data because the page could not be read.

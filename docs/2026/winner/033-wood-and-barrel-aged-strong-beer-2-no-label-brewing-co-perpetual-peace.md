@@ -264,3 +264,4 @@ No brewery links have been checked yet.
 - Covering Katy reports a silver at the 2025 GABF plus golds at the World Beer Cup and Texas Craft Brewers Cup.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact undated Perpetual Peace listing publishes 21 IBU; no hops or additional brewery beer page were verified. Dated variants were excluded.
+- Deep dive pass 2026-10-14: the brewery home page lists the beer's awards only.

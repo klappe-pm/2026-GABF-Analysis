@@ -39,6 +39,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -48,6 +49,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -57,6 +59,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -66,6 +69,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -75,6 +79,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -84,6 +89,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -93,6 +99,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -102,6 +109,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -111,6 +119,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -120,6 +129,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -129,6 +139,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -138,6 +149,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
@@ -147,6 +159,7 @@ gaps:
       - "https://www.sunkingbrewing.com/blog/tag/Amalfi"
       - "https://www.sunkingbrewing.com/our-beers"
       - "web searches recorded in the research notes"
+      - "https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party"
 hop-profile: []
 hops: []
 ibu: 30
@@ -254,7 +267,7 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/20672/119571/), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/20672/119571/), [sunkingbrewing.com](https://www.sunkingbrewing.com/), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog), [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Amalfi), [sunkingbrewing.com](https://www.sunkingbrewing.com/our-beers), web searches recorded in the research notes, [sunkingbrewing.com](https://www.sunkingbrewing.com/blog/tag/Soul+Shakedown+Party).
 
 ## research-notes
 
@@ -265,3 +278,4 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 - Second pass 2026-10-13: Found a readable matching Untappd listing with ABV, IBU, base style and rum barrel treatment. BeerAdvocate also lists 13.7%, while a review there reports 14.1% for the 2021 festival pour. The current product listing value is retained, not asserted as a measured 2026 medal batch; earlier search snippets cited in the first pass remain unverified. No hop varieties or brewery beer page were found.
 - Field pass 2026-10-13: A new brewery-domain search found awards mentions but no Soul Shakedown Party beer page or named hops; ingredients from other beers on award pages were excluded.
 - Catalog.beer 2026-10-14: [Catalog.beer: Soul Shakedown Party](https://catalog.beer/beer/03a2b09c-d943-4566-8fcd-0e871f0655e9) lists 9% ABV, 30 IBU, style "Scotch Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery blog tag page lists awards only; the description on file comes from Untappd and is not extended.

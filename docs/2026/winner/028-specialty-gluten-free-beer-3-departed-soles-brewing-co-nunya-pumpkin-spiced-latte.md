@@ -265,3 +265,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, ABV and BeerMenus searches plus readable Patch and NJ1015 launch reports supplied no additional numerical specifications or recipe ingredients. The structured gaps remain; a non-alcoholic description is not an exact ABV.
 - Field pass 2026-10-13: A new exact beer-name search restricted to brewery pages found no additional beer page, numeric ABV, IBU or named hops; earlier Untappd, BeerMenus and launch-report searches were not repeated.
+- Deep dive pass 2026-10-14: the News 12 launch story was read again; it gives no tasting notes, recipe or strength.

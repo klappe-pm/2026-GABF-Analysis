@@ -34,11 +34,6 @@ description:
 entries: 111
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
-      - "https://www.greatbasinbrewingco.com/mystic-voyage"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
@@ -89,11 +84,6 @@ gaps:
       - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
       - "https://www.greatbasinbrewingco.com/mystic-voyage"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
-      - "https://www.greatbasinbrewingco.com/mystic-voyage"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 15
@@ -101,14 +91,18 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Berliner Weisse style ale with 100 percent real blueberries and lemons and a touch of milk sugar"
+  source: "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
 sources:
   - "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greatbasinbrewingco.com/mystic-voyage"
 srm: null
 style: "Blueberry + Lemon Sour Ale"
-tasting-notes: null
+tasting-notes:
+  text: "We also add a touch of milk sugar to give it a complex fruitiness that dances on the palate, with a tart finish."
+  source: "https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/"
 water: null
 yeast: []
 ---
@@ -147,7 +141,9 @@ Source: [Edible Reno-Tahoe: summer beers, 2023](https://ediblerenotahoe.com/maga
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> We also add a touch of milk sugar to give it a complex fruitiness that dances on the palate, with a tart finish.
+
+Source: [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/)
 
 ## ingredients
 
@@ -165,7 +161,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Berliner Weisse style ale with 100 percent real blueberries and lemons and a touch of milk sugar | [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/) |
 
 ## style-context
 
@@ -194,7 +190,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/), [greatbasinbrewingco.com](https://www.greatbasinbrewingco.com/mystic-voyage), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [ediblerenotahoe.com](https://ediblerenotahoe.com/magazine/summer-2023/cheers-to-summer/), [greatbasinbrewingco.com](https://www.greatbasinbrewingco.com/mystic-voyage), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -204,3 +200,4 @@ No brewery links have been checked yet.
 - IBU, grains, hops and culture were not found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's dedicated Mystic Voyage page publishes 15 IBU; no hops are named.
+- Deep dive pass 2026-10-14: the brewery's words in Edible Reno-Tahoe (summer 2023) give the base, fruit and milk sugar; no hops or yeast strain.
