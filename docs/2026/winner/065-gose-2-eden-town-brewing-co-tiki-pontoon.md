@@ -30,16 +30,12 @@ description:
 entries: 36
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.edentownbrewing.com/"
-      - "https://www.edentownbrewing.com/beers"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.edentownbrewing.com/"
       - "https://www.edentownbrewing.com/beers"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.edentownbrewing.com/"
@@ -95,11 +91,6 @@ gaps:
       - "https://www.edentownbrewing.com/"
       - "https://www.edentownbrewing.com/beers"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.edentownbrewing.com/"
-      - "https://www.edentownbrewing.com/beers"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -107,14 +98,18 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Fruited kettle sour"
+  source: "https://www.edentownbrewing.com/beers"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.edentownbrewing.com/"
   - "https://www.edentownbrewing.com/beers"
 srm: null
 style: "Fruited Kettle Sour"
-tasting-notes: null
+tasting-notes:
+  text: "Fruited Kettle Sour. Tropical flavors or passionfruit, orange, and guava."
+  source: "https://www.edentownbrewing.com/beers"
 water: null
 yeast: []
 ---
@@ -152,7 +147,9 @@ Source: [Eden Town: beer menu](https://www.edentownbrewing.com/beers)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Fruited Kettle Sour. Tropical flavors or passionfruit, orange, and guava.
+
+Source: [edentownbrewing.com](https://www.edentownbrewing.com/beers)
 
 ## ingredients
 
@@ -170,7 +167,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Fruited kettle sour | [edentownbrewing.com](https://www.edentownbrewing.com/beers) |
 
 ## style-context
 
@@ -190,6 +187,10 @@ Eden Town Brewing Co. is in Denton, MD. Brewery type in Open Brewery DB: Microbr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Eden Town Brewing Co.](../../breweries/eden-town-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.edentownbrewing.com/beers)
@@ -198,8 +199,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
 - Not published: IBU. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -209,3 +210,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU, hop and Untappd searches found no verified bitterness figure or named hop variety for Tiki Pontoon.
+- Deep dive pass 2026-10-14: the brewery beer list gives the kettle souring and fruit; no hops, malts or yeast.

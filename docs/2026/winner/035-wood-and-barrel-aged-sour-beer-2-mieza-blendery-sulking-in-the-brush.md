@@ -242,6 +242,11 @@ Mieza Blendery is in Alexandria, VA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Mieza Blendery](../../breweries/mieza-blendery.md)
+- Hop varieties: [Nectaron](../../hops/varieties/nectaron.md), [Superdelic](../../hops/varieties/superdelic.md)
+
 ## links
 
 - [Mieza Blendery](https://www.miezabeer.com/)

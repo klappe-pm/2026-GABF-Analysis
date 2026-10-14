@@ -259,6 +259,10 @@ Breakside Brewery & Taproom is in Milwaukie, OR.
 
 Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https://www.instagram.com/breakside/).
 
+## related
+
+- Brewery: [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md)
+
 ## links
 
 - [Breakside: Dekum ordering menu](https://www.toasttab.com/local/order/breakside-brewery-dekum)

@@ -214,6 +214,11 @@ Full Distance Brewing is in Stafford, VA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Full Distance Brewing](../../breweries/full-distance-brewing.md)
+- Hop varieties: [Lemondrop](../../hops/varieties/lemondrop.md)
+
 ## links
 
 - [Full Distance Brewing](https://fulldistancebrewing.com/)

@@ -234,6 +234,11 @@ Offset Bier Co. is in Park City, UT.
 
 Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https://www.instagram.com/offsetbier/), [Untappd](https://untappd.com/OffsetBierCo).
 
+## related
+
+- Brewery: [Offset Bier Co.](../../breweries/offset-bier-co.md)
+- Hop varieties: [Krush](../../hops/varieties/krush.md), [Nectaron](../../hops/varieties/nectaron.md), [Ramosa](../../hops/varieties/ramosa.md)
+
 ## links
 
 - [Untappd: Offset Divi](https://untappd.com/b/offset-bier-divi/4499932)

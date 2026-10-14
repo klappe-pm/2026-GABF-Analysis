@@ -206,6 +206,10 @@ UPP Liquids is in Bend, OR.
 
 Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https://www.instagram.com/uppliquids/), [Untappd](https://untappd.com/w/upp-liquids/574533).
 
+## related
+
+- Brewery: [UPP Liquids](../../breweries/upp-liquids.md)
+
 ## links
 
 - [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)

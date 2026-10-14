@@ -221,6 +221,10 @@ Hermosa Brewing Co. is in Torrance, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Hermosa Brewing Co.](../../breweries/hermosa-brewing-co.md)
+
 ## links
 
 - [Hermosa Brewing Co.](https://www.hermosabrewingco.com/)

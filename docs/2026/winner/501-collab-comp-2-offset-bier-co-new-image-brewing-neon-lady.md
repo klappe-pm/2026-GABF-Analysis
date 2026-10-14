@@ -227,6 +227,10 @@ Offset Bier Co. / New Image Brewing is in Park City, UT.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Offset Bier Co. / New Image Brewing](../../breweries/offset-bier-co-new-image-brewing.md)
+
 ## links
 
 - [Offset Bier Co.](https://www.offsetbier.com/)

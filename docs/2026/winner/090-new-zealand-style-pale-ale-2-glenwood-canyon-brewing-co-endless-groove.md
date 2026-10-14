@@ -190,6 +190,14 @@ Glenwood Canyon Brewing Co. is in Glenwood Springs, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Glenwood Canyon Brewing Co.](../../breweries/glenwood-canyon-brewing-co.md)
+- Hop varieties: [Mosaic](../../hops/varieties/mosaic.md), [Nectaron](../../hops/varieties/nectaron.md), [Riwaka](../../hops/varieties/riwaka.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street)

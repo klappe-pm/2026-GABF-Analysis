@@ -177,6 +177,10 @@ Indio Brewing Co. is in Sugar Hill, GA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Indio Brewing Co.](../../breweries/indio-brewing-co.md)
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)

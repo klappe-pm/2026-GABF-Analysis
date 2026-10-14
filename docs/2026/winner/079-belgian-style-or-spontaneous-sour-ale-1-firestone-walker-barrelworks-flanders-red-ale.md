@@ -221,6 +221,10 @@ Firestone Walker Barrelworks is in Buellton, CA. Brewery type in Open Brewery DB
 
 Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/), [Instagram](https://www.instagram.com/firestonewalker/).
 
+## related
+
+- Brewery: [Firestone Walker Barrelworks](../../breweries/firestone-walker-barrelworks.md)
+
 ## links
 
 - [Firestone Walker: 2026 collection](https://www.firestonewalker.com/brewmasters-collective/)

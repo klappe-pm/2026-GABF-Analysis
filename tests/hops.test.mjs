@@ -128,13 +128,13 @@ test('the hop filters narrow the medal rows and offer only options that match', 
   }
 });
 
-test('the hop filters have no options on rows without hops, and the beer rows carry arrays', () => {
+test('rows without hops offer only Not defined in the hop filters, and the beer rows carry arrays', () => {
   const r = rows();
   model(r);
   assert.deepEqual(r[0].hop_varieties, ['Citra']);
   assert.deepEqual(r[0].hop_farms_named, ['Beta Farm']);
   assert.deepEqual(r[0].hop_farms_grown, ['Alpha Ranch']);
-  assert.deepEqual(optionList([{ year: 2025, medal: 'Gold' }], 'hop_variety', {}), []);
+  assert.deepEqual(optionList([{ year: 2025, medal: 'Gold' }], 'hop_variety', {}).map((o) => [o.value, o.label, o.count]), [['not-defined', 'Not defined', 1]]);
 });
 
 test('the Hops column of a medal table links each variety and is dropped when no row has hops', () => {

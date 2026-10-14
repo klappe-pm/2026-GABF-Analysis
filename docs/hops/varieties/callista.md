@@ -15,13 +15,47 @@ tags:
   - "germany"
   - "public"
   - "variety"
-variety: "Callista"
+alpha-acid-percent: "2 to 5"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "caramel"
+  - "orange"
+  - "passion fruit"
+  - "pear"
+  - "Strawberry"
+beta-acid-percent: "5 to 10"
+breeder: "Hüll Hop Research Center (Germany)"
+canonical-name: "Callista"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "15 to 22"
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 4
+myrcene-percent-of-oil: "54 to 63.5"
 origin-country: "Germany"
-program: "Hüll Hop Research Center (Germany)"
+owner-program: "Hüll Hop Research Center (Germany)"
+parentage: "Derived from German hop material from the Hallertau Tradition variety; formerly named 2010/008/033 during trials (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: null
+release-year-note: null
 slug: "callista"
-year-released: null
+sources:
+  - "https://www.johnihaas.com/wp-content/uploads/2020/10/MiniSpecSheets-Callista.pdf"
+total-oil-ml-per-100g: "1.4 to 2.1"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # callista
@@ -76,3 +110,39 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [johnihaas.com/wp-content/uploads/2020/10/MiniSpecSheets-Callista.pdf](https://www.johnihaas.com/wp-content/uploads/2020/10/MiniSpecSheets-Callista.pdf)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Oni Giri](../../2026/winner/044-rice-lager-1-masthead-brewing-co-oni-giri.md), gold, Rice Lager, by [Masthead Brewing Co.](../../breweries/masthead-brewing-co.md); published as Callista
+- [Super Stoked](../../2026/winner/014-classic-non-alcohol-ale-or-lager-1-deschutes-brewery-super-stoked.md), gold, Classic Non-Alcohol Ale or Lager, by [Deschutes Brewery](../../breweries/deschutes-brewery.md); published as Callista
+- [Left Fork](../../2026/winner/025-historical-beer-2-black-lung-brewing-co-left-fork.md), silver, Historical Beer, by [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md); published as Callista
+- [Snap Shot](../../2026/winner/063-american-cream-ale-3-morgan-territory-brewing-snap-shot.md), bronze, American Cream Ale, by [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md); published as Callista
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md), 1 beer
+- [Deschutes Brewery](../../breweries/deschutes-brewery.md), 1 beer
+- [Masthead Brewing Co.](../../breweries/masthead-brewing-co.md), 1 beer
+- [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md), 1 beer

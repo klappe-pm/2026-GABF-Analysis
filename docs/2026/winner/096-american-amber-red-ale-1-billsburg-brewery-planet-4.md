@@ -199,6 +199,10 @@ Billsburg Brewery is in Williamsburg, VA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.billsburg.com/), [Instagram](https://www.instagram.com/billsburgbrewery/).
 
+## related
+
+- Brewery: [Billsburg Brewery](../../breweries/billsburg-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://billsburg.com/beer/)

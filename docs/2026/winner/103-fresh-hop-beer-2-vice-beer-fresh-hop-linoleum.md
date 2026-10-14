@@ -198,6 +198,14 @@ Vice Beer is in Vancouver, WA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Vice Beer](../../breweries/vice-beer.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Vice 2026 fresh hop release](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723)

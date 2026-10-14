@@ -222,6 +222,11 @@ Second Dawn Brewing Co. is in Aurora, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Second Dawn Brewing Co.](../../breweries/second-dawn-brewing-co.md)
+- Hop varieties: [Barbe Rouge](../../hops/varieties/barbe-rouge.md), [Hüll Melon](../../hops/varieties/hull-melon.md), [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Untappd: Second Dawn beer list](https://untappd.com/SecondDawnBrewingCo/beer)

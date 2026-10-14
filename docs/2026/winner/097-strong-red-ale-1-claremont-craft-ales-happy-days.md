@@ -236,6 +236,14 @@ Claremont Craft Ales is in Claremont, CA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
+## related
+
+- Brewery: [Claremont Craft Ales](../../breweries/claremont-craft-ales.md)
+- Hop varieties: [Columbus/Tomahawk/Zeus](../../hops/varieties/columbus-tomahawk-zeus.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Claremont beer catalog](https://harp-clownfish.squarespace.com/beers/)

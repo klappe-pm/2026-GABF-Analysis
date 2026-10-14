@@ -79,9 +79,17 @@ function stubs(r, { verifyFails = false, checksFail = false, agent = null } = {}
       if (a === 'issue' && b === 'edit') { if (args.includes('--body-file')) state.bodies.issueEdit = readFileSync(val('--body-file'), 'utf8'); return ok(); }
       if (a === 'issue' && b === 'comment') { state.bodies.issueComment = readFileSync(val('--body-file'), 'utf8'); return ok(); }
       if (a === 'pr' && b === 'create') { state.prs += 1; state.head = val('--head'); state.bodies.pr = readFileSync(val('--body-file'), 'utf8'); return ok(`https://github.com/${REPO}/pull/${50 + state.prs}\n`); }
-      if (a === 'pr' && b === 'checks') return checksFail ? { status: 1, stdout: 'verify\tfail', stderr: '' } : ok('verify\tpass');
-      if (a === 'pr' && b === 'merge') { g(r.origin, 'update-ref', 'refs/heads/main', `refs/heads/${state.head}`); g(r.origin, 'update-ref', '-d', `refs/heads/${state.head}`); return ok(); }
-      if (a === 'pr' && b === 'view') return ok(JSON.stringify({ state: 'MERGED', mergeCommit: { oid: g(r.origin, 'rev-parse', 'main').trim() } }));
+      // Auto-merge: turning it on merges nothing by itself. GitHub merges when the check passes, which
+      // the stub does on the second look at the pull request; with a failing check it never merges.
+      if (a === 'pr' && b === 'merge' && args.includes('--disable-auto')) { state.autoOff = true; return ok(); }
+      if (a === 'pr' && b === 'merge') { state.autoMerge = args.includes('--auto'); return ok(); }
+      if (a === 'pr' && b === 'view') {
+        state.looks = (state.looks ?? 0) + 1;
+        if (checksFail) return ok(JSON.stringify({ state: 'OPEN', mergeCommit: null, statusCheckRollup: [{ name: 'build', status: 'COMPLETED', conclusion: 'FAILURE' }] }));
+        if (state.looks < 2) return ok(JSON.stringify({ state: 'OPEN', mergeCommit: null, statusCheckRollup: [{ name: 'build', status: 'IN_PROGRESS', conclusion: '' }] }));
+        if (!state.merged) { g(r.origin, 'update-ref', 'refs/heads/main', `refs/heads/${state.head}`); g(r.origin, 'update-ref', '-d', `refs/heads/${state.head}`); state.merged = true; }
+        return ok(JSON.stringify({ state: 'MERGED', mergeCommit: { oid: g(r.origin, 'rev-parse', 'main').trim() }, statusCheckRollup: [{ name: 'build', status: 'COMPLETED', conclusion: 'SUCCESS' }] }));
+      }
       if (a === 'pr' && b === 'comment') { state.bodies.prComment = readFileSync(val('--body-file'), 'utf8'); return ok(); }
       if (a === 'api') { state.bodies.commitComment = readFileSync(args[args.indexOf('-F') + 1].replace(/^body=@/, ''), 'utf8'); return ok(); }
       throw new Error(`unstubbed gh call: ${args.join(' ')}`);
@@ -90,7 +98,7 @@ function stubs(r, { verifyFails = false, checksFail = false, agent = null } = {}
     if (cmd === 'claude') throw new Error('the agent runs through ctx.agent in tests');
     return realExec(cmd, args, o);
   };
-  const ctx = buildContext({ root: r.root, storeDir: r.store, queueDir: r.queue, workDir: join(r.root, '.docs/feedback/.work'), exec, sanitize, remotePattern: /origin\.git$/, sleep: async () => {}, agent });
+  const ctx = buildContext({ root: r.root, storeDir: r.store, queueDir: r.queue, workDir: join(r.root, '.docs/feedback/.work'), exec, sanitize, remotePattern: /origin\.git$/, sleep: async () => {}, pollMs: 0, checkRetries: 5, agent });
   return { ctx, calls, state };
 }
 const has = (calls, ...prefix) => calls.some((c) => prefix.every((p, i) => c[i] === p));
@@ -117,8 +125,10 @@ test('a content edit ticket goes from issue to merge to cleanup, with the ticket
   const order = calls.map((c) => c.slice(0, 3).join(' '));
   assert.ok(order.indexOf('git push -u') < order.indexOf('gh issue create'), 'the branch with the ticket is pushed before the issue is made');
   assert.ok(order.indexOf('gh issue create') < order.indexOf('gh pr create'));
-  assert.ok(order.indexOf('gh pr checks') < order.indexOf('gh pr merge'), 'merge only after the checks');
-  assert.ok(has(calls, 'gh', 'pr', 'merge', '51', '-R', REPO, '--merge', '--delete-branch'));
+  assert.ok(order.indexOf('git push origin feedback/wi-001-change-filter-medals-to-filter-the-medal') < order.indexOf('gh pr merge'), 'auto-merge goes on after the ticket record is pushed');
+  assert.ok(has(calls, 'gh', 'pr', 'merge', '51', '-R', REPO, '--auto', '--merge', '--delete-branch'));
+  assert.equal(state.autoMerge, true);
+  assert.ok(state.looks >= 2, 'the pull request is polled until it is merged');
   assert.ok(calls.every((c) => c[0] !== 'gh' || c.includes('-R') || c[1] === 'api'), 'every gh call names the repository');
 
   // What merged: the copy change, the ticket with its issue and pull request, and the image.
@@ -199,15 +209,18 @@ test('a failed verify comments on the issue, labels it, leaves the branch, and o
   assert.equal(g(r.root, 'branch', '--list', 'feedback/*').trim().length > 0, true);
 });
 
-test('checks that do not pass stop the job before the merge', async () => {
+test('a failed check stops the job as needs attention, turns auto-merge off, and labels the issue', async () => {
   const r = makeRepo();
   const out = contentTicket(r);
-  const { ctx, calls } = stubs(r, { checksFail: true });
+  const { ctx, calls, state } = stubs(r, { checksFail: true });
   enqueue(r.queue, out.id);
   const [result] = await processQueue(ctx);
   assert.equal(result.ok, false);
-  assert.match(result.error, /checks did not pass/);
-  assert.ok(!has(calls, 'gh', 'pr', 'merge'));
+  assert.match(result.error, /a check did not pass: build/);
+  assert.ok(has(calls, 'gh', 'pr', 'merge', '51', '--disable-auto'));
+  assert.equal(jobFor(r.queue, out.id).state, 'needs attention');
+  assert.ok(calls.some((c) => c.includes('status: needs attention')));
+  assert.ok(existsSync(join(ctx.workDir, out.id)), 'the branch is left for review');
 });
 
 test('a copy that has moved on since the ticket stops the job instead of guessing', async () => {
@@ -303,8 +316,8 @@ test('--dry-run prints the gh and git commands for a content edit ticket and run
     '$ npm run verify',
     '$ git push -u origin feedback/wi-001-',
     `$ gh pr create -R ${REPO} --base main --head feedback/wi-001-`,
-    `$ gh pr checks 1002 -R ${REPO} --watch`,
-    `$ gh pr merge 1002 -R ${REPO} --merge --delete-branch`,
+    `$ gh pr merge 1002 -R ${REPO} --auto --merge --delete-branch`,
+    `$ gh pr view 1002 -R ${REPO} --json state,mergeCommit,statusCheckRollup`,
     '$ gh pr comment 1002',
     `$ gh api -X POST repos/${REPO}/commits/${'0'.repeat(40)}/comments`,
     '$ git worktree remove --force',

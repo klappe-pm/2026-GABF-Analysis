@@ -190,6 +190,11 @@ Prost Brewing Co. is in Northglenn, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Prost Brewing Co.](../../breweries/prost-brewing-co.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md)
+
 ## links
 
 - [Prost Brewing Co.](https://www.prostbrewing.com/)

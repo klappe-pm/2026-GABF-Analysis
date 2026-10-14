@@ -213,6 +213,10 @@ Kulshan Brewing Co. is in Bellingham, WA. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Kulshan Brewing Co.](../../breweries/kulshan-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://kulshanbrewing.com/on-tap)

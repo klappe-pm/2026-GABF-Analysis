@@ -184,6 +184,10 @@ Zoiglhaus Brewing Co. is in Portland, OR. Brewery type in Open Brewery DB: Brewp
 
 Links checked 2026-10-14: [Website](https://zoiglhaus.com/), [Instagram](https://www.instagram.com/zoiglhausbrewing/).
 
+## related
+
+- Brewery: [Zoiglhaus Brewing Co.](../../breweries/zoiglhaus-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.zoiglhaus.com/beers)
@@ -202,3 +206,4 @@ Links checked 2026-10-14: [Website](https://zoiglhaus.com/), [Instagram](https:/
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop searches found no named variety. A Zoigl-Weiss release article could not be read, so no ingredient claim was accepted from it.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Zoigl-Weiss description.

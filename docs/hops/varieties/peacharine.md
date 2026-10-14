@@ -17,13 +17,52 @@ tags:
   - "new-zealand"
   - "not-published"
   - "variety"
-variety: "Peacharine"
+alpha-acid-percent: "9"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "KegLand listing (retailer); the listing also says \"rich peach/nectarine character\""
+aroma-descriptors:
+  - "Lemon"
+  - "Light Tropical"
+  - "Peach"
+beta-acid-percent: null
+breeder: null
+canonical-name: "Peacharine"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "beta-acid-percent"
+  - "breeder"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "proprietary-status"
+  - "release-year"
+  - "total-oil-ml-per-100g"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 2
+myrcene-percent-of-oil: null
 origin-country: "New Zealand"
-program: "not published"
+owner-program: null
+parentage: null
 proprietary-status: "not published"
+release-year: null
+release-year-note: null
 slug: "peacharine"
-year-released: null
+sources:
+  - "https://kegland.com.au/products/peacharine-500g-pellet-hop"
+total-oil-ml-per-100g: null
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # peacharine
@@ -81,3 +120,35 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [kegland.com.au/products/peacharine-500g-pellet-hop](https://kegland.com.au/products/peacharine-500g-pellet-hop)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [NPBC10 Hazy Triple IPA](../../2026/winner/099-juicy-or-hazy-imperial-india-pale-ale-2-north-park-beer-co-npbc10-hazy-triple-ipa.md), silver, Juicy or Hazy Imperial India Pale Ale, by [North Park Beer Co.](../../breweries/north-park-beer-co.md); published as Peacharine
+- [Rhyme To The Rhythm](../../2026/winner/095-juicy-or-hazy-strong-pale-ale-3-machinehead-brewing-co-rhyme-to-the-rhythm.md), bronze, Juicy or Hazy Strong Pale Ale, by [MachineHead Brewing Co.](../../breweries/machinehead-brewing-co.md); published as Peacharine
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [MachineHead Brewing Co.](../../breweries/machinehead-brewing-co.md), 1 beer
+- [North Park Beer Co.](../../breweries/north-park-beer-co.md), 1 beer

@@ -50,7 +50,8 @@ test('a failing value is refused with a plain reason', async () => {
     [{ target: 'settings', key: 'Label font', value: 'Roboto' }, /must be one of: Public Sans, Archivo Narrow|must be one of: Archivo Narrow, Public Sans/],
     [{ target: 'settings', key: 'Seed color', value: null }, /quoted six digit hex/],
     [{ target: 'settings', key: 'Hue', value: 'green' }, /not a setting/],
-    [{ target: 'chart-card', key: 'Series colors', value: ['primary', 'tertiary', 'secondary', 'outline', 'surface container'] }, /needs 3 to 1 \(WCAG AA\)/],
+    [{ target: 'settings', key: 'Series 5 color', value: '#E8E8E8' }, /Series 5 color on background would be [\d.]+ to 1 and needs 3 to 1 \(WCAG AA\)/],
+    [{ target: 'chart-card', key: 'Series colors', value: ['primary'] }, /not a setting of chart-card/],
     [{ target: '../../etc', key: 'x', value: 'y' }, /no design setting file/],
   ];
   for (const [edit, reason] of cases) {

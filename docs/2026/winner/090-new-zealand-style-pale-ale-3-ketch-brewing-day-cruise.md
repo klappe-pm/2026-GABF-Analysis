@@ -229,6 +229,10 @@ Ketch Brewing is in San Diego, CA.
 
 Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](https://www.instagram.com/ketchbrewing/), [Untappd](https://untappd.com/KetchBrewing).
 
+## related
+
+- Brewery: [Ketch Brewing](../../breweries/ketch-brewing.md)
+
 ## links
 
 - [BeerAdvocate: Day Cruise XPA](https://www.beeradvocate.com/beer/profile/55354/404532/)

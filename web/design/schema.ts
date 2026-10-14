@@ -78,7 +78,17 @@ export const GLOBAL: Record<string, Kind> = {
   'Gold medal color': { type: 'hex' },
   'Silver medal color': { type: 'hex' },
   'Bronze medal color': { type: 'hex' },
+  // Chart series colors, in order of importance: categorical hues, each 3 to 1 on white.
+  'Series 1 color': { type: 'hex' },
+  'Series 2 color': { type: 'hex' },
+  'Series 3 color': { type: 'hex' },
+  'Series 4 color': { type: 'hex' },
+  'Series 5 color': { type: 'hex' },
 };
+
+// The chart series colors, first to fifth, as settings.md names them. The chart card, the site
+// (site/assets/brand.css), and the chart gallery all read these five.
+export const SERIES_KEYS = [1, 2, 3, 4, 5].map((n) => `Series ${n} color`);
 
 // The page width a "Page width" value allows: none fills the window.
 export const PAGE_WIDTHS: Record<string, string> = { full: 'none', fill: 'none', wide: '100rem', standard: '80rem' };
@@ -98,7 +108,7 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   'filter-chips': { 'Chip style': enumOf(['outlined', 'elevated']), Shape: shape },
   breadcrumb: { Separator: enumOf(['/', '›', '·']), 'Text style': typeRole },
   button: { 'Main action': buttonStyle, 'Other action': buttonStyle, 'Quiet action': buttonStyle, Shape: shape, Density: numberOf([0, -1, -2, -3]) },
-  'chart-card': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]), 'Series colors': { type: 'list', values: colorRole.type === 'enum' ? colorRole.values : [], min: 5 } },
+  'chart-card': { 'Card style': cardStyle, 'Line width': numberOf([1, 1.5, 2, 3]), 'Point size': numberOf([4, 6, 8, 10, 12]) },
   checkbox: { 'Text style': typeRole },
   'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
   'filters-dialog': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },

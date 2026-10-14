@@ -237,6 +237,14 @@ Third Space Brewing is in Milwaukee, WI. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Third Space Brewing](../../breweries/third-space-brewing.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Krush](../../hops/varieties/krush.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Perrault Farms](../../hops/farms/perrault-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Third Space: brewer interview](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/)
@@ -258,3 +266,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A July 2026 Isthmus article explicitly names Third Space Central Time IPA and quotes co-owner Andy Gehl identifying the three hops recorded above. No verified IBU was found; Driftless Brewing's same-named farmhouse IPA is unrelated and its recipe is excluded.
 - Catalog.beer 2026-10-14: [Catalog.beer: Central Time IPA](https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca) lists 6% ABV, style "IPA" (entry last modified 2026-08-03). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery site's text is about the idea behind the beer, not its flavor.

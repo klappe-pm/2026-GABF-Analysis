@@ -209,6 +209,11 @@ Deschutes Brewery is in Bend, OR. Brewery type in Open Brewery DB: Regional brew
 
 Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagram](https://www.instagram.com/deschutesbrewery/), [Untappd](https://untappd.com/DeschutesBrewery).
 
+## related
+
+- Brewery: [Deschutes Brewery](../../breweries/deschutes-brewery.md)
+- Hop varieties: [Callista](../../hops/varieties/callista.md)
+
 ## links
 
 - [Untappd: Deschutes Super Stoked](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101)

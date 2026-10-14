@@ -214,6 +214,10 @@ Marker 48 Brewing is in Brooksville, FL. Brewery type in Open Brewery DB: Microb
 
 Links checked 2026-10-14: [Website](https://www.marker48.com/).
 
+## related
+
+- Brewery: [Marker 48 Brewing](../../breweries/marker-48-brewing.md)
+
 ## links
 
 - [Marker 48: package transcription](https://www.directionsforme.org/product/274117)
@@ -233,3 +237,4 @@ Links checked 2026-10-14: [Website](https://www.marker48.com/).
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A package transcription explicitly names Marker 48 Red Right Return and supplies the bitterness above. No hop variety or brewery beer page was verified.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Red Right Return description.

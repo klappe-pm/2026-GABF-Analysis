@@ -18,13 +18,48 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Azacca"
+alpha-acid-percent: "14 to 16"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "fresh grass"
+  - "grapefruit"
+  - "papaya"
+  - "pine resin"
+  - "pineapple"
+  - "Ripe mango"
+  - "Valencia orange"
+beta-acid-percent: "4 to 5.5"
+breeder: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+canonical-name: "Azacca"
+caryophyllene-percent-of-oil: "8 to 12"
+cohumulone-percent-of-alpha: "38 to 45"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "14 to 18"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "46 to 55"
 origin-country: "United States"
-program: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+owner-program: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+parentage: "Toyomidori crossed with ADHA 94/95 (Hopsteiner sheet)"
 proprietary-status: "proprietary"
+release-year: 2013
+release-year-note: null
 slug: "azacca"
-year-released: "2013"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Azacca"
+  - "https://www.johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Azacca.pdf"
+total-oil-ml-per-100g: "1.6 to 2.5"
+trademark: "Azacca (registered, per NASS and the John I. Haas sheet)"
+us-acres-latest:
+  - "Washington 367"
+us-acres-latest-year: 2024
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # azacca
@@ -98,3 +133,33 @@ No gaps: every field is published by the sources listed below.
 - [johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Azacca.pdf](https://www.johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Azacca.pdf)
 - [hopsteiner.us/variety-data-sheets/Azacca](https://hopsteiner.us/variety-data-sheets/Azacca)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Summer Ale](../../2026/winner/001-american-wheat-beer-1-wormtown-brewery-summer-ale.md), gold, American Wheat Beer, by [Wormtown Brewery](../../breweries/wormtown-brewery.md); published as Azacca
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Wormtown Brewery](../../breweries/wormtown-brewery.md), 1 beer

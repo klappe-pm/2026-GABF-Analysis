@@ -184,6 +184,10 @@ Alesong Brewing & Blending is in Eugene, OR.
 
 Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram](https://www.instagram.com/alesongbrewing/), [Untappd](https://untappd.com/Alesong).
 
+## related
+
+- Brewery: [Alesong Brewing & Blending](../../breweries/alesong-brewing-and-blending.md)
+
 ## links
 
 - [Beer page on brewery site](https://alesongbrewing.com/cherry-decadence)

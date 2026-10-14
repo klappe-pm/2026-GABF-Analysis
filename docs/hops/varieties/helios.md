@@ -17,13 +17,48 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Helios"
+alpha-acid-percent: "15.5 to 18.5"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "Hopsteiner data sheet (the sheet lists this as its aroma specification)"
+aroma-descriptors:
+  - "Super Alpha with clean bitterness"
+beta-acid-percent: "3.5 to 4.5"
+breeder: "Hopsteiner breeding program"
+canonical-name: "Helios"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "26 to 29"
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "release-year"
+  - "total-oil-ml-per-100g"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Hopsteiner breeding program"
+owner-program: "Hopsteiner breeding program"
+parentage: null
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "helios"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Helios"
+total-oil-ml-per-100g: null
+trademark: "Helios (trademark, per NASS and Hopsteiner)"
+us-acres-latest:
+  - "Idaho 511"
+  - "Washington 1,379"
+us-acres-latest-year: 2024
+us-grown: true
+use: "bittering"
+use-basis: "super alpha with clean bitterness (Hopsteiner)"
 ---
 
 # helios
@@ -99,3 +134,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [hopsteiner.us/variety-data-sheets/Helios](https://hopsteiner.us/variety-data-sheets/Helios)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

@@ -205,6 +205,10 @@ Urban Roots Brewing is in Sacramento, CA. Brewery type in Open Brewery DB: Brewp
 
 Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Untappd](https://untappd.com/UrbanRootsBeer).
 
+## related
+
+- Brewery: [Urban Roots Brewing](../../breweries/urban-roots-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf)

@@ -30,12 +30,6 @@ description:
 entries: 49
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
-      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
-      - "https://www.quartercelticbrewpub.com/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
@@ -123,7 +117,9 @@ sources:
   - "https://www.quartercelticbrewpub.com/"
 srm: null
 style: "Munich-Style Dunkel"
-tasting-notes: null
+tasting-notes:
+  text: "Our Munich-style Dunkel is a smooth, easy-drinking German lager with rich notes of toasted bread, caramel, and subtle chocolate. Crisp, balanced"
+  source: "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
 water: null
 yeast: []
 ---
@@ -159,7 +155,9 @@ Source: [Quarter Celtic: drink menu](https://quartercelticbrewpub.com/albuquerqu
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Our Munich-style Dunkel is a smooth, easy-drinking German lager with rich notes of toasted bread, caramel, and subtle chocolate. Crisp, balanced
+
+Source: [quartercelticbrewpub.com](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu)
 
 ## ingredients
 
@@ -197,6 +195,10 @@ Quarter Celtic Brewpub is in Albuquerque, NM. Brewery type in Open Brewery DB: B
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Quarter Celtic Brewpub](../../breweries/quarter-celtic-brewpub.md)
+
 ## links
 
 - [Quarter Celtic Brewpub](https://www.quartercelticbrewpub.com/)
@@ -206,7 +208,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/), [quartercelticbrewpub.com](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu), [quartercelticbrewpub.com](https://www.quartercelticbrewpub.com/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/), [quartercelticbrewpub.com](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu), [quartercelticbrewpub.com](https://www.quartercelticbrewpub.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -217,3 +219,4 @@ No brewery links have been checked yet.
 - Second pass 2026-10-13: New Mexico medal coverage confirms the exact brewery and beer, but searches yielded no ABV, IBU, ingredients or product page. Technical fields remain null.
 - Field pass 2026-10-13: Additional menu and technical-field searches found no exact Step Drunkle specifications or brewery product page. The previously verified medal coverage was not fetched again.
 - Pass 2026-10-14: the brewpub drink menu now lists Step Drunkle as a Munich-Style Dunkel at 5.86% ABV and 20 IBU with a short description; no ingredients are named.
+- Deep dive pass 2026-10-14: the drink menu's flavor words are recorded as tasting notes.

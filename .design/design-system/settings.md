@@ -12,6 +12,11 @@ Corner shape: medium
 Gold medal color: "#B8860B"
 Silver medal color: "#8A9199"
 Bronze medal color: "#BF7B4A"
+Series 1 color: "#2D6A4F"
+Series 2 color: "#2A6FD0"
+Series 3 color: "#B5530C"
+Series 4 color: "#7A4FC7"
+Series 5 color: "#C2357E"
 Page width: full
 Compact margin: 16
 Wide margin: 24
@@ -37,6 +42,6 @@ These settings shape every page. The site reads them each time a page loads, so 
 - Compact margin: the side margin on phones (windows under 600 pixels wide), in pixels. Material's standard is 16.
 - Wide margin: the side margin on every wider window, in pixels. Material's standard is 24.
 - Navigation on wide screens: on windows 1200 pixels and wider, drawer keeps a navigation drawer open beside the page; rail keeps the narrower navigation rail used on medium windows. Phones always use tabs.
-- Chart series colors come from the Series colors list in the chart card's spec, which names five Material color roles; the site, the single file dashboard, the explorer, and the chart gallery all use those five.
+- Series 1 color through Series 5 color: the chart colors, in quotes, in order of importance: the first series in a chart takes Series 1, the next Series 2, and so on. They are five clearly different hues (green, blue, orange, purple, magenta) so charts read easily, including for people with red green color blindness. Each needs 3 to 1 against the white page, neighbours must stay easy to tell apart, and none may repeat a medal color; the brand build refuses a set that breaks those rules. Medal charts always use the medal colors instead.
 - Every page, the README banners, and the social card take their colors from this file; the site build regenerates them, so a change here reaches every one of them.
 - Type sizes: to change one Material type role, add a line such as Body large size: 17 (a whole number of pixels). The roles are display, headline, title, body, and label, each large, medium, or small.

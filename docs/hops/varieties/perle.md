@@ -15,13 +15,43 @@ tags:
   - "germany"
   - "not-published"
   - "variety"
-variety: "Perle"
+alpha-acid-percent: "4 to 9"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "lime"
+  - "Marjoram"
+  - "pear"
+  - "peppermint"
+beta-acid-percent: "2.5 to 4.5"
+breeder: "German breeding program (John I. Haas sheet does not name the institute)"
+canonical-name: "Perle"
+caryophyllene-percent-of-oil: "10 to 20"
+cohumulone-percent-of-alpha: "29 to 35"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "proprietary-status"
+  - "use"
+humulene-percent-of-oil: "35 to 55"
 kind: "variety"
+medal-beers-2026: 3
+myrcene-percent-of-oil: "20 to 35"
 origin-country: "Germany"
-program: "German breeding program (John I. Haas sheet does not name the institute)"
+owner-program: "German breeding program (John I. Haas sheet does not name the institute)"
+parentage: "Bred from the variety Northern Brewer (John I. Haas sheet)"
 proprietary-status: "not published"
+release-year: 1978
+release-year-note: null
 slug: "perle"
-year-released: "1978"
+sources:
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Perle.pdf"
+total-oil-ml-per-100g: "0.5 to 1.5"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # perle
@@ -73,3 +103,37 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Perle.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Perle.pdf)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Italian Pilsner](../../2026/winner/052-italian-style-pilsener-1-pfriem-family-brewers-italian-pilsner.md), gold, Italian-Style Pilsener, by [pFriem Family Brewers](../../breweries/pfriem-family-brewers.md); published as Perle
+- [Winterbock](../../2026/winner/020-german-style-strong-beer-1-kansas-city-bier-co-winterbock.md), gold, German-Style Strong Beer, by [Kansas City Bier Co.](../../breweries/kansas-city-bier-co.md); published as Perle
+- [Jack Whacker Hazy Wheat](../../2026/winner/001-american-wheat-beer-3-tommyknocker-brewery-and-pub-jack-whacker-hazy-wheat.md), bronze, American Wheat Beer, by [Tommyknocker Brewery & Pub](../../breweries/tommyknocker-brewery-and-pub.md); published as Perle
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Kansas City Bier Co.](../../breweries/kansas-city-bier-co.md), 1 beer
+- [pFriem Family Brewers](../../breweries/pfriem-family-brewers.md), 1 beer
+- [Tommyknocker Brewery & Pub](../../breweries/tommyknocker-brewery-and-pub.md), 1 beer

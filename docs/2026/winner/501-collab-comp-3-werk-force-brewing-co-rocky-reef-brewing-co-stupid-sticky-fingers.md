@@ -261,6 +261,10 @@ Werk Force Brewing Co. / Rocky Reef Brewing Co. is in Plainfield, IL.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Werk Force Brewing Co. / Rocky Reef Brewing Co.](../../breweries/werk-force-brewing-co-rocky-reef-brewing-co.md)
+
 ## links
 
 - [Werk Force Brewing Co.](https://www.werkforcebrewing.com/)
