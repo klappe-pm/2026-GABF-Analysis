@@ -100,7 +100,7 @@ Where: the inline copy editor that opens over a line of page copy.
 - `unchanged`: Nothing changed.
 - `saving`: Saving and rebuilding the page. This takes a few seconds.
 - `saved_reload`: Saved as {{id}}. Reloading the page.
-- `saved_no_rebuild`: Saved as {{id}}, but the page could not be rebuilt. Run npm run web:review again to see it.
+- `saved_no_rebuild`: Saved as {{id}}, but the page could not be rebuilt, so it still shows the old words.
 - `related_one`: The same words also appear in 1 other place. Checked ones change too.
 - `related_many`: The same words also appear in {{n}} other places. Checked ones change too.
 - `related_copy`: Copy Entry: {{key}}
