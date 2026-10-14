@@ -38,6 +38,7 @@ export const HOP_FORMS = [
   { form: 'LupuLN2', variants: ['LupuLN2', 'Lupu LN2'] },
   { form: 'LUPOMAX', variants: ['LUPOMAX', 'Lupo Max'] },
   { form: 'Incognito', variants: ['Incognito'] },
+  { form: 'Lupocore', variants: ['Lupocore'] },
   { form: 'HyperBoost', variants: ['HyperBoost', 'Hyper Boost'] },
   { form: 'DynaBoost', variants: ['DynaBoost', 'Dyna Boost'] },
   { form: 'Spectrum', variants: ['Spectrum'] },
