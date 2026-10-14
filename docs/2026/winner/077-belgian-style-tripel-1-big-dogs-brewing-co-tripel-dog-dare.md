@@ -227,3 +227,4 @@ Links checked 2026-10-14: [Website](https://www.bigdogsbrews.com/), [Instagram](
 - The web search budget ran out before Untappd or press could be searched for ABV or IBU; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The current 595 Craft and Kitchen tap list names Big Dogs Tripel Dog Dare and supplies ABV. IBU and hop varieties were not found. Great Lakes and Malt Brothers beers with the same name were excluded.
+- Deep dive pass 2026-10-14: the brewery list gives availability only.

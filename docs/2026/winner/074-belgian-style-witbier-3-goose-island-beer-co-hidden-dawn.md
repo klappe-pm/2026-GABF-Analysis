@@ -264,3 +264,4 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Goose Island beer listing verifies strength and witbier classification. It contains no description, IBU or ingredient list; no brewery product page was found.
 - Field pass 2026-10-13: Additional brewery-domain, taproom and ingredient searches found no verified IBU, hop variety or qualifying brewery beer page for Hidden Dawn.
+- Deep dive pass 2026-10-14: the brewery site has no Hidden Dawn page.

@@ -101,13 +101,6 @@ gaps:
       - "https://www.newglarusbrewing.com/pages/our-beers"
       - "https://www.newglarusbrewing.com/pages/specialty-beers"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://newglarusbrewing.com/"
-      - "https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549"
-      - "https://www.newglarusbrewing.com/pages/our-beers"
-      - "https://www.newglarusbrewing.com/pages/specialty-beers"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Aged whole cone hops"
     variety: "Aged whole cone hops"
@@ -123,7 +116,9 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Aged whole cone hops, raw wheat, coolship and oak aging; refermented in the bottle"
+  source: "https://www.newglarusbrewing.com/pages/specialty-beers"
 sources:
   - "https://newglarusbrewing.com/"
   - "https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549"
@@ -188,7 +183,7 @@ The brewery names aged whole cone hops and raw wheat, a coolship step and oak ag
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Aged whole cone hops, raw wheat, coolship and oak aging; refermented in the bottle | [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers) |
 
 ## style-context
 
@@ -222,7 +217,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [newglarusbrewing.com](https://newglarusbrewing.com/), [untappd.com](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/our-beers), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [newglarusbrewing.com](https://newglarusbrewing.com/), [untappd.com](https://untappd.com/b/new-glarus-brewing-company-vintage-2026-r-and-d/6722549), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/our-beers), [newglarusbrewing.com](https://www.newglarusbrewing.com/pages/specialty-beers), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -231,3 +226,4 @@ No brewery links have been checked yet.
 - The specialty page has no individual product page, so it serves as the beer-url.
 - The web search budget ran out before Untappd or press could be searched for ABV; no 2026 medal announcement was found on the brewery home page.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery text gives the coolship, oak aging and bottle refermentation.

@@ -273,6 +273,8 @@ many pages (tables),medal table header,Distribution,global.tables.medal_columns.
 many pages (tables),medal table header,Notes,global.tables.medal_columns.notes
 many pages (tables),medal table header,Competition,global.tables.medal_columns.competition
 many pages (tables),medal table cell,{{min}} to {{max}}% (style),global.tables.medal_columns.abv_style_value
+many pages (tables),medal table ABV and IBU source note,"current published value, {{source}}, retrieved {{date}}",global.tables.medal_columns.current_value
+many pages (tables),medal table match note,matched on the beer name once the brewery name is dropped from its front,global.tables.medal_columns.current_value_medium
 many pages (tables),medal table header,Entries,global.charts.units.entries
 many pages (tables),brewery table header,#,global.tables.brewery_columns.rank
 many pages (tables),brewery table header,HQ,global.tables.brewery_columns.hq
