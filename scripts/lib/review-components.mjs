@@ -1,7 +1,7 @@
 // Which design system components a picked spot belongs to. The source map names, for each region
 // of a built page, the component it draws (a folder name under .design/design-system/components/)
 // and the manifest node it stands for. A ticket links to a component by name; when the component
-// has a spec folder the link also carries the path to it, and when it does not the name stands
+// has a spec file the link also carries the path to it, and when it does not the name stands
 // alone. A missing .design/ folder is never an error.
 
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
@@ -9,14 +9,30 @@ import { resolve } from 'node:path';
 
 export const COMPONENTS_DIR = '.design/design-system/components';
 
+// The spec file of a component, or null. A component folder without a spec file has no file to
+// link to, so it reads as absent: a link is never made to a file that is not there.
 export function componentSpec(root, name) {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(name)) return null;
   const spec = `${COMPONENTS_DIR}/${name}/spec.md`;
-  if (existsSync(resolve(root, spec))) return spec;
-  return existsSync(resolve(root, COMPONENTS_DIR, name)) ? `${COMPONENTS_DIR}/${name}` : null;
+  return existsSync(resolve(root, spec)) ? spec : null;
 }
 
-export const withSpec = (root, name, instance = null) => ({ name, spec: componentSpec(root, name), ...(instance ? { instance } : {}) });
+// Where the review server shows a design system file, and the Obsidian link to the same file.
+export const DESIGN_SYSTEM_DIR = '.design/design-system';
+export const VIEW_PREFIX = '/review/design-system/';
+export const viewPath = (spec) => `${VIEW_PREFIX}${spec.slice(`${DESIGN_SYSTEM_DIR}/`.length)}`;
+export const obsidianUri = (root, spec) => `obsidian://open?path=${encodeURIComponent(resolve(root, spec))}`;
+
+// The plain words for a component name, as the panel and the ticket body show it.
+export const componentWords = (name) => {
+  const s = String(name).replace(/[-_]+/g, ' ').trim();
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+
+export function withSpec(root, name, instance = null) {
+  const spec = componentSpec(root, name);
+  return { name, spec, ...(spec ? { view: viewPath(spec), obsidian: obsidianUri(root, spec) } : {}), ...(instance ? { instance } : {}) };
+}
 
 export function sourceMapEntries(root) {
   const file = resolve(root, 'site/review/source-map.json');

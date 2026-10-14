@@ -45,6 +45,29 @@
     var group = rest.shift() || head;
     return words(group) + (rest.length ? ', ' + rest.join(', ') : '');
   }
+  // The design system file behind a component name, when the review server knows one. The lists come
+  // from the server once and are shared by the panel and the control plane's component lists.
+  var listsPending = null;
+  function loadLists() {
+    if (lists) return Promise.resolve(lists);
+    if (!listsPending) listsPending = api('GET', '/review/lists').then(function (r) { lists = r; return r; }).catch(function () { listsPending = null; return null; });
+    return listsPending;
+  }
+  function listed(name) {
+    return lists ? lists.components.filter(function (c) { return c.name === name; })[0] || null : null;
+  }
+  function openLinks(c, label) {
+    return [
+      h('a', { class: 'fbp-open', href: c.view, target: '_blank', rel: 'noopener', 'aria-label': label + ', opens the design system file in a new tab', text: label }),
+      h('a', { class: 'fbp-obsidian', href: c.obsidian }, 'Open in Obsidian', h('span', { class: 'fbp-sr', text: ': ' + label }))
+    ];
+  }
+  // A component name in running text: a link when its file exists, plain words when it does not.
+  function componentName(name) {
+    var c = listed(name);
+    return c && c.spec && c.view ? openLinks(c, words(name))[0] : document.createTextNode(words(name));
+  }
+
   var TAGS = { h1: 'heading', h2: 'heading', h3: 'heading', h4: 'heading', a: 'link', button: 'button', p: 'paragraph', table: 'table', th: 'column heading', td: 'table cell', tr: 'table row', figure: 'chart', canvas: 'chart', svg: 'chart', img: 'image', li: 'list item', input: 'field', select: 'field', label: 'label', span: 'text', div: 'area', section: 'section', header: 'header', footer: 'footer', nav: 'navigation', dialog: 'dialog' };
   var tagWord = function (t) { return TAGS[t] || 'element'; };
   var article = function (w) { return /^[aeiou]/.test(w) ? 'An ' : 'A '; };
@@ -85,7 +108,7 @@
       var names = r.components.map(function (c) { return c.name; });
       d.comps = d.comps.filter(function (c) { return c.from === 'added' || names.indexOf(c.name) !== -1; });
       r.components.forEach(function (c) {
-        if (d.removedComps.indexOf(c.name) === -1 && !d.comps.some(function (x) { return x.name === c.name; })) d.comps.push({ name: c.name, spec: c.spec, instance: c.instance || null, from: 'derived' });
+        if (d.removedComps.indexOf(c.name) === -1 && !d.comps.some(function (x) { return x.name === c.name; })) d.comps.push({ name: c.name, spec: c.spec, view: c.view || null, obsidian: c.obsidian || null, instance: c.instance || null, from: 'derived' });
       });
       d.derived = r.content;
       // A short common word ("Breweries") matches many entries; those are offered in the spot's
@@ -244,10 +267,18 @@
     (p.problems || []).forEach(function (m) { host.appendChild(h('p', { class: 'fbp-problem', role: 'alert', text: m })); });
     if (p.usedBy) {
       var u = p.usedBy, bits = [];
-      if (u.components.length) bits.push('components: ' + u.components.map(words).join(', '));
       if (u.screens.length) bits.push('steps: ' + u.screens.join(', '));
       if (u.pages.length) bits.push('pages: ' + u.pages.map(words).join(', '));
-      if (bits.length) host.appendChild(h('p', { class: 'fbp-where', text: 'Used by ' + bits.join('; ') + '.' }));
+      if (u.components.length || bits.length) {
+        var where = h('p', { class: 'fbp-where' }, 'Used by ');
+        if (u.components.length) {
+          where.appendChild(document.createTextNode('components: '));
+          u.components.forEach(function (n, i) { if (i) where.appendChild(document.createTextNode(', ')); where.appendChild(componentName(n)); });
+          if (bits.length) where.appendChild(document.createTextNode('; '));
+        }
+        where.appendChild(document.createTextNode(bits.join('; ') + '.'));
+        host.appendChild(where);
+      }
     }
     if (p.instances && p.instances.length) {
       host.appendChild(h('p', { class: 'fbp-where', text: 'The same words also appear in ' + p.instances.length + ' other place' + (p.instances.length === 1 ? '' : 's') + '. Checked ones change too.' }));
@@ -263,12 +294,23 @@
     }
   }
 
-  function chipList(items, label, onRemove, text) {
+  // A component with a design system file is a link that opens the file as a readable page in a new
+  // tab, with a second link to open the same file in Obsidian. One without a file is plain words
+  // that say so; a link to a missing file is never made. The remove button is a separate control.
+  function componentParts(c) {
+    var label = words(c.name);
+    if (!c.spec || !c.view) return [h('span', { class: 'fbp-nolink', text: label }), h('small', { class: 'fbp-nofile', text: 'No design system file yet' })];
+    return openLinks(c, label);
+  }
+  function chipList(items, label, onRemove, text, parts) {
     var ul = h('ul', { class: 'fbp-links', 'aria-label': label });
     items.forEach(function (it) {
       var b = h('button', { type: 'button', 'aria-label': 'Remove ' + text(it), text: '×' });
       b.addEventListener('click', function () { onRemove(it); });
-      ul.appendChild(h('li', { class: 'fbp-link' }, h('span', { text: text(it) }), b));
+      var li = h('li', { class: 'fbp-link' });
+      (parts ? parts(it) : [h('span', { text: text(it) })]).forEach(function (n) { li.appendChild(n); });
+      li.appendChild(b);
+      ul.appendChild(li);
     });
     return ul;
   }
@@ -280,7 +322,7 @@
         d.comps = d.comps.filter(function (x) { return x !== c; });
         if (c.from === 'derived') d.removedComps.push(c.name);
         paintLinks(); ui.compAdd.focus();
-      }, function (c) { return words(c.name) + (c.spec ? '' : ''); })
+      }, function (c) { return words(c.name); }, componentParts)
       : h('p', { class: 'fbp-hint', text: 'None linked.' }));
     ui.keys.innerHTML = '';
     ui.keys.appendChild(d.keys.length
@@ -408,13 +450,13 @@
       if (!v) return;
       var match = known.filter(function (k) { return k.label.toLowerCase() === v.toLowerCase() || k.value === v; })[0];
       if (!match) { d.said = 'That is not a known ' + (field === 'name' ? 'component' : 'content entry') + '. Choose one from the list.'; d.bad = true; paintSaid(); return; }
-      if (field === 'name') { if (!d.comps.some(function (c) { return c.name === match.value; })) d.comps.push({ name: match.value, spec: match.spec || null, from: 'added' }); d.removedComps = d.removedComps.filter(function (n) { return n !== match.value; }); }
+      if (field === 'name') { if (!d.comps.some(function (c) { return c.name === match.value; })) d.comps.push({ name: match.value, spec: match.spec || null, view: match.view || null, obsidian: match.obsidian || null, from: 'added' }); d.removedComps = d.removedComps.filter(function (n) { return n !== match.value; }); }
       else { if (!d.keys.some(function (k) { return k.key === match.value; })) d.keys.push({ key: match.value, from: 'added' }); d.removedKeys = d.removedKeys.filter(function (n) { return n !== match.value; }); }
       input.value = '';
       d.said = ''; paintSaid(); paintLinks();
     }
     function knownLists() {
-      var compOpts = (lists ? lists.components : []).map(function (c) { return { label: words(c.name), value: c.name, spec: c.spec }; });
+      var compOpts = (lists ? lists.components : []).map(function (c) { return { label: words(c.name), value: c.name, spec: c.spec, view: c.view, obsidian: c.obsidian }; });
       var keyOpts = (lists ? lists.contentKeys : []).map(function (k) { return { label: keyWords(k), value: k }; });
       return { compOpts: compOpts, keyOpts: keyOpts };
     }
@@ -438,7 +480,7 @@
       });
     }
     if (categories) fillCategories(); else api('GET', '/review/categories').then(function (r) { categories = r.categories; fillCategories(); }).catch(function () { catBox.textContent = 'Categories are unavailable: the review server did not answer.'; });
-    if (lists) fillDatalists(); else api('GET', '/review/lists').then(function (r) { lists = r; fillDatalists(); }).catch(function () { /* the add controls stay empty */ });
+    if (lists) fillDatalists(); else loadLists().then(function (r) { if (r) fillDatalists(); });
     api('GET', '/review/feedback?step=' + encodeURIComponent(ctx.current)).then(function (items) {
       recorded.innerHTML = '';
       if (!items.length) { recorded.appendChild(h('li', { text: 'Nothing yet.' })); return; }
@@ -478,5 +520,23 @@
     if (e.key === 'Escape' && isOpen) { e.preventDefault(); ctx.close(); }
   });
 
-  window.gabfFeedback = { render: render, opened: opened };
+  // One entry of the control plane's "Made of" lists. A component is shown by its plain name and
+  // becomes a link to its design system file as soon as the review server has said which it is.
+  function chip(kind, id, el) {
+    var span = el('span', null, id);
+    if (kind !== 'components') return span;
+    var raw = String(id).replace(/^component:/, '');
+    span.textContent = words(raw);
+    loadLists().then(function (l) {
+      if (!l) return;
+      var name = (l.nodes && l.nodes[raw]) || raw;
+      var c = listed(name);
+      span.textContent = '';
+      if (c && c.spec && c.view) { openLinks(c, words(name)).forEach(function (n, i) { if (i) span.appendChild(document.createTextNode(' ')); span.appendChild(n); }); }
+      else { span.appendChild(document.createTextNode(words(raw) + ' ')); span.appendChild(h('small', { class: 'fbp-nofile', text: 'No design system file yet' })); }
+    });
+    return span;
+  }
+
+  window.gabfFeedback = { render: render, opened: opened, chip: chip, componentParts: componentParts };
 })();
