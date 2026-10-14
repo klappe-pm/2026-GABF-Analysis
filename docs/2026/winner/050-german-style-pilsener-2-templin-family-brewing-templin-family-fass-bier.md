@@ -220,6 +220,10 @@ Templin Family Brewing is in Salt Lake City, UT. Brewery type in Open Brewery DB
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Templin Family Brewing](../../breweries/templin-family-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://tfbrewing.com/beer/4504-2/)

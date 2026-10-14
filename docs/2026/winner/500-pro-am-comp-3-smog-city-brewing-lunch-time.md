@@ -232,6 +232,10 @@ Smog City Brewing is in Torrance, CA. Brewery type in Open Brewery DB: Microbrew
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Smog City Brewing](../../breweries/smog-city-brewing.md)
+
 ## links
 
 - [Smog City Brewing](https://www.smogcitybrewing.com/)

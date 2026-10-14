@@ -231,6 +231,14 @@ Morgan Territory Brewing is in Tracy, CA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [Instagram](https://www.instagram.com/morganterritorybrewing/), [Untappd](https://untappd.com/MorganTerritoryBrewing).
 
+## related
+
+- Brewery: [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md)
+- Hop varieties: [Amarillo](../../hops/varieties/amarillo.md), [Centennial](../../hops/varieties/centennial.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [Billy Goat Hop Farm](../../hops/farms/billy-goat-hop-farm.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Morgan Territory: drinks catalog](https://www.morganterritorybrewing.com/drinks/)

@@ -284,6 +284,11 @@ Worthy Brewing is in Bend, OR. Brewery type in Open Brewery DB: Microbrewery.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md)
+- Hop varieties: [East Kent Goldings](../../hops/varieties/east-kent-goldings.md), [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md), [Hallertauer Tradition](../../hops/varieties/hallertauer-tradition.md)
+
 ## links
 
 - [Worthy: pub ordering menu](https://order.toasttab.com/online/worthy-brewing/)

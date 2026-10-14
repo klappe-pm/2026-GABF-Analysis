@@ -210,6 +210,11 @@ Beachwood Brewing is in Huntington Beach, CA. Brewery type in Open Brewery DB: M
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Beachwood Brewing](../../breweries/beachwood-brewing.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md)
+
 ## links
 
 - [Untappd: Pazifik Coast Highway details](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos)

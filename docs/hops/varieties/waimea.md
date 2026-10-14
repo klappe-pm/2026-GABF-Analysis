@@ -16,13 +16,42 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-variety: "Waimea"
+alpha-acid-percent: "16 to 19"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "Charles Faram"
+aroma-descriptors:
+  - "an aroma abundant with fruity citrus and pine characters"
+beta-acid-percent: "7 to 9"
+breeder: "Plant & Food Research hop breeding program (New Zealand)"
+canonical-name: "Waimea"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "22 to 24"
+farnesene-percent-of-oil: "5"
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "total-oil-ml-per-100g"
+  - "use"
+humulene-percent-of-oil: "9 to 10"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "New Zealand"
-program: "Plant & Food Research hop breeding program (New Zealand)"
+owner-program: "Plant & Food Research hop breeding program (New Zealand)"
+parentage: "Parentage traces back to Cluster, Saaz and Fuggle (Charles Faram)"
 proprietary-status: "proprietary"
+release-year: 2012
+release-year-note: null
 slug: "waimea"
-year-released: "2012"
+sources:
+  - "https://charlesfaram.com/hop-oracle/waimea/"
+total-oil-ml-per-100g: null
+trademark: "Waimea (trademark symbol on the Charles Faram page)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # waimea
@@ -76,3 +105,33 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [charlesfaram.com/hop-oracle/waimea](https://charlesfaram.com/hop-oracle/waimea/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Perpetual Fog](../../2026/winner/095-juicy-or-hazy-strong-pale-ale-2-urbanrest-brewing-co-perpetual-fog.md), silver, Juicy or Hazy Strong Pale Ale, by [Urbanrest Brewing Co.](../../breweries/urbanrest-brewing-co.md); published as Waimea
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Urbanrest Brewing Co.](../../breweries/urbanrest-brewing-co.md), 1 beer

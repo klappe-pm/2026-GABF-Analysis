@@ -15,13 +15,45 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Cashmere"
+alpha-acid-percent: "7.7 to 9.1"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Lemon"
+  - "lime"
+  - "ripe melon"
+  - "stone fruit"
+  - "thyme"
+beta-acid-percent: "3.5 to 4.5"
+breeder: "Washington State University and USDA public breeding program"
+canonical-name: "Cashmere"
+caryophyllene-percent-of-oil: "12 to 13"
+cohumulone-percent-of-alpha: "22 to 24"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "26 to 29"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "39 to 42"
 origin-country: "United States"
-program: "Washington State University and USDA public breeding program"
+owner-program: "Washington State University and USDA public breeding program"
+parentage: "Daughter of a Cascade male and a female line that includes Northern Brewer (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 2013
+release-year-note: null
 slug: "cashmere"
-year-released: "2013"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Cashmere.pdf"
+total-oil-ml-per-100g: "1.2 to 1.4"
+trademark: null
+us-acres-latest:
+  - "Washington 186"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # cashmere
@@ -94,3 +126,34 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Cashmere.pdf](https://www.johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Cashmere.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [Billy Goat Hop Farm](../farms/billy-goat-hop-farm.md), CO; published as Cashmere; current
+- [CLS Farms](../farms/cls-farms.md), WA; published as Cashmere; 2020
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

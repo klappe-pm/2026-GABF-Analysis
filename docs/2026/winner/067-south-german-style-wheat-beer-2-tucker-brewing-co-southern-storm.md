@@ -30,12 +30,6 @@ description:
 entries: 120
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://tuckerbrewing.com/"
-      - "https://tuckerbrewing.com/beer"
-      - "https://tuckerbrewing.com/beer-collection/southern-storm"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://tuckerbrewing.com/"
@@ -96,12 +90,6 @@ gaps:
       - "https://tuckerbrewing.com/beer"
       - "https://tuckerbrewing.com/beer-collection/southern-storm"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://tuckerbrewing.com/"
-      - "https://tuckerbrewing.com/beer"
-      - "https://tuckerbrewing.com/beer-collection/southern-storm"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 15
@@ -110,7 +98,9 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Unfiltered wheat ale"
+  source: "https://tuckerbrewing.com/beer-collection/southern-storm"
 sources:
   - "https://tuckerbrewing.com/"
   - "https://tuckerbrewing.com/beer"
@@ -118,7 +108,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Dunkelweisse"
-tasting-notes: null
+tasting-notes:
+  text: "An unfiltered wheat ale, very similar to our Southern Heaven Hefeweizen, with clove and bubblegum notes, as well as caramel bread flavors from the roasted malts used."
+  source: "https://tuckerbrewing.com/beer-collection/southern-storm"
 water: null
 yeast: []
 ---
@@ -156,7 +148,9 @@ Source: [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collecti
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> An unfiltered wheat ale, very similar to our Southern Heaven Hefeweizen, with clove and bubblegum notes, as well as caramel bread flavors from the roasted malts used.
+
+Source: [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm)
 
 ## ingredients
 
@@ -174,7 +168,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Unfiltered wheat ale | [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm) |
 
 ## style-context
 
@@ -195,6 +189,10 @@ Tucker Brewing Co. is in Tucker, GA. Brewery type in Open Brewery DB: Microbrewe
 
 Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](https://www.instagram.com/tuckerbrewingco/), [Untappd](https://untappd.com/tuckerbrewingco).
 
+## related
+
+- Brewery: [Tucker Brewing Co.](../../breweries/tucker-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://tuckerbrewing.com/beer-collection/southern-storm)
@@ -204,7 +202,7 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -212,3 +210,4 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 - The beer page header also shows "N/A" in one field without saying what it refers to.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Tucker Untappd product page describes a dunkelweizen and flavor notes but names no hop variety. No new hop field was verified.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and says the beer is unfiltered; no hops or yeast strain.

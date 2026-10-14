@@ -59,8 +59,17 @@ export function unslugText(html, slugs) {
   }).join('');
 }
 
+// Every filter lists the rows that hold no value as one option, so a missing value can be found.
+// The token is non-empty because an empty selection means All. The site's older stated-gap
+// tokens (ownership 'unlisted', distribution 'unknown') fold into it, so there is one such option.
+export const NOT_DEFINED = 'not-defined';
+const LEGACY_BLANKS = { ownership_type: 'unlisted', distribution_channel: 'unknown' };
+const foldBlank = (id, v) => (v === '' || v === LEGACY_BLANKS[id] ? NOT_DEFINED : v);
+
 export function valueLabel(id, value, meta = null) {
   const v = String(value ?? '');
+  if (v === NOT_DEFINED) return 'Not defined';
+  if (id === 'brewery_type' && !v) return 'Not defined';
   if (id === 'state') return meta?.states?.find((s) => s.state === v)?.name ?? v;
   if (id === 'city') return v.replace(/\s+-\s+/g, ', ');
   if (id === 'brewery_key') return meta?.names?.brewery_key?.[v] ?? v;
@@ -134,8 +143,8 @@ export function scopeRows(rows, scope = {}) {
 // The value a row holds for a filter. A city is keyed with its state ("Portland, OR") so two
 // cities that share a name stay apart.
 export function fieldValue(row, id) {
-  if (id === 'city') return row.city ? `${row.city}, ${row.state}` : '';
-  return String(row[id] ?? '');
+  if (id === 'city') return row.city ? `${row.city}, ${row.state}` : NOT_DEFINED;
+  return foldBlank(id, String(row[id] ?? ''));
 }
 
 // Every value a row holds for a filter: one for a plain filter, the whole list for a multi filter.
@@ -143,8 +152,11 @@ export function fieldValues(row, id) {
   const def = FILTERS.find((d) => d.id === id);
   if (!def?.multi) return [fieldValue(row, id)];
   const list = row[def.field];
-  return Array.isArray(list) ? list.map(String) : [];
+  return Array.isArray(list) && list.length ? list.map(String) : [NOT_DEFINED];
 }
+
+// The value a selection holds, with the older gap tokens read as Not defined.
+export const selectedValue = (s, id) => foldBlank(id, String(s[id] ?? ''));
 
 // Partial years (seed rows only) stay out unless a year is picked or years=all.
 export const includesPartial = (s) => s.years === 'all' || Boolean(s.year);
@@ -154,7 +166,7 @@ export function applyFilters(rows, s = {}) {
     if (!includesPartial(s) && r.partial) return false;
     for (const def of FILTERS) {
       const v = s[def.id];
-      if (v && !fieldValues(r, def.id).includes(String(v))) return false;
+      if (v && !fieldValues(r, def.id).includes(selectedValue(s, def.id))) return false;
     }
     if (q.length) {
       const hay = `${r.beer_name} ${r.brewery_name} ${r.brewery_location ?? ''} ${r.city} ${r.state} ${r.state_name ?? ''} ${r.category_name} ${r.style_family ?? ''} ${r.search_extra ?? ''}`.toLowerCase();
@@ -178,7 +190,6 @@ export function optionList(scope, id, s = {}, meta = null) {
   const names = new Map();
   for (const r of pool) {
     for (const v of new Set(fieldValues(r, id))) {
-      if (!v) continue;
       counts.set(v, (counts.get(v) ?? 0) + 1);
       if (id === 'brewery_key' && !names.has(v)) names.set(v, r.brewery_name || v);
     }
@@ -190,9 +201,9 @@ export function optionList(scope, id, s = {}, meta = null) {
     for (const r of scope) if (r.city) states.set(r.city, (states.get(r.city) ?? new Set()).add(r.state));
     // One source row has a collaboration venue in its city field; a spaced hyphen there reads as a comma.
     const readable = (t) => t.replace(/\s+-\s+/g, ', ');
-    plainCity = (v) => { const name = v.slice(0, v.lastIndexOf(', ')); return readable(states.get(name)?.size > 1 ? v : name); };
+    plainCity = (v) => { if (v === NOT_DEFINED) return 'Not defined'; const name = v.slice(0, v.lastIndexOf(', ')); return readable(states.get(name)?.size > 1 ? v : name); };
   }
-  const labelOf = (v) => (id === 'brewery_key' ? names.get(v) : plainCity ? plainCity(v) : valueLabel(id, v, meta));
+  const labelOf = (v) => (id === 'brewery_key' && v !== NOT_DEFINED ? names.get(v) : plainCity ? plainCity(v) : valueLabel(id, v, meta));
   const list = [...counts.entries()].map(([v, n]) => ({ value: v, count: n, label: labelOf(v) }));
   // Years run newest first and ABV bands by their range (ordered bins, not names); the rest by label.
   const order = id === 'year' ? (a, b) => compareYearsNewestFirst(a.value, b.value) : id === 'abv_band' ? (a, b) => compareBands(a.value, b.value) : (a, b) => compareLabels(a.label, b.label);
@@ -204,7 +215,7 @@ export function optionList(scope, id, s = {}, meta = null) {
 export function pruneState(scope, s, keep = null) {
   const next = { ...s };
   for (let guard = 0; guard < FILTERS.length + 1; guard += 1) {
-    const stale = FILTERS.find((d) => next[d.id] && d.id !== keep && !optionList(scope, d.id, next).some((o) => o.value === String(next[d.id])));
+    const stale = FILTERS.find((d) => next[d.id] && d.id !== keep && !optionList(scope, d.id, next).some((o) => o.value === selectedValue(next, d.id)));
     if (!stale) break;
     delete next[stale.id];
   }
@@ -284,7 +295,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
   }
   function select(def) {
     const opts = optionList(scoped(), def.id, state, meta);
-    const cur = String(state[def.id] ?? '');
+    const cur = state[def.id] ? selectedValue(state, def.id) : '';
     const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(valueLabel(def.id, cur, labelMeta()))} (0)</option>` : '';
     return `<label>${esc(def.label)}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">All</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${esc(o.label)} (${o.count.toLocaleString('en-US')})</option>`).join('')}</select></label>`;
   }

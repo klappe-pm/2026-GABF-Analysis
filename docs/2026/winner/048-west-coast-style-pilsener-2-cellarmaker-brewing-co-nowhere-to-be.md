@@ -188,6 +188,11 @@ Cellarmaker Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB: Micr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md)
+- Hop varieties: [Nelson Sauvin](../../hops/varieties/nelson-sauvin.md)
+
 ## links
 
 - [Beer page on brewery site](https://cellarmakerbrewing.com/beer/nowhere-to-be/)

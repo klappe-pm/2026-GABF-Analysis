@@ -189,6 +189,11 @@ Barrel Mountain Brewing is in Battle Ground, WA. Brewery type in Open Brewery DB
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Barrel Mountain Brewing](../../breweries/barrel-mountain-brewing.md)
+- Hop varieties: [Willamette](../../hops/varieties/willamette.md)
+
 ## links
 
 - [Beer page on brewery site](https://barrelmountainbrewing.com/beer)

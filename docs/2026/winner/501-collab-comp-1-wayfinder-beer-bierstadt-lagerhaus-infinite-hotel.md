@@ -240,6 +240,10 @@ Wayfinder Beer / Bierstadt Lagerhaus is in Portland, OR.
 
 Links checked 2026-10-14: [Website](https://wayfinder.beer/), [Instagram](https://www.instagram.com/wayfinderbeer/), [Untappd](https://untappd.com/Wayfinder_Crispies4lyfe).
 
+## related
+
+- Brewery: [Wayfinder Beer / Bierstadt Lagerhaus](../../breweries/wayfinder-beer-bierstadt-lagerhaus.md)
+
 ## links
 
 - [Wayfinder pub beer menu](https://www.wayfinder.beer/menu)

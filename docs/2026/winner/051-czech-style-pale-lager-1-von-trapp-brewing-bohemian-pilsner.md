@@ -183,6 +183,11 @@ Von Trapp Brewing is in Stowe, VT. Brewery type in Open Brewery DB: Microbrewery
 
 Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagram](https://www.instagram.com/vontrappbrewing/), [Untappd](https://untappd.com/vontrappbrewing).
 
+## related
+
+- Brewery: [Von Trapp Brewing](../../breweries/von-trapp-brewing.md)
+- Hop varieties: [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm)

@@ -254,6 +254,14 @@ McMenamins Breweries is in Portland, OR. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [McMenamins Breweries](../../breweries/mcmenamins-breweries.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Mosaic](../../hops/varieties/mosaic.md), [Nectaron](../../hops/varieties/nectaron.md), [Simcoe](../../hops/varieties/simcoe.md), [Vista](../../hops/varieties/vista.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [McMenamins](https://www.mcmenamins.com/)

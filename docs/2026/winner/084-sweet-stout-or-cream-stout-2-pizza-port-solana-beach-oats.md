@@ -243,6 +243,10 @@ Pizza Port Solana Beach is in Solana Beach, CA. Brewery type in Open Brewery DB:
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Pizza Port Solana Beach](../../breweries/pizza-port-solana-beach.md)
+
 ## links
 
 - [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/)

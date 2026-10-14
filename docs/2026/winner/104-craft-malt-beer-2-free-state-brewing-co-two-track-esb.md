@@ -240,6 +240,10 @@ Free State Brewing Co. is in Lawrence, KS. Brewery type in Open Brewery DB: Micr
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Free State Brewing Co.](../../breweries/free-state-brewing-co.md)
+
 ## links
 
 - [Free State Brewing Co.](https://www.freestatebrewing.com/)

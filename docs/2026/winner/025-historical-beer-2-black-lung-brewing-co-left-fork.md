@@ -210,6 +210,14 @@ Black Lung Brewing Co. is in Grayslake, IL.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md)
+- Hop varieties: [Callista](../../hops/varieties/callista.md), [Fuggle](../../hops/varieties/fuggle.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126)

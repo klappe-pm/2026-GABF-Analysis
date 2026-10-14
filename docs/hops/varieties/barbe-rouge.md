@@ -15,13 +15,45 @@ tags:
   - "france"
   - "proprietary"
   - "variety"
-variety: "Barbe Rouge"
+alpha-acid-percent: "7.5 to 9.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Comptoir Agricole technical data"
+aroma-descriptors:
+  - "bubble gum"
+  - "Red fruits"
+  - "strawberry"
+beta-acid-percent: "3.5 to 4.6"
+breeder: "Comptoir Agricole breeding program (R&D Alsace)"
+canonical-name: "Barbe Rouge"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "25 to 28"
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "farnesene-percent-of-oil"
+  - "parentage"
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "17 to 21"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "52 to 58"
 origin-country: "France"
-program: "Comptoir Agricole breeding program (R&D Alsace)"
+owner-program: "Comptoir Agricole breeding program (R&D Alsace)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "barbe-rouge"
-year-released: null
+sources:
+  - "https://www.johnihaas.com/wp-content/uploads/2020/10/HopFrance_HAAS_TechData_BarbeRouge.pdf"
+total-oil-ml-per-100g: "1.8 to 2.2"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # barbe-rouge
@@ -77,3 +109,33 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [johnihaas.com/wp-content/uploads/2020/10/HopFrance_HAAS_TechData_BarbeRouge.pdf](https://www.johnihaas.com/wp-content/uploads/2020/10/HopFrance_HAAS_TechData_BarbeRouge.pdf)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Wolf of the Woods](../../2026/winner/052-italian-style-pilsener-2-second-dawn-brewing-co-wolf-of-the-woods.md), silver, Italian-Style Pilsener, by [Second Dawn Brewing Co.](../../breweries/second-dawn-brewing-co.md); published as Barbe Rouge
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Second Dawn Brewing Co.](../../breweries/second-dawn-brewing-co.md), 1 beer

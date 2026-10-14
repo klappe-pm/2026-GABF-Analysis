@@ -212,6 +212,10 @@ Brewery Ommegang is in Cooperstown, NY. Brewery type in Open Brewery DB: Regiona
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Brewery Ommegang](../../breweries/brewery-ommegang.md)
+
 ## links
 
 - [Untappd: Ommegang NA Blonde](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664)

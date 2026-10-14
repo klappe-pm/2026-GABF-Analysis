@@ -193,6 +193,10 @@ Corbett Brewing Co. is in Tucson, AZ. Brewery type in Open Brewery DB: Microbrew
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Corbett Brewing Co.](../../breweries/corbett-brewing-co.md)
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)

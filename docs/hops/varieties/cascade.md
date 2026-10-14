@@ -16,13 +16,44 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Cascade"
+alpha-acid-percent: "4.5 to 7"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Floral"
+  - "grapefruit"
+  - "pine resin"
+beta-acid-percent: "4.8 to 7"
+breeder: "USDA public breeding program at Oregon State University"
+canonical-name: "Cascade"
+caryophyllene-percent-of-oil: "3 to 6"
+cohumulone-percent-of-alpha: "33 to 40"
+farnesene-percent-of-oil: "3 to 7"
+gaps:
+  - "use"
+humulene-percent-of-oil: "8 to 13"
 kind: "variety"
+medal-beers-2026: 8
+myrcene-percent-of-oil: "45 to 60"
 origin-country: "United States"
-program: "USDA public breeding program at Oregon State University"
+owner-program: "USDA public breeding program at Oregon State University"
+parentage: "English Fuggle crossed with a male plant derived from the Russian variety Serebrianka (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 1972
+release-year-note: null
 slug: "cascade"
-year-released: "1972"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cascade.pdf"
+total-oil-ml-per-100g: "0.7 to 1.4"
+trademark: null
+us-acres-latest:
+  - "Oregon 487"
+  - "Washington 1,719"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # cascade
@@ -95,3 +126,48 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cascade.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cascade.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [B&D Farms](../farms/bd-farms.md), OR; published as Cascade; current
+- [Coleman Agriculture](../farms/coleman-agriculture.md), OR; published as Cascade; 2024
+- [Goschie Farms](../farms/goschie-farms.md), OR; published as Cascade; 2014
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [On Any Given Day](../../2026/winner/030-brett-beer-1-wishful-thinking-brewing-co-on-any-given-day.md), gold, Brett Beer, by [Wishful Thinking Brewing Co.](../../breweries/wishful-thinking-brewing-co.md); published as Cascade
+- [Breakside Lunch Break ISA](../../2026/winner/089-international-style-pale-ale-2-breakside-brewery-and-taproom-breakside-lunch-break-isa.md), silver, International-Style Pale Ale, by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md); published as Cascade
+- [Dort Light](../../2026/winner/039-international-light-lager-2-great-lakes-brewing-co-dort-light.md), silver, International Light Lager, by [Great Lakes Brewing Co.](../../breweries/great-lakes-brewing-co.md); published as Cascade
+- [Fuzztail](../../2026/winner/001-american-wheat-beer-2-sunriver-brewing-co-fuzztail.md), silver, American Wheat Beer, by [Sunriver Brewing Co.](../../breweries/sunriver-brewing-co.md); published as Cascade
+- [Old Head Red](../../2026/winner/096-american-amber-red-ale-2-cellarmaker-brewing-co-old-head-red.md), silver, American Amber/Red Ale, by [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md); published as Cascade
+- [Brown Ale](../../2026/winner/081-american-brown-ale-3-second-street-brewery-brown-ale.md), bronze, American Brown Ale, by [Second Street Brewery](../../breweries/second-street-brewery.md); published as Cascade
+- [Fat Randy's IPA](../../2026/winner/027-hoppy-gluten-free-beer-3-holidaily-brewing-co-fat-randys-ipa.md), bronze, Hoppy Gluten-Free Beer, by [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md); published as Cascade
+- [Favorite Blonde Ale](../../2026/winner/026-classic-gluten-free-ale-or-lager-3-holidaily-brewing-co-favorite-blonde-ale.md), bronze, Classic Gluten-Free Ale or Lager, by [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md); published as Cascade
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), 1 beer
+- [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md), 1 beer
+- [Great Lakes Brewing Co.](../../breweries/great-lakes-brewing-co.md), 1 beer
+- [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md), 2 beers
+- [Second Street Brewery](../../breweries/second-street-brewery.md), 1 beer
+- [Sunriver Brewing Co.](../../breweries/sunriver-brewing-co.md), 1 beer
+- [Wishful Thinking Brewing Co.](../../breweries/wishful-thinking-brewing-co.md), 1 beer

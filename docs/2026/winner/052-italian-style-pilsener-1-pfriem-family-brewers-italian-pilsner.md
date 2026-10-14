@@ -193,6 +193,11 @@ pFriem Family Brewers is in Hood River, OR. Brewery type in Open Brewery DB: Reg
 
 Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](https://www.instagram.com/pfriembeer/).
 
+## related
+
+- Brewery: [pFriem Family Brewers](../../breweries/pfriem-family-brewers.md)
+- Hop varieties: [Perle](../../hops/varieties/perle.md), [Saphir](../../hops/varieties/saphir.md), [Tettnang](../../hops/varieties/tettnang.md), [Spalter Select](../../hops/varieties/spalter-select.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.pfriembeer.com/beer/italian-pilsner/)

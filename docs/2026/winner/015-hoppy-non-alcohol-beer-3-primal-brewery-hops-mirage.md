@@ -237,6 +237,10 @@ Primal Brewery is in Huntersville, NC. Brewery type in Open Brewery DB: Microbre
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Primal Brewery](../../breweries/primal-brewery.md)
+
 ## links
 
 - [Untappd: Primal Hops Mirage](https://untappd.com/b/primal-brewery-hops-mirage/5652401)

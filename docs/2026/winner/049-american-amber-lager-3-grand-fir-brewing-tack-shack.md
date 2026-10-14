@@ -202,6 +202,10 @@ Grand Fir Brewing is in Portland, OR.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Grand Fir Brewing](../../breweries/grand-fir-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.grandfirbrewing.com/s/BEER1017.pdf)

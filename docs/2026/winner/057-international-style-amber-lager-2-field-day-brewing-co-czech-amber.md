@@ -220,6 +220,11 @@ Field Day Brewing Co. is in North Liberty, IA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Field Day Brewing Co.](../../breweries/field-day-brewing-co.md)
+- Hop varieties: [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Field Day Brewing Co.](https://www.fielddaybrewing.com/)
@@ -240,3 +245,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU and brewery-domain searches found no bitterness figure or exact Czech Amber beer page. A staff favorite mention on the brewery about page is not a product or tap-list page.
+- Deep dive pass 2026-10-14: the brewery site has no Czech Amber page; the description on file comes from Untappd and is not extended.

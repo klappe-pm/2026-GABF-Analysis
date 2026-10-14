@@ -217,6 +217,14 @@ Urbanrest Brewing Co. is in Ferndale, MI. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Urbanrest Brewing Co.](../../breweries/urbanrest-brewing-co.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Nelson Sauvin](../../hops/varieties/nelson-sauvin.md), [Simcoe](../../hops/varieties/simcoe.md), [Waimea](../../hops/varieties/waimea.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.urbanrest.com/on-tap/brewery/)

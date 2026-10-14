@@ -236,6 +236,14 @@ Original Pattern Brewing Co. is in Oakland, CA. Brewery type in Open Brewery DB:
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Original Pattern Brewing Co.](../../breweries/original-pattern-brewing-co.md)
+- Hop varieties: [Eclipse](../../hops/varieties/eclipse.md), [Enigma](../../hops/varieties/enigma.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Untappd: How's the Serenity](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120)

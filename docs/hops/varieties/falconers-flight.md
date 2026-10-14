@@ -18,13 +18,52 @@ tags:
   - "blend"
   - "not-published"
   - "united-states"
-variety: "Falconer's Flight"
+alpha-acid-percent: null
+alpha-class: null
+aroma-attribution: null
+aroma-descriptors: []
+beta-acid-percent: null
+breeder: null
+canonical-name: "Falconer's Flight"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "alpha-acid-percent"
+  - "aroma-descriptors"
+  - "beta-acid-percent"
+  - "breeder"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "proprietary-status"
+  - "release-year"
+  - "total-oil-ml-per-100g"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "blend"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "not published"
+owner-program: null
+parentage: null
 proprietary-status: "not published"
+release-year: null
+release-year-note: null
 slug: "falconers-flight"
-year-released: null
+sources:
+  - "https://breakside.com/our_beer/breakside-ipa/"
+total-oil-ml-per-100g: null
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # falconers-flight
@@ -83,3 +122,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [breakside.com/our_beer/breakside-ipa](https://breakside.com/our_beer/breakside-ipa/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Breakside IPA](../../2026/winner/100-american-india-pale-ale-1-breakside-brewery-and-taproom-breakside-ipa.md), gold, American India Pale Ale, by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md); published as Falconer's Flight
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), 1 beer

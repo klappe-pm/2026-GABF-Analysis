@@ -37,6 +37,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "tasting-notes"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -46,6 +47,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "ibu"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -55,6 +57,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "srm"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -64,6 +67,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "og"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -73,6 +77,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "fg"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -82,6 +87,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "hops"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -91,6 +97,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "hop-form"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -100,6 +107,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "hop-use"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -109,6 +117,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -118,6 +127,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "malts"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -127,6 +137,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "yeast"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -136,6 +147,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "adjuncts"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -145,6 +157,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "water"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -154,6 +167,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
   - field: "process"
     sources-checked:
       - "https://fieldworkbrewing.com/beer/"
@@ -163,6 +177,7 @@ gaps:
       - "https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival"
       - "https://www.fieldworkbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)"
 hop-profile: []
 hops: []
 ibu: null
@@ -253,6 +268,10 @@ Fieldwork Brewing Co. is in Berkeley, CA.
 
 Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagram](https://www.instagram.com/drinkfieldwork/), [Untappd](https://untappd.com/FieldworkBrewingCompany).
 
+## related
+
+- Brewery: [Fieldwork Brewing Co.](../../breweries/fieldwork-brewing-co.md)
+
 ## links
 
 - [Fieldwork: Rough and Tumble listing](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441)
@@ -265,8 +284,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)).
+- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-rough-and-tumble/6717441), [untappd.com](https://untappd.com/FieldworkBrewingCompany), [untappd.com](https://untappd.com/w/fieldwork-brewing-company/184717/beer), [brewbound.com](https://www.brewbound.com/pr/2026/10/13/fieldwork-brewing-co-named-brewery-of-the-year-at-2026-great-american-beer-festival), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/rough-tumble/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -276,3 +295,4 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery announcement identifies the winning beer as Bock Lager. Search results exposed a brewery shop listing at 6.6% ABV, but all opened shop paths returned 404 and the Toast product page timed out. That strength, packaging and recipe wording remain unverified and are excluded.
 - Field pass 2026-10-13: A readable exact Untappd product page verifies the strength recorded above and shows N/A IBU. No hop variety or newly readable brewery beer page was verified; previously failed shop paths were not fetched again.
+- Deep dive pass 2026-10-14: the brewery beer page, found in its sitemap, renders no readable beer text.

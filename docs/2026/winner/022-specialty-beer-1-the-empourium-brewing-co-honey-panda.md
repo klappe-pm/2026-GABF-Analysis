@@ -200,6 +200,10 @@ The Empourium Brewing Co. is in Denver, CO.
 
 Links checked 2026-10-14: [Website](https://www.theempourium.com/), [Instagram](https://www.instagram.com/empouriumbrew/).
 
+## related
+
+- Brewery: [The Empourium Brewing Co.](../../breweries/the-empourium-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu)
