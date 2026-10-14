@@ -36,6 +36,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "tasting-notes"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "abv"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "ibu"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -68,6 +72,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -76,6 +81,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -84,6 +90,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hops"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -92,6 +99,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -100,6 +108,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -108,6 +117,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -116,6 +126,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -124,6 +135,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -132,6 +144,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -140,6 +153,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -148,6 +162,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://oakhighlandsbrewery.com/on-tap/"
@@ -156,6 +171,7 @@ gaps:
       - "https://www.oakhighlandsbrewery.com/"
       - "https://www.oldehickorybrewery.com/awards/"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile: []
 hops: []
 ibu: null
@@ -258,8 +274,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file.
+- Not published: ABV, IBU. Checked [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/on-tap/), [oakhighlandsbrewery.com](https://oakhighlandsbrewery.com/our-beer/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), [oakhighlandsbrewery.com](https://www.oakhighlandsbrewery.com/), [oldehickorybrewery.com](https://www.oldehickorybrewery.com/awards/), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -269,3 +285,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The official winners page names OHB, not Oak Highlands Brewery. Olde Hickory's awards history lists an Imperial Stout, but the fetched page does not connect it to this 2026 entry. The brewery expansion remains unresolved, so no candidate brewery specifications or URL were transferred.
+- Deep dive pass 2026-10-14: no brewery website is on file; no new source was found.

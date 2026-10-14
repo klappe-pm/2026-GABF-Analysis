@@ -246,3 +246,4 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Transmission beer entry and taproom list supplied strength and confirmed New Zealand pale ale style. No IBU, ingredients or brewery-hosted beer page was found. Similarly named IPAs from other breweries were excluded.
+- Deep dive pass 2026-10-14: the brewery beer list does not include Southern Hemi.
