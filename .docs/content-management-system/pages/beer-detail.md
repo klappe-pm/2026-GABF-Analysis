@@ -46,3 +46,29 @@ Where: the specs card.
 Where: the research notes beside the specs card.
 
 - `title`: Research notes
+
+## `hop_profile`
+
+Where: the hop profile card above the research notes.
+
+- `title`: Hop profile
+- `hop`: Hop
+- `published`: Published as
+- `form`: Form
+- `use`: Use
+- `farm`: Farm or lot
+- `source`: Source
+- `named_label`: Brewery named this farm
+- `missing`: No hop profile is on record for this beer.
+- `grown_title`: Where these hops are grown
+- `grown_label`: Grown by.
+- `grown_note`: These farms publish the variety as grown. It does not mean this beer used hops from them.
+- `grown_summary`: {{hop}}, farms on record: {{count}}
+- `details_title`: Beer details
+- `detail_description`: Description
+- `detail_tasting_notes`: Tasting notes
+- `detail_srm`: SRM
+- `detail_og`: Original gravity
+- `detail_fg`: Final gravity
+- `detail_water`: Water
+- `detail_process`: Process

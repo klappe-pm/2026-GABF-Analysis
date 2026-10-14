@@ -21,7 +21,7 @@ import { resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { readCsvRecords } from './lib/csv.mjs';
 import { beerDetailsHtml } from './lib/catalog-attribution.mjs';
-import { canonicalCategoryNames, categoryFold, districtAssigner, MEDAL_POINTS } from './lib/data-model.mjs';
+import { canonicalCategoryNames, categoryFold, districtAssigner, loadDataset, MEDAL_POINTS } from './lib/data-model.mjs';
 import { ROOT } from './lib/paths.mjs';
 import { slugify } from './lib/slug.mjs';
 import { matchKey } from './lib/winner-profiles.mjs';
@@ -135,7 +135,7 @@ function loadResearch() {
   return byKey;
 }
 
-function enrich(record, r) {
+function enrich(record, r, hops) {
   const other = [
     r.malts.length ? `Malts: ${r.malts.join(', ')}` : '',
     r.yeast.length ? `Yeast: ${r.yeast.join(', ')}` : '',
@@ -146,6 +146,8 @@ function enrich(record, r) {
     abv: r.abv === null ? '' : String(r.abv),
     ibu: r.ibu === null ? '' : String(r.ibu),
     confirmed_hops: r.hops.join('; '),
+    // The hop page each name links to, in the same order: the canonical variety of the site's hop model.
+    confirmed_hop_slugs: r.hops.map((h) => hops.resolveVariety(h)?.slug ?? '').join('; '),
     hop_evidence: r.hops.length ? `Named in the cited sources of docs/${year}/winner/${r.file}` : `Not published in any source checked; see docs/${year}/winner/${r.file}`,
     ingredients: other,
     beer_style: r.style ?? '',
@@ -170,6 +172,7 @@ function main() {
   dataset.target_years = built.targetYears;
   // Only the research year carries specs; every other year is medal rows.
   dataset.spec_years = baseline ? [] : [Number(year)];
+  const { hops } = loadDataset();
   let research = new Map();
   if (!baseline) {
     if (!existsSync(dbPath)) throw new Error(`${dbPath} missing; run node scripts/build-winner-db.mjs ${year}`);
@@ -187,7 +190,7 @@ function main() {
     const r = research.get(matchKey(rec.beer, rec.medal, rec.official_category));
     if (!r) { unmatched.push(`${rec.beer} (${rec.brewery})`); return rec; }
     matched += 1;
-    return enrich(rec, r);
+    return enrich(rec, r, hops);
   });
   const json = JSON.stringify(dataset).replace(/<\//g, '<\\/');
   if (!FOOTER_DETAILS.test(html)) throw new Error(`${input}: no beer-details footer span`);
