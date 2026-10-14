@@ -1,0 +1,108 @@
+/* The Feedback panel of the design control plane. It docks beside the framed page: the page
+   reflows narrower instead of being covered. Square corners, no shadows, the site's own tokens.
+   Generated into docs/design/prototype/ by scripts/design-control-plane.mjs; edit it here. */
+
+:root {
+  --fbp-red: #a3171a;
+  --fbp-send: var(--good);
+  --fbp-send-ink: #ffffff;
+}
+
+/* ---- docking: a flex sibling of the frame, hidden entirely when closed ---- */
+.panel[data-mode="feedback"] {
+  position: relative; top: auto; right: auto; bottom: auto; transform: none; transition: none;
+  display: none; flex: 0 0 400px; width: 400px; max-width: 100%; padding: 0; overflow: hidden;
+  box-shadow: none; border-left: var(--border-width) solid var(--border-default);
+}
+.panel[data-mode="feedback"][data-open="true"] { display: flex; flex-direction: column; }
+.panel[data-mode="feedback"] > .close { display: none; }
+.panel[data-mode="feedback"] #panelbody { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
+
+.fbp-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; border-bottom: var(--border-width) solid var(--border-default); }
+.panel .fbp-head h2 { margin: 0; font-size: 18px; }
+.fbp-context { display: grid; grid-template-columns: auto 1fr; gap: 3px 14px; margin: 0; padding: 10px 18px; background: var(--bg-inset); border-bottom: var(--border-width) solid var(--border-muted); font-size: 13px; }
+.fbp-context dt { color: var(--text-secondary); }
+.fbp-context dd { margin: 0; color: var(--text-primary); overflow-wrap: anywhere; }
+
+.fbp-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; padding: 16px 18px; }
+/* margin-block:auto centers the form in the window while it fits and lets it scroll from the top once it does not */
+.fbp-form { margin-block: auto; display: grid; gap: 18px; width: 100%; }
+
+.fbp-form label, .fbp-form legend { display: block; font-size: 13px; font-weight: 600; color: var(--text-primary); padding: 0; }
+.fbp-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.fbp-form .fbp-hint { margin: 4px 0 0; font-size: 12px; color: var(--text-secondary); font-weight: 400; }
+.fbp-form textarea, .fbp-form input[type="text"] {
+  display: block; width: 100%; margin-top: 5px; padding: 8px 10px; border-radius: 0;
+  border: var(--border-width) solid var(--border-default); background: var(--bg-surface); color: var(--text-primary); font-weight: 400;
+}
+.fbp-form textarea { min-height: 96px; resize: vertical; line-height: 1.45; }
+.fbp-form select { width: 100%; margin-top: 5px; padding: 7px 8px; border-radius: 0; border: var(--border-width) solid var(--border-default); background: var(--bg-surface); color: var(--text-primary); }
+
+.fbp-btn {
+  min-height: 34px; padding: 5px 12px; border-radius: 0; cursor: pointer; font-weight: 500;
+  border: var(--border-width) solid var(--border-default); background: var(--bg-surface); color: var(--text-primary);
+}
+.fbp-btn:hover { background: var(--bg-surface-hover); }
+.fbp-btn.small { min-height: 28px; padding: 2px 9px; font-size: 12px; }
+
+/* ---- spots ---- */
+.fbp-spots { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.fbp-spot { border: var(--border-width) solid var(--border-muted); background: var(--bg-surface); }
+.fbp-spot:focus-within { border-color: var(--border-default); }
+.fbp-spot-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 10px; align-items: start; padding: 8px 10px; }
+.fbp-n { display: grid; place-items: center; width: 26px; height: 26px; background: var(--fbp-red); color: #ffffff; font-weight: 700; font-size: 13px; font-variant-numeric: tabular-nums; }
+.fbp-spot-label { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; color: var(--text-primary); font-size: 13px; line-height: 1.35; overflow-wrap: anywhere; }
+.fbp-spot-label small { display: block; color: var(--text-secondary); font-size: 12px; }
+.fbp-spot-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; grid-column: 2 / 4; font-size: 12px; }
+.fbp-form .fbp-check { display: inline-flex; align-items: center; gap: 6px; font-weight: 400; font-size: 13px; }
+.fbp-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--good); }
+.fbp-empty { margin: 8px 0 0; padding: 10px; border: var(--border-width) dashed var(--border-muted); color: var(--text-secondary); font-size: 13px; }
+
+/* ---- copy editor ---- */
+.fbp-copy { border-top: var(--border-width) solid var(--border-muted); padding: 10px; background: var(--bg-inset); display: grid; gap: 10px; }
+.fbp-current { margin: 4px 0 0; padding: 6px 8px; background: var(--bg-surface); border: var(--border-width) solid var(--border-muted); font-weight: 400; font-size: 13px; color: var(--text-secondary); overflow-wrap: anywhere; }
+.fbp-problem { margin: 0; color: var(--fbp-red); font-size: 13px; font-weight: 600; }
+.fbp-related { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 4px; }
+.fbp-related li { font-size: 12px; }
+.fbp-form .fbp-related .fbp-check { align-items: flex-start; font-size: 12px; }
+.fbp-related .fbp-check input { margin-top: 2px; }
+.fbp-where { margin: 0; font-size: 12px; color: var(--text-secondary); }
+
+/* ---- categories and link lists ---- */
+.fbp-cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 4px 10px; margin-top: 8px; }
+.fbp-links { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.fbp-link { display: inline-flex; align-items: stretch; border: var(--border-width) solid var(--border-default); background: var(--bg-surface); font-size: 13px; }
+.fbp-link span { padding: 4px 8px; overflow-wrap: anywhere; }
+.fbp-link button { border: 0; border-left: var(--border-width) solid var(--border-default); border-radius: 0; background: var(--bg-inset); color: var(--text-primary); cursor: pointer; padding: 0 9px; min-width: 32px; }
+.fbp-link button:hover { background: var(--bg-surface-hover); }
+.fbp-add { display: grid; grid-template-columns: 1fr auto; gap: 6px; align-items: end; margin-top: 8px; }
+.fbp-add input { margin-top: 0; }
+
+.fbp-recorded { margin: 8px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--text-secondary); display: grid; gap: 3px; }
+
+/* ---- footer ---- */
+.fbp-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; border-top: var(--border-width) solid var(--border-default); background: var(--bg-surface); }
+.fbp-said { font-size: 13px; color: var(--text-secondary); min-width: 0; overflow-wrap: anywhere; }
+.fbp-said.bad { color: var(--fbp-red); font-weight: 600; }
+.fbp-send {
+  flex: 0 0 auto; min-height: 40px; min-width: 96px; padding: 0 24px; border-radius: 0; cursor: pointer;
+  border: var(--border-width) solid var(--fbp-send); background: var(--fbp-send); color: var(--fbp-send-ink); font-weight: 700;
+}
+.fbp-send:hover { filter: brightness(0.92); }
+.fbp-send[disabled] { opacity: 0.55; cursor: progress; }
+
+.fbp-form :focus-visible, .fbp-head :focus-visible, .fbp-foot :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---- narrow windows: side by side leaves the page no room, so the page sits above the panel ---- */
+@media (max-width: 760px) {
+  /* the bar shares rows so the page keeps as much height as possible */
+  .topbar { gap: 6px 8px; padding: 8px 12px; }
+  .topbar .brand { flex: 1 1 100%; margin: 0; }
+  .topbar select { flex: 1 1 calc(50% - 8px); min-width: 0; max-width: none; }
+  .topbar .spacer { display: none; }
+  .stage { flex-direction: column; }
+  .stage .frame { flex: 1 1 42%; min-height: 0; }
+  .panel[data-mode="feedback"][data-open="true"] { flex: 0 0 56%; width: auto; border-left: 0; border-top: var(--border-width) solid var(--border-default); }
+  .fbp-context { grid-template-columns: auto 1fr; padding: 8px 14px; }
+  .fbp-head, .fbp-foot, .fbp-scroll { padding-left: 14px; padding-right: 14px; }
+}

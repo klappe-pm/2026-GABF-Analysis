@@ -4,6 +4,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { parseContent } from '../scripts/lib/content-md.mjs';
+import { kebabTokens } from '../scripts/lib/copy-rules.mjs';
 
 // The site copy in .docs/content-management-system/ is the single source of visible text. These checks keep it machine
 // readable and keep developer text and dash punctuation out of it.
@@ -62,12 +63,6 @@ test('visible copy has no dash punctuation, paths, or commands', () => {
 });
 
 // Kebab case values (raw data slugs) must never show as copy. Real compound words are allowed.
-const COMPOUNDS = new Set(['gluten-free', 'barrel-aged', 'us-atlas']);
-function kebabTokens(text) {
-  const plain = String(text).replace(/\{\{[^}]+\}\}/g, '');
-  return [...plain.matchAll(/(^|[^\w{\-/])([a-z]+(?:-[a-z0-9]+)+)(?![\w}\-])/g)].map((m) => m[2]).filter((t) => !COMPOUNDS.has(t.toLowerCase()));
-}
-
 test('the kebab detector flags data slugs and allows real compound words', () => {
   assert.deepEqual(kebabTokens('Channel: self-distribution'), ['self-distribution']);
   assert.deepEqual(kebabTokens('Strong and barrel-aged, gluten-free, Pro-Am'), []);

@@ -1,75 +1,105 @@
 #!/usr/bin/env node
-// Tickets from design feedback. Every command that changes a ticket appends a sealed record to
-// docs/design/design-feedback.jsonl and regenerates docs/work-items/; nothing is edited in place.
+// Tickets from design feedback. A ticket is a Markdown file under .docs/feedback/<page-name>/
+// (local, never committed). Tickets are registered from the Feedback panel in the design control
+// plane; this command reads and maintains them.
 //
 //   npm run tickets -- list [--all]
 //   npm run tickets -- show WI-001
-//   npm run tickets -- status WI-001 in-progress [--note "..."] [--by "name"]
-//   npm run tickets -- refine WI-001 [--note "..."] [--categories "Bug,Layout"] [--title "..."] [--by "name"] [--setup-test]
-//   npm run tickets -- split WI-001 --text "..." [--categories "Data"]
-//   npm run tickets -- resolve WI-001 --commit <sha> --note "what was done" [--by "name"]
-//   npm run tickets -- decline WI-001 --note "why not" [--by "name"]
-//   npm run tickets -- generate
+//   npm run tickets -- refine WI-001 [--note "..."] [--categories "Bug,Layout"] [--title "..."]
+//   npm run tickets -- resolve WI-001 --commit <sha> --note "what was done"
+//   npm run tickets -- decline WI-001 --note "why not"
+//   npm run tickets -- migrate [--from path/to/design-feedback.jsonl]
 //   npm run tickets -- export-github [WI-001 ...]
 //
+// A refine keeps the ticket ACCEPTED and moves only its revised time. migrate copies the notes of
+// the retired sealed store into the new layout once; running it again skips what it already wrote.
 // export-github only prints the gh commands that would open GitHub issues. It never runs them:
 // opening an issue is an external action the owner takes, not this script.
 
-import { readFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT, parseArgs } from './lib/paths.mjs';
 import { engine } from './lib/agent-graph.mjs';
-import { deriveTickets, noteIdOf, refine, setStatus, split, TICKETS_DIR, writeTicketFiles } from './lib/review-store.mjs';
+import { ACCEPTED, editTicket, feedbackDirOf, findTicket, listTickets, loadCategories, migrateRecords, setStatus } from './lib/review-store.mjs';
+import { describeScreen, loadManifest } from './lib/review-screens.mjs';
+import { componentsForSpot } from './lib/review-components.mjs';
 
+const OLD_STORE = 'docs/design/design-feedback.jsonl';
 const args = parseArgs(process.argv.slice(2));
-const [command = 'list', ref, value] = args._;
-const fb = await engine('design-feedback.mjs');
-const records = () => fb.readFeedback(ROOT);
-const list = (v) => (typeof v === 'string' ? v.split(',').map((s) => s.trim()).filter(Boolean) : null);
+const [command = 'list', ref] = args._;
+const dir = feedbackDirOf(ROOT);
+const list = (v) => (typeof v === 'string' ? v.split(',').map((s) => s.trim()).filter(Boolean) : undefined);
 const need = (cond, usage) => { if (!cond) { console.error(`usage: ${usage}`); process.exit(2); } };
-const after = (written) => { writeTicketFiles(ROOT, records()); console.log(`Recorded at line ${records().length}, hash ${written.hash}. Tickets regenerated in ${TICKETS_DIR}/.`); };
+
+async function sanitizer() {
+  const fb = await engine('design-feedback.mjs');
+  return fb.sanitize;
+}
+
+// The old store's text: the file when it is still there, else the last version git has of it.
+function oldStoreText() {
+  const from = args.from ? resolve(args.from) : resolve(ROOT, OLD_STORE);
+  if (existsSync(from)) return readFileSync(from, 'utf8');
+  if (args.from) throw new Error(`${args.from} does not exist`);
+  const removed = execFileSync('git', ['log', '-n1', '--format=%H', '--diff-filter=D', '--', OLD_STORE], { cwd: ROOT, encoding: 'utf8' }).trim();
+  if (!removed) throw new Error(`${OLD_STORE} is not on disk and git has no record of it`);
+  return execFileSync('git', ['show', `${removed}^:${OLD_STORE}`], { cwd: ROOT, encoding: 'utf8' });
+}
 
 if (command === 'list') {
-  const tickets = deriveTickets(records()).filter((t) => args.all || t.status === 'open' || t.status === 'in-progress');
-  if (!tickets.length) console.log(args.all ? 'No tickets.' : 'No open tickets.');
+  const tickets = listTickets(dir).filter((t) => args.all || t.data.status === ACCEPTED);
+  if (!tickets.length) console.log(args.all ? 'No tickets.' : 'No accepted tickets.');
   for (const t of tickets) {
-    console.log(`${t.id}  ${t.status.padEnd(11)} ${t.note.page?.route ?? t.note.screen ?? ''}  ${t.categories.join(', ')}`);
-    console.log(`    ${t.title}`);
-    const code = (t.note.code ?? []).slice(0, 3).map((c) => c.location);
-    if (code.length) console.log(`    code: ${code.join('; ')}`);
+    const d = t.data;
+    console.log(`${t.id}  ${String(d.status).padEnd(8)} ${d.page}  ${d.step ?? ''}  ${(d.categories ?? []).join(', ')}`);
+    console.log(`    ${d.title}`);
+    const bits = [];
+    if ((d.spots ?? []).length) bits.push(`${d.spots.length} spot${d.spots.length === 1 ? '' : 's'}`);
+    if ((d.components ?? []).length) bits.push(`components ${d.components.map((c) => c.name).join(', ')}`);
+    if ((d['content-keys'] ?? []).length) bits.push(`content ${d['content-keys'].join(', ')}`);
+    if (bits.length) console.log(`    ${bits.join('; ')}`);
   }
 } else if (command === 'show') {
   need(ref, 'tickets show WI-001');
-  console.log(readFileSync(resolve(ROOT, TICKETS_DIR, `${ref.toUpperCase()}.md`), 'utf8'));
-} else if (command === 'status') {
-  need(ref && value, 'tickets status WI-001 <open|in-progress|done|declined> [--note "..."]');
-  after(setStatus(fb, ROOT, noteIdOf(ref), value, { note: args.note ?? '', change: args.commit ?? null, by: args.by ?? null }));
+  const t = findTicket(dir, ref);
+  if (!t) { console.error(`no ticket ${ref}`); process.exit(1); }
+  console.log(readFileSync(t.file, 'utf8'));
 } else if (command === 'refine') {
   need(ref, 'tickets refine WI-001 [--note "..."] [--categories "A,B"] [--title "..."]');
-  after(refine(fb, ROOT, noteIdOf(ref), { note: args.note ?? '', categories: list(args.categories), title: args.title ?? null, by: args.by ?? null, setupTest: Boolean(args['setup-test']) }));
-} else if (command === 'split') {
-  need(ref && args.text, 'tickets split WI-001 --text "the part that becomes its own ticket" [--categories "A,B"]');
-  const created = split(fb, ROOT, noteIdOf(ref), { text: args.text, categories: list(args.categories) ?? [] });
-  writeTicketFiles(ROOT, records());
-  console.log(`Split ${ref} into ${created.id} (${created.ticket}).`);
+  const patch = {};
+  if (typeof args.note === 'string') patch.text = args.note;
+  if (typeof args.title === 'string') patch.title = args.title;
+  if (typeof args.categories === 'string') patch.categories = list(args.categories);
+  const done = editTicket(dir, ref, patch, { sanitize: await sanitizer(), categories: loadCategories(ROOT) });
+  console.log(`${done.id} stays ${done.status}; revised. ${done.file}`);
 } else if (command === 'resolve') {
   need(ref && args.commit, 'tickets resolve WI-001 --commit <sha> --note "what was done"');
-  after(setStatus(fb, ROOT, noteIdOf(ref), 'done', { note: args.note ?? '', change: args.commit, by: args.by ?? null }));
+  const done = setStatus(dir, ref, 'DONE', { note: args.note ?? '', change: args.commit, sanitize: await sanitizer() });
+  console.log(`${done.id} is DONE in ${args.commit}.`);
 } else if (command === 'decline') {
   need(ref && args.note, 'tickets decline WI-001 --note "why it will not be done"');
-  after(setStatus(fb, ROOT, noteIdOf(ref), 'declined', { note: args.note, by: args.by ?? null }));
-} else if (command === 'generate') {
-  const files = writeTicketFiles(ROOT, records());
-  console.log(`${files.size - 1} ticket(s) written to ${TICKETS_DIR}/.`);
+  const done = setStatus(dir, ref, 'DECLINED', { note: args.note, sanitize: await sanitizer() });
+  console.log(`${done.id} is DECLINED.`);
+} else if (command === 'migrate') {
+  const records = oldStoreText().split('\n').filter(Boolean).map((l) => JSON.parse(l));
+  const manifest = loadManifest(ROOT);
+  const written = migrateRecords(dir, records, {
+    sanitize: await sanitizer(),
+    categories: loadCategories(ROOT),
+    describe: (screen) => describeScreen(ROOT, manifest, screen),
+    components: (note) => componentsForSpot(ROOT, { matches: (note.code ?? []).map((c) => ({ via: c.via })) }),
+  });
+  console.log(written.length ? written.map((w) => `${w.id} -> ${w.file}`).join('\n') : 'Nothing to migrate: every note is already in the new layout.');
 } else if (command === 'export-github') {
   const wanted = new Set(args._.slice(1).map((s) => s.toUpperCase()));
-  const tickets = deriveTickets(records()).filter((t) => (wanted.size ? wanted.has(t.id) : t.status === 'open'));
+  const tickets = listTickets(dir).filter((t) => (wanted.size ? wanted.has(t.id) : t.data.status === ACCEPTED));
   console.log('# Not run. These commands would open one GitHub issue per ticket; run them yourself only if you want issues.');
   for (const t of tickets) {
-    const body = `${TICKETS_DIR}/${t.id}.md`;
-    console.log(`gh issue create --title ${JSON.stringify(`${t.id}: ${t.title}`)} --body-file ${body}${t.categories.length ? ` --label ${JSON.stringify(t.categories.join(','))}` : ''}`);
+    const cats = t.data.categories ?? [];
+    console.log(`gh issue create --title ${JSON.stringify(`${t.id}: ${t.data.title}`)} --body-file ${JSON.stringify(t.file)}${cats.length ? ` --label ${JSON.stringify(cats.join(','))}` : ''}`);
   }
 } else {
-  console.error(`unknown command ${command}; expected list, show, status, refine, split, resolve, decline, generate, or export-github`);
+  console.error(`unknown command ${command}; expected list, show, refine, resolve, decline, migrate, or export-github`);
   process.exit(2);
 }

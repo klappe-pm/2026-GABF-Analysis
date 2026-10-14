@@ -99,3 +99,46 @@ export function parseContent(markdown) {
   }
   return root;
 }
+
+// ---------- positions, for tools that edit one value in place ----------
+
+// The dotted prefix of a copy document from its path under the copy folder: global/site.md is
+// global.site, the same prefix tests/content.test.mjs resolves keys against.
+export function docKeyOf(rel) {
+  return String(rel).replace(/\.md$/, '').split(/[\\/]/).join('.');
+}
+
+// Every string of a copy document with its place: the dotted key inside the document, the zero
+// based line, and the value. It reads the same headings and key lines parseContent does, so the two
+// never disagree about which key a line holds.
+export function scanContent(markdown) {
+  const out = [];
+  const stack = [{ level: 1, name: null }];
+  markdown.split(/\r?\n/).forEach((line, index) => {
+    const h = line.match(HEADING);
+    if (h) {
+      const level = h[1].length;
+      while (stack.length && stack[stack.length - 1].level >= level) stack.pop();
+      stack.push({ level, name: h[2] });
+      return;
+    }
+    const k = line.match(KEY_LINE);
+    if (!k) return;
+    const key = k[1] === BLANK ? '' : k[1];
+    const path = [...stack.map((s) => s.name).filter((n) => n !== null), key];
+    out.push({ key: path.join('.'), name: key, line: index, value: k[2] ?? '' });
+  });
+  return out;
+}
+
+// Replace one value on one line and leave every other byte of the document, line endings included,
+// as it was. The line must still hold the key and the old value, so a stale edit is refused.
+export function replaceContentValue(markdown, line, key, oldValue, newValue) {
+  const parts = markdown.split(/(\r?\n)/);
+  const at = line * 2;
+  const current = parts[at];
+  const k = current === undefined ? null : current.match(KEY_LINE);
+  if (!k || (k[1] === BLANK ? '' : k[1]) !== key || (k[2] ?? '') !== oldValue) throw new Error(`the copy file changed since it was read: ${key} no longer holds the value that was shown`);
+  parts[at] = newValue === '' ? `- \`${k[1]}\`:` : `- \`${k[1]}\`: ${newValue}`;
+  return parts.join('');
+}

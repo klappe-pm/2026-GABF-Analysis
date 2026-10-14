@@ -1,6 +1,6 @@
 # README.MD
 
-The design control plane and the inline review loop for GABF Analysis. Every screen is the real built site in one declared state, every screen explains itself, and every note a reviewer leaves becomes a record in git and a ticket that names the code to change.
+The design control plane and the review loop for GABF Analysis. Every screen is the real built site in one declared state, every screen explains itself, and feedback is captured inside the journey view as one flow: a ticket that names the job, the step, the state, the spots, the components and the copy it concerns.
 
 ## start-reviewing
 
@@ -8,42 +8,60 @@ The design control plane and the inline review loop for GABF Analysis. Every scr
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run review
 ```
 
-That builds the review version of the site into `dist-review/` and starts one server on `http://127.0.0.1:4173/`, bound to this machine only. Open `http://127.0.0.1:4173/site/` to review the site itself, or `http://127.0.0.1:4173/` for the control plane (jobs, journeys, and all 51 screens). `#S-28/explain` after the address opens a screen with its explanation.
+That builds the review version of the site into `dist-review/` and starts one server on `http://127.0.0.1:4173/`, bound to this machine only. Open `http://127.0.0.1:4173/` for the control plane (jobs, journeys, and all 51 screens), for example `#S-01`. The site on its own is at `http://127.0.0.1:4173/site/`, with no feedback entry point: feedback is logged from the journey view.
 
-On any page of the review site, the Feedback button (or Shift+F) opens the feedback panel. Choose "This whole page" for an overall note, or "A spot I pick" and click the element the note is about: it is outlined, a numbered pin is dropped, and the note is tied to it. Escape cancels picking. Categories are optional and any number can be ticked; the list lives in [feedback-categories.json](feedback-categories.json). Open notes come back as pins whenever the page is opened again.
+## the-feedback-panel
 
-## what-a-note-records
+The Feedback button in the top bar is the one entry point (`#S-01/feedback` opens a screen with the panel out). The panel docks beside the framed page and the page reflows narrower, so nothing is covered. At a phone width there is no room beside the page, so the page sits above the panel.
 
-The note and its categories; the page URL, route, hash, and global filter state; the manifest screen and surface it matches, with that screen's design nodes; the viewport, device class, and theme; the commit and branch the review build was made from; and the code that renders the page or the picked element. For a picked element: its selector (an id or data attribute first, then a structural path), its visible text, its box, and the click point. Screenshots are not taken in the browser; the box is recorded so a capture can be made from the review build.
+From top to bottom: the job, journey step and state you are on, the note, the spots, the categories, the design system components and content entries the ticket concerns, what is already recorded for the step, and Send, which is green and on the right.
 
-Every string is scanned with the token shape detector from the agent-graph engine before it is written, and a matching value is replaced with a redaction label. Notes are appended to [design-feedback.jsonl](design-feedback.jsonl), hash chained by the engine and sealed over the whole record, so an edit to any earlier line fails `npm run design:check`.
+- While the panel is open, each click on the framed page adds a numbered pin, listed in the panel with a Remove control. Picking stays on. A ticket with no spots is about the whole page.
+- From the keyboard, tab to an element in the page and press Shift and Enter, or use Add the focused element in the panel. Escape closes the panel.
+- Components and content entries are derived from the picked elements and stay editable. Components come from [source-map.json](../../site/review/source-map.json) (each entry names the design system component its region draws, and the manifest node), checked against the manifest in [design-nodes.json](design-nodes.json). A component is linked by name; when `.design/design-system/components/<name>/` exists the ticket also carries the path to its spec. Content entries come from the copy documents in `.docs/content-management-system/`, resolved with the key mapping in `scripts/lib/content-md.mjs`. With no spots, a ticket links to the components its screen consumes.
+- Categories are listed alphabetically from [feedback-categories.json](feedback-categories.json); any number may be ticked.
+- Drafts belong to the step they were started on, so Prev and Next keep what was typed.
 
-## tickets
+## changing-copy-from-a-spot
 
-Each note is a ticket under [docs/work-items](../work-items/README.md), generated from the store. Never edit a ticket file; change it through the store.
+Tick This spot is page copy on a spot. The panel resolves the copy entry behind the text, shows its current value, and offers a field for the new value. It also lists other copy entries and hard coded strings in `site/`, `scripts/` and `web/` that hold the identical old text, each with a checkbox, all checked.
+
+On Send the server checks the new text first: no dash used as punctuation, no kebab case word, one line, and the secret scan. A value that breaks a rule is refused with the reason and nothing is written. Otherwise it changes only the value text of the key's line in the copy file (the frontmatter, the other keys, line endings and formatting stay byte for byte), changes each checked instance in source files only (never in generated output), rebuilds the review site and reloads the frame. The ticket records the key, the file, the old and new values and every instance it changed.
+
+The site build does not read the copy documents yet, so the framed page changes through the hard coded instances; a copy key that the site does read changes with it. The committed `gabf-dashboard.html` is generated from site sources: run `npm run build:standalone` after a copy change before committing.
+
+## journey-step-markers
+
+A step carries the part of the page it concerns: a square blue outline with a small label (the step id and a plain name) drawn over the framed page, which stays fully readable. The region is `state.region` on the screen node in [design-nodes.json](design-nodes.json); a whole page step (the phone screens) has none and shows no marker. Hovering or focusing an action chip marks the control it acts on, from `controls` in the same file, keyed by the chip label in [interaction-spec.md](interaction-spec.md). Markers are square outlines with a label; spot pins are solid red numbered squares. Both exist only in the review build.
+
+## where-tickets-live
+
+One Markdown file per ticket under `.docs/feedback/<page-name>/`, where the page name is the surface's plain name in lowercase kebab case (`overview-dashboard`, `brewery-detail`). `.docs/` is excluded from git on this machine, so tickets are local and CI, which has no `.docs/` folder, simply finds none. `GABF_FEEDBACK_DIR` moves the store, which tests and screenshots use.
+
+The frontmatter holds the id, status, job, step, state, route, spots (selector, rect and element text per pin), components, content keys, categories, created and revised; the note is the body. Every ticket is ACCEPTED when it is registered, and an edit keeps it ACCEPTED and moves only revised. Every string is scanned with the token shape detector from the agent-graph engine before it is written.
 
 ```bash
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- list
-cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- status WI-003 in-progress
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- show WI-003
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- refine WI-003 --note "Only at phone width" --categories "Layout,Mobile"
-cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- split WI-003 --text "The chip label is a separate issue"
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- resolve WI-003 --commit <sha> --note "What was done"
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- decline WI-003 --note "Why not"
+cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- migrate
 ```
 
-`npm run tickets -- export-github` prints the `gh issue create` commands that would turn open tickets into GitHub issues. It does not run them.
+`migrate` copies the notes of the retired `design-feedback.jsonl` into the new layout once, from the file or from git when the file is gone, and skips any note already copied. `export-github` prints the `gh issue create` commands that would turn accepted tickets into GitHub issues. It does not run them.
 
 ## never-public
 
-The widget, its source attributes, and its build record exist only in the review build (`GABF_FEEDBACK=1`, written to `dist-review/`). The build refuses that flag in continuous integration, `tests/review-build.test.mjs` builds the public site and fails if any part of the widget appears in it, and the widget will not start on any host but this machine.
+The page picker, the step marker, the pins and their source attributes exist only in the review build (`GABF_FEEDBACK=1`, written to `dist-review/`). The build refuses that flag in continuous integration, `tests/review-build.test.mjs` builds the public site and fails if any part of it appears there, and the picker will not start on any host but this machine or outside the control plane's frame.
 
 ## the-files
 
 - [interaction-spec.md](interaction-spec.md): every screen, its actions, and where each lands.
-- [design-nodes.json](design-nodes.json): the manifest; nodes, consumes edges, each screen's state, and the surfaces with their routes.
+- [design-nodes.json](design-nodes.json): the manifest; nodes, consumes edges, each screen's state and region, the action controls, and the surfaces with their routes.
 - [jobs-to-be-done.md](jobs-to-be-done.md): the jobs and journeys, from PRODUCT.md.
 - [tokens.json](tokens.json): generated from the custom properties in `site/assets/styles.css`.
 - `sketches/`: one live frame per surface; each screen is its surface's sketch driven into one state.
-- `prototype/`: generated by `npm run design:build`, checked by `npm run design:check`, which `npm run verify` runs.
+- `prototype/`: generated by `npm run design:build` (including the Feedback panel, whose source is `scripts/control-plane/`), checked by `npm run design:check`, which `npm run verify` runs.
 
 The engine is the agent-graph repository, used read only through `scripts/lib/agent-graph.mjs`; set `AGENT_GRAPH_DIR` if it is not at `~/projects/active/agent-graph`. What a change reaches: `node scripts/design-control-plane.mjs impact surface:brewery-detail`.

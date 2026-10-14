@@ -42,6 +42,17 @@
     var done = drive && doc ? drive(doc) : Promise.resolve();
     Promise.resolve(done).then(function () { setTimeout(function () { body.dataset.ready = 'true'; tell('ready', { screen: body.dataset.screen }); }, 600); });
   }, { once: true });
+  // An action chip under the pointer or the keyboard focus marks the control it acts on, in the live page.
+  function control(label) {
+    try { frame.contentWindow.postMessage({ source: 'gabf-control-plane', kind: 'control', label: label }, location.origin); } catch (e) { /* the frame is not ready */ }
+  }
+  function actionOf(node) { var a = node && node.closest ? node.closest('.action') : null; return a ? a.textContent.trim() : null; }
+  ['mouseover', 'focusin'].forEach(function (type) {
+    document.addEventListener(type, function (event) { var label = actionOf(event.target); if (label) control(label); });
+  });
+  ['mouseout', 'focusout'].forEach(function (type) {
+    document.addEventListener(type, function (event) { if (actionOf(event.target) && !actionOf(event.relatedTarget)) control(null); });
+  });
   frame.src = body.dataset.live;
   document.addEventListener('click', function (event) {
     var link = event.target.closest('a[data-target]');
