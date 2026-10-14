@@ -11,6 +11,7 @@ import { createRequire } from 'node:module';
 import { dirname, resolve } from 'node:path';
 import { ROOT, SITE, parseArgs } from './lib/paths.mjs';
 import { galleryData } from './chart-gallery/data.mjs';
+import { beerDetailsHtml } from './lib/catalog-attribution.mjs';
 import { checkContrast, paletteForPage } from './chart-gallery/palette.mjs';
 
 const require = createRequire(import.meta.url);
@@ -24,7 +25,7 @@ const safeJson = (value) => JSON.stringify(value).replace(/</g, '\\u003c').split
 export function renderGallery() {
   const problems = checkContrast();
   if (problems.length) throw new Error(`Gallery palette fails contrast:\n${problems.join('\n')}`);
-  const data = { ...galleryData(), palette: paletteForPage(), geo: JSON.parse(readFileSync(resolve(SITE, 'assets/us-states.geo.json'), 'utf8')) };
+  const data = { ...galleryData(), beerDetailsHtml: beerDetailsHtml(), palette: paletteForPage(), geo: JSON.parse(readFileSync(resolve(SITE, 'assets/us-states.geo.json'), 'utf8')) };
   const template = readFileSync(resolve(HERE, 'template.html'), 'utf8');
   const parts = {
     '/*__STYLE__*/': readFileSync(resolve(HERE, 'styles.css'), 'utf8'),
