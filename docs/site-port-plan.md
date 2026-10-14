@@ -33,7 +33,7 @@ The Material 3 app in web/ becomes the whole public site at gabf.beer, and the s
 
 ## inventory
 
-The static build writes 1,694 pages. Counts are from the current data: 1,907 medal rows, 947 breweries, 175 categories, 336 profiled 2026 beers, 100 hop varieties, 113 hop farms.
+The static build writes 1,694 pages. Counts are from the current data: 1,907 medal rows, 947 breweries, 166 categories, 336 profiled 2026 beers, 100 hop varieties, 113 hop farms.
 
 | page | current path | count | target route | data | components | lane |
 |---|---|---|---|---|---|---|
@@ -50,7 +50,7 @@ The static build writes 1,694 pages. Counts are from the current data: 1,907 med
 | Breweries index | /breweries/ | 1 | app/(site)/breweries/page.tsx | brewery info, medal rows | data-table, search-field, estimate-tooltip | breweries |
 | Brewery detail | /breweries/<brewery>/ | 947 | app/(site)/breweries/[slug]/page.tsx | brewery entity, medal rows, estimates, other competitions | medal-record, stat-card, chart-card, data-table, estimate-tooltip, callout | breweries |
 | Categories index | /categories/ | 1 | app/(site)/categories/page.tsx | categoryIndex, medal rows | data-table, status-chip | categories and analysis |
-| Category detail | /categories/<category>/ | 175 | app/(site)/categories/[slug]/page.tsx | category, style reference, medal rows | range-scale, status-chip, chart-card, data-table | categories and analysis |
+| Category detail | /categories/<category>/ | 166 | app/(site)/categories/[slug]/page.tsx | category, style reference, medal rows | range-scale, status-chip, chart-card, data-table | categories and analysis |
 | Reports index | /reports/ | 1 | app/(site)/reports/page.tsx | report list copy, coverage | text-link, status-chip | categories and analysis |
 | Report pages (top breweries, top categories, by state, by region, ownership, economics, trends, Brewery of the Year) | /reports/<report>/ | 8 | app/(site)/reports/[slug]/page.tsx | medal rows, summary, awards, ownership | chart-card, data-table, estimate-tooltip | categories and analysis |
 | About | /about/ | 1 | app/(site)/about/page.tsx | coverage, sources | data-table, status-chip, text-link | categories and analysis |

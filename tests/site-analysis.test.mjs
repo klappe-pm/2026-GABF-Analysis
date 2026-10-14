@@ -44,6 +44,16 @@ test('a category without its own description borrows the one filed under the sam
   }
 });
 
+test('every style reference row keeps its columns: numeric ranges and a family from the site list', () => {
+  for (const c of ds.categories) {
+    for (const k of ['abv_min', 'abv_max', 'ibu_min', 'ibu_max', 'srm_min', 'srm_max']) assert.ok(c[k] === '' || Number.isFinite(Number(c[k])), `${c.category_name}: ${k} is ${c[k]}`);
+    assert.ok(!/^(Brown|Fruit|Amber| and Red|Spice)$/.test(c.style_family), `${c.category_name}: family ${c.style_family}`);
+  }
+  const brown = category(cats.find((c) => /Brown Ale/.test(c.name) && /American/.test(c.name)).slug);
+  assert.deepEqual([brown.abv, brown.ibu, brown.srm].map((r) => `${r.min} to ${r.max}`), ['4.2 to 6.3', '25 to 45', '15 to 26']);
+  assert.match(brown.description, /^Brown ale with more hop character/);
+});
+
 test('entries per medal and group indicators match the static site', () => {
   const rows = view(reportRows(['category_slug', 'category_number', 'entries', 'category_medals']));
   const mine = oddsItems(rows);
