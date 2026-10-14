@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Chicago"
 employees: null
 farms-named: []

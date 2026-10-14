@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "American Cream Ale"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
 city: "Alameda"
 employees: null
 farms-named: []

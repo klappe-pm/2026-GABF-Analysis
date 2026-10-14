@@ -136,11 +136,11 @@ Oak Aged Floral Saison is a light saison brewed with hibiscus, rose hips and lem
 | Field | Value | Source |
 |---|---|---|
 | Style | Saison | [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
-| ABV | 8% | [Untappd: Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| ABV | 8% | [Untappd (hand-read citation): Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | hibiscus flowers, rose hips, lemon peel | [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
 | Other | aged on neutral oak; red color; Beer Hall only, on draft and in 4-packs | [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
 
@@ -162,16 +162,16 @@ The release page names three botanical additions: hibiscus flowers (which give t
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Red, from hibiscus flowers (no SRM number published) | [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Aged on neutral oak, with hibiscus flowers and rose hips | [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
 
 ## style-context
@@ -201,12 +201,12 @@ Links checked 2026-10-14: [Website](https://www.boulevard.com/), [Instagram](htt
 - [Beer page on brewery site](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/)
 - [Boulevard Brewing Co.](https://www.boulevard.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966)
+- [Untappd (hand-read citation): Boulevard Floral Saison](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966)
 
 ## gaps
 
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
 
 ## research-notes
 

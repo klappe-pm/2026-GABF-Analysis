@@ -21,8 +21,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Ale or French-Style Ale"
-  - "Vienna-Style Lager"
+  - "Belgian Ale or French Ale"
+  - "Vienna Lager"
 city: "Deptford"
 employees: null
 farms-named: []

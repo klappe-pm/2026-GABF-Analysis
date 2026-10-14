@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/051-czech-style-pale-lager-3-hermosa-brewing-co-czech-your-head.md"
 brewery-type: null
 categories-won:
-  - "Czech-Style Pale Lager"
+  - "Czech Pale Lager"
 city: "Torrance"
 employees: null
 farms-named: []

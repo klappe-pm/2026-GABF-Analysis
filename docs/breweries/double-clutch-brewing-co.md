@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "German-Style Altbier"
-  - "Munich-Style Helles"
+  - "German Altbier"
+  - "Munich Helles"
   - "Smoke Beer"
 city: "Evanston"
 employees: null

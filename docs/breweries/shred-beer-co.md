@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "American Cream Ale"
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "India Pale Lager or Cold India Pale Ale"
   - "Juicy or Hazy Imperial India Pale Ale"
   - "Session India Pale Ale"

@@ -146,13 +146,13 @@ Sereno Moreno is a crisp Mexican lager brewed with extra pale pilsner malt and f
 | Field | Value | Source |
 |---|---|---|
 | Style | Mexican-Style Pale Lager (Untappd: Lager, Mexican) | [Wild Blue Yonder: home page](https://www.wildblueyonderbrewing.com/) |
-| ABV | 6% | [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
-| IBU | 18 | [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
-| Hops | not published | none found |
-| Malts and grains | Extra pale pilsner malt | [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Flaked corn | [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
-| Other | not published | none found |
+| ABV | 6% | [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
+| IBU | 18 | [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Extra pale pilsner malt | [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Flaked corn | [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728) |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -160,11 +160,11 @@ The brewery site carries no description of the beer. The Untappd listing carries
 
 > Some people just need to chill out. This crisp and refreshing Mexican Lager is here to help. Extra pale pilsner malt and a touch of flaked corn make this beer ultra smooth and bone dry.
 
-Source: [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
+Source: [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -172,17 +172,17 @@ Only extra pale pilsner malt and "a touch of flaked corn" are named, in the [Unt
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -210,13 +210,13 @@ Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [In
 
 - [Wild Blue Yonder Brewing Co.](https://www.wildblueyonderbrewing.com/)
 - [Wild Blue Yonder: drink menu](https://www.wildblueyonderbrewing.com/drink-menu)
-- [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
-- [Untappd: Wild Blue Yonder beer list](https://untappd.com/WildBlueYonderBrewingCo/beer)
+- [Untappd (hand-read citation): Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
+- [Untappd (hand-read citation): Wild Blue Yonder beer list](https://untappd.com/WildBlueYonderBrewingCo/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728), [untappd.com](https://untappd.com/WildBlueYonderBrewingCo/beer), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728), [untappd.com](https://untappd.com/WildBlueYonderBrewingCo/beer), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 

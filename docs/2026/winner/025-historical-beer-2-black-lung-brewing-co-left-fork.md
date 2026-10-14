@@ -154,9 +154,9 @@ Left Fork is a beer from Black Lung Brewing Co., a craft brewery and taproom wit
 | IBU | 20 | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
 | Hops | Callista, Fuggle, Ariana | [Black Lung Brewing: Left Fork](https://www.blacklungbrewing.com/leftfork/) |
 | Malts and grains | Black malt, flaked maize | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -178,19 +178,19 @@ The brewer's description names a hop family but no individual variety; no yeast 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Callista | Callista | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
-| Fuggle | Fuggle | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
-| Ariana | Ariana | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
+| Callista | Callista | Not Found | Not Found | Not Found | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
+| Fuggle | Fuggle | Not Found | Not Found | Not Found | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
+| Ariana | Ariana | Not Found | Not Found | Not Found | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -213,7 +213,7 @@ Links checked 2026-10-14: [Website](https://www.blacklungbrewing.com/), [Instagr
 ## related
 
 - Brewery: [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md)
-- Hop varieties: [Callista](../../hops/varieties/callista.md), [Fuggle](../../hops/varieties/fuggle.md)
+- Hop varieties: [Callista](../../hops/varieties/callista.md), [Fuggle](../../hops/varieties/fuggle.md), [Ariana](../../hops/varieties/ariana.md)
 - Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md)
 
 Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
@@ -227,7 +227,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126), [visitlakecounty.org](https://www.visitlakecounty.org/BlackLungBrewingGrayslake), web searches recorded in the research notes, [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126), [visitlakecounty.org](https://www.visitlakecounty.org/BlackLungBrewingGrayslake), web searches recorded in the research notes, [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/).
 
 ## research-notes
 

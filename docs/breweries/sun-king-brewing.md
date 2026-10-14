@@ -29,7 +29,7 @@ categories-won:
   - "Chocolate Beer"
   - "Experimental Wood-Aged Beer"
   - "Golden or Blonde Ale"
-  - "Mexican-Style Light Lager"
+  - "Mexican Light Lager"
   - "Wood- and Barrel-Aged Strong Beer"
 city: "Indianapolis"
 employees: null

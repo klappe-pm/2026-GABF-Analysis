@@ -132,10 +132,10 @@ Southern Storm is a dark wheat ale from Tucker Brewing Co. in Tucker, Georgia.
 | Style | Dunkelweisse (filed under Wheat Beer) | [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm) |
 | ABV | 5% | [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm) |
 | IBU | 15 | [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm) |
-| Hops | not published | none found |
+| Hops | Not Found | Not Found |
 | Malts and grains | roasted malts, varieties not named | [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm) |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | poured in 10, 16 and 21 oz sizes; listed under seasonals on tap | [Tucker Brewing: Southern Storm](https://tuckerbrewing.com/beer-collection/southern-storm), [Tucker Brewing: beer list](https://tuckerbrewing.com/beer) |
 
 ## brewery-description
@@ -158,16 +158,16 @@ Roasted malts are the only named ingredient, without varieties; no wheat malt sh
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Unfiltered wheat ale | [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm) |
 
 ## style-context
@@ -202,7 +202,7 @@ Links checked 2026-10-14: [Website](https://tuckerbrewing.com/), [Instagram](htt
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [tuckerbrewing.com](https://tuckerbrewing.com/), [tuckerbrewing.com](https://tuckerbrewing.com/beer), [tuckerbrewing.com](https://tuckerbrewing.com/beer-collection/southern-storm), web searches recorded in the research notes.
 
 ## research-notes
 

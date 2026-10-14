@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "Belgian-Style Sour Ale"
-  - "Irish-Style Red Ale"
+  - "Belgian Sour Ale"
+  - "Irish Red Ale"
   - "Old Ale or Strong Ale or Barley Wine"
   - "Scotch Ale"
 city: "Bremerton"

@@ -148,12 +148,12 @@ Clutch is a German-style helles from Transmission Brewing Co., on East Front Str
 |---|---|---|
 | Style | German-Style Helles | [Transmission: our beers](https://transmissionbrewing.com/beers/) |
 | ABV | 5.2% | [Transmission: our beers](https://transmissionbrewing.com/beers/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -173,17 +173,17 @@ No ingredients are published by the brewery or on [BeerMenus](https://www.beerme
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,8 +216,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [beermenus.com](https://www.beermenus.com/beers/422388-transmission-clutch-lager), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

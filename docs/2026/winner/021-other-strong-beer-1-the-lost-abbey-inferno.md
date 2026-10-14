@@ -149,10 +149,10 @@ Inferno is a 9% Belgian style golden strong ale from The Lost Abbey in Vista, Ca
 | Style | Belgian style Golden Ale | [Lost Abbey: Inferno](https://lostabbey.com/inferno) |
 | ABV | 9.0% | [Lost Abbey: Inferno](https://lostabbey.com/inferno) |
 | IBU | 25 | [Craft Beer and Brewing: Inferno review](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | straw yellow, bone dry | [Lost Abbey: Inferno](https://lostabbey.com/inferno) |
 
 ## brewery-description
@@ -173,17 +173,17 @@ The beer page publishes no ingredient list; it describes only a light body, fain
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Straw yellow (no SRM number published) | [lostabbey.com](https://www.lostabbey.com/inferno) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,7 +216,7 @@ Links checked 2026-10-14: [Website](https://lostabbey.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [lostabbey.com](https://lostabbey.com/), [lostabbey.com](https://lostabbey.com/inferno), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290), web searches recorded in the research notes, [lostabbey.com](https://www.lostabbey.com/inferno).
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [lostabbey.com](https://lostabbey.com/), [lostabbey.com](https://lostabbey.com/inferno), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290), web searches recorded in the research notes, [lostabbey.com](https://www.lostabbey.com/inferno).
 
 ## research-notes
 

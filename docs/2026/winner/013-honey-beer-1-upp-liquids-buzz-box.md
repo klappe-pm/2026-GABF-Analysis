@@ -150,42 +150,42 @@ Buzz Box is a honey beer from UPP Liquids, a brewer-owned brewery and restaurant
 
 | Field | Value | Source |
 |---|---|---|
-| Style | Sour ale (Untappd classification) | [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
-| ABV | 5.3% | [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
-| IBU | 4 | [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | Ulmo honey | [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
-| Other | not published | none found |
+| Style | Sour ale (Untappd classification) | [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
+| ABV | 5.3% | [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
+| IBU | 4 | [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Ulmo honey | [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer) |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > An ale blended with Ulmo a rare Patagonia honey.
 
-Source: [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
+Source: [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
-The honey's origin is Patagonia; no hop, malt or yeast varieties are named. [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
+The honey's origin is Patagonia; no hop, malt or yeast varieties are named. [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -212,14 +212,14 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## links
 
-- [Untappd: UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
+- [Untappd (hand-read citation): UPP beer list](https://untappd.com/w/upp-liquids/574533/beer)
 - [UPP Liquids](https://uppliquids.com/)
 - [UPP Liquids: our beers](https://uppliquids.com/handcrafted-beer-bend-oregon/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/?s=buzz+box), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/?s=buzz+box), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), web searches recorded in the research notes.
 
 ## research-notes
 

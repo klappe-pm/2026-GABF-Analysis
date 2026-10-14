@@ -213,10 +213,10 @@ Eisbock is made each year by Northbound Smokehouse Brewpub in Minneapolis by fra
 | Style | Eisbock (freeze concentrated doppelbock) | [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerandbrewing.com/brewers-perspective-eisbock-it) |
 | ABV | not published (the brewery says "We haven't tested its ABV") | [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerandbrewing.com/brewers-perspective-eisbock-it) |
 | IBU | not published (untested) | [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerandbrewing.com/brewers-perspective-eisbock-it) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none named | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none named | Not Found |
 | Other | base beer is Northbound Doppelbock, 8.5% ABV, 18 IBU | [Craft Beer and Brewing: Northbound recipe](https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock) |
 
 ## brewery-description
@@ -227,7 +227,7 @@ Source: [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerand
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -235,17 +235,17 @@ Founder Jamie Robinson's article names no grain bill, hop or yeast, saying only 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -272,7 +272,7 @@ Links checked 2026-10-14: [Website](https://www.northboundbrewpub.com/), [Instag
 
 ## links
 
-- [Untappd: Northbound Eisbock](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698)
+- [Untappd (hand-read citation): Northbound Eisbock](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698)
 - [Northbound Smokehouse Brewpub](https://www.northboundbrewpub.com/)
 - [Northbound: awards and mentions](https://www.northboundbrewpub.com/single-project)
 - [Craft Beer and Brewing: Eisbock It with Northbound](https://www.beerandbrewing.com/brewers-perspective-eisbock-it)
@@ -281,8 +281,8 @@ Links checked 2026-10-14: [Website](https://www.northboundbrewpub.com/), [Instag
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-eisbock-it), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock), [northboundbrewpub.com](https://www.northboundbrewpub.com/), [northboundbrewpub.com](https://www.northboundbrewpub.com/menus-1), [northboundbrewpub.com](https://www.northboundbrewpub.com/single-project), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-eisbock-it), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock), [northboundbrewpub.com](https://www.northboundbrewpub.com/), [northboundbrewpub.com](https://www.northboundbrewpub.com/menus-1), [northboundbrewpub.com](https://www.northboundbrewpub.com/single-project), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-eisbock-it), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock), [northboundbrewpub.com](https://www.northboundbrewpub.com/), [northboundbrewpub.com](https://www.northboundbrewpub.com/menus-1), [northboundbrewpub.com](https://www.northboundbrewpub.com/single-project), web searches recorded in the research notes.
+- Not Found: ABV, IBU. Checked [untappd.com](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-eisbock-it), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-northbound-doppelbock-and-eisbock), [northboundbrewpub.com](https://www.northboundbrewpub.com/), [northboundbrewpub.com](https://www.northboundbrewpub.com/menus-1), [northboundbrewpub.com](https://www.northboundbrewpub.com/single-project), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -25,7 +25,7 @@ brewery-type: "large"
 categories-won:
   - "American Fruit Beer"
   - "Fruit Wheat Beer"
-  - "German-Style Maerzen"
+  - "German Maerzen"
 city: "Los Angeles"
 employees: null
 farms-named: []

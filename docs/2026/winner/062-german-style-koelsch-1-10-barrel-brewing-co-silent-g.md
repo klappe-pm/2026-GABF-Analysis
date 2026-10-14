@@ -208,14 +208,14 @@ Silent G is a beer from 10 Barrel Brewing Co., entered from its San Diego locati
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | Not Found | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -223,7 +223,7 @@ No brewery description of Silent G was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -231,17 +231,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -268,16 +268,16 @@ Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 ## links
 
 - [10 Barrel Brewing Co.](https://www.10barrel.com/)
-- [Untappd: 10 Barrel Brewing](https://untappd.com/10BarrelBrewing)
-- [Untappd: 10 Barrel beer list](https://untappd.com/w/10-barrel-brewing-co/3436/beer)
+- [Untappd (hand-read citation): 10 Barrel Brewing](https://untappd.com/10BarrelBrewing)
+- [Untappd (hand-read citation): 10 Barrel beer list](https://untappd.com/w/10-barrel-brewing-co/3436/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Oregon medal coverage](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf)
 - [Official 2026 winners](https://www.greatamericanbeerfestival.com/2026-winners/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch.
-- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch.
+- Not Found: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, web search 2026-10-14: 10 Barrel San Diego Silent G kolsch, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

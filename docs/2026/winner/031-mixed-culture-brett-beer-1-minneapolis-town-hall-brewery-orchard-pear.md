@@ -167,9 +167,9 @@ Orchard Pear is a beer from Minneapolis Town Hall Brewery, a brewpub at 1430 Sou
 |---|---|---|
 | Style | Mixed culture ale | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
 | ABV | 6.3% | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
 | Yeast | Brettanomyces | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
 | Adjuncts, fruit, spices | Bartlett pears | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
 | Other | Barrel grown and fermented | [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/) |
@@ -182,7 +182,7 @@ Source: [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profil
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -190,17 +190,17 @@ The product description names the fruit variety and yeast recorded above but pro
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -235,8 +235,8 @@ Links checked 2026-10-14: [Website](https://townhallbrewery.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes.
-- Not published: IBU. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

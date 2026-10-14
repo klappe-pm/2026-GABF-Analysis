@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Los Angeles"
 employees: null
 farms-named: []

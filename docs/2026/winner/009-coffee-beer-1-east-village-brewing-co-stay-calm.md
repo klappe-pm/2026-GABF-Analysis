@@ -200,14 +200,14 @@ Stay Calm is a coffee beer from East Village Brewing Co., a neighborhood brewery
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | not published | none found |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | Not Found | Not Found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coffee from Bird Rock Coffee Roasters | [San Diego Beer News: GABF 2026 winners](https://sandiegobeer.news/gabf-2026-winners/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -215,7 +215,7 @@ No description of Stay Calm was found on the brewery's site; its home page, tap 
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -223,17 +223,17 @@ The only published ingredient detail is from local press: both of the brewery's 
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -268,8 +268,8 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer.
-- Not published: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer.
+- Not Found: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

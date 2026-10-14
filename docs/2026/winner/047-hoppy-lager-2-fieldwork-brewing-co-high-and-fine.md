@@ -200,14 +200,14 @@ High & Fine is a beer from Fieldwork Brewing Co. of Berkeley, California, which 
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | 4.2% | [Untappd: High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | 4.2% | [Untappd (hand-read citation): High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -215,7 +215,7 @@ No brewery description of the beer could be read; the beer page's text fields lo
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -223,17 +223,17 @@ Nothing is published about the ingredients in any source that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -259,16 +259,16 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## links
 
-- [Untappd: High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076)
+- [Untappd (hand-read citation): High & Fine](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076)
 - [Beer page on brewery site](https://fieldworkbrewing.com/beer/high-fine/)
 - [Fieldwork Brewing Co.](https://fieldworkbrewing.com/)
-- [Untappd: Fieldwork beer list](https://untappd.com/FieldworkBrewingCompany/beer)
+- [Untappd (hand-read citation): Fieldwork beer list](https://untappd.com/FieldworkBrewingCompany/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)).
-- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)).
+- Not Found: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/ (page renders its beer text by script)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

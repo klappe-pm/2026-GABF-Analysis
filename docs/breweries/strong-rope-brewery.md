@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/069-english-style-pale-ale-3-strong-rope-brewery-pub-ale.md"
 brewery-type: "micro"
 categories-won:
-  - "English-Style Pale Ale"
+  - "English Pale Ale"
 city: "Brooklyn"
 employees: null
 farms-named: []

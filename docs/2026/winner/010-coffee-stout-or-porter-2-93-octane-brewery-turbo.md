@@ -153,10 +153,10 @@ Turbo is a coffee porter from 93 Octane Brewery of Saint Charles, Illinois, part
 |---|---|---|
 | Style | Coffee Porter | [93 Octane: beer menu](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer) |
 | ABV | 7.0% | [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo) |
-| IBU | 15 | [Untappd: 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| IBU | 15 | [Untappd (hand-read citation): 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coffee from Modest Coffee | [93 Octane: beer menu](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer) |
 | Other | about 150 calories (listing estimate) | [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo) |
 
@@ -178,16 +178,16 @@ The brewery's menu says the porter gets an extra boost of craft brewed Modest Co
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Porter with craft brewed Modest Coffee added | [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer) |
 
 ## style-context
@@ -214,7 +214,7 @@ Links checked 2026-10-14: [Website](https://www.93octanebrewery.com/), [Instagra
 
 ## links
 
-- [Untappd: 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249)
+- [Untappd (hand-read citation): 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249)
 - [Beer page on brewery site](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer)
 - [93 Octane Brewery](https://www.93octanebrewery.com/)
 - [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo)
@@ -223,7 +223,7 @@ Links checked 2026-10-14: [Website](https://www.93octanebrewery.com/), [Instagra
 
 ## gaps
 
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
 
 ## research-notes
 

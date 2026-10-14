@@ -21,9 +21,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "English Mild or Bitter"
-  - "German-Style Maerzen"
+  - "German Maerzen"
   - "Oatmeal Stout"
   - "Old Ale or Strong Ale or Barley Wine"
 city: "Longmont"

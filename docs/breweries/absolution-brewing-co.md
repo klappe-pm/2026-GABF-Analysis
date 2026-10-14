@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Blonde Ale"
+  - "Belgian Blonde Ale"
 city: "Torrance"
 employees: null
 farms-named: []

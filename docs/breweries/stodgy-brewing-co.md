@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Fort Collins"
 employees: null
 farms-named: []

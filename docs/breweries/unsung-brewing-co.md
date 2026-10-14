@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "closed"
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "English India Pale Ale or New Zealand India Pale Ale"
 city: "Tustin"
 employees: null

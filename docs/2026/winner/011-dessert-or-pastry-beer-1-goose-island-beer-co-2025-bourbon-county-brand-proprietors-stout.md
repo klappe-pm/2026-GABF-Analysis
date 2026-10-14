@@ -171,10 +171,10 @@ The 2025 Bourbon County Brand Proprietor's Stout is a bourbon barrel aged imperi
 |---|---|---|
 | Style | Imperial Stout aged in bourbon barrels with walnuts, pistachios, cassia bark & honey | [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 | ABV | 13.9% | [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Millennium, Alchemy | [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Walnuts, pistachios, cassia bark, honey | [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 | Other | aged in bourbon barrels; 16.9 oz bottle; Chicagoland only; allergens wheat and tree nuts; tasting notes of caramelized honeycomb, baking spice and roasted candied nuts | [Goose Island: 2025 Proprietor's Stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 
@@ -198,17 +198,17 @@ Goose Island says the recipe came from brewer Colby Magratten, inspired by the b
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Millenium | Millennium | not published | not published | not published | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
-| Alchemy | Alchemy | not published | not published | not published | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
+| Millenium | Millennium | Not Found | Not Found | Not Found | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
+| Alchemy | Alchemy | Not Found | Not Found | Not Found | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Imperial stout aged in bourbon barrels, then finished with walnuts, pistachios, cassia bark and honey | [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout) |
 
 ## style-context
@@ -236,7 +236,7 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## links
 
-- [Untappd: 2025 Proprietor's Stout](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos)
+- [Untappd (hand-read citation): 2025 Proprietor's Stout](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos)
 - [Beer page on brewery site](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout)
 - [Goose Island Beer Co.](https://www.gooseisland.com/)
 - [Beverage Information Group: 2025 Bourbon County lineup](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/)
@@ -245,8 +245,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not published: IBU. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes.
 
 ## research-notes
 

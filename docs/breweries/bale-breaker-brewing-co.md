@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "American-Style Pale Ale"
+  - "American Pale Ale"
 city: "Yakima"
 employees: null
 farms-named: []

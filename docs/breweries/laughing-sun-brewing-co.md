@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Bismarck"
 employees: null
 farms-named: []

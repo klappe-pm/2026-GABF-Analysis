@@ -183,13 +183,13 @@ Potion Crusher is an IPA from Barebottle Brewing Co. of San Francisco.
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
+| Style | not published (category name used) | Not Found |
 | ABV | 6.7% | [Beer listing](https://untappd.com/b/barebottle-brewing-company-potion-crusher/6691969) |
 | IBU | 120 | [Beer listing](https://untappd.com/b/barebottle-brewing-company-potion-crusher/6691969) |
 | Hops | Mosaic, Motueka Cryo, Riwaka (Egger's Special) | [Retailer notes](https://beervolta.com/?pid=192852129) |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
 | Other | 473 ml cans | [Retailer listing](https://beervolta.com/?pid=192852129) |
 
 ## brewery-description
@@ -200,7 +200,7 @@ Source: [Brewery description on Untappd](https://untappd.com/b/barebottle-brewin
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -210,19 +210,19 @@ No malt, yeast or adjunct details were found beyond the hop information in the s
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mosaic | Mosaic | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
-| Motueka Cryo | Motueka | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
-| Riwaka | Riwaka | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
+| Mosaic | Mosaic | Not Found | Not Found | Not Found | [beervolta.com](https://beervolta.com/?pid=192852129) |
+| Motueka Cryo | Motueka | Not Found | Not Found | Not Found | [beervolta.com](https://beervolta.com/?pid=192852129) |
+| Riwaka | Riwaka | Not Found | Not Found | Not Found | [beervolta.com](https://beervolta.com/?pid=192852129) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -261,7 +261,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervolta.com](https://beervolta.com/?pid=192852129), [untappd.com](https://untappd.com/b/barebottle-brewing-company-potion-crusher/6691969), [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/homebrew-recipes), web searches recorded in the research notes.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervolta.com](https://beervolta.com/?pid=192852129), [untappd.com](https://untappd.com/b/barebottle-brewing-company-potion-crusher/6691969), [barebottle.com](https://www.barebottle.com/), [barebottle.com](https://www.barebottle.com/flagships), [barebottle.com](https://www.barebottle.com/homebrew-recipes), web searches recorded in the research notes.
 
 ## research-notes
 

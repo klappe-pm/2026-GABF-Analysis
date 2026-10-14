@@ -129,8 +129,8 @@ Saison Été 2026 is a barrel-aged farmhouse ale from Third Window Brewing Co. i
 |---|---|---|
 | Style | Seasonal Farmhouse Ale | [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 | ABV | 6% | [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026) |
-| IBU | not published | none found |
-| Hops | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
 | Malts and grains | malt and wheat grown on the FP Farm; one base beer is a rye saison | [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 | Yeast | mixed culture of Brettanomyces and Lactobacillus | [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 | Adjuncts, fruit, spices | purple sage blossoms, jasmine flowers | [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/products/saison-ete-2026) |
@@ -154,16 +154,16 @@ The brewery describes the beer as "a barrel-aged blend of our traditional Farmho
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
 | Color (SRM) | Light apricot (no SRM number published) | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026) |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Barrel-aged blend of the brewery's Farmhouse Saison and Rye Saison, brewed with malt and wheat grown on the FP Farm, refermented for a year with a mixed culture of Brettanomyces and Lactobacillus; purple sage blossoms from Santa Barbara Botanic Garden added after secondary fermentation, then FP Farm jasmine flowers | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 
 ## style-context
@@ -197,8 +197,8 @@ Links checked 2026-10-14: [Website](https://www.thirdwindowbrewing.com/).
 
 ## gaps
 
-- Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

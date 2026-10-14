@@ -182,14 +182,14 @@ Beatnik is a coffee beer entered as a stout or porter by East Village Brewing Co
 
 | Field | Value | Source |
 |---|---|---|
-| Style | not published (category name used) | none found |
-| ABV | 6.3% | [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
-| IBU | 20 | [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
+| Style | not published (category name used) | Not Found |
+| ABV | 6.3% | [Untappd (hand-read citation): East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
+| IBU | 20 | [Untappd (hand-read citation): East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469) |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
 | Adjuncts, fruit, spices | Coffee from Bird Rock Coffee Roasters | [San Diego Beer News: GABF 2026 winners](https://sandiegobeer.news/gabf-2026-winners/) |
-| Other | not published | none found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -197,7 +197,7 @@ No description of Beatnik was found on the brewery's site; its home page, tap pa
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -205,17 +205,17 @@ Local press reports that both of the brewery's 2026 golds "were for coffee beers
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -241,7 +241,7 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## links
 
-- [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469)
+- [Untappd (hand-read citation): East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469)
 - [East Village Brewing Co.](https://eastvillagebrew.com/)
 - [East Village Brewing: on tap](https://eastvillagebrew.com/on-tap)
 - [East Village Brewing: tasting notes and recipes](https://eastvillagebrew.com/recipes-2)
@@ -250,7 +250,7 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter.
 
 ## research-notes
 

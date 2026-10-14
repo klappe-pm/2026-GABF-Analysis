@@ -165,11 +165,11 @@ Pueblo Vienna Lager is an amber lager from Fate Brewing Co., which runs brewpubs
 | Style | Vienna Lager | [TapHunter: Fate Scottsdale beers](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413) |
 | ABV | 5.5% | [TapHunter: Fate Scottsdale beers](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413) |
 | IBU | 28 | [TapHunter: Fate Scottsdale beers](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413) |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -177,7 +177,7 @@ No brewery description of Pueblo Vienna Lager was found.
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -185,17 +185,17 @@ Nothing about the ingredients of Pueblo Vienna Lager is published on any page th
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -229,7 +229,7 @@ Links checked 2026-10-14: [Website](https://fatebrewing.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [byo.com](https://byo.com/?p=152670), [fatebrewing.com](https://fatebrewing.com/), [fatebrewing.com](https://fatebrewing.com/scottsdale-menu), [taphunter.com](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413), web searches recorded in the research notes.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [byo.com](https://byo.com/?p=152670), [fatebrewing.com](https://fatebrewing.com/), [fatebrewing.com](https://fatebrewing.com/scottsdale-menu), [taphunter.com](https://www.taphunter.com/brewery/fate-brewing-company-scottsdale/51288413), web searches recorded in the research notes.
 
 ## research-notes
 

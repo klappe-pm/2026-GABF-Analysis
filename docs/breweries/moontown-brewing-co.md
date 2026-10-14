@@ -22,7 +22,7 @@ brewery-type: null
 categories-won:
   - "American Cream Ale"
   - "Bock"
-  - "Bohemian-Style Pilsener"
+  - "Bohemian Pilsener"
 city: "Whitestown"
 employees: null
 farms-named: []

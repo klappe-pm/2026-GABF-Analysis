@@ -148,12 +148,12 @@ Fest Bier is a festbier-style lager from Counter Weight Brewing Co. in Cheshire,
 |---|---|---|
 | Style | German Fest Bier | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
 | ABV | 5.9% | [Counter Weight: brews](https://www.counterweightbrewing.com/brews/) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published (described only as bready malt) | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | none listed | none found |
-| Other | not published | none found |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | not published (described only as bready malt) | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | none listed | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
@@ -173,17 +173,17 @@ No ingredients are named by the brewery or on BeerMenus.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -216,8 +216,8 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 
 ## gaps
 
-- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 

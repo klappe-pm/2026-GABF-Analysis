@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Dortmunder or German-Style Oktoberfest"
+  - "Dortmunder or German Oktoberfest"
   - "Extra Special Bitter"
 city: "Albuquerque"
 employees: null

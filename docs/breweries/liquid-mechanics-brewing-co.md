@@ -24,7 +24,7 @@ brewery-type: "micro"
 categories-won:
   - "American Pilsener"
   - "Chili Beer"
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "Lafayette"
 employees: null
 farms-named: []

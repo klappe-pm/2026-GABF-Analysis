@@ -150,23 +150,23 @@ Padron is a beer from The Tank Brewing Co. in Miami, Florida.
 | Field | Value | Source |
 |---|---|---|
 | Style | Cuban-American Lager | [CraftBeer.com: Padron context](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry) |
-| ABV | 4.5% | [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715) |
-| IBU | not published | none found |
-| Hops | not published | none found |
-| Malts and grains | not published | none found |
-| Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published | none found |
-| Other | not published | none found |
+| ABV | 4.5% | [Untappd (hand-read citation): Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715) |
+| IBU | Not Found | Not Found |
+| Hops | Not Found | Not Found |
+| Malts and grains | Not Found | Not Found |
+| Yeast | Not Found | Not Found |
+| Adjuncts, fruit, spices | Not Found | Not Found |
+| Other | Not Found | Not Found |
 
 ## brewery-description
 
 > This flavorful and easy-drinking golden lager is brewed for our local community.
 
-Source: [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
+Source: [Untappd (hand-read citation): Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -174,17 +174,17 @@ Nothing about the ingredients is published on any page that could be read.
 
 ## hop-profile
 
-No hop variety is published for this beer.
+Not Found
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
-| Process | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
+| Process | Not Found | Not Found |
 
 ## style-context
 
@@ -212,13 +212,13 @@ Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](ht
 
 - [The Tank Brewing Co.](https://thetankbrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
-- [Untappd: Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
+- [Untappd (hand-read citation): Padron](https://untappd.com/b/the-tank-brewing-co-padron/4079715)
 - [CraftBeer.com: Padron context](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry)
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes.
-- Not published: IBU. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes.
+- Not Found: IBU. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85).
 
 ## research-notes
 

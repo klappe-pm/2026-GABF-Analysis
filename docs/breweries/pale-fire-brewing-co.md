@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/072-irish-style-red-ale-2-pale-fire-brewing-co-red-molly.md"
 brewery-type: null
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Harrisonburg"
 employees: null
 farms-named: []

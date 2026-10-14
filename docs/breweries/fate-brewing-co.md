@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "American Sour Ale"
-  - "International-Style Amber Lager"
+  - "International Amber Lager"
 city: "Scottsdale"
 employees: null
 farms-named: []

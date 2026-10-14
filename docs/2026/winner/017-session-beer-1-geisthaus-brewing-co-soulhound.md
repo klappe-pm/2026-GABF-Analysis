@@ -112,7 +112,7 @@ Soulhound is a low alcohol Czech pale lager brewed entirely from floor malted Ha
 |---|---|---|
 | Style | Czech-style Light Lager | [Geisthaus: home page beer list](https://www.geisthausbeer.com/) |
 | ABV | 3.2% | [Geisthaus: home page beer list](https://www.geisthausbeer.com/) |
-| IBU | not published | none found |
+| IBU | Not Found | Not Found |
 | Hops | Czech Saaz (kettle and whirlpool) | [Geisthaus: home page beer list](https://www.geisthausbeer.com/) |
 | Malts and grains | 100% Admiral Maltings Haná malt | [Geisthaus: home page beer list](https://www.geisthausbeer.com/) |
 | Yeast | House lager yeast | [Geisthaus: home page beer list](https://www.geisthausbeer.com/) |
@@ -127,7 +127,7 @@ Source: [Geisthaus: home page beer list](https://www.geisthausbeer.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+Not Found
 
 ## ingredients
 
@@ -137,16 +137,16 @@ The grist is a single malt, Haná heritage barley floor malted by Admiral Maltin
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Czech Saaz | Saaz | not published | kettle and whirlpool | not published | [geisthausbeer.com](https://www.geisthausbeer.com/) |
+| Czech Saaz | Saaz | Not Found | kettle and whirlpool | Not Found | [geisthausbeer.com](https://www.geisthausbeer.com/) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
-| Original gravity | not published | none found |
-| Final gravity | not published | none found |
-| Water | not published | none found |
+| Color (SRM) | Not Found | Not Found |
+| Original gravity | Not Found | Not Found |
+| Final gravity | Not Found | Not Found |
+| Water | Not Found | Not Found |
 | Process | Fermented cool with the house lager yeast, spunded for natural carbonation, and lagered cold for weeks in horizontal tanks | [geisthausbeer.com](https://www.geisthausbeer.com/) |
 
 ## style-context
@@ -180,8 +180,8 @@ Links checked 2026-10-14: [Website](https://www.geisthausbeer.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Adjuncts, Water. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes.
-- Not published: IBU. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Adjuncts, Water. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [geisthausbeer.com](https://www.geisthausbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

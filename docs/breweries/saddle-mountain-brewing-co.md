@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "Experimental Beer"
-  - "Scottish-Style Ale"
+  - "Scottish Ale"
 city: "Goodyear"
 employees: null
 farms-named: []

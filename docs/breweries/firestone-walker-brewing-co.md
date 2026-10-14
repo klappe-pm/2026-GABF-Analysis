@@ -25,9 +25,9 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "English Mild or Bitter"
-  - "English-Style Pale Ale"
+  - "English Pale Ale"
   - "International Light Lager"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
   - "Sweet Stout or Cream Stout"
 city: "Paso Robles"
 employees: null

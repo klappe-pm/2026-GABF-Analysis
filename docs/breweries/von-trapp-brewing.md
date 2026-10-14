@@ -23,9 +23,9 @@ beers-2026:
   - "../2026/winner/058-munich-style-dunkel-1-von-trapp-brewing-dunkel.md"
 brewery-type: "micro"
 categories-won:
-  - "Czech-Style Pale Lager"
-  - "Munich-Style Dunkel"
-  - "Munich-Style Helles"
+  - "Czech Pale Lager"
+  - "Munich Dunkel"
+  - "Munich Helles"
 city: "Stowe"
 employees: null
 farms-named: []

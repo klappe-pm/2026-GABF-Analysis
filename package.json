@@ -14,6 +14,7 @@
     "import-csv": "node scripts/import-results-csv.mjs",
     "styles": "node scripts/import-style-guidelines.mjs",
     "enrich": "node scripts/enrich-breweries.mjs",
+    "scrape": "node scripts/scrape-brewery-sites.mjs",
     "build": "node scripts/brand/build.mjs && node scripts/build-site.mjs",
     "winner-db": "node scripts/build-winner-db.mjs 2026",
     "generate": "node scripts/brand/build.mjs && npm run winner-db && node scripts/build-chart-gallery.mjs && node scripts/build-standalone.mjs",

@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/091-new-zealand-style-india-pale-ale-1-8-bit-brewing-co-no-fly-zone.md"
 brewery-type: "brewpub"
 categories-won:
-  - "New Zealand-Style India Pale Ale"
+  - "New Zealand India Pale Ale"
 city: "Murrieta"
 employees: null
 farms-named: []
