@@ -39,6 +39,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "ibu"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -47,6 +56,15 @@ gaps:
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "srm"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -54,6 +72,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "og"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -61,6 +88,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "fg"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -68,6 +104,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "hops"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -75,6 +120,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "hop-form"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -82,6 +136,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "hop-use"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -89,6 +152,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "lot-or-farm"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -96,6 +168,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "malts"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -103,6 +184,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "yeast"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -110,6 +200,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
   - field: "water"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -117,6 +216,15 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://kulshanbrewing.com/sitemap.xml"
+      - "https://kulshanbrewing.com/wp-sitemap.xml"
+      - "https://kulshanbrewing.com/beer"
+      - "https://kulshanbrewing.com/Shop"
+      - "https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/"
+      - "https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E"
+      - "https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street"
 hop-profile: []
 hops: []
 ibu: null
@@ -227,8 +335,8 @@ Links checked 2026-10-14: [Website](https://kulshanbrewing.com/), [Instagram](ht
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
-- Not Found: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, [kulshanbrewing.com](https://kulshanbrewing.com/sitemap.xml), [kulshanbrewing.com](https://kulshanbrewing.com/wp-sitemap.xml), [kulshanbrewing.com](https://kulshanbrewing.com/beer), [kulshanbrewing.com](https://kulshanbrewing.com/Shop), [washingtonbeerblog.com](https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/), [kiro7.com](https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E), [cascadiadaily.com](https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/), [washingtonbeerblog.com](https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/), [toasttab.com](https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street).
+- Not Found: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [kulshanbrewing.com](https://kulshanbrewing.com/sitemap.xml), [kulshanbrewing.com](https://kulshanbrewing.com/wp-sitemap.xml), [kulshanbrewing.com](https://kulshanbrewing.com/beer), [kulshanbrewing.com](https://kulshanbrewing.com/Shop), [washingtonbeerblog.com](https://washingtonbeerblog.com/new-beers-from-kulshan-brewing/), [kiro7.com](https://www.kiro7.com/news/local/washington-takes-14-wins-great-american-beer-festival/BOZCZFE6ONC2NNIWTYL4PABW4E), [cascadiadaily.com](https://www.cascadiadaily.com/2022/oct/19/beer-awards-and-halloween-haunts/), [washingtonbeerblog.com](https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/), [toasttab.com](https://www.toasttab.com/local/order/kulshan-brewing-roosevelt-1538-kentucky-street).
 
 ## research-notes
 
@@ -239,3 +347,5 @@ Links checked 2026-10-14: [Website](https://kulshanbrewing.com/), [Instagram](ht
 - Researched 2026-10-13.
 - Field pass 2026-10-13: IBU and hop focused searches found brewery award coverage and activity without specifications. A BeerMenus focused search supplied no matching new specification source; Short's Cup A Joe is unrelated.
 - Deep dive pass 2026-10-14: the tap list lists it as a nitro pour at 4.2%; the beer lineup page has no further detail.
+- Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery tap list, Washington press search): found nothing new; 6 pages tried. Tap list re-read shows only 'Nitro: Cuppa Joe Coffee Brown Ale 4.2%-' with no roaster, ingredients or tasting notes. Kiro7 confirms an earlier GABF gold but gives no year or specs. Nothing new for any empty field.

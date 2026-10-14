@@ -39,6 +39,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -47,6 +52,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -55,6 +65,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -63,6 +78,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -71,6 +91,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -79,6 +104,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -87,6 +117,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -95,6 +130,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -103,6 +143,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
@@ -111,6 +156,11 @@ gaps:
       - "https://www.beermenus.com/beers/402809-93-octane-turbo"
       - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
       - "web searches recorded in the research notes"
+      - "https://93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/sitemap.xml"
+      - "https://www.93octanebrewery.com/wp-sitemap.xml"
+      - "https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144"
+      - "https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks"
 hop-profile: []
 hops: []
 ibu: 15
@@ -223,7 +273,7 @@ Links checked 2026-10-14: [Website](https://www.93octanebrewery.com/), [Instagra
 
 ## gaps
 
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes, [93octanebrewery.com](https://93octanebrewery.com/sitemap.xml), [93octanebrewery.com](https://www.93octanebrewery.com/sitemap.xml), [93octanebrewery.com](https://www.93octanebrewery.com/wp-sitemap.xml), [podimo.com](https://podimo.com/en/shows/crafty-brewers-tales-behind-craft-beer/episode/419bd977-6129-559f-99c7-8f4ec98a9144), [karlgdb.substack.com](https://karlgdb.substack.com/p/93-octane-to-elmhurst-plus-this-weeks).
 
 ## research-notes
 
@@ -234,3 +284,5 @@ Links checked 2026-10-14: [Website](https://www.93octanebrewery.com/), [Instagra
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Turbo listing publishes 15 IBU and names no hop varieties.
 - Deep dive pass 2026-10-14: the brewery beer page names the coffee roaster (Modest Coffee) but no hops, malts or yeast.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery beer menu page, brewer podcast episode listing, BeerMenus brewery page): found nothing new; 4 pages tried. Brewery page names only craft brewed Modest Coffee, no malts, hops or yeast. The April 2026 Crafty Brewers podcast with head brewer Alex Makowski has a chapter titled 'Crafting the Perfect Coffee Porter' and mentions cold extraction coffee and flaked oats as topics, but the listing does not tie either to Turbo, so nothing is recorded; the full audio was not available to read.

@@ -38,6 +38,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "tasting-notes"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -47,6 +54,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "abv"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -56,6 +70,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "ibu"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -65,6 +86,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "srm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -74,6 +102,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "og"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -83,6 +118,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "fg"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -92,6 +134,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "hops"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -101,6 +150,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "hop-form"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -110,6 +166,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "hop-use"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -119,6 +182,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "lot-or-farm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -128,6 +198,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "malts"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -137,6 +214,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "yeast"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -146,6 +230,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "water"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -155,6 +246,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
   - field: "process"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -164,6 +262,13 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://sandiegobeer.news/?p=2127"
 hop-profile: []
 hops: []
 ibu: null
@@ -268,8 +373,8 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer.
-- Not Found: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/wp-sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.website.xml), [web page](https://sandiegobeer.news/?p=2194), [prismnews.com](https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup), [web page](https://sandiegobeer.news/?p=4956), [web page](https://sandiegobeer.news/?p=2127).
+- Not Found: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/wp-sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.website.xml), [web page](https://sandiegobeer.news/?p=2194), [prismnews.com](https://www.prismnews.com/hobbies/homebrewing/california-breweries-win-68-medals-at-2026-world-beer-cup), [web page](https://sandiegobeer.news/?p=4956), [web page](https://sandiegobeer.news/?p=2127), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -280,3 +385,5 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The search index describes Stay Calm with 5.2% ABV and 20 IBU, but the opened taproom menu omits the beer. The indexed figures were not accepted; ABV and IBU remain null. No hop names or new brewery beer page were found.
 - Deep dive pass 2026-10-14: the tap list does not list Stay Calm and a web search found no description or recipe.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web search of press and brewery coverage (no brewery social post, release note, sell sheet or menu surfaced)): found nothing new; 4 pages tried. Nothing new found. Search results only confirm the World Beer Cup silver for Stay Calm; no brewery text, specs or ingredients were returned. A search-index 5.2% ABV and 20 IBU seen by an earlier pass was not re-sourced.

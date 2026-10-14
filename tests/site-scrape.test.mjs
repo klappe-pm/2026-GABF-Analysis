@@ -105,3 +105,10 @@ test('hop details fill blank form, use and farm, and add a named hop', () => {
   assert.equal(hp.find((h) => h.published === 'Citra').variety, 'Citra');
   assert.deepEqual(splitDoc(res.text).data.hops.sort(), ['Azacca', 'BRU-1', 'Citra']);
 });
+
+test('an upper bound is not taken as the beer ABV', () => {
+  assert.equal(extractFields('<h1>Conehead Zero</h1><p>Less than 0.5% ABV</p>').abv, undefined);
+  assert.equal(extractFields('<h1>Conehead Zero</h1><ul><li>ABV: <0.5%</li></ul>').abv, undefined);
+  assert.equal(extractFields('<h1>Conehead Zero</h1><p>0.5% ABV or less</p>').abv, undefined);
+  assert.equal(extractFields('<h1>Conehead Zero</h1><p>5.2% ABV</p>').abv, 5.2);
+});

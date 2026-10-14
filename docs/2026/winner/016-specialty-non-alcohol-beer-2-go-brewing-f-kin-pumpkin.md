@@ -46,6 +46,16 @@ gaps:
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "srm"
     sources-checked:
       - "https://gobrewing.com/"
@@ -53,6 +63,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "og"
     sources-checked:
       - "https://gobrewing.com/"
@@ -60,6 +80,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "fg"
     sources-checked:
       - "https://gobrewing.com/"
@@ -67,6 +97,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "hops"
     sources-checked:
       - "https://gobrewing.com/"
@@ -74,6 +114,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "hop-form"
     sources-checked:
       - "https://gobrewing.com/"
@@ -81,6 +131,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "hop-use"
     sources-checked:
       - "https://gobrewing.com/"
@@ -88,6 +148,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "lot-or-farm"
     sources-checked:
       - "https://gobrewing.com/"
@@ -95,6 +165,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "yeast"
     sources-checked:
       - "https://gobrewing.com/"
@@ -102,6 +182,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "water"
     sources-checked:
       - "https://gobrewing.com/"
@@ -109,6 +199,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
   - field: "process"
     sources-checked:
       - "https://gobrewing.com/"
@@ -116,6 +216,16 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "https://gobrewing.com/sitemap.xml"
+      - "https://gobrewing.com/wp-sitemap.xml"
+      - "https://gobrewing.com/sitemap_agentic_discovery.xml"
+      - "https://gobrewing.com/products/"
+      - "https://gobrewing.com/collections/electrolyte-water"
+      - "https://www.nombase.com/companies/go-brewing"
+      - "https://napervillemagazine.com/new-brew/"
+      - "https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp"
+      - "https://lps.pagedeck.com/brand/gobrewing.com/collections-beers"
+      - "https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report"
 hop-profile: []
 hops: []
 ibu: null
@@ -225,8 +335,8 @@ Links checked 2026-10-14: [Website](https://gobrewing.com/), [Instagram](https:/
 
 ## gaps
 
-- Not Found: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [gobrewing.com](https://gobrewing.com/sitemap.xml), [gobrewing.com](https://gobrewing.com/wp-sitemap.xml), [gobrewing.com](https://gobrewing.com/sitemap_agentic_discovery.xml), [gobrewing.com](https://gobrewing.com/products/), [gobrewing.com](https://gobrewing.com/collections/electrolyte-water), [nombase.com](https://www.nombase.com/companies/go-brewing), [napervillemagazine.com](https://napervillemagazine.com/new-brew/), [fox6now.com](https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp), [lps.pagedeck.com](https://lps.pagedeck.com/brand/gobrewing.com/collections-beers), [brewbound.com](https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, [gobrewing.com](https://gobrewing.com/sitemap.xml), [gobrewing.com](https://gobrewing.com/wp-sitemap.xml), [gobrewing.com](https://gobrewing.com/sitemap_agentic_discovery.xml), [gobrewing.com](https://gobrewing.com/products/), [gobrewing.com](https://gobrewing.com/collections/electrolyte-water), [nombase.com](https://www.nombase.com/companies/go-brewing), [napervillemagazine.com](https://napervillemagazine.com/new-brew/), [fox6now.com](https://www.fox6now.com/news/non-alcoholic-beers-at-go-brewing.amp), [lps.pagedeck.com](https://lps.pagedeck.com/brand/gobrewing.com/collections-beers), [brewbound.com](https://www.brewbound.com/pr/2024/11/14/go-brewing-announces-distribution-at-wegmans-awardwinning-nonalcoholic-beers-to-hit-store-shelves-in-november/report).
 
 ## research-notes
 
@@ -236,3 +346,5 @@ Links checked 2026-10-14: [Website](https://gobrewing.com/), [Instagram](https:/
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing gives N/A IBU and names no hops. It reports 0.4% ABV against the existing brewery 0.39%; the existing value is retained.
 - Deep dive pass 2026-10-14: the brewery product page lists ingredients (water, malted barley, pumpkin puree, lactose, cinnamon, nutmeg, clove, allspice, ginger, yeast), a brown ale base, 0.39% ABV and tasting notes; it names no hop and no yeast strain.
+- Brewery site scrape 2026-10-14: found nothing new; 8 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site; press quoting the brewery): found nothing new; 6 pages tried. Product page confirms existing values; no hops, IBU, yeast strain or process for this beer. Naperville Magazine describes a general Go Brewing shortened-fermentation approach, not stated for this beer, so it is not recorded. Second round: Naperville Magazine describes a general Go Brewing method of shortened fermentation that arrests alcohol formation, with head brewer James Bigler; it is brewery-wide, not stated for this beer, so not recorded. No pumpkin-specific release post, hops or yeast strain found; the distributor sheet page returned 429.

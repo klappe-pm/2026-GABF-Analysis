@@ -43,6 +43,15 @@ gaps:
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "srm"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -51,6 +60,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "og"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -59,6 +77,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "fg"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -67,6 +94,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "hop-form"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -75,6 +111,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "hop-use"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -83,6 +128,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "lot-or-farm"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -91,6 +145,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "malts"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -99,6 +162,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "yeast"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -107,6 +179,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
   - field: "water"
     sources-checked:
       - "https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/"
@@ -115,6 +196,15 @@ gaps:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup"
+      - "https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/"
+      - "https://thedailypour.com/?p=131895"
+      - "https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp"
 hop-profile:
   - published: "Millenium"
     variety: "Millennium"
@@ -245,8 +335,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: IBU. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes.
+- Not Found: IBU. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [gooseisland.com](https://www.gooseisland.com/sitemap.xml), [gooseisland.com](https://www.gooseisland.com/wp-sitemap.xml), [gooseisland.com](https://www.gooseisland.com/taproom), [gooseisland.com](https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug), [gooseisland.com](https://www.gooseisland.com/beers/312-wheat-ale), [brewbound.com](https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup), [beeronaut.com](https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/), [thedailypour.com](https://thedailypour.com/?p=131895), [insidehook.com](https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bevinfogroup.com](https://bevinfogroup.com/2025/07/23/goose-island-2025-bourbon-county-stout-beer/), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-proprietor-s-stout-2025/6455427/photos), [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/sitemap.xml), [gooseisland.com](https://www.gooseisland.com/wp-sitemap.xml), [gooseisland.com](https://www.gooseisland.com/taproom), [gooseisland.com](https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug), [gooseisland.com](https://www.gooseisland.com/beers/312-wheat-ale), [brewbound.com](https://www.brewbound.com/news/going-nuts-goose-island-shares-2025-bourbon-county-brand-stout-lineup), [beeronaut.com](https://www.beeronaut.com/2025/11/04/bourbon-county-stout-preview-2025/), [thedailypour.com](https://thedailypour.com/?p=131895), [insidehook.com](https://www.insidehook.com/beer/goose-island-announces-2025-bourbon-county-stout-lineup/amp).
 
 ## research-notes
 
@@ -257,3 +347,5 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact 2025 Proprietor's Stout listing gives N/A IBU; no numeric bitterness was found. Other vintages and Proprietor's Barleywine were excluded.
 - Deep dive pass 2026-10-14: the brewery page's tasting notes and finishing process are recorded; it prints the hops as "Millenium/Alchemy", kept as published with Millennium as the variety name. No malt, yeast or IBU is given.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery beer page, trade press and tasting coverage): found nothing new; 5 pages tried. Brewery page prints the hops as 'Millenium/Alchemy' and lists no malts, yeast, IBU, SRM, gravity or water. Hop names recorded in hop-profile (form, use and farm not stated). Press (Brewbound 403) added only a baklava concept and reviewer tasting notes, which are not the brewery's words.

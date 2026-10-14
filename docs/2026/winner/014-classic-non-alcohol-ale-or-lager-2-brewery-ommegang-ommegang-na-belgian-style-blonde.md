@@ -39,6 +39,12 @@ gaps:
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -46,6 +52,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -53,6 +65,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -60,6 +78,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -67,6 +91,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -74,6 +104,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -81,6 +117,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -88,6 +130,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -95,6 +143,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -102,6 +156,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -109,6 +169,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664"
@@ -116,6 +182,12 @@ gaps:
       - "https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/"
       - "https://www.ommegang.com/limited-release/"
       - "web searches recorded in the research notes"
+      - "https://www.ommegang.com/sitemap_index.xml"
+      - "https://www.ommegang.com/sitemap.xml"
+      - "https://www.ommegang.com/wp-sitemap.xml"
+      - "https://www.ommegang.com/our-beers/"
+      - "https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/"
+      - "https://qz.com/best-non-alcoholic-beers-2026"
 hop-profile: []
 hops: []
 ibu: 12
@@ -226,8 +298,8 @@ Links checked 2026-10-14: [Website](https://www.ommegang.com/), [Instagram](http
 
 ## gaps
 
-- Not Found: ABV. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes.
+- Not Found: ABV. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [ommegang.com](https://www.ommegang.com/sitemap_index.xml), [ommegang.com](https://www.ommegang.com/sitemap.xml), [ommegang.com](https://www.ommegang.com/wp-sitemap.xml), [ommegang.com](https://www.ommegang.com/our-beers/), [mybeerbuzz.com](https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/), [qz.com](https://qz.com/best-non-alcoholic-beers-2026).
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/brewery-ommegang-non-alcoholic-belgian-blonde-ale/6550664), [ommegang.com](https://www.ommegang.com/), [ommegang.com](https://www.ommegang.com/beerinfo/non-alcoholic-belgian-style-blonde-ale/), [ommegang.com](https://www.ommegang.com/limited-release/), web searches recorded in the research notes, [ommegang.com](https://www.ommegang.com/sitemap_index.xml), [ommegang.com](https://www.ommegang.com/sitemap.xml), [ommegang.com](https://www.ommegang.com/wp-sitemap.xml), [ommegang.com](https://www.ommegang.com/our-beers/), [mybeerbuzz.com](https://mybeerbuzz.com/beer-industry/breweries/brewery-ommegang-adding-non-alcoholic-belgian-style-blonde/), [qz.com](https://qz.com/best-non-alcoholic-beers-2026).
 
 ## research-notes
 
@@ -238,3 +310,5 @@ Links checked 2026-10-14: [Website](https://www.ommegang.com/), [Instagram](http
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd page names no hop varieties and lists 0.5% ABV against the existing brewery less than 0.5% bound. No measured alcohol value was established; ABV remains null.
 - Deep dive pass 2026-10-14: the brewery page gives tasting notes, color, under 0.5% ABV and 12 IBU; no hops, malts or yeast.
+- Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site; trade press quoting the brewery): found nothing new; 4 pages tried. Brewery page lists availability Winter '26 and 'Drink Fresh!' but no hops, malts, yeast or process; the 2025 My BeerBuzz announcement only calls it a near beer with natural flavors under 0.5% ABV. Second round: searches for a brewer interview, release news and process found only the 2025 My BeerBuzz note; the Ommegang page itself lists availability Winter '26 and 'Drink Fresh!' with no hops, malts, yeast or process.

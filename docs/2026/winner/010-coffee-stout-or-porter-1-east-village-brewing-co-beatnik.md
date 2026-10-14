@@ -38,6 +38,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "tasting-notes"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -47,6 +53,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "srm"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -56,6 +68,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "og"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -65,6 +83,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "fg"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -74,6 +98,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "hops"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -83,6 +113,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "hop-form"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -92,6 +128,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "hop-use"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -101,6 +143,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "lot-or-farm"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -110,6 +158,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "malts"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -119,6 +173,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "yeast"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -128,6 +188,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "water"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -137,6 +203,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
   - field: "process"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -146,6 +218,12 @@ gaps:
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
+      - "https://eastvillagebrew.com/sitemap.xml"
+      - "https://eastvillagebrew.com/wp-sitemap.xml"
+      - "https://eastvillagebrew.com/sitemap.website.xml"
+      - "https://sandiegobeer.news/?p=2194"
+      - "https://sandiegobeer.news/?p=4956"
+      - "https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout"
 hop-profile: []
 hops: []
 ibu: 20
@@ -250,7 +328,7 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter, [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/wp-sitemap.xml), [eastvillagebrew.com](https://eastvillagebrew.com/sitemap.website.xml), [web page](https://sandiegobeer.news/?p=2194), [web page](https://sandiegobeer.news/?p=4956), [brewbound.com](https://www.brewbound.com/news/coronado-brewing-release-early-bird-cold-brew-milk-stout).
 
 ## research-notes
 
@@ -260,3 +338,5 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The taproom menu names Beatnik from East Village and publishes 6.3% ABV and 20 IBU. No named hops or new brewery beer page were found.
 - Deep dive pass 2026-10-14: the tap list does not name Beatnik and a web search found no description or recipe.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web search of press and social-oriented queries): found nothing new; 3 pages tried. No page names Beatnik. A Coronado Brewing coffee stout with Bird Rock coffee is a different brewery's beer and was excluded.
