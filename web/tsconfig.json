@@ -30,7 +30,7 @@
         "./review/widget-off.tsx"
       ],
       "review-settings-panel": [
-        "./review/panel-off.tsx"
+        "./components/review/settings-panel.tsx"
       ],
       "@/*": [
         "./*"

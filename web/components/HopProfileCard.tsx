@@ -17,6 +17,8 @@ export type HopCardData = {
   // `more` holds {{count}}, filled with the number of farms past the limit.
   farms: { label: string; items: { name: string; href?: string }[]; more: string };
   notDefined: string;
+  // The link to the hop's own page, on cards listed on other pages. The hop's own page leaves it out.
+  link?: { href: string; text: string };
 };
 
 export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; headingLevel?: 2 | 3 | 4 }) {
@@ -27,7 +29,7 @@ export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; 
   const shown = data.farms.items.slice(0, limit);
   const rest = data.farms.items.length - shown.length;
   return (
-    <article className={`flex w-full min-w-0 max-w-measure flex-col gap-4 p-4 medium:p-5 ${card.className}`} style={card.style}>
+    <article className={`flex w-full min-w-0 max-w-measure flex-col gap-4 p-4 medium:p-5 ${card.className}`} style={card.style} data-component="hop-profile-card">
       {card.elevated ? <md-elevation /> : null}
       <Heading className={`min-w-0 break-words text-on-surface ${typeOf(s['Name style'] ?? 'title large')}`}>{data.name}</Heading>
       <Facts items={data.facts} />
@@ -56,6 +58,7 @@ export function HopProfileCard({ data, headingLevel = 3 }: { data: HopCardData; 
           </section>
         </>
       )}
+      {data.link ? <p className="type-body-medium"><TextLink href={data.link.href}>{data.link.text}</TextLink></p> : null}
     </article>
   );
 }

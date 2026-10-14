@@ -1,5 +1,4 @@
 import type { NextConfig } from 'next';
-import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 // Static export. NEXT_BASE_PATH is the path the site is served under: empty at gabf.beer and for local
@@ -11,12 +10,6 @@ const basePath = process.env.NEXT_BASE_PATH ?? '';
 // editable in place. Every other build, the public one included, aliases the editors to a stand in
 // that only shows values, so no editing code reaches web/out.
 const review = process.env.DESIGN_REVIEW === '1';
-
-// The site frame mounts ReviewSettingsPanel through the 'review-settings-panel' alias: the real component
-// (components/review/ReviewSettingsPanel.tsx) once it is in the tree, an empty stand in until then.
-const panel = existsSync(resolve(__dirname, 'components/review/ReviewSettingsPanel.tsx'))
-  ? './components/review/ReviewSettingsPanel.tsx'
-  : './review/panel-off.tsx';
 
 // WEB_REVIEW=1 builds the feedback widget and the in place copy editor into web/out-web-review (npm run
 // web:review). Every other build aliases them to a stand in that renders nothing, so no review code reaches
@@ -37,7 +30,9 @@ const nextConfig: NextConfig = {
     root: resolve(__dirname, '..'),
     resolveAlias: {
       'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx',
-      'review-settings-panel': panel,
+      // The review settings panel (web/components/review/ReviewSettingsPanel.tsx re-exports this alias):
+      // the panel in review mode, a stand in that renders nothing everywhere else.
+      'review-settings-panel': review ? './components/review/settings-panel.tsx' : './components/review/settings-panel-off.tsx',
       'web-review': webReview ? './review/widget.tsx' : './review/widget-off.tsx',
     },
   },

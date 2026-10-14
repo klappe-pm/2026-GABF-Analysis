@@ -9,6 +9,7 @@ export function StatusChip({ label, meaning }: { label: string; meaning?: string
   const role = s['Container color'] ?? 'tertiary container';
   return (
     <span
+      data-component="status-chip"
       className="type-label-medium inline-flex min-h-6 items-center px-2"
       style={{ background: color(role), color: onColor(role), borderRadius: shape(s.Shape ?? 'small'), ...labelFace(label) }}
       title={meaning}

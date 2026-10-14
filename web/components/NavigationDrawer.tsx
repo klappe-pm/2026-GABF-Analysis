@@ -13,6 +13,7 @@ export function NavigationDrawer({ label, title, items, active, className = '', 
   return (
     <nav
       aria-label={label}
+      data-component="navigation-drawer"
       data-nav={inline ? undefined : "drawer"}
       className={`${inline ? "" : "sticky top-0 h-dvh"} shrink-0 flex-col gap-1 overflow-y-auto px-3 py-4 ${className}`}
       style={{ width: `${Number(s.Width ?? 360)}px`, maxWidth: '100%', background: color(s['Container color'] ?? 'surface container low') }}

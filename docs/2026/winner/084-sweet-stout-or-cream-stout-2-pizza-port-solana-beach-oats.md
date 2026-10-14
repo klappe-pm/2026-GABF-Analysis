@@ -30,15 +30,6 @@ description:
 entries: 42
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.pizzaport.com/"
-      - "https://www.pizzaport.com/all-beers/"
-      - "https://www.pizzaport.com/beer/oats/"
-      - "https://www.pizzaport.com/beer/seasonal/"
-      - "https://www.pizzaport.com/brewpubs/solana-beach/"
-      - "https://www.pizzaport.com/whats-on-tap/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.pizzaport.com/"
@@ -48,6 +39,7 @@ gaps:
       - "https://www.pizzaport.com/brewpubs/solana-beach/"
       - "https://www.pizzaport.com/whats-on-tap/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.pizzaport.com/"
@@ -169,7 +161,9 @@ sources:
   - "https://www.pizzaport.com/whats-on-tap/"
 srm: null
 style: "Oatmeal Stout"
-tasting-notes: null
+tasting-notes:
+  text: "Very low bitterness, low hop presence, and slight roastiness with notes of milk chocolate, chewy toffee, and of course oats."
+  source: "https://www.pizzaport.com/beer/oats/"
 water: null
 yeast: []
 ---
@@ -205,7 +199,9 @@ Source: [Pizza Port: Oats](https://www.pizzaport.com/beer/oats/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Very low bitterness, low hop presence, and slight roastiness with notes of milk chocolate, chewy toffee, and of course oats.
+
+Source: [pizzaport.com](https://www.pizzaport.com/beer/oats/)
 
 ## ingredients
 
@@ -259,8 +255,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
 - Not published: IBU. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -270,3 +266,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The dedicated brewery page supplied strength, oatmeal stout style and named grains. It does not publish numerical bitterness, hop varieties or yeast; flavor references were not treated as adjuncts.
+- Deep dive pass 2026-10-14: the brewery page's tasting words are recorded.

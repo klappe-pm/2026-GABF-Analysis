@@ -25,6 +25,8 @@ Where: the column headers of every medal table (results, brewery history, catego
 - `abv`: ABV
 - `abv_style`: ABV (style range)
 - `abv_style_value`: {{min}} to {{max}}% (style)
+- `current_value`: current published value, {{source}}, retrieved {{date}}
+- `current_value_medium`: matched on the beer name once the brewery name is dropped from its front
 - `ownership`: Ownership
 - `distribution`: Distribution
 - `notes`: Notes

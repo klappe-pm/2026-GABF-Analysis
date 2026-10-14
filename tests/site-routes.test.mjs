@@ -14,11 +14,9 @@ const PENDING = [
   '/', '/dashboards/', '/dashboards/geography/', '/dashboards/categories/', '/dashboards/breweries/', '/dashboards/economics/', '/explorer/',
   '/data/breweries.json', '/data/brewery-info.json', '/data/categories.json', '/data/estimates.json', '/data/csv/<file>',
   // breweries lane
-  '/breweries/', '/breweries/<brewery>/', '/first-time-medalists/2026/',
+  '/breweries/<brewery>/', '/first-time-medalists/2026/',
   // categories and analysis lane
   '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
-  // hops lane
-  '/hops/', '/hops/<variety>/', '/hop-farms/', '/hop-farms/<farm>/',
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).

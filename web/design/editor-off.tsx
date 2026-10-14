@@ -5,6 +5,10 @@ import type { Value } from './schema';
 
 export const REVIEW = false;
 
+export function ReviewPage({ children }: { page?: string; children: ReactNode }) {
+  return <>{children}</>;
+}
+
 export function EditableValue({ children }: { target: string; k: string; value: Value; children: ReactNode }) {
   return <>{children}</>;
 }

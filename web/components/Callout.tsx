@@ -11,7 +11,7 @@ export function Callout({ label, children, link }: { label: string; children: Re
   const card = cardSurface(s['Card style']);
   const accent = color(s['Accent color'] ?? 'tertiary');
   return (
-    <aside aria-label={label} className={`flex max-w-measure flex-col gap-2 p-4 ${card.className}`} style={{ ...card.style, borderLeft: `4px solid ${accent}` }}>
+    <aside aria-label={label} data-component="callout" className={`flex max-w-measure flex-col gap-2 p-4 ${card.className}`} style={{ ...card.style, borderLeft: `4px solid ${accent}` }}>
       {card.elevated ? <md-elevation /> : null}
       <p className="type-label-large" style={{ color: accent, ...labelFace(label) }}>{label}</p>
       <p className="type-title-medium text-on-surface">{children}</p>
