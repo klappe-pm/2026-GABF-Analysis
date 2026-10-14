@@ -6,7 +6,7 @@ import {
   argbFromHex, DynamicScheme, Hct, hexFromArgb, MaterialDynamicColors,
   SchemeContent, SchemeExpressive, SchemeFidelity, SchemeNeutral, SchemeTonalSpot, SchemeVibrant, TonalPalette,
 } from '@material/material-color-utilities';
-import { COLOR_ROLES, type ColorRole, type Settings, TYPE_ROLES, type TypeRole, typeClass, typeSizeKey } from './schema';
+import { COLOR_ROLES, type ColorRole, pageMax, type Settings, TYPE_ROLES, type TypeRole, typeClass, typeSizeKey } from './schema';
 
 const STYLES: Record<string, new (source: Hct, isDark: boolean, contrastLevel: number) => DynamicScheme> = {
   'tonal spot': SchemeTonalSpot,
@@ -129,7 +129,7 @@ export function themeVars(g: Settings): Record<string, string> {
   vars['--app-color-silver'] = String(g['Silver medal color']);
   vars['--app-color-bronze'] = String(g['Bronze medal color']);
   // Adaptive layout: the page width (none fills the window), and Material's margins per window size class.
-  vars['--app-page-max'] = !g['Page width'] || g['Page width'] === 'full' ? 'none' : String(g['Page width']);
+  vars['--app-page-max'] = pageMax(g['Page width']);
   vars['--app-margin-compact'] = `${Number(g['Compact margin'] ?? 16)}px`;
   vars['--app-margin-wide'] = `${Number(g['Wide margin'] ?? 24)}px`;
   return vars;

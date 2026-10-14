@@ -33,13 +33,13 @@ test('every spec lists its options under ## <name>-options, and the page heading
 });
 
 test('the layout settings accept full or a rem width, Material margins, and drawer or rail', () => {
-  for (const ok of ['full', '90rem', '72.5rem']) assert.equal(d.valueProblem(d.GLOBAL['Page width'], ok), null, ok);
-  for (const bad of ['80%', '1200px', '10rem', 'wide', 90]) assert.notEqual(d.valueProblem(d.GLOBAL['Page width'], bad), null, String(bad));
+  for (const ok of ['full', 'fill', 'wide', 'standard', '90rem', '72.5rem']) assert.equal(d.valueProblem(d.GLOBAL['Page width'], ok), null, ok);
+  for (const bad of ['80%', '1200px', '10rem', 'huge', 90]) assert.notEqual(d.valueProblem(d.GLOBAL['Page width'], bad), null, String(bad));
   const vars = d.themeVars(d.mergeGlobal({}, readDoc(SETTINGS).data));
   assert.equal(vars['--app-page-max'], 'none');
   assert.equal(vars['--app-margin-compact'], '16px');
   assert.equal(vars['--app-margin-wide'], '24px');
-  assert.equal(d.themeVars(d.mergeGlobal({}, { ...readDoc(SETTINGS).data, 'Page width': '90rem' }))['--app-page-max'], '90rem');
+  for (const [v, max] of [['90rem', '90rem'], ['wide', '100rem'], ['standard', '80rem'], ['fill', 'none']]) assert.equal(d.themeVars(d.mergeGlobal({}, { ...readDoc(SETTINGS).data, 'Page width': v }))['--app-page-max'], max, v);
   assert.deepEqual([...d.GLOBAL['Navigation on wide screens'].values], ['drawer', 'rail']);
 });
 
