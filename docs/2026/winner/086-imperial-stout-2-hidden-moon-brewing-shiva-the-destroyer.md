@@ -177,6 +177,10 @@ Hidden Moon Brewing is in Pittsfield, NH.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Hidden Moon Brewing](../../breweries/hidden-moon-brewing.md)
+
 ## links
 
 - [Hidden Moon Brewing](https://hiddenmoonbrewing.com/)

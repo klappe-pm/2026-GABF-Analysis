@@ -210,6 +210,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [12 West Brewing Co.](../../breweries/12-west-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://12westbrewing.com/beer-2/)

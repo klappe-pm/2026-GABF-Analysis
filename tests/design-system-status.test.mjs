@@ -32,6 +32,23 @@ test('every spec lists its options under ## <name>-options, and the page heading
   assert.match(copy, /^- `spec_link`: GitHub: \{\{name\}\} Spec$/m);
 });
 
+test('the chart card draws with Series 1 color to Series 5 color from settings.md, the same five as brand.css', () => {
+  assert.equal(Object.hasOwn(d.COMPONENTS['chart-card'], 'Series colors'), false);
+  const chart = loadSpecs().find((s) => s.dir === 'chart-card');
+  assert.equal(Object.hasOwn(chart.data, 'Series colors'), false);
+  const g = d.mergeGlobal({}, readDoc(SETTINGS).data);
+  const vars = d.themeVars(g);
+  const brand = readFileSync(resolve(WEB, '..', 'site/assets/brand.css'), 'utf8').toLowerCase();
+  d.SERIES_KEYS.forEach((k, i) => {
+    assert.equal(vars[`--app-color-series-${i + 1}`], g[k], k);
+    assert.ok(brand.includes(String(g[k]).toLowerCase()), `${k} ${g[k]} is in site/assets/brand.css`);
+  });
+  for (const r of d.seriesReport(g, d.schemeFor(g))) assert.ok(r.pass, `${r.fg} ${r.fgHex}: ${r.ratio}`);
+  const chartSrc = readFileSync(resolve(WEB, 'components/ChartCard.tsx'), 'utf8');
+  assert.doesNotMatch(chartSrc, /Series colors/);
+  assert.match(readFileSync(resolve(WEB, 'design/echarts-theme.ts'), 'utf8'), /--app-color-series-/);
+});
+
 test('the layout settings accept full or a rem width, Material margins, and drawer or rail', () => {
   for (const ok of ['full', 'fill', 'wide', 'standard', '90rem', '72.5rem']) assert.equal(d.valueProblem(d.GLOBAL['Page width'], ok), null, ok);
   for (const bad of ['80%', '1200px', '10rem', 'huge', 90]) assert.notEqual(d.valueProblem(d.GLOBAL['Page width'], bad), null, String(bad));

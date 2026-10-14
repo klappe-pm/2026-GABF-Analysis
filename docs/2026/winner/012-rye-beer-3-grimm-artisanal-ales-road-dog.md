@@ -189,6 +189,10 @@ Grimm Artisanal Ales is in Brooklyn, NY. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Grimm Artisanal Ales](../../breweries/grimm-artisanal-ales.md)
+
 ## links
 
 - [Beer page on brewery site](https://grimmales.com/beers/road-dog/)

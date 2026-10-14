@@ -235,6 +235,14 @@ White Bluffs Brewing is in Richland, WA. Brewery type in Open Brewery DB: Microb
 
 Links checked 2026-10-14: [Website](https://whitebluffsbrewing.com/), [Untappd](https://untappd.com/w/white-bluffs-brewing/10846).
 
+## related
+
+- Brewery: [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md)
+- Hop varieties: [Fuggle](../../hops/varieties/fuggle.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [White Bluffs Brewing](https://whitebluffsbrewing.com/)
@@ -255,3 +263,4 @@ Links checked 2026-10-14: [Website](https://whitebluffsbrewing.com/), [Untappd](
 - Second pass 2026-10-13: The exact White Bluffs listing supplies strength, bitterness, a farmhouse ale description and both hop varieties. No brewery product page was found.
 - Field pass 2026-10-13: Additional brewery-domain and product-page searches found no qualifying beer page. Third-party packaging and medal mentions do not supply beer-url.
 - Catalog.beer 2026-10-14: [Catalog.beer: Biere de Garde](https://catalog.beer/beer/eee12bf4-617d-4a50-be49-b1495fe54f8e) lists 6.8% ABV, 24 IBU, style "French-Style Bière de Garde" (entry last modified 2026-08-19). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

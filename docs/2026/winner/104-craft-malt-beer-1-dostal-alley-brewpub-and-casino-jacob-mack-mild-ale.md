@@ -196,6 +196,10 @@ Dostal Alley Brewpub & Casino is in Central City, CO.
 
 Links checked 2026-10-14: [Website](https://www.dostalalley.com/), [Instagram](https://www.instagram.com/dostalalley/).
 
+## related
+
+- Brewery: [Dostal Alley Brewpub & Casino](../../breweries/dostal-alley-brewpub-and-casino.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.dostalalley.com/brewery)

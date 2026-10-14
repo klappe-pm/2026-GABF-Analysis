@@ -185,6 +185,10 @@ Bull & Bush Brewery is in Denver, CO.
 
 Links checked 2026-10-14: [Website](https://bullandbush.com/), [Instagram](https://www.instagram.com/bullandbushbrewery/).
 
+## related
+
+- Brewery: [Bull & Bush Brewery](../../breweries/bull-and-bush-brewery.md)
+
 ## links
 
 - [Bull & Bush: beer menu](https://bullandbush.com/pages/menu)

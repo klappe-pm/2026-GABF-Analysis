@@ -200,6 +200,11 @@ Allagash Brewing Co. is in Portland, ME.
 
 Links checked 2026-10-14: [Website](https://www.allagash.com/), [Instagram](https://www.instagram.com/allagashbrewing/).
 
+## related
+
+- Brewery: [Allagash Brewing Co.](../../breweries/allagash-brewing-co.md)
+- Hop varieties: [Crystal](../../hops/varieties/crystal.md), [Saaz](../../hops/varieties/saaz.md), [Nugget](../../hops/varieties/nugget.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.allagash.com/beer/white/)

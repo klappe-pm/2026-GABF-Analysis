@@ -13,6 +13,7 @@ import { createRequire } from 'node:module';
 import { dirname, resolve } from 'node:path';
 import { build as bundle, transform } from 'esbuild';
 import { ROOT, SITE, parseArgs } from './lib/paths.mjs';
+import { inlineBrandCss } from './brand/build.mjs';
 import { categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { aboutHtml, buildPayload, profileCard, renderMarkdownBody } from './build-site.mjs';
@@ -96,8 +97,9 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
 
   const app = await bundle({ entryPoints: [resolve(SITE, 'assets', 'dashboards.js')], bundle: true, format: 'iife', minify: true, write: false, target: 'es2020', legalComments: 'none' });
   const init = (await transform(`${readFileSync(resolve(SITE, 'assets', 'echarts-init.js'), 'utf8')}\n${readFileSync(resolve(SITE, 'assets', 'page.js'), 'utf8')}`, { minify: true, target: 'es2020' })).code;
-  // brand.css (generated from the design settings) defines every color styles.css uses.
-  const styles = `${readFileSync(resolve(SITE, 'assets', 'brand.css'), 'utf8')}\n${readFileSync(resolve(SITE, 'assets', 'styles.css'), 'utf8')}`;
+  // brand.css (generated from the design settings) defines every color and face styles.css uses; the
+  // fonts are embedded so the file stays single.
+  const styles = `${inlineBrandCss()}\n${readFileSync(resolve(SITE, 'assets', 'styles.css'), 'utf8')}`;
   const echarts = readFileSync(require.resolve('echarts/dist/echarts.min.js'), 'utf8');
   const geo = readFileSync(geoPath, 'utf8').trim();
 

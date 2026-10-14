@@ -210,6 +210,10 @@ Local Time Brewing is in Holly Springs, NC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Local Time Brewing](../../breweries/local-time-brewing.md)
+
 ## links
 
 - [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing)

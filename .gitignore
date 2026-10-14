@@ -1,5 +1,10 @@
 node_modules/
 dist/
+_site/
+# Build outputs that only feed the deploy: npm run generate rebuilds them, CI builds them for every run.
+/gabf-dashboard.html
+/gabf-explorer.html
+/docs/design/chart-gallery/index.html
 dist-hosted/
 dist-review/
 data/raw/*.pdf
@@ -18,7 +23,7 @@ CLAUDE.md
 web/.next/
 web/out/
 web/*.tsbuildinfo
-breweries/
+/breweries/
 .docs/feedback/
 web/public/design-settings/
 web/out-review/

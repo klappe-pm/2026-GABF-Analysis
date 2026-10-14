@@ -214,6 +214,10 @@ Bent Barley Brewing Co. is in Aurora, CO.
 
 Links checked 2026-10-14: [Website](https://www.bentbarley.com/).
 
+## related
+
+- Brewery: [Bent Barley Brewing Co.](../../breweries/bent-barley-brewing-co.md)
+
 ## links
 
 - [Bent Barley: taproom menu](https://untappd.com/v/bent-barley-brewing-company/8302340)

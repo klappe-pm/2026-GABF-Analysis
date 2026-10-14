@@ -211,6 +211,10 @@ Henceforth is in Washington, DC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Henceforth](../../breweries/henceforth.md)
+
 ## links
 
 - [Henceforth](https://www.henceforthdc.com/)

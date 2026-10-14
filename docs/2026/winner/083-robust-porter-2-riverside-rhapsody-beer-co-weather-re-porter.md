@@ -221,6 +221,10 @@ Riverside Rhapsody Beer Co. is in Asheville, NC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Riverside Rhapsody Beer Co.](../../breweries/riverside-rhapsody-beer-co.md)
+
 ## links
 
 - [Untappd: Weather RePorter](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309)

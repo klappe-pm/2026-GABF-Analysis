@@ -214,6 +214,14 @@ Armored Cow Brewing Co. is in Charlotte, NC.
 
 Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instagram](https://www.instagram.com/armoredcowbrewing/), [Untappd](https://untappd.com/Armored_Cow_Brewing_).
 
+## related
+
+- Brewery: [Armored Cow Brewing Co.](../../breweries/armored-cow-brewing-co.md)
+- Hop varieties: [El Dorado](../../hops/varieties/el-dorado.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Billy Goat Hop Farm](../../hops/farms/billy-goat-hop-farm.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.armoredcowbrewing.com/on-tap)

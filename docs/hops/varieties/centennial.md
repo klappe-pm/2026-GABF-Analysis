@@ -15,13 +15,46 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Centennial"
+alpha-acid-percent: "9.5 to 11.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "cherry"
+  - "lime"
+  - "Orange"
+  - "orange blossom"
+  - "pine resin"
+beta-acid-percent: "3.4 to 4.5"
+breeder: "USDA public breeding program at Washington State University"
+canonical-name: "Centennial"
+caryophyllene-percent-of-oil: "5 to 8"
+cohumulone-percent-of-alpha: "29 to 30"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "10 to 18"
 kind: "variety"
+medal-beers-2026: 4
+myrcene-percent-of-oil: "45 to 55"
 origin-country: "United States"
-program: "USDA public breeding program at Washington State University"
+owner-program: "USDA public breeding program at Washington State University"
+parentage: "3/4 Brewers Gold, 3/32 Fuggle, 1/16 East Kent Golding, 1/32 Bavarian and 1/16 unknown (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 1990
+release-year-note: "Arose from the breeding program in 1974 and was released in 1990 (John I. Haas sheet)."
 slug: "centennial"
-year-released: "1990"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Centennial.pdf"
+total-oil-ml-per-100g: "1.5 to 2.5"
+trademark: null
+us-acres-latest:
+  - "Oregon 417"
+  - "Washington 2,122"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # centennial
@@ -94,3 +127,40 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Centennial.pdf](https://www.johnihaas.com/wp-content/uploads/2020/08/MiniSpecSheets-Centennial.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [Billy Goat Hop Farm](../farms/billy-goat-hop-farm.md), CO; published as Centennial; current
+- [CLS Farms](../farms/cls-farms.md), WA; published as Centennial; 2020, current
+- [Goschie Farms](../farms/goschie-farms.md), OR; published as Centennial; 2014
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Brown Ale](../../2026/winner/081-american-brown-ale-3-second-street-brewery-brown-ale.md), bronze, American Brown Ale, by [Second Street Brewery](../../breweries/second-street-brewery.md); published as Centennial
+- [Fat Randy's IPA](../../2026/winner/027-hoppy-gluten-free-beer-3-holidaily-brewing-co-fat-randys-ipa.md), bronze, Hoppy Gluten-Free Beer, by [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md); published as Centennial
+- [Favorite Blonde Ale](../../2026/winner/026-classic-gluten-free-ale-or-lager-3-holidaily-brewing-co-favorite-blonde-ale.md), bronze, Classic Gluten-Free Ale or Lager, by [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md); published as Centennial
+- [Old Diablo](../../2026/winner/088-barley-wine-or-wheat-wine-3-morgan-territory-brewing-old-diablo.md), bronze, Barley Wine or Wheat Wine, by [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md); published as Centennial
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md), 2 beers
+- [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md), 1 beer
+- [Second Street Brewery](../../breweries/second-street-brewery.md), 1 beer

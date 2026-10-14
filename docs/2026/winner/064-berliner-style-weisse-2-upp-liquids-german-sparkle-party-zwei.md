@@ -211,6 +211,10 @@ UPP Liquids is in Bend, OR.
 
 Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https://www.instagram.com/uppliquids/), [Untappd](https://untappd.com/w/upp-liquids/574533).
 
+## related
+
+- Brewery: [UPP Liquids](../../breweries/upp-liquids.md)
+
 ## links
 
 - [UPP Liquids](https://www.uppliquids.com/)
@@ -231,3 +235,4 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name and Untappd searches found the official medal entry and Oregon press coverage, but no readable product specifications or brewery beer page. No figures from other German Sparkle Party beers are transferred.
 - Field pass 2026-10-13: Additional brewery-shop and technical-field searches found no exact Zwei specifications, named hops or qualifying brewery beer page. Other German Sparkle Party recipes remain excluded.
+- Deep dive pass 2026-10-14: the brewery beer page does not describe German Sparkle Party Zwei.

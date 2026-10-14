@@ -207,6 +207,10 @@ Titonka Brewing Co. is in Titonka, IA.
 
 Links checked 2026-10-14: [Website](http://titonkabrewingco.com), [Instagram](https://www.instagram.com/titonkabrewingco/), [Untappd](https://untappd.com/Titonkabrewingco).
 
+## related
+
+- Brewery: [Titonka Brewing Co.](../../breweries/titonka-brewing-co.md)
+
 ## links
 
 - [Titonka Brewing Co.](http://titonkabrewingco.com)

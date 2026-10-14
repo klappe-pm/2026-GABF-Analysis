@@ -221,6 +221,14 @@ Green Cheek Beer Co. is in Costa Mesa, CA. Brewery type in Open Brewery DB: Brew
 
 Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram](https://www.instagram.com/greencheekbeer/).
 
+## related
+
+- Brewery: [Green Cheek Beer Co.](../../breweries/green-cheek-beer-co.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Ekuanot](../../hops/varieties/ekuanot.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.greencheekbeer.com/costa-mesa/#on-tap)

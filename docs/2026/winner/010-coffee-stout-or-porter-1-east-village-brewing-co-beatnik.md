@@ -235,6 +235,10 @@ East Village Brewing Co. is in San Diego, CA.
 
 Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](https://www.instagram.com/eastvillagebrew/).
 
+## related
+
+- Brewery: [East Village Brewing Co.](../../breweries/east-village-brewing-co.md)
+
 ## links
 
 - [Untappd: East Village taproom menu](https://untappd.com/v/the-east-village-brewing-company/11471469)

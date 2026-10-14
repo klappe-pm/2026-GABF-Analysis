@@ -226,6 +226,11 @@ Morgan Territory Brewing is in Tracy, CA. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [Instagram](https://www.instagram.com/morganterritorybrewing/), [Untappd](https://untappd.com/MorganTerritoryBrewing).
 
+## related
+
+- Brewery: [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md)
+- Hop varieties: [Callista](../../hops/varieties/callista.md)
+
 ## links
 
 - [Morgan Territory Brewing](https://www.morganterritorybrewing.com/)
@@ -248,3 +253,4 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The matching listing supplies strength, bitterness and the named hop. It markets the beer as American Lager and mentions its 2026 World Beer Cup silver, linking this name to the cream ale award record. No separate cream ale version was found.
 - Field pass 2026-10-13: Additional brewery-domain and beer-page searches found third-party listings but no qualifying brewery page for Snap Shot. Previously failed brewery tap widgets were not fetched again.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

@@ -208,6 +208,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [93 Octane Brewery](../../breweries/93-octane-brewery.md)
+
 ## links
 
 - [Untappd: 93 Octane Turbo](https://untappd.com/b/93-octane-brewery-turbo/3976249)

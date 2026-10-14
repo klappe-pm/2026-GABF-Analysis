@@ -15,13 +15,44 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Crystal"
+alpha-acid-percent: "4 to 6"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Cedar"
+  - "chamomile"
+  - "myrrh"
+  - "nutmeg"
+beta-acid-percent: "5 to 6.7"
+breeder: "USDA public breeding program"
+canonical-name: "Crystal"
+caryophyllene-percent-of-oil: "4 to 8"
+cohumulone-percent-of-alpha: "20 to 26"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "18 to 24"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "40 to 65"
 origin-country: "United States"
-program: "USDA public breeding program"
+owner-program: "USDA public breeding program"
+parentage: "Triploid from Hallertauer Mittelfruh with lineage contributions from Cascade, Brewer's Gold and Early Green; half sister of Mt. Hood and Liberty (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 1993
+release-year-note: null
 slug: "crystal"
-year-released: "1993"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Crystal.pdf"
+total-oil-ml-per-100g: "0.8 to 2.1"
+trademark: null
+us-acres-latest:
+  - "Oregon 160"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # crystal
@@ -94,3 +125,33 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Crystal.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Crystal.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Allagash White](../../2026/winner/074-belgian-style-witbier-1-allagash-brewing-co-allagash-white.md), gold, Belgian-Style Witbier, by [Allagash Brewing Co.](../../breweries/allagash-brewing-co.md); published as Crystal
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Allagash Brewing Co.](../../breweries/allagash-brewing-co.md), 1 beer

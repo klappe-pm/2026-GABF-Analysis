@@ -194,6 +194,10 @@ Lucky Envelope Brewing is in Seattle, WA. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Lucky Envelope Brewing](../../breweries/lucky-envelope-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://luckyenvelopebrewing.com/currentlyontap)

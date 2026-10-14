@@ -4,6 +4,7 @@ Notable changes to GABF Analysis, newest first. Each entry links the merged pull
 
 ## Unreleased
 
+- CI and deployment rebuilt: `ci.yml` runs every gate (including the web/ build and the rendered design system audit) as the required `build` check, and `deploy.yml` publishes to GitHub Pages only after ci passes on main, queueing deploys instead of cancelling them. The Material 3 app in web/ is served at the site root with the older pages kept at their URLs (`docs/deployment.md`). `gabf-dashboard.html`, `gabf-explorer.html`, and the chart gallery are build outputs and are no longer committed. `npm run pages:dns` and `npm run pages:domain` prepare the move to gabf.beer.
 - Project README rewritten with a banner, status and data badges, quick start, pipeline overview, and honesty notes.
 - Added CONTRIBUTING, SECURITY, CODE_OF_CONDUCT (Contributor Covenant 2.1), CITATION.cff, issue forms for bugs and data corrections, a pull request template, and Dependabot for npm and GitHub Actions.
 - The prose checker allows title or sentence case headings in public facing files (README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG, PRODUCT, DESIGN, and files under .github/); every other markdown file keeps kebab case headings.

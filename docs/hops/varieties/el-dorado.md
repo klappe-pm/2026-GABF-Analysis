@@ -16,13 +16,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "El Dorado"
+alpha-acid-percent: "13 to 17"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "apricot"
+  - "mandarin"
+  - "Pear"
+  - "watermelon"
+  - "wintergreen"
+beta-acid-percent: "6.4 to 8"
+breeder: "CLS Farms, LLC (Moxee, Washington)"
+canonical-name: "El Dorado"
+caryophyllene-percent-of-oil: "6 to 8"
+cohumulone-percent-of-alpha: "28 to 33"
+farnesene-percent-of-oil: "0 to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "10 to 15"
 kind: "variety"
+medal-beers-2026: 2
+myrcene-percent-of-oil: "55 to 60"
 origin-country: "United States"
-program: "CLS Farms, LLC (Moxee, Washington)"
+owner-program: "CLS Farms, LLC (Moxee, Washington)"
+parentage: "Little information is available; believed to be derived from a neomexicanus subspecies of Humulus lupulus (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: 2010
+release-year-note: null
 slug: "el-dorado"
-year-released: "2010"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2021/05/HAAS_ElDorado-LandingPage-SpecSheet.pdf"
+total-oil-ml-per-100g: "2.5 to 3.3"
+trademark: "El Dorado (registered, per NASS and the John I. Haas sheet)"
+us-acres-latest:
+  - "Washington 434"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # el-dorado
@@ -95,3 +127,36 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2021/05/HAAS_ElDorado-LandingPage-SpecSheet.pdf](https://www.johnihaas.com/wp-content/uploads/2021/05/HAAS_ElDorado-LandingPage-SpecSheet.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [Billy Goat Hop Farm](../farms/billy-goat-hop-farm.md), CO; published as El Dorado; current
+- [CLS Farms](../farms/cls-farms.md), WA; published as El Dorado; 2020, current
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Hell Yeah](../../2026/winner/027-hoppy-gluten-free-beer-1-armored-cow-brewing-co-hell-yeah.md), gold, Hoppy Gluten-Free Beer, by [Armored Cow Brewing Co.](../../breweries/armored-cow-brewing-co.md); published as El Dorado
+- [Pure Intention](../../2026/winner/092-american-pale-ale-3-hopsaint-brewing-co-pure-intention.md), bronze, American Pale Ale, by [HopSaint Brewing Co.](../../breweries/hopsaint-brewing-co.md); published as El Dorado
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Armored Cow Brewing Co.](../../breweries/armored-cow-brewing-co.md), 1 beer
+- [HopSaint Brewing Co.](../../breweries/hopsaint-brewing-co.md), 1 beer

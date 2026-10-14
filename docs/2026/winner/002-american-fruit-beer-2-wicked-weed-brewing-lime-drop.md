@@ -210,6 +210,10 @@ Wicked Weed Brewing is in Asheville, NC. Brewery type in Open Brewery DB: Large 
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Wicked Weed Brewing](../../breweries/wicked-weed-brewing.md)
+
 ## links
 
 - [BeerAdvocate: Wicked Weed Lime Drop](https://www.beeradvocate.com/beer/profile/30581/798056/)

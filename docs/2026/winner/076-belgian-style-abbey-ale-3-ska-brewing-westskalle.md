@@ -229,6 +229,10 @@ SKA Brewing is in Durango, CO. Brewery type in Open Brewery DB: Regional brewery
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [SKA Brewing](../../breweries/ska-brewing.md)
+
 ## links
 
 - [Untappd: Westskalle](https://untappd.com/b/ska-brewing-westskalle/5733669)

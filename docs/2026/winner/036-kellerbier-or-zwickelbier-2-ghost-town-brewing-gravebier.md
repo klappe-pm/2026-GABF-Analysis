@@ -221,6 +221,10 @@ Ghost Town Brewing is in Oakland, CA. Brewery type in Open Brewery DB: Microbrew
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Ghost Town Brewing](../../breweries/ghost-town-brewing.md)
+
 ## links
 
 - [Ghost Town Brewing](https://www.ghosttownbrewing.com/)

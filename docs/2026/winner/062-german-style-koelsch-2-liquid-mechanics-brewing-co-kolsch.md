@@ -212,6 +212,10 @@ Liquid Mechanics Brewing Co. is in Lafayette, CO. Brewery type in Open Brewery D
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Liquid Mechanics Brewing Co.](../../breweries/liquid-mechanics-brewing-co.md)
+
 ## links
 
 - [Liquid Mechanics Brewing Co.](https://www.liquidmechanicsbrewing.com/)
@@ -233,3 +237,4 @@ No brewery links have been checked yet.
 - Second pass 2026-10-13: The exact Untappd page supplies the selected strength and bitterness; BeerAdvocate lists 5% ABV instead. The brewery confirms year-round availability but publishes no figures on that page, so the strength conflict remains unresolved. Flavor references are not treated as named ingredients.
 - Field pass 2026-10-13: The previously verified brewery classics page explicitly lists Kolsch and is assigned as beer-url because no dedicated page was found. Its link and source entry were already present. No hop variety was verified in additional searches.
 - Catalog.beer 2026-10-14: [Catalog.beer: Kolsch](https://catalog.beer/beer/def6d8e7-cd4b-47da-8b84-817c787e4755) lists 4.2% ABV, 16 IBU, style "German-Style Kölsch / Köln-Style Kölsch" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

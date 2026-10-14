@@ -238,6 +238,10 @@ Beachwood Blendery is in Long Beach, CA. Brewery type in Open Brewery DB: Microb
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Beachwood Blendery](../../breweries/beachwood-blendery.md)
+
 ## links
 
 - [Beachwood: 2nd and PCH beer list](https://beachwoodbrewing.com/secondpch.html)

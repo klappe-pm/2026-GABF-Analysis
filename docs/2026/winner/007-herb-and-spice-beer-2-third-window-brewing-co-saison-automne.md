@@ -173,6 +173,10 @@ Third Window Brewing Co. is in Santa Barbara, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Third Window Brewing Co.](../../breweries/third-window-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://thirdwindowbrewing.com/products/saison-automne-2026)

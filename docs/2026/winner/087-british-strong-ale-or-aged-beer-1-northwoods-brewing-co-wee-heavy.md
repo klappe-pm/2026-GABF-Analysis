@@ -173,6 +173,10 @@ Northwoods Brewing Co. is in Northwood, NH.
 
 Links checked 2026-10-14: [Untappd](https://untappd.com/NorthwoodsBrewingCo).
 
+## related
+
+- Brewery: [Northwoods Brewing Co.](../../breweries/northwoods-brewing-co.md)
+
 ## links
 
 - [Untappd: Northwoods Wee Heavy](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582)

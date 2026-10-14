@@ -227,6 +227,14 @@ Sunriver Brewing Co. is in Sunriver, OR.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Sunriver Brewing Co.](../../breweries/sunriver-brewing-co.md)
+- Hop varieties: [Cascade](../../hops/varieties/cascade.md), [Chinook](../../hops/varieties/chinook.md), [Lemondrop](../../hops/varieties/lemondrop.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [The Waterhole Tavern: beer menu](https://www.thewaterholetavern.com/menu?menu=menu)

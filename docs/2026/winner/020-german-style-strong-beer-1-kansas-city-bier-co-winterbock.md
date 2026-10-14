@@ -187,6 +187,11 @@ Kansas City Bier Co. is in Kansas City, MO. Brewery type in Open Brewery DB: Mic
 
 Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://untappd.com/KCBierCo).
 
+## related
+
+- Brewery: [Kansas City Bier Co.](../../breweries/kansas-city-bier-co.md)
+- Hop varieties: [Perle](../../hops/varieties/perle.md)
+
 ## links
 
 - [Kansas City Bier Co.](https://kcbier.com/)
