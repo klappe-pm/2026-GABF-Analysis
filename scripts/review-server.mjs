@@ -86,7 +86,12 @@ export function pipelineStatus(job, data, repo = 'klappe-pm/GABF-Analysis') {
 // `webDir` is the web review build (web/out-web-review). When given, the server serves it at the root of
 // its origin, in place of the design control plane's prototype, and tickets may carry the route the
 // reviewer was on (served: web). The /review/ endpoints are the same ones the control plane uses.
-export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild = null, env = process.env, capture = null, pipeline = null, webDir = null } = {}) {
+//
+// `design` ({ edits, capture }) adds what the review settings panel needs on the same origin: POST
+// /__design/check and /__design/edit (the design system's edit module, writing one settings key and filing
+// its ticket in the same store as the feedback tickets, so ids never collide), and the settings files, live,
+// at /design-settings/.
+export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild = null, env = process.env, capture = null, pipeline = null, webDir = null, design = null } = {}) {
   const siteDir = resolve(root, env.GABF_REVIEW_DIST || 'dist-review');
   const webRoot = webDir ? resolve(root, webDir) : null;
   const prototypeDir = resolve(root, 'docs/design/prototype');
@@ -325,6 +330,15 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
         for (const e of sourceMapEntries(root)) if (e.node && e.component) nodes[e.node.replace(/^component:/, '')] = e.component;
         return send(res, 200, { components: knownComponents(root, manifest()).map((n) => withSpec(root, n)), nodes, contentKeys: copy.map((e) => e.key) });
       }
+      if (design && req.method === 'POST' && (p === '/__design/check' || p === '/__design/edit')) {
+        try {
+          const body = await readBody(req);
+          if (p === '/__design/check') return send(res, 200, await design.edits.checkDesignEdit(body));
+          return send(res, 200, await design.edits.applyDesignEdit({ ...body, feedbackDir, sanitize, capture: design.capture }));
+        } catch (error) {
+          return send(res, 422, { problems: error.problems ?? [error.message] });
+        }
+      }
       if (p === '/review/web/screens' && req.method === 'GET') {
         const m = manifest();
         const route = url.searchParams.get('route') ?? '/';
@@ -360,6 +374,14 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       return send(res, error.problems ? 422 : 400, { error: error.message, problems: error.problems ?? [error.message] });
     }
     if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, { error: 'method not allowed' });
+    // The settings files, read live so a saved setting shows on the next load without a rebuild.
+    if (design && url.pathname.startsWith('/design-settings/') && (req.method === 'GET' || req.method === 'HEAD')) {
+      const base = resolve(root, '.design/design-system');
+      const file = normalize(join(base, decodeURIComponent(url.pathname.slice('/design-settings'.length))));
+      if (!file.startsWith(base) || extname(file) !== '.md' || !existsSync(file)) return send(res, 404, 'Not found', 'text/plain; charset=utf-8');
+      res.writeHead(200, { 'content-type': 'text/markdown; charset=utf-8', 'cache-control': 'no-store' });
+      return createReadStream(file).pipe(res);
+    }
     if (webRoot && !url.pathname.startsWith('/sketches/')) return serveWeb(res, url.pathname);
     // The prototype and the sketches, from those two directories only.
     const sketches = url.pathname.startsWith('/sketches/');

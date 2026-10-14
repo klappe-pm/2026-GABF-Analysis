@@ -1,6 +1,5 @@
 // What the review widget learns from the rendered page: a selector for a picked element, its box and
 // visible text, the design system components around it, and the copy entry that drew its words.
-import { COMPONENT_MAP } from './component-map.mjs';
 import { OPEN, parse, strip } from './markers.mjs';
 
 export const LAYER = '.gfw-root';
@@ -58,16 +57,14 @@ export function docRect(el: Element): Rect {
   return { x: Math.round(r.left + scrollX), y: Math.round(r.top + scrollY), width: Math.round(r.width), height: Math.round(r.height) };
 }
 
-// The components behind an element: every map entry that matches it or an ancestor, innermost first.
+// The components behind an element: every shared component root carries data-component="<spec name>", so
+// the names of the element and its ancestors, innermost first, are the design system components around it.
 export function componentsFor(el: Element): string[] {
   const found: string[] = [];
   for (let node: Element | null = el; node && node !== document.documentElement; node = node.parentElement) {
     if (inLayer(node)) return [];
-    for (const e of COMPONENT_MAP) {
-      let hit = false;
-      try { hit = node.matches(e.selector); } catch { hit = false; }
-      if (hit && !found.includes(e.component)) found.push(e.component);
-    }
+    const name = node.getAttribute('data-component');
+    if (name && !found.includes(name)) found.push(name);
   }
   return found;
 }

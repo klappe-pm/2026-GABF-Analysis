@@ -9,9 +9,11 @@
 import './review.css';
 import { type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { ReviewSettingsPanel } from '@/components/review/ReviewSettingsPanel';
 import { api, type ComponentInfo, keyWords, type Recorded, ReviewError, type Step, words } from './api';
 import { docRect, inLayer, scanMarks, type Spot, spotFor } from './dom';
 import { InlineEditor } from './inline-editor';
+import { copyPageFor } from './pages.mjs';
 
 const LOCAL = new Set(['127.0.0.1', 'localhost', '[::1]', '::1']);
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
@@ -333,6 +335,9 @@ function Widget() {
                 <datalist id="gfw-comp-list">{lists.map((c) => <option key={c.name} value={words(c.name)} />)}</datalist>
                 <button type="button" className="gfw-btn" onClick={addComponent}>Add</button>
               </div>
+            </div>
+            <div className="gfw-field gfw-settings">
+              <ReviewSettingsPanel page={copyPageFor(routeOf())} inline />
             </div>
             {keys.length ? (
               <div className="gfw-field">

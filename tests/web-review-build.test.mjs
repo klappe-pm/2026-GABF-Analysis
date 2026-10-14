@@ -15,7 +15,7 @@ const WEB = resolve(ROOT, 'web');
 const ready = existsSync(resolve(WEB, 'node_modules/next'));
 
 // What only the review widget, the in place editor, or the marking can leave in a page.
-const REVIEW_TRACES = ['gfw-', 'data-gfw', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', 'Open in Obsidian', 'Journey step', OPEN, SEP, CLOSE];
+const REVIEW_TRACES = ['gfw-', 'data-gfw', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', '/__design/', 'Open in Obsidian', 'Journey step', OPEN, SEP, CLOSE];
 
 function build(dist, env) {
   const full = resolve(WEB, dist);
@@ -43,8 +43,8 @@ const hits = (dir) => {
 };
 
 test('the public export contains no review code, and the review build does', { skip: !ready && 'run npm run web:install first', timeout: 600_000 }, () => {
-  const pub = build('out-test-public', { WEB_REVIEW: '' });
-  const review = build('out-test-review', { WEB_REVIEW: '1' });
+  const pub = build('out-test-public', { WEB_REVIEW: '', DESIGN_REVIEW: '' });
+  const review = build('out-test-review', { WEB_REVIEW: '1', DESIGN_REVIEW: '1' });
   try {
     const leaked = hits(pub);
     assert.deepEqual([...leaked].map(([trace, where]) => `${JSON.stringify(trace)} in ${where.slice(0, 3).join(', ')}`), [], 'the public export holds review code');
@@ -52,6 +52,7 @@ test('the public export contains no review code, and the review build does', { s
     const present = hits(review);
     assert.ok(present.has('gfw-'), 'the review build holds the widget, so the scan above could find it');
     assert.ok(present.has('/review/feedback'), 'the review build holds the endpoint the widget sends to');
+    assert.ok(present.has('/__design/'), 'the review build holds the settings panel, mounted inside the widget');
   } finally {
     rmSync(pub, { recursive: true, force: true });
     rmSync(review, { recursive: true, force: true });

@@ -7,6 +7,8 @@
 //   /review/...         the endpoints the widget uses: categories, the journey steps of a route, the
 //                       copy check, the in place copy save, and the ticket register
 //   /review/design-system/...  a read only view of the design system files the component tags link to
+//   /__design/check, /__design/edit  the review settings panel's saves, filed beside the feedback tickets
+//   /design-settings/   the settings files, live
 //
 // A ticket is written to docs/feedback/<page>/ in the pipeline format, and its screenshots are taken when
 // it is saved. The pipeline that turns a ticket into an issue and a pull request stays off unless
@@ -28,7 +30,7 @@ const WEB_DIR = 'web/out-web-review';
 // A copy change is written to the copy documents, so the review build is made again for the page to show it.
 // The server waits for it (a few seconds), so the page reloads on the new words and a second edit cannot overlap.
 const rebuild = () => {
-  execFileSync('npm', ['run', 'build', '--prefix', 'web'], { cwd: ROOT, env: { ...process.env, WEB_REVIEW: '1' }, stdio: 'ignore' });
+  execFileSync('npm', ['run', 'build', '--prefix', 'web'], { cwd: ROOT, env: { ...process.env, WEB_REVIEW: '1', DESIGN_REVIEW: '1' }, stdio: 'ignore' });
 };
 
 let sanitize;
@@ -48,7 +50,31 @@ if (process.env.GABF_FEEDBACK_PIPELINE === 'on') {
 }
 
 const capture = async (job) => captureImages({ ...job, playwright: await loadPlaywright({ root: ROOT }), executablePath: chromiumPath() });
-const server = createReviewServer({ root: ROOT, port: PORT, sanitize, capture, pipeline, webDir: WEB_DIR, rebuild });
+
+// The picture a settings ticket carries: the edited component's states, or the settings row for a site wide
+// setting, drawn on the style guide page of this same server from the files just saved.
+const edits = await import('../../scripts/design-system/edit.mjs');
+let browser = null;
+async function designCapture({ target, key, path }) {
+  const playwright = await loadPlaywright({ root: ROOT });
+  browser ??= await playwright.chromium.launch({ executablePath: chromiumPath() });
+  const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+  try {
+    await page.goto(`http://${HOST}:${PORT}/design-system/`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
+    const el = target === 'settings' ? page.locator(`tr:has([data-setting=${JSON.stringify(`settings:${key}`)}])`) : page.locator(`#component-${target}-sample`);
+    if (!(await el.count())) return false;
+    await page.evaluate(() => document.fonts.ready);
+    await el.first().scrollIntoViewIfNeeded();
+    await page.waitForTimeout(500);
+    await el.first().screenshot({ path, animations: 'disabled' });
+    return true;
+  } finally {
+    await page.close();
+  }
+}
+
+const server = createReviewServer({ root: ROOT, port: PORT, sanitize, capture, pipeline, webDir: WEB_DIR, rebuild, design: { edits, capture: designCapture } });
 server.listen(PORT, HOST, () => {
   console.log(`Web review server on http://${HOST}:${PORT}/ (bound to ${HOST} only)`);
   console.log(`  the review build: ${resolve(ROOT, WEB_DIR)}`);

@@ -1,4 +1,4 @@
-// The copy-key marking the in place editor reads, and the map from page regions to design system components.
+// The copy-key marking the in place editor reads, and the table that gives each route its copy page id.
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -6,7 +6,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { CLOSE, mark, OPEN, parse, SEP, strip, wholeKey } from '../web/review/markers.mjs';
-import { COMPONENT_MAP } from '../web/review/component-map.mjs';
+import { copyPageFor, PAGES } from '../web/review/pages.mjs';
 
 test('a marked string reads back as its text and its key', () => {
   const text = mark('global.site.header.skip_link', 'Skip to content');
@@ -43,13 +43,21 @@ test('a mark split across text nodes by markup is removed and flagged', () => {
   for (const s of [OPEN, SEP, CLOSE]) assert.ok(!a.plain.includes(s) && !b.plain.includes(s));
 });
 
-test('every component in the map is a design system component', () => {
-  const dir = resolve(ROOT, '.design/design-system/components');
-  assert.ok(COMPONENT_MAP.length > 10);
-  for (const e of COMPONENT_MAP) {
-    assert.ok(existsSync(resolve(dir, e.component)), `${e.component} has no folder under ${dir}`);
-    assert.ok(e.selector.trim().length > 0);
-  }
+test('every route in the page table names a copy page that exists', { skip: !existsSync(resolve(ROOT, '.docs/content-management-system/pages')) && 'the copy folder is not in this checkout' }, () => {
+  const dir = resolve(ROOT, '.docs/content-management-system/pages');
+  assert.ok(PAGES.length > 15);
+  for (const [route, page] of PAGES) assert.ok(existsSync(resolve(dir, `${page}.md`)), `${route} names ${page}, which has no copy file`);
+});
+
+test('a route finds its copy page, a detail route finds its detail page, and an unknown route finds none', () => {
+  assert.equal(copyPageFor('/'), 'home');
+  assert.equal(copyPageFor('/breweries/'), 'breweries-index');
+  assert.equal(copyPageFor('/breweries/green-cheek-beer-co/'), 'brewery-detail');
+  assert.equal(copyPageFor('/beers/2026/'), 'beers-index');
+  assert.equal(copyPageFor('/beers/2026/001-american-wheat-beer-1-wormtown-brewery-summer-ale/'), 'beer-detail');
+  assert.equal(copyPageFor('/hop-farms/3d-farm/#x=1'), 'hop-farm-detail');
+  assert.equal(copyPageFor('/hops/adeena/'), 'hop-detail');
+  assert.equal(copyPageFor('/nowhere/at/all/'), undefined);
 });
 
 test('the copy lookup marks only when the review build asks, and the public build never does', () => {

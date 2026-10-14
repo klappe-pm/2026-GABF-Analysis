@@ -8,7 +8,8 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { createReviewServer } from '../scripts/review-server.mjs';
-import { findTicket } from '../scripts/lib/review-store.mjs';
+import { findTicket, renderTicket } from '../scripts/lib/review-store.mjs';
+import * as edits from '../scripts/design-system/edit.mjs';
 
 async function boot() {
   const root = mkdtempSync(join(tmpdir(), 'gabf-web-review-'));
@@ -26,12 +27,16 @@ async function boot() {
   const captured = [];
   const capture = async (job) => { captured.push(job); return []; };
   const sanitize = (text) => ({ text, redacted: [] });
-  const server = createReviewServer({ root, port: 0, sanitize, capture, webDir: 'web/out-web-review', rebuild: () => {}, env: { GABF_FEEDBACK_DIR: store, GABF_CMS_DIR: join(root, 'cms') } });
+  mkdirSync(resolve(root, '.design/design-system'), { recursive: true });
+  cpSync(resolve(ROOT, '.design/design-system/settings.md'), resolve(root, '.design/design-system/settings.md'));
+  const saved = [];
+  const design = { edits: { checkDesignEdit: async (b) => ({ problems: [], echoed: b }), applyDesignEdit: async (b) => { saved.push(b); return { ok: true }; } }, capture: null };
+  const server = createReviewServer({ root, port: 0, sanitize, capture, design, webDir: 'web/out-web-review', rebuild: () => {}, env: { GABF_FEEDBACK_DIR: store, GABF_CMS_DIR: join(root, 'cms') } });
   await new Promise((done) => server.listen(0, '127.0.0.1', done));
   const base = `http://127.0.0.1:${server.address().port}`;
   const get = async (path) => { const r = await fetch(base + path); return { status: r.status, text: await r.text() }; };
   const post = async (path, body) => { const r = await fetch(base + path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }); return { status: r.status, body: await r.json() }; };
-  return { store, get, post, captured, close: () => server.close() };
+  return { store, get, post, captured, saved, base, close: () => server.close() };
 }
 
 test('the web build is served at the root, with 404.html and a 404 status for an address with no page', async () => {
@@ -92,5 +97,38 @@ test('an address that is not a path is refused, and no ticket is written', async
   try {
     const bad = await s.post('/review/feedback', { screen: 'S-27', route: 'https://elsewhere.example/', served: 'web', text: 'x' });
     assert.equal(bad.status, 400);
+  } finally { s.close(); }
+});
+
+test('the settings panel saves through the same server, and the settings files are served live', async () => {
+  const s = await boot();
+  try {
+    const checked = await s.post('/__design/check', { target: 'settings', key: 'Primary color', value: '#123456' });
+    assert.equal(checked.status, 200);
+    const edit = await s.post('/__design/edit', { target: 'settings', key: 'Primary color', value: '#123456', page: 'brewery-detail' });
+    assert.equal(edit.status, 200);
+    assert.equal(s.saved[0].page, 'brewery-detail');
+    assert.equal(s.saved[0].feedbackDir, s.store, 'settings tickets go to the store the feedback tickets use');
+    const settings = await s.get('/design-settings/settings.md');
+    assert.equal(settings.status, 200);
+    assert.equal((await s.get('/design-settings/../../package.json')).status, 404);
+    const foreign = await fetch(`${s.base}/__design/edit`, { method: 'POST', headers: { 'content-type': 'application/json', origin: 'https://elsewhere.example' }, body: '{}' });
+    assert.equal(foreign.status, 403, 'a page on another origin cannot write');
+  } finally { s.close(); }
+});
+
+test('a feedback ticket and a settings ticket share one folder without an id collision', async () => {
+  const s = await boot();
+  try {
+    const a = await s.post('/review/feedback', { screen: 'S-27', route: '/breweries/x/', served: 'web', text: 'First.' });
+    assert.equal(a.body.id, 'WI-001');
+    const plan = edits.ticketFor({ target: 'settings', key: 'Primary color', file: '.design/design-system/settings.md', old: '#111111', next: '#123456', shown: String, feedbackDir: s.store, page: 'brewery-detail' });
+    assert.equal(plan.data.id, 'WI-002', 'the settings ticket takes the next id of the shared store');
+    mkdirSync(resolve(plan.ticketFile, '..'), { recursive: true });
+    writeFileSync(plan.ticketFile, renderTicket(plan.data, plan.body));
+    const b = await s.post('/review/feedback', { screen: 'S-27', route: '/breweries/x/', served: 'web', text: 'Second.' });
+    assert.equal(b.body.id, 'WI-003');
+    assert.equal(findTicket(s.store, 'WI-002').data.page, 'brewery-detail');
+    assert.equal(findTicket(s.store, 'WI-001').data.page, findTicket(s.store, 'WI-003').data.page);
   } finally { s.close(); }
 });
