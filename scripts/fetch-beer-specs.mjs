@@ -80,7 +80,7 @@ async function main() {
       beer_name: b.beer,
       abv: h.abv === null || h.abv === undefined || Number(h.abv) === 0 ? '' : String(h.abv),
       ibu: h.ibu === null || h.ibu === undefined ? '' : String(h.ibu),
-      style: h.style ?? '',
+      style: (h.style ?? '').replace(/\s+-\s+/g, ': '),
       source_url: beerPageUrl(h.id),
       source_kind: 'catalog-beer',
       retrieved: prior?.source_url === beerPageUrl(h.id) ? prior.retrieved : today,
