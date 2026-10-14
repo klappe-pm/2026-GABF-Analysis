@@ -71,7 +71,7 @@ export default async function WinnersPage({ params }: { params: Promise<Params> 
         <p className="type-body-large max-w-measure text-on-surface-variant">{fill(raw(page('header.lede')), { year })}</p>
         <p className="type-body-large flex flex-wrap gap-x-6 gap-y-2">
           <TextLink href={href(paths.firstTime(year))}>{fill(raw(page('links.first_time')), { year })}</TextLink>
-          <TextLink href={href(paths.explorer)}>{t(page('links.explorer'))}</TextLink>
+          <TextLink href={href(paths.explore)}>{t(page('links.explorer'))}</TextLink>
         </p>
       </header>
       <WinnersTable year={year} rows={rows} copy={copy} />

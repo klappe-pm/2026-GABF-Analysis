@@ -24,6 +24,7 @@ import { Select } from '@/components/Select';
 import { StatusChip } from '@/components/StatusChip';
 import { TextLink } from '@/components/TextLink';
 import { BeerProfileCard, type BeerCardData } from '@/components/BeerProfileCard';
+import { SpecCard } from '@/components/SpecCard';
 import { HopProfileCard, type HopCardData } from '@/components/HopProfileCard';
 import { fullBeerProfile, hopProfile, hopSlug } from '@/lib/profiles';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
@@ -96,7 +97,7 @@ const cardFill = (key: string, values: Record<string, string | number>) => fill(
 function beerCardData(medalNames: Record<MedalName, string>): { data: BeerCardData; beer: string } | null {
   const b = fullBeerProfile(CARD_HOP);
   if (!b) return null;
-  const none = t('global.states.gaps.not_defined');
+  const none = t('global.labels.not_found');
   const note = b.tastingNote ?? b.description;
   return {
     beer: b.beer,
@@ -123,7 +124,7 @@ function beerCardData(medalNames: Record<MedalName, string>): { data: BeerCardDa
 
 function hopCardData(): HopCardData {
   const h = hopProfile(CARD_HOP);
-  const none = t('global.states.gaps.not_defined');
+  const none = t('global.labels.not_found');
   const pct = (r: { min: number; max: number } | null) => (r ? cardFill('range_percent', { min: fmt.one(r.min), max: fmt.one(r.max) }) : none);
   return {
     name: h.variety,
@@ -603,7 +604,17 @@ export default async function DesignSystemPage() {
                 <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.beer_card'), { beer_name: beerCard.beer })}</p>
                 <BeerProfileCard data={beerCard.data} />
               </div>
-            ) : <p className="type-body-medium text-on-surface-variant">{t('global.states.gaps.not_defined')}</p>}
+            ) : <p className="type-body-medium text-on-surface-variant">{t('global.labels.not_found')}</p>}
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'spec-card',
+      node: (
+        <Specimen name="spec-card" title={compName('spec_card')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <SpecCard id="spec-card-sample-card" title={hopCard.name} rows={hopCard.facts.map((f) => ({ label: f.label, value: f.value }))} />
           </State>
         </Specimen>
       ),
