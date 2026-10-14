@@ -92,19 +92,19 @@ export function ResultsTable({ rows, copy, caption }: { rows: MedalRow[]; copy: 
 
 type Explain = { text?: Record<string, string> };
 
-function Est({ id, metric, label, ex, copy, aboutLabel }: { id: string; metric: string; label: string; ex: Explain | undefined; copy: Copy; aboutLabel: string }) {
+function Est({ id, metric, label, ex, copy, methodLabel }: { id: string; metric: string; label: string; ex: Explain | undefined; copy: Copy; methodLabel: string }) {
   return (
     <EstimateTooltip
       id={`est-${id.replace(/[^a-z0-9]+/gi, '-')}-${metric}`}
       marker={copy.t('states.estimates.marker')}
       label={`${label}: ${copy.t('states.estimates.short')}`}
       explanation={ex?.text?.[metric] ?? copy.t('states.estimates.explanation')}
-      link={{ href: href(paths.about), text: aboutLabel }}
+      linkText={methodLabel}
     />
   );
 }
 
-export function FinancialTable({ breweries, copy, estimates, aboutLabel, caption }: { breweries: Brewery[]; copy: Copy; estimates: Record<string, Explain> | null; aboutLabel: string; caption: string }) {
+export function FinancialTable({ breweries, copy, estimates, methodLabel, caption }: { breweries: Brewery[]; copy: Copy; estimates: Record<string, Explain> | null; methodLabel: string; caption: string }) {
   const [limit, setLimit] = useState(PAGE);
   const list = useMemo(() => [...breweries].sort((a, b) => b.financials.arr_usd - a.financials.arr_usd), [breweries]);
   const col = (key: string) => copy.t(`page.economics.columns.${key}`);
@@ -122,7 +122,7 @@ export function FinancialTable({ breweries, copy, estimates, aboutLabel, caption
   const pct = (x: number) => Math.round(x * 100);
   const rows: Row[] = list.slice(0, limit).map((b) => {
     const ex = estimates?.[b.key];
-    const mark = (metric: string, label: string) => <> <Est id={b.key} metric={metric} label={label} ex={ex} copy={copy} aboutLabel={aboutLabel} /></>;
+    const mark = (metric: string, label: string) => <> <Est id={b.key} metric={metric} label={label} ex={ex} copy={copy} methodLabel={methodLabel} /></>;
     return {
       key: b.key,
       sort: { name: b.name, type: b.brewery_type, barrels: b.estimate.barrels, arr: b.financials.arr_usd, gm: b.financials.gross_margin, ebitda: b.financials.ebitda_usd, channel: b.distribution_channel, ownership: b.ownership?.type ?? '', basis: b.estimate.basis },

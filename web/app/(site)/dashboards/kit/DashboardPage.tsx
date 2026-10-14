@@ -37,7 +37,7 @@ export async function DashboardPage({ kind }: { kind: DashboardKind }) {
         active={kind}
         items={DASHBOARD_KINDS.map((k) => ({ id: k, href: href(DASHBOARD_PATHS[k]), text: t(page(`index.${k}`)) }))}
       />
-      <Dashboard kind={kind} copy={copy} tiles={m.TILES} rateYears={m.rateYears()} defaultBrewery={m.defaultBrewery()} aboutLabel={t('global.navigation.footer.about')} />
+      <Dashboard kind={kind} copy={copy} tiles={m.TILES} rateYears={m.rateYears()} defaultBrewery={m.defaultBrewery()} methodLabel={t('global.navigation.footer.method')} />
       {featured.length ? (
         <section className="flex flex-col gap-3" aria-labelledby="deep-dives-title">
           <h2 id="deep-dives-title" className="type-title-large text-on-surface">{t(page('overview.deep_dives_title'))}</h2>

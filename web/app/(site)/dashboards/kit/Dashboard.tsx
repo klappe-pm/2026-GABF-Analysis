@@ -28,7 +28,7 @@ type Props = {
   tiles: Record<string, [number, number]>;
   rateYears: { latest: number; data: number };
   defaultBrewery: string;
-  aboutLabel: string;
+  methodLabel: string;
 };
 
 type Built = ChartSpec | { empty: string } | null;
@@ -87,7 +87,7 @@ function csvOf(rows: P.MedalRow[]) {
   return [cols.join(','), ...rows.map((r) => cols.map((c) => quote(r[c])).join(','))].join('\n');
 }
 
-export function Dashboard({ kind, copy: tree, tiles, rateYears, defaultBrewery, aboutLabel }: Props) {
+export function Dashboard({ kind, copy: tree, tiles, rateYears, defaultBrewery, methodLabel }: Props) {
   const copy = useMemo(() => makeCopy(tree), [tree]);
   const { data, status, load, state, setState } = useGlobalFilter();
   usePageScope({}, []);
@@ -195,7 +195,7 @@ export function Dashboard({ kind, copy: tree, tiles, rateYears, defaultBrewery, 
           {kind === 'economics' ? (
             <section className="flex flex-col gap-3" aria-labelledby="financials-title">
               <h2 id="financials-title" className="type-title-large text-on-surface">{copy.t('page.economics.table_title')}</h2>
-              <FinancialTable breweries={(breweries ?? []).filter((b) => new Set(rows.map((r) => r.brewery_key)).has(b.key))} copy={copy} estimates={estimates} aboutLabel={aboutLabel} caption={copy.t('page.economics.table_title')} />
+              <FinancialTable breweries={(breweries ?? []).filter((b) => new Set(rows.map((r) => r.brewery_key)).has(b.key))} copy={copy} estimates={estimates} methodLabel={methodLabel} caption={copy.t('page.economics.table_title')} />
             </section>
           ) : null}
           {kind === 'geography' ? (
