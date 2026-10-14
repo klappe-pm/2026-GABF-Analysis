@@ -181,6 +181,10 @@ Great Basin Brewing Co. is in Sparks, NV. Brewery type in Open Brewery DB: Micro
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Great Basin Brewing Co.](../../breweries/great-basin-brewing-co.md)
+
 ## links
 
 - [Great Basin Brewing Co.](https://greatbasinbrewingco.com/)

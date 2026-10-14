@@ -59,6 +59,19 @@ Where: the section for medal beers that use a variety this farm grows.
 - `hops`: Hop varieties
 - `missing`: No {{year}} medal beer uses a variety this farm grows.
 
+## `breweries`
+
+Where: the breweries section.
+
+- `title`: Breweries with a {{year}} medal beer linked to this farm
+- `note`: Each brewery links to its page, with how the farm is linked.
+- `brewery`: Brewery
+- `link`: Link
+- `named`: Named by the brewery.
+- `grown`: Grown by, through a variety the brewery uses.
+- `beers`: Medal beers
+- `missing`: No brewery with a {{year}} medal beer is linked to this farm.
+
 ## `merchants`
 
 Where: the merchants table, when merchants are on record for the farm.

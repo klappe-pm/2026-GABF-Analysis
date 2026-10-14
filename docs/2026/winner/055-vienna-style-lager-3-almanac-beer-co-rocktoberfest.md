@@ -215,6 +215,10 @@ Almanac Beer Co. is in Alameda, CA. Brewery type in Open Brewery DB: Microbrewer
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Almanac Beer Co.](../../breweries/almanac-beer-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://almanacbeer.com/alameda)

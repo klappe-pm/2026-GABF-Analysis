@@ -212,6 +212,10 @@ Liquid Mechanics Brewing Co. is in Lafayette, CO. Brewery type in Open Brewery D
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Liquid Mechanics Brewing Co.](../../breweries/liquid-mechanics-brewing-co.md)
+
 ## links
 
 - [Liquid Mechanics Brewing Co.](https://www.liquidmechanicsbrewing.com/)

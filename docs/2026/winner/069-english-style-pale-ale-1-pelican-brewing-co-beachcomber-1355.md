@@ -233,6 +233,10 @@ Pelican Brewing Co. is in Tillamook, OR. Brewery type in Open Brewery DB: Region
 
 Links checked 2026-10-14: [Website](https://pelicanbrewing.com/), [Instagram](https://www.instagram.com/pelicanbrewing/), [Untappd](https://untappd.com/PelicanBrewing).
 
+## related
+
+- Brewery: [Pelican Brewing Co.](../../breweries/pelican-brewing-co.md)
+
 ## links
 
 - [Pelican Brewing Co.](https://pelicanbrewing.com/)

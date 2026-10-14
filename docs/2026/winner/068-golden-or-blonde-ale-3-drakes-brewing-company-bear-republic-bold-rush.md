@@ -202,6 +202,11 @@ Drake's Brewing Company/Bear Republic is in San Leandro, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Drake's Brewing Company/Bear Republic](../../breweries/drake-s-brewing-company-bear-republic.md)
+- Hop varieties: [Loral](../../hops/varieties/loral.md), [Vanguard](../../hops/varieties/vanguard.md)
+
 ## links
 
 - [Beer page on brewery site](https://drinkdrakes.com/beer/bold-rush/)

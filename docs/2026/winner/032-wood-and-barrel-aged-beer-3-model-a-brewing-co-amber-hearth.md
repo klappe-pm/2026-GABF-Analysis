@@ -237,6 +237,10 @@ Model A Brewing Co. is in Tega Cay, SC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Model A Brewing Co.](../../breweries/model-a-brewing-co.md)
+
 ## links
 
 - [BeerAdvocate: Amber Hearth](https://www.beeradvocate.com/beer/profile/60152/733720/)

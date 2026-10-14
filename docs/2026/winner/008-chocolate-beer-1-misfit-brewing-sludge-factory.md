@@ -197,6 +197,10 @@ Misfit Brewing is in Cypress, TX.
 
 Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](https://www.instagram.com/misfitbrewing/).
 
+## related
+
+- Brewery: [Misfit Brewing](../../breweries/misfit-brewing.md)
+
 ## links
 
 - [Misfit: beer list](https://www.drinkmisfit.com/beerlist/)

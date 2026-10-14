@@ -213,6 +213,10 @@ Barrio Brewing Co. is in Tucson, AZ.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Barrio Brewing Co.](../../breweries/barrio-brewing-co.md)
+
 ## links
 
 - [Barrio: Nolan's Porter](https://barriobrewing.com/menuitem/nolans-porter/)

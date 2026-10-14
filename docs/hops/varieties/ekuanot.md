@@ -18,13 +18,46 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Ekuanot"
+alpha-acid-percent: "14.5 to 15.5"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "apple blossom"
+  - "Green pepper"
+  - "lime"
+  - "papaya"
+beta-acid-percent: "4.5 to 5.5"
+breeder: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+canonical-name: "Ekuanot"
+caryophyllene-percent-of-oil: "8 to 12"
+cohumulone-percent-of-alpha: "32 to 38"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "parentage"
+  - "use"
+humulene-percent-of-oil: "12 to 20"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "30 to 45"
 origin-country: "United States"
-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+owner-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: 2014
+release-year-note: "Released commercially as Equinox, renamed Ekuanot after trademark issues (John I. Haas sheet)."
 slug: "ekuanot"
-year-released: "2014"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Ekuanot.pdf"
+total-oil-ml-per-100g: "2.5 to 4.5"
+trademark: "Ekuanot (registered, per NASS)"
+us-acres-latest:
+  - "Washington 316"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # ekuanot
@@ -98,3 +131,33 @@ A three state total cannot be computed for any year because at least one state i
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Ekuanot.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Ekuanot.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Doom Sludge](../../2026/winner/023-specialty-india-pale-ale-1-green-cheek-beer-co-doom-sludge.md), gold, Specialty India Pale Ale, by [Green Cheek Beer Co.](../../breweries/green-cheek-beer-co.md); published as Ekuanot
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Green Cheek Beer Co.](../../breweries/green-cheek-beer-co.md), 1 beer

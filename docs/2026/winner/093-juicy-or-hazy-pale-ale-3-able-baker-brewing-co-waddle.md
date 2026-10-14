@@ -184,6 +184,14 @@ Able Baker Brewing Co. is in Las Vegas, NV.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Able Baker Brewing Co.](../../breweries/able-baker-brewing-co.md)
+- Hop varieties: [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.ablebakerbrewing.com/current-beer)

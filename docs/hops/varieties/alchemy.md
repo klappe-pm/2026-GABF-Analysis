@@ -15,13 +15,52 @@ tags:
   - "blend"
   - "not-published"
   - "united-states"
-variety: "Alchemy"
+alpha-acid-percent: null
+alpha-class: null
+aroma-attribution: null
+aroma-descriptors: []
+beta-acid-percent: null
+breeder: null
+canonical-name: "Alchemy"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: null
+farnesene-percent-of-oil: null
+gaps:
+  - "alpha-acid-percent"
+  - "aroma-descriptors"
+  - "beta-acid-percent"
+  - "breeder"
+  - "caryophyllene-percent-of-oil"
+  - "cohumulone-percent-of-alpha"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "parentage"
+  - "proprietary-status"
+  - "release-year"
+  - "total-oil-ml-per-100g"
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: null
 kind: "blend"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "not published"
+owner-program: null
+parentage: null
 proprietary-status: "not published"
+release-year: null
+release-year-note: null
 slug: "alchemy"
-year-released: null
+sources:
+  - "https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout"
+total-oil-ml-per-100g: null
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # alchemy
@@ -80,3 +119,33 @@ NASS names no line for this variety in the National Hop Report, so no state acre
 ## sources
 
 - [gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout](https://www.gooseisland.com/beers/2025-bourbon-county-brand-proprietors-stout)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [2025 Bourbon County Brand Proprietor's Stout](../../2026/winner/011-dessert-or-pastry-beer-1-goose-island-beer-co-2025-bourbon-county-brand-proprietors-stout.md), gold, Dessert or Pastry Beer, by [Goose Island Beer Co.](../../breweries/goose-island-beer-co.md); published as Alchemy
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Goose Island Beer Co.](../../breweries/goose-island-beer-co.md), 1 beer

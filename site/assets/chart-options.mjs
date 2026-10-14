@@ -39,7 +39,7 @@ function categoryAxis(data, extra = {}) {
 }
 
 export function textStyle() {
-  return { fontFamily: 'system-ui, -apple-system, "Segoe UI", sans-serif', color: TEXT.primary };
+  return { fontFamily: 'var(--brand-font-plain)', color: TEXT.primary };
 }
 
 // Horizontal bars for ranking. items: [{ label, value, href?, tip? }]

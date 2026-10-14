@@ -78,12 +78,12 @@ export async function runChecks() {
   }
   for (const s of await staleSpecs()) fail(s.spec, 'the body does not match the frontmatter: run npm run design-system:build');
 
-  // Contrast in the generated light scheme, including the chart series on the chart card.
+  // Contrast in the generated light scheme, and each chart series color (Series 1 color to Series 5
+  // color in settings.md) against the page.
   if (settings && !Object.keys(d.GLOBAL).some((k) => d.valueProblem(d.GLOBAL[k], settings[k]))) {
     const g = d.mergeGlobal({}, settings);
-    const chart = specs.find((s) => s.dir === 'chart-card');
-    const series = chart ? d.componentSettings('chart-card', chart.data)['Series colors'] ?? [] : [];
-    for (const r of d.contrastReport(d.schemeFor(g), series.map((role) => [role, 'surface']))) {
+    const scheme = d.schemeFor(g);
+    for (const r of [...d.contrastReport(scheme), ...d.seriesReport(g, scheme)]) {
       if (!r.pass) fail(`contrast ${rel(SETTINGS)}`, `${r.fg} ${r.fgHex} on ${r.bg} ${r.bgHex} is ${r.ratio}:1, needs ${r.min}:1`);
     }
   }

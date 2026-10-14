@@ -237,6 +237,10 @@ Boxing Bear Brewing Co. is in Albuquerque, NM. Brewery type in Open Brewery DB: 
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Boxing Bear Brewing Co.](../../breweries/boxing-bear-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://boxingbearbrewing.com/on-tap-bridges/)

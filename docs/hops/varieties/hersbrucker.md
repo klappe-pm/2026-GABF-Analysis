@@ -18,13 +18,43 @@ tags:
   - "germany"
   - "public"
   - "variety"
-variety: "Hersbrucker"
+alpha-acid-percent: "1.5 to 4"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "black tea"
+  - "Lemon balm"
+  - "marjoram"
+  - "orange"
+beta-acid-percent: "2.5 to 6"
+breeder: "Traditional German variety from the Hersbrucker growing area"
+canonical-name: "Hersbrucker"
+caryophyllene-percent-of-oil: "8 to 13"
+cohumulone-percent-of-alpha: "17 to 25"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "20 to 30"
 kind: "variety"
+medal-beers-2026: 3
+myrcene-percent-of-oil: "15 to 30"
 origin-country: "Germany"
-program: "Traditional German variety from the Hersbrucker growing area"
+owner-program: "Traditional German variety from the Hersbrucker growing area"
+parentage: "Traditional variety"
 proprietary-status: "public"
+release-year: null
+release-year-note: null
 slug: "hersbrucker"
-year-released: null
+sources:
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Hersbrucker.pdf"
+total-oil-ml-per-100g: "0.5 to 1"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # hersbrucker
@@ -76,3 +106,37 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Hersbrucker.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Hersbrucker.pdf)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Lawnmower Beer](../../2026/winner/068-golden-or-blonde-ale-2-saint-arnold-brewing-co-lawnmower-beer.md), silver, Golden or Blonde Ale, by [Saint Arnold Brewing Co.](../../breweries/saint-arnold-brewing-co.md); published as Hallertauer Hersbrucker
+- [White Rascal](../../2026/winner/074-belgian-style-witbier-2-avery-brewing-co-white-rascal.md), silver, Belgian-Style Witbier, by [Avery Brewing Co.](../../breweries/avery-brewing-co.md); published as Hersbrucker
+- [Breakside The Sublime](../../2026/winner/045-international-style-pilsener-3-breakside-brewery-and-taproom-breakside-the-sublime.md), bronze, International-Style Pilsener, by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md); published as Hersbrucker
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Avery Brewing Co.](../../breweries/avery-brewing-co.md), 1 beer
+- [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), 1 beer
+- [Saint Arnold Brewing Co.](../../breweries/saint-arnold-brewing-co.md), 1 beer

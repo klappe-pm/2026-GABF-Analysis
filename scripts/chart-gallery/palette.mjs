@@ -34,7 +34,7 @@ export const MEDAL = { Gold: BRAND.medal.gold, Silver: BRAND.medal.silver, Bronz
 export const REGION = { Midwest: s1, Northeast: s2, South: s3, West: s4 };
 export const SERIES = BRAND.series;
 // Style families: the first four series colors. Charts that show more families label every mark,
-// and a stacked chart folds the rest into its "All other families" band (series five, the outline gray).
+// and a stacked chart folds the rest into its "All other families" band in the outline gray.
 export const FAMILY = [s1, s2, s3, s4];
 
 const seq = BRAND.sequential;
@@ -52,9 +52,9 @@ export function checkContrast() {
   const text = (name, fill, fg) => { if (contrast(fill, fg) < 4.5) problems.push(`${name}: text ${fg} on ${fill} is ${contrast(fill, fg).toFixed(2)}`); };
   const mark = (name, fill) => { if (contrast(fill, PAGE) < 3) problems.push(`${name}: mark ${fill} on the page is ${contrast(fill, PAGE).toFixed(2)}`); };
   for (const [k, v] of Object.entries(MEDAL)) { mark(k, v); text(k, v, textOn(v)); }
-  for (const [k, v] of Object.entries(REGION)) { mark(k, v); text(k, v, ON_DARK); }
+  for (const [k, v] of Object.entries(REGION)) { mark(k, v); text(k, v, textOn(v)); }
   for (const v of SERIES) mark('series', v);
-  for (const v of FAMILY) { mark('family', v); text('family', v, ON_DARK); }
+  for (const v of FAMILY) { mark('family', v); text('family', v, textOn(v)); }
   for (const set of [SEQ_STATE, SEQ_SMALL, SEQ_ODDS]) for (const b of set) text(`bin ${b.min}`, b.fill, b.text);
   text('ink on the page', PAGE, INK);
   text('secondary on the page', PAGE, INK_SECONDARY);
@@ -64,7 +64,7 @@ export function checkContrast() {
 export function paletteForPage() {
   const textMap = {};
   for (const v of [...Object.values(MEDAL), ...Object.values(REGION), ...SERIES, ...FAMILY]) textMap[v] = textOn(v);
-  return { page: PAGE, onDark: ON_DARK, ink: INK, inkSecondary: INK_SECONDARY, outline: OUTLINE, grid: GRID, noData: S['surface container'], medal: MEDAL, region: REGION, series: SERIES, family: FAMILY, other: SERIES[4], textOn: textMap, seqState: SEQ_STATE.map(strip), seqSmall: SEQ_SMALL.map(strip), seqOdds: SEQ_ODDS.map(strip) };
+  return { page: PAGE, onDark: ON_DARK, ink: INK, inkSecondary: INK_SECONDARY, outline: OUTLINE, grid: GRID, noData: S['surface container'], medal: MEDAL, region: REGION, series: SERIES, family: FAMILY, other: OUTLINE, textOn: textMap, seqState: SEQ_STATE.map(strip), seqSmall: SEQ_SMALL.map(strip), seqOdds: SEQ_ODDS.map(strip) };
 }
 // JSON cannot carry Infinity.
 const strip = (b) => ({ ...b, max: Number.isFinite(b.max) ? b.max : null });

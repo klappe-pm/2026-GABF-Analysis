@@ -1,0 +1,112 @@
+---
+domain: beer
+category: breweries
+sub-category: brewery
+topics:
+  - "breweries"
+  - "gabf"
+types:
+  - "brewery"
+date-created: 2026-10-14
+date-revised: 2026-10-14
+status: DRAFT
+aliases:
+  - "Fremont Brewing - West"
+tags:
+  - "gold-medalist"
+  - "medal-2026"
+  - "wa"
+beer-count-2026: 1
+beeradvocate: null
+beers-2026:
+  - "../2026/winner/044-rice-lager-3-fremont-brewing-haru.md"
+brewery-type: "regional"
+categories-won:
+  - "Amber to Dark Non-Alcohol Beer"
+  - "Classic Non-Alcohol Ale or Lager"
+  - "Old Ale or Strong Ale or Barley Wine"
+  - "Rice Lager"
+city: "Seattle"
+employees: null
+farms-named: []
+farms-reached:
+  - "../hops/farms/coleman-agriculture.md"
+fed-district: 12
+fed-district-name: "San Francisco"
+first-medal-year: 2021
+founded: null
+gaps:
+  - "beeradvocate"
+  - "founded"
+  - "instagram"
+  - "ownership"
+  - "untappd"
+hops-used:
+  - "../hops/varieties/hallertauer-mittelfruh.md"
+  - "../hops/varieties/mosaic.md"
+  - "../hops/varieties/saaz.md"
+instagram: null
+known-for: []
+last-medal-year: 2026
+medals-bronze: 1
+medals-by-year:
+  - "2021: 0 gold, 1 silver, 0 bronze"
+  - "2024: 1 gold, 0 silver, 0 bronze"
+  - "2025: 0 gold, 1 silver, 0 bronze"
+  - "2026: 0 gold, 0 silver, 1 bronze"
+medals-gold: 1
+medals-silver: 2
+medals-total: 4
+name: "Fremont Brewing"
+ownership: null
+ownership-parent: null
+region: "West"
+slug: "fremont-brewing"
+sources: []
+state: "WA"
+untappd: null
+website: "http://www.fremontbrewing.com"
+world-beer-cup-medals: 0
+---
+
+# fremont-brewing
+
+Fremont Brewing of Seattle, WA (regional) has won 4 GABF medals (1 gold, 2 silver, 1 bronze) between 2021 and 2026.
+
+## medals
+
+| Year | Gold | Silver | Bronze | Total |
+|---|---|---|---|---|
+| 2026 | 0 | 0 | 1 | 1 |
+| 2025 | 0 | 1 | 0 | 1 |
+| 2024 | 1 | 0 | 0 | 1 |
+| 2021 | 0 | 1 | 0 | 1 |
+| All years | 1 | 2 | 1 | 4 |
+
+## 2026-beers
+
+- [Haru](../2026/winner/044-rice-lager-3-fremont-brewing-haru.md), bronze, Rice Lager
+
+## hops
+
+- [Hallertauer Mittelfruh](../hops/varieties/hallertauer-mittelfruh.md), 1 beer
+- [Mosaic](../hops/varieties/mosaic.md), 1 beer
+- [Saaz](../hops/varieties/saaz.md), 1 beer
+
+## related
+
+- [all breweries](README.md)
+- [all hop varieties](../hops/README.md)
+- [all hop farms](../hops/farms/README.md)
+
+### farms-named-by-the-brewery
+
+Farms this brewery names for a hop in a 2026 beer profile. This is a direct statement by the brewery.
+
+No 2026 profile of this brewery names a farm.
+
+### farms-grown-reaching-its-hops
+
+Farms recorded as growing a variety this brewery uses. The link runs through the variety; the brewery did not necessarily buy from these farms.
+
+- [Coleman Agriculture](../hops/farms/coleman-agriculture.md), grows [Mosaic](../hops/varieties/mosaic.md)

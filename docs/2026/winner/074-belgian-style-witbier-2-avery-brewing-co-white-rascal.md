@@ -226,6 +226,11 @@ Avery Brewing Co. is in Boulder, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Avery Brewing Co.](../../breweries/avery-brewing-co.md)
+- Hop varieties: [Bravo](../../hops/varieties/bravo.md), [Hersbrucker](../../hops/varieties/hersbrucker.md), [Sterling](../../hops/varieties/sterling.md)
+
 ## links
 
 - [Avery: historical White Rascal review](https://www.guruofbrew.com/avery_white_rascal)

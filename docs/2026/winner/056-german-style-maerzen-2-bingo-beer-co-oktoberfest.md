@@ -206,6 +206,11 @@ Bingo Beer Co. is in Richmond, VA. Brewery type in Open Brewery DB: In planning.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Bingo Beer Co.](../../breweries/bingo-beer-co.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md), [Tettnang](../../hops/varieties/tettnang.md)
+
 ## links
 
 - [Beer page on brewery site](https://bingobeerco.com/beer/oktoberfest/)

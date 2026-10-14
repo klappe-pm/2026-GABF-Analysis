@@ -15,13 +15,41 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Bravo"
+alpha-acid-percent: "14 to 17"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Fruity and floral"
+beta-acid-percent: "3 to 5"
+breeder: "Hopsteiner breeding program"
+canonical-name: "Bravo"
+caryophyllene-percent-of-oil: "10 to 12"
+cohumulone-percent-of-alpha: "29 to 34"
+farnesene-percent-of-oil: "up to 1"
+gaps: []
+humulene-percent-of-oil: "18 to 20"
 kind: "variety"
+medal-beers-2026: 2
+myrcene-percent-of-oil: "25 to 50"
 origin-country: "United States"
-program: "Hopsteiner breeding program"
+owner-program: "Hopsteiner breeding program"
+parentage: "Daughter of Zeus (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: 2006
+release-year-note: null
 slug: "bravo"
-year-released: "2006"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Bravo"
+  - "https://www.johnihaas.com/wp-content/uploads/2015/01/Bravo.pdf"
+total-oil-ml-per-100g: "1.6 to 2.4"
+trademark: "Bravo (trademark, per NASS)"
+us-acres-latest:
+  - "Washington 114"
+us-acres-latest-year: 2025
+us-grown: true
+use: "bittering"
+use-basis: "bittering"
 ---
 
 # bravo
@@ -95,3 +123,35 @@ No gaps: every field is published by the sources listed below.
 - [johnihaas.com/wp-content/uploads/2015/01/Bravo.pdf](https://www.johnihaas.com/wp-content/uploads/2015/01/Bravo.pdf)
 - [hopsteiner.us/variety-data-sheets/Bravo](https://hopsteiner.us/variety-data-sheets/Bravo)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [White Rascal](../../2026/winner/074-belgian-style-witbier-2-avery-brewing-co-white-rascal.md), silver, Belgian-Style Witbier, by [Avery Brewing Co.](../../breweries/avery-brewing-co.md); published as Bravo
+- [Pachanga](../../2026/winner/040-mexican-style-light-lager-3-sun-king-brewing-pachanga.md), bronze, Mexican-Style Light Lager, by [Sun King Brewing](../../breweries/sun-king-brewing.md); published as Bravo
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Avery Brewing Co.](../../breweries/avery-brewing-co.md), 1 beer
+- [Sun King Brewing](../../breweries/sun-king-brewing.md), 1 beer

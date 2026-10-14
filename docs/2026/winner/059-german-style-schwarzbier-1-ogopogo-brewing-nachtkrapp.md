@@ -235,6 +235,10 @@ Ogopogo Brewing is in San Gabriel, CA. Brewery type in Open Brewery DB: Microbre
 
 Links checked 2026-10-14: [Website](https://www.ogopogobrewing.com/), [Instagram](https://www.instagram.com/ogopogobrewing/).
 
+## related
+
+- Brewery: [Ogopogo Brewing](../../breweries/ogopogo-brewing.md)
+
 ## links
 
 - [Ogopogo Brewing](https://www.ogopogobrewing.com/)

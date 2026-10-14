@@ -203,6 +203,11 @@ Tommyknocker Brewery & Pub is in Idaho Springs, CO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Tommyknocker Brewery & Pub](../../breweries/tommyknocker-brewery-and-pub.md)
+- Hop varieties: [Perle](../../hops/varieties/perle.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.tommyknocker.com/drink-menu)

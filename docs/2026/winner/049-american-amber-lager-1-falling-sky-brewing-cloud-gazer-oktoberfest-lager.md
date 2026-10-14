@@ -194,6 +194,10 @@ Falling Sky Brewing is in Eugene, OR. Brewery type in Open Brewery DB: Brewpub.
 
 Links checked 2026-10-14: [Website](https://www.fallingskybrewing.com/), [Instagram](https://www.instagram.com/fallingskybrew/).
 
+## related
+
+- Brewery: [Falling Sky Brewing](../../breweries/falling-sky-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.fallingskybrewing.com/beer)

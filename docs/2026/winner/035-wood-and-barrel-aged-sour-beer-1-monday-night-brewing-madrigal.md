@@ -260,6 +260,10 @@ Monday Night Brewing is in Atlanta, GA. Brewery type in Open Brewery DB: Microbr
 
 Links checked 2026-10-14: [Website](https://mondaynightbrewing.com/), [Instagram](https://www.instagram.com/mondaynight/), [Untappd](https://untappd.com/mondaynightbrewing).
 
+## related
+
+- Brewery: [Monday Night Brewing](../../breweries/monday-night-brewing.md)
+
 ## links
 
 - [Monday Night Brewing](https://mondaynightbrewing.com/)

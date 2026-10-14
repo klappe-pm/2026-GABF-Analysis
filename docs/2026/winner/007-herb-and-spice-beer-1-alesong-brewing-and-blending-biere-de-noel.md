@@ -192,6 +192,10 @@ Alesong Brewing & Blending is in Eugene, OR.
 
 Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram](https://www.instagram.com/alesongbrewing/), [Untappd](https://untappd.com/Alesong).
 
+## related
+
+- Brewery: [Alesong Brewing & Blending](../../breweries/alesong-brewing-and-blending.md)
+
 ## links
 
 - [Untappd: Alesong Biere de Noel](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos)

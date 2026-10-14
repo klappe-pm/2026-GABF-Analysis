@@ -192,6 +192,10 @@ Boulevard Brewing Co. is in Kansas City, MO.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Boulevard Brewing Co.](../../breweries/boulevard-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/)

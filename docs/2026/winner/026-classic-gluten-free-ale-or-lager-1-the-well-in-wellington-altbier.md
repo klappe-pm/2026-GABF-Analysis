@@ -246,6 +246,10 @@ The Well In Wellington is in Wellington, CO.
 
 Links checked 2026-10-14: [Website](https://www.wellwellington.com/), [Instagram](https://www.instagram.com/thewellwellington/).
 
+## related
+
+- Brewery: [The Well In Wellington](../../breweries/the-well-in-wellington.md)
+
 ## links
 
 - [The Well In Wellington](https://www.wellwellington.com/)

@@ -250,6 +250,14 @@ Worthy Brewing is in Bend, OR. Brewery type in Open Brewery DB: Microbrewery.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md), [Strata](../../hops/varieties/strata.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [F & B Farms & Nursery LLC](../../hops/farms/f-and-b-farms-and-nursery.md), grown by [Fobert Farms](../../hops/farms/fobert-farms.md), grown by [BC Hop Farms](../../hops/farms/bc-hop-farms.md), grown by [Sodbuster Farms](../../hops/farms/sodbuster-farms.md), grown by [Crosby Hop Farm (Crosby Hops)](../../hops/farms/crosby-hops.md), grown by [Roy Farms Inc](../../hops/farms/roy-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Worthy Brewing](https://www.worthybrewing.com/)

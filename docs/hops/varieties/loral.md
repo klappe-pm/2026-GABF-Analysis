@@ -17,13 +17,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Loral"
+alpha-acid-percent: "10 to 12"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "fennel frond"
+  - "lemon"
+  - "lily"
+  - "Violet"
+beta-acid-percent: "4.5 to 5.5"
+breeder: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+canonical-name: "Loral"
+caryophyllene-percent-of-oil: "6 to 8"
+cohumulone-percent-of-alpha: "21 to 23"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "23 to 25"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "37 to 39"
 origin-country: "United States"
-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+owner-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+parentage: "Mother U.S. Glacier, grandmother Tardif de Bourgogne, father a son of Nugget"
 proprietary-status: "proprietary"
+release-year: 2016
+release-year-note: null
 slug: "loral"
-year-released: "2016"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Loral.pdf"
+total-oil-ml-per-100g: "1.5 to 2.5"
+trademark: "Loral (registered, per NASS)"
+us-acres-latest:
+  - "Washington 106"
+us-acres-latest-year: 2024
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # loral
@@ -99,3 +131,33 @@ No gaps: every field is published by the sources listed below.
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Loral.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Loral.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Bold Rush](../../2026/winner/068-golden-or-blonde-ale-3-drakes-brewing-company-bear-republic-bold-rush.md), bronze, Golden or Blonde Ale, by [Drake's Brewing Company/Bear Republic](../../breweries/drake-s-brewing-company-bear-republic.md); published as Loral Cryo
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Drake's Brewing Company/Bear Republic](../../breweries/drake-s-brewing-company-bear-republic.md), 1 beer

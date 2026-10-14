@@ -239,6 +239,14 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Links checked 2026-10-14: [Website](https://www.8bitbrewingcompany.com/), [Instagram](https://www.instagram.com/8bitbrewingcompany/), [Untappd](https://untappd.com/8bitBrewingCompany).
 
+## related
+
+- Brewery: [8 Bit Brewing Co.](../../breweries/8-bit-brewing-co.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md), [Nectaron](../../hops/varieties/nectaron.md), [Riwaka](../../hops/varieties/riwaka.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.8bitbrewingcompany.com/craft-beer/)

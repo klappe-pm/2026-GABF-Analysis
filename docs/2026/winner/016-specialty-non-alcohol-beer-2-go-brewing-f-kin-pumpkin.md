@@ -211,6 +211,10 @@ Go Brewing is in Naperville, IL.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Go Brewing](../../breweries/go-brewing.md)
+
 ## links
 
 - [Untappd: Go Brewing pumpkin ale](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884)

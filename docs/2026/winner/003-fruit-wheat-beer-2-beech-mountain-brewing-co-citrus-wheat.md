@@ -205,6 +205,10 @@ Beech Mountain Brewing Co. is in Beech Mountain, NC. Brewery type in Open Brewer
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Beech Mountain Brewing Co.](../../breweries/beech-mountain-brewing-co.md)
+
 ## links
 
 - [Untappd: Beech Mountain Citrus Wheat](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906)

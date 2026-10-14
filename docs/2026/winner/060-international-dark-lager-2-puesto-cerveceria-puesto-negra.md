@@ -207,6 +207,11 @@ Puesto Cerveceria is in San Diego, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Puesto Cerveceria](../../breweries/puesto-cerveceria.md)
+- Hop varieties: [Sterling](../../hops/varieties/sterling.md)
+
 ## links
 
 - [Puesto: brewery lineup](https://www.eatpuesto.com/brewery/)

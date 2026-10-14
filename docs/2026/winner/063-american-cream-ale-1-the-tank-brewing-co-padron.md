@@ -204,6 +204,10 @@ The Tank Brewing Co. is in Miami, FL. Brewery type in Open Brewery DB: Microbrew
 
 Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](https://www.instagram.com/thetankbrewing/), [Untappd](https://untappd.com/TheTankBrewing).
 
+## related
+
+- Brewery: [The Tank Brewing Co.](../../breweries/the-tank-brewing-co.md)
+
 ## links
 
 - [The Tank Brewing Co.](https://thetankbrewing.com/)

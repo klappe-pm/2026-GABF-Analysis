@@ -187,6 +187,10 @@ Port City Brewing Co. is in Alexandria, VA. Brewery type in Open Brewery DB: Reg
 
 Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagram](https://www.instagram.com/portcitybrew/).
 
+## related
+
+- Brewery: [Port City Brewing Co.](../../breweries/port-city-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.portcitybrewing.com/oktoberfest)

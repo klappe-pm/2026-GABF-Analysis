@@ -232,6 +232,14 @@ ALT Brew is in Madison, WI. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [ALT Brew](../../breweries/alt-brew.md)
+- Hop varieties: [Krush](../../hops/varieties/krush.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.altbrew.com/beer)

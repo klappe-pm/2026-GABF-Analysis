@@ -28,6 +28,7 @@
   --medal-silver: var(--app-color-silver);
   --medal-bronze: var(--app-color-bronze);
   --mark-muted: var(--md-sys-color-outline-variant);
+  --mark-other: var(--md-sys-color-outline);
   --good: var(--md-sys-color-primary);
   --warn: var(--md-sys-color-tertiary);
   --focus: var(--md-sys-color-primary);
@@ -40,7 +41,9 @@
 @media (min-width: 600px) { :root { --page-margin: var(--brand-margin-wide); } }
 
 * { box-sizing: border-box; }
-html { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; }
+html { font-family: var(--brand-font-plain); font-size: 16px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+/* Short text labels take the label face (Archivo Narrow); every figure stays in Public Sans with tabular figures. */
+thead th, .stat-label, .filters label, .picker label, .filter-panel-body label, .filter-group legend { font-family: var(--brand-font-label); }
 body { margin: 0; background: var(--page); color: var(--text-primary); }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }

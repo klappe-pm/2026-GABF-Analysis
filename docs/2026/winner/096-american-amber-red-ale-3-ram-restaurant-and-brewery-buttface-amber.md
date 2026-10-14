@@ -199,6 +199,10 @@ RAM Restaurant and Brewery is in Tacoma, WA. Brewery type in Open Brewery DB: Mi
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [RAM Restaurant and Brewery](../../breweries/ram-restaurant-and-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.theram.com/tacoma-menu/)

@@ -241,6 +241,14 @@ Offset Bier Co. is in Park City, UT.
 
 Links checked 2026-10-14: [Website](https://offsetbier.com/), [Instagram](https://www.instagram.com/offsetbier/), [Untappd](https://untappd.com/OffsetBierCo).
 
+## related
+
+- Brewery: [Offset Bier Co.](../../breweries/offset-bier-co.md)
+- Hop varieties: [Riwaka](../../hops/varieties/riwaka.md), [Mosaic](../../hops/varieties/mosaic.md), [Nelson Sauvin](../../hops/varieties/nelson-sauvin.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://offsetbier.com/taplist-1)
