@@ -122,6 +122,7 @@ export default function DesignSystemPage() {
 
   const index = categoryIndex(YEAR);
   const topRecords = breweryRecords().slice(0, 3);
+  const lead = topRecords[0];
   const odds = oddsFinding(YEAR);
   const oddsFill = finding('medal-odds-by-category');
   const headline = fill(oddsFill.lead, {
@@ -442,24 +443,18 @@ export default function DesignSystemPage() {
           </Specimen>
 
           <Specimen name="medal-record" title={compName('medal_record')} specLink={t('pages.design-system.page.spec_link')}>
-            {topRecords.slice(0, 1).map((b) => (
-              <State key={b.brewery} label={states('split')} wide>
-                <div className="flex w-full flex-col gap-3">
-                  <p className="text-data text-ink-muted">{fill(raw('pages.design-system.samples.medal_record'), { brewery_name: b.brewery, city: b.city, state: b.state, year_range: `${completeYears[0]} to ${completeYears[completeYears.length - 1]}` })}</p>
-                  <MedalRecord counts={b.record} names={medalNames} />
-                </div>
-              </State>
-            ))}
-            {topRecords.slice(1, 2).map((b) => (
-              <State key={b.brewery} label={states('tally')}>
-                <MedalRecord counts={b.record} names={medalNames} variant="tally" />
-              </State>
-            ))}
-            {topRecords.slice(2, 3).map((b) => (
-              <State key={b.brewery} label={states('value')}>
-                <MedalRecord counts={b.record} names={medalNames} variant="value" />
-              </State>
-            ))}
+            <State label={states('default')} wide>
+              <p className="text-data text-ink-muted">{fill(raw('pages.design-system.samples.medal_record'), { brewery_name: lead.brewery, city: lead.city, state: lead.state, year_range: `${completeYears[0]} to ${completeYears[completeYears.length - 1]}` })}</p>
+            </State>
+            <State label={states('split')}>
+              <MedalRecord counts={lead.record} names={medalNames} />
+            </State>
+            <State label={states('tally')}>
+              <MedalRecord counts={lead.record} names={medalNames} variant="tally" />
+            </State>
+            <State label={states('value')}>
+              <MedalRecord counts={lead.record} names={medalNames} variant="value" />
+            </State>
           </Specimen>
 
           <Specimen name="range-scale" title={compName('range_scale')} specLink={t('pages.design-system.page.spec_link')}>

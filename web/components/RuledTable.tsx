@@ -52,7 +52,7 @@ export function RuledTable({ caption, sortHint, columns, rows, initialSort, scro
                   className={`sticky top-0 z-(--gabf-layer-sticky) border-b-2 border-ink bg-ground-tone px-3 py-2 align-bottom ${/\d/.test(c.label) ? 'font-sans' : 'font-narrow'} text-label uppercase text-ink-muted ${i < columns.length - 1 ? 'border-r border-r-rule' : ''} ${c.numeric ? 'text-right' : 'text-left'}`}
                 >
                   {c.sortable ? (
-                    <button type="button" onClick={() => toggle(c.key)} className={`inline-flex items-center gap-1 uppercase state-hover:text-ink ${active ? 'text-ink' : ''} ${c.numeric ? 'flex-row-reverse' : ''}`}>
+                    <button type="button" onClick={() => toggle(c.key)} className={`inline-flex items-center gap-1 uppercase state-hover:text-ink ${active ? 'text-ink' : ''}`}>
                       <span>{c.label}</span>
                       <Icon name={active ? (sort.dir === 'ascending' ? 'sort-ascending' : 'sort-descending') : 'sort'} className="size-4 text-ink-faint" />
                     </button>
