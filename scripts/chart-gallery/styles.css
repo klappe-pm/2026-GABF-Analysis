@@ -1,20 +1,21 @@
+/* Colors come from site/assets/brand.css, inlined ahead of this file by scripts/build-chart-gallery.mjs. */
 :root {
   color-scheme: light;
-  --surface: #FFFFFF;
-  --surface-container: #F3F3F1;
-  --card: #FFFFFF;
-  --on-surface: #1D1B20;
-  --on-surface-variant: #49454F;
-  --primary: #6750A4;
-  --on-primary: #FFFFFF;
-  --primary-container: #EADDFF;
-  --on-primary-container: #21005D;
-  --outline: #79747E;
-  --outline-variant: #CAC4D0;
-  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --surface: var(--md-sys-color-background);
+  --surface-container: var(--md-sys-color-surface-container-low);
+  --card: var(--md-sys-color-surface-container-lowest);
+  --on-surface: var(--md-sys-color-on-surface);
+  --on-surface-variant: var(--md-sys-color-on-surface-variant);
+  --primary: var(--md-sys-color-primary);
+  --on-primary: var(--md-sys-color-on-primary);
+  --primary-container: var(--md-sys-color-secondary-container);
+  --on-primary-container: var(--md-sys-color-on-secondary-container);
+  --outline: var(--md-sys-color-outline);
+  --outline-variant: var(--md-sys-color-outline-variant);
+  --shadow-1: 0 1px 2px color-mix(in srgb, var(--md-sys-color-shadow) 30%, transparent), 0 1px 3px 1px color-mix(in srgb, var(--md-sys-color-shadow) 15%, transparent);
 }
 * { box-sizing: border-box; }
-html { font-family: Roboto, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; background: var(--surface); color: var(--on-surface); }
+html { font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; background: var(--surface); color: var(--on-surface); }
 body { margin: 0; background: var(--surface); color: var(--on-surface); }
 .app-bar { background: var(--surface); border-bottom: 1px solid var(--outline-variant); }
 .app-bar-inner { max-width: 1240px; margin: 0 auto; padding: 20px 16px 16px; }
