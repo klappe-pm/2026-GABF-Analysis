@@ -26,8 +26,8 @@ export const STORAGE_KEY = 'gabf-filters';
 
 // Display text for raw slugs stored in the data.
 export const VALUE_LABELS = {
-  ownership_type: { independent: 'Independent', 'employee-owned': 'Employee owned', 'public-company-owned': 'Public company owned', 'large-brewer-owned': 'Large brewer owned', 'private-equity-backed': 'Private equity backed', 'beverage-conglomerate-owned': 'Beverage conglomerate owned', closed: 'Closed', unlisted: 'Ownership not researched' },
-  distribution_channel: { 'self-distribution': 'Self distributed', distributor: 'Through a distributor', taproom: 'Taproom only', unknown: 'Distribution not researched', '': 'Distribution not researched' },
+  ownership_type: { independent: 'Independent', 'employee-owned': 'Employee owned', 'public-company-owned': 'Public company owned', 'large-brewer-owned': 'Large brewer owned', 'private-equity-backed': 'Private equity backed', 'beverage-conglomerate-owned': 'Beverage conglomerate owned', closed: 'Closed', unlisted: 'Not defined' },
+  distribution_channel: { 'self-distribution': 'Self distributed', distributor: 'Through a distributor', taproom: 'Taproom only', unknown: 'Not defined', '': 'Not defined' },
   brewery_type: { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regional brewery', planning: 'In planning', large: 'Large brewery', closed: 'Closed', contract: 'Contract brewer', proprietor: 'Alternating proprietor', nano: 'Nanobrewery', bar: 'Bar', taproom: 'Taproom' },
   category_type: { classic: 'Classic style', special: 'Special' },
   basis: { 'type-heuristic': 'Estimated from brewery type', 'boty-bracket': 'Brewery of the Year size bracket', estimate: 'Curated estimate', reported: 'Reported', bracket: 'Size bracket', curated: 'Curated estimate', heuristic: 'Estimated from brewery type', 'profile estimate': 'Brewery profile estimate' },

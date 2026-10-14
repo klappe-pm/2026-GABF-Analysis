@@ -45,7 +45,7 @@ async function render() {
     window.GABFCharts?.initAll(region);
     if (live) live.textContent = `${rows.length.toLocaleString('en-US')} medal${rows.length === 1 ? '' : 's'} in view`;
   } catch (err) {
-    region.innerHTML = '<div class="notice" role="alert">The medal data could not be loaded, so this view cannot follow the filter. Check the connection and reload the page. If the site was opened from a file, serve the dist folder instead (npm run serve).</div>';
+    region.innerHTML = '<div class="notice" role="alert">The medal data could not be loaded, so this view cannot follow the filter. Check the connection and reload the page.</div>';
   } finally {
     region.removeAttribute('aria-busy');
     region.classList.remove('is-loading');

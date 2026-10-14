@@ -27,7 +27,9 @@ export function visibleText(html) {
     .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     // file paths, URLs, and file names are not prose
     .replace(/\S*[\/\\]\S*/g, ' ')
-    .replace(/\S+\.(?:mjs|js|md|csv|json|txt|pdf|html|sqlite)\b/g, ' ');
+    .replace(/\S+\.(?:mjs|js|md|csv|json|txt|pdf|html|sqlite)\b/g, ' ')
+    // web addresses shown as link text
+    .replace(/\S+\.(?:com|org|net|beer|co|us|io|biz|info|brewing|pub)\b\S*/gi, ' ');
 }
 
 function corpus() {
@@ -47,21 +49,64 @@ function corpus() {
   return allowed;
 }
 
-test('no kebab-case slug shows in the visible text of sampled pages', () => {
-  build();
+function allPages(dir = DIST, out = []) {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const p = resolve(dir, e.name);
+    if (e.isDirectory()) { if (!['assets', 'data', 'explorer'].includes(e.name)) allPages(p, out); } else if (e.name.endsWith('.html')) out.push(p);
+  }
+  return out;
+}
+
+// Text a reader sees, keeping paths so developer copy can be caught; URLs and code are not copy.
+function readerText(html) {
+  return html
+    .replace(/<head>[\s\S]*?<\/head>/i, ' ')
+    .replace(/<(script|style|code|pre)[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/https?:\/\/\S+/g, ' ');
+}
+const DEVELOPER_COPY = [/\bdata\//, /\.csv\b/, /\.json\b/, /\.mjs\b/, /\bscripts\//, /\bnpm\s/, /\bingest/i, /\brunbook/i, /\bseed\b/i, /\bheuristic/i, /\badd a row\b/i];
+
+let built = false;
+const ensureBuilt = () => { if (!built) { build(); built = true; } };
+
+test('no developer instructions or file paths show on any page', () => {
+  ensureBuilt();
+  const hits = [];
+  for (const f of allPages()) {
+    const text = readerText(readFileSync(f, 'utf8'));
+    for (const re of DEVELOPER_COPY) {
+      const m = text.match(new RegExp(`.{0,40}${re.source}.{0,40}`, re.flags));
+      if (m) hits.push(`${f.slice(DIST.length + 1)}: ${m[0].replace(/\s+/g, ' ').trim()}`);
+    }
+  }
+  assert.deepEqual(hits.slice(0, 40), [], `developer copy in visible text (${hits.length}):\n${hits.slice(0, 40).join('\n')}`);
+});
+
+test('every filter option label reads as words', async () => {
+  ensureBuilt();
+  const { FILTERS, optionList } = await import('../site/assets/filter-bar.mjs');
+  const rows = JSON.parse(readFileSync(resolve(DIST, 'data/results.json'), 'utf8'));
+  const meta = JSON.parse(readFileSync(resolve(DIST, 'data/meta.json'), 'utf8'));
+  const allowed = corpus();
+  const bad = [];
+  for (const def of FILTERS) {
+    for (const o of optionList(rows, def.id, { years: 'all' }, meta)) {
+      for (const t of o.label.match(TOKEN) ?? []) if (!allowed.has(t)) bad.push(`${def.label}: ${o.label}`);
+      if (/^[a-z]/.test(o.label) && def.id !== 'year') bad.push(`${def.label}: ${o.label} (not capitalized)`);
+    }
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('no kebab-case slug shows in the visible text of any page', () => {
+  ensureBuilt();
   const known = new Set([...DATA_SLUGS, ...Object.keys(STATUS_LABELS).filter((k) => k.includes('-')), ...PROSE_SLUGS]);
   const allowed = corpus();
-  const winner = readdirSync(resolve(DIST, 'beers/2026')).filter((d) => /^\d{3}-/.test(d));
-  const pages = [
-    'index.html', 'dashboards/geography/index.html', 'dashboards/categories/index.html', 'dashboards/breweries/index.html', 'dashboards/economics/index.html',
-    'breweries/index.html', 'breweries/green-cheek-beer-co/index.html', 'categories/index.html', 'categories/american-amber-lager/index.html',
-    'reports/index.html', ...readdirSync(resolve(DIST, 'reports')).filter((d) => !d.endsWith('.html')).map((d) => `reports/${d}/index.html`),
-    'beers/2026/index.html', `beers/2026/${winner[0]}/index.html`, `beers/2026/${winner[winner.length - 1]}/index.html`, 'beers/2026/006-chili-beer-2-hop-dogma-brewing-co-pyros-prost/index.html',
-    'first-time-medalists/2026/index.html', 'about/index.html',
-  ];
   const hits = [];
-  for (const p of pages) {
-    const html = readFileSync(resolve(DIST, p), 'utf8');
+  for (const f of allPages()) {
+    const p = f.slice(DIST.length + 1);
+    const html = readFileSync(f, 'utf8');
     const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
     const text = `${title} ${visibleText(html)}`;
     for (const t of new Set(text.match(TOKEN) ?? [])) {

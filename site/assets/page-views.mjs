@@ -28,6 +28,9 @@ export function yearsInView(meta, state = {}) {
   return (meta?.years ?? []).filter((y) => includesPartial(state) || meta.coverage?.[y] !== 'partial');
 }
 
+// Reader note for a medal row: the only notes in the data mark partial year samples.
+export const noteFor = (x) => (x.partial ? 'From a partial year sample' : '');
+
 // Entries per medal: the field a medal was won against, from the official category headers.
 export const entriesPerMedal = (r) => (r.entries && r.category_medals ? r.entries / r.category_medals : null);
 
@@ -45,8 +48,8 @@ export function medalTable(rows, { r, showYear = true, showBrewery = false, comp
   cols.push({ key: 'entries', label: odds ? 'Field (entries)' : 'Entrants', numeric: true, droppable: true, render: (x) => (x.entries ? fmt(x.entries) : '') });
   if (odds) cols.push({ key: 'odds', label: 'Entries per medal', numeric: true, render: (x) => { const e = entriesPerMedal(x); return e ? e.toFixed(1) : ''; } });
   cols.push({ key: 'style_family', label: 'Style family', droppable: true });
-  cols.push({ key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(x.notes ?? '')}</span>` });
-  const values = (c) => new Set(rows.map((x) => String(c.key === 'odds' ? (entriesPerMedal(x) ?? '') : (x[c.key] ?? '')).trim()));
+  cols.push({ key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(noteFor(x))}</span>` });
+  const values = (c) => new Set(rows.map((x) => String(c.key === 'odds' ? (entriesPerMedal(x) ?? '') : c.key === 'notes' ? noteFor(x) : (x[c.key] ?? '')).trim()));
   cols = cols.filter((c) => {
     const v = values(c);
     if (v.size === 1 && v.has('') && (c.key === 'notes' || c.key === 'odds' || compactCols)) return false;
@@ -400,7 +403,7 @@ function ownershipView(rows, ctx) {
   const ownedKeys = new Set(rows.filter((x) => !['independent', 'employee-owned', 'unlisted'].includes(x.ownership_type)).map((x) => x.brewery_key));
   const parents = items(countBy(rows.filter((x) => ownedKeys.has(x.brewery_key)).map((x) => ({ p: x.parent || valueLabel('ownership_type', x.ownership_type) })), 'p'));
   const listed = new Set(rows.filter((x) => page.ownershipKeys.includes(x.brewery_key)).map((x) => x.brewery_key)).size;
-  return `<div class="stats">${statTile({ label: 'Medals to independents', value: pct(indep, rows.length), note: `${fmt(indep)} of ${fmt(rows.length)} medals in view, unlisted presumed independent` })}${statTile({ label: 'Medalists in the ownership table', value: String(listed) })}${statTile({ label: 'Large brewer or conglomerate owned medalists', value: String(ownedKeys.size) })}</div>
+  return `<div class="stats">${statTile({ label: 'Medals to independents', value: pct(indep, rows.length), note: `${fmt(indep)} of ${fmt(rows.length)} medals in view; no ownership record counts as independent` })}${statTile({ label: 'Medalists with an ownership record', value: String(listed) })}${statTile({ label: 'Large brewer or conglomerate owned medalists', value: String(ownedKeys.size) })}</div>
 <div class="grid">
 ${barsFigure('ownership-type', 'Medals by ownership type', byType, { labelWidth: 230, labelHeader: 'Ownership' })}
 ${parents.length ? barsFigure('parents', 'Medals by parent company', parents, { subtitle: 'owners that are not independent', color: 'var(--series-7)', labelWidth: 230, labelHeader: 'Parent' }) : '<div class="card"><h2>parents</h2><p class="muted">No medalist in view is owned by a large brewer or conglomerate.</p></div>'}
@@ -420,7 +423,7 @@ function economicsView(rows, ctx) {
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'locations', label: 'Locations', numeric: true, render: (b) => b.locations_count },
     { key: 'barrels', label: 'Barrels (E)', numeric: true, render: (b) => fmt(b.barrels) },
-    { key: 'basis', label: 'Volume basis', render: (b) => esc(valueLabel('basis', b.basis)) },
+    { key: 'basis', label: 'Volume source', render: (b) => esc(valueLabel('basis', b.basis)) },
     { key: 'cases', label: 'Case equiv.', numeric: true, render: (b) => fmt(b.cases) },
     { key: 'arr', label: 'ARR USD (E)', numeric: true, render: (b) => usd(b.arr) },
     { key: 'gm', label: 'Gross margin', numeric: true, render: (b) => pctOf(b.gross_margin) },

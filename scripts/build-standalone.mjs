@@ -17,6 +17,7 @@ import { categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { aboutHtml, buildPayload, profileCard, renderMarkdownBody } from './build-site.mjs';
 import { esc, humanizeHeadings, tableHtml } from '../site/assets/charts.mjs';
+import { noteFor } from '../site/assets/page-views.mjs';
 
 const require = createRequire(import.meta.url);
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
@@ -41,7 +42,7 @@ function medalTable(rows, { showCompetition = false } = {}) {
     { key: 'city', label: 'City', render: (x) => `${esc(x.city)}, ${esc(x.state)}` },
     { key: 'category_name', label: 'Category', render: (x) => `${esc(x.category_name)}${x.special ? ' <span class="pill">special</span>' : ''}` },
     { key: 'entries', label: 'Entrants', numeric: true, render: (x) => (x.entries ? fmt(x.entries) : '') },
-    { key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(x.notes ?? '')}</span>` },
+    { key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(noteFor(x))}</span>` },
   );
   return `<div class="table-wrap">${tableHtml(cols, rows)}</div>`;
 }
@@ -54,9 +55,9 @@ export function breweryDetailHtml(b) {
   const other = b.other_medals.length ? `<h2>other-competitions</h2>${medalTable([...b.other_medals].sort((x, y) => y.year - x.year), { showCompetition: true })}` : '';
   const deep = b.profile
     ? `<section class="prose">${renderMarkdownBody(b.profile.body)}</section>`
-    : `<div class="notice">No deep dive for this brewery yet. Scaffold one with <code>node scripts/scaffold-brewery.mjs --brewery "${esc(b.name)}"</code>, fill it in, and rebuild this file.</div>`;
+    : '<div class="notice">No deep dive has been written for this brewery yet.</div>';
   const card = profileCard(b).replace(/\.\.\/\.\.\/about\/#estimates/g, '#tab=about');
-  return humanizeHeadings(`${partial ? '<div class="notice">Some years for this brewery come from seed rows (secondary sources) rather than the ingested official list. The official list wins once it is loaded.</div>' : ''}<div class="hero"><div><h2>gabf-medal-history</h2>${history}${other}<h2>deep-dive</h2>${deep}</div>${card}</div>`);
+  return humanizeHeadings(`${partial ? '<div class="notice">Some of this brewery\'s medals are in partial years, which hold only a sample of medals from secondary sources.</div>' : ''}<div class="hero"><div><h2>gabf-medal-history</h2>${history}${other}<h2>deep-dive</h2>${deep}</div>${card}</div>`);
 }
 
 function coveragePills(ds) {
@@ -64,13 +65,13 @@ function coveragePills(ds) {
 }
 
 const LEDE = {
-  file: 'Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.',
-  hosted: 'Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), and each chart saves as a PNG from its toolbox. All data is embedded in this page.',
+  file: 'Every medal on file with linked filters. The Filters button scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.',
+  hosted: 'Every medal on file with linked filters. The Filters button scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), and each chart saves as a PNG from its toolbox. All data is embedded in this page.',
 };
 
 const ABOUT_NOTICE = {
-  file: 'This is the single-file build: all data is embedded in this file as of the last build, so it works offline and nothing leaves your machine. To refresh it after loading new results, run <code>npm run build:standalone</code> and open the regenerated file.',
-  hosted: 'This is a hosted copy of the single-file build: all data is embedded in this page as of the last build, and the page makes no network requests. To refresh it after loading new results, run <code>npm run build:standalone</code> and publish the regenerated hosted copy.',
+  file: 'This is the single file dashboard: all data is embedded in this file as of its last update, so it works offline and nothing leaves your machine.',
+  hosted: 'This is a hosted copy of the single file dashboard: all data is embedded in this page as of its last update, and the page makes no network requests.',
 };
 
 // A hosted page is content only: the host supplies the document, head, and body, so the output
