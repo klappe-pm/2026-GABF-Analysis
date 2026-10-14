@@ -43,6 +43,7 @@ gaps:
       - "https://www.miezabeer.com/"
       - "https://www.miezabeer.com/past-collaborations"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/"
@@ -103,12 +104,6 @@ gaps:
       - "https://www.miezabeer.com/"
       - "https://www.miezabeer.com/past-collaborations"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/"
-      - "https://www.miezabeer.com/"
-      - "https://www.miezabeer.com/past-collaborations"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -116,7 +111,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Blond blend on Malbec grapes; titratable acidity 10.3"
+  source: "https://www.miezabeer.com/past-collaborations"
 sources:
   - "https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -178,7 +175,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Blond blend on Malbec grapes; titratable acidity 10.3 | [miezabeer.com](https://www.miezabeer.com/past-collaborations) |
 
 ## style-context
 
@@ -207,7 +204,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
 - Not published: IBU. Checked [dcbeer.com](https://dcbeer.com/2026/10/13/great-american-beer-festival-2026-mieza-dc-brau-port-city-more/), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -218,3 +215,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found on the site.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact 2026 medal report describes a barrel-aged blond sour on Virginia-grown Malbec grapes but publishes neither IBU nor hops.
+- Deep dive pass 2026-10-14: the blendery lists about 7.96% ABV, titratable acidity 10.3, a blond blend and Malbec grapes; no tasting notes.

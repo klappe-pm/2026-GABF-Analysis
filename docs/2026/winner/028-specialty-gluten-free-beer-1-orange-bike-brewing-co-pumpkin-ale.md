@@ -33,13 +33,6 @@ description:
 entries: 17
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://business.untappd.com/locations/46338/themes/172032/js"
-      - "https://untappd.com/OrangeBikeBrewing/beer"
-      - "https://www.orangebikebrewing.com/"
-      - "https://www.orangebikebrewing.com/whats-on-tap"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://business.untappd.com/locations/46338/themes/172032/js"
@@ -47,13 +40,7 @@ gaps:
       - "https://www.orangebikebrewing.com/"
       - "https://www.orangebikebrewing.com/whats-on-tap"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://business.untappd.com/locations/46338/themes/172032/js"
-      - "https://untappd.com/OrangeBikeBrewing/beer"
-      - "https://www.orangebikebrewing.com/"
-      - "https://www.orangebikebrewing.com/whats-on-tap"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://business.untappd.com/locations/46338/themes/172032/js"
@@ -138,9 +125,13 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.orangebikebrewing.com/"
   - "https://www.orangebikebrewing.com/whats-on-tap"
-srm: null
+srm:
+  value: "Dark amber (no SRM number published)"
+  source: "https://www.orangebikebrewing.com/whats-on-tap"
 style: "Pumpkin"
-tasting-notes: null
+tasting-notes:
+  text: "Notes of brown sugar, sweet bread, cinnamon, and spice."
+  source: "https://www.orangebikebrewing.com/whats-on-tap"
 water: null
 yeast: []
 ---
@@ -176,7 +167,9 @@ Source: [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Notes of brown sugar, sweet bread, cinnamon, and spice.
+
+Source: [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap)
 
 ## ingredients
 
@@ -190,7 +183,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Dark amber (no SRM number published) | [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -223,8 +216,8 @@ Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
 - Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -233,3 +226,4 @@ Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instag
 - No 2026 GABF announcement was on the brewery home page when read.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The Pumpkin Ale entry publishes N/A IBU and names no hops. ABV conflict: Untappd lists 5.7%, while the existing brewery tap-list source lists 6.1%; the existing ABV is retained.
+- Deep dive pass 2026-10-14: the tap list's tasting words and color are recorded; it names no hops, grains or yeast.

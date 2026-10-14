@@ -242,3 +242,4 @@ Links checked 2026-10-14: [Website](https://townhallbrewery.com/), [Instagram](h
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the matching mixed culture pear beer under Orchard Pear MC. Its listing supplies ABV, fruit and yeast; coverage documents a 2024 release, so these are published product specifications rather than a verified 2026 batch analysis. No IBU or brewery beer page was found.
 - Field pass 2026-10-13: A new brewery-domain search excluding previously checked menus found no Orchard Pear page, IBU or hops; other fruit beers were excluded.
+- Deep dive pass 2026-10-14: the brewery site has no Orchard Pear page; the only description is on BeerAdvocate, whose data is not copied here.

@@ -266,3 +266,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: found the Untappd listing (Sour, Other, 4.9%, IBU N/A) naming Virginia malt, second use Virginia peaches and a Nectaron and Superdelic dry hop; style, ABV, hops, malt and fruit now come from it. No blendery page or 2026 GABF medal post was found.
 - Field pass 2026-10-13: New searches found Fine Creek festival and DC Beer descriptions of this beer but no numerical IBU or blendery beer page; previously checked Mieza pages and Untappd listings were not repeated.
+- Deep dive pass 2026-10-14: the blendery's collaborations page does not list this beer.

@@ -33,62 +33,77 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only)"
 hop-profile: []
 hops: []
 ibu: null
@@ -181,8 +196,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/1718-brewing-what-fresh-helles-this/6858487), web searches recorded in the research notes, web search 2026-10-14: 1718 Brewing What Fresh Helles This barrel (other breweries' Fresh Hell lagers only), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -192,3 +207,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name, Untappd, BeerMenus, ABV and medal searches found no additional verified specifications. The brewery's readable Untappd list did not include this beer. Identically named beers from Buena Vista Taproom and Brewery Outré were excluded because they are different breweries.
 - Field pass 2026-10-13: A retailer venue linked the exact 1718 beer listing, which publishes 4.8% ABV and N/A IBU. No hops or brewery beer page were found; the listing does not describe the barrel treatment.
+- Deep dive pass 2026-10-14: an exact-name search found nothing about this beer.

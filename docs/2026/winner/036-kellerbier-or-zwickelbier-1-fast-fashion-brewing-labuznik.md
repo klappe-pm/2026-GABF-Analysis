@@ -34,90 +34,105 @@ gaps:
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "tasting-notes"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "ibu"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "srm"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "og"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "fg"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "hops"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "hop-form"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "hop-use"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "lot-or-farm"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "malts"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "yeast"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "adjuncts"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "water"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
   - field: "process"
     sources-checked:
       - "https://themasonryseattle.com/fast-fashion"
       - "https://untappd.com/b/fast-fashion-labuznik/6167508"
       - "https://untappd.com/FastFashion"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Fast Fashion Labuznik kellerbier"
 hop-profile: []
 hops: []
 ibu: null
@@ -214,8 +229,8 @@ Links checked 2026-10-14: [Website](https://themasonryseattle.com/fast-fashion),
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes.
-- Not published: IBU. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier.
+- Not published: IBU. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, web search 2026-10-14: Fast Fashion Labuznik kellerbier, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -224,3 +239,4 @@ Links checked 2026-10-14: [Website](https://themasonryseattle.com/fast-fashion),
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New searches surfaced a Watershed Pub menu snippet naming Hallertau Mittelfrüh, Saaz and Tettnang for Labuznik, but neither the current menu nor the opened item page retained that entry; the hops remain unverified. No numerical IBU or brewery beer page was fetched.
+- Deep dive pass 2026-10-14: a web search found brewery profiles but nothing on Labuznik.

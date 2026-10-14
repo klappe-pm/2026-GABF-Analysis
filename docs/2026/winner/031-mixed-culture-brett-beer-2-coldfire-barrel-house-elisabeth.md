@@ -31,13 +31,6 @@ description:
 entries: 24
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://coldfirebrewing.com/"
-      - "https://coldfirebrewing.com/awards/"
-      - "https://coldfirebrewing.com/beer/"
-      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://coldfirebrewing.com/"
@@ -45,6 +38,7 @@ gaps:
       - "https://coldfirebrewing.com/beer/"
       - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://coldfirebrewing.com/"
@@ -67,13 +61,6 @@ gaps:
       - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
       - "web searches recorded in the research notes"
   - field: "hop-form"
-    sources-checked:
-      - "https://coldfirebrewing.com/"
-      - "https://coldfirebrewing.com/awards/"
-      - "https://coldfirebrewing.com/beer/"
-      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
-      - "web searches recorded in the research notes"
-  - field: "hop-use"
     sources-checked:
       - "https://coldfirebrewing.com/"
       - "https://coldfirebrewing.com/awards/"
@@ -115,18 +102,11 @@ gaps:
       - "https://coldfirebrewing.com/beer/"
       - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://coldfirebrewing.com/"
-      - "https://coldfirebrewing.com/awards/"
-      - "https://coldfirebrewing.com/beer/"
-      - "https://untappd.com/b/coldfire-brewing-elisabeth/2336777"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Nectaron"
     variety: "Nectaron"
     form: null
-    use: null
+    use: "dry hop after blending"
     lot-or-farm: null
     source: "https://coldfirebrewing.com/beer/"
 hops:
@@ -136,7 +116,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "One part Pinot barrel aged Saison Lily and two parts sour blonde ale aged in Sauvignon Blanc and Chardonnay barrels, dry hopped after blending"
+  source: "https://coldfirebrewing.com/beer/"
 sources:
   - "https://coldfirebrewing.com/"
   - "https://coldfirebrewing.com/awards/"
@@ -145,7 +127,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Bière de Coupage"
-tasting-notes: null
+tasting-notes:
+  text: "This lively ale is blend of young and old. ... After blending, we dry hopped with the juicy New Zealand Nectaron hop for an elegant, citrusy experience."
+  source: "https://coldfirebrewing.com/beer/"
 water: null
 yeast: []
 ---
@@ -181,7 +165,9 @@ Source: [ColdFire: beer list](https://coldfirebrewing.com/beer/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This lively ale is blend of young and old. ... After blending, we dry hopped with the juicy New Zealand Nectaron hop for an elegant, citrusy experience.
+
+Source: [coldfirebrewing.com](https://coldfirebrewing.com/beer/)
 
 ## ingredients
 
@@ -191,7 +177,7 @@ The brewery describes Elisabeth as one part Saison Lily aged in Pinot barrels an
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Nectaron | Nectaron | not published | not published | not published | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
+| Nectaron | Nectaron | not published | dry hop after blending | not published | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
 
 ## brewing-details
 
@@ -201,7 +187,7 @@ The brewery describes Elisabeth as one part Saison Lily aged in Pinot barrels an
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | One part Pinot barrel aged Saison Lily and two parts sour blonde ale aged in Sauvignon Blanc and Chardonnay barrels, dry hopped after blending | [coldfirebrewing.com](https://coldfirebrewing.com/beer/) |
 
 ## style-context
 
@@ -231,8 +217,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes.
 - Not published: IBU. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [coldfirebrewing.com](https://coldfirebrewing.com/), [coldfirebrewing.com](https://coldfirebrewing.com/awards/), [coldfirebrewing.com](https://coldfirebrewing.com/beer/), [untappd.com](https://untappd.com/b/coldfire-brewing-elisabeth/2336777), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -242,3 +228,4 @@ No brewery links have been checked yet.
 - IBU, grains and cultures were not found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Elisabeth listing publishes N/A IBU; the numerical gap remains.
+- Deep dive pass 2026-10-14: the brewery page gives the blend and the dry hop after blending; recorded on the Nectaron hop as its use.

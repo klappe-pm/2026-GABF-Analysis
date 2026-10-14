@@ -31,14 +31,6 @@ description:
 entries: 27
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/"
-      - "https://www.wishfulthinkingbeer.com/"
-      - "https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf"
-      - "https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf"
-      - "https://www.wishfulthinkingbeer.com/menu"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/"
@@ -47,6 +39,7 @@ gaps:
       - "https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf"
       - "https://www.wishfulthinkingbeer.com/menu"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/"
@@ -153,7 +146,9 @@ sources:
   - "https://www.wishfulthinkingbeer.com/menu"
 srm: null
 style: "Dry-Hopped Barrel Aged Saison"
-tasting-notes: null
+tasting-notes:
+  text: "We Taste: Fresh peeled citrus, light funk, fresh flowers"
+  source: "https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf"
 water: null
 yeast: []
 ---
@@ -189,7 +184,9 @@ Source: [Wishful Thinking: drink menu PDF](https://www.wishfulthinkingbeer.com/_
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> We Taste: Fresh peeled citrus, light funk, fresh flowers
+
+Source: [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf)
 
 ## ingredients
 
@@ -240,8 +237,8 @@ Links checked 2026-10-14: [Website](https://www.wishfulthinkingbeer.com/), [Inst
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes.
 - Not published: IBU. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breweriesinpa.com](https://breweriesinpa.com/on-any-given-day-you-can-win-gabf-gold/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_a951e062276e42fa91baac1cbef86320.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/_files/ugd/b0b5c3_d4cffe93adbe40adba4c62defa641039.pdf), [wishfulthinkingbeer.com](https://www.wishfulthinkingbeer.com/menu), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -251,3 +248,4 @@ Links checked 2026-10-14: [Website](https://www.wishfulthinkingbeer.com/), [Inst
 - No 2026 medal announcement was found on the brewery's home or menu pages.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New medal coverage provides no numeric IBU; the previously read brewery menus were not fetched again.
+- Deep dive pass 2026-10-14: the brewery's menu PDF gives the tasting line; no yeast strain or IBU.

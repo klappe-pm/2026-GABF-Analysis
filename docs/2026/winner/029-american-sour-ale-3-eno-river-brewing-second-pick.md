@@ -44,6 +44,7 @@ gaps:
       - "https://www.enoriverbrewing.com/"
       - "https://www.enoriverbrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
@@ -104,12 +105,6 @@ gaps:
       - "https://www.enoriverbrewing.com/"
       - "https://www.enoriverbrewing.com/menu"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
-      - "https://www.enoriverbrewing.com/"
-      - "https://www.enoriverbrewing.com/menu"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -117,7 +112,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Berliner Weisse with over 600 pounds of strawberries from Central NC farms and local basil"
+  source: "https://www.enoriverbrewing.com/"
 sources:
   - "https://untappd.com/b/eno-river-brewing-second-pick/5500598"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -181,7 +178,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Berliner Weisse with over 600 pounds of strawberries from Central NC farms and local basil | [enoriverbrewing.com](https://www.enoriverbrewing.com/) |
 
 ## style-context
 
@@ -211,7 +208,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -222,3 +219,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found on the brewery's home page.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes N/A IBU and names no hops; no new brewery page was found. ABV conflict: Untappd lists 5.7% in a description mentioning the 2025 release, versus 6.2% in the existing brewery release post; the existing ABV is retained.
+- Deep dive pass 2026-10-14: the brewery's release post gives the fruit quantity and source; it names no hops, malts or yeast.
