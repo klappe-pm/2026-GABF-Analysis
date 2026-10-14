@@ -140,9 +140,8 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   footer: {},
   tabs: {},
   chips: {},
-  'spec-card': {},
+  'spec-card': { Variant: cardStyle, 'Title style': typeRole, 'Label width': numberOf([10, 12, 14, 16, 18]) },
   'side-sheet': {},
-  'explorer-app': {},
   'beer-profile-card': {
     Variant: cardStyle,
     'Name style': typeRole,

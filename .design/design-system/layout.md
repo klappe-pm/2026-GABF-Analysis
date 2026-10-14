@@ -41,7 +41,6 @@ Components:
   - chips
   - spec-card
   - side-sheet
-  - explorer-app
   - beer-profile-card
   - hop-profile-card
   - navigation-rail
