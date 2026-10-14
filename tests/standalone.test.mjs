@@ -58,7 +58,7 @@ test('hosted copy is content only, self-contained, and says it is hosted', async
   assert.ok(!/<script[^>]+\ssrc=/i.test(hosted), 'no external script tags');
   assert.ok(result.hostedBytes < 16 * 1024 * 1024, 'under the 16 MB page limit');
   assert.match(hosted, /window\.GABF_DATA = /);
-  assert.match(hosted, /hosted copy of the single-file build/);
+  assert.match(hosted, /hosted copy of the single file dashboard/);
   assert.ok(!/address bar so a view can be bookmarked/.test(hosted), 'no address bar promise in a sandboxed frame');
   assert.match(hosted, /<main [^>]*data-default-brewery="green cheek">/);
 });

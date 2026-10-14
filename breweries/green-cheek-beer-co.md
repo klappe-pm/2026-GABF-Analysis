@@ -9,7 +9,7 @@ topics:
 types:
   - brewery-profile
 date-created: 2026-10-11
-date-revised: 2026-10-11
+date-revised: 2026-10-14
 status: DRAFT
 aliases:
   - Green Cheek
@@ -134,17 +134,16 @@ Every figure in this section is an estimate (E) unless a source is named. Brewbo
 | 2026 | GABF | Bronze | Zombi Shark Fight | Italian-Style Pilsener | Costa Mesa |
 | 2026 | GABF | Bronze | Chance Favors The Prepared Mind | Imperial India Pale Ale | Orange |
 
-A profile of the brewery mentions a second bronze for a nitro stout, and a local newspaper list names a mild ale called Fools and Babies, but no source read so far gives a year, medal, or category that ties either beer to a GABF result, so no second 2018 row is recorded. An earlier seed row that paired Fools and Babies with a 2018 bronze was removed for that reason. It returns when the official 2018 list is ingested and shows it.
+A profile of the brewery mentions a second bronze for a nitro stout, and a local newspaper list names a mild ale called Fools and Babies, but no source read so far gives a year, medal, or category that ties either beer to a GABF result, so neither is counted. The 2018 record on this site is a partial sample rather than the official list, so a 2018 medal could still be missing.
 
-Years 2020 through 2023 are not yet loaded: the official winners lists for those years have not been ingested, and the sources read so far did not show Green Cheek entries for them. The Costa Mesa menu claims a 2023 gold medal for a brown ale; that claim is unverified and is left out of the record until the 2023 list is loaded. A 2024 bronze for the cold IPA It Just Works appears on a third-party listing but not in the GABF 2024 roundups, so it is also left out.
+The official winners lists for 2021, 2022, and 2023 show no Green Cheek medals, and 2020 has no results on this site. The Costa Mesa menu claims a 2023 gold medal for a brown ale; the official 2023 list does not include it, so it is left out. A 2024 bronze for the cold IPA It Just Works appears on a third-party listing but not in the official 2024 list, so it is also left out.
 
 ## five-year-trend
 
-- 2021: not loaded. The brewery existed (founded 2017), so this is a data gap, not a did-not-exist year.
-- 2022 and 2023: not loaded, same note.
+- 2021, 2022, and 2023: no medals in the official lists. The brewery existed throughout (founded 2017).
 - 2024: three medals (two gold, one silver) across three different locations, the first year a location other than Orange medaled.
 - 2025: three medals (two silver, one bronze), all credited to Costa Mesa or to the company at large, including a silver in a category where no gold was awarded.
-- 2026: three medals (one gold, two bronze), announced October 11, 2026: Costa Mesa took the gold and one bronze, Orange the other bronze. The full 2026 list (336 medals to 243 breweries and cideries from 7,267 entries) loads when the official PDF is ingested.
+- 2026: three medals (one gold, two bronze), announced October 11, 2026: Costa Mesa took the gold and one bronze, Orange the other bronze. The full 2026 list awarded 336 medals to 243 breweries and cideries from 7,267 entries.
 
 ## sources
 

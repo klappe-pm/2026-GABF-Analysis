@@ -26,6 +26,7 @@ const WINNER_YEAR = 2026;
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
 const pctOf = (x) => `${Math.round(Number(x) * 100)}%`;
+const NOT_DEFINED = '<span class="muted">Not defined</span>';
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
 const PROFILES = new Map();
@@ -267,11 +268,11 @@ export function profileCard(b) {
 <dl class="kv">
 <dt>Type</dt><dd>${esc(valueLabel('brewery_type', b.brewery_type))}</dd>
 <dt>Headquarters</dt><dd>${esc(b.hq.city)}, ${esc(b.hq.state)}</dd>
-<dt>Founded</dt><dd>${b.founded ?? '<span class="muted">unknown</span>'}</dd>
-<dt>Employees</dt><dd>${b.employees ? `${fmt(b.employees)} (reported)` : '<span class="muted">unknown</span>'}</dd>
-<dt>Website</dt><dd>${b.website ? `<a href="${esc(b.website)}" rel="noopener">${esc(b.website.replace(/^https?:\/\//, ''))}</a>` : '<span class="muted">unknown</span>'}</dd>
-<dt>Locations</dt><dd>${locs.length ? `<ul class="list-plain small">${locs.map((l) => `<li>${esc(l.label || l.city)}: ${esc([l.address_1, l.city, l.state, l.postal_code].filter(Boolean).join(', '))}${l.opened ? ` (opened ${esc(l.opened)})` : ''}${l.kitchen ? ', kitchen' : ''} <a href="${mapLink(l)}" rel="noopener">map</a></li>`).join('')}</ul>` : `<span class="muted">${b.locations_count} location(s) seen in results; run the enrichment for addresses</span>`}</dd>
-<dt>Known for</dt><dd>${b.known_for.length ? esc(b.known_for.join('; ')) : `<span class="muted">${esc(countBy(b.medals, 'style_family').slice(0, 3).map(([k]) => k).join(', ') || 'no medals loaded')}</span>`}</dd>
+<dt>Founded</dt><dd>${b.founded ?? NOT_DEFINED}</dd>
+<dt>Employees</dt><dd>${b.employees ? `${fmt(b.employees)} (reported)` : NOT_DEFINED}</dd>
+<dt>Website</dt><dd>${b.website ? `<a href="${esc(b.website)}" rel="noopener">${esc(b.website.replace(/^https?:\/\//, ''))}</a>` : NOT_DEFINED}</dd>
+<dt>Locations</dt><dd>${locs.length ? `<ul class="list-plain small">${locs.map((l) => `<li>${esc(l.label || l.city)}: ${esc([l.address_1, l.city, l.state, l.postal_code].filter(Boolean).join(', '))}${l.opened ? ` (opened ${esc(l.opened)})` : ''}${l.kitchen ? ', kitchen' : ''} <a href="${mapLink(l)}" rel="noopener">map</a></li>`).join('')}</ul>` : '<span class="muted">Not available</span>'}</dd>
+<dt>Known for</dt><dd>${b.known_for.length ? esc(b.known_for.join('; ')) : (countBy(b.medals, 'style_family').length ? `<span class="muted">${esc(countBy(b.medals, 'style_family').slice(0, 3).map(([k]) => k).join(', '))}</span>` : NOT_DEFINED)}</dd>
 </dl>
 <h3>ownership-and-investors</h3>
 ${o ? `<dl class="kv">
@@ -281,14 +282,14 @@ ${o.investor ? `<dt>Investors</dt><dd>${esc(o.investor)}</dd>` : ''}
 ${o.stake ? `<dt>Stake</dt><dd>${esc(o.stake)}${o.deal_year ? `, ${esc(o.deal_year)}` : ''}</dd>` : ''}
 <dt>BA independent</dt><dd>${esc(o.ba_independent)}</dd>
 <dt>Status</dt><dd>${esc(o.status)}</dd>
-<dt>Source</dt><dd class="small muted">${esc(o.source)}${o.verified === 'no' ? ' (curated from public announcements; not checked again since)' : ''}</dd>
-</dl>` : '<p class="small muted">Not in the ownership table yet. Independent until shown otherwise; add a row to data/reference/ownership.csv when a deal, investor, or parent is confirmed.</p>'}
+<dt>Source</dt><dd class="small muted">${esc(o.source)}${o.verified === 'no' ? ' (from public announcements; not independently verified)' : ''}</dd>
+</dl>` : `<p>${NOT_DEFINED}</p>`}
 <h3>distribution</h3>
-${b.distributors.length ? `<dl class="kv">${b.distributors.map((d) => `<dt>${esc(d.channel ? valueLabel('distribution_channel', d.channel) : 'Channel')}</dt><dd>${d.distributor ? `${esc(d.distributor)}, ` : ''}${esc(d.territory)}${d.since ? ` (since ${esc(d.since)})` : ''}${d.verified === 'no' ? ' <span class="pill warn">unverified</span>' : ''}<div class="small muted">${esc(d.notes)}</div><div class="small muted">Source: ${esc(d.source)}</div></dd>`).join('')}</dl>` : `<p class="small muted">${b.distribution_channel ? esc(valueLabel('distribution_channel', b.distribution_channel)) : 'No distributor on record. Add a row to data/reference/distributors.csv (channel, wholesaler, territory, source).'}</p>`}
+${b.distributors.length ? `<dl class="kv">${b.distributors.map((d) => `<dt>${esc(d.channel ? valueLabel('distribution_channel', d.channel) : 'Channel')}</dt><dd>${d.distributor ? `${esc(d.distributor)}, ` : ''}${esc(d.territory)}${d.since ? ` (since ${esc(d.since)})` : ''}${d.verified === 'no' ? ' <span class="pill warn">unverified</span>' : ''}<div class="small muted">${esc(d.notes)}</div><div class="small muted">Source: ${esc(d.source)}</div></dd>`).join('')}</dl>` : `<p>${b.distribution_channel ? esc(valueLabel('distribution_channel', b.distribution_channel)) : NOT_DEFINED}</p>`}
 <h3>scale-estimates</h3>
 <dl class="kv">
 <dt>Barrels / year</dt><dd>${fmt(est.barrels)} <span class="muted small">(${esc(valueLabel('basis', est.basis))}${est.confidence ? `, ${esc(est.confidence)} confidence` : ''}${est.basis === 'reported' ? '' : ', E'})</span></dd>
-<dt>Equivalent</dt><dd class="small">${fmt(est.volume.gallons)} gallons; ${fmt(est.volume.cases_24x12_equivalent)} cases of 24 twelve-ounce; about ${fmt(est.volume.cans_16oz_equivalent)} sixteen-ounce cans packaged (${Math.round(est.volume.packaged_share * 100)}% packaged assumption) and ${fmt(est.volume.pints_equivalent_draft)} pints on draft</dd>
+<dt>Equivalent</dt><dd class="small">${fmt(est.volume.gallons)} gallons; ${fmt(est.volume.cases_24x12_equivalent)} cases of 24 twelve ounce; about ${fmt(est.volume.cans_16oz_equivalent)} sixteen ounce cans packaged (${Math.round(est.volume.packaged_share * 100)}% packaged assumption) and ${fmt(est.volume.pints_equivalent_draft)} pints on draft</dd>
 <dt>Revenue / ARR</dt><dd>${usd(rev.total_revenue_usd)} <span class="muted small">(range ${usd(rev.low_usd)} to ${usd(rev.high_usd)}, E)</span></dd>
 <dt>Gross margin</dt><dd>${pctOf(f.gross_margin)} <span class="muted small">(gross profit ${usd(f.gross_profit_usd)}, E)</span></dd>
 <dt>EBITDA</dt><dd>${usd(f.ebitda_usd)} at ${pctOf(f.ebitda_margin)} <span class="muted small">(range ${pctOf(f.ebitda_margin_low)} to ${pctOf(f.ebitda_margin_high)}, ${usd(f.ebitda_low_usd)} to ${usd(f.ebitda_high_usd)}, E)</span></dd>
@@ -296,7 +297,7 @@ ${b.distributors.length ? `<dl class="kv">${b.distributors.map((d) => `<dt>${esc
 <dt>Per location</dt><dd>${f.revenue_per_location_usd ? usd(f.revenue_per_location_usd) : ''} <span class="muted small">across ${b.locations_count} location(s)${b.has_kitchen ? ' with kitchen(s)' : ''}, E</span></dd>
 ${f.revenue_per_employee_usd ? `<dt>Per employee</dt><dd>${usd(f.revenue_per_employee_usd)} <span class="muted small">E</span></dd>` : ''}
 </dl>
-<p class="small muted">Method: <a href="../../about/#estimates">estimation notes</a>.</p>
+<p class="small muted">(E) marks an estimate. <a href="../../about/#estimates">How the estimates are made</a>.</p>
 </div>`;
 }
 
@@ -381,7 +382,7 @@ function categoriesIndex(ds, cats) {
   const body = `
 <h1>Categories</h1>
 <p class="lede">${cats.length} GABF categories seen in the loaded results (${special} special, ${cats.length - special} classic), with the style family used for browsing, the style's ABV range, and total entrants from the latest year with counts.</p>
-<div class="card"><h2>classic-versus-special</h2><p class="small">A special category is judged on an added ingredient, process, or nonstandard base (fruit, spice, coffee, barrel, smoke, gluten-free, non-alcohol, hybrid, specialty IPA, session beer, Pro-Am, collaboration, cider) rather than a single classic style. The rule lives in scripts/lib/style-families.mjs and the flag for each category in data/reference/categories.csv.</p><p class="small">Style families are a browsing layer over the official categories: IPA, Pale Ale, Lager, Pilsner, Wheat, Stout and Porter, Belgian and French, Sour and Wild, Strong and Barrel-Aged, Brown Amber and Red, British and Irish, German Ale, Fruit Spice and Specialty, Smoke and Wood, Gluten-Free and Non-Alcoholic, Cider and Mead, Pro-Am and Collaboration.</p></div>
+<div class="card"><h2>classic-versus-special</h2><p class="small">A special category is judged on an added ingredient, process, or nonstandard base (fruit, spice, coffee, barrel, smoke, gluten-free, non-alcohol, hybrid, specialty IPA, session beer, Pro-Am, collaboration, cider) rather than a single classic style.</p><p class="small">Style families are a browsing layer over the official categories: IPA, Pale Ale, Lager, Pilsner, Wheat, Stout and Porter, Belgian and French, Sour and Wild, Strong and Barrel-Aged, Brown Amber and Red, British and Irish, German Ale, Fruit Spice and Specialty, Smoke and Wood, Gluten-Free and Non-Alcoholic, Cider and Mead, Pro-Am and Collaboration.</p></div>
 ${view.html}`;
   write('categories/index.html', layout({ title: 'Categories', description: 'GABF categories, style families, special categories, and ABV ranges.', body, depth: 1, active: 'Categories', pageData: view.pageData }));
 }
@@ -429,7 +430,7 @@ function byRegion() {
 function ownershipReport(ds) {
   const r = '../../';
   const after = `<h2>ownership-table</h2>
-<p class="small muted">All curated rows, whether or not the brewery has medaled in the loaded years; this table is the source list, so the site filter does not narrow it. Edit data/reference/ownership.csv to add deals, investors, and verification.</p>
+<p class="small muted">Every ownership record on file, whether or not the brewery has medaled in the loaded years. The site filter does not narrow this list.</p>
 <div class="table-wrap">${tableHtml([
     { key: 'brewery_name', label: 'Brewery', render: (o) => { const b = ds.breweries.find((x) => x.ownership === o); return b ? `<a href="${r}breweries/${b.slug}/">${esc(o.brewery_name)}</a>` : esc(o.brewery_name); } },
     { key: 'hq', label: 'HQ', render: (o) => `${esc(o.hq_city)}, ${esc(o.hq_state)}` },
@@ -442,11 +443,11 @@ function ownershipReport(ds) {
     { key: 'status', label: 'Status' },
     { key: 'verified', label: 'Verified' },
   ], ds.ownership)}</div>`;
-  reportLayout('ownership', 'Ownership and investors', { viewName: 'ownership', after, page: { ownershipKeys: ds.breweries.filter((b) => b.ownership).map((b) => b.key) }, lede: 'Who owns the medal winners. The Brewers Association counts a brewer as independent when less than 25 percent is owned or controlled by a non-craft alcohol company. The ownership table is curated from public deal announcements and marked unverified until each row is checked; breweries not in the table are presumed independent.' });
+  reportLayout('ownership', 'Ownership and investors', { viewName: 'ownership', after, page: { ownershipKeys: ds.breweries.filter((b) => b.ownership).map((b) => b.key) }, lede: 'Who owns the medal winners. The Brewers Association counts a brewer as independent when less than 25 percent is owned or controlled by a non craft alcohol company. Ownership records come from public deal announcements and are marked unverified until checked; a brewery with no record is counted as independent.' });
 }
 
 function economicsReport() {
-  reportLayout('economics', 'Economics', { viewName: 'economics', breweryInfo: true, lede: 'Estimated economics for every medalist in view: barrels, ARR (annual revenue run rate), gross margin, EBITDA with a channel based range, and distribution channel. Every figure is an estimate (E) unless a reported production number exists; the method and parameters are on the About page and in data/reference/estimation-parameters.json.' });
+  reportLayout('economics', 'Economics', { viewName: 'economics', breweryInfo: true, lede: 'Estimated economics for every medalist in view: barrels, ARR (annual revenue run rate), gross margin, EBITDA with a channel based range, and distribution channel. Every figure is an estimate (E) unless a reported production number exists; the About page explains how the estimates are made.' });
 }
 
 function trendsReport(ds) {
@@ -573,31 +574,30 @@ function copyExplorer() {
 
 // ---------- about ----------
 export function aboutHtml(ds) {
-  const rows = ds.years.map((y) => ({ year: y, status: ds.coverage[y], rows: ds.results.filter((x) => x.year === y).length, source: [...new Set(ds.results.filter((x) => x.year === y).map((x) => x.source))].join('; ') || (ds.summary.find((s) => Number(s.year) === y)?.source ?? '') }));
+  const SOURCE = { complete: 'Official winners list', partial: 'A sample of medals from secondary sources', draft: 'Transcribed from the awards ceremony, pending the official list', pending: 'Not available' };
+  const rows = ds.years.map((y) => ({ year: y, status: ds.coverage[y], rows: ds.results.filter((x) => x.year === y).length, source: SOURCE[ds.coverage[y]] ?? 'Not available' }));
   return `
 <h1>About this site</h1>
-<p class="lede">An independent analysis of Great American Beer Festival competition results. It is built from public data by a static pipeline in <a href="${REPO_URL}">this repository</a> and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG.</p>
+<p class="lede">An independent analysis of Great American Beer Festival competition results, built from public data and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG. The <a href="${REPO_URL}">source code and data</a> are public.</p>
 <h2>coverage</h2>
-<div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'status', label: 'Status', render: (x) => `<span class="pill ${x.status}">${esc(x.status)}</span>` }, { key: 'rows', label: 'Rows loaded', numeric: true }, { key: 'source', label: 'Sources', render: (x) => `<span class="small">${esc(x.source)}</span>` }], rows)}</div>
-<p class="small">complete: the official winners list was ingested. partial: only seed rows from secondary sources are present. draft: rows transcribed from the awards ceremony, pending the official list. pending: the competition ran or is scheduled but no results are loaded.</p>
+<div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'status', label: 'Status', render: (x) => `<span class="pill ${x.status}">${esc(x.status.charAt(0).toUpperCase() + x.status.slice(1))}</span>` }, { key: 'rows', label: 'Medals on this site', numeric: true }, { key: 'source', label: 'Source', render: (x) => `<span class="small">${esc(x.source)}</span>` }], rows)}</div>
+<p class="small">Complete years carry every medal from the official list. Partial years hold only a sample of medals from secondary sources and are hidden by default; include them from Filters. Pending years have no results on this site.</p>
 <h2>data-sources</h2>
 <ul class="list-plain">
-<li>Results: the Brewers Association's official GABF winners lists (PDF), parsed by scripts/parse-winners.mjs. Category names and total entrants come from the same lists. Before the PDF is posted, the ceremony transcript importer drafts rows from the live stream captions.</li>
-<li>Brewery locations, coordinates, type, and websites: <a href="https://www.openbrewerydb.org">Open Brewery DB</a> (free, open) plus curated overrides. The repository also configures the unofficial Open Brewery DB MCP server for agent lookups.</li>
-<li>Style definitions and ABV, IBU, and SRM ranges: Brewers Association Beer Style Guidelines, imported with scripts/import-style-guidelines.mjs. Special categories are flagged by rule and per category in data/reference/categories.csv.</li>
-<li>Ownership, investors, and distributors: curated from public announcements (company releases, Brewbound, trade press, state license lookups). Each row carries a verified flag.</li>
-<li>Demographics and denominators: Census Bureau annual population estimates (July 1, Vintage 2020 for 2018 and 2019, Vintage 2025 for 2020 to 2025; 2026 medals use 2025), BEA real GDP in chained 2017 dollars and nominal GDP by state (SAGDP1) and county (CAGDP1), ACS 2024 one year estimates (age, race and Hispanic origin, education, median household income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy estimates (pooled 2012, 2014, and 2017), and NCHS state life expectancy for 2022. Census regions and divisions come from data/reference/states.csv.</li>
+<li>Results: the Brewers Association's official GABF winners lists. Category names and total entrants come from the same lists. Before an official list is posted, results can be transcribed from the live awards ceremony and are marked as a draft.</li>
+<li>Brewery locations, coordinates, type, and websites: <a href="https://www.openbrewerydb.org">Open Brewery DB</a> (free, open) plus corrections checked by hand.</li>
+<li>Style definitions and ABV, IBU, and SRM ranges: Brewers Association Beer Style Guidelines. Categories judged on an added ingredient or process are marked special.</li>
+<li>Ownership, investors, and distributors: public announcements (company releases, Brewbound, trade press, state license lookups). Each record says whether it has been verified.</li>
+<li>Demographics and denominators: Census Bureau annual population estimates (July 1, Vintage 2020 for 2018 and 2019, Vintage 2025 for 2020 to 2025; 2026 medals use 2025), BEA real GDP in chained 2017 dollars and nominal GDP by state (SAGDP1) and county (CAGDP1), ACS 2024 one year estimates (age, race and Hispanic origin, education, median household income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy estimates (pooled 2012, 2014, and 2017), and NCHS state life expectancy for 2022. Census regions and divisions follow the Census Bureau's definitions.</li>
 <li>Federal Reserve districts: the Board of Governors' district descriptions and the Reserve Banks' county lists (St. Louis, Minneapolis, Dallas, Philadelphia), with counts checked against Cleveland Fed and FRASER figures. Medals in split states are assigned by the medal city's county from the Census place and county subdivision files. West Virginia has no published county list and is assigned whole to the Richmond district as an approximation. District GDP for split states is apportioned by county GDP shares (E).</li>
 <li>Competition totals: Brewers Association annual releases and same day coverage of each announcement.</li>
 </ul>
 <h2 id="estimates">estimates</h2>
-<p>Production, volume, revenue, and margin figures marked (E) are estimates. Volume order of preference: a reported figure, then a Brewery of the Year bracket (midpoint), then a curated estimate in data/reference/production.csv or a brewery profile, then a heuristic by brewery type and location count. Conversions use the US beer barrel (31 gallons): 13.78 cases of 24 twelve ounce containers, 248 sixteen ounce cans or pints, 330.7 twelve ounce cans. Revenue uses Brewers Association benchmark revenue per barrel by channel (direct to consumer 1,276 USD, distributed 602 USD, blended by brewery type) plus food revenue per kitchen location. ARR is the annual revenue run rate. Gross margin and EBITDA margin are point estimates by brewery type with channel ranges (taproom 8 to 24 percent, self distribution 5 to 11 percent, distributor 2 to 6 percent). Parameters and their sources live in data/reference/estimation-parameters.json.</p>
-<h2>trend-semantics</h2>
-<p>A brewery's yearly trend distinguishes: medaled, no medal recorded, did not exist yet (year before its founding), closed, results not yet published, year only partially loaded, and no results loaded. A partially loaded year is labelled as such rather than counted as a miss.</p>
-<h2>privacy-of-this-site</h2>
-<p>A GitHub Pages site is public even when its repository is private (Pages for a private repository needs a paid plan, and access control needs GitHub Enterprise Cloud). For a private copy, build locally and open dist/index.html, or publish dist/ behind authentication on a host such as Cloudflare Pages with Access or Netlify with password protection; the site is plain files and runs anywhere.</p>
+<p>Production, volume, revenue, and margin figures marked (E) are estimates. Volume comes from the best available evidence, in this order: a figure the brewery reported, then the midpoint of its Brewery of the Year size bracket, then a researched estimate, then a typical volume for its brewery type and number of locations. Conversions use the US beer barrel (31 gallons): 13.78 cases of 24 twelve ounce containers, 248 sixteen ounce cans or pints, 330.7 twelve ounce cans. Revenue uses Brewers Association benchmark revenue per barrel by channel (direct to consumer 1,276 USD, distributed 602 USD, blended by brewery type) plus food revenue per kitchen location. ARR is the annual revenue run rate. Gross margin and EBITDA margin are point estimates by brewery type with channel ranges (taproom 8 to 24 percent, self distribution 5 to 11 percent, distributor 2 to 6 percent). The figures behind these assumptions are published with the source code.</p>
+<h2>reading-a-brewery-trend</h2>
+<p>A brewery's yearly trend distinguishes: medaled, no medal recorded, did not exist yet (year before its founding), closed, results not yet published, year only partially available, and no results available. A partial year is labelled as such rather than counted as a miss.</p>
 <h2>attribution</h2>
-<p>Great American Beer Festival and GABF are trademarks of the Brewers Association. Style guideline content is used with attribution for noncommercial analysis. Open Brewery DB data is open. Apache ECharts is Apache 2.0 licensed. US state boundaries come from the us-atlas project (US Census Bureau cartographic boundaries). This site is not affiliated with the Brewers Association.</p>`;
+<p>Great American Beer Festival and GABF are trademarks of the Brewers Association. Style guideline content is used with attribution for noncommercial analysis. Open Brewery DB data is open. Apache ECharts is Apache 2.0 licensed. US state boundaries come from the US Atlas project (US Census Bureau cartographic boundaries). This site is not affiliated with the Brewers Association.</p>`;
 }
 
 function aboutPage(ds) {

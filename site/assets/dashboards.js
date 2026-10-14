@@ -104,7 +104,7 @@ const PANELS = {
     const m = new Map();
     for (const r of rows) if (r.entries) { const cur = m.get(r.category_name) ?? { label: r.category_name, value: 0, special: r.special, years: new Set() }; cur.value = Math.max(cur.value, r.entries); cur.years.add(r.year); m.set(r.category_name, cur); }
     const items = [...m.values()].sort((a, b) => b.value - a.value).slice(0, 25).map((c) => ({ label: `${c.label}${c.special ? ' (special)' : ''}`, value: c.value, name: c.label, years: [...c.years].join(', ') }));
-    return { option: barsHOption({ items, valueName: 'Entries', labelWidth: 240, saveName: 'entrants-by-category' }), height: Math.max(220, 32 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('category_name', it.name); }, note: 'Entry counts come from the category headers of the official list; a year loaded only from seed rows shows counts for those rows alone.', table: tableHtml([{ key: 'name', label: 'Category' }, { key: 'value', label: 'Entries', numeric: true }, { key: 'years', label: 'Years' }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, valueName: 'Entries', labelWidth: 240, saveName: 'entrants-by-category' }), height: Math.max(220, 32 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('category_name', it.name); }, note: 'Entry counts come from the category headers of the official list; a partial year shows counts for its sample of medals alone.', table: tableHtml([{ key: 'name', label: 'Category' }, { key: 'value', label: 'Entries', numeric: true }, { key: 'years', label: 'Years' }], items, { className: 'data-table' }) };
   } },
   'entry-odds': { title: 'Hardest categories to medal in', subtitle: 'entries per medal, highest first; click to focus a category', build(rows) {
     const odds = oddsItems(rows);
@@ -157,7 +157,7 @@ const PANELS = {
   'revenue-by-brewery': { title: 'Estimated annual revenue by brewery (E)', subtitle: 'breweries in view, estimate method in About', build(rows) {
     const keys = new Set(rows.map((r) => r.brewery_key));
     const items = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15).map((b) => ({ label: b.name, value: b.estimate.revenue_usd, href: bHref(b.slug), basis: b.estimate.basis }));
-    return { option: barsHOption({ items, color: 'var(--series-6)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Basis', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-6)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Volume source', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
   } },
   'entries-trend': { title: 'Entries judged by year', subtitle: 'Brewers Association totals; years without a published figure are left blank', build() {
     const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));
@@ -206,7 +206,7 @@ function renderControlsTable(rows) {
     { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
     ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
   ];
-  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="state"${level === 'state' ? ' selected' : ''}>States</option><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are in docs/data-sources.md.</p>`;
+  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="state"${level === 'state' ? ' selected' : ''}>States</option><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
   qs('controls-level').addEventListener('change', (e) => { state.controlsLevel = e.target.value; renderControlsTable(applyFilters(state.rows)); });
   wireSortable(el);
 }
@@ -300,7 +300,7 @@ function renderFinancialTable(rows) {
     { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, render: (b) => `${compact(b.financials.ebitda_usd)} (${Math.round(b.financials.ebitda_margin_low * 100)} to ${Math.round(b.financials.ebitda_margin_high * 100)}%)` },
     { key: 'channel', label: 'Distribution', render: (b) => esc(valueLabel('distribution_channel', b.distribution_channel || 'unknown')) },
     { key: 'ownership', label: 'Ownership', render: (b) => (b.ownership ? `${esc(valueLabel('ownership_type', b.ownership.type))}${b.ownership.parent ? ` (${esc(b.ownership.parent)})` : ''}` : `<span class="muted">${esc(valueLabel('ownership_type', 'unlisted'))}</span>`) },
-    { key: 'basis', label: 'Volume basis', render: (b) => esc(valueLabel('basis', b.estimate.basis)) },
+    { key: 'basis', label: 'Volume source', render: (b) => esc(valueLabel('basis', b.estimate.basis)) },
   ], list)}</div>`;
   wireSortable(el);
 }
@@ -433,5 +433,5 @@ async function init() {
 init().catch(() => {
   document.body.classList.remove('is-loading');
   const el = qs('stats') || document.querySelector('main');
-  el.innerHTML = '<div class="notice" role="alert">The medal data could not be loaded, so the dashboard cannot draw. Check the connection and reload the page. If the site was opened from a file, serve the dist folder instead (npm run serve).</div>';
+  el.innerHTML = '<div class="notice" role="alert">The medal data could not be loaded, so the dashboard cannot draw. Check the connection and reload the page.</div>';
 });
