@@ -32,58 +32,86 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
+      - "https://www.ldpbeer.com/ (HTTP 403)"
 hop-profile: []
 hops: []
 ibu: 21
@@ -177,7 +205,7 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)).
 
 ## research-notes
 
@@ -187,3 +215,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 - Researched 2026-10-13.
 - Second pass 2026-10-13: an exact-phrase web search for the beer with the brewery found only the same restaurant and brewery coverage plus unrelated Agua Fresca products (Left Hand Brewer's Test Kitchen #10, Calidad seltzer); a Telluride Blues brewery listing returned 404; the web search limit ran out before an Untappd search, so nothing more was found.
 - Field pass 2026-10-13: The matching Untappd listing publishes 5% ABV and 21 IBU. Hop varieties were not named; a targeted brewery domain search found no beer page.
+- Deep dive pass 2026-10-14: the brewery's beer site ldpbeer.com returned HTTP 403 to every reader, and a web search found no description or recipe for Agua Fresca.

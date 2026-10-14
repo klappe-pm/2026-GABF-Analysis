@@ -37,6 +37,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "tasting-notes"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -45,6 +46,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "abv"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -53,6 +55,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "ibu"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -61,6 +64,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "srm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -69,6 +73,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "og"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -77,6 +82,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "fg"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -85,6 +91,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "hops"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -93,6 +100,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "hop-form"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -101,6 +109,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "hop-use"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -109,6 +118,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "lot-or-farm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -117,6 +127,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "malts"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -125,6 +136,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "yeast"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -133,6 +145,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "water"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -141,6 +154,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
   - field: "process"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -149,6 +163,7 @@ gaps:
       - "https://eastvillagebrew.com/recipes-2"
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Stay Calm coffee beer"
 hop-profile: []
 hops: []
 ibu: null
@@ -249,8 +264,8 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer.
+- Not published: ABV, IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Stay Calm coffee beer, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -260,3 +275,4 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 - The Bird Rock coffee attribution comes from press, not the brewery.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The search index describes Stay Calm with 5.2% ABV and 20 IBU, but the opened taproom menu omits the beer. The indexed figures were not accepted; ABV and IBU remain null. No hop names or new brewery beer page were found.
+- Deep dive pass 2026-10-14: the tap list does not list Stay Calm and a web search found no description or recipe.

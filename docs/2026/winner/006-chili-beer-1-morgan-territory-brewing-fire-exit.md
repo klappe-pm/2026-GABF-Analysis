@@ -225,3 +225,4 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found matching ABV, IBU and pepper details on the Tracy venue's Untappd listing. Searches found no dedicated brewery beer page or recipe varieties.
 - Field pass 2026-10-13: A brewery domain search found no Fire Exit beer page. A hop focused search returned the previously recorded venue listing and medal coverage without new hop varieties.
+- Deep dive pass 2026-10-14: the brewery's tap list was read again; it gives no tasting notes, hops or malts for Fire Exit or its Snap Shot base.
