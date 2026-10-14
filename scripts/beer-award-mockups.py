@@ -19,7 +19,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 rng = np.random.default_rng(7)
 
 # Theme: reference palette from the dataviz skill (light mode)
-SURFACE = "#fcfcfb"
+SURFACE = "#ffffff"
 INK = "#0b0b0b"
 INK2 = "#52514e"
 MUTED = "#898781"

@@ -317,6 +317,32 @@ function dashboardPages(ds) {
 }
 
 // ---------- breweries ----------
+const LINK_LABELS = [['instagram', 'Instagram'], ['untappd', 'Untappd'], ['beeradvocate', 'BeerAdvocate']];
+export function breweryLinks(b) {
+  const l = b.links ?? {};
+  const items = LINK_LABELS.filter(([k]) => l[k]).map(([k, label]) => `<a href="${esc(l[k])}" rel="noopener">${label}</a>`);
+  if (!items.length) return NOT_DEFINED;
+  return `${items.join(' · ')}${l.checked ? ` <span class="muted small">(checked ${esc(l.checked)})</span>` : ''}`;
+}
+
+// The brewery's current beers, grouped by the list they came from, each dated.
+export function currentBeersHtml(b) {
+  if (!b.current_beers?.length) return `<p>${NOT_DEFINED}</p>`;
+  const groups = new Map();
+  for (const c of b.current_beers) {
+    const k = `${c.source}|${c.as_of}`;
+    if (!groups.has(k)) groups.set(k, { source: c.source, as_of: c.as_of, beers: [] });
+    groups.get(k).beers.push(c);
+  }
+  const item = (c) => {
+    const detail = [c.style, c.abv ? `${c.abv}% ABV` : ''].filter(Boolean).map(esc).join(', ');
+    return `<li>${esc(c.beer_name)}${detail ? ` <span class="muted">(${detail})</span>` : ''}</li>`;
+  };
+  const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return 'source'; } };
+  return [...groups.values()].map((g) => `<p class="small muted">As of ${esc(g.as_of)}, from <a href="${esc(g.source)}" rel="noopener">${esc(host(g.source))}</a>.</p>
+<ul class="list-plain small">${g.beers.map(item).join('')}</ul>`).join('');
+}
+
 export function profileCard(b) {
   const o = b.ownership;
   const locs = b.location_list.length ? b.location_list.map((l) => ({ label: l.name, address_1: l.address, city: l.city, state: l.state, postal_code: l['postal-code'], opened: l.opened, kitchen: l.kitchen })) : (b.enriched?.locations ?? []).map((l) => ({ label: l.label || l.name, address_1: l.address_1 ?? l.street, city: l.city, state: l.state ?? l.state_province, postal_code: l.postal_code, latitude: l.latitude, longitude: l.longitude }));
@@ -331,9 +357,12 @@ export function profileCard(b) {
 <dt>Founded</dt><dd>${b.founded ?? NOT_DEFINED}</dd>
 <dt>Employees</dt><dd>${b.employees ? `${fmt(b.employees)} (reported)` : NOT_DEFINED}</dd>
 <dt>Website</dt><dd>${b.website ? `<a href="${esc(b.website)}" rel="noopener">${esc(b.website.replace(/^https?:\/\//, ''))}</a>` : NOT_DEFINED}</dd>
+<dt>Links</dt><dd>${breweryLinks(b)}</dd>
 <dt>Locations</dt><dd>${locs.length ? `<ul class="list-plain small">${locs.map((l) => `<li>${esc(l.label || l.city)}: ${esc([l.address_1, l.city, l.state, l.postal_code].filter(Boolean).join(', '))}${l.opened ? ` (opened ${esc(l.opened)})` : ''}${l.kitchen ? ', kitchen' : ''} <a href="${mapLink(l)}" rel="noopener">map</a></li>`).join('')}</ul>` : '<span class="muted">Not available</span>'}</dd>
 <dt>Known for</dt><dd>${b.known_for.length ? esc(b.known_for.join('; ')) : (countBy(b.medals, 'style_family').length ? `<span class="muted">${esc(countBy(b.medals, 'style_family').slice(0, 3).map(([k]) => k).join(', '))}</span>` : NOT_DEFINED)}</dd>
 </dl>
+<h3>current-beers</h3>
+${currentBeersHtml(b)}
 <h3>ownership-and-investors</h3>
 ${o ? `<dl class="kv">
 <dt>Ownership</dt><dd><span class="pill ${o.ownership_type === 'independent' || o.ownership_type === 'employee-owned' ? 'good' : ''}">${esc(valueLabel('ownership_type', o.ownership_type))}</span></dd>

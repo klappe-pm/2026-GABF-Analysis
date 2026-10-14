@@ -56,9 +56,9 @@ if (command === 'list') {
     console.log(`    ${d.title}`);
     const bits = [];
     if ((d.spots ?? []).length) bits.push(`${d.spots.length} spot${d.spots.length === 1 ? '' : 's'}`);
-    if ((d.components ?? []).length) bits.push(`components ${d.components.map((c) => c.name).join(', ')}`);
     if ((d['content-keys'] ?? []).length) bits.push(`content ${d['content-keys'].join(', ')}`);
     if (bits.length) console.log(`    ${bits.join('; ')}`);
+    for (const c of d.components ?? []) console.log(`    component ${c.name}: ${c.spec ?? 'no design system file yet'}`);
   }
 } else if (command === 'show') {
   need(ref, 'tickets show WI-001');

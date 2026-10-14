@@ -48,8 +48,8 @@ const SHELL_ALIASES = `/* Shell aliases: the engine's prototype page is styled w
 :root {
   --bg-primary: var(--page);
   --bg-surface: var(--card);
-  --bg-surface-hover: var(--surface-1);
-  --bg-inset: var(--surface-1);
+  --bg-surface-hover: var(--fill);
+  --bg-inset: var(--fill);
   --border-default: var(--control-border);
   --border-muted: var(--border);
   --accent-blue: var(--link);
@@ -210,6 +210,8 @@ function substitutions(screenCount, jobCount) {
   }
 
 `],
+    // A component in the "Made of" lists links to its design system file when it has one.
+    ["chips.appendChild(el('span', null, id));", "chips.appendChild(window.gabfFeedback.chip(pair[0], id, el));"],
     ["if (mode === 'feedback') return renderFeedback();", "panel.dataset.mode = mode;\n    if (mode === 'feedback') return window.gabfFeedback.render(panelBody, feedbackContext());"],
     ["q('feedback').classList.toggle('on', open && mode === 'feedback');", "q('feedback').classList.toggle('on', open && mode === 'feedback');\n    window.gabfFeedback.opened(open && mode === 'feedback', feedbackContext());"],
   ];

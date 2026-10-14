@@ -55,3 +55,14 @@ test('the site ships no dark theme toggle, dark rule, theme attribute or theme s
     assert.ok(!/theme-toggle|Dark mode|data-theme|gabf-theme/.test(text), `${rel} has dark theme toggle code`);
   }
 });
+
+test('the page background is pure white in the stylesheet and in the standalone dashboard', () => {
+  assert.match(css, /:root \{[^}]*--page: #ffffff;/);
+  assert.match(css, /:root \{[^}]*--surface-1: #ffffff;/);
+  const template = readFileSync(new URL('../site/standalone/template.html', import.meta.url), 'utf8');
+  assert.match(template, /\/\*__STYLES__\*\//, 'the standalone template takes its styles from site/assets/styles.css');
+  assert.ok(!/--page:/.test(template), 'the standalone template must not override the page variable');
+  const standalone = readFileSync(new URL('../gabf-dashboard.html', import.meta.url), 'utf8');
+  assert.match(standalone, /--page: #ffffff;/);
+  assert.ok(!/#f9f9f7|#fcfcfb/i.test(standalone), 'the standalone dashboard keeps no off white page color');
+});

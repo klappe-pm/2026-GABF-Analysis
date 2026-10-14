@@ -46,6 +46,7 @@ function corpus() {
   add(readFileSync(resolve(ROOT, 'data/reference/categories.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
   add(readFileSync(resolve(ROOT, 'data/reference/ownership.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
   add(readFileSync(resolve(ROOT, 'data/reference/distributors.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
+  add(readFileSync(resolve(ROOT, 'data/reference/current-beers.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
   return allowed;
 }
 

@@ -10,6 +10,8 @@
 //   /review/...      the feedback panel's endpoints: lists, regions, derive links, preview a copy
 //                    change, register a ticket, list and edit tickets, and the in place editor's
 //                    resolve (which text is page copy) and save (a copy edit with one spot)
+//   /review/design-system/...  a read only view of .design/design-system/ and nothing outside it: a
+//                    Markdown file as a readable page, any other file as it is
 //   everything else  the prototype (docs/design/prototype) and the sketches (docs/design/sketches)
 //
 // One origin is the point: the control plane can reach into its live frame to open the Filters
@@ -26,7 +28,8 @@ import { ROOT, parseArgs } from './lib/paths.mjs';
 import { engine } from './lib/agent-graph.mjs';
 import { addTicket, editTicket, feedbackDirOf, findTicket, listTickets, loadCategories } from './lib/review-store.mjs';
 import { describeScreen, loadManifest, regionsPayload } from './lib/review-screens.mjs';
-import { componentsForScreen, componentsForSpot, knownComponents, sourceMapEntries, withSpec } from './lib/review-components.mjs';
+import { VIEW_PREFIX, componentsForScreen, componentsForSpot, knownComponents, sourceMapEntries, withSpec } from './lib/review-components.mjs';
+import { designSystemFile, designSystemType, renderDesignSystemPage } from './lib/review-design-system.mjs';
 import { applyContentEdit, checkEdit, cmsDirOf, findInstances, loadCopy, loadInventory, matchContent, usedBy } from './lib/review-content.mjs';
 
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.csv': 'text/csv; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.pdf': 'application/pdf' };
@@ -174,7 +177,7 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       device: body.device,
       viewport: body.viewport,
       build: body.build,
-    }, { sanitize, categories: loadCategories(root) });
+    }, { sanitize, categories: loadCategories(root), root });
     return { id: ticket.id, page: ticket.page, file: ticket.file, status: ticket.status, redacted: ticket.redacted, rebuilt, edited: edits.length > 0 };
   }
 
@@ -213,6 +216,14 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       if (!site[2]) { res.writeHead(302, { location: `/${site[1]}/` }); return res.end(); }
       return serveSite(req, res, site[1], site[2]);
     }
+    if (url.pathname.startsWith(VIEW_PREFIX)) {
+      if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'method not allowed', 'text/plain; charset=utf-8');
+      const file = designSystemFile(root, url.pathname.slice(VIEW_PREFIX.length));
+      if (!file) return send(res, 404, 'There is no such file in the design system.', 'text/plain; charset=utf-8');
+      if (extname(file).toLowerCase() === '.md') return send(res, 200, renderDesignSystemPage(root, file), 'text/html; charset=utf-8');
+      res.writeHead(200, { 'content-type': designSystemType(file), 'cache-control': 'no-store' });
+      return createReadStream(file).pipe(res);
+    }
     if (req.method === 'POST' && foreignOrigin(req)) return send(res, 403, { error: 'feedback is accepted only from this machine' });
     try {
       const p = url.pathname;
@@ -220,7 +231,11 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       if (p === '/review/regions' && req.method === 'GET') return send(res, 200, regionsPayload(manifest()));
       if (p === '/review/lists' && req.method === 'GET') {
         const copy = loadCopy(cmsDir);
-        return send(res, 200, { components: knownComponents(root, manifest()).map((n) => withSpec(root, n)), contentKeys: copy.map((e) => e.key) });
+        // nodes pairs each manifest component id with the design system name the source map gives it,
+        // so the control plane's component lists can link the ids they show.
+        const nodes = {};
+        for (const e of sourceMapEntries(root)) if (e.node && e.component) nodes[e.node.replace(/^component:/, '')] = e.component;
+        return send(res, 200, { components: knownComponents(root, manifest()).map((n) => withSpec(root, n)), nodes, contentKeys: copy.map((e) => e.key) });
       }
       if (p === '/review/derive' && req.method === 'POST') return send(res, 200, derive(await readBody(req)));
       if (p === '/review/content' && req.method === 'POST') return send(res, 200, preview(await readBody(req)));
@@ -232,7 +247,7 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       if (edit && req.method === 'GET') { const t = findTicket(feedbackDir, edit[1]); return t ? send(res, 200, { ...t.data, note: t.body }) : send(res, 404, { error: 'no such ticket' }); }
       if (edit && req.method === 'POST') {
         const body = await readBody(req);
-        return send(res, 200, editTicket(feedbackDir, edit[1], body, { sanitize, categories: loadCategories(root) }));
+        return send(res, 200, editTicket(feedbackDir, edit[1], body, { sanitize, categories: loadCategories(root), root }));
       }
     } catch (error) {
       return send(res, error.problems ? 422 : 400, { error: error.message, problems: error.problems ?? [error.message] });
