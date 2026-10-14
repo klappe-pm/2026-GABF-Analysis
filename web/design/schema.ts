@@ -70,6 +70,10 @@ export const GLOBAL: Record<string, Kind> = {
   'Gold medal color': { type: 'hex' },
   'Silver medal color': { type: 'hex' },
   'Bronze medal color': { type: 'hex' },
+  // Page layout by Material window size class: how wide content may grow, and the side margins.
+  'Page width': enumOf(['fill', 'wide', 'standard']),
+  'Compact margin': numberOf([8, 12, 16, 20, 24]),
+  'Wide margin': numberOf([16, 24, 32, 40, 48]),
 };
 
 // Optional type size overrides in settings.md, in pixels: for example "Body large size: 17".

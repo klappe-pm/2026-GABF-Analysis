@@ -111,7 +111,7 @@ function breweryView(rows, ctx) {
     medalsByYearFigure('medals-by-year', rows, years, notes, { subtitle: `${b.name}, ${years[0]} to ${years[years.length - 1]}`, saveName: `${b.slug}-medals-by-year` }),
     barsFigure('medals-by-style-family', 'GABF medals by style family', byFamily, { color: 'var(--series-3)', labelWidth: 170, labelHeader: 'Style family' }),
   ];
-  if (byLocation.length > 1) figs.push(barsFigure('medals-by-location', 'GABF medals by location credited', byLocation, { subtitle: 'as printed in the winners list', color: 'var(--series-7)', labelWidth: 170, labelHeader: 'Location' }));
+  if (byLocation.length > 1) figs.push(barsFigure('medals-by-location', 'GABF medals by location credited', byLocation, { subtitle: 'as printed in the winners list', color: 'var(--series-2)', labelWidth: 170, labelHeader: 'Location' }));
   if (byCategory.length > 1) figs.push(barsFigure('medals-by-category', 'GABF medals by category', byCategory.slice(0, 15), { labelWidth: 240, labelHeader: 'Category' }));
   const byYear = [...years].reverse().map((y) => {
     const ms = rows.filter((m) => m.year === y);
@@ -320,7 +320,7 @@ function topBreweriesView(rows, ctx) {
   const perYear = yearsInView(meta, state).filter((y) => rows.some((x) => x.year === y)).reverse().map((y) => ({ year: y, coverage: meta.coverage[y], list: aggregateBreweries(rows.filter((x) => x.year === y)).slice(0, 25) }));
   const streaks = Object.values(info).filter((b) => b.streak > 1).sort((a, b) => b.streak - a.streak).slice(0, 10);
   return `<div class="grid">
-${barsFigure('top-breweries-points', 'Top 15 breweries by points', bars, { subtitle: 'medals in view', color: 'var(--series-7)', labelWidth: 220, valueName: 'Points', labelHeader: 'Brewery' })}
+${barsFigure('top-breweries-points', 'Top 15 breweries by points', bars, { subtitle: 'medals in view', color: 'var(--series-2)', labelWidth: 220, valueName: 'Points', labelHeader: 'Brewery' })}
 <div class="card"><h2>streaks</h2><p class="small">Longest active medal streaks, consecutive loaded years through ${meta.latest_complete}. A streak needs every year, so it is computed over the full record and the filter does not change it.</p><ol class="small">${streaks.map((b) => `<li><a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>: ${b.streak} years</li>`).join('') || '<li class="muted">No streaks longer than one year yet.</li>'}</ol><p class="small">Breweries whose first medal came in ${meta.latest_complete}: <a href="${r}first-time-medalists/${meta.latest_complete}/">first time medalists</a>.</p></div>
 </div>
 <h2>top-50-in-view</h2>
@@ -443,7 +443,7 @@ function ownershipView(rows, ctx) {
   return `<div class="stats">${statTile({ label: 'Medals to independents', value: pct(indep, rows.length), note: `${fmt(indep)} of ${fmt(rows.length)} medals in view; no ownership record counts as independent` })}${statTile({ label: 'Medalists with an ownership record', value: String(listed) })}${statTile({ label: 'Large brewer or conglomerate owned medalists', value: String(ownedKeys.size) })}</div>
 <div class="grid">
 ${barsFigure('ownership-type', 'Medals by ownership type', byType, { labelWidth: 230, labelHeader: 'Ownership' })}
-${parents.length ? barsFigure('parents', 'Medals by parent company', parents, { subtitle: 'owners that are not independent', color: 'var(--series-7)', labelWidth: 230, labelHeader: 'Parent' }) : '<div class="card"><h2>parents</h2><p class="muted">No medalist in view is owned by a large brewer or conglomerate.</p></div>'}
+${parents.length ? barsFigure('parents', 'Medals by parent company', parents, { subtitle: 'owners that are not independent', color: 'var(--series-2)', labelWidth: 230, labelHeader: 'Parent' }) : '<div class="card"><h2>parents</h2><p class="muted">No medalist in view is owned by a large brewer or conglomerate.</p></div>'}
 </div>`;
 }
 
@@ -453,7 +453,7 @@ function economicsView(rows, ctx) {
   const keys = new Set(rows.map((x) => x.brewery_key));
   const list = [...keys].map((k) => info[k]).filter(Boolean).sort((a, b) => (b.arr ?? 0) - (a.arr ?? 0));
   const bars = list.slice(0, 15).map((b) => ({ label: b.name, value: b.arr, href: `${r}breweries/${b.slug}/` }));
-  return `${barsFigure('arr-by-brewery', 'Estimated ARR by brewery (E)', bars, { subtitle: 'top 15 medalists in view', color: 'var(--series-6)', labelWidth: 220, valueName: 'ARR USD', labelHeader: 'Brewery' })}
+  return `${barsFigure('arr-by-brewery', 'Estimated ARR by brewery (E)', bars, { subtitle: 'top 15 medalists in view', color: 'var(--series-5)', labelWidth: 220, valueName: 'ARR USD', labelHeader: 'Brewery' })}
 <h2>all-medalists-in-view</h2>
 <div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml([
     { key: 'name', label: 'Brewery', render: (b) => `<a href="${r}breweries/${esc(b.slug)}/">${esc(b.name)}</a>` },
@@ -474,8 +474,8 @@ function economicsView(rows, ctx) {
 function trendsView(rows, ctx) {
   const { r, meta, state } = ctx;
   const years = yearsInView(meta, state);
-  const top = countBy(rows, 'style_family').slice(0, 7).map(([k]) => k);
-  const series = [...top, 'Other'].map((f, i) => ({ name: f, color: SERIES_COLORS[i % 8], data: years.map((y) => rows.filter((x) => x.year === y && (top.includes(x.style_family) ? x.style_family === f : f === 'Other')).length) }));
+  const top = countBy(rows, 'style_family').slice(0, SERIES_COLORS.length - 1).map(([k]) => k);
+  const series = [...top, 'Other'].map((f, i) => ({ name: f, color: SERIES_COLORS[i], data: years.map((y) => rows.filter((x) => x.year === y && (top.includes(x.style_family) ? x.style_family === f : f === 'Other')).length) }));
   const complete = years.filter((y) => meta.coverage[y] === 'complete' && rows.some((x) => x.year === y));
   let movers = '<div class="notice">Year over year movers appear when two complete years are in view.</div>';
   if (complete.length >= 2) {
@@ -484,7 +484,7 @@ function trendsView(rows, ctx) {
     const diffs = [...names.keys()].map((k) => ({ ...names.get(k), d: rows.filter((x) => x.brewery_key === k && x.year === last).length - rows.filter((x) => x.brewery_key === k && x.year === prev).length })).filter((x) => x.d !== 0).sort((a, b) => b.d - a.d);
     movers = `<h2>Movers ${prev} to ${last}</h2><div class="grid two"><div class="card"><h3>gained</h3><ol class="small">${diffs.slice(0, 10).filter((x) => x.d > 0).map((x) => `<li><a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a> +${x.d}</li>`).join('')}</ol></div><div class="card"><h3>lost</h3><ol class="small">${diffs.slice(-10).reverse().filter((x) => x.d < 0).map((x) => `<li><a href="${r}breweries/${esc(x.slug)}/">${esc(x.name)}</a> ${x.d}</li>`).join('')}</ol></div></div>`;
   }
-  return `${figure({ id: 'family-share', title: 'Medals by style family and year', subtitle: 'top seven families in view plus Other', height: 320, option: stackedColumnsOption({ labels: years, notes: years.map((y) => (meta.coverage[y] === 'complete' ? '' : meta.coverage[y])), series, saveName: 'style-family-by-year', selectiveLabels: false }), table: tableHtml([{ key: 'year', label: 'Year' }, ...series.map((f) => ({ key: f.name, label: f.name, numeric: true, render: (row) => f.data[row.i] }))], years.map((y, i) => ({ year: y, i })), { className: 'data-table' }) })}
+  return `${figure({ id: 'family-share', title: 'Medals by style family and year', subtitle: 'top four families in view plus Other', height: 320, option: stackedColumnsOption({ labels: years, notes: years.map((y) => (meta.coverage[y] === 'complete' ? '' : meta.coverage[y])), series, saveName: 'style-family-by-year', selectiveLabels: false }), table: tableHtml([{ key: 'year', label: 'Year' }, ...series.map((f) => ({ key: f.name, label: f.name, numeric: true, render: (row) => f.data[row.i] }))], years.map((y, i) => ({ year: y, i })), { className: 'data-table' }) })}
 ${movers}`;
 }
 

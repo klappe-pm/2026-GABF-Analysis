@@ -9,9 +9,12 @@ Heading font: Public Sans
 Body font: Public Sans
 Label font: Archivo Narrow
 Corner shape: medium
-Gold medal color: "#C9A13B"
-Silver medal color: "#B4B9BD"
+Gold medal color: "#B8860B"
+Silver medal color: "#8A9199"
 Bronze medal color: "#BF7B4A"
+Page width: fill
+Compact margin: 16
+Wide margin: 24
 ---
 
 # Design settings
@@ -28,5 +31,10 @@ These settings shape every page. The site reads them each time a page loads, so 
 - Body font: the face for body text and every figure. Public Sans is the only choice.
 - Label font: the face for short labels such as field labels and table headers: Archivo Narrow or Public Sans. Labels that hold figures always use Public Sans.
 - Corner shape: how round corners are across the site: square, small, medium (Material's standard), or large.
-- Gold medal color, Silver medal color, Bronze medal color: the metal fills of medal marks, in quotes.
+- Gold medal color, Silver medal color, Bronze medal color: the metal fills of medal marks and medal bars, in quotes. Each needs 3 to 1 against the white page and must keep the medal's initial readable on it, so the brand build refuses a metal that is too light or too deep.
+- Page width: how wide content may grow on large screens. fill uses the whole window; wide stops at 1600 pixels; standard stops at 1280 pixels. Long paragraphs always keep a readable line length, and tables and charts use the full width either way.
+- Compact margin: the side margin on phones (windows under 600 pixels wide), in pixels. Material's standard is 16.
+- Wide margin: the side margin on every wider window, in pixels. Material's standard is 24.
+- Chart series colors come from the Series colors list in the chart card's spec, which names five Material color roles; the site, the single file dashboard, the explorer, and the chart gallery all use those five.
+- Every page, the README banners, and the social card take their colors from this file; the site build regenerates them, so a change here reaches every one of them.
 - Type sizes: to change one Material type role, add a line such as Body large size: 17 (a whole number of pixels). The roles are display, headline, title, body, and label, each large, medium, or small.
