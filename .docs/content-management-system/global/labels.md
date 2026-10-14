@@ -2,6 +2,8 @@
 
 The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not defined".
 
+- `not_found`: Not Found
+
 ## `medal`
 
 Where: medal columns, chips, chart legends, and stat tiles.

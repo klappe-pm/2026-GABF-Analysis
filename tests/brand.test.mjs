@@ -47,7 +47,7 @@ test('the fonts are self hosted with their licenses, and every page loads them',
 // These pages are build outputs (npm run generate, which npm test runs first), not files in git.
 test('every generated single file page carries the current brand.css and fonts', () => {
   const brand = inlineBrandCss();
-  for (const page of ['gabf-dashboard.html', 'gabf-explorer.html', 'docs/design/chart-gallery/index.html']) {
+  for (const page of ['gabf-dashboard.html', 'docs/design/chart-gallery/index.html']) {
     assert.ok(read(page).includes(brand), `${page} has an old copy of brand.css or the fonts; rebuild it`);
   }
 });
@@ -60,10 +60,8 @@ const SURFACES = [
     .filter((f) => /\.(css|mjs|js)$/.test(f) && f !== 'brand.css')
     .map((f) => `site/assets/${f}`),
   'site/standalone/template.html',
-  'site/explorer/gabf-explorer-prototype.html',
   'scripts/build-site.mjs',
   'scripts/build-standalone.mjs',
-  'scripts/build-explorer.mjs',
   'scripts/build-chart-gallery.mjs',
   ...readdirSync(resolve(ROOT, 'scripts/chart-gallery')).map((f) => `scripts/chart-gallery/${f}`),
   'scripts/brand/social-card.html',

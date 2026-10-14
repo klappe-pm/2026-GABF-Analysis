@@ -253,3 +253,4 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 - Untappd search pages did not return results to automated fetches.
 - The official list places the cidery in Austin, CO; that location is kept as given.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery site has no Pink Pearl page.

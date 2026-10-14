@@ -23,7 +23,7 @@ An open, reproducible dataset and static dashboard site for the Great American B
 
 ## Quick start
 
-Use Node 22 or newer, which is what CI runs: the test suite and the SQLite scripts (`build-winner-db.mjs`, `build-explorer.mjs`) use the built in `node:sqlite` module.
+Use Node 22 or newer, which is what CI runs: the test suite and the SQLite script (`build-winner-db.mjs`) uses the built in `node:sqlite` module.
 
 ```bash
 git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci && npm run build && npm run serve
@@ -66,14 +66,13 @@ All commands run from the repository root.
 | `npm run validate` | structural data checks; add `-- --live` to re-query Open Brewery DB |
 | `npm run build` | render dist/ |
 | `npm run build:standalone` | write gabf-dashboard.html |
-| `npm run generate` | write the single file pages: gabf-dashboard.html, gabf-explorer.html, and the chart gallery |
+| `npm run generate` | write the single file pages: gabf-dashboard.html and the chart gallery |
 | `npm run serve` | preview dist/ at http://localhost:8080/ |
 | `npm run verify` | prose and brand checks, single file builds, tests, validation, site build, design checks |
 | `npm run web:build` | build the Material 3 app in web/ into web/out |
 | `npm run pages:dns` | check that gabf.beer DNS points at GitHub Pages |
 | `node scripts/new-year.mjs --year 2027` | fetch, parse, enrich, test, and rebuild for a new year |
 | `node scripts/build-winner-db.mjs 2026` | build the 2026 winners SQLite database (Node 22 or newer) |
-| `node scripts/build-explorer.mjs` | build gabf-explorer.html from that database (Node 22 or newer) |
 | `node scripts/scaffold-brewery.mjs --brewery "Name"` | start a brewery deep dive with a research checklist |
 
 ## Project structure
@@ -88,7 +87,7 @@ All commands run from the repository root.
 | `docs/2026/winner/` | 336 researched beer profiles, one per 2026 medal |
 | `docs/` | architecture, data sources, data dictionary, estimation method, research playbook, runbook |
 | `scripts/` | the pipeline: fetch, parse, import, enrich, validate, build, and helpers in `scripts/lib/` |
-| `site/` | stylesheet, ECharts option builders, dashboard client, US states GeoJSON, standalone and explorer templates |
+| `site/` | stylesheet, ECharts option builders, dashboard client, US states GeoJSON, and the standalone template |
 | `tests/` | node test runner suites with fixtures |
 | `web/` | the Material 3 app (Next.js static export) that becomes the whole site |
 | `.github/workflows/` | ci (the required `build` check), deploy (GitHub Pages after ci passes on main), and ingest-results (scheduled ingest) |

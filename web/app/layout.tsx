@@ -40,6 +40,7 @@ function SiteFooter() {
       <div className="type-body-small mx-auto flex max-w-(--app-page-max) flex-col gap-2 px-(--app-margin) py-6 text-on-surface-variant">
         <nav aria-label={t('global.navigation.footer.source')}>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <li><a href={href(paths.method)} className="text-primary underline">{t('global.navigation.footer.method')}</a></li>
             <li><a href={href(paths.about)} className="text-primary underline">{t('global.navigation.footer.about')}</a></li>
             <li><a href={REPO_URL} className="text-primary underline">{t('global.navigation.footer.source')}</a></li>
           </ul>
