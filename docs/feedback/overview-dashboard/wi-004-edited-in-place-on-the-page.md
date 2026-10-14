@@ -69,7 +69,8 @@ images:
     spot: 1
     component: null
     url: https://github.com/klappe-pm/GABF-Analysis/blob/main/docs/feedback/overview-dashboard/wi-004-edited-in-place-on-the-page/spot-1.png?raw=true
-issue: null
+issue: 77
+issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/77
 ---
 
 Edited in place on the page.
