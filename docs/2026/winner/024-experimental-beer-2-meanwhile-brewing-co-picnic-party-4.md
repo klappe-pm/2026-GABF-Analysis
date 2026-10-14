@@ -37,6 +37,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "srm"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "og"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -51,6 +53,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "fg"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -58,6 +61,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "hops"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -65,6 +69,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "hop-form"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -72,6 +77,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "hop-use"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -79,6 +85,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "lot-or-farm"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -86,6 +93,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "malts"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -93,6 +101,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "yeast"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -100,6 +109,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "adjuncts"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -107,6 +117,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
   - field: "water"
     sources-checked:
       - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
@@ -114,13 +125,7 @@ gaps:
       - "https://www.meanwhilebeer.com/"
       - "https://www.meanwhilebeer.com/beer"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
-      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
-      - "https://www.meanwhilebeer.com/"
-      - "https://www.meanwhilebeer.com/beer"
-      - "web searches recorded in the research notes"
+      - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
 hop-profile: []
 hops: []
 ibu: 25
@@ -128,13 +133,16 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Paper Plane Lager, a lager inspired by the classic cocktail, released in 750ml bottles"
+  source: "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
 sources:
   - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
   - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.meanwhilebeer.com/"
   - "https://www.meanwhilebeer.com/beer"
+  - "https://www.meanwhilebeer.com/events/summer-picnic-party-no-4---beer-release"
 srm: null
 style: "Paper Plane Lager"
 tasting-notes: null
@@ -191,7 +199,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Paper Plane Lager, a lager inspired by the classic cocktail, released in 750ml bottles | [meanwhilebeer.com](https://www.meanwhilebeer.com/events/summer-picnic-party-no-4-%2D-beer-release) |
 
 ## style-context
 
@@ -221,7 +229,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [say-my-name.prezly.com](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup), [untappd.com](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos), [meanwhilebeer.com](https://www.meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [say-my-name.prezly.com](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup), [untappd.com](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos), [meanwhilebeer.com](https://www.meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer), web searches recorded in the research notes, [meanwhilebeer.com](https://www.meanwhilebeer.com/events/summer-picnic-party-no-4-%2D-beer-release).
 
 ## research-notes
 
@@ -232,3 +240,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact number 4 release, its style and ABV in the brewery's publicity announcement, and IBU and blending details in Untappd beer metadata. Other numbered Picnic Party releases were excluded; the brewery QR menu's fetched text did not retain this beer.
 - Field pass 2026-10-13: An exact number 4 search restricted to the brewery domain found no beer page or named hops; earlier release publicity and QR-menu checks were not repeated.
+- Deep dive pass 2026-10-14: the brewery release event page (August 28, 2026) names the beer Picnic Party No. 4, Paper Plane Lager, the last of four 750ml bottles inspired by classic cocktails and made with its food truck partners; it gives no tasting notes or recipe.

@@ -31,16 +31,12 @@ description:
 entries: 111
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://ivanhoeparkbrewing.com/"
-      - "https://ivanhoeparkbrewing.com/beer/guavacation/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://ivanhoeparkbrewing.com/"
       - "https://ivanhoeparkbrewing.com/beer/guavacation/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://ivanhoeparkbrewing.com/"
@@ -86,11 +82,6 @@ gaps:
       - "https://ivanhoeparkbrewing.com/"
       - "https://ivanhoeparkbrewing.com/beer/guavacation/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://ivanhoeparkbrewing.com/"
-      - "https://ivanhoeparkbrewing.com/beer/guavacation/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -98,14 +89,18 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Berliner Weisse soured with a Lactobacillus strain, with guava added"
+  source: "https://ivanhoeparkbrewing.com/beer/guavacation/"
 sources:
   - "https://ivanhoeparkbrewing.com/"
   - "https://ivanhoeparkbrewing.com/beer/guavacation/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Sour, Berliner Weisse"
-tasting-notes: null
+tasting-notes:
+  text: "Low ABV, low bitterness and soured with a lactobacillus strain, it is vibrantly tart as well as amply carbonated."
+  source: "https://ivanhoeparkbrewing.com/beer/guavacation/"
 water: null
 yeast:
   - "Lactobacillus"
@@ -142,7 +137,9 @@ Source: [Ivanhoe Park: Guavacation](https://ivanhoeparkbrewing.com/beer/guavacat
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Low ABV, low bitterness and soured with a lactobacillus strain, it is vibrantly tart as well as amply carbonated.
+
+Source: [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/)
 
 ## ingredients
 
@@ -160,7 +157,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Berliner Weisse soured with a Lactobacillus strain, with guava added | [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/) |
 
 ## style-context
 
@@ -188,8 +185,8 @@ Links checked 2026-10-14: [Website](https://ivanhoeparkbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes.
 - Not published: IBU. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/), [ivanhoeparkbrewing.com](https://ivanhoeparkbrewing.com/beer/guavacation/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -198,3 +195,4 @@ Links checked 2026-10-14: [Website](https://ivanhoeparkbrewing.com/), [Instagram
 - No 2026 medal announcement was found on the brewery's home page.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A new IBU search found 4 IBU in a Florida Beer Blog account of a November 2018 brewery visit. That earlier pour does not establish the 2026 bitterness, so IBU remains null; no hop varieties were verified for Guavacation.
+- Deep dive pass 2026-10-14: the brewery page gives the souring method and tasting words; no hops, malts or IBU.

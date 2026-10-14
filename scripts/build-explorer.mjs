@@ -37,6 +37,12 @@ const dbPath = resolve(ROOT, 'data', 'enriched', `winners-${year}.sqlite`);
 
 const FOOTER_DETAILS = /(<span id="beer-details">)([\s\S]*?)(<\/span>)/;
 const DATASET = /(<script type="application\/json" id="dataset">)([\s\S]*?)(<\/script>)/;
+// The brand colors, inlined from site/assets/brand.css (generated from the design settings).
+const BRAND = /(<style id="brand">)([\s\S]*?)(<\/style>)/;
+export const inlineBrand = (html) => {
+  if (!BRAND.test(html)) throw new Error('explorer template has no brand style block');
+  return html.replace(BRAND, (_, open, _body, close) => `${open}\n${readFileSync(resolve(ROOT, 'site/assets/brand.css'), 'utf8')}${close}`);
+};
 
 
 const RESULTS = resolve(ROOT, 'data', 'results');
@@ -194,7 +200,7 @@ function main() {
   });
   const json = JSON.stringify(dataset).replace(/<\//g, '<\\/');
   if (!FOOTER_DETAILS.test(html)) throw new Error(`${input}: no beer-details footer span`);
-  const out = html.replace(DATASET, (_, open, _body, close) => `${open}${json}${close}`)
+  const out = inlineBrand(html).replace(DATASET, (_, open, _body, close) => `${open}${json}${close}`)
     .replace(FOOTER_DETAILS, (_, open, _body, close) => `${open}${beerDetailsHtml()}${close}`);
   writeFileSync(output, out);
   const perYear = Object.entries(built.yearStatus).map(([y, v]) => `${y}: ${v.rows}${v.status === 'partial' ? ' partial' : ''}`).join(', ');

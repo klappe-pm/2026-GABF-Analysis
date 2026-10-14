@@ -225,3 +225,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery menu is now readable and lists Colt 121 with ABV and a brief description. IBU and ingredients remain unpublished; the menu strength is retained without estimating a competition value.
 - Field pass 2026-10-13: A search for Colt 121 bitterness and hops found no new recipe source; the previously checked brewery menu was not fetched again.
+- Deep dive pass 2026-10-14: the brewery menu was read again; it gives only "Premium malt liquor" and the strength.

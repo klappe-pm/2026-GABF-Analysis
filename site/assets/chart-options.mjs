@@ -2,15 +2,16 @@ import { compact } from './charts.mjs';
 
 // Apache ECharts option builders shared by the build (Node) and the dashboards (browser).
 // Colors are CSS custom property references ("var(--series-1)") that echarts-init.js
-// resolves against the active theme before the option reaches ECharts, so one option
-// serves light and dark modes. Mark rules follow the dataviz method: bars capped at
+// resolves against brand.css (generated from the design settings) before the option
+// reaches ECharts, so no option carries a color of its own. Five series colors and a
+// seven step sequential scale are all the brand defines. Mark rules follow the dataviz method: bars capped at
 // 24px with a 4px rounded data end, stacks separated by a surface-colored hairline,
 // solid hairline grids, legends for two or more series, tooltips on every mark, and a
 // toolbox that saves a PNG or opens the data view.
 
 export const MEDAL_COLORS = { Gold: 'var(--medal-gold)', Silver: 'var(--medal-silver)', Bronze: 'var(--medal-bronze)' };
-export const SERIES_COLORS = ['var(--series-1)', 'var(--series-2)', 'var(--series-3)', 'var(--series-4)', 'var(--series-5)', 'var(--series-6)', 'var(--series-7)', 'var(--series-8)'];
-export const SEQUENTIAL_BLUE = ['#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#256abf', '#184f95', '#0d366b'];
+export const SERIES_COLORS = ['var(--series-1)', 'var(--series-2)', 'var(--series-3)', 'var(--series-4)', 'var(--series-5)'];
+export const SEQUENTIAL = ['var(--brand-seq-1)', 'var(--brand-seq-2)', 'var(--brand-seq-3)', 'var(--brand-seq-4)', 'var(--brand-seq-5)', 'var(--brand-seq-6)', 'var(--brand-seq-7)'];
 
 const TEXT = { primary: 'var(--text-primary)', secondary: 'var(--text-secondary)', muted: 'var(--text-muted)' };
 
@@ -80,7 +81,7 @@ export function stackedColumnsOption({ labels, notes = [], series, saveName = 'c
       type: 'bar',
       stack: 'total',
       barMaxWidth: 24,
-      itemStyle: { color: ser.color ?? SERIES_COLORS[idx % 8], borderColor: 'var(--surface-1)', borderWidth: 1 },
+      itemStyle: { color: ser.color ?? SERIES_COLORS[idx % SERIES_COLORS.length], borderColor: 'var(--surface-1)', borderWidth: 1 },
       // The top series carries the column total as a per-item literal label (no closures,
       // so the option survives JSON serialization). Selective: the maximum and the latest.
       data: idx === series.length - 1 && selectiveLabels
@@ -102,7 +103,7 @@ export function lineOption({ labels, series, saveName = 'chart', valueName = '' 
     grid: baseGrid({ top: series.length > 1 ? 36 : 28, right: 24 }),
     xAxis: categoryAxis(labels.map(String), { boundaryGap: false }),
     yAxis: valueAxis(valueName),
-    series: series.map((ser, idx) => ({ name: ser.name, type: 'line', data: ser.data, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: { width: 2, color: ser.color ?? SERIES_COLORS[idx % 8] }, itemStyle: { color: ser.color ?? SERIES_COLORS[idx % 8], borderColor: 'var(--surface-1)', borderWidth: 2 } })),
+    series: series.map((ser, idx) => ({ name: ser.name, type: 'line', data: ser.data, connectNulls: false, symbol: 'circle', symbolSize: 8, lineStyle: { width: 2, color: ser.color ?? SERIES_COLORS[idx % SERIES_COLORS.length] }, itemStyle: { color: ser.color ?? SERIES_COLORS[idx % SERIES_COLORS.length], borderColor: 'var(--surface-1)', borderWidth: 2 } })),
   };
 }
 
@@ -113,7 +114,7 @@ export function mapOption({ data, valueName = 'Medals', saveName = 'map', max })
     textStyle: textStyle(),
     tooltip: { trigger: 'item', formatter: `{b}: {c} ${valueName.toLowerCase()}` },
     toolbox: toolbox(saveName),
-    visualMap: { min: 0, max: top, left: 0, bottom: 0, orient: 'horizontal', calculable: true, textStyle: { color: TEXT.muted }, inRange: { color: SEQUENTIAL_BLUE } },
+    visualMap: { min: 0, max: top, left: 0, bottom: 0, orient: 'horizontal', calculable: true, textStyle: { color: TEXT.muted }, inRange: { color: SEQUENTIAL } },
     series: [{ name: valueName, type: 'map', map: 'usa', roam: false, nameProperty: 'name', data, itemStyle: { borderColor: 'var(--surface-1)', borderWidth: 1, areaColor: 'var(--grid)' }, emphasis: { label: { show: true, color: TEXT.primary }, itemStyle: { areaColor: 'var(--series-2)' } }, select: { disabled: true }, label: { show: false } }],
     __map: 'usa',
   };

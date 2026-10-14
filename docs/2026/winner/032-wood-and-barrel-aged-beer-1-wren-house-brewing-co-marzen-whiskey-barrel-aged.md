@@ -244,3 +244,4 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the exact whiskey variant, explicitly identified as the 2026 GABF winner. Its own listing confirms ABV, hops, broad malt groups, barrel source and duration; the unaged and mead barrel variants were excluded.
 - Field pass 2026-10-13: A new brewery-domain search for the whiskey variant found no beer page or numerical IBU; the previously recorded Untappd variant and brewery tap list were not fetched again.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no page for the barrel aged Märzen.

@@ -422,6 +422,7 @@
     var pickKey = h('button', { type: 'button', class: 'fbp-btn', text: 'Add the focused element' });
     pickKey.addEventListener('click', function () { toPage({ kind: 'pick-focused' }); });
     var recorded = h('ul', { class: 'fbp-recorded', 'aria-label': 'Already recorded for this step' });
+    var decisions = h('ul', { class: 'fbp-recorded', 'aria-label': 'Open decisions waiting for the owner' });
 
     var form = h('div', { class: 'fbp-form' },
       h('div', null, h('label', { for: 'fbp-note', text: 'Note' }), note),
@@ -433,8 +434,9 @@
         h('div', { class: 'fbp-add' }, compAdd, addComp), compList),
       h('div', null, h('label', { for: 'fbp-key-add', text: 'Content entries' }), keys,
         h('div', { class: 'fbp-add' }, keyAdd, addKey), keyList),
-      h('div', null, h('h3', { text: 'Recorded for this step' }), recorded));
-    recorded.previousElementSibling.style.cssText = 'margin:0;font-size:13px;font-weight:600;color:var(--text-primary);text-transform:none;letter-spacing:0';
+      h('div', null, h('h3', { text: 'Recorded for this step' }), recorded),
+      h('div', null, h('h3', { text: 'Open decisions' }), decisions));
+    [recorded, decisions].forEach(function (ul) { ul.previousElementSibling.style.cssText = 'margin:0;font-size:13px;font-weight:600;color:var(--text-primary);text-transform:none;letter-spacing:0'; });
     var scroll = h('div', { class: 'fbp-scroll' }, form);
     into.appendChild(scroll);
 
@@ -481,11 +483,47 @@
     }
     if (categories) fillCategories(); else api('GET', '/review/categories').then(function (r) { categories = r.categories; fillCategories(); }).catch(function () { catBox.textContent = 'Categories are unavailable: the review server did not answer.'; });
     if (lists) fillDatalists(); else loadLists().then(function (r) { if (r) fillDatalists(); });
-    api('GET', '/review/feedback?step=' + encodeURIComponent(ctx.current)).then(function (items) {
-      recorded.innerHTML = '';
-      if (!items.length) { recorded.appendChild(h('li', { text: 'Nothing yet.' })); return; }
-      items.slice(-6).forEach(function (t) { recorded.appendChild(h('li', { text: t.id + ' ' + t.status.toLowerCase() + ': ' + excerpt(t.title, 70) })); });
-    }).catch(function () { recorded.appendChild(h('li', { text: 'The review server did not answer.' })); });
+    // What is already recorded for the step, each ticket with where it is in the pipeline: queued,
+    // issue, in progress, pull request, merged, or needs attention, with links to the issue and the
+    // pull request and to the images captured with it. The list refreshes while the panel is open.
+    function loadRecorded() {
+      api('GET', '/review/feedback?step=' + encodeURIComponent(ctx.current)).then(function (items) {
+        recorded.innerHTML = '';
+        if (!items.length) { recorded.appendChild(h('li', { text: 'Nothing yet.' })); return; }
+        items.slice(-6).forEach(function (t) {
+          var li = h('li', { text: t.id + ' ' + t.status.toLowerCase() + ': ' + excerpt(t.title, 70) });
+          var p = t.pipeline;
+          if (p) {
+            li.appendChild(document.createTextNode(' '));
+            li.appendChild(h('strong', { class: 'fbp-pipeline fbp-pipeline-' + p.state.replace(/\s+/g, '-'), text: p.label }));
+            if (p.issueUrl) { li.appendChild(document.createTextNode(' ')); li.appendChild(h('a', { href: p.issueUrl, target: '_blank', rel: 'noopener', text: 'Issue' })); }
+            if (p.prUrl) { li.appendChild(document.createTextNode(' ')); li.appendChild(h('a', { href: p.prUrl, target: '_blank', rel: 'noopener', text: 'Pull request' })); }
+            if (p.error) li.appendChild(h('span', { class: 'fbp-hint', text: ' ' + p.error }));
+            if (p.needsPull) li.appendChild(h('span', { class: 'fbp-hint', text: ' ' + p.needsPull }));
+          }
+          (t.images || []).forEach(function (img) {
+            li.appendChild(document.createTextNode(' '));
+            li.appendChild(h('a', { href: img.url, target: '_blank', rel: 'noopener', text: img.kind === 'page' ? 'Page image' : img.kind === 'component' ? 'Component image' : 'Spot ' + img.spot + ' image' }));
+          });
+          recorded.appendChild(li);
+        });
+      }).catch(function () { recorded.innerHTML = ''; recorded.appendChild(h('li', { text: 'The review server did not answer.' })); });
+    }
+    // Everything waiting on the owner: open decision issues, each a link to the issue to answer.
+    function loadDecisions() {
+      api('GET', '/review/decisions').then(function (r) {
+        decisions.innerHTML = '';
+        if (!r.open || !r.open.length) { decisions.appendChild(h('li', { text: 'Nothing is waiting for you.' })); return; }
+        r.open.forEach(function (d) {
+          var li = h('li', null, h('a', { href: d.url, target: '_blank', rel: 'noopener', text: '#' + d.number + ' ' + excerpt(d.title, 80) }));
+          if (d.answered) li.appendChild(h('span', { class: 'fbp-hint', text: ' answered, being applied' }));
+          decisions.appendChild(li);
+        });
+      }).catch(function () { decisions.innerHTML = ''; decisions.appendChild(h('li', { text: 'The review server did not answer.' })); });
+    }
+    loadDecisions();
+    loadRecorded();
+    var recordedTimer = setInterval(function () { if (!recorded.isConnected) { clearInterval(recordedTimer); return; } loadRecorded(); loadDecisions(); }, 8000);
 
     refresh();
     if (isOpen) { setTimeout(function () { note.focus(); }, 0); syncPage(); derive(); }

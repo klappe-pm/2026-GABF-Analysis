@@ -35,7 +35,7 @@ gaps:
   - "use"
 humulene-percent-of-oil: "30 to 35"
 kind: "variety"
-medal-beers-2026: 1
+medal-beers-2026: 2
 myrcene-percent-of-oil: "24 to 30"
 origin-country: "England"
 owner-program: "English seedling selection"
@@ -132,9 +132,11 @@ No 2026 beer profile names a farm for this hop.
 2026 medal beers whose profile names this hop.
 
 - [Biere de Garde](../../2026/winner/066-european-style-amber-ale-1-white-bluffs-brewing-biere-de-garde.md), gold, European-Style Amber Ale, by [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md); published as Fuggles
+- [Left Fork](../../2026/winner/025-historical-beer-2-black-lung-brewing-co-left-fork.md), silver, Historical Beer, by [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md); published as Fuggle
 
 ### breweries
 
 Breweries with a 2026 medal beer that names this hop.
 
+- [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md), 1 beer
 - [White Bluffs Brewing](../../breweries/white-bluffs-brewing.md), 1 beer

@@ -289,3 +289,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found [Untappd's matching Eisbock listing](https://untappd.com/b/northbound-smokehouse-and-brewpub-eisbock/2307698) at 16.8% ABV and 21 IBU. These figures do not resolve the founder's statement that the concentrated beer was untested or establish measured values for the medal batch, so the structured fields remain null. No additional recipe ingredients were verified.
 - Field pass 2026-10-13: A new search found no additional brewery beer page or named hops; the previously recorded untested strength and bitterness figures remain excluded.
+- Deep dive pass 2026-10-14: the brewpub's awards page lists Eisbock awards only; no description or recipe.

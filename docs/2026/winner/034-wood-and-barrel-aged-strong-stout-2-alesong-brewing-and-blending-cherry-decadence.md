@@ -32,18 +32,13 @@ description:
 entries: 65
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://alesongbrewing.com/"
-      - "https://alesongbrewing.com/awards-and-accolades"
-      - "https://alesongbrewing.com/cherry-decadence"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://alesongbrewing.com/"
       - "https://alesongbrewing.com/awards-and-accolades"
       - "https://alesongbrewing.com/cherry-decadence"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://alesongbrewing.com/"
@@ -92,12 +87,6 @@ gaps:
       - "https://alesongbrewing.com/awards-and-accolades"
       - "https://alesongbrewing.com/cherry-decadence"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://alesongbrewing.com/"
-      - "https://alesongbrewing.com/awards-and-accolades"
-      - "https://alesongbrewing.com/cherry-decadence"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -106,7 +95,9 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Imperial oatmeal stout aged in Westward Whiskey barrels, with cherry"
+  source: "https://alesongbrewing.com/cherry-decadence"
 sources:
   - "https://alesongbrewing.com/"
   - "https://alesongbrewing.com/awards-and-accolades"
@@ -114,7 +105,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Imperial oatmeal stout"
-tasting-notes: null
+tasting-notes:
+  text: "This imperial oatmeal stout is silky and decadent, bursting with bourbon aroma from Westward Whiskey barrels. Layers of smooth vanilla, toasted oak, and dark chocolate intermix with slightly sweet cherry flavor, creating a chocolate-covered cherry in a glass."
+  source: "https://alesongbrewing.com/cherry-decadence"
 water: null
 yeast:
   - "Saccharomyces"
@@ -151,7 +144,9 @@ Source: [Alesong: Cherry Decadence](https://alesongbrewing.com/cherry-decadence)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This imperial oatmeal stout is silky and decadent, bursting with bourbon aroma from Westward Whiskey barrels. Layers of smooth vanilla, toasted oak, and dark chocolate intermix with slightly sweet cherry flavor, creating a chocolate-covered cherry in a glass.
+
+Source: [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence)
 
 ## ingredients
 
@@ -169,7 +164,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Imperial oatmeal stout aged in Westward Whiskey barrels, with cherry | [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence) |
 
 ## style-context
 
@@ -198,8 +193,8 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
 - Not published: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -207,3 +202,4 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 - The brewery's awards page already records this medal, spelling the beer "Cherry Decadance" (2026 GABF silver, Wood- and Barrel-Aged Strong Stout); the beer page spells it Decadence.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A new Untappd menu result explicitly names Alesong Cherry Decadence and reports N/A IBU; no hop variety was verified.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and the barrels; no hops or IBU.

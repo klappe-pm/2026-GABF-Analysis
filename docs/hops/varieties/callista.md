@@ -38,7 +38,7 @@ gaps:
   - "use"
 humulene-percent-of-oil: null
 kind: "variety"
-medal-beers-2026: 3
+medal-beers-2026: 4
 myrcene-percent-of-oil: "54 to 63.5"
 origin-country: "Germany"
 owner-program: "Hüll Hop Research Center (Germany)"
@@ -135,12 +135,14 @@ No 2026 beer profile names a farm for this hop.
 
 - [Oni Giri](../../2026/winner/044-rice-lager-1-masthead-brewing-co-oni-giri.md), gold, Rice Lager, by [Masthead Brewing Co.](../../breweries/masthead-brewing-co.md); published as Callista
 - [Super Stoked](../../2026/winner/014-classic-non-alcohol-ale-or-lager-1-deschutes-brewery-super-stoked.md), gold, Classic Non-Alcohol Ale or Lager, by [Deschutes Brewery](../../breweries/deschutes-brewery.md); published as Callista
+- [Left Fork](../../2026/winner/025-historical-beer-2-black-lung-brewing-co-left-fork.md), silver, Historical Beer, by [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md); published as Callista
 - [Snap Shot](../../2026/winner/063-american-cream-ale-3-morgan-territory-brewing-snap-shot.md), bronze, American Cream Ale, by [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md); published as Callista
 
 ### breweries
 
 Breweries with a 2026 medal beer that names this hop.
 
+- [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md), 1 beer
 - [Deschutes Brewery](../../breweries/deschutes-brewery.md), 1 beer
 - [Masthead Brewing Co.](../../breweries/masthead-brewing-co.md), 1 beer
 - [Morgan Territory Brewing](../../breweries/morgan-territory-brewing.md), 1 beer

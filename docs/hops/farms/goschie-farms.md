@@ -119,6 +119,7 @@ No 2026 beer profile names this farm.
 - [Breakside Lunch Break ISA](../../2026/winner/089-international-style-pale-ale-2-breakside-brewery-and-taproom-breakside-lunch-break-isa.md) by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), hops [Cascade](../varieties/cascade.md)
 - [Dort Light](../../2026/winner/039-international-light-lager-2-great-lakes-brewing-co-dort-light.md) by [Great Lakes Brewing Co.](../../breweries/great-lakes-brewing-co.md), hops [Cascade](../varieties/cascade.md)
 - [Fuzztail](../../2026/winner/001-american-wheat-beer-2-sunriver-brewing-co-fuzztail.md) by [Sunriver Brewing Co.](../../breweries/sunriver-brewing-co.md), hops [Cascade](../varieties/cascade.md)
+- [Left Fork](../../2026/winner/025-historical-beer-2-black-lung-brewing-co-left-fork.md) by [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md), hops [Fuggle](../varieties/fuggle.md)
 - [Old Head Red](../../2026/winner/096-american-amber-red-ale-2-cellarmaker-brewing-co-old-head-red.md) by [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md), hops [Cascade](../varieties/cascade.md)
 - [Brown Ale](../../2026/winner/081-american-brown-ale-3-second-street-brewery-brown-ale.md) by [Second Street Brewery](../../breweries/second-street-brewery.md), hops [Cascade](../varieties/cascade.md), [Centennial](../varieties/centennial.md)
 - [Fat Randy's IPA](../../2026/winner/027-hoppy-gluten-free-beer-3-holidaily-brewing-co-fat-randys-ipa.md) by [Holidaily Brewing Co.](../../breweries/holidaily-brewing-co.md), hops [Cascade](../varieties/cascade.md), [Centennial](../varieties/centennial.md)
@@ -127,6 +128,7 @@ No 2026 beer profile names this farm.
 
 ### breweries-reached-through-varieties
 
+- [Black Lung Brewing Co.](../../breweries/black-lung-brewing-co.md)
 - [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md)
 - [Cellarmaker Brewing Co.](../../breweries/cellarmaker-brewing-co.md)
 - [Great Lakes Brewing Co.](../../breweries/great-lakes-brewing-co.md)

@@ -30,71 +30,79 @@ description:
 entries: 65
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.greencheekbeer.com/"
-      - "https://www.greencheekbeer.com/costa-mesa/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "srm"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "og"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "fg"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "hop-form"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "hop-use"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "malts"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "yeast"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "adjuncts"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "water"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
   - field: "process"
     sources-checked:
       - "https://www.greencheekbeer.com/"
       - "https://www.greencheekbeer.com/costa-mesa/"
       - "web searches recorded in the research notes"
+      - "https://www.greencheekbeer.com/costa-mesa/#on-tap"
 hop-profile:
   - published: "Chinook"
     variety: "Chinook"
@@ -130,7 +138,9 @@ sources:
   - "https://www.greencheekbeer.com/costa-mesa/"
 srm: null
 style: "West Coast Black IPA"
-tasting-notes: null
+tasting-notes:
+  text: "BLACK. Deep as the abyss, immeasurably smooth. A mountain of Mosaic loomed vast, crowned with a gate of clean, unerring bitterness."
+  source: "https://www.greencheekbeer.com/costa-mesa/#on-tap"
 water: null
 yeast: []
 ---
@@ -166,7 +176,9 @@ Source: [Green Cheek: Costa Mesa tap list](https://www.greencheekbeer.com/costa-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> BLACK. Deep as the abyss, immeasurably smooth. A mountain of Mosaic loomed vast, crowned with a gate of clean, unerring bitterness.
+
+Source: [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap)
 
 ## ingredients
 
@@ -217,8 +229,8 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes.
-- Not published: IBU. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: IBU. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/), web searches recorded in the research notes, [greencheekbeer.com](https://www.greencheekbeer.com/costa-mesa/#on-tap).
 
 ## research-notes
 
@@ -228,3 +240,4 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Jolly Pint release page gives no numerical IBU; the gap remains.
+- Deep dive pass 2026-10-14: the tap list prints the hops as "Mosaic, Eukanot, & Chinook" in the heading and "Ekuanot" in the text; recorded as Ekuanot. No malts, yeast or IBU.

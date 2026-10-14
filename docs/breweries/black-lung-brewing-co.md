@@ -25,7 +25,8 @@ categories-won:
 city: "Grayslake"
 employees: null
 farms-named: []
-farms-reached: []
+farms-reached:
+  - "../hops/farms/goschie-farms.md"
 fed-district: 7
 fed-district-name: "Chicago"
 first-medal-year: 2026
@@ -38,7 +39,9 @@ gaps:
   - "ownership"
   - "untappd"
   - "website"
-hops-used: []
+hops-used:
+  - "../hops/varieties/callista.md"
+  - "../hops/varieties/fuggle.md"
 instagram: null
 known-for: []
 last-medal-year: 2026
@@ -77,7 +80,9 @@ Black Lung Brewing Co. of Grayslake, IL has won 1 GABF medal (0 gold, 1 silver, 
 
 ## hops
 
-- Noble hops, 1 beer
+- Ariana, 1 beer
+- [Callista](../hops/varieties/callista.md), 1 beer
+- [Fuggle](../hops/varieties/fuggle.md), 1 beer
 
 ## related
 
@@ -95,4 +100,4 @@ No 2026 profile of this brewery names a farm.
 
 Farms recorded as growing a variety this brewery uses. The link runs through the variety; the brewery did not necessarily buy from these farms.
 
-No farm is recorded as growing a variety this brewery uses.
+- [Goschie Farms](../hops/farms/goschie-farms.md), grows [Fuggle](../hops/varieties/fuggle.md)

@@ -28,7 +28,9 @@ import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, result
 import { sampleBeers, type SampleBeer } from '@/lib/samples';
 import { fill, finding, group, lookup, t } from '@/lib/content';
 import { existsInRepo, SOURCE_URL } from '@/lib/repo';
-import { ContrastTable, ElevationRow, MedalTable, Ordered, SchemeTable, SectionTabs, SettingsTable, ShapeTable, TypeTable } from './live';
+import { AdaptiveNavigation, ContrastTable, ElevationRow, MedalTable, Ordered, SchemeTable, SectionTabs, SettingsTable, ShapeTable, TypeTable } from './live';
+import { NavigationDrawer } from '@/components/NavigationDrawer';
+import { NavigationRail } from '@/components/NavigationRail';
 import { Specimen, State } from './parts';
 
 export function generateMetadata(): Metadata {
@@ -41,9 +43,10 @@ export function generateMetadata(): Metadata {
 const raw = (key: string) => lookup(key) as string;
 const YEAR = 2026;
 const MEDALS: MedalName[] = ['Gold', 'Silver', 'Bronze'];
-const ICONS: IconName[] = ['close', 'chevron-down', 'search', 'check', 'menu', 'filter', 'sort', 'sort-ascending', 'sort-descending'];
+const ICONS: IconName[] = ['close', 'chevron-down', 'search', 'check', 'menu', 'filter', 'sort', 'sort-ascending', 'sort-descending', 'tune', 'palette', 'type', 'shape', 'layers', 'widgets'];
 const ICON_LABELS: Record<IconName, string> = {
   close: 'Close', 'chevron-down': 'Chevron', search: 'Search', check: 'Check', menu: 'Menu', filter: 'Filter', sort: 'Sort', 'sort-ascending': 'Sort ascending', 'sort-descending': 'Sort descending',
+  tune: 'Settings', palette: 'Color', type: 'Type', shape: 'Shape', layers: 'Elevation', widgets: 'Components',
 };
 
 const rangeText = (key: 'inside' | 'below' | 'above', min: number, max: number, format: (n: number) => string) => fill(raw(`global.scales.range.${key}`), { min: format(min), max: format(max) });
@@ -208,7 +211,8 @@ export default function DesignSystemPage() {
   const medalChip = fill(raw('global.filters.chips.chip'), { dimension: dimension('medal'), value: medalNames.Gold });
   const searchQuery = 'zzzz';
   const yearRange = `${series.years[0]} to ${series.years[series.years.length - 1]}`;
-  const SECTION_IDS = ['settings', 'color', 'type', 'shape', 'elevation', 'components'];
+  const SECTION_ICONS: Record<string, IconName> = { settings: 'tune', color: 'palette', type: 'type', shape: 'shape', elevation: 'layers', components: 'widgets' };
+  const navItems = Object.entries(SECTION_ICONS).map(([id, icon]) => ({ id, text: sectionTitle(id), icon }));
 
   const components: { id: string; node: ReactNode }[] = [
     {
@@ -538,6 +542,29 @@ export default function DesignSystemPage() {
     },
   ];
 
+  components.push(
+    {
+      id: 'navigation-rail',
+      node: (
+        <Specimen name="navigation-rail" title={compName('navigation_rail')}>
+          <State label={states('default')}>
+            <NavigationRail inline className="flex" label={t('pages.design-system.page.nav_label')} items={navItems.map((i) => ({ ...i, href: `#${i.id}` }))} active={navItems[0].id} />
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'navigation-drawer',
+      node: (
+        <Specimen name="navigation-drawer" title={compName('navigation_drawer')}>
+          <State label={states('default')} wide>
+            <NavigationDrawer inline className="flex" label={t('pages.design-system.page.nav_label')} title={title} items={navItems.map((i) => ({ ...i, href: `#${i.id}` }))} active={navItems[0].id} />
+          </State>
+        </Specimen>
+      ),
+    },
+  );
+
   const beerCard = beerCardData(medalNames);
   const hopCard = hopCardData();
   const varietyTable = existsInRepo('data', 'reference', 'hop-varieties.csv');
@@ -589,7 +616,7 @@ export default function DesignSystemPage() {
       id: 'color',
       node: (
         <Section id="color" title={sectionTitle('color')} lead={note('color')}>
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,26rem),1fr))] gap-6">
             {['primary', 'secondary', 'tertiary', 'error', 'surfaces', 'outlines'].map((g) => (
               <div key={g} className="flex min-w-0 flex-col gap-3">
                 <h3 className="type-title-medium text-on-surface">{schemeGroup(g)}</h3>
@@ -647,7 +674,8 @@ export default function DesignSystemPage() {
       id: 'components',
       node: (
         <Section id="components" title={sectionTitle('components')} lead={note('components')}>
-          <div className="flex min-w-0 flex-col gap-3">
+          {/* A feed of component cards that adds columns as the window grows; wide components take a full row. */}
+          <div className="grid min-w-0 grid-cols-[repeat(auto-fill,minmax(min(100%,34rem),1fr))] gap-6">
             <Ordered list="Components" items={components} />
           </div>
         </Section>
@@ -665,18 +693,20 @@ export default function DesignSystemPage() {
         skipLabel={t('global.site.header.skip_link')}
         skipTarget="#main"
       />
-      <div className="mx-auto flex max-w-page flex-col gap-4 px-4 pt-6 pb-4">
-        <Breadcrumb label={t('global.site.header.nav_label')} items={[{ href: '/', text: t('global.site.identity.name') }, { text: title }]} />
-        <h1 className="type-display-small text-on-surface">{title}</h1>
-        <p className="type-body-large max-w-measure text-on-surface-variant">{t('pages.design-system.page.lede')}</p>
-        <p>
-          <md-outlined-button href={`${SOURCE_URL}/.design/design-system`}>{t('pages.design-system.page.source_link')}</md-outlined-button>
-        </p>
-      </div>
-      <SectionTabs label={t('pages.design-system.page.nav_label')} items={SECTION_IDS.map((id) => ({ id, text: sectionTitle(id) }))} />
-      <main id="main" className="mx-auto flex max-w-page flex-col gap-12 px-4 py-8">
-        <Ordered list="Sections" items={sections} />
-      </main>
+      <AdaptiveNavigation label={t('pages.design-system.page.nav_label')} title={title} items={navItems}>
+        <div className="mx-auto flex max-w-(--app-page-max) flex-col gap-4 px-(--app-margin) pt-6 pb-4">
+          <Breadcrumb label={t('global.site.header.nav_label')} items={[{ href: '/', text: t('global.site.identity.name') }, { text: title }]} />
+          <h1 className="type-display-small text-on-surface">{title}</h1>
+          <p className="type-body-large max-w-measure text-on-surface-variant">{t('pages.design-system.page.lede')}</p>
+          <p>
+            <md-outlined-button href={`${SOURCE_URL}/.design/design-system`}>{t('pages.design-system.page.source_link')}</md-outlined-button>
+          </p>
+        </div>
+        <SectionTabs label={t('pages.design-system.page.nav_label')} items={navItems} />
+        <main id="main" className="mx-auto flex max-w-(--app-page-max) flex-col gap-12 px-(--app-margin) py-8">
+          <Ordered list="Sections" items={sections} />
+        </main>
+      </AdaptiveNavigation>
     </>
   );
 }

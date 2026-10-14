@@ -36,84 +36,98 @@ gaps:
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/alt-brew-ice-bucket/6351634"
       - "https://www.altbrew.com/"
       - "https://www.altbrew.com/beer"
       - "web searches recorded in the research notes"
+      - "https://www.altbrew.com/beer (page loads by script, no text)"
 hop-profile:
   - published: "Krush"
     variety: "Krush"
@@ -227,8 +241,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/alt-brew-ice-bucket/6351634), [altbrew.com](https://www.altbrew.com/), [altbrew.com](https://www.altbrew.com/beer), web searches recorded in the research notes, [altbrew.com](https://www.altbrew.com/beer (page loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -238,3 +252,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found on the brewery's home or beer pages.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Ice Bucket listing publishes 6.7% ABV and names Krush and Mosaic in its Ales for ALS blend; IBU is N/A. The listing uses India Pale Lager, consistent with the brewery's hoppy lager label.
+- Deep dive pass 2026-10-14: the brewery beer page renders no readable text.

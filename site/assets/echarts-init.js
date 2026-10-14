@@ -7,7 +7,10 @@
   let mapReady = null;
 
   function cssVar(name) {
-    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || '#888';
+    // Every color is defined in brand.css; a missing one is a defect, so say so instead of guessing.
+    const value = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    if (!value) console.warn('Chart color ' + name + ' is not defined in brand.css');
+    return value;
   }
 
   function resolveVars(value) {

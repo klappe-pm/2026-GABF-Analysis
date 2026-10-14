@@ -31,13 +31,6 @@ description:
 entries: 21
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://business.untappd.com/locations/46338/themes/172032/js"
-      - "https://untappd.com/OrangeBikeBrewing/beer"
-      - "https://www.orangebikebrewing.com/"
-      - "https://www.orangebikebrewing.com/whats-on-tap"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://business.untappd.com/locations/46338/themes/172032/js"
@@ -45,6 +38,7 @@ gaps:
       - "https://www.orangebikebrewing.com/"
       - "https://www.orangebikebrewing.com/whats-on-tap"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://business.untappd.com/locations/46338/themes/172032/js"
@@ -145,7 +139,9 @@ sources:
   - "https://www.orangebikebrewing.com/whats-on-tap"
 srm: null
 style: "Märzen"
-tasting-notes: null
+tasting-notes:
+  text: "The Orange Bike Oktoberfest boast toasty aroma of rich German style malts. Dominant malt flavor with hints of toast and biscuits. Balanced hop bitterness with a rich and clean finish."
+  source: "https://www.orangebikebrewing.com/whats-on-tap"
 water: null
 yeast: []
 ---
@@ -181,7 +177,9 @@ Source: [Orange Bike: what's on tap](https://www.orangebikebrewing.com/whats-on-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> The Orange Bike Oktoberfest boast toasty aroma of rich German style malts. Dominant malt flavor with hints of toast and biscuits. Balanced hop bitterness with a rich and clean finish.
+
+Source: [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap)
 
 ## ingredients
 
@@ -229,8 +227,8 @@ Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
 - Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/46338/themes/172032/js), [untappd.com](https://untappd.com/OrangeBikeBrewing/beer), [orangebikebrewing.com](https://www.orangebikebrewing.com/), [orangebikebrewing.com](https://www.orangebikebrewing.com/whats-on-tap), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -239,3 +237,4 @@ Links checked 2026-10-14: [Website](https://www.orangebikebrewing.com/), [Instag
 - The brewery home page lists 2024 GABF and 2025 and 2026 World Beer Cup medals but had no 2026 GABF announcement when read.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Oktoberfest entry publishes N/A IBU and names no hop variety. ABV conflict: Untappd lists 6%, while the existing brewery tap-list source lists 5.9%; the existing ABV is retained.
+- Deep dive pass 2026-10-14: the tap list's description is all tasting language and is recorded as tasting notes; no recipe.

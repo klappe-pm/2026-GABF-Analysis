@@ -159,7 +159,7 @@ const PANELS = {
   'revenue-by-brewery': { title: 'Estimated annual revenue by brewery (E)', subtitle: 'breweries in view, estimate method in About', build(rows) {
     const keys = new Set(rows.map((r) => r.brewery_key));
     const items = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15).map((b) => ({ label: b.name, value: b.estimate.revenue_usd, href: bHref(b.slug), basis: b.estimate.basis }));
-    return { option: barsHOption({ items, color: 'var(--series-6)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Volume source', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-5)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Volume source', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
   } },
   'entries-trend': { title: 'Entries judged by year', subtitle: 'Brewers Association totals; years without a published figure are left blank', build() {
     const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));

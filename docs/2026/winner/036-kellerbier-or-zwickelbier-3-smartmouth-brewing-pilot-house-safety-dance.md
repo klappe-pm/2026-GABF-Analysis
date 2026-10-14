@@ -30,13 +30,6 @@ description:
 entries: 48
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
-      - "https://www.smartmouthbrewing.com/"
-      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu"
-      - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
@@ -132,7 +125,9 @@ sources:
   - "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
 srm: null
 style: "Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "A crisp, clean, premium lager brewed with imported German malts."
+  source: "https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach"
 water: null
 yeast: []
 ---
@@ -168,7 +163,9 @@ Source: [Smartmouth: Virginia Beach beers](https://www.smartmouthbrewing.com/sma
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A crisp, clean, premium lager brewed with imported German malts.
+
+Source: [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach)
 
 ## ingredients
 
@@ -216,7 +213,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-menu), [smartmouthbrewing.com](https://www.smartmouthbrewing.com/smartmouth-brewing-co-drink-va-beach), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -227,3 +224,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party searches give noble-hop character but no verified variety; a BeerAdvocate review's Saaz-like tasting impression is not a recipe declaration.
 - Catalog.beer 2026-10-14: [Catalog.beer: Safety Dance](https://catalog.beer/beer/3486128d-ab2b-49f6-9e24-a71444dc51f8) lists 4.8% ABV, 26 IBU, style "Contemporary American-Style Pilsener" (entry last modified 2026-08-19). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: both brewery menus give the same line; no hops or yeast.

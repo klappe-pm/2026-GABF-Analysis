@@ -268,3 +268,4 @@ Links checked 2026-10-14: [Website](https://www.wellwellington.com/), [Instagram
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact beer and brewery searches with Untappd, ABV, BeerMenus and 2026 GABF found medal coverage but no additional specifications. No beer-specific grain, hop or yeast declaration was found.
 - Field pass 2026-10-13: New recipe-focused searches yielded only medal coverage, with no ABV, IBU, brewery beer page or named hops; earlier exact-name Untappd and BeerMenus searches were not repeated.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no Altbier description.

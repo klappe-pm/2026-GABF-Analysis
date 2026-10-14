@@ -14,8 +14,13 @@ aliases: []
 tags:
   - "bronze"
   - "il"
-abv: null
-adjuncts: []
+abv: 12
+adjuncts:
+  - "Brain Strain peppers"
+  - "Cacao nibs"
+  - "Carolina Reaper peppers"
+  - "Chocolate Scorpion peppers"
+  - "Madagascar vanilla"
 beer: "Hell Bear"
 beer-url: null
 brewery: "Werk Force Brewing Co."
@@ -30,30 +35,6 @@ description:
 entries: 65
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
-      - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
-      - "https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/"
-      - "https://www.werkforcebrewing.com/"
-      - "https://www.werkforcebrewing.com/beer-to-go"
-      - "https://www.werkforcebrewing.com/menu"
-      - "https://www.werkforcebrewing.com/the-barrel-den"
-      - "web searches recorded in the research notes"
-  - field: "abv"
-    sources-checked:
-      - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
-      - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
-      - "https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/"
-      - "https://www.werkforcebrewing.com/"
-      - "https://www.werkforcebrewing.com/beer-to-go"
-      - "https://www.werkforcebrewing.com/menu"
-      - "https://www.werkforcebrewing.com/the-barrel-den"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -66,6 +47,8 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "srm"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -78,6 +61,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "og"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -90,6 +74,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "fg"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -102,6 +87,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "hops"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -114,6 +100,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "hop-form"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -126,6 +113,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "hop-use"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -138,6 +126,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "lot-or-farm"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -150,6 +139,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "malts"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -162,6 +152,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "yeast"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -174,18 +165,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
-  - field: "adjuncts"
-    sources-checked:
-      - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
-      - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
-      - "https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/"
-      - "https://www.werkforcebrewing.com/"
-      - "https://www.werkforcebrewing.com/beer-to-go"
-      - "https://www.werkforcebrewing.com/menu"
-      - "https://www.werkforcebrewing.com/the-barrel-den"
-      - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - field: "water"
     sources-checked:
       - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
@@ -198,18 +178,7 @@ gaps:
       - "https://www.werkforcebrewing.com/menu"
       - "https://www.werkforcebrewing.com/the-barrel-den"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
-      - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751"
-      - "https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear"
-      - "https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/"
-      - "https://www.werkforcebrewing.com/"
-      - "https://www.werkforcebrewing.com/beer-to-go"
-      - "https://www.werkforcebrewing.com/menu"
-      - "https://www.werkforcebrewing.com/the-barrel-den"
-      - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
 hop-profile: []
 hops: []
 ibu: null
@@ -217,7 +186,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "A blend of Sleepy Bear aged in Buffalo Trace Mash #2 and Willett bourbon barrels, then rested on Carolina Reaper, Chocolate Scorpion and Brain Strain peppers, roasted cacao nibs and Madagascar vanilla"
+  source: "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
 sources:
   - "https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship"
   - "https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177"
@@ -228,10 +199,13 @@ sources:
   - "https://www.werkforcebrewing.com/"
   - "https://www.werkforcebrewing.com/beer-to-go"
   - "https://www.werkforcebrewing.com/menu"
+  - "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
   - "https://www.werkforcebrewing.com/the-barrel-den"
 srm: null
 style: "Wood- and Barrel-Aged Strong Stout"
-tasting-notes: null
+tasting-notes:
+  text: "Tasting Notes: Rich Dark Chocolate, Vanilla, Depths of Hell. The end result is a perfect harmony of rich fudgy goodness with a touch of heat and smooth vanilla that make you come back for more."
+  source: "https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am"
 water: null
 yeast: []
 ---
@@ -251,12 +225,12 @@ Hell Bear is a barrel-aged stout from Werk Force Brewing Co., a brewery and tapr
 | Field | Value | Source |
 |---|---|---|
 | Style | Stout, Imperial / Double (Untappd label for every Bourbon Barrel Aged Hell Bear edition; the entered edition is not named) | [Untappd: Werk Force Hell Bear listings](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear) |
-| ABV | not published for the entered edition (editions listed at 13.2%, 13% for 2023 and 2024, and 12% for 2025) | [Untappd: Werk Force Hell Bear listings](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear) |
+| ABV | 12.0% | [Werk Force: 2025 Hell Bear release](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am) |
 | IBU | not published | none found |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
-| Adjuncts, fruit, spices | not published for the entered edition; the original edition names Ghost, Carolina Reaper and Death Spiral peppers | [Untappd: Bourbon Barrel Aged Hell Bear](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751) |
+| Adjuncts, fruit, spices | Carolina Reaper, Chocolate Scorpion and Brain Strain peppers, roasted cacao nibs, Madagascar vanilla | [Werk Force: 2025 Hell Bear release](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am) |
 | Other | Original edition aged 15 months in Weller wheated bourbon barrels | [Untappd: Bourbon Barrel Aged Hell Bear](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751) |
 
 ## brewery-description
@@ -269,7 +243,9 @@ Source: [Untappd: Hell Bear (2025)](https://untappd.com/b/werk-force-brewing-com
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Tasting Notes: Rich Dark Chocolate, Vanilla, Depths of Hell. The end result is a perfect harmony of rich fudgy goodness with a touch of heat and smooth vanilla that make you come back for more.
+
+Source: [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am)
 
 ## ingredients
 
@@ -287,7 +263,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | A blend of Sleepy Bear aged in Buffalo Trace Mash #2 and Willett bourbon barrels, then rested on Carolina Reaper, Chocolate Scorpion and Brain Strain peppers, roasted cacao nibs and Madagascar vanilla | [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am) |
 
 ## style-context
 
@@ -322,8 +298,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [patch.com](https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751), [untappd.com](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear), [binnys.com](https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/beer-to-go), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), [werkforcebrewing.com](https://www.werkforcebrewing.com/the-barrel-den), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [patch.com](https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751), [untappd.com](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear), [binnys.com](https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/beer-to-go), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), [werkforcebrewing.com](https://www.werkforcebrewing.com/the-barrel-den), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: IBU. Checked [patch.com](https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751), [untappd.com](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear), [binnys.com](https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/beer-to-go), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), [werkforcebrewing.com](https://www.werkforcebrewing.com/the-barrel-den), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am).
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [patch.com](https://patch.com/illinois/plainfield/werk-force-brewing-clinches-3-medals-2025-u-s-open-beer-championship), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear-2025/6494177), [untappd.com](https://untappd.com/b/werk-force-brewing-company-bourbon-barrel-aged-hell-bear/5093751), [untappd.com](https://untappd.com/WerkForceBrewingCompany/beer?q=hell+bear), [binnys.com](https://www.binnys.com/beer/ales/stout/imperial-stout/werk-force-barrel-aged-hell-bear-160232/), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/beer-to-go), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), [werkforcebrewing.com](https://www.werkforcebrewing.com/the-barrel-den), web searches recorded in the research notes, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2025/10/25/2025-bourbon-barrel-aged-hell-bear-release-11am).
 
 ## research-notes
 
@@ -334,3 +310,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: found four Untappd editions of Bourbon Barrel Aged Hell Bear (13.2%, 2023 at 13%, 2024 at 13%, 2025 at 12%), all labelled imperial stout; ABV stays null because the entered edition is not named. Patch reports Hell Bear tied for gold in Chili Pepper Beer at the 2025 US Open Beer Championship. No 2026 GABF medal post was found.
 - Field pass 2026-10-13: The retailer listing is explicitly the 2024 Barrel Aged Hell Bear, so it does not establish ABV or ingredients for the unspecified entered edition. No matching IBU, brewery beer page or hops were verified.
+- Deep dive pass 2026-10-14: the brewery's October 25, 2025 release page for the 2025 Bourbon Barrel Aged Hell Bear (the variant on file) gives 12.0% ABV, tasting notes (dashes in the original replaced with commas), the two bourbon barrels, the peppers and vanilla; no hops, malts or IBU.

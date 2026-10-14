@@ -1,33 +1,43 @@
+/* Every color comes from brand.css, which is generated from .design/design-system/settings.md and loads first.
+   The names below are the site's own aliases for the Material roles, kept so the rules that follow stay readable. */
 :root {
   color-scheme: light;
-  --surface-1: #ffffff;
-  --page: #ffffff;
-  --fill: #f3f3f1;
-  --card: #ffffff;
-  --text-primary: #0b0b0b;
-  --text-secondary: #52514e;
-  --text-muted: #6e6d68;
-  --grid: #e1e0d9;
-  --axis: #c3c2b7;
-  --control-border: #8a8980;
-  --border: rgba(11, 11, 11, 0.1);
-  --link: #1c5cab;
-  --series-1: #2a78d6;
-  --series-2: #eb6834;
-  --series-3: #1baf7a;
-  --series-4: #eda100;
-  --series-5: #e87ba4;
-  --series-6: #008300;
-  --series-7: #6250d6;
-  --series-8: #e34948;
-  --medal-gold: #eda100;
-  --medal-silver: #2a78d6;
-  --medal-bronze: #eb6834;
-  --mark-muted: #c3c2b7;
-  --good: #006300;
-  --warn: #b35900;
-  --focus: #2a78d6;
+  --surface-1: var(--md-sys-color-surface);
+  --page: var(--md-sys-color-background);
+  --fill: var(--md-sys-color-surface-container-low);
+  --card: var(--md-sys-color-surface-container-lowest);
+  --text-primary: var(--md-sys-color-on-surface);
+  --text-secondary: var(--md-sys-color-on-surface-variant);
+  --text-muted: var(--md-sys-color-on-surface-variant);
+  --grid: var(--md-sys-color-surface-container-highest);
+  --axis: var(--md-sys-color-outline-variant);
+  --control-border: var(--md-sys-color-outline);
+  --border: color-mix(in srgb, var(--md-sys-color-on-surface) 10%, transparent);
+  --link: var(--md-sys-color-primary);
+  --series-1: var(--brand-series-1);
+  --series-2: var(--brand-series-2);
+  --series-3: var(--brand-series-3);
+  --series-4: var(--brand-series-4);
+  --series-5: var(--brand-series-5);
+  /* The brand has five series colors. These three names stay only because the design control plane's
+     sketches still read them; site code uses series 1 to 5. */
+  --series-6: var(--brand-series-5);
+  --series-7: var(--brand-series-2);
+  --series-8: var(--md-sys-color-error);
+  --medal-gold: var(--app-color-gold);
+  --medal-silver: var(--app-color-silver);
+  --medal-bronze: var(--app-color-bronze);
+  --mark-muted: var(--md-sys-color-outline-variant);
+  --good: var(--md-sys-color-primary);
+  --warn: var(--md-sys-color-tertiary);
+  --focus: var(--md-sys-color-primary);
+  --shadow: var(--md-sys-color-shadow);
+  --scrim: var(--md-sys-color-scrim);
+  /* Page width and side margins come from the layout settings: the compact margin under 600 pixels, the
+     wide margin above. Content fills the window unless Page width caps it; prose keeps its own measure. */
+  --page-margin: var(--brand-margin-compact);
 }
+@media (min-width: 600px) { :root { --page-margin: var(--brand-margin-wide); } }
 
 * { box-sizing: border-box; }
 html { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; }
@@ -40,17 +50,17 @@ pre { background: var(--fill); border: 1px solid var(--border); padding: 12px; o
 pre code { background: none; padding: 0; }
 
 .site-header { background: var(--surface-1); border-bottom: 1px solid var(--border); }
-.site-header .inner { max-width: 1140px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.site-header .inner { max-width: var(--brand-page-max); margin: 0 auto; padding: 12px var(--page-margin); display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 .brand { font-weight: 650; text-decoration: none; color: var(--text-primary); font-size: 1.05rem; }
 .site-nav { display: flex; gap: 2px; flex-wrap: wrap; margin-left: auto; }
 .site-nav a { padding: 6px 7px; font-size: 0.95rem; border-radius: 6px; text-decoration: none; color: var(--text-secondary); }
 .site-nav a:hover { background: var(--fill); color: var(--text-primary); }
 .site-nav a.active { color: var(--text-primary); font-weight: 600; background: var(--fill); }
 
-main { max-width: 1140px; margin: 0 auto; padding: 20px 16px 48px; overflow-wrap: break-word; }
+main { max-width: var(--brand-page-max); margin: 0 auto; padding: 20px var(--page-margin) 48px; overflow-wrap: break-word; }
 .grid > *, .hero > * { min-width: 0; }
 .site-footer { border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 0.88rem; }
-.site-footer .inner { max-width: 1140px; margin: 0 auto; padding: 16px; }
+.site-footer .inner { max-width: var(--brand-page-max); margin: 0 auto; padding: 16px var(--page-margin); }
 
 h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
 h2 { font-size: 1.25rem; margin: 28px 0 10px; }
@@ -119,7 +129,7 @@ svg.chart .mark { cursor: default; }
 svg.chart .mark:hover path, svg.chart .mark:focus path { filter: brightness(1.12); }
 svg.chart .mark:focus { outline: none; }
 
-.tooltip { position: fixed; pointer-events: none; background: var(--text-primary); color: var(--surface-1); font-size: 0.82rem; padding: 6px 9px; border-radius: 6px; max-width: 320px; z-index: 50; box-shadow: 0 2px 10px rgba(0,0,0,0.2); display: none; }
+.tooltip { position: fixed; pointer-events: none; background: var(--text-primary); color: var(--surface-1); font-size: 0.82rem; padding: 6px 9px; border-radius: 6px; max-width: 320px; z-index: 50; box-shadow: 0 2px 10px color-mix(in srgb, var(--shadow) 20%, transparent); display: none; }
 .tooltip.show { display: block; }
 
 table.data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; background: var(--card); }
@@ -161,18 +171,23 @@ table.sortable th[aria-sort="descending"]::after { content: " ▼"; font-size: 0
 .list-plain { padding-left: 18px; }
 .sources { font-size: 0.88rem; }
 .sources li { margin-bottom: 4px; }
-.notice { border-left: 3px solid var(--series-4); background: var(--card); padding: 10px 14px; border-radius: 6px; color: var(--text-secondary); font-size: 0.92rem; }
-@media print { .site-header, .site-footer, .filters, details.table-view { display: none; } body { background: #fff; } }
+.notice { border-left: 3px solid var(--warn); background: var(--card); padding: 10px 14px; border-radius: 6px; color: var(--text-secondary); font-size: 0.92rem; }
+@media print { .site-header, .site-footer, .filters, details.table-view { display: none; } body { background: var(--page); } }
 
 /* dashboards and ECharts figures */
 figure.viz .echart { width: 100%; }
-.dash-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+/* Dashboard panels follow Material's window size classes: one column on compact (under 600) and medium
+   (600 to 839) windows, two on expanded (840 to 1199), three on large (1200 to 1599), four on extra large
+   (1600 and up). A wide panel spans the row. */
+.dash-grid { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 840px) { .dash-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1200px) { .dash-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1600px) { .dash-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .dash-grid .wide { grid-column: 1 / -1; }
 /* A chart canvas keeps the pixel width of the layout it was drawn in. Without min-width 0 on the grid
    items (and a column that may shrink to zero) the card cannot get narrower than that canvas, so the page
    overflows when a phone rotates or a window narrows until the chart redraws. */
 .dash-grid > * { min-width: 0; }
-@media (max-width: 480px) { .dash-grid { grid-template-columns: minmax(0, 1fr); } }
 .picker { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 0 0 12px; }
 .picker label { display: flex; flex-direction: column; gap: 3px; font-size: 0.8rem; color: var(--text-secondary); min-width: 260px; }
 .picker select { font: inherit; padding: 6px 8px; border: 1px solid var(--control-border); border-radius: 6px; background: var(--surface-1); color: var(--text-primary); }
@@ -205,7 +220,7 @@ table.sortable th:focus-visible { outline-offset: -2px; }
 /* phone header: brand and controls on one row, nav behind a Menu button (multi-page site only) */
 .nav-toggle { display: none; border: 1px solid var(--border); background: var(--card); color: var(--text-secondary); border-radius: 6px; padding: 5px 9px; cursor: pointer; font: inherit; font-size: 0.9rem; }
 @media (max-width: 1100px) {
-  .site-header.collapsible .inner { gap: 8px; padding: 10px 16px; }
+  .site-header.collapsible .inner { gap: 8px; padding: 10px var(--page-margin); }
   .site-header.collapsible .brand { margin-right: auto; }
   .site-header.collapsible .filter-trigger { order: 1; }
   .site-header.collapsible .nav-toggle { display: inline-block; order: 2; }
@@ -249,7 +264,7 @@ table.sortable th:focus-visible { outline-offset: -2px; }
 .est-mark { font: inherit; font-size: 0.78em; font-weight: 600; line-height: 1; color: var(--link); background: transparent; border: 1px solid var(--control-border); border-radius: 999px; padding: 2px 5px; margin-left: 2px; cursor: pointer; vertical-align: 0.1em; min-height: 24px; min-width: 24px; }
 .est-mark[aria-expanded="true"] { background: var(--link); color: var(--card); border-color: var(--link); }
 .stat-value .est-mark { font-size: 0.42em; vertical-align: 0.45em; }
-.est-popover { position: absolute; z-index: 70; background: var(--card); color: var(--text-primary); border: 1px solid var(--control-border); border-radius: 10px; padding: 12px 14px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18); font-size: 0.9rem; line-height: 1.45; text-align: left; white-space: normal; }
+.est-popover { position: absolute; z-index: 70; background: var(--card); color: var(--text-primary); border: 1px solid var(--control-border); border-radius: 10px; padding: 12px 14px; box-shadow: 0 6px 24px color-mix(in srgb, var(--shadow) 18%, transparent); font-size: 0.9rem; line-height: 1.45; text-align: left; white-space: normal; }
 .est-popover:focus { outline: 2px solid var(--focus); outline-offset: 2px; }
 .est-popover p { margin: 0 0 8px; }
 .est-pop-title { font-weight: 600; }
@@ -262,14 +277,14 @@ table.sortable th:focus-visible { outline-offset: -2px; }
 .filter-trigger { border: 1px solid var(--control-border); background: var(--card); color: var(--text-primary); border-radius: 6px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 0.9rem; }
 .filter-trigger .filter-count { font-weight: 600; }
 .filter-chips-bar { background: var(--surface-1); border-bottom: 1px solid var(--border); }
-.filter-chips-bar .inner { max-width: 1140px; margin: 0 auto; padding: 8px 16px; }
+.filter-chips-bar .inner { max-width: var(--brand-page-max); margin: 0 auto; padding: 8px var(--page-margin); }
 .chip-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 button.chip { font: inherit; font-size: 0.85rem; cursor: pointer; color: var(--text-primary); border: 1px solid var(--control-border); background: var(--card); border-radius: 999px; padding: 2px 10px; }
 .chip.fixed { border-style: dashed; color: var(--text-secondary); }
 .chip.clear { color: var(--link); border-color: transparent; background: transparent; }
 dialog.filter-panel { width: min(960px, calc(100vw - 32px)); max-height: calc(100vh - 48px); padding: 0; border: 1px solid var(--border); border-radius: 12px; background: var(--card); color: var(--text-primary); display: none; flex-direction: column; }
 dialog.filter-panel[open] { display: flex; }
-dialog.filter-panel::backdrop { background: rgba(0, 0, 0, 0.45); }
+dialog.filter-panel::backdrop { background: color-mix(in srgb, var(--scrim) 45%, transparent); }
 .filter-panel-head, .filter-panel-foot { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-bottom: 1px solid var(--border); }
 .filter-panel-head h2 { margin: 0 auto 0 0; font-size: 1.1rem; }
 .filter-panel-foot { border-bottom: 0; border-top: 1px solid var(--border); }

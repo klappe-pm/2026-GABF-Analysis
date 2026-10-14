@@ -31,16 +31,6 @@ description:
 entries: 19
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://holidailybrewing.com/"
-      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://holidailybrewing.com/"
-      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://holidailybrewing.com/"
@@ -121,9 +111,13 @@ sources:
   - "https://holidailybrewing.com/"
   - "https://holidailybrewing.com/beers/fat-randys-ipa/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Medium gold with a dry, hop-induced haziness (no SRM number published)"
+  source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
 style: "IPA"
-tasting-notes: null
+tasting-notes:
+  text: "AROMA: Strong forward notes of pine, citrus and tropical fruits. Background hints of malty sweetness. FLAVOR: Complex pine and citrus hop notes, with a smooth, malty finish. MOUTHFEEL: Full body with a smooth finish."
+  source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
 water: null
 yeast: []
 ---
@@ -159,7 +153,9 @@ Source: [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-rand
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> AROMA: Strong forward notes of pine, citrus and tropical fruits. Background hints of malty sweetness. FLAVOR: Complex pine and citrus hop notes, with a smooth, malty finish. MOUTHFEEL: Full body with a smooth finish.
+
+Source: [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/)
 
 ## ingredients
 
@@ -177,7 +173,7 @@ The brewery lists a grain bill of "a combination of roasts of millet malt and bu
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Medium gold with a dry, hop-induced haziness (no SRM number published) | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -209,10 +205,11 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 
 - All specs come from the brewery's own beer page; third party listings were not checked because web search was unavailable for most of this run.
 - The brewery home page embeds an October 11 Instagram post announcing that Favorite Blonde and Fat Randy's IPA both won bronze at the Great American Beer Festival.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes, appearance, 7% ABV, 55 IBU, millet and buckwheat malts and Mosaic, Cascade and Centennial; no yeast or hop forms.

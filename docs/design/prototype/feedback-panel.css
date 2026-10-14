@@ -114,3 +114,6 @@
   .fbp-context { grid-template-columns: auto 1fr; padding: 8px 14px; }
   .fbp-head, .fbp-foot, .fbp-scroll { padding-left: 14px; padding-right: 14px; }
 }
+.fbp-pipeline { font-size: 12px; font-weight: 600; }
+.fbp-pipeline-needs-attention { color: #b3261e; }
+.fbp-pipeline-merged { color: #1b6e2d; }

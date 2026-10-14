@@ -32,16 +32,6 @@ description:
 entries: 21
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://holidailybrewing.com/"
-      - "https://holidailybrewing.com/beers/favorite-blonde/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://holidailybrewing.com/"
-      - "https://holidailybrewing.com/beers/favorite-blonde/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://holidailybrewing.com/"
@@ -115,9 +105,13 @@ sources:
   - "https://holidailybrewing.com/"
   - "https://holidailybrewing.com/beers/favorite-blonde/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Clear golden (no SRM number published)"
+  source: "https://holidailybrewing.com/beers/favorite-blonde/"
 style: "Classic Gluten-Free Ale or Lager"
-tasting-notes: null
+tasting-notes:
+  text: "AROMA: Light malty aroma, subtle hints of lemon, and light hop notes. FLAVOR: Smooth malty sweetness, with a light hop bitterness. MOUTHFEEL: Medium body with a smooth, clean finish."
+  source: "https://holidailybrewing.com/beers/favorite-blonde/"
 water: null
 yeast: []
 ---
@@ -153,7 +147,9 @@ Source: [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> AROMA: Light malty aroma, subtle hints of lemon, and light hop notes. FLAVOR: Smooth malty sweetness, with a light hop bitterness. MOUTHFEEL: Medium body with a smooth, clean finish.
+
+Source: [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/)
 
 ## ingredients
 
@@ -170,7 +166,7 @@ The brewery publishes a grain bill of millet malt and buckwheat malt and a hop b
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Clear golden (no SRM number published) | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -202,7 +198,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -210,3 +206,4 @@ No brewery links have been checked yet.
 - The brewery home page embeds an October 11 Instagram post announcing that Favorite Blonde and Fat Randy's IPA both won bronze at the Great American Beer Festival.
 - The beer page names the beer "Favorite Blonde"; the official winners list uses "Favorite Blonde Ale".
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives aroma, appearance, flavor and mouthfeel; no yeast or gravity.
