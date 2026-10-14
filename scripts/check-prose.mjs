@@ -4,7 +4,8 @@
 //   2. no hard-wrapped paragraphs,
 //   3. headings in lowercase kebab-case (the root README H1 may carry the project name).
 // Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG,
-// PRODUCT, and DESIGN, and anything under .github/) may use title or sentence case headings; rules 1 and 2 still apply.
+// PRODUCT, and DESIGN, anything under .github/, and the site copy under content/) may use title or sentence
+// case headings; rules 1 and 2 still apply.
 // Code fences and frontmatter are skipped.
 
 import { readdirSync, readFileSync, statSync } from 'node:fs';
@@ -34,7 +35,7 @@ const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'C
 // True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
 export function isPublicFacing(rel) {
   const path = rel.split('\\').join('/');
-  return PUBLIC_FACING.has(path) || path.startsWith('.github/');
+  return PUBLIC_FACING.has(path) || path.startsWith('.github/') || path.startsWith('content/');
 }
 
 export function checkMarkdown(text, { isRootReadme = false, fileName = '', publicFacing = false } = {}) {
