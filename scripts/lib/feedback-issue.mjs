@@ -6,7 +6,7 @@
 
 import { relative, resolve, sep } from 'node:path';
 import { componentWords } from './review-components.mjs';
-import { imageLabel } from './review-store.mjs';
+import { imageLabel, showSetting } from './review-store.mjs';
 
 export const REPO = 'klappe-pm/GABF-Analysis';
 export const NO_RESPONSE = '_No response_';
@@ -73,7 +73,7 @@ export function issueTitle(ticket) {
   const c = (d['content-edits'] ?? [])[0];
   const s = (d['setting-edits'] ?? [])[0];
   if (c) return cut(plain(`Change "${c.old}" to "${c.new}"`), 100);
-  if (s) return cut(plain(`Change ${s.key} from ${s.old} to ${s.new}`), 100);
+  if (s) return cut(plain(`Change ${s.key} from ${showSetting(s.old)} to ${showSetting(s.new)}`), 100);
   return cut(plain(d.title || noteOf(ticket) || `Feedback ${d.id}`), 100);
 }
 
@@ -116,11 +116,11 @@ export function sectionTexts(ticket, { ref = 'main', repo = REPO } = {}) {
     }).join('\n\n')
     : '';
   out['Content edits'] = (d['content-edits'] ?? []).map((e) => `Copy entry ${code(e.key)} in ${code(e.file)}\n\n- Old: ${e.old}\n- New: ${e.new}${(e.instances ?? []).length ? `\n- Also changed: ${e.instances.map((i) => `${code(i.file)} line ${i.line}`).join(', ')}` : ''}`).join('\n\n');
-  out['Setting edits'] = (d['setting-edits'] ?? []).map((e) => `Setting ${code(e.key)} in ${code(e.file)}\n\n- Old: ${e.old}\n- New: ${e.new}`).join('\n\n');
+  out['Setting edits'] = (d['setting-edits'] ?? []).map((e) => `Setting ${code(e.key)} in ${code(e.file)}\n\n- Old: ${showSetting(e.old)}\n- New: ${showSetting(e.new)}`).join('\n\n');
   out['Categories'] = (d.categories ?? []).map((c) => `- [x] ${c}`).join('\n');
   const criteria = [];
   for (const e of d['content-edits'] ?? []) criteria.push(`The words read "${e.new}" everywhere the old words appeared.`);
-  for (const e of d['setting-edits'] ?? []) criteria.push(`The setting ${plain(e.key)} is ${e.new}.`);
+  for (const e of d['setting-edits'] ?? []) criteria.push(`The setting ${plain(e.key)} is ${showSetting(e.new)}.`);
   if (!criteria.length) criteria.push('The page does what the summary asks.');
   criteria.push('All repository checks pass.', 'No dash is used as punctuation and the copy is plain words.');
   out['Acceptance criteria and notes'] = `${bullets(criteria)}\n\nFeedback ticket ${d.id}, filed from the design review panel.`;

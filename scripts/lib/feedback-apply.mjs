@@ -5,7 +5,21 @@
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve, sep } from 'node:path';
+import { setFrontmatterKey, setListLine } from '../design-system/edit.mjs';
+import { splitFrontmatter } from '../design-system/lib.mjs';
 import { applyContentEdit, cmsDirOf, findInstances, loadCopy } from './review-content.mjs';
+
+const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
+
+function applyFrontmatterSetting(abs, text, edit) {
+  const { data } = splitFrontmatter(text);
+  if (same(data[edit.key], edit.new)) throw new Error(`${edit.file} already has ${edit.key} set to the new value, so there is nothing to change.`);
+  if (!same(data[edit.key], edit.old)) throw new Error(`${edit.file} no longer has ${edit.key} set to the recorded old value, so the recorded change cannot be applied as it stands.`);
+  let next = setFrontmatterKey(text, edit.key, edit.new);
+  if (/[\\/]components[\\/][^\\/]+[\\/]spec\.md$/.test(abs)) next = setListLine(next, edit.key, Array.isArray(edit.new) ? edit.new.join(', ') : String(edit.new));
+  writeFileSync(abs, next);
+  return { file: edit.file, key: edit.key, old: edit.old, new: edit.new };
+}
 
 const escapeRe = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -25,8 +39,11 @@ export function applyRecordedContentEdit(root, edit, { sanitize } = {}) {
   return applyContentEdit(root, { cmsDir, key: edit.key, newValue: edit.new, take, sanitize });
 }
 
-// Setting edits: { file, key, old, new }. The key's last segment is looked for as a JSON or YAML key
-// or a CSS custom property, followed by the old value, and exactly one place must match.
+// Setting edits: { file, key, old, new }. A design system Markdown file keeps its settings as YAML
+// frontmatter, and the design system's own byte preserving writer changes that key's lines (and a
+// spec's matching options line) and nothing else. Any other file is searched for the key's last
+// segment as a JSON or YAML key or a CSS custom property followed by the old value, and exactly
+// one place must match.
 export function applySettingEdit(root, edit) {
   const abs = resolve(root, edit.file);
   const inside = abs.startsWith(resolve(root) + sep);
@@ -34,6 +51,7 @@ export function applySettingEdit(root, edit) {
   if (!inside || parts.includes('.git') || parts.includes('node_modules')) throw new Error(`${edit.file} is outside the repository's source files.`);
   if (!existsSync(abs)) throw new Error(`${edit.file} is not in this checkout.`);
   const text = readFileSync(abs, 'utf8');
+  if (abs.endsWith('.md') && /^---\r?\n/.test(text)) return applyFrontmatterSetting(abs, text, edit);
   const leaf = String(edit.key).split('.').pop();
   const re = new RegExp(`((?:^|[\\s"'{,;])(?:["']?)${escapeRe(leaf)}(?:["']?)\\s*[:=]\\s*)(["']?)(${escapeRe(edit.old)})(?=\\2(?:[\\s,;}]|$))`, 'gm');
   const hits = [...text.matchAll(re)];

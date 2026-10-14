@@ -156,6 +156,19 @@ test('a content edit ticket goes from issue to merge to cleanup, with the ticket
   for (const s of ['queue', 'worktree', 'ticket-branch', 'labels', 'issue', 'apply', 'commit', 'verify', 'pull-request', 'checks', 'merge', 'handoff', 'cleanup', 'main']) assert.ok(steps.includes(s), `no log line for ${s}`);
 });
 
+test('the live edit the review server already made in the main checkout does not block the pull', async () => {
+  const r = makeRepo();
+  const out = contentTicket(r);
+  const { ctx } = stubs(r);
+  writeFileSync(join(r.root, '.docs/content-management-system/global/filters.md'), FILTERS.replace('Filter medals', 'Filter the medals'));
+  enqueue(r.queue, out.id);
+  const [result] = await processQueue(ctx);
+  assert.equal(result.ok, true, result.error);
+  assert.equal(jobFor(r.queue, out.id).needsPull, undefined);
+  assert.equal(g(r.root, 'status', '--porcelain').trim(), '');
+  assert.equal(g(r.root, 'rev-parse', 'HEAD'), g(r.origin, 'rev-parse', 'main'));
+});
+
 test('a local edit that was never committed asks for a pull instead of being overwritten', async () => {
   const r = makeRepo();
   const out = contentTicket(r);
@@ -311,6 +324,62 @@ test('--dry-run for a design note prints the agent command with its flags', asyn
   enqueue(ctx.queueDir, out.id);
   await processQueue(ctx);
   assert.ok(lines.some((l) => l.includes('$ (in ') && l.includes('claude -p --allowedTools') && l.includes('--permission-prompts none') && l.includes('--max-budget-usd 5')), lines.join('\n'));
+});
+
+// ---------- a ticket written by the design system Save ----------
+
+test('a design system Save ticket with a setting edit and a component image runs the same way', async () => {
+  const r = makeRepo();
+  mkdirSync(join(r.root, '.design/design-system/components/button'), { recursive: true });
+  writeFileSync(join(r.root, '.design/design-system/settings.md'), '---\nCorner shape: medium\nSeed color: "#4A8F3C"\n---\n\n# Settings\n');
+  writeFileSync(join(r.root, '.design/design-system/components/button/spec.md'), '---\nname: button\nCorner shape: medium\n---\n\n- Corner shape: medium\n');
+  g(r.root, 'add', '-A'); g(r.root, 'commit', '-m', 'Design system fixture'); g(r.root, 'push', 'origin', 'main');
+  const dir = join(r.store, 'design-system');
+  mkdirSync(join(dir, 'wi-002-corner'), { recursive: true });
+  writeFileSync(join(dir, 'wi-002-corner', 'component.png'), PNG);
+  writeFileSync(join(dir, 'wi-002-corner.md'), `---
+id: WI-002
+status: ACCEPTED
+title: Design setting Corner shape changed from medium to large
+page: design-system
+step: null
+components:
+  - name: button
+    spec: .design/design-system/components/button/spec.md
+images:
+  - path: wi-002-corner/component.png
+    kind: component
+    spot: null
+    component: button
+    url: null
+setting-edits:
+  - file: .design/design-system/components/button/spec.md
+    key: Corner shape
+    old: medium
+    new: large
+created: '2026-10-14T20:00:00.000Z'
+revised: '2026-10-14T20:00:00.000Z'
+---
+
+Design setting Corner shape changed from medium to large in the button spec.
+
+## images
+
+- [Button after the change](wi-002-corner/component.png)
+`);
+  const { ctx, state, calls } = stubs(r);
+  enqueue(r.queue, 'WI-002');
+  const [result] = await processQueue(ctx);
+  assert.equal(result.ok, true, result.error);
+  assert.ok(state.issueLabels.includes('kind: setting') && state.issueLabels.includes('page: Design system'));
+  assert.equal(state.issueTitle, 'Change Corner shape from medium to large');
+  assert.match(state.bodies.issueCreate, /### Setting edits\n\nSetting `Corner shape` in `.design\/design-system\/components\/button\/spec.md`\n\n- Old: medium\n- New: large/);
+  assert.match(state.bodies.issueCreate, /\[Button\]\(https:\/\/github.com\/klappe-pm\/GABF-Analysis\/blob\/main\/.design\/design-system\/components\/button\/spec.md\)/);
+  assert.match(state.bodies.issueCreate, /Component, Button/);
+  assert.equal(g(r.origin, 'show', 'main:.design/design-system/components/button/spec.md'), '---\nname: button\nCorner shape: large\n---\n\n- Corner shape: large\n');
+  assert.equal(g(r.origin, 'show', 'main:.design/design-system/settings.md'), '---\nCorner shape: medium\nSeed color: "#4A8F3C"\n---\n\n# Settings\n', 'the other file is untouched');
+  assert.ok(g(r.origin, 'ls-tree', '-r', '--name-only', 'main', 'docs/feedback').includes('component.png'));
+  assert.ok(!calls.some((c) => c[0] === 'claude'));
 });
 
 // ---------- setting edits ----------

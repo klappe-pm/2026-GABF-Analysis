@@ -66,7 +66,7 @@ export function parseTicket(text) {
   return { data: parse(m[1]) ?? {}, body: text.slice(m[0].length).replace(/^\r?\n/, '') };
 }
 
-const KEY_ORDER = ['id', 'status', 'title', 'page', 'job', 'job-title', 'step', 'state', 'state-path', 'route', 'hash', 'served', 'spots', 'components', 'content-keys', 'content-edits', 'setting-edits', 'categories', 'images', 'capture', 'issue', 'issue-url', 'pr', 'pr-url', 'device', 'viewport', 'build', 'legacy-id', 'redacted', 'created', 'revised'];
+const KEY_ORDER = ['id', 'status', 'title', 'page', 'job', 'job-title', 'step', 'state', 'state-path', 'route', 'hash', 'served', 'spots', 'components', 'content-keys', 'content-edits', 'categories', 'device', 'viewport', 'build', 'legacy-id', 'redacted', 'created', 'revised'];
 const ordered = (data) => {
   const out = {};
   for (const k of KEY_ORDER) if (data[k] !== undefined) out[k] = data[k];
@@ -156,9 +156,12 @@ function contentBody(edits) {
   return edits.map((e) => `## content-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}${e.instances?.length ? `\n- also updated: ${e.instances.map((i) => `${i.file}:${i.line}`).join(', ')}` : ''}`).join('\n\n');
 }
 
+// A setting value as words: a list is joined, and a missing value says so.
+export const showSetting = (v) => (v === null || v === undefined ? 'not set' : Array.isArray(v) ? v.join(', ') : String(v));
+
 function settingBody(edits) {
   if (!edits?.length) return '';
-  return edits.map((e) => `## setting-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}`).join('\n\n');
+  return edits.map((e) => `## setting-edit\n\n${e.key} in ${e.file}\n\n- old: ${showSetting(e.old)}\n- new: ${showSetting(e.new)}`).join('\n\n');
 }
 
 function write(dir, page, name, data, body, sanitize) {
@@ -267,7 +270,8 @@ export function patchTicket(dir, id, fields, { sanitize, body = null }) {
   const data = { ...t.data, ...fields };
   if (fields.images) data.images = fields.images.map(imageOf);
   let text = body ?? t.body;
-  if (fields.images && body === null) {
+  // A ticket that already lists its images (the design system Save writes its own section) keeps its text.
+  if (fields.images && body === null && !/^## (captured-)?images\s*$/m.test(text)) {
     const parts = text.split(/\n(?=## )/).filter((p) => !/^## captured-images\s*(\n|$)/.test(p));
     text = [...parts, imagesBody(data.images)].filter(Boolean).join('\n\n');
   }
@@ -371,7 +375,7 @@ export function migrateRecords(dir, records, { sanitize, describe, components = 
 // Problems in the tickets on disk: a file the reader cannot parse, a missing key, a status outside
 // the set, a ticket filed under the wrong page, or a repeated id. No store at all is no problem.
 // A design system Save ticket has no journey step, spots or copy keys, so only the common keys are required.
-const REQUIRED = ['id', 'status', 'page', 'categories', 'created', 'revised'];
+const REQUIRED = ['id', 'status', 'page', 'created', 'revised'];
 export function ticketIssues(dir) {
   const issues = [];
   if (!existsSync(dir)) return issues;

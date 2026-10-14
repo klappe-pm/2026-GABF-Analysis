@@ -185,7 +185,15 @@ async function runAgent(ctx, id, issueBody, wt) {
   step(ctx, id, 'apply', 'the agent finished');
 }
 
-function fastForward(ctx, id, own, localHash) {
+// The files a ticket's recorded edits touch, as repository paths.
+function editedFiles(data) {
+  const files = new Set();
+  for (const e of data['content-edits'] ?? []) { files.add(e.file); for (const i of e.instances ?? []) files.add(i.file); }
+  for (const e of data['setting-edits'] ?? []) files.add(e.file);
+  return [...files].filter(Boolean);
+}
+
+function fastForward(ctx, id, own, localHash, data = {}) {
   must(git(ctx, ctx.root, 'fetch', 'origin', 'main'), 'fetching main');
   const branch = git(ctx, ctx.root, 'rev-parse', '--abbrev-ref', 'HEAD').stdout.trim();
   if (branch !== 'main') return 'the main checkout is not on main; it needs a pull';
@@ -194,6 +202,13 @@ function fastForward(ctx, id, own, localHash) {
   if (!ctx.dry && own && sha(own.localFile) === localHash) {
     rmSync(own.localFile, { force: true });
     rmSync(own.localImages, { recursive: true, force: true });
+  }
+  // The review server wrote the same edits into the main checkout when the ticket was saved. A file
+  // whose content is now exactly what merged is put back to the committed version so the pull applies.
+  if (!ctx.dry) {
+    for (const file of editedFiles(data)) {
+      if (git(ctx, ctx.root, 'status', '--porcelain', '--', file).stdout.trim() && git(ctx, ctx.root, 'diff', '--quiet', 'origin/main', '--', file).status === 0) git(ctx, ctx.root, 'checkout', '--', file);
+    }
   }
   const dirty = git(ctx, ctx.root, 'status', '--porcelain').stdout.trim();
   if (dirty && !ctx.dry) return 'the main checkout has local changes; it needs a pull';
@@ -361,7 +376,7 @@ export async function runJob(id, ctx) {
     git(ctx, ctx.root, 'worktree', 'prune');
     step(ctx, id, 'cleanup', 'worktree and local branch removed');
     if (!ctx.dry) { patchTicket(ctx.storeDir, id, { status: 'DONE', pr, 'pr-url': prUrl }, { sanitize: ctx.sanitize }); localHash = sha(own.localFile); }
-    const needsPull = fastForward(ctx, id, own, localHash);
+    const needsPull = fastForward(ctx, id, own, localHash, t.data);
     if (needsPull) { updateJob(ctx.queueDir, id, { needsPull }, ctx.now()); step(ctx, id, 'main', needsPull); } else step(ctx, id, 'main', 'fast-forwarded');
     return { ok: true, issue: number, pr, merge };
   } catch (error) {
