@@ -20,7 +20,7 @@ export function State({ label, children, wide = false }: { label: string; childr
 export function Specimen({ name, title, children, columns = 'md:grid-cols-2' }: { name: string; title: string; children: ReactNode; columns?: string }) {
   return (
     <article id={`component-${name}`} className="scroll-mt-16">
-      <md-outlined-card className="flex min-w-0 flex-col gap-4 p-4 sm:p-6">
+      <md-outlined-card className="flex min-w-0 flex-col gap-4 p-4 sm:p-6" style={{ ['--md-outlined-card-container-color' as string]: 'var(--md-sys-color-surface-container-low)' }}>
         <SectionHeader
           id={`component-${name}-title`}
           level={3}

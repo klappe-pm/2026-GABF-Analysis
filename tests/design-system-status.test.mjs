@@ -57,7 +57,9 @@ test('the generated light scheme meets WCAG AA, with neutral surfaces by default
     }
   }
   const tinted = d.schemeFor({ ...g, 'Surface tint': 'seed' });
-  assert.notEqual(tinted.surface, scheme.surface);
+  assert.notEqual(tinted['surface container'], scheme['surface container']);
+  if (g['Page background'] === 'white') for (const role of ['background', 'surface', 'surface bright']) assert.equal(scheme[role], '#ffffff', role);
+  assert.notEqual(d.schemeFor({ ...g, 'Page background': 'scheme' }).surface, '#ffffff');
 });
 
 test('the system has one light theme', () => {

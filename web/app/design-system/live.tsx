@@ -3,6 +3,7 @@
 // The parts of the style guide that show the settings themselves. They read the values the page applied
 // (the built values first, then the loaded files), so every value shown is the value in use.
 import { type ReactNode, useEffect, useRef } from 'react';
+import { EditableValue } from 'design-editor';
 import { RuledTable } from '@/components/RuledTable';
 import { useDesign, useScheme } from '@/design/runtime';
 import { COMPONENTS, type ColorRole, elevationLevels, globalKind, SHAPES, showValue } from '@/design/schema';
@@ -49,8 +50,8 @@ export function SectionTabs({ label, items }: { label: string; items: { id: stri
     return () => { tabs.removeEventListener('change', onChange); io.disconnect(); };
   }, [ids]);
   return (
-    <div className="sticky top-0 z-10 bg-surface-container-lowest">
-      <md-tabs ref={ref} aria-label={label} className="mx-auto block max-w-page" style={{ ['--md-primary-tab-container-color' as string]: 'var(--md-sys-color-surface-container-lowest)' }}>
+    <div className="sticky top-0 z-10 bg-surface-container">
+      <md-tabs ref={ref} aria-label={label} className="mx-auto block max-w-page" style={{ ['--md-primary-tab-container-color' as string]: 'var(--md-sys-color-surface-container)' }}>
         {sorted.map((s, i) => <md-primary-tab key={s.id} id={`tab-${s.id}`} active={i === 0 || undefined}>{s.text}</md-primary-tab>)}
       </md-tabs>
     </div>
@@ -74,7 +75,7 @@ export function SettingsTable({ caption, cols }: { caption: string; cols: { sett
         key: k,
         cells: {
           setting: k,
-          value: HEX.test(String(v)) ? <span className="inline-flex items-center gap-2"><Swatch value={String(v)} />{String(v)}</span> : showValue(v),
+          value: <EditableValue target="settings" k={k} value={v}>{HEX.test(String(v)) ? <span className="inline-flex items-center gap-2"><Swatch value={String(v)} />{String(v)}</span> : showValue(v)}</EditableValue>,
         },
       }))}
     />
@@ -86,7 +87,7 @@ export const SCHEME_GROUPS: Record<string, ColorRole[]> = {
   secondary: ['secondary', 'on secondary', 'secondary container', 'on secondary container'],
   tertiary: ['tertiary', 'on tertiary', 'tertiary container', 'on tertiary container'],
   error: ['error', 'on error', 'error container', 'on error container'],
-  surfaces: ['surface', 'surface dim', 'surface bright', 'surface container lowest', 'surface container low', 'surface container', 'surface container high', 'surface container highest', 'on surface', 'on surface variant'],
+  surfaces: ['background', 'on background', 'surface', 'surface dim', 'surface bright', 'surface container lowest', 'surface container low', 'surface container', 'surface container high', 'surface container highest', 'on surface', 'on surface variant'],
   outlines: ['outline', 'outline variant', 'inverse surface', 'inverse on surface', 'inverse primary'],
 };
 
@@ -214,7 +215,7 @@ export function SettingsList({ name, heading }: { name: string; heading: string 
       <h4 className="type-title-small text-on-surface">{heading}</h4>
       <ul className="type-body-medium flex flex-col gap-1 text-on-surface-variant">
         {Object.keys(COMPONENTS[name] ?? {}).map((k) => (
-          <li key={k}><span className="text-on-surface">{k}</span>: <span style={{ color: color('on surface variant') }}>{showValue(values[k] ?? '')}</span></li>
+          <li key={k}><span className="text-on-surface">{k}</span>: <EditableValue target={name} k={k} value={values[k] ?? ""}><span style={{ color: color("on surface variant") }}>{showValue(values[k] ?? "")}</span></EditableValue></li>
         ))}
       </ul>
     </div>

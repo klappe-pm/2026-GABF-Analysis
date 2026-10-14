@@ -26,6 +26,7 @@
     "design-system:check": "node scripts/design-system/check.mjs",
     "design-system:images": "node scripts/design-system/spec-images.mjs",
     "design-system:audit": "node scripts/design-system/audit-rendered.mjs",
+    "design-system:review": "DESIGN_REVIEW=1 npm run build --prefix web && node web/scripts/serve-out.mjs --review",
     "web:install": "npm ci --prefix web",
     "web:build": "npm run build --prefix web",
     "web:serve": "npm run serve --prefix web",

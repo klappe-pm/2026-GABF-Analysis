@@ -4,8 +4,8 @@
 // page (web/app/layout.tsx), so a slow or failed request leaves the page styled as built. On success the
 // Material custom properties are set on the root element, every component re-renders from its spec's
 // values, and a "design-settings" event tells drawn things (charts) to redraw.
-import { createContext, type ReactNode, useContext, useEffect, useMemo, useState } from 'react';
-import { COMPONENTS, type Settings } from './schema';
+import { createContext, type ReactNode, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import { COMPONENTS, mergeComponent, mergeGlobal, type Settings, type Value } from './schema';
 import { type DesignState, readState, SETTINGS_PATH, specPath } from './state';
 import { schemeFor, type Scheme, themeVars } from './theme';
 
@@ -79,8 +79,23 @@ export function DesignSettings({ initial, children }: { initial: DesignState; ch
     return () => { live = false; };
   }, [initial]);
 
-  return <Ctx.Provider value={state}>{children}</Ctx.Provider>;
+  // Show one value without saving it (review mode editors): the page re-themes at once.
+  const preview = useCallback((target: string, key: string, value: Value) => {
+    setState((prev) => {
+      const next = target === 'settings'
+        ? { ...prev, global: mergeGlobal(prev.global, { [key]: value }) }
+        : { ...prev, components: { ...prev.components, [target]: mergeComponent(target, prev.components[target] ?? {}, { [key]: value }) } };
+      if (target === 'settings') for (const [k, v] of Object.entries(themeVars(next.global))) document.documentElement.style.setProperty(k, v);
+      requestAnimationFrame(() => window.dispatchEvent(new Event(SETTINGS_EVENT)));
+      return next;
+    });
+  }, []);
+
+  return <Ctx.Provider value={state}><PreviewCtx.Provider value={preview}>{children}</PreviewCtx.Provider></Ctx.Provider>;
 }
+
+const PreviewCtx = createContext<(target: string, key: string, value: Value) => void>(() => {});
+export const usePreview = () => useContext(PreviewCtx);
 
 export function useDesign(): DesignState {
   const s = useContext(Ctx);

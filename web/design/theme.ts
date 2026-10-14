@@ -46,7 +46,11 @@ export function schemeFor(g: Settings): Scheme {
     neutralVariantPalette: TonalPalette.fromHueAndChroma(source.hue, 0),
   });
   const colors = MaterialDynamicColors as unknown as Record<string, { getArgb(s: DynamicScheme): number }>;
-  return Object.fromEntries(COLOR_ROLES.map((role) => [role, hexFromArgb(colors[camel(role)].getArgb(scheme))])) as Scheme;
+  const out = Object.fromEntries(COLOR_ROLES.map((role) => [role, hexFromArgb(colors[camel(role)].getArgb(scheme))])) as Scheme;
+  // "Page background: white" puts every page on pure white; the container roles keep their grays,
+  // so cards, the app bar, and the navigation still stand apart from the page.
+  if (g['Page background'] !== 'scheme') for (const role of ['background', 'surface', 'surface bright'] as const) out[role] = '#ffffff';
+  return out;
 }
 
 // Material's corner scale, in pixels, at the standard ("medium") setting.
@@ -152,6 +156,7 @@ export function contrast(a: string, b: string) {
 
 // Text on its container needs 4.5 to 1; outlines, focus, and chart marks need 3 to 1 (WCAG 2.2 AA).
 export const TEXT_PAIRS: [ColorRole, ColorRole][] = [
+  ['on background', 'background'],
   ['on surface', 'surface'],
   ['on surface', 'surface container lowest'],
   ['on surface', 'surface container low'],

@@ -3,7 +3,7 @@ name: form-header
 title: Form header
 status: review
 code: web/components/FormHeader.tsx
-Container color: surface container lowest
+Container color: surface container
 Title style: title large
 Current page color: secondary container
 ---
@@ -12,6 +12,6 @@ Current page color: secondary container
 
 ## what-you-can-change
 
-- Container color: surface container lowest
+- Container color: surface container
 - Title style: title large
 - Current page color: secondary container

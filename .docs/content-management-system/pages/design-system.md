@@ -267,6 +267,8 @@ Where: the role names in the color tables and the contrast table.
 - `on_error`: On error
 - `error_container`: Error container
 - `on_error_container`: On error container
+- `background`: Page background
+- `on_background`: On page background
 - `surface`: Surface
 - `surface_dim`: Surface dim
 - `surface_bright`: Surface bright

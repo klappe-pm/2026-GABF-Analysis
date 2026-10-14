@@ -6,6 +6,7 @@
 //   a data table whose cells wrap or are not left aligned, whose header row is not bold, or that scrolls
 //   the page instead of its own container;
 //   a page that changes when the browser asks for a dark scheme (the site has one light theme);
+//   a built page (home, design system, not found) whose background is not pure white;
 //   motion that keeps running when the browser asks for reduced motion;
 //   a keyboard stop with no visible focus indicator.
 // Run npm run web:build first. Needs Playwright (see serve-out.mjs for PLAYWRIGHT_MODULE and PLAYWRIGHT_CHANNEL).
@@ -117,6 +118,16 @@ async function main() {
   const origin = `http://127.0.0.1:${server.address().port}`;
   const browser = await launch();
   const problems = [];
+  // Every built page sits on pure white ("Page background: white" in settings.md).
+  for (const path of ['/', '/design-system/', '/404.html']) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    await page.goto(`${origin}${path}`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
+    const bg = await page.evaluate(() => [getComputedStyle(document.body).backgroundColor, getComputedStyle(document.documentElement).backgroundColor]);
+    if (bg.some((c) => c !== 'rgb(255, 255, 255)')) problems.push(`${path}: the page background is ${bg.join(' and ')}, not white`);
+    await ctx.close();
+  }
   for (const width of [390, 1280]) {
     const light = await browser.newContext({ viewport: { width, height: 900 }, colorScheme: 'light' });
     const page = await openStyleGuide(light, origin);

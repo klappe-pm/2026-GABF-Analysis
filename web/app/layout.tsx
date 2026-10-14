@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* The settings as built: the page is fully styled before the settings files load. */}
         <style id="design-settings-baked" dangerouslySetInnerHTML={{ __html: rootCss(baked.global) }} />
       </head>
-      <body className="min-h-screen bg-surface-container-lowest font-plain text-on-surface">
+      <body className="min-h-screen bg-background font-plain text-on-background">
         <DesignSettings initial={baked}>{children}</DesignSettings>
       </body>
     </html>

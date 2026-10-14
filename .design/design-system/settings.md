@@ -2,6 +2,7 @@
 Seed color: "#4A8F3C"
 Color style: tonal spot
 Surface tint: none
+Page background: white
 Contrast: standard
 Heading font: Public Sans
 Body font: Public Sans
@@ -19,6 +20,7 @@ These settings shape every page. The site reads them each time a page loads, so 
 - Seed color: the one color the whole Material color scheme is generated from. Write it in quotes, for example "#4A8F3C". Material keeps the seed's hue but draws the primary color darker (tone 40) so white text on it stays readable, so the primary color on the page is a deeper green than the seed.
 - Color style: how Material builds the scheme from the seed: tonal spot, neutral, vibrant, expressive, fidelity, or content.
 - Surface tint: none keeps backgrounds, cards, and bars white and neutral gray, with the seed's color only on accents (main actions, focus, selection, charts); seed tints every surface with the seed's hue.
+- Page background: white puts every page on pure white (#FFFFFF); scheme uses Material's own near white surface. Cards, the app bar, and the navigation keep their light gray containers either way.
 - Contrast: standard, medium, or high contrast between text and its background.
 - Heading font: the face for display, headline, and title text. Public Sans is the only choice, because headings carry figures.
 - Body font: the face for body text and every figure. Public Sans is the only choice.
