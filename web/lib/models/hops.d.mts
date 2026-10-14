@@ -43,7 +43,7 @@ export type Hop = HopCard & {
     trend: { years: number[]; totals: number[] };
   };
   counts: { beers: number; medals: number; gold: number; silver: number; bronze: number; farms: number };
-  beers: (BeerRef & { forms: string[]; uses: string[]; farms: FarmLink[]; otherFarms: string[] })[];
+  beerRows: (BeerRef & { forms: string[]; uses: string[]; farms: FarmLink[]; otherFarms: string[] })[];
   breweries: { brewery: string; brewerySlug: string; count: number }[];
   farmRows: (FarmLink & { published: string[]; years: string[]; sources: Source[] })[];
   notesHtml: string | null;

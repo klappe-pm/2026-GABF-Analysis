@@ -200,7 +200,7 @@ export function hop(slug) {
     aromaRows: v.aroma.map((a) => ({ descriptor: a.descriptor, source: sourcesOf(a.source) })),
     acreage: acreageOf(v),
     counts: v.counts,
-    beers: varietyBeers(v),
+    beerRows: varietyBeers(v),
     breweries: breweriesOf([...v.usages.values()].map((x) => x.beer)),
     farmRows: grown.map((x) => ({
       ...farmLink(x.farm),

@@ -35,7 +35,7 @@ test('a variety record carries its card, data, acreage trend, beers, and farms',
   assert.ok(v.data.length, 'variety data rows');
   assert.ok(!v.data.some((d) => d.key === 'slug' || /_(min|max)$/.test(d.key) && v.data.some((x) => x.key === d.key.replace(/_(min|max)$/, ''))), 'a range is one row and the slug is not shown');
   assert.ok(v.data.some((d) => d.max !== undefined), 'a minimum and maximum read as one range');
-  assert.equal(v.beers.length, v.counts.medals);
+  assert.equal(v.beerRows.length, v.counts.medals);
   assert.ok(v.acreage.trend.years.length >= 2, 'acreage trend has years');
   assert.equal(v.acreage.trend.years.length, v.acreage.trend.totals.length);
   assert.deepEqual(v.acreage.trend.years, [...v.acreage.trend.years].sort((a, b) => a - b));
@@ -46,11 +46,11 @@ test('a variety record carries its card, data, acreage trend, beers, and farms',
 test('the medal beers of a variety list gold first, and a farm shows only when the brewery named it', () => {
   const rank = { Gold: 1, Silver: 2, Bronze: 3 };
   for (const { slug } of hopParams()) {
-    const { beers } = hop(slug);
+    const { beerRows: beers } = hop(slug);
     const ranks = beers.map((b) => rank[b.medal]);
     assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), slug);
   }
-  const named = hopParams().flatMap(({ slug }) => hop(slug).beers).filter((b) => b.farms.length);
+  const named = hopParams().flatMap(({ slug }) => hop(slug).beerRows).filter((b) => b.farms.length);
   for (const b of named) {
     const f = hopFarm(b.farms[0].slug);
     assert.ok(f.named.some((x) => x.stem === b.stem), `${b.beer}: a named farm lists the beer as named`);

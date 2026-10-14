@@ -164,12 +164,12 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
       </Section>
 
       <Section id="beers" title={copy('beers.title', { year })} note={copy('beers.note')}>
-        {h.beers.length ? (
+        {h.beerRows.length ? (
           <DataTable
             caption={copy('beers.title', { year })}
             sortHint={sortHint}
             columns={beerColumns}
-            rows={h.beers.map((b) => {
+            rows={h.beerRows.map((b) => {
               const c = beerCells(b);
               const other = b.otherFarms.length ? b.otherFarms.join(', ') : null;
               return {
