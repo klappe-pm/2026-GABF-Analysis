@@ -2,6 +2,7 @@
 // Build gabf-explorer.html at the repository root: the explorer prototype with its 2026 records
 // filled from the winner research database (ABV, IBU, hops, other ingredients, beer and brewery pages).
 //
+// Every record also gains fed_district_name (Federal Reserve district, county based in split states).
 // Only the embedded dataset JSON changes; the prototype's markup, styles, and code are copied as is.
 // Records are matched on beer name, medal, and award category, which are unique within a year.
 // A value the research did not find stays empty, so the explorer keeps showing "Not researched".
@@ -13,16 +14,18 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
+import { readCsvRecords } from './lib/csv.mjs';
+import { districtAssigner } from './lib/data-model.mjs';
 import { ROOT } from './lib/paths.mjs';
+import { matchKey } from './lib/winner-profiles.mjs';
+
+export { matchKey };
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((acc, a, i, all) => (a.startsWith('--') ? [...acc, [a.slice(2), all[i + 1]]] : acc), []));
 const year = args.year || '2026';
 const input = resolve(ROOT, args.in || 'site/explorer/gabf-explorer-prototype.html');
 const output = resolve(ROOT, args.out || 'gabf-explorer.html');
 const dbPath = resolve(ROOT, 'data', 'enriched', `winners-${year}.sqlite`);
-
-export const matchKey = (beer, medal, category) =>
-  [beer, medal, category].map((s) => String(s ?? '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '')).join('|');
 
 const DATASET = /(<script type="application\/json" id="dataset">)([\s\S]*?)(<\/script>)/;
 
@@ -74,9 +77,14 @@ function main() {
   if (!m) throw new Error(`${input}: no dataset script block`);
   const dataset = JSON.parse(m[2]);
   const research = loadResearch();
+  // Federal Reserve district for every record (every year), assigned the same way as the site:
+  // whole states directly, split states by the medal city's county.
+  const ref = (f) => readCsvRecords(readFileSync(resolve(ROOT, 'data', 'reference', f), 'utf8'));
+  const district = districtAssigner(ref('fed-districts.csv'), ref('medal-city-counties.csv'));
   let matched = 0;
   const unmatched = [];
-  dataset.records = dataset.records.map((rec) => {
+  dataset.records = dataset.records.map((raw) => {
+    const rec = { ...raw, fed_district_name: district(String(raw.state ?? '').toUpperCase(), String(raw.city ?? '').trim()).name };
     if (String(rec.year) !== year) return rec;
     const r = research.get(matchKey(rec.beer, rec.medal, rec.official_category));
     if (!r) { unmatched.push(`${rec.beer} (${rec.brewery})`); return rec; }
