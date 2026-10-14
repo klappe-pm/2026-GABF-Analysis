@@ -32,13 +32,6 @@ description:
 entries: 37
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://foundersbrewing.com/"
-      - "https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/"
-      - "https://foundersbrewing.com/our-beer/hoppy-mood/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://foundersbrewing.com/"
@@ -46,6 +39,7 @@ gaps:
       - "https://foundersbrewing.com/our-beer/hoppy-mood/"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://foundersbrewing.com/"
@@ -152,7 +146,9 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Non-Alcoholic"
-tasting-notes: null
+tasting-notes:
+  text: "Bright hop notes of grapefruit, pineapple, pine, and a bit of dank. Crisp, tangy, refreshing."
+  source: "https://foundersbrewing.com/our-beer/hoppy-mood/"
 water: null
 yeast: []
 ---
@@ -188,7 +184,9 @@ Source: [Founders: Hoppy Mood](https://foundersbrewing.com/our-beer/hoppy-mood/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright hop notes of grapefruit, pineapple, pine, and a bit of dank. Crisp, tangy, refreshing.
+
+Source: [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/)
 
 ## ingredients
 
@@ -247,8 +245,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -257,3 +255,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No IBU is published; the explainer says the drink has "zero bitterness."
 - No 2026 medal announcement was found on the brewery home page.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page's tasting notes are recorded; it lists Mosaic, Amarillo and Simcoe.

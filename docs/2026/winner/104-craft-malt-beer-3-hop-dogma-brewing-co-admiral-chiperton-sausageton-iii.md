@@ -287,3 +287,4 @@ No brewery links have been checked yet.
 - The roman numeral suggests earlier versions of the beer exist, but no source confirms that.
 - The session web search budget was exhausted before Untappd or press could be searched.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer page does not list this beer.

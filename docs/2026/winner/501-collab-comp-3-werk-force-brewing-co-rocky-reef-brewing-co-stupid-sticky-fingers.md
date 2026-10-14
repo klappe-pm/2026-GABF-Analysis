@@ -37,6 +37,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -46,6 +47,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "abv"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -55,6 +57,8 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "ibu"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -64,6 +68,8 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "srm"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -73,6 +79,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "og"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -82,6 +89,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "fg"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -91,6 +99,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "hops"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -100,6 +109,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "hop-form"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -109,6 +119,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "hop-use"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -118,6 +129,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -127,6 +139,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "malts"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -136,6 +149,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "yeast"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -145,6 +159,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "adjuncts"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -154,6 +169,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
   - field: "water"
     sources-checked:
       - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
@@ -163,15 +179,7 @@ gaps:
       - "https://www.werkforcebrewing.com/"
       - "https://www.werkforcebrewing.com/menu"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
-      - "https://www.rockyreefbrewing.com/"
-      - "https://www.rockyreefbrewing.com/master-beer-list"
-      - "https://www.rockyreefbrewing.com/menus"
-      - "https://www.werkforcebrewing.com/"
-      - "https://www.werkforcebrewing.com/menu"
-      - "web searches recorded in the research notes"
+      - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
 hop-profile: []
 hops: []
 ibu: null
@@ -179,7 +187,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Imperial s'mores stout brewed annually with Rocky Reef Brewing Co., with marshmallows roasted over a campfire at the brewery added to the kettle"
+  source: "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
 sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/"
   - "https://www.rockyreefbrewing.com/"
@@ -187,6 +197,7 @@ sources:
   - "https://www.rockyreefbrewing.com/menus"
   - "https://www.werkforcebrewing.com/"
   - "https://www.werkforcebrewing.com/menu"
+  - "https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am"
 srm: null
 style: "Collab Comp"
 tasting-notes: null
@@ -241,7 +252,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Imperial s'mores stout brewed annually with Rocky Reef Brewing Co., with marshmallows roasted over a campfire at the brewery added to the kettle | [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am) |
 
 ## style-context
 
@@ -276,8 +287,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
+- Not published: ABV, IBU. Checked [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/master-beer-list), [rockyreefbrewing.com](https://www.rockyreefbrewing.com/menus), [werkforcebrewing.com](https://www.werkforcebrewing.com/), [werkforcebrewing.com](https://www.werkforcebrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [werkforcebrewing.com](https://www.werkforcebrewing.com/new-events-1/2026/2/21/stupid-sticky-fingers-release-11am).
 
 ## research-notes
 
@@ -287,3 +298,4 @@ No brewery links have been checked yet.
 - The web search budget for this session ran out before a dedicated search for this beer, and Untappd search pages did not return results to automated fetches.
 - Style, ABV, IBU and ingredients remain unverified; nothing is estimated.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's February 21, 2026 release page describes two variants, Barrel Aged Stupid Sticky Fingers (13.4%, tasting notes Rich Hot Cocoa, Sticky Icky S'mores, Marshmallow Pillows) and Double Barrel Stupid Sticky Fingers (15.7%, Buffalo Trace Mash #1 barrels, Ghana cacao nibs and Madagascar vanilla); the medal list does not say which was entered, so only the shared base process is recorded.
