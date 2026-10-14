@@ -2,10 +2,10 @@
 // temporary copy of the copy folder (and a temporary ticket store and source tree); the real
 // .docs/content-management-system/ is never written.
 
-import test from 'node:test';
+import test, { after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
@@ -175,8 +175,14 @@ const walk = (dir, out = []) => {
   return out;
 };
 
+const buildScratch = [];
+after(() => {
+  for (const dir of buildScratch) rmSync(dir, { recursive: true, force: true });
+});
+
 function tempCms(edits) {
   const work = mkdtempSync(join(tmpdir(), 'gabf-build-'));
+  buildScratch.push(work);
   const cms = join(work, 'cms');
   cpSync(resolve(ROOT, '.docs/content-management-system'), cms, { recursive: true });
   for (const [file, from, to] of edits) {
