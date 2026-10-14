@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 // Static export. NEXT_BASE_PATH is the path the site is served under: empty at gabf.beer and for local
@@ -11,6 +12,12 @@ const basePath = process.env.NEXT_BASE_PATH ?? '';
 // that only shows values, so no editing code reaches web/out.
 const review = process.env.DESIGN_REVIEW === '1';
 
+// The site frame mounts ReviewSettingsPanel through the 'review-settings-panel' alias: the real component
+// (components/review/ReviewSettingsPanel.tsx) once it is in the tree, an empty stand in until then.
+const panel = existsSync(resolve(__dirname, 'components/review/ReviewSettingsPanel.tsx'))
+  ? './components/review/ReviewSettingsPanel.tsx'
+  : './design/review-panel-off.tsx';
+
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
@@ -22,7 +29,10 @@ const nextConfig: NextConfig = {
   // (site/assets/filter-bar.mjs through lib/filter-model.mjs). Build time data is not bundled: see lib/site-data.ts.
   turbopack: {
     root: resolve(__dirname, '..'),
-    resolveAlias: { 'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx' },
+    resolveAlias: {
+      'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx',
+      'review-settings-panel': panel,
+    },
   },
 };
 
