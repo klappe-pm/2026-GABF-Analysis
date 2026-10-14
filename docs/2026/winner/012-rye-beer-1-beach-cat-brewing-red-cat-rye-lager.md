@@ -35,6 +35,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -42,6 +48,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "abv"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -49,6 +61,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "ibu"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -56,6 +74,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "srm"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -63,6 +87,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "og"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -70,6 +100,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "fg"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -77,6 +113,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "hops"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -84,6 +126,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "hop-form"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -91,6 +139,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "hop-use"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -98,6 +152,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -105,6 +165,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "malts"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -112,6 +178,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "yeast"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -119,6 +191,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -126,6 +204,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "water"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -133,6 +217,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
   - field: "process"
     sources-checked:
       - "https://www.beachcatbrewing.com/"
@@ -140,6 +230,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.taphunter.com/brewery/beach-cat/6278423995351040"
       - "web search 2026-10-14: Beach Cat Brewing Red Cat rye lager"
+      - "https://www.beachcatbrewing.com/sitemap.xml"
+      - "https://www.beachcatbrewing.com/wp-sitemap.xml"
+      - "https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay"
+      - "https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/"
+      - "https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/"
+      - "https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/"
 hop-profile: []
 hops: []
 ibu: null
@@ -238,8 +334,8 @@ Links checked 2026-10-14: [Website](https://www.beachcatbrewing.com/).
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager.
-- Not Found: ABV, IBU. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager, Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager, [beachcatbrewing.com](https://www.beachcatbrewing.com/sitemap.xml), [beachcatbrewing.com](https://www.beachcatbrewing.com/wp-sitemap.xml), [bellingham.org](https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay), [cascadiadaily.com](https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/), [washingtonbeerblog.com](https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/), [washingtonbeerblog.com](https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/).
+- Not Found: ABV, IBU. Checked [beachcatbrewing.com](https://www.beachcatbrewing.com/), [beachcatbrewing.com](https://www.beachcatbrewing.com/taplist), web searches recorded in the research notes, [taphunter.com](https://www.taphunter.com/brewery/beach-cat/6278423995351040), web search 2026-10-14: Beach Cat Brewing Red Cat rye lager, [beachcatbrewing.com](https://www.beachcatbrewing.com/sitemap.xml), [beachcatbrewing.com](https://www.beachcatbrewing.com/wp-sitemap.xml), [bellingham.org](https://www.bellingham.org/introducing-beach-cat-brewing-in-birch-bay), [cascadiadaily.com](https://www.cascadiadaily.com/2025/jan/13/beach-cat-announces-second-location-on-bellingham-waterfront/), [washingtonbeerblog.com](https://washingtonbeerblog.com/a-guide-to-washingtons-2026-world-beer-cup-medal-winning-beers/), [washingtonbeerblog.com](https://washingtonbeerblog.com/2025-washington-beer-awards-winners-announced/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -251,3 +347,5 @@ Links checked 2026-10-14: [Website](https://www.beachcatbrewing.com/).
 - Second pass 2026-10-13: Exact-name, ABV, Untappd and medal searches found award coverage but no additional beer specifications. No matching beer page with ABV, IBU or named ingredients was found.
 - Field pass 2026-10-13: A specification focused exact-name search found competition and Washington medal coverage but no ABV, IBU, brewery beer page or hop names.
 - Deep dive pass 2026-10-14: the tap list, TapHunter and a web search found no Red Cat Rye Lager listing.
+- Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web search, TapHunter, Washington beer press): found nothing new; 5 pages tried. No source names Red Cat Rye Lager; TapHunter (403 on re-fetch) lists other Beach Cat beers only. Nothing recorded.

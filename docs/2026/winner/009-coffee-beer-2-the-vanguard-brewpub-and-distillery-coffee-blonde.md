@@ -40,6 +40,12 @@ gaps:
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -47,6 +53,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "og"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -54,6 +66,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "fg"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -61,6 +79,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "hops"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -68,6 +92,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -75,6 +105,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -82,6 +118,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -89,6 +131,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "malts"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -96,6 +144,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "yeast"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -103,6 +157,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
   - field: "water"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -110,6 +170,12 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "https://www.thevanguard757.com/sitemap.xml"
+      - "https://www.thevanguard757.com/wp-sitemap.xml"
+      - "https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574"
+      - "https://virginiaspirits.org/?p=4904"
+      - "https://coastalvirginiamag.com/?p=82425"
+      - "https://visithampton.com/listing/the-vanguard-brew-pub-distillery/"
 hop-profile: []
 hops: []
 ibu: null
@@ -222,8 +288,8 @@ Links checked 2026-10-14: [Website](https://www.thevanguard757.com/), [Instagram
 
 ## gaps
 
-- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
+- Not Found: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [thevanguard757.com](https://www.thevanguard757.com/sitemap.xml), [thevanguard757.com](https://www.thevanguard757.com/wp-sitemap.xml), [yaymaker.com](https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574), [virginiaspirits.org](https://virginiaspirits.org/?p=4904), [coastalvirginiamag.com](https://coastalvirginiamag.com/?p=82425), [visithampton.com](https://visithampton.com/listing/the-vanguard-brew-pub-distillery/).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, [thevanguard757.com](https://www.thevanguard757.com/sitemap.xml), [thevanguard757.com](https://www.thevanguard757.com/wp-sitemap.xml), [yaymaker.com](https://www.yaymaker.com/us/va/hampton/27126/venues/the-vanguard-brewpub-distillery-10006574), [virginiaspirits.org](https://virginiaspirits.org/?p=4904), [coastalvirginiamag.com](https://coastalvirginiamag.com/?p=82425), [visithampton.com](https://visithampton.com/listing/the-vanguard-brew-pub-distillery/).
 
 ## research-notes
 
@@ -234,3 +300,5 @@ Links checked 2026-10-14: [Website](https://www.thevanguard757.com/), [Instagram
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's drinks menu names Coffee Blonde Ale and is used as beer-url because no dedicated page was found. It names no IBU or hops. Its 5.3% ABV differs from the existing BeerMenus 5.5%; the existing value is retained.
 - Deep dive pass 2026-10-14: the brewery description carried by BeerMenus gives the coffee dose per batch and its roasted coffee character; no hops, malts or yeast are named.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (BeerMenus brewery-supplied description, regional press search): found nothing new; 5 pages tried. No IBU, color, gravity, hops, malts, yeast or water published. BeerMenus repeats the brewery blurb that fifteen pounds of local rogue elephant coffee goes in each batch (coffee supplier name as printed there); no other new fact.

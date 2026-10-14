@@ -2,6 +2,8 @@
 // file with the File API, checks it with these functions, and adds the rows to the page. A failure is a code and
 // its values; the page turns it into a sentence from the copy documents.
 
+import { slugify } from '../../../scripts/lib/slug.mjs';
+
 export const MAX_ROWS = 20000;
 export const MAX_BYTES = 8 * 1024 * 1024;
 export const REQUIRED = ['year', 'medal', 'beer', 'brewery', 'city', 'state', 'category'];
@@ -67,4 +69,63 @@ export function readAwards(text, size = text.length) {
     awards.push({ year, medal, beer: v('beer'), brewery: v('brewery'), city: v('city'), state: v('state'), category: v('category') });
   }
   return { awards, skipped };
+}
+
+// ---------- identifiers ----------
+
+// The identifiers of the retired explorer: a beer `BE-<beer>-<brewery>` and a brewery location
+// `BR-<brewery>-<city>-<state>`, for example BR-gowan-s-heirloom-cider-philo-ca.
+export const beerIdOf = (beer, brewery) => `BE-${slugify(beer)}-${slugify(brewery)}`;
+export const breweryIdOf = (brewery, city, state) => `BR-${slugify(brewery)}-${slugify(city)}-${slugify(state)}`;
+
+// An award that is imported carries no identifier of its own, so it takes one from its words, as the retired
+// explorer did. It starts IMP so it can never collide with an award on file.
+const fold = (x) => String(x ?? '').trim().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+export const importedAwardId = (a) => `IMP-${[a.year, a.category, a.medal, a.beer, a.brewery, a.city, a.state].map((p) => encodeURIComponent(fold(p)).replace(/~/g, '%7E')).join('~')}`;
+
+// ---------- enrichment by identifier ----------
+
+// A CSV that matches existing records by identifier and fills in details about them: the column that names the record
+// is award_id, beer_id, or brewery_id, and every row needs an evidence_url to a web page.
+export const ENRICH_KINDS = { awards: 'award_id', beers: 'beer_id', breweries: 'brewery_id' };
+export const PATCHABLE = ['ownership', 'investors', 'brewery_type', 'brewer_name', 'association', 'website', 'phone', 'street_address', 'zip_code', 'metro_area', 'beer_url', 'abv', 'ibu', 'confirmed_hops', 'ingredients', 'subcategory'];
+
+const httpUrl = (v) => { try { const u = new URL(v); return /^https?:$/.test(u.protocol) ? u.href : ''; } catch { return ''; } };
+
+// Details from CSV text for one kind: { patches, rows, skipped } or { error }. `known` is the set of identifiers on the
+// page, so a row whose identifier matches nothing is counted as skipped. A patch is { id, fields, evidence }.
+export function readEnrichment(text, kind, known, size = text.length) {
+  const join = ENRICH_KINDS[kind];
+  if (!join) return { error: { code: 'bad_kind' } };
+  if (size > MAX_BYTES) return { error: { code: 'too_large' } };
+  const parsed = parseCsv(text);
+  if (parsed.error) return parsed;
+  const [head, ...body] = parsed.rows;
+  if (!head || !body.length) return { error: { code: 'no_rows' } };
+  if (body.length > MAX_ROWS) return { error: { code: 'too_many_rows' } };
+  const cols = head.map(norm);
+  if (new Set(cols).size !== cols.length) return { error: { code: 'duplicate_columns' } };
+  if (!cols.includes(join)) return { error: { code: 'missing_column', column: join } };
+  if (!cols.includes('evidence_url')) return { error: { code: 'missing_column', column: 'evidence_url' } };
+  const at = Object.fromEntries(cols.map((c, i) => [c, i]));
+  const seen = new Set();
+  const patches = [];
+  let skipped = 0;
+  for (let n = 0; n < body.length; n += 1) {
+    const r = body[n];
+    const line = n + 2;
+    if (r.length !== head.length) return { error: { code: 'field_count', row: line, count: r.length, expected: head.length } };
+    const id = r[at[join]].trim();
+    if (!id) return { error: { code: 'blank_id', row: line, column: join } };
+    if (seen.has(id)) return { error: { code: 'duplicate_id', row: line, column: join } };
+    seen.add(id);
+    const evidence = httpUrl(r[at.evidence_url].trim());
+    if (!evidence) return { error: { code: 'no_evidence', row: line } };
+    if (!known.has(id)) { skipped += 1; continue; }
+    const fields = {};
+    for (const k of PATCHABLE) if (k in at && r[at[k]].trim()) fields[k] = r[at[k]].trim();
+    if (!Object.keys(fields).length) { skipped += 1; continue; }
+    patches.push({ id, fields, evidence });
+  }
+  return { patches, skipped };
 }

@@ -18,6 +18,8 @@ export type ViewCopy = {
   partialMany: string;
   notDefined: string;
   medals: Record<string, string>;
+  // Chart chrome: the save control and the labels of a binned legend.
+  chrome: { savePng: string; binRange: string; binSingle: string; binOpen: string };
 };
 
 // The page's own scope holds no medals: say so. The filter leaves none: say so and how to widen it. Otherwise the

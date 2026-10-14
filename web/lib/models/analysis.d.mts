@@ -26,6 +26,7 @@ export type CategoryRecord = {
   source: string | null;
   confidence: string | null;
   variant: string | null;
+  cardStems: string[];
   rows: CategoryMedalRow[];
 };
 export function category(slug: string): CategoryRecord | null;
@@ -78,5 +79,7 @@ export function about(): AboutRecord;
 
 export const TRAITS: Record<string, RegExp>;
 export function traitsOf(categoryName: string): string[];
-export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[] };
+export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[]; award_id: string; beer_id: string; brewery_id: string };
 export function exploreRows(): ExploreRow[];
+
+export function stateTiles(): Record<string, [number, number]>;

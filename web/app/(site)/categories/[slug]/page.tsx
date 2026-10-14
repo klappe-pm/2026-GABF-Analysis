@@ -9,7 +9,9 @@ import { TextLink } from '@/components/TextLink';
 import { fill, t } from '@/lib/content';
 import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
-import { staticParams } from '@/lib/site-data';
+import { BeerProfileCard } from '@/components/BeerProfileCard';
+import { beer, staticParams, WINNER_YEAR } from '@/lib/site-data';
+import { beerCardData } from '@/app/(site)/beers/cards';
 import type { CategoryRecord, Range } from '@/lib/models/analysis.mjs';
 import { analysis, firstComplete, labelGroup, MAIN, raw, viewCopy } from '@/app/(site)/analysis/parts/copy';
 import { Moved, movedMetadata } from '@/app/(site)/analysis/parts/moved';
@@ -58,6 +60,7 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
   const old = await moved((await params).slug);
   if (old) return <Moved to={paths.category(old.slug)} pageTitle={old.name} />;
   const c = await record(params);
+  const cards = (await Promise.all(c.cardStems.map((stem) => beer(stem)))).filter((b) => b !== null);
   const types = labelGroup('category_type');
   const families = labelGroup('style_family');
   const view = viewCopy();
@@ -109,6 +112,14 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
         </div>
       </StateCard>
       <CategoryView name={c.name} rows={c.rows} copy={copy} firstCompleteYear={await firstComplete()} />
+      {cards.length ? (
+        <section className="flex flex-col gap-4" aria-labelledby="medal-beers">
+          <h2 id="medal-beers" className="type-headline-small text-primary">{fill(raw(page('cards.title')), { year: WINNER_YEAR })}</h2>
+          <div className="grid grid-cols-1 gap-4 medium:grid-cols-2 expanded:grid-cols-3">
+            {cards.map((b) => <BeerProfileCard key={b.stem} data={beerCardData(b, { inList: true })} headingLevel={3} />)}
+          </div>
+        </section>
+      ) : null}
     </main>
   );
 }
