@@ -373,7 +373,6 @@ dashboards,stat tile,"Gold, silver, bronze",pages.dashboards.stats.medal_split
 dashboards,stat tile (main),Gold / Silver / Bronze,pages.dashboards.stats.medal_split
 dashboards,stat tile,Entrants in categories shown,pages.dashboards.stats.entrants
 dashboards,stat tile note,sum of category entry counts,pages.dashboards.stats.entrants_note
-dashboards,stat tile value,n/a,pages.dashboards.stats.entrants_missing
 dashboards,dashboard error,"The medal data could not be loaded, so the dashboard cannot draw. Check the connection and reload the page. If the site was opened from a file, serve the dist folder instead (npm run serve).",global.states.errors.dashboard_load
 dashboards (panels),chart title,Medals by year,pages.dashboards.panels.medals_by_year.title
 dashboards (panels),chart subtitle,stacked by medal; click a column to focus that year,pages.dashboards.panels.medals_by_year.subtitle

@@ -188,10 +188,14 @@ export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string;
     if (ctx) ctx.font = `700 ${size}px ${kit.family}`;
     const total = o.items.reduce((s, i) => s + i.value, 0) || 1;
     // The blocks are close to square, so a block's side is about the square root of its share of the area.
+    const width = (text: string) => (ctx ? ctx.measureText(text).width : text.length * size * 0.65);
     const fits = (i: TreeItem) => {
-      const side = Math.sqrt((i.value / total) * w * height) * 0.9 - 12;
-      const longest = Math.max(...o.label(i).split(/\s+/).map((word) => (ctx ? ctx.measureText(word).width : word.length * size * 0.65)));
-      return side >= longest && side >= size * 3.2;
+      // Blocks are not all square, so allow a margin: a fifth off the side, and room for the padding.
+      const side = Math.sqrt((i.value / total) * w * height) * 0.78 - 14;
+      const text = o.label(i).split('\n');
+      const longest = Math.max(...text[0].split(/\s+/).map(width), width(text[1] ?? ''));
+      const lines = Math.ceil(width(text[0]) / Math.max(side, 1)) + 1;
+      return side >= longest && lines * 18 <= side;
     };
     return {
       height,

@@ -77,7 +77,7 @@ export function HomeView({ copy: tree, initial, search, finding }: { copy: CopyT
         <FieldGrid>
           <Field size="text" label={copy.t('page.scoresheet.competition_year')}>{copy.t('page.scoresheet.competition_value', { year: view.year })}</Field>
           <Field label={copy.t('page.scoresheet.entries_judged')}>{sheet.entries ? fmtN(sheet.entries) : copy.missing()}</Field>
-          <Field label={copy.t('page.scoresheet.categories')}>{fmtN(sheet.categories)}</Field>
+          <Field label={copy.t('page.scoresheet.categories_in_year', { year: view.year })}>{fmtN(sheet.categories)}</Field>
           <Field label={copy.t('page.scoresheet.medals_awarded')}>{fmtN(sheet.medals)}</Field>
         </FieldGrid>
         {finding}

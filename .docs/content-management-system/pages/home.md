@@ -16,8 +16,10 @@ Where: the scoresheet fields across the top of the page.
 - `competition_year`: Competition and Year
 - `competition_value`: GABF {{year}}
 - `entries_judged`: Entries Judged
-- `categories`: Categories in {{year}}
+- `categories`: Categories
+- `categories_in_year`: Categories in {{year}}
 - `medals_awarded`: Medals Awarded
+- `not_published`: Not Found
 
 ## `search`
 
