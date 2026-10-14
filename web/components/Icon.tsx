@@ -5,7 +5,8 @@ import { useSettings } from '@/design/runtime';
 // Outline icons on a 16 unit grid with round caps and joins, in the weight of Material's outlined symbols.
 // They inherit the text color. Size and stroke width come from the icon spec.
 
-export type IconName = 'close' | 'chevron-down' | 'search' | 'check' | 'menu' | 'sort' | 'sort-ascending' | 'sort-descending' | 'filter';
+export type IconName = 'close' | 'chevron-down' | 'search' | 'check' | 'menu' | 'sort' | 'sort-ascending' | 'sort-descending' | 'filter'
+  | 'tune' | 'palette' | 'type' | 'shape' | 'layers' | 'widgets';
 
 const PATHS: Record<IconName, string> = {
   close: 'M4 4 12 12 M12 4 4 12',
@@ -17,6 +18,13 @@ const PATHS: Record<IconName, string> = {
   'sort-ascending': 'M5 7 8 4 11 7 M8 4v8.5',
   'sort-descending': 'M5 9 8 12 11 9 M8 12V3.5',
   filter: 'M2.5 4h11 M4.5 8h7 M6.5 12h3',
+  // Section marks for the design system navigation.
+  tune: 'M2.5 4.5h6 M11.5 4.5h2 M10 3v3 M2.5 11.5h2 M7.5 11.5h6 M6 10v3',
+  palette: 'M8 2.5a5.5 5.5 0 1 0 0 11c1 0 1.3-.8.8-1.5-.5-.8 0-1.8 1-1.8h1.2A2.5 2.5 0 0 0 13.5 7.7 5.5 5.2 0 0 0 8 2.5 M5 7h.01 M7.5 5h.01 M10.5 6h.01',
+  type: 'M3 4.5V3h10v1.5 M8 3v10 M6 13h4',
+  shape: 'M3 3h5v5H3z M11 8.5a2.5 2.5 0 1 1 0 5a2.5 2.5 0 1 1 0-5',
+  layers: 'M8 2.5 13.5 5.5 8 8.5 2.5 5.5z M2.5 8.5 8 11.5 13.5 8.5 M2.5 11 8 14 13.5 11',
+  widgets: 'M2.5 2.5h4.5v4.5H2.5z M9 2.5h4.5v4.5H9z M2.5 9h4.5v4.5H2.5z M9 9h4.5v4.5H9z',
 };
 
 export function Icon({ name, label, size, slot }: { name: IconName; label?: string; size?: number; slot?: string }) {

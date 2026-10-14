@@ -10,7 +10,8 @@ export type Kind =
   | { type: 'enum'; values: readonly string[] }
   | { type: 'number'; values: readonly number[] }
   | { type: 'hex' }
-  | { type: 'list'; values: readonly string[]; min: number };
+  | { type: 'list'; values: readonly string[]; min: number }
+  | { type: 'width' };
 
 // Material color roles by their plain names. Each maps to --md-sys-color-<name with hyphens>.
 export const COLOR_ROLES = [
@@ -67,6 +68,10 @@ export const GLOBAL: Record<string, Kind> = {
   'Body font': enumOf(['Public Sans']),
   'Label font': enumOf(FONTS),
   'Corner shape': enumOf(['square', 'small', 'medium', 'large']),
+  'Page width': { type: 'width' },
+  'Compact margin': numberOf([8, 12, 16, 20, 24]),
+  'Wide margin': numberOf([16, 20, 24, 32, 40]),
+  'Navigation on wide screens': enumOf(['drawer', 'rail']),
   'Gold medal color': { type: 'hex' },
   'Silver medal color': { type: 'hex' },
   'Bronze medal color': { type: 'hex' },
@@ -113,6 +118,8 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   'text-link': { Color: colorRole, Underline: enumOf(['always', 'on hover']) },
   // Drawn by the current public site (scripts/build-site.mjs, site/), not yet by web/: no settings until
   // each moves to Material.
+  'navigation-rail': { 'Show labels': yesNo, 'Indicator color': colorRole, 'Container color': colorRole },
+  'navigation-drawer': { Width: numberOf([280, 320, 360]), 'Indicator color': colorRole, 'Container color': colorRole },
   footer: {},
   tabs: {},
   chips: {},
@@ -150,6 +157,8 @@ export function valueProblem(kind: Kind, value: unknown): string | null {
       return typeof value === 'string' && kind.values.includes(value) ? null : `must be one of: ${kind.values.join(', ')}`;
     case 'number':
       return typeof value === 'number' && kind.values.includes(value) ? null : `must be one of: ${kind.values.join(', ')}`;
+    case 'width':
+      return value === 'full' || (typeof value === 'string' && /^\d+(\.\d+)?rem$/.test(value) && Number.parseFloat(value) >= 30) ? null : 'must be full, or a width of 30rem or more such as 90rem';
     case 'list': {
       const items = Array.isArray(value) ? value : typeof value === 'string' ? value.split(',').map((s) => s.trim()) : null;
       if (!items || items.length < kind.min) return `must list at least ${kind.min} of: ${kind.values.join(', ')}`;

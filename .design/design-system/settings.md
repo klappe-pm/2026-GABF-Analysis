@@ -9,6 +9,10 @@ Heading font: Public Sans
 Body font: Public Sans
 Label font: Archivo Narrow
 Corner shape: medium
+Page width: full
+Compact margin: 16
+Wide margin: 24
+Navigation on wide screens: drawer
 Gold medal color: "#C9A13B"
 Silver medal color: "#B4B9BD"
 Bronze medal color: "#BF7B4A"
@@ -28,5 +32,9 @@ These settings shape every page. The site reads them each time a page loads, so 
 - Body font: the face for body text and every figure. Public Sans is the only choice.
 - Label font: the face for short labels such as field labels and table headers: Archivo Narrow or Public Sans. Labels that hold figures always use Public Sans.
 - Corner shape: how round corners are across the site: square, small, medium (Material's standard), or large.
+- Page width: full lets every page fill the window; a width such as 90rem caps it and centers it. Long paragraphs keep a readable line length either way.
+- Compact margin: the space, in pixels, between the window edge and the content on phones (windows under 600 pixels wide).
+- Wide margin: the same space, in pixels, on every wider window.
+- Navigation on wide screens: on windows 1200 pixels and wider, drawer keeps a navigation drawer open beside the page; rail keeps the narrower navigation rail used on medium windows. Phones always use tabs.
 - Gold medal color, Silver medal color, Bronze medal color: the metal fills of medal marks, in quotes.
 - Type sizes: to change one Material type role, add a line such as Body large size: 17 (a whole number of pixels). The roles are display, headline, title, body, and label, each large, medium, or small.
