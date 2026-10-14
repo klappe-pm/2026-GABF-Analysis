@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Old Time"
@@ -27,13 +27,117 @@ brewery-state: "DC"
 brewery-url: "https://www.dcbrau.com/"
 category-name: "American Lager"
 category-number: 42
+description:
+  text: "The easiest, drinkiest, most enjoyable beer in the DMV."
+  source: "https://www.oldtimelager.com/"
 entries: 94
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
+      - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/awards"
+      - "https://www.oldtimelager.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "2-row malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/"
   - "https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176"
@@ -41,7 +145,10 @@ sources:
   - "https://www.dcbrau.com/"
   - "https://www.dcbrau.com/awards"
   - "https://www.oldtimelager.com/"
+srm: null
 style: "American Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +181,45 @@ Old Time Lager is a light bodied American lager of 2-row barley and flaked corn,
 
 Source: [Old Time Lager: brand site](https://www.oldtimelager.com/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The 2022 launch release, quoted by [DC Beer](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/) and repeated on [Untappd](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), says the beer is brewed with North American 2-row barley and flaked corn for a crisp, dry finish and light body. No hops or yeast are named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Lager describes a very clean, crisp, highly carbonated lager often made with corn or rice, at 4.1 to 5.1 percent ABV and 5 to 15 IBU. The listed 4% ABV is a touch under the range; no IBU is published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +229,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [DC Beer: Old Time relaunch](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/)
 - [Untappd: Old Time Lager](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Rose Cider"
@@ -26,17 +26,106 @@ brewery-state: "CA"
 brewery-url: "https://gowansheirloomcider.com/"
 category-name: "Experimental, Barrel-Aged or Specialty Cider"
 category-number: 205
+description:
+  text: "Two harvests, one glass."
+  source: "https://www.gowansheirloomcider.com/rose-cider"
 entries: 28
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://gowansheirloomcider.com/"
+      - "https://www.gowansheirloomcider.com/rose-cider"
+      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://gowansheirloomcider.com/"
   - "https://www.gowansheirloomcider.com/rose-cider"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
+srm: null
 style: "Rose Cider"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,19 +158,56 @@ Rosé is a cider of organic heirloom apples and local Pinot Noir wine grapes, ag
 
 Source: [Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The cidery pairs its own organic heirloom apples with local Pinot Noir wine grapes and ages the cider in French oak, describing notes of ripe apple, berries and vanilla; the berries are tasting notes, not ingredients ([Gowan's: Rose Cider](https://www.gowansheirloomcider.com/rose-cider)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles) say Experimental, Barrel-Aged or Specialty Cider "focuses on combinations of fruits, spices, adjuncts, fortifications, fermentations, barrel treatments" and give no fixed ABV range. The Brewers Association beer style guidelines carry no cider entries. Grape addition plus French oak aging fits the category.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Experimental, Barrel-Aged or Specialty Cider | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Gowan's Heirloom Cider is in Philo, CA.
+
+Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagram](https://www.instagram.com/gowansheirloomcider/).
 
 ## links
 
 - [Beer page on brewery site](https://www.gowansheirloomcider.com/rose-cider)
 - [Gowan's Heirloom Cider](https://gowansheirloomcider.com/)
 - [GABF 2026 style categories](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/rose-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

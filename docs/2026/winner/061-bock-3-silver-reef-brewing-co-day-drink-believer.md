@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,17 +24,93 @@ brewery-state: "UT"
 brewery-url: null
 category-name: "Bock"
 category-number: 61
+description:
+  text: "A rich smooth and deceptively strong German pale bock."
+  source: "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
 entries: 36
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
+      - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 30
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
+srm: null
 style: "German Pale Bock"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,19 +143,55 @@ Day Drink Believer is a beer from Silver Reef Brewing Co. of Saint George, Utah.
 
 Source: [Untappd: Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Traditional German-Style Bock calls for dark brown to very dark color, toasted or nutty malt sweetness without caramel, 6.3 to 7.6 percent ABV and 20 to 30 IBU. The published figures fit the numerical ranges, but the pale bock description differs from this dark traditional bock context.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Bock | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Silver Reef Brewing Co. is in Saint George, UT.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Day Drink Believer description](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146)
 - [Cliffside: beer menu](https://www.cliffsiderestaurant.com/beer-and-wine.htm)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146), [cliffsiderestaurant.com](https://www.cliffsiderestaurant.com/beer-and-wine.htm), web searches recorded in the research notes.
 
 ## research-notes
 

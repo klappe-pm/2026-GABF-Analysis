@@ -23,6 +23,9 @@
       }
     ],
     "paths": {
+      "design-editor": [
+        "./design/editor.tsx"
+      ],
       "@/*": [
         "./*"
       ]

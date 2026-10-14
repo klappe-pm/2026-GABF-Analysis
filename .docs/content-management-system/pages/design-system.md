@@ -7,10 +7,11 @@ Design system: the living style guide. It shows every token and every component 
 Where: top of the page.
 
 - `title`: Design system
-- `lede`: The tokens and components every page of GABF Analysis is built from, shown with real medal data.
+- `lede`: The Material 3 settings and components every page of GABF Analysis is built from, shown with real medal data.
 - `spec_link`: Read the spec
-- `source_link`: Tokens and specs
+- `source_link`: Settings and specs
 - `nav_label`: Sections
+- `settings_heading`: What you can change
 
 ## `sections`
 
@@ -22,18 +23,25 @@ Where: the section headers of the page, in order.
 - `rules`: Rules, corners, and depth
 - `breakpoints`: Breakpoints
 - `components`: Components
+- `settings`: Settings
+- `shape`: Shape
+- `elevation`: Elevation
 
 ## `section_notes`
 
 Where: the line under each section header.
 
-- `color`: Every text and control color meets WCAG 2.2 AA. Ratios are computed from the tokens when the page is built.
+- `color`: Material generates every color from one seed color. Ratios are computed from the generated scheme each time the page loads: text needs 4.5 to 1, outlines and chart marks need 3 to 1.
 - `medals`: Gold, silver, and bronze appear only on medals. Each mark carries an ink ring and its initial, so the metal is never the only cue.
-- `series`: Charts that are not about medals draw in inks: graphite, judging green, iron gall, sepia, and pencil. Each series also has its own mark.
-- `type`: Public Sans sets the interface, headings, and figures with tabular lining numerals. Archivo Narrow sets field labels, table headers, and stamps.
+- `series`: Charts that are not about medals draw in colors from the scheme. Each series also has its own mark.
+- `type`: Material's type scale. Public Sans sets headings, body text, and every figure, with tabular lining numerals. Archivo Narrow sets short labels.
 - `space`: One scale, in quarter rem steps, for every gap and inset.
-- `rules`: Structure comes from rules. A hairline divides; a heavy rule closes a header. Every corner is square and nothing casts a shadow.
+- `rules`: Structure comes from Material's outlines, dividers, and surface tones.
 - `breakpoints`: Layouts start at phone width and add columns at each breakpoint.
+- `settings`: The settings every page reads when it loads. Change one and the whole site follows on the next reload.
+- `shape`: Material's corner scale. Each component picks a step; the corner shape setting scales every step.
+- `elevation`: Material's six elevation levels, each a shadow on a surface.
+- `components`: Stock Material components, or components drawn from Material's color, type, and shape. Each lists what can change in its spec.
 
 ## `columns`
 
@@ -53,6 +61,11 @@ Where: the column headers of the token tables.
 - `use`: Use
 - `size`: Size
 - `width`: Width
+- `setting`: Setting
+- `line_height`: Line height
+- `weight`: Weight
+- `level`: Level
+- `radius`: Corner
 
 ## `type_roles`
 
@@ -76,33 +89,33 @@ Where: the rules, corners, and depth table.
 - `heavy`: Heavy rule
 - `radius`: Corner radius
 - `elevation`: Elevation
-- `elevation_value`: None. Tone and rules only.
-- `radius_value`: 0, every element
+- `elevation_value`: Material's six levels
+- `radius_value`: Material's corner scale
 
 ## `components`
 
 Where: the heading of each component on the page.
 
-- `form_header`: Form header
+- `page_header`: Page header
 - `breadcrumb`: Breadcrumb
 - `section_header`: Section header
-- `form_field`: Form field
-- `ruled_table`: Ruled table
+- `stat_card`: Stat card
+- `data_table`: Data table
 - `medal_mark`: Medal mark
 - `medal_record`: Medal record
 - `range_scale`: Range scale
-- `red_pen_note`: Red pen note
-- `status_stamp`: Status stamp
-- `filters_sheet`: Filters sheet
-- `active_filters`: Active filters
+- `callout`: Callout
+- `status_chip`: Status chip
+- `filters_dialog`: Filters dialog
+- `filter_chips`: Filter chips
 - `button`: Button
 - `text_link`: Link
 - `select`: Select
 - `checkbox`: Checkbox
 - `search_field`: Search field
-- `estimate_popover`: Estimate note
-- `chart_frame`: Chart frame
-- `form_note`: Form notes
+- `estimate_tooltip`: Estimate tooltip
+- `chart_card`: Chart card
+- `state_card`: State card
 - `icon`: Icons
 
 ## `states`
@@ -220,3 +233,95 @@ Where: beside each component name, the stage its spec has reached.
 - `draft`: Draft
 - `review`: In review
 - `approved`: Approved
+
+## `scheme_groups`
+
+Where: the group headings in the color section.
+
+- `primary`: Primary
+- `secondary`: Secondary
+- `tertiary`: Tertiary
+- `error`: Error
+- `surfaces`: Surfaces
+- `outlines`: Outlines and inverse
+- `medals`: Medals
+- `contrast`: Contrast
+
+## `scheme_roles`
+
+Where: the role names in the color tables and the contrast table.
+
+- `primary`: Primary
+- `on_primary`: On primary
+- `primary_container`: Primary container
+- `on_primary_container`: On primary container
+- `secondary`: Secondary
+- `on_secondary`: On secondary
+- `secondary_container`: Secondary container
+- `on_secondary_container`: On secondary container
+- `tertiary`: Tertiary
+- `on_tertiary`: On tertiary
+- `tertiary_container`: Tertiary container
+- `on_tertiary_container`: On tertiary container
+- `error`: Error
+- `on_error`: On error
+- `error_container`: Error container
+- `on_error_container`: On error container
+- `background`: Page background
+- `on_background`: On page background
+- `surface`: Surface
+- `surface_dim`: Surface dim
+- `surface_bright`: Surface bright
+- `surface_container_lowest`: Surface container lowest
+- `surface_container_low`: Surface container low
+- `surface_container`: Surface container
+- `surface_container_high`: Surface container high
+- `surface_container_highest`: Surface container highest
+- `on_surface`: On surface
+- `on_surface_variant`: On surface variant
+- `outline`: Outline
+- `outline_variant`: Outline variant
+- `inverse_surface`: Inverse surface
+- `inverse_on_surface`: Inverse on surface
+- `inverse_primary`: Inverse primary
+- `gold`: Gold medal
+- `silver`: Silver medal
+- `bronze`: Bronze medal
+
+## `type_scale`
+
+Where: the role names in the type scale table.
+
+- `display_large`: Display large
+- `display_medium`: Display medium
+- `display_small`: Display small
+- `headline_large`: Headline large
+- `headline_medium`: Headline medium
+- `headline_small`: Headline small
+- `title_large`: Title large
+- `title_medium`: Title medium
+- `title_small`: Title small
+- `body_large`: Body large
+- `body_medium`: Body medium
+- `body_small`: Body small
+- `label_large`: Label large
+- `label_medium`: Label medium
+- `label_small`: Label small
+
+## `shape_names`
+
+Where: the steps of the corner scale in the shape table.
+
+- `none`: None
+- `extra_small`: Extra small
+- `small`: Small
+- `medium`: Medium
+- `large`: Large
+- `extra_large`: Extra large
+- `full`: Full
+
+## `elevation_levels`
+
+Where: the name of each level in the elevation section.
+
+- `level`: Level {{number}}

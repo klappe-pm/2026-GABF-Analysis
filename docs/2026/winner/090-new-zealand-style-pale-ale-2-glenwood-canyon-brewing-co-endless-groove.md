@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,81 @@ brewery-state: "CO"
 brewery-url: null
 category-name: "New Zealand-Style Pale Ale"
 category-number: 90
+description: null
 entries: 39
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+  - published: "Nectaron"
+    variety: "Nectaron"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
+  - published: "Riwaka"
+    variety: "Riwaka"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
 hops:
   - "Mosaic"
   - "Nectaron"
@@ -32,11 +106,16 @@ hops:
 ibu: 63.3
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "New Zealand-Style Pale Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,18 +146,58 @@ Endless Groove is a beer from Glenwood Canyon Brewing Co., a brewpub in downtown
 
 No brewery description of this beer was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) names the hop varieties recorded above. No additional recipe details were sought in this field pass.
+
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Mosaic | Mosaic | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Nectaron | Nectaron | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+| Riwaka | Riwaka | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
 
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for New Zealand-Style Pale Ale describes an easy-drinking, refreshing pale ale with fruity hop character (tropical, passionfruit, cut grass, diesel), 4.0 to 6.0 percent ABV and 15 to 40 IBU. The listed strength fits the cited range; bitterness exceeds it.
 
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | New Zealand-Style Pale Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Glenwood Canyon Brewing Co. is in Glenwood Springs, CO.
+
+No brewery links have been checked yet.
+
 ## links
 
 - [Glenwood Canyon: brewery ordering menu](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/glenwood-canyon-brewpub-402-7th-street), web searches recorded in the research notes.
 
 ## research-notes
 

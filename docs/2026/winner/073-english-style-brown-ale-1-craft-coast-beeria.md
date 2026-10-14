@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Beeria"
@@ -25,12 +25,138 @@ brewery-state: "CA"
 brewery-url: "https://craftcoast.co/"
 category-name: "English-Style Brown Ale"
 category-number: 73
+description: null
 entries: 43
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://craftcoast.co/"
+      - "https://craftcoast.co/pages/menu"
+      - "https://sandiegobeer.news/coastal-oceanside/"
+      - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
+      - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://craftcoast.co/"
   - "https://craftcoast.co/pages/menu"
@@ -38,7 +164,10 @@ sources:
   - "https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177"
   - "https://untappd.com/w/craft-coast-brewing-co/475278/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Brown ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +198,46 @@ Beería is a brown ale brewed by Craft Coast (Craft Coast Beer & Tacos), a brewe
 
 No description from the brewery was found; its site lists no beers in text and its menu page is a single food menu image.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient of any kind is published by the brewery, Untappd or the local press piece that describes the beer.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for English-Style Brown Ale calls for 4.2 to 6.0 percent ABV, 12 to 25 IBU and 12 to 45 SRM, with roast malt that may add a biscuit or toasted aroma. The published 5.5% ABV sits inside the range; no IBU is published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2021 | Great American Beer Festival | English-Style Brown Ale | Bronze |
+| 2026 | Great American Beer Festival | English-Style Brown Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Craft Coast is in Oceanside, CA.
+
+Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://untappd.com/w/craft-coast-brewing-co/475278).
 
 ## links
 
@@ -85,6 +247,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Craft Coast beer list](https://untappd.com/w/craft-coast-brewing-co/475278/beer)
 - [San Diego Beer News: Coastal Oceanside guide](https://sandiegobeer.news/coastal-oceanside/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

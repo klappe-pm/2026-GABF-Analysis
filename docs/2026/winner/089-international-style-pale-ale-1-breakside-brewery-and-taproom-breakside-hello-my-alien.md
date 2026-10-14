@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Hello My Alien IPA"
@@ -26,20 +26,128 @@ brewery-state: "OR"
 brewery-url: "https://breakside.com/"
 category-name: "International-Style Pale Ale"
 category-number: 89
+description:
+  text: "Hello My Alien IPA. West Coast IPA w/ Riwaka. tangerine, stonefruit, diesel"
+  source: "https://breakside.com/our_location/slabtown-pub-brewery/"
 entries: 53
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_location/slabtown-pub-brewery/"
+      - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Riwaka"
+    variety: "Riwaka"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://breakside.com/our_location/slabtown-pub-brewery/"
 hops:
   - "Riwaka"
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://breakside.com/"
   - "https://breakside.com/beers/"
   - "https://breakside.com/our_location/slabtown-pub-brewery/"
   - "https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "West Coast IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +182,47 @@ Punctuation lightly normalized.
 
 Source: [Breakside: NW Slabtown beer list](https://breakside.com/our_location/slabtown-pub-brewery/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The only ingredient Breakside publishes is Riwaka, a New Zealand hop, named on the [NW Slabtown beer list](https://breakside.com/our_location/slabtown-pub-brewery/). No malt bill, yeast or other ingredients are given.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Riwaka | Riwaka | not published | not published | not published | [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for International-Style Pale Ale describes an easy-drinking, well-integrated pale ale with varied hop character (floral, herbal, fruity, tropical or pine), 4.4 to 6.6 percent ABV and 20 to 42 IBU. The 6.5% draft figure sits inside the ABV range; no IBU is published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | International-Style Pale Ale | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Breakside Brewery & Taproom is in Milwaukie, OR.
+
+Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https://www.instagram.com/breakside/).
 
 ## links
 
@@ -89,6 +231,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Breakside: beers](https://breakside.com/beers/)
 - [Breakside: 2026 January to June release calendar](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf), web searches recorded in the research notes.
+- Not published: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/wp-content/uploads/2026/03/breakside_beer_calendar26a-2.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

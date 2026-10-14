@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,137 @@ brewery-state: "CA"
 brewery-url: "https://www.hopsaint.com/"
 category-name: "Mexican-Style Light Lager"
 category-number: 40
+description:
+  text: "A crisp and refreshing Mexican-style lager with a clean smooth finish and low bitterness."
+  source: "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
 entries: 39
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
+      - "https://untappd.com/v/hopsaint-brewing-company/4008022"
+      - "https://www.hopsaint.com/"
+      - "https://www.hopsaint.com/brewery"
+      - "https://www.hopsaint.com/our-beers"
+      - "https://www.hopsaint.com/the-taproom"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 10
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603"
   - "https://untappd.com/v/hopsaint-brewing-company/4008022"
@@ -38,7 +163,10 @@ sources:
   - "https://www.hopsaint.com/brewery"
   - "https://www.hopsaint.com/our-beers"
   - "https://www.hopsaint.com/the-taproom"
+srm: null
 style: "Mexican Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +199,45 @@ Las Olas is a lager from HopSaint Brewing Co., an independent South Bay brewery 
 
 Source: [Untappd: Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mexican-Style Light Lager calls for a clean fermentation profile, a very light to light body with a dry finish, 3.2 to 4.2 percent ABV, 8 to 17 IBU and a straw to pale gold color (SRM 2 to 3). The selected menu figures fall within those category ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mexican-Style Light Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+HopSaint Brewing Co. is in Torrance, CA. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +248,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: Las Olas description](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603)
 - [HopSaint: verified tap menu](https://untappd.com/v/hopsaint-brewing-company/4008022)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-las-olas/6727603), [untappd.com](https://untappd.com/v/hopsaint-brewing-company/4008022), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/brewery), [hopsaint.com](https://www.hopsaint.com/our-beers), [hopsaint.com](https://www.hopsaint.com/the-taproom), web searches recorded in the research notes.
 
 ## research-notes
 

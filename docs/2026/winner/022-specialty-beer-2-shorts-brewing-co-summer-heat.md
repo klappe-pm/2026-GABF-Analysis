@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,17 +26,89 @@ brewery-state: "MI"
 brewery-url: "https://www.shortsbrewing.com/"
 category-name: "Specialty Beer"
 category-number: 22
+description:
+  text: "What do you get when you combine the sweetness of raspberry and the essence of jalapeno?"
+  source: "https://www.shortsbrewing.com/beers/summer-heat/"
 entries: 51
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
+      - "https://www.shortsbrewing.com/beers/summer-heat/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 25
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
+  - "https://catalog.beer/beer/27fe67b6-c3c1-4705-aa2e-11b2906a5077"
   - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.shortsbrewing.com/beers/summer-heat/"
+srm: null
 style: "Mexican Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +144,45 @@ The brewery's dedicated beer page is now readable:
 
 Source: [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The only published ingredients are jalapeño peppers and raspberry on a Mexican lager base, from the BeerMenus listing. No malt, hop or yeast is named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Specialty Beer covers beers made with an unusual carbohydrate source and sets no ABV, IBU or color limits. The published ingredients (chili and fruit) do not name an unusual carbohydrate source, so the fit cannot be judged from published specs.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Short's Brewing Co. is in Elk Rapids, MI. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +191,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Short's: Summer Heat](https://www.shortsbrewing.com/beers/summer-heat/)
 
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/532352-short-s-summer-heat), [shortsbrewing.com](https://www.shortsbrewing.com/beers/summer-heat/), web searches recorded in the research notes.
+
 ## research-notes
 
 - The official winners list prints the brewery as "Short's Brewing Co. (Production Facility)"; BeerMenus lists the brewery in Bellaire, MI, its pub location.
@@ -94,3 +202,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - No IBU, malt, hop or yeast was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's dedicated Summer Heat page publishes 25 IBU; no hops are named. ABV conflict: this brewery page lists 5.3%, while the existing BeerMenus source lists 5.4%; the existing ABV is retained.
+- Catalog.beer 2026-10-14: [Catalog.beer: Summer Heat](https://catalog.beer/beer/27fe67b6-c3c1-4705-aa2e-11b2906a5077) lists 5.3% ABV, style "Lager: Mexican" (entry last modified 2026-09-23). Where it differs from the brewery's own published value, the brewery's value stands.

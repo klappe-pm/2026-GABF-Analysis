@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Pillow"
@@ -25,7 +25,154 @@ brewery-state: "CA"
 brewery-url: "https://hpb.la/"
 category-name: "Juicy or Hazy Imperial India Pale Ale"
 category-number: 99
+description:
+  text: "Aromas jump right out of the glass with notes of fresh mango, peach candy, & Lime Airheads."
+  source: "https://hpb.la/shop/product/ffdelivery3/"
 entries: 107
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://hpb.la/"
+      - "https://hpb.la/awards-press/"
+      - "https://hpb.la/dinein"
+      - "https://hpb.la/shop"
+      - "https://hpb.la/shop/product/ffdelivery3/"
+      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://hpb.la/shop/product/ffdelivery3/"
+  - published: "Citra Cryo"
+    variety: "Citra Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://hpb.la/shop/product/ffdelivery3/"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://hpb.la/shop/product/ffdelivery3/"
+  - published: "Mosaic Cryo"
+    variety: "Mosaic Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://hpb.la/shop/product/ffdelivery3/"
 hops:
   - "Citra"
   - "Citra Cryo"
@@ -34,8 +181,11 @@ hops:
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
+  - "https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e"
   - "https://hpb.la/"
   - "https://hpb.la/awards-press/"
   - "https://hpb.la/dinein"
@@ -43,7 +193,10 @@ sources:
   - "https://hpb.la/shop/product/ffdelivery3/"
   - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Hazy Double IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -76,13 +229,52 @@ DDH Pillow is a double dry hopped juicy imperial IPA from Highland Park Brewery 
 
 Source: [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery identifies its malt supplier in the specs table but does not name individual malts, yeast or adjuncts.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Citra Cryo | Citra Cryo | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Mosaic | Mosaic | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Juicy or Hazy Imperial or Double IPA calls for straw to light amber color with variable haze, high to intense fruity and juicy hop character and soft, well integrated bitterness, at 7.6 to 10.6 percent ABV and 30 to 80 IBU. The published ABV fits the category range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2023 | Great American Beer Festival | Juicy or Hazy Imperial India Pale Ale | Gold |
+| 2024 | Great American Beer Festival | Juicy or Hazy Imperial India Pale Ale | Gold |
+| 2026 | Great American Beer Festival | Juicy or Hazy Imperial India Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Highland Park Brewery is in Los Angeles, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -92,6 +284,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [DDH Pillow on the brewery shop](https://hpb.la/shop/product/ffdelivery3/)
 - [DDH Pillow listing](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907)
 
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
+- Not published: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
+
 ## research-notes
 
 - Field pass 2026-10-13: Retailer IBU searches found no number for Highland Park's DDH Pillow; DDH Pillow Talk from Zony Mash is a different beer and was excluded.
@@ -99,3 +296,4 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - The awards page did not list a 2026 award.
 - The taproom page (hpb.la/dinein) did not expose a readable beer list.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: DDH Pillow](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e) lists 8% ABV, style "IPA: Imperial" (entry last modified 2026-08-04). Where it differs from the brewery's own published value, the brewery's value stands.

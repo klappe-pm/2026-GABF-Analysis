@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,12 +25,116 @@ brewery-state: "OH"
 brewery-url: "https://thirdeyebrewingco.com/"
 category-name: "Sweet Stout or Cream Stout"
 category-number: 84
+description:
+  text: "The perfect balance of roasted malts, this stout is dark, sweet and full-bodied."
+  source: "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
 entries: 42
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://thirdeyebrewingco.com/"
+      - "https://thirdeyebrewingco.com/beer-overview/"
+      - "https://thirdeyebrewingco.com/beer/"
+      - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
+      - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 24
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://thirdeyebrewingco.com/"
   - "https://thirdeyebrewingco.com/beer-overview/"
@@ -38,7 +142,10 @@ sources:
   - "https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995"
   - "https://www.beerandbrewing.com/the-milk-stout-whisperer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Milk Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +179,46 @@ Higher Purpose is a milk stout from Third Eye Brewing Co. in Hamilton, Ohio.
 
 Source: [Third Eye: description on Untappd](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [beer listing](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995) describes more than nine grains without naming them. In a [2022 interview](https://www.beerandbrewing.com/the-milk-stout-whisperer), brewer Kelly Montgomery described alternatives for Higher Purpose: Challenger, Magnum or Bravo for bittering, followed by East Kent Goldings or Fuggles. He also described Irish ale or Whitbread English yeast, with a later Whitbread and Chico blend. These alternatives do not identify the current batch, so hops and yeast arrays remain empty.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Sweet Stout or Cream Stout calls for a full-bodied, sweet stout dominated by chocolate and caramel malt with little hop character, 3.2 to 6.3 percent ABV and 15 to 25 IBU. The published strength and bitterness fit the cited ranges.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2021 | Great American Beer Festival | Sweet Stout or Cream Stout | Gold |
+| 2026 | Great American Beer Festival | Sweet Stout or Cream Stout | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Third Eye Brewing Co. is in Hamilton, OH.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +228,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Third Eye Brewing Co.](https://thirdeyebrewingco.com/)
 - [Third Eye Brewing: our beers](https://thirdeyebrewingco.com/beer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer-overview/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-higher-purpose/3955995), [beerandbrewing.com](https://www.beerandbrewing.com/the-milk-stout-whisperer), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -1,60 +1,51 @@
 #!/usr/bin/env node
-// Build the design system products from .design/design-system:
-//   web/design/tokens.css                         CSS custom properties and the Tailwind theme
-//   .design/design-system/control-plane/system.json  the manifest of tokens and components
-//   docs/design/design-system-tokens.json         token and component nodes for the screen feedback control plane
-// Then append a hash chained entry to the local change log when a token value or a spec status changed.
+// Prepare the design system for the site:
+//   1. rewrite each component spec's body (its image and the what-you-can-change list) from its frontmatter,
+//      leaving the frontmatter exactly as written;
+//   2. copy settings.md, layout.md, and every spec.md into web/public/design-settings/, which the static
+//      export serves so each page can read the settings when it loads.
+// Run it after changing a spec's frontmatter: npm run design-system:build
 
-import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from 'node:fs';
-import { dirname } from 'node:path';
-import {
-  CHANGELOG, CSS_OUT, FEEDBACK_OUT, MANIFEST, buildCss, buildManifest, diffSnapshots, feedbackDocument,
-  loadSpecs, loadTokens, readLog, rel, sha, snapshot, stableJson,
-} from './lib.mjs';
+import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { LAYOUT, PUBLIC_SETTINGS, SETTINGS, design, loadSpecs, rel } from './lib.mjs';
 
-export function products() {
-  const tokens = loadTokens();
-  const specs = loadSpecs();
-  const manifest = buildManifest(tokens, specs);
-  return {
-    tokens,
-    specs,
-    files: {
-      [CSS_OUT]: buildCss(tokens),
-      [MANIFEST]: stableJson(manifest),
-      [FEEDBACK_OUT]: stableJson(feedbackDocument(tokens, specs, manifest)),
-    },
-  };
+// The spec text with its body regenerated, or null when the spec has no usable frontmatter.
+export async function specText(s) {
+  const { specBody, componentSettings } = await design();
+  if (!s.exists || !s.head) return null;
+  return s.head + specBody(s.dir, String(s.data.title ?? s.dir), componentSettings(s.dir, s.data));
 }
 
-function write(file, text) {
-  mkdirSync(dirname(file), { recursive: true });
-  const before = existsSync(file) ? readFileSync(file, 'utf8') : null;
-  if (before === text) return false;
-  writeFileSync(file, text);
-  return true;
+export async function staleSpecs() {
+  const stale = [];
+  for (const s of loadSpecs()) {
+    const text = await specText(s);
+    if (text !== null && text !== s.text) stale.push(s);
+  }
+  return stale;
 }
 
-export function recordChanges(tokens, specs, now = new Date()) {
-  const entries = readLog();
-  const last = entries.at(-1);
-  const snap = snapshot(tokens, specs);
-  const snapHash = sha(JSON.stringify(snap));
-  if (last && last.snapshotHash === snapHash) return null;
-  const changes = diffSnapshots(last?.snapshot, snap);
-  const body = { seq: entries.length + 1, at: now.toISOString(), prev: last?.hash ?? null, changes, snapshotHash: snapHash, snapshot: snap };
-  const entry = { ...body, hash: sha(JSON.stringify(body)) };
-  mkdirSync(dirname(CHANGELOG), { recursive: true });
-  appendFileSync(CHANGELOG, `${JSON.stringify(entry)}\n`);
-  return entry;
+export function publish() {
+  rmSync(PUBLIC_SETTINGS, { recursive: true, force: true });
+  mkdirSync(resolve(PUBLIC_SETTINGS, 'components'), { recursive: true });
+  cpSync(SETTINGS, resolve(PUBLIC_SETTINGS, 'settings.md'));
+  cpSync(LAYOUT, resolve(PUBLIC_SETTINGS, 'layout.md'));
+  for (const s of loadSpecs()) {
+    if (!s.exists) continue;
+    mkdirSync(resolve(PUBLIC_SETTINGS, 'components', s.dir), { recursive: true });
+    cpSync(s.file, resolve(PUBLIC_SETTINGS, 'components', s.dir, 'spec.md'));
+  }
 }
 
-function main() {
-  const { tokens, specs, files } = products();
-  for (const [file, text] of Object.entries(files)) console.log(`${write(file, text) ? 'wrote' : 'unchanged'} ${rel(file)}`);
-  if (process.env.CI) return;
-  const entry = recordChanges(tokens, specs);
-  console.log(entry ? `change log: entry ${entry.seq}, ${entry.changes.length} change(s)` : 'change log: no token or status change');
+async function main() {
+  for (const s of await staleSpecs()) {
+    writeFileSync(s.file, await specText(s));
+    console.log(`wrote ${rel(s.file)}`);
+  }
+  if (!existsSync(SETTINGS) || !existsSync(LAYOUT)) throw new Error('settings.md and layout.md are required in .design/design-system');
+  publish();
+  console.log(`copied the settings to ${rel(PUBLIC_SETTINGS)}`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) main();
+if (import.meta.url === `file://${process.argv[1]}`) await main();

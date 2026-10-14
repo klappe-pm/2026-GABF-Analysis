@@ -32,6 +32,14 @@ export function visibleText(html) {
     .replace(/\S+\.(?:com|org|net|beer|co|us|io|biz|info|brewing|pub)\b\S*/gi, ' ');
 }
 
+// The text values of a parsed frontmatter value, without its keys, URLs, or paths.
+function leaves(node, out = []) {
+  if (typeof node === 'string') out.push(node.replace(/\S*\/\S*/g, ' '));
+  else if (Array.isArray(node)) node.forEach((v) => leaves(v, out));
+  else if (node && typeof node === 'object') Object.values(node).forEach((v) => leaves(v, out));
+  return out.join(' ');
+}
+
 function corpus() {
   const allowed = new Set(EXTRA_ALLOWED);
   const add = (text) => { for (const t of String(text).toLowerCase().match(TOKEN) ?? []) allowed.add(t); };
@@ -47,6 +55,21 @@ function corpus() {
   add(readFileSync(resolve(ROOT, 'data/reference/ownership.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
   add(readFileSync(resolve(ROOT, 'data/reference/distributors.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
   add(readFileSync(resolve(ROOT, 'data/reference/current-beers.csv'), 'utf8').replace(/\S*\/\S*/g, ' '));
+  // Hop reference tables and hop research documents are authored English: variety, farm and descriptor names.
+  for (const f of readdirSync(resolve(ROOT, 'data/reference')).filter((x) => /^hop-.*\.csv$/.test(x))) add(readFileSync(resolve(ROOT, 'data/reference', f), 'utf8').replace(/\S*\/\S*/g, ' '));
+  for (const sub of ['varieties', 'farms']) {
+    const dir = resolve(ROOT, 'docs/hops', sub);
+    if (!existsSync(dir)) continue;
+    for (const f of readdirSync(dir).filter((x) => x.endsWith('.md'))) {
+      const { data, body } = parseFrontmatter(readFileSync(resolve(dir, f), 'utf8'));
+      add(body.split('\n').filter((l) => !/^#/.test(l)).join('\n').replace(/\S*\/\S*/g, ' '));
+      add(leaves(data));
+    }
+  }
+  for (const f of readdirSync(resolve(ROOT, 'docs/2026/winner')).filter((x) => /^\d{3}-/.test(x))) {
+    const { data } = parseFrontmatter(readFileSync(resolve(ROOT, 'docs/2026/winner', f), 'utf8'));
+    for (const k of ['hop-profile', 'description', 'tasting-notes', 'srm', 'og', 'fg', 'water', 'process']) if (data[k]) add(leaves(data[k]));
+  }
   return allowed;
 }
 
@@ -76,8 +99,10 @@ test('no developer instructions or file paths show on any page', () => {
   const hits = [];
   for (const f of allPages()) {
     const text = readerText(readFileSync(f, 'utf8'));
+    // "seed crops" in a farm's published notes is farming, not a seed row.
+    const scanned = f.includes('/hop-farms/') ? text.replace(/seed crops/gi, ' ') : text;
     for (const re of DEVELOPER_COPY) {
-      const m = text.match(new RegExp(`.{0,40}${re.source}.{0,40}`, re.flags));
+      const m = scanned.match(new RegExp(`.{0,40}${re.source}.{0,40}`, re.flags));
       if (m) hits.push(`${f.slice(DIST.length + 1)}: ${m[0].replace(/\s+/g, ' ').trim()}`);
     }
   }
@@ -167,4 +192,60 @@ test('the first time medalists page shows ABV and IBU', () => {
   const html = readFileSync(resolve(DIST, 'first-time-medalists/2026/index.html'), 'utf8');
   assert.ok((html.match(/data-label="ABV"[^>]*>\d/g) ?? []).length > 20, 'ABV values appear');
   assert.match(html, /<th scope="col" class="num">IBU<\/th>/);
+});
+
+// ---------- hops ----------
+async function hopModel() {
+  const { loadDataset } = await import('../scripts/lib/data-model.mjs');
+  return loadDataset().hops;
+}
+
+test('the hop pages exist in the build: both indexes, every variety, every farm, and the nav entries', async () => {
+  ensureBuilt();
+  const hops = await hopModel();
+  assert.ok(hops.varieties.length > 0, 'at least one hop variety');
+  for (const p of ['hops/index.html', 'hop-farms/index.html']) assert.ok(existsSync(resolve(DIST, p)), p);
+  for (const v of hops.varieties) assert.ok(existsSync(resolve(DIST, 'hops', v.slug, 'index.html')), `hops/${v.slug}/`);
+  for (const f of hops.farms) assert.ok(existsSync(resolve(DIST, 'hop-farms', f.slug, 'index.html')), `hop-farms/${f.slug}/`);
+  const home = readFileSync(resolve(DIST, 'index.html'), 'utf8');
+  assert.match(home, /href="\.\/hops\/"/);
+  assert.match(home, /href="\.\/hop-farms\/"/);
+});
+
+test('every variety page lists every 2026 beer that uses it, and every beer page links its varieties', async () => {
+  ensureBuilt();
+  const hops = await hopModel();
+  for (const v of hops.varieties) {
+    const html = readFileSync(resolve(DIST, 'hops', v.slug, 'index.html'), 'utf8');
+    for (const [stem] of v.usages) assert.ok(html.includes(`href="../../beers/2026/${stem}/"`), `${v.name} lists ${stem}`);
+  }
+  for (const b of hops.beers.values()) {
+    const html = readFileSync(resolve(DIST, 'beers', '2026', b.stem, 'index.html'), 'utf8');
+    for (const u of b.usage) assert.ok(html.includes(`href="../../../hops/${u.slug}/"`), `${b.stem} links ${u.slug}`);
+  }
+});
+
+test('the hops index, winners page, category pages, and brewery pages link hops', async () => {
+  ensureBuilt();
+  const hops = await hopModel();
+  const index = readFileSync(resolve(DIST, 'hops/index.html'), 'utf8');
+  for (const v of hops.varieties) assert.ok(index.includes(`href="../hops/${v.slug}/"`), `index links ${v.slug}`);
+  assert.match(index, /<table class="data-table sortable">/);
+  const winners = readFileSync(resolve(DIST, 'beers/2026/index.html'), 'utf8');
+  assert.match(winners, /href="\.\.\/\.\.\/hops\/[a-z0-9-]+\/"/);
+  const rows = JSON.parse(readFileSync(resolve(DIST, 'data/results.json'), 'utf8'));
+  const row = rows.find((r) => r.year === 2026 && r.hop_varieties?.length);
+  assert.ok(row, 'a 2026 row with hops');
+  const cat = readFileSync(resolve(DIST, 'categories', row.category_slug, 'index.html'), 'utf8');
+  assert.match(cat, /href="\.\.\/\.\.\/hops\/[a-z0-9-]+\/"/);
+  const brewery = readFileSync(resolve(DIST, 'breweries', row.brewery_slug, 'index.html'), 'utf8');
+  assert.match(brewery, /href="\.\.\/\.\.\/hops\/[a-z0-9-]+\/"/);
+});
+
+test('every rendered page and the standalone dashboard carry the Catalog.beer attribution', () => {
+  ensureBuilt();
+  const line = /Some beer details are from <a href="https:\/\/catalog\.beer">Catalog\.beer<\/a>, licensed <a href="https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/">CC BY 4\.0<\/a> and adapted\./;
+  const missing = allPages().filter((f) => !line.test(readFileSync(f, 'utf8'))).map((f) => f.slice(DIST.length + 1));
+  assert.deepEqual(missing, []);
+  assert.match(readFileSync(resolve(ROOT, 'site/standalone/template.html'), 'utf8'), line);
 });

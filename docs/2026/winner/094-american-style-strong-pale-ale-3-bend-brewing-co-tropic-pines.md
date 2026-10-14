@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Tropic Pines IPA"
@@ -25,7 +25,126 @@ brewery-state: "OR"
 brewery-url: "https://www.bendbrewingco.com/"
 category-name: "American-Style Strong Pale Ale"
 category-number: 94
+description: null
 entries: 89
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
+      - "https://www.bendbrewingco.com/"
+      - "https://www.bendbrewingco.com/beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Chinook"
+    variety: "Chinook"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+  - published: "Mosaic Cryo"
+    variety: "Mosaic Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
 hops:
   - "Chinook"
   - "Mosaic"
@@ -34,14 +153,19 @@ hops:
 ibu: 65
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
   - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
   - "https://www.bendbrewingco.com/"
   - "https://www.bendbrewingco.com/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -72,13 +196,50 @@ Tropic Pines is an IPA from Bend Brewing Co. in Bend, Oregon, offered on tap and
 
 No brewery description of this beer was found; the beer page gives only its name, style, ABV and IBU.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [current beer entry](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) explicitly names the hop products recorded above. No additional recipe fields were changed in this pass.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Strong Pale Ale describes a stronger, more bitter American pale ale with high to very high hop aroma, 5.6 to 6.4 percent ABV and 40 to 50 IBU. The published 6.5% ABV and 65 IBU are both above those ranges; the current listing may not match the entry.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | American-Style Strong Pale Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Bend Brewing Co. is in Bend, OR.
+
+Links checked 2026-10-14: [Website](https://www.bendbrewingco.com/), [Instagram](https://www.instagram.com/bendbrewingco/), [Untappd](https://untappd.com/BendBrewingCompany).
 
 ## links
 
@@ -87,6 +248,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beer page on brewery site](https://www.bendbrewingco.com/beer)
 - [Bend Brewing Co.](https://www.bendbrewingco.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116), [beerandbrewing.com](https://www.beerandbrewing.com/review/tropic-pines-ipa), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

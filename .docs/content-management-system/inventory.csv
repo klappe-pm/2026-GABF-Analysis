@@ -16,6 +16,7 @@ every page,footer,Results from the Brewers Association's official Great American
 every page,footer,Charts by Apache ECharts.,pages.about.attribution.charts
 every page,footer,Estimates are marked (E).,global.site.footer.estimates
 every page,footer link,Source and data,global.site.footer.source_link
+explorer and chart gallery,footer,"Some beer details are from Catalog.beer, licensed CC BY 4.0 and adapted.",global.site.footer.beer_details
 every page (global filter),header button,Filters,global.filters.trigger.label
 every page (global filter),header button,Filters · {{count}},global.filters.trigger.label_with_count
 every page (global filter),header button aria label,"Filters, {{count}} active",global.filters.trigger.accessible_label_with_count
@@ -1081,3 +1082,21 @@ single file dashboard (gabf-dashboard.html),brewery tab notice,Some years for th
 /reports/top-breweries/,card link,first time medalists,pages.analysis-report.top_breweries.first_time_link
 /breweries/{slug}/,method link prefix,Method:,pages.brewery-detail.scale.method_link
 /breweries/{slug}/,method link,estimation notes,pages.brewery-detail.scale.method_link
+every page,header navigation,Hops,global.navigation.header.hops
+every page,header navigation,Hop farms,global.navigation.header.hop_farms
+/hops/,page title,Hops,pages.hops.page.title
+/hops/,table header,Hop variety,pages.hops.table.variety
+/hops/,table header,Medal beers,pages.hops.table.beers
+/hops/{slug}/,section title,Variety data,pages.hop-detail.data.title
+/hops/{slug}/,section title,Aroma descriptors,pages.hop-detail.aroma.title
+/hops/{slug}/,section title,US acreage by state,pages.hop-detail.acreage.title
+/hops/{slug}/,section title,Farms that grow it,pages.hop-detail.farms.title
+/hops/{slug}/,grown by label,Grown by.,pages.hop-detail.farms.label
+/hop-farms/,page title,Hop farms,pages.hop-farms.page.title
+/hop-farms/{slug}/,section title,Varieties grown here,pages.hop-farm-detail.varieties.title
+/hop-farms/{slug}/,direct link label,Brewery named this farm.,pages.hop-farm-detail.named.label
+/hop-farms/{slug}/,grown by label,Grown by.,pages.hop-farm-detail.grown.label
+/beers/{year}/{slug}/,hop profile title,Hop profile,pages.beer-detail.hop_profile.title
+/beers/{year}/{slug}/,direct link label,Brewery named this farm,pages.beer-detail.hop_profile.named_label
+/breweries/{slug}/,hops table title,Hops in these medal beers,pages.hop-detail.shared_views.brewery_title
+all medal tables,column header,Hops,pages.hop-detail.shared_views.column

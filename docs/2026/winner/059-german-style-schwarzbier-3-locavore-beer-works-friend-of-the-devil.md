@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,130 @@ brewery-state: "CO"
 brewery-url: "https://www.locavorebeerworks.com/"
 category-name: "German-Style Schwarzbier"
 category-number: 59
+description: null
 entries: 59
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "http://locavorebeerworks.com/"
+      - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
+      - "https://taplist.io/locavorebeerworks"
+      - "https://www.ipourit.com/beer/Locavore-Beer-Works"
+      - "https://www.locavorebeerworks.com/pages/tap-list"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 25
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "http://locavorebeerworks.com/"
   - "https://coloradobrewerylist.com/brewery/locavore-beer-works"
@@ -37,7 +155,10 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ipourit.com/beer/Locavore-Beer-Works"
   - "https://www.locavorebeerworks.com/pages/tap-list"
+srm: null
 style: "Dark German Schwarzbier"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +189,45 @@ Friend of the Devil is a schwarzbier from Locavore Beer Works, a Littleton, Colo
 
 No brewery description of Friend of the Devil was found; the tap menu gives only style and ABV.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Schwarzbier calls for very dark brown to black color, mild roasted malt flavor without roasted bitterness, 3.8 to 4.9 percent ABV and 22 to 30 IBU. The published 5.5% ABV sits above that range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Schwarzbier | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Locavore Beer Works is in Littleton, CO. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +237,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Locavore: taplist.io menu](https://taplist.io/locavorebeerworks)
 - [Colorado Brewery List: Locavore Beer Works](https://coloradobrewerylist.com/brewery/locavore-beer-works)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [locavorebeerworks.com](http://locavorebeerworks.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/locavore-beer-works), [taplist.io](https://taplist.io/locavorebeerworks), [ipourit.com](https://www.ipourit.com/beer/Locavore-Beer-Works), [locavorebeerworks.com](https://www.locavorebeerworks.com/pages/tap-list), web searches recorded in the research notes.
 
 ## research-notes
 

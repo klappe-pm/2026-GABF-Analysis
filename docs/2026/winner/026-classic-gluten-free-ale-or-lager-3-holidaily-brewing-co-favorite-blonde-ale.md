@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Favorite Blonde"
@@ -26,7 +26,80 @@ brewery-state: "CO"
 brewery-url: "https://holidailybrewing.com/"
 category-name: "Classic Gluten-Free Ale or Lager"
 category-number: 26
+description:
+  text: "AROMA: Light malty aroma, subtle hints of lemon, and light hop notes. APPEARANCE: Clear golden color. FLAVOR: Smooth malty sweetness, with a light hop bitterness. MOUTHFEEL: Medium body with a smooth, clean finish."
+  source: "https://holidailybrewing.com/beers/favorite-blonde/"
 entries: 21
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/favorite-blonde/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Cascade"
+    variety: "Cascade"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://holidailybrewing.com/beers/favorite-blonde/"
+  - published: "Centennial"
+    variety: "Centennial"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://holidailybrewing.com/beers/favorite-blonde/"
 hops:
   - "Cascade"
   - "Centennial"
@@ -35,12 +108,17 @@ malts:
   - "Buckwheat malt"
   - "Millet malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://holidailybrewing.com/"
   - "https://holidailybrewing.com/beers/favorite-blonde/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Classic Gluten-Free Ale or Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,19 +151,58 @@ Favorite Blonde is a gluten-free blonde ale brewed from millet and buckwheat mal
 
 Source: [Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery publishes a grain bill of millet malt and buckwheat malt and a hop bill described as "a blend of hops including Cascade and Centennial", so other hops may be present ([Holidaily: Favorite Blonde](https://holidailybrewing.com/beers/favorite-blonde/)). No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Cascade | Cascade | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
+| Centennial | Centennial | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Gluten-Free Beer require every ingredient to be free of gluten, exclude barley, wheat, spelt and rye, and let ABV, IBU and color vary with the underlying style, judging entries on their own merits. The all millet and buckwheat grist meets that requirement, and no published figure conflicts with the guideline.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Classic Gluten-Free Ale or Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Holidaily Brewing Co. is in Golden, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://holidailybrewing.com/beers/favorite-blonde/)
 - [Holidaily Brewing Co.](https://holidailybrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/favorite-blonde/), web searches recorded in the research notes.
 
 ## research-notes
 

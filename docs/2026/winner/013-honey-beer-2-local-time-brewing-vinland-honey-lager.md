@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,20 +25,122 @@ brewery-state: "NC"
 brewery-url: "https://localtimebrewing.com/"
 category-name: "Honey Beer"
 category-number: 13
+description:
+  text: "It’s an American Copper Lager with Orange Blossom honey added in whirlpool."
+  source: "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
 entries: 54
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://localtimebrewing.com/"
+      - "https://localtimebrewing.com/?s=vinland"
+      - "https://localtimebrewing.com/our-menu/"
+      - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: 
   - "Barley malt"
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://localtimebrewing.com/"
   - "https://localtimebrewing.com/?s=vinland"
   - "https://localtimebrewing.com/our-menu/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
+srm: null
 style: "American Copper Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +173,45 @@ Vinland Honey Lager is a honey lager from Local Time Brewing of Holly Springs, N
 
 Source: [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing) (comment by brewery co-owner Chris Gallagher).
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The co-owner's comment identifies malted barley as the base ingredient and says the honey enters in the whirlpool. [Holly Springs Update: Vinland report](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Specialty Honey Beer says these beers "incorporate honey as a fermentable sugar in addition to malted barley," with honey character "present in aroma and flavor but should not be overpowering," at 2 to 9.5 percent ABV and 1 to 100 IBU. No published specs exist to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Honey Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Local Time Brewing is in Holly Springs, NC.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +219,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Local Time Brewing](https://localtimebrewing.com/)
 - [Local Time Brewing: menu](https://localtimebrewing.com/our-menu/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

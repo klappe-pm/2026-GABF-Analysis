@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,137 @@ brewery-state: "TX"
 brewery-url: "https://www.nolabelbrew.com/"
 category-name: "Wood- and Barrel-Aged Strong Beer"
 category-number: 33
+description:
+  text: "Perpetual Peace isn't just a beer, it's a time capsule."
+  source: "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
 entries: 61
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
+      - "https://my-table.com/off-label-perpetual-peace/"
+      - "https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721"
+      - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
+      - "https://www.nolabelbrew.com/"
+      - "https://www.nolabelbrew.com/our-beers"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 21
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/"
   - "https://my-table.com/off-label-perpetual-peace/"
@@ -38,7 +163,10 @@ sources:
   - "https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28"
   - "https://www.nolabelbrew.com/"
   - "https://www.nolabelbrew.com/our-beers"
+srm: null
 style: "Barrel-aged Scottish wee heavy"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,13 +201,46 @@ Punctuation lightly normalized.
 
 Source: [Covering Katy: quote from co-owner Tom Paynter](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are published. The 2020 announcement credits the recipe to head brewer Ryan Traylor and gives only the style and strength ([Katy EDC](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28)). A 2015 review of an Off Label beer of the same name notes raisin, dark fruit and brown bread aromas and tannic wood structure, but names no ingredients ([My Table: Off Label Perpetual Peace](https://my-table.com/off-label-perpetual-peace/)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) have no standalone entry for this competition category; their Other Strong Ale or Lager entry sets elevated alcohol at 8% ABV and up and notes that wood- and barrel-aged beers meeting that threshold are categorized separately. The announced 12.3% ABV is well above that threshold.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2025 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Silver |
+| 2026 | Great American Beer Festival | Wood- and Barrel-Aged Strong Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+No Label Brewing Co. is in Katy, TX.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +251,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [My Table: Off Label Perpetual Peace](https://my-table.com/off-label-perpetual-peace/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: No Label Perpetual Peace](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coveringkaty.com](https://coveringkaty.com/news/katy/katy-brewery-achieves-beer-egot-with-four-major-competition-/), [my-table.com](https://my-table.com/off-label-perpetual-peace/), [untappd.com](https://untappd.com/b/no-label-brewing-company-perpetual-peace/442721), [katyedc.org](https://www.katyedc.org/news-and-media/p/item/31184/no-label-brewing-co-celebrates-10year-anniversary-on-saturday-nov-28), [nolabelbrew.com](https://www.nolabelbrew.com/), [nolabelbrew.com](https://www.nolabelbrew.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 

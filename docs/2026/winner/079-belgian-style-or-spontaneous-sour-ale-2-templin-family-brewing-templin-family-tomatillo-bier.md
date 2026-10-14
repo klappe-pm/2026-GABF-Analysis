@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,119 @@ brewery-state: "UT"
 brewery-url: "https://www.tfbrewing.com/"
 category-name: "Belgian-Style or Spontaneous Sour Ale"
 category-number: 79
+description:
+  text: "A collaboration with Purpose Brewing..."
+  source: "https://tfbrewing.com/beer/tomatillo-sour-ale/"
 entries: 31
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
+      - "https://tfbrewing.com/beers/"
+      - "https://www.tfbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://tfbrewing.com/beer/tomatillo-sour-ale/"
   - "https://tfbrewing.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.tfbrewing.com/"
+srm: null
 style: "Belgian-Style or Spontaneous Sour Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +171,45 @@ No description exists under the name Tomatillo Bier. The brewery's page for its 
 
 Source: [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing is published under the winning name. The brewery's Tomatillo Sour Ale page lists a 6.2% ABV collaboration farmhouse ale with Purpose Brewing, says "The tomatillo and prickly ash are present but play a supporting role in this highly complex beer," and that it "rested in oak barrels for 16 months" ([Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/)). These details are kept out of the structured fields because the two names are not confirmed to be the same beer.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style with the competition category's name; its nearest styles include Belgian-Style Flanders Oud Bruin or Oud Red Ale (4.8 to 6.6 percent ABV, 5 to 18 IBU) and Contemporary Belgian-Style Spontaneous Fermented Ale (5.0 to 8.9 percent ABV, 11 to 23 IBU). The likely match's 6.2% ABV would fit both, but no specs are published under the winning name.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Belgian-Style or Spontaneous Sour Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Templin Family Brewing is in Salt Lake City, UT. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +217,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Templin Family: beers](https://tfbrewing.com/beers/)
 - [Templin Family: Tomatillo Sour Ale](https://tfbrewing.com/beer/tomatillo-sour-ale/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/tomatillo-sour-ale/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Haru Japanese Lager"
@@ -26,7 +26,91 @@ brewery-state: "WA"
 brewery-url: "https://www.fremontbrewing.com/"
 category-name: "Rice Lager"
 category-number: 44
+description:
+  text: "Aroma shows light floral notes alongside water cracker, white bread, and subtle dough. Mouthfeel is light-bodied with medium carbonation, smooth and crisp, with no astringency and only mild warming."
+  source: "https://www.fremontbrewing.com/haru-japanese-lager"
 entries: 110
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.fremontbrewing.com/"
+      - "https://www.fremontbrewing.com/haru-japanese-lager"
+      - "https://www.fremontbrewing.com/our-beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau Mittelfrüh"
+    variety: "Hallertau Mittelfrüh"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.fremontbrewing.com/haru-japanese-lager"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.fremontbrewing.com/haru-japanese-lager"
+  - published: "Saaz"
+    variety: "Saaz"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.fremontbrewing.com/haru-japanese-lager"
 hops:
   - "Hallertau Mittelfrüh"
   - "Mosaic"
@@ -37,13 +121,18 @@ malts:
   - "Bohemian Pilsner malt"
   - "Carafoam"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.fremontbrewing.com/"
   - "https://www.fremontbrewing.com/haru-japanese-lager"
   - "https://www.fremontbrewing.com/our-beer"
+srm: null
 style: "Japanese Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -76,13 +165,49 @@ Haru is a light straw Japanese lager brewed with flaked rice and a mix of Mosaic
 
 Source: [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japanese-lager)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [brewery page](https://www.fremontbrewing.com/haru-japanese-lager) gives the full grist and hop bill: Bohemian Pilsner malt, Carafoam, Crisp flaked rice and acidulated malt, hopped with Mosaic, German Hallertau Mittelfrüh (spelled "Mittlefruh" on the page) and Saaz. No yeast strain is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| Mosaic | Mosaic | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| Saaz | Saaz | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Rice Lager describes a pale, clean lager in which rice adds subtle to expressive character, at 4.0 to 6.0 percent ABV and 15 to 30 IBU. The 5.1% ABV and 17 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Rice Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Fremont Brewing is in Seattle, WA. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -90,6 +215,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Fremont Brewing](https://www.fremontbrewing.com/)
 - [Fremont: our beer](https://www.fremontbrewing.com/our-beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fremontbrewing.com](https://www.fremontbrewing.com/), [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager), [fremontbrewing.com](https://www.fremontbrewing.com/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 

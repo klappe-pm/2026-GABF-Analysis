@@ -13,6 +13,12 @@ export const FILTERS = [
   { id: 'style_family', label: 'Style family', group: 'What' },
   { id: 'category_name', label: 'Category', group: 'What' },
   { id: 'abv_band', label: 'ABV band', group: 'What' },
+  // A beer lists several hops and farms, so these read an array on the row (`field`) and match when
+  // it holds the picked value. The two farm filters are separate on purpose: one is the farm the
+  // brewery named, the other a farm that grows a hop the beer uses. They are never combined.
+  { id: 'hop_variety', field: 'hop_varieties', multi: true, label: 'Hop variety', group: 'What' },
+  { id: 'hop_farm_named', field: 'hop_farms_named', multi: true, label: 'Hop farm named by the brewery', group: 'What' },
+  { id: 'hop_farm_grown', field: 'hop_farms_grown', multi: true, label: 'Hop farm that grows a hop used', group: 'What' },
   { id: 'region', label: 'Region', group: 'Where' },
   { id: 'state', label: 'State', group: 'Where' },
   { id: 'city', label: 'City', group: 'Where' },
@@ -132,6 +138,14 @@ export function fieldValue(row, id) {
   return String(row[id] ?? '');
 }
 
+// Every value a row holds for a filter: one for a plain filter, the whole list for a multi filter.
+export function fieldValues(row, id) {
+  const def = FILTERS.find((d) => d.id === id);
+  if (!def?.multi) return [fieldValue(row, id)];
+  const list = row[def.field];
+  return Array.isArray(list) ? list.map(String) : [];
+}
+
 // Partial years (seed rows only) stay out unless a year is picked or years=all.
 export const includesPartial = (s) => s.years === 'all' || Boolean(s.year);
 export function applyFilters(rows, s = {}) {
@@ -140,7 +154,7 @@ export function applyFilters(rows, s = {}) {
     if (!includesPartial(s) && r.partial) return false;
     for (const def of FILTERS) {
       const v = s[def.id];
-      if (v && fieldValue(r, def.id) !== String(v)) return false;
+      if (v && !fieldValues(r, def.id).includes(String(v))) return false;
     }
     if (q.length) {
       const hay = `${r.beer_name} ${r.brewery_name} ${r.brewery_location ?? ''} ${r.city} ${r.state} ${r.state_name ?? ''} ${r.category_name} ${r.style_family ?? ''} ${r.search_extra ?? ''}`.toLowerCase();
@@ -163,10 +177,11 @@ export function optionList(scope, id, s = {}, meta = null) {
   const counts = new Map();
   const names = new Map();
   for (const r of pool) {
-    const v = fieldValue(r, id);
-    if (!v) continue;
-    counts.set(v, (counts.get(v) ?? 0) + 1);
-    if (id === 'brewery_key' && !names.has(v)) names.set(v, r.brewery_name || v);
+    for (const v of new Set(fieldValues(r, id))) {
+      if (!v) continue;
+      counts.set(v, (counts.get(v) ?? 0) + 1);
+      if (id === 'brewery_key' && !names.has(v)) names.set(v, r.brewery_name || v);
+    }
   }
   let plainCity = null;
   if (id === 'city') {

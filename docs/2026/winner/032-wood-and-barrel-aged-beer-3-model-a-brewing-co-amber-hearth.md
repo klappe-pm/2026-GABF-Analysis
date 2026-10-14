@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,138 @@ brewery-state: "SC"
 brewery-url: "https://modelabrewing.com/"
 category-name: "Wood- and Barrel-Aged Beer"
 category-number: 32
+description: null
 entries: 23
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://modelabrewing.com/"
+      - "https://modelabrewing.com/beer/"
+      - "https://modelabrewing.com/menu/"
+      - "https://www.beeradvocate.com/beer/profile/60152/733720/"
+      - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://modelabrewing.com/"
   - "https://modelabrewing.com/beer/"
@@ -37,7 +163,10 @@ sources:
   - "https://www.beeradvocate.com/beer/profile/60152/733720/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/"
+srm: null
 style: "Oak Aged Winter Warmer"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +197,45 @@ Amber Hearth is a beer from Model A Brewing Co., the first brewery in Tega Cay, 
 
 No brewery description of Amber Hearth was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The report identifies the wood treatment listed above but provides no recipe ingredients. [Fort Mill Sun: Amber Hearth report](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) page read for this run lists Wood- and Barrel-Aged Sour Beer and refers to "several Wood- and Barrel-Aged Beers" for elevated alcohol entries of 8 percent ABV and above, but no standalone entry for a non-sour Wood- and Barrel-Aged Beer of normal strength was found on it. With no published specs, fit cannot be assessed.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Wood- and Barrel-Aged Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Model A Brewing Co. is in Tega Cay, SC.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +245,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Model A: on tap now](https://modelabrewing.com/beer/)
 - [Model A: menu](https://modelabrewing.com/menu/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [modelabrewing.com](https://modelabrewing.com/), [modelabrewing.com](https://modelabrewing.com/beer/), [modelabrewing.com](https://modelabrewing.com/menu/), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/60152/733720/), [fortmillsun.com](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/), web searches recorded in the research notes.
+- Not published: IBU. Checked [modelabrewing.com](https://modelabrewing.com/), [modelabrewing.com](https://modelabrewing.com/beer/), [modelabrewing.com](https://modelabrewing.com/menu/), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/60152/733720/), [fortmillsun.com](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

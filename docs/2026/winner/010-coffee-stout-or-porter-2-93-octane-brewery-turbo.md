@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,12 +25,116 @@ brewery-state: "IL"
 brewery-url: "https://www.93octanebrewery.com/"
 category-name: "Coffee Stout or Porter"
 category-number: 10
+description:
+  text: "When the turbo kicks in, so does the flavor! This coffee porter has all the rich and chocolately characteristics of a traditional porter"
+  source: "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
 entries: 53
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
+      - "https://www.93octanebrewery.com/"
+      - "https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer"
+      - "https://www.beermenus.com/beers/402809-93-octane-turbo"
+      - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 15
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/93-octane-brewery-turbo/3976249"
   - "https://www.93octanebrewery.com/"
@@ -38,7 +142,10 @@ sources:
   - "https://www.beermenus.com/beers/402809-93-octane-turbo"
   - "https://www.beermenus.com/breweries/25728-93-octane-brewery"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Coffee Porter"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +178,45 @@ Turbo is a coffee porter from 93 Octane Brewery of Saint Charles, Illinois, part
 
 Source: [93 Octane: beer menu](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's menu says the porter gets an extra boost of craft brewed Modest Coffee; BeerMenus carries the same description with "craft brewed coffee" and adds that it is "a perfect way to either start or end your day" ([BeerMenus](https://www.beermenus.com/beers/402809-93-octane-turbo)). No hops, malts or yeast are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) Coffee Beer entry directs coffee stouts and porters to the Coffee Stout or Porter category and describes coffee beers as beers that "incorporate coffee in any form." The dedicated Coffee Stout or Porter entry was not in the portion of the guideline page that could be read, so no ranges are compared here.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Coffee Stout or Porter | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+93 Octane Brewery is in Saint Charles, IL. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +226,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [BeerMenus: 93 Octane Turbo](https://www.beermenus.com/beers/402809-93-octane-turbo)
 - [BeerMenus: 93 Octane Brewery](https://www.beermenus.com/breweries/25728-93-octane-brewery)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/93-octane-brewery-turbo/3976249), [93octanebrewery.com](https://www.93octanebrewery.com/), [93octanebrewery.com](https://www.93octanebrewery.com/st-charles-60174-elmhurst-60126-93-octane-brewery-beer), [beermenus.com](https://www.beermenus.com/beers/402809-93-octane-turbo), [beermenus.com](https://www.beermenus.com/breweries/25728-93-octane-brewery), web searches recorded in the research notes.
 
 ## research-notes
 

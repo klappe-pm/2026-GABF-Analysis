@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Buttface Amber Ale"
@@ -25,18 +25,107 @@ brewery-state: "WA"
 brewery-url: "https://www.theram.com/"
 category-name: "American Amber/Red Ale"
 category-number: 96
+description:
+  text: "Smooth and malty, flavors of caramel & toffee with a balanced hop finish."
+  source: "https://www.theram.com/tacoma-menu/"
 entries: 85
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://theram.com/locations/"
+      - "https://www.theram.com/"
+      - "https://www.theram.com/tacoma-menu/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 26
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://theram.com/locations/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.theram.com/"
   - "https://www.theram.com/tacoma-menu/"
+srm: null
 style: "Amber Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +158,46 @@ Buttface Amber Ale is a malty amber ale poured at RAM Restaurant and Brewery, li
 
 Source: [RAM: Tacoma menu and tap list](https://www.theram.com/tacoma-menu/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredients are named; the menu describes only caramel and toffee flavors and a balanced hop finish.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Amber/Red Ale calls for an amber to reddish brown ale with medium-high malt, low to medium caramel character and moderate hops, 4.4 to 6.1 percent ABV and 25 to 45 IBU. The published 5.8% ABV and 26 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2024 | Great American Beer Festival | American Amber/Red Ale | Silver |
+| 2026 | Great American Beer Festival | American Amber/Red Ale | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+RAM Restaurant and Brewery is in Tacoma, WA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -83,6 +205,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [RAM Restaurant and Brewery](https://www.theram.com/)
 - [RAM: locations](https://theram.com/locations/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [theram.com](https://theram.com/locations/), [theram.com](https://www.theram.com/), [theram.com](https://www.theram.com/tacoma-menu/), web searches recorded in the research notes.
 
 ## research-notes
 

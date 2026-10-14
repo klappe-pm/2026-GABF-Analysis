@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,113 @@ brewery-state: "CA"
 brewery-url: "https://www.morganterritorybrewing.com/"
 category-name: "Barley Wine or Wheat Wine"
 category-number: 88
+description:
+  text: "It’s heavily-bodied with medium carbonation intended for sipping."
+  source: "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
 entries: 28
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+      - "https://www.morganterritorybrewing.com/"
+      - "https://www.morganterritorybrewing.com/beer-finder"
+      - "https://www.morganterritorybrewing.com/drinks/"
+      - "https://www.morganterritorybrewing.com/on-tap"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Amarillo"
+    variety: "Amarillo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
+  - published: "Centennial"
+    variety: "Centennial"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
 hops:
   - "Amarillo"
   - "Centennial"
@@ -34,15 +140,21 @@ malts:
   - "Caramel malt"
   - "Maris Otter"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
+  - "https://catalog.beer/beer/65321dcf-783c-48b1-a364-2ee697e2060a"
   - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.morganterritorybrewing.com/"
   - "https://www.morganterritorybrewing.com/beer-finder"
   - "https://www.morganterritorybrewing.com/drinks/"
   - "https://www.morganterritorybrewing.com/on-tap"
+srm: null
 style: "English Barleywine"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -76,13 +188,48 @@ Old Diablo is a strong ale from Morgan Territory Brewing in Tracy, California.
 
 Source: [Morgan Territory: description on Untappd](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [beer description](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) presents the recipe as an American interpretation of English barleywine, using American hops to balance the English malt character. It gives no yeast strain.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Amarillo | Amarillo | not published | not published | not published | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+| Centennial | Centennial | not published | not published | not published | [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) put British-Style Barley Wine Ale at 8.5 to 12.2 percent ABV and 40 to 65 IBU with high residual malt sweetness, American-Style Barley Wine Ale at the same strength with 60 to 100 IBU, and American-Style Wheat Wine Ale at the same strength with 45 to 85 IBU and at least 50 percent wheat malt. The published strength fits the barleywine ranges; bitterness exceeds the British range but fits the American range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Barley Wine or Wheat Wine | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Morgan Territory Brewing is in Tracy, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [Instagram](https://www.instagram.com/morganterritorybrewing/), [Untappd](https://untappd.com/MorganTerritoryBrewing).
 
 ## links
 
@@ -93,6 +240,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Morgan Territory: beer finder](https://www.morganterritorybrewing.com/beer-finder)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/beer-finder), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/drinks/), [morganterritorybrewing.com](https://www.morganterritorybrewing.com/on-tap), web searches recorded in the research notes.
+
 ## research-notes
 
 - Field pass 2026-10-13: The brewery drinks catalog names Old Diablo Barley Wine and qualifies as beer-url because no dedicated page was found. It lists 11.0% ABV, versus the retained Untappd 11.3% already cited; the difference remains unresolved.
@@ -101,3 +252,4 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplied strength, bitterness, named hops and malts. Search results for Slow Burn barrel aged releases were excluded as variants. No dedicated brewery beer page was found.
+- Catalog.beer 2026-10-14: [Catalog.beer: Old Diablo](https://catalog.beer/beer/65321dcf-783c-48b1-a364-2ee697e2060a) lists 10.5% ABV, 65 IBU, style "British-Style Barley Wine Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

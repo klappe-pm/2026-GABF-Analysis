@@ -10,7 +10,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,12 +26,140 @@ brewery-state: "NJ"
 brewery-url: "https://www.departedsoles.com/"
 category-name: "Specialty Gluten-Free Beer"
 category-number: 28
+description:
+  text: "The world's first gluten-free, non-alcoholic pumpkin beer can be found right here in New Jersey. Jersey City-based Departed Soles Brewing Company will launch Nunya: Pumpkin Spiced Latte (ale) at its tasting room on Thursday. A canned version of the pumpkin beer is out next week."
+  source: "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
 entries: 17
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
+      - "https://www.departedsoles.com/"
+      - "https://www.departedsoles.com/gluten-free-beers"
+      - "https://www.departedsoles.com/menu"
+      - "https://www.departedsoles.com/our-beers"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -39,7 +167,10 @@ sources:
   - "https://www.departedsoles.com/gluten-free-beers"
   - "https://www.departedsoles.com/menu"
   - "https://www.departedsoles.com/our-beers"
+srm: null
 style: "Pumpkin beer (ale), non-alcoholic"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +205,45 @@ No brewery description of this beer was found on the brewery's site. Press cover
 
 Source: [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No ingredient list was found; pumpkin, spices and coffee are not entered because no source names them as ingredients. The brewery says its gluten-free beers use certified gluten-free grain and yeast, are fermented in dedicated tanks, and are packaged in 12 oz cans that list every ingredient ([Departed Soles: gluten free beer](https://www.departedsoles.com/gluten-free-beers)), but this beer's can was not found online.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Gluten-Free Beer require every ingredient to be free of gluten and let ABV, IBU and color vary with the underlying style, judging entries on their own merits; the Pumpkin Spice Beer guideline calls for pumpkin or squash as an adjunct with spices such as cinnamon, allspice, clove and nutmeg in balance. Beyond the gluten-free and pumpkin beer description, no published specs allow a closer comparison.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Specialty Gluten-Free Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Departed Soles Brewing Co. is in Jersey City, NJ.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -88,6 +251,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Departed Soles: gluten free beer](https://www.departedsoles.com/gluten-free-beers)
 - [News12 New Jersey: Nunya launch](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

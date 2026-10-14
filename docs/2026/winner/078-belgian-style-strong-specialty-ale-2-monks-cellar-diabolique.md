@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,18 +24,100 @@ brewery-state: "CA"
 brewery-url: "https://www.monkscellar.com/"
 category-name: "Belgian-Style Strong Specialty Ale"
 category-number: 78
+description:
+  text: "Dry hopped with Saaz hops. spice, golden raisin, white pepper, dry finish."
+  source: "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
 entries: 46
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.monkscellar.com/"
+      - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Saaz"
+    variety: "Saaz"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
 hops:
   - "Saaz"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.monkscellar.com/"
   - "https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu"
+srm: null
 style: "Belgian Style Strong Golden Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,19 +150,58 @@ Diabolique is a Saaz dry-hopped Belgian-style strong golden ale from The Monk's 
 
 Source: [Monk's Cellar: drink menu](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Saaz dry hopping is the only ingredient the menu names; the spice, golden raisin and white pepper in the description read as tasting notes, not additions.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Saaz | Saaz | not published | not published | not published | [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) has no style with the competition category's name; its Belgian-Style Strong Blonde Ale calls for 7.1 to 11.2 percent ABV, 20 to 50 IBU and 2 to 7 SRM, with a deceptively high alcohol character and relatively light body. The published 7.7% ABV fits that range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Belgian-Style Strong Specialty Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Monk's Cellar is in Roseville, CA. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu)
 - [The Monk's Cellar](https://www.monkscellar.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [monkscellar.com](https://www.monkscellar.com/), [monkscellar.com](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

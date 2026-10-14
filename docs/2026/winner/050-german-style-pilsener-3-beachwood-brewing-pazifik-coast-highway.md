@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,20 +24,121 @@ brewery-state: "CA"
 brewery-url: "https://www.beachwoodbrewing.com/"
 category-name: "German-Style Pilsener"
 category-number: 50
+description:
+  text: "subtle bitterness, dry biscuit-like finish"
+  source: "https://beachwoodbrewing.com/secondpch.html"
 entries: 161
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://beachwoodbrewing.com/locations.html"
+      - "https://beachwoodbrewing.com/secondpch.html"
+      - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
+      - "https://www.beachwoodbrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Hallertau Mittelfrüh"
+    variety: "Hallertau Mittelfrüh"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
 hops: 
   - "Hallertau Mittelfrüh"
 ibu: 33
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://beachwoodbrewing.com/locations.html"
   - "https://beachwoodbrewing.com/secondpch.html"
   - "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
   - "https://www.beachwoodbrewing.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "German-Style Pilsner"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +171,47 @@ Pazifik Coast Highway is a German-style pilsner from Beachwood Brewing, poured a
 
 Source: [Beachwood: 2nd & PCH tap list](https://beachwoodbrewing.com/secondpch.html)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The [matching Untappd description](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) supplies the hop variety shown in the specs table. No malt varieties or yeast were verified.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Pilsener calls for assertive, crisp hop character, 4.6 to 5.3 percent ABV, 25 to 50 IBU and 3 to 4 SRM. The published 33 IBU fits; the 5.5% ABV is slightly above the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Pilsener | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Beachwood Brewing is in Huntington Beach, CA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +220,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Beachwood Brewing](https://www.beachwoodbrewing.com/)
 - [Beachwood: locations and tap lists](https://beachwoodbrewing.com/locations.html)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/locations.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

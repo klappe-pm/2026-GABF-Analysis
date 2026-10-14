@@ -51,6 +51,9 @@ Where: the label above each dropdown in the panel, and the start of each chip.
 - `style_family`: Style family
 - `category_name`: Category
 - `abv_band`: ABV
+- `hop_variety`: Hop variety
+- `hop_farm_named`: Hop farm named by the brewery
+- `hop_farm_grown`: Hop farm that grows a hop used
 - `region`: Region
 - `state`: State
 - `fed_district_name`: Fed district

@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,132 @@ brewery-state: "NC"
 brewery-url: "https://gilde1546.com/"
 category-name: "Historical Beer"
 category-number: 25
+description:
+  text: "Hazy wheat bier with a full body"
+  source: "https://gilde1546.com/-on-tap"
 entries: 39
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://gilde-brauerei.com/en/history/"
+      - "https://gilde1546.com/"
+      - "https://gilde1546.com/-on-tap"
+      - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
+      - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://gilde-brauerei.com/en/history/"
   - "https://gilde1546.com/"
@@ -37,7 +157,10 @@ sources:
   - "https://untappd.com/b/gilde-usa-broyhan-500/6697067"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend"
+srm: null
 style: "Historic Wheat Ale"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -70,13 +193,45 @@ Broyhan 500 is a beer from Gilde Brewery, the Charlotte, North Carolina brewery 
 
 Source: [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery describes a wheat beer but does not name grain products, hops or yeast. Its banana, cinnamon and clove tasting notes are not ingredient declarations. [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) define Historical Beer as established historical beers or brewing traditions from any era or part of the world that do not fit another defined style, with ABV, IBU and color varying with the underlying style. The stated historical inspiration supports the category context.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Historical Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Gilde Brewery is in Charlotte, NC.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +240,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Gilde Brauerei (Hanover parent): history](https://gilde-brauerei.com/en/history/)
 - [inside.beer: Gilde Charlotte opening](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes.
+- Not published: IBU. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

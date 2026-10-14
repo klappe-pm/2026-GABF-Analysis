@@ -24,18 +24,107 @@ brewery-state: "NM"
 brewery-url: "https://www.quartercelticbrewpub.com/"
 category-name: "Munich-Style Dunkel"
 category-number: 58
+description:
+  text: "Our Munich-style Dunkel is a smooth, easy-drinking German lager with rich notes of toasted bread, caramel, and subtle chocolate. Crisp, balanced, and proudly sporting a 2026 Great American Beer Festival Silver Medal!"
+  source: "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
 entries: 49
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
+      - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
+      - "https://www.quartercelticbrewpub.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 20
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/"
   - "https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.quartercelticbrewpub.com/"
+srm: null
 style: "Munich-Style Dunkel"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +157,45 @@ Step Drunkle is a beer from Quarter Celtic Brewpub, a Celtic themed brewpub in A
 
 Source: [Quarter Celtic: drink menu](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Munich-Style Dunkel calls for light brown to brown color, chocolate, bread or biscuit malt flavor balanced against hop character, 4.8 to 5.3 percent ABV and 16 to 25 IBU. The published 5.86% ABV sits above that range and the 20 IBU within it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Munich-Style Dunkel | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Quarter Celtic Brewpub is in Albuquerque, NM. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +203,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Quarter Celtic: drink menu](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [New Mexico medal coverage](https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2026/10/11/gabf-2026-new-mexico-breweries-bring-home-3-more-medals/), [quartercelticbrewpub.com](https://quartercelticbrewpub.com/albuquerque-quarter-celtic-brewpub-drink-menu), [quartercelticbrewpub.com](https://www.quartercelticbrewpub.com/), web searches recorded in the research notes.
 
 ## research-notes
 
