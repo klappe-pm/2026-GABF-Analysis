@@ -262,3 +262,4 @@ No brewery links have been checked yet.
 - No 2026 GABF announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop and IBU searches found brewery activity naming Black Mesa Dunkel, but no verified bitterness figure or named hop variety.
+- Deep dive pass 2026-10-14: the tap list gives the name and 5.2% ABV only.

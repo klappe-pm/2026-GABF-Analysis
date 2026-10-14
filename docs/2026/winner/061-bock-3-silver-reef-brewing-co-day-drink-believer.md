@@ -35,66 +35,79 @@ gaps:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146"
       - "https://www.cliffsiderestaurant.com/beer-and-wine.htm"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile: []
 hops: []
 ibu: 30
@@ -195,7 +208,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146), [cliffsiderestaurant.com](https://www.cliffsiderestaurant.com/beer-and-wine.htm), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/silver-reef-brewing-co-day-drink-believer/4496146), [cliffsiderestaurant.com](https://www.cliffsiderestaurant.com/beer-and-wine.htm), web searches recorded in the research notes, no brewery website on file.
 
 ## research-notes
 
@@ -205,3 +218,4 @@ No brewery links have been checked yet.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The restaurant menu and exact Untappd listing agree on strength and bitterness. Untappd's classification says Weizenbock but its own description says German pale bock, matching the menu; wheat is not inferred. No brewery product page or named ingredients were verified.
 - Field pass 2026-10-13: Additional brewery-domain and hop searches found no verified brewery beer page or hop variety. A same-named beer from Seek Beer Co. is unrelated and was excluded.
+- Deep dive pass 2026-10-14: no brewery website is on file and the description on file comes from Untappd.
