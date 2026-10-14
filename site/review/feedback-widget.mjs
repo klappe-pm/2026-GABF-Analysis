@@ -10,6 +10,10 @@
 //   pins      the numbered square pins for the spots the panel lists, kept on their elements
 //   markers   a square outline with a small label around the region the journey step concerns,
 //             and around the control a hovered action chip acts on
+//   editing   with the panel open, text that is one line of page copy can be edited in place:
+//             double click it, or focus it and press Enter. Save writes through the server's copy
+//             edit (the same check, write, related instances and ticket as the panel), then the
+//             page reloads on the rebuilt site. Text with no copy entry says why it cannot be edited.
 //
 // Messages cross between the two windows on this origin only.
 
@@ -115,7 +119,7 @@ function boot() {
   document.body.append(layer);
 
   const post = (message) => { try { window.top.postMessage({ source: FROM_PAGE, screen, ...message }, location.origin); } catch { /* the shell is gone */ } };
-  const inLayer = (node) => node && node.closest && node.closest('.gfw-layer');
+  const inLayer = (node) => node && node.closest && node.closest('.gfw-layer, .gfw-editor-host');
 
   let picking = false;
   let pins = [];
@@ -176,6 +180,7 @@ function boot() {
   function schedule(allowScroll = false) {
     clearTimeout(timer);
     timer = setTimeout(() => { placeMarker(allowScroll); drawPins(); }, 90);
+    if (picking) scanSoon();
   }
   window.addEventListener('resize', () => schedule());
   window.addEventListener('load', () => schedule(true));
@@ -193,18 +198,32 @@ function boot() {
     picking = on;
     hover.hidden = true;
     document.documentElement.classList.toggle('gfw-picking', on);
+    if (on) scanSoon(); else { cancelEdit(false); unmark(); tip.hidden = true; }
   }
   // Only a person's click is a pick: the control plane clicks the Filters button and the estimate
   // mark itself to drive a screen into its state, and those clicks must go through.
   const picks = (e) => picking && e.isTrusted && !inLayer(e.target);
-  document.addEventListener('pointermove', (e) => { if (picks(e)) outline(e.target); }, true);
+  document.addEventListener('pointermove', (e) => { if (picks(e) && !editing) { outline(e.target); tipFor(e.target); } }, true);
   document.addEventListener('mousedown', (e) => { if (picks(e)) e.preventDefault(); }, true);
+  // A double click on page copy edits it, so the pin its first click would add waits for the second
+  // click to rule that out. Text that is not page copy pins at once, as before.
+  let pendingPin = null;
   document.addEventListener('click', (e) => {
     if (!picks(e)) return;
     e.preventDefault();
     e.stopPropagation();
     e.stopImmediatePropagation();
-    post({ kind: 'spot', spot: spotFor(e.target, { x: e.pageX, y: e.pageY }) });
+    const target = e.target;
+    if (e.detail >= 2) {
+      clearTimeout(pendingPin);
+      pendingPin = null;
+      if (keyed.has(target)) startEdit(target); else tipFor(target, true);
+      return;
+    }
+    const spot = spotFor(target, { x: e.pageX, y: e.pageY });
+    if (!keyed.has(target)) { post({ kind: 'spot', spot }); return; }
+    clearTimeout(pendingPin);
+    pendingPin = setTimeout(() => { pendingPin = null; post({ kind: 'spot', spot }); }, 260);
   }, true);
   function pickFocused() {
     const node = document.activeElement;
@@ -213,10 +232,200 @@ function boot() {
   }
   document.addEventListener('keydown', (e) => {
     const typing = e.target && /^(input|select|textarea)$/i.test(e.target.tagName);
+    if (editing && e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); cancelEdit(true); return; }
     if (e.key === 'Escape') { post({ kind: 'escape' }); return; }
+    if (picking && !typing && !editing && e.key === 'Enter' && !e.shiftKey && !e.metaKey && !e.ctrlKey && !e.altKey && e.target !== document.body && !inLayer(e.target)) {
+      if (keyed.has(e.target)) { e.preventDefault(); e.stopPropagation(); startEdit(e.target); return; }
+      if (isTextLeaf(e.target)) tipFor(e.target, true);
+    }
     if (picking && e.key === 'Enter' && e.shiftKey) { e.preventDefault(); e.stopPropagation(); pickFocused(); return; }
     if (e.code === 'KeyF' && e.shiftKey && !e.metaKey && !e.ctrlKey && !e.altKey && !typing) { e.preventDefault(); e.stopPropagation(); post({ kind: 'toggle' }); }
   }, true);
+
+  // ---------- editing page copy in place ----------
+  const norm = (t) => String(t ?? '').replace(/\s+/g, ' ').trim();
+  const api = (path, body) => fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }).then(async (r) => {
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) { const err = new Error(j.error || 'The server refused the request.'); err.problems = j.problems; throw err; }
+    return j;
+  });
+  const words = (key) => { const last = String(key).split('.').slice(-2).join(' ').replace(/[-_]+/g, ' '); return last.charAt(0).toUpperCase() + last.slice(1); };
+  const NOT_COPY = 'Not page copy, so it cannot be edited here. It comes from the data or the page layout.';
+  const IS_COPY = 'Page copy. Double click it, or press Enter, to edit it here.';
+  const keyed = new Map();
+  const known = new Map();
+  let editing = null;
+  let scanTimer = null;
+  const tip = el('div', 'gfw-tip');
+  tip.hidden = true;
+  tip.setAttribute('role', 'status');
+  layer.append(tip);
+
+  const SKIP = /^(SCRIPT|STYLE|NOSCRIPT|TITLE|OPTION|CANVAS|INPUT|SELECT|TEXTAREA|SVG)$/i;
+  function isTextLeaf(n) {
+    if (!n || n.nodeType !== 1 || n.children.length || inLayer(n) || SKIP.test(n.tagName) || n.closest('svg')) return false;
+    const t = norm(n.textContent);
+    return t.length >= 2 && t.length <= 240 && n.getClientRects().length > 0;
+  }
+  function leaves() {
+    const out = [];
+    for (const n of document.body.querySelectorAll('*')) if (isTextLeaf(n)) out.push([n, norm(n.textContent)]);
+    return out.slice(0, 1500);
+  }
+  function unmark() {
+    keyed.clear();
+    document.querySelectorAll('.gfw-editable').forEach((n) => { n.classList.remove('gfw-editable'); if (n.hasAttribute('data-gfw-tab')) { n.removeAttribute('data-gfw-tab'); n.removeAttribute('tabindex'); } });
+  }
+  function scanSoon() { clearTimeout(scanTimer); scanTimer = setTimeout(scan, 250); }
+  async function scan() {
+    if (!picking || editing) return;
+    const list = leaves();
+    const need = [...new Set(list.map(([, t]) => t).filter((t) => !known.has(t)))];
+    for (let i = 0; i < need.length; i += 300) {
+      const chunk = need.slice(i, i + 300);
+      try { const res = await api('/review/inline/resolve', { screen, texts: chunk }); for (const t of chunk) known.set(t, res[t] ?? null); } catch { return; }
+    }
+    if (!picking) return;
+    unmark();
+    for (const [n, t] of list) {
+      const info = known.get(t);
+      if (!info) continue;
+      keyed.set(n, info);
+      n.classList.add('gfw-editable');
+      if (!n.matches('a[href], button, [tabindex]')) { n.setAttribute('tabindex', '0'); n.setAttribute('data-gfw-tab', '1'); }
+    }
+  }
+  function tipFor(node, force) {
+    if (!picking || editing || !node || node.nodeType !== 1 || inLayer(node)) { tip.hidden = true; return; }
+    const isCopy = keyed.has(node);
+    if (!isCopy && !(isTextLeaf(node) && known.has(norm(node.textContent)))) { tip.hidden = true; return; }
+    tip.textContent = isCopy ? IS_COPY : NOT_COPY;
+    tip.classList.toggle('no', !isCopy);
+    const r = node.getBoundingClientRect();
+    tip.style.left = `${Math.max(4, r.left + scrollX)}px`;
+    tip.style.top = `${r.top + scrollY}px`;
+    tip.classList.toggle('below', r.top < 40);
+    tip.hidden = false;
+    if (force) { clearTimeout(tip._t); tip._t = setTimeout(() => { tip.hidden = true; }, 3500); }
+  }
+  document.addEventListener('focusin', (e) => { if (picking && !editing && !inLayer(e.target)) tipFor(e.target); }, true);
+  document.addEventListener('focusout', () => { if (!editing) tip.hidden = true; }, true);
+
+  function cancelEdit(refocus) {
+    if (!editing) return;
+    const { node, host } = editing;
+    clearTimeout(editing.check);
+    host.remove();
+    node.classList.remove('gfw-editing');
+    editing = null;
+    if (refocus) { try { node.focus({ preventScroll: true }); } catch { /* not focusable */ } }
+  }
+
+  async function startEdit(node) {
+    const info = keyed.get(node);
+    if (!info) return;
+    cancelEdit(false);
+    hover.hidden = true;
+    tip.hidden = true;
+    const spot = spotFor(node, null);
+    const r = node.getBoundingClientRect();
+    const cs = getComputedStyle(node);
+    const host = el('div', 'gfw-editor-host');
+    host.setAttribute('role', 'group');
+    host.setAttribute('aria-label', 'Edit this text');
+    const left = Math.max(4, r.left + scrollX);
+    const width = Math.min(Math.max(r.width + 16, 240), document.documentElement.clientWidth - left - 12);
+    Object.assign(host.style, { left: `${left}px`, top: `${r.top + scrollY - 3}px`, width: `${Math.max(width, 160)}px` });
+    // Near the bottom edge the controls would fall out of view, so the field sits at the bottom of
+    // the editor and Save, Cancel and the notes stack above it.
+    const place = () => {
+      const below = r.bottom + 190 > innerHeight && r.top > 190;
+      host.classList.toggle('above', below);
+      host.style.top = `${below ? r.bottom + scrollY + 3 - host.offsetHeight : r.top + scrollY - 3}px`;
+    };
+    const input = el('input', 'gfw-editor-input');
+    input.type = 'text';
+    input.value = info.value;
+    input.setAttribute('aria-label', 'New text');
+    Object.assign(input.style, { height: `${Math.max(r.height + 6, 34)}px`, font: cs.font, letterSpacing: cs.letterSpacing });
+    const message = el('p', 'gfw-editor-msg');
+    message.setAttribute('role', 'alert');
+    const related = el('div', 'gfw-editor-related');
+    const bar = el('div', 'gfw-editor-bar');
+    const saveBtn = el('button', 'gfw-editor-save', 'Save');
+    saveBtn.type = 'button';
+    const cancelBtn = el('button', 'gfw-editor-cancel', 'Cancel');
+    cancelBtn.type = 'button';
+    bar.append(saveBtn, cancelBtn);
+    host.append(input, bar, message, related);
+    document.body.append(host);
+    node.classList.add('gfw-editing');
+    place();
+    const state = { node, host, info, spot, input, take: {}, busy: false, check: null, problems: [] };
+    editing = state;
+    input.focus();
+    input.select();
+
+    const say = (text, bad) => { message.textContent = text; message.classList.toggle('bad', Boolean(bad)); place(); };
+    const changed = () => input.value !== info.value;
+    if (/\{\{/.test(info.value)) say('Words in double braces are filled in by the page.');
+    api('/review/content', { key: info.key }).then((p) => {
+      if (editing !== state || !p.instances || !p.instances.length) return;
+      related.append(el('p', 'gfw-editor-where', `The same words also appear in ${p.instances.length} other place${p.instances.length === 1 ? '' : 's'}. Checked ones change too.`));
+      const ul = el('ul', 'gfw-editor-list');
+      for (const i of p.instances) {
+        state.take[i.id] = true;
+        const cb = el('input');
+        cb.type = 'checkbox';
+        cb.checked = true;
+        cb.addEventListener('change', () => { state.take[i.id] = cb.checked; });
+        const label = el('label', 'gfw-editor-check');
+        label.append(cb, document.createTextNode(i.kind === 'copy' ? `Copy entry: ${words(i.key)}` : `Page code: ${i.file.split('/').slice(-1)[0]}, line ${i.line}`));
+        const li = el('li');
+        li.append(label);
+        ul.append(li);
+      }
+      related.append(ul);
+      place();
+    }).catch(() => {});
+
+    input.addEventListener('input', () => {
+      clearTimeout(state.check);
+      state.check = setTimeout(() => {
+        if (editing !== state || !changed()) { state.problems = []; say(''); saveBtn.disabled = false; return; }
+        api('/review/content', { key: info.key, newValue: input.value }).then((p) => {
+          if (editing !== state) return;
+          state.problems = p.problems || [];
+          say(state.problems[0] || '', Boolean(state.problems.length));
+          saveBtn.disabled = Boolean(state.problems.length);
+        }).catch(() => {});
+      }, 250);
+    });
+    async function save() {
+      if (editing !== state || state.busy) return;
+      if (!changed()) { say('Nothing changed.'); return; }
+      state.busy = true;
+      saveBtn.disabled = true;
+      say('Saving and rebuilding the page.');
+      try {
+        const r2 = await api('/review/inline/save', {
+          screen, key: info.key, newValue: input.value, take: Object.keys(state.take).filter((k) => state.take[k]), spot,
+          device: innerWidth < 600 ? 'phone' : innerWidth < 1024 ? 'tablet' : 'desktop',
+          viewport: { width: innerWidth, height: innerHeight }, build,
+        });
+        post({ kind: 'inline-saved', id: r2.id, rebuilt: r2.rebuilt });
+        if (r2.rebuilt) { say(`Saved as ${r2.id}. Reloading the page.`); setTimeout(() => location.reload(), 150); }
+        else say(`Saved as ${r2.id}, but the page could not be rebuilt. Rebuild the review site to see it.`, true);
+      } catch (err) {
+        state.busy = false;
+        saveBtn.disabled = false;
+        say((err.problems && err.problems[0]) || err.message, true);
+      }
+    }
+    saveBtn.addEventListener('click', save);
+    cancelBtn.addEventListener('click', () => cancelEdit(true));
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); e.stopPropagation(); save(); } });
+  }
 
   // ---------- the control plane talks to the page ----------
   window.addEventListener('message', (e) => {
