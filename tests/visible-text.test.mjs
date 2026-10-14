@@ -99,8 +99,10 @@ test('no developer instructions or file paths show on any page', () => {
   const hits = [];
   for (const f of allPages()) {
     const text = readerText(readFileSync(f, 'utf8'));
+    // "seed crops" in a farm's published notes is farming, not a seed row.
+    const scanned = f.includes('/hop-farms/') ? text.replace(/seed crops/gi, ' ') : text;
     for (const re of DEVELOPER_COPY) {
-      const m = text.match(new RegExp(`.{0,40}${re.source}.{0,40}`, re.flags));
+      const m = scanned.match(new RegExp(`.{0,40}${re.source}.{0,40}`, re.flags));
       if (m) hits.push(`${f.slice(DIST.length + 1)}: ${m[0].replace(/\s+/g, ' ').trim()}`);
     }
   }

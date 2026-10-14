@@ -60,6 +60,7 @@ export function loadHopReference({ referenceDir, docsDir } = {}) {
     farms: ref('hop-farms.csv'),
     farmVarieties: ref('hop-farm-varieties.csv'),
     merchants: ref('hop-merchants.csv'),
+    gaps: ref('hop-farm-gaps.csv'),
     varietyDocs: readDocs(resolve(docsDir, 'hops', 'varieties')),
     farmDocs: readDocs(resolve(docsDir, 'hops', 'farms')),
   };
@@ -138,7 +139,7 @@ export function detailFields(fm) {
 const byName = (a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
 
 export function buildHopModel({ profiles = [], rows = [], reference = {}, breweries = [] } = {}) {
-  const ref = { varieties: [], acreage: [], farms: [], farmVarieties: [], merchants: [], varietyDocs: [], farmDocs: [], ...reference };
+  const ref = { varieties: [], acreage: [], farms: [], farmVarieties: [], merchants: [], gaps: [], varietyDocs: [], farmDocs: [], ...reference };
   const varietyByKey = new Map();
   const varieties = [];
   const farmByKey = new Map();
@@ -191,15 +192,18 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
   };
 
   // ----- farms -----
-  const FARM_KNOWN = new Set(['farm', 'farm_name', 'name', 'state', 'aliases', 'alias']);
+  const FARM_KNOWN = new Set(['slug', 'farm', 'farm_name', 'name', 'state', 'aliases', 'alias']);
+  // A source cell may hold several links or labels separated by semicolons.
+  const sourceList = (label, value) => splitList(value).map((x) => ({ label, source: sourceOf(x) })).filter((x) => x.source);
   for (const rec of ref.farms) {
     const name = clean(pick(rec, 'farm', 'farm_name', 'name'));
     if (!name || farmByKey.has(foldName(name))) continue;
     const f = { name, slug: '', state: pick(rec, 'state', 'state_code'), aliases: splitList(pick(rec, 'aliases', 'alias')), fields: [], sources: [], varieties: new Map(), named: new Map(), grown: new Map(), merchants: [], doc: null };
-    f.slug = uniqueSlug(hopSlug(name), f.state);
+    f.slug = uniqueSlug(hopSlug(rec.slug) || hopSlug(name), f.state);
+    if (rec.slug) farmByKey.set(foldName(rec.slug), f);
     for (const [k, val] of Object.entries(rec)) {
       if (!val || FARM_KNOWN.has(k)) continue;
-      if (/(^|_)sources?(_|$)/.test(k)) f.sources.push({ label: k.replace(/_/g, ' '), source: sourceOf(val) });
+      if (/(^|_)sources?(_|$)/.test(k)) f.sources.push(...sourceList(k.replace(/_/g, ' '), val));
       else f.fields.push({ key: k, value: val });
     }
     farmByKey.set(foldName(name), f);
@@ -216,7 +220,9 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
     if (!f || !published) { unmatchedFarmRows.push(rec); continue; }
     const v = resolveVariety(published);
     if (!v) continue;
-    const entry = f.varieties.get(v.slug) ?? { variety: v, published: new Set(), years: new Set(), sources: [] };
+    const entry = f.varieties.get(v.slug) ?? { variety: v, published: new Set(), years: new Set(), sources: [], notes: new Set(), verified: new Set() };
+    if (pick(rec, 'notes')) entry.notes.add(pick(rec, 'notes'));
+    if (pick(rec, 'verified')) entry.verified.add(pick(rec, 'verified'));
     entry.published.add(published);
     const year = pick(rec, 'year');
     if (year) entry.years.add(year);
@@ -291,8 +297,8 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
   }
   if (ref.merchants.length) {
     for (const m of ref.merchants) {
-      const f = farmFor(pick(m, 'farm', 'farm_name'));
-      if (f) f.merchants.push(m);
+      const linked = new Set([farmFor(pick(m, 'farm', 'farm_name')), ...splitList(m.farms_sourced).map(farmFor)].filter(Boolean));
+      for (const f of linked) f.merchants.push(m);
     }
   }
 
@@ -331,6 +337,7 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
     unmatchedFarmRows,
     acreage: ref.acreage.length,
     merchants: ref.merchants,
+    gaps: ref.gaps,
     fieldRows,
   };
 }

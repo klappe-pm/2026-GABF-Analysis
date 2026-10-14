@@ -32,6 +32,13 @@ Where: the hop merchants table under the states.
 
 - `title`: Hop merchants
 
+## `gaps`
+
+Where: the table under the merchants that states what the research could not find.
+
+- `title`: What is not known
+- `note`: Each row names a question the sources checked could not answer, so a missing farm or variety is a gap and not a no.
+
 ## `states`
 
 Where: in place of the tables when no hop farm is on record.

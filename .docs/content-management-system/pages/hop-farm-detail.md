@@ -33,6 +33,8 @@ Where: the varieties section.
 - `years`: Years
 - `medal_beers`: Medal beers in {{year}}
 - `source`: Source
+- `verified`: Verified
+- `notes`: Notes
 - `missing`: No variety has been published for this farm yet.
 
 ## `named`

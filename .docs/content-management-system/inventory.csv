@@ -16,6 +16,7 @@ every page,footer,Results from the Brewers Association's official Great American
 every page,footer,Charts by Apache ECharts.,pages.about.attribution.charts
 every page,footer,Estimates are marked (E).,global.site.footer.estimates
 every page,footer link,Source and data,global.site.footer.source_link
+explorer and chart gallery,footer,"Some beer details are from Catalog.beer, licensed CC BY 4.0 and adapted.",global.site.footer.beer_details
 every page (global filter),header button,Filters,global.filters.trigger.label
 every page (global filter),header button,Filters · {{count}},global.filters.trigger.label_with_count
 every page (global filter),header button aria label,"Filters, {{count}} active",global.filters.trigger.accessible_label_with_count

@@ -10,7 +10,7 @@ import { esc, gsbColumn, humanize, statTile, tableHtml } from '../../site/assets
 import { hopSlug } from '../../site/assets/hop-links.mjs';
 import { valueLabel } from '../../site/assets/filter-bar.mjs';
 import { medalDot } from '../../site/assets/page-views.mjs';
-import { byMedalThenBeer } from './hops.mjs';
+import { byMedalThenBeer, sourceOf } from './hops.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const wrap = (html) => `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${html}</div>`;
@@ -41,6 +41,13 @@ export function createHopPages({ model, ds, layout, write, COPY, renderMarkdownB
     { key: 'brewery', label: COPY('pages.hop-detail.beers.brewery'), render: (x) => breweryLink(x.beer, r) },
     { key: 'category', label: COPY('pages.hop-detail.beers.category'), render: (x) => categoryLink(x.beer, r) },
   ];
+  // Merchant and gap tables: readable columns only, never the slug lists that join the files.
+  const MERCHANT_COLS = ['name', 'type', 'location', 'ownership', 'processing', 'proprietary_varieties', 'notes', 'source_url', 'verified'];
+  // A pointer to a data file means nothing to a reader of the page.
+  const readable = (v) => String(v ?? '').replace(/\s*See [\w-]+\.csv\.?/g, '').trim();
+  const cellFor = (k, raw) => { const v = readable(raw); return cell(k, v); };
+  const cell = (k, v) => (!v ? none : /^source/.test(k) || /^https?:/.test(v) ? v.split(/;\s*/).filter(Boolean).map((x) => sourceHtml(sourceOf(x))).join('<br>') : esc(v));
+  const merchantTable = (list) => wrap(tableHtml(MERCHANT_COLS.filter((k) => list.some((m) => m[k])).map((k) => ({ key: k, label: label(k), render: (m) => cellFor(k, m[k]) })), list));
   const uniq = (list) => [...new Set(list.filter(Boolean))];
   const joinWords = (list) => { const u = uniq(list); return u.length ? esc(u.map(word).join(', ')) : none; };
   const docHtml = (doc, titleKey) => {
@@ -157,12 +164,14 @@ ${docHtml(v.doc, 'pages.hop-detail.doc.title')}`;
       { key: 'grown', label: COPY('pages.hop-farms.table.grown'), numeric: true, render: (f) => String(f.counts.grown) },
       { key: 'named', label: COPY('pages.hop-farms.table.named'), numeric: true, render: (f) => String(f.counts.named) },
     ], list))}`).join('');
-    const merchants = model.merchants.length ? `<h2>${esc(COPY('pages.hop-farms.merchants.title'))}</h2>${wrap(tableHtml(Object.keys(model.merchants[0]).map((k) => ({ key: k, label: label(k), render: (m) => text(m[k]) })), model.merchants))}` : '';
+    const merchants = model.merchants.length ? `<h2>${esc(COPY('pages.hop-farms.merchants.title'))}</h2>${merchantTable(model.merchants)}` : '';
+    const gaps = model.gaps.length ? `<h2>${esc(COPY('pages.hop-farms.gaps.title'))}</h2><p class="small muted">${esc(COPY('pages.hop-farms.gaps.note'))}</p>${wrap(tableHtml(['topic', 'kind', 'finding', 'sources_checked'].map((k) => ({ key: k, label: label(k), render: (g) => cellFor(k, g[k]) })), model.gaps))}` : '';
     const body = `<h1>${esc(COPY('pages.hop-farms.page.title'))}</h1>
 <p class="lede">${esc(COPY('pages.hop-farms.page.lede'))}</p>
 <p class="link-row"><a class="btn-link" href="${r}hops/">${esc(COPY('pages.hop-farms.links.hops'))}</a></p>
 ${model.farms.length ? sections : `<p class="muted">${esc(COPY('pages.hop-farms.states.empty'))}</p>`}
-${merchants}`;
+${merchants}
+${gaps}`;
     write('hop-farms/index.html', layout({ title: COPY('pages.hop-farms.page.title'), description: COPY('pages.hop-farms.page.description'), body, depth: 1, active: nav.farms }));
   }
 
@@ -183,6 +192,8 @@ ${merchants}`;
       { key: 'years', label: COPY('pages.hop-farm-detail.varieties.years'), render: (x) => (x.years.size ? esc([...x.years].sort().join(', ')) : none) },
       { key: 'medals', label: COPY('pages.hop-farm-detail.varieties.medal_beers', { year }), numeric: true, render: (x) => String(x.variety.counts.medals) },
       { key: 'source', label: COPY('pages.hop-farm-detail.varieties.source'), render: (x) => sourcesHtml(x.sources) },
+      { key: 'verified', label: COPY('pages.hop-farm-detail.varieties.verified'), render: (x) => (x.verified.size ? esc([...x.verified].join(', ')) : none) },
+      { key: 'notes', label: COPY('pages.hop-farm-detail.varieties.notes'), render: (x) => (x.notes.size ? esc([...x.notes].join(' ')) : none) },
     ], vRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.varieties.missing'))}</p>`}`;
     const namedRows = [...f.named.values()].sort((a, b) => byMedalThenBeer(a.beer, b.beer));
     const named = `<h2>${esc(COPY('pages.hop-farm-detail.named.title', { year }))}</h2><p class="small muted"><strong>${esc(COPY('pages.hop-farm-detail.named.label'))}</strong> ${esc(COPY('pages.hop-farm-detail.named.note'))}</p>${namedRows.length ? wrap(tableHtml([
@@ -196,7 +207,7 @@ ${merchants}`;
       ...beerCols(r),
       { key: 'hops', label: COPY('pages.hop-farm-detail.grown.hops'), render: (x) => [...x.varieties.values()].map((v) => varietyLink(v, r)).join(', ') },
     ], grownRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.grown.missing', { year }))}</p>`}`;
-    const merchants = f.merchants.length ? `<h2>${esc(COPY('pages.hop-farm-detail.merchants.title'))}</h2>${wrap(tableHtml(Object.keys(f.merchants[0]).map((k) => ({ key: k, label: label(k), render: (m) => text(m[k]) })), f.merchants))}` : '';
+    const merchants = f.merchants.length ? `<h2>${esc(COPY('pages.hop-farm-detail.merchants.title'))}</h2>${merchantTable(f.merchants)}` : '';
     const body = `<p class="small"><a href="../">${esc(COPY('pages.hop-farm-detail.links.back'))}</a> · <a href="${r}hops/">${esc(COPY('pages.hop-farm-detail.links.hops'))}</a></p>
 <h1>${esc(f.name)}</h1>
 <p class="lede">${f.state ? `<span class="pill">${esc(stateName(f.state))}</span>` : ''}<span class="pill">${esc(COPY('pages.hop-farm-detail.pills.varieties', { count: f.counts.varieties }))}</span></p>
