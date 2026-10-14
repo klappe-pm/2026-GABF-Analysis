@@ -436,7 +436,7 @@
 
   root.insertAdjacentHTML('beforeend', `<section class="other" id="other"><h2>Other dashboard charts</h2><p class="rule">These charts follow the same patterns as the options above and are not drawn in this round. Pick a pattern and the same treatment carries over.</p><div class="table-wrap" tabindex="0" role="region" aria-label="Alternatives for the remaining charts"><table><thead><tr><th scope="col">Chart now</th><th scope="col">Option A</th><th scope="col">Option B</th><th scope="col">Option C</th></tr></thead><tbody>${OTHER.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`);
   chips.insertAdjacentHTML('beforeend', '<a href="#other">Other charts</a>');
-  document.getElementById('foot').innerHTML = `<p>Every figure is computed from the official winners lists on file (${D.totals.medals.toLocaleString('en-US')} medals). Complete years: ${D.totals.completeYears.join(', ')}. Partial years: ${D.totals.partialYears.join(' and ')}.</p><p>Gold, silver and bronze are used only for medals. Other colors carry no medal meaning. Every chart has a table with the same values.</p>`;
+  document.getElementById('foot').innerHTML = `<p>Every figure is computed from the official winners lists on file (${D.totals.medals.toLocaleString('en-US')} medals). Complete years: ${D.totals.completeYears.join(', ')}. Partial years: ${D.totals.partialYears.join(' and ')}.</p><p>Gold, silver and bronze are used only for medals. Other colors carry no medal meaning. Every chart has a table with the same values.</p><p>${D.beerDetailsHtml}</p>`;
 
   drawers.forEach(({ o, el }) => {
     const box = el.querySelector('.chart');

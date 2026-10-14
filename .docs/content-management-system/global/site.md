@@ -26,6 +26,7 @@ Where: footer, on every page.
 - `estimates`: Figures marked (E) are estimates. See Method.
 - `source_link`: Source and data
 - `independence`: Independent and unofficial. Not affiliated with or endorsed by the Brewers Association.
+- `beer_details`: Some beer details are from Catalog.beer, licensed CC BY 4.0 and adapted.
 
 ## `single_file_footer`
 
