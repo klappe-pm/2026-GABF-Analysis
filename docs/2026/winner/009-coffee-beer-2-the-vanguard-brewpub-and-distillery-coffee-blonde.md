@@ -32,13 +32,6 @@ description:
 entries: 40
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
-      - "https://www.thevanguard757.com/"
-      - "https://www.thevanguard757.com/caiseal-tap-list"
-      - "https://www.thevanguard757.com/drinks"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -46,6 +39,7 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
@@ -116,13 +110,6 @@ gaps:
       - "https://www.thevanguard757.com/caiseal-tap-list"
       - "https://www.thevanguard757.com/drinks"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
-      - "https://www.thevanguard757.com/"
-      - "https://www.thevanguard757.com/caiseal-tap-list"
-      - "https://www.thevanguard757.com/drinks"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -130,7 +117,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Fifteen pounds of local Rogue Elephant coffee in each batch"
+  source: "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
 sources:
   - "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -139,7 +128,9 @@ sources:
   - "https://www.thevanguard757.com/drinks"
 srm: null
 style: "Blonde Ale"
-tasting-notes: null
+tasting-notes:
+  text: "gives this blonde ale a surprising roasted coffee character"
+  source: "https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale"
 water: null
 yeast: []
 ---
@@ -177,7 +168,9 @@ Source: [BeerMenus: Caiseal Coffee Blonde Ale](https://www.beermenus.com/beers/5
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> gives this blonde ale a surprising roasted coffee character
+
+Source: [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale)
 
 ## ingredients
 
@@ -195,7 +188,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Fifteen pounds of local Rogue Elephant coffee in each batch | [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale) |
 
 ## style-context
 
@@ -225,8 +218,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
 - Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -236,3 +229,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's drinks menu names Coffee Blonde Ale and is used as beer-url because no dedicated page was found. It names no IBU or hops. Its 5.3% ABV differs from the existing BeerMenus 5.5%; the existing value is retained.
+- Deep dive pass 2026-10-14: the brewery description carried by BeerMenus gives the coffee dose per batch and its roasted coffee character; no hops, malts or yeast are named.

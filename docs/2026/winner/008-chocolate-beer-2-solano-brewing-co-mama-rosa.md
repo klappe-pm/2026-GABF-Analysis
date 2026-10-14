@@ -35,6 +35,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "tasting-notes"
     sources-checked:
       - "https://solanobrew.com/"
@@ -42,6 +43,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "abv"
     sources-checked:
       - "https://solanobrew.com/"
@@ -49,6 +51,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "srm"
     sources-checked:
       - "https://solanobrew.com/"
@@ -56,6 +59,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "og"
     sources-checked:
       - "https://solanobrew.com/"
@@ -63,6 +67,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "fg"
     sources-checked:
       - "https://solanobrew.com/"
@@ -70,6 +75,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "hops"
     sources-checked:
       - "https://solanobrew.com/"
@@ -77,6 +83,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "hop-form"
     sources-checked:
       - "https://solanobrew.com/"
@@ -84,6 +91,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "hop-use"
     sources-checked:
       - "https://solanobrew.com/"
@@ -91,6 +99,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://solanobrew.com/"
@@ -98,6 +107,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "malts"
     sources-checked:
       - "https://solanobrew.com/"
@@ -105,6 +115,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "yeast"
     sources-checked:
       - "https://solanobrew.com/"
@@ -112,6 +123,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "adjuncts"
     sources-checked:
       - "https://solanobrew.com/"
@@ -119,6 +131,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "water"
     sources-checked:
       - "https://solanobrew.com/"
@@ -126,6 +139,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
   - field: "process"
     sources-checked:
       - "https://solanobrew.com/"
@@ -133,6 +147,7 @@ gaps:
       - "https://untappd.com/b/solano-brewing-company-mama-rosa/5670205"
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
+      - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
 hop-profile: []
 hops: []
 ibu: 24
@@ -232,8 +247,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes.
-- Not published: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)).
+- Not published: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -242,3 +257,4 @@ No brewery links have been checked yet.
 - Untappd and web searches found no listing; the only other Mama Rosa results were an unrelated Texas rosé wine.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Solano listing publishes 24 IBU and no named hop varieties. Its ABV header says 10%, while its brewer description says 10.5%; ABV remains null because the same page conflicts.
+- Deep dive pass 2026-10-14: the brewery beer page renders no readable beer text.

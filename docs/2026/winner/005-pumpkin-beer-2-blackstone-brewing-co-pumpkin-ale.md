@@ -27,75 +27,78 @@ brewery-state: "TN"
 brewery-url: "https://www.blackstonebrewery.com/"
 category-name: "Pumpkin Beer"
 category-number: 5
-description: null
+description:
+  text: "The beer features a mild pumpkin flavor infused with ginger, cinnamon and nutmeg, the company says."
+  source: "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
 entries: 69
 fg: null
 gaps:
-  - field: "description"
-    sources-checked:
-      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
-      - "https://blackstonebeer.com/our-beer"
-      - "web searches recorded in the research notes"
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
-      - "https://blackstonebeer.com/our-beer"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "og"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "fg"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "hops"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "hop-form"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "hop-use"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "lot-or-farm"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "malts"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "yeast"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "water"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
   - field: "process"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
 hop-profile: []
 hops: []
 ibu: 13
@@ -110,7 +113,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Pumpkin Ale"
-tasting-notes: null
+tasting-notes:
+  text: "a mild pumpkin flavor infused with ginger, cinnamon and nutmeg"
+  source: "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
 water: null
 yeast: []
 ---
@@ -146,7 +151,9 @@ Source: [Beverage Industry: Blackstone Pumpkin Ale](https://bevindustry.com/arti
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> a mild pumpkin flavor infused with ginger, cinnamon and nutmeg
+
+Source: [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale)
 
 ## ingredients
 
@@ -194,7 +201,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes, [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale).
 
 ## research-notes
 
@@ -203,3 +210,4 @@ No brewery links have been checked yet.
 - Conflict: a BeerAdvocate brewery list, seen only as a search snippet and not opened, shows a Pumpkin Ale at 5.4%; the 5.1% figure from the page actually read is used.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A working brewery domain was found through Memphis Beer Blog. Its Our Beer page names Pumpkin Ale in its award list, so the beer list is used as beer-url because no dedicated page was found. Neither page names hop varieties.
+- Deep dive pass 2026-10-14: Beverage Industry's 2014 release item carries the company's description (mild pumpkin flavor with ginger, cinnamon and nutmeg) at 5.1% ABV and 13 IBU; no hop, malt or yeast is named.

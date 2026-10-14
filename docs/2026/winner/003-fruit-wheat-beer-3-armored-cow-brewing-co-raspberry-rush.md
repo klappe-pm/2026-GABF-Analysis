@@ -31,18 +31,13 @@ description:
 entries: 64
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
-      - "https://www.armoredcowbrewing.com/"
-      - "https://www.armoredcowbrewing.com/on-tap"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -124,7 +119,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Wheat ale on a German hefeweizen base with raspberry"
-tasting-notes: null
+tasting-notes:
+  text: "A refreshing wheat ale with juicy raspberry puree added to our traditional German Hefe base."
+  source: "https://www.armoredcowbrewing.com/on-tap"
 water: null
 yeast: []
 ---
@@ -160,7 +157,9 @@ Source: [Armored Cow: on tap](https://www.armoredcowbrewing.com/on-tap)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A refreshing wheat ale with juicy raspberry puree added to our traditional German Hefe base.
+
+Source: [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap)
 
 ## ingredients
 
@@ -207,8 +206,8 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -217,3 +216,4 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 - Armored Cow brews a gluten free line, but Raspberry Rush is not in it and carries no GF label.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A hop focused search surfaced local award coverage but no named hops or IBU; that local page could not be opened. Previously recorded Untappd N/A IBU remains unresolved.
+- Deep dive pass 2026-10-14: the tap list text, the brewery's only description, is also its tasting language; it names a German hefeweizen base but no yeast strain, hop or malt.

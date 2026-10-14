@@ -33,21 +33,12 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
@@ -83,11 +74,6 @@ gaps:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/products/saison-automne-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -96,14 +82,20 @@ malts:
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "A blend of the brewery's Farmhouse Saison, brewed with malt and wheat grown on the FP Farm, re-fermented with a mixed culture of Brettanomyces and Lactobacillus; a tea of white and black sage from Santa Barbara Botanic Garden added during secondary fermentation; bottle conditioned with Cuyama Valley wildflower honey"
+  source: "https://thirdwindowbrewing.com/products/saison-automne-2026"
 sources:
   - "https://thirdwindowbrewing.com/products/saison-automne-2026"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.thirdwindowbrewing.com/"
-srm: null
+srm:
+  value: "Golden orange (no SRM number published)"
+  source: "https://thirdwindowbrewing.com/products/saison-automne-2026"
 style: "Seasonal Farmhouse Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Golden orange in color with a white lacey head. Aromas of herbal notes, wildflower nectar, fresh pine, and black pepper. Flavors of honey grain, wildflowers, and summer fruit blossoms. Light-bodied and effervescent with a dry finish."
+  source: "https://thirdwindowbrewing.com/products/saison-automne-2026"
 water: null
 yeast:
   - "Brettanomyces"
@@ -141,7 +133,9 @@ Source: [Third Window Brewing](https://www.thirdwindowbrewing.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Golden orange in color with a white lacey head. Aromas of herbal notes, wildflower nectar, fresh pine, and black pepper. Flavors of honey grain, wildflowers, and summer fruit blossoms. Light-bodied and effervescent with a dry finish.
+
+Source: [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026)
 
 ## ingredients
 
@@ -155,11 +149,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Golden orange (no SRM number published) | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | A blend of the brewery's Farmhouse Saison, brewed with malt and wheat grown on the FP Farm, re-fermented with a mixed culture of Brettanomyces and Lactobacillus; a tea of white and black sage from Santa Barbara Botanic Garden added during secondary fermentation; bottle conditioned with Cuyama Valley wildflower honey | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026) |
 
 ## style-context
 
@@ -187,8 +181,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -196,3 +190,4 @@ No brewery links have been checked yet.
 - IBU, hop varieties and the base saison yeast are not published.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The Carpinteria tap list names Saison Automne but publishes neither IBU nor hops for it. The Motueka and Hallertau Mittelfrüh listing belongs to Petite Saison and was excluded.
+- Deep dive pass 2026-10-14: the brewery page publishes sensory notes and the full process (FP Farm malt and wheat, mixed culture refermentation, sage tea in secondary, honey bottle conditioning); it names no hops and no IBU.

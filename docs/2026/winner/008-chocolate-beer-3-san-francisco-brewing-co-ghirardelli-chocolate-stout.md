@@ -229,3 +229,4 @@ No brewery links have been checked yet.
 - IBU, hops and yeast are not published.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The plain Chocolate Stout listing has N/A IBU and no hops. Its 5% ABV differs from the existing brewery Imperial Stout value of 9.5%, which is retained. Chocolate-Coffee variants advertise 50 IBU in search results and were excluded.
+- Deep dive pass 2026-10-14: both drink menus were read again; they give the malt bill and cacao nibs but no tasting notes, hops or yeast.
