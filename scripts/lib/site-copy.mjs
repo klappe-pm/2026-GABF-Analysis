@@ -16,13 +16,17 @@ import { ROOT } from './paths.mjs';
 export function createSiteCopy(entries, where = CMS_DIR) {
   const values = new Map();
   for (const e of entries) values.set(e.key, e.value);
+  // The keys the build has read, so the review tools can tell which entry draws a given word.
+  const used = new Set();
   const copy = (key, tokens = {}) => {
+    used.add(key);
     if (!values.has(key)) throw new Error(`The site build needs the copy entry ${key}, but ${where} does not have it. Add it to the copy document, or run: git checkout -- ${CMS_DIR}`);
     return values.get(key).replace(/\{\{([^}]+)\}\}/g, (_, name) => {
       if (!Object.hasOwn(tokens, name.trim())) throw new Error(`The copy entry ${key} has the placeholder {{${name}}} and the build gave it no value.`);
       return String(tokens[name.trim()]);
     });
   };
+  copy.used = used;
   copy.has = (key) => values.has(key);
   copy.size = values.size;
   return copy;

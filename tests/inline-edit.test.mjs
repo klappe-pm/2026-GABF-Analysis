@@ -59,6 +59,42 @@ test('the page asks which of its texts are page copy: whole values only, the rev
   } finally { s.close(); }
 });
 
+test('an inline edit lands on the key the build reads, whether or not the other entries with the same words are checked', async () => {
+  const s = await boot();
+  try {
+    mkdirSync(join(s.root, 'dist-review'), { recursive: true });
+    writeFileSync(join(s.root, 'dist-review/review-copy-keys.json'), JSON.stringify(['global.filters.panel.title']));
+    const r = (await s.call('POST', '/review/inline/resolve', { screen: 'S-46', texts: ['Filter medals'] })).body;
+    assert.equal(r['Filter medals'].key, 'global.filters.panel.title', 'the build read key outranks the reviewed page entry and the text match order');
+    assert.equal(r['Filter medals'].others, 1);
+    const saved = await s.call('POST', '/review/inline/save', { screen: 'S-46', key: r['Filter medals'].key, newValue: 'Narrow the medals', take: [], spot: SPOT });
+    assert.equal(saved.status, 200);
+    assert.match(readFileSync(join(s.cms, 'global/filters.md'), 'utf8'), /- `title`: Narrow the medals\r\n/);
+    assert.match(readFileSync(join(s.cms, 'pages/filters-panel.md'), 'utf8'), /- `heading`: Filter medals\n/, 'the unchecked related entry is untouched');
+  } finally { s.close(); }
+});
+
+test('the site copy lookup records the keys the build reads', () => {
+  const copy = createSiteCopy([{ key: 'a.b', value: 'x' }, { key: 'a.c', value: 'y' }]);
+  copy('a.b');
+  assert.deepEqual([...copy.used], ['a.b']);
+});
+
+test('the review build records the footer link key it reads and the public build writes no such list', () => {
+  const t = tempCms([]);
+  const pub = build(t);
+  assert.equal(pub.status, 0, pub.stderr);
+  assert.ok(!existsSync(join(t.dist, 'review-copy-keys.json')));
+  const env = { ...process.env, GABF_CMS_DIR: t.cms, GABF_DIST: join(t.work, 'dist-review'), GABF_FEEDBACK: '1' };
+  delete env.CI;
+  delete env.GITHUB_ACTIONS;
+  const rev = spawnSync(process.execPath, [resolve(ROOT, 'scripts/build-site.mjs')], { cwd: ROOT, env, encoding: 'utf8' });
+  assert.equal(rev.status, 0, rev.stderr);
+  const keys = JSON.parse(readFileSync(join(t.work, 'dist-review/review-copy-keys.json'), 'utf8'));
+  assert.ok(keys.includes('global.site.footer.source_link'));
+  assert.ok(!keys.includes('global.navigation.footer.source'), 'an entry the build does not read is not listed');
+});
+
 test('saving an inline edit writes the value, rebuilds once, and records an ACCEPTED ticket with the old and new values', async () => {
   const s = await boot();
   try {

@@ -20,7 +20,7 @@
 
 import { createServer } from 'node:http';
 import { execFileSync } from 'node:child_process';
-import { createReadStream, existsSync, statSync } from 'node:fs';
+import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
 import { ROOT, parseArgs } from './lib/paths.mjs';
 import { engine } from './lib/agent-graph.mjs';
@@ -117,7 +117,11 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     const page = screen ? screen.page : '';
     const copy = loadCopy(cmsDir);
     const inventory = loadInventory(cmsDir);
-    const rank = (e) => (e.key.startsWith(`pages.${page}.`) ? 0 : e.key.startsWith('global.') ? 1 : 2);
+    // The entry the build reads comes first, so an edit lands on the key that draws the element
+    // (the build records its reads in review-copy-keys.json); then the reviewed page, then shared.
+    let read = new Set();
+    try { read = new Set(JSON.parse(readFileSync(resolve(siteDir, 'review-copy-keys.json'), 'utf8'))); } catch { read = new Set(); }
+    const rank = (e) => (read.has(e.key) ? 0 : e.key.startsWith(`pages.${page}.`) ? 1 : e.key.startsWith('global.') ? 2 : 3);
     const out = {};
     for (const text of (Array.isArray(body.texts) ? body.texts : []).slice(0, 400).map(String)) {
       const hits = matchContent(text, copy, inventory).filter((e) => e.match === 'exact' || e.match === 'inventory').sort((a, b) => rank(a) - rank(b));

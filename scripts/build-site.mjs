@@ -699,6 +699,8 @@ export function build({ clean = true } = {}) {
   const winners = winnerPages(ds, ds.winnerProfiles);
   firstTimePage(ds);
   copyExplorer();
+  // Review build only: the copy keys the pages above read, so an inline edit changes the key the build draws.
+  if (REVIEW) writeFileSync(resolve(DIST, 'review-copy-keys.json'), JSON.stringify([...COPY.used].sort()));
   return { winners, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };
 }
 

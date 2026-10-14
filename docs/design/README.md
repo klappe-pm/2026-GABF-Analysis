@@ -36,7 +36,7 @@ With the panel open, text on the framed page that is one line of page copy is ou
 
 The field holds the copy entry's own value, so a placeholder such as {{year}} stays a placeholder. The same words found in other copy entries and hard coded strings are listed under the field with checkboxes, all checked, as in the panel. Save sends the new text through the same server copy edit the panel uses: the prose rules and the secret scan run first, and a refused value writes nothing and says why. Otherwise only the value text of the key's line changes, the checked related instances change, the review site is rebuilt, and the frame reloads on the new copy. Each save records an ACCEPTED ticket under `.docs/feedback/<page-name>/` with the old and new values, the one spot, and the instances it changed.
 
-When several entries hold the same words, the entry of the page under review is the one edited and the others are offered as related instances. A single click on page copy adds its pin after a short pause, so a double click edits instead of pinning.
+When several entries hold the same words, the edit always lands on the entry the site build reads for that text (the review build records its reads in `review-copy-keys.json`), then the entry of the page under review, then a shared one. The others are offered as related instances, checked by default, and unchecking them never stops the page changing. A single click on page copy adds its pin after a short pause, so a double click edits instead of pinning.
 
 ## journey-step-markers
 
