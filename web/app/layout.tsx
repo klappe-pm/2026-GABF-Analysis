@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next';
 import { Archivo_Narrow, Public_Sans } from 'next/font/google';
-import type { ReactNode } from 'react';
+import { Fragment, type ReactNode } from 'react';
 import { DesignSettings } from '@/design/runtime';
 import { rootCss } from '@/design/theme';
-import { t } from '@/lib/content';
+import { lookup, t } from '@/lib/content';
 import { bakedState } from '@/lib/design-source';
 import './globals.css';
 
@@ -22,6 +22,26 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+// The footer every page carries, with the Catalog.beer attribution its license asks for.
+function SiteFooter() {
+  const links: Record<string, ReactNode> = {
+    catalog: <a href="https://catalog.beer" className="text-primary underline">{t('global.site.footer.catalog_beer_name')}</a>,
+    license: <a href="https://creativecommons.org/licenses/by/4.0/" className="text-primary underline">{t('global.site.footer.catalog_beer_license')}</a>,
+  };
+  const parts = (lookup('global.site.footer.catalog_beer') as string).split(/(\{\{\w+\}\})/);
+  return (
+    <footer className="mt-12 bg-surface-container">
+      <md-divider />
+      <p className="type-body-small mx-auto max-w-page px-4 py-6 text-on-surface-variant" data-attribution="catalog-beer">
+        {parts.map((p, i) => {
+          const name = p.match(/^\{\{(\w+)\}\}$/)?.[1];
+          return <Fragment key={i}>{name ? links[name] : p}</Fragment>;
+        })}
+      </p>
+    </footer>
+  );
+}
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   const baked = bakedState();
   return (
@@ -31,7 +51,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <style id="design-settings-baked" dangerouslySetInnerHTML={{ __html: rootCss(baked.global) }} />
       </head>
       <body className="min-h-screen bg-background font-plain text-on-background">
-        <DesignSettings initial={baked}>{children}</DesignSettings>
+        <DesignSettings initial={baked}>
+          {children}
+          <SiteFooter />
+        </DesignSettings>
       </body>
     </html>
   );

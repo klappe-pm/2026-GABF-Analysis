@@ -6,7 +6,8 @@
 //   a data table whose cells wrap or are not left aligned, whose header row is not bold, or that scrolls
 //   the page instead of its own container;
 //   a page that changes when the browser asks for a dark scheme (the site has one light theme);
-//   a built page (home, design system, not found) whose background is not pure white;
+//   a built page (home, design system, not found) whose background is not pure white, or whose footer
+//   lacks the Catalog.beer attribution;
 //   motion that keeps running when the browser asks for reduced motion;
 //   a keyboard stop with no visible focus indicator.
 // Run npm run web:build first. Needs Playwright (see serve-out.mjs for PLAYWRIGHT_MODULE and PLAYWRIGHT_CHANNEL).
@@ -126,6 +127,13 @@ async function main() {
     await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
     const bg = await page.evaluate(() => [getComputedStyle(document.body).backgroundColor, getComputedStyle(document.documentElement).backgroundColor]);
     if (bg.some((c) => c !== 'rgb(255, 255, 255)')) problems.push(`${path}: the page background is ${bg.join(' and ')}, not white`);
+    // The Catalog.beer attribution its license asks for, on every page.
+    const credit = await page.evaluate(() => {
+      const p = document.querySelector('footer [data-attribution="catalog-beer"]');
+      return p ? { text: p.textContent.replace(/\s+/g, ' ').trim(), links: [...p.querySelectorAll('a')].map((a) => `${a.textContent} ${a.getAttribute('href')}`) } : null;
+    });
+    const wanted = 'Some beer details are from Catalog.beer, licensed CC BY 4.0 and adapted.';
+    if (!credit || credit.text !== wanted || credit.links.join('|') !== 'Catalog.beer https://catalog.beer|CC BY 4.0 https://creativecommons.org/licenses/by/4.0/') problems.push(`${path}: the footer attribution is missing or not worded as required (${JSON.stringify(credit)})`);
     await ctx.close();
   }
   for (const width of [390, 1280]) {

@@ -60,7 +60,7 @@ export function loadSpecs() {
 export function listFiles(dir, exts, out = []) {
   if (!existsSync(dir)) return out;
   for (const entry of readdirSync(dir)) {
-    if (['node_modules', '.next', 'out', 'public'].includes(entry)) continue;
+    if (['node_modules', '.next', 'out', 'out-review', 'public'].includes(entry)) continue;
     const full = resolve(dir, entry);
     if (statSync(full).isDirectory()) listFiles(full, exts, out);
     else if (exts.some((e) => entry.endsWith(e))) out.push(full);

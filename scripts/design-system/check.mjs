@@ -3,7 +3,7 @@
 //   a global setting, layout list, or component setting that is unknown, missing, or not an allowed value;
 //   a spec missing its identity keys or a valid status (draft, review, approved), or pointing at missing code;
 //   a spec body that no longer matches its frontmatter, or a missing component image;
-//   a component file with no spec;
+//   a component file with no folder and spec.md of its own, or component docs anywhere else in web/ or .design/;
 //   a text or control color pair in the generated light scheme that fails WCAG 2.2 AA;
 //   a font outside Public Sans and Archivo Narrow, or figures asked of Archivo Narrow;
 //   a raw color literal in page or component code;
@@ -11,7 +11,7 @@
 //   anything that credits an assistant, model, or tool.
 
 import { existsSync, readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { basename, resolve } from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
 import { staleSpecs } from './build.mjs';
 import {
@@ -88,9 +88,20 @@ export async function runChecks() {
     }
   }
 
-  // Code.
+  // One home per component: web/components/<Name>.tsx has .design/design-system/components/<name>/spec.md,
+  // and that spec names the file as its code.
   for (const file of listFiles(resolve(WEB, 'components'), ['.tsx', '.ts'])) {
-    if (!codeToSpec[rel(file)]) fail(rel(file), 'component code has no spec in .design/design-system/components');
+    const folder = basename(file).replace(/\.tsx?$/, '').replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
+    if (!existsSync(resolve(COMPONENTS_DIR, folder, 'spec.md'))) fail(rel(file), `component code has no folder .design/design-system/components/${folder}/ with a spec.md`);
+    else if (codeToSpec[rel(file)]?.dir !== folder) fail(rel(file), `.design/design-system/components/${folder}/spec.md does not name ${rel(file)} as its code`);
+  }
+  // No component descriptions outside that folder: no Markdown in web/, and nothing in .design/ but
+  // settings.md, layout.md, and the component folders.
+  for (const file of listFiles(WEB, ['.md'])) fail(rel(file), 'component docs belong in .design/design-system/components/<name>/');
+  for (const file of listFiles(resolve(DS, '..'), ['.md', '.json', '.png', '.svg', '.txt', '.yml', '.yaml'])) {
+    const r = rel(file);
+    if (r === rel(SETTINGS) || r === rel(LAYOUT)) continue;
+    if (!/^\.design\/design-system\/components\/[a-z0-9-]+\/[^/]+$/.test(r)) fail(r, 'files in .design/ live in .design/design-system/components/<name>/, besides settings.md and layout.md');
   }
   const code = [...listFiles(resolve(WEB, 'app'), ['.tsx', '.ts', '.css']), ...listFiles(resolve(WEB, 'components'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'lib'), ['.ts']), ...listFiles(resolve(WEB, 'design'), ['.ts', '.tsx', '.css'])];
   for (const file of code) {
