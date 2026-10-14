@@ -1,0 +1,88 @@
+name: Design feedback
+description: A change you want to see on a page, filed by a person or by the review panel. The panel fills every field for you.
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: "Say what you want changed in plain words. Fields you do not know can stay empty. For a wrong medal, brewery, or figure, use the Data correction form instead."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should be different, in a sentence or two.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page's plain name, for example Overview dashboard or Brewery detail.
+    validations:
+      required: true
+  - type: input
+    id: step
+    attributes:
+      label: Journey step and state
+      description: The step you were on and what the page was showing, if you know.
+  - type: input
+    id: route
+    attributes:
+      label: Route
+      description: The address of the page, for example /breweries/some-brewery/.
+  - type: textarea
+    id: spots
+    attributes:
+      label: Spots
+      description: The parts of the page you mean, one per line, with the words shown on each.
+  - type: textarea
+    id: components
+    attributes:
+      label: Components
+      description: The design system components involved, each as a link to its file when there is one.
+  - type: textarea
+    id: images
+    attributes:
+      label: Captured images
+      description: Screenshots of the page or of a part of it. Drag the files in. Each one is shown and also a link that opens it.
+  - type: textarea
+    id: content-edits
+    attributes:
+      label: Content edits
+      description: Words to change, each as the old text and the new text.
+  - type: textarea
+    id: setting-edits
+    attributes:
+      label: Setting edits
+      description: Design settings to change, each as the setting, its old value and its new value.
+  - type: checkboxes
+    id: categories
+    attributes:
+      label: Categories
+      description: Tick any that fit.
+      options:
+        - label: Accessibility
+        - label: Action
+        - label: Bug
+        - label: Colors
+        - label: Content
+        - label: Data
+        - label: Footer
+        - label: Functionality
+        - label: Header
+        - label: Heading
+        - label: Icon
+        - label: Images
+        - label: Layout
+        - label: Link
+        - label: Mobile
+        - label: New feature
+        - label: Other
+        - label: Remove
+        - label: Typography
+        - label: Videos
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and notes
+      description: How we will know it is done, and anything else we should know.

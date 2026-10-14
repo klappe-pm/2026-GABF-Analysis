@@ -1,6 +1,7 @@
-// The feedback store: one Markdown file per ticket under .docs/feedback/<page-name>/, readable in
-// Obsidian. .docs/ is excluded from git on this machine, so tickets are local; CI has no .docs/
-// folder and every reader here treats its absence as an empty store.
+// The feedback store: one Markdown file per ticket under docs/feedback/<page-name>/, readable in
+// Obsidian and tracked in git with its captured images in a folder named after the ticket file.
+// The pipeline's queue, log and work folders live under .docs/feedback/ and are never committed.
+// A missing store reads as an empty one.
 //
 // A ticket's frontmatter holds its id, its status, the job, journey step and state the reviewer
 // was on, the route, the highlighted spots, the design system components and content keys it
@@ -11,14 +12,15 @@
 // Every string is scanned for secret shaped values before it is written. The scan is the engine's
 // (design-feedback.mjs sanitize), passed in so the tests run without the agent-graph checkout.
 
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { relative, resolve, sep } from 'node:path';
 import { parse, stringify } from 'yaml';
 import { kebab } from './review-screens.mjs';
-import { componentWords } from './review-components.mjs';
+import { componentWords, obsidianUri } from './review-components.mjs';
 import { ROOT } from './paths.mjs';
 
-export const FEEDBACK_DIR = '.docs/feedback';
+export const FEEDBACK_DIR = 'docs/feedback';
+export const LOCAL_FEEDBACK_DIR = '.docs/feedback';
 export const CATEGORIES_PATH = 'docs/design/feedback-categories.json';
 export const ACCEPTED = 'ACCEPTED';
 export const STATUSES = [ACCEPTED, 'DONE', 'DECLINED'];
@@ -64,7 +66,7 @@ export function parseTicket(text) {
   return { data: parse(m[1]) ?? {}, body: text.slice(m[0].length).replace(/^\r?\n/, '') };
 }
 
-const KEY_ORDER = ['id', 'status', 'title', 'page', 'job', 'job-title', 'step', 'state', 'state-path', 'route', 'hash', 'served', 'spots', 'components', 'content-keys', 'content-edits', 'categories', 'device', 'viewport', 'build', 'legacy-id', 'redacted', 'created', 'revised'];
+const KEY_ORDER = ['id', 'status', 'title', 'page', 'job', 'job-title', 'step', 'state', 'state-path', 'route', 'hash', 'served', 'spots', 'components', 'content-keys', 'content-edits', 'setting-edits', 'categories', 'images', 'capture', 'issue', 'issue-url', 'pr', 'pr-url', 'device', 'viewport', 'build', 'legacy-id', 'redacted', 'created', 'revised'];
 const ordered = (data) => {
   const out = {};
   for (const k of KEY_ORDER) if (data[k] !== undefined) out[k] = data[k];
@@ -81,7 +83,7 @@ export function listTickets(dir) {
   const out = [];
   if (!existsSync(dir)) return out;
   for (const page of readdirSync(dir, { withFileTypes: true })) {
-    if (!page.isDirectory()) continue;
+    if (!page.isDirectory() || page.name.startsWith('.')) continue;
     for (const name of readdirSync(resolve(dir, page.name)).sort()) {
       if (!name.endsWith('.md')) continue;
       const file = resolve(dir, page.name, name);
@@ -127,10 +129,19 @@ export function componentsBody(components, ticketDir, root) {
     const words = componentWords(c.name);
     if (!c.spec) return `- ${words}, no design system file yet`;
     const link = relative(ticketDir, resolve(root, c.spec)).split(sep).join('/');
-    return `- [${words}](${link})`;
+    return `- [${words}](${link}), [Open in Obsidian](${obsidianUri(root, c.spec)})`;
   });
   return `## components\n\n${items.join('\n')}`;
 }
+
+// The captured images of a ticket: each is shown and also a link that opens the file, by a path
+// relative to the ticket so it works from the ticket in Obsidian and on GitHub.
+export const imageLabel = (img) => (img.kind === 'page' ? 'Page' : img.kind === 'component' ? `Component${img.component ? `, ${componentWords(img.component)}` : ''}` : `Spot ${img.spot}${img.component ? `, ${componentWords(img.component)}` : ''}`);
+export function imagesBody(images) {
+  if (!images?.length) return '';
+  return `## captured-images\n\n${images.map((i) => `- [${imageLabel(i)}](${i.path})`).join('\n')}`;
+}
+export const imageOf = (i) => ({ path: String(i.path), kind: ['page', 'spot', 'component'].includes(i.kind) ? i.kind : 'page', spot: i.spot ?? null, component: i.component ?? null, url: i.url ?? null });
 
 // A ticket body with its components section replaced, kept right after the note.
 function withComponentsSection(body, section) {
@@ -143,6 +154,11 @@ function withComponentsSection(body, section) {
 function contentBody(edits) {
   if (!edits?.length) return '';
   return edits.map((e) => `## content-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}${e.instances?.length ? `\n- also updated: ${e.instances.map((i) => `${i.file}:${i.line}`).join(', ')}` : ''}`).join('\n\n');
+}
+
+function settingBody(edits) {
+  if (!edits?.length) return '';
+  return edits.map((e) => `## setting-edit\n\n${e.key} in ${e.file}\n\n- old: ${e.old}\n- new: ${e.new}`).join('\n\n');
 }
 
 function write(dir, page, name, data, body, sanitize) {
@@ -159,11 +175,12 @@ function write(dir, page, name, data, body, sanitize) {
 export function addTicket(dir, input, { sanitize, categories = [], now = new Date(), root = ROOT }) {
   const text = String(input.text ?? '').trim();
   const edits = Array.isArray(input.contentEdits) ? input.contentEdits : [];
-  if (!text && !edits.length) throw new Error('feedback needs a note');
+  const settings = Array.isArray(input.settingEdits) ? input.settingEdits : [];
+  if (!text && !edits.length && !settings.length) throw new Error('feedback needs a note');
   if (!input.page) throw new Error('feedback needs a page: choose a journey step first');
   const picked = cleanCategories(input.categories, categories);
   const id = input.id ?? nextId(dir);
-  const title = firstSentence(text || `Copy change to ${edits[0].key}`);
+  const title = firstSentence(text || (edits.length ? `Copy change to ${edits[0].key}` : `Setting change to ${settings[0].key}`));
   const stamp = now.toISOString();
   const data = {
     id,
@@ -182,7 +199,11 @@ export function addTicket(dir, input, { sanitize, categories = [], now = new Dat
     components: (input.components ?? []).map(componentOf),
     'content-keys': [...new Set(input.contentKeys ?? [])],
     ...(edits.length ? { 'content-edits': edits } : {}),
+    ...(settings.length ? { 'setting-edits': settings } : {}),
     categories: picked.categories,
+    images: (input.images ?? []).map(imageOf),
+    ...(input.capture ? { capture: input.capture } : {}),
+    issue: input.issue ?? null,
     device: input.device ?? null,
     viewport: input.viewport ? `${input.viewport.width} by ${input.viewport.height}` : null,
     build: input.build?.commit ? String(input.build.commit).slice(0, 12) : null,
@@ -190,7 +211,7 @@ export function addTicket(dir, input, { sanitize, categories = [], now = new Dat
     created: input.created ?? stamp,
     revised: input.revised ?? stamp,
   };
-  const body = [text, componentsBody(data.components, resolve(dir, input.page), root), contentBody(edits), input.extraBody ?? ''].filter(Boolean).join('\n\n');
+  const body = [text, componentsBody(data.components, resolve(dir, input.page), root), contentBody(edits), settingBody(settings), imagesBody(data.images), input.extraBody ?? ''].filter(Boolean).join('\n\n');
   const written = write(dir, input.page, fileName(id, title), data, body, sanitize);
   return { id, title, page: input.page, status: ACCEPTED, file: written.file, redacted: written.redacted, categoriesUnknown: picked.unknown };
 }
@@ -227,15 +248,70 @@ export function editTicket(dir, id, patch, { sanitize, categories = [], now = ne
 
 // A lifecycle change, not an edit: the ticket is finished or turned down. Recorded in the
 // frontmatter with the commit that did it.
-export function setStatus(dir, id, status, { note = '', change = null, now = new Date(), sanitize }) {
+export function setStatus(dir, id, status, { note = '', change = null, now = new Date(), sanitize, extra = {} }) {
   if (!STATUSES.includes(status)) throw new Error(`status must be one of ${STATUSES.join(', ')}`);
   const t = findTicket(dir, id);
   if (!t) throw new Error(`no ticket ${id}`);
-  const data = { ...t.data, status, revised: now.toISOString() };
+  const data = { ...t.data, ...extra, status, revised: now.toISOString() };
   if (status !== ACCEPTED) data.resolution = { status, change, note, at: now.toISOString() };
   else delete data.resolution;
   const written = write(dir, t.page, t.rel.split('/').pop(), data, t.body, sanitize);
   return { id: t.id, status, file: written.file };
+}
+
+// Pipeline bookkeeping: merge fields into the frontmatter and, when asked, replace the body's
+// captured images section. The note and the revised time are left alone.
+export function patchTicket(dir, id, fields, { sanitize, body = null }) {
+  const t = findTicket(dir, id);
+  if (!t) throw new Error(`no ticket ${id}`);
+  const data = { ...t.data, ...fields };
+  if (fields.images) data.images = fields.images.map(imageOf);
+  let text = body ?? t.body;
+  if (fields.images && body === null) {
+    const parts = text.split(/\n(?=## )/).filter((p) => !/^## captured-images\s*(\n|$)/.test(p));
+    text = [...parts, imagesBody(data.images)].filter(Boolean).join('\n\n');
+  }
+  const written = write(dir, t.page, t.rel.split('/').pop(), data, text, sanitize);
+  return { id: t.id, file: written.file, redacted: written.redacted };
+}
+
+// ---------- the retired local store ----------
+
+// Tickets written before the store moved to docs/feedback/ sit in .docs/feedback/<page>/. They move
+// unchanged: the note and every frontmatter line stay byte for byte, and only the two new fields
+// (images: [] and issue: null) are added before the closing fence. A ticket already at the new
+// path is skipped; an image folder moves with its ticket. The pipeline's own folders are left.
+export function migrateLegacyStore(legacyDir, dir) {
+  const moved = [];
+  if (!existsSync(legacyDir)) return moved;
+  for (const page of readdirSync(legacyDir, { withFileTypes: true })) {
+    if (!page.isDirectory() || page.name.startsWith('.')) continue;
+    for (const name of readdirSync(resolve(legacyDir, page.name)).sort()) {
+      const from = resolve(legacyDir, page.name, name);
+      const to = resolve(dir, page.name, name);
+      if (name.endsWith('.md')) {
+        if (existsSync(to)) continue;
+        const text = readFileSync(from, 'utf8');
+        const m = FENCE.exec(text);
+        if (!m) continue;
+        const adds = [/^images:/m.test(m[1]) ? null : 'images: []', /^issue:/m.test(m[1]) ? null : 'issue: null'].filter(Boolean);
+        const head = m[0];
+        const closing = head.lastIndexOf('---');
+        const eol = head.includes('\r\n') ? '\r\n' : '\n';
+        const migrated = adds.length ? text.slice(0, closing) + adds.join(eol) + eol + text.slice(closing) : text;
+        mkdirSync(resolve(dir, page.name), { recursive: true });
+        writeFileSync(to, migrated);
+        rmSync(from);
+        moved.push({ from, to });
+      } else if (statSync(from).isDirectory()) {
+        if (existsSync(to)) continue;
+        mkdirSync(resolve(dir, page.name), { recursive: true });
+        cpSync(from, to, { recursive: true });
+        rmSync(from, { recursive: true });
+      }
+    }
+  }
+  return moved;
 }
 
 // ---------- the old store ----------
@@ -294,13 +370,14 @@ export function migrateRecords(dir, records, { sanitize, describe, components = 
 
 // Problems in the tickets on disk: a file the reader cannot parse, a missing key, a status outside
 // the set, a ticket filed under the wrong page, or a repeated id. No store at all is no problem.
-const REQUIRED = ['id', 'status', 'page', 'step', 'spots', 'components', 'content-keys', 'categories', 'created', 'revised'];
+// A design system Save ticket has no journey step, spots or copy keys, so only the common keys are required.
+const REQUIRED = ['id', 'status', 'page', 'categories', 'created', 'revised'];
 export function ticketIssues(dir) {
   const issues = [];
   if (!existsSync(dir)) return issues;
   const seen = new Map();
   for (const page of readdirSync(dir, { withFileTypes: true })) {
-    if (!page.isDirectory()) continue;
+    if (!page.isDirectory() || page.name.startsWith('.')) continue;
     for (const name of readdirSync(resolve(dir, page.name)).filter((n) => n.endsWith('.md')).sort()) {
       const rel = `${page.name}/${name}`;
       let parsed = null;
