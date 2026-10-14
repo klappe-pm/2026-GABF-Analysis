@@ -16,6 +16,29 @@
     });
   }
 
+  // Phone header: the site nav folds behind a Menu button.
+  const navToggle = document.querySelector('.nav-toggle');
+  if (navToggle) {
+    const header = navToggle.closest('.site-header');
+    navToggle.addEventListener('click', () => {
+      const open = navToggle.getAttribute('aria-expanded') !== 'true';
+      navToggle.setAttribute('aria-expanded', String(open));
+      header.classList.toggle('open', open);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && header.classList.contains('open')) { header.classList.remove('open'); navToggle.setAttribute('aria-expanded', 'false'); navToggle.focus(); }
+    });
+  }
+
+  // Sortable headers carry tabindex 0; Enter or Space sorts like a click (static and dashboard tables).
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const th = e.target.closest ? e.target.closest('table.sortable thead th') : null;
+    if (!th) return;
+    e.preventDefault();
+    th.click();
+  });
+
   const tip = document.createElement('div');
   tip.className = 'tooltip';
   tip.setAttribute('role', 'status');

@@ -279,7 +279,7 @@ function renderPanel(el, rows) {
   const built = def.build(rows);
   window.GABFCharts.dispose(el.querySelector('figure') || el);
   if (!built) { el.innerHTML = ''; return; }
-  if (built.empty) { el.innerHTML = `<div class="card"><h3>${esc(def.title.toLowerCase().replace(/\s+/g, '-'))}</h3><p class="muted">${esc(built.empty)}</p></div>`; return; }
+  if (built.empty) { el.innerHTML = `<div class="card"><h3>${esc(def.title)}</h3><p class="muted">${esc(built.empty)}</p></div>`; return; }
   el.innerHTML = figure({ id: el.dataset.panel, title: def.title, subtitle: built.subtitle ?? def.subtitle ?? '', option: built.option, height: built.height ?? 300, table: built.table ?? '', note: built.note ?? '' });
   const fig = el.querySelector('figure');
   if (built.onClick) fig.__onClick = built.onClick;
@@ -299,7 +299,7 @@ function renderStats(rows) {
     statTile({ label: 'Breweries', value: breweries.toLocaleString() }),
     statTile({ label: 'States', value: states.toLocaleString() }),
     statTile({ label: 'Categories', value: cats.toLocaleString(), note: `${special} medals in special categories` }),
-    statTile({ label: 'Gold / Silver / Bronze', value: `${rows.filter((r) => r.medal === 'Gold').length} / ${rows.filter((r) => r.medal === 'Silver').length} / ${rows.filter((r) => r.medal === 'Bronze').length}` }),
+    statTile({ label: 'Gold, silver, bronze', medals: ['Gold', 'Silver', 'Bronze'].map((m) => rows.filter((r) => r.medal === m).length) }),
     statTile({ label: 'Entrants in categories shown', value: entries ? entries.toLocaleString() : 'n/a', note: 'sum of category entry counts' }),
   ].join('');
 }
@@ -307,12 +307,14 @@ function renderStats(rows) {
 function renderTable(rows) {
   const el = qs('table');
   if (!el) return;
-  const limit = state.showAll ? rows.length : 300;
+  const limit = Math.min(rows.length, state.tableLimit ?? 25);
+  const rank = { Gold: 1, Silver: 2, Bronze: 3 };
+  rows = [...rows].sort((a, b) => b.year - a.year || String(a.category_name).localeCompare(String(b.category_name)) || (rank[a.medal] ?? 9) - (rank[b.medal] ?? 9));
   const medalDot = (m) => `<span class="badge-medal ${String(m).toLowerCase()}"></span>${esc(m)}`;
-  el.innerHTML = `<div class="table-wrap">${tableHtml([
+  el.innerHTML = `<div class="table-wrap stack">${tableHtml([
     { key: 'year', label: 'Year', numeric: true },
     { key: 'medal', label: 'Medal', render: (r) => medalDot(r.medal) },
-    { key: 'beer_name', label: 'Beer' },
+    { key: 'beer_name', label: 'Beer', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">${esc(r.beer_name)}</a>` : esc(r.beer_name)) },
     { key: 'brewery_name', label: 'Brewery', render: (r) => `<a href="${esc(bHref(r.brewery_slug))}">${esc(r.brewery_name)}</a>${r.brewery_location ? ` <span class="muted small">(${esc(r.brewery_location)})</span>` : ''}` },
     { key: 'city', label: 'City', render: (r) => `${esc(r.city)}, ${esc(r.state)}` },
     { key: 'category_name', label: 'Category', render: (r) => `<a href="${esc(cHref(r.category_name, r.category_slug))}">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
@@ -321,9 +323,11 @@ function renderTable(rows) {
     { key: 'abv', label: 'ABV', render: (r) => (r.abv ? `${r.abv}%` : (r.abv_min ? `${r.abv_min} to ${r.abv_max}% (style)` : '')) },
     { key: 'ownership_type', label: 'Ownership', render: (r) => `${esc(r.ownership_type)}${r.parent ? ` (${esc(r.parent)})` : ''}` },
     { key: 'distribution_channel', label: 'Distribution' },
-  ], rows.slice(0, limit))}</div>${rows.length > limit ? `<p class="small muted">Showing ${limit} of ${rows.length} rows. <a href="#" id="show-all">Show all</a> or narrow the filters.</p>` : ''}`;
-  const showAll = qs('show-all');
-  if (showAll) showAll.addEventListener('click', (e) => { e.preventDefault(); state.showAll = true; render(); });
+  ], rows.slice(0, limit))}</div><div class="table-more"><p class="small muted">Showing ${limit.toLocaleString()} of ${rows.length.toLocaleString()} medals, newest first.</p>${rows.length > limit ? `<button class="btn" type="button" id="show-more">Show ${Math.min(100, rows.length - limit)} more</button><button class="btn" type="button" id="show-all">Show all</button>` : ''}</div>`;
+  const more = qs('show-more');
+  if (more) more.addEventListener('click', () => { state.tableLimit = limit + 100; renderTable(state.lastRows); });
+  const all = qs('show-all');
+  if (all) all.addEventListener('click', () => { state.tableLimit = Infinity; renderTable(state.lastRows); });
   wireSortable(el);
 }
 
