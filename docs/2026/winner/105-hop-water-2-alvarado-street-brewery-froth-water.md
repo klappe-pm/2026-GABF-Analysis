@@ -30,13 +30,6 @@ description:
 entries: 37
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://asb.beer/products/froth-water"
-      - "https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/"
-      - "https://www.alvaradostreetbrewery.com/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://asb.beer/products/froth-water"
@@ -44,6 +37,7 @@ gaps:
       - "https://www.alvaradostreetbrewery.com/"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://asb.beer/products/froth-water"
@@ -150,7 +144,9 @@ sources:
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Sparkling Hop Water"
-tasting-notes: null
+tasting-notes:
+  text: "Zero Alcohol. Zero calories. Zero Hangover. Unbelievable amounts of flavor."
+  source: "https://asb.beer/products/froth-water"
 water: null
 yeast: []
 ---
@@ -186,7 +182,9 @@ Source: [Alvarado Street: Froth Water](https://asb.beer/products/froth-water)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Zero Alcohol. Zero calories. Zero Hangover. Unbelievable amounts of flavor.
+
+Source: [asb.beer](https://asb.beer/products/froth-water)
 
 ## ingredients
 
@@ -244,8 +242,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -255,3 +253,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No IBU, malt or yeast information is published.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery shop page names Citra and Mosaic and gives no further detail.

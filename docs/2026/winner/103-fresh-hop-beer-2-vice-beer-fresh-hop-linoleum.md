@@ -34,51 +34,63 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.vicebeer.com/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723"
       - "web searches recorded in the research notes"
+      - "https://www.vicebeer.com/"
 hop-profile:
   - published: "Citra"
     variety: "Citra"
@@ -213,8 +225,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, [vicebeer.com](https://www.vicebeer.com/).
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/vice-beer-fresh-hop-linoleum-2026/7218723), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [vicebeer.com](https://www.vicebeer.com/).
 
 ## research-notes
 
@@ -224,3 +236,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The session web search budget was exhausted before this beer or the brewery could be searched, so Untappd, retailer listings and press were not reached.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended; the brewery site has no page for it.

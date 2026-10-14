@@ -35,6 +35,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "tasting-notes"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -42,6 +43,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "abv"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -49,6 +51,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "ibu"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -56,6 +59,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "srm"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -63,6 +67,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "og"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -70,6 +75,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "fg"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -77,6 +83,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "hops"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -84,6 +91,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "hop-form"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -91,6 +99,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "hop-use"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -98,6 +107,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -105,6 +115,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "malts"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -112,6 +123,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "yeast"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -119,6 +131,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "adjuncts"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -126,6 +139,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "water"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -133,6 +147,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
   - field: "process"
     sources-checked:
       - "https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e"
@@ -140,6 +155,7 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/beer"
       - "https://www.sunriverbrewingcompany.com/beer/che-figata"
       - "web searches recorded in the research notes"
+      - "https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)"
 hop-profile: []
 hops: []
 ibu: null
@@ -242,8 +258,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)).
+- Not published: ABV, IBU. Checked [order.toasttab.com](https://order.toasttab.com/online/sunriver-brewing-company-oakway-pub/item-figata-fresca-fh-italian-pils-4pk_f264f219-aff7-4f2a-888e-bd4a0490e24e), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/che-figata), web searches recorded in the research notes, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/figata-fresca (HTTP 404)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -252,3 +268,4 @@ No brewery links have been checked yet.
 - The brewery beer list does not include Figata Fresca; the link to Che Figata rests only on the shared name and is not confirmed.
 - The Sunriver home page cites GABF Brewery of the Year titles in 2017 and 2024 but no 2026 result.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: no brewery page for Figata Fresca exists at the guessed address.
