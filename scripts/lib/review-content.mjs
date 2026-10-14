@@ -99,7 +99,8 @@ export function sourceFiles(root) {
       if (!existsSync(dir)) continue;
       for (const name of readdirSync(dir)) {
         const full = resolve(dir, name);
-        if (statSync(full).isDirectory()) { if (!SKIP_DIRS.has(name)) stack.push(full); continue; }
+        // out-* are the web builds (out-review, out-web-review): generated pages, never a place copy is written by hand.
+        if (statSync(full).isDirectory()) { if (!SKIP_DIRS.has(name) && !name.startsWith('out-')) stack.push(full); continue; }
         const rel = relative(root, full).split('\\').join('/');
         if (SOURCE_FILE.test(name) && !SKIP_FILES.test(rel)) files.push(rel);
       }
