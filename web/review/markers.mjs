@@ -2,9 +2,10 @@
 // web/lib/content.ts wraps each string it returns as OPEN key SEP text CLOSE, all invisible characters
 // except the key and the text, so the page itself says which copy entry drew each piece of text. The
 // public build never marks. The editor strips the marks from the page once it has read them.
-export const OPEN = '⁢';
-export const SEP = '⁣';
-export const CLOSE = '⁤';
+// U+2062 invisible times, U+2063 invisible separator, U+2064 invisible plus: none of them is white space.
+export const OPEN = String.fromCharCode(0x2062);
+export const SEP = String.fromCharCode(0x2063);
+export const CLOSE = String.fromCharCode(0x2064);
 
 export const mark = (key, text) => `${OPEN}${key}${SEP}${text}${CLOSE}`;
 

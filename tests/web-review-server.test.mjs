@@ -1,0 +1,96 @@
+// The review server with the web review build at its root: it serves the export, finds a page's journey
+// steps from its route, and writes a ticket that carries the route the reviewer was on (served: web).
+
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { cpSync, mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, resolve } from 'node:path';
+import { ROOT } from '../scripts/lib/paths.mjs';
+import { createReviewServer } from '../scripts/review-server.mjs';
+import { findTicket } from '../scripts/lib/review-store.mjs';
+
+async function boot() {
+  const root = mkdtempSync(join(tmpdir(), 'gabf-web-review-'));
+  for (const f of ['docs/design/design-nodes.json', 'docs/design/feedback-categories.json', 'site/review/source-map.json']) {
+    mkdirSync(resolve(root, f, '..'), { recursive: true });
+    cpSync(resolve(ROOT, f), resolve(root, f));
+  }
+  cpSync(resolve(ROOT, 'docs/design/sketches'), resolve(root, 'docs/design/sketches'), { recursive: true });
+  const web = join(root, 'web/out-web-review');
+  mkdirSync(join(web, 'beers/2026'), { recursive: true });
+  writeFileSync(join(web, 'index.html'), '<h1>home</h1>');
+  writeFileSync(join(web, 'beers/2026/index.html'), '<h1>winners</h1>');
+  writeFileSync(join(web, '404.html'), '<h1>missing</h1>');
+  const store = join(root, 'tickets');
+  const captured = [];
+  const capture = async (job) => { captured.push(job); return []; };
+  const sanitize = (text) => ({ text, redacted: [] });
+  const server = createReviewServer({ root, port: 0, sanitize, capture, webDir: 'web/out-web-review', rebuild: () => {}, env: { GABF_FEEDBACK_DIR: store, GABF_CMS_DIR: join(root, 'cms') } });
+  await new Promise((done) => server.listen(0, '127.0.0.1', done));
+  const base = `http://127.0.0.1:${server.address().port}`;
+  const get = async (path) => { const r = await fetch(base + path); return { status: r.status, text: await r.text() }; };
+  const post = async (path, body) => { const r = await fetch(base + path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }); return { status: r.status, body: await r.json() }; };
+  return { store, get, post, captured, close: () => server.close() };
+}
+
+test('the web build is served at the root, with 404.html and a 404 status for an address with no page', async () => {
+  const s = await boot();
+  try {
+    assert.equal((await s.get('/')).text, '<h1>home</h1>');
+    assert.equal((await s.get('/beers/2026/')).text, '<h1>winners</h1>');
+    const missing = await s.get('/nowhere/');
+    assert.equal(missing.status, 404);
+    assert.equal(missing.text, '<h1>missing</h1>');
+    assert.ok([403, 404].includes((await s.get('/..%2f..%2fetc/passwd')).status), 'an address outside the build is refused');
+  } finally { s.close(); }
+});
+
+test('a route finds the steps of its page, an address of the same shape finds the detail page, and a stranger finds none', async () => {
+  const s = await boot();
+  try {
+    const home = JSON.parse((await s.get('/review/web/screens?route=/')).text);
+    assert.deepEqual(home.matched.slice(0, 2), ['S-01', 'S-02']);
+    assert.ok(home.screens.length > 40);
+    const brewery = JSON.parse((await s.get('/review/web/screens?route=/breweries/some-other-brewery/')).text);
+    assert.ok(brewery.matched.includes('S-27'), 'a brewery page has the brewery detail steps');
+    const stranger = JSON.parse((await s.get('/review/web/screens?route=/design-system/')).text);
+    assert.deepEqual(stranger.matched, []);
+  } finally { s.close(); }
+});
+
+test('a web ticket records the route the reviewer was on, many pins, and starts the screenshots', async () => {
+  const s = await boot();
+  try {
+    const r = await s.post('/review/feedback', {
+      screen: 'S-27', route: '/breweries/some-other-brewery/', hash: '#medal=Gold', served: 'web',
+      text: 'Two things on this page.', categories: ['Layout'],
+      spots: [
+        { n: 1, selector: '#main > h1', rect: { x: 1, y: 2, width: 3, height: 4 }, text: 'Some Other Brewery' },
+        { n: 2, selector: 'table', rect: { x: 5, y: 6, width: 7, height: 8 }, text: 'Medals' },
+      ],
+      components: [{ name: 'data-table' }], contentKeys: [], viewport: { width: 1440, height: 900 }, device: 'desktop',
+    });
+    assert.equal(r.status, 200, JSON.stringify(r.body));
+    const t = findTicket(s.store, r.body.id);
+    assert.equal(t.data.served, 'web');
+    assert.equal(t.data.route, '/breweries/some-other-brewery/');
+    assert.equal(t.data.hash, '#medal=Gold');
+    assert.equal(t.data.step, 'S-27');
+    assert.equal(t.data.spots.length, 2);
+    assert.match(t.file, /docs|tickets/);
+    await new Promise((done) => setTimeout(done, 100));
+    assert.equal(s.captured.length, 1, 'the screenshots are taken when the ticket is saved');
+    assert.equal(s.captured[0].ticket.served, 'web');
+    assert.equal(s.captured[0].ticket.route, '/breweries/some-other-brewery/');
+    assert.equal(s.captured[0].ticket.spots.length, 2);
+  } finally { s.close(); }
+});
+
+test('an address that is not a path is refused, and no ticket is written', async () => {
+  const s = await boot();
+  try {
+    const bad = await s.post('/review/feedback', { screen: 'S-27', route: 'https://elsewhere.example/', served: 'web', text: 'x' });
+    assert.equal(bad.status, 400);
+  } finally { s.close(); }
+});

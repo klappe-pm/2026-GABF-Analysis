@@ -37,10 +37,16 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
       setValue(p.old ?? '');
       setPreview(p);
       setTake(Object.fromEntries(p.instances.map((i) => [i.id, true])));
-      setTimeout(() => input.current?.select(), 0);
     }).catch((e: Error) => { if (live) { setSaid(e.message); setBad(true); } });
     return () => { live = false; };
   }, [copyKey]);
+
+  // Once the current words are in, the field is ready to type in.
+  useEffect(() => {
+    if (old === null) return;
+    input.current?.focus();
+    input.current?.select();
+  }, [old]);
 
   // Check the new words as they are typed, after a short pause.
   useEffect(() => {
@@ -90,7 +96,7 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
       className="gfw-editor"
       role="group"
       aria-label="Edit this text"
-      style={{ left: Math.max(4, box.x), top: Math.max(4, box.y - 4), width: Math.min(Math.max(box.width + 16, 280), 520) }}
+      style={{ left: Math.max(4, box.x), top: box.y + box.height + 6, width: Math.min(Math.max(box.width + 16, 280), 520) }}
       onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); onClose(); } }}
     >
       <p className="gfw-editor-key">{keyWords(copyKey)}</p>
@@ -100,7 +106,8 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
         type="text"
         aria-label="New text"
         value={value}
-        disabled={busy}
+        placeholder={old === null ? 'Loading the current text' : undefined}
+        disabled={busy || old === null}
         style={{ font: style.font, letterSpacing: style.letterSpacing }}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); void save(); } }}
