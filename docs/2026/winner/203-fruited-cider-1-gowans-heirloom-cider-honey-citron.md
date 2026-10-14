@@ -221,3 +221,4 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 - Apple varieties, honey type and yeast are not published.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives the ingredients only.

@@ -118,7 +118,7 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
     'Series patterns': yesNo,
   },
   checkbox: { 'Text style': typeRole },
-  'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels) },
+  'estimate-tooltip': { Shape: shape, Surface: colorRole, Elevation: numberOf(elevationLevels), 'Show inputs': yesNo },
   'filters-dialog': { Shape: shape, 'Width on wide screens': numberOf([480, 560, 640, 720]) },
   'stat-card': { 'Card style': cardStyle, 'Figure style': typeRole, 'Label style': typeRole },
   'page-header': { 'Container color': colorRole, 'Title style': typeRole, 'Current page color': colorRole },

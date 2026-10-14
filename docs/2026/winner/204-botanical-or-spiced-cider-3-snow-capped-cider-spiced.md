@@ -33,14 +33,6 @@ description:
 entries: 21
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/spiced/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://untappd.com/b/snow-capped-cider-spiced-cider/6833708"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/spiced/"
@@ -49,6 +41,7 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/spiced/"
@@ -153,7 +146,9 @@ sources:
   - "https://www.snowcappedcider.com/"
 srm: null
 style: "Spiced Cider"
-tasting-notes: null
+tasting-notes:
+  text: "It is full of complex mulling spices and orange peel vibes."
+  source: "https://snowcappedcider.com/all-ciders/spiced/"
 water: null
 yeast: []
 ---
@@ -189,7 +184,9 @@ Source: [Snow Capped: Spiced](https://snowcappedcider.com/all-ciders/spiced/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> It is full of complex mulling spices and orange peel vibes.
+
+Source: [snowcappedcider.com](https://snowcappedcider.com/all-ciders/spiced/)
 
 ## ingredients
 
@@ -241,8 +238,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/spiced/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [untappd.com](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/spiced/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [untappd.com](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/spiced/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [untappd.com](https://untappd.com/b/snow-capped-cider-spiced-cider/6833708), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -252,3 +249,4 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 - The official list places the cidery in Austin, CO; that location is kept as given.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page's tasting words are recorded.

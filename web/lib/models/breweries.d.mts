@@ -44,7 +44,12 @@ export type IndexInfo = {
 
 export type IndexRow = FilterFields & Pick<MedalRow, 'points' | 'brewery_slug'>;
 
-export type BreweryRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'entries' | 'category_medals' | 'special' | 'abv' | 'ibu' | 'beer_style' | 'tasting_note' | 'tasting_source' | 'beer_url'> & {
+export type BreweryRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'entries' | 'category_medals' | 'special' | 'abv'> & {
+  ibu: number | null;
+  beer_style: string | null;
+  tasting_note: string | null;
+  tasting_source: string | null;
+  beer_url: string | null;
   stem: string | null;
   malts: string[];
   yeast: string[];
@@ -87,7 +92,7 @@ export type BreweryRecord = {
   rows: BreweryRow[];
 };
 
-export type FirstTimeRow = FilterFields & Pick<MedalRow, 'first_time' | 'brewery_slug' | 'category_slug' | 'category_number' | 'entries' | 'abv' | 'ibu' | 'beer_profile' | 'fed_district_name'>;
+export type FirstTimeRow = FilterFields & Pick<MedalRow, 'first_time' | 'brewery_slug' | 'category_slug' | 'category_number' | 'entries' | 'abv' | 'beer_profile'> & { ibu: number | null };
 
 export type FirstTimeRecord = {
   year: number;

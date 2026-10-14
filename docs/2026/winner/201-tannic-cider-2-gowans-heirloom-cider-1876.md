@@ -31,18 +31,13 @@ description:
 entries: 28
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gowansheirloomcider.com/"
-      - "https://www.gowansheirloomcider.com/1876-heirloom-cider"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gowansheirloomcider.com/"
       - "https://www.gowansheirloomcider.com/1876-heirloom-cider"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gowansheirloomcider.com/"
@@ -109,12 +104,6 @@ gaps:
       - "https://www.gowansheirloomcider.com/1876-heirloom-cider"
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://gowansheirloomcider.com/"
-      - "https://www.gowansheirloomcider.com/1876-heirloom-cider"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -122,14 +111,18 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Estate-grown organic heirloom apples, pressed fresh at harvest"
+  source: "https://www.gowansheirloomcider.com/1876-heirloom-cider"
 sources:
   - "https://gowansheirloomcider.com/"
   - "https://www.gowansheirloomcider.com/1876-heirloom-cider"
   - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
 srm: null
 style: "Naturally tannic cider"
-tasting-notes: null
+tasting-notes:
+  text: "This classic French inspired-style cider captures the ripe apple aromatics of harvest time, plus rich earthiness, florals, honey and stone fruit."
+  source: "https://www.gowansheirloomcider.com/1876-heirloom-cider"
 water: null
 yeast: []
 ---
@@ -165,7 +158,9 @@ Source: [Gowan's: 1876](https://www.gowansheirloomcider.com/1876-heirloom-cider)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This classic French inspired-style cider captures the ripe apple aromatics of harvest time, plus rich earthiness, florals, honey and stone fruit.
+
+Source: [gowansheirloomcider.com](https://www.gowansheirloomcider.com/1876-heirloom-cider)
 
 ## ingredients
 
@@ -183,7 +178,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Estate-grown organic heirloom apples, pressed fresh at harvest | [gowansheirloomcider.com](https://www.gowansheirloomcider.com/1876-heirloom-cider) |
 
 ## style-context
 
@@ -215,8 +210,8 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/1876-heirloom-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 - Not published: IBU. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/1876-heirloom-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [gowansheirloomcider.com](https://gowansheirloomcider.com/), [gowansheirloomcider.com](https://www.gowansheirloomcider.com/1876-heirloom-cider), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -225,3 +220,4 @@ Links checked 2026-10-14: [Website](https://gowansheirloomcider.com/), [Instagra
 - Apple varieties and yeast are not published.
 - No 2026 medal announcement from the cidery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the cidery page gives tasting words, the pressing and 5.7% ABV.
