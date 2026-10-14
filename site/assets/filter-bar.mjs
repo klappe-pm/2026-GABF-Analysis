@@ -45,6 +45,8 @@ export const VALUE_LABELS = {
   brewery_type: { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regional brewery', planning: 'In planning', large: 'Large brewery', closed: 'Closed', contract: 'Contract brewer', proprietor: 'Alternating proprietor', nano: 'Nanobrewery', bar: 'Bar', taproom: 'Taproom' },
   category_type: { classic: 'Classic style', special: 'Special' },
   basis: { 'type-heuristic': 'Estimated from brewery type', 'boty-bracket': 'Brewery of the Year size bracket', estimate: 'Curated estimate', reported: 'Reported', bracket: 'Size bracket', curated: 'Curated estimate', heuristic: 'Estimated from brewery type', 'profile estimate': 'Brewery profile estimate' },
+  section: { main: 'Main Competition', 'pro-am': 'Pro-Am', collaboration: 'Collaboration' },
+  characteristic: { sour: 'Sour or Wild Category', fruit: 'Fruit Category', spice: 'Herb or Spice Category', coffee: 'Coffee Category', chocolate: 'Chocolate Category', barrel_aged: 'Wood or Barrel Category', non_alcoholic: 'Nonalcoholic Category', gluten_free: 'Gluten-Free Category' },
   first_time: { new: 'First medal in the loaded record', 'new-complete': 'First medal in the complete record' },
 };
 
