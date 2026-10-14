@@ -37,7 +37,7 @@ export function importResults(results, { specs, gaps, retrieved }) {
         beer_name: x.beer,
         abv: num(x.abv),
         ibu: num(x.ibu),
-        style: x.style ?? '',
+        style: (x.style ?? '').replace(/\s+-\s+/g, ': '),
         source_url: x.source_url,
         source_kind: 'brewery-site',
         retrieved,
