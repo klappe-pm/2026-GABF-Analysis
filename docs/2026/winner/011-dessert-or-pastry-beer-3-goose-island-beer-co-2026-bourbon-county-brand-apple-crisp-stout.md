@@ -41,51 +41,131 @@ gaps:
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "srm"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "og"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "fg"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "hops"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "hop-form"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "hop-use"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "yeast"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
   - field: "water"
     sources-checked:
       - "https://www.gooseisland.com/"
       - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/sitemap.xml"
+      - "https://www.gooseisland.com/wp-sitemap.xml"
+      - "https://www.gooseisland.com/taproom"
+      - "https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug"
+      - "https://www.gooseisland.com/beers/312-wheat-ale"
+      - "https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/"
+      - "https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/"
+      - "https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island"
 hop-profile: []
 hops: []
 ibu: null
@@ -193,8 +273,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
+- Not Found: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [gooseisland.com](https://www.gooseisland.com/sitemap.xml), [gooseisland.com](https://www.gooseisland.com/wp-sitemap.xml), [gooseisland.com](https://www.gooseisland.com/taproom), [gooseisland.com](https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug), [gooseisland.com](https://www.gooseisland.com/beers/312-wheat-ale), [thedailypour.com](https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/), [beeronaut.com](https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/), [newschoolbeer.com](https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/sitemap.xml), [gooseisland.com](https://www.gooseisland.com/wp-sitemap.xml), [gooseisland.com](https://www.gooseisland.com/taproom), [gooseisland.com](https://www.gooseisland.com/beers/big-hazy-pineapple-beer-hug), [gooseisland.com](https://www.gooseisland.com/beers/312-wheat-ale), [thedailypour.com](https://thedailypour.com/beer/goose-island-bourbon-county-lineup-announcement/), [beeronaut.com](https://www.beeronaut.com/2026/07/21/goose-islands-2026-bourbon-county-stout-lineup-announced/), [newschoolbeer.com](https://newschoolbeer.com/home/2026/7/2026-bourbon-county-stout-lineup-reveal-from-goose-island).
 
 ## research-notes
 
@@ -204,3 +284,5 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A 2026 Apple Crisp IBU and hops search found a release tasting event and medal coverage, without bitterness or hop varieties. No values from other Bourbon County variants were transferred.
 - Deep dive pass 2026-10-14: the brewery page gives tasting notes, 13.9% ABV and the finishing ingredients; it names no hops for this variant.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery beer page, lineup press): found nothing new; 4 pages tried. Brewery page and lineup coverage give ingredients, tasting notes and barrel aging only; no hops, yeast, IBU, SRM, gravity or water.

@@ -269,7 +269,12 @@ export function extractFields(html) {
   const desc = (ldDesc ? decodeEntities(ldDesc.replace(/<[^>]+>/g, ' ')) : meta)?.replace(/\s+/g, ' ').trim();
   if (desc && desc.length >= 40 && desc.length <= 1500) f.description = desc;
 
-  const abv = props.abv ?? props.alcoholbyvolume ?? labelled(lines, /ABV|Alc(?:ohol)?(?: by volume)?\.?|A\.?B\.?V\.?/) ?? text.match(/(\d{1,2}(?:\.\d{1,2})?)\s*%\s*(?:ABV|alc)/i)?.[1] ?? text.match(/ABV\s*(\d{1,2}(?:\.\d{1,2})?)/i)?.[1];
+  // A bound ("<0.5%", "less than 0.5%", "up to 5%") is not the beer's figure.
+  const BOUND = /(?:^|\s)(?:<|\u2264|less than|under|below|up to|max\w*|no more than)\s*$|^\s*(?:<|\u2264|less than|under|below|up to|max\w*|no more than)\b|\bor less\b/i;
+  const bounded = (m) => m && (BOUND.test(m[1] ?? '') || /or less/i.test(m[0]) || /^\s*(?:or less|and under|maximum|max\b)/i.test(text.slice(m.index + m[0].length, m.index + m[0].length + 14)));
+  const abvMatch = text.match(/((?:<|\u2264|less than|under|below|up to|max\w*|no more than)\s*)?(\d{1,2}(?:\.\d{1,2})?)\s*%\s*(?:or less\s*)?(?:ABV|alc)/i);
+  const labelAbv = labelled(lines, /ABV|Alc(?:ohol)?(?: by volume)?\.?|A\.?B\.?V\.?/);
+  const abv = props.abv ?? props.alcoholbyvolume ?? (labelAbv && !BOUND.test(labelAbv) && !/or less/i.test(labelAbv) ? labelAbv : null) ?? (abvMatch && !bounded(abvMatch) ? abvMatch[2] : null);
   if (abv !== undefined && abv !== null && inRange('abv', num(abv))) f.abv = num(abv);
   const ibu = props.ibu ?? props.ibus ?? labelled(lines, /IBUs?|International Bitterness Units?/) ?? text.match(/(\d{1,3})\s*IBUs?\b/i)?.[1];
   if (ibu !== undefined && ibu !== null && inRange('ibu', num(ibu))) f.ibu = num(ibu);

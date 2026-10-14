@@ -38,6 +38,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "abv"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -46,6 +55,15 @@ gaps:
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "ibu"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -54,6 +72,15 @@ gaps:
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "srm"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -61,6 +88,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "og"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -68,6 +104,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "fg"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -75,6 +120,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "hops"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -82,6 +136,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "hop-form"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -89,6 +152,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "hop-use"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -96,6 +168,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "lot-or-farm"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -103,6 +184,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "yeast"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -110,6 +200,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
   - field: "water"
     sources-checked:
       - "https://localtimebrewing.com/"
@@ -117,6 +216,15 @@ gaps:
       - "https://localtimebrewing.com/our-menu/"
       - "https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing"
       - "web searches recorded in the research notes"
+      - "https://localtimebrewing.com/sitemap_index.xml"
+      - "https://localtimebrewing.com/sitemap.xml"
+      - "https://localtimebrewing.com/wp-sitemap.xml"
+      - "https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf"
+      - "https://www.giftly.com/gift-card/local-time-brewing-holly-springs"
+      - "https://www.beermenus.com/beers/392046-zipline-local-time"
+      - "https://craftbrewingbusiness.com/?p=81972"
+      - "https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015"
+      - "https://www.charlottemagazine.com/?p=13604"
 hop-profile: []
 hops: []
 ibu: null
@@ -223,8 +331,8 @@ Links checked 2026-10-14: [Website](https://localtimebrewing.com/), [Instagram](
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
-- Not Found: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, [localtimebrewing.com](https://localtimebrewing.com/sitemap_index.xml), [localtimebrewing.com](https://localtimebrewing.com/sitemap.xml), [localtimebrewing.com](https://localtimebrewing.com/wp-sitemap.xml), [vinelandcity.org](https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf), [giftly.com](https://www.giftly.com/gift-card/local-time-brewing-holly-springs), [beermenus.com](https://www.beermenus.com/beers/392046-zipline-local-time), [craftbrewingbusiness.com](https://craftbrewingbusiness.com/?p=81972), [bizfayetteville.com](https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015), [charlottemagazine.com](https://www.charlottemagazine.com/?p=13604).
+- Not Found: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [localtimebrewing.com](https://localtimebrewing.com/sitemap_index.xml), [localtimebrewing.com](https://localtimebrewing.com/sitemap.xml), [localtimebrewing.com](https://localtimebrewing.com/wp-sitemap.xml), [vinelandcity.org](https://www.vinelandcity.org/wp-content/uploads/2026/05/4.28.26-VINELANDS-WANDER-BACK-WINS-WORLD-BEER-CUP-GOLD.pdf), [giftly.com](https://www.giftly.com/gift-card/local-time-brewing-holly-springs), [beermenus.com](https://www.beermenus.com/beers/392046-zipline-local-time), [craftbrewingbusiness.com](https://craftbrewingbusiness.com/?p=81972), [bizfayetteville.com](https://bizfayetteville.com/restaurants/2025/12/12/local-time-brewery-celebrates-opening-of-second-location-in-lillington/5015), [charlottemagazine.com](https://www.charlottemagazine.com/?p=13604).
 
 ## research-notes
 
@@ -236,3 +344,5 @@ Links checked 2026-10-14: [Website](https://localtimebrewing.com/), [Instagram](
 - Second pass 2026-10-13: Found a medal report and the co-owner's explanatory comment confirming style, honey variety and barley malt. ABV, IBU and hop varieties remain unpublished in the sources found.
 - Field pass 2026-10-13: An ABV focused search excluding the already recorded local report found competition coverage without specs. No new ABV, IBU, brewery beer page or hop names were verified.
 - Deep dive pass 2026-10-14: the co-owner's comment gives the honey addition point (whirlpool); no hops or figures.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (press quoting the brewery; several searches aimed at social posts, menu and sell sheets): found nothing new; 7 pages tried. The Holly Springs Update post only repeats the already recorded co-owner comment (barley base, orange blossom honey in whirlpool); no ABV, IBU, hops or yeast surfaced. Searches return an unrelated Texas meadery named Vinland, which was excluded. Second round: tap list, social and local press searches found no Vinland post, ABV or hop list; brewmaster Devin Singley and the Lillington opening coverage do not mention the beer.

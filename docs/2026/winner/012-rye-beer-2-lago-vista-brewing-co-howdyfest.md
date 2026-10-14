@@ -37,72 +37,144 @@ gaps:
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "srm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "og"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "fg"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "hops"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "hop-form"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "hop-use"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "lot-or-farm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "yeast"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "adjuncts"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "water"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
   - field: "process"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
       - "https://www.lagovistabrewingco.com/"
       - "https://www.lagovistabrewingco.com/whatsontap"
       - "web searches recorded in the research notes"
+      - "https://www.lagovistabrewingco.com/sitemap.xml"
+      - "https://www.lagovistabrewingco.com/wp-sitemap.xml"
+      - "https://craftbeeraustin.com/lago-vista-brewing-brewery-profile"
+      - "https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html"
+      - "https://atxtoday.6amcity.com/food/best-local-beers-of-2025"
+      - "https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc"
 hop-profile: []
 hops: []
 ibu: null
@@ -210,8 +282,8 @@ Links checked 2026-10-14: [Website](https://www.lagovistabrewingco.com/), [Insta
 
 ## gaps
 
-- Not Found: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [lagovistabrewingco.com](https://www.lagovistabrewingco.com/sitemap.xml), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/wp-sitemap.xml), [craftbeeraustin.com](https://craftbeeraustin.com/lago-vista-brewing-brewery-profile), [yahoo.com](https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html), [atxtoday.6amcity.com](https://atxtoday.6amcity.com/food/best-local-beers-of-2025), [kvue.com](https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, [lagovistabrewingco.com](https://www.lagovistabrewingco.com/sitemap.xml), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/wp-sitemap.xml), [craftbeeraustin.com](https://craftbeeraustin.com/lago-vista-brewing-brewery-profile), [yahoo.com](https://www.yahoo.com/news/articles/pinthouse-takes-home-gold-silver-203941581.html), [atxtoday.6amcity.com](https://atxtoday.6amcity.com/food/best-local-beers-of-2025), [kvue.com](https://kvue.com/article/news/local/central-texas-breweries-win-great-american-beer-festival/269-9bbbd194-9606-45c1-9069-0ee413e844dc).
 
 ## research-notes
 
@@ -221,3 +293,5 @@ Links checked 2026-10-14: [Website](https://www.lagovistabrewingco.com/), [Insta
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The opened brewery Untappd beer list did not include Howdyfest, despite an indexed name match. Neither IBU nor hops were verified; Vista hops belong to another beer and were excluded.
 - Deep dive pass 2026-10-14: the tasting notes are the tap list's own words (its dash replaced with a comma); no hops, yeast or brewing figures are given.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery tap list, Texas press search): found nothing new; 5 pages tried. Tap list re-read confirms 6.2% ABV and the existing description with no IBU. Press shows a 2025 GABF silver for 'Howdyfest-Oktoberfest with Rye' (a prior year release); no specs, hops, yeast or process found.

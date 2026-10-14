@@ -45,6 +45,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "srm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -55,6 +61,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "og"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -65,6 +77,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "fg"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -75,6 +93,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "hops"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -85,6 +109,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "hop-form"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -95,6 +125,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "hop-use"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -105,6 +141,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "lot-or-farm"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -115,6 +157,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "malts"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -125,6 +173,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "yeast"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -135,6 +189,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "water"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -145,6 +205,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
   - field: "process"
     sources-checked:
       - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
@@ -155,6 +221,12 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
       - "web search 2026-10-14: Third Eye Kelly's Private Stash"
+      - "https://thirdeyebrewingco.com/sitemap.xml"
+      - "https://thirdeyebrewingco.com/wp-sitemap.xml"
+      - "https://thirdeyebrewingco.com/post-sitemap.xml"
+      - "https://thirdeyebrewingco.com/taproom/"
+      - "https://thegnarlygnome.com/?p=64143"
+      - "https://porchdrinking.com/?p=218218"
 hop-profile: []
 hops: []
 ibu: 20
@@ -261,7 +333,7 @@ Links checked 2026-10-14: [Website](https://thirdeyebrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055), web searches recorded in the research notes, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), web search 2026-10-14: Third Eye Kelly's Private Stash.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [untappd.com](https://untappd.com/b/third-eye-brewing-company-2026-kelly-s-private-stash-ferd-s-edition/6570055), web searches recorded in the research notes, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), web search 2026-10-14: Third Eye Kelly's Private Stash, [thirdeyebrewingco.com](https://thirdeyebrewingco.com/sitemap.xml), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/wp-sitemap.xml), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/post-sitemap.xml), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/taproom/), [thegnarlygnome.com](https://thegnarlygnome.com/?p=64143), [porchdrinking.com](https://porchdrinking.com/?p=218218).
 
 ## research-notes
 
@@ -273,3 +345,5 @@ Links checked 2026-10-14: [Website](https://thirdeyebrewingco.com/), [Instagram]
 - Second pass 2026-10-13: Found the matching 2026 Ferd's Edition listing with ABV, IBU, finishing ingredients and barrel details. The separately described regular Private Stash release was excluded.
 - Field pass 2026-10-13: A targeted brewery domain search for Ferd and Kelly found no beer page or hop names. The previously verified 2026 formulation is retained.
 - Deep dive pass 2026-10-14: PorchDrinking's 2022 pouring guide lists the base Kelly's Private Stash as a bourbon barrel aged English barleywine; nothing describes the Ferds Addition variant, so no figure is carried over.
+- Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, press search): found nothing new; 4 pages tried. Nothing new. The brewery home page repeats the medal post naming the beer 'Kelly's Private Stash (Ferd's Edition)'; no tasting notes, process or hops found. The 2026 U.S. Open coverage of other Kelly's Private Stash versions was not carried over.
