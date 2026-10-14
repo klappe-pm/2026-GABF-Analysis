@@ -36,7 +36,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -55,9 +54,10 @@ region: "West"
 slug: "blue-moon-brewing-co"
 sources:
   - "Founded inside Coors; Tenth and Blake division"
+  - "official site found by web search; home page names the brewery and city"
 state: "CO"
 untappd: null
-website: null
+website: "https://bluemoonbrewingcompany.com/"
 world-beer-cup-medals: 0
 ---
 

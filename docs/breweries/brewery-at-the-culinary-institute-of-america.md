@@ -35,7 +35,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "brewery-at-the-culinary-institute-of-america"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "NY"
 untappd: null
-website: null
+website: "https://www.ciafoodies.com/cia-brewery"
 world-beer-cup-medals: 0
 ---
 

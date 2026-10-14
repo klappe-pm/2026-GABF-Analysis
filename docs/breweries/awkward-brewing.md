@@ -36,7 +36,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "awkward-brewing"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "GA"
 untappd: null
-website: null
+website: "http://www.awkwardbrew.com/"
 world-beer-cup-medals: 0
 ---
 

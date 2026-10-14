@@ -36,7 +36,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "los-molinos-beer-co"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "CA"
 untappd: null
-website: null
+website: "https://losmolinosbeer.com"
 world-beer-cup-medals: 0
 ---
 

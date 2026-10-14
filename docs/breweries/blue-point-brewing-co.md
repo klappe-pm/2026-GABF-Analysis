@@ -35,7 +35,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,9 +52,10 @@ region: "Northeast"
 slug: "blue-point-brewing-co"
 sources:
   - "AB InBev 2014; sold to Tilray Brands 2023"
+  - "official site found by web search; home page names the brewery and city"
 state: "NY"
 untappd: null
-website: null
+website: "https://www.bluepointbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

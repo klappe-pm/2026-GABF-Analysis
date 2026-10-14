@@ -41,7 +41,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
 instagram: null
@@ -60,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "prost-brewing-co"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "CO"
 untappd: null
-website: null
+website: "https://prostbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

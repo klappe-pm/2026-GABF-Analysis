@@ -36,7 +36,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "horse-thief-hollow-brewing-co"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "IL"
 untappd: null
-website: null
+website: "https://horsethiefbrewing.com/"
 world-beer-cup-medals: 0
 ---
 
