@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -29,18 +29,89 @@ brewery-state: "IL"
 brewery-url: "https://www.gooseisland.com/"
 category-name: "Dessert or Pastry Beer"
 category-number: 11
+description:
+  text: "2026 Bourbon County Brand Apple Crisp Stout embraces the warming expressions bourbon barrels carry naturally."
+  source: "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
 entries: 67
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.gooseisland.com/"
+      - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts:
   - "Oats"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.gooseisland.com/"
   - "https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout"
+srm: null
 style: "Imperial Stout Aged in Bourbon Barrels"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,19 +144,56 @@ The 2026 Bourbon County Brand Apple Crisp Stout is a bourbon barrel aged imperia
 
 Source: [Goose Island: 2026 Apple Crisp Stout](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery's ingredient line reads "Bourbon County with apple, cinnamon, clove, nutmeg, oats & panela sugar." Its description credits barrel team member Chase Craig with the recipe and says the spices complement the bourbon oak, the apples add brightness, toasted oats give body, and "Panela sugar, raw and deeply caramelized, draws out the same toasted sweetness found in the barrel's own char" ([Goose Island](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout)). No hops, malts beyond oats, or yeast are named.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Dessert or Pastry Beer describes beers that "build on a strong dark beer base and incorporate culinary ingredients," deep amber to black, at 5.5 to 10.25 percent ABV or more and 20 to 65 IBU. A 13.9% imperial stout with apple, baking spice, oats and panela sugar fits the open ended upper ABV range and the culinary intent.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Dessert or Pastry Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Goose Island Beer Co. is in Chicago, IL. Brewery type in Open Brewery DB: Large brewery.
+
+Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](https://www.instagram.com/gooseisland/), [Untappd](https://untappd.com/gooseisland).
 
 ## links
 
 - [Beer page on brewery site](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout)
 - [Goose Island Beer Co.](https://www.gooseisland.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes.
+- Not published: IBU. Checked [gooseisland.com](https://www.gooseisland.com/), [gooseisland.com](https://www.gooseisland.com/beers/2026-bourbon-county-brand-apple-crisp-stout), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

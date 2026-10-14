@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,7 +25,86 @@ brewery-state: "CO"
 brewery-url: "https://holidailybrewing.com/"
 category-name: "Hoppy Gluten-Free Beer"
 category-number: 27
+description:
+  text: "AROMA: Strong forward notes of pine, citrus and tropical fruits. Background hints of malty sweetness. APPEARANCE: A medium gold with a dry, hop-induced haziness. FLAVOR: Complex pine and citrus hop notes, with a smooth, malty finish. MOUTHFEEL: Full body with a smooth finish."
+  source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
 entries: 19
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://holidailybrewing.com/"
+      - "https://holidailybrewing.com/beers/fat-randys-ipa/"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Cascade"
+    variety: "Cascade"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
+  - published: "Centennial"
+    variety: "Centennial"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://holidailybrewing.com/beers/fat-randys-ipa/"
 hops:
   - "Cascade"
   - "Centennial"
@@ -35,12 +114,17 @@ malts:
   - "Buckwheat malt"
   - "Millet malt"
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://holidailybrewing.com/"
   - "https://holidailybrewing.com/beers/fat-randys-ipa/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -73,19 +157,59 @@ Fat Randy's IPA is a gluten-free IPA brewed from roasts of millet and buckwheat 
 
 Source: [Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery lists a grain bill of "a combination of roasts of millet malt and buckwheat malt" and a hop bill of "a blend of hops including Mosaic, Cascade and Centennial", so the hop list may be partial ([Holidaily: Fat Randy's IPA](https://holidailybrewing.com/beers/fat-randys-ipa/)). No yeast is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Cascade | Cascade | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+| Centennial | Centennial | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+| Mosaic | Mosaic | not published | not published | not published | [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Gluten-Free Beer require every ingredient to be free of gluten, exclude barley, wheat, spelt and rye, and let ABV, IBU and color vary with the underlying style, judging entries on their own merits. The millet and buckwheat grist meets that requirement, and no published figure conflicts with the guideline.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Hoppy Gluten-Free Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Holidaily Brewing Co. is in Golden, CO.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://holidailybrewing.com/beers/fat-randys-ipa/)
 - [Holidaily Brewing Co.](https://holidailybrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [holidailybrewing.com](https://holidailybrewing.com/), [holidailybrewing.com](https://holidailybrewing.com/beers/fat-randys-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 

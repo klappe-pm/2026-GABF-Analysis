@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -26,12 +26,116 @@ brewery-state: "MN"
 brewery-url: "https://townhallbrewery.com/"
 category-name: "Mixed Culture Brett Beer"
 category-number: 31
+description:
+  text: "Barrel grown and fermented mixed culture Brettanomyces with orchard grown Bartlett Pears."
+  source: "https://www.beeradvocate.com/beer/profile/1177/690142/"
 entries: 24
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
+      - "https://townhallbrewery.com/"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer"
+      - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
+      - "https://www.beeradvocate.com/beer/profile/1177/690142/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/"
   - "https://townhallbrewery.com/"
@@ -39,7 +143,10 @@ sources:
   - "https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu"
   - "https://www.beeradvocate.com/beer/profile/1177/690142/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Mixed Culture Ale"
+tasting-notes: null
+water: null
 yeast: 
   - "Brettanomyces"
 ---
@@ -73,13 +180,45 @@ Orchard Pear is a beer from Minneapolis Town Hall Brewery, a brewpub at 1430 Sou
 
 Source: [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The product description names the fruit variety and yeast recorded above but provides no grain bill, hop varieties or bacteria. [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mixed-Culture Brett Beer call for Brettanomyces character together with bacteria that are "incorporated and in evidence", medium to high fruity esters, and ABV and IBU that vary with the underlying style; fruited versions should show fruit in balance. With no published specs, fit cannot be assessed.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mixed Culture Brett Beer | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Minneapolis Town Hall Brewery is in Minneapolis, MN. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://townhallbrewery.com/), [Instagram](https://www.instagram.com/townhallbrewery/).
 
 ## links
 
@@ -89,6 +228,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Town Hall Brewery: beer menu](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer)
 - [Town Hall Brewery: drink menu](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes.
+- Not published: IBU. Checked [heavytable.com](https://heavytable.com/pairing-food-with-town-halls-barrel-aged-beer/), [townhallbrewery.com](https://townhallbrewery.com/), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-beer), [townhallbrewery.com](https://townhallbrewery.com/minneapolis-downtown-town-hall-brewery-drink-menu), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/1177/690142/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

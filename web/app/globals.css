@@ -1,69 +1,162 @@
-@import "tailwindcss";
-@import "../design/tokens.css";
+/* Tailwind without its preflight: preflight zeroes padding, margin, and borders on every element, which
+   would override the host styles of Material's components. The reset below skips Material's elements. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Colors and faces come only from Material's custom properties, which web/design/theme.ts sets from the
+   settings files. Tailwind's own palette and font stacks are switched off so nothing else can be used.
+   Spacing and breakpoints are Tailwind's defaults and are fixed at build time. */
+@theme {
+  --color-*: initial;
+  --font-*: initial;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+@theme inline {
+  --color-primary: var(--md-sys-color-primary);
+  --color-on-primary: var(--md-sys-color-on-primary);
+  --color-primary-container: var(--md-sys-color-primary-container);
+  --color-on-primary-container: var(--md-sys-color-on-primary-container);
+  --color-secondary: var(--md-sys-color-secondary);
+  --color-on-secondary: var(--md-sys-color-on-secondary);
+  --color-secondary-container: var(--md-sys-color-secondary-container);
+  --color-on-secondary-container: var(--md-sys-color-on-secondary-container);
+  --color-tertiary: var(--md-sys-color-tertiary);
+  --color-on-tertiary: var(--md-sys-color-on-tertiary);
+  --color-tertiary-container: var(--md-sys-color-tertiary-container);
+  --color-on-tertiary-container: var(--md-sys-color-on-tertiary-container);
+  --color-error: var(--md-sys-color-error);
+  --color-on-error: var(--md-sys-color-on-error);
+  --color-error-container: var(--md-sys-color-error-container);
+  --color-on-error-container: var(--md-sys-color-on-error-container);
+  --color-background: var(--md-sys-color-background);
+  --color-on-background: var(--md-sys-color-on-background);
+  --color-surface: var(--md-sys-color-surface);
+  --color-surface-dim: var(--md-sys-color-surface-dim);
+  --color-surface-bright: var(--md-sys-color-surface-bright);
+  --color-surface-container-lowest: var(--md-sys-color-surface-container-lowest);
+  --color-surface-container-low: var(--md-sys-color-surface-container-low);
+  --color-surface-container: var(--md-sys-color-surface-container);
+  --color-surface-container-high: var(--md-sys-color-surface-container-high);
+  --color-surface-container-highest: var(--md-sys-color-surface-container-highest);
+  --color-on-surface: var(--md-sys-color-on-surface);
+  --color-on-surface-variant: var(--md-sys-color-on-surface-variant);
+  --color-outline: var(--md-sys-color-outline);
+  --color-outline-variant: var(--md-sys-color-outline-variant);
+  --color-inverse-surface: var(--md-sys-color-inverse-surface);
+  --color-inverse-on-surface: var(--md-sys-color-inverse-on-surface);
+  --color-inverse-primary: var(--md-sys-color-inverse-primary);
+  --color-gold: var(--app-color-gold);
+  --color-silver: var(--app-color-silver);
+  --color-bronze: var(--app-color-bronze);
+  --color-transparent: transparent;
+  --font-plain: var(--md-ref-typeface-plain);
+  --font-brand: var(--md-ref-typeface-brand);
+  --font-label: var(--app-typeface-label);
+  --container-page: 72rem;
+  --container-measure: 40rem;
+  --container-sheet: 35rem;
+}
 
 /* State variants: each matches the live state and a data-state attribute, so the style guide can show a state statically. */
 @custom-variant state-hover (&:hover, &[data-state~="hover"]);
-@custom-variant state-active (&:active, &[data-state~="active"]);
 @custom-variant state-disabled (&:disabled, &[aria-disabled="true"], &[data-state~="disabled"]);
 
 @layer base {
-  /* Square corners and no shadows, everywhere, including browser defaults. */
-  *,
+  :where(*:not(md-filled-button, md-filled-tonal-button, md-elevated-button, md-outlined-button, md-text-button, md-checkbox, md-chip-set, md-assist-chip, md-input-chip, md-dialog, md-divider, md-elevation, md-focus-ring, md-linear-progress, md-circular-progress, md-outlined-select, md-filled-select, md-select-option, md-outlined-text-field, md-filled-text-field, md-tabs, md-primary-tab, md-outlined-card)),
   ::before,
-  ::after,
-  ::backdrop,
-  ::file-selector-button {
-    border-radius: var(--gabf-radius-none);
-    box-shadow: none;
+  ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  img, svg, video {
+    display: block;
+    vertical-align: middle;
+  }
+
+  svg.inline-block {
+    display: inline-block;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-indent: 0;
+  }
+
+  button, input, select, textarea {
+    background-color: transparent;
+  }
+
+  button, [role="button"] {
+    cursor: pointer;
+  }
+
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
   }
 
   html {
-    background-color: var(--gabf-color-ground);
-    color: var(--gabf-color-ink);
-    font-family: var(--gabf-font-family-sans);
-    font-size: 100%;
+    color-scheme: light;
+    background-color: var(--md-sys-color-background);
+    color: var(--md-sys-color-on-background);
+    font-family: var(--md-ref-typeface-plain);
     font-variant-numeric: lining-nums;
-    text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
-    scrollbar-color: var(--gabf-color-rule-strong) var(--gabf-color-ground);
-    accent-color: var(--gabf-color-ink);
-    caret-color: var(--gabf-color-ink);
+    accent-color: var(--md-sys-color-primary);
+    caret-color: var(--md-sys-color-primary);
   }
 
   body {
-    background-color: var(--gabf-color-ground);
-    color: var(--gabf-color-ink);
-    font-size: var(--gabf-font-size-body);
-    line-height: var(--gabf-font-line-height-relaxed);
+    background-color: var(--md-sys-color-background);
+    color: var(--md-sys-color-on-background);
+    font-size: var(--md-sys-typescale-body-large-size);
+    line-height: var(--md-sys-typescale-body-large-line-height);
   }
 
   ::selection {
-    background-color: var(--gabf-color-selection);
-    color: var(--gabf-color-ink);
+    background-color: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
   }
 
-  :focus-visible,
-  [data-state~="focus"] {
-    outline: var(--gabf-rule-heavy) solid var(--gabf-color-focus);
-    outline-offset: var(--gabf-rule-heavy);
+  /* Material components draw their own focus ring; plain links, buttons, and summaries get the same look. */
+  :where(a, button, summary, input, select, [tabindex]):focus-visible,
+  a[data-state~="focus"] {
+    outline: 3px solid var(--md-sys-color-secondary);
+    outline-offset: 2px;
+    border-radius: var(--md-sys-shape-corner-extra-small);
   }
 
   a {
     text-underline-offset: 0.2em;
-    text-decoration-thickness: var(--gabf-rule-hairline);
   }
 
+  button,
   input,
   select,
-  button,
   textarea {
     font: inherit;
     color: inherit;
-  }
-
-  input[type="checkbox"],
-  select {
-    appearance: none;
   }
 
   [popover] {
@@ -75,67 +168,43 @@
     overflow: visible;
   }
 
-  dialog {
-    max-width: none;
-    max-height: none;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    color: inherit;
-  }
-
-  dialog::backdrop {
-    background-color: var(--gabf-color-ink);
-    opacity: 0.45;
-  }
-
+  /* Reduced motion: Material's own durations go to zero, and so does anything else that moves. */
   @media (prefers-reduced-motion: reduce) {
+    :root {
+      --md-sys-motion-duration-short1: 0ms;
+      --md-sys-motion-duration-short2: 0ms;
+      --md-sys-motion-duration-short3: 0ms;
+      --md-sys-motion-duration-short4: 0ms;
+      --md-sys-motion-duration-medium1: 0ms;
+      --md-sys-motion-duration-medium2: 0ms;
+      --md-sys-motion-duration-medium3: 0ms;
+      --md-sys-motion-duration-medium4: 0ms;
+      --md-sys-motion-duration-long1: 0ms;
+      --md-sys-motion-duration-long2: 0ms;
+      --md-sys-motion-duration-long3: 0ms;
+      --md-sys-motion-duration-long4: 0ms;
+      --md-sys-motion-duration-extra-long1: 0ms;
+      --md-sys-motion-duration-extra-long2: 0ms;
+      --md-sys-motion-duration-extra-long3: 0ms;
+      --md-sys-motion-duration-extra-long4: 0ms;
+    }
+
     *,
     ::before,
     ::after {
       transition-duration: 0s !important;
       animation-duration: 0s !important;
+      animation-iteration-count: 1 !important;
     }
   }
 }
 
 @layer components {
-  /* The estimate popover sits under its (E) mark where anchor positioning exists, and centers otherwise. */
+  /* The estimate note sits under its (E) mark where anchor positioning exists, and centers otherwise. */
   .anchored-note {
     inset: auto;
     position-area: bottom span-right;
     position-try-fallbacks: flip-block, flip-inline;
-    margin-top: var(--gabf-space-1);
-  }
-
-  /* The Filters sheet: a bottom sheet on phones, a panel under the header on wide screens. */
-  .filters-sheet {
-    position: fixed;
-    inset: auto 0 0 0;
-    width: 100%;
-    max-height: 90dvh;
-    margin: 0;
-  }
-
-  @media (width >= 48rem) {
-    .filters-sheet {
-      inset: var(--gabf-space-7) var(--gabf-space-5) auto auto;
-      width: var(--gabf-size-sheet);
-      max-height: calc(100dvh - var(--gabf-space-8));
-    }
-  }
-
-  .skeleton-line {
-    animation: skeleton-pulse 1.6s ease-in-out infinite;
-  }
-
-  @keyframes skeleton-pulse {
-    0%,
-    100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.55;
-    }
+    margin-top: 0.25rem;
   }
 }

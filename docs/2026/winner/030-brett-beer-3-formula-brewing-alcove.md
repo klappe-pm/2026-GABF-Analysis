@@ -9,7 +9,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,18 +25,107 @@ brewery-state: "WA"
 brewery-url: "https://www.formulabrewing.com/"
 category-name: "Brett Beer"
 category-number: 30
+description:
+  text: "New today: Alcove, Brett Saison, 5.6%"
+  source: "https://www.formulabrewing.com/"
 entries: 27
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.formulabrewing.com/"
+      - "https://www.formulabrewing.com/beer-awards"
+      - "https://www.formulabrewing.com/beer-drinks-menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.formulabrewing.com/"
   - "https://www.formulabrewing.com/beer-awards"
   - "https://www.formulabrewing.com/beer-drinks-menu"
+srm: null
 style: "Brett Saison"
+tasting-notes: null
+water: null
 yeast:
   - "Brettanomyces"
 ---
@@ -72,13 +161,45 @@ Punctuation lightly normalized.
 
 Source: [Formula Brewing: home page Instagram feed](https://www.formulabrewing.com/), from the brewery's [Instagram post](https://www.instagram.com/p/DdC7xe1mIjH/) shown there.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Beyond the Brett saison label, no ingredient for Alcove is published on the brewery's home page, beer and drinks menu, or awards page.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Brett Beer call for Brettanomyces character at low to high levels, medium to high fruity esters, low to medium-low acidity, no bacteria, and ABV and IBU that vary with the underlying style. A 5.6% Brett saison fits that frame; whether bacteria were excluded is not published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Brett Beer | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Formula Brewing is in Issaquah, WA. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -87,6 +208,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Formula Brewing: beer awards](https://www.formulabrewing.com/beer-awards)
 - [Formula Brewing: Instagram post on new beers](https://www.instagram.com/p/DdC7xe1mIjH/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

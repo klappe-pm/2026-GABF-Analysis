@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,107 @@ brewery-state: "CA"
 brewery-url: "https://www.taproombeerco.com/"
 category-name: "West Coast-Style India Pale Ale"
 category-number: 102
+description:
+  text: "Bright punches of grapefruit zest, lime and splashes of mango from the Citra hops. The Mosaic adds depth with notes of blueberry, ripe peach and a subtle earthy/dank undertone."
+  source: "https://www.taproombeerco.com/beer"
 entries: 277
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.taproombeerco.com/"
+      - "https://www.taproombeerco.com/beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Citra"
+    variety: "Citra"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.taproombeerco.com/beer"
+  - published: "Mosaic"
+    variety: "Mosaic"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.taproombeerco.com/beer"
 hops:
   - "Citra"
   - "Mosaic"
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.taproombeerco.com/"
   - "https://www.taproombeerco.com/beer"
+srm: null
 style: "WCIPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,19 +159,59 @@ Born Hoppy is a Citra and Mosaic West Coast IPA brewed by TapRoom Beer Co. in Sa
 
 Source: [TapRoom Beer Co.: draft list](https://www.taproombeerco.com/beer)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Only the two hops are published; the brewery credits grapefruit, lime and mango notes to Citra and blueberry, peach and dank notes to Mosaic. No malt, yeast or adjunct is named.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Citra | Citra | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+| Mosaic | Mosaic | not published | not published | not published | [taproombeerco.com](https://www.taproombeerco.com/beer) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for West Coast-Style India Pale Ale calls for straw to gold color, low to medium-low malt with no caramel or roast, high to very high assertive hop character, medium to very high bitterness, high attenuation and a dry, crisp finish, at 6.3 to 7.5 percent ABV and 50 to 75 IBU. The published 7% ABV fits that range; no IBU is published.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | West Coast-Style India Pale Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+TapRoom Beer Co. is in San Diego, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.taproombeerco.com/beer)
 - [TapRoom Beer Co.](https://www.taproombeerco.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [taproombeerco.com](https://www.taproombeerco.com/), [taproombeerco.com](https://www.taproombeerco.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

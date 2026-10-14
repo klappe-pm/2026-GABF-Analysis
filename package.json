@@ -26,8 +26,9 @@
     "verify": "npm run check && npm test && npm run validate && npm run hops:check && npm run build && npm run build:standalone && npm run design:check && npm run design-system:check",
     "design-system:build": "node scripts/design-system/build.mjs",
     "design-system:check": "node scripts/design-system/check.mjs",
-    "design-system:impact": "node scripts/design-system/impact.mjs",
+    "design-system:images": "node scripts/design-system/spec-images.mjs",
     "design-system:audit": "node scripts/design-system/audit-rendered.mjs",
+    "design-system:review": "DESIGN_REVIEW=1 npm run build --prefix web && node web/scripts/serve-out.mjs --review",
     "web:install": "npm ci --prefix web",
     "web:build": "npm run build --prefix web",
     "web:serve": "npm run serve --prefix web",
@@ -42,6 +43,7 @@
     "design:serve": "node scripts/review-server.mjs"
   },
   "dependencies": {
+    "@material/material-color-utilities": "0.4.0",
     "echarts": "6.1.0",
     "marked": "15.0.12",
     "unpdf": "1.8.1",

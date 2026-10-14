@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "The Bees Knees 2025BA"
@@ -25,17 +25,106 @@ brewery-state: "AZ"
 brewery-url: "https://ricketycricketbrewing.com/"
 category-name: "Barley Wine or Wheat Wine"
 category-number: 88
+description: null
 entries: 28
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://ricketycricketbrewing.com/"
+      - "https://ricketycricketbrewing.com/beer/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://ricketycricketbrewing.com/"
   - "https://ricketycricketbrewing.com/beer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Barley Wine or Wheat Wine"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -66,19 +155,56 @@ Barrel Aged Bee's Knees 2025 is a barrel aged strong ale from Rickety Cricket Br
 
 No brewery description of this beer was found; the brewery home page names it only in an awards list.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients is published; the name hints at honey, but no source confirms it.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) put British-Style Barley Wine Ale at 8.5 to 12.2 percent ABV and 40 to 65 IBU with high residual malt sweetness, American-Style Barley Wine Ale at the same strength with 60 to 100 IBU, and American-Style Wheat Wine Ale at the same strength with 45 to 85 IBU and at least 50 percent wheat malt. No specs are published to compare.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Barley Wine or Wheat Wine | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Rickety Cricket Brewing is in Kingman, AZ. Brewery type in Open Brewery DB: Brewpub.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Rickety Cricket Brewing](https://ricketycricketbrewing.com/)
 - [Rickety Cricket Brewing: beers](https://ricketycricketbrewing.com/beer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ricketycricketbrewing.com](https://ricketycricketbrewing.com/), [ricketycricketbrewing.com](https://ricketycricketbrewing.com/beer/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [ricketycricketbrewing.com](https://ricketycricketbrewing.com/), [ricketycricketbrewing.com](https://ricketycricketbrewing.com/beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

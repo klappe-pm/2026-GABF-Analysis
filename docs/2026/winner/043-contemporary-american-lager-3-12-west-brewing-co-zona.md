@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,121 @@ brewery-state: "AZ"
 brewery-url: "https://12westbrewing.com/"
 category-name: "Contemporary American Lager"
 category-number: 43
+description:
+  text: "Pilsner. Crisp & Light 4.3% ABV, 16oz 4pack"
+  source: "https://12westbrewing.com/beer-2/"
 entries: 46
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://12westbrewing.com/"
+      - "https://12westbrewing.com/beer-2/"
+      - "https://untappd.com/12WestBrewing/beer"
+      - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 16
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://12westbrewing.com/"
   - "https://12westbrewing.com/beer-2/"
   - "https://untappd.com/12WestBrewing/beer"
   - "https://untappd.com/b/12-west-brewing-co-zona/3022455"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "Pilsner"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -71,13 +173,45 @@ Punctuation lightly normalized.
 
 Source: [12 West: beer list](https://12westbrewing.com/beer-2/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing beyond the specs table is published; neither the brewery site nor the [Untappd listing](https://untappd.com/b/12-west-brewing-co-zona/3022455) names an ingredient.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Contemporary American-Style Lager describes a clean, crisp lager with more hop aroma and flavor than traditional American lager, at 4.1 to 5.1 percent ABV and 5 to 16 IBU. The 4.3% ABV and 16 IBU both fit.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Contemporary American Lager | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+12 West Brewing Co. is in Gilbert, AZ. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -85,6 +219,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [12 West Brewing Co.](https://12westbrewing.com/)
 - [Untappd: Zona](https://untappd.com/b/12-west-brewing-co-zona/3022455)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [12westbrewing.com](https://12westbrewing.com/), [12westbrewing.com](https://12westbrewing.com/beer-2/), [untappd.com](https://untappd.com/12WestBrewing/beer), [untappd.com](https://untappd.com/b/12-west-brewing-co-zona/3022455), web searches recorded in the research notes.
 
 ## research-notes
 

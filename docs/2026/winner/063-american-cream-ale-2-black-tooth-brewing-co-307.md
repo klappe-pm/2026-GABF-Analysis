@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "307 Lager"
@@ -25,18 +25,107 @@ brewery-state: "WY"
 brewery-url: "https://blacktoothbrewingcompany.com/"
 category-name: "American Cream Ale"
 category-number: 63
+description:
+  text: "It is a contemporary light lager with a malty, bready, and light lemon flavor with mild bitterness. It has a light body and a dry finish."
+  source: "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
 entries: 70
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://blacktoothbrewingcompany.com/"
+      - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
+      - "https://www.blacktoothbrewingcompany.com/the-beer/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 10
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://blacktoothbrewingcompany.com/"
   - "https://www.blacktoothbrewingcompany.com/beer/307-lager/"
   - "https://www.blacktoothbrewingcompany.com/the-beer/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
+srm: null
 style: "American Light Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +158,46 @@ yeast: []
 
 Source: [Black Tooth: 307 Lager](https://www.blacktoothbrewingcompany.com/beer/307-lager/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names no hop, malt, yeast or adjunct; it describes the flavor only as malty and bready with light lemon.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for American-Style Cream Ale calls for straw to gold color, pale malt sweetness, very low to low hop character, a light body, 4.3 to 5.7 percent ABV and 10 to 22 IBU. The published 10 IBU fits at the low end; the 4.2% ABV sits just under the range.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2023 | Great American Beer Festival | American Cream Ale | Gold |
+| 2026 | Great American Beer Festival | American Cream Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Black Tooth Brewing Co. is in Sheridan, WY.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -83,6 +205,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Black Tooth Brewing Co.](https://blacktoothbrewingcompany.com/)
 - [Black Tooth: the beer](https://www.blacktoothbrewingcompany.com/the-beer/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [blacktoothbrewingcompany.com](https://blacktoothbrewingcompany.com/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/beer/307-lager/), [blacktoothbrewingcompany.com](https://www.blacktoothbrewingcompany.com/the-beer/), web searches recorded in the research notes.
 
 ## research-notes
 

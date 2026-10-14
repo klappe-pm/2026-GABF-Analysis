@@ -2,8 +2,9 @@
    The site's custom properties, copied verbatim from site/assets/styles.css. */
 :root {
   color-scheme: light;
-  --surface-1: #fcfcfb;
-  --page: #f9f9f7;
+  --surface-1: #ffffff;
+  --page: #ffffff;
+  --fill: #f3f3f1;
   --card: #ffffff;
   --text-primary: #0b0b0b;
   --text-secondary: #52514e;
@@ -36,8 +37,8 @@
 :root {
   --bg-primary: var(--page);
   --bg-surface: var(--card);
-  --bg-surface-hover: var(--surface-1);
-  --bg-inset: var(--surface-1);
+  --bg-surface-hover: var(--fill);
+  --bg-inset: var(--fill);
   --border-default: var(--control-border);
   --border-muted: var(--border);
   --accent-blue: var(--link);

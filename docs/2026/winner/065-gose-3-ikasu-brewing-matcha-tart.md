@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -25,18 +25,101 @@ brewery-state: "CA"
 brewery-url: "https://www.ikasubrewing.com/"
 category-name: "Gose"
 category-number: 65
+description:
+  text: "Premium Japanese matcha meets classic German Gose. Bright tartness, earthy matcha, and gentle salinity."
+  source: "https://ikasubrewing.com/menu-light/"
 entries: 36
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://ikasubrewing.com/menu-light/"
+      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
+      - "https://www.ikasubrewing.com/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 10
 malts: []
 medal: "Bronze"
+og: null
 place: 3
+process: null
 sources:
   - "https://ikasubrewing.com/menu-light/"
   - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.ikasubrewing.com/"
+srm: null
 style: "Gose w/ Matcha"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +152,45 @@ Matcha Tart is a gose brewed with Japanese matcha by Ikasu Brewing, a Japanese-i
 
 Source: [Ikasu: beer menu](https://ikasubrewing.com/menu-light/)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Matcha is the only named ingredient. The description mentions gentle salinity, but no salt or other addition is named, and no grain bill, hops or yeast is published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Contemporary-Style Gose call for lactic sourness at 4.4 to 5.4 percent ABV and 5 to 30 IBU, and allow herbs and other additions. The menu's 4.0% ABV is below that range, while the sampler sheet's 4.7% falls inside it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Gose | Bronze |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Ikasu Brewing is in Los Angeles, CA.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -83,6 +198,10 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Beer page on brewery site](https://ikasubrewing.com/menu-light/)
 - [Ikasu Brewing](https://www.ikasubrewing.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ikasubrewing.com](https://ikasubrewing.com/menu-light/), [untappd.com](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486), [ikasubrewing.com](https://www.ikasubrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 

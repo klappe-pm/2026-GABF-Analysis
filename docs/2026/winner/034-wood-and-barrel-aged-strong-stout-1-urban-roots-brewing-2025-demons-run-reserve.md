@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,146 @@ brewery-state: "CA"
 brewery-url: "https://www.urbanrootsbrewing.com/home"
 category-name: "Wood- and Barrel-Aged Strong Stout"
 category-number: 34
+description: null
 entries: 65
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
+      - "https://www.urbanrootsbrewing.com/awards"
+      - "https://www.urbanrootsbrewing.com/blog"
+      - "https://www.urbanrootsbrewing.com/home"
+      - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -37,7 +171,10 @@ sources:
   - "https://www.urbanrootsbrewing.com/blog"
   - "https://www.urbanrootsbrewing.com/home"
   - "https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf"
+srm: null
 style: "Wood And Barrel Aged Stout"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +205,45 @@ yeast: []
 
 The brewery publishes no description of the Reserve; its awards page and bottle list give only names and categories.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the Reserve's ingredients is published. The brewery's September 2026 draught list sells the standard Demons Run in bottles as a BBA stout at 16.4%, alongside entries marked DTS 2025, NWF 2025 and Coconut 2025, but does not list a Reserve or explain those codes ([Urban Roots: draught and to-go list](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) have no standalone entry for a wood- and barrel-aged strong stout; their Other Strong Ale or Lager entry sets elevated alcohol at 8% ABV and up and notes that wood- and barrel-aged beers meeting that threshold are categorized separately. With no published ABV for the Reserve, fit cannot be checked directly.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Wood- and Barrel-Aged Strong Stout | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Urban Roots Brewing is in Sacramento, CA. Brewery type in Open Brewery DB: Brewpub.
+
+Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Untappd](https://untappd.com/UrbanRootsBeer).
 
 ## links
 
@@ -84,6 +253,11 @@ As category context only, the [Brewers Association guidelines](https://www.brewe
 - [Urban Roots: blog](https://www.urbanrootsbrewing.com/blog)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Untappd: 2024 Reserve comparison](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/awards), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/blog), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/awards), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/blog), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

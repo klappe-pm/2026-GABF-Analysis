@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,17 +24,98 @@ brewery-state: "DC"
 brewery-url: "https://www.dcbrau.com/"
 category-name: "Vienna-Style Lager"
 category-number: 55
+description:
+  text: "meticulously crafted lager that boasts rich and malty notes, with pronounced toasted bread crust flavor."
+  source: "https://www.dcbrau.com/dueling-grounds-vienna-lager"
 entries: 82
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://www.dcbrau.com/"
+      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.dcbrau.com/"
   - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
+srm: null
 style: "Vienna Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,19 +148,56 @@ Dueling Grounds is a Vienna lager from DC Brau Brewing Co. in Washington, D.C.
 
 Source: [DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna-lager)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The brewery names no malts, hops or yeast; it describes the beer as balanced, neither too sweet nor too bitter, with a mild bitter backbone and a dry, crisp finish ([DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna-lager)).
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Vienna-Style Lager calls for malty aroma, light malt sweetness and a lightly toasted or caramel character, 4.8 to 5.4 percent ABV, 20 to 26 IBU and 6 to 18 SRM. The published 5% ABV fits; IBU cannot be checked.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Vienna-Style Lager | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regional brewery.
+
+No brewery links have been checked yet.
 
 ## links
 
 - [Beer page on brewery site](https://www.dcbrau.com/dueling-grounds-vienna-lager)
 - [DC Brau Brewing Co.](https://www.dcbrau.com/)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
+- Not published: IBU. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

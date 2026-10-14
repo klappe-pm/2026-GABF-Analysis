@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,121 @@ brewery-state: "TX"
 brewery-url: "https://www.meanwhilebeer.com/"
 category-name: "Experimental Beer"
 category-number: 24
+description:
+  text: "The final installation in our Picnic Party series brings delicious layers of complexity."
+  source: "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
 entries: 26
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
+      - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
+      - "https://www.meanwhilebeer.com/"
+      - "https://www.meanwhilebeer.com/beer"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 25
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup"
   - "https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.meanwhilebeer.com/"
   - "https://www.meanwhilebeer.com/beer"
+srm: null
 style: "Paper Plane Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -69,13 +171,45 @@ Picnic Party #4 is a beer from Meanwhile Brewing Co. in Austin, Texas.
 
 Source: [Untappd: Picnic Party listing](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 The release announcement describes orange peel, gentian root, chamomile and fennel pollen as notes rather than explicitly listing additions. They are not entered as ingredients. [Meanwhile: August release announcement](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup)
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Experimental Beer covers beers that "employ unique and unusual techniques and/or ingredients", with ABV, IBU and color varying widely. The published blend and cocktail inspiration provide context for the experimental classification.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Experimental Beer | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Meanwhile Brewing Co. is in Austin, TX.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -84,6 +218,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Meanwhile Brewing Co.](https://www.meanwhilebeer.com/)
 - [Meanwhile: beer list](https://www.meanwhilebeer.com/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [say-my-name.prezly.com](https://say-my-name.prezly.com/meanwhile-brewing-co-unveils-august-lineup), [untappd.com](https://untappd.com/v/neighborhood-bottle-shoppe/12331424/photos), [meanwhilebeer.com](https://www.meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

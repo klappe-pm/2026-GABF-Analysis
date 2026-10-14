@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,19 +24,133 @@ brewery-state: "NC"
 brewery-url: "https://www.riversiderhapsody.com/"
 category-name: "Robust Porter"
 category-number: 83
+description: null
 entries: 36
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
+      - "https://www.riversiderhapsody.com/"
+      - "https://www.riversiderhapsody.com/drink-menu"
+      - "https://www.riversiderhapsody.com/food-menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.riversiderhapsody.com/"
   - "https://www.riversiderhapsody.com/drink-menu"
   - "https://www.riversiderhapsody.com/food-menu"
+srm: null
 style: "Robust Porter"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -67,13 +181,45 @@ Weather Re-Porter is a porter from Riverside Rhapsody Beer Co., whose taproom si
 
 No brewery description of this beer could be read; the tap list loads from a separate service that did not render.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about ingredients was found.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Robust Porter calls for a very dark, opaque beer with cocoa and caramel sweetness balanced by firm dark malt bitterness, 5.1 to 6.6 percent ABV and 25 to 40 IBU. The published strength fits the cited range; bitterness remains unverified.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Robust Porter | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Riverside Rhapsody Beer Co. is in Asheville, NC.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -82,6 +228,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Riverside Rhapsody: beer menu](https://www.riversiderhapsody.com/food-menu)
 - [Riverside Rhapsody: drink menu](https://www.riversiderhapsody.com/drink-menu)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/riverside-rhapsody-beer-company-weather-reporter/3978309), [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/drink-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

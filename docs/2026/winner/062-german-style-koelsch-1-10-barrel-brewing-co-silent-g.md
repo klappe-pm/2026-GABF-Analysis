@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,12 +24,146 @@ brewery-state: "CA"
 brewery-url: "https://www.10barrel.com/"
 category-name: "German-Style Koelsch"
 category-number: 62
+description: null
 entries: 112
+fg: null
+gaps:
+  - field: "description"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "abv"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "ibu"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
+      - "https://untappd.com/10BarrelBrewing"
+      - "https://untappd.com/w/10-barrel-brewing-co/3436/beer"
+      - "https://www.10barrel.com/"
+      - "https://www.greatamericanbeerfestival.com/2026-winners/"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: null
 malts: []
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
   - "https://untappd.com/10BarrelBrewing"
@@ -37,7 +171,10 @@ sources:
   - "https://www.10barrel.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greatamericanbeerfestival.com/2026-winners/"
+srm: null
 style: "German-Style Koelsch"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -68,13 +205,45 @@ Silent G is a beer from 10 Barrel Brewing Co., entered from its San Diego locati
 
 No brewery description of Silent G was found.
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Nothing about the ingredients is published on any page that could be read.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for German-Style Koelsch calls for a crisp, dry, clean beer with subtle fruity esters and noble hop character, 4.8 to 5.3 percent ABV and 22 to 30 IBU. No published specs exist to compare against it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | German-Style Koelsch | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+10 Barrel Brewing Co. is in San Diego, CA.
+
+Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 
 ## links
 
@@ -84,6 +253,11 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [Oregon medal coverage](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf)
 - [Official 2026 winners](https://www.greatamericanbeerfestival.com/2026-winners/)
+
+## gaps
+
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

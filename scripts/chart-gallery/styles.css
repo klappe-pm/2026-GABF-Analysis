@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
-  --surface: #FEF7FF;
-  --surface-container: #F3EDF7;
+  --surface: #FFFFFF;
+  --surface-container: #F3F3F1;
   --card: #FFFFFF;
   --on-surface: #1D1B20;
   --on-surface-variant: #49454F;
@@ -16,7 +16,7 @@
 * { box-sizing: border-box; }
 html { font-family: Roboto, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; background: var(--surface); color: var(--on-surface); }
 body { margin: 0; background: var(--surface); color: var(--on-surface); }
-.app-bar { background: var(--surface-container); border-bottom: 1px solid var(--outline-variant); }
+.app-bar { background: var(--surface); border-bottom: 1px solid var(--outline-variant); }
 .app-bar-inner { max-width: 1240px; margin: 0 auto; padding: 20px 16px 16px; }
 .app-bar h1 { margin: 0 0 4px; font-size: 1.75rem; line-height: 2.25rem; font-weight: 500; }
 .app-bar p { margin: 0; max-width: 62ch; color: var(--on-surface-variant); }

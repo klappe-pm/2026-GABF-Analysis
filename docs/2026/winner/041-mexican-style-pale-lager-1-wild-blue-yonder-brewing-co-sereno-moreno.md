@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases:
   - "Sereno Merono"
@@ -26,20 +26,108 @@ brewery-state: "CO"
 brewery-url: "https://www.wildblueyonderbrewing.com/"
 category-name: "Mexican-Style Pale Lager"
 category-number: 41
+description:
+  text: "Some people just need to chill out. This crisp and refreshing Mexican Lager is here to help. Extra pale pilsner malt and a touch of flaked corn make this beer ultra smooth and bone dry."
+  source: "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
 entries: 146
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hops"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
+      - "https://untappd.com/WildBlueYonderBrewingCo/beer"
+      - "https://www.wildblueyonderbrewing.com/"
+      - "https://www.wildblueyonderbrewing.com/drink-menu"
+      - "web searches recorded in the research notes"
+hop-profile: []
 hops: []
 ibu: 18
 malts:
   - "Extra pale pilsner malt"
 medal: "Gold"
+og: null
 place: 1
+process: null
 sources:
   - "https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728"
   - "https://untappd.com/WildBlueYonderBrewingCo/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.wildblueyonderbrewing.com/"
   - "https://www.wildblueyonderbrewing.com/drink-menu"
+srm: null
 style: "Mexican-Style Pale Lager"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +162,45 @@ The brewery site carries no description of the beer. The Untappd listing carries
 
 Source: [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 Only extra pale pilsner malt and "a touch of flaked corn" are named, in the [Untappd listing](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728). No hops or yeast are published.
 
+## hop-profile
+
+No hop variety is published for this beer.
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) for Mexican-Style Pale Lager describes a clean, dry finishing pale lager with low malt sweetness and low hop character, at 4.5 to 5.0 percent ABV and 15 to 22 IBU. The listed 18 IBU fits; the listed 6% ABV sits above the range, so the Untappd figure may be out of date or differ from the entered batch.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Mexican-Style Pale Lager | Gold |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Wild Blue Yonder Brewing Co. is in Castle Rock, CO.
+
+Links checked 2026-10-14: [Website](https://www.wildblueyonderbrewing.com/), [Instagram](https://www.instagram.com/wildblueyonderbrewing/), [Untappd](https://untappd.com/WildBlueYonderBrewingCo).
 
 ## links
 
@@ -89,6 +209,10 @@ As category context only, the [Brewers Association guideline](https://www.brewer
 - [Untappd: Sereno Moreno](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728)
 - [Untappd: Wild Blue Yonder beer list](https://untappd.com/WildBlueYonderBrewingCo/beer)
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/wild-blue-yonder-brewing-co-sereno-moreno/5341728), [untappd.com](https://untappd.com/WildBlueYonderBrewingCo/beer), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/), [wildblueyonderbrewing.com](https://www.wildblueyonderbrewing.com/drink-menu), web searches recorded in the research notes.
 
 ## research-notes
 

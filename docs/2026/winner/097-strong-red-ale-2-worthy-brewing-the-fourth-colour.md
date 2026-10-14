@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-13
+date-revised: 2026-10-14
 status: DONE
 aliases: []
 tags:
@@ -24,7 +24,133 @@ brewery-state: "OR"
 brewery-url: "https://www.worthybrewing.com/"
 category-name: "Strong Red Ale"
 category-number: 97
+description:
+  text: "There are three colors you know. The fourth is something else entirely."
+  source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
 entries: 32
+fg: null
+gaps:
+  - field: "tasting-notes"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "srm"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "og"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "fg"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-form"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "hop-use"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "lot-or-farm"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "malts"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "yeast"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "adjuncts"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "water"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+  - field: "process"
+    sources-checked:
+      - "https://business.untappd.com/boards/42041/page/1"
+      - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
+      - "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+      - "https://www.worthybrewing.com/"
+      - "https://www.worthybrewing.com/beer"
+      - "web searches recorded in the research notes"
+hop-profile:
+  - published: "Chinook"
+    variety: "Chinook"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+  - published: "Mosaic LUPOMAX"
+    variety: "Mosaic LUPOMAX"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+  - published: "Simcoe"
+    variety: "Simcoe"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
+  - published: "Strata Cryo"
+    variety: "Strata Cryo"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby"
 hops:
   - "Chinook"
   - "Mosaic LUPOMAX"
@@ -33,7 +159,9 @@ hops:
 ibu: 75
 malts: []
 medal: "Silver"
+og: null
 place: 2
+process: null
 sources:
   - "https://business.untappd.com/boards/42041/page/1"
   - "https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600"
@@ -41,7 +169,10 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.worthybrewing.com/"
   - "https://www.worthybrewing.com/beer"
+srm: null
 style: "Red IPA"
+tasting-notes: null
+water: null
 yeast: []
 ---
 
@@ -74,13 +205,50 @@ The Fourth Colour is a red IPA from Worthy Brewing in Bend, Oregon.
 
 Source: [Brewery description on Untappd](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby)
 
+## tasting-notes
+
+The brewery has published no tasting notes for this beer that the research could find.
+
 ## ingredients
 
 No named malt varieties, yeast or adjuncts were found beyond the hops in the specs table.
 
+## hop-profile
+
+| Hop as published | Variety | Form | Use | Lot or farm | Source |
+|---|---|---|---|---|---|
+| Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+| Mosaic LUPOMAX | Mosaic LUPOMAX | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+| Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+| Strata Cryo | Strata Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby) |
+
+## brewing-details
+
+| Field | Value | Source |
+|---|---|---|
+| Color (SRM) | not published | none found |
+| Original gravity | not published | none found |
+| Final gravity | not published | none found |
+| Water | not published | none found |
+| Process | not published | none found |
+
 ## style-context
 
 As category context only, the closest entry in the [Brewers Association guideline](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/) is Imperial Red Ale: deep amber to reddish brown, medium to high caramel malt, high hop aroma and flavor, very high bitterness and a prominent alcohol character, at 8.0 to 10.6 percent ABV and 55 to 85 IBU. The listed ABV is below this contextual range, while the IBU fits it.
+
+## awards-history
+
+| Year | Competition | Category | Medal |
+|---|---|---|---|
+| 2026 | Great American Beer Festival | Strong Red Ale | Silver |
+
+Generated from the loaded results for this brewery and beer name, not researched separately; years not loaded are not covered.
+
+## brewery-context
+
+Worthy Brewing is in Bend, OR. Brewery type in Open Brewery DB: Microbrewery.
+
+No brewery links have been checked yet.
 
 ## links
 
@@ -89,6 +257,10 @@ As category context only, the closest entry in the [Brewers Association guidelin
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)
 - [The Fourth Colour listing](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby)
 - [Worthy ordering menu](https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600)
+
+## gaps
+
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/boards/42041/page/1), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600), [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby), [worthybrewing.com](https://www.worthybrewing.com/), [worthybrewing.com](https://www.worthybrewing.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 
