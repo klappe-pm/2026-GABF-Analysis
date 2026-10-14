@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GABF Analysis social card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=Public+Sans:wght@300;400;700&display=block">
+<link rel="stylesheet" href="../../site/assets/brand.css">
+<style>
+  /* The social card for the repository, 1280 by 640. Every color is a brand.css property, so the card
+     follows the design settings; scripts/brand/social-card.mjs renders it to docs/assets/social-preview.png. */
+  html, body { margin: 0; }
+  body { width: 1280px; height: 640px; overflow: hidden; background: var(--md-sys-color-background); color: var(--md-sys-color-on-surface); font-family: "Public Sans", sans-serif; }
+  .card { position: relative; box-sizing: border-box; width: 1280px; height: 640px; padding: 0 96px; display: grid; grid-template-columns: 380px 1fr; align-items: center; gap: 56px; }
+  .card::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 14px; background: var(--md-sys-color-primary); }
+  .podium { position: relative; height: 300px; }
+  .step { position: absolute; bottom: 0; width: 112px; background: var(--md-sys-color-surface-container-high); display: flex; justify-content: center; align-items: flex-start; padding-top: 12px; box-sizing: border-box; font-size: 26px; font-weight: 400; color: var(--md-sys-color-on-surface-variant); }
+  .step.second { left: 0; height: 96px; }
+  .step.first { left: 128px; height: 136px; }
+  .step.third { left: 256px; height: 64px; }
+  .floor { position: absolute; left: -16px; right: -16px; bottom: 0; height: 2px; background: var(--md-sys-color-outline-variant); }
+  .medal { position: absolute; width: 96px; height: 96px; border-radius: 50%; box-sizing: border-box; border: 3px solid color-mix(in srgb, currentColor 70%, var(--md-sys-color-shadow)); }
+  .medal::after { content: ""; position: absolute; inset: 14px; border-radius: 50%; border: 3px solid color-mix(in srgb, var(--md-sys-color-background) 60%, transparent); }
+  .medal.silver { color: var(--app-color-silver); background: var(--app-color-silver); left: 8px; bottom: 112px; }
+  .medal.gold { color: var(--app-color-gold); background: var(--app-color-gold); left: 136px; bottom: 152px; }
+  .medal.bronze { color: var(--app-color-bronze); background: var(--app-color-bronze); left: 264px; bottom: 80px; }
+  h1 { margin: 0; font-size: 88px; line-height: 1; letter-spacing: -1.5px; font-weight: 700; white-space: nowrap; }
+  h1 span { font-weight: 300; color: var(--md-sys-color-primary); margin-left: 20px; }
+  .subtitle { margin: 28px 0 0; font-family: "Archivo Narrow", "Public Sans", sans-serif; font-weight: 500; font-size: 40px; letter-spacing: 0.5px; color: var(--md-sys-color-on-surface-variant); white-space: nowrap; }
+  .rule { display: flex; gap: 8px; margin: 36px 0 0; }
+  .rule i { display: block; width: 64px; height: 6px; }
+  .rule i:nth-child(1) { background: var(--app-color-gold); }
+  .rule i:nth-child(2) { background: var(--app-color-silver); }
+  .rule i:nth-child(3) { background: var(--app-color-bronze); }
+  .years { margin: 28px 0 0; font-size: 34px; letter-spacing: 2px; color: var(--md-sys-color-on-surface-variant); }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="podium" aria-hidden="true">
+    <div class="medal silver"></div>
+    <div class="medal gold"></div>
+    <div class="medal bronze"></div>
+    <div class="step second">2</div>
+    <div class="step first">1</div>
+    <div class="step third">3</div>
+    <div class="floor"></div>
+  </div>
+  <div>
+    <h1>GABF<span>Analysis</span></h1>
+    <p class="subtitle">Great American Beer Festival Results</p>
+    <div class="rule" aria-hidden="true"><i></i><i></i><i></i></div>
+    <p class="years">2018 to 2026</p>
+  </div>
+</div>
+</body>
+</html>

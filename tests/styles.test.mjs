@@ -20,7 +20,17 @@ test('table cells keep whole words and the table scrolls sideways instead', () =
 
 test('chart cards can shrink below the width their canvas was drawn at', () => {
   assert.match(css, /\.dash-grid > \* \{ min-width: 0; \}/);
-  assert.match(css, /max-width: 480px\) \{ \.dash-grid \{ grid-template-columns: minmax\(0, 1fr\); \}/);
+  assert.match(css, /\.dash-grid \{ display: grid; gap: 16px; grid-template-columns: minmax\(0, 1fr\); \}/);
+});
+
+test('dashboard panels and page margins follow the Material window size classes', () => {
+  assert.match(css, /min-width: 840px\) \{ \.dash-grid \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /min-width: 1200px\) \{ \.dash-grid \{ grid-template-columns: repeat\(3, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /min-width: 1600px\) \{ \.dash-grid \{ grid-template-columns: repeat\(4, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /--page-margin: var\(--brand-margin-compact\);/);
+  assert.match(css, /min-width: 600px\) \{ :root \{ --page-margin: var\(--brand-margin-wide\); \}/);
+  assert.match(css, /^main \{ max-width: var\(--brand-page-max\);/m);
+  assert.doesNotMatch(css, /max-width: 1140px/, 'no fixed page container');
 });
 
 test('wide tables in a deep dive scroll sideways instead of widening the page', () => {
@@ -57,12 +67,17 @@ test('the site ships no dark theme toggle, dark rule, theme attribute or theme s
 });
 
 test('the page background is pure white in the stylesheet and in the standalone dashboard', () => {
-  assert.match(css, /:root \{[^}]*--page: #ffffff;/);
-  assert.match(css, /:root \{[^}]*--surface-1: #ffffff;/);
+  // The stylesheet points the page at Material's background, which brand.css sets to pure white.
+  assert.match(css, /:root \{[^}]*--page: var\(--md-sys-color-background\);/);
+  assert.match(css, /:root \{[^}]*--surface-1: var\(--md-sys-color-surface\);/);
+  const brand = readFileSync(new URL('../site/assets/brand.css', import.meta.url), 'utf8');
+  assert.match(brand, /--md-sys-color-background: #ffffff;/);
+  assert.match(brand, /--md-sys-color-surface: #ffffff;/);
   const template = readFileSync(new URL('../site/standalone/template.html', import.meta.url), 'utf8');
   assert.match(template, /\/\*__STYLES__\*\//, 'the standalone template takes its styles from site/assets/styles.css');
   assert.ok(!/--page:/.test(template), 'the standalone template must not override the page variable');
   const standalone = readFileSync(new URL('../gabf-dashboard.html', import.meta.url), 'utf8');
-  assert.match(standalone, /--page: #ffffff;/);
+  assert.match(standalone, /--md-sys-color-background: #ffffff;/);
+  assert.match(standalone, /--page: var\(--md-sys-color-background\);/);
   assert.ok(!/#f9f9f7|#fcfcfb/i.test(standalone), 'the standalone dashboard keeps no off white page color');
 });

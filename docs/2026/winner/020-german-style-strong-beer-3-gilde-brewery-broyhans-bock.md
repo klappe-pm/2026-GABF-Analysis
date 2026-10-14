@@ -30,13 +30,6 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gilde-brauerei.com/?p=1161"
-      - "https://gilde1546.com/"
-      - "https://gilde1546.com/-on-tap"
-      - "https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gilde-brauerei.com/?p=1161"
@@ -44,6 +37,7 @@ gaps:
       - "https://gilde1546.com/-on-tap"
       - "https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gilde-brauerei.com/?p=1161"
@@ -144,7 +138,9 @@ sources:
   - "https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/"
 srm: null
 style: "Pale Wheat Ale (Weissbierbock)"
-tasting-notes: null
+tasting-notes:
+  text: "notes of ripe fruits, banana, and hints of vanilla"
+  source: "https://gilde1546.com/-on-tap"
 water: null
 yeast: []
 ---
@@ -180,7 +176,9 @@ Source: [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> notes of ripe fruits, banana, and hints of vanilla
+
+Source: [gilde1546.com](https://gilde1546.com/-on-tap)
 
 ## ingredients
 
@@ -228,8 +226,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes.
 - Not published: IBU. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -239,3 +237,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Located the Charlotte brewery's working site, exact beer listing, ABV and style. The Hanover Broyhan-Bock and imported Urbock are separate listings and were excluded; no IBU or hop varieties were found.
 - Field pass 2026-10-13: No new Charlotte-specific source published IBU or named hops; the Hanover Broyhan-Bock is excluded as a different beer.
+- Deep dive pass 2026-10-14: the brewery tap list's flavor words are recorded as tasting notes; it names no malts, hops or yeast.

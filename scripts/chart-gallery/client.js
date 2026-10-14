@@ -6,8 +6,8 @@
   const INK = P.ink;
   const INK2 = P.inkSecondary;
   const OUTLINE = P.outline;
-  const GRID = '#CAC4D0';
-  const FONT = 'Roboto, system-ui, -apple-system, "Segoe UI", sans-serif';
+  const GRID = P.grid;
+  const FONT = '"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif';
   const NARROW = 480;
   const MEDAL_NAMES = ['Gold', 'Silver', 'Bronze'];
   const fmt = (n) => Number(n).toLocaleString('en-US');
@@ -21,7 +21,7 @@
   const base = (extra) => Object.assign({
     animation: false,
     textStyle: { color: INK, fontFamily: FONT, fontSize: 12 },
-    tooltip: { confine: true, backgroundColor: '#FFFFFF', borderColor: OUTLINE, textStyle: { color: INK, fontSize: 12 } },
+    tooltip: { confine: true, backgroundColor: P.page, borderColor: OUTLINE, textStyle: { color: INK, fontSize: 12 } },
   }, extra);
   const axisText = { color: INK, fontSize: 12, fontFamily: FONT };
   const legendBase = { textStyle: { color: INK, fontSize: 12 }, itemWidth: 14, itemHeight: 14 };
@@ -50,7 +50,7 @@
     const val = (y, k) => (pct ? Math.round((y[k] / y.total) * 1000) / 10 : y[k]);
     const mk = (name, key) => ({
       name, type: 'bar', stack: 'm', data: years.map((y) => val(y, key)),
-      itemStyle: { color: P.medal[name], borderColor: '#FFFFFF', borderWidth: 1 },
+      itemStyle: { color: P.medal[name], borderColor: P.page, borderWidth: 1 },
       label: { show: true, color: P.textOn[P.medal[name]], fontSize: 12, formatter: (p) => (p.value && (pct || p.value >= 6) ? (pct ? `${p.value}%` : p.value) : '') },
     });
     const series = MEDAL_NAMES.map((m) => mk(m, m.toLowerCase()));
@@ -87,7 +87,7 @@
       series: R.series.map((s, ri) => ({
         name: s.region, type: 'line', symbol: 'circle', symbolSize: 26, lineStyle: { width: 4, color: P.region[s.region] }, itemStyle: { color: P.region[s.region] },
         data: R.years.map((_, i) => R.ranks[i][ri]),
-        label: { show: true, position: 'inside', color: '#FFFFFF', fontSize: 12, fontWeight: 700, formatter: (p) => p.value },
+        label: { show: true, position: 'inside', color: P.onDark, fontSize: 12, fontWeight: 700, formatter: (p) => p.value },
         endLabel: { show: true, formatter: '{a}', distance: 20, color: P.region[s.region], fontSize: 13, fontWeight: 600 },
       })),
     });
@@ -99,7 +99,7 @@
   const ROWS = 8;
   const tileBuild = (w) => {
     const narrow = w < NARROW;
-    const cell = (s) => { const b = bin(P.seqState, s.medals); return { value: [s.tile[0], s.tile[1], s.medals], code: s.code, itemStyle: { color: b.fill, borderColor: '#FFFFFF', borderWidth: 2, borderRadius: 4 }, label: { show: true, color: b.text, formatter: `{c|${s.code}}\n{n|${s.medals}}`, rich: { c: { fontSize: narrow ? 11 : 13, fontWeight: 700, color: b.text, lineHeight: narrow ? 13 : 16 }, n: { fontSize: narrow ? 10 : 12, color: b.text, lineHeight: narrow ? 12 : 15 } } } }; };
+    const cell = (s) => { const b = bin(P.seqState, s.medals); return { value: [s.tile[0], s.tile[1], s.medals], code: s.code, itemStyle: { color: b.fill, borderColor: P.page, borderWidth: 2, borderRadius: 4 }, label: { show: true, color: b.text, formatter: `{c|${s.code}}\n{n|${s.medals}}`, rich: { c: { fontSize: narrow ? 11 : 13, fontWeight: 700, color: b.text, lineHeight: narrow ? 13 : 16 }, n: { fontSize: narrow ? 10 : 12, color: b.text, lineHeight: narrow ? 12 : 15 } } } }; };
     return base({
       grid: { left: 0, right: 0, top: 0, bottom: 0 },
       xAxis: { type: 'category', data: [...Array(COLS).keys()], show: false },
@@ -148,7 +148,7 @@
           return {
             type: 'group',
             children: [
-              { type: 'polygon', shape: { points: pts }, style: { fill: b.fill, stroke: '#FFFFFF', lineWidth: 1 } },
+              { type: 'polygon', shape: { points: pts }, style: { fill: b.fill, stroke: P.page, lineWidth: 1 } },
               { type: 'text', style: { text: narrow ? code : `${code}\n${medals}`, x: c[0], y: c[1], textAlign: 'center', textVerticalAlign: 'middle', fill: b.text, font: `700 ${narrow ? 10 : 13}px ${FONT}`, lineHeight: narrow ? 13 : 16 } },
             ],
           };
@@ -161,7 +161,7 @@
     tooltip: { confine: true, formatter: (p) => { const s = D.states.find((x) => x.name === p.name); return s ? stateTip(s.code) : esc(p.name); } },
     series: [{
       type: 'map', map: 'usa', aspectScale: 1, roam: false, left: 0, right: 0, top: 0, bottom: 0, selectedMode: false,
-      itemStyle: { areaColor: '#F4EFF4', borderColor: '#49454F', borderWidth: 0.6 },
+      itemStyle: { areaColor: P.noData, borderColor: INK2, borderWidth: 0.6 },
       emphasis: { label: { show: false }, itemStyle: { areaColor: undefined, borderColor: INK, borderWidth: 1.5 } },
       label: { show: false },
       data: D.states.map((s) => ({ name: s.name, value: s.medals, itemStyle: { areaColor: bin(P.seqState, s.medals).fill } })),
@@ -173,23 +173,23 @@
   const famColor = (i) => P.family[i % P.family.length];
   const famTable = { head: ['Style family', 'Medals', 'Categories'], numeric: [1, 2], rows: fam.map((f) => [f.name, f.medals, f.categories.length]) };
   const treeData = () => fam.map((f, i) => ({ name: f.name, itemStyle: { color: famColor(i) }, children: f.categories.map((c) => ({ name: c.name, value: c.medals, itemStyle: { color: famColor(i) } })) }));
-  const flatFamilies = () => fam.map((f, i) => ({ name: f.name, value: f.medals, top: f.categories[0], count: f.categories.length, itemStyle: { color: famColor(i), borderColor: '#FFFFFF', borderWidth: 2 }, label: { show: f.medals >= 60 } }));
+  const flatFamilies = () => fam.map((f, i) => ({ name: f.name, value: f.medals, top: f.categories[0], count: f.categories.length, itemStyle: { color: famColor(i), borderColor: P.page, borderWidth: 2 }, label: { show: f.medals >= 60 } }));
   const treemapBuild = (w) => base({
     tooltip: { confine: true, formatter: (p) => `<b>${esc(p.name)}</b><br>${fmt(p.value)} medals in ${p.data.count} categories<br>Most medals: ${esc(p.data.top.name)} (${p.data.top.medals})` },
     series: [{
       type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false }, left: 0, right: 0, top: 0, bottom: 0, squareRatio: 1, data: flatFamilies(),
-      label: { show: true, color: '#FFFFFF', fontSize: w < NARROW ? 12 : 14, fontWeight: 700, lineHeight: 18, overflow: 'break', formatter: (p) => `${shortName(p.name, 22)}\n${fmt(p.value)}` },
-      itemStyle: { gapWidth: 2, borderColor: '#FFFFFF', borderWidth: 2 },
+      label: { show: true, color: P.onDark, fontSize: w < NARROW ? 12 : 14, fontWeight: 700, lineHeight: 18, overflow: 'break', formatter: (p) => `${shortName(p.name, 22)}\n${fmt(p.value)}` },
+      itemStyle: { gapWidth: 2, borderColor: P.page, borderWidth: 2 },
     }],
   });
   const sunburstBuild = (w) => base({
     tooltip: { confine: true, formatter: (p) => `<b>${esc(p.name)}</b><br>${fmt(p.value)} medals` },
     series: [{
       type: 'sunburst', radius: ['10%', '96%'], sort: undefined, nodeClick: false, data: treeData(),
-      itemStyle: { borderColor: '#FFFFFF', borderWidth: 1 },
+      itemStyle: { borderColor: P.page, borderWidth: 1 },
       levels: [
         {},
-        { r0: '10%', r: '56%', label: { rotate: 'radial', color: '#FFFFFF', fontSize: 11, fontWeight: 700, minAngle: w < NARROW ? 26 : 14, overflow: 'truncate', formatter: (p) => shortName(p.name, w < NARROW ? 14 : 18) } },
+        { r0: '10%', r: '56%', label: { rotate: 'radial', color: P.onDark, fontSize: 11, fontWeight: 700, minAngle: w < NARROW ? 26 : 14, overflow: 'truncate', formatter: (p) => shortName(p.name, w < NARROW ? 14 : 18) } },
         { r0: '56%', r: '96%', label: { show: false }, itemStyle: { borderWidth: 0.5 } },
       ],
     }],
@@ -204,7 +204,7 @@
       polar: { center: [narrow ? '56%' : '54%', '52%'], radius: ['12%', '94%'] },
       angleAxis: { type: 'value', min: 0, max, startAngle: 90, endAngle: -180, axisLabel: { show: false }, axisLine: { show: false }, axisTick: { show: false }, splitLine: { lineStyle: { color: GRID } } },
       radiusAxis: { type: 'category', data: items.map((i) => shortName(i.name, narrow ? 15 : 24)), axisLabel: { ...axisText, fontSize: narrow ? 11 : 12, interval: 0 }, axisLine: { lineStyle: { color: OUTLINE } }, axisTick: { show: false } },
-      series: [{ type: 'bar', coordinateSystem: 'polar', barCategoryGap: '22%', data: items.map((i) => ({ value: i.value, itemStyle: { color: famColor(fam.findIndex((f) => f.name === i.name)) } })), label: { show: true, position: 'middle', color: '#FFFFFF', fontSize: 11, fontWeight: 700, formatter: (p) => fmt(p.value) } }],
+      series: [{ type: 'bar', coordinateSystem: 'polar', barCategoryGap: '22%', data: items.map((i) => ({ value: i.value, itemStyle: { color: famColor(fam.findIndex((f) => f.name === i.name)) } })), label: { show: true, position: 'middle', color: P.onDark, fontSize: 11, fontWeight: 700, formatter: (p) => fmt(p.value) } }],
     });
   };
   const radialTable = { head: ['Style family', 'Medals'], numeric: [1], rows: radialItems.map((f) => [f.name, f.value]) };
@@ -215,7 +215,7 @@
   const brewStackBuild = (w) => {
     const narrow = w < NARROW;
     const max = Math.max(...breweries.map((b) => b.total));
-    const series = MEDAL_NAMES.map((m) => ({ name: m, type: 'bar', stack: 'm', data: breweries.map((b) => b[m.toLowerCase()]), itemStyle: { color: P.medal[m], borderColor: '#FFFFFF', borderWidth: 1 }, label: { show: true, color: P.textOn[P.medal[m]], fontSize: 12, formatter: (p) => (p.value ? p.value : '') } }));
+    const series = MEDAL_NAMES.map((m) => ({ name: m, type: 'bar', stack: 'm', data: breweries.map((b) => b[m.toLowerCase()]), itemStyle: { color: P.medal[m], borderColor: P.page, borderWidth: 1 }, label: { show: true, color: P.textOn[P.medal[m]], fontSize: 12, formatter: (p) => (p.value ? p.value : '') } }));
     series.push({ name: 'Points', type: 'bar', stack: 'm', data: breweries.map((b) => b.points), silent: true, itemStyle: { color: 'transparent' }, tooltip: { show: false }, label: { show: true, position: 'insideLeft', color: INK, fontSize: 12, fontWeight: 600, formatter: (p) => `${p.value} pts` } });
     return base({
       grid: { left: labelWidth(w), right: 12, top: 4, bottom: 44 },
@@ -235,14 +235,14 @@
       xAxis: { type: 'value', min: 0, max: 8, interval: 1, name: '', axisLabel: axisText, splitLine: { lineStyle: { color: GRID } } },
       yAxis: { type: 'value', inverse: true, min: -0.5, max: breweries.length - 0.5, interval: 1, axisLabel: { ...brewLabels(w), customValues: breweries.map((_, i) => i), formatter: (v) => (breweries[v] ? breweries[v].name : '') }, splitLine: { show: true, lineStyle: { color: GRID } }, axisLine: { lineStyle: { color: OUTLINE } } },
       tooltip: { confine: true, formatter: (p) => `<b>${esc(breweries[Math.round(p.value[1] - OFF[p.seriesName])].name)}</b><br>${p.seriesName}: ${p.value[0]}` },
-      series: MEDAL_NAMES.map((m) => ({ name: m, type: 'scatter', symbol: SYMBOL[m], symbolSize: 15, itemStyle: { color: P.medal[m], borderColor: '#FFFFFF', borderWidth: 1 }, data: breweries.map((b, i) => [b[m.toLowerCase()], i + OFF[m]]) })),
+      series: MEDAL_NAMES.map((m) => ({ name: m, type: 'scatter', symbol: SYMBOL[m], symbolSize: 15, itemStyle: { color: P.medal[m], borderColor: P.page, borderWidth: 1 }, data: breweries.map((b, i) => [b[m.toLowerCase()], i + OFF[m]]) })),
     });
   };
   const brewHeatBuild = (w) => {
     const narrow = w < NARROW;
     const ys = D.breweryYears;
     const data = [];
-    breweries.forEach((b, r) => ys.forEach((y, c) => { const v = b.byYear[c]; const k = bin(P.seqSmall, v); data.push({ value: [c, r, v], itemStyle: { color: k.fill, borderColor: '#FFFFFF', borderWidth: 2 }, label: { show: true, color: k.text, formatter: v ? String(v) : '', fontSize: 12 } }); }));
+    breweries.forEach((b, r) => ys.forEach((y, c) => { const v = b.byYear[c]; const k = bin(P.seqSmall, v); data.push({ value: [c, r, v], itemStyle: { color: k.fill, borderColor: P.page, borderWidth: 2 }, label: { show: true, color: k.text, formatter: v ? String(v) : '', fontSize: 12 } }); }));
     return base({
       grid: { left: labelWidth(w), right: 8, top: 4, bottom: 40 },
       xAxis: { type: 'category', data: ys.map((y) => yearLabelTwoLine(y, narrow)), position: 'bottom', axisLabel: { ...axisText, fontSize: narrow ? 10 : 12, lineHeight: 13, interval: 0 }, axisLine: { show: false }, axisTick: { show: false } },
@@ -268,7 +268,7 @@
       tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, confine: true, formatter: (ps) => { const c = top20[ps[0].dataIndex]; return `<b>${esc(c.name)}</b><br>${c.perMedal} entries per medal<br>${fmt(c.entries)} entries, ${c.medals} medals, ${c.years} years`; } },
       series: [
         { type: 'bar', barWidth: 3, data: top20.map((c) => c.perMedal), itemStyle: { color: OUTLINE } },
-        { type: 'scatter', symbolSize: 14, data: top20.map((c) => c.perMedal), itemStyle: { color: P.series[0], borderColor: '#FFFFFF', borderWidth: 1 }, label: { show: true, position: 'right', color: INK, fontSize: 12, formatter: (p) => p.value } },
+        { type: 'scatter', symbolSize: 14, data: top20.map((c) => c.perMedal), itemStyle: { color: P.series[0], borderColor: P.page, borderWidth: 1 }, label: { show: true, position: 'right', color: INK, fontSize: 12, formatter: (p) => p.value } },
       ],
     });
   };
@@ -286,14 +286,14 @@
       xAxis: { type: 'value', min: 0, name: 'Entries per medal', nameLocation: 'middle', nameGap: 26, nameTextStyle: { color: INK, fontSize: 12 }, axisLabel: axisText, splitLine: { lineStyle: { color: GRID } } },
       yAxis: { type: 'value', inverse: true, min: -0.5, max: stripFamilies.length - 0.5, interval: 1, axisLabel: { ...axisText, width: (narrow ? 104 : 190) - 8, overflow: 'truncate', customValues: stripFamilies.map((_, i) => i), formatter: (v) => (stripFamilies[v] ? shortName(stripFamilies[v].name, narrow ? 15 : 30) : '') }, splitLine: { lineStyle: { color: GRID } }, axisLine: { lineStyle: { color: OUTLINE } } },
       tooltip: { confine: true, formatter: (p) => `<b>${esc(p.name)}</b><br>${p.value[0]} entries per medal` },
-      series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: P.series[0], opacity: 0.85, borderColor: '#FFFFFF', borderWidth: 1 }, data }],
+      series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: P.series[0], opacity: 0.85, borderColor: P.page, borderWidth: 1 }, data }],
     });
   };
   const heatCats = crowd.filter((c) => c.years >= 4).slice(0, 20);
   const oddsHeatBuild = (w) => {
     const narrow = w < NARROW;
     const data = [];
-    heatCats.forEach((c, r) => c.byYear.forEach((v, i) => { if (v === null) return; const k = bin(P.seqOdds, v); data.push({ value: [i, r, v], itemStyle: { color: k.fill, borderColor: '#FFFFFF', borderWidth: 2 }, label: { show: true, color: k.text, fontSize: narrow ? 11 : 12, formatter: String(Math.round(v)) } }); }));
+    heatCats.forEach((c, r) => c.byYear.forEach((v, i) => { if (v === null) return; const k = bin(P.seqOdds, v); data.push({ value: [i, r, v], itemStyle: { color: k.fill, borderColor: P.page, borderWidth: 2 }, label: { show: true, color: k.text, fontSize: narrow ? 11 : 12, formatter: String(Math.round(v)) } }); }));
     return base({
       grid: { left: narrow ? 112 : 230, right: 8, top: 4, bottom: 28 },
       xAxis: { type: 'category', data: D.heatmapYears.map(String), axisLabel: { ...axisText, interval: 0 }, axisLine: { show: false }, axisTick: { show: false } },
@@ -331,15 +331,16 @@
   };
   const stackedFamBuild = (w) => {
     const narrow = w < NARROW;
-    const names = [...prof.families, 'All other families'];
-    const colors = [...P.family, OUTLINE];
+    const shown = prof.families.slice(0, P.family.length);
+    const names = [...shown, 'All other families'];
+    const colors = [...P.family, P.other];
     return base({
       grid: { left: labelWidth(w), right: 12, top: 4, bottom: narrow ? 118 : 74 },
       legend: { ...legendBase, bottom: 0, data: names.map((n) => shortName(n, 26)), itemGap: 10 },
       xAxis: { type: 'value', minInterval: 1, interval: 2, max: 16, axisLabel: axisText, splitLine: { lineStyle: { color: GRID } } },
       yAxis: { type: 'category', inverse: true, data: prof.breweries.map((b) => b.name), axisLabel: brewLabels(w), axisLine: { lineStyle: { color: OUTLINE } } },
       tooltip: { trigger: 'item', confine: true, formatter: (p) => `<b>${esc(prof.breweries[p.dataIndex].name)}</b><br>${esc(names[p.seriesIndex])}: ${p.value}` },
-      series: names.map((n, k) => ({ name: shortName(n, 26), type: 'bar', stack: 'f', barMaxWidth: 44, data: prof.breweries.map((b) => (k < prof.families.length ? b.counts[k] : b.total - b.inTopFamilies)), itemStyle: { color: colors[k], borderColor: '#FFFFFF', borderWidth: 1 }, label: { show: true, color: P.textOn[colors[k]] ?? '#FFFFFF', fontSize: 12, formatter: (p) => (p.value ? p.value : '') } })),
+      series: names.map((n, k) => ({ name: shortName(n, 26), type: 'bar', stack: 'f', barMaxWidth: 44, data: prof.breweries.map((b) => (k < shown.length ? b.counts[k] : b.total - b.counts.slice(0, shown.length).reduce((s, c) => s + c, 0))), itemStyle: { color: colors[k], borderColor: P.page, borderWidth: 1 }, label: { show: true, color: P.textOn[colors[k]] ?? P.onDark, fontSize: 12, formatter: (p) => (p.value ? p.value : '') } })),
     });
   };
 

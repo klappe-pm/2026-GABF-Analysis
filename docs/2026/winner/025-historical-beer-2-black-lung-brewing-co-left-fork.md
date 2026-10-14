@@ -17,7 +17,7 @@ tags:
 abv: 5.2
 adjuncts: []
 beer: "Left Fork"
-beer-url: null
+beer-url: "https://www.blacklungbrewing.com/leftfork/"
 brewery: "Black Lung Brewing Co."
 brewery-city: "Grayslake"
 brewery-state: "IL"
@@ -30,70 +30,89 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
-      - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "og"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "fg"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "hop-form"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "hop-use"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "yeast"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "adjuncts"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "water"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
   - field: "process"
     sources-checked:
       - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
       - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
       - "web searches recorded in the research notes"
+      - "https://www.blacklungbrewing.com/leftfork/"
 hop-profile:
-  - published: "Noble hops"
-    variety: "Noble hops"
+  - published: "Callista"
+    variety: "Callista"
     form: null
     use: null
     lot-or-farm: null
-    source: "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
-hops: 
-  - "Noble hops"
+    source: "https://www.blacklungbrewing.com/leftfork/"
+  - published: "Fuggle"
+    variety: "Fuggle"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.blacklungbrewing.com/leftfork/"
+  - published: "Ariana"
+    variety: "Ariana"
+    form: null
+    use: null
+    lot-or-farm: null
+    source: "https://www.blacklungbrewing.com/leftfork/"
+hops:
+  - "Ariana"
+  - "Callista"
+  - "Fuggle"
 ibu: 20
 malts: 
   - "Black malt"
@@ -104,11 +123,14 @@ place: 2
 process: null
 sources:
   - "https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126"
+  - "https://www.blacklungbrewing.com/leftfork/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.visitlakecounty.org/BlackLungBrewingGrayslake"
 srm: null
 style: "Kentucky Common Ale"
-tasting-notes: null
+tasting-notes:
+  text: "A light and crushable ale with flaked maize, a light amount of black malt and Callista, Fuggle and Ariana hops. This very traditional American style drinks like a crisp brown ale and is great even in summer!"
+  source: "https://www.blacklungbrewing.com/leftfork/"
 water: null
 yeast: []
 ---
@@ -130,7 +152,7 @@ Left Fork is a beer from Black Lung Brewing Co., a craft brewery and taproom wit
 | Style | Kentucky Common Ale | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
 | ABV | 5.2% | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
 | IBU | 20 | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
-| Hops | Noble hops (varieties not specified) | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
+| Hops | Callista, Fuggle, Ariana | [Black Lung Brewing: Left Fork](https://www.blacklungbrewing.com/leftfork/) |
 | Malts and grains | Black malt, flaked maize | [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
 | Yeast | not published | none found |
 | Adjuncts, fruit, spices | not published | none found |
@@ -144,7 +166,9 @@ Source: [Craft Beer and Brewing: Left Fork](https://www.beerandbrewing.com/revie
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A light and crushable ale with flaked maize, a light amount of black malt and Callista, Fuggle and Ariana hops. This very traditional American style drinks like a crisp brown ale and is great even in summer!
+
+Source: [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/)
 
 ## ingredients
 
@@ -154,7 +178,9 @@ The brewer's description names a hop family but no individual variety; no yeast 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Noble hops | Noble hops | not published | not published | not published | [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126) |
+| Callista | Callista | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
+| Fuggle | Fuggle | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
+| Ariana | Ariana | not published | not published | not published | [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/) |
 
 ## brewing-details
 
@@ -193,7 +219,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126), [visitlakecounty.org](https://www.visitlakecounty.org/BlackLungBrewingGrayslake), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/black-lung-brewing-company-left-fork-kentucky-common-ale-1699247126), [visitlakecounty.org](https://www.visitlakecounty.org/BlackLungBrewingGrayslake), web searches recorded in the research notes, [blacklungbrewing.com](https://www.blacklungbrewing.com/leftfork/).
 
 ## research-notes
 
@@ -204,3 +230,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found the matching magazine review with ABV, IBU and the brewer's ingredient description. Noble hops is the published family, not a verified variety. No dedicated brewery beer page was found.
 - Field pass 2026-10-13: A search restricted to the brewery domain found no Left Fork beer or tap-list page; earlier home-page failures and third-party searches were not repeated.
+- Deep dive pass 2026-10-14: the brewery's own Left Fork page (found in its sitemap) names Callista, Fuggle and Ariana hops, flaked maize and black malt, 5.2% ABV and 20 IBU; its hop varieties replace the review's "Noble hops" family, and it becomes the beer-url.

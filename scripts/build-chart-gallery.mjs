@@ -28,7 +28,8 @@ export function renderGallery() {
   const data = { ...galleryData(), beerDetailsHtml: beerDetailsHtml(), palette: paletteForPage(), geo: JSON.parse(readFileSync(resolve(SITE, 'assets/us-states.geo.json'), 'utf8')) };
   const template = readFileSync(resolve(HERE, 'template.html'), 'utf8');
   const parts = {
-    '/*__STYLE__*/': readFileSync(resolve(HERE, 'styles.css'), 'utf8'),
+    // brand.css (generated from the design settings) defines every color the gallery styles use.
+    '/*__STYLE__*/': `${readFileSync(resolve(SITE, 'assets/brand.css'), 'utf8')}\n${readFileSync(resolve(HERE, 'styles.css'), 'utf8')}`,
     '/*__ECHARTS__*/': safeScript(readFileSync(require.resolve('echarts/dist/echarts.min.js'), 'utf8')),
     '/*__DATA__*/': `window.GALLERY = ${safeJson(data)};`,
     '/*__CLIENT__*/': safeScript(readFileSync(resolve(HERE, 'client.js'), 'utf8')),

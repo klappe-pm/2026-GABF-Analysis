@@ -30,16 +30,12 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.counterweightbrewing.com/"
-      - "https://www.counterweightbrewing.com/brews/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.counterweightbrewing.com/"
       - "https://www.counterweightbrewing.com/brews/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.counterweightbrewing.com/"
@@ -85,11 +81,6 @@ gaps:
       - "https://www.counterweightbrewing.com/"
       - "https://www.counterweightbrewing.com/brews/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.counterweightbrewing.com/"
-      - "https://www.counterweightbrewing.com/brews/"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Czech hops"
     variety: "Czech hops"
@@ -105,14 +96,18 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Brewed with 100% oak-smoked wheat and a hearty dose of Czech-sourced hops"
+  source: "https://www.counterweightbrewing.com/brews/"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.counterweightbrewing.com/"
   - "https://www.counterweightbrewing.com/brews/"
 srm: null
 style: "Polish Style Smoked Beer"
-tasting-notes: null
+tasting-notes:
+  text: "Mild but inviting smokey notes in its aroma, with soft smoke and herbal hops meld and bring you back again and again for more."
+  source: "https://www.counterweightbrewing.com/brews/"
 water: null
 yeast: []
 ---
@@ -148,7 +143,9 @@ Source: [Counter Weight: all brews](https://www.counterweightbrewing.com/brews/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Mild but inviting smokey notes in its aroma, with soft smoke and herbal hops meld and bring you back again and again for more.
+
+Source: [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/)
 
 ## ingredients
 
@@ -168,7 +165,7 @@ The brewery names a single grain, oak-smoked wheat, making up the entire grist, 
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed with 100% oak-smoked wheat and a hearty dose of Czech-sourced hops | [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/) |
 
 ## style-context
 
@@ -196,8 +193,8 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 - Not published: IBU. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +203,4 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 - No 2026 medal announcement was found on the brewery's brews page or home page.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A new bitterness-focused search found an exact CW Grodziskie listing with N/A IBU; no numerical value was verified.
+- Deep dive pass 2026-10-14: the brewery beer list gives the grist (100% oak-smoked wheat), Czech-sourced hops and tasting words; no yeast or IBU.

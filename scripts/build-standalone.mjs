@@ -96,7 +96,8 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
 
   const app = await bundle({ entryPoints: [resolve(SITE, 'assets', 'dashboards.js')], bundle: true, format: 'iife', minify: true, write: false, target: 'es2020', legalComments: 'none' });
   const init = (await transform(`${readFileSync(resolve(SITE, 'assets', 'echarts-init.js'), 'utf8')}\n${readFileSync(resolve(SITE, 'assets', 'page.js'), 'utf8')}`, { minify: true, target: 'es2020' })).code;
-  const styles = readFileSync(resolve(SITE, 'assets', 'styles.css'), 'utf8');
+  // brand.css (generated from the design settings) defines every color styles.css uses.
+  const styles = `${readFileSync(resolve(SITE, 'assets', 'brand.css'), 'utf8')}\n${readFileSync(resolve(SITE, 'assets', 'styles.css'), 'utf8')}`;
   const echarts = readFileSync(require.resolve('echarts/dist/echarts.min.js'), 'utf8');
   const geo = readFileSync(geoPath, 'utf8').trim();
 

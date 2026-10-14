@@ -31,14 +31,6 @@ description:
 entries: 24
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://giantjones.com/beer/"
-      - "https://giantjones.com/on-tap/"
-      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
-      - "https://www.giantjones.com/"
-      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://giantjones.com/beer/"
@@ -47,6 +39,7 @@ gaps:
       - "https://www.giantjones.com/"
       - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://giantjones.com/beer/"
@@ -135,14 +128,6 @@ gaps:
       - "https://www.giantjones.com/"
       - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://giantjones.com/beer/"
-      - "https://giantjones.com/on-tap/"
-      - "https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763"
-      - "https://www.giantjones.com/"
-      - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -150,7 +135,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "3 weeks cold-conditioning for a clean, lager-like impression"
+  source: "https://giantjones.com/beer/"
 sources:
   - "https://giantjones.com/beer/"
   - "https://giantjones.com/on-tap/"
@@ -160,7 +147,9 @@ sources:
   - "https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/"
 srm: null
 style: "Strong, Northern German-style altbier"
-tasting-notes: null
+tasting-notes:
+  text: "Toasty & nutty, herbal hop character & distinct bitterness"
+  source: "https://giantjones.com/beer/"
 water: null
 yeast: []
 ---
@@ -198,7 +187,9 @@ Source: [Giant Jones: our beer](https://giantjones.com/beer/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Toasty & nutty, herbal hop character & distinct bitterness
+
+Source: [giantjones.com](https://giantjones.com/beer/)
 
 ## ingredients
 
@@ -216,7 +207,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | 3 weeks cold-conditioning for a clean, lager-like impression | [giantjones.com](https://giantjones.com/beer/) |
 
 ## style-context
 
@@ -247,8 +238,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes.
 - Not published: IBU. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -258,3 +249,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The January 2021 PBS transcript mentions "Hallertau, Spalter Select" while brewing Doppelsticke Alt; this earlier brew does not establish the 2026 hops, so hops remain empty. [Untappd's Doppelsticke listing](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763) publishes no IBU and lists 9.3% ABV, versus 9.6% on the existing brewery source; the existing ABV is retained.
+- Deep dive pass 2026-10-14: the brewery beer page gives tasting words and three weeks of cold conditioning; hop varieties for this release are not published.
