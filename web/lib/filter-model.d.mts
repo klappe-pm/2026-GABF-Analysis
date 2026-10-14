@@ -1,7 +1,7 @@
 // Types for filter-model.mjs (site/assets/filter-bar.mjs).
 
 export type FilterState = Record<string, string>;
-export type FilterDef = { id: string; field?: string; multi?: boolean; label: string; group: 'When' | 'What' | 'Where' | 'Who' };
+export type FilterDef = { id: string; field?: string; multi?: boolean; label: string; hidden?: boolean; group: 'When' | 'What' | 'Where' | 'Who' };
 export type FilterRow = Record<string, unknown>;
 export type Option = { value: string; count: number; label: string };
 

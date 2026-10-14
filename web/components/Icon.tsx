@@ -7,7 +7,7 @@ import { useSettings } from '@/design/runtime';
 
 export type IconName = 'close' | 'chevron-down' | 'search' | 'check' | 'menu' | 'sort' | 'sort-ascending' | 'sort-descending' | 'filter'
   | 'tune' | 'palette' | 'type' | 'shape' | 'layers' | 'widgets'
-  | 'medal' | 'brewery' | 'beer' | 'chart' | 'hop' | 'list' | 'farm';
+  | 'medal' | 'brewery' | 'beer' | 'chart' | 'hop' | 'list' | 'farm' | 'home' | 'bookmark';
 
 const PATHS: Record<IconName, string> = {
   close: 'M4 4 12 12 M12 4 4 12',
@@ -34,6 +34,8 @@ const PATHS: Record<IconName, string> = {
   hop: 'M8 2.5c2.3 1.4 3.5 3.8 3.5 6.5a3.5 3.5 0 0 1-7 0c0-2.7 1.2-5.1 3.5-6.5z M5 7.5h6 M4.6 10h6.8',
   list: 'M5.5 4.5h8 M5.5 8h8 M5.5 11.5h8 M2.5 4.5h.01 M2.5 8h.01 M2.5 11.5h.01',
   farm: 'M2.5 13.5h11 M3.5 13.5V8L8 4.5 12.5 8v5.5 M6.5 13.5v-3h3v3',
+  home: 'M2 7.5 8 2.5l6 5 M3.5 6.5v7h9v-7',
+  bookmark: 'M4.5 2.5h7v11L8 10.5l-3.5 3z',
 };
 
 export function Icon({ name, label, size, slot }: { name: IconName; label?: string; size?: number; slot?: string }) {

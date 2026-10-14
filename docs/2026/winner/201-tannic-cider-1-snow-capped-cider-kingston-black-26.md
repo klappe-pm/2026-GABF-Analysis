@@ -30,15 +30,6 @@ description:
 entries: 28
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
-      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
@@ -48,6 +39,7 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "ibu"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
@@ -57,6 +49,7 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
@@ -156,15 +149,6 @@ gaps:
       - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
       - "https://www.snowcappedcider.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
-      - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
-      - "https://snowcappedcider.com/shop-bottles/"
-      - "https://snowcappedcider.com/shop-cans/"
-      - "https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles"
-      - "https://www.snowcappedcider.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -172,7 +156,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "100% single varietal Kingston Black from the cidery's high elevation orchards, completely dry"
+  source: "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
 sources:
   - "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
   - "https://snowcappedcider.com/all-ciders/kingston-black-reserve/"
@@ -182,7 +168,9 @@ sources:
   - "https://www.snowcappedcider.com/"
 srm: null
 style: "Tannic Cider"
-tasting-notes: null
+tasting-notes:
+  text: "Marked by dry tannin and high complex flavors."
+  source: "https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/"
 water: null
 yeast: []
 ---
@@ -218,7 +206,9 @@ Source: [Snow Capped: Kingston Black can](https://snowcappedcider.com/all-ciders
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Marked by dry tannin and high complex flavors.
+
+Source: [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/)
 
 ## ingredients
 
@@ -236,7 +226,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | 100% single varietal Kingston Black from the cidery's high elevation orchards, completely dry | [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/) |
 
 ## style-context
 
@@ -271,8 +261,8 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 - Not published: ABV, IBU. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-new-in-cans/), [snowcappedcider.com](https://snowcappedcider.com/all-ciders/kingston-black-reserve/), [snowcappedcider.com](https://snowcappedcider.com/shop-bottles/), [snowcappedcider.com](https://snowcappedcider.com/shop-cans/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [snowcappedcider.com](https://www.snowcappedcider.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -283,3 +273,4 @@ Links checked 2026-10-14: [Website](https://www.snowcappedcider.com/), [Instagra
 - The official list places the cidery in Austin, CO; that location is kept as given.
 - No 2026 medal announcement from the cidery was found; a news site covering its awards refused automated access.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the canned Kingston Black page gives tasting words, the single varietal and 8.5% ABV; the cidery sells several Kingston Black releases (cans, reserve, bourbon barrel), so the can's 8.5% is not recorded as the medal entry's strength.
