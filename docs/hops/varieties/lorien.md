@@ -16,13 +16,43 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Lorien"
+alpha-acid-percent: "4 to 5.5"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "Yakima Valley Hops, quoting Indie Hops"
+aroma-descriptors:
+  - "a hint of cinnamon spice"
+  - "Citrus zest"
+  - "fresh melon"
+  - "mixed wildflowers"
+beta-acid-percent: "7 to 9"
+breeder: "Indie Hops (Oregon)"
+canonical-name: "Lorien"
+caryophyllene-percent-of-oil: "2.6 to 5"
+cohumulone-percent-of-alpha: "22.6"
+farnesene-percent-of-oil: "2.7 to 4"
+gaps:
+  - "us-acres-latest"
+  - "use"
+humulene-percent-of-oil: "19 to 25"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "40 to 50"
 origin-country: "United States"
-program: "Indie Hops (Oregon)"
+owner-program: "Indie Hops (Oregon)"
+parentage: "Sterling female crossed with a German male"
 proprietary-status: "proprietary"
+release-year: 2021
+release-year-note: null
 slug: "lorien"
-year-released: "2021"
+sources:
+  - "https://yakimavalleyhops.com/products/lorien-hops"
+total-oil-ml-per-100g: "1.8 to 2.2"
+trademark: "Lórien (registered, per Yakima Valley Hops)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # lorien
@@ -76,3 +106,33 @@ No gaps: every field is published by the sources listed below.
 ## sources
 
 - [yakimavalleyhops.com/products/lorien-hops](https://yakimavalleyhops.com/products/lorien-hops)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Breakside The Sublime](../../2026/winner/045-international-style-pilsener-3-breakside-brewery-and-taproom-breakside-the-sublime.md), bronze, International-Style Pilsener, by [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md); published as Lorien
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md), 1 beer

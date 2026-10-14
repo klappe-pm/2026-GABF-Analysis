@@ -1,16 +1,20 @@
 ---
 domain: beer
-category: gabf-analysis
-sub-category: hops
+category: hops
+sub-category: guide
 topics:
-  - hop-farms
+  - "hop-farms"
+  - "hops"
 types:
-  - reference
+  - "guide"
 date-created: 2026-10-14
 date-revised: 2026-10-14
 status: DRAFT
 aliases: []
-tags: []
+tags:
+  - "hop-farms"
+farm-count: 113
+merchant-count: 13
 ---
 
 # hop-farms
@@ -208,3 +212,9 @@ No commercial farm could be sourced in Wisconsin, Vermont or California. See `da
 - Yakima Valley Hops: retailer, Yakima WA
 - Northern Eagle Hop Processing: pelletizer, Oneonta NY
 - Pedersen's Farm: pelletizer, Seneca Castle NY
+
+## related
+
+- [hop varieties index](../README.md)
+- [breweries index](../../breweries/README.md)
+

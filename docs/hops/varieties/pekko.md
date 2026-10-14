@@ -18,13 +18,48 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Pekko"
+alpha-acid-percent: "13 to 16"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "banana"
+  - "chamomile"
+  - "eucalyptus"
+  - "Lemongrass"
+  - "lilac"
+  - "pineapple"
+  - "sage"
+beta-acid-percent: "3.5 to 4.3"
+breeder: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+canonical-name: "Pekko"
+caryophyllene-percent-of-oil: "11 to 13"
+cohumulone-percent-of-alpha: "27 to 30"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "12 to 15"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "46 to 55"
 origin-country: "United States"
-program: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+owner-program: "Association for the Development of Hop Agronomy (ADHA), Yakima Valley"
+parentage: "Mother ADHA 538, open pollination (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "pekko"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Pekko.pdf"
+total-oil-ml-per-100g: "2.1 to 2.7"
+trademark: "Pekko (registered, per NASS and the John I. Haas sheet)"
+us-acres-latest:
+  - "Washington 834"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # pekko
@@ -97,3 +132,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Pekko.pdf](https://www.johnihaas.com/wp-content/uploads/2021/11/HAAS_HopsCompanion-MiniSpecSheets-Pekko.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

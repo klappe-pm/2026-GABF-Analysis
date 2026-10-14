@@ -140,7 +140,21 @@ export function hopsUsedHtml(rows, { r, meta }) {
     { key: 'name', label: hc.brewery_variety, render: (x) => `<a href="${r}hops/${esc(hopSlug(x.name))}/">${esc(x.name)}</a>` },
     { key: 'beers', label: hc.brewery_beers, numeric: true },
   ], list);
-  return `<h2>${esc(hc.brewery_title)}</h2><p class="small muted">${esc(hc.brewery_note)}</p><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${table}</div>`;
+  const wrapTable = (t) => `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${t}</div>`;
+  // Farms reached by these beers, kept apart: the ones a brewery named, and the ones that grow a variety used.
+  const farmSlugs = meta?.hop_farm_slugs ?? {};
+  const farmTable = (field, title, label, note) => {
+    const counts = new Map();
+    for (const x of rows) for (const name of x[field] ?? []) if (farmSlugs[name]) counts.set(name, (counts.get(name) ?? 0) + 1);
+    if (!counts.size) return '';
+    const farms = [...counts.entries()].map(([name, beers]) => ({ name, beers })).sort((a, b) => b.beers - a.beers || compareLabels(a.name, b.name));
+    return `<h3>${esc(title)}</h3><p class="small muted"><strong>${esc(label)}</strong> ${esc(note)}</p>${wrapTable(tableHtml([
+      { key: 'name', label: hc.brewery_farm, render: (x) => `<a href="${r}hop-farms/${esc(farmSlugs[x.name])}/">${esc(x.name)}</a>` },
+      { key: 'beers', label: hc.brewery_beers, numeric: true },
+    ], farms))}`;
+  };
+  const farms = farmTable('hop_farms_named', hc.brewery_farms_named_title, hc.brewery_farms_named_label, hc.brewery_farms_named_note) + farmTable('hop_farms_grown', hc.brewery_farms_grown_title, hc.brewery_farms_grown_label, hc.brewery_farms_grown_note);
+  return `<h2>${esc(hc.brewery_title)}</h2><p class="small muted">${esc(hc.brewery_note)}</p>${wrapTable(table)}${farms}`;
 }
 
 // ---------- category page ----------

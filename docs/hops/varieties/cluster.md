@@ -15,13 +15,45 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Cluster"
+alpha-acid-percent: "5.5 to 8.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "apricot"
+  - "lemon"
+  - "Lilac"
+beta-acid-percent: "4.5 to 5.5"
+breeder: "Long established U.S. variety; rootstock origin uncertain"
+canonical-name: "Cluster"
+caryophyllene-percent-of-oil: "6 to 7"
+cohumulone-percent-of-alpha: "37 to 43"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "parentage"
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "15 to 18"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "45 to 55"
 origin-country: "United States"
-program: "Long established U.S. variety; rootstock origin uncertain"
+owner-program: "Long established U.S. variety; rootstock origin uncertain"
+parentage: null
 proprietary-status: "public"
+release-year: null
+release-year-note: null
 slug: "cluster"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cluster.pdf"
+total-oil-ml-per-100g: "0.4 to 0.8"
+trademark: null
+us-acres-latest:
+  - "Washington 217"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # cluster
@@ -97,3 +129,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cluster.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Cluster.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

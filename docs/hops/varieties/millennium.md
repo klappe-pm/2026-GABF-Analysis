@@ -16,13 +16,41 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Millennium"
+alpha-acid-percent: "14.5 to 16.5"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Mild"
+  - "somewhat pungent"
+beta-acid-percent: "4.3 to 5.3"
+breeder: "John I. Haas breeding program"
+canonical-name: "Millennium"
+caryophyllene-percent-of-oil: "9 to 12"
+cohumulone-percent-of-alpha: "28 to 32"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "us-acres-latest"
+humulene-percent-of-oil: "23 to 27"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "30 to 40"
 origin-country: "United States"
-program: "John I. Haas breeding program"
+owner-program: "John I. Haas breeding program"
+parentage: "Nugget mother, triploid (John I. Haas sheet)"
 proprietary-status: "proprietary"
+release-year: 2000
+release-year-note: null
 slug: "millennium"
-year-released: "2000"
+sources:
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2015/01/Millennium.pdf"
+total-oil-ml-per-100g: "1.8 to 2.2"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: true
+use: "bittering"
+use-basis: "bittering"
 ---
 
 # millennium
@@ -77,3 +105,33 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2015/01/Millennium.pdf](https://www.johnihaas.com/wp-content/uploads/2015/01/Millennium.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [2025 Bourbon County Brand Proprietor's Stout](../../2026/winner/011-dessert-or-pastry-beer-1-goose-island-beer-co-2025-bourbon-county-brand-proprietors-stout.md), gold, Dessert or Pastry Beer, by [Goose Island Beer Co.](../../breweries/goose-island-beer-co.md); published as Millenium
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Goose Island Beer Co.](../../breweries/goose-island-beer-co.md), 1 beer

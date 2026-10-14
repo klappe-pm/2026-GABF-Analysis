@@ -17,13 +17,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Warrior"
+alpha-acid-percent: "15.5 to 18"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "honeysuckle"
+  - "sweet basil"
+  - "Tangerine"
+beta-acid-percent: "4 to 5.5"
+breeder: "Yakima Chief Ranches"
+canonical-name: "Warrior"
+caryophyllene-percent-of-oil: "8 to 12"
+cohumulone-percent-of-alpha: "25 to 28"
+farnesene-percent-of-oil: "0.1 to 1"
+gaps:
+  - "parentage"
+  - "release-year"
+humulene-percent-of-oil: "12 to 18"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "40 to 50"
 origin-country: "United States"
-program: "Yakima Chief Ranches"
+owner-program: "Yakima Chief Ranches"
+parentage: null
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "warrior"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Warrior.pdf"
+total-oil-ml-per-100g: "1 to 2.5"
+trademark: "Warrior (registered, per NASS and the John I. Haas sheet)"
+us-acres-latest:
+  - "Washington 147"
+us-acres-latest-year: 2024
+us-grown: true
+use: "bittering"
+use-basis: "high alpha variety (John I. Haas sheet)"
 ---
 
 # warrior
@@ -98,3 +130,33 @@ A three state total cannot be computed for any year because at least one state i
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Warrior.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Warrior.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.
