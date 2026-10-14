@@ -251,6 +251,14 @@ Pinthouse Pizza is in Austin, TX. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Pinthouse Pizza](../../breweries/pinthouse-pizza.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Citra](../../hops/varieties/citra.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Pinthouse](https://www.pinthouse.com/)

@@ -192,6 +192,11 @@ Monk's Cellar is in Roseville, CA. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Monk's Cellar](../../breweries/monk-s-cellar.md)
+- Hop varieties: [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.monkscellar.com/roseville-downtown-the-monk-s-cellar-drink-menu)

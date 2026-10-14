@@ -226,6 +226,14 @@ Wishful Thinking Brewing Co. is in Bethlehem, PA.
 
 Links checked 2026-10-14: [Website](https://www.wishfulthinkingbeer.com/), [Instagram](https://www.instagram.com/wishfulthinkingbeer/).
 
+## related
+
+- Brewery: [Wishful Thinking Brewing Co.](../../breweries/wishful-thinking-brewing-co.md)
+- Hop varieties: [Cascade](../../hops/varieties/cascade.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Wishful Thinking Brewing Co.](https://www.wishfulthinkingbeer.com/)

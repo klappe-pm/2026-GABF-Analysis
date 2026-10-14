@@ -184,6 +184,10 @@ River North Brewery is in Denver, CO. Brewery type in Open Brewery DB: Microbrew
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [River North Brewery](../../breweries/river-north-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.rivernorthbrewery.com/beer-descriptions)

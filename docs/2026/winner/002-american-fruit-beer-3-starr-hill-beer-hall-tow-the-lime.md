@@ -222,6 +222,10 @@ Starr Hill Beer Hall is in Richmond, VA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Starr Hill Beer Hall](../../breweries/starr-hill-beer-hall.md)
+
 ## links
 
 - [Untappd: Starr Hill Tow the Lime](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos)

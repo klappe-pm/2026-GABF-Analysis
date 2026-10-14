@@ -213,6 +213,14 @@ Go Brewing is in Naperville, IL.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Go Brewing](../../breweries/go-brewing.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Untappd: Go Brewing Sour Berry](https://untappd.com/b/go-brewing-new-school-sour-berry/5439582)

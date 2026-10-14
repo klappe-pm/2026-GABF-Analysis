@@ -192,6 +192,10 @@ The Sandlot Brewery At Coors Field is in Denver, CO. Brewery type in Open Brewer
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [The Sandlot Brewery At Coors Field](../../breweries/the-sandlot-brewery-at-coors-field.md)
+
 ## links
 
 - [The Sandlot Brewery](https://www.sandlotbrewery.com/)

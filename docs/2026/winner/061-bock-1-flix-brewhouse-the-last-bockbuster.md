@@ -226,6 +226,10 @@ Flix Brewhouse is in Mansfield, TX. Brewery type in Open Brewery DB: Microbrewer
 
 Links checked 2026-10-14: [Website](https://www.flixbrewhouse.com/), [Instagram](https://www.instagram.com/flixbrewhouse/), [Untappd](https://untappd.com/Flix_Brewhouse_Mansfield).
 
+## related
+
+- Brewery: [Flix Brewhouse](../../breweries/flix-brewhouse.md)
+
 ## links
 
 - [Flix Brewhouse](https://www.flixbrewhouse.com/)

@@ -203,6 +203,10 @@ Sunriver Brewing Co. is in Sunriver, OR.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Sunriver Brewing Co.](../../breweries/sunriver-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.sunriverbrewingcompany.com/beer/camerons-crest)

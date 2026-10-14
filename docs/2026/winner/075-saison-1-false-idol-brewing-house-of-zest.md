@@ -201,6 +201,10 @@ False Idol Brewing is in North Richland Hills, TX.
 
 Links checked 2026-10-14: [Website](https://www.falseidolbrew.com/), [Instagram](https://www.instagram.com/falseidolbrewing/), [Untappd](https://untappd.com/FalseIdolBrewing).
 
+## related
+
+- Brewery: [False Idol Brewing](../../breweries/false-idol-brewing.md)
+
 ## links
 
 - [False Idol Brewing](https://www.falseidolbrew.com/)

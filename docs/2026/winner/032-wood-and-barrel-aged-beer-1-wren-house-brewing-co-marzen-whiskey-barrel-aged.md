@@ -224,6 +224,11 @@ Wren House Brewing Co. is in Phoenix, AZ. Brewery type in Open Brewery DB: Micro
 
 Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd](https://untappd.com/WrenHouseBrewing).
 
+## related
+
+- Brewery: [Wren House Brewing Co.](../../breweries/wren-house-brewing-co.md)
+- Hop varieties: [Hallertauer Mittelfruh](../../hops/varieties/hallertauer-mittelfruh.md), [Hallertauer Tradition](../../hops/varieties/hallertauer-tradition.md)
+
 ## links
 
 - [Untappd: whiskey barrel Märzen](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912)

@@ -203,6 +203,10 @@ The Lost Abbey is in Vista, CA.
 
 Links checked 2026-10-14: [Website](https://lostabbey.com/), [Instagram](https://www.instagram.com/lostabbey/).
 
+## related
+
+- Brewery: [The Lost Abbey](../../breweries/the-lost-abbey.md)
+
 ## links
 
 - [Beer page on brewery site](https://lostabbey.com/inferno)

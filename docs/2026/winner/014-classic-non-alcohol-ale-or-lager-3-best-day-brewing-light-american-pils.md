@@ -287,6 +287,10 @@ Best Day Brewing is in San Francisco, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Best Day Brewing](../../breweries/best-day-brewing.md)
+
 ## links
 
 - [Best Day Brewing](https://www.bestdaybrewing.com/)

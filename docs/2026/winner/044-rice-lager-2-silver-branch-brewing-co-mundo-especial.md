@@ -188,6 +188,10 @@ Silver Branch Brewing Co. is in Silver Spring, MD.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Silver Branch Brewing Co.](../../breweries/silver-branch-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.silverbranchbrewing.com/beer/)

@@ -230,6 +230,10 @@ Gilde Brewery is in Charlotte, NC.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Gilde Brewery](../../breweries/gilde-brewery.md)
+
 ## links
 
 - [Gilde: Charlotte tap list](https://gilde1546.com/-on-tap)

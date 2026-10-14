@@ -169,6 +169,10 @@ Sierra Nevada Brewing Co. is in Chico, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Sierra Nevada Brewing Co.](../../breweries/sierra-nevada-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://sierranevada.com/brews/stein-altbier)

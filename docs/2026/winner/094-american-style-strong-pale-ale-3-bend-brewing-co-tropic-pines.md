@@ -233,6 +233,14 @@ Bend Brewing Co. is in Bend, OR.
 
 Links checked 2026-10-14: [Website](https://www.bendbrewingco.com/), [Instagram](https://www.instagram.com/bendbrewingco/), [Untappd](https://untappd.com/BendBrewingCompany).
 
+## related
+
+- Brewery: [Bend Brewing Co.](../../breweries/bend-brewing-co.md)
+- Hop varieties: [Chinook](../../hops/varieties/chinook.md), [Mosaic](../../hops/varieties/mosaic.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Untappd: Tropic Pines](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116)

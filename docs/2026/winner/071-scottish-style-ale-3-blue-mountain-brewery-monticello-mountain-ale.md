@@ -179,6 +179,10 @@ Blue Mountain Brewery is in Afton, VA. Brewery type in Open Brewery DB: Microbre
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Blue Mountain Brewery](../../breweries/blue-mountain-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://bluemountainbrewery.com/products/monticello-mountain-ale/)

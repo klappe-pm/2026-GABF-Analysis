@@ -220,6 +220,10 @@ ODD Muse Brewing is in Dallas, TX.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [ODD Muse Brewing Co.](../../breweries/odd-muse-brewing-co.md)
+
 ## links
 
 - [ODD Muse Brewing](https://oddmusebrewing.com/)

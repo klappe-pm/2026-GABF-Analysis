@@ -183,6 +183,10 @@ Silver Reef Brewing Co. is in Saint George, UT.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Silver Reef Brewing Co.](../../breweries/silver-reef-brewing-co.md)
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)

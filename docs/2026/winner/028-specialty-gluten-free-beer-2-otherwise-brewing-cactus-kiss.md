@@ -184,6 +184,10 @@ Otherwise Brewing is in San Carlos, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Otherwise Brewing](../../breweries/otherwise-brewing.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.otherwisebrewing.com/beers/cactus-kiss)

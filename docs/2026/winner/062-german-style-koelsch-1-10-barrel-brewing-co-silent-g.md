@@ -245,6 +245,10 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 
+## related
+
+- Brewery: [10 Barrel Brewing Co.](../../breweries/10-barrel-brewing-co.md)
+
 ## links
 
 - [10 Barrel Brewing Co.](https://www.10barrel.com/)

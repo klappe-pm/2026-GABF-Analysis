@@ -603,6 +603,10 @@ function specCard(fm) {
 </section>`;
 }
 
+// The profile's related section links the markdown documents under docs/; the page already links the
+// brewery and hop pages itself, so that section is not rendered here.
+const RELATED_SECTION = /^## related\s*\n[\s\S]*?(?=^## |(?![\s\S]))/m;
+
 function beerPage(p, row) {
   const depth = 3;
   const r = '../'.repeat(depth);
@@ -624,7 +628,7 @@ ${links ? `<p class="link-row">${links}</p>` : ''}
 ${HOP_PAGES.beerHopHtml(HOP_PAGES.model.beers.get(p.stem), { r })}
 <div class="beer-layout">
 ${specCard(fm)}
-<section class="prose">${renderMarkdownBody(p.body)}</section>
+<section class="prose">${renderMarkdownBody(p.body.replace(RELATED_SECTION, ''))}</section>
 </div>`;
   write(`beers/${p.year}/${p.stem}/index.html`, layout({ title: `${fm.beer}, ${fm.brewery}`, description: `${fm.beer} by ${fm.brewery}: ${medal} medal, ${p.year} Great American Beer Festival, ${fm['category-name']}. Published specs and research notes.`, body, depth, active: `${p.year} winners` }));
 }

@@ -239,6 +239,10 @@ HopSaint Brewing Co. is in Torrance, CA. Brewery type in Open Brewery DB: Brewpu
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [HopSaint Brewing Co.](../../breweries/hopsaint-brewing-co.md)
+
 ## links
 
 - [HopSaint Brewing Co.](https://www.hopsaint.com/)

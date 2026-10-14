@@ -242,6 +242,14 @@ Barebottle Brewing Co. is in San Francisco, CA. Brewery type in Open Brewery DB:
 
 Links checked 2026-10-14: [Website](https://www.barebottle.com/), [Instagram](https://www.instagram.com/barebottle/), [Untappd](https://untappd.com/BarebottleBrewingCompany).
 
+## related
+
+- Brewery: [Barebottle Brewing Co.](../../breweries/barebottle-brewing-co.md)
+- Hop varieties: [Mosaic](../../hops/varieties/mosaic.md), [Motueka](../../hops/varieties/motueka.md), [Riwaka](../../hops/varieties/riwaka.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Barebottle Brewing](https://www.barebottle.com/)
