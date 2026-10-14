@@ -8,7 +8,7 @@ import { breweryKey, slugify } from './slug.mjs';
 import { abvBand, isSpecialCategory, styleFamily } from './style-families.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
 import { estimateBarrels, estimateFinancials, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
-import { attachWinnerSpecs } from './winner-specs.mjs';
+import { attachBeerSpecs, attachWinnerSpecs } from './winner-specs.mjs';
 import { BREWERIES, ENRICHED, REFERENCE, RESULTS, ROOT } from './paths.mjs';
 import { loadWinnerProfiles } from './winner-profiles.mjs';
 import { buildHopModel, loadHopReference } from './hops.mjs';
@@ -168,6 +168,7 @@ export function loadDataset({ root, localProfiles = true } = {}) {
   const results = gabfRows.map(decorate).sort((a, b) => a.year - b.year || Number(a.category_number) - Number(b.category_number) || a.medal_rank - b.medal_rank);
   const otherResults = otherRows.map(decorate);
   attachWinnerSpecs(results, { dir: root ? resolve(root, 'docs/2026/winner') : undefined });
+  attachBeerSpecs(results, readCsvIfExists(resolve(referenceDir, 'beer-specs.csv')), { keyOf: (brewery, beer) => `${breweryKey(brewery)}|${String(beer).trim().toLowerCase()}` });
   for (const r of results) if (r.spec && r.spec.abv.value !== null) r.abv_band = abvBand(r.abv);
 
   // Year coverage: complete, partial, draft (transcript), pending (competition held but no rows yet).
