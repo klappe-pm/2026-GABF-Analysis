@@ -43,6 +43,7 @@ gaps:
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
@@ -103,12 +104,6 @@ gaps:
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://untappd.com/MisfitBrewing/beer"
-      - "https://www.drinkmisfit.com/"
-      - "https://www.drinkmisfit.com/beerlist/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -116,7 +111,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Conditioned on cocoa nibs"
+  source: "https://www.drinkmisfit.com/beerlist/"
 sources:
   - "https://untappd.com/MisfitBrewing/beer"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -180,7 +177,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Conditioned on cocoa nibs | [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/) |
 
 ## style-context
 
@@ -209,7 +206,7 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -219,3 +216,4 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Located the working brewery site and its Sludge Factory listing. The brewery lists 10.5% ABV, while [Untappd's listing](https://untappd.com/MisfitBrewing/beer) gives 11.2%; the brewery value is retained. No IBU or hop varieties were found.
 - Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found competition coverage without IBU or named hops.
+- Deep dive pass 2026-10-14: the brewery beer list was read again; it gives style, cocoa nib conditioning and 10.5% ABV only.

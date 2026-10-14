@@ -30,18 +30,13 @@ description:
 entries: 30
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://grimmales.com/beers/road-dog/"
-      - "https://grimmales.com/location/taproom/"
-      - "https://www.grimmales.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://grimmales.com/beers/road-dog/"
       - "https://grimmales.com/location/taproom/"
       - "https://www.grimmales.com/"
       - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473"
   - field: "srm"
     sources-checked:
       - "https://grimmales.com/beers/road-dog/"
@@ -96,12 +91,6 @@ gaps:
       - "https://grimmales.com/location/taproom/"
       - "https://www.grimmales.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://grimmales.com/beers/road-dog/"
-      - "https://grimmales.com/location/taproom/"
-      - "https://www.grimmales.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -110,7 +99,9 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Roggenbier brewed with Human Robot, fermented with the yeast strain Grimm uses for Grimm Weisse"
+  source: "https://grimmales.com/beers/road-dog/"
 sources:
   - "https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473"
   - "https://grimmales.com/beers/road-dog/"
@@ -119,7 +110,9 @@ sources:
   - "https://www.grimmales.com/"
 srm: null
 style: "Roggenbier"
-tasting-notes: null
+tasting-notes:
+  text: "Road Dog is rife with elegant notes of clove and dark dried fruit. A balancing hint of caramel sweetness is here, but the sip finishes dry."
+  source: "https://grimmales.com/beers/road-dog/"
 water: null
 yeast:
   - "Grimm Weisse yeast strain"
@@ -156,7 +149,9 @@ Source: [Grimm Artisanal Ales: Road Dog](https://grimmales.com/beers/road-dog/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Road Dog is rife with elegant notes of clove and dark dried fruit. A balancing hint of caramel sweetness is here, but the sip finishes dry.
+
+Source: [grimmales.com](https://grimmales.com/beers/road-dog/)
 
 ## ingredients
 
@@ -174,7 +169,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Roggenbier brewed with Human Robot, fermented with the yeast strain Grimm uses for Grimm Weisse | [grimmales.com](https://grimmales.com/beers/road-dog/) |
 
 ## style-context
 
@@ -203,8 +198,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473).
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -214,3 +209,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Untappd photo search results associate Grimm Road Dog with 5.4% ABV, but the opened Surf Club page contained no matching beer text. That excerpt was not accepted; the existing brewery 5.5% is retained. No numeric IBU or named hops were verified.
 - Catalog.beer 2026-10-14: [Catalog.beer: Road Dog](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473) lists 5.5% ABV, style "Roggenbier" (entry last modified 2026-09-24). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives the tasting notes, the Human Robot collaboration and the shared Grimm Weisse yeast; it names no hops.

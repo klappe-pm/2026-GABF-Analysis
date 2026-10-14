@@ -39,6 +39,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "srm"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -46,6 +47,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "og"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -53,6 +55,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "fg"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "hops"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -67,6 +71,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "hop-form"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -74,6 +79,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "hop-use"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -81,6 +87,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "lot-or-farm"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -88,6 +95,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "malts"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -95,6 +103,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "yeast"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -102,6 +111,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "water"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -109,6 +119,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
   - field: "process"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -116,6 +127,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660"
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
 hop-profile: []
 hops: []
 ibu: 20
@@ -216,7 +228,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes, web search 2026-10-14: Roughtail Migrating Coconuts hops and malt.
 
 ## research-notes
 
@@ -225,3 +237,4 @@ No brewery links have been checked yet.
 - Style conflict: the brewery and Craft Beer & Brewing say imperial porter; BeerMenus says sweet stout. Both third parties agree on 7.8% ABV.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A hop variety focused search excluding the previously read brewery, review and BeerMenus pages found no matching source naming hops.
+- Deep dive pass 2026-10-14: a web search found reviewers' tasting notes (Craft Beer and Brewing) but no brewery tasting notes, hops or malts; reviewer notes are not recorded as the beer's own.

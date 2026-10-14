@@ -35,96 +35,112 @@ gaps:
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos"
       - "https://www.beermenus.com/breweries/15951-new-york-beer-project"
       - "https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west"
       - "web searches recorded in the research notes"
+      - "https://nybeerproject.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -220,8 +236,8 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/).
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes, [nybeerproject.com](https://nybeerproject.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -230,3 +246,4 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found [Untappd's Drunkin' Punkin' listing](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos) at 8.1% ABV and [BeerMenus' listing](https://www.beermenus.com/breweries/15951-new-york-beer-project) at 9.3%. These listings are associated with the Lockport brewery and do not establish the Winter Garden medal beer's formulation. Structured specifications remain null; the separately named barrel aged variant was excluded.
 - Field pass 2026-10-13: Winter Garden focused searches found local 2026 fall coverage naming Drunken Punkin at the Orlando location, but no ABV, IBU or hop varieties. The previously recorded Lockport specifications remain excluded and no matching brewery beer page was found.
+- Deep dive pass 2026-10-14: the brewery site was read again and has no Drunken Punkin page; the earlier passes' searches are the rest of the record.

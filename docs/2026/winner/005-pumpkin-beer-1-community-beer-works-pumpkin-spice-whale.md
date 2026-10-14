@@ -41,6 +41,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "ibu"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -48,6 +50,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "srm"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -55,6 +59,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "og"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -62,6 +68,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "fg"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -69,6 +77,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "hops"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -76,6 +86,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "hop-form"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -83,6 +95,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "hop-use"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -90,6 +104,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "lot-or-farm"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -97,6 +113,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "malts"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -104,6 +122,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "yeast"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -111,6 +131,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "water"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -118,6 +140,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
   - field: "process"
     sources-checked:
       - "https://communitybeerworks.com/"
@@ -125,6 +149,8 @@ gaps:
       - "https://untappd.com/communitybeerworks/beer"
       - "https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew"
       - "web searches recorded in the research notes"
+      - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
+      - "web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients"
 hop-profile: []
 hops: []
 ibu: null
@@ -134,6 +160,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html"
   - "https://communitybeerworks.com/"
   - "https://communitybeerworks.com/beers"
   - "https://untappd.com/communitybeerworks/beer"
@@ -228,8 +255,8 @@ Links checked 2026-10-14: [Website](https://communitybeerworks.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes.
-- Not published: IBU. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes, [buffalonews.com](https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html), web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients.
+- Not published: IBU. Checked [communitybeerworks.com](https://communitybeerworks.com/), [communitybeerworks.com](https://communitybeerworks.com/beers), [untappd.com](https://untappd.com/communitybeerworks/beer), [wkbw.com](https://www.wkbw.com/news/local-news/pumpkin-spice-ale-community-beer-works-announces-a-new-limited-edition-brew), web searches recorded in the research notes, [buffalonews.com](https://buffalonews.com/life-entertainment/local/food-drink/article_56a4bbea-66c1-11ee-b46c-6fcf5c5e42e4.html), web search 2026-10-14: Community Beer Works Pumpkin Spice Whale ingredients, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -238,3 +265,4 @@ Links checked 2026-10-14: [Website](https://communitybeerworks.com/).
 - ABV, IBU, malt and hop varieties and yeast are not published on any page read.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's Untappd list publishes 5.9% ABV for Pumpkin Spice Whale, with N/A IBU and no named hop varieties. No readable brewery beer page was found.
+- Deep dive pass 2026-10-14: WKBW says the brew layers "distinct English malts and hops" without naming varieties; a Buffalo News caption (October 10, 2023) gives notes of fall spices, coffee and chocolate in the paper's own words, so it is not recorded as the brewery's tasting notes.

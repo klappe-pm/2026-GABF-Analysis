@@ -36,6 +36,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "tasting-notes"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -43,6 +44,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "ibu"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -50,6 +52,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "srm"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -57,6 +60,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "og"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -64,6 +68,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "fg"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -71,6 +76,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "hops"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -78,6 +84,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "hop-form"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -85,6 +92,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "hop-use"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -92,6 +100,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "lot-or-farm"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -99,6 +108,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "malts"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -106,6 +116,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "yeast"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -113,6 +124,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "adjuncts"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -120,6 +132,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "water"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -127,6 +140,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
   - field: "process"
     sources-checked:
       - "https://primalbrewery.com/"
@@ -134,6 +148,7 @@ gaps:
       - "https://primalbrewery.com/huntersville-draft-list/"
       - "https://untappd.com/b/primal-brewery-hops-mirage/5652401"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops"
 hop-profile: []
 hops: []
 ibu: null
@@ -232,8 +247,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes.
-- Not published: IBU. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops.
+- Not published: IBU. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, web search 2026-10-14: Primal Brewery Hops Mirage non-alcoholic IPA hops, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -243,3 +258,4 @@ No brewery links have been checked yet.
 - The web search budget for this session ran out before an Untappd or retailer search specific to this beer could be run.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 0% ABV, N/A IBU and no named hop varieties. The zero is recorded as the listing's stated value.
+- Deep dive pass 2026-10-14: the brewery pages list only the beer's awards, and a web search found no description or recipe.

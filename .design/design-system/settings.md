@@ -1,0 +1,32 @@
+---
+Seed color: "#2D6A4F"
+Primary color: "#2D6A4F"
+Color style: tonal spot
+Surface tint: none
+Page background: white
+Contrast: standard
+Heading font: Public Sans
+Body font: Public Sans
+Label font: Archivo Narrow
+Corner shape: medium
+Gold medal color: "#C9A13B"
+Silver medal color: "#B4B9BD"
+Bronze medal color: "#BF7B4A"
+---
+
+# Design settings
+
+These settings shape every page. The site reads them each time a page loads, so a change here shows on the next reload.
+
+- Seed color: the one color the whole Material color scheme is generated from. Write it in quotes, for example "#2D6A4F". On its own, Material keeps the seed's hue but redraws the primary color at its own lightness, so the primary on the page can differ from the seed.
+- Primary color: the exact color of main actions, links, focus, and selection, in quotes. The primary containers and the text on them are drawn from this color's own hue, so they stay its relatives.
+- Color style: how Material builds the scheme from the seed: tonal spot, neutral, vibrant, expressive, fidelity, or content.
+- Surface tint: none keeps backgrounds, cards, and bars white and neutral gray, with the seed's color only on accents (main actions, focus, selection, charts); seed tints every surface with the seed's hue.
+- Page background: white puts every page on pure white (#FFFFFF); scheme uses Material's own near white surface. Cards, the app bar, and the navigation keep their light gray containers either way.
+- Contrast: standard, medium, or high contrast between text and its background.
+- Heading font: the face for display, headline, and title text. Public Sans is the only choice, because headings carry figures.
+- Body font: the face for body text and every figure. Public Sans is the only choice.
+- Label font: the face for short labels such as field labels and table headers: Archivo Narrow or Public Sans. Labels that hold figures always use Public Sans.
+- Corner shape: how round corners are across the site: square, small, medium (Material's standard), or large.
+- Gold medal color, Silver medal color, Bronze medal color: the metal fills of medal marks, in quotes.
+- Type sizes: to change one Material type role, add a line such as Body large size: 17 (a whole number of pixels). The roles are display, headline, title, body, and label, each large, medium, or small.

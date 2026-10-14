@@ -46,6 +46,7 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://kulshanbrewing.com/"
@@ -116,13 +117,6 @@ gaps:
       - "https://kulshanbrewing.com/beer-lineup"
       - "https://kulshanbrewing.com/on-tap"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://kulshanbrewing.com/"
-      - "https://kulshanbrewing.com/awards"
-      - "https://kulshanbrewing.com/beer-lineup"
-      - "https://kulshanbrewing.com/on-tap"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -130,7 +124,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Served on nitro"
+  source: "https://kulshanbrewing.com/on-tap"
 sources:
   - "https://kulshanbrewing.com/"
   - "https://kulshanbrewing.com/awards"
@@ -197,7 +193,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Served on nitro | [kulshanbrewing.com](https://kulshanbrewing.com/on-tap) |
 
 ## style-context
 
@@ -227,7 +223,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
 - Not published: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -238,3 +234,4 @@ No brewery links have been checked yet.
 - The Toast online ordering page for the Roosevelt taproom returned HTTP 403, and searches found no Untappd listing.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: IBU and hop focused searches found brewery award coverage and activity without specifications. A BeerMenus focused search supplied no matching new specification source; Short's Cup A Joe is unrelated.
+- Deep dive pass 2026-10-14: the tap list lists it as a nitro pour at 4.2%; the beer lineup page has no further detail.

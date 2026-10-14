@@ -20,3 +20,5 @@ web/out/
 web/*.tsbuildinfo
 breweries/
 .docs/feedback/
+web/public/design-settings/
+web/out-review/

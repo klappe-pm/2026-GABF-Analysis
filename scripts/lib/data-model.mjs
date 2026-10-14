@@ -9,7 +9,9 @@ import { abvBand, isSpecialCategory, styleFamily } from './style-families.mjs';
 import { parseFrontmatter } from './frontmatter.mjs';
 import { estimateBarrels, estimateFinancials, estimateRevenue, loadParameters, volumeBreakdown } from './estimate.mjs';
 import { attachWinnerSpecs } from './winner-specs.mjs';
-import { BREWERIES, ENRICHED, REFERENCE, RESULTS } from './paths.mjs';
+import { BREWERIES, ENRICHED, REFERENCE, RESULTS, ROOT } from './paths.mjs';
+import { loadWinnerProfiles } from './winner-profiles.mjs';
+import { buildHopModel, loadHopReference } from './hops.mjs';
 
 const MEDAL_ORDER = { Gold: 0, Silver: 1, Bronze: 2, 'Honorable Mention': 3 };
 export const MEDAL_POINTS = { Gold: 3, Silver: 2, Bronze: 1, 'Honorable Mention': 0 };
@@ -262,7 +264,18 @@ export function loadDataset({ root } = {}) {
     b.locations = [...b.locations.values()];
   }
 
+  // Hops: each 2026 beer joined to its varieties and farms. Sets hop_varieties, hop_farms_named and
+  // hop_farms_grown on the matching medal rows, which the global filter reads.
+  const winnerDir = root ? resolve(root, 'docs/2026/winner') : undefined;
+  const hops = buildHopModel({
+    profiles: loadWinnerProfiles(2026, winnerDir),
+    rows: results,
+    breweries: [...breweries.values()],
+    reference: loadHopReference({ referenceDir, docsDir: root ? resolve(root, 'docs') : resolve(ROOT, 'docs') }),
+  });
+
   return {
+    hops,
     results, otherResults, states, stateByCode, fedDistricts, medalCityCounties, stateIndicators, districtIndicators, categories, categoryByName, ownership, production, distributors, params,
     summary, awards, coverage, years: [...years].sort(), minYear, maxYear, latestComplete,
     breweries: [...breweries.values()].sort((a, b) => b.total_points - a.total_points || b.medals.length - a.medals.length || a.name.localeCompare(b.name)),

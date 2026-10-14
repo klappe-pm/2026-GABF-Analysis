@@ -33,81 +33,113 @@ gaps:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "tasting-notes"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "abv"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "ibu"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "srm"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "og"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "fg"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "hops"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "hop-form"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "hop-use"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "lot-or-farm"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "malts"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "yeast"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "adjuncts"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "water"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
   - field: "process"
     sources-checked:
       - "https://verbotenbrewing.com/"
       - "https://verbotenbrewing.com/beer-menu/"
       - "web searches recorded in the research notes"
+      - "https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)"
+      - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
 hop-profile: []
 hops: []
 ibu: null
@@ -202,8 +234,8 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old.
+- Not published: ABV, IBU. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -213,3 +245,4 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches surfaced an Untappd listing for Coconut GO (Grow Old), but both the beer page and nearby page failed to open. Its search excerpt was not accepted as verified specifications, so the fields remain null.
 - Field pass 2026-10-13: Menu and brewery domain searches found no readable matching brewery beer page or named hops. The Coconut GO (Grow Old) result remains an unverified listing; no ABV or IBU was accepted.
+- Deep dive pass 2026-10-14: the brewery beer menu renders no readable text and a web search found no Coconut GO listing; the name suggests a coconut version of Grow Old With You, but nothing published says so, so no figure is carried over.

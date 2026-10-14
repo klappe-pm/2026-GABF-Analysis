@@ -40,6 +40,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "ibu"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -49,6 +50,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "srm"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -58,6 +60,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "og"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -67,6 +70,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "fg"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -76,6 +80,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "hops"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -85,6 +90,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "hop-form"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -94,6 +100,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "hop-use"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -103,6 +110,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "lot-or-farm"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -112,6 +120,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "malts"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -121,6 +130,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "adjuncts"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -130,6 +140,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "water"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -139,6 +150,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
   - field: "process"
     sources-checked:
       - "https://allaboutbeer.com/the-best-table-beer-in-america/"
@@ -148,6 +160,7 @@ gaps:
       - "https://www.beerandbrewing.com/review/the-big-friendly-oblique--bent-1692721437"
       - "https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html"
       - "web searches recorded in the research notes"
+      - "https://thebigfriendly.com/menu"
 hop-profile: []
 hops: []
 ibu: null
@@ -254,8 +267,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes.
-- Not published: IBU. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu).
+- Not published: IBU. Checked [allaboutbeer.com](https://allaboutbeer.com/the-best-table-beer-in-america/), [thebigfriendly.com](https://thebigfriendly.com/), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent-2025/6332554), [untappd.com](https://untappd.com/b/the-big-friendly-oblique-and-bent/4985485), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-oblique-%2Dbent-1692721437), [tulsapeople.com](https://www.tulsapeople.com/about-town/what-the-ale-okcs-big-friendly-brewerys-award-winning-oblique-and-bent-is-the-beer/article_fbd39c92-66b4-11ee-b1e9-53e411b07100.html), web searches recorded in the research notes, [thebigfriendly.com](https://thebigfriendly.com/menu), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -265,3 +278,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The explicitly dated 2025 listing gives N/A IBU and no hop varieties; its 4.5% ABV was not transferred to this year's profile. A targeted brewery domain search found no matching beer page.
+- Deep dive pass 2026-10-14: the brewery menu was read again; it gives no detail beyond the style.

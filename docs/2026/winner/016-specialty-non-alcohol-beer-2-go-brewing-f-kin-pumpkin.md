@@ -38,13 +38,6 @@ description:
 entries: 26
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://gobrewing.com/"
-      - "https://gobrewing.com/collections/beers"
-      - "https://gobrewing.com/products/fk-in-pumkin-ale"
-      - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://gobrewing.com/"
@@ -52,6 +45,7 @@ gaps:
       - "https://gobrewing.com/products/fk-in-pumkin-ale"
       - "https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://gobrewing.com/"
@@ -139,7 +133,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Pumpkin Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Expect aromas of cinnamon, allspice, nutmeg, pie crust, and pumpkin with moderate sweetness, warming baking spices, and a smooth medium-bodied mouthfeel with light, tingling carbonation."
+  source: "https://gobrewing.com/products/fk-in-pumkin-ale"
 water: null
 yeast: []
 ---
@@ -175,7 +171,9 @@ Source: [Go Brewing: pumpkin ale](https://gobrewing.com/products/fk-in-pumkin-al
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Expect aromas of cinnamon, allspice, nutmeg, pie crust, and pumpkin with moderate sweetness, warming baking spices, and a smooth medium-bodied mouthfeel with light, tingling carbonation.
+
+Source: [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale)
 
 ## ingredients
 
@@ -223,8 +221,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
 - Not published: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -233,3 +231,4 @@ No brewery links have been checked yet.
 - Lactose is recorded as an adjunct because it appears in the ingredient list.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing gives N/A IBU and names no hops. It reports 0.4% ABV against the existing brewery 0.39%; the existing value is retained.
+- Deep dive pass 2026-10-14: the brewery product page lists ingredients (water, malted barley, pumpkin puree, lactose, cinnamon, nutmeg, clove, allspice, ginger, yeast), a brown ale base, 0.39% ABV and tasting notes; it names no hop and no yeast strain.
