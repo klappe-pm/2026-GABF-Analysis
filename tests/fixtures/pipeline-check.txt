@@ -1,1 +1,1 @@
-# This fixture exists so the feedback pipline can be checked end to end. No test reads it.
+# This fixture exists so the feedback pipeline can be checked end to end. No test reads it.
