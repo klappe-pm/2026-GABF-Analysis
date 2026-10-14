@@ -64,13 +64,6 @@ gaps:
       - "https://www.bendbrewingco.com/"
       - "https://www.bendbrewingco.com/beer"
       - "web searches recorded in the research notes"
-  - field: "hop-form"
-    sources-checked:
-      - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
-      - "https://www.beerandbrewing.com/review/tropic-pines-ipa"
-      - "https://www.bendbrewingco.com/"
-      - "https://www.bendbrewingco.com/beer"
-      - "web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
@@ -134,8 +127,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
   - published: "Mosaic Cryo"
-    variety: "Mosaic Cryo"
-    form: null
+    variety: "Mosaic"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/bend-brewing-company-tropic-pines/2551116"
@@ -148,7 +141,6 @@ hop-profile:
 hops:
   - "Chinook"
   - "Mosaic"
-  - "Mosaic Cryo"
   - "Simcoe"
 ibu: 65
 malts: []
@@ -210,7 +202,7 @@ The [current beer entry](https://untappd.com/b/bend-brewing-company-tropic-pines
 |---|---|---|---|---|---|
 | Chinook | Chinook | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
 | Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
-| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
+| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
 | Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116) |
 
 ## brewing-details
@@ -251,7 +243,7 @@ Links checked 2026-10-14: [Website](https://www.bendbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116), [beerandbrewing.com](https://www.beerandbrewing.com/review/tropic-pines-ipa), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/bend-brewing-company-tropic-pines/2551116), [beerandbrewing.com](https://www.beerandbrewing.com/review/tropic-pines-ipa), [bendbrewingco.com](https://www.bendbrewingco.com/), [bendbrewingco.com](https://www.bendbrewingco.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 

@@ -276,3 +276,4 @@ Links checked 2026-10-14: [Website](https://www.barebottle.com/), [Instagram](ht
 - First pass: The style label for this file is the category name.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The matching iPourIt listing supplies the strength and lager label. No hop varieties, IBU or brewery beer page were verified. A search excerpt from The Lexington House suggested 5.5%, but its opened menu no longer listed the beer, so that figure is not used.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no Club Haus page.

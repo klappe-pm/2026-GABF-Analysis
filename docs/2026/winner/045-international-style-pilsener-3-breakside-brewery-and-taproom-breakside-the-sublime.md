@@ -26,95 +26,89 @@ brewery-state: "OR"
 brewery-url: "https://breakside.com/"
 category-name: "International-Style Pilsener"
 category-number: 45
-description: null
+description:
+  text: "This take on Helles is one of our favorites: originally a collaboration recipe made with Templin Family Brewing out of Salt Lake City, we combine the malt and bitterness levels of a traditional Helles with a more assertive hop aroma by bringing some modern IPA techniques to traditional German lager."
+  source: "https://breakside.com/our_beer/the-sublime-helles-lager/"
 entries: 79
 fg: null
 gaps:
-  - field: "description"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/awards/"
-      - "https://breakside.com/our_beer/the-sublime/"
-      - "web searches recorded in the research notes"
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/awards/"
-      - "https://breakside.com/our_beer/the-sublime/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "og"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "fg"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "hop-form"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
-  - field: "hop-use"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/awards/"
-      - "https://breakside.com/our_beer/the-sublime/"
-      - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "yeast"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "adjuncts"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - field: "water"
     sources-checked:
       - "https://breakside.com/"
       - "https://breakside.com/awards/"
       - "https://breakside.com/our_beer/the-sublime/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/awards/"
-      - "https://breakside.com/our_beer/the-sublime/"
-      - "web searches recorded in the research notes"
+      - "https://breakside.com/our_beer-sitemap.xml"
+      - "https://breakside.com/our_beer/the-sublime-helles-lager/"
 hop-profile:
   - published: "Hersbrucker"
     variety: "Hersbrucker"
     form: null
-    use: null
+    use: "whirlpool"
     lot-or-farm: null
-    source: "https://breakside.com/our_beer/the-sublime/"
+    source: "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - published: "Lorien"
     variety: "Lorien"
     form: null
-    use: null
+    use: "whirlpool"
     lot-or-farm: null
-    source: "https://breakside.com/our_beer/the-sublime/"
+    source: "https://breakside.com/our_beer/the-sublime-helles-lager/"
 hops:
   - "Hersbrucker"
   - "Lorien"
@@ -124,15 +118,20 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Cool pooled, with a Pilsner level of hops added in the whirlpool for herbal and floral aroma without added bitterness"
+  source: "https://breakside.com/our_beer/the-sublime-helles-lager/"
 sources:
   - "https://breakside.com/"
   - "https://breakside.com/awards/"
+  - "https://breakside.com/our_beer/the-sublime-helles-lager/"
   - "https://breakside.com/our_beer/the-sublime/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Bavarian-style Helles lager"
-tasting-notes: null
+tasting-notes:
+  text: "FLAVOR PROFILE: sweet herbs, soft, baguette"
+  source: "https://breakside.com/our_beer/the-sublime-helles-lager/"
 water: null
 yeast: []
 ---
@@ -168,7 +167,9 @@ Source: [Breakside: The Sublime](https://breakside.com/our_beer/the-sublime/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> FLAVOR PROFILE: sweet herbs, soft, baguette
+
+Source: [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/)
 
 ## ingredients
 
@@ -178,8 +179,8 @@ The [brewery page](https://breakside.com/our_beer/the-sublime/) names German Pil
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hersbrucker | Hersbrucker | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/the-sublime/) |
-| Lorien | Lorien | not published | not published | not published | [breakside.com](https://breakside.com/our_beer/the-sublime/) |
+| Hersbrucker | Hersbrucker | not published | whirlpool | not published | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
+| Lorien | Lorien | not published | whirlpool | not published | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
 
 ## brewing-details
 
@@ -189,7 +190,7 @@ The [brewery page](https://breakside.com/our_beer/the-sublime/) names German Pil
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Cool pooled, with a Pilsner level of hops added in the whirlpool for herbal and floral aroma without added bitterness | [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/) |
 
 ## style-context
 
@@ -218,10 +219,11 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/our_beer/the-sublime/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Yeast, Adjuncts, Water. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/our_beer/the-sublime/), web searches recorded in the research notes, [breakside.com](https://breakside.com/our_beer-sitemap.xml), [breakside.com](https://breakside.com/our_beer/the-sublime-helles-lager/).
 
 ## research-notes
 
 - The page's availability window (May to July 2024) predates the 2026 medal; the brewery may have rebrewed it, but no 2026 release note was found.
 - The brewery awards page lists no GABF 2026 results; a link on that page uses the slug "the-sublime-helles-lager" for a different award entry.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's The Sublime Helles Lager page (found in its beer sitemap) gives the description, flavor profile, the Templin Family Brewing origin, and the method: cool pooled with a Pilsner level of hops in the whirlpool; recorded as the whirlpool use of Hersbrucker and Lorien.

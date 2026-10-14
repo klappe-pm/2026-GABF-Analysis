@@ -40,6 +40,7 @@ gaps:
       - "https://www.beermenus.com/beers/591370-wren-house-festbier"
       - "https://www.wrenhousebrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/591370-wren-house-festbier"
@@ -90,11 +91,6 @@ gaps:
       - "https://www.beermenus.com/beers/591370-wren-house-festbier"
       - "https://www.wrenhousebrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.beermenus.com/beers/591370-wren-house-festbier"
-      - "https://www.wrenhousebrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -105,7 +101,9 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Step mashed at various temperatures for mouthfeel and dryness, from German heritage floor malted Barke Pilsner, Vienna and Munich malts"
+  source: "https://www.beermenus.com/beers/591370-wren-house-festbier"
 sources:
   - "https://www.beermenus.com/beers/591370-wren-house-festbier"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -166,7 +164,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Step mashed at various temperatures for mouthfeel and dryness, from German heritage floor malted Barke Pilsner, Vienna and Munich malts | [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier) |
 
 ## style-context
 
@@ -195,7 +193,7 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/591370-wren-house-festbier), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -205,3 +203,4 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 - All specs come from BeerMenus, whose description opens by calling the beer a 2022 GABF gold medal winner.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery description carried by BeerMenus gives the step mash; no tasting notes or hops.

@@ -32,12 +32,6 @@ description:
 entries: 94
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/"
-      - "https://www.fallingskybrewing.com/"
-      - "https://www.fallingskybrewing.com/beer"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/"
@@ -120,7 +114,9 @@ sources:
   - "https://www.fallingskybrewing.com/beer"
 srm: null
 style: "Vienna style lager (listed as Marzen Lager)"
-tasting-notes: null
+tasting-notes:
+  text: "Toasty sweet malts grown in Oregon float across your tongue along with a small wisp of hops."
+  source: "https://www.fallingskybrewing.com/beer"
 water: null
 yeast: []
 ---
@@ -158,7 +154,9 @@ Source: [Falling Sky: beer list](https://www.fallingskybrewing.com/beer)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Toasty sweet malts grown in Oregon float across your tongue along with a small wisp of hops.
+
+Source: [fallingskybrewing.com](https://www.fallingskybrewing.com/beer)
 
 ## ingredients
 
@@ -205,7 +203,7 @@ Links checked 2026-10-14: [Website](https://www.fallingskybrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerstone.com](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/), [fallingskybrewing.com](https://www.fallingskybrewing.com/), [fallingskybrewing.com](https://www.fallingskybrewing.com/beer), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [beerstone.com](https://beerstone.com/2018/09/22/eugene-fresh-hop-oktoberfest-roundup/), [fallingskybrewing.com](https://www.fallingskybrewing.com/), [fallingskybrewing.com](https://www.fallingskybrewing.com/beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -216,3 +214,4 @@ Links checked 2026-10-14: [Website](https://www.fallingskybrewing.com/), [Instag
 - Hop varieties were not found on the brewery site, the roundup, or a BeerMenus search.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer page gives tasting words and Oregon-grown malt; no hop variety.

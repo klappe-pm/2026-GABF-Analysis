@@ -85,7 +85,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.allagash.com/beer/white/"
   - published: "Czech Saaz"
-    variety: "Czech Saaz"
+    variety: "Saaz"
     form: null
     use: null
     lot-or-farm: null
@@ -98,8 +98,8 @@ hop-profile:
     source: "https://www.allagash.com/beer/white/"
 hops:
   - "Crystal"
-  - "Czech Saaz"
   - "Nugget"
+  - "Saaz"
 ibu: 13
 malts:
   - "2-row malt"
@@ -167,7 +167,7 @@ The brewery publishes a full grain bill of a 2-row barley blend, local pale malt
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Crystal | Crystal | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
-| Czech Saaz | Czech Saaz | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
+| Czech Saaz | Saaz | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
 | Nugget | Nugget | not published | not published | not published | [allagash.com](https://www.allagash.com/beer/white/) |
 
 ## brewing-details

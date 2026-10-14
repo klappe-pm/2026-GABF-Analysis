@@ -30,14 +30,6 @@ description:
 entries: 94
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://mastheadbrewingco.com/"
-      - "https://mastheadbrewingco.com/beer"
-      - "https://mastheadbrewingco.com/menu"
-      - "https://untappd.com/MastheadBrewingCo/beer"
-      - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://mastheadbrewingco.com/"
@@ -46,6 +38,7 @@ gaps:
       - "https://untappd.com/MastheadBrewingCo/beer"
       - "https://www.beermenus.com/beers/549762-masthead-shower-beer"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://mastheadbrewingco.com/"
@@ -159,7 +152,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Canadian Style Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Shower Beer is as crisp and refreshing as the Canadian Rockies."
+  source: "https://www.beermenus.com/beers/549762-masthead-shower-beer"
 water: null
 yeast: []
 ---
@@ -197,7 +192,9 @@ Source: [BeerMenus: Masthead Shower Beer](https://www.beermenus.com/beers/549762
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Shower Beer is as crisp and refreshing as the Canadian Rockies.
+
+Source: [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer)
 
 ## ingredients
 
@@ -244,8 +241,8 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes.
 - Not published: IBU. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -255,3 +252,4 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 - An unrelated Swedish "Shower Beer" (a pale ale) turns up in press; it is not this beer.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery description carried by BeerMenus gives the tasting words; no recipe.

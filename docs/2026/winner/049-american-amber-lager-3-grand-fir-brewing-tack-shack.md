@@ -30,18 +30,13 @@ description:
 entries: 94
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
-      - "https://www.grandfirbrewing.com/"
-      - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
       - "https://www.grandfirbrewing.com/"
       - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year"
@@ -129,7 +124,9 @@ sources:
   - "https://www.grandfirbrewing.com/s/BEER1017.pdf"
 srm: null
 style: "East Texas Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Clean, bready, light caramel"
+  source: "https://www.grandfirbrewing.com/s/BEER1017.pdf"
 water: null
 yeast: []
 ---
@@ -165,7 +162,9 @@ Source: [Grand Fir: drinks menu (PDF)](https://www.grandfirbrewing.com/s/BEER101
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Clean, bready, light caramel
+
+Source: [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf)
 
 ## ingredients
 
@@ -212,8 +211,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes.
 - Not published: IBU. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -223,3 +222,4 @@ No brewery links have been checked yet.
 - IBU and ingredients were not found on the brewery site, the menu, or Beervana.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery menu PDF gives three tasting words only.

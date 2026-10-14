@@ -281,3 +281,4 @@ No brewery links have been checked yet.
 - First pass: Web search was unavailable for most of this run, so retailer, taproom menu and press sources could not be located.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery's awards page explicitly associates its Extra Pale Ale label with the 2026 bronze medal, tying the apparently conflicting style label to the winning entry. Untappd supplies strength and named hops; no separate pilsner version was found. The current brewery beer page no longer contains the beer.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Coral Crush page, and the description on file comes from Untappd.

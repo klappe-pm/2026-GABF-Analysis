@@ -36,13 +36,6 @@ gaps:
       - "https://tfbrewing.com/beers/"
       - "https://tfbrewing.com/location/taproom/"
       - "web searches recorded in the research notes"
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://tfbrewing.com/"
-      - "https://tfbrewing.com/beer/4504-2/"
-      - "https://tfbrewing.com/beers/"
-      - "https://tfbrewing.com/location/taproom/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://tfbrewing.com/"
@@ -50,6 +43,7 @@ gaps:
       - "https://tfbrewing.com/beers/"
       - "https://tfbrewing.com/location/taproom/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://tfbrewing.com/"
@@ -150,7 +144,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Bright/Classic/Clean/Crisp/noble hop aroma/refreshing"
+  source: "https://tfbrewing.com/beer/4504-2/"
 water: null
 yeast: []
 ---
@@ -184,7 +180,9 @@ The brewery publishes no description sentence, only a flavor profile: "Bright/Cl
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright/Classic/Clean/Crisp/noble hop aroma/refreshing
+
+Source: [tfbrewing.com](https://tfbrewing.com/beer/4504-2/)
 
 ## ingredients
 
@@ -231,7 +229,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
+- Not published: Description, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
 - Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -242,3 +240,4 @@ No brewery links have been checked yet.
 - IBU, hops, malts and yeast were not found on the beer page or the taproom list; a web search for the beer returned only other Templin beers.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's Fassbier Pilsner page gives a flavor profile line and 5% ABV only.

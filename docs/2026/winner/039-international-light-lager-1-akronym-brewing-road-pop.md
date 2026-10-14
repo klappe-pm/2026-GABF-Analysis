@@ -41,6 +41,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "srm"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -51,6 +52,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "og"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -61,6 +63,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "fg"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -71,6 +74,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "hops"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -81,6 +85,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "hop-form"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -91,6 +96,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "hop-use"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -101,6 +107,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -111,6 +118,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "malts"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -121,6 +129,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "yeast"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -131,6 +140,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "adjuncts"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -141,6 +151,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "water"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -151,6 +162,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
   - field: "process"
     sources-checked:
       - "https://akronymbrewing.com/"
@@ -161,6 +173,7 @@ gaps:
       - "https://untappd.com/akronymbrewing/beer?q=road+pop"
       - "https://untappd.com/b/akronym-brewing-road-pop-light/6834930"
       - "web searches recorded in the research notes"
+      - "https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/"
 hop-profile: []
 hops: []
 ibu: 18
@@ -267,7 +280,7 @@ Links checked 2026-10-14: [Website](https://akronymbrewing.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [akronymbrewing.com](https://akronymbrewing.com/), [akronymbrewing.com](https://akronymbrewing.com/award-winning-craft-beer/), [akronymbrewing.com](https://akronymbrewing.com/core-brands/), [akronymbrewing.com](https://akronymbrewing.com/events/), [akronymbrewing.com](https://akronymbrewing.com/ontap/), [untappd.com](https://untappd.com/akronymbrewing/beer?q=road+pop), [untappd.com](https://untappd.com/b/akronym-brewing-road-pop-light/6834930), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [akronymbrewing.com](https://akronymbrewing.com/), [akronymbrewing.com](https://akronymbrewing.com/award-winning-craft-beer/), [akronymbrewing.com](https://akronymbrewing.com/core-brands/), [akronymbrewing.com](https://akronymbrewing.com/events/), [akronymbrewing.com](https://akronymbrewing.com/ontap/), [untappd.com](https://untappd.com/akronymbrewing/beer?q=road+pop), [untappd.com](https://untappd.com/b/akronym-brewing-road-pop-light/6834930), web searches recorded in the research notes, [akronymbrewing.com](https://akronymbrewing.com/meet-road-pop-light-akronyms-new-light-german-lager/).
 
 ## research-notes
 
@@ -276,3 +289,4 @@ Links checked 2026-10-14: [Website](https://akronymbrewing.com/), [Instagram](ht
 - Untappd has two Road Pop listings from Akronym: Road Pop Light (Leichtbier, 3%, 18 IBU) and Road Pop Kellerbier (Kellerbier / Zwickelbier, 3%, no IBU). The GABF entry name is plain Road Pop; the Light listing is used because its style matches a light lager category, but which listing corresponds to the entry is not confirmed. Both agree on 3% ABV.
 - The brewery's awards page mentions a 2026 Ohio Craft Beer Awards post but no 2026 GABF result.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's August 2026 post introduces Road Pop Light, a 3% German style light lager with a subtle floral hop aroma; it is a different beer from the medal winning Road Pop, so nothing is carried over.

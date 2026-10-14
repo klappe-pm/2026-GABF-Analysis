@@ -32,18 +32,6 @@ description:
 entries: 110
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.fremontbrewing.com/"
-      - "https://www.fremontbrewing.com/haru-japanese-lager"
-      - "https://www.fremontbrewing.com/our-beer"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.fremontbrewing.com/"
-      - "https://www.fremontbrewing.com/haru-japanese-lager"
-      - "https://www.fremontbrewing.com/our-beer"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://www.fremontbrewing.com/"
@@ -93,14 +81,14 @@ gaps:
       - "https://www.fremontbrewing.com/our-beer"
       - "web searches recorded in the research notes"
 hop-profile:
-  - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+  - published: "Mosaic"
+    variety: "Mosaic"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.fremontbrewing.com/haru-japanese-lager"
-  - published: "Mosaic"
-    variety: "Mosaic"
+  - published: "German Hallertau Mittlefruh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -112,7 +100,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.fremontbrewing.com/haru-japanese-lager"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Mosaic"
   - "Saaz"
 ibu: 17
@@ -129,9 +117,13 @@ sources:
   - "https://www.fremontbrewing.com/"
   - "https://www.fremontbrewing.com/haru-japanese-lager"
   - "https://www.fremontbrewing.com/our-beer"
-srm: null
+srm:
+  value: "Light straw (no SRM number published)"
+  source: "https://www.fremontbrewing.com/haru-japanese-lager"
 style: "Japanese Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Aroma shows light floral notes alongside water cracker, white bread, and subtle dough, with slight earthy and grassy character. Flavor is clean and subtly sweet with low bitterness, moderate minerality, and a light lingering sweetness, with faint notes of biscuit or cracker. Mouthfeel is light-bodied with medium carbonation, smooth and crisp, with no astringency and only mild warming."
+  source: "https://www.fremontbrewing.com/haru-japanese-lager"
 water: null
 yeast: []
 ---
@@ -167,7 +159,9 @@ Source: [Fremont: Haru Japanese Lager](https://www.fremontbrewing.com/haru-japan
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Aroma shows light floral notes alongside water cracker, white bread, and subtle dough, with slight earthy and grassy character. Flavor is clean and subtly sweet with low bitterness, moderate minerality, and a light lingering sweetness, with faint notes of biscuit or cracker. Mouthfeel is light-bodied with medium carbonation, smooth and crisp, with no astringency and only mild warming.
+
+Source: [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager)
 
 ## ingredients
 
@@ -177,15 +171,15 @@ The [brewery page](https://www.fremontbrewing.com/haru-japanese-lager) gives the
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Mosaic | Mosaic | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| German Hallertau Mittlefruh | Hallertauer Mittelfruh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Saaz | Saaz | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 
 ## brewing-details
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Light straw (no SRM number published) | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -218,10 +212,11 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fremontbrewing.com](https://www.fremontbrewing.com/), [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager), [fremontbrewing.com](https://www.fremontbrewing.com/our-beer), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [fremontbrewing.com](https://www.fremontbrewing.com/), [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager), [fremontbrewing.com](https://www.fremontbrewing.com/our-beer), web searches recorded in the research notes.
 
 ## research-notes
 
 - The brewery page itself notes the 2026 GABF bronze in Rice Lager.
 - All specs come from the brewery page; no third party source was needed.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives aroma, flavor and mouthfeel notes, light straw color, 5.1% ABV and 17 IBU; it prints the noble hop as "German Hallertau Mittlefruh", kept as published.

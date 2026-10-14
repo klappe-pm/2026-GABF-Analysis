@@ -25,12 +25,19 @@ brewery-state: "OR"
 brewery-url: "https://breakside.com/"
 category-name: "West Coast-Style Pilsener"
 category-number: 48
-description:
-  text: "Thora leads the charge in this hop blend and provides baseline notes of guava and passionfruit."
-  source: "https://breakside.com/our_beer/summer-classic/"
+description: null
 entries: 97
 fg: null
 gaps:
+  - field: "description"
+    sources-checked:
+      - "https://breakside.com/"
+      - "https://breakside.com/awards/"
+      - "https://breakside.com/beers/"
+      - "https://breakside.com/our_beer/summer-classic/"
+      - "https://untappd.com/b/breakside-brewery-summer-classic/6640928"
+      - "https://www.toasttab.com/local/order/breakside-brewery-dekum"
+      - "web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://breakside.com/"
@@ -49,6 +56,7 @@ gaps:
       - "https://untappd.com/b/breakside-brewery-summer-classic/6640928"
       - "https://www.toasttab.com/local/order/breakside-brewery-dekum"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://breakside.com/"
@@ -263,7 +271,7 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
 - Not published: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -274,3 +282,4 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 - Researched 2026-10-13.
 - Second pass 2026-10-13 (mismatch check): the Summer Classic page and the brewery's beer list were reopened. The page calls the beer "this new summer IPA" and says nothing about lager, lager yeast or cold fermentation; "Pilsner" appears only as a malt in its spec list. Summer Classic is not on the current beer list, whose lagers are Oktoberfest, Game Time Harvest Pilsner and Breakside Pilsner. No pilsener Summer Classic could be established, so the IPA specs were moved out of the structured fields. Web search hit its session limit, so Untappd and medal press were not checked.
 - IPA page specs, kept here for reference only: India Pale Ale, 6% ABV, 42 IBU, hops Thora (guava and passionfruit) and Krush (wild raspberry, melon and rhubarb), malts Pilsner and Two Row, flavor notes guava, floral and sweet citrus, seasonal, kegs and 16 oz cans ([Breakside: Summer Classic IPA page](https://breakside.com/our_beer/summer-classic/)).
+- Deep dive pass 2026-10-14: the Summer Classic page was read again and still describes an IPA; its quote stays in the body for reference only and is not recorded as this pilsener's description.

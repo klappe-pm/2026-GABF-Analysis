@@ -55,12 +55,6 @@ gaps:
       - "https://www.pfriembeer.com/beer/all/"
       - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
       - "web searches recorded in the research notes"
-  - field: "hop-form"
-    sources-checked:
-      - "https://www.pfriembeer.com/"
-      - "https://www.pfriembeer.com/beer/all/"
-      - "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
-      - "web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://www.pfriembeer.com/"
@@ -87,14 +81,14 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Columbus Cryo"
-    variety: "Columbus Cryo"
+    variety: "Columbus"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
   - published: "Krush Cryo"
-    variety: "Krush Cryo"
-    form: null
+    variety: "Krush"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
@@ -105,8 +99,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/"
 hops:
-  - "Columbus Cryo"
-  - "Krush Cryo"
+  - "Columbus"
+  - "Krush"
   - "Mosaic"
 ibu: 55
 malts:
@@ -171,8 +165,8 @@ The brewery's page names every ingredient in the specs table, with the malt from
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Columbus Cryo | Columbus Cryo | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
-| Krush Cryo | Krush Cryo | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Columbus Cryo | Columbus | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
+| Krush Cryo | Krush | Cryo | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 | Mosaic | Mosaic | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/) |
 
 ## brewing-details
@@ -212,7 +206,7 @@ Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Water, Process. Checked [pfriembeer.com](https://www.pfriembeer.com/), [pfriembeer.com](https://www.pfriembeer.com/beer/all/), [pfriembeer.com](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/), web searches recorded in the research notes.
 
 ## research-notes
 

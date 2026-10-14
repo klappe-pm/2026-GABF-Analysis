@@ -83,13 +83,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertauer Hersbrucker"
-    variety: "Hallertauer Hersbrucker"
+    variety: "Hersbrucker"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.saintarnold.com/beers-more/lawnmower/"
 hops:
-  - "Hallertauer Hersbrucker"
+  - "Hersbrucker"
 ibu: 18
 malts:
   - "Pilsner malt"
@@ -151,7 +151,7 @@ The brewery says the beer uses "just pale malted barley and a dash of malted whe
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertauer Hersbrucker | Hallertauer Hersbrucker | not published | not published | not published | [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/) |
+| Hallertauer Hersbrucker | Hersbrucker | not published | not published | not published | [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/) |
 
 ## brewing-details
 

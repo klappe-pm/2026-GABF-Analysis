@@ -30,14 +30,11 @@ description:
 entries: 77
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://greencheekbeer.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://greencheekbeer.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://greencheekbeer.com/"
@@ -55,10 +52,6 @@ gaps:
       - "https://greencheekbeer.com/"
       - "web searches recorded in the research notes"
   - field: "hop-use"
-    sources-checked:
-      - "https://greencheekbeer.com/"
-      - "web searches recorded in the research notes"
-  - field: "lot-or-farm"
     sources-checked:
       - "https://greencheekbeer.com/"
       - "web searches recorded in the research notes"
@@ -83,7 +76,7 @@ hop-profile:
     variety: "Saphir"
     form: null
     use: null
-    lot-or-farm: null
+    lot-or-farm: "German grown"
     source: "https://greencheekbeer.com/"
 hops:
   - "Saphir"
@@ -99,7 +92,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Italian-Style Pils w/ Saphir"
-tasting-notes: null
+tasting-notes:
+  text: "Wonderfully aromatic with a dried lemon zest vibe along with some sage. The body is light on the palate, but the hops fill it out to create a wonderful tannin structure and a legit snappy bite in the finish."
+  source: "https://greencheekbeer.com/"
 water: null
 yeast: []
 ---
@@ -135,7 +130,9 @@ Source: [Green Cheek: beer descriptions](https://greencheekbeer.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Wonderfully aromatic with a dried lemon zest vibe along with some sage. The body is light on the palate, but the hops fill it out to create a wonderful tannin structure and a legit snappy bite in the finish.
+
+Source: [greencheekbeer.com](https://greencheekbeer.com/)
 
 ## ingredients
 
@@ -145,7 +142,7 @@ The brewery's description credits brewer Max at the Costa Mesa site with using I
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Saphir | Saphir | not published | not published | not published | [greencheekbeer.com](https://greencheekbeer.com/) |
+| Saphir | Saphir | not published | not published | German grown | [greencheekbeer.com](https://greencheekbeer.com/) |
 
 ## brewing-details
 
@@ -184,8 +181,8 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://greencheekbeer.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [greencheekbeer.com](https://greencheekbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Yeast, Adjuncts, Water, Process. Checked [greencheekbeer.com](https://greencheekbeer.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -195,3 +192,4 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 - IBU and yeast were not found; web search budget ran out before Untappd or BeerMenus could be tried for this beer.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's tap text gives tasting notes, Italian coastal barley and German grown Saphir hops.

@@ -31,13 +31,6 @@ description:
 entries: 104
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beermenus.com/beers/213333-logboat-bobber"
-      - "https://www.logboatbrewing.com/"
-      - "https://www.logboatbrewing.com/beers"
-      - "https://www.logboatbrewing.com/bobber"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/213333-logboat-bobber"
@@ -108,28 +101,23 @@ gaps:
       - "https://www.logboatbrewing.com/beers"
       - "https://www.logboatbrewing.com/bobber"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.beermenus.com/beers/213333-logboat-bobber"
-      - "https://www.logboatbrewing.com/"
-      - "https://www.logboatbrewing.com/beers"
-      - "https://www.logboatbrewing.com/bobber"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Mittelfrüh"
-    variety: "Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.logboatbrewing.com/bobber"
 hops:
-  - "Mittelfrüh"
+  - "Hallertauer Mittelfruh"
 ibu: 15
 malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Unfiltered lager brewed with inspiration from pale German lagers"
+  source: "https://www.logboatbrewing.com/bobber"
 sources:
   - "https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9"
   - "https://www.beermenus.com/beers/213333-logboat-bobber"
@@ -139,7 +127,9 @@ sources:
   - "https://www.logboatbrewing.com/bobber"
 srm: null
 style: "Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Noble Hops provide floral notes and a crisp finish. Profile: Light / Clean / Crisp"
+  source: "https://www.logboatbrewing.com/bobber"
 water: null
 yeast: []
 ---
@@ -175,7 +165,9 @@ Source: [Logboat: Bobber](https://www.logboatbrewing.com/bobber)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Noble Hops provide floral notes and a crisp finish. Profile: Light / Clean / Crisp
+
+Source: [logboatbrewing.com](https://www.logboatbrewing.com/bobber)
 
 ## ingredients
 
@@ -185,7 +177,7 @@ The brewery names Mittelfrüh as the hop and says "Noble Hops provide floral not
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Mittelfrüh | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
+| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
 
 ## brewing-details
 
@@ -195,7 +187,7 @@ The brewery names Mittelfrüh as the hop and says "Noble Hops provide floral not
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Unfiltered lager brewed with inspiration from pale German lagers | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
 
 ## style-context
 
@@ -224,7 +216,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -234,3 +226,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Bobber Lager](https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9) lists 5% ABV, 15 IBU, style "American-Style Lager" (entry last modified 2020-05-02). It fills the empty IBU; where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page says the lager is unfiltered and hopped with Mittelfruh; no malts or IBU.

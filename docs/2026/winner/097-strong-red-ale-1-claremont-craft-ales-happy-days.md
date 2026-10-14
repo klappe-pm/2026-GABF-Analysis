@@ -114,7 +114,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "CTZ"
-    variety: "CTZ"
+    variety: "Columbus/Tomahawk/Zeus"
     form: null
     use: null
     lot-or-farm: null
@@ -132,7 +132,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/"
 hops:
-  - "CTZ"
+  - "Columbus/Tomahawk/Zeus"
   - "Mosaic"
   - "Simcoe"
 ibu: null
@@ -203,7 +203,7 @@ Head brewer Brian Seffer published a 5 gallon homebrew version of the beer: 16 l
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| CTZ | CTZ | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
+| CTZ | Columbus/Tomahawk/Zeus | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
 | Mosaic | Mosaic | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
 | Simcoe | Simcoe | not published | not published | not published | [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/) |
 

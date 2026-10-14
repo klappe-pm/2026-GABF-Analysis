@@ -128,7 +128,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Fuggles"
-    variety: "Fuggles"
+    variety: "Fuggle"
     form: null
     use: null
     lot-or-farm: null
@@ -140,7 +140,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046"
 hops:
-  - "Fuggles"
+  - "Fuggle"
   - "Hallertauer"
 ibu: 27
 malts: []
@@ -204,7 +204,7 @@ The listing names the two hops in the specs table but gives no malt bill or yeas
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Fuggles | Fuggles | not published | not published | not published | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
+| Fuggles | Fuggle | not published | not published | not published | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
 | Hallertauer | Hallertauer | not published | not published | not published | [untappd.com](https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046) |
 
 ## brewing-details

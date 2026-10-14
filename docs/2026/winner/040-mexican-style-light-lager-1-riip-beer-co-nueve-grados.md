@@ -30,18 +30,13 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://riip.com/"
-      - "https://shop.riip.beer/collections/california-beer-shipping"
-      - "https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://riip.com/"
       - "https://shop.riip.beer/collections/california-beer-shipping"
       - "https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://riip.com/"
@@ -129,7 +124,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Mexican Pilsner"
-tasting-notes: null
+tasting-notes:
+  text: "Bright, Light, Beachable"
+  source: "https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9"
 water: null
 yeast: []
 ---
@@ -165,7 +162,9 @@ Source: [Riip shop: Nueve Grados](https://shop.riip.beer/products/nueve-grados-m
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright, Light, Beachable
+
+Source: [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9)
 
 ## ingredients
 
@@ -212,8 +211,8 @@ Links checked 2026-10-14: [Website](https://riip.com/), [Instagram](https://www.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
 - Not published: IBU. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -222,3 +221,4 @@ Links checked 2026-10-14: [Website](https://riip.com/), [Instagram](https://www.
 - No Untappd listing could be located, and web search was unavailable for this run.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery shop page gives three tasting words only.

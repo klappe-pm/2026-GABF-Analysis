@@ -117,20 +117,20 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertauer Mittelfrüh"
-    variety: "Hallertauer Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
   - published: "Tradition"
-    variety: "Tradition"
+    variety: "Hallertauer Tradition"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912"
-hops: 
-  - "Hallertauer Mittelfrüh"
-  - "Tradition"
+hops:
+  - "Hallertauer Mittelfruh"
+  - "Hallertauer Tradition"
 ibu: null
 malts: 
   - "German base malt"
@@ -193,8 +193,8 @@ The whiskey variant's own description explicitly confirms the traditional recipe
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertauer Mittelfrüh | Hallertauer Mittelfrüh | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
-| Tradition | Tradition | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Hallertauer Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
+| Tradition | Hallertauer Tradition | not published | not published | not published | [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912) |
 
 ## brewing-details
 

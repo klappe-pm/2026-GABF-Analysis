@@ -49,6 +49,7 @@ gaps:
       - "https://hpb.la/shop/product/ffdelivery3/"
       - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
       - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e"
   - field: "srm"
     sources-checked:
       - "https://hpb.la/"
@@ -68,15 +69,6 @@ gaps:
       - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://hpb.la/"
-      - "https://hpb.la/awards-press/"
-      - "https://hpb.la/dinein"
-      - "https://hpb.la/shop"
-      - "https://hpb.la/shop/product/ffdelivery3/"
-      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://hpb.la/"
       - "https://hpb.la/awards-press/"
@@ -156,8 +148,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://hpb.la/shop/product/ffdelivery3/"
   - published: "Citra Cryo"
-    variety: "Citra Cryo"
-    form: null
+    variety: "Citra"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://hpb.la/shop/product/ffdelivery3/"
@@ -168,16 +160,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://hpb.la/shop/product/ffdelivery3/"
   - published: "Mosaic Cryo"
-    variety: "Mosaic Cryo"
-    form: null
+    variety: "Mosaic"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://hpb.la/shop/product/ffdelivery3/"
 hops:
   - "Citra"
-  - "Citra Cryo"
   - "Mosaic"
-  - "Mosaic Cryo"
 ibu: null
 malts: []
 medal: "Bronze"
@@ -242,9 +232,9 @@ The brewery identifies its malt supplier in the specs table but does not name in
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
-| Citra Cryo | Citra Cryo | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Citra Cryo | Citra | Cryo | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
 | Mosaic | Mosaic | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
-| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
+| Mosaic Cryo | Mosaic | Cryo | not published | not published | [web page](https://hpb.la/shop/product/ffdelivery3/) |
 
 ## brewing-details
 
@@ -286,7 +276,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
 - Not published: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
 
 ## research-notes

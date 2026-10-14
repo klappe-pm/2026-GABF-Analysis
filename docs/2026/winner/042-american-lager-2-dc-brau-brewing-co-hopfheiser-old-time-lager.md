@@ -243,3 +243,4 @@ No brewery links have been checked yet.
 - The brand site lists no ABV or IBU; the 4% figure comes from Untappd and DC Beer.
 - The DC Brau awards page lists a 2023 US Beer Open bronze for Old Time Lager and nothing for 2026.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the beer's own site gives marketing copy only; no tasting notes or recipe.

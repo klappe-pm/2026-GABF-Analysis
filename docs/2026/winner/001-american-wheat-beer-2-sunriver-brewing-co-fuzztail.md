@@ -116,7 +116,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.sunriverbrewingcompany.com/beer/fuzztail"
   - published: "Lemon Drop"
-    variety: "Lemon Drop"
+    variety: "Lemondrop"
     form: null
     use: null
     lot-or-farm: null
@@ -124,7 +124,7 @@ hop-profile:
 hops:
   - "Cascade"
   - "Chinook"
-  - "Lemon Drop"
+  - "Lemondrop"
 ibu: 20
 malts:
   - "Pale malt"
@@ -196,7 +196,7 @@ The brewery's page names three hops (Chinook, Cascade and Lemon Drop) and Idaho 
 |---|---|---|---|---|---|
 | Cascade | Cascade | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 | Chinook | Chinook | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
-| Lemon Drop | Lemon Drop | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
+| Lemon Drop | Lemondrop | not published | not published | not published | [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail) |
 
 ## brewing-details
 

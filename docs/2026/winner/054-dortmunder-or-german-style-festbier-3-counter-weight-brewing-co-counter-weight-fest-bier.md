@@ -31,18 +31,13 @@ description:
 entries: 161
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
-      - "https://www.counterweightbrewing.com/"
-      - "https://www.counterweightbrewing.com/brews/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
       - "https://www.counterweightbrewing.com/"
       - "https://www.counterweightbrewing.com/brews/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/223066-counter-weight-fest-bier"
@@ -130,7 +125,9 @@ sources:
   - "https://www.counterweightbrewing.com/brews/"
 srm: null
 style: "German Fest Bier"
-tasting-notes: null
+tasting-notes:
+  text: "Unlike the Marzen style, the traditional fest beer is lighter, drier, and less sweet. Clean and well defined bready malt qualities take center stage."
+  source: "https://www.counterweightbrewing.com/brews/"
 water: null
 yeast: []
 ---
@@ -166,7 +163,9 @@ Source: [BeerMenus: Counter Weight Fest Bier](https://www.beermenus.com/beers/22
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Unlike the Marzen style, the traditional fest beer is lighter, drier, and less sweet. Clean and well defined bready malt qualities take center stage.
+
+Source: [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/)
 
 ## ingredients
 
@@ -213,8 +212,8 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 - Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/223066-counter-weight-fest-bier), [counterweightbrewing.com](https://www.counterweightbrewing.com/), [counterweightbrewing.com](https://www.counterweightbrewing.com/brews/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -223,3 +222,4 @@ Links checked 2026-10-14: [Website](https://www.counterweightbrewing.com/), [Ins
 - Brewery and BeerMenus agree on 5.9% ABV; BeerMenus files it under Oktoberfest. Neither gives IBU or ingredients.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives tasting words and 5.9% ABV; no hops or malts.

@@ -42,6 +42,7 @@ gaps:
       - "https://www.humanpeoplebeer.com/"
       - "https://www.humanpeoplebeer.com/cafe"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/human-people-before-and-after-science/6884729"
@@ -55,12 +56,6 @@ gaps:
       - "https://www.humanpeoplebeer.com/cafe"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://untappd.com/b/human-people-before-and-after-science/6884729"
-      - "https://www.humanpeoplebeer.com/"
-      - "https://www.humanpeoplebeer.com/cafe"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/human-people-before-and-after-science/6884729"
       - "https://www.humanpeoplebeer.com/"
@@ -110,7 +105,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Columbus Cryo"
-    variety: "Columbus Cryo"
+    variety: "Columbus"
     form: null
     use: null
     lot-or-farm: null
@@ -128,8 +123,8 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/human-people-before-and-after-science/6884729"
   - published: "Mosaic Cryo"
-    variety: "Mosaic Cryo"
-    form: null
+    variety: "Mosaic"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/human-people-before-and-after-science/6884729"
@@ -140,10 +135,9 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/human-people-before-and-after-science/6884729"
 hops:
-  - "Columbus Cryo"
+  - "Columbus"
   - "Krush"
   - "Mosaic"
-  - "Mosaic Cryo"
   - "Simcoe"
 ibu: null
 malts: []
@@ -204,10 +198,10 @@ No malt, yeast or adjunct details were found beyond the hops in the specs table.
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Columbus Cryo | Columbus Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Columbus Cryo | Columbus | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 | Krush | Krush | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 | Mosaic | Mosaic | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
-| Mosaic Cryo | Mosaic Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
+| Mosaic Cryo | Mosaic | Cryo | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 | Simcoe | Simcoe | not published | not published | not published | [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729) |
 
 ## brewing-details
@@ -247,7 +241,7 @@ Links checked 2026-10-14: [Website](https://www.humanpeoplebeer.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

@@ -36,6 +36,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -44,6 +46,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -52,6 +56,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -60,6 +66,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -68,6 +76,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "og"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -76,6 +86,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -84,6 +96,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -92,6 +106,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -100,6 +116,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -108,6 +126,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -116,6 +136,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -124,6 +146,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -132,6 +156,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -140,6 +166,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "water"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -148,6 +176,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
   - field: "process"
     sources-checked:
       - "https://untappd.com/GooseIsland/beer"
@@ -156,6 +186,8 @@ gaps:
       - "https://www.gooseisland.com/saltshedpub"
       - "https://www.gooseisland.com/view-all"
       - "web searches recorded in the research notes"
+      - "https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)"
+      - "web search 2026-10-14: Goose Island Kick Back Lager"
 hop-profile: []
 hops: []
 ibu: null
@@ -254,8 +286,8 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/GooseIsland/beer), [beermenus.com](https://www.beermenus.com/search?q=goose+island+kick+back), [gooseisland.com](https://www.gooseisland.com/beers), [gooseisland.com](https://www.gooseisland.com/saltshedpub), [gooseisland.com](https://www.gooseisland.com/view-all), web searches recorded in the research notes, [gooseisland.com](https://www.gooseisland.com/beers/kick-back-lager (HTTP 404)), web search 2026-10-14: Goose Island Kick Back Lager, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -266,3 +298,4 @@ Links checked 2026-10-14: [Website](https://www.gooseisland.com/), [Instagram](h
 - First pass: No 2026 medal announcement from the brewery was found.
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Searches located the brewery's Salt Shed page advertising Kick Back lagers, but no readable beer specification page. The BeerAdvocate brewery listing remained inaccessible; its earlier unverified strength is still excluded.
+- Deep dive pass 2026-10-14: the guessed brewery page does not exist and a web search found only other Goose Island lagers.

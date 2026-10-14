@@ -30,16 +30,12 @@ description:
 entries: 110
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.silverbranchbrewing.com/"
-      - "https://www.silverbranchbrewing.com/beer/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.silverbranchbrewing.com/"
       - "https://www.silverbranchbrewing.com/beer/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.silverbranchbrewing.com/"
@@ -114,7 +110,9 @@ sources:
   - "https://www.silverbranchbrewing.com/beer/"
 srm: null
 style: "Mexican-Style Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Mundo Especial is a crisp and refreshing light Mexican-style lager, brewed to be a perfectly balanced thirst quencher."
+  source: "https://www.silverbranchbrewing.com/beer/"
 water: null
 yeast: []
 ---
@@ -150,7 +148,9 @@ Source: [Silver Branch: our beer](https://www.silverbranchbrewing.com/beer/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Mundo Especial is a crisp and refreshing light Mexican-style lager, brewed to be a perfectly balanced thirst quencher.
+
+Source: [silverbranchbrewing.com](https://www.silverbranchbrewing.com/beer/)
 
 ## ingredients
 
@@ -196,8 +196,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [silverbranchbrewing.com](https://www.silverbranchbrewing.com/), [silverbranchbrewing.com](https://www.silverbranchbrewing.com/beer/), web searches recorded in the research notes.
 - Not published: IBU. Checked [silverbranchbrewing.com](https://www.silverbranchbrewing.com/), [silverbranchbrewing.com](https://www.silverbranchbrewing.com/beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [silverbranchbrewing.com](https://www.silverbranchbrewing.com/), [silverbranchbrewing.com](https://www.silverbranchbrewing.com/beer/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +206,4 @@ No brewery links have been checked yet.
 - The brewery home page embeds an Instagram post saying its Mexican-style lager "just took home a silver medal in the Rice Lager category" at GABF.
 - No Untappd listing was found: web search was unavailable and a guessed Untappd brewery path returned 404.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery beer list gives the tasting words and 4.5% ABV; no recipe.
