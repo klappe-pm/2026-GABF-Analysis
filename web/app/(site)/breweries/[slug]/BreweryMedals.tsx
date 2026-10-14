@@ -38,7 +38,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   const c = copy;
   usePageScope({ brewery_key: b.key }, [fillText(c.fixed.brewery, { brewery_name: b.name })]);
   const shown = useFilteredRows(b.rows) as BreweryRow[];
-  const none = <span className="text-on-surface-variant">{c.gaps.not_defined}</span>;
+  const none = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
   const medalNames = c.medal as Record<MedalName, string>;
   const est = b.estimate;
   const mark = (id: string, metric: Parameters<typeof explain>[0]) => (
@@ -70,7 +70,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
     key: String(t.year),
     cells: {
       year: t.year,
-      status: c.trend_status[t.status] ?? c.gaps.not_defined,
+      status: c.trend_status[t.status] ?? c.gaps.not_found,
       medals: t.total,
       split: <MedalRecord counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} variant="value" names={medalNames} />,
     },
@@ -129,7 +129,7 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
   // The cards of the latest year's beers, gold first.
   const cards = shown.filter((r) => r.stem && r.year === year).sort((x, y) => (RANK[x.medal] ?? 9) - (RANK[y.medal] ?? 9) || x.beer_name.localeCompare(y.beer_name));
   const cardData = (r: BreweryRow): BeerCardData => {
-    const nd = c.specs.not_published;
+    const nd = c.gaps.not_found;
     const list = (v: string[]) => (v.length ? v.join(', ') : nd);
     return {
       name: r.beer_name,

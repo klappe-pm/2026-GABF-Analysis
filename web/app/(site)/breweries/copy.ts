@@ -1,5 +1,5 @@
 // Copy the breweries pages share, read from the copy documents on the server and handed to the client views.
-import { group } from '@/lib/content';
+import { group, t } from '@/lib/content';
 import type { EstimateCopy } from './estimate-text';
 
 export function estimateCopy(): EstimateCopy {
@@ -11,7 +11,7 @@ export function estimateCopy(): EstimateCopy {
     types: group('global.labels.brewery_type'),
     channels: group('global.labels.distribution_channel'),
     yesNo: group('global.labels.yes_no'),
-    notDefined: group('global.states.gaps').not_defined,
+    notDefined: t('global.labels.not_found'),
     metrics: {
       barrels: templates.metric_barrels,
       arr: templates.metric_arr,

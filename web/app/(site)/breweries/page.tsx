@@ -39,7 +39,7 @@ export default async function BreweriesPage() {
     countOne: t(page('table.count_one')),
     searchLabel: t(page('table.search_label')),
     searchPlaceholder: t(page('table.search_placeholder')),
-    notDefined: t('global.states.gaps.not_defined'),
+    notDefined: t('global.labels.not_found'),
     methodLink: t(page('table.method_link')),
     mark: t('global.states.estimates.marker'),
     medalNames: group('global.labels.medal') as IndexCopy['medalNames'],

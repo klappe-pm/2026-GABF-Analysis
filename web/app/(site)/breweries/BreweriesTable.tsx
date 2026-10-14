@@ -135,8 +135,8 @@ export function BreweriesTable({ info, initial, copy }: { info: Record<string, I
               {list.length > limit ? (
                 <div className="flex flex-wrap items-center gap-4">
                   <p className="type-body-medium tabular-nums text-on-surface-variant">{fillText(copy.showing, { shown: limit.toLocaleString('en-US'), total: list.length.toLocaleString('en-US') })}</p>
-                  <Button variant="secondary" onClick={() => setLimit(limit + PAGE_SIZE)}>{fillText(copy.showMore, { count: Math.min(PAGE_SIZE, list.length - limit) })}</Button>
-                  <Button variant="quiet" onClick={() => setLimit(list.length)}>{fillText(copy.showAll, { total: list.length.toLocaleString('en-US') })}</Button>
+                  <Button variant="secondary" onClick={() => setLimit(limit + PAGE_SIZE)}><span style={{ fontFamily: 'var(--md-ref-typeface-plain)' }}>{fillText(copy.showMore, { count: Math.min(PAGE_SIZE, list.length - limit) })}</span></Button>
+                  <Button variant="quiet" onClick={() => setLimit(list.length)}><span style={{ fontFamily: 'var(--md-ref-typeface-plain)' }}>{fillText(copy.showAll, { total: list.length.toLocaleString('en-US') })}</span></Button>
                 </div>
               ) : null}
             </>

@@ -32,7 +32,7 @@ function Item({ term, children }: { term: string; children: ReactNode }) {
 }
 
 export function Profile({ b, copy: c, estimate, recordUrl }: { b: BreweryRecord; copy: Copy; estimate: EstimateCopy; recordUrl: string }) {
-  const nd = <span className="text-on-surface-variant">{c.gaps.not_defined}</span>;
+  const nd = <span className="text-on-surface-variant">{c.gaps.not_found}</span>;
   const est = b.estimate;
   const f = est.fin;
   const o = b.ownership;
@@ -85,15 +85,15 @@ export function Profile({ b, copy: c, estimate, recordUrl }: { b: BreweryRecord;
                   const extras = [l.opened ? fillText(c.profile.location_opened, { year: l.opened }) : '', l.kitchen ? c.profile.location_kitchen : ''].filter(Boolean).join(', ');
                   return (
                     <li key={`${l.name}-${address}-${i}`}>
-                      {fillText(c.profile.location_line, { name: l.name ?? l.city ?? c.gaps.not_defined, address: address || c.gaps.not_defined })}
+                      {fillText(c.profile.location_line, { name: l.name ?? l.city ?? c.gaps.not_found, address: address || c.gaps.not_found })}
                       {extras ? ` (${extras})` : ''} <TextLink href={mapLink(l)} rel="noopener">{c.profile.location_map}</TextLink>
                     </li>
                   );
                 })}
               </ul>
-            ) : b.locationsCount === 1 ? c.profile.locations_missing_one : fillText(c.profile.locations_missing, { count: b.locationsCount })}
+            ) : fillText(b.locationsCount === 1 ? c.profile.locations_missing_one : c.profile.locations_missing, { count: b.locationsCount, not_found: c.gaps.not_found })}
           </Item>
-          <Item term={c.profile.known_for}>{b.knownFor.length ? b.knownFor.join('; ') : b.topFamilies.length ? <span className="text-on-surface-variant">{b.topFamilies.map((x) => c.style_family[x] ?? x).join(', ')}</span> : c.profile.known_for_missing}</Item>
+          <Item term={c.profile.known_for}>{b.knownFor.length ? b.knownFor.join('; ') : b.topFamilies.length ? <span className="text-on-surface-variant">{b.topFamilies.map((x) => c.style_family[x] ?? x).join(', ')}</span> : nd}</Item>
         </DefList>
         <h3 className="type-title-large text-on-surface">{c.profile_extra.current_beers}</h3>
         {b.currentBeers.length ? b.currentBeers.map((g) => (
@@ -127,7 +127,7 @@ export function Profile({ b, copy: c, estimate, recordUrl }: { b: BreweryRecord;
           </DefList>
         ) : (
           <>
-            <p className="type-body-large">{c.ownership.missing}</p>
+            <p className="type-body-large">{c.gaps.not_found}</p>
             <p className="type-body-medium text-on-surface-variant">{c.ownership.missing_note}</p>
           </>
         )}
