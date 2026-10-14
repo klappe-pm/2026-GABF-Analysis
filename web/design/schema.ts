@@ -215,12 +215,12 @@ export function mergeLayout(base: Layout, next: Record<string, unknown>): Layout
   };
 }
 
-// The display form of a value, as written in a spec's what-you-can-change list.
+// The display form of a value, as written in a spec's options list.
 export const showValue = (v: Value) => (Array.isArray(v) ? v.join(', ') : String(v));
 
-// The body every spec carries: its image, then what can change, in the frontmatter's order and values.
+// The body every spec carries: its image, then its options (## <name>-options), in the frontmatter's order and values.
 export function specBody(name: string, title: string, settings: Settings): string {
-  const lines = [`![${title}](${name}.png)`, '', '## what-you-can-change', ''];
+  const lines = [`![${title}](${name}.png)`, '', `## ${name}-options`, ''];
   for (const k of Object.keys(COMPONENTS[name] ?? {})) if (Object.hasOwn(settings, k)) lines.push(`- ${k}: ${showValue(settings[k])}`);
   if (!Object.keys(COMPONENTS[name] ?? {}).length) lines.push('- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.');
   return `\n${lines.join('\n')}\n`;

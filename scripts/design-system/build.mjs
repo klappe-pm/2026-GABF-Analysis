@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Prepare the design system for the site:
-//   1. rewrite each component spec's body (its image and the what-you-can-change list) from its frontmatter,
+//   1. rewrite each component spec's body (its image and the <name>-options list) from its frontmatter,
 //      leaving the frontmatter exactly as written;
 //   2. copy settings.md, layout.md, and every spec.md into web/public/design-settings/, which the static
 //      export serves so each page can read the settings when it loads.

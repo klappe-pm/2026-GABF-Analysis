@@ -10,7 +10,7 @@ Ring color: on surface
 
 ![Medal mark](medal-mark.png)
 
-## what-you-can-change
+## medal-mark-options
 
 - Size: 24
 - Show initial: yes

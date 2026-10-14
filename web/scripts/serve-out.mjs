@@ -48,6 +48,9 @@ async function capture({ target, key, path }) {
     await page.waitForSelector('html[data-settings-applied="true"]', { timeout: 20000 });
     const el = target === 'settings' ? page.locator(`tr:has([data-setting=${JSON.stringify(`settings:${key}`)}])`) : page.locator(`#component-${target}-sample`);
     if (!(await el.count())) return false;
+    await page.evaluate(() => document.fonts.ready);
+    await el.first().scrollIntoViewIfNeeded();
+    await page.waitForTimeout(500);
     await el.first().screenshot({ path, animations: 'disabled' });
     return true;
   } finally {

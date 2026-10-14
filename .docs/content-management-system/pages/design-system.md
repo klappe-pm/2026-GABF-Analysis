@@ -8,10 +8,10 @@ Where: top of the page.
 
 - `title`: Design system
 - `lede`: The Material 3 settings and components every page of GABF Analysis is built from, shown with real medal data.
-- `spec_link`: Read the spec
+- `spec_link`: GitHub: {{name}} Spec
 - `source_link`: Settings and specs
 - `nav_label`: Sections
-- `settings_heading`: What you can change
+- `options_heading`: {{name}} Options
 
 ## `sections`
 

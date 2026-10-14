@@ -1,7 +1,7 @@
 // Edit one design setting in place, for the style guide's review mode. A setting lives in YAML
 // frontmatter: .design/design-system/settings.md for the whole site, or a component's spec.md.
 // The write changes only that key's lines (and, in a spec, the matching line of its
-// what-you-can-change list); every other byte of the file stays as it was. A value that fails the
+// <name>-options list); every other byte of the file stays as it was. A value that fails the
 // checks (allowed values, approved fonts, WCAG AA contrast in the generated scheme) is refused with a
 // plain reason and nothing is written. Each saved change is recorded as an ACCEPTED ticket in the
 // tracked docs/feedback/design-system/, with a picture of what changed, for the feedback pipeline to commit.
@@ -59,7 +59,7 @@ export function setFrontmatterKey(text, key, value) {
   return m[1] + next + m[3] + text.slice(m[0].length);
 }
 
-// Keep a spec's what-you-can-change line in step with its frontmatter: only that one line changes.
+// Keep a spec's options line in step with its frontmatter: only that one line changes.
 export function setListLine(text, key, shown) {
   const re = new RegExp(`^- ${escapeRe(key)}: .*$`, 'm');
   return re.test(text) ? text.replace(re, `- ${key}: ${shown}`) : text;

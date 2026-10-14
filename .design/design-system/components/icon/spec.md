@@ -9,7 +9,7 @@ Stroke width: 1.5
 
 ![Icons](icon.png)
 
-## what-you-can-change
+## icon-options
 
 - Size: 20
 - Stroke width: 1.5

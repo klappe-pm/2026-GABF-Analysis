@@ -13,7 +13,7 @@ Cell alignment: left
 
 ![Data table](data-table.png)
 
-## what-you-can-change
+## data-table-options
 
 - Header color: surface container
 - Header weight: bold
