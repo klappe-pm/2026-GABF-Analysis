@@ -491,7 +491,7 @@ export default function DesignSystemPage() {
                 marker={t('global.states.estimates.marker')}
                 label={t('global.states.estimates.short')}
                 explanation={t('global.states.estimates.explanation')}
-                link={{ href: '#component-estimate-popover', text: t('global.navigation.footer.method') }}
+                linkText={t('global.navigation.footer.method')}
               />
             </div>
           </State>
