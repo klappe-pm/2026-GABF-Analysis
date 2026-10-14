@@ -21,7 +21,7 @@ tags: []
 
 | workflow | runs on | what it does |
 |---|---|---|
-| `.github/workflows/ci.yml` | every pull request, pushes to main, dispatch | one job named `build`, the check branch protection on main requires: generated hop and brewery docs check, prose check, brand check, tests (after `npm run generate`), data validation, hop validation, the old site build, the design control plane and design system checks, the web/ static export, the rendered design system audit in Playwright Chromium, and a trial assembly of the Pages artifact |
+| `.github/workflows/ci.yml` | every pull request, pushes to main, dispatch | one job named `build`, the check branch protection on main requires: generated hop and brewery docs check, prose check, brand check, tests (after `npm run generate`), data validation, hop validation, the old site build, the design system check, the web/ static export, the rendered design system audit in Playwright Chromium, and a trial assembly of the Pages artifact |
 | `.github/workflows/deploy.yml` | a successful ci run on main, dispatch | builds the old site, the single file dashboard, and the web/ export, assembles `_site/`, and deploys it to GitHub Pages |
 | `.github/workflows/ingest-results.yml` | schedule in the results window, dispatch | ingests a winners list into a pull request, starts ci on it, and with publish true merges it once `build` passes and dispatches deploy |
 

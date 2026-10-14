@@ -45,7 +45,7 @@ jobs:
       - run: npm run validate
       - run: npm run hops:check
       - run: npm run build
-      - run: npm run design:check
+      # npm run design:check is local only: its engine lives in a separate agent-graph checkout.
       - run: npm run design-system:check
       - name: web-build
         # The rendered audit serves web/out at the origin root, so this build has no base path.
