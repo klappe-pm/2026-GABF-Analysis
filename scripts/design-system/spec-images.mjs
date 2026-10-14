@@ -17,8 +17,6 @@ const SITE = {
   tabs: ['/dashboards/breweries/index.html', 'nav.dash-nav'],
   chips: ['/index.html', '.coverage'],
   'spec-card': ['/beers/2026/068-golden-or-blonde-ale-1-ketch-brewing-brig-blonde/index.html', '.spec-card'],
-  'side-sheet': ['/explorer/index.html', 'aside.sidebar'],
-  'explorer-app': ['/explorer/index.html', 'body'],
 };
 
 async function main() {
