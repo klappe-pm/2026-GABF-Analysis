@@ -68,18 +68,21 @@ export const GLOBAL: Record<string, Kind> = {
   'Body font': enumOf(['Public Sans']),
   'Label font': enumOf(FONTS),
   'Corner shape': enumOf(['square', 'small', 'medium', 'large']),
+  // Page layout by Material window size class: how wide content may grow, the side margins, and the
+  // navigation on large windows. Page width is full (or fill, the same), wide (1600px), standard
+  // (1280px), or a width in rem; scripts/brand/build.mjs reads the same words.
   'Page width': { type: 'width' },
   'Compact margin': numberOf([8, 12, 16, 20, 24]),
-  'Wide margin': numberOf([16, 20, 24, 32, 40]),
+  'Wide margin': numberOf([16, 20, 24, 32, 40, 48]),
   'Navigation on wide screens': enumOf(['drawer', 'rail']),
   'Gold medal color': { type: 'hex' },
   'Silver medal color': { type: 'hex' },
   'Bronze medal color': { type: 'hex' },
-  // Page layout by Material window size class: how wide content may grow, and the side margins.
-  'Page width': enumOf(['fill', 'wide', 'standard']),
-  'Compact margin': numberOf([8, 12, 16, 20, 24]),
-  'Wide margin': numberOf([16, 24, 32, 40, 48]),
 };
+
+// The page width a "Page width" value allows: none fills the window.
+export const PAGE_WIDTHS: Record<string, string> = { full: 'none', fill: 'none', wide: '100rem', standard: '80rem' };
+export const pageMax = (v: unknown) => PAGE_WIDTHS[String(v ?? 'full')] ?? String(v);
 
 // Optional type size overrides in settings.md, in pixels: for example "Body large size: 17".
 export const TYPE_SIZE_KEY = /^(Display|Headline|Title|Body|Label) (large|medium|small) size$/;
@@ -162,7 +165,7 @@ export function valueProblem(kind: Kind, value: unknown): string | null {
     case 'number':
       return typeof value === 'number' && kind.values.includes(value) ? null : `must be one of: ${kind.values.join(', ')}`;
     case 'width':
-      return value === 'full' || (typeof value === 'string' && /^\d+(\.\d+)?rem$/.test(value) && Number.parseFloat(value) >= 30) ? null : 'must be full, or a width of 30rem or more such as 90rem';
+      return (typeof value === 'string' && Object.hasOwn(PAGE_WIDTHS, value)) || (typeof value === 'string' && /^\d+(\.\d+)?rem$/.test(value) && Number.parseFloat(value) >= 30) ? null : 'must be full, fill, wide, standard, or a width of 30rem or more such as 90rem';
     case 'list': {
       const items = Array.isArray(value) ? value : typeof value === 'string' ? value.split(',').map((s) => s.trim()) : null;
       if (!items || items.length < kind.min) return `must list at least ${kind.min} of: ${kind.values.join(', ')}`;
