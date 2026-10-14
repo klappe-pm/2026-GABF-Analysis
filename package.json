@@ -25,6 +25,7 @@
     "design-system:build": "node scripts/design-system/build.mjs",
     "design-system:check": "node scripts/design-system/check.mjs",
     "design-system:impact": "node scripts/design-system/impact.mjs",
+    "design-system:audit": "node scripts/design-system/audit-rendered.mjs",
     "web:install": "npm ci --prefix web",
     "web:build": "npm run build --prefix web",
     "web:serve": "npm run serve --prefix web",

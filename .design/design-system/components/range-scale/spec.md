@@ -15,6 +15,7 @@ related:
 title: Range scale
 tokens:
   - font.family.narrow
+  - font.family.sans
   - font.weight.semibold
   - rule.hairline
   - rule.heavy

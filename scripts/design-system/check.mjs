@@ -17,7 +17,7 @@ import { products } from './build.mjs';
 import {
   BANNED_FAMILIES, REQUIRED_FRONTMATTER, REQUIRED_SECTIONS, THEMES, WEB, contrastReport, cssProblems,
   listFiles, loadContent, loadFoundations, lookupContent, rawValueProblems, readLog, rel, resolveValue, scopeFor,
-  tokenIndex, usedTokens, verifyChain,
+  narrowFigureProblems, tokenIndex, usedTokens, verifyChain,
 } from './lib.mjs';
 
 export function runChecks() {
@@ -66,7 +66,7 @@ export function runChecks() {
     const spec = codeToSpec[path];
     if (!spec) fail(path, 'component code has no spec in .design/design-system/components');
     const src = readFileSync(file, 'utf8');
-    for (const p of rawValueProblems(src)) fail(path, p);
+    for (const p of [...rawValueProblems(src), ...narrowFigureProblems(src)]) fail(path, p);
     const { used, errors } = usedTokens(file, index);
     for (const e of errors) fail(path, e);
     if (spec) {
@@ -77,7 +77,7 @@ export function runChecks() {
   // App code (routes and helpers) follows the same raw value and class rules.
   for (const file of [...listFiles(resolve(WEB, 'app'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'lib'), ['.tsx', '.ts']), ...listFiles(resolve(WEB, 'design'), ['.ts'])]) {
     const path = rel(file);
-    for (const p of rawValueProblems(readFileSync(file, 'utf8'))) fail(path, p);
+    for (const p of [...rawValueProblems(readFileSync(file, 'utf8')), ...narrowFigureProblems(readFileSync(file, 'utf8'))]) fail(path, p);
     for (const e of usedTokens(file, index).errors) fail(path, e);
   }
   for (const file of listFiles(WEB, ['.css'])) {

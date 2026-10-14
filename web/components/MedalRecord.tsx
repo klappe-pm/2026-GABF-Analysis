@@ -19,7 +19,7 @@ export function MedalRecord({ counts, variant = 'split', names }: { counts: Meda
         {ORDER.map(([k, m]) => (
           <span key={k} className="inline-flex items-center gap-1" aria-hidden="true">
             {Array.from({ length: Math.min(counts[k], TALLY_LIMIT) }, (_, i) => <MedalMark key={i} medal={m} size="sm" label={false} />)}
-            {counts[k] > TALLY_LIMIT ? <span className="font-narrow text-micro tabular-nums text-ink-muted">+{counts[k] - TALLY_LIMIT}</span> : null}
+            {counts[k] > TALLY_LIMIT ? <span className="font-sans text-micro tabular-nums text-ink-muted">+{counts[k] - TALLY_LIMIT}</span> : null}
             {counts[k] === 0 ? <span className="font-narrow text-micro text-ink-faint">0</span> : null}
           </span>
         ))}

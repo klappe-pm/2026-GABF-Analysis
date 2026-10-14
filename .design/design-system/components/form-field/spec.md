@@ -13,6 +13,7 @@ tokens:
   - breakpoint.lg
   - breakpoint.sm
   - font.family.narrow
+  - font.family.sans
   - font.weight.medium
   - rule.hairline
   - semantic.color.green
@@ -37,7 +38,7 @@ A numbered form field: a ruled box with its number in judging green, its label i
 
 ## Anatomy
 
-1. Field number in the micro type role, judging green, hidden from assistive technology.
+1. Field number in the micro type role, set in Public Sans, judging green, hidden from assistive technology.
 2. Label in the narrow face, uppercase, ink muted. For a control the label is a real label element.
 3. Value in the figure type role (recorded value) or the control below.
 4. Optional note in ink muted.

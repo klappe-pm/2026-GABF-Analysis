@@ -566,3 +566,14 @@ export function diffSnapshots(before, after) {
   }
   return changes;
 }
+
+// Archivo Narrow has no tabular figures (measured: "1111" is narrower than "0000", with or without
+// tabular-nums), so a class string that asks for both is a defect. Figures are set in Public Sans.
+export function narrowFigureProblems(source) {
+  const problems = [];
+  for (const m of source.matchAll(/(["'`])((?:\\.|(?!\1)[^\\])*)\1/g)) {
+    const words = m[2].split(/\s+/);
+    if (words.includes('font-narrow') && words.includes('tabular-nums')) problems.push('font-narrow with tabular-nums: figures are set in Public Sans, the narrow face has no tabular figures');
+  }
+  return problems;
+}

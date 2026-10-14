@@ -15,7 +15,7 @@ function FieldHead({ number, label, htmlFor, id }: { number: string; label: stri
   const text = <span className="font-narrow text-label uppercase text-ink-muted">{label}</span>;
   return (
     <span className="flex items-baseline gap-2">
-      <span className="font-narrow text-micro tabular-nums text-green" aria-hidden="true">{number}</span>
+      <span className="font-sans text-micro tabular-nums text-green" aria-hidden="true">{number}</span>
       {htmlFor ? <label htmlFor={htmlFor} id={id}>{text}</label> : <span id={id}>{text}</span>}
     </span>
   );

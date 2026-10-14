@@ -8,7 +8,7 @@ import './globals.css';
 // Public Sans: the United States Web Design System's grotesk, drawn from Libre Franklin for government forms.
 const sans = Public_Sans({ subsets: ['latin'], variable: '--font-public-sans', display: 'swap', weight: 'variable' });
 // Archivo Narrow: a narrow grotesque for field labels, table headers, and stamps.
-const narrow = Archivo_Narrow({ subsets: ['latin'], variable: '--font-archivo-narrow', display: 'swap', weight: ['400', '600', '700'] });
+const narrow = Archivo_Narrow({ subsets: ['latin'], variable: '--font-archivo-narrow', display: 'swap', weight: 'variable' });
 
 export const metadata: Metadata = {
   title: { default: t('global.navigation.page_titles.home'), template: `%s${t('global.navigation.page_titles.suffix')}` },

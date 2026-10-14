@@ -1263,6 +1263,7 @@
         "breakpoint.lg",
         "breakpoint.sm",
         "font.family.narrow",
+        "font.family.sans",
         "font.weight.medium",
         "rule.hairline",
         "semantic.color.green",
@@ -1460,6 +1461,7 @@
       "code": "web/components/RangeScale.tsx",
       "tokens": [
         "font.family.narrow",
+        "font.family.sans",
         "font.weight.semibold",
         "rule.hairline",
         "rule.heavy",

@@ -53,8 +53,8 @@ function ColorTable({ ids, caption }: { ids: string[]; caption: string }) {
       key: id,
       cells: {
         role: role(id),
-        light: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="light" /><span className="font-narrow text-micro">{values.light}</span></span>,
-        dark: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="dark" /><span className="font-narrow text-micro">{values.dark}</span></span>,
+        light: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="light" /><span className="font-sans text-micro">{values.light}</span></span>,
+        dark: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="dark" /><span className="font-sans text-micro">{values.dark}</span></span>,
       },
     };
   });

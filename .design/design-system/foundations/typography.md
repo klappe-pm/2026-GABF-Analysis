@@ -11,7 +11,7 @@ version: 1.0.0
 
 ## Purpose
 
-Two faces set the whole system, both loaded for the site and both carrying tabular lining numerals so figures align.
+Two faces set the whole system. Public Sans carries tabular lining numerals, so every figure is set in it. The narrow face has no tabular figures (measured in the built page: "1111" is narrower than "0000"), so it never sets numbers.
 
 ## Faces
 
@@ -27,7 +27,7 @@ Two faces set the whole system, both loaded for the site and both carrying tabul
 
 - Uppercase is for labels in the narrow face only.
 - Prose measure is capped at the measure token.
-- Numbers use tabular lining numerals wherever they align in columns.
+- Numbers use tabular lining numerals in Public Sans, including field numbers, years in column headers, scale labels, and counts. The narrow face is for letters only; the audit fails on figures set in it.
 
 ## Do and do not
 

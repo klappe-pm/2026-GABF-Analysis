@@ -47,7 +47,7 @@ export function RangeScale({ id, label, value, valueText, range, summary, source
         ) : null}
       </div>
       {range ? (
-        <div className="relative h-4 font-narrow text-micro tabular-nums text-green" aria-hidden="true">
+        <div className="relative h-4 font-sans text-micro tabular-nums text-green" aria-hidden="true">
           <span className="absolute -translate-x-1/2" style={{ left: pct(range.min) }}>{range.minText}</span>
           <span className="absolute -translate-x-1/2" style={{ left: pct(range.max) }}>{range.maxText}</span>
         </div>
