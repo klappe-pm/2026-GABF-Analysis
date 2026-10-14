@@ -31,6 +31,7 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run validate
+      - run: npm run design-system:check
       - run: npm run build
       - name: standalone-dashboard-is-current
         run: |

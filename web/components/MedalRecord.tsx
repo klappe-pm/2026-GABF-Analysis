@@ -1,0 +1,39 @@
+import { MedalMark, type MedalName } from './MedalMark';
+
+export type MedalCounts = { gold: number; silver: number; bronze: number };
+
+const ORDER: [keyof MedalCounts, MedalName][] = [['gold', 'Gold'], ['silver', 'Silver'], ['bronze', 'Bronze']];
+const TALLY_LIMIT = 12;
+
+// The gold, silver, bronze record as one value, written in the order gold / silver / bronze.
+// "split" shows one mark per medal type with its count; "tally" shows one mark per medal won.
+export function MedalRecord({ counts, variant = 'split', names }: { counts: MedalCounts; variant?: 'split' | 'tally' | 'value'; names: Record<MedalName, string> }) {
+  const spoken = ORDER.map(([k, m]) => `${counts[k]} ${names[m].toLowerCase()}`).join(', ');
+  const value = `${counts.gold} / ${counts.silver} / ${counts.bronze}`;
+  if (variant === 'value') {
+    return <span className="font-sans tabular-nums" aria-label={spoken}>{value}</span>;
+  }
+  if (variant === 'tally') {
+    return (
+      <span className="inline-flex flex-col gap-1" role="img" aria-label={spoken}>
+        {ORDER.map(([k, m]) => (
+          <span key={k} className="inline-flex items-center gap-1" aria-hidden="true">
+            {Array.from({ length: Math.min(counts[k], TALLY_LIMIT) }, (_, i) => <MedalMark key={i} medal={m} size="sm" label={false} />)}
+            {counts[k] > TALLY_LIMIT ? <span className="font-narrow text-micro tabular-nums text-ink-muted">+{counts[k] - TALLY_LIMIT}</span> : null}
+            {counts[k] === 0 ? <span className="font-narrow text-micro text-ink-faint">0</span> : null}
+          </span>
+        ))}
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-3 tabular-nums" role="img" aria-label={spoken}>
+      {ORDER.map(([k, m]) => (
+        <span key={k} className="inline-flex items-center gap-1" aria-hidden="true">
+          <MedalMark medal={m} size="sm" />
+          <span className="text-data font-semibold">{counts[k]}</span>
+        </span>
+      ))}
+    </span>
+  );
+}

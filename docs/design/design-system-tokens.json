@@ -1,0 +1,3295 @@
+{
+  "$description": "Published by scripts/design-system/build.mjs from .design/design-system for the screen feedback control plane. Each node is a token or a component that feedback can name.",
+  "source": ".design/design-system",
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "nodes": [
+    {
+      "id": "color.paper.white",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-paper-white",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Form stock.",
+      "value": "#FFFFFF"
+    },
+    {
+      "id": "color.paper.chalk",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-paper-chalk",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Chalk ink on graphite stock.",
+      "value": "#E8E6DF"
+    },
+    {
+      "id": "color.graphite.50",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-50",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#F2F3F1"
+    },
+    {
+      "id": "color.graphite.100",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-100",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#E4E6E5"
+    },
+    {
+      "id": "color.graphite.200",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-200",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#CDD1D2"
+    },
+    {
+      "id": "color.graphite.300",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-300",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#AEB3B6"
+    },
+    {
+      "id": "color.graphite.400",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-400",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#8A9095"
+    },
+    {
+      "id": "color.graphite.500",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-500",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#666C72"
+    },
+    {
+      "id": "color.graphite.600",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-600",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#50565C"
+    },
+    {
+      "id": "color.graphite.700",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-700",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#3A3F44"
+    },
+    {
+      "id": "color.graphite.800",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-800",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#2B2F33"
+    },
+    {
+      "id": "color.graphite.850",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-850",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#23272B"
+    },
+    {
+      "id": "color.graphite.900",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-900",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#1C1F22"
+    },
+    {
+      "id": "color.graphite.950",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-graphite-950",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#16181A"
+    },
+    {
+      "id": "color.chalk.200",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-chalk-200",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#B6B4AC"
+    },
+    {
+      "id": "color.chalk.300",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-chalk-300",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#9C9A92"
+    },
+    {
+      "id": "color.green.100",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-100",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#E3F0E7"
+    },
+    {
+      "id": "color.green.200",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-200",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#B5DCC3"
+    },
+    {
+      "id": "color.green.300",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-300",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#8CC7A3"
+    },
+    {
+      "id": "color.green.600",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-600",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#2E7650"
+    },
+    {
+      "id": "color.green.700",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-700",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#22603F"
+    },
+    {
+      "id": "color.green.800",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-800",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#1A4D33"
+    },
+    {
+      "id": "color.green.950",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-green-950",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#1C2B23"
+    },
+    {
+      "id": "color.red.100",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-red-100",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#FBE7E3"
+    },
+    {
+      "id": "color.red.300",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-red-300",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#F2907F"
+    },
+    {
+      "id": "color.red.600",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-red-600",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#B42A21"
+    },
+    {
+      "id": "color.red.950",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-red-950",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#36211F"
+    },
+    {
+      "id": "color.metal.gold",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-gold",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Flat gold for medal marks in light theme.",
+      "value": "#C9A13B"
+    },
+    {
+      "id": "color.metal.gold-bright",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-gold-bright",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Flat gold for medal marks in dark theme.",
+      "value": "#D9B54E"
+    },
+    {
+      "id": "color.metal.silver",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-silver",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Flat silver, a neutral metal gray.",
+      "value": "#B4B9BD"
+    },
+    {
+      "id": "color.metal.silver-bright",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-silver-bright",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#C3C7CA"
+    },
+    {
+      "id": "color.metal.bronze",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-bronze",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Flat bronze.",
+      "value": "#BF7B4A"
+    },
+    {
+      "id": "color.metal.bronze-bright",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-metal-bronze-bright",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#CC8A58"
+    },
+    {
+      "id": "color.ink.iron-gall",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-ink-iron-gall",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Iron gall ink, a violet black.",
+      "value": "#5B4A66"
+    },
+    {
+      "id": "color.ink.iron-gall-light",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-ink-iron-gall-light",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#B9A6C4"
+    },
+    {
+      "id": "color.ink.sepia",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-ink-sepia",
+      "tailwind": null,
+      "utilities": [],
+      "description": "Sepia ink.",
+      "value": "#87643A"
+    },
+    {
+      "id": "color.ink.sepia-light",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-color-ink-sepia-light",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "#D2AF7F"
+    },
+    {
+      "id": "font.family.sans",
+      "kind": "token",
+      "type": "fontFamily",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-family-sans",
+      "tailwind": "--font-sans",
+      "utilities": [
+        "font-sans"
+      ],
+      "description": "Interface, headings, body, and figures.",
+      "value": [
+        "Public Sans",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    {
+      "id": "font.family.narrow",
+      "kind": "token",
+      "type": "fontFamily",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-family-narrow",
+      "tailwind": "--font-narrow",
+      "utilities": [
+        "font-narrow"
+      ],
+      "description": "Field labels, table headers, stamps, and dense figure columns.",
+      "value": [
+        "Archivo Narrow",
+        "Arial Narrow",
+        "sans-serif"
+      ]
+    },
+    {
+      "id": "font.size.micro",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-micro",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "0.75rem"
+    },
+    {
+      "id": "font.size.label",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-label",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "0.8125rem"
+    },
+    {
+      "id": "font.size.data",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-data",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "0.875rem"
+    },
+    {
+      "id": "font.size.body",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-body",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "1rem"
+    },
+    {
+      "id": "font.size.lead",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-lead",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "1.125rem"
+    },
+    {
+      "id": "font.size.h3",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-h3",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "1.25rem"
+    },
+    {
+      "id": "font.size.h2",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-h2",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "1.5rem"
+    },
+    {
+      "id": "font.size.h1",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-h1",
+      "tailwind": null,
+      "utilities": [],
+      "description": "",
+      "value": "2rem"
+    },
+    {
+      "id": "font.size.figure",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-size-figure",
+      "tailwind": null,
+      "utilities": [],
+      "description": "A single large figure inside a form field.",
+      "value": "2.5rem"
+    },
+    {
+      "id": "font.weight.regular",
+      "kind": "token",
+      "type": "fontWeight",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-weight-regular",
+      "tailwind": "--font-weight-regular",
+      "utilities": [
+        "font-regular"
+      ],
+      "description": "",
+      "value": 400
+    },
+    {
+      "id": "font.weight.medium",
+      "kind": "token",
+      "type": "fontWeight",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-weight-medium",
+      "tailwind": "--font-weight-medium",
+      "utilities": [
+        "font-medium"
+      ],
+      "description": "",
+      "value": 500
+    },
+    {
+      "id": "font.weight.semibold",
+      "kind": "token",
+      "type": "fontWeight",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-weight-semibold",
+      "tailwind": "--font-weight-semibold",
+      "utilities": [
+        "font-semibold"
+      ],
+      "description": "",
+      "value": 600
+    },
+    {
+      "id": "font.weight.bold",
+      "kind": "token",
+      "type": "fontWeight",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-weight-bold",
+      "tailwind": "--font-weight-bold",
+      "utilities": [
+        "font-bold"
+      ],
+      "description": "",
+      "value": 700
+    },
+    {
+      "id": "font.line-height.tight",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-line-height-tight",
+      "tailwind": "--leading-tight",
+      "utilities": [
+        "leading-tight"
+      ],
+      "description": "",
+      "value": 1.15
+    },
+    {
+      "id": "font.line-height.snug",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-line-height-snug",
+      "tailwind": "--leading-snug",
+      "utilities": [
+        "leading-snug"
+      ],
+      "description": "",
+      "value": 1.3
+    },
+    {
+      "id": "font.line-height.normal",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-line-height-normal",
+      "tailwind": "--leading-normal",
+      "utilities": [
+        "leading-normal"
+      ],
+      "description": "",
+      "value": 1.5
+    },
+    {
+      "id": "font.line-height.relaxed",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-line-height-relaxed",
+      "tailwind": "--leading-relaxed",
+      "utilities": [
+        "leading-relaxed"
+      ],
+      "description": "",
+      "value": 1.6
+    },
+    {
+      "id": "font.tracking.tight",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-tracking-tight",
+      "tailwind": "--tracking-tight",
+      "utilities": [
+        "tracking-tight"
+      ],
+      "description": "",
+      "value": "-0.01em"
+    },
+    {
+      "id": "font.tracking.normal",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-tracking-normal",
+      "tailwind": "--tracking-normal",
+      "utilities": [
+        "tracking-normal"
+      ],
+      "description": "",
+      "value": "0em"
+    },
+    {
+      "id": "font.tracking.label",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-font-tracking-label",
+      "tailwind": "--tracking-label",
+      "utilities": [
+        "tracking-label"
+      ],
+      "description": "Uppercase condensed labels.",
+      "value": "0.06em"
+    },
+    {
+      "id": "space.0",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-0",
+      "tailwind": "--spacing-0",
+      "utilities": [
+        "p-0",
+        "m-0",
+        "gap-0",
+        "w-0",
+        "h-0"
+      ],
+      "description": "",
+      "value": "0rem"
+    },
+    {
+      "id": "space.1",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-1",
+      "tailwind": "--spacing-1",
+      "utilities": [
+        "p-1",
+        "m-1",
+        "gap-1",
+        "w-1",
+        "h-1"
+      ],
+      "description": "",
+      "value": "0.25rem"
+    },
+    {
+      "id": "space.2",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-2",
+      "tailwind": "--spacing-2",
+      "utilities": [
+        "p-2",
+        "m-2",
+        "gap-2",
+        "w-2",
+        "h-2"
+      ],
+      "description": "",
+      "value": "0.5rem"
+    },
+    {
+      "id": "space.3",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-3",
+      "tailwind": "--spacing-3",
+      "utilities": [
+        "p-3",
+        "m-3",
+        "gap-3",
+        "w-3",
+        "h-3"
+      ],
+      "description": "",
+      "value": "0.75rem"
+    },
+    {
+      "id": "space.4",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-4",
+      "tailwind": "--spacing-4",
+      "utilities": [
+        "p-4",
+        "m-4",
+        "gap-4",
+        "w-4",
+        "h-4"
+      ],
+      "description": "",
+      "value": "1rem"
+    },
+    {
+      "id": "space.5",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-5",
+      "tailwind": "--spacing-5",
+      "utilities": [
+        "p-5",
+        "m-5",
+        "gap-5",
+        "w-5",
+        "h-5"
+      ],
+      "description": "",
+      "value": "1.5rem"
+    },
+    {
+      "id": "space.6",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-6",
+      "tailwind": "--spacing-6",
+      "utilities": [
+        "p-6",
+        "m-6",
+        "gap-6",
+        "w-6",
+        "h-6"
+      ],
+      "description": "",
+      "value": "2rem"
+    },
+    {
+      "id": "space.7",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-7",
+      "tailwind": "--spacing-7",
+      "utilities": [
+        "p-7",
+        "m-7",
+        "gap-7",
+        "w-7",
+        "h-7"
+      ],
+      "description": "",
+      "value": "3rem"
+    },
+    {
+      "id": "space.8",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-space-8",
+      "tailwind": "--spacing-8",
+      "utilities": [
+        "p-8",
+        "m-8",
+        "gap-8",
+        "w-8",
+        "h-8"
+      ],
+      "description": "",
+      "value": "4rem"
+    },
+    {
+      "id": "rule.hairline",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-rule-hairline",
+      "tailwind": null,
+      "utilities": [
+        "border",
+        "border-t",
+        "border-b",
+        "border-l",
+        "border-r"
+      ],
+      "description": "Every structural rule: table cells, field boxes, section rules.",
+      "value": "1px"
+    },
+    {
+      "id": "rule.heavy",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-rule-heavy",
+      "tailwind": null,
+      "utilities": [
+        "border-2",
+        "border-t-2",
+        "border-b-2"
+      ],
+      "description": "The rule under a form header and over a table header.",
+      "value": "2px"
+    },
+    {
+      "id": "radius.none",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-radius-none",
+      "tailwind": null,
+      "utilities": [],
+      "description": "The only radius. Every corner is square.",
+      "value": "0px"
+    },
+    {
+      "id": "duration.quick",
+      "kind": "token",
+      "type": "duration",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-duration-quick",
+      "tailwind": null,
+      "utilities": [
+        "duration-(--gabf-duration-quick)"
+      ],
+      "description": "",
+      "value": "150ms"
+    },
+    {
+      "id": "duration.base",
+      "kind": "token",
+      "type": "duration",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-duration-base",
+      "tailwind": null,
+      "utilities": [
+        "duration-(--gabf-duration-base)"
+      ],
+      "description": "",
+      "value": "200ms"
+    },
+    {
+      "id": "breakpoint.sm",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-breakpoint-sm",
+      "tailwind": "--breakpoint-sm",
+      "utilities": [
+        "sm:"
+      ],
+      "description": "",
+      "value": "40rem"
+    },
+    {
+      "id": "breakpoint.md",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-breakpoint-md",
+      "tailwind": "--breakpoint-md",
+      "utilities": [
+        "md:"
+      ],
+      "description": "",
+      "value": "48rem"
+    },
+    {
+      "id": "breakpoint.lg",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-breakpoint-lg",
+      "tailwind": "--breakpoint-lg",
+      "utilities": [
+        "lg:"
+      ],
+      "description": "",
+      "value": "64rem"
+    },
+    {
+      "id": "breakpoint.xl",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-breakpoint-xl",
+      "tailwind": "--breakpoint-xl",
+      "utilities": [
+        "xl:"
+      ],
+      "description": "",
+      "value": "80rem"
+    },
+    {
+      "id": "size.measure",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-size-measure",
+      "tailwind": "--container-measure",
+      "utilities": [
+        "max-w-measure"
+      ],
+      "description": "Prose measure, about 70 characters.",
+      "value": "40rem"
+    },
+    {
+      "id": "size.sheet",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-size-sheet",
+      "tailwind": "--container-sheet",
+      "utilities": [
+        "max-w-sheet"
+      ],
+      "description": "Width of the Filters sheet on wide screens.",
+      "value": "40rem"
+    },
+    {
+      "id": "size.page",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-size-page",
+      "tailwind": "--container-page",
+      "utilities": [
+        "max-w-page"
+      ],
+      "description": "",
+      "value": "80rem"
+    },
+    {
+      "id": "size.table",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-size-table",
+      "tailwind": "--container-table",
+      "utilities": [
+        "max-w-table"
+      ],
+      "description": "Height of a ruled table's scroll box, so its header can stick.",
+      "value": "28rem"
+    },
+    {
+      "id": "size.chart",
+      "kind": "token",
+      "type": "dimension",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-size-chart",
+      "tailwind": "--container-chart",
+      "utilities": [
+        "max-w-chart"
+      ],
+      "description": "Height of a chart frame's plot area.",
+      "value": "18rem"
+    },
+    {
+      "id": "layer.base",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-layer-base",
+      "tailwind": null,
+      "utilities": [
+        "z-(--gabf-layer-base)"
+      ],
+      "description": "",
+      "value": 0
+    },
+    {
+      "id": "layer.sticky",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-layer-sticky",
+      "tailwind": null,
+      "utilities": [
+        "z-(--gabf-layer-sticky)"
+      ],
+      "description": "",
+      "value": 10
+    },
+    {
+      "id": "layer.header",
+      "kind": "token",
+      "type": "number",
+      "file": "tokens/primitives.tokens.json",
+      "cssVar": "--gabf-layer-header",
+      "tailwind": null,
+      "utilities": [
+        "z-(--gabf-layer-header)"
+      ],
+      "description": "",
+      "value": 20
+    },
+    {
+      "id": "type.h1",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-h1",
+      "tailwind": "--text-h1",
+      "utilities": [
+        "text-h1"
+      ],
+      "description": "Page title.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "2rem",
+        "fontWeight": 600,
+        "lineHeight": 1.15,
+        "letterSpacing": "-0.01em"
+      }
+    },
+    {
+      "id": "type.h2",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-h2",
+      "tailwind": "--text-h2",
+      "utilities": [
+        "text-h2"
+      ],
+      "description": "Section header, set in judging green over a rule.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "1.5rem",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.01em"
+      }
+    },
+    {
+      "id": "type.h3",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-h3",
+      "tailwind": "--text-h3",
+      "utilities": [
+        "text-h3"
+      ],
+      "description": "Subsection and component heading.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "1.25rem",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "0em"
+      }
+    },
+    {
+      "id": "type.figure",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-figure",
+      "tailwind": "--text-figure",
+      "utilities": [
+        "text-figure"
+      ],
+      "description": "One large figure inside a form field, always with tabular lining numerals.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "2.5rem",
+        "fontWeight": 500,
+        "lineHeight": 1.15,
+        "letterSpacing": "-0.01em"
+      }
+    },
+    {
+      "id": "type.lead",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-lead",
+      "tailwind": "--text-lead",
+      "utilities": [
+        "text-lead"
+      ],
+      "description": "The line under a page title.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "1.125rem",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0em"
+      }
+    },
+    {
+      "id": "type.body",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-body",
+      "tailwind": "--text-body",
+      "utilities": [
+        "text-body"
+      ],
+      "description": "Running text and notes.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.6,
+        "letterSpacing": "0em"
+      }
+    },
+    {
+      "id": "type.data",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-data",
+      "tailwind": "--text-data",
+      "utilities": [
+        "text-data"
+      ],
+      "description": "Table cells and control text.",
+      "value": {
+        "fontFamily": [
+          "Public Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "lineHeight": 1.3,
+        "letterSpacing": "0em"
+      }
+    },
+    {
+      "id": "type.label",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-label",
+      "tailwind": "--text-label",
+      "utilities": [
+        "text-label"
+      ],
+      "description": "Field labels and table headers, uppercase in the narrow face.",
+      "value": {
+        "fontFamily": [
+          "Archivo Narrow",
+          "Arial Narrow",
+          "sans-serif"
+        ],
+        "fontSize": "0.8125rem",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "0.06em"
+      }
+    },
+    {
+      "id": "type.micro",
+      "kind": "token",
+      "type": "typography",
+      "file": "tokens/typography.tokens.json",
+      "cssVar": "--gabf-type-micro",
+      "tailwind": "--text-micro",
+      "utilities": [
+        "text-micro"
+      ],
+      "description": "Field numbers, stamp text, and axis labels in the narrow face.",
+      "value": {
+        "fontFamily": [
+          "Archivo Narrow",
+          "Arial Narrow",
+          "sans-serif"
+        ],
+        "fontSize": "0.75rem",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "0.06em"
+      }
+    },
+    {
+      "id": "semantic.color.ground",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-ground",
+      "tailwind": "--color-ground",
+      "utilities": [
+        "bg-ground",
+        "text-ground",
+        "border-ground",
+        "outline-ground",
+        "fill-ground",
+        "stroke-ground",
+        "decoration-ground",
+        "accent-ground",
+        "caret-ground",
+        "divide-ground",
+        "placeholder-ground"
+      ],
+      "description": "Page and field stock.",
+      "values": {
+        "light": "#FFFFFF",
+        "dark": "#1C1F22"
+      },
+      "aliases": {
+        "light": "{color.paper.white}",
+        "dark": "{color.graphite.900}"
+      }
+    },
+    {
+      "id": "semantic.color.ground-tone",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-ground-tone",
+      "tailwind": "--color-ground-tone",
+      "utilities": [
+        "bg-ground-tone",
+        "text-ground-tone",
+        "border-ground-tone",
+        "outline-ground-tone",
+        "fill-ground-tone",
+        "stroke-ground-tone",
+        "decoration-ground-tone",
+        "accent-ground-tone",
+        "caret-ground-tone",
+        "divide-ground-tone",
+        "placeholder-ground-tone"
+      ],
+      "description": "Header bands and table headers; elevation by tone.",
+      "values": {
+        "light": "#F2F3F1",
+        "dark": "#23272B"
+      },
+      "aliases": {
+        "light": "{color.graphite.50}",
+        "dark": "{color.graphite.850}"
+      }
+    },
+    {
+      "id": "semantic.color.ink",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-ink",
+      "tailwind": "--color-ink",
+      "utilities": [
+        "bg-ink",
+        "text-ink",
+        "border-ink",
+        "outline-ink",
+        "fill-ink",
+        "stroke-ink",
+        "decoration-ink",
+        "accent-ink",
+        "caret-ink",
+        "divide-ink",
+        "placeholder-ink"
+      ],
+      "description": "Primary text and filled controls.",
+      "values": {
+        "light": "#1C1F22",
+        "dark": "#E8E6DF"
+      },
+      "aliases": {
+        "light": "{color.graphite.900}",
+        "dark": "{color.paper.chalk}"
+      }
+    },
+    {
+      "id": "semantic.color.ink-muted",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-ink-muted",
+      "tailwind": "--color-ink-muted",
+      "utilities": [
+        "bg-ink-muted",
+        "text-ink-muted",
+        "border-ink-muted",
+        "outline-ink-muted",
+        "fill-ink-muted",
+        "stroke-ink-muted",
+        "decoration-ink-muted",
+        "accent-ink-muted",
+        "caret-ink-muted",
+        "divide-ink-muted",
+        "placeholder-ink-muted"
+      ],
+      "description": "Secondary text, notes, metadata.",
+      "values": {
+        "light": "#50565C",
+        "dark": "#B6B4AC"
+      },
+      "aliases": {
+        "light": "{color.graphite.600}",
+        "dark": "{color.chalk.200}"
+      }
+    },
+    {
+      "id": "semantic.color.ink-faint",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-ink-faint",
+      "tailwind": "--color-ink-faint",
+      "utilities": [
+        "bg-ink-faint",
+        "text-ink-faint",
+        "border-ink-faint",
+        "outline-ink-faint",
+        "fill-ink-faint",
+        "stroke-ink-faint",
+        "decoration-ink-faint",
+        "accent-ink-faint",
+        "caret-ink-faint",
+        "divide-ink-faint",
+        "placeholder-ink-faint"
+      ],
+      "description": "Placeholder text and disabled labels.",
+      "values": {
+        "light": "#666C72",
+        "dark": "#9C9A92"
+      },
+      "aliases": {
+        "light": "{color.graphite.500}",
+        "dark": "{color.chalk.300}"
+      }
+    },
+    {
+      "id": "semantic.color.on-ink",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-on-ink",
+      "tailwind": "--color-on-ink",
+      "utilities": [
+        "bg-on-ink",
+        "text-on-ink",
+        "border-on-ink",
+        "outline-on-ink",
+        "fill-on-ink",
+        "stroke-on-ink",
+        "decoration-on-ink",
+        "accent-on-ink",
+        "caret-on-ink",
+        "divide-on-ink",
+        "placeholder-on-ink"
+      ],
+      "description": "Text on an ink filled control.",
+      "values": {
+        "light": "#FFFFFF",
+        "dark": "#1C1F22"
+      },
+      "aliases": {
+        "light": "{color.paper.white}",
+        "dark": "{color.graphite.900}"
+      }
+    },
+    {
+      "id": "semantic.color.rule",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-rule",
+      "tailwind": "--color-rule",
+      "utilities": [
+        "bg-rule",
+        "text-rule",
+        "border-rule",
+        "outline-rule",
+        "fill-rule",
+        "stroke-rule",
+        "decoration-rule",
+        "accent-rule",
+        "caret-rule",
+        "divide-rule",
+        "placeholder-rule"
+      ],
+      "description": "Hairline structure: cells, field boxes, dividers. Decorative; never the only boundary of a control.",
+      "values": {
+        "light": "#CDD1D2",
+        "dark": "#3A3F44"
+      },
+      "aliases": {
+        "light": "{color.graphite.200}",
+        "dark": "{color.graphite.700}"
+      }
+    },
+    {
+      "id": "semantic.color.rule-strong",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-rule-strong",
+      "tailwind": "--color-rule-strong",
+      "utilities": [
+        "bg-rule-strong",
+        "text-rule-strong",
+        "border-rule-strong",
+        "outline-rule-strong",
+        "fill-rule-strong",
+        "stroke-rule-strong",
+        "decoration-rule-strong",
+        "accent-rule-strong",
+        "caret-rule-strong",
+        "divide-rule-strong",
+        "placeholder-rule-strong"
+      ],
+      "description": "Control boundaries: inputs, selects, checkboxes, outline buttons.",
+      "values": {
+        "light": "#666C72",
+        "dark": "#8A9095"
+      },
+      "aliases": {
+        "light": "{color.graphite.500}",
+        "dark": "{color.graphite.400}"
+      }
+    },
+    {
+      "id": "semantic.color.green",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-green",
+      "tailwind": "--color-green",
+      "utilities": [
+        "bg-green",
+        "text-green",
+        "border-green",
+        "outline-green",
+        "fill-green",
+        "stroke-green",
+        "decoration-green",
+        "accent-green",
+        "caret-green",
+        "divide-green",
+        "placeholder-green"
+      ],
+      "description": "Judging green: section headers, field numbers, section rules, current navigation.",
+      "values": {
+        "light": "#22603F",
+        "dark": "#8CC7A3"
+      },
+      "aliases": {
+        "light": "{color.green.700}",
+        "dark": "{color.green.300}"
+      }
+    },
+    {
+      "id": "semantic.color.green-tint",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-green-tint",
+      "tailwind": "--color-green-tint",
+      "utilities": [
+        "bg-green-tint",
+        "text-green-tint",
+        "border-green-tint",
+        "outline-green-tint",
+        "fill-green-tint",
+        "stroke-green-tint",
+        "decoration-green-tint",
+        "accent-green-tint",
+        "caret-green-tint",
+        "divide-green-tint",
+        "placeholder-green-tint"
+      ],
+      "description": "Selected rows and the field number box.",
+      "values": {
+        "light": "#E3F0E7",
+        "dark": "#1C2B23"
+      },
+      "aliases": {
+        "light": "{color.green.100}",
+        "dark": "{color.green.950}"
+      }
+    },
+    {
+      "id": "semantic.color.red",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-red",
+      "tailwind": "--color-red",
+      "utilities": [
+        "bg-red",
+        "text-red",
+        "border-red",
+        "outline-red",
+        "fill-red",
+        "stroke-red",
+        "decoration-red",
+        "accent-red",
+        "caret-red",
+        "divide-red",
+        "placeholder-red"
+      ],
+      "description": "Red pen: findings, annotations, errors, and status stamps. Nothing else.",
+      "values": {
+        "light": "#B42A21",
+        "dark": "#F2907F"
+      },
+      "aliases": {
+        "light": "{color.red.600}",
+        "dark": "{color.red.300}"
+      }
+    },
+    {
+      "id": "semantic.color.red-tint",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-red-tint",
+      "tailwind": "--color-red-tint",
+      "utilities": [
+        "bg-red-tint",
+        "text-red-tint",
+        "border-red-tint",
+        "outline-red-tint",
+        "fill-red-tint",
+        "stroke-red-tint",
+        "decoration-red-tint",
+        "accent-red-tint",
+        "caret-red-tint",
+        "divide-red-tint",
+        "placeholder-red-tint"
+      ],
+      "description": "Ground behind an error note.",
+      "values": {
+        "light": "#FBE7E3",
+        "dark": "#36211F"
+      },
+      "aliases": {
+        "light": "{color.red.100}",
+        "dark": "{color.red.950}"
+      }
+    },
+    {
+      "id": "semantic.color.focus",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-focus",
+      "tailwind": "--color-focus",
+      "utilities": [
+        "bg-focus",
+        "text-focus",
+        "border-focus",
+        "outline-focus",
+        "fill-focus",
+        "stroke-focus",
+        "decoration-focus",
+        "accent-focus",
+        "caret-focus",
+        "divide-focus",
+        "placeholder-focus"
+      ],
+      "description": "Focus outline, 2px, offset 2px.",
+      "values": {
+        "light": "#1A4D33",
+        "dark": "#8CC7A3"
+      },
+      "aliases": {
+        "light": "{color.green.800}",
+        "dark": "{color.green.300}"
+      }
+    },
+    {
+      "id": "semantic.color.selection",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-selection",
+      "tailwind": "--color-selection",
+      "utilities": [
+        "bg-selection",
+        "text-selection",
+        "border-selection",
+        "outline-selection",
+        "fill-selection",
+        "stroke-selection",
+        "decoration-selection",
+        "accent-selection",
+        "caret-selection",
+        "divide-selection",
+        "placeholder-selection"
+      ],
+      "description": "Text selection highlight.",
+      "values": {
+        "light": "#B5DCC3",
+        "dark": "#1C2B23"
+      },
+      "aliases": {
+        "light": "{color.green.200}",
+        "dark": "{color.green.950}"
+      }
+    },
+    {
+      "id": "semantic.color.gold",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-gold",
+      "tailwind": "--color-gold",
+      "utilities": [
+        "bg-gold",
+        "text-gold",
+        "border-gold",
+        "outline-gold",
+        "fill-gold",
+        "stroke-gold",
+        "decoration-gold",
+        "accent-gold",
+        "caret-gold",
+        "divide-gold",
+        "placeholder-gold"
+      ],
+      "description": "Gold medal mark fill. Medals only.",
+      "values": {
+        "light": "#C9A13B",
+        "dark": "#D9B54E"
+      },
+      "aliases": {
+        "light": "{color.metal.gold}",
+        "dark": "{color.metal.gold-bright}"
+      }
+    },
+    {
+      "id": "semantic.color.silver",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-silver",
+      "tailwind": "--color-silver",
+      "utilities": [
+        "bg-silver",
+        "text-silver",
+        "border-silver",
+        "outline-silver",
+        "fill-silver",
+        "stroke-silver",
+        "decoration-silver",
+        "accent-silver",
+        "caret-silver",
+        "divide-silver",
+        "placeholder-silver"
+      ],
+      "description": "Silver medal mark fill. Medals only.",
+      "values": {
+        "light": "#B4B9BD",
+        "dark": "#C3C7CA"
+      },
+      "aliases": {
+        "light": "{color.metal.silver}",
+        "dark": "{color.metal.silver-bright}"
+      }
+    },
+    {
+      "id": "semantic.color.bronze",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-bronze",
+      "tailwind": "--color-bronze",
+      "utilities": [
+        "bg-bronze",
+        "text-bronze",
+        "border-bronze",
+        "outline-bronze",
+        "fill-bronze",
+        "stroke-bronze",
+        "decoration-bronze",
+        "accent-bronze",
+        "caret-bronze",
+        "divide-bronze",
+        "placeholder-bronze"
+      ],
+      "description": "Bronze medal mark fill. Medals only.",
+      "values": {
+        "light": "#BF7B4A",
+        "dark": "#CC8A58"
+      },
+      "aliases": {
+        "light": "{color.metal.bronze}",
+        "dark": "{color.metal.bronze-bright}"
+      }
+    },
+    {
+      "id": "semantic.color.medal-stroke",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-medal-stroke",
+      "tailwind": "--color-medal-stroke",
+      "utilities": [
+        "bg-medal-stroke",
+        "text-medal-stroke",
+        "border-medal-stroke",
+        "outline-medal-stroke",
+        "fill-medal-stroke",
+        "stroke-medal-stroke",
+        "decoration-medal-stroke",
+        "accent-medal-stroke",
+        "caret-medal-stroke",
+        "divide-medal-stroke",
+        "placeholder-medal-stroke"
+      ],
+      "description": "The 1px ring around every medal mark, so a mark reads on any ground.",
+      "values": {
+        "light": "#1C1F22",
+        "dark": "#E8E6DF"
+      },
+      "aliases": {
+        "light": "{color.graphite.900}",
+        "dark": "{color.paper.chalk}"
+      }
+    },
+    {
+      "id": "semantic.color.medal-letter",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-medal-letter",
+      "tailwind": "--color-medal-letter",
+      "utilities": [
+        "bg-medal-letter",
+        "text-medal-letter",
+        "border-medal-letter",
+        "outline-medal-letter",
+        "fill-medal-letter",
+        "stroke-medal-letter",
+        "decoration-medal-letter",
+        "accent-medal-letter",
+        "caret-medal-letter",
+        "divide-medal-letter",
+        "placeholder-medal-letter"
+      ],
+      "description": "The G, S, or B set inside a medal mark.",
+      "values": {
+        "light": "#1C1F22",
+        "dark": "#1C1F22"
+      },
+      "aliases": {
+        "light": "{color.graphite.900}",
+        "dark": "{color.graphite.900}"
+      }
+    },
+    {
+      "id": "semantic.color.stamp",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-stamp",
+      "tailwind": "--color-stamp",
+      "utilities": [
+        "bg-stamp",
+        "text-stamp",
+        "border-stamp",
+        "outline-stamp",
+        "fill-stamp",
+        "stroke-stamp",
+        "decoration-stamp",
+        "accent-stamp",
+        "caret-stamp",
+        "divide-stamp",
+        "placeholder-stamp"
+      ],
+      "description": "Status stamp ink: Partial, Not loaded, Draft, Estimate.",
+      "values": {
+        "light": "#B42A21",
+        "dark": "#F2907F"
+      },
+      "aliases": {
+        "light": "{color.red.600}",
+        "dark": "{color.red.300}"
+      }
+    },
+    {
+      "id": "semantic.color.series-1",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-series-1",
+      "tailwind": "--color-series-1",
+      "utilities": [
+        "bg-series-1",
+        "text-series-1",
+        "border-series-1",
+        "outline-series-1",
+        "fill-series-1",
+        "stroke-series-1",
+        "decoration-series-1",
+        "accent-series-1",
+        "caret-series-1",
+        "divide-series-1",
+        "placeholder-series-1"
+      ],
+      "description": "Chart series 1, graphite.",
+      "values": {
+        "light": "#3A3F44",
+        "dark": "#E8E6DF"
+      },
+      "aliases": {
+        "light": "{color.graphite.700}",
+        "dark": "{color.paper.chalk}"
+      }
+    },
+    {
+      "id": "semantic.color.series-2",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-series-2",
+      "tailwind": "--color-series-2",
+      "utilities": [
+        "bg-series-2",
+        "text-series-2",
+        "border-series-2",
+        "outline-series-2",
+        "fill-series-2",
+        "stroke-series-2",
+        "decoration-series-2",
+        "accent-series-2",
+        "caret-series-2",
+        "divide-series-2",
+        "placeholder-series-2"
+      ],
+      "description": "Chart series 2, judging green.",
+      "values": {
+        "light": "#2E7650",
+        "dark": "#8CC7A3"
+      },
+      "aliases": {
+        "light": "{color.green.600}",
+        "dark": "{color.green.300}"
+      }
+    },
+    {
+      "id": "semantic.color.series-3",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-series-3",
+      "tailwind": "--color-series-3",
+      "utilities": [
+        "bg-series-3",
+        "text-series-3",
+        "border-series-3",
+        "outline-series-3",
+        "fill-series-3",
+        "stroke-series-3",
+        "decoration-series-3",
+        "accent-series-3",
+        "caret-series-3",
+        "divide-series-3",
+        "placeholder-series-3"
+      ],
+      "description": "Chart series 3, iron gall ink.",
+      "values": {
+        "light": "#5B4A66",
+        "dark": "#B9A6C4"
+      },
+      "aliases": {
+        "light": "{color.ink.iron-gall}",
+        "dark": "{color.ink.iron-gall-light}"
+      }
+    },
+    {
+      "id": "semantic.color.series-4",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-series-4",
+      "tailwind": "--color-series-4",
+      "utilities": [
+        "bg-series-4",
+        "text-series-4",
+        "border-series-4",
+        "outline-series-4",
+        "fill-series-4",
+        "stroke-series-4",
+        "decoration-series-4",
+        "accent-series-4",
+        "caret-series-4",
+        "divide-series-4",
+        "placeholder-series-4"
+      ],
+      "description": "Chart series 4, sepia ink.",
+      "values": {
+        "light": "#87643A",
+        "dark": "#D2AF7F"
+      },
+      "aliases": {
+        "light": "{color.ink.sepia}",
+        "dark": "{color.ink.sepia-light}"
+      }
+    },
+    {
+      "id": "semantic.color.series-5",
+      "kind": "token",
+      "type": "color",
+      "file": "tokens/theme.<theme>.tokens.json",
+      "cssVar": "--gabf-color-series-5",
+      "tailwind": "--color-series-5",
+      "utilities": [
+        "bg-series-5",
+        "text-series-5",
+        "border-series-5",
+        "outline-series-5",
+        "fill-series-5",
+        "stroke-series-5",
+        "decoration-series-5",
+        "accent-series-5",
+        "caret-series-5",
+        "divide-series-5",
+        "placeholder-series-5"
+      ],
+      "description": "Chart series 5, pencil.",
+      "values": {
+        "light": "#8A9095",
+        "dark": "#8A9095"
+      },
+      "aliases": {
+        "light": "{color.graphite.400}",
+        "dark": "{color.graphite.400}"
+      }
+    },
+    {
+      "id": "component.active-filters",
+      "kind": "component",
+      "title": "Active filters",
+      "spec": ".design/design-system/components/active-filters/spec.md",
+      "code": "web/components/ActiveFilters.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "rule.hairline",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-muted",
+        "semantic.color.rule-strong",
+        "space.1",
+        "space.2",
+        "type.data",
+        "type.label"
+      ],
+      "content": [
+        "global.filters.panel.reset"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.breadcrumb",
+      "kind": "component",
+      "title": "Breadcrumb",
+      "spec": ".design/design-system/components/breadcrumb/spec.md",
+      "code": "web/components/Breadcrumb.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.rule-strong",
+        "space.1",
+        "space.2",
+        "type.label"
+      ],
+      "content": [
+        "global.navigation.breadcrumbs.all_categories",
+        "global.navigation.breadcrumbs.all_results",
+        "global.navigation.breadcrumbs.category_number"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.button",
+      "kind": "component",
+      "title": "Button",
+      "spec": ".design/design-system/components/button/spec.md",
+      "code": "web/components/Button.tsx",
+      "tokens": [
+        "duration.quick",
+        "font.family.sans",
+        "font.weight.semibold",
+        "rule.hairline",
+        "semantic.color.green-tint",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.on-ink",
+        "semantic.color.rule",
+        "semantic.color.rule-strong",
+        "space.2",
+        "space.4",
+        "space.6",
+        "type.data"
+      ],
+      "content": [
+        "global.filters.panel.apply",
+        "global.filters.panel.reset"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.chart-frame",
+      "kind": "component",
+      "title": "Chart frame",
+      "spec": ".design/design-system/components/chart-frame/spec.md",
+      "code": "web/components/ChartFrame.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "rule.hairline",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-muted",
+        "semantic.color.rule",
+        "semantic.color.series-1",
+        "semantic.color.series-2",
+        "semantic.color.series-3",
+        "semantic.color.series-4",
+        "semantic.color.series-5",
+        "size.chart",
+        "space.1",
+        "space.2",
+        "space.3",
+        "space.4",
+        "type.data",
+        "type.h3",
+        "type.label"
+      ],
+      "content": [
+        "global.charts.table_view.summary",
+        "pages.design-system.samples.chart_label",
+        "pages.design-system.samples.chart_note",
+        "pages.design-system.samples.chart_title"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.checkbox",
+      "kind": "component",
+      "title": "Checkbox",
+      "spec": ".design/design-system/components/checkbox/spec.md",
+      "code": "web/components/Checkbox.tsx",
+      "tokens": [
+        "rule.hairline",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.on-ink",
+        "semantic.color.rule",
+        "semantic.color.rule-strong",
+        "space.0",
+        "space.1",
+        "space.2",
+        "space.4",
+        "type.data"
+      ],
+      "content": [
+        "global.states.no_results.include_partial"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.estimate-popover",
+      "kind": "component",
+      "title": "Estimate note",
+      "spec": ".design/design-system/components/estimate-popover/spec.md",
+      "code": "web/components/EstimatePopover.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "rule.hairline",
+        "semantic.color.ground",
+        "semantic.color.ink",
+        "semantic.color.red",
+        "semantic.color.red-tint",
+        "size.measure",
+        "space.1",
+        "space.2",
+        "space.3",
+        "type.data",
+        "type.label"
+      ],
+      "content": [
+        "global.states.estimates.explanation",
+        "global.states.estimates.marker"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.filters-sheet",
+      "kind": "component",
+      "title": "Filters sheet",
+      "spec": ".design/design-system/components/filters-sheet/spec.md",
+      "code": "web/components/FiltersSheet.tsx",
+      "tokens": [
+        "breakpoint.sm",
+        "font.family.narrow",
+        "font.weight.semibold",
+        "rule.hairline",
+        "rule.heavy",
+        "semantic.color.green",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.rule-strong",
+        "space.1",
+        "space.2",
+        "space.3",
+        "space.4",
+        "space.5",
+        "space.6",
+        "type.data",
+        "type.h3",
+        "type.label"
+      ],
+      "content": [
+        "global.filters.groups.when",
+        "global.filters.panel.apply",
+        "global.filters.panel.close",
+        "global.filters.panel.reset",
+        "global.filters.panel.title",
+        "global.filters.search.label",
+        "global.filters.search.placeholder",
+        "global.filters.trigger.accessible_label_with_count",
+        "global.filters.trigger.label",
+        "global.filters.trigger.label_with_count"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.form-field",
+      "kind": "component",
+      "title": "Form field",
+      "spec": ".design/design-system/components/form-field/spec.md",
+      "code": "web/components/FormField.tsx",
+      "tokens": [
+        "breakpoint.lg",
+        "breakpoint.sm",
+        "font.family.narrow",
+        "font.weight.medium",
+        "rule.hairline",
+        "semantic.color.green",
+        "semantic.color.ink-muted",
+        "semantic.color.red",
+        "semantic.color.rule",
+        "space.2",
+        "space.3",
+        "type.data",
+        "type.figure",
+        "type.label",
+        "type.lead",
+        "type.micro"
+      ],
+      "content": [
+        "pages.design-system.samples.category_index"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.form-header",
+      "kind": "component",
+      "title": "Form header",
+      "spec": ".design/design-system/components/form-header/spec.md",
+      "code": "web/components/FormHeader.tsx",
+      "tokens": [
+        "breakpoint.md",
+        "font.family.narrow",
+        "rule.hairline",
+        "rule.heavy",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.rule",
+        "semantic.color.rule-strong",
+        "size.page",
+        "space.1",
+        "space.2",
+        "space.3",
+        "space.4",
+        "space.6",
+        "type.h3",
+        "type.label"
+      ],
+      "content": [
+        "global.navigation.header.analysis",
+        "global.navigation.header.beers",
+        "global.navigation.header.breweries",
+        "global.navigation.header.results",
+        "global.navigation.header.saved_views",
+        "global.site.header.menu_button",
+        "global.site.header.nav_label",
+        "global.site.header.skip_link",
+        "global.site.identity.name"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.form-note",
+      "kind": "component",
+      "title": "Form notes",
+      "spec": ".design/design-system/components/form-note/spec.md",
+      "code": "web/components/FormNote.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.weight.semibold",
+        "rule.hairline",
+        "semantic.color.ground-tone",
+        "semantic.color.ink-muted",
+        "semantic.color.red",
+        "semantic.color.red-tint",
+        "semantic.color.rule",
+        "size.measure",
+        "space.1",
+        "space.2",
+        "space.3",
+        "space.4",
+        "type.body",
+        "type.data",
+        "type.label"
+      ],
+      "content": [
+        "global.states.empty_scope.page",
+        "global.states.errors.data_load",
+        "global.states.loading.data",
+        "global.states.no_results.remove_hint",
+        "global.states.no_results.title"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.icon",
+      "kind": "component",
+      "title": "Icons",
+      "spec": ".design/design-system/components/icon/spec.md",
+      "code": "web/components/Icon.tsx",
+      "tokens": [
+        "space.4"
+      ],
+      "content": [],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.medal-mark",
+      "kind": "component",
+      "title": "Medal mark",
+      "spec": ".design/design-system/components/medal-mark/spec.md",
+      "code": "web/components/MedalMark.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.weight.bold",
+        "semantic.color.bronze",
+        "semantic.color.gold",
+        "semantic.color.medal-letter",
+        "semantic.color.medal-stroke",
+        "semantic.color.silver",
+        "space.4",
+        "space.5"
+      ],
+      "content": [
+        "global.labels.medal.Bronze",
+        "global.labels.medal.Gold",
+        "global.labels.medal.Silver"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.medal-record",
+      "kind": "component",
+      "title": "Medal record",
+      "spec": ".design/design-system/components/medal-record/spec.md",
+      "code": "web/components/MedalRecord.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.family.sans",
+        "font.weight.semibold",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "space.1",
+        "space.3",
+        "type.data",
+        "type.micro"
+      ],
+      "content": [
+        "global.labels.medal.Bronze",
+        "global.labels.medal.Gold",
+        "global.labels.medal.Silver",
+        "pages.design-system.states.split",
+        "pages.design-system.states.tally",
+        "pages.design-system.states.value"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.range-scale",
+      "kind": "component",
+      "title": "Range scale",
+      "spec": ".design/design-system/components/range-scale/spec.md",
+      "code": "web/components/RangeScale.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.weight.semibold",
+        "rule.hairline",
+        "rule.heavy",
+        "semantic.color.green",
+        "semantic.color.green-tint",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.rule-strong",
+        "space.0",
+        "space.2",
+        "space.3",
+        "space.4",
+        "space.6",
+        "type.data",
+        "type.label",
+        "type.lead",
+        "type.micro"
+      ],
+      "content": [
+        "global.scales.range.above",
+        "global.scales.range.below",
+        "global.scales.range.inside",
+        "global.scales.range.no_range",
+        "global.scales.range.not_published",
+        "global.scales.range.source",
+        "global.scales.range.style_range"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.red-pen-note",
+      "kind": "component",
+      "title": "Red pen note",
+      "spec": ".design/design-system/components/red-pen-note/spec.md",
+      "code": "web/components/RedPenNote.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "rule.hairline",
+        "semantic.color.red",
+        "size.measure",
+        "space.1",
+        "space.2",
+        "space.4",
+        "type.data",
+        "type.label",
+        "type.lead"
+      ],
+      "content": [
+        "pages.design-system.samples.beer"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.ruled-table",
+      "kind": "component",
+      "title": "Ruled table",
+      "spec": ".design/design-system/components/ruled-table/spec.md",
+      "code": "web/components/RuledTable.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.weight.regular",
+        "layer.sticky",
+        "rule.hairline",
+        "rule.heavy",
+        "semantic.color.green-tint",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.rule",
+        "space.0",
+        "space.1",
+        "space.2",
+        "space.3",
+        "space.4",
+        "type.data",
+        "type.label"
+      ],
+      "content": [
+        "global.tables.category_columns.category",
+        "global.tables.medal_columns.beer",
+        "global.tables.medal_columns.brewery",
+        "global.tables.pager.showing",
+        "global.tables.sorting.hint"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.search-field",
+      "kind": "component",
+      "title": "Search field",
+      "spec": ".design/design-system/components/search-field/spec.md",
+      "code": "web/components/SearchField.tsx",
+      "tokens": [
+        "rule.hairline",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "space.2",
+        "space.3",
+        "space.6",
+        "type.body"
+      ],
+      "content": [
+        "global.filters.search.label",
+        "global.filters.search.placeholder"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.section-header",
+      "kind": "component",
+      "title": "Section header",
+      "spec": ".design/design-system/components/section-header/spec.md",
+      "code": "web/components/SectionHeader.tsx",
+      "tokens": [
+        "rule.hairline",
+        "semantic.color.green",
+        "semantic.color.ink-muted",
+        "size.measure",
+        "space.2",
+        "space.3",
+        "space.8",
+        "type.body"
+      ],
+      "content": [
+        "pages.design-system.sections.color",
+        "pages.design-system.sections.type"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.select",
+      "kind": "component",
+      "title": "Select",
+      "spec": ".design/design-system/components/select/spec.md",
+      "code": "web/components/Select.tsx",
+      "tokens": [
+        "rule.hairline",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.ink-faint",
+        "semantic.color.ink-muted",
+        "semantic.color.rule",
+        "semantic.color.rule-strong",
+        "space.2",
+        "space.3",
+        "space.6",
+        "type.data"
+      ],
+      "content": [
+        "global.filters.groups.when"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.status-stamp",
+      "kind": "component",
+      "title": "Status stamp",
+      "spec": ".design/design-system/components/status-stamp/spec.md",
+      "code": "web/components/StatusStamp.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "font.line-height.snug",
+        "rule.heavy",
+        "semantic.color.stamp",
+        "space.0",
+        "space.2",
+        "type.micro"
+      ],
+      "content": [
+        "global.labels.coverage.draft",
+        "global.labels.coverage.partial",
+        "global.labels.coverage.pending",
+        "global.labels.coverage_meaning.partial",
+        "global.states.estimates.short"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.text-link",
+      "kind": "component",
+      "title": "Link",
+      "spec": ".design/design-system/components/text-link/spec.md",
+      "code": "web/components/TextLink.tsx",
+      "tokens": [
+        "duration.quick",
+        "semantic.color.ink",
+        "semantic.color.red",
+        "semantic.color.rule-strong"
+      ],
+      "content": [
+        "global.navigation.footer.method"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    },
+    {
+      "id": "component.theme-toggle",
+      "kind": "component",
+      "title": "Theme toggle",
+      "spec": ".design/design-system/components/theme-toggle/spec.md",
+      "code": "web/components/ThemeToggle.tsx",
+      "tokens": [
+        "font.family.narrow",
+        "rule.hairline",
+        "semantic.color.ground",
+        "semantic.color.ground-tone",
+        "semantic.color.ink",
+        "semantic.color.rule-strong",
+        "space.1",
+        "space.3",
+        "space.6",
+        "type.label"
+      ],
+      "content": [
+        "global.site.header.theme_dark",
+        "global.site.header.theme_light"
+      ],
+      "pages": [
+        "/design-system"
+      ]
+    }
+  ],
+  "contrast": [
+    {
+      "theme": "light",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.ground",
+      "fg": "#1C1F22",
+      "bg": "#FFFFFF",
+      "ratio": 16.56,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.ground-tone",
+      "fg": "#1C1F22",
+      "bg": "#F2F3F1",
+      "ratio": 14.87,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.green-tint",
+      "fg": "#1C1F22",
+      "bg": "#E3F0E7",
+      "ratio": 14.1,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.red-tint",
+      "fg": "#1C1F22",
+      "bg": "#FBE7E3",
+      "ratio": 13.91,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink-muted",
+      "against": "semantic.color.ground",
+      "fg": "#50565C",
+      "bg": "#FFFFFF",
+      "ratio": 7.43,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink-muted",
+      "against": "semantic.color.ground-tone",
+      "fg": "#50565C",
+      "bg": "#F2F3F1",
+      "ratio": 6.67,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink-faint",
+      "against": "semantic.color.ground",
+      "fg": "#666C72",
+      "bg": "#FFFFFF",
+      "ratio": 5.31,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.ink-faint",
+      "against": "semantic.color.ground-tone",
+      "fg": "#666C72",
+      "bg": "#F2F3F1",
+      "ratio": 4.77,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.on-ink",
+      "against": "semantic.color.ink",
+      "fg": "#FFFFFF",
+      "bg": "#1C1F22",
+      "ratio": 16.56,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.rule-strong",
+      "against": "semantic.color.ground",
+      "fg": "#666C72",
+      "bg": "#FFFFFF",
+      "ratio": 5.31,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.rule-strong",
+      "against": "semantic.color.ground-tone",
+      "fg": "#666C72",
+      "bg": "#F2F3F1",
+      "ratio": 4.77,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.green",
+      "against": "semantic.color.ground",
+      "fg": "#22603F",
+      "bg": "#FFFFFF",
+      "ratio": 7.47,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.green",
+      "against": "semantic.color.ground-tone",
+      "fg": "#22603F",
+      "bg": "#F2F3F1",
+      "ratio": 6.71,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.green",
+      "against": "semantic.color.green-tint",
+      "fg": "#22603F",
+      "bg": "#E3F0E7",
+      "ratio": 6.36,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.red",
+      "against": "semantic.color.ground",
+      "fg": "#B42A21",
+      "bg": "#FFFFFF",
+      "ratio": 6.38,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.red",
+      "against": "semantic.color.ground-tone",
+      "fg": "#B42A21",
+      "bg": "#F2F3F1",
+      "ratio": 5.73,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.red",
+      "against": "semantic.color.red-tint",
+      "fg": "#B42A21",
+      "bg": "#FBE7E3",
+      "ratio": 5.36,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.focus",
+      "against": "semantic.color.ground",
+      "fg": "#1A4D33",
+      "bg": "#FFFFFF",
+      "ratio": 9.75,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.focus",
+      "against": "semantic.color.ground-tone",
+      "fg": "#1A4D33",
+      "bg": "#F2F3F1",
+      "ratio": 8.76,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.medal-stroke",
+      "against": "semantic.color.ground",
+      "fg": "#1C1F22",
+      "bg": "#FFFFFF",
+      "ratio": 16.56,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.medal-stroke",
+      "against": "semantic.color.ground-tone",
+      "fg": "#1C1F22",
+      "bg": "#F2F3F1",
+      "ratio": 14.87,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.gold",
+      "fg": "#1C1F22",
+      "bg": "#C9A13B",
+      "ratio": 6.81,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.silver",
+      "fg": "#1C1F22",
+      "bg": "#B4B9BD",
+      "ratio": 8.37,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.bronze",
+      "fg": "#1C1F22",
+      "bg": "#BF7B4A",
+      "ratio": 4.85,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.stamp",
+      "against": "semantic.color.ground",
+      "fg": "#B42A21",
+      "bg": "#FFFFFF",
+      "ratio": 6.38,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.stamp",
+      "against": "semantic.color.ground-tone",
+      "fg": "#B42A21",
+      "bg": "#F2F3F1",
+      "ratio": 5.73,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.series-1",
+      "against": "semantic.color.ground",
+      "fg": "#3A3F44",
+      "bg": "#FFFFFF",
+      "ratio": 10.64,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.series-2",
+      "against": "semantic.color.ground",
+      "fg": "#2E7650",
+      "bg": "#FFFFFF",
+      "ratio": 5.49,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.series-3",
+      "against": "semantic.color.ground",
+      "fg": "#5B4A66",
+      "bg": "#FFFFFF",
+      "ratio": 8.03,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.series-4",
+      "against": "semantic.color.ground",
+      "fg": "#87643A",
+      "bg": "#FFFFFF",
+      "ratio": 5.37,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "token": "semantic.color.series-5",
+      "against": "semantic.color.ground",
+      "fg": "#8A9095",
+      "bg": "#FFFFFF",
+      "ratio": 3.23,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.ground",
+      "fg": "#E8E6DF",
+      "bg": "#1C1F22",
+      "ratio": 13.26,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.ground-tone",
+      "fg": "#E8E6DF",
+      "bg": "#23272B",
+      "ratio": 12.04,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.green-tint",
+      "fg": "#E8E6DF",
+      "bg": "#1C2B23",
+      "ratio": 11.85,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink",
+      "against": "semantic.color.red-tint",
+      "fg": "#E8E6DF",
+      "bg": "#36211F",
+      "ratio": 12.06,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink-muted",
+      "against": "semantic.color.ground",
+      "fg": "#B6B4AC",
+      "bg": "#1C1F22",
+      "ratio": 7.97,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink-muted",
+      "against": "semantic.color.ground-tone",
+      "fg": "#B6B4AC",
+      "bg": "#23272B",
+      "ratio": 7.24,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink-faint",
+      "against": "semantic.color.ground",
+      "fg": "#9C9A92",
+      "bg": "#1C1F22",
+      "ratio": 5.87,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.ink-faint",
+      "against": "semantic.color.ground-tone",
+      "fg": "#9C9A92",
+      "bg": "#23272B",
+      "ratio": 5.34,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.on-ink",
+      "against": "semantic.color.ink",
+      "fg": "#1C1F22",
+      "bg": "#E8E6DF",
+      "ratio": 13.26,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.rule-strong",
+      "against": "semantic.color.ground",
+      "fg": "#8A9095",
+      "bg": "#1C1F22",
+      "ratio": 5.13,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.rule-strong",
+      "against": "semantic.color.ground-tone",
+      "fg": "#8A9095",
+      "bg": "#23272B",
+      "ratio": 4.66,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.green",
+      "against": "semantic.color.ground",
+      "fg": "#8CC7A3",
+      "bg": "#1C1F22",
+      "ratio": 8.52,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.green",
+      "against": "semantic.color.ground-tone",
+      "fg": "#8CC7A3",
+      "bg": "#23272B",
+      "ratio": 7.74,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.green",
+      "against": "semantic.color.green-tint",
+      "fg": "#8CC7A3",
+      "bg": "#1C2B23",
+      "ratio": 7.62,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.red",
+      "against": "semantic.color.ground",
+      "fg": "#F2907F",
+      "bg": "#1C1F22",
+      "ratio": 7.15,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.red",
+      "against": "semantic.color.ground-tone",
+      "fg": "#F2907F",
+      "bg": "#23272B",
+      "ratio": 6.5,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.red",
+      "against": "semantic.color.red-tint",
+      "fg": "#F2907F",
+      "bg": "#36211F",
+      "ratio": 6.51,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.focus",
+      "against": "semantic.color.ground",
+      "fg": "#8CC7A3",
+      "bg": "#1C1F22",
+      "ratio": 8.52,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.focus",
+      "against": "semantic.color.ground-tone",
+      "fg": "#8CC7A3",
+      "bg": "#23272B",
+      "ratio": 7.74,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.medal-stroke",
+      "against": "semantic.color.ground",
+      "fg": "#E8E6DF",
+      "bg": "#1C1F22",
+      "ratio": 13.26,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.medal-stroke",
+      "against": "semantic.color.ground-tone",
+      "fg": "#E8E6DF",
+      "bg": "#23272B",
+      "ratio": 12.04,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.gold",
+      "fg": "#1C1F22",
+      "bg": "#D9B54E",
+      "ratio": 8.41,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.silver",
+      "fg": "#1C1F22",
+      "bg": "#C3C7CA",
+      "ratio": 9.73,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.medal-letter",
+      "against": "semantic.color.bronze",
+      "fg": "#1C1F22",
+      "bg": "#CC8A58",
+      "ratio": 5.79,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.stamp",
+      "against": "semantic.color.ground",
+      "fg": "#F2907F",
+      "bg": "#1C1F22",
+      "ratio": 7.15,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.stamp",
+      "against": "semantic.color.ground-tone",
+      "fg": "#F2907F",
+      "bg": "#23272B",
+      "ratio": 6.5,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.series-1",
+      "against": "semantic.color.ground",
+      "fg": "#E8E6DF",
+      "bg": "#1C1F22",
+      "ratio": 13.26,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.series-2",
+      "against": "semantic.color.ground",
+      "fg": "#8CC7A3",
+      "bg": "#1C1F22",
+      "ratio": 8.52,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.series-3",
+      "against": "semantic.color.ground",
+      "fg": "#B9A6C4",
+      "bg": "#1C1F22",
+      "ratio": 7.34,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.series-4",
+      "against": "semantic.color.ground",
+      "fg": "#D2AF7F",
+      "bg": "#1C1F22",
+      "ratio": 8.02,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "token": "semantic.color.series-5",
+      "against": "semantic.color.ground",
+      "fg": "#8A9095",
+      "bg": "#1C1F22",
+      "ratio": 5.13,
+      "min": 3,
+      "pass": true
+    }
+  ]
+}
