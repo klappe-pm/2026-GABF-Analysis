@@ -33,10 +33,11 @@ export function compact(v) {
 }
 
 export function tableHtml(columns, rows, { className = 'data-table sortable', caption = '' } = {}) {
-  const head = columns.map((c) => `<th scope="col"${c.numeric ? ' class="num"' : ''}>${esc(c.label)}</th>`).join('');
+  const sortable = /\bsortable\b/.test(className) ? ' tabindex="0"' : '';
+  const head = columns.map((c) => `<th scope="col"${c.numeric ? ' class="num"' : ''}${sortable}>${esc(c.label)}</th>`).join('');
   const body = rows.map((r) => `<tr>${columns.map((c) => {
     const v = typeof c.render === 'function' ? c.render(r) : esc(r[c.key] ?? '');
-    return `<td${c.numeric ? ' class="num"' : ''}>${v}</td>`;
+    return `<td${c.numeric ? ' class="num"' : ''} data-label="${esc(c.label)}">${v}</td>`;
   }).join('')}</tr>`).join('');
   return `<table class="${className}">${caption ? `<caption>${esc(caption)}</caption>` : ''}<thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
 }
@@ -55,8 +56,26 @@ export function figure({ id, title, subtitle = '', option, height = 300, table =
   return `<figure class="viz" id="${esc(id)}" data-figure="${esc(id)}" data-echart><figcaption><strong>${esc(title)}</strong>${subtitle ? `<span class="subtitle">${esc(subtitle)}</span>` : ''}</figcaption><div class="echart" style="height:${Number(height)}px"></div><script type="application/json">${serializeOption(option)}</script>${note ? `<p class="note">${esc(note)}</p>` : ''}${table ? `<details class="table-view"><summary>Table view</summary>${table}</details>` : ''}</figure>`;
 }
 
-export function statTile({ label, value, delta = '', note = '' }) {
-  return `<div class="stat"><div class="stat-label">${esc(label)}</div><div class="stat-value">${esc(value)}</div>${delta ? `<div class="stat-delta">${esc(delta)}</div>` : ''}${note ? `<div class="stat-note">${esc(note)}</div>` : ''}</div>`;
+// A medal split tile shows gold, silver, and bronze counts as three dotted figures that fit any tile width.
+export function statTile({ label, value, delta = '', note = '', medals = null }) {
+  const shown = medals
+    ? `<div class="stat-value stat-medals">${['gold', 'silver', 'bronze'].map((m, i) => `<span title="${m}"><span class="badge-medal ${m}" aria-hidden="true"></span><span class="visually-hidden">${m} </span>${esc(Number(medals[i]).toLocaleString('en-US'))}</span>`).join('')}</div>`
+    : `<div class="stat-value">${esc(value)}</div>`;
+  return `<div class="stat"><div class="stat-label">${esc(label)}</div>${shown}${delta ? `<div class="stat-delta">${esc(delta)}</div>` : ''}${note ? `<div class="stat-note">${esc(note)}</div>` : ''}</div>`;
+}
+
+// Display text for a kebab-case slug: "ownership-and-investors" becomes "Ownership and investors".
+const ACRONYMS = { gabf: 'GABF', abv: 'ABV', ibu: 'IBU', srm: 'SRM', ipa: 'IPA', arr: 'ARR', ebitda: 'EBITDA', us: 'US', usa: 'USA', ba: 'BA', fed: 'Fed' };
+const PHRASES = [[/\bworld beer cup\b/g, 'World Beer Cup'], [/\bgreat american beer festival\b/g, 'Great American Beer Festival'], [/\bbrewery of the year\b/g, 'Brewery of the Year']];
+export function humanize(slug) {
+  let s = String(slug ?? '').split('-').filter(Boolean).map((w) => ACRONYMS[w] ?? w).join(' ');
+  for (const [re, to] of PHRASES) s = s.replace(re, to);
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+// Rewrite h2 to h6 headings whose whole text is a kebab-case slug (the markdown source convention) into display text.
+export function humanizeHeadings(html) {
+  return String(html).replace(/<(h[2-6])(\s[^>]*)?>([a-z0-9]+(?:-[a-z0-9]+)*)<\/\1>/g, (m, tag, attrs = '', text) => (/[a-z]/.test(text) ? `<${tag}${attrs}>${humanize(text)}</${tag}>` : m));
 }
 
 export function countBy(rows, key) {

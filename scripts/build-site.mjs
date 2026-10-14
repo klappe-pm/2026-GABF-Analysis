@@ -8,26 +8,34 @@ import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, write
 import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { marked } from 'marked';
-import { DIST, REFERENCE, RESULTS, SITE, parseArgs } from './lib/paths.mjs';
+import { DIST, REFERENCE, RESULTS, ROOT, SITE, parseArgs } from './lib/paths.mjs';
 import { categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { ABV_BANDS } from './lib/style-families.mjs';
 import { buildGeo } from './build-geo.mjs';
-import { compact, countBy, esc, figure, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from '../site/assets/charts.mjs';
+import { compact, countBy, esc, figure, humanizeHeadings, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from '../site/assets/charts.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stackedColumnsOption } from '../site/assets/chart-options.mjs';
 import { medalRates } from '../site/assets/rates.mjs';
+import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
 
 const require = createRequire(import.meta.url);
 const SITE_TITLE = 'GABF Analysis';
 const REPO_URL = 'https://github.com/klappe-pm/GABF-Analysis';
+const WINNER_YEAR = 2026;
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
 const pct = (num, den) => (den ? `${((100 * num) / den).toFixed(1)}%` : '');
 const pctOf = (x) => `${Math.round(Number(x) * 100)}%`;
 
+// Winner research profiles keyed by year plus matchKey; filled in build() and read by medal tables.
+const PROFILES = new Map();
+const profileKey = (year, beer, medal, category) => `${year}|${matchKey(beer, medal, category)}`;
+const profileFor = (row) => PROFILES.get(profileKey(row.year, row.beer_name, row.medal, row.category_name)) ?? null;
+
+// Markdown sources keep kebab-case headings; every rendered page shows them as display text.
 function write(relPath, html) {
   const full = resolve(DIST, relPath);
   mkdirSync(resolve(full, '..'), { recursive: true });
-  writeFileSync(full, html);
+  writeFileSync(full, relPath.endsWith('.html') ? humanizeHeadings(html) : html);
 }
 
 const DASHBOARDS = [
@@ -40,8 +48,8 @@ const DASHBOARDS = [
 
 function layout({ title, description = '', body, depth = 0, active = '', scripts = '', bodyAttrs = '' }) {
   const r = depth === 0 ? './' : '../'.repeat(depth);
-  const nav = [['', 'Dashboards'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['reports/', 'Reports'], ['about/', 'About']]
-    .map(([href, label]) => `<a href="${r}${href}"${active === label ? ' class="active"' : ''}>${label}</a>`).join('');
+  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['reports/', 'Reports'], ['explorer/', 'Explorer'], ['about/', 'About']]
+    .map(([href, label]) => `<a href="${r}${href}"${active === label ? ' class="active" aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -54,8 +62,9 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 <script>window.GABF_BASE = ${JSON.stringify(r)};</script>
 </head>
 <body${bodyAttrs}>
-<header class="site-header"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><nav class="site-nav">${nav}</nav><button class="theme-toggle" type="button">Dark mode</button></div></header>
-<main>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="site-nav" id="site-nav" aria-label="Site">${nav}</nav><button class="theme-toggle" type="button">Dark mode</button></div></header>
+<main id="main" tabindex="-1">
 ${body}
 </main>
 <footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">Source and data</a>.</div></footer>
@@ -86,25 +95,38 @@ function mapLink(loc) {
   return `https://www.openstreetmap.org/search?query=${encodeURIComponent(q)}`;
 }
 
-function medalTable(rows, { depth, showYear = true, showBrewery = false, showCompetition = false } = {}) {
+function beerCell(x, r) {
+  const p = x.competition && x.competition !== 'GABF' ? null : profileFor(x);
+  return p ? `<a href="${r}beers/${p.year}/${esc(p.stem)}/">${esc(x.beer_name)}</a>` : esc(x.beer_name);
+}
+
+// compact: drop columns whose value is the same on every row (the page already says it) and
+// columns that are empty on every row. The Notes column is dropped whenever it is empty.
+function medalTable(rows, { depth, showYear = true, showBrewery = false, showCompetition = false, compact: compactCols = false } = {}) {
   const r = '../'.repeat(depth);
-  const cols = [];
+  let cols = [];
   if (showYear) cols.push({ key: 'year', label: 'Year', numeric: true });
   if (showCompetition) cols.push({ key: 'competition', label: 'Competition' });
   cols.push({ key: 'medal', label: 'Medal', render: (x) => medalDot(x.medal) });
-  cols.push({ key: 'beer_name', label: 'Beer' });
+  cols.push({ key: 'beer_name', label: 'Beer', render: (x) => beerCell(x, r) });
   if (showBrewery) cols.push({ key: 'brewery_name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a>${x.brewery_location ? ` <span class="muted small">(${esc(x.brewery_location)})</span>` : ''}` });
   else cols.push({ key: 'brewery_location', label: 'Location credited', render: (x) => esc(x.brewery_location || x.city) });
   cols.push({ key: 'city', label: 'City', render: (x) => `${esc(x.city)}, ${esc(x.state)}` });
-  cols.push({ key: 'category_name', label: 'Category', render: (x) => `<a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a>${x.special ? ' <span class="pill">special</span>' : ''}` });
-  cols.push({ key: 'entries', label: 'Entrants', numeric: true, render: (x) => (x.entries ? fmt(x.entries) : '') });
-  cols.push({ key: 'style_family', label: 'Style family' });
+  cols.push({ key: 'category_name', label: 'Category', droppable: true, render: (x) => `<a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a>${x.special ? ' <span class="pill">special</span>' : ''}` });
+  cols.push({ key: 'entries', label: 'Entrants', numeric: true, droppable: true, render: (x) => (x.entries ? fmt(x.entries) : '') });
+  cols.push({ key: 'style_family', label: 'Style family', droppable: true });
   cols.push({ key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(x.notes ?? '')}</span>` });
-  return `<div class="table-wrap">${tableHtml(cols, rows)}</div>`;
+  const values = (c) => new Set(rows.map((x) => String(x[c.key] ?? '').trim()));
+  cols = cols.filter((c) => {
+    const v = values(c);
+    if (v.size === 1 && v.has('') && (c.key === 'notes' || compactCols)) return false;
+    return !(compactCols && c.droppable && v.size === 1);
+  });
+  return `<div class="table-wrap stack">${tableHtml(cols, rows)}</div>`;
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'abv_band', 'points', 'partial', 'draft', 'beer_profile'];
 
 // Indicator tables trimmed for the browser: { state: { CA: { population: { 2024: n } } }, district: {...}, units }.
 export function compactIndicators(ds) {
@@ -188,20 +210,20 @@ function dashboardPages(ds) {
   const overview = dashboardBody(ds, { href: '', r: './', intro: `<h1>Great American Beer Festival results dashboards</h1><p class="lede">Every medal from the official winners lists with linked filters: year, medal, classic or special category, style family, category, region, state, brewery type, ownership, distribution, ABV band, and search. Every panel and the table read the same slice, panels respond to clicks, and each chart saves as a PNG from its toolbox.</p>`, panels: [['medals-by-year'], ['map'], ['by-family'], ['top-breweries']], extra: '<div id="stats" class="stats"></div>' });
   write('index.html', layout({ title: 'Dashboards', description: 'Interactive Great American Beer Festival medal dashboards.', body: `${overview}<h2>results</h2><div id="table"></div><h2>featured-deep-dives</h2><ul class="list-plain">${featured.map((b) => `<li><a href="breweries/${b.slug}/">${esc(b.name)}</a> <span class="muted small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${b.medals.length} GABF medals in the loaded data</span></li>`).join('')}</ul>`, depth: 0, active: 'Dashboards', scripts: '<script type="module" src="assets/dashboards.js"></script>' }));
 
-  const geo = dashboardBody(ds, { href: 'dashboards/geography/', r: '../../', intro: '<h1>geography</h1><p class="lede">Where the medals go: the US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP using each medal year\'s population and GDP, and the demographic controls side by side. Click a state, region, or district to focus the other panels.</p>', panels: [['map', true], ['by-region'], ['by-division'], ['by-fed-district'], ['district-rates'], ['per-capita', true], ['per-gdp', true]], extra: '<div id="stats" class="stats"></div>' });
+  const geo = dashboardBody(ds, { href: 'dashboards/geography/', r: '../../', intro: '<h1>Geography</h1><p class="lede">Where the medals go: the US map, Census regions and divisions, Federal Reserve districts, medals per million residents and per $100 billion of real GDP using each medal year\'s population and GDP, and the demographic controls side by side. Click a state, region, or district to focus the other panels.</p>', panels: [['map', true], ['by-region'], ['by-division'], ['by-fed-district'], ['district-rates'], ['per-capita', true], ['per-gdp', true]], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/geography/index.html', layout({ title: 'Geography dashboard', description: 'GABF medals by state, region, Federal Reserve district, per capita, and per GDP.', body: `${geo}<h2>controls-by-state-and-district</h2><div id="controls-table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
 
-  const cat = dashboardBody(ds, { href: 'dashboards/categories/', r: '../../', intro: '<h1>categories</h1><p class="lede">Total entrants by category from the official category headers, with special categories (added ingredient, process, or catch-all) marked, the classic versus special split by year, and category size against how many breweries medal.</p>', panels: [['entrants', true], ['special-share'], ['entries-vs-breweries']], extra: '<div id="stats" class="stats"></div>' });
+  const cat = dashboardBody(ds, { href: 'dashboards/categories/', r: '../../', intro: '<h1>Categories</h1><p class="lede">Total entrants by category from the official category headers, with special categories (added ingredient, process, or catch-all) marked, the classic versus special split by year, and category size against how many breweries medal.</p>', panels: [['entrants', true], ['special-share'], ['entries-vs-breweries']], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/categories/index.html', layout({ title: 'Categories dashboard', description: 'GABF entrants by category and special categories.', body: `${cat}<h2>results</h2><div id="table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
 
   const defaultBrewery = ds.breweries.find((b) => b.profile)?.key ?? ds.breweries[0]?.key ?? '';
-  const brew = dashboardBody(ds, { href: 'dashboards/breweries/', r: '../../', intro: '<h1>breweries</h1><p class="lede">Pick a brewery to see its ten-year medal trend (with did-not-exist and not-yet-reported years marked), its categories, and the locations credited. The filters above still scope the stats and table.</p>', panels: [['brewery-trend', true], ['brewery-categories'], ['brewery-locations']], extra: '<div id="brewery-picker" class="picker"></div><div id="stats" class="stats"></div>' });
+  const brew = dashboardBody(ds, { href: 'dashboards/breweries/', r: '../../', intro: '<h1>Breweries</h1><p class="lede">Pick a brewery to see its ten-year medal trend (with did-not-exist and not-yet-reported years marked), its categories, and the locations credited. The filters above still scope the stats and table.</p>', panels: [['brewery-trend', true], ['brewery-categories'], ['brewery-locations']], extra: '<div id="brewery-picker" class="picker"></div><div id="stats" class="stats"></div>' });
   write('dashboards/breweries/index.html', layout({ title: 'Breweries dashboard', description: 'Per-brewery GABF medal trends.', body: `${brew}<h2>results</h2><div id="table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>', bodyAttrs: ` data-default-brewery="${esc(defaultBrewery)}"` }));
 
-  const econ = dashboardBody(ds, { href: 'dashboards/economics/', r: '../../', intro: '<h1>ownership-and-economics</h1><p class="lede">Who owns the medalists and what they are worth: ownership share, parent companies, and estimated revenue, ARR, gross margin, EBITDA, and distribution channel per brewery. Every financial figure is an estimate (E); the method is on the About page.</p>', panels: [['ownership-share'], ['parents'], ['revenue-by-brewery', true]], extra: '<div id="stats" class="stats"></div>' });
+  const econ = dashboardBody(ds, { href: 'dashboards/economics/', r: '../../', intro: '<h1>Ownership and economics</h1><p class="lede">Who owns the medalists and what they are worth: ownership share, parent companies, and estimated revenue, ARR, gross margin, EBITDA, and distribution channel per brewery. Every financial figure is an estimate (E); the method is on the About page.</p>', panels: [['ownership-share'], ['parents'], ['revenue-by-brewery', true]], extra: '<div id="stats" class="stats"></div>' });
   write('dashboards/economics/index.html', layout({ title: 'Ownership and economics dashboard', description: 'Ownership, investors, and estimated brewery economics.', body: `${econ}<h2>financials-by-brewery</h2><div id="financial-table"></div>`, depth: 2, active: 'Dashboards', scripts: '<script type="module" src="../../assets/dashboards.js"></script>' }));
 
-  write('dashboards/index.html', layout({ title: 'Dashboards', description: 'All dashboards.', body: `<h1>dashboards</h1><ul class="list-plain">${DASHBOARDS.map(([href, label, desc]) => `<li><a href="../${href}">${esc(label)}</a> <span class="muted">${esc(desc)}</span></li>`).join('')}</ul>`, depth: 1, active: 'Dashboards' }));
+  write('dashboards/index.html', layout({ title: 'Dashboards', description: 'All dashboards.', body: `<h1>Dashboards</h1><ul class="list-plain">${DASHBOARDS.map(([href, label, desc]) => `<li><a href="../${href}">${esc(label)}</a> <span class="muted">${esc(desc)}</span></li>`).join('')}</ul>`, depth: 1, active: 'Dashboards' }));
 }
 
 // ---------- breweries ----------
@@ -280,7 +302,7 @@ function breweryPage(ds, b) {
   const cats = new Set(b.medals.map((m) => m.category_name)).size;
   const stats = [
     statTile({ label: 'GABF medals loaded', value: String(b.medals.length), note: partial ? 'some years partial' : '' }),
-    statTile({ label: 'Gold / Silver / Bronze', value: `${b.by_medal.Gold} / ${b.by_medal.Silver} / ${b.by_medal.Bronze}` }),
+    statTile({ label: 'Gold, silver, bronze', medals: [b.by_medal.Gold, b.by_medal.Silver, b.by_medal.Bronze] }),
     statTile({ label: 'First GABF medal (loaded)', value: b.first_year ? String(b.first_year) : 'none' }),
     statTile({ label: 'Categories medaled', value: String(cats), note: `${b.medals.filter((m) => m.special).length} in special categories` }),
     statTile({ label: 'Estimated barrels / year', value: compact(b.estimate.barrels), note: b.estimate.basis === 'reported' ? 'reported' : 'estimate (E)' }),
@@ -325,9 +347,9 @@ function breweriesIndex(ds) {
     { key: 'arr', label: 'ARR (E)', numeric: true, render: (b) => usd(b.financials.arr_usd) },
   ];
   const body = `
-<h1>breweries</h1>
+<h1>Breweries</h1>
 <p class="lede">${rows.length} breweries in the loaded results, ranked by points (gold 3, silver 2, bronze 1). Click a column to sort. Type to filter. ARR is an estimate (E).</p>
-<p><input id="q" type="search" placeholder="Filter by name, city, state, type, or ownership" style="font: inherit; padding: 7px 10px; width: 100%; max-width: 460px; border: 1px solid var(--axis); border-radius: 6px; background: var(--surface-1); color: var(--text-primary);"></p>
+<p><label class="visually-hidden" for="q">Filter breweries</label><input id="q" class="search-input" type="search" placeholder="Filter by name, city, state, type, or ownership"></p>
 <div class="table-wrap" id="brewery-table">${tableHtml(cols, rows)}</div>
 <script>
 (function(){var q=document.getElementById('q');var rows=Array.prototype.slice.call(document.querySelectorAll('#brewery-table tbody tr'));q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();rows.forEach(function(r){r.style.display=!v||r.textContent.toLowerCase().indexOf(v)>=0?'':'none';});});})();
@@ -336,9 +358,22 @@ function breweriesIndex(ds) {
 }
 
 // ---------- categories ----------
+// Category names drift between years ("American-Style Pilsener" and "American Pilsener"). Fold away
+// accents, case, "-Style", "&" versus "and", a trailing "Beer", and punctuation, then require exact
+// equality, so "Juicy or Hazy IPA" never borrows the imperial category's text.
+export const foldCategory = (name) => String(name ?? '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
+  .replace(/&/g, ' and ').replace(/[-\s]style\b/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+beers?$/, '').replace(/\s+/g, '');
+
+function categoryRef(ds, c) {
+  if (c.ref?.description) return c.ref;
+  const want = foldCategory(c.name);
+  const hit = ds.categories.find((row) => row.description && foldCategory(row.category_name) === want);
+  return hit ? { ...(c.ref ?? {}), description: hit.description, guideline_source: hit.guideline_source, confidence: hit.confidence, variant_of: hit.category_name } : c.ref;
+}
+
 function categoryPage(ds, c) {
   const depth = 2;
-  const ref = c.ref;
+  const ref = categoryRef(ds, c);
   const entriesYears = c.years.filter((y) => y.entries);
   const chart = entriesYears.length > 1 ? figure({ id: 'entries-by-year', title: 'Entrants by year', subtitle: 'how competitive the category is', height: 260, option: lineOption({ labels: entriesYears.map((y) => y.year), series: [{ name: 'Entries', data: entriesYears.map((y) => y.entries), color: SERIES_COLORS[0] }], saveName: `${c.slug}-entries` }), table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'entries', label: 'Entries', numeric: true }], entriesYears, { className: 'data-table' }) }) : '';
   const body = `
@@ -346,11 +381,11 @@ function categoryPage(ds, c) {
 <h1>${esc(c.name)}</h1>
 <p class="lede"><span class="pill ${c.special ? 'warn' : 'good'}">${c.special ? 'special category' : 'classic style category'}</span><span class="pill">${esc(c.style_family)}</span>${ref?.abv_min ? `<span class="pill">ABV ${esc(ref.abv_min)} to ${esc(ref.abv_max)}%</span>` : ''}${ref?.ibu_min ? `<span class="pill">IBU ${esc(ref.ibu_min)} to ${esc(ref.ibu_max)}</span>` : ''}${ref?.srm_min ? `<span class="pill">SRM ${esc(ref.srm_min)} to ${esc(ref.srm_max)}</span>` : ''}${c.latest_entries ? `<span class="pill">${fmt(c.latest_entries)} entrants in ${c.latest_entries_year}</span>` : ''} <a href="../../#category_name=${encodeURIComponent(c.name)}">open in dashboards</a></p>
 <div class="grid two">
-<div class="card"><h2>definition</h2><p>${ref?.description ? esc(ref.description) : '<span class="muted">No definition loaded yet. Run the style guidelines import or add a row to data/reference/categories.csv.</span>'}</p><p class="small muted">${c.special ? 'Special categories are judged on an added ingredient, process, or non-standard base rather than a single classic style.' : 'Classic style categories are judged against a single Brewers Association style description.'}${ref ? ` Source: ${esc(ref.guideline_source)} (${esc(ref.confidence)}).` : ''}</p></div>
+<div class="card"><h2>definition</h2><p>${ref?.description ? esc(ref.description) : '<span class="muted">No style description is on file for this category yet.</span>'}</p><p class="small muted">${c.special ? 'Special categories are judged on an added ingredient, process, or non-standard base rather than a single classic style.' : 'Classic style categories are judged against a single Brewers Association style description.'}${ref?.guideline_source ? ` Source: ${esc(ref.guideline_source)}${ref.confidence ? ` (${esc(ref.confidence)})` : ''}${ref.variant_of ? `, listed as ${esc(ref.variant_of)}` : ''}.` : ''}</p></div>
 ${chart || `<div class="card"><h2>entrants</h2><p class="muted">${entriesYears.length === 1 ? `${fmt(entriesYears[0].entries)} entries in ${entriesYears[0].year}. A trend appears once a second year with entry counts is loaded.` : 'Entry counts appear once a full winners list is ingested for a year this category ran.'}</p></div>`}
 </div>
 <h2>medalists-by-year</h2>
-${[...c.years].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort((a, b) => a.medal_rank - b.medal_rank), { depth, showYear: false, showBrewery: true })}`).join('')}`;
+${[...c.years].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort((a, b) => a.medal_rank - b.medal_rank), { depth, showYear: false, showBrewery: true, compact: true })}`).join('')}`;
   write(`categories/${c.slug}/index.html`, layout({ title: c.name, description: `${c.name}: definition, entrants by year, and GABF medalists.`, body, depth, active: 'Categories' }));
 }
 
@@ -367,7 +402,7 @@ function categoriesIndex(ds, cats) {
   ];
   const special = cats.filter((c) => c.special).length;
   const body = `
-<h1>categories</h1>
+<h1>Categories</h1>
 <p class="lede">${cats.length} GABF categories seen in the loaded results (${special} special, ${cats.length - special} classic), with the style family used for browsing, the style's ABV range, and total entrants from the latest year with counts. Full category lists (around 100 per year) appear once each year's official list is ingested.</p>
 <div class="grid two">
 ${figure({ id: 'medals-by-family', title: 'Medals by style family', subtitle: 'all loaded years', height: Math.max(220, 36 * families.length + 60), option: barsHOption({ items: families, color: 'var(--series-3)', saveName: 'medals-by-style-family' }), table: tableHtml([{ key: 'label', label: 'Style family' }, { key: 'value', label: 'Medals', numeric: true }], families, { className: 'data-table' }) })}
@@ -391,12 +426,12 @@ const REPORTS = [
 ];
 
 function reportsIndex(ds) {
-  const body = `<h1>reports</h1><p class="lede">Pre-built views over the loaded results. Each chart carries a table view and saves as a PNG from its toolbox.</p><ul class="list-plain">${REPORTS.map(([slug, title, desc]) => `<li><a href="${slug}/">${esc(title)}</a> <span class="muted">${esc(desc)}</span></li>`).join('')}</ul>${coveragePills(ds, '../')}`;
+  const body = `<h1>Reports</h1><p class="lede">Pre-built views over the loaded results. Each chart carries a table view and saves as a PNG from its toolbox.</p><ul class="list-plain">${REPORTS.map(([slug, title, desc]) => `<li><a href="${slug}/">${esc(title)}</a> <span class="muted">${esc(desc)}</span></li>`).join('')}</ul>${coveragePills(ds, '../')}`;
   write('reports/index.html', layout({ title: 'Reports', description: 'GABF analysis reports.', body, depth: 1, active: 'Reports' }));
 }
 
 function reportLayout(ds, slug, title, body) {
-  write(`reports/${slug}/index.html`, layout({ title, description: `${title} report.`, body: `<p class="small"><a href="../">All reports</a></p><h1>${esc(title.toLowerCase().replace(/\s+/g, '-'))}</h1>${body}`, depth: 2, active: 'Reports' }));
+  write(`reports/${slug}/index.html`, layout({ title, description: `${title} report.`, body: `<p class="small"><a href="../">All reports</a></p><h1>${esc(title)}</h1>${body}`, depth: 2, active: 'Reports' }));
 }
 
 function barsFigure(id, title, items, { subtitle = '', color, labelWidth = 200, valueName = 'Medals', note = '', labelKey = 'label' } = {}) {
@@ -599,11 +634,142 @@ ${rows.length < 12 ? '<p class="small muted">Only the awards confirmed so far ar
   reportLayout(ds, 'brewery-of-the-year', 'Brewery of the Year', body);
 }
 
+// ---------- winner research profiles ----------
+const NOT_PUBLISHED = '<span class="muted">not published</span>';
+const isBlank = (v) => v === null || v === undefined || v === '' || (Array.isArray(v) && v.length === 0);
+const chips = (list) => (isBlank(list) ? NOT_PUBLISHED : `<span class="chips">${list.map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>`);
+const abvText = (v) => (isBlank(v) ? '' : `${Number(v).toFixed(1).replace(/\.0$/, '')}%`);
+const MEDAL_ORDER = { Gold: 1, Silver: 2, Bronze: 3 };
+
+function specCard(fm) {
+  const big = (label, v, text) => `<div class="spec-figure"><dt>${label}</dt><dd>${isBlank(v) ? NOT_PUBLISHED : `<span class="spec-number">${esc(text)}</span>`}</dd></div>`;
+  return `<section class="card spec-card" aria-labelledby="spec-title">
+<h2 id="spec-title">Published specs</h2>
+<dl class="spec-figures">${big('ABV', fm.abv, abvText(fm.abv))}${big('IBU', fm.ibu, String(fm.ibu))}</dl>
+<dl class="kv spec-kv">
+<dt>Style</dt><dd>${isBlank(fm.style) ? NOT_PUBLISHED : esc(fm.style)}</dd>
+<dt>Hops</dt><dd>${chips(fm.hops)}</dd>
+<dt>Malts</dt><dd>${chips(fm.malts)}</dd>
+<dt>Yeast</dt><dd>${chips(fm.yeast)}</dd>
+<dt>Adjuncts</dt><dd>${chips(fm.adjuncts)}</dd>
+</dl>
+<p class="small muted">Specs come from the brewery and the sources cited below. A field the research could not find in any source is shown as not published; nothing is estimated.</p>
+</section>`;
+}
+
+function beerPage(p, row) {
+  const depth = 3;
+  const r = '../'.repeat(depth);
+  const fm = p.fm;
+  const medal = String(fm.medal ?? '');
+  const breweryLink = row ? `<a href="${r}breweries/${esc(row.brewery_slug)}/">${esc(fm.brewery)}</a>` : esc(fm.brewery);
+  const categoryLink = row ? `<a href="${r}categories/${esc(row.category_slug)}/">${esc(fm['category-name'])}</a>` : esc(fm['category-name']);
+  const links = [
+    fm['beer-url'] ? `<a class="btn-link" href="${esc(fm['beer-url'])}" rel="noopener">Beer page</a>` : '',
+    fm['brewery-url'] ? `<a class="btn-link" href="${esc(fm['brewery-url'])}" rel="noopener">Brewery website</a>` : '',
+    row ? `<a class="btn-link" href="${r}breweries/${esc(row.brewery_slug)}/">Brewery medal history</a>` : '',
+    row ? `<a class="btn-link" href="${r}categories/${esc(row.category_slug)}/">Category history</a>` : '',
+  ].filter(Boolean).join('');
+  const body = `
+<p class="small"><a href="../">${p.year} winners</a> · Category ${esc(fm['category-number'])}</p>
+<h1>${esc(fm.beer)}</h1>
+<p class="lede"><span class="pill medal-pill ${medal.toLowerCase()}"><span class="badge-medal ${medal.toLowerCase()}" aria-hidden="true"></span>${esc(medal)}</span> in ${categoryLink}${fm.entries ? ` (${fmt(fm.entries)} entries)` : ''} · ${breweryLink}, ${esc(fm['brewery-city'])}, ${esc(fm['brewery-state'])}</p>
+${links ? `<p class="link-row">${links}</p>` : ''}
+<div class="beer-layout">
+${specCard(fm)}
+<section class="prose">${renderMarkdownBody(p.body)}</section>
+</div>`;
+  write(`beers/${p.year}/${p.stem}/index.html`, layout({ title: `${fm.beer}, ${fm.brewery}`, description: `${fm.beer} by ${fm.brewery}: ${medal} medal, ${p.year} Great American Beer Festival, ${fm['category-name']}. Published specs and research notes.`, body, depth, active: `${p.year} winners` }));
+}
+
+function winnersIndex(year, profiles) {
+  const n = profiles.length;
+  const count = (f) => profiles.filter((p) => f(p.fm)).length;
+  const share = (k) => `${k} of ${n}`;
+  const stats = [
+    statTile({ label: 'Medal profiles', value: String(n), note: `${new Set(profiles.map((p) => p.fm['category-number'])).size} categories` }),
+    statTile({ label: 'ABV published', value: String(count((f) => !isBlank(f.abv))), note: share(count((f) => !isBlank(f.abv))) }),
+    statTile({ label: 'IBU published', value: String(count((f) => !isBlank(f.ibu))), note: share(count((f) => !isBlank(f.ibu))) }),
+    statTile({ label: 'Hops named', value: String(count((f) => !isBlank(f.hops))), note: share(count((f) => !isBlank(f.hops))) }),
+    statTile({ label: 'Brewery beer page found', value: String(count((f) => !isBlank(f['beer-url']))), note: share(count((f) => !isBlank(f['beer-url']))) }),
+  ].join('');
+  const groups = new Map();
+  for (const p of profiles) {
+    const k = Number(p.fm['category-number']);
+    if (!groups.has(k)) groups.set(k, { number: k, name: p.fm['category-name'], entries: p.fm.entries, rows: [] });
+    groups.get(k).rows.push(p);
+  }
+  const head = '<thead><tr><th scope="col">Medal</th><th scope="col">Beer</th><th scope="col">Brewery</th><th scope="col" class="num">ABV</th><th scope="col" class="num">IBU</th><th scope="col">Hops</th></tr></thead>';
+  const tbodies = [...groups.values()].sort((a, b) => a.number - b.number).map((g) => `<tbody data-group>
+<tr class="group-row"><th colspan="6" scope="colgroup">${g.number}. ${esc(g.name)}${g.entries ? ` <span class="muted small">${fmt(g.entries)} entries</span>` : ''}</th></tr>
+${g.rows.sort((a, b) => (MEDAL_ORDER[a.fm.medal] ?? 9) - (MEDAL_ORDER[b.fm.medal] ?? 9)).map((p) => {
+    const f = p.fm;
+    const text = [f.beer, f.brewery, f['brewery-city'], f['brewery-state'], f['category-name'], f.style, ...(f.hops ?? []), ...(f.malts ?? []), ...(f.yeast ?? []), ...(f.adjuncts ?? [])].join(' ').toLowerCase();
+    return `<tr data-medal="${esc(f.medal)}" data-text="${esc(text)}"><td data-label="Medal">${medalDot(f.medal)}</td><td data-label="Beer"><a href="${esc(p.stem)}/">${esc(f.beer)}</a></td><td data-label="Brewery">${esc(f.brewery)} <span class="muted small">${esc(f['brewery-city'])}, ${esc(f['brewery-state'])}</span></td><td class="num" data-label="ABV">${isBlank(f.abv) ? '<span class="muted">n/p</span>' : esc(abvText(f.abv))}</td><td class="num" data-label="IBU">${isBlank(f.ibu) ? '<span class="muted">n/p</span>' : esc(f.ibu)}</td><td class="small" data-label="Hops">${isBlank(f.hops) ? '<span class="muted">not published</span>' : esc(f.hops.join(', '))}</td></tr>`;
+  }).join('')}
+</tbody>`).join('');
+  const body = `
+<h1>${year} winners</h1>
+<p class="lede">Every medal from the ${year} Great American Beer Festival with the beer's published specs: style, ABV, IBU, and named hops, malts, yeast, and adjuncts, each from the brewery or a cited source. Open a beer for its full research notes. n/p means the figure is not published in any source checked.</p>
+<div class="stats">${stats}</div>
+<div class="winner-tools">
+<label>Search<input id="w-q" type="search" placeholder="Beer, brewery, city, style, or hop" autocomplete="off"></label>
+<label>Medal<select id="w-medal"><option value="">All medals</option><option>Gold</option><option>Silver</option><option>Bronze</option></select></label>
+<label class="check"><input id="w-hops" type="checkbox"> Hops named</label>
+<p id="w-count" class="small muted" aria-live="polite">${n} medals shown</p>
+<a class="btn-link" href="../../explorer/">Open the explorer</a>
+</div>
+<div class="table-wrap winners-table"><table class="data-table">${head}${tbodies}</table></div>
+<p id="w-empty" class="notice" hidden>No medal matches these filters. Clear the search or choose all medals.</p>
+<script>
+(function(){
+  var q=document.getElementById('w-q'),m=document.getElementById('w-medal'),h=document.getElementById('w-hops'),c=document.getElementById('w-count'),e=document.getElementById('w-empty');
+  var groups=Array.prototype.slice.call(document.querySelectorAll('.winners-table tbody[data-group]'));
+  var t;
+  function run(){
+    var v=q.value.trim().toLowerCase().split(/\\s+/).filter(Boolean),md=m.value,hp=h.checked,shown=0;
+    groups.forEach(function(g){
+      var any=false;
+      Array.prototype.forEach.call(g.querySelectorAll('tr[data-medal]'),function(r){
+        var ok=(!md||r.getAttribute('data-medal')===md)&&(!hp||r.cells[5].textContent!=='not published')&&v.every(function(w){return r.getAttribute('data-text').indexOf(w)>=0;});
+        r.hidden=!ok; if(ok){any=true;shown++;}
+      });
+      g.hidden=!any;
+    });
+    c.textContent=shown+' of ${n} medals shown'; e.hidden=shown>0;
+  }
+  q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(run,200);});
+  m.addEventListener('change',run); h.addEventListener('change',run);
+})();
+</script>`;
+  write(`beers/${year}/index.html`, layout({ title: `${year} winners`, description: `All ${n} medals of the ${year} Great American Beer Festival with published ABV, IBU, hops, malts, yeast, and adjuncts.`, body, depth: 2, active: `${year} winners` }));
+}
+
+function winnerPages(ds, profiles) {
+  const rowFor = new Map();
+  for (const r of ds.results) {
+    const p = r.competition && r.competition !== 'GABF' ? null : profileFor(r);
+    if (p) rowFor.set(p.stem, r);
+  }
+  for (const p of profiles) beerPage(p, rowFor.get(p.stem));
+  if (profiles.length) winnersIndex(WINNER_YEAR, profiles);
+  return { pages: profiles.length, matched: rowFor.size, unmatched: profiles.filter((p) => !rowFor.has(p.stem)).map((p) => p.stem) };
+}
+
+// The explorer is built by scripts/build-explorer.mjs into gabf-explorer.html (committed); the
+// site serves that file as is.
+function copyExplorer() {
+  const src = resolve(ROOT, 'gabf-explorer.html');
+  if (!existsSync(src)) return;
+  mkdirSync(resolve(DIST, 'explorer'), { recursive: true });
+  cpSync(src, resolve(DIST, 'explorer', 'index.html'));
+}
+
 // ---------- about ----------
 export function aboutHtml(ds) {
   const rows = ds.years.map((y) => ({ year: y, status: ds.coverage[y], rows: ds.results.filter((x) => x.year === y).length, source: [...new Set(ds.results.filter((x) => x.year === y).map((x) => x.source))].join('; ') || (ds.summary.find((s) => Number(s.year) === y)?.source ?? '') }));
   return `
-<h1>about-this-site</h1>
+<h1>About this site</h1>
 <p class="lede">An independent analysis of Great American Beer Festival competition results. It is built from public data by a static pipeline in <a href="${REPO_URL}">this repository</a> and published with GitHub Pages. Charts are drawn with Apache ECharts; each one has a table view and saves as a PNG.</p>
 <h2>coverage</h2>
 <div class="table-wrap">${tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'status', label: 'Status', render: (x) => `<span class="pill ${x.status}">${esc(x.status)}</span>` }, { key: 'rows', label: 'Rows loaded', numeric: true }, { key: 'source', label: 'Sources', render: (x) => `<span class="small">${esc(x.source)}</span>` }], rows)}</div>
@@ -637,6 +803,13 @@ function aboutPage(ds) {
 export function build({ clean = true } = {}) {
   const ds = loadDataset();
   const cats = categoryIndex(ds);
+  const profiles = loadWinnerProfiles(WINNER_YEAR);
+  PROFILES.clear();
+  for (const p of profiles) PROFILES.set(`${p.year}|${p.key}`, p);
+  for (const r of ds.results) {
+    const p = profileFor(r);
+    if (p) r.beer_profile = `beers/${p.year}/${p.stem}/`;
+  }
   if (clean && existsSync(DIST)) rmSync(DIST, { recursive: true, force: true });
   mkdirSync(DIST, { recursive: true });
   if (!existsSync(resolve(SITE, 'assets', 'us-states.geo.json'))) buildGeo();
@@ -660,7 +833,9 @@ export function build({ clean = true } = {}) {
   trendsReport(ds);
   botyReport(ds);
   aboutPage(ds);
-  return { pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };
+  const winners = winnerPages(ds, profiles);
+  copyExplorer();
+  return { winners, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };
 }
 
 function countFiles(dir, ext) {
@@ -675,5 +850,6 @@ function countFiles(dir, ext) {
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = parseArgs(process.argv.slice(2));
   const r = build({ clean: !args['no-clean'] });
+  console.log(`${WINNER_YEAR} winner profiles: ${r.winners.pages} pages, ${r.winners.matched} matched to medal rows, ${r.winners.unmatched.length} unmatched${r.winners.unmatched.length ? ` (${r.winners.unmatched.join('; ')})` : ''}`);
   console.log(`built ${r.pages} pages for ${r.results} medal rows, ${r.breweries} breweries, ${r.categories} categories, years ${r.years.join(', ')} -> ${DIST}`);
 }

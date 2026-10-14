@@ -16,7 +16,7 @@ import { ROOT, SITE, parseArgs } from './lib/paths.mjs';
 import { categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { aboutHtml, buildPayload, profileCard, renderMarkdownBody } from './build-site.mjs';
-import { esc, tableHtml } from '../site/assets/charts.mjs';
+import { esc, humanizeHeadings, tableHtml } from '../site/assets/charts.mjs';
 
 const require = createRequire(import.meta.url);
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
@@ -56,7 +56,7 @@ export function breweryDetailHtml(b) {
     ? `<section class="prose">${renderMarkdownBody(b.profile.body)}</section>`
     : `<div class="notice">No deep dive for this brewery yet. Scaffold one with <code>node scripts/scaffold-brewery.mjs --brewery "${esc(b.name)}"</code>, fill it in, and rebuild this file.</div>`;
   const card = profileCard(b).replace(/\.\.\/\.\.\/about\/#estimates/g, '#tab=about');
-  return `${partial ? '<div class="notice">Some years for this brewery come from seed rows (secondary sources) rather than the ingested official list. The official list wins once it is loaded.</div>' : ''}<div class="hero"><div><h2>gabf-medal-history</h2>${history}${other}<h2>deep-dive</h2>${deep}</div>${card}</div>`;
+  return humanizeHeadings(`${partial ? '<div class="notice">Some years for this brewery come from seed rows (secondary sources) rather than the ingested official list. The official list wins once it is loaded.</div>' : ''}<div class="hero"><div><h2>gabf-medal-history</h2>${history}${other}<h2>deep-dive</h2>${deep}</div>${card}</div>`);
 }
 
 function coveragePills(ds) {
@@ -102,12 +102,12 @@ export async function buildStandalone({ out = resolve(ROOT, 'gabf-dashboard.html
   const latest = ds.years.filter((y) => ds.coverage[y] !== 'pending').slice(-1)[0];
   const buildNote = `from ${results.length} medal rows across ${ds.years.length} years (latest loaded: ${latest}) and ${ds.breweries.length} breweries`;
   const template = readFileSync(resolve(SITE, 'standalone', 'template.html'), 'utf8');
-  const fill = (flavor) => template
+  const fill = (flavor) => humanizeHeadings(template)
     .replace('/*__STYLES__*/', () => styles)
     .replace('__DEFAULT_BREWERY__', () => esc(defaultBrewery))
     .replace('__LEDE__', () => LEDE[flavor])
     .replace('__COVERAGE__', () => coveragePills(ds))
-    .replace('__ABOUT__', () => `<div class="notice">${ABOUT_NOTICE[flavor]}</div>${aboutHtml(ds)}`)
+    .replace('__ABOUT__', () => humanizeHeadings(`<div class="notice">${ABOUT_NOTICE[flavor]}</div>${aboutHtml(ds)}`))
     .replace('__BUILD_NOTE__', () => esc(buildNote))
     .replace('/*__ECHARTS__*/', () => safeScript(echarts))
     .replace('__GEO__', () => safeJson(JSON.parse(geo)))
