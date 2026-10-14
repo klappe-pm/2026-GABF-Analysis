@@ -111,6 +111,14 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   select: { 'Field style': fieldStyle },
   'status-chip': { 'Container color': colorRole, Shape: shape },
   'text-link': { Color: colorRole, Underline: enumOf(['always', 'on hover']) },
+  // Drawn by the current public site (scripts/build-site.mjs, site/), not yet by web/: no settings until
+  // each moves to Material.
+  footer: {},
+  tabs: {},
+  chips: {},
+  'spec-card': {},
+  'side-sheet': {},
+  'explorer-app': {},
 };
 
 // Identity keys every spec carries besides its settings.
@@ -200,5 +208,6 @@ export const showValue = (v: Value) => (Array.isArray(v) ? v.join(', ') : String
 export function specBody(name: string, title: string, settings: Settings): string {
   const lines = [`![${title}](${name}.png)`, '', '## what-you-can-change', ''];
   for (const k of Object.keys(COMPONENTS[name] ?? {})) if (Object.hasOwn(settings, k)) lines.push(`- ${k}: ${showValue(settings[k])}`);
+  if (!Object.keys(COMPONENTS[name] ?? {}).length) lines.push('- Nothing yet: the current public site draws this component, and it gains settings when it moves to Material.');
   return `\n${lines.join('\n')}\n`;
 }

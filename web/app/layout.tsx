@@ -3,7 +3,7 @@ import { Archivo_Narrow, Public_Sans } from 'next/font/google';
 import { Fragment, type ReactNode } from 'react';
 import { DesignSettings } from '@/design/runtime';
 import { rootCss } from '@/design/theme';
-import { lookup, t } from '@/lib/content';
+import { t } from '@/lib/content';
 import { bakedState } from '@/lib/design-source';
 import './globals.css';
 
@@ -24,19 +24,14 @@ export const viewport: Viewport = {
 
 // The footer every page carries, with the Catalog.beer attribution its license asks for.
 function SiteFooter() {
-  const links: Record<string, ReactNode> = {
-    catalog: <a href="https://catalog.beer" className="text-primary underline">{t('global.site.footer.catalog_beer_name')}</a>,
-    license: <a href="https://creativecommons.org/licenses/by/4.0/" className="text-primary underline">{t('global.site.footer.catalog_beer_license')}</a>,
-  };
-  const parts = (lookup('global.site.footer.catalog_beer') as string).split(/(\{\{\w+\}\})/);
+  // One line of copy (global.site.footer.beer_details); its two names become links.
+  const LINKS: Record<string, string> = { 'Catalog.beer': 'https://catalog.beer', 'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/' };
+  const parts = t('global.site.footer.beer_details').split(/(Catalog\.beer|CC BY 4\.0)/);
   return (
     <footer className="mt-12 bg-surface-container">
       <md-divider />
       <p className="type-body-small mx-auto max-w-page px-4 py-6 text-on-surface-variant" data-attribution="catalog-beer">
-        {parts.map((p, i) => {
-          const name = p.match(/^\{\{(\w+)\}\}$/)?.[1];
-          return <Fragment key={i}>{name ? links[name] : p}</Fragment>;
-        })}
+        {parts.map((p, i) => (LINKS[p] ? <a key={i} href={LINKS[p]} className="text-primary underline">{p}</a> : <Fragment key={i}>{p}</Fragment>))}
       </p>
     </footer>
   );
