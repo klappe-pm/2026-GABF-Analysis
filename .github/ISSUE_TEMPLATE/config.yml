@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live site
+    url: https://klappe-pm.github.io/GABF-Analysis/
+    about: Browse the dashboards before filing; filters in the URL make a view easy to share in an issue.
+  - name: Report a security vulnerability
+    url: https://github.com/klappe-pm/GABF-Analysis/security/policy
+    about: Please read the security policy and report privately instead of opening a public issue.
