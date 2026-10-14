@@ -10,7 +10,7 @@ import { EditableValue } from 'design-editor';
 import { DataTable } from '@/components/DataTable';
 import { useDesign, useScheme } from '@/design/runtime';
 import { COMPONENTS, type ColorRole, elevationLevels, globalKind, SHAPES, showValue } from '@/design/schema';
-import { contrastReport, corners, typeScale } from '@/design/theme';
+import { contrastReport, corners, seriesReport, typeScale } from '@/design/theme';
 import { color, labelFace, typeOf } from '@/design/helpers';
 
 const key = (plain: string) => plain.replace(/ /g, '_');
@@ -156,7 +156,7 @@ export function MedalTable({ caption, names, cols }: { caption: string; names: R
 
 export function ContrastTable({ caption, roleNames, cols }: { caption: string; roleNames: Record<string, string>; cols: Record<'role' | 'on' | 'ratio' | 'needs' | 'result' | 'pass' | 'fail', string> }) {
   const scheme = useScheme();
-  const series = (useDesign().components['chart-card']?.['Series colors'] ?? []) as ColorRole[];
+  const { global } = useDesign();
   return (
     <DataTable
       caption={caption}
@@ -167,9 +167,9 @@ export function ContrastTable({ caption, roleNames, cols }: { caption: string; r
         { key: 'needs', label: cols.needs, numeric: true },
         { key: 'result', label: cols.result },
       ]}
-      rows={contrastReport(scheme, series.map((r) => [r, 'surface'])).map((r) => ({
+      rows={[...contrastReport(scheme), ...seriesReport(global, scheme)].map((r) => ({
         key: `${r.fg}|${r.bg}`,
-        cells: { role: roleNames[key(r.fg)], on: roleNames[key(r.bg)], ratio: `${r.ratio.toFixed(2)}:1`, needs: `${r.min}:1`, result: r.pass ? cols.pass : cols.fail },
+        cells: { role: roleNames[key(r.fg)] ?? r.fg, on: roleNames[key(r.bg)] ?? r.bg, ratio: `${r.ratio.toFixed(2)}:1`, needs: `${r.min}:1`, result: r.pass ? cols.pass : cols.fail },
       }))}
     />
   );
