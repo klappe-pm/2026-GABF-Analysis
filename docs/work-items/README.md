@@ -4,5 +4,5 @@ Tickets generated from `docs/design/design-feedback.jsonl`, one per feedback not
 
 | Ticket | Status | Title | Categories | Page |
 | --- | --- | --- | --- | --- |
-| [WI-001](WI-001.md) | open | Setup test, whole page note | Other | `/breweries/green-cheek-beer-co/` |
-| [WI-002](WI-002.md) | open | Setup test, targeted note on the brewery name heading | Heading, Typography | `/breweries/green-cheek-beer-co/` |
+| [WI-001](WI-001.md) | done | Setup test, whole page note | Other | `/breweries/green-cheek-beer-co/` |
+| [WI-002](WI-002.md) | done | Setup test, targeted note on the brewery name heading | Heading, Typography | `/breweries/green-cheek-beer-co/` |
