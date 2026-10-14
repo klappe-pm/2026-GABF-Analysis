@@ -36,6 +36,14 @@ export const noteFor = (x) => (x.partial ? 'From a partial year sample' : '');
 // Entries per medal: the field a medal was won against, from the official category headers.
 export const entriesPerMedal = (r) => (r.entries && r.category_medals ? r.entries / r.category_medals : null);
 
+// The beer's own published figures. A missing value reads "Not defined"; the style range is never
+// used here.
+export const NOT_DEFINED_HTML = '<span class="muted">Not defined</span>';
+const hasNum = (v) => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v));
+export const abvCell = (x) => (hasNum(x.abv) ? `${esc(Number(x.abv).toFixed(1).replace(/\.0$/, ''))}%` : NOT_DEFINED_HTML);
+export const ibuCell = (x) => (hasNum(x.ibu) ? esc(String(Number(x.ibu))) : NOT_DEFINED_HTML);
+const profileCell = (x, r) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">Full profile</a>` : NOT_DEFINED_HTML);
+
 // compact: drop columns whose value is the same on every row and columns empty on every row.
 // The Notes column is dropped whenever it is empty.
 export function medalTable(rows, { r, showYear = true, showBrewery = false, compact: compactCols = false, odds = false } = {}) {
@@ -43,6 +51,8 @@ export function medalTable(rows, { r, showYear = true, showBrewery = false, comp
   if (showYear) cols.push({ key: 'year', label: 'Year', numeric: true });
   cols.push({ key: 'medal', label: 'Medal', render: (x) => medalDot(x.medal) });
   cols.push({ key: 'beer_name', label: 'Beer', render: (x) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)) });
+  cols.push({ key: 'abv', label: 'ABV', numeric: true, keep: true, render: abvCell });
+  cols.push({ key: 'ibu', label: 'IBU', numeric: true, keep: true, render: ibuCell });
   if (showBrewery) cols.push({ key: 'brewery_name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a>${x.brewery_location ? ` <span class="muted small">(${esc(x.brewery_location)})</span>` : ''}` });
   else cols.push({ key: 'brewery_location', label: 'Location credited', render: (x) => esc(x.brewery_location || x.city) });
   cols.push({ key: 'city', label: 'City', render: (x) => `${esc(x.city)}, ${esc(x.state)}` });
@@ -50,11 +60,12 @@ export function medalTable(rows, { r, showYear = true, showBrewery = false, comp
   cols.push({ key: 'entries', label: odds ? 'Field (entries)' : 'Entrants', numeric: true, droppable: true, render: (x) => (x.entries ? fmt(x.entries) : '') });
   if (odds) cols.push({ key: 'odds', label: 'Entries per medal', numeric: true, render: (x) => { const e = entriesPerMedal(x); return e ? e.toFixed(1) : ''; } });
   cols.push({ key: 'style_family', label: 'Style family', droppable: true });
+  cols.push({ key: 'beer_profile', label: 'Beer profile', keep: true, render: (x) => profileCell(x, r) });
   cols.push({ key: 'notes', label: 'Notes', render: (x) => `<span class="small muted">${esc(noteFor(x))}</span>` });
   const values = (c) => new Set(rows.map((x) => String(c.key === 'odds' ? (entriesPerMedal(x) ?? '') : c.key === 'notes' ? noteFor(x) : (x[c.key] ?? '')).trim()));
   cols = cols.filter((c) => {
     const v = values(c);
-    if (v.size === 1 && v.has('') && (c.key === 'notes' || c.key === 'odds' || compactCols)) return false;
+    if (v.size === 1 && v.has('') && !c.keep && (c.key === 'notes' || c.key === 'odds' || compactCols)) return false;
     return !(compactCols && c.droppable && v.size === 1);
   });
   return `<div class="table-wrap stack">${tableHtml(cols, rows)}</div>`;
@@ -192,7 +203,7 @@ ${barsFigure('first-time-by-medal', 'By medal', medals, { color: 'var(--series-4
     const byB = new Map();
     for (const x of list) { if (!byB.has(x.brewery_key)) byB.set(x.brewery_key, []); byB.get(x.brewery_key).push(x); }
     const out = [...byB.values()].sort((a, b) => b.length - a.length || a[0].brewery_name.localeCompare(b[0].brewery_name));
-    return `<div class="table-wrap stack"><table class="data-table"><thead><tr><th scope="col">Brewery</th><th scope="col">Medal</th><th scope="col">Beer</th><th scope="col">Category</th><th scope="col" class="num">Entries beaten</th></tr></thead><tbody>${out.map((ms) => ms.sort(byNewest).map((x, i) => `<tr>${i === 0 ? `<td data-label="Brewery" rowspan="${ms.length}"><a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td>` : ''}<td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer">${x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)}</td><td data-label="Category"><a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a></td><td class="num" data-label="Entries beaten">${x.entries ? fmt(Math.max(0, x.entries - 1)) : '<span class="muted">not published</span>'}</td></tr>`).join('')).join('')}</tbody></table></div>`;
+    return `<div class="table-wrap stack"><table class="data-table"><thead><tr><th scope="col">Brewery</th><th scope="col">Medal</th><th scope="col">Beer</th><th scope="col" class="num">ABV</th><th scope="col" class="num">IBU</th><th scope="col">Beer profile</th><th scope="col">Category</th><th scope="col" class="num">Entries beaten</th></tr></thead><tbody>${out.map((ms) => ms.sort(byNewest).map((x, i) => `<tr>${i === 0 ? `<td data-label="Brewery" rowspan="${ms.length}"><a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td>` : ''}<td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer">${x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)}</td><td class="num" data-label="ABV">${abvCell(x)}</td><td class="num" data-label="IBU">${ibuCell(x)}</td><td data-label="Beer profile">${profileCell(x, r)}</td><td data-label="Category"><a href="${r}categories/${esc(x.category_slug)}/">${esc(x.category_name)}</a></td><td class="num" data-label="Entries beaten">${x.entries ? fmt(Math.max(0, x.entries - 1)) : '<span class="muted">not published</span>'}</td></tr>`).join('')).join('')}</tbody></table></div>`;
   };
   return `<div class="stats">${stats}</div>
 ${charts}

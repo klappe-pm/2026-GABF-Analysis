@@ -37,4 +37,4 @@ else {
 run('enrich', ['scripts/enrich-breweries.mjs', ...(args.offline ? ['--offline'] : [])]);
 run('test', ['--test']);
 run('build', ['scripts/build-site.mjs']);
-console.log(`\nDone. Review data/results/gabf-${year}.csv and dist/, then commit data/ and breweries/ and push to publish.`);
+console.log(`\nDone. Review data/results/gabf-${year}.csv and dist/, then commit data/ and push to publish.`);

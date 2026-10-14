@@ -265,7 +265,10 @@ function renderTable(rows) {
     { key: 'category_name', label: 'Category', render: (r) => `<a href="${esc(cHref(r.category_name, r.category_slug))}">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
     { key: 'entries', label: 'Entries', numeric: true, render: (r) => (r.entries ?? '') },
     { key: 'style_family', label: 'Style family' },
-    { key: 'abv', label: 'ABV', render: (r) => (r.abv ? `${r.abv}%` : (r.abv_min ? `${r.abv_min} to ${r.abv_max}% (style)` : '')) },
+    { key: 'abv', label: 'ABV', numeric: true, render: (r) => (r.abv !== null && r.abv !== undefined ? `${r.abv}%` : '<span class="muted">Not defined</span>') },
+    { key: 'ibu', label: 'IBU', numeric: true, render: (r) => (r.ibu !== null && r.ibu !== undefined ? esc(r.ibu) : '<span class="muted">Not defined</span>') },
+    { key: 'abv_min', label: 'Style range ABV', render: (r) => (r.abv_min ? `${r.abv_min} to ${r.abv_max}%` : '<span class="muted">Not defined</span>') },
+    { key: 'beer_profile', label: 'Beer profile', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">Full profile</a>` : '<span class="muted">Not defined</span>') },
     { key: 'ownership_type', label: 'Ownership', render: (r) => `${esc(valueLabel('ownership_type', r.ownership_type))}${r.parent ? ` (${esc(r.parent)})` : ''}` },
     { key: 'distribution_channel', label: 'Distribution', render: (r) => esc(valueLabel('distribution_channel', r.distribution_channel)) },
   ], rows.slice(0, limit))}</div><div class="table-more"><p class="small muted">Showing ${limit.toLocaleString()} of ${rows.length.toLocaleString()} medals, newest first.</p>${rows.length > limit ? `<button class="btn" type="button" id="show-more">Show ${Math.min(100, rows.length - limit)} more</button><button class="btn" type="button" id="show-all">Show all</button>` : ''}</div>`;
