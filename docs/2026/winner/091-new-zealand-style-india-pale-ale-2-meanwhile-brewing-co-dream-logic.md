@@ -30,12 +30,6 @@ description:
 entries: 89
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://meanwhilebeer.com/"
-      - "https://www.meanwhilebeer.com/beer/dream-logic"
-      - "https://www.meanwhilebeer.com/past-brews"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://meanwhilebeer.com/"
@@ -135,7 +129,9 @@ sources:
   - "https://www.meanwhilebeer.com/past-brews"
 srm: null
 style: "West Coast IPA"
-tasting-notes: null
+tasting-notes:
+  text: "WE TASTE: Pineapple. Berry. Allium."
+  source: "https://www.meanwhilebeer.com/beer/dream-logic"
 water: null
 yeast:
   - "Chico"
@@ -174,7 +170,9 @@ The rest of the brewery's short description invites the drinker to set aside eve
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> WE TASTE: Pineapple. Berry. Allium.
+
+Source: [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic)
 
 ## ingredients
 
@@ -234,7 +232,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [meanwhilebeer.com](https://meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic), [meanwhilebeer.com](https://www.meanwhilebeer.com/past-brews), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [meanwhilebeer.com](https://meanwhilebeer.com/), [meanwhilebeer.com](https://www.meanwhilebeer.com/beer/dream-logic), [meanwhilebeer.com](https://www.meanwhilebeer.com/past-brews), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -242,3 +240,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery labels it a West Coast IPA although it medaled in the New Zealand-Style IPA category, and its 77 IBU sits above the category range; the current listing may not match the entry.
 - The beer page has an Awards heading with no awards listed. No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives a tasting line, Pilsner and wheat malts, Mosaic, Krush, Idaho 7 and Nectaron, Chico yeast, 7.2% ABV and 77 IBU; its sell sheet link is not active.

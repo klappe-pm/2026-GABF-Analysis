@@ -212,3 +212,4 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 - The brewery home page lists Mindbender's earlier awards in strong pale categories: a 2025 GABF silver for American Strong Pale, a 2026 World Beer Cup silver for Strong Pale and a 2025 Best of the West Coast IPA silver. It does not yet list a 2026 GABF medal.
 - The brewery labels it a West Coast IPA although it medaled in American-Style Strong Pale Ale.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site lists Mindbender's awards only.
