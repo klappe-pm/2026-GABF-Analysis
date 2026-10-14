@@ -33,24 +33,13 @@ description:
 entries: 73
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/pages/beer"
-      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://thirdwindowbrewing.com/pages/beer"
       - "https://thirdwindowbrewing.com/products/saison-ete-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/pages/beer"
-      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://thirdwindowbrewing.com/pages/beer"
@@ -93,12 +82,6 @@ gaps:
       - "https://thirdwindowbrewing.com/products/saison-ete-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://thirdwindowbrewing.com/pages/beer"
-      - "https://thirdwindowbrewing.com/products/saison-ete-2026"
-      - "https://www.thirdwindowbrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -109,15 +92,21 @@ malts:
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Barrel-aged blend of the brewery's Farmhouse Saison and Rye Saison, brewed with malt and wheat grown on the FP Farm, refermented for a year with a mixed culture of Brettanomyces and Lactobacillus; purple sage blossoms from Santa Barbara Botanic Garden added after secondary fermentation, then FP Farm jasmine flowers"
+  source: "https://thirdwindowbrewing.com/products/saison-ete-2026"
 sources:
   - "https://thirdwindowbrewing.com/pages/beer"
   - "https://thirdwindowbrewing.com/products/saison-ete-2026"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.thirdwindowbrewing.com/"
-srm: null
+srm:
+  value: "Light apricot (no SRM number published)"
+  source: "https://thirdwindowbrewing.com/products/saison-ete-2026"
 style: "Seasonal Farmhouse Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Light apricot in color with a creamy white head. Aromas of lemon verbena, wildflowers, and peppercorn. Flavors of grapefruit, wildflower honey, and herbal notes. Bright, dry finish."
+  source: "https://thirdwindowbrewing.com/products/saison-ete-2026"
 water: null
 yeast:
   - "Brettanomyces"
@@ -155,7 +144,9 @@ Source: [Third Window: Saison Été 2026](https://thirdwindowbrewing.com/product
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Light apricot in color with a creamy white head. Aromas of lemon verbena, wildflowers, and peppercorn. Flavors of grapefruit, wildflower honey, and herbal notes. Bright, dry finish.
+
+Source: [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026)
 
 ## ingredients
 
@@ -169,11 +160,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Light apricot (no SRM number published) | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Barrel-aged blend of the brewery's Farmhouse Saison and Rye Saison, brewed with malt and wheat grown on the FP Farm, refermented for a year with a mixed culture of Brettanomyces and Lactobacillus; purple sage blossoms from Santa Barbara Botanic Garden added after secondary fermentation, then FP Farm jasmine flowers | [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026) |
 
 ## style-context
 
@@ -206,8 +197,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -216,3 +207,4 @@ No brewery links have been checked yet.
 - The malts array records barley malt, rye and wheat from the page's mention of malt, wheat and a rye saison base; no specific malt varieties are named.
 - The brewery home page lists 2026 World Beer Cup bronzes for other saisons but no GABF 2026 announcement for this beer.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page publishes sensory notes, color, 6% ABV and the full process; no hops or IBU.

@@ -265,3 +265,4 @@ Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://u
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU, hop and brewery-domain searches found no verified missing field for Beería. The previously inaccessible BeerAdvocate page was not fetched again.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Beería description.

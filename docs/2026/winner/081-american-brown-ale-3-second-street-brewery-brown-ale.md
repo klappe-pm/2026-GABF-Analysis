@@ -282,3 +282,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No ABV, IBU or 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Brown Ale](https://catalog.beer/beer/7f2a1366-387e-43d9-90da-18370e5e8ddd) lists 5.4% ABV, 26 IBU, style "American-Style Brown Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewer's words in Edible New Mexico give only the Centennial and Cascade hops already recorded.
