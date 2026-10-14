@@ -31,11 +31,6 @@ description:
 entries: 84
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.saintarnold.com/beers"
-      - "https://www.saintarnold.com/beers-more/lawnmower/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.saintarnold.com/beers"
@@ -52,11 +47,6 @@ gaps:
       - "https://www.saintarnold.com/beers-more/lawnmower/"
       - "web searches recorded in the research notes"
   - field: "hop-form"
-    sources-checked:
-      - "https://www.saintarnold.com/beers"
-      - "https://www.saintarnold.com/beers-more/lawnmower/"
-      - "web searches recorded in the research notes"
-  - field: "hop-use"
     sources-checked:
       - "https://www.saintarnold.com/beers"
       - "https://www.saintarnold.com/beers-more/lawnmower/"
@@ -85,7 +75,7 @@ hop-profile:
   - published: "Hallertauer Hersbrucker"
     variety: "Hersbrucker"
     form: null
-    use: null
+    use: "four separate additions to the brew kettle"
     lot-or-farm: null
     source: "https://www.saintarnold.com/beers-more/lawnmower/"
 hops:
@@ -104,7 +94,9 @@ sources:
   - "https://www.saintarnold.com/beers-more/lawnmower/"
 srm: null
 style: "Kölsch-style blonde"
-tasting-notes: null
+tasting-notes:
+  text: "This beer is crisp and refreshing, yet has a sweet malty body that is balanced by a complex, citrus hop character. ... This beer has a distinctive floral hop aroma."
+  source: "https://www.saintarnold.com/beers-more/lawnmower/"
 water: null
 yeast:
   - "Kölsch yeast"
@@ -141,7 +133,9 @@ Source: [Saint Arnold: Lawnmower](https://www.saintarnold.com/beers-more/lawnmow
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This beer is crisp and refreshing, yet has a sweet malty body that is balanced by a complex, citrus hop character. ... This beer has a distinctive floral hop aroma.
+
+Source: [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/)
 
 ## ingredients
 
@@ -151,7 +145,7 @@ The brewery says the beer uses "just pale malted barley and a dash of malted whe
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertauer Hersbrucker | Hersbrucker | not published | not published | not published | [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/) |
+| Hallertauer Hersbrucker | Hersbrucker | not published | four separate additions to the brew kettle | not published | [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/) |
 
 ## brewing-details
 
@@ -195,10 +189,11 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [saintarnold.com](https://www.saintarnold.com/beers), [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Adjuncts, Water, Process. Checked [saintarnold.com](https://www.saintarnold.com/beers), [saintarnold.com](https://www.saintarnold.com/beers-more/lawnmower/), web searches recorded in the research notes.
 
 ## research-notes
 
 - The beer page's award list already includes this result: "Silver Medal, Great American Beer Festival, Golden or Blonde Ale, 2026", alongside a 2023 GABF gold in the same category and earlier Kölsch medals.
 - The brewery names the beer "Lawnmower"; the page's history says the name grew out of a test name, "Fancy Lawnmower Beer". The GABF list prints "Lawnmower Beer".
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page says it uses a single hop variety, Hallertauer Hersbrucker, in four separate additions to the brew kettle, recorded as the hop use.

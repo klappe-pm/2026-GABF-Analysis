@@ -255,3 +255,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional brewery-domain and ingredient searches found no named hop variety or qualifying beer page. A brewery merchandise PDF mentioning a hefeweizen glass does not establish the recipe.
 - Catalog.beer 2026-10-14: [Catalog.beer: Hefeweizen](https://catalog.beer/beer/7ecb09db-e00f-4af4-ba93-998ee9db25cb) lists 4.8% ABV, 17 IBU, style "Hefeweizen" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.
