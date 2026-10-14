@@ -16,7 +16,7 @@ export function reviewCopy(): Record<string, string> | undefined {
   if (process.env.WEB_REVIEW !== '1') return undefined;
   const out: Record<string, string> = {};
   for (const group of ['panel', 'messages', 'elements', 'editor']) flatten(lookup(`pages.review-mode.${group}`), group, out);
-  flatten(lookup('pages.design-system.review_panel'), 'settings', out);
+  flatten(lookup('pages.design-system.review_panel'), 'settings_panel', out);
   const missing = lookup('global.labels.not_found');
   if (typeof missing !== 'string') throw new Error('content key global.labels.not_found is missing');
   out.not_found = missing;

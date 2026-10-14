@@ -48,6 +48,7 @@ export const VALUE_LABELS = {
   section: { main: 'Main Competition', 'pro-am': 'Pro-Am', collaboration: 'Collaboration' },
   category_type: { classic: 'Classic Style', special: 'Special' },
   basis: { 'type-heuristic': 'Estimated from Brewery Type', 'boty-bracket': 'Brewery of the Year Size Bracket', estimate: 'Curated Estimate', reported: 'Reported', bracket: 'Size Bracket', curated: 'Curated Estimate', heuristic: 'Estimated from Brewery Type', 'profile estimate': 'Brewery Profile Estimate' },
+  characteristic: { sour: 'Sour or Wild Category', fruit: 'Fruit Category', spice: 'Herb or Spice Category', coffee: 'Coffee Category', chocolate: 'Chocolate Category', barrel_aged: 'Wood or Barrel Category', non_alcoholic: 'Nonalcoholic Category', gluten_free: 'Gluten-Free Category' },
   first_time: { new: 'First Medal in the Loaded Record', 'new-complete': 'First Medal in the Complete Record' },
 };
 

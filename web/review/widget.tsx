@@ -39,7 +39,7 @@ function Widget({ copy }: { copy: Copy }) {
     return fill(text, values);
   }, [copy]);
   const meta = useDesign().meta;
-  const settingsCopy = useMemo(() => Object.fromEntries(Object.entries(copy).filter(([k]) => k.startsWith('settings.')).map(([k, v]) => [k.slice('settings.'.length), v])), [copy]);
+  const panelCopy = useMemo(() => Object.fromEntries(Object.entries(copy).filter(([k]) => k.startsWith('settings_panel.')).map(([k, v]) => [k.slice('settings_panel.'.length), v])), [copy]);
   const title = (name: string) => meta[name]?.title ?? copy['not_found'];
   const kind = (tag: string) => copy[`elements.${tag}`] ?? c('elements.other');
   const [open, setOpen] = useState(false);
@@ -349,7 +349,7 @@ function Widget({ copy }: { copy: Copy }) {
               </div>
             </div>
             <div className="gfw-field gfw-settings">
-              <ReviewSettingsPanel page={copyPageFor(routeOf())} inline copy={settingsCopy} />
+              <ReviewSettingsPanel page={copyPageFor(routeOf())} inline copy={panelCopy} />
             </div>
             {keys.length ? (
               <div className="gfw-field">

@@ -17,7 +17,7 @@ export function SpecCard({ id, title, note, rows, headingLevel = 2 }: { id: stri
   const labelWidth = Number(s['Label width'] ?? 14);
   const Heading = `h${headingLevel}` as 'h2' | 'h3';
   return (
-    <section data-component="spec-card" aria-labelledby={`${id}-title`} className={`flex w-full min-w-0 max-w-measure flex-col gap-3 p-4 medium:p-5 ${card.className}`} style={card.style}>
+    <section aria-labelledby={`${id}-title`} data-component="spec-card" className={`flex w-full min-w-0 max-w-measure flex-col gap-3 p-4 medium:p-5 ${card.className}`} style={card.style}>
       {card.elevated ? <md-elevation /> : null}
       <Heading id={`${id}-title`} className={`min-w-0 break-words text-on-surface ${typeOf(s['Title style'] ?? 'title large')}`}>{title}</Heading>
       {note ? <p className="type-body-medium text-on-surface-variant">{note}</p> : null}
