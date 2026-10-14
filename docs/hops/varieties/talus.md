@@ -17,13 +17,45 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Talus"
+alpha-acid-percent: "8.1 to 9.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "Dried Roses"
+  - "Pine"
+  - "Pink Grapefruit"
+  - "Resin"
+beta-acid-percent: "8.3 to 10.2"
+breeder: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+canonical-name: "Talus"
+caryophyllene-percent-of-oil: "9 to 13"
+cohumulone-percent-of-alpha: "34 to 39"
+farnesene-percent-of-oil: "0 to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "16 to 21"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "40 to 50"
 origin-country: "United States"
-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+owner-program: "Hop Breeding Company (joint venture of John I. Haas and Yakima Chief Ranches)"
+parentage: "Daughter of Sabro (HBC 438), open pollination"
 proprietary-status: "proprietary"
+release-year: 2020
+release-year-note: null
 slug: "talus"
-year-released: "2020"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.hopbreeding.com/"
+  - "https://www.johnihaas.com/wp-content/uploads/2022/01/Haas_HopSpecSheets-TALUS_010322.pdf"
+total-oil-ml-per-100g: "2 to 2.7"
+trademark: "Talus (registered, per NASS)"
+us-acres-latest:
+  - "Washington 492"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # talus
@@ -99,3 +131,33 @@ No gaps: every field is published by the sources listed below.
 - [johnihaas.com/wp-content/uploads/2022/01/Haas_HopSpecSheets-TALUS_010322.pdf](https://www.johnihaas.com/wp-content/uploads/2022/01/Haas_HopSpecSheets-TALUS_010322.pdf)
 - [hopbreeding.com](https://www.hopbreeding.com/)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

@@ -228,6 +228,10 @@ New York Beer Project is in Winter Garden, FL. Brewery type in Open Brewery DB: 
 
 Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
+## related
+
+- Brewery: [New York Beer Project](../../breweries/new-york-beer-project.md)
+
 ## links
 
 - [New York Beer Project](https://nybeerproject.com/)

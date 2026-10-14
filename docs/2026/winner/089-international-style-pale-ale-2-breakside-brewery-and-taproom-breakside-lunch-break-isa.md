@@ -245,6 +245,14 @@ Breakside Brewery & Taproom is in Milwaukie, OR.
 
 Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https://www.instagram.com/breakside/).
 
+## related
+
+- Brewery: [Breakside Brewery & Taproom](../../breweries/breakside-brewery-and-taproom.md)
+- Hop varieties: [Amarillo](../../hops/varieties/amarillo.md), [Cascade](../../hops/varieties/cascade.md), [Galaxy](../../hops/varieties/galaxy.md), [Rakau](../../hops/varieties/rakau.md), [Simcoe](../../hops/varieties/simcoe.md)
+- Hop farms that grow these varieties: grown by [Goschie Farms](../../hops/farms/goschie-farms.md), grown by [B&D Farms](../../hops/farms/bd-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md), grown by [Perrault Farms](../../hops/farms/perrault-farms.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://breakside.com/our_beer/lunch-break-india-session-ale/)

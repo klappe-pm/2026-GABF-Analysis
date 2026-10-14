@@ -18,13 +18,48 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Idaho 7"
+alpha-acid-percent: "13 to 15"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "apricot"
+  - "Guava"
+  - "lemon"
+  - "orange pith"
+  - "pine resin"
+beta-acid-percent: "4 to 5"
+breeder: "Jackson Hop Farm (Wilder, Idaho)"
+canonical-name: "Idaho 7"
+caryophyllene-percent-of-oil: "5 to 10"
+cohumulone-percent-of-alpha: "30 to 40"
+farnesene-percent-of-oil: null
+gaps:
+  - "farnesene-percent-of-oil"
+  - "parentage"
+  - "use"
+humulene-percent-of-oil: "10 to 20"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "45 to 55"
 origin-country: "United States"
-program: "Jackson Hop Farm (Wilder, Idaho)"
+owner-program: "Jackson Hop Farm (Wilder, Idaho)"
+parentage: null
 proprietary-status: "proprietary"
+release-year: 2015
+release-year-note: "Originally known as 007 The Golden Hop (John I. Haas sheet)."
 slug: "idaho-7"
-year-released: "2015"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Idaho7.pdf"
+total-oil-ml-per-100g: "1 to 1.6"
+trademark: "Idaho 7 (trademark, per the John I. Haas sheet; registered, per NASS)"
+us-acres-latest:
+  - "Idaho 260"
+  - "Washington 150"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # idaho-7
@@ -98,3 +133,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Idaho7.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Idaho7.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+- [Billy Goat Hop Farm](../farms/billy-goat-hop-farm.md), CO; published as Idaho 7; current
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Dream Logic](../../2026/winner/091-new-zealand-style-india-pale-ale-2-meanwhile-brewing-co-dream-logic.md), silver, New Zealand-Style India Pale Ale, by [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md); published as Idaho 7
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Meanwhile Brewing Co.](../../breweries/meanwhile-brewing-co.md), 1 beer

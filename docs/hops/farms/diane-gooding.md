@@ -1,16 +1,49 @@
 ---
 domain: beer
-category: gabf-analysis
-sub-category: hops
+category: hops
+sub-category: farm
 topics:
-  - hop-farms
+  - "hop-farms"
+  - "hops"
 types:
-  - reference
+  - "hop-farm"
 date-created: 2026-10-14
 date-revised: 2026-10-14
 status: DRAFT
 aliases: []
-tags: []
+tags:
+  - "id"
+  - "verified"
+acreage: null
+certifications: []
+city: null
+county: "Canyon"
+county-source: "stated by source"
+founded: null
+gaps:
+  - "acreage"
+  - "certifications"
+  - "city"
+  - "founded"
+  - "generation"
+  - "merchant-affiliation"
+  - "ownership"
+  - "varieties-grown"
+generation: null
+merchant-affiliation: null
+merchants: []
+name: "Diane Gooding"
+ownership: null
+sells-direct: null
+slug: "diane-gooding"
+sources:
+  - "https://agri.idaho.gov/ag-inspections/agricultural-services/hops/hop-growers-in-idaho/"
+state: "ID"
+varieties-grown: []
+varieties-without-page: []
+variety-source-role: null
+verification: "Idaho State Department of Agriculture grower list read"
+verified: true
 ---
 
 # diane-gooding
@@ -40,3 +73,35 @@ Active licensed Idaho hop grower number 100 on the 2026 Idaho State Department o
 ## sources
 
 - https://agri.idaho.gov/ag-inspections/agricultural-services/hops/hop-growers-in-idaho/
+
+## related
+
+- [all hop farms](README.md)
+- [all hop varieties](../README.md)
+- [all breweries](../../breweries/README.md)
+
+### varieties-grown
+
+Varieties the hop farm data lists as grown here, each with the name the source printed.
+
+No variety is recorded for this farm.
+
+### named-by-the-brewery
+
+Brewery statements: 2026 medal beers whose profile names this farm for a hop.
+
+No 2026 beer profile names this farm.
+
+### reached-through-varieties
+
+2026 medal beers that name a hop this farm grows. The link runs through the variety: the farm grows the hop, and the brewery did not necessarily buy from this farm.
+
+No 2026 medal beer names a hop this farm is recorded as growing.
+
+### breweries-reached-through-varieties
+
+No brewery is reached through the varieties this farm grows.
+
+### merchants
+
+No merchant relationship is recorded for this farm.

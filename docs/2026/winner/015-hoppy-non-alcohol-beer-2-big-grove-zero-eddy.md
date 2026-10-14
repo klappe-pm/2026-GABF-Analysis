@@ -231,6 +231,10 @@ Big Grove is in Iowa City, IA. Brewery type in Open Brewery DB: Microbrewery.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Big Grove](../../breweries/big-grove.md)
+
 ## links
 
 - [Untappd: Big Grove Zero Eddy](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642)

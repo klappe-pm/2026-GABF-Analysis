@@ -160,6 +160,10 @@ New York Beer Project is in Orchard Park, NY. Brewery type in Open Brewery DB: B
 
 Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
+## related
+
+- Brewery: [New York Beer Project](../../breweries/new-york-beer-project.md)
+
 ## links
 
 - [Brewers Association: beer style guidelines](https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/)

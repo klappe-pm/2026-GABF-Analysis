@@ -31,12 +31,6 @@ description:
 entries: 36
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://ikasubrewing.com/menu-light/"
-      - "https://untappd.com/b/ikasu-brewing-matcha-tart/6231486"
-      - "https://www.ikasubrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://ikasubrewing.com/menu-light/"
@@ -118,7 +112,9 @@ sources:
   - "https://www.ikasubrewing.com/"
 srm: null
 style: "Gose w/ Matcha"
-tasting-notes: null
+tasting-notes:
+  text: "Bright tartness, earthy matcha, and gentle salinity."
+  source: "https://ikasubrewing.com/menu-light/"
 water: null
 yeast: []
 ---
@@ -154,7 +150,9 @@ Source: [Ikasu: beer menu](https://ikasubrewing.com/menu-light/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Bright tartness, earthy matcha, and gentle salinity.
+
+Source: [ikasubrewing.com](https://ikasubrewing.com/menu-light/)
 
 ## ingredients
 
@@ -192,6 +190,10 @@ Ikasu Brewing is in Los Angeles, CA.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Ikasu Brewing](../../breweries/ikasu-brewing.md)
+
 ## links
 
 - [Ikasu: Matcha Tart listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486)
@@ -201,7 +203,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ikasubrewing.com](https://ikasubrewing.com/menu-light/), [untappd.com](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486), [ikasubrewing.com](https://www.ikasubrewing.com/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ikasubrewing.com](https://ikasubrewing.com/menu-light/), [untappd.com](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486), [ikasubrewing.com](https://www.ikasubrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -211,3 +213,4 @@ No brewery links have been checked yet.
 - No Untappd listing could be located without search, and the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Ikasu Untappd listing supplies the bitterness above, but no hop variety. It lists 4.7% ABV, agreeing with the previously recorded sampler sheet and conflicting with the retained 4.0% from the [brewery tap list](https://ikasubrewing.com/menu-light/); the [beer listing](https://untappd.com/b/ikasu-brewing-matcha-tart/6231486) does not resolve that batch difference.
+- Deep dive pass 2026-10-14: the brewery menu gives the tasting words only.

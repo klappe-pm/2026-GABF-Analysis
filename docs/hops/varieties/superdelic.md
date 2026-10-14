@@ -15,13 +15,43 @@ tags:
   - "new-zealand"
   - "proprietary"
   - "variety"
-variety: "Superdelic"
+alpha-acid-percent: "9 to 10.5"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Yakima Valley Hops, quoting the NZ Hops variety descriptors"
+aroma-descriptors:
+  - "berry fruit"
+  - "candy/lolly"
+  - "Citrus"
+  - "tropical fruit"
+beta-acid-percent: "2.9 to 3.6"
+breeder: "New Zealand Hops Ltd with Plant & Food Research"
+canonical-name: "Superdelic"
+caryophyllene-percent-of-oil: "7.5 to 12"
+cohumulone-percent-of-alpha: "26 to 30"
+farnesene-percent-of-oil: "0.1 to 0.5"
+gaps:
+  - "use"
+humulene-percent-of-oil: "20 to 30"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "20 to 35"
 origin-country: "New Zealand"
-program: "New Zealand Hops Ltd with Plant & Food Research"
+owner-program: "New Zealand Hops Ltd with Plant & Food Research"
+parentage: "Triploid variety (trial hop NZH 102) crossed in 2012 at Plant & Food Research"
 proprietary-status: "proprietary"
+release-year: 2023
+release-year-note: "Crossed by Dr. Ron Beatson in 2012 and released commercially in 2023."
 slug: "superdelic"
-year-released: "2023"
+sources:
+  - "https://charlesfaram.com/hop-oracle/superdelic/"
+  - "https://yakimavalleyhops.com/products/superdelic-hops"
+total-oil-ml-per-100g: "1.3 to 2.2"
+trademark: "Superdelic (registered, per Charles Faram and Yakima Valley Hops)"
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # superdelic
@@ -76,3 +106,33 @@ No gaps: every field is published by the sources listed below.
 
 - [yakimavalleyhops.com/products/superdelic-hops](https://yakimavalleyhops.com/products/superdelic-hops)
 - [charlesfaram.com/hop-oracle/superdelic](https://charlesfaram.com/hop-oracle/superdelic/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Sulking in The Brush](../../2026/winner/035-wood-and-barrel-aged-sour-beer-2-mieza-blendery-sulking-in-the-brush.md), silver, Wood- and Barrel-Aged Sour Beer, by [Mieza Blendery](../../breweries/mieza-blendery.md); published as Superdelic
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Mieza Blendery](../../breweries/mieza-blendery.md), 1 beer

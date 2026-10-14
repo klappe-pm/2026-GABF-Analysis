@@ -24,6 +24,13 @@ export const HOP_COPY_DEFAULTS = {
   brewery_note: 'Each variety links to its page, with the farms that grow it.',
   brewery_variety: 'Hop variety',
   brewery_beers: 'Medal beers',
+  brewery_farm: 'Farm',
+  brewery_farms_named_title: 'Farms these breweries named',
+  brewery_farms_named_label: 'Brewery named this farm.',
+  brewery_farms_named_note: 'The brewery published this farm for a hop in one of these beers.',
+  brewery_farms_grown_title: 'Farms that grow these hops',
+  brewery_farms_grown_label: 'Grown by.',
+  brewery_farms_grown_note: 'These farms publish a variety used in these beers as grown. It does not mean the brewery bought from them.',
 };
 
 export const hopCopy = (meta) => ({ ...HOP_COPY_DEFAULTS, ...(meta?.copy?.hops ?? {}) });

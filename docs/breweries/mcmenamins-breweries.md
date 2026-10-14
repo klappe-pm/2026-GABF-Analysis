@@ -1,0 +1,117 @@
+---
+domain: beer
+category: breweries
+sub-category: brewery
+topics:
+  - "breweries"
+  - "gabf"
+types:
+  - "brewery"
+date-created: 2026-10-14
+date-revised: 2026-10-14
+status: DRAFT
+aliases: []
+tags:
+  - "gold-medalist"
+  - "medal-2026"
+  - "or"
+beer-count-2026: 1
+beeradvocate: null
+beers-2026:
+  - "../2026/winner/101-juicy-or-hazy-india-pale-ale-2-mcmenamins-breweries-icy-fog.md"
+brewery-type: "micro"
+categories-won:
+  - "Experimental Beer"
+  - "Experimental India Pale Ale"
+  - "Fruited or Botanical Cider"
+  - "Juicy or Hazy India Pale Ale"
+city: "Portland"
+employees: null
+farms-named: []
+farms-reached:
+  - "../hops/farms/coleman-agriculture.md"
+  - "../hops/farms/perrault-farms.md"
+fed-district: 12
+fed-district-name: "San Francisco"
+first-medal-year: 2022
+founded: null
+gaps:
+  - "beeradvocate"
+  - "founded"
+  - "instagram"
+  - "ownership"
+  - "untappd"
+hops-used:
+  - "../hops/varieties/chinook.md"
+  - "../hops/varieties/mosaic.md"
+  - "../hops/varieties/nectaron.md"
+  - "../hops/varieties/simcoe.md"
+  - "../hops/varieties/vista.md"
+instagram: null
+known-for: []
+last-medal-year: 2026
+medals-bronze: 0
+medals-by-year:
+  - "2022: 0 gold, 1 silver, 0 bronze"
+  - "2024: 1 gold, 0 silver, 0 bronze"
+  - "2025: 0 gold, 1 silver, 0 bronze"
+  - "2026: 0 gold, 1 silver, 0 bronze"
+medals-gold: 1
+medals-silver: 3
+medals-total: 4
+name: "McMenamins Breweries"
+ownership: null
+ownership-parent: null
+region: "West"
+slug: "mcmenamins-breweries"
+sources: []
+state: "OR"
+untappd: null
+website: "http://www.mcmenamins.com"
+world-beer-cup-medals: 0
+---
+
+# mcmenamins-breweries
+
+McMenamins Breweries of Portland, OR (micro) has won 4 GABF medals (1 gold, 3 silver, 0 bronze) between 2022 and 2026.
+
+## medals
+
+| Year | Gold | Silver | Bronze | Total |
+|---|---|---|---|---|
+| 2026 | 0 | 1 | 0 | 1 |
+| 2025 | 0 | 1 | 0 | 1 |
+| 2024 | 1 | 0 | 0 | 1 |
+| 2022 | 0 | 1 | 0 | 1 |
+| All years | 1 | 3 | 0 | 4 |
+
+## 2026-beers
+
+- [Icy Fog](../2026/winner/101-juicy-or-hazy-india-pale-ale-2-mcmenamins-breweries-icy-fog.md), silver, Juicy or Hazy India Pale Ale
+
+## hops
+
+- [Chinook](../hops/varieties/chinook.md), 1 beer
+- [Mosaic](../hops/varieties/mosaic.md), 1 beer
+- [Nectaron](../hops/varieties/nectaron.md), 1 beer
+- [Simcoe](../hops/varieties/simcoe.md), 1 beer
+- [Vista](../hops/varieties/vista.md), 1 beer
+
+## related
+
+- [all breweries](README.md)
+- [all hop varieties](../hops/README.md)
+- [all hop farms](../hops/farms/README.md)
+
+### farms-named-by-the-brewery
+
+Farms this brewery names for a hop in a 2026 beer profile. This is a direct statement by the brewery.
+
+No 2026 profile of this brewery names a farm.
+
+### farms-grown-reaching-its-hops
+
+Farms recorded as growing a variety this brewery uses. The link runs through the variety; the brewery did not necessarily buy from these farms.
+
+- [Coleman Agriculture](../hops/farms/coleman-agriculture.md), grows [Mosaic](../hops/varieties/mosaic.md), [Simcoe](../hops/varieties/simcoe.md)
+- [Perrault Farms](../hops/farms/perrault-farms.md), grows [Simcoe](../hops/varieties/simcoe.md)

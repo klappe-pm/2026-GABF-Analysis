@@ -6,7 +6,7 @@
 import { useCallback, useMemo, useState } from 'react';
 import { FilterChips } from '@/components/FilterChips';
 import { type FilterGroup, FiltersDialog, type FiltersCopy } from '@/components/FiltersDialog';
-import { FILTERS, applyFilters, type FilterState, optionList, scopeRows } from '@/lib/filter-model.mjs';
+import { FILTERS, applyFilters, type FilterState, optionList, pruneState, scopeRows } from '@/lib/filter-model.mjs';
 import { useGlobalFilter } from '@/lib/global-filter';
 
 export type SiteFiltersConfig = {
@@ -33,7 +33,7 @@ const ALL = 'all';
 const fill = (text: string, values: Record<string, string | number>) => text.replace(/\{\{(\w+)\}\}/g, (m, k) => (k in values ? String(values[k]) : m));
 
 // The label a value shows: the copy's label dictionary first, then the state's name, then the value.
-function useValueLabel(config: SiteFiltersConfig) {
+export function useValueLabel(config: SiteFiltersConfig) {
   const { data } = useGlobalFilter();
   return useCallback((id: string, value: string) => {
     const own = config.labels[id]?.[value];
@@ -52,12 +52,15 @@ function chipText(config: SiteFiltersConfig, s: FilterState, label: (id: string,
   return out;
 }
 
-export function SiteFilters({ config }: { config: SiteFiltersConfig }) {
-  const { state, setState, scope, data, status, load } = useGlobalFilter();
+// The progressive filter fields for a selection, ready for FiltersDialog or FiltersForm: every dimension
+// the page's scope leaves open (year, medal, category, style, ABV, hop variety, both hop farm filters,
+// region, state, city, Fed district, brewery, brewery type, ownership, distribution), each listing only
+// the values the other choices leave, with counts, in the current site's order (site/assets/sort-order.mjs:
+// years newest first, ABV bands by range, the rest by label with numbers first). setField drops any other
+// choice the new one leaves empty, as the current site does. Rows load on first use (load()).
+export function useFilterFields(config: SiteFiltersConfig, draft: FilterState) {
+  const { scope, data, status } = useGlobalFilter();
   const label = useValueLabel(config);
-  const [draft, setDraft] = useState<FilterState>(state);
-  const active = chipText(config, state, label).length;
-
   const pool = useMemo(() => (data ? scopeRows(data.rows, scope.scope) : []), [data, scope]);
   const groups: FilterGroup[] = useMemo(() => Object.keys(GROUP_KEYS).map((g) => ({
     key: GROUP_KEYS[g],
@@ -70,14 +73,24 @@ export function SiteFilters({ config }: { config: SiteFiltersConfig }) {
     }),
   // A group the page's scope fixes entirely (When on a page for one year) is left out, partial years with it.
   })).filter((g) => g.fields.length), [config, data, pool, draft, scope, label]);
-
   const count = data ? applyFilters(pool, draft).length : null;
-  const copy: FiltersCopy = {
-    ...config.dialog,
-    trigger: config.trigger,
-    matchCount: count === null ? '' : count === 1 ? config.matchOne : fill(config.matchMany, { count: count.toLocaleString('en-US') }),
-  };
+  const matchCount = count === null ? '' : count === 1 ? config.matchOne : fill(config.matchMany, { count: count.toLocaleString('en-US') });
   const busy = status === 'error' ? config.loadError : status !== 'ready' ? config.loading : undefined;
+  const setField = useCallback((d: FilterState, id: string, value: string): FilterState => {
+    const next = { ...d, [id]: value === ALL ? '' : value };
+    return pool.length ? pruneState(pool, next, id) : next;
+  }, [pool]);
+  // Values for the selects, with "All" for a dimension that is not set.
+  const values = Object.fromEntries(FILTERS.map((d) => [d.id, draft[d.id] || ALL]));
+  return { groups, count, matchCount, busy, setField, values, label };
+}
+
+export function SiteFilters({ config }: { config: SiteFiltersConfig }) {
+  const { state, setState, load } = useGlobalFilter();
+  const [draft, setDraft] = useState<FilterState>(state);
+  const { groups, matchCount, busy, setField, values, label } = useFilterFields(config, draft);
+  const active = chipText(config, state, label).length;
+  const copy: FiltersCopy = { ...config.dialog, trigger: config.trigger, matchCount };
 
   return (
     <FiltersDialog
@@ -86,8 +99,8 @@ export function SiteFilters({ config }: { config: SiteFiltersConfig }) {
       triggerLabel={active ? fill(config.triggerWithCount, { count: active }) : config.trigger}
       triggerAccessibleLabel={active ? fill(config.accessibleWithCount, { count: active }) : undefined}
       controls={{
-        values: Object.fromEntries(FILTERS.map((d) => [d.id, draft[d.id] || ALL])),
-        onField: (id, v) => setDraft((d) => ({ ...d, [id]: v === ALL ? '' : v })),
+        values,
+        onField: (id, v) => setDraft((d) => setField(d, id, v)),
         query: draft.q ?? '',
         onQuery: (q) => setDraft((d) => ({ ...d, q })),
         partial: draft.years === 'all',

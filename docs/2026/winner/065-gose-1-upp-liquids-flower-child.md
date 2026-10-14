@@ -260,6 +260,10 @@ UPP Liquids is in Bend, OR.
 
 Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https://www.instagram.com/uppliquids/), [Untappd](https://untappd.com/w/upp-liquids/574533).
 
+## related
+
+- Brewery: [UPP Liquids](../../breweries/upp-liquids.md)
+
 ## links
 
 - [UPP Liquids: distribution lineup](https://www.goselfdistro.com/upp-liquids)
@@ -284,3 +288,4 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch, which limited press searches.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The distributor's UPP lineup supplies the bitterness above for Flower Child with peach, chamomile and cardamom; local press identifies that combination as the standard Flower Child gose. The [distribution lineup](https://www.goselfdistro.com/upp-liquids) lists 5.2% ABV versus the retained 5.5% on [Untappd](https://untappd.com/b/upp-liquids-flower-child/6390863). No hop variety or brewery beer page was verified.
+- Deep dive pass 2026-10-14: the brewery beer page does not describe Flower Child.

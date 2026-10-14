@@ -197,6 +197,14 @@ pFriem Family Brewers is in Hood River, OR. Brewery type in Open Brewery DB: Reg
 
 Links checked 2026-10-14: [Website](https://www.pfriembeer.com/), [Instagram](https://www.instagram.com/pfriembeer/).
 
+## related
+
+- Brewery: [pFriem Family Brewers](../../breweries/pfriem-family-brewers.md)
+- Hop varieties: [Columbus](../../hops/varieties/columbus.md), [Krush](../../hops/varieties/krush.md), [Mosaic](../../hops/varieties/mosaic.md)
+- Hop farms that grow these varieties: grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Beer page on brewery site](https://www.pfriembeer.com/beer/mosaic-krush-cryo-west-coast-ipa/)

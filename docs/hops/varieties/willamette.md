@@ -15,13 +15,46 @@ tags:
   - "public"
   - "united-states"
   - "variety"
-variety: "Willamette"
+alpha-acid-percent: "4 to 6"
+alpha-class: "low (below 8 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "anise"
+  - "Cedar"
+  - "incense"
+  - "marjoram"
+beta-acid-percent: "3.5 to 4.5"
+breeder: "USDA public breeding program in Oregon"
+canonical-name: "Willamette"
+caryophyllene-percent-of-oil: "7 to 8"
+cohumulone-percent-of-alpha: "30 to 35"
+farnesene-percent-of-oil: "5 to 6"
+gaps:
+  - "use"
+humulene-percent-of-oil: "20 to 27"
 kind: "variety"
+medal-beers-2026: 2
+myrcene-percent-of-oil: "30 to 40"
 origin-country: "United States"
-program: "USDA public breeding program in Oregon"
+owner-program: "USDA public breeding program in Oregon"
+parentage: "Triploid daughter of Fuggle (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 1976
+release-year-note: null
 slug: "willamette"
-year-released: "1976"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Willamette.pdf"
+total-oil-ml-per-100g: "1 to 1.5"
+trademark: null
+us-acres-latest:
+  - "Idaho 158"
+  - "Oregon 227"
+  - "Washington 199"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # willamette
@@ -94,3 +127,35 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Willamette.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-Willamette.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Dark Matter](../../2026/winner/082-porter-or-stout-2-logboat-brewing-co-dark-matter.md), silver, Porter or Stout, by [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md); published as Willamette
+- [Starway](../../2026/winner/085-american-or-export-stout-2-barrel-mountain-brewing-starway.md), silver, American or Export Stout, by [Barrel Mountain Brewing](../../breweries/barrel-mountain-brewing.md); published as Willamette
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Barrel Mountain Brewing](../../breweries/barrel-mountain-brewing.md), 1 beer
+- [Logboat Brewing Co.](../../breweries/logboat-brewing-co.md), 1 beer

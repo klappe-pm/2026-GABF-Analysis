@@ -216,9 +216,8 @@ function pipelineGh(r) {
     if (a === 'issue' && b === 'edit') return ok();
     if (a === 'issue' && b === 'comment') { bodies.issueComment = readFileSync(val('--body-file'), 'utf8'); return ok(); }
     if (a === 'pr' && b === 'create') { state.prs += 1; state.head = val('--head'); bodies.pr = readFileSync(val('--body-file'), 'utf8'); return ok(`https://github.com/${REPO}/pull/${70 + state.prs}\n`); }
-    if (a === 'pr' && b === 'checks') return ok();
-    if (a === 'pr' && b === 'merge') { g(r.origin, 'update-ref', 'refs/heads/main', `refs/heads/${state.head}`); return ok(); }
-    if (a === 'pr' && b === 'view') return ok(JSON.stringify({ state: 'MERGED', mergeCommit: { oid: g(r.origin, 'rev-parse', 'main').trim() } }));
+    if (a === 'pr' && b === 'merge') return ok();
+    if (a === 'pr' && b === 'view') { g(r.origin, 'update-ref', 'refs/heads/main', `refs/heads/${state.head}`); return ok(JSON.stringify({ state: 'MERGED', mergeCommit: { oid: g(r.origin, 'rev-parse', 'main').trim() }, statusCheckRollup: [] })); }
     if (a === 'pr' && b === 'comment') { bodies.prComment = readFileSync(val('--body-file'), 'utf8'); return ok(); }
     if (a === 'api') return ok();
     throw new Error(`unstubbed gh call: ${args.join(' ')}`);

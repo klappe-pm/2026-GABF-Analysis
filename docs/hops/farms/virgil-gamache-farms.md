@@ -1,16 +1,47 @@
 ---
 domain: beer
-category: gabf-analysis
-sub-category: hops
+category: hops
+sub-category: farm
 topics:
-  - hop-farms
+  - "hop-farms"
+  - "hops"
 types:
-  - reference
+  - "hop-farm"
 date-created: 2026-10-14
 date-revised: 2026-10-14
 status: DRAFT
 aliases: []
-tags: []
+tags:
+  - "unverified"
+  - "wa"
+acreage: null
+certifications: []
+city: "Toppenish"
+county: "Yakima"
+county-source: "looked up from city"
+founded: "1913 (family began farming; hops after 1932)"
+gaps:
+  - "acreage"
+  - "certifications"
+  - "generation"
+  - "merchant-affiliation"
+generation: null
+merchant-affiliation: null
+merchants: []
+name: "Virgil Gamache Farms"
+ownership: "Gamache family"
+sells-direct: null
+slug: "virgil-gamache-farms"
+sources:
+  - "https://brewsnews.com.au/beer-is-a-conversation-bonus-darren-gamache"
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+state: "WA"
+varieties-grown: []
+varieties-without-page:
+  - "Amarillo R / VGXP01"
+variety-source-role: "Source of the Amarillo variety (VGXP01) per a search result summary."
+verification: "search summary only"
+verified: false
 ---
 
 # virgil-gamache-farms
@@ -47,3 +78,35 @@ Amarillo R, VGXP01 appears in the USDA NASS variety table; the link to this farm
 
 - https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt
 - https://brewsnews.com.au/beer-is-a-conversation-bonus-darren-gamache
+
+## related
+
+- [all hop farms](README.md)
+- [all hop varieties](../README.md)
+- [all breweries](../../breweries/README.md)
+
+### varieties-grown
+
+Varieties the hop farm data lists as grown here, each with the name the source printed.
+
+- Amarillo R / VGXP01; published as Amarillo R / VGXP01; current
+
+### named-by-the-brewery
+
+Brewery statements: 2026 medal beers whose profile names this farm for a hop.
+
+No 2026 beer profile names this farm.
+
+### reached-through-varieties
+
+2026 medal beers that name a hop this farm grows. The link runs through the variety: the farm grows the hop, and the brewery did not necessarily buy from this farm.
+
+No 2026 medal beer names a hop this farm is recorded as growing.
+
+### breweries-reached-through-varieties
+
+No brewery is reached through the varieties this farm grows.
+
+### merchants
+
+No merchant relationship is recorded for this farm.

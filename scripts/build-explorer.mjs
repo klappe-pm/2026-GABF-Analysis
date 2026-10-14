@@ -4,7 +4,10 @@
 // records filled from the winner research database (ABV, IBU, hops, other ingredients, beer and
 // brewery pages). Earlier years carry medal rows only, with no specs.
 //
-// Every record also gains fed_district_name (Federal Reserve district, county based in split states).
+// Every record also gains fed_district_name (Federal Reserve district, county based in split states)
+// and the brewery attributes of the site's data model (type, ownership, investors, distribution, kitchen,
+// region), read through breweryAttributeLookup so the explorer and the site cannot disagree. A value no
+// source states is left empty and the explorer shows Not defined.
 // The embedded dataset JSON and the Catalog.beer footer line change; the prototype's markup, styles,
 // and code are otherwise copied as is.
 // Records are matched on beer name, medal, and award category, which are unique within a year.
@@ -21,8 +24,10 @@ import { resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { readCsvRecords } from './lib/csv.mjs';
 import { beerDetailsHtml } from './lib/catalog-attribution.mjs';
-import { canonicalCategoryNames, categoryFold, districtAssigner, loadDataset, MEDAL_POINTS } from './lib/data-model.mjs';
+import { breweryAttributeLookup, canonicalCategoryNames, categoryFold, districtAssigner, loadDataset, MEDAL_POINTS } from './lib/data-model.mjs';
+import { VALUE_LABELS } from '../site/assets/filter-bar.mjs';
 import { ROOT } from './lib/paths.mjs';
+import { inlineBrandCss } from './brand/build.mjs';
 import { slugify } from './lib/slug.mjs';
 import { matchKey } from './lib/winner-profiles.mjs';
 
@@ -37,11 +42,11 @@ const dbPath = resolve(ROOT, 'data', 'enriched', `winners-${year}.sqlite`);
 
 const FOOTER_DETAILS = /(<span id="beer-details">)([\s\S]*?)(<\/span>)/;
 const DATASET = /(<script type="application\/json" id="dataset">)([\s\S]*?)(<\/script>)/;
-// The brand colors, inlined from site/assets/brand.css (generated from the design settings).
+// The brand colors and fonts, inlined from site/assets/brand.css and the self hosted fonts (generated from the design settings).
 const BRAND = /(<style id="brand">)([\s\S]*?)(<\/style>)/;
 export const inlineBrand = (html) => {
   if (!BRAND.test(html)) throw new Error('explorer template has no brand style block');
-  return html.replace(BRAND, (_, open, _body, close) => `${open}\n${readFileSync(resolve(ROOT, 'site/assets/brand.css'), 'utf8')}${close}`);
+  return html.replace(BRAND, (_, open, _body, close) => `${open}\n${inlineBrandCss()}${close}`);
 };
 
 
@@ -123,6 +128,25 @@ export function buildDataset(rows, previous = [], summary = []) {
   return { records, yearStatus, targetYears };
 }
 
+// The brewery attributes of one record, taken from the data model (breweryAttributeLookup) and stored as
+// text: a value no source states is the empty string, which the explorer shows as Not defined.
+export function attributeFields(a) {
+  return {
+    brewery_type: a.brewery_type ?? '',
+    ownership_type: a.ownership_type ?? '',
+    investors: a.investors ?? '',
+    distribution_channel: a.distribution_channel ?? '',
+    has_kitchen: a.has_kitchen === null ? '' : a.has_kitchen ? 'yes' : 'no',
+    region: a.region ?? '',
+  };
+}
+
+// The words shown for each stored slug, the same labels the site uses.
+export function valueLabels() {
+  const only = (m) => Object.fromEntries(Object.entries(m).filter(([k, v]) => k && v !== 'Not defined'));
+  return { brewery_type: only(VALUE_LABELS.brewery_type), ownership_type: only(VALUE_LABELS.ownership_type), distribution_channel: only(VALUE_LABELS.distribution_channel) };
+}
+
 function loadResearch() {
   const db = new DatabaseSync(dbPath, { readOnly: true });
   const beers = db.prepare(`SELECT b.id, b.beer, b.medal, b.abv, b.ibu, b.style, b.beer_url, b.file, c.name AS category, br.url AS brewery_url
@@ -178,7 +202,11 @@ function main() {
   dataset.target_years = built.targetYears;
   // Only the research year carries specs; every other year is medal rows.
   dataset.spec_years = baseline ? [] : [Number(year)];
-  const { hops } = loadDataset();
+  // localProfiles: false keeps the git-ignored breweries/ deep dives out, so the committed explorer is the same on every checkout.
+  const ds = loadDataset({ localProfiles: false });
+  const { hops } = ds;
+  const attrs = breweryAttributeLookup(ds);
+  dataset.value_labels = valueLabels();
   let research = new Map();
   if (!baseline) {
     if (!existsSync(dbPath)) throw new Error(`${dbPath} missing; run node scripts/build-winner-db.mjs ${year}`);
@@ -191,7 +219,7 @@ function main() {
   let matched = 0;
   const unmatched = [];
   dataset.records = dataset.records.map((raw) => {
-    const rec = { ...raw, fed_district_name: district(String(raw.state ?? '').toUpperCase(), String(raw.city ?? '').trim()).name };
+    const rec = { ...raw, fed_district_name: district(String(raw.state ?? '').toUpperCase(), String(raw.city ?? '').trim()).name, ...attributeFields(attrs({ brewery_name: raw.brewery, state: raw.state })) };
     if (baseline || String(rec.year) !== year) return rec;
     const r = research.get(matchKey(rec.beer, rec.medal, rec.official_category));
     if (!r) { unmatched.push(`${rec.beer} (${rec.brewery})`); return rec; }

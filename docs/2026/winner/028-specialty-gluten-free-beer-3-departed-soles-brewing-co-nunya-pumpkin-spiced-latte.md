@@ -245,6 +245,10 @@ Departed Soles Brewing Co. is in Jersey City, NJ.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Departed Soles Brewing Co.](../../breweries/departed-soles-brewing-co.md)
+
 ## links
 
 - [Departed Soles Brewing Co.](https://www.departedsoles.com/)

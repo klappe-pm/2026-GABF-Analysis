@@ -185,6 +185,10 @@ Peticolas Brewing Co. is in Dallas, TX.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Peticolas Brewing Co.](../../breweries/peticolas-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.peticolasbrewing.com/beer/room-for-more)

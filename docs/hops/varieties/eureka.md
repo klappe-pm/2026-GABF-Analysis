@@ -17,13 +17,49 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Eureka"
+alpha-acid-percent: "17 to 19.9"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "Hopsteiner data sheet"
+aroma-descriptors:
+  - "black currant"
+  - "dark fruits"
+  - "pine tree"
+  - "strong herbal notes"
+beta-acid-percent: "4.6 to 6"
+breeder: "Hopsteiner breeding program"
+canonical-name: "Eureka"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "28 to 30"
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "farnesene-percent-of-oil"
+  - "humulene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: null
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: null
 origin-country: "United States"
-program: "Hopsteiner breeding program"
+owner-program: "Hopsteiner breeding program"
+parentage: "Apollo crossed with Merkur (Hopsteiner experimental hop 05256)"
 proprietary-status: "proprietary"
+release-year: null
+release-year-note: null
 slug: "eureka"
-year-released: null
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Eureka"
+total-oil-ml-per-100g: "2.5 to 4.4"
+trademark: "Eureka! (trademark, per NASS and Hopsteiner)"
+us-acres-latest:
+  - "Washington 401"
+us-acres-latest-year: 2025
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # eureka
@@ -97,3 +133,33 @@ A three state total cannot be computed for any year because at least one state i
 
 - [hopsteiner.us/variety-data-sheets/Eureka](https://hopsteiner.us/variety-data-sheets/Eureka)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

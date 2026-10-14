@@ -253,6 +253,10 @@ Sweet Heart Brands is in Loveland, CO.
 
 Links checked 2026-10-14: [Website](https://sweetheartbrands.com/).
 
+## related
+
+- Brewery: [Sweet Heart Brands](../../breweries/sweet-heart-brands.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.sweetheartwinery.com/menu)

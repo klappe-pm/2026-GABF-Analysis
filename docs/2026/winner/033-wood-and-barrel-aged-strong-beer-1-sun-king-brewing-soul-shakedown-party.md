@@ -255,6 +255,10 @@ Sun King Brewing is in Fishers, IN. Brewery type in Open Brewery DB: In planning
 
 Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 
+## related
+
+- Brewery: [Sun King Brewing](../../breweries/sun-king-brewing.md)
+
 ## links
 
 - [BeerAdvocate: Soul Shakedown Party](https://www.beeradvocate.com/beer/profile/20672/119571/)

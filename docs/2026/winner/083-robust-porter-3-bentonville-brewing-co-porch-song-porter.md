@@ -225,6 +225,10 @@ Bentonville Brewing Co. is in Bentonville, AR.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Bentonville Brewing Co.](../../breweries/bentonville-brewing-co.md)
+
 ## links
 
 - [Untappd: Porch Song Porter](https://untappd.com/b/bentonville-brewing-co-porch-song-porter/6566684)

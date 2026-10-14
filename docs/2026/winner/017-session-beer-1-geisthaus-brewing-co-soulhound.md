@@ -167,6 +167,11 @@ Geisthaus Brewing Co. is in Sacramento, CA.
 
 Links checked 2026-10-14: [Website](https://www.geisthausbeer.com/), [Instagram](https://www.instagram.com/geisthausbeer/).
 
+## related
+
+- Brewery: [Geisthaus Brewing Co.](../../breweries/geisthaus-brewing-co.md)
+- Hop varieties: [Saaz](../../hops/varieties/saaz.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.geisthausbeer.com/)

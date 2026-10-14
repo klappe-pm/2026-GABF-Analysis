@@ -27,7 +27,7 @@
         "./design/editor.tsx"
       ],
       "review-settings-panel": [
-        "./design/review-panel-off.tsx"
+        "./review/panel-off.tsx"
       ],
       "@/*": [
         "./*"

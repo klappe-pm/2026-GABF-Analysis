@@ -213,6 +213,14 @@ Bend Brewing Co. is in Bend, OR.
 
 Links checked 2026-10-14: [Website](https://www.bendbrewingco.com/), [Instagram](https://www.instagram.com/bendbrewingco/), [Untappd](https://untappd.com/BendBrewingCompany).
 
+## related
+
+- Brewery: [Bend Brewing Co.](../../breweries/bend-brewing-co.md)
+- Hop varieties: [Citra](../../hops/varieties/citra.md), [Dolcita](../../hops/varieties/dolcita.md), [Krush](../../hops/varieties/krush.md)
+- Hop farms that grow these varieties: grown by [CLS Farms](../../hops/farms/cls-farms.md), grown by [Coleman Agriculture](../../hops/farms/coleman-agriculture.md)
+
+Each farm listed as growing a variety grows that variety according to the hop farm data; the brewery has not said it bought hops from that farm.
+
 ## links
 
 - [Bend Brewing Co.](https://www.bendbrewingco.com/)

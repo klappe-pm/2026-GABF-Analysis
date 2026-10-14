@@ -215,6 +215,10 @@ Fate Brewing Co. is in Scottsdale, AZ. Brewery type in Open Brewery DB: Brewpub.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [Fate Brewing Co.](../../breweries/fate-brewing-co.md)
+
 ## links
 
 - [Fate Brewing Co.](https://fatebrewing.com/)
@@ -237,3 +241,4 @@ No brewery links have been checked yet.
 - Second pass 2026-10-13: TapHunter explicitly identifies Pueblo Vienna Lager from Fate in Scottsdale and supplies the selected figures. It marks the beer out of production, which may be stale; current availability remains unconfirmed. No named ingredients were verified.
 - Field pass 2026-10-13: Additional brewery-domain and hop searches found no exact Pueblo beer page or named hop variety. The previously documented McFate clone remains excluded.
 - Catalog.beer 2026-10-14: [Catalog.beer: Pueblo Vienna Lager](https://catalog.beer/beer/c784b990-1332-4209-bd56-de35e76fa3af) lists 5.5% ABV, 28 IBU, style "Mexican-Style Vienna Lager" (entry last modified 2026-10-11). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Pueblo Vienna Lager description.

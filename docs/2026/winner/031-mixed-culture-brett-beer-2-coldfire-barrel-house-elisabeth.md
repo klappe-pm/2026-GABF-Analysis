@@ -207,6 +207,11 @@ ColdFire Barrel House is in Eugene, OR.
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [ColdFire Barrel House](../../breweries/coldfire-barrel-house.md)
+- Hop varieties: [Nectaron](../../hops/varieties/nectaron.md)
+
 ## links
 
 - [Beer page on brewery site](https://coldfirebrewing.com/beer/)

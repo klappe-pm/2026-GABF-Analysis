@@ -15,13 +15,43 @@ tags:
   - "england"
   - "public"
   - "variety"
-variety: "Northern Brewer"
+alpha-acid-percent: "8 to 10"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "John I. Haas variety sheet"
+aroma-descriptors:
+  - "lemon balm"
+  - "Pine"
+  - "tobacco"
+beta-acid-percent: "3 to 5"
+breeder: "English breeding; grown in the U.S., U.K. and Germany"
+canonical-name: "Northern Brewer"
+caryophyllene-percent-of-oil: "10 to 20"
+cohumulone-percent-of-alpha: "27 to 33"
+farnesene-percent-of-oil: "up to 1"
+gaps:
+  - "use"
+humulene-percent-of-oil: "35 to 50"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: "25 to 45"
 origin-country: "England"
-program: "English breeding; grown in the U.S., U.K. and Germany"
+owner-program: "English breeding; grown in the U.S., U.K. and Germany"
+parentage: "Cross between a female American wild hop and an English father (John I. Haas sheet)"
 proprietary-status: "public"
+release-year: 1934
+release-year-note: null
 slug: "northern-brewer"
-year-released: "1934"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-NorthernBrewer.pdf"
+total-oil-ml-per-100g: "1.5 to 2"
+trademark: null
+us-acres-latest:
+  - "Idaho 58"
+us-acres-latest-year: 2021
+us-grown: true
+use: null
+use-basis: null
 ---
 
 # northern-brewer
@@ -88,3 +118,33 @@ No gaps: every field is published by the sources listed below.
 
 - [johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-NorthernBrewer.pdf](https://www.johnihaas.com/wp-content/uploads/2020/09/MiniSpecSheets-NorthernBrewer.pdf)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Gold Leaf Lager](../../2026/winner/043-contemporary-american-lager-1-devils-backbone-brewing-co-gold-leaf-lager.md), gold, Contemporary American Lager, by [Devils Backbone Brewing Co.](../../breweries/devils-backbone-brewing-co.md); published as Northern Brewer
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Devils Backbone Brewing Co.](../../breweries/devils-backbone-brewing-co.md), 1 beer

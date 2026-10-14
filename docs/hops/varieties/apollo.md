@@ -16,13 +16,41 @@ tags:
   - "proprietary"
   - "united-states"
   - "variety"
-variety: "Apollo"
+alpha-acid-percent: "15 to 19"
+alpha-class: "high (14 percent and above)"
+aroma-attribution: "John I. Haas variety sheet; Hopsteiner lists \"lime, grapefruit, pine\""
+aroma-descriptors:
+  - "Strong grapefruit note"
+beta-acid-percent: "5.5 to 8"
+breeder: "Hopsteiner breeding program"
+canonical-name: "Apollo"
+caryophyllene-percent-of-oil: "14 to 20"
+cohumulone-percent-of-alpha: "24 to 28"
+farnesene-percent-of-oil: "up to 1"
+gaps: []
+humulene-percent-of-oil: "20 to 35"
 kind: "variety"
+medal-beers-2026: 0
+myrcene-percent-of-oil: "30 to 55"
 origin-country: "United States"
-program: "Hopsteiner breeding program"
+owner-program: "Hopsteiner breeding program"
+parentage: "Zeus crossed with (98001 x USDA 19058m) (Hopsteiner); daughter of Zeus (John I. Haas)"
 proprietary-status: "proprietary"
+release-year: 2006
+release-year-note: null
 slug: "apollo"
-year-released: "2006"
+sources:
+  - "https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt"
+  - "https://hopsteiner.us/variety-data-sheets/Apollo"
+  - "https://www.johnihaas.com/wp-content/uploads/2015/01/Apollo.pdf"
+total-oil-ml-per-100g: "1.5 to 2.5"
+trademark: "Apollo (trademark, per NASS)"
+us-acres-latest:
+  - "Washington 522"
+us-acres-latest-year: 2025
+us-grown: true
+use: "bittering"
+use-basis: "bittering"
 ---
 
 # apollo
@@ -98,3 +126,33 @@ No gaps: every field is published by the sources listed below.
 - [johnihaas.com/wp-content/uploads/2015/01/Apollo.pdf](https://www.johnihaas.com/wp-content/uploads/2015/01/Apollo.pdf)
 - [hopsteiner.us/variety-data-sheets/Apollo](https://hopsteiner.us/variety-data-sheets/Apollo)
 - [esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt](https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+No 2026 medal beer profile names this hop.
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+No brewery has a 2026 medal beer that names this hop.

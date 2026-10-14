@@ -20,13 +20,43 @@ tags:
   - "england"
   - "public"
   - "variety"
-variety: "East Kent Goldings"
+alpha-acid-percent: "5 to 8"
+alpha-class: "medium (8 to 14 percent)"
+aroma-attribution: "Charles Faram, which also describes a smooth, honey-like bittering"
+aroma-descriptors:
+  - "fine floral aroma"
+beta-acid-percent: "1.9 to 3"
+breeder: "English landrace grown in East Kent since 1838"
+canonical-name: "East Kent Goldings"
+caryophyllene-percent-of-oil: null
+cohumulone-percent-of-alpha: "26 to 32"
+farnesene-percent-of-oil: null
+gaps:
+  - "caryophyllene-percent-of-oil"
+  - "farnesene-percent-of-oil"
+  - "myrcene-percent-of-oil"
+  - "release-year"
+  - "use"
+humulene-percent-of-oil: "36"
 kind: "variety"
+medal-beers-2026: 1
+myrcene-percent-of-oil: null
 origin-country: "England"
-program: "English landrace grown in East Kent since 1838"
+owner-program: "English landrace grown in East Kent since 1838"
+parentage: "Developed from the Canterbury Whitebine variety in the late 1700s (Charles Faram)"
 proprietary-status: "public"
+release-year: null
+release-year-note: null
 slug: "east-kent-goldings"
-year-released: null
+sources:
+  - "https://charlesfaram.com/hop-oracle/east-kent-golding/"
+total-oil-ml-per-100g: "0.4 to 0.8"
+trademark: null
+us-acres-latest: []
+us-acres-latest-year: null
+us-grown: false
+use: null
+use-basis: null
 ---
 
 # east-kent-goldings
@@ -81,3 +111,33 @@ This variety is not grown commercially in the United States as far as the source
 ## sources
 
 - [charlesfaram.com/hop-oracle/east-kent-golding](https://charlesfaram.com/hop-oracle/east-kent-golding/)
+
+## related
+
+- [all hop varieties](../README.md)
+- [all hop farms](../farms/README.md)
+- [all breweries](../../breweries/README.md)
+
+### grown-by
+
+Farms that the hop farm data lists as growing this variety. A farm here grows the variety; it is not a statement that any brewery bought from it.
+
+No farm in the hop farm data publishes this variety.
+
+### named-by-the-brewery
+
+Farms a brewery named for this hop in its 2026 beer profile. This is a direct statement by the brewery about that beer.
+
+No 2026 beer profile names a farm for this hop.
+
+### medal-beers-2026
+
+2026 medal beers whose profile names this hop.
+
+- [Before the Break](../../2026/winner/073-english-style-brown-ale-2-worthy-brewing-before-the-break.md), silver, English-Style Brown Ale, by [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md); published as East Kent Goldings
+
+### breweries
+
+Breweries with a 2026 medal beer that names this hop.
+
+- [Worthy Brewing Co.](../../breweries/worthy-brewing-co.md), 1 beer

@@ -16,7 +16,7 @@ const review = process.env.DESIGN_REVIEW === '1';
 // (components/review/ReviewSettingsPanel.tsx) once it is in the tree, an empty stand in until then.
 const panel = existsSync(resolve(__dirname, 'components/review/ReviewSettingsPanel.tsx'))
   ? './components/review/ReviewSettingsPanel.tsx'
-  : './design/review-panel-off.tsx';
+  : './review/panel-off.tsx';
 
 const nextConfig: NextConfig = {
   output: 'export',

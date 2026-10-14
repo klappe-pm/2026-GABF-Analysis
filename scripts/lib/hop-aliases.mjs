@@ -45,19 +45,25 @@ export const HOP_FORMS = [
   { form: 'T90', variants: ['T90', 'T 90', 'T90 pellets', 'pellets', 'pellet'] },
 ];
 
-export function loadHopLookup(dir = REFERENCE) {
-  const aliasFile = resolve(dir, 'hop-aliases.csv');
-  const unmappedFile = resolve(dir, 'hop-unmapped.csv');
+// The lookup from alias rows (hop-aliases.csv) and, optionally, unmapped rows (hop-unmapped.csv).
+export function lookupFromRows(aliasRows = [], unmappedRows = []) {
   const aliases = new Map();
   const forms = new Map();
-  for (const row of readCsvRecords(readFileSync(aliasFile, 'utf8'))) {
+  for (const row of aliasRows) {
     const key = normalizeHopName(row.alias);
     if (row.kind === 'form') forms.set(key, row.canonical);
     else aliases.set(key, { slug: row.slug, canonical: row.canonical });
   }
   const unmapped = new Map();
-  if (existsSync(unmappedFile)) for (const row of readCsvRecords(readFileSync(unmappedFile, 'utf8'))) unmapped.set(normalizeHopName(row.name), row.reason);
+  for (const row of unmappedRows) unmapped.set(normalizeHopName(row.name), row.reason);
   return { aliases, forms, unmapped };
+}
+
+export function loadHopLookup(dir = REFERENCE) {
+  const aliasFile = resolve(dir, 'hop-aliases.csv');
+  const unmappedFile = resolve(dir, 'hop-unmapped.csv');
+  const unmappedRows = existsSync(unmappedFile) ? readCsvRecords(readFileSync(unmappedFile, 'utf8')) : [];
+  return lookupFromRows(readCsvRecords(readFileSync(aliasFile, 'utf8')), unmappedRows);
 }
 
 export function resolveHop(name, lookup) {

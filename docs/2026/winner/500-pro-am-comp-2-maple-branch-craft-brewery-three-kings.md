@@ -220,6 +220,10 @@ Maple Branch Craft Brewery is in Fort Worth, TX. Brewery type in Open Brewery DB
 
 Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagram](https://www.instagram.com/maplebranchbrew/), [Untappd](https://untappd.com/MapleBranchCraftBrewery).
 
+## related
+
+- Brewery: [Maple Branch Craft Brewery](../../breweries/maple-branch-craft-brewery.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.maplebranchbrew.com/beer)

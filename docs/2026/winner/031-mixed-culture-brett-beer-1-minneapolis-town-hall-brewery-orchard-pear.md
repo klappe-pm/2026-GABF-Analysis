@@ -220,6 +220,10 @@ Minneapolis Town Hall Brewery is in Minneapolis, MN. Brewery type in Open Brewer
 
 Links checked 2026-10-14: [Website](https://townhallbrewery.com/), [Instagram](https://www.instagram.com/townhallbrewery/).
 
+## related
+
+- Brewery: [Minneapolis Town Hall Brewery](../../breweries/minneapolis-town-hall-brewery.md)
+
 ## links
 
 - [BeerAdvocate: Orchard Pear MC](https://www.beeradvocate.com/beer/profile/1177/690142/)

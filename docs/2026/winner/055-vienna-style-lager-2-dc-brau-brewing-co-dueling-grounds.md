@@ -30,16 +30,12 @@ description:
 entries: 82
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.dcbrau.com/"
-      - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.dcbrau.com/"
       - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://www.dcbrau.com/"
@@ -114,7 +110,9 @@ sources:
   - "https://www.dcbrau.com/dueling-grounds-vienna-lager"
 srm: null
 style: "Vienna Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Dueling Grounds Vienna Lager is a meticulously crafted lager that boasts rich and malty notes, with pronounced toasted bread crust flavor and subtle background hints of brown sugar and toffee. Perfectly balanced, it features a light pop of peppery hop spice and a mild bitter backbone."
+  source: "https://www.dcbrau.com/dueling-grounds-vienna-lager"
 water: null
 yeast: []
 ---
@@ -150,7 +148,9 @@ Source: [DC Brau: Dueling Grounds](https://www.dcbrau.com/dueling-grounds-vienna
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Dueling Grounds Vienna Lager is a meticulously crafted lager that boasts rich and malty notes, with pronounced toasted bread crust flavor and subtle background hints of brown sugar and toffee. Perfectly balanced, it features a light pop of peppery hop spice and a mild bitter backbone.
+
+Source: [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager)
 
 ## ingredients
 
@@ -188,6 +188,10 @@ DC Brau Brewing Co. is in Washington, DC. Brewery type in Open Brewery DB: Regio
 
 No brewery links have been checked yet.
 
+## related
+
+- Brewery: [DC Brau Brewing Co.](../../breweries/dc-brau-brewing-co.md)
+
 ## links
 
 - [Beer page on brewery site](https://www.dcbrau.com/dueling-grounds-vienna-lager)
@@ -196,8 +200,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
 - Not published: IBU. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -206,3 +210,4 @@ No brewery links have been checked yet.
 - IBU and ingredients were not published; web search budget ran out before Untappd or BeerMenus could be tried for this beer.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery's April 7, 2025 release gives tasting notes and 5% ABV; it names no hops, malts or yeast.

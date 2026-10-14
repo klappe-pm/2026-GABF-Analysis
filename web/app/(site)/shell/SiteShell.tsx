@@ -6,7 +6,6 @@
 // chips, then the page. Destinations and their order come from layout.md "Site navigation".
 import type { ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
-import { ReviewSettingsPanel } from 'review-settings-panel';
 import { NavigationDrawer } from '@/components/NavigationDrawer';
 import { NavigationRail, type NavItem } from '@/components/NavigationRail';
 import { PageHeader } from '@/components/PageHeader';
@@ -93,7 +92,6 @@ export function SiteShell({ config, children }: { config: ShellConfig; children:
           {children}
         </div>
       </div>
-      <ReviewSettingsPanel />
     </GlobalFilterProvider>
   );
 }
