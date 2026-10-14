@@ -1,6 +1,6 @@
 ---
 id: WI-014
-status: ACCEPTED
+status: DONE
 title: "Chart gallery: which option per section?"
 page: decisions
 job: null
@@ -47,6 +47,13 @@ images: []
 issue: 66
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/66
 kind: decision
+pr: 130
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/130
+resolution:
+  status: DONE
+  change: "pull request #130"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T23:24:35.968Z
 ---
 
 Owner decision on issue #66: Chart gallery: which option per section?
