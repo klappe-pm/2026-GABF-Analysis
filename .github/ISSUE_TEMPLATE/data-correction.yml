@@ -1,0 +1,59 @@
+name: Data correction
+description: A medal, brewery, category, ownership row, or figure is wrong or missing.
+title: "Data: "
+body:
+  - type: markdown
+    attributes:
+      value: "Official winners lists win, so please link a source. A primary source (the Brewers Association winners list, the brewery's own site, or a filing) is best; a secondary source is fine for context."
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2025"
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Category number and name as printed in the official list.
+      placeholder: "13 Honey Beer"
+    validations:
+      required: true
+  - type: dropdown
+    id: medal
+    attributes:
+      label: Medal
+      options:
+        - Gold
+        - Silver
+        - Bronze
+        - Not a medal row (brewery, ownership, or reference data)
+    validations:
+      required: true
+  - type: input
+    id: brewery
+    attributes:
+      label: Brewery
+      description: Brewery name, and the city and state if it has more than one location.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong, and what should it be?
+      description: Quote the current value and the corrected value.
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Context such as a rename, a merger, or a second source.
