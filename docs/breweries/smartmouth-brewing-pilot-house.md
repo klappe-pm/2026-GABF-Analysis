@@ -33,12 +33,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/smartmouthbeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -52,10 +49,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "smartmouth-brewing-pilot-house"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "VA"
-untappd: null
-website: null
+untappd: "https://untappd.com/SmartmouthBrewing"
+website: "https://www.smartmouthbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

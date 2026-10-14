@@ -7,9 +7,12 @@ Sections:
   - elevation
   - components
 Site navigation:
+  - home
   - results
   - breweries
   - beers
+  - hops
+  - hop-farms
   - analysis
 Components:
   - page-header
@@ -38,7 +41,6 @@ Components:
   - chips
   - spec-card
   - side-sheet
-  - explorer-app
   - beer-profile-card
   - hop-profile-card
   - navigation-rail
@@ -50,7 +52,7 @@ Components:
 The order of each list is the order on the page. Move a line up or down and reload the page to see it.
 
 - Sections: the sections of the design system page, and the links to them under its title: settings, color, type, shape, elevation, components.
-- Site navigation: the order of the links in the site header: results, breweries, beers, analysis.
+- Site navigation: the order of the site's destinations in the tabs, the rail, and the drawer: home (/), results (the Overview at /overview/ and the dashboards), breweries, beers, hops, hop-farms, analysis (/analysis/).
 - Components: the order of the components on the design system page, by the name of each component's folder.
 
 ## Profile cards

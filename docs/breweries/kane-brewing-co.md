@@ -39,7 +39,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/citra.md"
 instagram: null
@@ -58,10 +57,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "kane-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "NJ"
 untappd: null
-website: null
+website: "https://www.kanebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

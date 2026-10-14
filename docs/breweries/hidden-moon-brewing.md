@@ -37,7 +37,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Northeast"
 slug: "hidden-moon-brewing"
-sources: []
+sources:
+  - "website resolved"
 state: "NH"
 untappd: null
-website: null
+website: "https://hiddenmoonbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

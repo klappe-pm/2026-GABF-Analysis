@@ -37,11 +37,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/hopdogma/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -59,10 +58,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "hop-dogma-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: "http://www.hopdogma.com"
+website: "https://www.hopdogma.com/"
 world-beer-cup-medals: 0
 ---
 

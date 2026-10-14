@@ -39,14 +39,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/citra.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/simcoe.md"
-instagram: null
+instagram: "https://www.instagram.com/trapdoorbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -63,10 +61,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "trap-door-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "WA"
-untappd: null
-website: "http://www.trapdoorbrewing.com"
+untappd: "https://untappd.com/TrapDoorBrewingCo"
+website: "https://www.trapdoorbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

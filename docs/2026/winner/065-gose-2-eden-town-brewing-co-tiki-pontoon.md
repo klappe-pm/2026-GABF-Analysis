@@ -185,7 +185,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Eden Town Brewing Co. is in Denton, MD. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.edentownbrewing.com/), [Instagram](https://www.instagram.com/edentownbrewing/).
 
 ## related
 

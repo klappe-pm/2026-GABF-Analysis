@@ -21,6 +21,8 @@ export type ReviewSettingsPanelProps = {
   // Otherwise the panel is a button that opens a sheet at the side of the window.
   inline?: boolean;
   defaultOpen?: boolean;
+  // The review_panel group of the design system copy (pages/design-system.md): every word the panel shows.
+  copy: Record<string, string>;
 };
 
 const KNOWN = Object.keys(COMPONENTS);
@@ -53,36 +55,39 @@ function showFirst(name: string) {
   window.setTimeout(() => { el.style.outline = outline; el.style.outlineOffset = outlineOffset; }, 1600);
 }
 
-function PanelContent({ page }: { page?: string }) {
+type Copy = Record<string, string>;
+const fillCopy = (text: string, values: Record<string, string | number>) => text.replace(/\{\{(\w+)\}\}/g, (_, k: string) => String(values[k] ?? ''));
+
+function PanelContent({ page, copy }: { page?: string; copy: Copy }) {
   const { meta } = useDesign();
   const instances = useInstances();
   return (
     <ReviewPage page={page}>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-1">
-          <h2 className="type-title-large text-on-surface">Page settings</h2>
+          <h2 className="type-title-large text-on-surface">{copy.page_settings}</h2>
           <p className="type-body-medium text-on-surface-variant">
-            A change shows on the page at once. Save writes the setting to its file and files an accepted ticket in {page ? `docs/feedback/${page}/` : "this page's folder in docs/feedback/"}.
+            {fillCopy(copy.intro, { folder: page ? `docs/feedback/${page}/` : copy.intro_folder })}
           </p>
         </div>
-        <section className="flex flex-col gap-3" aria-label="Site settings">
-          <SettingsList name="settings" heading="Site settings" />
+        <section className="flex flex-col gap-3" aria-label={copy.site_settings}>
+          <SettingsList name="settings" heading={copy.site_settings} />
         </section>
-        <section className="flex flex-col gap-3" aria-label="Components on this page" data-review-instances={instances.map((i) => `${i.name}:${i.count}`).join(' ')}>
-          <h3 className="type-title-medium text-on-surface">Components on this page</h3>
-          {instances.length ? null : <p className="type-body-medium text-on-surface-variant">No design system components were found on this page.</p>}
+        <section className="flex flex-col gap-3" aria-label={copy.components_on_page} data-review-instances={instances.map((i) => `${i.name}:${i.count}`).join(' ')}>
+          <h3 className="type-title-medium text-on-surface">{copy.components_on_page}</h3>
+          {instances.length ? null : <p className="type-body-medium text-on-surface-variant">{copy.no_components}</p>}
           {instances.map(({ name, count }) => {
             const title = meta[name]?.title ?? name;
             const settings = Object.keys(COMPONENTS[name] ?? {}).length;
             return (
               <details key={name} className="rounded-(--md-sys-shape-corner-medium) border border-outline-variant bg-surface px-3 py-2" data-review-component={name}>
                 <summary className="type-title-small cursor-pointer py-1 text-on-surface">
-                  {title} <span className="type-body-small font-plain text-on-surface-variant">({count} on this page)</span>
+                  {title} <span className="type-body-small font-plain text-on-surface-variant">{fillCopy(copy.count_on_page, { count })}</span>
                 </summary>
                 <div className="flex flex-col gap-3 pt-2 pb-1">
-                  <p className="type-body-small text-on-surface-variant">Spec: .design/design-system/components/{name}/spec.md</p>
-                  {settings ? <SettingsList name={name} heading="Settings" /> : <p className="type-body-medium text-on-surface-variant">No settings yet: this component gains settings when it moves to Material.</p>}
-                  <span><md-text-button onClick={() => showFirst(name)}>Show on the page</md-text-button></span>
+                  <p className="type-body-small text-on-surface-variant">{fillCopy(copy.spec, { path: `.design/design-system/components/${name}/spec.md` })}</p>
+                  {settings ? <SettingsList name={name} heading={copy.settings} /> : <p className="type-body-medium text-on-surface-variant">{copy.no_settings}</p>}
+                  <span><md-text-button onClick={() => showFirst(name)}>{copy.show_on_page}</md-text-button></span>
                 </div>
               </details>
             );
@@ -93,7 +98,7 @@ function PanelContent({ page }: { page?: string }) {
   );
 }
 
-export function ReviewSettingsPanel({ page, inline = false, defaultOpen = false }: ReviewSettingsPanelProps) {
+export function ReviewSettingsPanel({ page, inline = false, defaultOpen = false, copy }: ReviewSettingsPanelProps) {
   const [open, setOpen] = useState(defaultOpen);
   const close = useCallback(() => setOpen(false), []);
   useEffect(() => {
@@ -103,24 +108,24 @@ export function ReviewSettingsPanel({ page, inline = false, defaultOpen = false 
     return () => document.removeEventListener('keydown', onKey);
   }, [open, inline, close]);
 
-  if (inline) return <div {...{ [PANEL_ATTR]: 'inline' }}><PanelContent page={page} /></div>;
+  if (inline) return <div {...{ [PANEL_ATTR]: 'inline' }}><PanelContent page={page} copy={copy} /></div>;
   return (
     <div {...{ [PANEL_ATTR]: open ? 'open' : 'closed' }}>
       {open ? (
         <aside
           id="review-settings-panel"
-          aria-label="Page settings"
+          aria-label={copy.page_settings}
           className="fixed inset-y-0 right-0 z-50 flex w-[min(28rem,100%)] flex-col gap-4 overflow-y-auto bg-surface-container-low p-4"
           style={{ ['--md-elevation-level' as string]: 3 }}
         >
           <md-elevation />
-          <span className="flex justify-end"><md-text-button onClick={close}>Close</md-text-button></span>
-          <PanelContent page={page} />
+          <span className="flex justify-end"><md-text-button onClick={close}>{copy.close}</md-text-button></span>
+          <PanelContent page={page} copy={copy} />
         </aside>
       ) : null}
       <span className="fixed bottom-4 left-4 z-50">
         <md-filled-tonal-button onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-controls="review-settings-panel">
-          {open ? 'Close page settings' : 'Page settings'}
+          {open ? copy.close_page_settings : copy.page_settings}
         </md-filled-tonal-button>
       </span>
     </div>

@@ -38,12 +38,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/bierkraft_brewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -60,10 +57,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "bierkraft"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OK"
-untappd: null
-website: null
+untappd: "https://untappd.com/BierKraft"
+website: "https://bierkraft.us/"
 world-beer-cup-medals: 0
 ---
 

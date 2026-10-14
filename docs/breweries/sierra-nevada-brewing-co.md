@@ -38,7 +38,6 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "instagram"
-  - "untappd"
   - "website"
 hops-used: []
 instagram: null
@@ -60,8 +59,9 @@ region: "West"
 slug: "sierra-nevada-brewing-co"
 sources:
   - "Family owned"
+  - "Untappd brewery page name and city match"
 state: "CA"
-untappd: null
+untappd: "https://untappd.com/SierraNevada"
 website: null
 world-beer-cup-medals: 0
 ---

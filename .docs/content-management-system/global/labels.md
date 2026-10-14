@@ -1,8 +1,6 @@
 # Labels
 
-The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not Found", the `not_found` label.
-
-- `not_found`: Not Found
+The one label dictionary. Each key is the raw value stored in the data; each value is the label people see. Change the value, never the key. A raw value missing here reads "Not Found".
 
 - `not_found`: Not Found
 
@@ -14,6 +12,27 @@ Where: medal columns, chips, chart legends, and stat tiles.
 - `Silver`: Silver
 - `Bronze`: Bronze
 - `Honorable Mention`: Honorable mention
+
+## `section`
+
+Where: the Competition Section filter and its chips.
+
+- `main`: Main Competition
+- `pro-am`: Pro-Am
+- `collaboration`: Collaboration
+
+## `characteristic`
+
+Where: the Category Characteristic filter and its chips; each is found by words in the category name.
+
+- `sour`: Sour or Wild Category
+- `fruit`: Fruit Category
+- `spice`: Herb or Spice Category
+- `coffee`: Coffee Category
+- `chocolate`: Chocolate Category
+- `barrel_aged`: Wood or Barrel Category
+- `non_alcoholic`: Nonalcoholic Category
+- `gluten_free`: Gluten-Free Category
 
 ## `competition`
 
@@ -33,7 +52,7 @@ Where: ownership pills, ownership columns, the Ownership filter, and the ownersh
 - `private-equity-backed`: Backed by private equity
 - `beverage-conglomerate-owned`: Owned by a beverage company
 - `closed`: Closed
-- `unlisted`: Not defined
+- `unlisted`: Not Found
 
 ## `distribution_channel`
 
@@ -42,8 +61,8 @@ Where: distribution pills, distribution columns, and the Distribution filter.
 - `self-distribution`: Self distributed
 - `distributor`: Through a distributor
 - `taproom`: Taproom only
-- `unknown`: Not defined
-- `(blank)`: Not defined
+- `unknown`: Not Found
+- `(blank)`: Not Found
 
 ## `brewery_type`
 

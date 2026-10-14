@@ -36,12 +36,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/silverbranchus/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -57,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "silver-branch-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "MD"
 untappd: null
-website: null
+website: "https://www.silverbranchbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

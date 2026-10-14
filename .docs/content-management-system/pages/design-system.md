@@ -119,6 +119,7 @@ Where: the heading of each component on the page.
 - `icon`: Icons
 - `beer_profile_card`: Beer profile card
 - `hop_profile_card`: Hop profile card
+- `spec_card`: Spec card
 - `navigation_rail`: Navigation rail
 - `navigation_drawer`: Navigation drawer
 
@@ -391,3 +392,54 @@ Where: the labels and links on the beer profile card and the hop profile card.
 - `farms`: Grower farms
 - `farms_more`: and {{count}} more
 - `farm_line`: {{farm_name}}, {{state}}
+
+## `icon_labels`
+
+Where: the name under each icon in the icons specimen.
+
+- `close`: Close
+- `chevron-down`: Chevron
+- `search`: Search
+- `check`: Check
+- `menu`: Menu
+- `filter`: Filter
+- `sort`: Sort
+- `sort-ascending`: Sort Ascending
+- `sort-descending`: Sort Descending
+- `tune`: Settings
+- `palette`: Color
+- `type`: Type
+- `shape`: Shape
+- `layers`: Elevation
+- `widgets`: Components
+- `medal`: Results
+- `brewery`: Breweries
+- `beer`: Beers
+- `chart`: Analysis
+- `list`: Categories
+- `hop`: Hops
+- `farm`: Hop Farms
+
+## `review_panel`
+
+Where: the review settings panel, shown only in the local review build.
+
+- `page_settings`: Page Settings
+- `close`: Close
+- `close_page_settings`: Close Page Settings
+- `intro`: A change shows on the page at once. Save writes the setting to its file and files an accepted ticket in {{folder}}.
+- `intro_folder`: this page's folder in docs/feedback/
+- `site_settings`: Site Settings
+- `components_on_page`: Components On This Page
+- `no_components`: No design system components were found on this page.
+- `count_on_page`: ({{count}} on this page)
+- `spec`: Spec: {{path}}
+- `settings`: Settings
+- `no_settings`: No settings yet: this component gains settings when it moves to Material.
+- `show_on_page`: Show On The Page
+
+## `ranges`
+
+Where: the year span in the specimen captions and chart titles.
+
+- `year_range`: {{first_year}} to {{last_year}}

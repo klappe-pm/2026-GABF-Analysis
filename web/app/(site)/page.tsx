@@ -32,7 +32,7 @@ export default async function Home() {
         initial={{ year: data.year, firstYear: data.firstYear, lastYear: data.lastYear, scoresheet: data.scoresheet, categories: data.categories }}
         search={m.searchIndex()}
         finding={
-          <Callout label={t('pages.home.finding.label')} link={{ href: href(paths.reports), text: t('pages.home.finding.link') }}>
+          <Callout label={t('pages.home.finding.label')} link={{ href: href(paths.analysis), text: t('pages.home.finding.link') }}>
             {fill(raw('pages.home.finding.text'), { headline_finding: headline })}
           </Callout>
         }
@@ -42,7 +42,7 @@ export default async function Home() {
           <li><TextLink href={href(paths.breweries)}>{t('pages.home.next_steps.breweries')}</TextLink></li>
           <li><TextLink href={href(paths.winners(data.year))}>{fill(raw('pages.home.next_steps.beers'), { year: data.year })}</TextLink></li>
           <li><TextLink href={href(paths.firstTime(data.year))}>{fill(raw('pages.home.next_steps.first_time'), { year: data.year })}</TextLink></li>
-          <li><TextLink href={href(paths.reports)}>{t('pages.home.next_steps.analysis')}</TextLink></li>
+          <li><TextLink href={href(paths.analysis)}>{t('pages.home.next_steps.analysis')}</TextLink></li>
           <li><TextLink href={href(DASHBOARD_PATHS.overview)}>{t('pages.home.next_steps.overview')}</TextLink></li>
         </ul>
       </nav>

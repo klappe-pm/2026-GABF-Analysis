@@ -34,12 +34,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/105westbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -53,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "105-west-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CO"
-untappd: null
-website: null
+untappd: "https://untappd.com/105WestBrewing"
+website: "https://www.105westbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

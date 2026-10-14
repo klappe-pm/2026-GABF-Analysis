@@ -9,7 +9,7 @@ import { TextLink } from './TextLink';
 // One winning beer on a Material card: its name, brewery, and medal, then category, ABV, IBU, and style as a
 // description list, its hops as assist chips that open each variety's page, an excerpt of its tasting note
 // with the source, and a link to the beer's full profile. The page passes every visible word; a value the
-// data does not hold arrives as the page's "not defined" text.
+// data does not hold arrives as the page's "Not Found" text.
 
 export type BeerCardData = {
   name: string;
@@ -33,9 +33,9 @@ export function excerpt(text: string, limit: number): string {
   return `${(space > limit * 0.6 ? cut.slice(0, space) : text.slice(0, limit)).replace(/[\s,;:.]+$/, '')}…`;
 }
 
-export function Facts({ items }: { items: { label: string; value: ReactNode }[] }) {
+export function Facts({ items, columns = 'grid-cols-2 medium:grid-cols-4' }: { items: { label: string; value: ReactNode }[]; columns?: string }) {
   return (
-    <dl className="grid min-w-0 grid-cols-2 gap-x-4 gap-y-2 medium:grid-cols-4">
+    <dl className={`grid min-w-0 gap-x-4 gap-y-2 ${columns}`}>
       {items.map((f) => (
         <div key={f.label} className="flex min-w-0 flex-col">
           <dt className="type-label-medium text-on-surface-variant" style={labelFace(f.label)}>{f.label}</dt>

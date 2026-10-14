@@ -34,15 +34,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/motueka.md"
   - "../hops/varieties/nectaron.md"
   - "../hops/varieties/peacharine.md"
-instagram: null
+instagram: "https://www.instagram.com/machineheadbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -57,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "machinehead-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: null
+untappd: "https://untappd.com/MachineHeadBrewingCo"
+website: "https://machineheadbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

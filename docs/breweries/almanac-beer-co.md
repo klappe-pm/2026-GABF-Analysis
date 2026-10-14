@@ -34,11 +34,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/almanacbeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -54,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "almanac-beer-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "CA"
 untappd: null
-website: "http://almanacbeer.com"
+website: "https://almanacbeer.com/"
 world-beer-cup-medals: 0
 ---
 

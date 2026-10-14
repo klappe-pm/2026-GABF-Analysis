@@ -39,11 +39,9 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/ghosttownbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -61,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "ghost-town-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.ghosttownbrewing.com"
+untappd: "https://untappd.com/ghosttownbrewing"
+website: "https://www.ghosttownbrewing.com/"
 world-beer-cup-medals: 0
 ---
 
