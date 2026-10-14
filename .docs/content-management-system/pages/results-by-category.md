@@ -22,7 +22,7 @@ Where: the explainer card beside the chart.
 Where: the chart at the top of the page.
 
 - `title`: Medals by Style Family
-- `subtitle`: Medals in view
+- `subtitle`: Medals in View
 
 ## `table`
 

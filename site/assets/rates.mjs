@@ -34,20 +34,20 @@ export function medalRates(rows, keyOf, indicators) {
 }
 
 export const CONTROL_FIELDS = [
-  { key: 'gdp_per_capita_real', label: 'Real GDP per capita (chained 2017 USD)', digits: 0 },
-  { key: 'median_household_income', label: 'Median household income (2024 USD)', digits: 0 },
-  { key: 'median_age', label: 'Median age', digits: 1 },
-  { key: 'share_21_plus', label: 'Share 21 and over (%)', digits: 1 },
+  { key: 'gdp_per_capita_real', label: 'Real GDP per Capita (Chained 2017 USD)', digits: 0 },
+  { key: 'median_household_income', label: 'Median Household Income (2024 USD)', digits: 0 },
+  { key: 'median_age', label: 'Median Age', digits: 1 },
+  { key: 'share_21_plus', label: 'Share 21 and Over (%)', digits: 1 },
   { key: 'share_bachelors_or_higher', label: "Bachelor's or higher (%)", digits: 1 },
-  { key: 'share_hs_or_higher', label: 'High school or higher (%)', digits: 1 },
-  { key: 'poverty_rate', label: 'Poverty rate (%)', digits: 1 },
-  { key: 'share_nh_white', label: 'White, not Hispanic (%)', digits: 1 },
-  { key: 'share_nh_black', label: 'Black, not Hispanic (%)', digits: 1 },
+  { key: 'share_hs_or_higher', label: 'High School or Higher (%)', digits: 1 },
+  { key: 'poverty_rate', label: 'Poverty Rate (%)', digits: 1 },
+  { key: 'share_nh_white', label: 'White, Not Hispanic (%)', digits: 1 },
+  { key: 'share_nh_black', label: 'Black, Not Hispanic (%)', digits: 1 },
   { key: 'share_hispanic', label: 'Hispanic or Latino (%)', digits: 1 },
-  { key: 'share_nh_asian', label: 'Asian, not Hispanic (%)', digits: 1 },
-  { key: 'urban_share', label: 'Urban share 2020 (%)', digits: 1 },
-  { key: 'literacy_level1_or_below', label: 'Literacy at or below Level 1 (%, modeled)', digits: 0 },
-  { key: 'life_expectancy', label: 'Life expectancy 2022', digits: 1 },
+  { key: 'share_nh_asian', label: 'Asian, Not Hispanic (%)', digits: 1 },
+  { key: 'urban_share', label: 'Urban Share 2020 (%)', digits: 1 },
+  { key: 'literacy_level1_or_below', label: 'Literacy at or Below Level 1 (%, Modeled)', digits: 0 },
+  { key: 'life_expectancy', label: 'Life Expectancy 2022', digits: 1 },
 ];
 
 // Latest value of a control (controls are single year cross sections; GDP per capita uses the

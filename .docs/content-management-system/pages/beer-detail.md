@@ -14,7 +14,7 @@ Where: links above the title.
 Where: the line under the beer name.
 
 - `medal_line`: {{medal}} in {{category_name}}
-- `entries`: ({{count}} entries)
+- `entries`: ({{count}} Entries)
 - `brewery_line`: {{brewery_name}}, {{city}}, {{state}}
 
 ## `buttons`
@@ -38,7 +38,7 @@ Where: the specs card.
 - `malts`: Malts
 - `yeast`: Yeast
 - `adjuncts`: Adjuncts
-- `not_published`: Not published
+- `not_published`: Not Published
 - `note`: Specs come from the brewery and the sources cited below. A field no source publishes reads Not Found. Nothing is estimated.
 
 ## `card`

@@ -48,7 +48,7 @@ This folder holds every word the site shows: page titles, ledes, headings, chart
 - A group whose lines are plain `- item` entries (in `formats.md`) is a list of examples; edit the items freely.
 - Keep `{{tokens}}` exactly as written. The build fills each one with a value from the data. Move a token within a sentence freely, but do not rename or remove it unless the page no longer needs that value.
 - Lines starting with `Where:` say where a group appears on the page, and the paragraph under each title describes the file. They are notes, not copy; the site never shows them.
-- Follow `voice.md`. In short: sentence case, the finding before the evidence, no dash as punctuation, no file names or developer instructions, "Not Found" for values the data does not hold, and "Not published" for values no source publishes.
+- Follow `voice.md`. In short: title case for headings, labels, buttons, and column headers, the finding before the evidence, no dash as punctuation, no file names or developer instructions, "Not Found" for values the data does not hold, and "Not published" for values no source publishes.
 
 ## How keys are named
 

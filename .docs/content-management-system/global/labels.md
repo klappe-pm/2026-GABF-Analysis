@@ -276,9 +276,9 @@ Where: the Fed district filter, district charts, and district columns.
 
 Where: method page and district tooltips; how a medal was placed in a district.
 
-- `state`: Whole state in one district
-- `county`: Placed by the medal city's county
-- `approximation`: Whole state assigned to its main district (approximation)
+- `state`: Whole State in One District
+- `county`: Placed by the Medal City's County
+- `approximation`: Whole State Assigned to Its Main District (Approximation)
 - `approximation (city not resolved)`: City not placed; assigned to the state's main district (approximation)
 
 ## `indicator`

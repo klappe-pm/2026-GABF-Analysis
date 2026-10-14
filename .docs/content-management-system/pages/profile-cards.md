@@ -6,30 +6,30 @@ The beer profile card and the hop profile card, drawn wherever beers or hops are
 
 Where: every beer profile card, on category pages, brewery pages, the winners page, hop pages, and hop farm pages.
 
-- `section`: Beer profile cards
+- `section`: Beer Profile Cards
 - `abv`: ABV
 - `ibu`: IBU
 - `style`: Style
 - `hops`: Hops
-- `tasting`: Tasting note
+- `tasting`: Tasting Note
 - `source`: Source
-- `deep_dive`: Open the beer profile
+- `deep_dive`: Open the Beer Profile
 - `none`: Not Found
 
 ## `hop`
 
 Where: every hop profile card, on beer pages, the hops index, and hop farm pages.
 
-- `section`: Hop profile cards
+- `section`: Hop Profile Cards
 - `origin`: Origin: {{origin}}
 - `breeder`: Bred by {{breeder}}
-- `alpha`: Alpha acid
+- `alpha`: Alpha Acid
 - `oil`: Oils
 - `aroma`: Aroma
 - `source`: Source
-- `acreage`: US acreage
+- `acreage`: US Acreage
 - `acreage_value`: {{acres}} acres in {{year}}, {{states}} states
-- `beers`: Medal beers in {{year}}
+- `beers`: Medal Beers in {{year}}
 - `farms`: Grown by
 - `more`: and {{count}} more
-- `open`: Open the hop page
+- `open`: Open the Hop Page

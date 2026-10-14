@@ -9,6 +9,7 @@ import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
 import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptyStateHtml, hashFor, parseHash, partialNoticeHtml, pickState, STATE_KEYS, valueLabel } from './filter-bar.mjs';
 import { oddsItems, specNoteHtml as specNote, yearsInView } from './page-views.mjs';
 import { sortByLabel } from './sort-order.mjs';
+import { NOT_FOUND_HTML } from './not-found.mjs';
 
 // state.filters holds this page's own keys (tab, brewery); the site wide selection lives in the
 // global filter (ctl.state), shared with every other page.
@@ -52,22 +53,22 @@ function yearRows(rows) {
 }
 
 const PANELS = {
-  'medals-by-year': { title: 'Medals by year', subtitle: 'stacked by medal; click a column to focus that year', build(rows) {
+  'medals-by-year': { title: 'Medals by Year', subtitle: 'stacked by medal; click a column to focus that year', build(rows) {
     const yr = yearRows(rows);
     const option = stackedColumnsOption({ labels: yr.map((r) => r.year), notes: yr.map((r) => r.note), series: [{ name: 'Gold', data: yr.map((r) => r.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: yr.map((r) => r.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: yr.map((r) => r.bronze), color: MEDAL_COLORS.Bronze }], saveName: 'medals-by-year' });
     return { option, height: 280, onClick: (p) => setFilter('year', String(yr[p.dataIndex].year)), table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((r) => [r.gold, r.silver, r.bronze]), { key: 'note', label: 'Coverage' }], yr, { className: 'data-table' }) };
   } },
-  map: { title: 'Medals by state', subtitle: 'click a state to focus it', build(rows) {
+  map: { title: 'Medals by State', subtitle: 'click a state to focus it', build(rows) {
     const counts = countBy(rows, 'state_name');
     const data = state.meta.states.map((s) => ({ name: s.name, value: counts.find(([n]) => n === s.name)?.[1] ?? 0 }));
     const option = mapOption({ data, saveName: 'medals-by-state' });
     return { option, height: 420, onClick: (p) => { const code = state.meta.states.find((s) => s.name === p.name)?.state; if (code) setFilter('state', code); }, table: tableHtml([{ key: 'name', label: 'State' }, { key: 'value', label: 'Medals', numeric: true }], data.filter((d) => d.value).sort((a, b) => b.value - a.value), { className: 'data-table' }) };
   } },
-  'by-family': { title: 'Medals by style family', subtitle: 'click to focus a family', build(rows) {
+  'by-family': { title: 'Medals by Style Family', subtitle: 'click to focus a family', build(rows) {
     const items = countBy(rows, 'style_family').map(([label, value]) => ({ label, value }));
-    return { option: barsHOption({ items, color: 'var(--series-3)', saveName: 'medals-by-style-family' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => setFilter('style_family', p.name), table: tableHtml([{ key: 'label', label: 'Style family' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-3)', saveName: 'medals-by-style-family' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => setFilter('style_family', p.name), table: tableHtml([{ key: 'label', label: 'Style Family' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'top-breweries': { title: 'Top breweries', subtitle: 'ranked by points (gold 3, silver 2, bronze 1); click to open the brewery', build(rows) {
+  'top-breweries': { title: 'Top Breweries', subtitle: 'ranked by points (gold 3, silver 2, bronze 1); click to open the brewery', build(rows) {
     const m = new Map();
     for (const r of rows) {
       const cur = m.get(r.brewery_key) ?? { label: r.brewery_name, value: 0, pts: 0, slug: r.brewery_slug };
@@ -76,57 +77,57 @@ const PANELS = {
     const items = [...m.values()].sort((a, b) => b.pts - a.pts || b.value - a.value).slice(0, 15).map((b) => ({ label: b.label, value: b.pts, href: bHref(b.slug), medals: b.value }));
     return { option: barsHOption({ items, color: 'var(--series-2)', valueName: 'Points', saveName: 'top-breweries' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Points', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'by-region': { title: 'Medals by Census region', build(rows) {
+  'by-region': { title: 'Medals by Census Region', build(rows) {
     const items = countBy(rows, 'region').map(([label, value]) => ({ label, value }));
     return { option: barsHOption({ items, saveName: 'medals-by-region' }), height: 220, onClick: (p) => setFilter('region', p.name), table: tableHtml([{ key: 'label', label: 'Region' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'by-division': { title: 'Medals by Census division', build(rows) {
+  'by-division': { title: 'Medals by Census Division', build(rows) {
     const items = countBy(rows, 'division').map(([label, value]) => ({ label, value }));
     return { option: barsHOption({ items, color: 'var(--series-3)', saveName: 'medals-by-division' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Division' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'per-capita': { title: 'Medals per million residents by state', subtitle: "each medal against its year's Census population estimate; 2026 uses 2025", build(rows) {
+  'per-capita': { title: 'Medals per Million Residents by State', subtitle: "each medal against its year's Census population estimate; 2026 uses 2025", build(rows) {
     const items = stateRateItems(rows, 'per_million');
-    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per million', saveName: 'medals-per-million' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per million', numeric: true }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per Million', saveName: 'medals-per-million' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per Million', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'per-gdp': { title: 'Medals per $100 billion of real GDP by state', subtitle: "BEA real GDP (chained 2017 dollars) in each medal's year; 2026 uses 2025", build(rows) {
+  'per-gdp': { title: 'Medals per $100 Billion of Real GDP by State', subtitle: "BEA real GDP (chained 2017 dollars) in each medal's year; 2026 uses 2025", build(rows) {
     const items = stateRateItems(rows, 'per_100b_gdp');
-    return { option: barsHOption({ items, color: 'var(--series-2)', valueName: 'Per $100B', saveName: 'medals-per-gdp' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per $100B real GDP', numeric: true }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-2)', valueName: 'Per $100B', saveName: 'medals-per-gdp' }), height: Math.max(220, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('state', it.code); }, table: tableHtml([{ key: 'label', label: 'State' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per $100B Real GDP', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'by-fed-district': { title: 'Medals by Federal Reserve district', subtitle: 'most medals first; split states assigned by the medal city county; click to focus a district', build(rows) {
+  'by-fed-district': { title: 'Medals by Federal Reserve District', subtitle: 'most medals first; split states assigned by the medal city county; click to focus a district', build(rows) {
     const items = districtItems(rows).map((d) => ({ label: d.label, value: d.medals, name: d.name })).sort((a, b) => b.value - a.value);
     const approx = rows.filter((r) => /approximation/.test(r.fed_district_method)).length;
     return { option: barsHOption({ items, color: 'var(--series-1)', saveName: 'medals-by-fed-district' }), height: Math.max(220, 34 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('fed_district_name', it.name); }, note: approx ? `${approx} medal${approx === 1 ? '' : 's'} in view sit in West Virginia, which is assigned whole to the Richmond district as an approximation (no primary county list).` : '', table: tableHtml([{ key: 'label', label: 'District' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'district-rates': { title: 'Medals per million residents by Fed district', subtitle: 'district population from whole states plus split state counties, per medal year', build(rows) {
+  'district-rates': { title: 'Medals per Million Residents by Fed District', subtitle: 'district population from whole states plus split state counties, per medal year', build(rows) {
     const list = districtItems(rows);
     const items = list.map((d) => ({ label: d.label, value: Number(d.per_million.toFixed(2)), name: d.name, medals: d.medals, per_gdp: d.per_100b_gdp.toFixed(2) })).sort((a, b) => b.value - a.value);
-    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per million', saveName: 'fed-district-per-million' }), height: Math.max(220, 34 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('fed_district_name', it.name); }, note: 'Per $100B real GDP is in the table view; split state GDP is apportioned by county GDP shares (E).', table: tableHtml([{ key: 'label', label: 'District' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per million', numeric: true }, { key: 'per_gdp', label: 'Per $100B real GDP (E)', numeric: true }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-3)', valueName: 'Per Million', saveName: 'fed-district-per-million' }), height: Math.max(220, 34 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('fed_district_name', it.name); }, note: 'Per $100B real GDP is in the table view; split state GDP is apportioned by county GDP shares (E).', table: tableHtml([{ key: 'label', label: 'District' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'value', label: 'Per Million', numeric: true }, { key: 'per_gdp', label: 'Per $100B Real GDP (E)', numeric: true }], items, { className: 'data-table' }) };
   } },
-  entrants: { title: 'Entrants by category', subtitle: 'entries judged, most competitive first; special categories marked; click to focus', build(rows) {
+  entrants: { title: 'Entrants by Category', subtitle: 'entries judged, most competitive first; special categories marked; click to focus', build(rows) {
     const m = new Map();
     for (const r of rows) if (r.entries) { const cur = m.get(r.category_name) ?? { label: r.category_name, value: 0, special: r.special, years: new Set() }; cur.value = Math.max(cur.value, r.entries); cur.years.add(r.year); m.set(r.category_name, cur); }
     const items = [...m.values()].sort((a, b) => b.value - a.value).slice(0, 25).map((c) => ({ label: `${c.label}${c.special ? ' (special)' : ''}`, value: c.value, name: c.label, years: [...c.years].join(', ') }));
     return { option: barsHOption({ items, valueName: 'Entries', labelWidth: 240, saveName: 'entrants-by-category' }), height: Math.max(220, 32 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('category_name', it.name); }, note: 'Entry counts come from the category headers of the official list; a partial year shows counts for its sample of medals alone.', table: tableHtml([{ key: 'name', label: 'Category' }, { key: 'value', label: 'Entries', numeric: true }, { key: 'years', label: 'Years' }], items, { className: 'data-table' }) };
   } },
-  'entry-odds': { title: 'Hardest categories to medal in', subtitle: 'entries per medal, highest first; click to focus a category', build(rows) {
+  'entry-odds': { title: 'Hardest Categories to Medal in', subtitle: 'entries per medal, highest first; click to focus a category', build(rows) {
     const odds = oddsItems(rows);
     if (!odds.list.length) return { empty: odds.note };
     const items = odds.list.slice(0, 20);
-    return { option: barsHOption({ items, valueName: 'Entries per medal', labelWidth: 240, saveName: 'entries-per-medal' }), height: Math.max(220, 30 * items.length + 60), onClick: (p) => setFilter('category_name', p.name), note: odds.note, table: tableHtml([{ key: 'label', label: 'Category' }, { key: 'value', label: 'Entries per medal', numeric: true }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'medals', label: 'Medals awarded', numeric: true }, { key: 'years', label: 'Years' }], odds.list, { className: 'data-table' }) };
+    return { option: barsHOption({ items, valueName: 'Entries per Medal', labelWidth: 240, saveName: 'entries-per-medal' }), height: Math.max(220, 30 * items.length + 60), onClick: (p) => setFilter('category_name', p.name), note: odds.note, table: tableHtml([{ key: 'label', label: 'Category' }, { key: 'value', label: 'Entries per Medal', numeric: true }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'medals', label: 'Medals Awarded', numeric: true }, { key: 'years', label: 'Years' }], odds.list, { className: 'data-table' }) };
   } },
-  'special-share': { title: 'Classic versus special categories by year', build(rows) {
+  'special-share': { title: 'Classic Versus Special Categories by Year', build(rows) {
     const labels = yearsInView(state.meta, ctl.state);
     const classic = labels.map((y) => rows.filter((r) => r.year === y && !r.special).length);
     const special = labels.map((y) => rows.filter((r) => r.year === y && r.special).length);
     return { option: stackedColumnsOption({ labels, notes: labels.map((y) => (state.meta.coverage[y] === 'complete' ? '' : state.meta.coverage[y])), series: [{ name: 'Classic style categories', data: classic, color: 'var(--series-1)' }, { name: 'Special categories', data: special, color: 'var(--series-2)' }], saveName: 'classic-vs-special' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'classic', label: 'Classic', numeric: true }, { key: 'special', label: 'Special', numeric: true }], labels.map((y, i) => ({ year: y, classic: classic[i], special: special[i] })), { className: 'data-table' }) };
   } },
-  'entries-vs-breweries': { title: 'Category size versus medal spread', subtitle: 'entries judged against distinct medal winning breweries across loaded years', build(rows) {
+  'entries-vs-breweries': { title: 'Category Size Versus Medal Spread', subtitle: 'entries judged against distinct medal winning breweries across loaded years', build(rows) {
     const m = new Map();
     for (const r of rows) if (r.entries) { const cur = m.get(r.category_name) ?? { name: r.category_name, x: 0, b: new Set() }; cur.x = Math.max(cur.x, r.entries); cur.b.add(r.brewery_key); m.set(r.category_name, cur); }
     const points = [...m.values()].map((c) => ({ name: c.name, x: c.x, y: c.b.size, size: 8 + c.b.size * 2 }));
     return { option: scatterOption({ points, xName: 'Entries', yName: 'Breweries', saveName: 'entries-vs-breweries' }), height: 320, table: tableHtml([{ key: 'name', label: 'Category' }, { key: 'x', label: 'Entries', numeric: true }, { key: 'y', label: 'Breweries', numeric: true }], points, { className: 'data-table' }) };
   } },
-  'brewery-trend': { title: 'Brewery medals by year', build(rows) {
+  'brewery-trend': { title: 'Brewery Medals by Year', build(rows) {
     const b = currentBrewery();
     if (!b) return null;
     const years = new Set(yearsInView(state.meta, ctl.state));
@@ -135,41 +136,41 @@ const PANELS = {
     const option = stackedColumnsOption({ labels, notes: trend.map((t) => ({ 'did-not-exist': 'not yet founded', 'not-yet-reported': 'pending', 'no-data': 'partial', 'no-results': 'not loaded', closed: 'closed' }[t.status] ?? '')), series: [{ name: 'Gold', data: trend.map((t) => t.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: trend.map((t) => t.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: trend.map((t) => t.bronze), color: MEDAL_COLORS.Bronze }], saveName: `${b.slug}-medals-by-year` });
     return { option, height: 280, subtitle: `${b.name}, all medals in the record`, table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((t) => [t.gold, t.silver, t.bronze]), { key: 'status', label: 'Status', render: (t) => esc(STATUS_LABELS[t.status] ?? t.status) }], trend, { className: 'data-table' }) };
   } },
-  'brewery-categories': { title: 'Brewery medals by category', build(rows) {
+  'brewery-categories': { title: 'Brewery Medals by Category', build(rows) {
     const b = currentBrewery();
     if (!b) return null;
     const items = countBy(state.rows.filter((r) => r.brewery_key === b.key), 'category_name').map(([label, value]) => ({ label, value }));
     return { option: barsHOption({ items, labelWidth: 240, saveName: `${b.slug}-categories` }), height: Math.max(200, 34 * items.length + 60), subtitle: b.name, table: tableHtml([{ key: 'label', label: 'Category' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'brewery-locations': { title: 'Brewery medals by location credited', build(rows) {
+  'brewery-locations': { title: 'Brewery Medals by Location Credited', build(rows) {
     const b = currentBrewery();
     if (!b) return null;
     const items = countBy(state.rows.filter((r) => r.brewery_key === b.key).map((r) => ({ loc: r.brewery_location || r.city })), 'loc').map(([label, value]) => ({ label, value }));
     return { option: barsHOption({ items, color: 'var(--series-2)', saveName: `${b.slug}-locations` }), height: Math.max(180, 36 * items.length + 60), subtitle: b.name, table: tableHtml([{ key: 'label', label: 'Location' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'ownership-share': { title: 'Medals by ownership type', build(rows) {
+  'ownership-share': { title: 'Medals by Ownership Type', build(rows) {
     const items = countBy(rows, 'ownership_type').map(([v, value]) => ({ label: valueLabel('ownership_type', v), value, raw: v }));
-    return { option: barsHOption({ items, labelWidth: 230, saveName: 'medals-by-ownership' }), height: Math.max(200, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('ownership_type', it.raw); }, table: tableHtml([{ key: 'label', label: 'Ownership type' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, labelWidth: 230, saveName: 'medals-by-ownership' }), height: Math.max(200, 36 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('ownership_type', it.raw); }, table: tableHtml([{ key: 'label', label: 'Ownership Type' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  parents: { title: 'Medals by parent company', subtitle: 'owners that are not independent', build(rows) {
+  parents: { title: 'Medals by Parent Company', subtitle: 'owners that are not independent', build(rows) {
     const items = countBy(rows.filter((r) => r.parent), 'parent').map(([label, value]) => ({ label, value }));
     if (!items.length) return { empty: 'No medalist in view is owned by a large brewer or conglomerate.' };
     return { option: barsHOption({ items, color: 'var(--series-2)', labelWidth: 230, saveName: 'medals-by-parent' }), height: Math.max(200, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Parent' }, { key: 'value', label: 'Medals', numeric: true }], items, { className: 'data-table' }) };
   } },
-  'revenue-by-brewery': { title: 'Estimated annual revenue by brewery (E)', subtitle: 'breweries in view, estimate method in About', build(rows) {
+  'revenue-by-brewery': { title: 'Estimated Annual Revenue by Brewery (E)', subtitle: 'breweries in view, estimate method in About', build(rows) {
     const keys = new Set(rows.map((r) => r.brewery_key));
     const items = state.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15).map((b) => ({ label: b.name, value: b.estimate.revenue_usd, href: bHref(b.slug), basis: b.estimate.basis }));
-    return { option: barsHOption({ items, color: 'var(--series-5)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Volume source', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
+    return { option: barsHOption({ items, color: 'var(--series-5)', valueName: 'Revenue USD', labelWidth: 220, saveName: 'estimated-revenue' }), height: Math.max(220, 36 * items.length + 60), table: tableHtml([{ key: 'label', label: 'Brewery' }, { key: 'value', label: 'Revenue USD', numeric: true, render: (r) => compact(r.value) }, { key: 'basis', label: 'Volume Source', render: (r) => esc(valueLabel('basis', r.basis)) }], items, { className: 'data-table' }) };
   } },
-  'entries-trend': { title: 'Entries judged by year', subtitle: 'Brewers Association totals; years without a published figure are left blank', build() {
+  'entries-trend': { title: 'Entries Judged by Year', subtitle: 'Brewers Association totals; years without a published figure are left blank', build() {
     const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));
     const labels = s.map((x) => x.year);
-    return { option: lineOption({ labels, series: [{ name: 'Entries', data: s.map((x) => (x.entries ? Number(x.entries) : null)), color: SERIES_COLORS[0] }], saveName: 'entries-judged' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'entering_breweries', label: 'Breweries entering', numeric: true }], s, { className: 'data-table' }) };
+    return { option: lineOption({ labels, series: [{ name: 'Entries', data: s.map((x) => (x.entries ? Number(x.entries) : null)), color: SERIES_COLORS[0] }], saveName: 'entries-judged' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'entering_breweries', label: 'Breweries Entering', numeric: true }], s, { className: 'data-table' }) };
   } },
-  'medals-trend': { title: 'Medals awarded and winning breweries', subtitle: 'Brewers Association totals; blank years have no published figure', build() {
+  'medals-trend': { title: 'Medals Awarded and Winning Breweries', subtitle: 'Brewers Association totals; blank years have no published figure', build() {
     const s = state.meta.summary.filter((x) => x.competition === 'GABF').sort((a, b) => Number(a.year) - Number(b.year));
     const labels = s.map((x) => x.year);
-    return { option: lineOption({ labels, series: [{ name: 'Medals', data: s.map((x) => (x.medals ? Number(x.medals) : null)), color: SERIES_COLORS[1] }, { name: 'Winning breweries', data: s.map((x) => (x.winning_breweries ? Number(x.winning_breweries) : null)), color: SERIES_COLORS[2] }], saveName: 'medals-and-winners' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'winning_breweries', label: 'Winning breweries', numeric: true }], s, { className: 'data-table' }) };
+    return { option: lineOption({ labels, series: [{ name: 'Medals', data: s.map((x) => (x.medals ? Number(x.medals) : null)), color: SERIES_COLORS[1] }, { name: 'Winning breweries', data: s.map((x) => (x.winning_breweries ? Number(x.winning_breweries) : null)), color: SERIES_COLORS[2] }], saveName: 'medals-and-winners' }), height: 280, table: tableHtml([{ key: 'year', label: 'Year' }, { key: 'medals', label: 'Medals', numeric: true }, { key: 'winning_breweries', label: 'Winning Breweries', numeric: true }], s, { className: 'data-table' }) };
   } },
 };
 
@@ -204,7 +205,7 @@ function renderControlsTable(rows) {
   const cols = [
     { key: 'name', label: level === 'district' ? 'District' : 'State' },
     { key: 'medals', label: 'Medals', numeric: true },
-    { key: 'per_million', label: 'Per million', numeric: true, render: (x) => x.per_million.toFixed(2) },
+    { key: 'per_million', label: 'Per Million', numeric: true, render: (x) => x.per_million.toFixed(2) },
     { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
     ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
   ];
@@ -240,12 +241,12 @@ function renderStats(rows) {
   const special = rows.filter((r) => r.special).length;
   const entries = [...new Map(rows.filter((r) => r.entries).map((r) => [`${r.year}|${r.category_name}`, r.entries])).values()].reduce((s, n) => s + n, 0);
   el.innerHTML = [
-    statTile({ label: 'Medals in view', value: rows.length.toLocaleString() }),
+    statTile({ label: 'Medals in View', value: rows.length.toLocaleString() }),
     statTile({ label: 'Breweries', value: breweries.toLocaleString() }),
     statTile({ label: 'States', value: states.toLocaleString() }),
     statTile({ label: 'Categories', value: cats.toLocaleString(), note: `${special} medals in special categories` }),
-    statTile({ label: 'Gold, silver, bronze', medals: ['Gold', 'Silver', 'Bronze'].map((m) => rows.filter((r) => r.medal === m).length) }),
-    statTile({ label: 'Entrants in categories shown', value: entries ? entries.toLocaleString() : 'n/a', note: 'sum of category entry counts' }),
+    statTile({ label: 'Gold, Silver, Bronze', medals: ['Gold', 'Silver', 'Bronze'].map((m) => rows.filter((r) => r.medal === m).length) }),
+    statTile({ label: 'Entrants in Categories Shown', value: entries ? entries.toLocaleString() : 'n/a', note: 'sum of category entry counts' }),
   ].join('');
 }
 
@@ -264,11 +265,11 @@ function renderTable(rows) {
     { key: 'city', label: 'City', render: (r) => `${esc(r.city)}, ${esc(r.state)}` },
     { key: 'category_name', label: 'Category', render: (r) => `<a href="${esc(cHref(r.category_name, r.category_slug))}">${esc(r.category_name)}</a>${r.special ? ' <span class="pill">special</span>' : ''}` },
     { key: 'entries', label: 'Entries', numeric: true, render: (r) => (r.entries ?? '') },
-    { key: 'style_family', label: 'Style family' },
-    { key: 'abv', label: 'ABV', numeric: true, render: (r) => (r.abv !== null && r.abv !== undefined ? `${r.abv}%${specNote(r, r.abv_source)}` : '<span class="muted">Not defined</span>') },
-    { key: 'ibu', label: 'IBU', numeric: true, render: (r) => (r.ibu !== null && r.ibu !== undefined ? `${esc(r.ibu)}${specNote(r, r.ibu_source)}` : '<span class="muted">Not defined</span>') },
-    { key: 'abv_min', label: 'Style range ABV', render: (r) => (r.abv_min ? `${r.abv_min} to ${r.abv_max}%` : '<span class="muted">Not defined</span>') },
-    { key: 'beer_profile', label: 'Beer profile', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">Full profile</a>` : '<span class="muted">Not defined</span>') },
+    { key: 'style_family', label: 'Style Family' },
+    { key: 'abv', label: 'ABV', numeric: true, render: (r) => (r.abv !== null && r.abv !== undefined ? `${r.abv}%${specNote(r, r.abv_source)}` : NOT_FOUND_HTML) },
+    { key: 'ibu', label: 'IBU', numeric: true, render: (r) => (r.ibu !== null && r.ibu !== undefined ? `${esc(r.ibu)}${specNote(r, r.ibu_source)}` : NOT_FOUND_HTML) },
+    { key: 'abv_min', label: 'Style Range ABV', render: (r) => (r.abv_min ? `${r.abv_min} to ${r.abv_max}%` : NOT_FOUND_HTML) },
+    { key: 'beer_profile', label: 'Beer Profile', render: (r) => (r.beer_profile && !STANDALONE ? `<a href="${esc(base + r.beer_profile)}">Full Profile</a>` : NOT_FOUND_HTML) },
     { key: 'ownership_type', label: 'Ownership', render: (r) => `${esc(valueLabel('ownership_type', r.ownership_type))}${r.parent ? ` (${esc(r.parent)})` : ''}` },
     { key: 'distribution_channel', label: 'Distribution', render: (r) => esc(valueLabel('distribution_channel', r.distribution_channel)) },
   ], rows.slice(0, limit))}</div><div class="table-more"><p class="small muted">Showing ${limit.toLocaleString()} of ${rows.length.toLocaleString()} medals, newest first.</p>${rows.length > limit ? `<button class="btn" type="button" id="show-more">Show ${Math.min(100, rows.length - limit)} more</button><button class="btn" type="button" id="show-all">Show all</button>` : ''}</div>`;
@@ -317,11 +318,11 @@ function renderFinancialTable(rows) {
     { key: 'type', label: 'Type', render: (b) => esc(valueLabel('brewery_type', b.brewery_type)) },
     { key: 'barrels', label: 'Barrels (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.estimate.barrels, render: (b) => `${compact(b.estimate.barrels)}${b.estimate.basis === 'reported' ? '' : ` ${estMark(b.key, 'barrels')}`}` },
     { key: 'arr', label: 'ARR USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.arr_usd, render: (b) => `${compact(b.financials.arr_usd)} ${estMark(b.key, 'arr')}` },
-    { key: 'gm', label: 'Gross margin (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.gross_margin, render: (b) => `${Math.round(b.financials.gross_margin * 100)}% ${estMark(b.key, 'gross_margin')}` },
+    { key: 'gm', label: 'Gross Margin (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.gross_margin, render: (b) => `${Math.round(b.financials.gross_margin * 100)}% ${estMark(b.key, 'gross_margin')}` },
     { key: 'ebitda', label: 'EBITDA USD (E)', numeric: true, cellClass: 'est-cell', sortValue: (b) => b.financials.ebitda_usd, render: (b) => `${compact(b.financials.ebitda_usd)} (${Math.round(b.financials.ebitda_margin_low * 100)} to ${Math.round(b.financials.ebitda_margin_high * 100)}%) ${estMark(b.key, 'ebitda')}` },
     { key: 'channel', label: 'Distribution', render: (b) => esc(valueLabel('distribution_channel', b.distribution_channel || 'unknown')) },
     { key: 'ownership', label: 'Ownership', render: (b) => (b.ownership ? `${esc(valueLabel('ownership_type', b.ownership.type))}${b.ownership.parent ? ` (${esc(b.ownership.parent)})` : ''}` : `<span class="muted">${esc(valueLabel('ownership_type', 'unlisted'))}</span>`) },
-    { key: 'basis', label: 'Volume source', render: (b) => esc(valueLabel('basis', b.estimate.basis)) },
+    { key: 'basis', label: 'Volume Source', render: (b) => esc(valueLabel('basis', b.estimate.basis)) },
   ], list)}</div>`;
   wireSortable(el);
 }

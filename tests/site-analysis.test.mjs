@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { categoryIndex, loadDataset } from '../scripts/lib/data-model.mjs';
 import { groupIndicators as staticGroups, oddsItems as staticOdds } from '../site/assets/page-views.mjs';
 import { applyFilters } from '../web/lib/filter-model.mjs';
-import { about, awardsTable, category, categoryCount, categoryRows, info, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
+import { about, awardsTable, category, categoryCount, categoryRows, info, legacyCategories, legacyCategory, ownershipTable, reportKey, reportMeta, reportParams, reportRows, scaleTable, streaks } from '../web/lib/models/analysis.mjs';
 import { aggregateBreweries, categoryRollup, familySeries, groupIndicators, groupRollup, medalSplit, movers, oddsItems, ownershipRollup, stateRollup, TREND_FAMILIES, yearsInView } from '../web/lib/models/analysis-calc.mjs';
 import { categoryParams } from '../web/lib/site-model.mjs';
 
@@ -126,4 +126,18 @@ test('About carries one coverage row per loaded year and the estimate figures fr
   assert.equal(a.coverage.reduce((n, c) => n + c.rows, 0), ds.results.length);
   assert.match(a.completeRange, /^\d{4} to \d{4}$/);
   assert.match(a.estimates.taproom, /^\d+ to \d+ percent$/);
+});
+
+test('every old category address redirects to a current category and no old address is a current one', () => {
+  const { redirects, names } = legacyCategories();
+  const current = new Set(cats.map((c) => c.slug));
+  assert.equal(redirects.length, 56);
+  for (const r of redirects) {
+    assert.ok(!current.has(r.oldSlug), r.oldSlug);
+    assert.equal(category(r.slug)?.name, r.name);
+    assert.equal(legacyCategory(r.oldSlug)?.slug, r.slug);
+  }
+  assert.equal(legacyCategory('german-style-pilsener')?.name, 'German Pilsener');
+  assert.equal(names['German-Style Pilsener'], 'German Pilsener');
+  assert.equal(names['Mixed-Culture Brett Beer'], 'Mixed Culture Brett Beer');
 });

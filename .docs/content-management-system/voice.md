@@ -9,7 +9,7 @@ Write for a brewer reading on a phone at the festival. Use the shortest words th
 
 ### title-case
 
-Headings, labels, buttons, and column headers use title case: capitalize the first letter for each word.Proper nouns keep their case: Great American Beer Festival, Brewers Association, Census, Federal Reserve, IPA, ABV, IBU, SRM, ARR, EBITDA.
+Headings, labels, buttons, and column headers use title case: capitalize the first letter of each word. Short joining words (a, an, the, and, or, but, for, nor, of, in, on, at, to, by, per, vs, from, as, with, into, than) stay lowercase unless they come first or follow a colon, so a label reads "Stout and Porter" and "Show on the Page". Proper nouns keep their case: Great American Beer Festival, Brewers Association, Census, Federal Reserve, IPA, ABV, IBU, SRM, ARR, EBITDA.
 
 ### lead-with-data
 
@@ -19,7 +19,7 @@ Never write a count, share, or rank into the copy by hand. Use a token such as {
 
 ### identify-data-gaps
 
-- A value the data does not hold reads "Undefined".
+- A value the data does not hold reads "Not Found".
 - A value no source has published, such as a beer's IBU, reads "Not published".
 - A year that is not loaded is never shown as zero medals.
 - Nothing is estimated unless it is marked as an estimate.

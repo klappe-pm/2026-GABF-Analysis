@@ -43,5 +43,5 @@ Where: the winners table.
 - `ibu`: IBU
 - `hops`: Hops
 - `group_row`: {{number}}. {{category_name}}
-- `group_entries`: {{count}} entries
-- `not_published`: Not published
+- `group_entries`: {{count}} Entries
+- `not_published`: Not Published

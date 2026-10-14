@@ -13,7 +13,7 @@ Where: links above the title.
 
 Where: the line under the farm name.
 
-- `varieties`: Varieties published: {{count}}
+- `varieties`: Varieties Published: {{count}}
 
 ## `unfiltered`
 

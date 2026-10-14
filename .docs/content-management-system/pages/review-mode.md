@@ -16,10 +16,10 @@ Where: the docked Feedback panel.
 - `step_none`: This Page Has No Step
 - `step_group_page`: This Page
 - `step_group_all`: All Steps
-- `spots_heading`: Spots On The Page
+- `spots_heading`: Spots on the Page
 - `spots_hint`: Click the page to add a numbered pin. Add as many as the note needs. With none, the ticket is about the whole page. Double click page copy to edit it here.
 - `spots_empty`: No spots yet.
-- `spot_show`: Show spot {{n}} on the page
+- `spot_show`: Show Spot {{n}} on the Page
 - `spot_remove`: Remove
 - `spot_remove_aria`: Remove spot {{n}}
 - `spot_pin_aria`: Spot {{n}}
@@ -27,15 +27,15 @@ Where: the docked Feedback panel.
 - `categories_unavailable`: Categories are unavailable: the review server did not answer.
 - `components_heading`: Design System Components
 - `components_none`: None linked.
-- `components_label`: Linked components
+- `components_label`: Linked Components
 - `component_add_placeholder`: Add A Component
 - `component_add`: Add
 - `component_open_aria`: {{name}}, opens the design system file in a new tab
-- `component_obsidian`: Open In Obsidian
+- `component_obsidian`: Open in Obsidian
 - `component_remove_aria`: Remove {{name}}
 - `content_heading`: Content Entries
-- `content_label`: Linked content entries
-- `recorded_heading`: Recorded For This Step
+- `content_label`: Linked Content Entries
+- `recorded_heading`: Recorded for This Step
 - `recorded_none`: Nothing yet.
 - `recorded_item`: {{id}} {{status}}: {{title}}
 - `image_page`: Page Image
@@ -51,7 +51,7 @@ Where: the status line at the foot of the panel.
 - `sending`: Sending.
 - `registered`: Registered as {{id}} and accepted. Screenshots are being taken.
 - `redacted`: A value shaped like a secret was removed.
-- `not_recorded`: Not recorded. {{reason}}
+- `not_recorded`: Not Recorded. {{reason}}
 - `spot_added`: Spot {{n}} added. Click the page to add another.
 - `spot_removed`: Spot removed.
 - `component_unknown`: That is not a known component. Choose one from the list.

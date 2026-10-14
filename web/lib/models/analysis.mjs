@@ -3,7 +3,8 @@
 // one page needs; the filter-dependent aggregation lives in analysis-calc.mjs, which the client views run.
 
 import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
-import { filterRow, site } from '../site-model.mjs';
+import { slugify } from '../../../scripts/lib/slug.mjs';
+import { filterRow, legacyCategoryNames, site } from '../site-model.mjs';
 
 export const REPORTS = [
   { slug: 'top-breweries', key: 'top_breweries' },
@@ -50,6 +51,24 @@ function styleRef(c) {
 
 // A style range is shown only when both ends are numbers.
 const present = (v) => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v));
+
+// The categories whose address or name changed when the word Style left the names. Each old address (the slug of
+// the name as the winners list printed it) points at the category that replaced it, and each old name maps to the
+// current one, so a link such as #category_name=American-Style Pilsener still finds its category.
+export function legacyCategories() {
+  const printed = new Map(Object.entries(legacyCategoryNames()));
+  const current = new Set(site().cats.map((c) => c.slug));
+  const redirects = new Map();
+  for (const [old, name] of printed) {
+    const oldSlug = slugify(old);
+    const hit = site().cats.find((c) => c.name === name);
+    if (hit && !current.has(oldSlug)) redirects.set(oldSlug, { oldSlug, slug: hit.slug, name: hit.name });
+  }
+  return { redirects: [...redirects.values()], names: Object.fromEntries(printed) };
+}
+
+export const legacyCategoryParams = () => legacyCategories().redirects.map((r) => ({ slug: r.oldSlug }));
+export const legacyCategory = (slug) => legacyCategories().redirects.find((r) => r.oldSlug === slug) ?? null;
 
 export function category(slug) {
   const c = site().cats.find((x) => x.slug === slug);

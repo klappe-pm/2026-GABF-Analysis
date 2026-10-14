@@ -15,7 +15,7 @@ Where: links above the title.
 Where: the pills under the title; type, ownership, and channel labels come from labels.yaml.
 
 - `founded`: Founded {{year}}
-- `streak`: {{count}} year medal streak
+- `streak`: {{count}} Year Medal Streak
 - `owner_with_parent`: {{ownership}}: {{parent}}
 
 ## `stats`
@@ -44,7 +44,7 @@ Where: the charts beside the profile card.
 - `by_year_note`: Notes under a year: not founded, not loaded, partial, or no results.
 - `by_family_title`: Medals by Style Family
 - `by_location_title`: Medals by Location Credited
-- `by_location_subtitle`: As printed in the winners list
+- `by_location_subtitle`: As Printed in the Winners List
 - `by_category_title`: Medals by Category
 - `table_status`: Status
 
@@ -66,7 +66,7 @@ Where: the recent years list.
 - `split_gold`: {{count}} gold
 - `split_silver`: {{count}} silver
 - `split_bronze`: {{count}} bronze
-- `no_medal`: No medal in view
+- `no_medal`: No Medal in View
 
 ## `profile`
 
@@ -86,7 +86,7 @@ Where: the profile card, first block.
 - `location_map`: Map
 - `locations_missing`: {{count}} locations in the results. Addresses: {{not_found}}.
 - `locations_missing_one`: 1 location in the results. Address: {{not_found}}.
-- `known_for`: Known For
+- `known_for`: Known for
 - `known_for_missing`: Not Found
 - `missing`: Not Found
 
@@ -209,7 +209,7 @@ Where: the hop farms section, which keeps the two kinds of link apart.
 - `named_label`: Brewery Named This Farm
 - `named_empty`: No beer profile of this brewery names a farm.
 - `named_caption`: Hop farms named by {{brewery_name}} for a hop in a beer profile.
-- `grown_label`: Grown By
+- `grown_label`: Grown by
 - `grown_empty`: No farm is published as growing a hop this brewery uses.
 - `grown_caption`: Hop farms published as growing a hop that {{brewery_name}} uses.
 - `farm`: Farm
@@ -238,8 +238,8 @@ Where: the profile card, extra rows.
 - `link_beeradvocate`: BeerAdvocate
 - `links_checked`: Checked {{date}}
 - `source_line`: Source: {{source}}
-- `source_profile`: Brewery profile
-- `source_override`: Hand checked correction
+- `source_profile`: Brewery Profile
+- `source_override`: Hand Checked Correction
 - `source_open_brewery_db`: Open Brewery DB
 - `current_beers`: Current Beers
 - `current_beers_line`: As of {{date}}, from {{source}}.
@@ -292,5 +292,5 @@ Where: the text inside every estimate tooltip. Tokens in braces are filled from 
 - `input_distribution`: Distribution
 - `input_employees`: Employees
 - `value_barrels`: {{barrels}} ({{basis}})
-- `value_type_assumed`: {{not_found}}, so an assumed generic type is used
-- `value_kitchen_unknown`: {{not_found}}, so no food revenue is added
+- `value_type_assumed`: {{not_found}}, So an Assumed Generic Type Is Used
+- `value_kitchen_unknown`: {{not_found}}, So No Food Revenue Is Added

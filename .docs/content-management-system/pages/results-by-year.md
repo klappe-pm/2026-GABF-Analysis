@@ -6,7 +6,7 @@ Results by year: every medal of one competition year, grouped by category.
 
 Where: top of the page.
 
-- `title`: {{year}} results
+- `title`: {{year}} Results
 - `lede`: {{medal_count}} medals in {{category_count}} categories. Each row links to the brewery, the category, and, for {{profile_year}}, the winning beer.
 - `year_picker`: Year
 
@@ -26,18 +26,18 @@ Where: the summary tiles under the title.
 - `states`: States
 - `categories`: Categories
 - `categories_note`: {{count}} medals in special categories
-- `medal_split`: Gold, silver, bronze
-- `entrants`: Entrants in these categories
+- `medal_split`: Gold, Silver, Bronze
+- `entrants`: Entrants in These Categories
 - `entrants_note`: Sum of category entry counts
-- `entrants_missing`: Not published
+- `entrants_missing`: Not Published
 
 ## `table`
 
 Where: the medal table.
 
-- `title`: All medals
+- `title`: All Medals
 - `group_row`: {{number}}. {{category_name}}
-- `group_entries`: {{count}} entries
+- `group_entries`: {{count}} Entries
 
 ## `empty`
 
