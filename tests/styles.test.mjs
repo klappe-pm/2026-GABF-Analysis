@@ -1,6 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const css = readFileSync(new URL('../site/assets/styles.css', import.meta.url), 'utf8');
 
@@ -25,8 +27,31 @@ test('wide tables in a deep dive scroll sideways instead of widening the page', 
   assert.match(css, /\.prose table \{[^}]*max-width: 100%[^}]*overflow-x: auto/);
 });
 
-test('light and dark tokens exist for the host theme switch', () => {
-  assert.match(css, /@media \(prefers-color-scheme: dark\)\s*\{\s*:root:not\(\[data-theme="light"\]\)/);
-  assert.match(css, /:root\[data-theme="dark"\]/);
+test('the light theme tokens and page background exist', () => {
+  assert.match(css, /:root \{\s*color-scheme: light;/);
   assert.match(css, /body \{[^}]*background: var\(--page\)/);
+});
+
+test('the site ships no dark theme toggle, dark rule, theme attribute or theme storage key', () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const files = [];
+  const walk = (dir, filter) => {
+    if (!existsSync(dir)) return;
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const full = join(dir, entry.name);
+      if (entry.isDirectory()) walk(full, filter);
+      else if (filter(full)) files.push(full);
+    }
+  };
+  walk(join(root, 'site', 'assets'), () => true);
+  walk(join(root, 'site', 'standalone'), () => true);
+  walk(join(root, 'dist'), (f) => /\.(html|css|js|mjs)$/.test(f));
+  for (const f of ['scripts/build-site.mjs', 'scripts/build-standalone.mjs', 'gabf-dashboard.html']) files.push(join(root, f));
+  assert.ok(files.length > 5);
+  for (const file of files.filter((f) => existsSync(f))) {
+    const text = readFileSync(file, 'utf8');
+    const rel = file.slice(root.length);
+    assert.ok(!/prefers-color-scheme\s*:\s*dark/.test(text), `${rel} has a dark prefers-color-scheme rule`);
+    assert.ok(!/theme-toggle|Dark mode|data-theme|gabf-theme/.test(text), `${rel} has dark theme toggle code`);
+  }
 });

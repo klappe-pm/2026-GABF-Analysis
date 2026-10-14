@@ -4,8 +4,6 @@ every page,header brand,GABF Analysis,global.site.identity.name
 every page,skip link,Skip to content,global.site.header.skip_link
 every page,header menu button,Menu,global.site.header.menu_button
 every page,header nav label,Site,global.site.header.nav_label
-every page,header theme toggle,Dark mode,global.site.header.theme_dark
-every page,header theme toggle,Light mode,global.site.header.theme_light
 every page,header nav (not in new nav; see dashboards decision),Dashboards,pages.dashboards.index.title
 every page,header nav,{{year}} winners,global.navigation.header.beers
 every page,header nav (not in new nav; linked from home and beers),First time medalists,pages.first-time-medalists.table.title

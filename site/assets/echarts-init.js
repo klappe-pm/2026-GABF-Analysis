@@ -1,6 +1,6 @@
 // Initialize every [data-echart] figure on the page with Apache ECharts: resolve CSS
-// custom properties to concrete colors for the active theme, register the US map when
-// a chart needs it, keep charts sized on resize, and re-theme them when the theme toggles.
+// custom properties to concrete colors for the light theme, register the US map when
+// a chart needs it, keep charts sized on resize.
 (function () {
   const charts = [];
   const base = window.GABF_BASE || './';
@@ -154,8 +154,6 @@
   }
 
   window.addEventListener('resize', () => charts.forEach((c) => c.chart.resize()));
-  new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-  if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
 
   if (window.claude && typeof window.claude.use === 'function') {
     Promise.resolve(window.claude.use('downloads')).then((d) => { if (d) { hosted = d; retheme(); } }).catch(() => {});

@@ -37,7 +37,7 @@ GitHub Pages serves files only, and the dataset is small (a few hundred medals a
 ## key-decisions
 
 - Node and kebab-case files rather than Python: the owner's other repositories run Node scripts the same way, Python module names cannot be kebab-case, and the pipeline needs no scientific libraries.
-- Apache ECharts draws every chart and the US map. Option builders in `site/assets/chart-options.mjs` run in Node at build time (reports, brewery and category pages embed the option as JSON) and in the browser (dashboards build options from the filtered slice); `site/assets/echarts-init.js` resolves CSS custom properties to concrete colors for the active theme, registers the map, and re-themes on toggle. ECharts is vendored into dist/assets/vendor at build time so the site has no CDN dependency. The earlier hand-rolled SVG module was retired once the owner asked for a widely used library with manipulable dashboards.
+- Apache ECharts draws every chart and the US map. Option builders in `site/assets/chart-options.mjs` run in Node at build time (reports, brewery and category pages embed the option as JSON) and in the browser (dashboards build options from the filtered slice); `site/assets/echarts-init.js` resolves CSS custom properties to concrete colors for the light theme and registers the map. ECharts is vendored into dist/assets/vendor at build time so the site has no CDN dependency. The earlier hand-rolled SVG module was retired once the owner asked for a widely used library with manipulable dashboards.
 - Medal colors follow the dataviz method: gold as the yellow slot, silver as the blue slot, bronze as the orange slot, validated for adjacency in both modes; every chart ships a legend, a hover layer, and a table view.
 - Partial years are first-class: a row whose notes say "Partial seed" marks its year partial, the UI says so, and streaks skip partial years instead of counting them as misses.
 - Brewery identity is a normalized key (`lib/slug.mjs`): corporate suffixes and location suffixes such as "(Costa Mesa)" are folded away so multi-location breweries roll up to one entity while the location credited is kept per medal.
@@ -49,7 +49,7 @@ GitHub Pages serves files only, and the dataset is small (a few hundred medals a
 |---|---|
 | scripts/lib/ | csv, slug, text, parser, style families, style guidelines, estimate, frontmatter, data model, paths |
 | scripts/*.mjs | CLI stages and the orchestrator |
-| site/assets/ | styles.css, charts.mjs (table and figure helpers), chart-options.mjs (ECharts option builders), echarts-init.js, dashboards.js, page.js (sorting, theme), us-states.geo.json |
+| site/assets/ | styles.css, charts.mjs (table and figure helpers), chart-options.mjs (ECharts option builders), echarts-init.js, dashboards.js, page.js (sorting, menu), us-states.geo.json |
 | data/ | raw (PDF text extracts), results, reference, enriched, cache (ignored) |
 | breweries/ | markdown deep dives; template-brewery.md is the scaffold source |
 | tests/ | node test runner suites with fixtures |
