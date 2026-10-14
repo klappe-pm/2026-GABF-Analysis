@@ -1,4 +1,4 @@
-// Site copy lives in content/ as Markdown so it can be read and edited in Obsidian or any
+// Site copy lives in .docs/content-management-system/ as Markdown so it can be read and edited in Obsidian or any
 // Markdown editor. Each file is one copy document:
 //   # Title                      (ignored by the parser)
 //   Prose paragraphs             (notes for the reader; ignored by the parser)
