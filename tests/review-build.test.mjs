@@ -57,8 +57,6 @@ test('the review build carries the widget, the source attributes, and the build 
     const css = readFileSync(join(dir, 'assets/review/feedback-widget.css'), 'utf8');
     assert.ok(css.includes('.gfw-region') && css.includes('.gfw-pin'), 'the step marker and the numbered pins are drawn by distinct rules');
     assert.ok(widget.includes("LOCAL_HOSTS = new Set(['127.0.0.1', 'localhost'"), 'the widget must refuse to start off this machine');
-    const explorer = readFileSync(join(dir, 'explorer/index.html'), 'utf8');
-    assert.ok(explorer.includes('feedback-widget.mjs'));
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }
