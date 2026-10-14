@@ -88,7 +88,7 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
       </header>
       <StateCard kind="notice" title={t(page('definition.title'))}>
         <div className="flex flex-col gap-4">
-          <p>{c.description ?? t(page('definition.missing'))}</p>
+          <p>{c.description ?? t('global.labels.not_found')}</p>
           {scales.length ? <div className="grid gap-6 pt-2 medium:grid-cols-3">{scales}</div> : null}
           <p className="type-body-small">
             {c.special ? t(page('definition.special_note')) : t(page('definition.classic_note'))}

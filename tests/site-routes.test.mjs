@@ -10,8 +10,6 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 // When a lane lands a route, its PENDING line must go: the test fails while a pending address is routed.
 
 const PENDING = [
-  // breweries lane
-  '/breweries/<brewery>/', '/first-time-medalists/2026/',
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).

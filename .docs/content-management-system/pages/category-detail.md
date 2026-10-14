@@ -6,8 +6,8 @@ Category detail: one category's definition, entries by year, and every medalist.
 
 Where: links above the title.
 
-- `back`: All categories
-- `chart_this`: Chart this category
+- `back`: All Categories
+- `chart_this`: Chart This Category
 
 ## `pills`
 
@@ -22,8 +22,7 @@ Where: the pills under the title; type and family labels come from labels.yaml.
 
 Where: the definition card.
 
-- `title`: Style definition
-- `missing`: Not defined
+- `title`: Style Definition
 - `special_note`: Special categories are judged on an added ingredient, a process, or a nonstandard base, not on one classic style.
 - `classic_note`: Classic style categories are judged against one Brewers Association style description.
 - `source`: Source: {{source}}
@@ -42,7 +41,7 @@ Where: the labels of the style range scales in the definition card. Each scale r
 
 Where: the entrants chart, or the card that replaces it.
 
-- `title`: Entrants by year
+- `title`: Entrants by Year
 - `subtitle`: How crowded the category is
 - `series`: Entries
 - `one_year`: {{count}} entries in {{year}}. A trend needs a second year with entry counts in view.
@@ -52,7 +51,7 @@ Where: the entrants chart, or the card that replaces it.
 
 Where: the medalists section.
 
-- `title`: Medalists by year
+- `title`: Medalists by Year
 - `year_heading`: {{year}}
 - `year_heading_number`: {{year}} · Category {{number}}
 - `year_heading_entrants`: {{year}} · Category {{number}} · {{count}} entrants

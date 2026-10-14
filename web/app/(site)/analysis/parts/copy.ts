@@ -15,7 +15,7 @@ export const viewCopy = (): ViewCopy => ({
   emptyScope: t('global.states.empty_scope.page'),
   partialOne: raw('global.states.partial_notice.one'),
   partialMany: raw('global.states.partial_notice.many'),
-  notDefined: t('global.states.gaps.not_defined'),
+  notDefined: t('global.labels.not_found'),
   medals: group('global.labels.medal'),
 });
 

@@ -6,14 +6,14 @@ Explore: every medal in one searchable table, with your own awards added from a 
 
 Where: top of the page.
 
-- `title`: Explore the awards
+- `title`: Explore the Awards
 - `lede`: Search every award, add past awards from your own CSV, and narrow by competition section, investors, and category characteristics. The table also follows Filters.
 
 ## `search`
 
 Where: the search field above the table.
 
-- `label`: Search awards
+- `label`: Search Awards
 - `placeholder`: Beer, brewery, city, or owner
 - `hint`: Every word you enter must match.
 
@@ -21,20 +21,20 @@ Where: the search field above the table.
 
 Where: the extra filters beside the search field.
 
-- `title`: More filters
-- `reset`: Reset these filters
-- `section`: Competition section
-- `section_all`: All sections
+- `title`: More Filters
+- `reset`: Reset These Filters
+- `section`: Competition Section
+- `section_all`: All Sections
 - `investors`: Investors
 - `investors_placeholder`: Part of an investor name
-- `trait`: Category characteristic
-- `trait_all`: All characteristics
+- `trait`: Category Characteristic
+- `trait_all`: All Characteristics
 
 ### `sections`
 
 Where: the competition section options; the keys are the values in the data.
 
-- `main`: Main competition
+- `main`: Main Competition
 - `pro-am`: Pro-Am
 - `collaboration`: Collaboration
 
@@ -42,14 +42,14 @@ Where: the competition section options; the keys are the values in the data.
 
 Where: the category characteristic options; each is found by words in the category name.
 
-- `sour`: Sour or wild category
-- `fruit`: Fruit category
-- `spice`: Herb or spice category
-- `coffee`: Coffee category
-- `chocolate`: Chocolate category
-- `barrel_aged`: Wood or barrel category
-- `non_alcoholic`: Nonalcoholic category
-- `gluten_free`: Gluten-free category
+- `sour`: Sour or Wild Category
+- `fruit`: Fruit Category
+- `spice`: Herb or Spice Category
+- `coffee`: Coffee Category
+- `chocolate`: Chocolate Category
+- `barrel_aged`: Wood or Barrel Category
+- `non_alcoholic`: Nonalcoholic Category
+- `gluten_free`: Gluten-Free Category
 
 ## `table`
 
@@ -68,20 +68,20 @@ Where: the award table.
 - `beer`: Beer
 - `brewery`: Brewery
 - `city`: City
-- `category`: Award category
-- `family`: Style family
+- `category`: Award Category
+- `family`: Style Family
 - `owner`: Owner
 
 ## `import`
 
 Where: the import card.
 
-- `title`: Import awards from a CSV
+- `title`: Import Awards from a CSV
 - `privacy`: Your file is read in this browser and is never uploaded. Imported awards stay on this page until you leave it or remove them.
 - `help`: Required columns: year, medal, beer, brewery, city, state, and category. Identical award rows are skipped. Other columns are ignored.
-- `choose_file`: Choose a CSV file
+- `choose_file`: Choose a CSV File
 - `result`: Imported: {{added}} added, {{skipped}} skipped.
-- `remove`: Remove imported awards
+- `remove`: Remove Imported Awards
 - `removed`: Imported awards removed.
 - `reading`: Reading and checking the CSV…
 
@@ -102,8 +102,8 @@ Where: the import card.
 
 Where: the links under the header.
 
-- `saved_views`: Keep this view in Saved views
-- `back`: All analysis
+- `saved_views`: Keep This View in Saved Views
+- `back`: All Analysis
 
 ## `empty`
 

@@ -146,7 +146,7 @@ export default async function ReportPage({ params }: { params: Promise<Params> }
           view,
           regions: { title: t(R('regions_title')) },
           divisions: { title: t(R('divisions_title')) },
-          unknown: t(R('unknown')),
+          unknown: t('global.labels.not_found'),
           valueName: medalsUnit,
           columns: { name: col('place_columns', 'name'), medals: col('place_columns', 'medals'), split: col('brewery_columns', 'medal_split'), breweries: col('place_columns', 'breweries'), states: col('place_columns', 'states'), perMillion: col('place_columns', 'per_million') },
           tableSummary,

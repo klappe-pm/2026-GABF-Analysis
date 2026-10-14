@@ -576,8 +576,6 @@ single file dashboard (gabf-dashboard.html),brewery tab notice,Some years for th
 /categories/{slug}/,pill,SRM {{min}} to {{max}},pages.category-detail.pills.srm
 /categories/{slug}/,pill,{{count}} entrants in {{year}},pages.category-detail.pills.entrants
 /categories/{slug}/,h2,definition,pages.category-detail.definition.title
-/categories/{slug}/,definition missing,No style description is on file for this category yet.,pages.category-detail.definition.missing
-/categories/{slug}/,definition missing (main),No definition loaded yet. Run the style guidelines import or add a row to data/reference/categories.csv.,pages.category-detail.definition.missing
 /categories/{slug}/,definition note,"Special categories are judged on an added ingredient, process, or nonstandard base rather than a single classic style.",pages.category-detail.definition.special_note
 /categories/{slug}/,definition note,Classic style categories are judged against a single Brewers Association style description.,pages.category-detail.definition.classic_note
 /categories/{slug}/,definition source,Source: {{source}} ({{confidence}}),pages.category-detail.definition.source_with_confidence
