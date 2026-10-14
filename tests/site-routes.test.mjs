@@ -10,19 +10,10 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 // When a lane lands a route, its PENDING line must go: the test fails while a pending address is routed.
 
 const PENDING = [
-  // retired: the explorer is replaced by /analysis/explore/ and a redirect, both from the analysis lane
-  '/explorer/',
-  // categories and analysis lane
-  '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
-  // new addresses (owner decisions): reports move to /analysis/, and the Method and Saved views pages
-  '/analysis/', '/analysis/<report>/', '/method/', '/saved/',
 ];
 
-// Addresses the static site never had, which the navigation and footer link to.
-const NEW_ADDRESSES = ['/overview/', '/analysis/', '/analysis/<report>/', '/method/', '/saved/'];
-
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).
-const REDIRECTS = {};
+const REDIRECTS = { '/reports/': '/analysis/', '/reports/<report>/': '/analysis/<report>/', '/explorer/': '/analysis/explore/' };
 
 // Routes that exist only as a placeholder for a pending lane.
 const PLACEHOLDERS = new Set();
@@ -95,11 +86,6 @@ test('every current address has a route, a redirect, or a pending lane', () => {
   assert.deepEqual(missing, [], 'addresses with no route in web/app and no pending lane');
 });
 
-test('every new address the navigation links to has a route or a pending lane', () => {
-  assert.deepEqual(NEW_ADDRESSES.filter((p) => !routed(p) && !pending(p)), []);
-  assert.ok(routed('/overview/'), '/overview/');
-});
-
 test('a ported address leaves the pending list', () => {
   const stale = PENDING.filter((p) => routed(p) && !PLACEHOLDERS.has(p));
   assert.deepEqual(stale, [], 'routed in web/app: remove these from PENDING');
@@ -112,4 +98,16 @@ test('the method and saved views pages are routed', () => {
 
 test('the reference port is routed', () => {
   for (const p of ['/beers/2026/', '/beers/2026/<beer>/', '/data/results.json', '/data/meta.json', '/design-system/']) assert.ok(routed(p), p);
+});
+
+test('a moved address is routed to a redirect page and its new address is routed', () => {
+  for (const [from, to] of Object.entries(REDIRECTS)) {
+    assert.ok(routed(from), `${from} keeps a page that forwards to ${to}`);
+    assert.ok(routed(to), `${to} is routed`);
+  }
+  const moved = readFileSync(resolve(APP, '(site)', 'analysis', 'parts', 'moved.tsx'), 'utf8');
+  assert.match(moved, /httpEquiv="refresh"/, 'a meta refresh to the new address');
+  assert.match(moved, /alternates: \{ canonical: canonical\(to\) \}/, 'a canonical link to the new address');
+  assert.match(moved, /robots: \{ index: false/, 'marked noindex');
+  assert.match(moved, /<TextLink href=\{href\(to\)\}>/, 'a plain link for readers whose browsers do not follow the refresh');
 });

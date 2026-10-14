@@ -30,7 +30,6 @@ export const paths = {
   hopFarms: '/hop-farms/',
   hopFarm: (slug: string) => `/hop-farms/${slug}/`,
   dashboards: '/dashboards/',
-  explorer: '/explorer/',
   about: '/about/',
   method: '/method/',
   saved: '/saved/',

@@ -38,7 +38,7 @@ export function Profile({ b, copy: c, estimate }: { b: BreweryRecord; copy: Copy
   const o = b.ownership;
   const yesNo = (v: boolean | null) => (v === null ? nd : c.yes_no[v ? 'yes' : 'no']);
   const mark = (id: string, metric: Metric) => (
-    <EstimateTooltip id={`est-${b.slug}-${id}`} marker={c.est_state.marker} label={markLabel(metric, estimate)} explanation={explain(metric, est, estimate)} link={{ href: href(paths.about), text: c.scale.method_link }} />
+    <EstimateTooltip id={`est-${b.slug}-${id}`} marker={c.est_state.marker} label={markLabel(metric, estimate)} explanation={explain(metric, est, estimate)} linkText={c.scale.method_link} />
   );
   const medalNames = c.medal as Record<MedalName, string>;
   const extLink = (url: string, text?: string) => <TextLink href={url} rel="noopener">{text ?? url.replace(/^https?:\/\//, '').replace(/\/$/, '')}</TextLink>;

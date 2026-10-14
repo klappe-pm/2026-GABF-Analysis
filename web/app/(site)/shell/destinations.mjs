@@ -14,7 +14,7 @@ export function primaryDestinations(paths, winnerYear) {
     { id: 'hops', copy: 'hops', icon: 'hop', path: paths.hops, match: [paths.hops] },
     { id: 'hop-farms', copy: 'hop_farms', icon: 'farm', path: paths.hopFarms, match: [paths.hopFarms] },
     // Analysis keeps the old report addresses and the retired explorer, which fold into it.
-    { id: 'analysis', copy: 'analysis', icon: 'chart', path: paths.analysis, match: [paths.analysis, '/reports/', paths.explorer] },
+    { id: 'analysis', copy: 'analysis', icon: 'chart', path: paths.analysis, match: [paths.analysis, '/reports/', '/explorer/'] },
   ];
 }
 

@@ -16,8 +16,6 @@ const SITE = {
   footer: ['/index.html', '.site-footer'],
   tabs: ['/dashboards/breweries/index.html', 'nav.dash-nav'],
   chips: ['/index.html', '.coverage'],
-  'side-sheet': ['/explorer/index.html', 'aside.sidebar'],
-  'explorer-app': ['/explorer/index.html', 'body'],
 };
 
 async function main() {
