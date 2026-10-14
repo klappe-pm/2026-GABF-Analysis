@@ -53,9 +53,9 @@ export default async function HopsPage() {
       <header className="flex flex-col gap-3">
         <h1 className="type-display-small text-on-surface">{t(page('page.title'))}</h1>
         <p className="type-body-large max-w-measure text-on-surface-variant">{fill(raw(page('page.lede')), { year })}</p>
-        <p className="flex flex-wrap gap-2">
-          <md-outlined-button href={href(paths.hopFarms)}>{t(page('links.farms'))}</md-outlined-button>
-          <md-outlined-button href={href(paths.winners(year))}>{fill(raw(page('links.winners')), { year })}</md-outlined-button>
+        <p className="type-body-large flex flex-wrap gap-x-6 gap-y-2">
+          <TextLink href={href(paths.hopFarms)}>{t(page('links.farms'))}</TextLink>
+          <TextLink href={href(paths.winners(year))}>{fill(raw(page('links.winners')), { year })}</TextLink>
         </p>
       </header>
       <FieldGrid label={t(page('page.title'))}>

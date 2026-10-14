@@ -53,8 +53,6 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
   const none = notDefined();
 
   const dataRows = ([
-    h.breeder ? { label: copy('data.breeder'), value: h.breeder } : null,
-    h.origin ? { label: copy('data.origin'), value: h.origin } : null,
     h.aliases.length ? { label: copy('data.aliases'), value: h.aliases.join(', ') } : null,
     ...h.data.map((d) => ({ label: d.label, value: d.max !== undefined ? fill(raw('pages.hop-detail.data.range'), { min: d.value, max: d.max }) : d.value })),
     ...h.sourceRows.map((s) => ({ label: s.label, value: <Sources sources={s.sources} /> })),
@@ -101,16 +99,10 @@ export default async function HopPage({ params }: { params: Promise<Params> }) {
       />
       <header className="flex flex-col gap-3">
         <h1 className="type-display-small text-on-surface">{h.name}</h1>
-        <p className="type-body-large flex max-w-measure flex-wrap gap-x-6 gap-y-1 text-on-surface-variant">
-          {h.origin ? <span>{copy('pills.origin', { origin: h.origin })}</span> : null}
-          {h.breeder ? <span>{copy('pills.breeder', { breeder: h.breeder })}</span> : null}
-          {h.aliases.length ? <span>{copy('pills.aliases', { aliases: h.aliases.join(', ') })}</span> : null}
-          <span>{copy('pills.medal_beers', { count: h.counts.beers, year })}</span>
-        </p>
         <p className="type-body-large"><TextLink href={href(paths.hopFarms)}>{copy('links.farms')}</TextLink></p>
       </header>
 
-      <div className="grid grid-cols-1 items-start gap-6 expanded:grid-cols-2">
+      <div className="flex flex-col gap-6">
         <HopProfileCard data={hopCardData(h, { link: false })} headingLevel={2} />
         {dataRows.length ? <SpecCard id="variety-data" title={copy('data.title')} rows={dataRows} /> : <p className="type-body-medium text-on-surface-variant">{copy('data.missing')}</p>}
       </div>
