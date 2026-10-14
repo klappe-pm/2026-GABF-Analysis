@@ -14,7 +14,7 @@ import type { BeerRef, Cell, FarmLink, HopCard, Source, Table } from './data';
 import type { FilteredCopy } from './filtered';
 
 export const raw = (key: string) => lookup(key) as string;
-export const notDefined = () => t('global.states.gaps.not_defined');
+export const notDefined = () => t('global.labels.not_found');
 
 // Sources as links, one under another. Plain text sources stay text.
 export function Sources({ sources }: { sources: Source[] }) {
@@ -93,7 +93,7 @@ export function ReferenceTable({ table, caption, sortHint }: { table: Table; cap
 // The data a hop profile card draws. `link` adds the line to the hop's own page.
 export function hopCardData(h: HopCard, { link = true }: { link?: boolean } = {}): HopCardData {
   const none = notDefined();
-  const hc = (k: string) => t(`pages.profile-cards.hop.${k}`, k === 'beers' ? { year: WINNER_YEAR } : {});
+  const hc = (k: string) => t(`pages.hop-detail.card.${k}`, k === 'beers' ? { year: WINNER_YEAR } : {});
   const detail = (k: string) => t(`pages.hop-detail.data.${k}`);
   const card = (k: string, v: Record<string, string | number>) => fill(raw(`pages.hop-detail.card.${k}`), v);
   return {
@@ -129,7 +129,7 @@ export function filteredCopy(): FilteredCopy {
     emptyTitle: t('global.states.no_results.title'),
     emptyHint: t('global.states.no_results.remove_hint'),
     fixedYear: fill(raw('global.filters.chips.fixed_year'), { year: WINNER_YEAR }),
-    cardsTitle: t('pages.profile-cards.beer.section'),
+    cardsTitle: t('pages.hop-detail.beers.cards_title'),
   };
 }
 

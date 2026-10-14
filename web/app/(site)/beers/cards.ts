@@ -16,7 +16,7 @@ export type BeerCardRecord = Omit<BeerRecord, 'notesHtml'>;
 // `inList` adds the link to the beer's own page, which a card on the beer's own page leaves out for the
 // link to the beer's page at the brewery.
 export function beerCardData(b: BeerCardRecord, { inList = false }: { inList?: boolean } = {}): BeerCardData {
-  const none = copy('specs.not_published');
+  const none = t('global.labels.not_found');
   const medals = group('global.labels.medal');
   const note = b.tastingNote ? { label: copy('card.tasting_note'), ...b.tastingNote } : b.description ? { label: copy('card.description'), ...b.description } : null;
   return {
@@ -40,7 +40,7 @@ export function beerCardData(b: BeerCardRecord, { inList = false }: { inList?: b
     note: note ? { label: note.label, text: note.text, source: note.source ? { href: note.source, text: fill(raw('pages.beer-detail.card.source'), { site: site(note.source) }) } : undefined } : null,
     noNote: none,
     link: inList
-      ? { href: href(paths.beer(b.year, b.stem)), text: t('pages.profile-cards.beer.deep_dive') }
+      ? { href: href(paths.beer(b.year, b.stem)), text: copy('card.open') }
       : b.beerUrl ? { href: b.beerUrl, text: copy('card.beer_page') } : undefined,
   };
 }

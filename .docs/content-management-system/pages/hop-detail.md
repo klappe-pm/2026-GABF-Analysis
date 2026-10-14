@@ -6,8 +6,8 @@ One hop variety: its data, aroma, US acreage by state, the medal beers that use 
 
 Where: links above the title.
 
-- `back`: All hops
-- `farms`: All hop farms
+- `back`: All Hops
+- `farms`: All Hop Farms
 
 ## `pills`
 
@@ -22,10 +22,10 @@ Where: the line under the hop name.
 
 Where: the variety data card.
 
-- `title`: Variety data
+- `title`: Variety Data
 - `breeder`: Breeder
-- `origin`: Origin country
-- `aliases`: Also published as
+- `origin`: Origin Country
+- `aliases`: Also Published as
 - `missing`: No variety data has been published for this hop yet.
 - `range`: {{min}} to {{max}}
 
@@ -36,6 +36,14 @@ Where: the hop profile card at the top of the page.
 - `range_percent`: {{min}} to {{max}}%
 - `oil_range`: {{min}} to {{max}} mL per 100 g
 - `farm_line`: {{farm_name}}, {{state}}
+- `section`: Hop Profile Cards
+- `alpha`: Alpha Acid
+- `oil`: Oils
+- `acreage`: US Acreage
+- `beers`: Medal Beers in {{year}}
+- `aroma`: Aroma
+- `farms`: Grown By
+- `open`: Open the Hop Page
 
 ## `unfiltered`
 
@@ -53,7 +61,7 @@ Where: every table on the page.
 
 Where: the aroma section.
 
-- `title`: Aroma descriptors
+- `title`: Aroma Descriptors
 - `note`: Each descriptor is attributed to the source that published it.
 - `descriptor`: Descriptor
 - `source`: Source
@@ -63,24 +71,24 @@ Where: the aroma section.
 
 Where: the US acreage section.
 
-- `title`: US acreage by state
+- `title`: US Acreage by State
 - `state`: State
 - `year`: Year
 - `acres`: Acres
 - `production`: Production
 - `source`: Source
 - `missing`: No US acreage has been published for this hop yet.
-- `chart_title`: US acres by year
+- `chart_title`: US Acres by Year
 - `chart_note`: Acres of this hop that each state reported in each year. A year a state did not report is a gap in its line.
 - `name_column`: Measure
-- `table_summary`: Show the acreage as a table
+- `table_summary`: Show the Acreage as a Table
 - `chart_label`: Line chart of the US acres of {{name}} by year
 
 ## `beers`
 
 Where: the medal beers section.
 
-- `title`: {{year}} medal beers that use it
+- `title`: {{year}} Medal Beers That Use It
 - `note`: The farm column shows only a farm the brewery itself named for this hop.
 - `medal`: Medal
 - `beer`: Beer
@@ -88,14 +96,15 @@ Where: the medal beers section.
 - `category`: Category
 - `form`: Form
 - `use`: Use
-- `farm`: Farm named by the brewery
+- `farm`: Farm Named by the Brewery
 - `missing`: No {{year}} medal beer is on record for this hop.
+- `cards_title`: Beer Profile Cards
 
 ## `farms`
 
 Where: the farms section.
 
-- `title`: Farms that grow it
+- `title`: Farms That Grow It
 - `label`: Grown by.
 - `note`: These farms publish this variety as grown. It does not mean a medal beer used hops from that farm.
 - `farm`: Farm
@@ -109,17 +118,17 @@ Where: the farms section.
 
 Where: the breweries section.
 
-- `title`: Breweries with a {{year}} medal beer that uses it
+- `title`: Breweries With a {{year}} Medal Beer That Uses It
 - `note`: Each brewery links to its page.
 - `brewery`: Brewery
-- `beers`: Medal beers
+- `beers`: Medal Beers
 - `missing`: No brewery has a {{year}} medal beer on record for this hop.
 
 ## `doc`
 
 Where: the research notes under the farms section, when a research document exists for the hop.
 
-- `title`: Research notes
+- `title`: Research Notes
 
 ## `meta`
 

@@ -55,7 +55,7 @@ export async function HopProfile({ stem }: { stem: string }) {
 
       {p.cards.length ? (
         <div className="flex flex-col gap-3">
-          <h3 className="type-title-large text-on-surface">{t('pages.profile-cards.hop.section')}</h3>
+          <h3 className="type-title-large text-on-surface">{t('pages.hop-detail.card.section')}</h3>
           <div className="grid grid-cols-1 gap-4 medium:grid-cols-2 expanded:grid-cols-3">
             {p.cards.map((c) => <HopProfileCard key={c.slug} data={hopCardData(c)} headingLevel={4} />)}
           </div>

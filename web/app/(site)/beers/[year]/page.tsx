@@ -47,7 +47,7 @@ export default async function WinnersPage({ params }: { params: Promise<Params> 
     },
     categoryCell: raw(page('table.group_row')),
     medals: group('global.labels.medal'),
-    notPublished: t(page('table.not_published')),
+    notPublished: t('global.labels.not_found'),
     countOne: t('global.filters.live_region.one'),
     countMany: raw('global.filters.live_region.many'),
     fixedYear: fill(raw('global.filters.chips.fixed_year'), { year }),

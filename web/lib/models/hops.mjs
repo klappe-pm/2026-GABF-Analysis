@@ -44,7 +44,10 @@ function sourceRowsOf(list) {
 }
 
 const stateName = (code) => (code ? site().ds.stateByCode?.[code]?.name ?? code : '');
-const label = (key) => humanize(String(key).replace(/_/g, '-'));
+// A recorded column name as a label: "year note" reads Year Note. Small joining words stay lower case.
+const SMALL = new Set(['a', 'an', 'and', 'as', 'at', 'by', 'for', 'in', 'of', 'on', 'or', 'the', 'to']);
+const titleCase = (text) => text.split(' ').map((w, i) => (!w ? w : i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w[0].toUpperCase() + w.slice(1))).join(' ');
+const label = (key) => titleCase(humanize(String(key).replace(/_/g, '-')));
 const word = (v) => valueLabel('hop_value', v);
 
 // A reference table cell: text, or the sources it names when the column holds links.

@@ -78,7 +78,7 @@ test('the farms index groups every farm under one state, states first and the un
   assert.deepEqual(names, [...names].sort((a, b) => a.localeCompare(b)));
   assert.ok(index.merchants && index.merchants.columns.length && index.merchants.rows.length, 'merchants table');
   assert.ok(index.gaps && index.gaps.rows.length, 'gaps table');
-  for (const col of index.merchants.columns) assert.ok(!col.label.includes('_'), `column label ${col.label}`);
+  for (const col of index.merchants.columns) assert.ok(!col.label.includes('_') && col.label.split(' ').every((w) => w[0] === w[0].toUpperCase() || ['a','an','and','as','at','by','for','in','of','on','or','the','to'].includes(w)), `column label ${col.label}`);
 });
 
 test('a multi link source cell becomes one source per link', () => {
