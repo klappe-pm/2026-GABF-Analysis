@@ -9,6 +9,7 @@ name: chart-frame
 related:
   - medal-mark
   - ruled-table
+status: review
 title: Chart frame
 tokens:
   - font.family.narrow

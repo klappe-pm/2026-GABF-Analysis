@@ -7,6 +7,7 @@ name: button
 related:
   - icon
   - text-link
+status: review
 title: Button
 tokens:
   - duration.quick

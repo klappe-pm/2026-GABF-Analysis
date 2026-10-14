@@ -1,5 +1,6 @@
 ---
 name: color
+status: review
 title: Color
 tokens:
   - color.*

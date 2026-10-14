@@ -7,6 +7,7 @@ content:
 name: medal-mark
 related:
   - medal-record
+status: review
 title: Medal mark
 tokens:
   - font.family.narrow

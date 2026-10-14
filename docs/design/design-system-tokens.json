@@ -2028,6 +2028,7 @@
       "id": "component.active-filters",
       "kind": "component",
       "title": "Active filters",
+      "status": "review",
       "spec": ".design/design-system/components/active-filters/spec.md",
       "code": "web/components/ActiveFilters.tsx",
       "tokens": [
@@ -2053,6 +2054,7 @@
       "id": "component.breadcrumb",
       "kind": "component",
       "title": "Breadcrumb",
+      "status": "review",
       "spec": ".design/design-system/components/breadcrumb/spec.md",
       "code": "web/components/Breadcrumb.tsx",
       "tokens": [
@@ -2078,6 +2080,7 @@
       "id": "component.button",
       "kind": "component",
       "title": "Button",
+      "status": "review",
       "spec": ".design/design-system/components/button/spec.md",
       "code": "web/components/Button.tsx",
       "tokens": [
@@ -2111,6 +2114,7 @@
       "id": "component.chart-frame",
       "kind": "component",
       "title": "Chart frame",
+      "status": "review",
       "spec": ".design/design-system/components/chart-frame/spec.md",
       "code": "web/components/ChartFrame.tsx",
       "tokens": [
@@ -2148,6 +2152,7 @@
       "id": "component.checkbox",
       "kind": "component",
       "title": "Checkbox",
+      "status": "review",
       "spec": ".design/design-system/components/checkbox/spec.md",
       "code": "web/components/Checkbox.tsx",
       "tokens": [
@@ -2177,6 +2182,7 @@
       "id": "component.estimate-popover",
       "kind": "component",
       "title": "Estimate note",
+      "status": "review",
       "spec": ".design/design-system/components/estimate-popover/spec.md",
       "code": "web/components/EstimatePopover.tsx",
       "tokens": [
@@ -2205,6 +2211,7 @@
       "id": "component.filters-sheet",
       "kind": "component",
       "title": "Filters sheet",
+      "status": "review",
       "spec": ".design/design-system/components/filters-sheet/spec.md",
       "code": "web/components/FiltersSheet.tsx",
       "tokens": [
@@ -2248,6 +2255,7 @@
       "id": "component.form-field",
       "kind": "component",
       "title": "Form field",
+      "status": "review",
       "spec": ".design/design-system/components/form-field/spec.md",
       "code": "web/components/FormField.tsx",
       "tokens": [
@@ -2280,6 +2288,7 @@
       "id": "component.form-header",
       "kind": "component",
       "title": "Form header",
+      "status": "review",
       "spec": ".design/design-system/components/form-header/spec.md",
       "code": "web/components/FormHeader.tsx",
       "tokens": [
@@ -2320,6 +2329,7 @@
       "id": "component.form-note",
       "kind": "component",
       "title": "Form notes",
+      "status": "review",
       "spec": ".design/design-system/components/form-note/spec.md",
       "code": "web/components/FormNote.tsx",
       "tokens": [
@@ -2355,6 +2365,7 @@
       "id": "component.icon",
       "kind": "component",
       "title": "Icons",
+      "status": "review",
       "spec": ".design/design-system/components/icon/spec.md",
       "code": "web/components/Icon.tsx",
       "tokens": [
@@ -2369,6 +2380,7 @@
       "id": "component.medal-mark",
       "kind": "component",
       "title": "Medal mark",
+      "status": "review",
       "spec": ".design/design-system/components/medal-mark/spec.md",
       "code": "web/components/MedalMark.tsx",
       "tokens": [
@@ -2395,6 +2407,7 @@
       "id": "component.medal-record",
       "kind": "component",
       "title": "Medal record",
+      "status": "review",
       "spec": ".design/design-system/components/medal-record/spec.md",
       "code": "web/components/MedalRecord.tsx",
       "tokens": [
@@ -2424,6 +2437,7 @@
       "id": "component.range-scale",
       "kind": "component",
       "title": "Range scale",
+      "status": "review",
       "spec": ".design/design-system/components/range-scale/spec.md",
       "code": "web/components/RangeScale.tsx",
       "tokens": [
@@ -2465,6 +2479,7 @@
       "id": "component.red-pen-note",
       "kind": "component",
       "title": "Red pen note",
+      "status": "review",
       "spec": ".design/design-system/components/red-pen-note/spec.md",
       "code": "web/components/RedPenNote.tsx",
       "tokens": [
@@ -2490,6 +2505,7 @@
       "id": "component.ruled-table",
       "kind": "component",
       "title": "Ruled table",
+      "status": "review",
       "spec": ".design/design-system/components/ruled-table/spec.md",
       "code": "web/components/RuledTable.tsx",
       "tokens": [
@@ -2527,6 +2543,7 @@
       "id": "component.search-field",
       "kind": "component",
       "title": "Search field",
+      "status": "review",
       "spec": ".design/design-system/components/search-field/spec.md",
       "code": "web/components/SearchField.tsx",
       "tokens": [
@@ -2553,6 +2570,7 @@
       "id": "component.section-header",
       "kind": "component",
       "title": "Section header",
+      "status": "review",
       "spec": ".design/design-system/components/section-header/spec.md",
       "code": "web/components/SectionHeader.tsx",
       "tokens": [
@@ -2577,6 +2595,7 @@
       "id": "component.select",
       "kind": "component",
       "title": "Select",
+      "status": "review",
       "spec": ".design/design-system/components/select/spec.md",
       "code": "web/components/Select.tsx",
       "tokens": [
@@ -2604,6 +2623,7 @@
       "id": "component.status-stamp",
       "kind": "component",
       "title": "Status stamp",
+      "status": "review",
       "spec": ".design/design-system/components/status-stamp/spec.md",
       "code": "web/components/StatusStamp.tsx",
       "tokens": [
@@ -2630,6 +2650,7 @@
       "id": "component.text-link",
       "kind": "component",
       "title": "Link",
+      "status": "review",
       "spec": ".design/design-system/components/text-link/spec.md",
       "code": "web/components/TextLink.tsx",
       "tokens": [
@@ -2649,6 +2670,7 @@
       "id": "component.theme-toggle",
       "kind": "component",
       "title": "Theme toggle",
+      "status": "review",
       "spec": ".design/design-system/components/theme-toggle/spec.md",
       "code": "web/components/ThemeToggle.tsx",
       "tokens": [

@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { SectionHeader } from '@/components/SectionHeader';
 import { TextLink } from '@/components/TextLink';
+import { t } from '@/lib/content';
 import { firstParagraph, spec } from '@/lib/system';
 import { SOURCE_URL } from '@/lib/repo';
 
@@ -33,7 +34,12 @@ export function Specimen({ name, title, specLink, children, columns = 'md:grid-c
         level={3}
         title={title}
         lead={firstParagraph(s.sections['Purpose and when to use'] ?? '')}
-        aside={<span className="text-data"><TextLink href={`${SOURCE_URL}/${s.path}`}>{specLink}</TextLink></span>}
+        aside={(
+          <span className="flex flex-wrap items-baseline gap-4 text-data">
+            <span className="text-ink-muted">{t('pages.design-system.status.label')}: {t(`pages.design-system.status.${s.status}`)}</span>
+            <TextLink href={`${SOURCE_URL}/${s.path}`}>{specLink}</TextLink>
+          </span>
+        )}
       />
       <div className={`grid grid-cols-1 gap-6 ${columns}`}>{children}</div>
     </article>

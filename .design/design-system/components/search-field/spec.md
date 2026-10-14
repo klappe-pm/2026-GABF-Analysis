@@ -8,6 +8,7 @@ related:
   - filters-sheet
   - form-field
   - icon
+status: review
 title: Search field
 tokens:
   - rule.hairline

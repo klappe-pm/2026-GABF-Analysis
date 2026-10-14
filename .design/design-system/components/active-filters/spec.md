@@ -6,6 +6,7 @@ name: active-filters
 related:
   - filters-sheet
   - icon
+status: review
 title: Active filters
 tokens:
   - font.family.narrow

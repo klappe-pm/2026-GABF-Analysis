@@ -1012,6 +1012,7 @@
     {
       "name": "active-filters",
       "title": "Active filters",
+      "status": "review",
       "spec": ".design/design-system/components/active-filters/spec.md",
       "code": "web/components/ActiveFilters.tsx",
       "tokens": [
@@ -1040,6 +1041,7 @@
     {
       "name": "breadcrumb",
       "title": "Breadcrumb",
+      "status": "review",
       "spec": ".design/design-system/components/breadcrumb/spec.md",
       "code": "web/components/Breadcrumb.tsx",
       "tokens": [
@@ -1068,6 +1070,7 @@
     {
       "name": "button",
       "title": "Button",
+      "status": "review",
       "spec": ".design/design-system/components/button/spec.md",
       "code": "web/components/Button.tsx",
       "tokens": [
@@ -1104,6 +1107,7 @@
     {
       "name": "chart-frame",
       "title": "Chart frame",
+      "status": "review",
       "spec": ".design/design-system/components/chart-frame/spec.md",
       "code": "web/components/ChartFrame.tsx",
       "tokens": [
@@ -1144,6 +1148,7 @@
     {
       "name": "checkbox",
       "title": "Checkbox",
+      "status": "review",
       "spec": ".design/design-system/components/checkbox/spec.md",
       "code": "web/components/Checkbox.tsx",
       "tokens": [
@@ -1176,6 +1181,7 @@
     {
       "name": "estimate-popover",
       "title": "Estimate note",
+      "status": "review",
       "spec": ".design/design-system/components/estimate-popover/spec.md",
       "code": "web/components/EstimatePopover.tsx",
       "tokens": [
@@ -1207,6 +1213,7 @@
     {
       "name": "filters-sheet",
       "title": "Filters sheet",
+      "status": "review",
       "spec": ".design/design-system/components/filters-sheet/spec.md",
       "code": "web/components/FiltersSheet.tsx",
       "tokens": [
@@ -1257,6 +1264,7 @@
     {
       "name": "form-field",
       "title": "Form field",
+      "status": "review",
       "spec": ".design/design-system/components/form-field/spec.md",
       "code": "web/components/FormField.tsx",
       "tokens": [
@@ -1294,6 +1302,7 @@
     {
       "name": "form-header",
       "title": "Form header",
+      "status": "review",
       "spec": ".design/design-system/components/form-header/spec.md",
       "code": "web/components/FormHeader.tsx",
       "tokens": [
@@ -1339,6 +1348,7 @@
     {
       "name": "form-note",
       "title": "Form notes",
+      "status": "review",
       "spec": ".design/design-system/components/form-note/spec.md",
       "code": "web/components/FormNote.tsx",
       "tokens": [
@@ -1377,6 +1387,7 @@
     {
       "name": "icon",
       "title": "Icons",
+      "status": "review",
       "spec": ".design/design-system/components/icon/spec.md",
       "code": "web/components/Icon.tsx",
       "tokens": [
@@ -1397,6 +1408,7 @@
     {
       "name": "medal-mark",
       "title": "Medal mark",
+      "status": "review",
       "spec": ".design/design-system/components/medal-mark/spec.md",
       "code": "web/components/MedalMark.tsx",
       "tokens": [
@@ -1425,6 +1437,7 @@
     {
       "name": "medal-record",
       "title": "Medal record",
+      "status": "review",
       "spec": ".design/design-system/components/medal-record/spec.md",
       "code": "web/components/MedalRecord.tsx",
       "tokens": [
@@ -1457,6 +1470,7 @@
     {
       "name": "range-scale",
       "title": "Range scale",
+      "status": "review",
       "spec": ".design/design-system/components/range-scale/spec.md",
       "code": "web/components/RangeScale.tsx",
       "tokens": [
@@ -1501,6 +1515,7 @@
     {
       "name": "red-pen-note",
       "title": "Red pen note",
+      "status": "review",
       "spec": ".design/design-system/components/red-pen-note/spec.md",
       "code": "web/components/RedPenNote.tsx",
       "tokens": [
@@ -1530,6 +1545,7 @@
     {
       "name": "ruled-table",
       "title": "Ruled table",
+      "status": "review",
       "spec": ".design/design-system/components/ruled-table/spec.md",
       "code": "web/components/RuledTable.tsx",
       "tokens": [
@@ -1571,6 +1587,7 @@
     {
       "name": "search-field",
       "title": "Search field",
+      "status": "review",
       "spec": ".design/design-system/components/search-field/spec.md",
       "code": "web/components/SearchField.tsx",
       "tokens": [
@@ -1601,6 +1618,7 @@
     {
       "name": "section-header",
       "title": "Section header",
+      "status": "review",
       "spec": ".design/design-system/components/section-header/spec.md",
       "code": "web/components/SectionHeader.tsx",
       "tokens": [
@@ -1627,6 +1645,7 @@
     {
       "name": "select",
       "title": "Select",
+      "status": "review",
       "spec": ".design/design-system/components/select/spec.md",
       "code": "web/components/Select.tsx",
       "tokens": [
@@ -1657,6 +1676,7 @@
     {
       "name": "status-stamp",
       "title": "Status stamp",
+      "status": "review",
       "spec": ".design/design-system/components/status-stamp/spec.md",
       "code": "web/components/StatusStamp.tsx",
       "tokens": [
@@ -1686,6 +1706,7 @@
     {
       "name": "text-link",
       "title": "Link",
+      "status": "review",
       "spec": ".design/design-system/components/text-link/spec.md",
       "code": "web/components/TextLink.tsx",
       "tokens": [
@@ -1708,6 +1729,7 @@
     {
       "name": "theme-toggle",
       "title": "Theme toggle",
+      "status": "review",
       "spec": ".design/design-system/components/theme-toggle/spec.md",
       "code": "web/components/ThemeToggle.tsx",
       "tokens": [

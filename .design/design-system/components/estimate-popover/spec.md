@@ -7,6 +7,7 @@ name: estimate-popover
 related:
   - status-stamp
   - text-link
+status: review
 title: Estimate note
 tokens:
   - font.family.narrow

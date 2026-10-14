@@ -216,3 +216,12 @@ Where: the group headings inside the color section.
 - `contrast`: Contrast in each theme
 - `step`: Step {{number}}
 - `breakpoint_note`: Columns are added from this width.
+
+## `status`
+
+Where: beside each component name, the stage its spec has reached.
+
+- `label`: Status
+- `draft`: Draft
+- `review`: In review
+- `approved`: Approved

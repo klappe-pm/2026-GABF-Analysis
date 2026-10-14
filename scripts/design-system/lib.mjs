@@ -499,6 +499,7 @@ export function buildManifest(tokens, specs) {
     components: specs.map((s) => ({
       name: s.data.name ?? s.dir,
       title: s.data.title ?? s.dir,
+      status: s.data.status ?? null,
       spec: s.spec,
       code: s.data.code ?? null,
       tokens: [...(s.data.tokens ?? [])].sort(),
@@ -516,7 +517,7 @@ export function feedbackDocument(tokens, specs, manifest) {
     themes: THEMES,
     nodes: [
       ...tokenNodes(tokens),
-      ...manifest.components.map((c) => ({ id: `component.${c.name}`, kind: 'component', title: c.title, spec: c.spec, code: c.code, tokens: c.tokens, content: c.content, pages: c.pages })),
+      ...manifest.components.map((c) => ({ id: `component.${c.name}`, kind: 'component', title: c.title, status: c.status, spec: c.spec, code: c.code, tokens: c.tokens, content: c.content, pages: c.pages })),
     ],
     contrast: contrastReport(tokens),
   };
@@ -576,4 +577,12 @@ export function narrowFigureProblems(source) {
     if (words.includes('font-narrow') && words.includes('tabular-nums')) problems.push('font-narrow with tabular-nums: figures are set in Public Sans, the narrow face has no tabular figures');
   }
   return problems;
+}
+
+// Component and foundation specs publish their status: one of three words.
+export const STATUSES = ['draft', 'review', 'approved'];
+
+export function statusProblem(data) {
+  if (!Object.hasOwn(data, 'status')) return `frontmatter is missing status (${STATUSES.join(', ')})`;
+  return STATUSES.includes(data.status) ? null : `status "${data.status}" must be one of ${STATUSES.join(', ')}`;
 }

@@ -17,7 +17,7 @@ import { products } from './build.mjs';
 import {
   BANNED_FAMILIES, REQUIRED_FRONTMATTER, REQUIRED_SECTIONS, THEMES, WEB, contrastReport, cssProblems,
   listFiles, loadContent, loadFoundations, lookupContent, rawValueProblems, readLog, rel, resolveValue, scopeFor,
-  narrowFigureProblems, tokenIndex, usedTokens, verifyChain,
+  narrowFigureProblems, statusProblem, tokenIndex, usedTokens, verifyChain,
 } from './lib.mjs';
 
 export function runChecks() {
@@ -48,6 +48,8 @@ export function runChecks() {
   for (const s of specs) {
     if (!s.exists) { fail(rel(resolve(s.file, '..')), 'component folder has no spec.md'); continue; }
     for (const key of REQUIRED_FRONTMATTER) if (!Object.hasOwn(s.data, key)) fail(s.spec, `frontmatter is missing ${key}`);
+    const statusIssue = statusProblem(s.data);
+    if (statusIssue) fail(s.spec, statusIssue);
     if (s.data.name && s.data.name !== s.dir) fail(s.spec, `name ${s.data.name} does not match its folder`);
     for (const sec of REQUIRED_SECTIONS) if (!s.sections[sec]) fail(s.spec, `section "${sec}" is missing or empty`);
     for (const t of s.data.tokens ?? []) if (!allTokens.has(t)) fail(s.spec, `token ${t} does not exist`);
@@ -58,6 +60,7 @@ export function runChecks() {
       else codeToSpec[s.data.code] = s;
     }
   }
+  for (const f of loadFoundations()) { const issue = statusProblem(f.data); if (issue) fail(f.spec, issue); }
   for (const f of loadFoundations()) for (const t of f.data.tokens ?? []) if (!allTokens.has(t.replace(/\.\*$/, '')) && !t.endsWith('.*')) fail(f.spec, `token ${t} does not exist`);
 
   // Component code: every file has a spec, carries no raw values, and uses only declared tokens.

@@ -6,6 +6,7 @@ name: text-link
 related:
   - button
   - red-pen-note
+status: review
 title: Link
 tokens:
   - duration.quick

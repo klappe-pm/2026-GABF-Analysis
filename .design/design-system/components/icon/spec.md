@@ -8,6 +8,7 @@ related:
   - ruled-table
   - search-field
   - select
+status: review
 title: Icons
 tokens:
   - space.4

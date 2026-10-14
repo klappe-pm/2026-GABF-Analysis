@@ -6,6 +6,7 @@ name: checkbox
 related:
   - form-field
   - icon
+status: review
 title: Checkbox
 tokens:
   - rule.hairline

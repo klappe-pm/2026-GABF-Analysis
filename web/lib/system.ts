@@ -24,7 +24,7 @@ export const token = (id: string) => {
 };
 export const contrastRows = () => tokenDoc().contrast;
 
-export type Spec = { name: string; title: string; code: string; path: string; sections: Record<string, string> };
+export type Spec = { name: string; title: string; status: string; code: string; path: string; sections: Record<string, string> };
 
 export function specs(): Spec[] {
   return listRepo('.design', 'design-system', 'components').sort().map((dir) => {
@@ -38,7 +38,7 @@ export function specs(): Spec[] {
       if (current) sections[current] += `${line}\n`;
     }
     for (const k of Object.keys(sections)) sections[k] = sections[k].trim();
-    return { name: String(data.name), title: String(data.title), code: String(data.code), path, sections };
+    return { name: String(data.name), title: String(data.title), status: String(data.status), code: String(data.code), path, sections };
   });
 }
 

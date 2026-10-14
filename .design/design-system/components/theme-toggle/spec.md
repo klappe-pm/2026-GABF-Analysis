@@ -7,6 +7,7 @@ name: theme-toggle
 related:
   - button
   - form-header
+status: review
 title: Theme toggle
 tokens:
   - font.family.narrow
