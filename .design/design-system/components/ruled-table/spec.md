@@ -11,6 +11,7 @@ related:
   - chart-frame
   - icon
   - medal-record
+status: review
 title: Ruled table
 tokens:
   - font.family.narrow

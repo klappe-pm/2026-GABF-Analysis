@@ -1,5 +1,5 @@
 {
-  "$description": "Light theme: white form stock, graphite ink. Every semantic color role, with the contrast each must meet. The dark theme file defines the same roles.",
+  "$description": "White form stock, graphite ink. Every semantic color role, with the contrast each must meet.",
   "semantic": {
     "color": {
       "$type": "color",

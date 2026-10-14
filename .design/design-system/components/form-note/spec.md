@@ -10,6 +10,7 @@ name: form-note
 related:
   - button
   - status-stamp
+status: review
 title: Form notes
 tokens:
   - font.family.narrow

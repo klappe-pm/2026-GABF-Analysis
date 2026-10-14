@@ -9,6 +9,7 @@ name: chart-frame
 related:
   - medal-mark
   - ruled-table
+status: review
 title: Chart frame
 tokens:
   - font.family.narrow
@@ -59,7 +60,7 @@ A chart in a ruled frame: title, legend of drawn marks, the plot, and a table vi
 
 ## Behavior and interaction
 
-- The chart redraws when the theme changes or the window resizes.
+- The chart redraws when the window resizes.
 - No animation.
 - Gridlines are rules; there is no shadow in tooltips.
 

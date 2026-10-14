@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Audit the built style guide (web/out) in a real browser, in light and dark at phone and desktop width.
+// Audit the built style guide (web/out) in a real browser, in the light theme at phone and desktop width.
 // Fails on any element with a rounded corner (medal circles excepted), a shadow, a gradient, blur, or a
 // banned font, on figures set in Archivo Narrow, and when the figures "1111" and "0000" differ in width
 // in the face that sets numbers. Run npm run web:build first. Needs Playwright with a Chromium build:
@@ -73,7 +73,7 @@ async function main() {
   const url = `http://127.0.0.1:${server.address().port}/design-system/`;
   const browser = await chromium.launch(process.env.PLAYWRIGHT_CHROMIUM ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM } : {});
   let total = 0;
-  for (const scheme of ['light', 'dark']) {
+  for (const scheme of ['light']) {
     for (const width of [390, 1280]) {
       const page = await (await browser.newContext({ viewport: { width, height: 900 }, colorScheme: scheme })).newPage();
       await page.goto(url, { waitUntil: 'networkidle' });

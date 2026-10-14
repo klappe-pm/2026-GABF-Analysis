@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Archivo_Narrow, Public_Sans } from 'next/font/google';
 import type { ReactNode } from 'react';
-import { themeScript } from '@/design/theme-script';
 import { t } from '@/lib/content';
 import './globals.css';
 
@@ -22,10 +21,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${sans.variable} ${narrow.variable}`} suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-      </head>
+    <html lang="en" className={`${sans.variable} ${narrow.variable}`}>
       <body className="min-h-screen bg-ground font-sans text-ink">{children}</body>
     </html>
   );

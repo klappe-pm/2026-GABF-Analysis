@@ -1,5 +1,6 @@
 ---
 name: iconography
+status: review
 title: Iconography
 tokens:
   - rule.hairline

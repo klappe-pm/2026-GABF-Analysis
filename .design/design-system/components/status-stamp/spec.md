@@ -10,6 +10,7 @@ name: status-stamp
 related:
   - estimate-popover
   - form-note
+status: review
 title: Status stamp
 tokens:
   - font.family.narrow

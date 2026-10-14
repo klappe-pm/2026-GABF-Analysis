@@ -17,7 +17,7 @@ import { products } from './build.mjs';
 import {
   BANNED_FAMILIES, REQUIRED_FRONTMATTER, REQUIRED_SECTIONS, THEMES, WEB, contrastReport, cssProblems,
   listFiles, loadContent, loadFoundations, lookupContent, rawValueProblems, readLog, rel, resolveValue, scopeFor,
-  narrowFigureProblems, tokenIndex, usedTokens, verifyChain,
+  narrowFigureProblems, statusProblem, tokenIndex, usedTokens, verifyChain,
 } from './lib.mjs';
 
 export function runChecks() {
@@ -32,8 +32,6 @@ export function runChecks() {
       try { resolveValue(t.value, scope); } catch (e) { fail(t.file, `${t.path}: ${e.message}`); }
     }
   }
-  const [a, b] = THEMES.map((th) => Object.keys(tokens.themes[th] ?? {}).sort().join(','));
-  if (a !== b) fail('tokens', 'light and dark theme files define different roles');
   for (const t of Object.values(tokens.base)) if (t.path.startsWith('radius.') && !/^0(px|rem)?$/.test(String(t.value))) fail(t.file, `${t.path} must be 0`);
   for (const t of Object.values(tokens.base)) if (t.type === 'fontFamily') for (const fam of [t.value].flat()) if (BANNED_FAMILIES.includes(fam)) fail(t.file, `${t.path}: ${fam} is not part of the system`);
 
@@ -48,6 +46,8 @@ export function runChecks() {
   for (const s of specs) {
     if (!s.exists) { fail(rel(resolve(s.file, '..')), 'component folder has no spec.md'); continue; }
     for (const key of REQUIRED_FRONTMATTER) if (!Object.hasOwn(s.data, key)) fail(s.spec, `frontmatter is missing ${key}`);
+    const statusIssue = statusProblem(s.data);
+    if (statusIssue) fail(s.spec, statusIssue);
     if (s.data.name && s.data.name !== s.dir) fail(s.spec, `name ${s.data.name} does not match its folder`);
     for (const sec of REQUIRED_SECTIONS) if (!s.sections[sec]) fail(s.spec, `section "${sec}" is missing or empty`);
     for (const t of s.data.tokens ?? []) if (!allTokens.has(t)) fail(s.spec, `token ${t} does not exist`);
@@ -58,6 +58,7 @@ export function runChecks() {
       else codeToSpec[s.data.code] = s;
     }
   }
+  for (const f of loadFoundations()) { const issue = statusProblem(f.data); if (issue) fail(f.spec, issue); }
   for (const f of loadFoundations()) for (const t of f.data.tokens ?? []) if (!allTokens.has(t.replace(/\.\*$/, '')) && !t.endsWith('.*')) fail(f.spec, `token ${t} does not exist`);
 
   // Component code: every file has a spec, carries no raw values, and uses only declared tokens.

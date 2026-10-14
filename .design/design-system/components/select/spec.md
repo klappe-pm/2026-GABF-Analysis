@@ -6,6 +6,7 @@ name: select
 related:
   - form-field
   - icon
+status: review
 title: Select
 tokens:
   - rule.hairline

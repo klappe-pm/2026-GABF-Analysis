@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Build the design system products from .design/design-system:
-//   web/design/tokens.css                         CSS custom properties for both themes and the Tailwind theme
+//   web/design/tokens.css                         CSS custom properties and the Tailwind theme
 //   .design/design-system/control-plane/system.json  the manifest of tokens and components
 //   docs/design/design-system-tokens.json         token and component nodes for the screen feedback control plane
 // Then append a hash chained entry to the local change log when a token value or a spec status changed.

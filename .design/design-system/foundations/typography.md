@@ -1,5 +1,6 @@
 ---
 name: typography
+status: approved
 title: Typography
 tokens:
   - font.*

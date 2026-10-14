@@ -15,6 +15,7 @@ related:
   - button
   - filters-sheet
   - icon
+status: review
 title: Form header
 tokens:
   - breakpoint.md
@@ -41,14 +42,14 @@ version: 1.0.0
 
 ## Purpose and when to use
 
-The site header, set as the head of a form: the site name in the first box, navigation as ruled boxes, a heavy rule underneath. It appears once, at the top of every page. It carries the global Filters control and the theme toggle in its action area.
+The site header, set as the head of a form: the site name in the first box, navigation as ruled boxes, a heavy rule underneath. It appears once, at the top of every page. It carries the global Filters control in its action area.
 
 ## Anatomy
 
 1. Skip link, visible only on focus, first in the tab order.
 2. Brand box: the site name in the subsection type role, ruled on its right edge.
 3. Navigation boxes: one per top level destination, narrow face, uppercase, ruled on the right edge.
-4. Actions area: Filters control and theme toggle, pushed to the far end.
+4. Actions area: the Filters control, pushed to the far end.
 5. Menu button: shown below the md breakpoint, replaces the navigation boxes.
 6. Heavy rule: closes the header.
 

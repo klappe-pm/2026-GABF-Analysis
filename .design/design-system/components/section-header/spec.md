@@ -6,6 +6,7 @@ content:
 name: section-header
 related:
   - form-field
+status: review
 title: Section header
 tokens:
   - rule.hairline

@@ -12,6 +12,7 @@ name: range-scale
 related:
   - form-field
   - red-pen-note
+status: review
 title: Range scale
 tokens:
   - font.family.narrow

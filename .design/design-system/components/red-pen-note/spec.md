@@ -7,6 +7,7 @@ related:
   - range-scale
   - status-stamp
   - text-link
+status: review
 title: Red pen note
 tokens:
   - font.family.narrow

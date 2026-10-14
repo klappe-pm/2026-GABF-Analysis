@@ -47,13 +47,11 @@ const role = (id: string) => t(`pages.design-system.color_roles.${id.replace('se
 function ColorTable({ ids, caption }: { ids: string[]; caption: string }) {
   const rows = ids.map((id) => {
     const tk = token(id);
-    const values = tk.values!;
     return {
       key: id,
       cells: {
         role: role(id),
-        light: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="light" /><span className="font-sans text-micro">{values.light}</span></span>,
-        dark: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} theme="dark" /><span className="font-sans text-micro">{values.dark}</span></span>,
+        value: <span className="inline-flex items-center gap-2"><Chip cssVar={tk.cssVar} /><span className="font-sans text-micro">{String(tk.value)}</span></span>,
       },
     };
   });
@@ -63,8 +61,7 @@ function ColorTable({ ids, caption }: { ids: string[]; caption: string }) {
       scroll={false}
       columns={[
         { key: 'role', label: t('pages.design-system.columns.role') },
-        { key: 'light', label: t('pages.design-system.columns.light') },
-        { key: 'dark', label: t('pages.design-system.columns.dark') },
+        { key: 'value', label: t('pages.design-system.columns.value') },
       ]}
       rows={rows}
     />
@@ -106,7 +103,7 @@ function BeerScales({ idPrefix, sample, medalNames }: { idPrefix: string; sample
 }
 
 export default function DesignSystemPage() {
-  const sections = ['color', 'type', 'space', 'rules', 'breakpoints', 'components', 'themes'] as const;
+  const sections = ['color', 'type', 'space', 'rules', 'breakpoints', 'components'] as const;
   const title = t('pages.design-system.page.title');
   const summary = yearSummary(YEAR);
   const coverage = yearCoverage();
@@ -230,7 +227,6 @@ export default function DesignSystemPage() {
             <RuledTable
               caption={grp('contrast')}
               columns={[
-                { key: 'theme', label: t('pages.design-system.sections.themes') },
                 { key: 'role', label: col('role') },
                 { key: 'on', label: col('on') },
                 { key: 'ratio', label: col('ratio'), numeric: true },
@@ -238,9 +234,8 @@ export default function DesignSystemPage() {
                 { key: 'result', label: col('result') },
               ]}
               rows={contrastRows().map((r) => ({
-                key: `${r.theme}-${r.token}-${r.against}`,
+                key: `${r.token}-${r.against}`,
                 cells: {
-                  theme: r.theme === 'light' ? col('light') : col('dark'),
                   role: role(r.token),
                   on: role(r.against),
                   ratio: `${r.ratio}:1`,
@@ -626,27 +621,6 @@ export default function DesignSystemPage() {
           </Specimen>
         </section>
 
-        <section aria-labelledby="themes-title" id="themes" className="flex flex-col gap-5">
-          <SectionHeader id="themes-title" title={t('pages.design-system.sections.themes')} lead={t('pages.design-system.section_notes.themes')} />
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            {(['light', 'dark'] as const).map((theme) => (
-              <div key={theme} data-theme={theme} className="flex flex-col gap-4 border border-rule-strong bg-ground p-4 text-ink">
-                <p className="font-narrow text-label uppercase text-ink-muted">{theme === 'light' ? col('light') : col('dark')}</p>
-                <RedPenNote label={t('pages.home.finding.label')}>{headline}</RedPenNote>
-                <FieldGrid label={compName('form_field')} columns="sm:grid-cols-2">
-                  <Field number="01" label={t('pages.home.scoresheet.entries_judged')}>{summary?.entries ? fmt.number(summary.entries) : t('pages.home.scoresheet.not_published')}</Field>
-                  <Field number="02" label={t('pages.home.scoresheet.medals_awarded')}>{summary?.medals ? fmt.number(summary.medals) : t('pages.home.scoresheet.not_published')}</Field>
-                </FieldGrid>
-                <div className="flex flex-wrap items-center gap-3">
-                  {topRecords[0] ? <MedalRecord counts={topRecords[0].record} names={medalNames} /> : null}
-                  <StatusStamp label={t('global.labels.coverage.partial')} />
-                  <Button variant="primary">{t('global.filters.panel.apply')}</Button>
-                  <Button variant="secondary">{t('global.filters.panel.reset')}</Button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
       </main>
     </>
   );

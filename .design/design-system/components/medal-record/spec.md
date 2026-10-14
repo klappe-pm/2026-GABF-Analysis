@@ -11,6 +11,7 @@ name: medal-record
 related:
   - medal-mark
   - ruled-table
+status: review
 title: Medal record
 tokens:
   - font.family.narrow

@@ -1,5 +1,6 @@
 ---
 name: motion
+status: review
 title: Motion
 tokens:
   - duration.*
