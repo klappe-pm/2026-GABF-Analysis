@@ -93,7 +93,7 @@ test('every filter option label reads as words', async () => {
   for (const def of FILTERS) {
     for (const o of optionList(rows, def.id, { years: 'all' }, meta)) {
       for (const t of o.label.match(TOKEN) ?? []) if (!allowed.has(t)) bad.push(`${def.label}: ${o.label}`);
-      if (/^[a-z]/.test(o.label) && def.id !== 'year') bad.push(`${def.label}: ${o.label} (not capitalized)`);
+      if (/^[a-z]/.test(o.label) && def.id !== 'year' && def.id !== 'brewery_key') bad.push(`${def.label}: ${o.label} (not capitalized)`);
     }
   }
   assert.deepEqual(bad, []);

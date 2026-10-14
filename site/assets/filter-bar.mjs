@@ -4,6 +4,7 @@
 // run in Node (build and tests) and in the browser; createGlobalFilter needs a DOM.
 
 import { esc } from './charts.mjs';
+import { compareLabels, compareYearsNewestFirst } from './sort-order.mjs';
 
 export const FILTERS = [
   { id: 'year', label: 'Year', group: 'When' },
@@ -14,7 +15,9 @@ export const FILTERS = [
   { id: 'abv_band', label: 'ABV band', group: 'What' },
   { id: 'region', label: 'Region', group: 'Where' },
   { id: 'state', label: 'State', group: 'Where' },
+  { id: 'city', label: 'City', group: 'Where' },
   { id: 'fed_district_name', label: 'Fed district', group: 'Where' },
+  { id: 'brewery_key', label: 'Brewery', group: 'Who' },
   { id: 'brewery_type', label: 'Brewery type', group: 'Who' },
   { id: 'ownership_type', label: 'Ownership', group: 'Who' },
   { id: 'distribution_channel', label: 'Distribution', group: 'Who' },
@@ -53,6 +56,8 @@ export function unslugText(html, slugs) {
 export function valueLabel(id, value, meta = null) {
   const v = String(value ?? '');
   if (id === 'state') return meta?.states?.find((s) => s.state === v)?.name ?? v;
+  if (id === 'city') return v.replace(/\s+-\s+/g, ', ');
+  if (id === 'brewery_key') return meta?.names?.brewery_key?.[v] ?? v;
   if (id === 'abv_band') {
     const band = meta?.abv_bands?.find((b) => b.id === v);
     if (band) return band.label;
@@ -102,6 +107,8 @@ export function writeStored(storage, state) {
 // ---------- rows ----------
 // Shared payload rows carry brewery attributes already; older payloads get them from meta.
 export function decorateRows(rows, meta) {
+  // The brewery names, kept on meta so a Brewery chip reads as a name wherever meta travels.
+  if (meta && typeof meta === 'object') meta.names = { ...meta.names, brewery_key: Object.fromEntries(rows.map((r) => [r.brewery_key, r.brewery_name])) };
   return rows.map((r) => (r.ownership_type ? r : {
     ...r,
     brewery_type: r.brewery_type || meta?.brewery_types?.[r.brewery_key] || '',
@@ -118,6 +125,13 @@ export function scopeRows(rows, scope = {}) {
   return entries.length ? rows.filter((r) => entries.every(([k, v]) => String(r[k] ?? '') === String(v))) : rows;
 }
 
+// The value a row holds for a filter. A city is keyed with its state ("Portland, OR") so two
+// cities that share a name stay apart.
+export function fieldValue(row, id) {
+  if (id === 'city') return row.city ? `${row.city}, ${row.state}` : '';
+  return String(row[id] ?? '');
+}
+
 // Partial years (seed rows only) stay out unless a year is picked or years=all.
 export const includesPartial = (s) => s.years === 'all' || Boolean(s.year);
 export function applyFilters(rows, s = {}) {
@@ -126,7 +140,7 @@ export function applyFilters(rows, s = {}) {
     if (!includesPartial(s) && r.partial) return false;
     for (const def of FILTERS) {
       const v = s[def.id];
-      if (v && String(r[def.id] ?? '') !== String(v)) return false;
+      if (v && fieldValue(r, def.id) !== String(v)) return false;
     }
     if (q.length) {
       const hay = `${r.beer_name} ${r.brewery_name} ${r.brewery_location ?? ''} ${r.city} ${r.state} ${r.state_name ?? ''} ${r.category_name} ${r.style_family ?? ''} ${r.search_extra ?? ''}`.toLowerCase();
@@ -137,18 +151,47 @@ export function applyFilters(rows, s = {}) {
 }
 export const viewRows = (rows, scope, s) => applyFilters(scopeRows(rows, scope), s);
 
-// Option values with counts over the page scope. The year list offers every year; other lists
-// count partial years only when they are in view.
+// Progressive options. The options for one filter are the values present in the rows that match
+// every other active selection (and the search), each with its count under those selections, so
+// no option ever leads to zero results. The year list also offers partial years, because picking
+// one brings its rows into view; the other lists count partial years only when they are in view.
 export function optionList(scope, id, s = {}, meta = null) {
-  const pool = (id === 'year' ? scope : scope.filter((r) => includesPartial(s) || !r.partial))
-    .filter((r) => id !== 'category_name' || !s.style_family || r.style_family === s.style_family);
+  const others = { ...s };
+  delete others[id];
+  if (id === 'year') others.years = 'all';
+  const pool = applyFilters(scope, others);
   const counts = new Map();
+  const names = new Map();
   for (const r of pool) {
-    const v = String(r[id] ?? '');
-    if (v) counts.set(v, (counts.get(v) ?? 0) + 1);
+    const v = fieldValue(r, id);
+    if (!v) continue;
+    counts.set(v, (counts.get(v) ?? 0) + 1);
+    if (id === 'brewery_key' && !names.has(v)) names.set(v, r.brewery_name || v);
   }
-  const list = [...counts.entries()].map(([v, n]) => ({ value: v, count: n, label: valueLabel(id, v, meta) }));
-  return list.sort((a, b) => (id === 'year' ? Number(b.value) - Number(a.value) : a.label.localeCompare(b.label)));
+  let plainCity = null;
+  if (id === 'city') {
+    // A city shows without its state unless another state has a city of the same name.
+    const states = new Map();
+    for (const r of scope) if (r.city) states.set(r.city, (states.get(r.city) ?? new Set()).add(r.state));
+    // One source row has a collaboration venue in its city field; a spaced hyphen there reads as a comma.
+    const readable = (t) => t.replace(/\s+-\s+/g, ', ');
+    plainCity = (v) => { const name = v.slice(0, v.lastIndexOf(', ')); return readable(states.get(name)?.size > 1 ? v : name); };
+  }
+  const labelOf = (v) => (id === 'brewery_key' ? names.get(v) : plainCity ? plainCity(v) : valueLabel(id, v, meta));
+  const list = [...counts.entries()].map(([v, n]) => ({ value: v, count: n, label: labelOf(v) }));
+  return list.sort((a, b) => (id === 'year' ? compareYearsNewestFirst(a.value, b.value) : compareLabels(a.label, b.label)));
+}
+
+// Drop any selection that the others have left with no rows, so the state never holds a filter
+// that matches nothing. `keep` is the filter the user just changed; it is never dropped.
+export function pruneState(scope, s, keep = null) {
+  const next = { ...s };
+  for (let guard = 0; guard < FILTERS.length + 1; guard += 1) {
+    const stale = FILTERS.find((d) => next[d.id] && d.id !== keep && !optionList(scope, d.id, next).some((o) => o.value === String(next[d.id])));
+    if (!stale) break;
+    delete next[stale.id];
+  }
+  return next;
 }
 
 export const partialYearsIn = (rows) => [...new Set(rows.filter((r) => r.partial).map((r) => r.year))].sort();
@@ -187,12 +230,24 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
   const state = resolveState(parseHash(location.hash), readStored(storage));
   let rows = null;
   let meta = null;
+  let labels = null;
   let scope = {};
   let fixed = [];
   let dialog = null;
   let timer = null;
 
   const scoped = () => scopeRows(rows ?? [], scope);
+  // meta plus the brewery names found in the rows, so a Brewery chip reads as a name.
+  function labelMeta() {
+    if (!labels && rows) labels = { ...meta, names: { brewery_key: Object.fromEntries(rows.map((r) => [r.brewery_key, r.brewery_name])) } };
+    return labels ?? meta;
+  }
+  // After a change, drop any other selection the new one has left with no results.
+  function settle(keep) {
+    if (!rows) return;
+    const next = pruneState(scoped(), state, keep);
+    for (const k of Object.keys(state)) if (!(k in next)) delete state[k];
+  }
   function persist() {
     writeStored(storage, state);
     const other = Object.fromEntries(Object.entries(parseHash(location.hash)).filter(([k]) => !STATE_KEYS.includes(k)));
@@ -206,14 +261,14 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
   }
   function renderChips() {
     if (!chipsEl) return;
-    const chips = activeChips(state, meta);
+    const chips = activeChips(state, labelMeta());
     chipsEl.innerHTML = fixed.length || chips.length ? `<div class="inner chip-row" aria-label="Active filters">${fixed.map((c) => `<span class="chip fixed" title="This page is scoped to it">${esc(c.text)}</span>`).join('')}${chips.map((c) => `<button type="button" class="chip removable" data-remove="${esc(c.id)}" aria-label="Remove filter ${esc(c.text)}">${esc(c.text)}<span aria-hidden="true"> ×</span></button>`).join('')}${chips.length ? '<button type="button" class="chip clear" data-clear>Clear all</button>' : ''}</div>` : '';
     chipsEl.hidden = !(fixed.length || chips.length);
   }
   function select(def) {
     const opts = optionList(scoped(), def.id, state, meta);
     const cur = String(state[def.id] ?? '');
-    const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(valueLabel(def.id, cur, meta))} (0)</option>` : '';
+    const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(valueLabel(def.id, cur, labelMeta()))} (0)</option>` : '';
     return `<label>${esc(def.label)}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">All</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${esc(o.label)} (${o.count.toLocaleString('en-US')})</option>`).join('')}</select></label>`;
   }
   function renderPanel() {
@@ -250,10 +305,11 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
       const t = e.target;
       if (t.dataset.filter) {
         if (t.value) state[t.dataset.filter] = t.value; else delete state[t.dataset.filter];
-        if (t.dataset.filter === 'style_family') delete state.category_name;
+        settle(t.dataset.filter);
         changed();
       } else if (t.hasAttribute('data-years')) {
         if (t.checked) state.years = 'all'; else delete state.years;
+        settle(null);
         changed();
       }
     });
@@ -316,7 +372,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     state,
     subscribe(fn) { listeners.push(fn); },
     setScope(s, f = []) { scope = s ?? {}; fixed = f; renderChips(); renderPanel(); },
-    setData(d) { rows = d.rows ?? rows; meta = d.meta ?? meta; renderChips(); renderPanel(); },
+    setData(d) { rows = d.rows ?? rows; meta = d.meta ?? meta; labels = null; renderChips(); renderPanel(); },
     remove,
     set(key, value) { if (value) state[key] = String(value); else delete state[key]; changed(); },
     // Replace the whole selection (used by in-page links in the single-file build).

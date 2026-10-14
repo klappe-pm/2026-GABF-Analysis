@@ -8,6 +8,7 @@ import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES
 import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
 import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptyStateHtml, hashFor, parseHash, partialNoticeHtml, pickState, STATE_KEYS, valueLabel } from './filter-bar.mjs';
 import { oddsItems, yearsInView } from './page-views.mjs';
+import { sortByLabel } from './sort-order.mjs';
 
 // state.filters holds this page's own keys (tab, brewery); the site wide selection lives in the
 // global filter (ctl.state), shared with every other page.
@@ -207,7 +208,7 @@ function renderControlsTable(rows) {
     { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
     ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
   ];
-  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="state"${level === 'state' ? ' selected' : ''}>States</option><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
+  el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option><option value="state"${level === 'state' ? ' selected' : ''}>States</option></select></label><div class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
   qs('controls-level').addEventListener('change', (e) => { state.controlsLevel = e.target.value; renderControlsTable(applyFilters(state.rows)); });
   wireSortable(el);
 }
@@ -282,7 +283,7 @@ function renderBreweryPicker() {
   const el = qs('brewery-picker');
   if (!el) return;
   const b = currentBrewery();
-  const sorted = [...state.breweries].sort((x, y) => y.points - x.points || x.name.localeCompare(y.name));
+  const sorted = sortByLabel(state.breweries, (x) => x.name);
   el.innerHTML = `<label>Brewery<select id="f-brewery">${sorted.map((x) => `<option value="${esc(x.key)}"${b && x.key === b.key ? ' selected' : ''}>${esc(x.name)} (${x.medals})</option>`).join('')}</select></label>${b ? `<p class="small">${esc(b.hq.city)}, ${esc(b.hq.state)} · ${esc(valueLabel('brewery_type', b.brewery_type))}${b.founded ? ` · founded ${b.founded}` : ''}${b.ownership ? ` · ${esc(valueLabel('ownership_type', b.ownership.type))}` : ''}${STANDALONE ? '' : ` · <a href="${base}breweries/${esc(b.slug)}/">open profile</a>`}</p>` : ''}`;
   qs('f-brewery').addEventListener('change', (e) => { state.filters.brewery = e.target.value; render(); });
 }
