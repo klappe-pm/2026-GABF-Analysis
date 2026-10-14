@@ -22,6 +22,7 @@ Where: the pills under the title; type, ownership, and channel labels come from 
 
 Where: the summary tiles at the top of the page.
 
+- `title`: Summary
 - `medals`: Medals in view
 - `medal_split`: Gold, silver, bronze
 - `first_medal`: First medal in view
@@ -139,6 +140,7 @@ Where: the profile card, estimated scale block. Every figure here is an estimate
 - `per_location_note_kitchen`: across {{count}} locations with kitchens, E
 - `per_employee`: Revenue per employee
 - `method_link`: How these estimates are made
+- `assumed_note`: The brewery type is not defined, so these estimates use an assumed generic type.
 
 ## `other_competitions`
 
