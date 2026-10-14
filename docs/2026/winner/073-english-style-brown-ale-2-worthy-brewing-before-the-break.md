@@ -38,6 +38,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -48,6 +49,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -58,6 +60,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -68,6 +71,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -78,6 +82,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -88,6 +93,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -98,6 +104,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -108,6 +115,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -118,6 +126,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -128,6 +137,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -138,6 +148,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -148,6 +159,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -158,6 +170,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf"
@@ -168,6 +181,7 @@ gaps:
       - "https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/"
       - "https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile:
   - published: "East Kent Goldings"
     variety: "East Kent Goldings"
@@ -302,8 +316,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes.
-- Not published: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
+- Not published: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/), [untappd.com](https://untappd.com/w/worthy-brewing/62706/beer), [worthybrewing.com](https://worthybrewing.com/), [worthybrewing.com](https://worthybrewing.com/beer), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-dominate-11th-annual-oregon-beer-awards/), [bendsource.com](https://www.bendsource.com/food-drink/bend-breweries-shine-in-the-world-beer-cup/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -314,3 +328,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: web searches for the beer on Untappd and with ABV and Bend terms returned no page naming this beer; Untappd search does not render without login. Nothing more was found.
 - Field pass 2026-10-13: Worthy Brewing Main Pub's readable Toast ordering menu explicitly names Before the Break and supplies strength and three hop varieties. Mittelfruh is normalized to Mittelfrüh. The brewery-managed ordering menu is used as beer-url because no dedicated brewery page was found; no IBU is published. A clean menu address replaces the initially discovered item address containing a long identifier.
+- Deep dive pass 2026-10-14: no new source was found.

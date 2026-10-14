@@ -220,3 +220,4 @@ Links checked 2026-10-14: [Website](https://www.billsburg.com/), [Instagram](htt
 - The brewery's beer page embeds a Taplist.io menu; the specs were read from that menu, which was last updated 2026-10-13. There is no individual beer page.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Planet 4 description.

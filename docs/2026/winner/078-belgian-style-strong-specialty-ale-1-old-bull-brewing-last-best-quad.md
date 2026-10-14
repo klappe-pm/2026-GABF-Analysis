@@ -217,3 +217,4 @@ Links checked 2026-10-14: [Website](https://www.oldbullbrewing.com/).
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches for Untappd, ABV, BeerMenus and 2026 medal coverage found the beer in awards reporting but no additional specifications, ingredients or brewery-hosted beer page.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Last Best Quad description.

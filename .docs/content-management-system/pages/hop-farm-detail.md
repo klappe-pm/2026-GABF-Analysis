@@ -15,6 +15,12 @@ Where: the line under the farm name.
 
 - `varieties`: Varieties published: {{count}}
 
+## `table`
+
+Where: every table on the page.
+
+- `sort_hint`: Select a column header to sort.
+
 ## `data`
 
 Where: the farm data card.

@@ -81,7 +81,7 @@ export function ChartCard({ id, title, note, categories, series, tableSummary, n
   }, [categories, series, lineWidth, pointSize, global]);
 
   return (
-    <figure className={`flex flex-col overflow-hidden ${card.className}`} style={card.style} aria-labelledby={`${id}-title`}>
+    <figure className={`flex flex-col overflow-hidden ${card.className}`} style={card.style} aria-labelledby={`${id}-title`} data-component="chart-card">
       {card.elevated ? <md-elevation /> : null}
       <figcaption className="flex flex-col gap-2 px-4 pt-4 pb-2">
         <span id={`${id}-title`} className="type-title-medium text-on-surface">{title}</span>

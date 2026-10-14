@@ -36,6 +36,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://skabrewing.com/"
@@ -44,6 +45,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://skabrewing.com/"
@@ -52,6 +54,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://skabrewing.com/"
@@ -60,6 +63,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://skabrewing.com/"
@@ -68,6 +72,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hops"
     sources-checked:
       - "https://skabrewing.com/"
@@ -76,6 +81,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://skabrewing.com/"
@@ -84,6 +90,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://skabrewing.com/"
@@ -92,6 +99,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://skabrewing.com/"
@@ -100,6 +108,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://skabrewing.com/"
@@ -108,6 +117,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://skabrewing.com/"
@@ -116,6 +126,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://skabrewing.com/"
@@ -124,6 +135,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://skabrewing.com/"
@@ -132,6 +144,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://skabrewing.com/"
@@ -140,6 +153,7 @@ gaps:
       - "https://untappd.com/v/ska-brewing-co/60260"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 20
@@ -244,7 +258,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [skabrewing.com](https://skabrewing.com/), [skabrewing.com](https://skabrewing.com/ska-brews/), [untappd.com](https://untappd.com/b/ska-brewing-westskalle/5733669), [untappd.com](https://untappd.com/v/ska-brewing-co/60260), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [skabrewing.com](https://skabrewing.com/), [skabrewing.com](https://skabrewing.com/ska-brews/), [untappd.com](https://untappd.com/b/ska-brewing-westskalle/5733669), [untappd.com](https://untappd.com/v/ska-brewing-co/60260), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -254,3 +268,4 @@ No brewery links have been checked yet.
 - The web search budget ran out before Untappd or press could be searched; no 2026 medal announcement was found on the brewery site.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The beer entry and brewery taproom menu agree on ABV, IBU and Belgian Dubbel style. No ingredient list or brewery-hosted beer page was found. The earlier style inference is superseded by these listings.
+- Deep dive pass 2026-10-14: no new source was found.

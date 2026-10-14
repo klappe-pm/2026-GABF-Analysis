@@ -30,21 +30,12 @@ description:
 entries: 62
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.kanebrewing.com/"
-      - "https://www.kanebrewing.com/products/sneak-box"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://www.kanebrewing.com/"
       - "https://www.kanebrewing.com/products/sneak-box"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://www.kanebrewing.com/"
-      - "https://www.kanebrewing.com/products/sneak-box"
-      - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15"
   - field: "og"
     sources-checked:
       - "https://www.kanebrewing.com/"
@@ -115,9 +106,13 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.kanebrewing.com/"
   - "https://www.kanebrewing.com/products/sneak-box"
-srm: null
+srm:
+  value: "Hazy golden yellow (no SRM number published)"
+  source: "https://www.kanebrewing.com/products/sneak-box"
 style: "American Pale Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Sneakbox is made with 100% Citra hops, and pours a hazy golden yellow, with a citrus aroma that finishes smooth, dry, and crisp."
+  source: "https://www.kanebrewing.com/products/sneak-box"
 water: null
 yeast: []
 ---
@@ -153,7 +148,9 @@ Source: [Kane Brewing: Sneakbox](https://www.kanebrewing.com/products/sneak-box)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Sneakbox is made with 100% Citra hops, and pours a hazy golden yellow, with a citrus aroma that finishes smooth, dry, and crisp.
+
+Source: [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box)
 
 ## ingredients
 
@@ -169,7 +166,7 @@ Citra is the only hop, as the brewery states on the [Sneakbox page](https://www.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Hazy golden yellow (no SRM number published) | [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -211,8 +208,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
 - Not published: IBU. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15).
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -222,3 +219,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Sneakbox](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15) lists 5.4% ABV, style "American-Style Pale Ale" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and color.

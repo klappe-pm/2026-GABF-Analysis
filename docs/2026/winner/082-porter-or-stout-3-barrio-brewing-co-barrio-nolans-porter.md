@@ -237,3 +237,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The accessible Untappd listing names Barrio and Nolan's Porter, supplying ABV and IBU. Its roasted malt and chocolate language describes flavor, so no ingredients were inferred. The previously inaccessible conflicting listings remain unresolved.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended; the brewery site has no page for it.

@@ -42,6 +42,7 @@ gaps:
       - "https://bullandbush.com/pages/menu"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://bullandbush.com/pages/menu"
@@ -92,11 +93,6 @@ gaps:
       - "https://bullandbush.com/pages/menu"
       - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://bullandbush.com/pages/menu"
-      - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -104,7 +100,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Way One: farmhouse ale fermented on 50 pounds of pineapple puree. Way Two: refermented in Hungarian oak Tokaji barrels with 50 pounds of grilled pineapple rings. Way Three: finished on 50 pounds of Tokaji glazed grilled pineapple rings"
+  source: "https://bullandbush.com/pages/menu"
 sources:
   - "https://bullandbush.com/pages/menu"
   - "https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/"
@@ -165,7 +163,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Way One: farmhouse ale fermented on 50 pounds of pineapple puree. Way Two: refermented in Hungarian oak Tokaji barrels with 50 pounds of grilled pineapple rings. Way Three: finished on 50 pounds of Tokaji glazed grilled pineapple rings | [bullandbush.com](https://bullandbush.com/pages/menu) |
 
 ## style-context
 
@@ -197,7 +195,7 @@ Links checked 2026-10-14: [Website](https://bullandbush.com/), [Instagram](https
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes.
 - Not published: IBU. Checked [bullandbush.com](https://bullandbush.com/pages/menu), [americancraftbeer.com](https://www.americancraftbeer.com/the-2026-great-american-beer-festival-competition-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -208,3 +206,4 @@ Links checked 2026-10-14: [Website](https://bullandbush.com/), [Instagram](https
 - The winners listing at American Craft Beer confirms the gold.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The accessible brewery menu explicitly ties its 55th Anniversary Ale Pineapple 3 Way to the 2026 GABF award, resolving the longer release name. Added strength, style, pineapple preparation and barrel details; hops, grist, yeast and IBU remain unpublished.
+- Deep dive pass 2026-10-14: the bottle menu gives all three pineapple treatments and 6.60% ABV.

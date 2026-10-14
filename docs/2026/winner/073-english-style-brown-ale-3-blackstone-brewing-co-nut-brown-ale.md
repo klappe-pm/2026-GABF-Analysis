@@ -34,84 +34,98 @@ gaps:
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
       - "https://www.blackstonebeer.com/"
       - "https://www.blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
+      - "https://blackstonebeer.com/our-beer"
 hop-profile: []
 hops: []
 ibu: 23
@@ -213,7 +227,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814), [blackstonebeer.com](https://www.blackstonebeer.com/), [blackstonebeer.com](https://www.blackstonebeer.com/our-beer), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814), [blackstonebeer.com](https://www.blackstonebeer.com/), [blackstonebeer.com](https://www.blackstonebeer.com/our-beer), web searches recorded in the research notes, [blackstonebeer.com](https://blackstonebeer.com/our-beer).
 
 ## research-notes
 
@@ -224,3 +238,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Blackstone Untappd listing supplies strength and bitterness, but no hop variety was verified.
 - Catalog.beer 2026-10-14: [Catalog.beer: Nut Brown Ale](https://catalog.beer/beer/31b28d2b-c1db-4249-88bf-eb4ffeb45e97) lists 5.6% ABV, 23 IBU, style "English-Style Brown Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery beer page names the beer in its awards list only.

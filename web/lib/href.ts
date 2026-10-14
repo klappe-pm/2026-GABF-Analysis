@@ -31,7 +31,8 @@ export const paths = {
   explorer: '/explorer/',
   about: '/about/',
   method: '/method/',
-  estimates: '/method/#estimates',
   saved: '/saved/',
+  // The estimates section of the Method page: every (E) links here.
+  methodEstimates: '/method/#estimates',
   designSystem: '/design-system/',
 };

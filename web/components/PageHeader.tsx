@@ -37,7 +37,7 @@ export function PageHeader({ brand, nav, navLabel, menuLabel, skipLabel, skipTar
     </a>
   );
   return (
-    <header style={{ background: color(s['Container color'] ?? 'surface container') }}>
+    <header data-component="page-header" style={{ background: color(s['Container color'] ?? 'surface container') }}>
       <a href={skipTarget} className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-surface focus:p-2">{skipLabel}</a>
       <div className="mx-auto flex min-h-16 max-w-(--app-page-max) items-center gap-4 px-4">
         <a href={brand.href} className={`text-on-surface ${typeOf(s['Title style'] ?? 'title large')}`}>{brand.text}</a>

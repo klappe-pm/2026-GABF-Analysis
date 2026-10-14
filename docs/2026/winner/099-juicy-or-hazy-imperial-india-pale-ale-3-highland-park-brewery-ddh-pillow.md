@@ -31,15 +31,6 @@ description:
 entries: 107
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://hpb.la/"
-      - "https://hpb.la/awards-press/"
-      - "https://hpb.la/dinein"
-      - "https://hpb.la/shop"
-      - "https://hpb.la/shop/product/ffdelivery3/"
-      - "https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://hpb.la/"
@@ -185,7 +176,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Hazy Double IPA"
-tasting-notes: null
+tasting-notes:
+  text: "Aromas jump right out of the glass with notes of fresh mango, peach candy, & Lime Airheads."
+  source: "https://hpb.la/shop/product/ffdelivery3/"
 water: null
 yeast: []
 ---
@@ -221,7 +214,9 @@ Source: [Brewery subscription page](https://hpb.la/shop/product/ffdelivery3/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Aromas jump right out of the glass with notes of fresh mango, peach candy, & Lime Airheads.
+
+Source: [web page](https://hpb.la/shop/product/ffdelivery3/)
 
 ## ingredients
 
@@ -284,8 +279,8 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
 - Not published: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -295,3 +290,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The taproom page (hpb.la/dinein) did not expose a readable beer list.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: DDH Pillow](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e) lists 8% ABV, style "IPA: Imperial" (entry last modified 2026-08-04). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery shop page's tasting words are recorded.

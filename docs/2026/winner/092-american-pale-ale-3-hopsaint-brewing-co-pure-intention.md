@@ -30,12 +30,6 @@ description:
 entries: 98
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
-      - "https://www.hopsaint.com/"
-      - "https://www.hopsaint.com/our-beers"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
@@ -55,12 +49,6 @@ gaps:
       - "https://www.hopsaint.com/our-beers"
       - "web searches recorded in the research notes"
   - field: "hop-form"
-    sources-checked:
-      - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
-      - "https://www.hopsaint.com/"
-      - "https://www.hopsaint.com/our-beers"
-      - "web searches recorded in the research notes"
-  - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092"
       - "https://www.hopsaint.com/"
@@ -106,13 +94,13 @@ hop-profile:
   - published: "El Dorado"
     variety: "El Dorado"
     form: null
-    use: null
+    use: "dry hop"
     lot-or-farm: null
     source: "https://www.hopsaint.com/our-beers"
   - published: "Mosaic"
     variety: "Mosaic"
     form: null
-    use: null
+    use: "dry hop"
     lot-or-farm: null
     source: "https://www.hopsaint.com/our-beers"
 hops:
@@ -131,7 +119,9 @@ sources:
   - "https://www.hopsaint.com/our-beers"
 srm: null
 style: "American Pale Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Tropical, hoppy, and delicious."
+  source: "https://www.hopsaint.com/our-beers"
 water: null
 yeast: []
 ---
@@ -167,7 +157,9 @@ Source: [HopSaint: on tap](https://www.hopsaint.com/our-beers)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Tropical, hoppy, and delicious.
+
+Source: [hopsaint.com](https://www.hopsaint.com/our-beers)
 
 ## ingredients
 
@@ -177,8 +169,8 @@ HopSaint's tap list names Mosaic and El Dorado as dry hops and mentions unnamed 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| El Dorado | El Dorado | not published | not published | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
-| Mosaic | Mosaic | not published | not published | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+| El Dorado | El Dorado | not published | dry hop | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
+| Mosaic | Mosaic | not published | dry hop | not published | [hopsaint.com](https://www.hopsaint.com/our-beers) |
 
 ## brewing-details
 
@@ -225,10 +217,11 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/our-beers), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/hopsaint-brewing-company-pure-intention/1387092), [hopsaint.com](https://www.hopsaint.com/), [hopsaint.com](https://www.hopsaint.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 
 - The tap list on the brewery site is an Untappd for Business embed; description, style and ABV were read from it. It marks the beer with a GABF bronze.
 - IBU comes only from the Untappd beer page, which repeats the same description and 5.7% ABV.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery says the pale ale is dry-hopped with Mosaic and El Dorado, recorded as their use.

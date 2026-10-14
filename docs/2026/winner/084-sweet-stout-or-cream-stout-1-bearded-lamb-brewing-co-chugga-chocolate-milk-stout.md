@@ -199,3 +199,4 @@ Links checked 2026-10-14: [Website](https://beardedlamb.com/), [Instagram](https
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches for the beer and brewery with Untappd, ABV, BeerMenus and 2026 medal terms found no additional specifications. The official winners page names the beer but supplies no recipe or strength; all gaps remain.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Chugga Chocolate Milk Stout description.

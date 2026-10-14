@@ -19,7 +19,7 @@ export function Checkbox({ id, label, hint, defaultChecked, checked, onCheckedCh
     return () => el.removeEventListener('change', onChange);
   }, [onCheckedChange]);
   return (
-    <div className="flex items-start gap-1">
+    <div className="flex items-start gap-1" data-component="checkbox">
       <md-checkbox
         ref={ref}
         id={id}

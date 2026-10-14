@@ -199,3 +199,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches for the exact name with Untappd, ABV, BeerMenus and 2026 award terms found no additional specifications. The accessible brewery beer list did not expose this beer. No ingredients were inferred from the brewery's other products.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Shiva The Destroyer description.

@@ -266,3 +266,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplied strength, style and three hop varieties. The listing is distinct from Serenity Now, the previously excluded IPA. No IBU or brewery-hosted beer page was found.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

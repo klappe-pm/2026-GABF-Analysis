@@ -246,3 +246,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact brewery and beer entry on Untappd supplied strength but no IBU or description. Its Coffee Porter classification alone does not establish a coffee addition, so adjuncts remain empty. No brewery-hosted beer page was found.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Weather Re-Porter description.

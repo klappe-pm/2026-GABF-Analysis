@@ -228,3 +228,4 @@ Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Un
 - The session's web search budget ran out before Untappd or press for this beer could be searched.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Clash of the Tartans description.
