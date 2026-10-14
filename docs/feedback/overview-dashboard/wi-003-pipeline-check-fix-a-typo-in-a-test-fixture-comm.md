@@ -1,6 +1,6 @@
 ---
 id: WI-003
-status: ACCEPTED
+status: DONE
 title: "Pipeline check: fix a typo in a test fixture comment"
 page: overview-dashboard
 job: JOB-1
@@ -36,6 +36,13 @@ images:
     url: https://github.com/klappe-pm/GABF-Analysis/blob/main/docs/feedback/overview-dashboard/wi-003-pipeline-check-fix-a-typo-in-a-test-fixture-comm/page.png?raw=true
 issue: 58
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/58
+pr: 60
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/60
+resolution:
+  status: DONE
+  change: "pull request #60"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-14T21:10:37.746Z
 ---
 
 Pipeline check: fix a typo in a test fixture comment. In tests/fixtures/pipeline-check.txt the comment spells pipeline as pipline. Correct that one word and change nothing else.
