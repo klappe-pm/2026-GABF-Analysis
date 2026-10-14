@@ -8,9 +8,9 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 const REF = resolve(ROOT, 'data/reference');
 const load = (name) => readFileSync(resolve(REF, name), 'utf8');
 
-const FARM_COLUMNS = ['slug', 'name', 'state', 'city', 'county', 'family_ownership', 'founded', 'generation', 'acreage', 'certifications', 'merchant_affiliation', 'sells_direct', 'variety_source_role', 'notes', 'source_url', 'other_sources'];
-const VARIETY_COLUMNS = ['farm', 'variety_as_published', 'year', 'source_url', 'notes'];
-const MERCHANT_COLUMNS = ['slug', 'name', 'type', 'location', 'ownership', 'processing', 'farms_sourced', 'proprietary_varieties', 'source_url', 'notes'];
+const FARM_COLUMNS = ['slug', 'name', 'state', 'city', 'county', 'family_ownership', 'founded', 'generation', 'acreage', 'certifications', 'merchant_affiliation', 'sells_direct', 'variety_source_role', 'notes', 'source_url', 'other_sources', 'county_source', 'verified', 'verification'];
+const VARIETY_COLUMNS = ['farm', 'variety_as_published', 'year', 'source_url', 'notes', 'verified', 'verification'];
+const MERCHANT_COLUMNS = ['slug', 'name', 'type', 'location', 'ownership', 'processing', 'farms_sourced', 'proprietary_varieties', 'source_url', 'notes', 'verified', 'verification'];
 const GAP_COLUMNS = ['topic', 'kind', 'finding', 'sources_checked'];
 
 const farms = readCsvRecords(load('hop-farms.csv'));
@@ -56,6 +56,23 @@ test('merchants carry a source and reference existing farms', () => {
     for (const farm of merchant.farms_sourced.split(';').map((s) => s.trim()).filter(Boolean)) {
       assert.ok(slugs.has(farm), `${merchant.slug} sources unknown farm ${farm}`);
     }
+  }
+});
+
+test('every farm, variety and merchant row sets verified to yes or no and gives a reason', () => {
+  for (const [file, rows] of [['hop-farms.csv', farms], ['hop-farm-varieties.csv', varieties], ['hop-merchants.csv', merchants]]) {
+    for (const row of rows) {
+      const id = row.slug ?? `${row.farm} ${row.variety_as_published}`;
+      assert.match(row.verified, /^(yes|no)$/, `${file} ${id} verified`);
+      assert.ok(row.verification, `${file} ${id} verification`);
+    }
+  }
+});
+
+test('a county is marked as derived or stated', () => {
+  for (const farm of farms) {
+    if (farm.county) assert.match(farm.county_source, /^(looked up from city|stated by source)$/, `${farm.slug} county_source`);
+    else assert.equal(farm.county_source, '', `${farm.slug} county_source without a county`);
   }
 });
 

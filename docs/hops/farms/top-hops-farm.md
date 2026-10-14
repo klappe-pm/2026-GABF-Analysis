@@ -19,7 +19,9 @@ Top Hops Farm is recorded here from the sources listed below, and only as those 
 
 ## location
 
-Goodrich, Genesee County, MI. County is a geographic lookup from the city, not a claim by the farm.
+Goodrich, Genesee County, MI. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: Goodrich location from a search summary; HGM member page read.
 
 ## ownership-and-history
 

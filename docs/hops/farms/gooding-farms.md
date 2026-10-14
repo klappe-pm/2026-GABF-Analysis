@@ -19,7 +19,9 @@ Gooding Farms is recorded here from the sources listed below, and only as those 
 
 ## location
 
-Parma, Canyon County, ID. County is a geographic lookup from the city, not a claim by the farm.
+Parma, Canyon County, ID. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: Parma location from a search summary; farm site read.
 
 ## ownership-and-history
 
@@ -31,9 +33,9 @@ Parma, Canyon County, ID. County is a geographic lookup from the city, not a cla
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Idaho Gem™ Brand '2012G01' Variety | current | https://www.goodingfarms.com/ | The only named variety; the site says 12 varieties are grown. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Idaho Gem™ Brand '2012G01' Variety | current | https://www.goodingfarms.com/ | The only named variety; the site says 12 varieties are grown. | yes |
 
 ## supply-chain
 

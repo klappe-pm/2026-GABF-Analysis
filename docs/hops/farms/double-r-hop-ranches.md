@@ -19,7 +19,7 @@ Double 'R' Hop Ranches is recorded here from the sources listed below, and only 
 
 ## location
 
-Harrah, Yakima County, WA. County is a geographic lookup from the city, not a claim by the farm.
+Harrah, Yakima County, WA. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 

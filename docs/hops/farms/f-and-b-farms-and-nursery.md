@@ -19,7 +19,7 @@ F & B Farms & Nursery LLC is recorded here from the sources listed below, and on
 
 ## location
 
-Woodburn, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+Woodburn, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 
@@ -27,9 +27,9 @@ Woodburn, Marion County, OR. County is a geographic lookup from the city, not a 
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Strata | current | https://www.indiehops.com/growers | Named among Indie Hops Strata growers. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Strata | current | https://www.indiehops.com/growers | Named among Indie Hops Strata growers. | yes |
 
 ## supply-chain
 

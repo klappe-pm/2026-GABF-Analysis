@@ -19,7 +19,7 @@ Dog Star Hops is recorded here from the sources listed below, and only as those 
 
 ## location
 
-MI. County is a geographic lookup from the city, not a claim by the farm.
+MI.
 
 ## ownership-and-history
 

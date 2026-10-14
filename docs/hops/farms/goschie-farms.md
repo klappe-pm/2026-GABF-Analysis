@@ -19,7 +19,9 @@ Goschie Farms is recorded here from the sources listed below, and only as those 
 
 ## location
 
-Silverton, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+Silverton, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: certification and 2014 collaboration beer from search summaries; farm site and Indie Hops page read.
 
 ## ownership-and-history
 
@@ -31,11 +33,11 @@ Silverton, Marion County, OR. County is a geographic lookup from the city, not a
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Cascade | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. |
-| Centennial | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. |
-| Fuggle | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Cascade | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. | Not yet confirmed from the farm's own source |
+| Centennial | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. | Not yet confirmed from the farm's own source |
+| Fuggle | 2014 | https://washingtonbeerblog.com/double-mountain-brewery-collaborates-with-goschie-farms/ | Collaboration beer used hops from the farm; known from a search result summary. | Not yet confirmed from the farm's own source |
 
 ## supply-chain
 

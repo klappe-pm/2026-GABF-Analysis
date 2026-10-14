@@ -19,7 +19,9 @@ tags: []
 
 ## location
 
-Plymouth, state not stated. County is a geographic lookup from the city, not a claim by the farm.
+Plymouth, state not stated.
+
+Not yet confirmed from the farm's own source. Reason: HGA directory listing.
 
 ## ownership-and-history
 

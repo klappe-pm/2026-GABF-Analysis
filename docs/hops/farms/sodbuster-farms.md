@@ -19,7 +19,9 @@ Sodbuster Farms is recorded here from the sources listed below, and only as thos
 
 ## location
 
-state not stated. County is a geographic lookup from the city, not a claim by the farm.
+state not stated.
+
+Not yet confirmed from the farm's own source. Reason: Yakima Chief brochure listing from a search summary; Indie Hops page read.
 
 ## ownership-and-history
 
@@ -27,9 +29,9 @@ state not stated. County is a geographic lookup from the city, not a claim by th
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Strata | current | https://www.indiehops.com/growers | Indie Hops calls the Mission Bottom site a favorite locale of Strata. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Strata | current | https://www.indiehops.com/growers | Indie Hops calls the Mission Bottom site a favorite locale of Strata. | yes |
 
 ## supply-chain
 

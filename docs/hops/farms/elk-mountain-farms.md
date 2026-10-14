@@ -19,7 +19,9 @@ Elk Mountain Farms is recorded here from the sources listed below, and only as t
 
 ## location
 
-Bonners Ferry, Boundary County, ID. County is a geographic lookup from the city, not a claim by the farm.
+Bonners Ferry, Boundary County, ID. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: search summary only; site did not resolve.
 
 ## ownership-and-history
 

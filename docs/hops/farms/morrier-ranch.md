@@ -19,7 +19,7 @@ Morrier Ranch is recorded here from the sources listed below, and only as those 
 
 ## location
 
-WA. County is a geographic lookup from the city, not a claim by the farm.
+WA.
 
 ## ownership-and-history
 

@@ -19,7 +19,7 @@ CLS Farms is recorded here from the sources listed below, and only as those sour
 
 ## location
 
-Moxee, Yakima County, WA. County is a geographic lookup from the city, not a claim by the farm.
+Moxee, Yakima County, WA. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 
@@ -32,24 +32,24 @@ Moxee, Yakima County, WA. County is a geographic lookup from the city, not a cla
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| El Dorado® | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety with Medusa and Zappa. |
-| Medusa™ | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety. |
-| Zappa® | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety. |
-| Centennial | current | http://clsfarms.com/ | Appears only in a photo caption on the farm site. |
-| Sultana | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it; first time grown in the Moxee region. |
-| Lotus | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. |
-| Calypso | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. |
-| Altus | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. |
-| El Dorado® | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in the Toppenish fields. |
-| Sabro™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in the Toppenish fields. |
-| Cashmere | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in Moxee for 2020. |
-| Centennial | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. |
-| Citra™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. |
-| Zappa™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. |
-| Neomexicanus | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. |
-| Triumph | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Reported to have performed well in the Wenas area. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| El Dorado® | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety with Medusa and Zappa. | yes |
+| Medusa™ | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety. | yes |
+| Zappa® | current | http://clsfarms.com/ | Listed by the farm as a proprietary variety. | yes |
+| Centennial | current | http://clsfarms.com/ | Appears only in a photo caption on the farm site. | yes |
+| Sultana | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it; first time grown in the Moxee region. | yes |
+| Lotus | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. | yes |
+| Calypso | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. | yes |
+| Altus | 2022 | https://washingtonbeerblog.com/hopsteiner-announces-a-new-agreement-with-cls-farms/ | Hopsteiner licensed CLS to grow and market it. | yes |
+| El Dorado® | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in the Toppenish fields. | yes |
+| Sabro™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in the Toppenish fields. | yes |
+| Cashmere | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | New rhizomes planted in Moxee for 2020. | yes |
+| Centennial | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. | yes |
+| Citra™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. | yes |
+| Zappa™ | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. | yes |
+| Neomexicanus | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Named in the 2020 crop report. | yes |
+| Triumph | 2020 | https://yakimavalleyhops.com/blogs/news/2020-crop-report | Reported to have performed well in the Wenas area. | yes |
 
 ## supply-chain
 

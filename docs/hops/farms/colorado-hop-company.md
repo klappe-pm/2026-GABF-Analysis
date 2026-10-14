@@ -19,7 +19,9 @@ Colorado Hop Company is recorded here from the sources listed below, and only as
 
 ## location
 
-Platteville, Weld County, CO. County is a geographic lookup from the city, not a claim by the farm.
+Platteville, Weld County, CO. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 

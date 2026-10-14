@@ -19,7 +19,9 @@ B&D Farms is recorded here from the sources listed below, and only as those sour
 
 ## location
 
-St. Paul, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+St. Paul, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: farm profile from a search summary; Indie Hops page read.
 
 ## ownership-and-history
 
@@ -31,10 +33,10 @@ St. Paul, Marion County, OR. County is a geographic lookup from the city, not a 
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Cascade | current | https://www.indiehops.com/growers | Indie Hops says the farm's Cascade won the Cascade Cup. |
-| Strata | 2022 | https://www.indiehops.com/growers | Expected harvest in 2022 per Indie Hops. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Cascade | current | https://www.indiehops.com/growers | Indie Hops says the farm's Cascade won the Cascade Cup. | yes |
+| Strata | 2022 | https://www.indiehops.com/growers | Expected harvest in 2022 per Indie Hops. | yes |
 
 ## supply-chain
 

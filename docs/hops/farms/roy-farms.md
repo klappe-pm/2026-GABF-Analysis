@@ -19,7 +19,7 @@ Roy Farms is recorded here from the sources listed below, and only as those sour
 
 ## location
 
-WA. County is a geographic lookup from the city, not a claim by the farm.
+WA.
 
 ## ownership-and-history
 
@@ -28,9 +28,9 @@ WA. County is a geographic lookup from the city, not a claim by the farm.
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Strata | current | https://www.indiehops.com/growers | Indie Hops says Roy Farms is licensed to grow process and sell Strata to US breweries. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Strata | current | https://www.indiehops.com/growers | Indie Hops says Roy Farms is licensed to grow process and sell Strata to US breweries. | yes |
 
 ## supply-chain
 

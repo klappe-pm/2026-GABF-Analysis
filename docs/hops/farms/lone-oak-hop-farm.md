@@ -19,7 +19,7 @@ Lone Oak Hop Farm is recorded here from the sources listed below, and only as th
 
 ## location
 
-Woodburn, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+Woodburn, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 

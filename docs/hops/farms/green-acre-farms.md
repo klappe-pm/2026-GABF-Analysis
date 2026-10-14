@@ -19,7 +19,7 @@ Green Acre Farms is recorded here from the sources listed below, and only as tho
 
 ## location
 
-state not stated. County is a geographic lookup from the city, not a claim by the farm.
+state not stated.
 
 ## ownership-and-history
 

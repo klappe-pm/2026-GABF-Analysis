@@ -19,7 +19,9 @@ Cascade Hop Farm is recorded here from the sources listed below, and only as tho
 
 ## location
 
-Redmond, Deschutes County, OR. County is a geographic lookup from the city, not a claim by the farm.
+Redmond, Deschutes County, OR. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: HGA directory listing.
 
 ## ownership-and-history
 

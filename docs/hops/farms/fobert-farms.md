@@ -19,7 +19,7 @@ Fobert Farms is recorded here from the sources listed below, and only as those s
 
 ## location
 
-OR. County is a geographic lookup from the city, not a claim by the farm.
+OR.
 
 ## ownership-and-history
 
@@ -27,9 +27,9 @@ OR. County is a geographic lookup from the city, not a claim by the farm.
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Strata | current | https://www.indiehops.com/growers | Named among Indie Hops Strata growers. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Strata | current | https://www.indiehops.com/growers | Named among Indie Hops Strata growers. | yes |
 
 ## supply-chain
 

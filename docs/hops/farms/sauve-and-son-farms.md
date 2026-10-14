@@ -19,7 +19,9 @@ Sauve and Son Farms is recorded here from the sources listed below, and only as 
 
 ## location
 
-WA. County is a geographic lookup from the city, not a claim by the farm.
+WA.
+
+Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 

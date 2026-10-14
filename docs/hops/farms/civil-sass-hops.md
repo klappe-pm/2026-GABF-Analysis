@@ -19,7 +19,9 @@ Civil Sass Hops is recorded here from the sources listed below, and only as thos
 
 ## location
 
-Fillmore County, MN. County is a geographic lookup from the city, not a claim by the farm.
+Fillmore County, MN.
+
+Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 

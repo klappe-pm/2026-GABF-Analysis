@@ -19,7 +19,7 @@ Crosby Hop Farm (Crosby Hops) is recorded here from the sources listed below, an
 
 ## location
 
-Woodburn, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+Woodburn, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 
@@ -33,10 +33,10 @@ Woodburn, Marion County, OR. County is a geographic lookup from the city, not a 
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Strata | current | https://www.indiehops.com/growers | Indie Hops says Crosby is licensed to grow Strata. |
-| Comet | 2025 | https://ericrsannerud.substack.com/p/hop-notes-25-2025-us-hop-acreage | A trade newsletter says Crosby is growing its Estate Comet in Oregon. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Strata | current | https://www.indiehops.com/growers | Indie Hops says Crosby is licensed to grow Strata. | yes |
+| Comet | 2025 | https://ericrsannerud.substack.com/p/hop-notes-25-2025-us-hop-acreage | A trade newsletter says Crosby is growing its Estate Comet in Oregon. | yes |
 
 ## supply-chain
 

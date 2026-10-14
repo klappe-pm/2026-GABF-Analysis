@@ -19,7 +19,9 @@ Coleman Agriculture is recorded here from the sources listed below, and only as 
 
 ## location
 
-St. Paul, Marion County, OR. County is a geographic lookup from the city, not a claim by the farm.
+St. Paul, Marion County, OR. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: acreage, variety counts and Yakima Chief details from search summaries; Indie Hops page read.
 
 ## ownership-and-history
 
@@ -30,12 +32,12 @@ St. Paul, Marion County, OR. County is a geographic lookup from the city, not a 
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Mosaic | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. |
-| Citra | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. |
-| Simcoe | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. |
-| Cascade | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Mosaic | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. | Not yet confirmed from the farm's own source |
+| Citra | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. | Not yet confirmed from the farm's own source |
+| Simcoe | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. | Not yet confirmed from the farm's own source |
+| Cascade | 2024 | https://www.purebrewing.org/event/pure-project-education-series-american-hops-class-with-yakima-chief-hops/ | Search result summary of a 2024 event tied to the farm; page not opened. | Not yet confirmed from the farm's own source |
 
 ## supply-chain
 

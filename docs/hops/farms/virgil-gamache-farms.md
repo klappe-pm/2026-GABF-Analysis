@@ -19,7 +19,9 @@ Virgil Gamache Farms is recorded here from the sources listed below, and only as
 
 ## location
 
-Toppenish, Yakima County, WA. County is a geographic lookup from the city, not a claim by the farm.
+Toppenish, Yakima County, WA. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 
@@ -29,9 +31,9 @@ Toppenish, Yakima County, WA. County is a geographic lookup from the city, not a
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Amarillo R / VGXP01 | current | https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt | Variety designation as printed in the NASS table; association with the farm comes from a search result summary. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Amarillo R / VGXP01 | current | https://esmis.nal.usda.gov/sites/default/release-files/795696/hopsan25.txt | Variety designation as printed in the NASS table; association with the farm comes from a search result summary. | Not yet confirmed from the farm's own source |
 
 ## supply-chain
 

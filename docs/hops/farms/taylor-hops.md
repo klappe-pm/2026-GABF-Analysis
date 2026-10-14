@@ -19,7 +19,7 @@ Taylor Hops is recorded here from the sources listed below, and only as those so
 
 ## location
 
-Greenville, Montcalm County, MI. County is a geographic lookup from the city, not a claim by the farm.
+Greenville, Montcalm County, MI. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 

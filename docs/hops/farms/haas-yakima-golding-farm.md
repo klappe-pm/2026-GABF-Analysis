@@ -19,7 +19,9 @@ HAAS Yakima Golding Farm is recorded here from the sources listed below, and onl
 
 ## location
 
-Toppenish and Wenas, WA. County is a geographic lookup from the city, not a claim by the farm.
+Toppenish and Wenas, WA.
+
+Not yet confirmed from the farm's own source. Reason: acreage, certification and variety counts from search summaries; history page read.
 
 ## ownership-and-history
 

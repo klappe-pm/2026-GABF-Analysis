@@ -19,7 +19,9 @@ Carpenter Ranches is recorded here from the sources listed below, and only as th
 
 ## location
 
-near Ahtanum (south of Yakima), WA. County is a geographic lookup from the city, not a claim by the farm.
+near Ahtanum (south of Yakima), WA.
+
+Not yet confirmed from the farm's own source. Reason: Yakima Chief roster membership seen only in a search summary.
 
 ## ownership-and-history
 

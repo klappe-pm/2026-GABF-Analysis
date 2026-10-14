@@ -19,7 +19,9 @@ Billy Goat Hop Farm is recorded here from the sources listed below, and only as 
 
 ## location
 
-Montrose, Montrose County, CO. County is a geographic lookup from the city, not a claim by the farm.
+Montrose, Montrose County, CO. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: search summary only.
 
 ## ownership-and-history
 
@@ -28,12 +30,12 @@ Montrose, Montrose County, CO. County is a geographic lookup from the city, not 
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Idaho 7 | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. |
-| Cashmere | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. |
-| Centennial | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. |
-| El Dorado | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Idaho 7 | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. | Not yet confirmed from the farm's own source |
+| Cashmere | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. | Not yet confirmed from the farm's own source |
+| Centennial | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. | Not yet confirmed from the farm's own source |
+| El Dorado | current | https://www.westword.com/food-drink/whos-keeping-local-hop-farmers-in-business-5117872/ | Search result summary says the farm grows 11 varieties; four are named. | Not yet confirmed from the farm's own source |
 
 ## supply-chain
 

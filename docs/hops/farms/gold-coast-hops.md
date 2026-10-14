@@ -19,7 +19,7 @@ Gold Coast is recorded here from the sources listed below, and only as those sou
 
 ## location
 
-Ludington, Mason County, MI. County is a geographic lookup from the city, not a claim by the farm.
+Ludington, Mason County, MI. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 

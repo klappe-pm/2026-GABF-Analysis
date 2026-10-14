@@ -19,7 +19,7 @@ Westwood Farms is recorded here from the sources listed below, and only as those
 
 ## location
 
-OR. County is a geographic lookup from the city, not a claim by the farm.
+OR.
 
 ## ownership-and-history
 

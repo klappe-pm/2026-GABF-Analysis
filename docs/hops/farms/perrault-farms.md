@@ -19,7 +19,9 @@ Perrault Farms is recorded here from the sources listed below, and only as those
 
 ## location
 
-Toppenish, Yakima County, WA. County is a geographic lookup from the city, not a claim by the farm.
+Toppenish, Yakima County, WA. The county is derived: looked up from the city, not stated by the farm.
+
+Not yet confirmed from the farm's own source. Reason: grower-owner status seen only in a search summary of a Yakima Chief post.
 
 ## ownership-and-history
 
@@ -29,9 +31,9 @@ Toppenish, Yakima County, WA. County is a geographic lookup from the city, not a
 
 ## varieties-as-published
 
-| variety | year | source | note |
-| --- | --- | --- | --- |
-| Simcoe | 2017 | https://careers.yakimachief.com/?p=778 | Grown for a royal wedding beer per a Yakima Chief post; known from a search result summary and the post was not opened. |
+| variety | year | source | note | confirmed |
+| --- | --- | --- | --- | --- |
+| Simcoe | 2017 | https://careers.yakimachief.com/?p=778 | Grown for a royal wedding beer per a Yakima Chief post; known from a search result summary and the post was not opened. | Not yet confirmed from the farm's own source |
 
 ## supply-chain
 

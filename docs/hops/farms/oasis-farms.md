@@ -19,7 +19,7 @@ Oasis Farms is recorded here from the sources listed below, and only as those so
 
 ## location
 
-Prosser, Benton County, WA. County is a geographic lookup from the city, not a claim by the farm.
+Prosser, Benton County, WA. The county is derived: looked up from the city, not stated by the farm.
 
 ## ownership-and-history
 
