@@ -6,13 +6,13 @@ every page,header menu button,Menu,global.site.header.menu_button
 every page,header nav label,Site,global.site.header.nav_label
 every page,header theme toggle,Dark mode,global.site.header.theme_dark
 every page,header theme toggle,Light mode,global.site.header.theme_light
-every page,header nav,Dashboards,pages.dashboards.index.title
+every page,header nav (not in new nav; see dashboards decision),Dashboards,pages.dashboards.index.title
 every page,header nav,{{year}} winners,global.navigation.header.beers
-every page,header nav,First time medalists,pages.first-time-medalists.table.title
+every page,header nav (not in new nav; linked from home and beers),First time medalists,pages.first-time-medalists.table.title
 every page,header nav,Breweries,global.navigation.header.breweries
 every page,header nav,Categories,global.navigation.header.results_by_category
 every page,header nav,Reports,global.navigation.header.analysis
-every page,header nav,Explorer,pages.explorer.header.title
+every page,header nav (not in new nav; see explorer decision),Explorer,pages.explorer.header.title
 every page,header nav,About,global.navigation.footer.about
 every page,footer,Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides.,global.site.footer.sources
 every page,footer,Charts by Apache ECharts.,pages.about.attribution.charts
@@ -147,7 +147,7 @@ many pages (labels),estimate basis label,Brewery profile estimate,global.labels.
 main build (raw values),estimate basis,type-heuristic,global.labels.estimate_basis.type-heuristic
 main build (raw values),estimate basis,boty-bracket,global.labels.estimate_basis.boty-bracket
 main build (raw values),estimate basis,estimate,global.labels.estimate_basis.estimate
-many pages (labels),confidence,{{confidence}} confidence,global.labels.confidence.low
+many pages (labels),confidence,{{confidence}} confidence,pages.brewery-detail.scale.barrels_note
 many pages (labels),first time label,First medal in the loaded record,global.labels.first_time.new
 many pages (labels),first time label,First medal in the complete record,global.labels.first_time.new-complete
 many pages (labels),year status,Medaled,global.labels.trend_status.medaled

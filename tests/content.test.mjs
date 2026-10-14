@@ -55,6 +55,24 @@ test('visible copy has no dash punctuation, paths, or commands', () => {
   }
 });
 
+// Kebab case values (raw data slugs) must never show as copy. Real compound words are allowed.
+const COMPOUNDS = new Set(['gluten-free', 'barrel-aged', 'us-atlas']);
+function kebabTokens(text) {
+  const plain = String(text).replace(/\{\{[^}]+\}\}/g, '');
+  return [...plain.matchAll(/(^|[^\w{\-/])([a-z]+(?:-[a-z0-9]+)+)(?![\w}\-])/g)].map((m) => m[2]).filter((t) => !COMPOUNDS.has(t.toLowerCase()));
+}
+
+test('the kebab detector flags data slugs and allows real compound words', () => {
+  assert.deepEqual(kebabTokens('Channel: self-distribution'), ['self-distribution']);
+  assert.deepEqual(kebabTokens('Strong and barrel-aged, gluten-free, Pro-Am'), []);
+});
+
+test('visible copy has no kebab case values (label keys may stay raw)', () => {
+  for (const [name, doc] of Object.entries(docs)) {
+    for (const [path, value] of strings(doc, name, [])) assert.deepEqual(kebabTokens(value), [], path);
+  }
+});
+
 test('every inventory row points at a key that exists', () => {
   const lines = readFileSync(resolve(CONTENT, 'inventory.csv'), 'utf8').trim().split('\n');
   assert.equal(lines[0], 'page,location,current_text,new_key');
