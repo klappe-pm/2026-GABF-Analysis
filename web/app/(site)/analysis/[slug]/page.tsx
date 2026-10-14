@@ -15,6 +15,7 @@ import { pageMetadata } from '@/lib/seo';
 import type { ReportSlug } from '@/lib/models/analysis.mjs';
 import { analysis, firstComplete, labelGroup, MAIN, raw, viewCopy } from '@/app/(site)/analysis/parts/copy';
 import { analysisPaths } from '@/app/(site)/analysis/parts/paths';
+import { FindingList, findingsModel } from '@/app/(site)/analysis/parts/Findings';
 import { num } from '@/app/(site)/analysis/parts/format';
 import { EconomicsView, TopBreweriesView } from './BreweryViews';
 import { TopCategoriesView } from './CategoryViews';
@@ -305,6 +306,7 @@ export default async function ReportPage({ params }: { params: Promise<Params> }
         <p className="type-body-large max-w-measure text-on-surface-variant">{fill(raw(R('lede')), slug === 'by-state' ? { latest_year: meta.latestYear, data_year: meta.dataYear ?? meta.latestYear } : {})}</p>
       </header>
       {body}
+      <FindingList findings={(await findingsModel()).findingsForReport(slug)} title={t('pages.analysis-index.findings.title')} />
     </main>
   );
 }
