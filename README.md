@@ -117,3 +117,7 @@ Lappe, K. (2026). GABF Analysis (Version 0.1.0) [Computer software]. https://git
 ## License
 
 The code is released under the [MIT License](LICENSE). Competition results are the Brewers Association's published outcomes; style guideline ranges are used with attribution for non commercial analysis; brewery location data comes from Open Brewery DB; Apache ECharts is Apache 2.0; us-atlas boundaries derive from US Census Bureau data.
+
+## Privacy
+
+The project does not collect personal information or usage statistics. See the [privacy policy](privacy-policy.md) for browser preferences, hosting, and external links.
