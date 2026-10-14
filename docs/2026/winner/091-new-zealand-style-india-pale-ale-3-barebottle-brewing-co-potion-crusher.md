@@ -134,7 +134,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://beervolta.com/?pid=192852129"
   - published: "Motueka Cryo"
-    variety: "Motueka Cryo"
+    variety: "Motueka"
     form: null
     use: null
     lot-or-farm: null
@@ -147,7 +147,7 @@ hop-profile:
     source: "https://beervolta.com/?pid=192852129"
 hops:
   - "Mosaic"
-  - "Motueka Cryo"
+  - "Motueka"
   - "Riwaka"
 ibu: 120
 malts: []
@@ -211,7 +211,7 @@ No malt, yeast or adjunct details were found beyond the hop information in the s
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Mosaic | Mosaic | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
-| Motueka Cryo | Motueka Cryo | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
+| Motueka Cryo | Motueka | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
 | Riwaka | Riwaka | not published | not published | not published | [beervolta.com](https://beervolta.com/?pid=192852129) |
 
 ## brewing-details

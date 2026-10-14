@@ -92,13 +92,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Nelson"
-    variety: "Nelson"
+    variety: "Nelson Sauvin"
     form: null
     use: null
     lot-or-farm: null
     source: "https://cellarmakerbrewing.com/beer/nowhere-to-be/"
 hops:
-  - "Nelson"
+  - "Nelson Sauvin"
 ibu: null
 malts: []
 medal: "Silver"
@@ -158,7 +158,7 @@ The [brewery page](https://cellarmakerbrewing.com/beer/nowhere-to-be/) names onl
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Nelson | Nelson | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
+| Nelson | Nelson Sauvin | not published | not published | not published | [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/nowhere-to-be/) |
 
 ## brewing-details
 

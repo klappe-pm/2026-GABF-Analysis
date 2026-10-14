@@ -176,21 +176,21 @@ hop-profile:
     lot-or-farm: null
     source: "https://order.toasttab.com/online/worthy-brewing/"
   - published: "Mittelfrüh"
-    variety: "Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://order.toasttab.com/online/worthy-brewing/"
   - published: "Tradition"
-    variety: "Tradition"
+    variety: "Hallertauer Tradition"
     form: null
     use: null
     lot-or-farm: null
     source: "https://order.toasttab.com/online/worthy-brewing/"
 hops:
   - "East Kent Goldings"
-  - "Mittelfrüh"
-  - "Tradition"
+  - "Hallertauer Mittelfruh"
+  - "Hallertauer Tradition"
 ibu: null
 malts: []
 medal: "Silver"
@@ -253,8 +253,8 @@ The [brewery's pub ordering menu](https://order.toasttab.com/online/worthy-brewi
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | East Kent Goldings | East Kent Goldings | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
-| Mittelfrüh | Mittelfrüh | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
-| Tradition | Tradition | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
+| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
+| Tradition | Hallertauer Tradition | not published | not published | not published | [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/) |
 
 ## brewing-details
 

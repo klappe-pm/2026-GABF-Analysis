@@ -80,7 +80,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Mittelfrüh"
-    variety: "Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -92,7 +92,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://bissellbrothers.com/beer/precept"
 hops:
-  - "Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Saphir"
 ibu: null
 malts:
@@ -152,7 +152,7 @@ The [brewery page](https://bissellbrothers.com/beer/precept) gives an all Maine 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Mittelfrüh | not published | not published | not published | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
+| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 | Saphir | Saphir | not published | not published | not published | [bissellbrothers.com](https://bissellbrothers.com/beer/precept) |
 
 ## brewing-details

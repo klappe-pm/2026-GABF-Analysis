@@ -98,13 +98,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://ketchbrewing.com/beers/brig-blonde"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
 ibu: 20
 malts:
   - "Pilsner malt"
@@ -168,7 +168,7 @@ The beer page's "Nerd Out" panel describes the malt as soft and bready and names
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde) |
 
 ## brewing-details
 

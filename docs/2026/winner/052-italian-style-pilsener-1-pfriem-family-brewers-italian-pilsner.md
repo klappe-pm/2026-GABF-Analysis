@@ -94,7 +94,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.pfriembeer.com/beer/italian-pilsner/"
   - published: "Spalt Select"
-    variety: "Spalt Select"
+    variety: "Spalter Select"
     form: null
     use: null
     lot-or-farm: null
@@ -108,7 +108,7 @@ hop-profile:
 hops:
   - "Perle"
   - "Saphir"
-  - "Spalt Select"
+  - "Spalter Select"
   - "Tettnang"
 ibu: 35
 malts:
@@ -173,7 +173,7 @@ Everything published is in the specs table: four European hop varieties, two Pil
 |---|---|---|---|---|---|
 | Perle | Perle | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
 | Saphir | Saphir | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
-| Spalt Select | Spalt Select | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
+| Spalt Select | Spalter Select | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
 | Tettnang | Tettnang | not published | not published | not published | [pfriembeer.com](https://www.pfriembeer.com/beer/italian-pilsner/) |
 
 ## brewing-details

@@ -54,12 +54,6 @@ gaps:
       - "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
       - "https://www.northparkbeerco.com/"
       - "web searches recorded in the research notes"
-  - field: "hop-form"
-    sources-checked:
-      - "https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/"
-      - "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
-      - "https://www.northparkbeerco.com/"
-      - "web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/"
@@ -110,14 +104,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
   - published: "Citra Cryo"
-    variety: "Citra Cryo"
-    form: null
+    variety: "Citra"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
   - published: "Citra Incognito"
-    variety: "Citra Incognito"
-    form: null
+    variety: "Citra"
+    form: "Incognito"
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
@@ -128,7 +122,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
   - published: "Nelson Cryo"
-    variety: "Nelson Cryo"
+    variety: "Nelson Sauvin"
     form: null
     use: null
     lot-or-farm: null
@@ -147,10 +141,7 @@ hop-profile:
     source: "https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891"
 hops:
   - "Citra"
-  - "Citra Cryo"
-  - "Citra Incognito"
   - "Galaxy"
-  - "Nelson Cryo"
   - "Nelson Sauvin"
   - "Peacharine"
 ibu: 10
@@ -213,10 +204,10 @@ No malt, yeast or adjunct details were found beyond the hops in the specs table.
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Citra Cryo | Citra Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Citra Incognito | Citra Incognito | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Citra Cryo | Citra | Cryo | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Citra Incognito | Citra | Incognito | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 | Galaxy | Galaxy | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
-| Nelson Cryo | Nelson Cryo | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
+| Nelson Cryo | Nelson Sauvin | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 | Nelson Sauvin | Nelson Sauvin | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 | Peacharine | Peacharine | not published | not published | not published | [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891) |
 
@@ -257,7 +248,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/), [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891), [northparkbeerco.com](https://www.northparkbeerco.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://sandiegobeer.news/whats-tapping-san-diego-9-3-26/), [untappd.com](https://untappd.com/b/north-park-beer-company-npbc10-tdh-hazy-triple-ipa/6850891), [northparkbeerco.com](https://www.northparkbeerco.com/), web searches recorded in the research notes.
 
 ## research-notes
 

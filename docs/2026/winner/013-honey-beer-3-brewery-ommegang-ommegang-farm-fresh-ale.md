@@ -77,7 +77,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Magnum"
-    variety: "Hallertau Magnum"
+    variety: "Hallertauer Magnum"
     form: null
     use: null
     lot-or-farm: null
@@ -89,7 +89,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.ommegang.com/beerinfo/farm-fresh-ale/"
 hops:
-  - "Hallertau Magnum"
+  - "Hallertauer Magnum"
   - "Mandarina Bavaria"
 ibu: 12
 malts:
@@ -159,7 +159,7 @@ The brewery publishes a full ingredient line: 2-row and white wheat malts, yello
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Magnum | Hallertau Magnum | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
+| Hallertau Magnum | Hallertauer Magnum | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
 | Mandarina Bavaria | Mandarina Bavaria | not published | not published | not published | [ommegang.com](https://www.ommegang.com/beerinfo/farm-fresh-ale/) |
 
 ## brewing-details

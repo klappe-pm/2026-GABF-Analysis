@@ -121,7 +121,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -133,7 +133,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://altstadtbeer.com/beers/german-pils/"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Saaz"
 ibu: 25
 malts:
@@ -197,7 +197,7 @@ The beer page names 100% German Pilsner malt with Hallertau Mittelfrüh and Saaz
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
 | Saaz | Saaz | not published | not published | not published | [altstadtbeer.com](https://altstadtbeer.com/beers/german-pils/) |
 
 ## brewing-details

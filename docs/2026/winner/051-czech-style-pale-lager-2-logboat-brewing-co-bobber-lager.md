@@ -117,13 +117,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Mittelfrüh"
-    variety: "Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.logboatbrewing.com/bobber"
 hops:
-  - "Mittelfrüh"
+  - "Hallertauer Mittelfruh"
 ibu: 15
 malts: []
 medal: "Silver"
@@ -185,7 +185,7 @@ The brewery names Mittelfrüh as the hop and says "Noble Hops provide floral not
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Mittelfrüh | Mittelfrüh | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
+| Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [logboatbrewing.com](https://www.logboatbrewing.com/bobber) |
 
 ## brewing-details
 

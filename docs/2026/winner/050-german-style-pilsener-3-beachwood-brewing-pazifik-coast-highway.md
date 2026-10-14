@@ -116,13 +116,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos"
-hops: 
-  - "Hallertau Mittelfrüh"
+hops:
+  - "Hallertauer Mittelfruh"
 ibu: 33
 malts: []
 medal: "Bronze"
@@ -183,7 +183,7 @@ The [matching Untappd description](https://untappd.com/b/beachwood-brewing-pazif
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [untappd.com](https://untappd.com/b/beachwood-brewing-pazifik-coast-highway/6973565/photos) |
 
 ## brewing-details
 

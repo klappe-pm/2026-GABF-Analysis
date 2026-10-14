@@ -42,6 +42,7 @@ gaps:
       - "https://www.8bitbrewingcompany.com/"
       - "https://www.8bitbrewingcompany.com/craft-beer/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908"
@@ -55,12 +56,6 @@ gaps:
       - "https://www.8bitbrewingcompany.com/craft-beer/"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908"
-      - "https://www.8bitbrewingcompany.com/"
-      - "https://www.8bitbrewingcompany.com/craft-beer/"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908"
       - "https://www.8bitbrewingcompany.com/"
@@ -116,14 +111,14 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.8bitbrewingcompany.com/craft-beer/"
   - published: "Citra Cryo"
-    variety: "Citra Cryo"
-    form: null
+    variety: "Citra"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://www.8bitbrewingcompany.com/craft-beer/"
   - published: "Citra Dynaboost"
-    variety: "Citra Dynaboost"
-    form: null
+    variety: "Citra"
+    form: "DynaBoost"
     use: null
     lot-or-farm: null
     source: "https://www.8bitbrewingcompany.com/craft-beer/"
@@ -147,8 +142,6 @@ hop-profile:
     source: "https://www.8bitbrewingcompany.com/craft-beer/"
 hops:
   - "Citra"
-  - "Citra Cryo"
-  - "Citra Dynaboost"
   - "Mosaic"
   - "Nectaron"
   - "Riwaka"
@@ -212,8 +205,8 @@ The brewery's menu, embedded on its [craft beer page](https://www.8bitbrewingcom
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Citra | Citra | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Citra Cryo | Citra Cryo | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
-| Citra Dynaboost | Citra Dynaboost | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Citra Cryo | Citra | Cryo | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
+| Citra Dynaboost | Citra | DynaBoost | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
 | Mosaic | Mosaic | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
 | Nectaron | Nectaron | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
 | Riwaka | Riwaka | not published | not published | not published | [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/) |
@@ -255,7 +248,7 @@ Links checked 2026-10-14: [Website](https://www.8bitbrewingcompany.com/), [Insta
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes

@@ -82,13 +82,13 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
     source: "https://www.prostbrewing.com/helles"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
 ibu: 17
 malts:
   - "Weyermann Premium Pils"
@@ -150,7 +150,7 @@ The brewery also publishes husk separation, single decoction, open fermentation,
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [prostbrewing.com](https://www.prostbrewing.com/helles) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [prostbrewing.com](https://www.prostbrewing.com/helles) |
 
 ## brewing-details
 

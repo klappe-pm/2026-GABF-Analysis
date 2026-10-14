@@ -42,6 +42,7 @@ gaps:
       - "https://drinkdrakes.com/beer-library/"
       - "https://drinkdrakes.com/beer/bold-rush/"
       - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567"
   - field: "srm"
     sources-checked:
       - "https://drinkdrakes.com/"
@@ -55,12 +56,6 @@ gaps:
       - "https://drinkdrakes.com/beer/bold-rush/"
       - "web searches recorded in the research notes"
   - field: "fg"
-    sources-checked:
-      - "https://drinkdrakes.com/"
-      - "https://drinkdrakes.com/beer-library/"
-      - "https://drinkdrakes.com/beer/bold-rush/"
-      - "web searches recorded in the research notes"
-  - field: "hop-form"
     sources-checked:
       - "https://drinkdrakes.com/"
       - "https://drinkdrakes.com/beer-library/"
@@ -98,8 +93,8 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Loral Cryo"
-    variety: "Loral Cryo"
-    form: null
+    variety: "Loral"
+    form: "Cryo"
     use: null
     lot-or-farm: null
     source: "https://drinkdrakes.com/beer/bold-rush/"
@@ -110,7 +105,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://drinkdrakes.com/beer/bold-rush/"
 hops:
-  - "Loral Cryo"
+  - "Loral"
   - "Vanguard"
 ibu: null
 malts:
@@ -176,7 +171,7 @@ The beer page's ingredient panel gives hops, malts and yeast by name but no quan
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Loral Cryo | Loral Cryo | not published | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
+| Loral Cryo | Loral | Cryo | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
 | Vanguard | Vanguard | not published | not published | not published | [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/) |
 
 ## brewing-details
@@ -216,7 +211,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
 - Not published: IBU. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567).
 
 ## research-notes

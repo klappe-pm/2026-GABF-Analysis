@@ -88,7 +88,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.fremontbrewing.com/haru-japanese-lager"
   - published: "German Hallertau Mittlefruh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -100,7 +100,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.fremontbrewing.com/haru-japanese-lager"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Mosaic"
   - "Saaz"
 ibu: 17
@@ -172,7 +172,7 @@ The [brewery page](https://www.fremontbrewing.com/haru-japanese-lager) gives the
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
 | Mosaic | Mosaic | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
-| German Hallertau Mittlefruh | Hallertau Mittelfrüh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
+| German Hallertau Mittlefruh | Hallertauer Mittelfruh | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 | Saaz | Saaz | not published | not published | not published | [fremontbrewing.com](https://www.fremontbrewing.com/haru-japanese-lager) |
 
 ## brewing-details

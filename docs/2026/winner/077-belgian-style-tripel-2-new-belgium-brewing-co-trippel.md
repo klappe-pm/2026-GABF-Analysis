@@ -82,7 +82,7 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile:
   - published: "Hallertau Mittelfrüh"
-    variety: "Hallertau Mittelfrüh"
+    variety: "Hallertauer Mittelfruh"
     form: null
     use: null
     lot-or-farm: null
@@ -106,7 +106,7 @@ hop-profile:
     lot-or-farm: null
     source: "https://www.newbelgium.com/beer/trippel/"
 hops:
-  - "Hallertau Mittelfrüh"
+  - "Hallertauer Mittelfruh"
   - "Liberty"
   - "Nugget"
   - "Saaz"
@@ -172,7 +172,7 @@ The brewery publishes a full ingredient list on its beer page: pale, Munich and 
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Hallertau Mittelfrüh | Hallertau Mittelfrüh | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
+| Hallertau Mittelfrüh | Hallertauer Mittelfruh | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
 | Liberty | Liberty | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
 | Nugget | Nugget | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
 | Saaz | Saaz | not published | not published | not published | [newbelgium.com](https://www.newbelgium.com/beer/trippel/) |
