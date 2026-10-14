@@ -39,66 +39,99 @@ gaps:
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "og"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "fg"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "hops"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "hop-form"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "hop-use"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "malts"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "yeast"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "water"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
   - field: "process"
     sources-checked:
       - "https://bevindustry.com/articles/87966-blackstone-pumpkin-ale"
       - "https://blackstonebeer.com/our-beer"
       - "web searches recorded in the research notes"
       - "https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale"
+      - "https://www.blackstonebrewery.com/sitemap.xml"
+      - "https://www.blackstonebrewery.com/wp-sitemap.xml"
+      - "https://www.blackstonebrewery.com/"
 hop-profile: []
 hops: []
 ibu: 13
@@ -205,7 +238,7 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/BlackstoneBrewingCompany
 
 ## gaps
 
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes, [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevindustry.com](https://bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebeer.com](https://blackstonebeer.com/our-beer), web searches recorded in the research notes, [bevindustry.com](https://www.bevindustry.com/articles/87966-blackstone-pumpkin-ale), [blackstonebrewery.com](https://www.blackstonebrewery.com/sitemap.xml), [blackstonebrewery.com](https://www.blackstonebrewery.com/wp-sitemap.xml), [blackstonebrewery.com](https://www.blackstonebrewery.com/).
 
 ## research-notes
 
@@ -215,3 +248,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/BlackstoneBrewingCompany
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A working brewery domain was found through Memphis Beer Blog. Its Our Beer page names Pumpkin Ale in its award list, so the beer list is used as beer-url because no dedicated page was found. Neither page names hop varieties.
 - Deep dive pass 2026-10-14: Beverage Industry's 2014 release item carries the company's description (mild pumpkin flavor with ginger, cinnamon and nutmeg) at 5.1% ABV and 13 IBU; no hop, malt or yeast is named.
+- Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).

@@ -38,72 +38,108 @@ gaps:
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
       - "https://www.armoredcowbrewing.com/"
       - "https://www.armoredcowbrewing.com/on-tap"
       - "web searches recorded in the research notes"
+      - "https://www.armoredcowbrewing.com/sitemap.xml"
+      - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
+      - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
 hop-profile: []
 hops: []
 ibu: null
@@ -210,8 +246,8 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 
 ## gaps
 
-- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes.
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml).
 
 ## research-notes
 
@@ -221,3 +257,4 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A hop focused search surfaced local award coverage but no named hops or IBU; that local page could not be opened. Previously recorded Untappd N/A IBU remains unresolved.
 - Deep dive pass 2026-10-14: the tap list text, the brewery's only description, is also its tasting language; it names a German hefeweizen base but no yeast strain, hop or malt.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).

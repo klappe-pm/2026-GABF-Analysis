@@ -40,6 +40,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "srm"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -48,6 +53,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "og"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -56,6 +66,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "fg"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -64,6 +79,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "hops"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -72,6 +92,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "hop-form"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -80,6 +105,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "hop-use"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -88,6 +118,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -96,6 +131,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "malts"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -104,6 +144,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "yeast"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -112,6 +157,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "water"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -120,6 +170,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
   - field: "process"
     sources-checked:
       - "https://roughtailbeer.com/"
@@ -128,6 +183,11 @@ gaps:
       - "https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Roughtail Migrating Coconuts hops and malt"
+      - "https://roughtailbeer.com/wp-sitemap.xml"
+      - "https://roughtailbeer.com/sitemap.xml"
+      - "https://roughtailbeer.com/wp-sitemap-posts-page-1.xml"
+      - "https://roughtailbeer.com/beer/"
+      - "https://roughtailbeer.com/taproom/"
 hop-profile: []
 hops: []
 ibu: 20
@@ -232,7 +292,7 @@ Links checked 2026-10-14: [Website](https://roughtailbeer.com/), [Instagram](htt
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes, web search 2026-10-14: Roughtail Migrating Coconuts hops and malt.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [roughtailbeer.com](https://roughtailbeer.com/), [roughtailbeer.com](https://roughtailbeer.com/migrating-coconuts/), [beerandbrewing.com](https://www.beerandbrewing.com/review/roughtail-brewing-migrating-coconuts-1764780660), [beermenus.com](https://www.beermenus.com/beers/473681-roughtail-migrating-coconuts), web searches recorded in the research notes, web search 2026-10-14: Roughtail Migrating Coconuts hops and malt, [roughtailbeer.com](https://roughtailbeer.com/wp-sitemap.xml), [roughtailbeer.com](https://roughtailbeer.com/sitemap.xml), [roughtailbeer.com](https://roughtailbeer.com/wp-sitemap-posts-page-1.xml), [roughtailbeer.com](https://roughtailbeer.com/beer/), [roughtailbeer.com](https://roughtailbeer.com/taproom/).
 
 ## research-notes
 
@@ -242,3 +302,4 @@ Links checked 2026-10-14: [Website](https://roughtailbeer.com/), [Instagram](htt
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A hop variety focused search excluding the previously read brewery, review and BeerMenus pages found no matching source naming hops.
 - Deep dive pass 2026-10-14: a web search found reviewers' tasting notes (Craft Beer and Brewing) but no brewery tasting notes, hops or malts; reviewer notes are not recorded as the beer's own.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).

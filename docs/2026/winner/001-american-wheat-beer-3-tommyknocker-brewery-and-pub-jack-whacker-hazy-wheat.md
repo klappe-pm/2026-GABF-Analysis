@@ -39,6 +39,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "srm"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -46,6 +49,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "og"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -53,6 +59,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "fg"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -60,6 +69,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -67,6 +79,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -74,6 +89,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -81,6 +99,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "yeast"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -88,6 +109,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "water"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -95,6 +119,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
   - field: "process"
     sources-checked:
       - "https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat"
@@ -102,6 +129,9 @@ gaps:
       - "https://www.tommyknocker.com/drink-menu"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only)"
+      - "https://tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/sitemap.xml"
+      - "https://www.tommyknocker.com/wp-sitemap.xml"
 hop-profile:
   - published: "Perle"
     variety: "Perle"
@@ -217,7 +247,7 @@ Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only).
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [beermonthclub.com](https://www.beermonthclub.com/tommyknocker-brewery-jack-whacker-wheat), [tommyknocker.com](https://www.tommyknocker.com/), [tommyknocker.com](https://www.tommyknocker.com/drink-menu), web searches recorded in the research notes, web search 2026-10-14: Tommyknocker Jack Whacker wheat with lemongrass (club and newspaper reviews only), [tommyknocker.com](https://tommyknocker.com/sitemap.xml), [tommyknocker.com](https://www.tommyknocker.com/sitemap.xml), [tommyknocker.com](https://www.tommyknocker.com/wp-sitemap.xml).
 
 ## research-notes
 
@@ -227,3 +257,4 @@ Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Deep dive pass 2026-10-14: the drink menu and a web search found no brewery tasting notes, yeast, color, gravity, water or process detail; hop form, use and source stay unpublished.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).

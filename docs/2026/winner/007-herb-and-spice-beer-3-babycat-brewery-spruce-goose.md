@@ -37,6 +37,10 @@ gaps:
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "ibu"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
@@ -44,66 +48,110 @@ gaps:
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "srm"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "og"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "fg"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "hops"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "hop-form"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "hop-use"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "malts"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "yeast"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
   - field: "water"
     sources-checked:
       - "https://babycatbrewery.com/beer/spruce-goose/"
       - "https://babycatbrewery.com/beers/"
       - "https://untappd.com/b/babybat-brewery-spruce-goose/5214225"
       - "web searches recorded in the research notes"
+      - "https://babycatbrewery.com/sitemap.xml"
+      - "https://babycatbrewery.com/wp-sitemap.xml"
+      - "https://babycatbrewery.com/"
+      - "https://babycatbrewery.com/shop/"
 hop-profile: []
 hops: []
 ibu: null
@@ -209,8 +257,8 @@ Links checked 2026-10-14: [Website](https://babycatbrewery.com/), [Instagram](ht
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes.
-- Not Found: IBU. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, [babycatbrewery.com](https://babycatbrewery.com/sitemap.xml), [babycatbrewery.com](https://babycatbrewery.com/wp-sitemap.xml), [babycatbrewery.com](https://babycatbrewery.com/), [babycatbrewery.com](https://babycatbrewery.com/shop/).
+- Not Found: IBU. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [babycatbrewery.com](https://babycatbrewery.com/sitemap.xml), [babycatbrewery.com](https://babycatbrewery.com/wp-sitemap.xml), [babycatbrewery.com](https://babycatbrewery.com/), [babycatbrewery.com](https://babycatbrewery.com/shop/).
 
 ## research-notes
 
@@ -220,3 +268,4 @@ Links checked 2026-10-14: [Website](https://babycatbrewery.com/), [Instagram](ht
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found tourism coverage naming spruce tips but no IBU or named hops.
 - Deep dive pass 2026-10-14: the brewery page gives only the spruce tip conditioning; no tasting notes, hops, malts or yeast.
+- Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).

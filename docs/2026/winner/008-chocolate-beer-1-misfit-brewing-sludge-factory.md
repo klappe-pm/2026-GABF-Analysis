@@ -37,6 +37,11 @@ gaps:
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
@@ -44,66 +49,121 @@ gaps:
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "og"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
   - field: "water"
     sources-checked:
       - "https://untappd.com/MisfitBrewing/beer"
       - "https://www.drinkmisfit.com/"
       - "https://www.drinkmisfit.com/beerlist/"
       - "web searches recorded in the research notes"
+      - "https://www.drinkmisfit.com/wp-sitemap.xml"
+      - "https://www.drinkmisfit.com/sitemap.xml"
+      - "https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml"
+      - "https://www.drinkmisfit.com/beers/enchantment-of-the-north/"
+      - "https://www.drinkmisfit.com/beers/misfit-ultra/"
 hop-profile: []
 hops: []
 ibu: null
@@ -210,8 +270,8 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
-- Not Found: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not Found: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, [drinkmisfit.com](https://www.drinkmisfit.com/wp-sitemap.xml), [drinkmisfit.com](https://www.drinkmisfit.com/sitemap.xml), [drinkmisfit.com](https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml), [drinkmisfit.com](https://www.drinkmisfit.com/beers/enchantment-of-the-north/), [drinkmisfit.com](https://www.drinkmisfit.com/beers/misfit-ultra/).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [drinkmisfit.com](https://www.drinkmisfit.com/wp-sitemap.xml), [drinkmisfit.com](https://www.drinkmisfit.com/sitemap.xml), [drinkmisfit.com](https://www.drinkmisfit.com/wp-sitemap-posts-post-1.xml), [drinkmisfit.com](https://www.drinkmisfit.com/beers/enchantment-of-the-north/), [drinkmisfit.com](https://www.drinkmisfit.com/beers/misfit-ultra/).
 
 ## research-notes
 
@@ -221,3 +281,4 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 - Second pass 2026-10-13: Located the working brewery site and its Sludge Factory listing. The brewery lists 10.5% ABV, while [Untappd's listing](https://untappd.com/MisfitBrewing/beer) gives 11.2%; the brewery value is retained. No IBU or hop varieties were found.
 - Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found competition coverage without IBU or named hops.
 - Deep dive pass 2026-10-14: the brewery beer list was read again; it gives style, cocoa nib conditioning and 10.5% ABV only.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).

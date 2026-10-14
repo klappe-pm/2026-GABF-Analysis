@@ -38,6 +38,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -46,6 +50,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -54,6 +62,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -62,6 +74,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -70,6 +86,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -78,6 +98,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -86,6 +110,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -94,6 +122,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -102,6 +134,10 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/"
       - "web search 2026-10-14: Fuzztail yeast, IBU, SRM"
+      - "https://www.sunriverbrewingcompany.com/sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
+      - "https://www.sunriverbrewingcompany.com/"
+      - "https://www.sunriverbrewingcompany.com/beer"
 hop-profile:
   - published: "Cascade"
     variety: "Cascade"
@@ -245,7 +281,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/wp-sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer).
 
 ## research-notes
 
@@ -257,3 +293,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - Field pass 2026-10-13: The matching Untappd Fuzztail listing publishes 20 IBU, also corroborated by The Waterhole Tavern's menu. The fruit enhanced Seriously, Patrick? listing is a separate beer and was excluded.
 - Catalog.beer 2026-10-14: [Catalog.beer: Fuzztail](https://catalog.beer/beer/376ecaa3-99be-4c45-9292-1264ed22073f) lists 5% ABV, 20 IBU, style "Light American Wheat Ale or Lager with Yeast" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
 - Deep dive pass 2026-10-14: the tasting notes are the sensory lines of the brewery's own description; The Bulletin (July 21, 2019) describes the beer as unfiltered and hazy at 5% ABV and 20 IBU. No yeast strain, gravity or color figure was found; the brewery calls its hops hand selected without naming a lot or farm.
+- Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).

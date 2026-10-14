@@ -36,6 +36,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "tasting-notes"
     sources-checked:
       - "https://solanobrew.com/"
@@ -44,6 +46,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "abv"
     sources-checked:
       - "https://solanobrew.com/"
@@ -52,6 +56,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "srm"
     sources-checked:
       - "https://solanobrew.com/"
@@ -60,6 +66,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "og"
     sources-checked:
       - "https://solanobrew.com/"
@@ -68,6 +76,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "fg"
     sources-checked:
       - "https://solanobrew.com/"
@@ -76,6 +86,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "hops"
     sources-checked:
       - "https://solanobrew.com/"
@@ -84,6 +96,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "hop-form"
     sources-checked:
       - "https://solanobrew.com/"
@@ -92,6 +106,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "hop-use"
     sources-checked:
       - "https://solanobrew.com/"
@@ -100,6 +116,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "lot-or-farm"
     sources-checked:
       - "https://solanobrew.com/"
@@ -108,6 +126,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "malts"
     sources-checked:
       - "https://solanobrew.com/"
@@ -116,6 +136,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "yeast"
     sources-checked:
       - "https://solanobrew.com/"
@@ -124,6 +146,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "adjuncts"
     sources-checked:
       - "https://solanobrew.com/"
@@ -132,6 +156,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "water"
     sources-checked:
       - "https://solanobrew.com/"
@@ -140,6 +166,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
   - field: "process"
     sources-checked:
       - "https://solanobrew.com/"
@@ -148,6 +176,8 @@ gaps:
       - "https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/"
       - "web searches recorded in the research notes"
       - "https://solanobrew.com/our-beers/ (page loads its list by script, no text)"
+      - "https://solanobrew.com/sitemap.xml"
+      - "https://solanobrew.com/wp-sitemap.xml"
 hop-profile: []
 hops: []
 ibu: 24
@@ -251,8 +281,8 @@ Links checked 2026-10-14: [Website](https://solanobrew.com/), [Instagram](https:
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)).
-- Not Found: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)), [solanobrew.com](https://solanobrew.com/sitemap.xml), [solanobrew.com](https://solanobrew.com/wp-sitemap.xml).
+- Not Found: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, [solanobrew.com](https://solanobrew.com/our-beers/ (page loads its list by script, no text)), [solanobrew.com](https://solanobrew.com/sitemap.xml), [solanobrew.com](https://solanobrew.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -262,3 +292,4 @@ Links checked 2026-10-14: [Website](https://solanobrew.com/), [Instagram](https:
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Solano listing publishes 24 IBU and no named hop varieties. Its ABV header says 10%, while its brewer description says 10.5%; ABV remains null because the same page conflicts.
 - Deep dive pass 2026-10-14: the brewery beer page renders no readable beer text.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).

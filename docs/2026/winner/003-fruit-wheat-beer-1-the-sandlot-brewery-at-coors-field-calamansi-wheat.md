@@ -33,81 +33,129 @@ gaps:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "tasting-notes"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "abv"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "ibu"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "srm"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "og"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "fg"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "hops"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "hop-form"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "hop-use"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "malts"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "yeast"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "adjuncts"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "water"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
   - field: "process"
     sources-checked:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only)"
       - "https://www.sandlotbrewery.com/ (HTTP 403)"
+      - "https://www.sandlotbrewery.com/sitemap.xml"
+      - "https://www.sandlotbrewery.com/wp-sitemap.xml"
+      - "https://www.sandlotbrewery.com/"
 hop-profile: []
 hops: []
 ibu: null
@@ -203,8 +251,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)).
-- Not Found: ABV, IBU. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/).
+- Not Found: ABV, IBU. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -214,3 +262,4 @@ No brewery links have been checked yet.
 - Second pass 2026-10-13: Untappd, BeerMenus, ABV and medal searches found no additional beer specifications. Results for Calamansi Gose, Modist Solvista and another brewery's Calamansi Wheat do not establish a match; their specifications were excluded.
 - Field pass 2026-10-13: A distributor focused search and a separate ABV and hops search surfaced medal coverage without specifications. No matching ABV, IBU, brewery beer page or named hops were found; the Blue Moon Calamansi Gose is a separate beer.
 - Deep dive pass 2026-10-14: a web search found only older Sandlot medal coverage, and the brewery site refused automated readers; nothing about Calamansi Wheat is published.
+- Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).

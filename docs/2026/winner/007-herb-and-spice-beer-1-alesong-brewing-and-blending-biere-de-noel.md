@@ -39,6 +39,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "og"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -46,6 +51,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "fg"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -53,6 +63,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "hops"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -60,6 +75,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "hop-form"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -67,6 +87,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "hop-use"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -74,6 +99,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "lot-or-farm"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -81,6 +111,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "malts"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -88,6 +123,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
   - field: "water"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -95,6 +135,11 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
+      - "https://alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/sitemap.xml"
+      - "https://www.alesongbrewing.com/wp-sitemap.xml"
+      - "https://alesongbrewing.com/beers"
+      - "https://alesongbrewing.com/menu"
 hop-profile: []
 hops: []
 ibu: 22
@@ -205,7 +250,7 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes, [alesongbrewing.com](https://alesongbrewing.com/sitemap.xml), [alesongbrewing.com](https://www.alesongbrewing.com/sitemap.xml), [alesongbrewing.com](https://www.alesongbrewing.com/wp-sitemap.xml), [alesongbrewing.com](https://alesongbrewing.com/beers), [alesongbrewing.com](https://alesongbrewing.com/menu).
 
 ## research-notes
 
@@ -215,3 +260,4 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 22 IBU and names no hops. An unrelated homebrew recipe was excluded.
 - Deep dive pass 2026-10-14: the brewery page's stats list brandy barrels, 10.9% ABV and Saccharomyces; it names no hops, malts or specific spices.
+- Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).

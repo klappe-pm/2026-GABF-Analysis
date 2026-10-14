@@ -39,41 +39,97 @@ gaps:
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
       - "Catalog.beer search by beer and brewery name"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "og"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "fg"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "hops"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "hop-form"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "hop-use"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "lot-or-farm"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
   - field: "water"
     sources-checked:
       - "https://thirdwindowbrewing.com/products/saison-automne-2026"
       - "https://www.thirdwindowbrewing.com/"
       - "web searches recorded in the research notes"
+      - "https://thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/sitemap.xml"
+      - "https://www.thirdwindowbrewing.com/wp-sitemap.xml"
+      - "https://thirdwindowbrewing.com/collections/beer"
+      - "https://thirdwindowbrewing.com/pages/beer"
+      - "https://thirdwindowbrewing.com/pages/shop"
+      - "https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026"
 hop-profile: []
 hops: []
 ibu: null
@@ -185,8 +241,8 @@ Links checked 2026-10-14: [Website](https://www.thirdwindowbrewing.com/).
 
 ## gaps
 
-- Not Found: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
-- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not Found: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [thirdwindowbrewing.com](https://thirdwindowbrewing.com/sitemap.xml), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/sitemap.xml), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/wp-sitemap.xml), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/collections/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/shop), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026).
+- Not Found: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-automne-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, [thirdwindowbrewing.com](https://thirdwindowbrewing.com/sitemap.xml), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/sitemap.xml), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/wp-sitemap.xml), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/collections/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/shop), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/collections/beer/products/saison-automne-2026).
 
 ## research-notes
 
@@ -195,3 +251,4 @@ Links checked 2026-10-14: [Website](https://www.thirdwindowbrewing.com/).
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The Carpinteria tap list names Saison Automne but publishes neither IBU nor hops for it. The Motueka and Hallertau Mittelfrüh listing belongs to Petite Saison and was excluded.
 - Deep dive pass 2026-10-14: the brewery page publishes sensory notes and the full process (FP Farm malt and wheat, mixed culture refermentation, sage tea in secondary, honey bottle conditioning); it names no hops and no IBU.
+- Brewery site scrape 2026-10-14: found nothing new; 9 pages tried (robots.txt obeyed, one request every few seconds per host).

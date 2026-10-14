@@ -36,6 +36,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -43,6 +46,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "abv"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -50,6 +56,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "ibu"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -57,6 +66,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "srm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -64,6 +76,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "og"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -71,6 +86,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "fg"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -78,6 +96,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "hops"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -85,6 +106,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "hop-form"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -92,6 +116,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "hop-use"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -99,6 +126,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -106,6 +136,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "malts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -113,6 +146,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "yeast"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -120,6 +156,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "adjuncts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -127,6 +166,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "water"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -134,6 +176,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
   - field: "process"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -141,6 +186,9 @@ gaps:
       - "https://www.liquidmechanicsbrewing.com/tasting-room"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results)"
+      - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
+      - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
 hop-profile: []
 hops: []
 ibu: null
@@ -242,8 +290,8 @@ Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [U
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results).
-- Not Found: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml).
+- Not Found: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -254,3 +302,4 @@ Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [U
 - Second pass 2026-10-13: Exact-name and alternate-name searches with Untappd, ABV and BeerMenus found no verified specifications. The brewery's Untappd activity and medal coverage identify the beer but do not supply its recipe; fields remain null.
 - Field pass 2026-10-13: A retailer focused exact-name search found brewery activity and medal coverage, without a new specification source. ABV, IBU, brewery beer page and named hops remain unverified.
 - Deep dive pass 2026-10-14: an exact-name web search returned nothing about the beer.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).

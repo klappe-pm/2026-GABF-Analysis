@@ -34,84 +34,140 @@ gaps:
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
       - "web searches recorded in the research notes"
       - "web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only)"
       - "https://www.ldpbeer.com/ (HTTP 403)"
+      - "https://www.losdospotrillos.com/sitemap.xml"
+      - "https://www.losdospotrillos.com/wp-sitemap.xml"
+      - "https://www.losdospotrillos.com/"
+      - "https://www.losdospotrillos.com/menu"
 hop-profile: []
 hops: []
 ibu: 21
@@ -209,7 +265,7 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)), [losdospotrillos.com](https://www.losdospotrillos.com/sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/wp-sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/), [losdospotrillos.com](https://www.losdospotrillos.com/menu).
 
 ## research-notes
 
@@ -220,3 +276,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 - Second pass 2026-10-13: an exact-phrase web search for the beer with the brewery found only the same restaurant and brewery coverage plus unrelated Agua Fresca products (Left Hand Brewer's Test Kitchen #10, Calidad seltzer); a Telluride Blues brewery listing returned 404; the web search limit ran out before an Untappd search, so nothing more was found.
 - Field pass 2026-10-13: The matching Untappd listing publishes 5% ABV and 21 IBU. Hop varieties were not named; a targeted brewery domain search found no beer page.
 - Deep dive pass 2026-10-14: the brewery's beer site ldpbeer.com returned HTTP 403 to every reader, and a web search found no description or recipe for Agua Fresca.
+- Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
