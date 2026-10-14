@@ -22,9 +22,9 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
   - "Experimental India Pale Ale"
-  - "German-Style Doppelbock or Eisbock"
+  - "German Doppelbock or Eisbock"
 city: "Vista"
 employees: null
 farms-named: []

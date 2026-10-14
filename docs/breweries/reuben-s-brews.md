@@ -21,7 +21,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
   - "Old Ale or Strong Ale or Barley Wine"
   - "Robust Porter"
 city: "Seattle"

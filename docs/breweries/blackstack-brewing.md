@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "International-Style Pilsener"
+  - "International Pilsener"
 city: "Saint Paul"
 employees: null
 farms-named: []

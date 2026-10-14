@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Contemporary American-Style Lager"
+  - "Contemporary American Lager"
   - "Experimental Wood-Aged Beer"
 city: "Richmond"
 employees: null

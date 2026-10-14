@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Witbier"
+  - "Belgian Witbier"
 city: "Lake Worth"
 employees: null
 farms-named: []

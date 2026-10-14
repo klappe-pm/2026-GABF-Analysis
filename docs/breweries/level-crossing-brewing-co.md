@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "South Salt Lake"
 employees: null
 farms-named: []

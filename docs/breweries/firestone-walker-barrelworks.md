@@ -22,8 +22,8 @@ beers-2026:
   - "../2026/winner/080-belgian-style-fruit-beer-2-firestone-walker-barrelworks-krieky-koelschip.md"
 brewery-type: "micro"
 categories-won:
-  - "Belgian-Style Fruit Beer"
-  - "Belgian-Style or Spontaneous Sour Ale"
+  - "Belgian Fruit Beer"
+  - "Belgian or Spontaneous Sour Ale"
 city: "Buellton"
 employees: null
 farms-named: []

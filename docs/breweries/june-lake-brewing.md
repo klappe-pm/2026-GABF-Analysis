@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
   - "Session India Pale Ale"
 city: "June Lake"
 employees: null

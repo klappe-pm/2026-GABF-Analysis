@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Coffee Stout or Porter"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Philadelphia"
 employees: null
 farms-named: []

@@ -23,7 +23,7 @@ brewery-type: "micro"
 categories-won:
   - "American Sour Ale"
   - "Herb and Spice Beer"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Sparks"
 employees: null
 farms-named: []

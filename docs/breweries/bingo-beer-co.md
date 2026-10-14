@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/056-german-style-maerzen-2-bingo-beer-co-oktoberfest.md"
 brewery-type: "planning"
 categories-won:
-  - "German-Style Maerzen"
-  - "German-Style Pilsener"
+  - "German Maerzen"
+  - "German Pilsener"
 city: "Richmond"
 employees: null
 farms-named: []

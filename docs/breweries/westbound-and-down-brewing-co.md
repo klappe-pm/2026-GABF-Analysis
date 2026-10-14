@@ -24,17 +24,17 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "American Cream Ale"
-  - "American-Style Pale Ale"
-  - "American-Style Strong Pale Ale"
+  - "American Pale Ale"
+  - "American Strong Pale Ale"
   - "Collab Comp"
   - "English India Pale Ale or New Zealand India Pale Ale"
   - "Hoppy Lager"
-  - "Italian-Style Pilsener"
+  - "Italian Pilsener"
   - "New Zealand India Pale Ale"
   - "Session India Pale Ale"
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
+  - "West Coast India Pale Ale"
   - "West Coast IPA"
-  - "West Coast-Style India Pale Ale"
   - "Wood- and Barrel-Aged Strong Stout"
 city: "Lafayette"
 employees: null

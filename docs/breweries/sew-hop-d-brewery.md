@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "planning"
 categories-won:
-  - "German-Style Altbier"
+  - "German Altbier"
 city: "Huntley"
 employees: null
 farms-named: []

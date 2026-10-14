@@ -22,9 +22,9 @@ beers-2026: []
 brewery-type: "brewpub"
 categories-won:
   - "American Fruit Beer"
-  - "American-Style India Pale Ale"
-  - "American-Style Light Lager"
-  - "German-Style Pilsener"
+  - "American India Pale Ale"
+  - "American Light Lager"
+  - "German Pilsener"
 city: "Portland"
 employees: null
 farms-named: []

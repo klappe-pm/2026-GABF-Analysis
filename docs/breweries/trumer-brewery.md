@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "regional"
 categories-won:
-  - "German-Style Pilsener"
+  - "German Pilsener"
 city: "Berkeley"
 employees: null
 farms-named: []

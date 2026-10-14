@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: "brewpub"
 categories-won:
   - "Juicy or Hazy Imperial India Pale Ale"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Florissant"
 employees: null
 farms-named: []

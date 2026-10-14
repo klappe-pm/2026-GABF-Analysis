@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: "brewpub"
 categories-won:
   - "American Pale Ale"
-  - "Mexican-Style Light Lager"
+  - "Mexican Light Lager"
   - "Other Strong Beer"
   - "Vera Hop Beer"
 city: "Torrance"

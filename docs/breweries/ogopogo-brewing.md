@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/059-german-style-schwarzbier-1-ogopogo-brewing-nachtkrapp.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Schwarzbier"
-  - "International-Style Pale Ale"
+  - "German Schwarzbier"
+  - "International Pale Ale"
 city: "San Gabriel"
 employees: null
 farms-named: []

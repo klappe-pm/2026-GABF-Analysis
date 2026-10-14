@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/089-international-style-pale-ale-3-original-pattern-brewing-co-hows-the-serenity.md"
 brewery-type: "micro"
 categories-won:
+  - "International Pale Ale"
   - "International Pale Ale or New Zealand Pale Ale"
-  - "International-Style Pale Ale"
   - "Session India Pale Ale"
 city: "Oakland"
 employees: null

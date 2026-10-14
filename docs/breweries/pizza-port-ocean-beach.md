@@ -20,8 +20,8 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Session Beer or Belgian-Style Table Beer"
-  - "Specialty Berliner-Style Weisse"
+  - "Session Beer or Belgian Table Beer"
+  - "Specialty Berliner Weisse"
 city: "San Diego"
 employees: null
 farms-named: []

@@ -25,7 +25,7 @@ categories-won:
   - "Coffee Beer"
   - "Coffee Stout or Porter"
   - "Historical Beer"
-  - "South German-Style Hefeweizen"
+  - "South German Hefeweizen"
 city: "San Diego"
 employees: null
 farms-named: []

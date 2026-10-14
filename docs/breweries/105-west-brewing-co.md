@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/041-mexican-style-pale-lager-2-105-west-brewing-co-mexican-lager.md"
 brewery-type: null
 categories-won:
-  - "Mexican-Style Pale Lager"
+  - "Mexican Pale Lager"
 city: "Castle Rock"
 employees: null
 farms-named: []

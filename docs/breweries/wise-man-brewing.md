@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "micro"
 categories-won:
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Winston-Salem"
 employees: null
 farms-named: []

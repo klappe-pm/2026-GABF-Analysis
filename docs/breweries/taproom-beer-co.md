@@ -24,7 +24,7 @@ categories-won:
   - "Fresh Hop Beer"
   - "Juicy or Hazy Strong Pale Ale"
   - "Smoke Beer"
-  - "West Coast-Style India Pale Ale"
+  - "West Coast India Pale Ale"
 city: "San Diego"
 employees: null
 farms-named: []

@@ -23,9 +23,9 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "German Wheat Ale"
-  - "International-Style Pilsener"
+  - "International Pilsener"
   - "Light Lager"
-  - "South German-Style Wheat Beer"
+  - "South German Wheat Beer"
 city: "Tucker"
 employees: null
 farms-named: []

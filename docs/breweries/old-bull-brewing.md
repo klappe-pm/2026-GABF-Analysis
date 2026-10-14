@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/078-belgian-style-strong-specialty-ale-1-old-bull-brewing-last-best-quad.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
 city: "Frenchtown"
 employees: null
 farms-named: []

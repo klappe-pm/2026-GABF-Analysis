@@ -22,11 +22,11 @@ beers-2026:
   - "../2026/winner/091-new-zealand-style-india-pale-ale-2-meanwhile-brewing-co-dream-logic.md"
 brewery-type: null
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
   - "Experimental Beer"
-  - "German-Style Pilsener"
-  - "International-Style Pilsener"
-  - "New Zealand-Style India Pale Ale"
+  - "German Pilsener"
+  - "International Pilsener"
+  - "New Zealand India Pale Ale"
 city: "Austin"
 employees: null
 farms-named: []

@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Sour Ale"
+  - "Belgian Sour Ale"
   - "Classic Saison"
 city: "Newark"
 employees: null

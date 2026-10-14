@@ -21,7 +21,7 @@ beers-2026: []
 brewery-type: null
 categories-won:
   - "Brown Porter"
-  - "Irish-Style Red Ale"
+  - "Irish Red Ale"
 city: "Knoxville"
 employees: null
 farms-named: []

@@ -23,7 +23,7 @@ beers-2026:
 brewery-type: null
 categories-won:
   - "Golden or Blonde Ale"
-  - "New Zealand-Style Pale Ale"
+  - "New Zealand Pale Ale"
 city: "San Diego"
 employees: null
 farms-named: []

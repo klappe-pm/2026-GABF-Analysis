@@ -24,7 +24,7 @@ beers-2026: []
 brewery-type: "micro"
 categories-won:
   - "Belgian Fruit Beer"
-  - "International-Style Pale Ale"
+  - "International Pale Ale"
 city: "Cleveland"
 employees: null
 farms-named: []

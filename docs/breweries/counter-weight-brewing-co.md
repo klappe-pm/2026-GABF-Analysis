@@ -23,10 +23,10 @@ beers-2026:
   - "../2026/winner/054-dortmunder-or-german-style-festbier-3-counter-weight-brewing-co-counter-weight-fest-bier.md"
 brewery-type: null
 categories-won:
-  - "American-Style Lager"
-  - "Dortmunder or German-Style Festbier"
+  - "American Lager"
+  - "Dortmunder or German Festbier"
   - "Historical Beer"
-  - "Munich-Style Helles"
+  - "Munich Helles"
 city: "Cheshire"
 employees: null
 farms-named: []

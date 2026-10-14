@@ -24,10 +24,10 @@ brewery-type: "brewpub"
 categories-won:
   - "American Amber Lager"
   - "American Black Ale or American Stout"
-  - "American-Style Pale Ale"
-  - "International-Style Pale Ale"
+  - "American Pale Ale"
+  - "International Pale Ale"
   - "Specialty Beer"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
   - "Wood- and Barrel-Aged Strong Stout"
 city: "Portland"
 employees: null

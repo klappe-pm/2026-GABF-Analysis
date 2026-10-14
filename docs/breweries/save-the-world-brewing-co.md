@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "Belgian-Style Ale or French-Style Ale"
+  - "Belgian Ale or French Ale"
 city: "Marble Falls"
 employees: null
 farms-named: []

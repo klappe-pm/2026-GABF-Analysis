@@ -20,7 +20,7 @@ beeradvocate: null
 beers-2026: []
 brewery-type: null
 categories-won:
-  - "American-Style Strong Pale Ale"
+  - "American Strong Pale Ale"
 city: "Carmel-By-The-Sea"
 employees: null
 farms-named: []

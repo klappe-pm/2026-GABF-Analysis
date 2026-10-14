@@ -22,7 +22,7 @@ beers-2026:
 brewery-type: "micro"
 categories-won:
   - "Fruit Wheat Beer"
-  - "Vienna-Style Lager"
+  - "Vienna Lager"
 city: "Beech Mountain"
 employees: null
 farms-named: []

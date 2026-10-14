@@ -20,10 +20,10 @@ beeradvocate: null
 beers-2026: []
 brewery-type: "brewpub"
 categories-won:
-  - "Belgian-Style Strong Specialty Ale"
+  - "Belgian Strong Specialty Ale"
+  - "German Doppelbock or Eisbock"
   - "German Sour Ale"
-  - "German-Style Doppelbock or Eisbock"
-  - "Specialty Berliner-Style Weisse"
+  - "Specialty Berliner Weisse"
 city: "Hawley"
 employees: null
 farms-named: []

@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/066-european-style-amber-ale-1-white-bluffs-brewing-biere-de-garde.md"
 brewery-type: "micro"
 categories-won:
-  - "European-Style Amber Ale"
+  - "European Amber Ale"
 city: "Richland"
 employees: null
 farms-named: []

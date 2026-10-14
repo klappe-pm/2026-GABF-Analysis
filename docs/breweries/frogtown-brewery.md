@@ -21,7 +21,7 @@ beers-2026:
   - "../2026/winner/062-german-style-koelsch-3-frogtown-brewery-twin-suns.md"
 brewery-type: "micro"
 categories-won:
-  - "German-Style Koelsch"
+  - "German Koelsch"
 city: "Los Angeles"
 employees: null
 farms-named: []

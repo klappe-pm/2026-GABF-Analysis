@@ -21,8 +21,8 @@ beers-2026:
   - "../2026/winner/076-belgian-style-abbey-ale-2-peticolas-brewing-co-room-for-more.md"
 brewery-type: null
 categories-won:
-  - "Belgian-Style Abbey Ale"
-  - "Belgian-Style Dubbel"
+  - "Belgian Abbey Ale"
+  - "Belgian Dubbel"
 city: "Dallas"
 employees: null
 farms-named: []
