@@ -31,3 +31,37 @@
 .gfw-hover[hidden] { display: none; }
 
 html.gfw-picking, html.gfw-picking * { cursor: crosshair !important; }
+
+/* Editing page copy in place: page copy gets a quiet dotted underline while the panel is open, the
+   element being edited a solid blue outline, and the editor (a field, Save and Cancel) sits on it.
+   Square corners, no shadows. */
+html.gfw-picking .gfw-editable { outline: 1px dotted #0b4fb3; outline-offset: 2px; }
+.gfw-editable.gfw-editing { outline: 3px solid #0b4fb3 !important; outline-offset: 2px; }
+.gfw-tip {
+  position: absolute; transform: translate(0, calc(-100% - 6px)); max-width: 320px; box-sizing: border-box;
+  font: 600 12px/1.35 "Public Sans", "Helvetica Neue", Arial, sans-serif; background: #14213d; color: #ffffff; padding: 5px 8px;
+  outline: 1px solid #ffffff;
+}
+.gfw-tip.no { background: #5b5b5b; }
+.gfw-tip.below { transform: translate(0, 28px); }
+.gfw-tip[hidden] { display: none; }
+
+.gfw-editor-host { position: absolute; z-index: 2147483000; box-sizing: border-box; max-width: calc(100vw - 16px); font: 400 13px/1.4 "Public Sans", "Helvetica Neue", Arial, sans-serif; color: #14213d; }
+.gfw-editor-input { display: block; box-sizing: border-box; width: 100%; margin: 0; padding: 2px 8px; border: 3px solid #0b4fb3; border-radius: 0; background: #ffffff; color: #14213d; outline: 1px solid #ffffff; }
+.gfw-editor-input:focus { outline: 1px solid #ffffff; }
+.gfw-editor-bar { display: flex; gap: 6px; margin-top: 4px; }
+.gfw-editor-bar button { min-height: 32px; padding: 0 14px; border-radius: 0; border: 2px solid #14213d; font: 700 13px/1 "Public Sans", "Helvetica Neue", Arial, sans-serif; cursor: pointer; }
+.gfw-editor-save { background: #1a6b2f; border-color: #1a6b2f !important; color: #ffffff; }
+.gfw-editor-save:disabled { opacity: 0.45; cursor: not-allowed; }
+.gfw-editor-cancel { background: #ffffff; color: #14213d; }
+.gfw-editor-bar button:focus-visible, .gfw-editor-check input:focus-visible { outline: 3px solid #0b4fb3; outline-offset: 2px; }
+.gfw-editor-msg { margin: 4px 0 0; padding: 0; }
+.gfw-editor-msg:empty { display: none; }
+.gfw-editor-msg.bad { background: #ffffff; color: #a3171a; font-weight: 700; padding: 4px 6px; outline: 1px solid #a3171a; }
+.gfw-editor-related { margin-top: 4px; background: #ffffff; padding: 0 6px; }
+.gfw-editor-related:not(:empty) { padding: 4px 6px; outline: 1px solid #14213d; }
+.gfw-editor-where { margin: 0 0 4px; }
+.gfw-editor-list { list-style: none; margin: 0; padding: 0; }
+.gfw-editor-check { display: flex; gap: 6px; align-items: center; }
+.gfw-editor-host.above { display: flex; flex-direction: column-reverse; }
+.gfw-editor-host.above .gfw-editor-bar { margin: 0 0 4px; }

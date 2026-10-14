@@ -11,7 +11,7 @@ import { ROOT, SITE } from './paths.mjs';
 export const REVIEW = process.env.GABF_FEEDBACK === '1';
 
 // Markers the public build must never contain. The test scans every file in dist/ for them.
-export const REVIEW_MARKERS = ['feedback-widget', 'data-src=', '/review/regions', '/review/feedback', 'gabf-review', 'gabf-control-plane', 'gfw-region', 'gfw-pin'];
+export const REVIEW_MARKERS = ['feedback-widget', 'data-src=', '/review/regions', '/review/feedback', 'gabf-review', 'gabf-control-plane', 'gfw-region', 'gfw-pin', 'gfw-editor', '/review/inline'];
 
 export function assertReviewAllowed(env = process.env) {
   if (env.GABF_FEEDBACK === '1' && (env.CI || env.GITHUB_ACTIONS)) {
