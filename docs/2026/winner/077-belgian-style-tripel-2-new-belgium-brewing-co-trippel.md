@@ -30,11 +30,6 @@ description:
 entries: 33
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.newbelgium.com/"
-      - "https://www.newbelgium.com/beer/trippel/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.newbelgium.com/"
@@ -125,7 +120,9 @@ sources:
   - "https://www.newbelgium.com/beer/trippel/"
 srm: null
 style: "Belgian-style ale"
-tasting-notes: null
+tasting-notes:
+  text: "This golden beer opens with a bold blast of spicy Noble hops, courtesy of Saaz and Hallertau Mittelfruh, and gives way to fruity aromas from our traditional Belgian yeast. ... It also sings with a high-note of sweet citrus before delivering a pleasantly dry finish with a warm, strong boozy bite."
+  source: "https://www.newbelgium.com/beer/trippel/"
 water: null
 yeast:
   - "Trappist ale yeast"
@@ -162,7 +159,9 @@ Source: [New Belgium: Trippel](https://www.newbelgium.com/beer/trippel/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This golden beer opens with a bold blast of spicy Noble hops, courtesy of Saaz and Hallertau Mittelfruh, and gives way to fruity aromas from our traditional Belgian yeast. ... It also sings with a high-note of sweet citrus before delivering a pleasantly dry finish with a warm, strong boozy bite.
+
+Source: [newbelgium.com](https://www.newbelgium.com/beer/trippel/)
 
 ## ingredients
 
@@ -219,10 +218,11 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [newbelgium.com](https://www.newbelgium.com/), [newbelgium.com](https://www.newbelgium.com/beer/trippel/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [newbelgium.com](https://www.newbelgium.com/), [newbelgium.com](https://www.newbelgium.com/beer/trippel/), web searches recorded in the research notes.
 
 ## research-notes
 
 - All specs come from the brewery's own beer page; the page also notes a gold for Belgian-Style Tripel at the 2021 GABF.
 - No coriander or other spice is mentioned on the brewery page.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting notes, Trappist ale yeast, Nugget, Hallertau Mittelfruh, Saaz and Liberty hops, pale, Munich and Pilsner malts, 8.5% ABV and 43 IBU.

@@ -38,6 +38,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "srm"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -45,6 +46,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "og"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "fg"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -59,6 +62,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "hops"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -66,6 +70,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "hop-form"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -73,6 +78,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "hop-use"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -80,6 +86,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -87,6 +94,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "malts"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -94,6 +102,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "yeast"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -101,6 +110,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "adjuncts"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -108,6 +118,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "water"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -115,6 +126,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
   - field: "process"
     sources-checked:
       - "https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/"
@@ -122,6 +134,7 @@ gaps:
       - "https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale"
       - "https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list"
       - "web searches recorded in the research notes"
+      - "https://www.stonebrewing.com/"
 hop-profile: []
 hops: []
 ibu: 60
@@ -228,7 +241,7 @@ Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thebrewermagazine.com](https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/), [untappd.com](https://untappd.com/b/stone-brewing-stone-lifeblood/428296), [stonebrewing.com](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thebrewermagazine.com](https://thebrewermagazine.com/stone-launches-brewery-exclusives-with-lifeblurred-imperial-brown-ale/), [untappd.com](https://untappd.com/b/stone-brewing-stone-lifeblood/428296), [stonebrewing.com](https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale), [stonebrewing.com](https://www.stonebrewing.com/visit/bistros/liberty-station/draft-list), web searches recorded in the research notes, [stonebrewing.com](https://www.stonebrewing.com/).
 
 ## research-notes
 
@@ -239,3 +252,4 @@ Links checked 2026-10-14: [Website](https://www.stonebrewing.com/), [Instagram](
 - IBU comes only from Untappd.
 - No 2026 medal announcement from Stone was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

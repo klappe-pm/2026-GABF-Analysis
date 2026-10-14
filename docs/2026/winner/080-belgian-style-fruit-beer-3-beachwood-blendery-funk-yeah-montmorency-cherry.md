@@ -24,18 +24,12 @@ brewery-state: "CA"
 brewery-url: "https://beachwoodbrewing.com/blendery.html"
 category-name: "Belgian-Style Fruit Beer"
 category-number: 80
-description: null
+description:
+  text: "Gueuze-Inspired Sour Ale. Blended, 3-year sour ale w/ Montmorency cherry"
+  source: "https://beachwoodbrewing.com/secondpch.html"
 entries: 31
 fg: null
 gaps:
-  - field: "description"
-    sources-checked:
-      - "https://beachwoodbrewing.com/blendery.html"
-      - "https://beachwoodbrewing.com/secondpch.html"
-      - "https://shop.beachwoodbrewing.com/"
-      - "https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles"
-      - "https://www.beachwoodbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://beachwoodbrewing.com/blendery.html"
@@ -52,6 +46,7 @@ gaps:
       - "https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles"
       - "https://www.beachwoodbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://beachwoodbrewing.com/blendery.html"
@@ -140,14 +135,6 @@ gaps:
       - "https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles"
       - "https://www.beachwoodbrewing.com/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://beachwoodbrewing.com/blendery.html"
-      - "https://beachwoodbrewing.com/secondpch.html"
-      - "https://shop.beachwoodbrewing.com/"
-      - "https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles"
-      - "https://www.beachwoodbrewing.com/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -155,7 +142,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Blended three-year sour ale with Montmorency cherry"
+  source: "https://beachwoodbrewing.com/secondpch.html"
 sources:
   - "https://beachwoodbrewing.com/blendery.html"
   - "https://beachwoodbrewing.com/secondpch.html"
@@ -218,7 +207,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Blended three-year sour ale with Montmorency cherry | [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html) |
 
 ## style-context
 
@@ -252,7 +241,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
@@ -263,3 +252,4 @@ No brewery links have been checked yet.
 - The web search budget ran out before Untappd or press could be searched for specs.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches found the exact cherry variant in Beachwood's 2nd and PCH menu index, but that page repeatedly timed out. The opened Toast page did not expose the cherry listing. No specifications were accepted from search snippets; structured fields remain empty.
+- Deep dive pass 2026-10-14: the brewery menu gives the style and blend; ABV 6.5, IBU blank.

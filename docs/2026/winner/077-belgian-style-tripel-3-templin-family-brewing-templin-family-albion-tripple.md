@@ -32,18 +32,13 @@ description:
 entries: 33
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://tfbrewing.com/beer/albion-trippel/"
-      - "https://tfbrewing.com/beers/"
-      - "https://www.tfbrewing.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://tfbrewing.com/beer/albion-trippel/"
       - "https://tfbrewing.com/beers/"
       - "https://www.tfbrewing.com/"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://tfbrewing.com/beer/albion-trippel/"
@@ -133,7 +128,9 @@ sources:
   - "https://www.tfbrewing.com/"
 srm: null
 style: "Belgian-Style Trippel"
-tasting-notes: null
+tasting-notes:
+  text: "Deceivingly alcoholic, light body, effervescent."
+  source: "https://tfbrewing.com/beer/albion-trippel/"
 water: null
 yeast:
   - "Trappist ale yeast"
@@ -170,7 +167,9 @@ Source: [Templin Family: Albion Trippel](https://tfbrewing.com/beer/albion-tripp
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Deceivingly alcoholic, light body, effervescent.
+
+Source: [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/)
 
 ## ingredients
 
@@ -225,8 +224,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -235,3 +234,4 @@ No brewery links have been checked yet.
 - The 10.2% ABV is a deliberate nod to the 10,200 ft wedding elevation, per the brewery.
 - The beer page lists International Beer Awards gold in 2022, 2023 and 2024 and bronze in 2021, and no GABF 2026 announcement.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page's tasting words are recorded; it names Trappist yeast and 10.2%.
