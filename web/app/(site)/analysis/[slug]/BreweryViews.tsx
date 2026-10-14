@@ -15,9 +15,9 @@ import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { BreweryInfo } from '@/lib/models/analysis.mjs';
 import { BarCard } from '@/app/(site)/analysis/parts/charts';
 import { Plot } from '@/app/(site)/analysis/parts/Plot';
-import { fmtN, stackedBars } from '@/app/(site)/dashboards/kit/charts';
+import { dotPlot, fmtN, stackedBars } from '@/app/(site)/dashboards/kit/charts';
 import { LazyEstimate } from '@/app/(site)/analysis/parts/LazyEstimate';
-import { fill, num, percent, usd, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
+import { compact, fill, num, percent, usd, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 type Meta = { years: number[]; coverage: Record<string, string>; latestComplete: number };
 const split = (g: number, s: number, b: number) => `${g} / ${s} / ${b}`;
@@ -142,7 +142,7 @@ export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: R
   const shown = useFilteredRows(rows);
   const keys = new Set(shown.map((x) => x.brewery_key as string));
   const list = [...keys].map((k) => info[k]).filter(Boolean).sort((a, b) => (b.arr ?? 0) - (a.arr ?? 0));
-  const bars = list.slice(0, CHART_BREWERIES).map((b) => ({ label: b.name, value: b.arr ?? 0, href: href(paths.brewery(b.slug)) }));
+  const dots = list.slice(0, CHART_BREWERIES);
   const columns: Column[] = [
     { key: 'brewery', label: copy.columns.brewery, sortable: true },
     { key: 'type', label: copy.columns.type, sortable: true },
@@ -185,7 +185,15 @@ export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: R
   }));
   return (
     <ViewFrame rows={shown} scopeCount={rows.length} copy={copy.view} firstCompleteYear={firstCompleteYear}>
-      <BarCard id="arr-by-brewery" title={copy.chart.title} subtitle={copy.chart.subtitle} items={bars} valueName={copy.chart.valueName} labelHeader={copy.chart.labelHeader} tableSummary={copy.chart.tableSummary} ariaLabel={copy.chart.title} roleIndex={4} labelWidth={220} />
+      <Plot
+        id="arr-by-brewery"
+        title={copy.chart.title}
+        subtitle={copy.chart.subtitle}
+        chrome={copy.view.chrome}
+        tableSummary={copy.chart.tableSummary}
+        build={dotPlot({ items: dots.map((b) => ({ name: b.slug, label: b.name, value: b.arr ?? 0 })), format: (n) => `$${compact(n)}`, labelWidth: (w) => (w < 480 ? 112 : 220) })}
+        table={{ columns: [{ key: 'brewery', label: copy.chart.labelHeader, sortable: true }, { key: 'arr', label: copy.columns.arr, numeric: true, sortable: true }], rows: dots.map((b) => ({ key: b.key, sort: { brewery: b.name, arr: b.arr ?? 0 }, cells: { brewery: <TextLink href={href(paths.brewery(b.slug))}>{b.name}</TextLink>, arr: usd(b.arr) } })), initialSort: { key: 'arr', dir: 'descending' } }}
+      />
       <section className="flex flex-col gap-3" aria-labelledby="all-medalists">
         <SectionHeader id="all-medalists" title={copy.table.title} />
         <DataTable caption={copy.table.title} sortHint={copy.table.sortHint} columns={columns} rows={table} initialSort={{ key: 'arr', dir: 'descending' }} scroll={false} />

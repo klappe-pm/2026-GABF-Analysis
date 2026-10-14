@@ -142,6 +142,36 @@ export function lollipop(o: { items: { name: string; label?: string; value: numb
   };
 }
 
+// One hollow dot per row on a dotted guide line: the value of an estimate, drawn open so it reads as an estimate and
+// not as a count. The dot sits on a value axis that starts at zero.
+export function dotPlot(o: { items: { name: string; label?: string; value: number; tip?: string }[]; format?: (n: number) => string; color?: (kit: Kit) => string; labelWidth?: (w: number) => number }) {
+  return (kit: Kit, w: number): Built => {
+    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const format = o.format ?? fmtN;
+    const dot = (o.color ?? ((k: Kit) => k.series[2]))(kit);
+    const max = Math.max(1, ...o.items.map((i) => i.value));
+    return {
+      height: rowsHeight(o.items.length, 28),
+      option: {
+        grid: { left, right: 64, top: 4, bottom: 22 },
+        xAxis: valueAxis(kit, { min: 0, max: max * 1.08, axisLabel: axisText(kit, { formatter: (v: number) => format(v) }) }),
+        yAxis: categoryAxis(kit, o.items.map((i) => i.label ?? i.name), {
+          axisLabel: axisText(kit, { interval: 0, width: left - 8, overflow: 'break', lineHeight: kit.small + 4 }),
+          splitLine: { show: true, lineStyle: { color: kit.grid, type: 'dotted', width: 1 } },
+        }),
+        tooltip: tooltip(kit, { trigger: 'item', formatter: (p: { dataIndex: number }) => o.items[p.dataIndex].tip ?? `${esc(o.items[p.dataIndex].label ?? o.items[p.dataIndex].name)}<br>${format(o.items[p.dataIndex].value)}` }),
+        series: [{
+          type: 'scatter',
+          symbolSize: 13,
+          data: o.items.map((i) => ({ name: i.name, value: [i.value, i.label ?? i.name] })),
+          itemStyle: { color: kit.page, borderColor: dot, borderWidth: 2 },
+          label: { show: true, position: 'right', color: kit.ink, fontSize: kit.small, fontFamily: kit.family, formatter: (p: { value: [number, string] }) => format(p.value[0]) },
+        }],
+      },
+    };
+  };
+}
+
 // The states as equal square tiles in roughly their place on the map. Color is the bin the value falls in;
 // the tile says the state and the value.
 export function tileGrid(o: { tiles: Record<string, [number, number]>; value: (code: string) => number; format?: (n: number) => string; bins: (kit: Kit) => Bin[]; tip: (code: string) => string }) {
