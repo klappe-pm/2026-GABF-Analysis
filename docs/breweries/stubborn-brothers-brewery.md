@@ -36,7 +36,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "stubborn-brothers-brewery"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "WI"
 untappd: null
-website: null
+website: "https://www.stubbornbros.com/"
 world-beer-cup-medals: 0
 ---
 

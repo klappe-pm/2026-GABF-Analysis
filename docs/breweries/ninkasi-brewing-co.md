@@ -35,7 +35,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,9 +52,10 @@ region: "West"
 slug: "ninkasi-brewing-co"
 sources:
   - "Legacy Breweries majority stake 2019"
+  - "official site found by web search; home page names the brewery and city"
 state: "OR"
 untappd: null
-website: null
+website: "https://ninkasibrewing.com"
 world-beer-cup-medals: 0
 ---
 

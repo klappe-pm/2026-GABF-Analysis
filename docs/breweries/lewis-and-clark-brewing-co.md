@@ -38,7 +38,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -57,10 +56,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "lewis-and-clark-brewing-co"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "MT"
 untappd: null
-website: null
+website: "https://www.lewisandclarkbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

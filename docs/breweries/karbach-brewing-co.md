@@ -36,7 +36,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -55,9 +54,10 @@ region: "South"
 slug: "karbach-brewing-co"
 sources:
   - "Company announcement 2016"
+  - "official site found by web search; home page names the brewery and city"
 state: "TX"
 untappd: null
-website: null
+website: "https://www.karbachbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

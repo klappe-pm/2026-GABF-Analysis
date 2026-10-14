@@ -40,7 +40,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -57,10 +56,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "bj-s-restaurant-and-brewhouse"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "CO"
 untappd: null
-website: null
+website: "https://www.bjsrestaurants.com/"
 world-beer-cup-medals: 0
 ---
 

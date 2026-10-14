@@ -36,7 +36,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -52,10 +51,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "kansas-city-bier-co-with-mike-and-stephanie-butler"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "MO"
 untappd: null
-website: null
+website: "https://kcbier.com"
 world-beer-cup-medals: 0
 ---
 

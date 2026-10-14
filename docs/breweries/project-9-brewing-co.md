@@ -38,7 +38,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -55,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "project-9-brewing-co"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "WA"
 untappd: null
-website: null
+website: "https://project9brewing.com"
 world-beer-cup-medals: 0
 ---
 

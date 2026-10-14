@@ -39,7 +39,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -55,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "starr-hill-beer-hall-and-rooftop"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "VA"
 untappd: null
-website: null
+website: "https://starrhill.com/richmond"
 world-beer-cup-medals: 0
 ---
 

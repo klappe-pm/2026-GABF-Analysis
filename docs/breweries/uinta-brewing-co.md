@@ -36,7 +36,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -55,10 +54,11 @@ ownership-parent: "The Riverside Company"
 region: "West"
 slug: "uinta-brewing-co"
 sources:
+  - "official site found by web search; home page names the brewery and city"
   - "Riverside Company investment 2014"
 state: "UT"
 untappd: null
-website: null
+website: "https://uintabrewing.com/"
 world-beer-cup-medals: 0
 ---
 

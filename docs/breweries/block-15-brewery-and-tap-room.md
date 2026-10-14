@@ -37,7 +37,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -54,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "block-15-brewery-and-tap-room"
-sources: []
+sources:
+  - "official site found by web search; home page names the brewery and city"
 state: "OR"
 untappd: null
-website: null
+website: "https://block15.com/"
 world-beer-cup-medals: 0
 ---
 
