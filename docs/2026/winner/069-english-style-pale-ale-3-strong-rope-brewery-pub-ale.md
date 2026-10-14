@@ -283,7 +283,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Strong Rope Brewery is in Brooklyn, NY. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.strongropebrewery.com/), [Instagram](https://www.instagram.com/strongropebrewery/).
 
 ## related
 

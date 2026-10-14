@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Tommyknocker Brewery & Pub is in Idaho Springs, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.tommyknocker.com/), [Instagram](https://www.instagram.com/tommyknockerbrewery/).
 
 ## related
 

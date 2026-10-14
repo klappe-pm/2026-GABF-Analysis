@@ -238,7 +238,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Free State Brewing Co. is in Lawrence, KS. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.freestatebrewing.com/), [Instagram](https://www.instagram.com/freestatebeer/), [Untappd](https://untappd.com/fsb).
 
 ## related
 

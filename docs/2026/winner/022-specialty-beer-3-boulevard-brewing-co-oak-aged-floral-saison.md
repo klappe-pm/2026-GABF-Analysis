@@ -190,7 +190,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Boulevard Brewing Co. is in Kansas City, MO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.boulevard.com/), [Instagram](https://www.instagram.com/boulevard_beer/), [Untappd](https://untappd.com/boulevard).
 
 ## related
 

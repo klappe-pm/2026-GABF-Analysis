@@ -218,7 +218,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Templin Family Brewing is in Salt Lake City, UT. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://tfbrewing.com/), [Instagram](https://www.instagram.com/tfbrewing/).
 
 ## related
 

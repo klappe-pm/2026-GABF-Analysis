@@ -198,7 +198,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Drake's Brewing Company/Bear Republic is in San Leandro, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://drinkdrakes.com/), [Instagram](https://www.instagram.com/drakesbeer/).
 
 ## related
 

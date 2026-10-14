@@ -24,6 +24,7 @@ import { Select } from '@/components/Select';
 import { StatusChip } from '@/components/StatusChip';
 import { TextLink } from '@/components/TextLink';
 import { BeerProfileCard, type BeerCardData } from '@/components/BeerProfileCard';
+import { SpecCard } from '@/components/SpecCard';
 import { HopProfileCard, type HopCardData } from '@/components/HopProfileCard';
 import { fullBeerProfile, hopProfile, hopSlug } from '@/lib/profiles';
 import { breweryRecords, categoryIndex, fmt, matchesNothing, oddsFinding, resultYears, results, stateSeries, yearCoverage, yearSummary } from '@/lib/data';
@@ -47,11 +48,8 @@ const raw = (key: string) => lookup(key) as string;
 const YEAR = 2026;
 const MEDALS: MedalName[] = ['Gold', 'Silver', 'Bronze'];
 const ICONS: IconName[] = ['close', 'chevron-down', 'search', 'check', 'menu', 'filter', 'sort', 'sort-ascending', 'sort-descending', 'tune', 'palette', 'type', 'shape', 'layers', 'widgets', 'medal', 'brewery', 'beer', 'chart', 'list', 'hop', 'farm'];
-const ICON_LABELS: Record<IconName, string> = {
-  close: 'Close', 'chevron-down': 'Chevron', search: 'Search', check: 'Check', menu: 'Menu', filter: 'Filter', sort: 'Sort', 'sort-ascending': 'Sort ascending', 'sort-descending': 'Sort descending',
-  tune: 'Settings', palette: 'Color', type: 'Type', shape: 'Shape', layers: 'Elevation', widgets: 'Components',
-  medal: 'Results', brewery: 'Breweries', beer: 'Beers', chart: 'Analysis', list: 'Categories', hop: 'Hops', farm: 'Hop farms',
-};
+const iconLabel = (name: IconName) => t(`pages.design-system.icon_labels.${name}`);
+const yearSpan = (first: string | number, last: string | number) => fill(raw('pages.design-system.ranges.year_range'), { first_year: first, last_year: last });
 
 const rangeText = (key: 'inside' | 'below' | 'above', min: number, max: number, format: (n: number) => string) => fill(raw(`global.scales.range.${key}`), { min: format(min), max: format(max) });
 const verdict = (v: number, min: number, max: number) => (v < min ? 'below' : v > max ? 'above' : 'inside');
@@ -76,7 +74,7 @@ function BeerScales({ idPrefix, sample, medalNames }: { idPrefix: string; sample
       {b.ibu !== null ? (
         <RangeScale
           id={`${idPrefix}-ibu`}
-          label="IBU"
+          label={card('ibu')}
           value={b.ibu}
           valueText={String(b.ibu)}
           range={{ min: range.ibuMin, max: range.ibuMax, minText: String(range.ibuMin), maxText: String(range.ibuMax) }}
@@ -96,7 +94,7 @@ const cardFill = (key: string, values: Record<string, string | number>) => fill(
 function beerCardData(medalNames: Record<MedalName, string>): { data: BeerCardData; beer: string } | null {
   const b = fullBeerProfile(CARD_HOP);
   if (!b) return null;
-  const none = t('global.states.gaps.not_defined');
+  const none = t('global.labels.not_found');
   const note = b.tastingNote ?? b.description;
   return {
     beer: b.beer,
@@ -123,7 +121,7 @@ function beerCardData(medalNames: Record<MedalName, string>): { data: BeerCardDa
 
 function hopCardData(): HopCardData {
   const h = hopProfile(CARD_HOP);
-  const none = t('global.states.gaps.not_defined');
+  const none = t('global.labels.not_found');
   const pct = (r: { min: number; max: number } | null) => (r ? cardFill('range_percent', { min: fmt.one(r.min), max: fmt.one(r.max) }) : none);
   return {
     name: h.variety,
@@ -233,7 +231,7 @@ export default async function DesignSystemPage() {
   const fixedYear = fill(raw('global.filters.chips.fixed_year'), { year: YEAR });
   const medalChip = fill(raw('global.filters.chips.chip'), { dimension: dimension('medal'), value: medalNames.Gold });
   const searchQuery = 'zzzz';
-  const yearRange = `${series.years[0]} to ${series.years[series.years.length - 1]}`;
+  const yearRange = yearSpan(series.years[0], series.years[series.years.length - 1]);
   const SECTION_ICONS: Record<string, IconName> = { settings: 'tune', color: 'palette', type: 'type', shape: 'shape', elevation: 'layers', components: 'widgets' };
   const navItems = Object.entries(SECTION_ICONS).map(([id, icon]) => ({ id, text: sectionTitle(id), icon }));
 
@@ -351,7 +349,7 @@ export default async function DesignSystemPage() {
       node: (
         <Specimen name="medal-record" title={compName('medal_record')}>
           <State label={states('default')} wide>
-            <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.medal_record'), { brewery_name: lead.brewery, city: lead.city, state: lead.state, year_range: `${completeYears[0]} to ${completeYears[completeYears.length - 1]}` })}</p>
+            <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.medal_record'), { brewery_name: lead.brewery, city: lead.city, state: lead.state, year_range: yearSpan(completeYears[0], completeYears[completeYears.length - 1]) })}</p>
           </State>
           <State label={states('split')}><MedalRecord counts={lead.record} names={medalNames} /></State>
           <State label={states('tally')}><MedalRecord counts={lead.record} names={medalNames} variant="tally" /></State>
@@ -555,8 +553,8 @@ export default async function DesignSystemPage() {
             <ul className="flex flex-wrap gap-3">
               {ICONS.map((name) => (
                 <li key={name} className="flex min-w-20 flex-col items-center gap-1 rounded-(--md-sys-shape-corner-small) bg-surface-container-low px-3 py-2 text-on-surface">
-                  <Icon name={name} label={ICON_LABELS[name]} />
-                  <span className="type-label-small text-on-surface-variant">{ICON_LABELS[name]}</span>
+                  <Icon name={name} label={iconLabel(name)} />
+                  <span className="type-label-small text-on-surface-variant">{iconLabel(name)}</span>
                 </li>
               ))}
             </ul>
@@ -603,7 +601,17 @@ export default async function DesignSystemPage() {
                 <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.beer_card'), { beer_name: beerCard.beer })}</p>
                 <BeerProfileCard data={beerCard.data} />
               </div>
-            ) : <p className="type-body-medium text-on-surface-variant">{t('global.states.gaps.not_defined')}</p>}
+            ) : <p className="type-body-medium text-on-surface-variant">{t('global.labels.not_found')}</p>}
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'spec-card',
+      node: (
+        <Specimen name="spec-card" title={compName('spec_card')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <SpecCard id="spec-card-sample-card" title={hopCard.name} rows={hopCard.facts.map((f) => ({ label: f.label, value: f.value }))} />
           </State>
         </Specimen>
       ),
@@ -731,7 +739,7 @@ export default async function DesignSystemPage() {
           <Ordered list="Sections" items={sections} />
         </main>
       </AdaptiveNavigation>
-      <ReviewSettingsPanel page="design-system" />
+      <ReviewSettingsPanel page="design-system" copy={group('pages.design-system.review_panel')} />
     </>
   );
 }

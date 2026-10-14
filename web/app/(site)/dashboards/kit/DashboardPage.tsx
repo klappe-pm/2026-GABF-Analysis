@@ -1,12 +1,13 @@
 // A dashboard page as the server builds it: the header and tab row from the copy documents, then the
 // client view that loads the medals and follows the global filter. Every dashboard page is this with its kind.
 import type { Metadata } from 'next';
+import { LinkChips } from '@/components/Chips';
 import { TextLink } from '@/components/TextLink';
 import { Tabs } from '@/components/Tabs';
-import { fill, lookup, t } from '@/lib/content';
+import { fill, group, lookup, t } from '@/lib/content';
 import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
-import { laneModel } from '@/lib/site-data';
+import { counts, laneModel } from '@/lib/site-data';
 import { Dashboard, type DashboardKind } from './Dashboard';
 import { dashboardCopy } from './copy-server';
 import { DASHBOARD_KINDS, DASHBOARD_PATHS } from './routes';
@@ -25,6 +26,9 @@ export function dashboardMetadata(kind: DashboardKind): Metadata {
 export async function DashboardPage({ kind }: { kind: DashboardKind }) {
   const m = await model();
   const copy = dashboardCopy();
+  const coverage = (await counts()).coverage as Record<string, string>;
+  const status = group('global.labels.coverage');
+  const meaning = group('global.labels.coverage_meaning');
   const featured = kind === 'overview' ? m.featuredBreweries() : [];
   return (
     <main id="main" tabIndex={-1} className="mx-auto flex max-w-(--app-page-max) flex-col gap-6 px-(--app-margin) py-8">
@@ -36,6 +40,10 @@ export async function DashboardPage({ kind }: { kind: DashboardKind }) {
         label={t(page('index.title'))}
         active={kind}
         items={DASHBOARD_KINDS.map((k) => ({ id: k, href: href(DASHBOARD_PATHS[k]), text: t(page(`index.${k}`)) }))}
+      />
+      <LinkChips
+        label={t(page('coverage.label'))}
+        chips={Object.entries(coverage).map(([year, c]) => ({ text: fill(lookup(page('coverage.chip')) as string, { year, status: status[c] ?? c }), href: href(paths.method), title: meaning[c] }))}
       />
       <Dashboard kind={kind} copy={copy} tiles={m.TILES} rateYears={m.rateYears()} defaultBrewery={m.defaultBrewery()} methodLabel={t('global.navigation.footer.method')} />
       {featured.length ? (

@@ -230,7 +230,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Blind Tiger Brewery & Restaurant is in Topeka, KS.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.blindtiger.com/), [Untappd](https://untappd.com/BlindTigerBrewery).
 
 ## related
 

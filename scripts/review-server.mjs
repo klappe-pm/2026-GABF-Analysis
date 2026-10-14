@@ -32,7 +32,7 @@ import { engine } from './lib/agent-graph.mjs';
 import { addTicket, editTicket, feedbackDirOf, findTicket, listTickets, loadCategories, patchTicket } from './lib/review-store.mjs';
 import { jobFor, queueDirOf, readQueue } from './lib/feedback-queue.mjs';
 import { readFileSync as readText } from 'node:fs';
-import { describeScreen, loadManifest, regionsPayload } from './lib/review-screens.mjs';
+import { describeScreen, listScreens, loadManifest, regionsPayload, screensForRoute } from './lib/review-screens.mjs';
 import { basename, dirname } from 'node:path';
 import { VIEW_PREFIX, componentsForScreen, componentsForSpot, knownComponents, sourceMapEntries, withSpec } from './lib/review-components.mjs';
 import { designSystemFile, designSystemType, renderDesignSystemPage } from './lib/review-design-system.mjs';
@@ -83,8 +83,17 @@ export function pipelineStatus(job, data, repo = 'klappe-pm/GABF-Analysis') {
 
 // `capture` takes screenshots for a registered ticket; `pipeline` ({ enqueue, kick }) starts the
 // issue and pull request run. Both are off unless given, so tests and screenshots never reach out.
-export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild = null, env = process.env, capture = null, pipeline = null } = {}) {
+// `webDir` is the web review build (web/out-web-review). When given, the server serves it at the root of
+// its origin, in place of the design control plane's prototype, and tickets may carry the route the
+// reviewer was on (served: web). The /review/ endpoints are the same ones the control plane uses.
+//
+// `design` ({ edits, capture }) adds what the review settings panel needs on the same origin: POST
+// /__design/check and /__design/edit (the design system's edit module, writing one settings key and filing
+// its ticket in the same store as the feedback tickets, so ids never collide), and the settings files, live,
+// at /design-settings/.
+export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild = null, env = process.env, capture = null, pipeline = null, webDir = null, design = null } = {}) {
   const siteDir = resolve(root, env.GABF_REVIEW_DIST || 'dist-review');
+  const webRoot = webDir ? resolve(root, webDir) : null;
   const prototypeDir = resolve(root, 'docs/design/prototype');
   const sketchesDir = resolve(root, 'docs/design/sketches');
   const feedbackDir = feedbackDirOf(root, env);
@@ -168,6 +177,9 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     const spot = body.spot && typeof body.spot === 'object' ? body.spot : null;
     return register({
       screen: body.screen,
+      route: body.route,
+      hash: body.hash,
+      served: body.served,
       text: 'Edited in place on the page.',
       categories: [],
       spots: spot ? [{ n: 1, selector: spot.selector, rect: spot.rect, text: spot.text }] : [],
@@ -181,8 +193,12 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
 
   function register(body) {
     const m = manifest();
-    const screen = describeScreen(root, m, body.screen);
-    if (!screen) throw new Error('Choose a journey step first. Feedback is recorded against a step.');
+    const base = describeScreen(root, m, body.screen);
+    if (!base) throw new Error('Choose a journey step first. Feedback is recorded against a step.');
+    // A web ticket records the address the reviewer was on, not the step's sample address.
+    const onWeb = webRoot && body.served === 'web';
+    if (onWeb && !/^\/[\w\-./%]*$/.test(String(body.route ?? ''))) throw new Error('The page address was not recognised.');
+    const screen = onWeb ? { ...base, route: String(body.route), hash: /^#[^\s]*$/.test(String(body.hash ?? '')) ? String(body.hash) : '', served: 'web' } : base;
     const edits = [];
     let rebuilt = false;
     const asked = (body.contentEdits ?? []).filter((e) => e && e.key);
@@ -266,6 +282,26 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     return undefined;
   }
 
+  // The web review build as the static export lays it out: a folder address serves its index.html, and an
+  // address with no page serves 404.html with a 404 status.
+  function serveWeb(res, pathname) {
+    let rel;
+    try { rel = decodeURIComponent(pathname); } catch { return send(res, 400, 'bad address', 'text/plain; charset=utf-8'); }
+    const file = normalize(join(webRoot, rel.endsWith('/') ? `${rel}index.html` : rel));
+    if (!file.startsWith(webRoot)) return send(res, 403, 'outside the site', 'text/plain; charset=utf-8');
+    let target = file;
+    if (existsSync(target) && statSync(target).isDirectory()) target = join(target, 'index.html');
+    if (!existsSync(target) && !extname(target)) target = `${file}.html`;
+    if (!existsSync(target)) {
+      const missing = join(webRoot, '404.html');
+      if (!existsSync(missing)) return send(res, 404, 'not found', 'text/plain; charset=utf-8');
+      res.writeHead(404, { 'content-type': TYPES['.html'], 'cache-control': 'no-store' });
+      return createReadStream(missing).pipe(res);
+    }
+    res.writeHead(200, { 'content-type': TYPES[extname(target)] ?? 'application/octet-stream', 'cache-control': 'no-store' });
+    return createReadStream(target).pipe(res);
+  }
+
   server = createServer(async (req, res) => {
     const url = new URL(req.url, `http://${HOST}`);
     const site = /^\/(site|site-slow|site-fail)(\/.*)?$/.exec(url.pathname);
@@ -293,6 +329,20 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
         const nodes = {};
         for (const e of sourceMapEntries(root)) if (e.node && e.component) nodes[e.node.replace(/^component:/, '')] = e.component;
         return send(res, 200, { components: knownComponents(root, manifest()).map((n) => withSpec(root, n)), nodes, contentKeys: copy.map((e) => e.key) });
+      }
+      if (design && req.method === 'POST' && (p === '/__design/check' || p === '/__design/edit')) {
+        try {
+          const body = await readBody(req);
+          if (p === '/__design/check') return send(res, 200, await design.edits.checkDesignEdit(body));
+          return send(res, 200, await design.edits.applyDesignEdit({ ...body, feedbackDir, sanitize, capture: design.capture }));
+        } catch (error) {
+          return send(res, 422, { problems: error.problems ?? [error.message] });
+        }
+      }
+      if (p === '/review/web/screens' && req.method === 'GET') {
+        const m = manifest();
+        const route = url.searchParams.get('route') ?? '/';
+        return send(res, 200, { matched: screensForRoute(root, m, route).map((s) => s.id), screens: listScreens(root, m) });
       }
       if (p === '/review/derive' && req.method === 'POST') return send(res, 200, derive(await readBody(req)));
       if (p === '/review/content' && req.method === 'POST') return send(res, 200, preview(await readBody(req)));
@@ -324,6 +374,15 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       return send(res, error.problems ? 422 : 400, { error: error.message, problems: error.problems ?? [error.message] });
     }
     if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, { error: 'method not allowed' });
+    // The settings files, read live so a saved setting shows on the next load without a rebuild.
+    if (design && url.pathname.startsWith('/design-settings/') && (req.method === 'GET' || req.method === 'HEAD')) {
+      const base = resolve(root, '.design/design-system');
+      const file = normalize(join(base, decodeURIComponent(url.pathname.slice('/design-settings'.length))));
+      if (!file.startsWith(base) || extname(file) !== '.md' || !existsSync(file)) return send(res, 404, 'Not found', 'text/plain; charset=utf-8');
+      res.writeHead(200, { 'content-type': 'text/markdown; charset=utf-8', 'cache-control': 'no-store' });
+      return createReadStream(file).pipe(res);
+    }
+    if (webRoot && !url.pathname.startsWith('/sketches/')) return serveWeb(res, url.pathname);
     // The prototype and the sketches, from those two directories only.
     const sketches = url.pathname.startsWith('/sketches/');
     const dir = sketches ? sketchesDir : prototypeDir;

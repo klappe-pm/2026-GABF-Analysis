@@ -207,7 +207,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 San Francisco Brewing Co. is in San Francisco, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.sfbrewingco.com/), [Untappd](https://untappd.com/sfbrewingco).
 
 ## related
 

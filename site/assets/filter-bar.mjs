@@ -16,6 +16,11 @@ export const FILTERS = [
   // A beer lists several hops and farms, so these read an array on the row (`field`) and match when
   // it holds the picked value. The two farm filters are separate on purpose: one is the farm the
   // brewery named, the other a farm that grows a hop the beer uses. They are never combined.
+  // The Explore filters. Characteristics are words found in the category name (a row lists several). The
+  // investor filter is built but hidden until the owner turns it on (`hidden`).
+  { id: 'section', label: 'Section', group: 'What' },
+  { id: 'characteristic', field: 'traits', multi: true, label: 'Category characteristic', group: 'What' },
+  { id: 'investor', label: 'Investor', group: 'Who', hidden: true },
   { id: 'hop_variety', field: 'hop_varieties', multi: true, label: 'Hop variety', group: 'What' },
   { id: 'hop_farm_named', field: 'hop_farms_named', multi: true, label: 'Hop farm named by the brewery', group: 'What' },
   { id: 'hop_farm_grown', field: 'hop_farms_grown', multi: true, label: 'Hop farm that grows a hop used', group: 'What' },
@@ -308,7 +313,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     const partial = partialYearsIn(sc);
     const n = applyFilters(sc, state).length;
     body.innerHTML = `<label class="search">Search<input id="gf-q" type="search" placeholder="Beer, brewery, city, hop" value="${esc(state.q ?? '')}" autocomplete="off"></label>
-<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${g}</legend>${FILTERS.filter((d) => d.group === g).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> Include partial years (${partial.join(', ')})</label><p class="small muted">Complete official lists are shown by default.</p>` : '<p class="small muted">Complete official lists are shown by default.</p>') : ''}</fieldset>`).join('')}</div>`;
+<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${g}</legend>${FILTERS.filter((d) => d.group === g && !d.hidden).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> Include partial years (${partial.join(', ')})</label><p class="small muted">Complete official lists are shown by default.</p>` : '<p class="small muted">Complete official lists are shown by default.</p>') : ''}</fieldset>`).join('')}</div>`;
     dialog.querySelector('.filter-panel-count').textContent = `${n.toLocaleString('en-US')} medal${n === 1 ? '' : 's'} match${fixed.length ? ` on this page (${fixed.map((c) => c.text).join(', ')})` : ''}`;
     if (focused) { const f = document.getElementById(focused); if (f) f.focus(); }
   }

@@ -47,9 +47,7 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/chinook.md"
   - "../hops/varieties/east-kent-goldings.md"
@@ -58,7 +56,7 @@ hops-used:
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/simcoe.md"
   - "../hops/varieties/strata.md"
-instagram: null
+instagram: "https://www.instagram.com/worthybrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -74,10 +72,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "worthy-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "OR"
-untappd: null
-website: "http://www.worthybrewing.com"
+untappd: "https://untappd.com/WorthyBrewing"
+website: "https://worthybrewing.com/"
 world-beer-cup-medals: 0
 ---
 

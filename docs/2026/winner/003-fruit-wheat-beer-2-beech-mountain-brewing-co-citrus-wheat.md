@@ -203,7 +203,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Beech Mountain Brewing Co. is in Beech Mountain, NC. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.beechmountainbrewingco.com/), [Instagram](https://www.instagram.com/beechmtnbrewingco/), [Untappd](https://untappd.com/BeechMountainBrewingCompany).
 
 ## related
 

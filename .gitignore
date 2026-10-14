@@ -3,7 +3,6 @@ dist/
 _site/
 # Build outputs that only feed the deploy: npm run generate rebuilds them, CI builds them for every run.
 /gabf-dashboard.html
-/gabf-explorer.html
 /docs/design/chart-gallery/index.html
 /data/enriched/winners-*.sqlite
 dist-hosted/
@@ -28,3 +27,5 @@ web/*.tsbuildinfo
 .docs/feedback/
 web/public/design-settings/
 web/out-review/
+web/out-web-review/
+web/out-test-*/

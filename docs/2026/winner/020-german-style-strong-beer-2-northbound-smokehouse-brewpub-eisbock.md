@@ -264,7 +264,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Northbound Smokehouse Brewpub is in Minneapolis, MN. Brewery type in Open Brewery DB: Brewpub.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.northboundbrewpub.com/), [Instagram](https://www.instagram.com/northboundsmokehousebrewpub/), [Untappd](https://untappd.com/NorthboundSmokehouseBrewpub).
 
 ## related
 

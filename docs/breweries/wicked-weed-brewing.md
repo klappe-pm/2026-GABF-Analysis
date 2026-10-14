@@ -35,10 +35,9 @@ first-medal-year: 2021
 founded: 2012
 gaps:
   - "beeradvocate"
-  - "instagram"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/wickedweedbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,9 +54,10 @@ region: "South"
 slug: "wicked-weed-brewing"
 sources:
   - "Company announcement 2017"
+  - "website resolved; Instagram linked from the brewery website"
 state: "NC"
 untappd: null
-website: "http://www.wickedweedbrewing.com"
+website: "https://www.wickedweedbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

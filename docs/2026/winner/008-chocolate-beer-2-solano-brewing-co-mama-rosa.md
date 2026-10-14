@@ -235,7 +235,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Solano Brewing Co. is in Vacaville, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://solanobrew.com/), [Instagram](https://www.instagram.com/solanobrew/), [Untappd](https://untappd.com/SolanoBrewingCompany).
 
 ## related
 

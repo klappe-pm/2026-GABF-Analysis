@@ -1,5 +1,5 @@
 // Types for hops.mjs, the hops lane's build time data.
-import type { Medal, WinnerRow } from '../site-model.mjs';
+import type { BeerRecord, Medal, WinnerRow } from '../site-model.mjs';
 
 export type Source = { label: string; url: string | null };
 export type VarietyLink = { name: string; slug: string };
@@ -23,7 +23,8 @@ export type HopCard = {
   farms: FarmLink[];
 };
 
-export type BeerRef = { stem: string; year: number; beer: string; medal: Medal; brewery: string; brewerySlug: string; category: string; categorySlug: string };
+// A beer in a list: its names and links, the fields the global filter reads, and the record its profile card draws.
+export type BeerRef = { stem: string; year: number; beer: string; medal: Medal; brewery: string; brewerySlug: string; category: string; categorySlug: string; filter: WinnerRow; card: Omit<BeerRecord, 'notesHtml'> };
 
 export type HopsIndex = {
   year: number;
@@ -40,7 +41,7 @@ export type Hop = HopCard & {
   aromaRows: { descriptor: string; source: Source[] }[];
   acreageByState: {
     rows: { state: string | null; year: number | null; acres: number | null; production: number | null; source: Source[] }[];
-    trend: { years: number[]; totals: number[] };
+    trend: { years: number[]; series: { state: string; values: (number | null)[] }[] };
   };
   counts: { beers: number; medals: number; gold: number; silver: number; bronze: number; farms: number };
   beerRows: (BeerRef & { forms: string[]; uses: string[]; farms: FarmLink[]; otherFarms: string[] })[];

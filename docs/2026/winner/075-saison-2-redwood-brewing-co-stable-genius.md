@@ -225,7 +225,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Redwood Brewing Co. is in Flint, MI.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.redwoodflint.com/), [Instagram](https://www.instagram.com/redwoodbrewingco/).
 
 ## related
 

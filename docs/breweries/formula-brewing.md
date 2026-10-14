@@ -37,11 +37,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/formulabeers/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -57,10 +56,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "formula-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "WA"
 untappd: null
-website: "http://www.formulabrewing.com"
+website: "https://www.formulabrewing.com/"
 world-beer-cup-medals: 0
 ---
 

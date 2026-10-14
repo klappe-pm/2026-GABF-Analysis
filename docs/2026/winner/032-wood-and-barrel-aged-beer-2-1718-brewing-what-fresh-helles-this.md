@@ -187,7 +187,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 1718 Brewing is in Ocracoke, NC.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/1718Brewing).
 
 ## related
 

@@ -15,17 +15,24 @@ Where: the dashboards index page and the tab row at the top of every dashboard.
 - `categories_description`: Entrants by category, the hardest categories to medal in, and classic versus special categories.
 - `breweries`: Breweries
 - `breweries_description`: Pick a brewery: medals by year, by category, and by location.
-- `economics`: Ownership and economics
+- `economics`: Ownership and Economics
 - `economics_description`: Ownership, parent companies, and estimated revenue, margins, and distribution.
+
+## `coverage`
+
+Where: the row of year chips under the tabs on every dashboard. Each links to the Method page.
+
+- `label`: Coverage by Year
+- `chip`: {{year}}, {{status}}
 
 ## `overview`
 
 Where: the overview dashboard.
 
-- `title`: Great American Beer Festival results
+- `title`: Great American Beer Festival results dashboards
 - `lede`: Which states, styles, and breweries keep winning. Start with medals by year, then see where they land on the map, which style families win most, and which breweries lead on points. Select a bar, column, or state to filter by it.
 - `results_title`: Medal Winners
-- `deep_dives_title`: Brewery deep dives
+- `deep_dives_title`: Brewery Deep Dives
 - `deep_dive_meta`: {{city}}, {{state}} · {{count}} medals in the record
 
 ## `geography`
@@ -34,10 +41,10 @@ Where: the geography dashboard.
 
 - `title`: Geography
 - `lede`: Where the medals go: by state, Census region and division, and Federal Reserve district, and per million residents and per $100 billion of real GDP in each medal's year. Select a state, region, or district to filter by it.
-- `controls_title`: Controls by state and district
+- `controls_title`: Controls by State and District
 - `controls_rows`: Rows
 - `controls_states`: States
-- `controls_districts`: Federal Reserve districts
+- `controls_districts`: Federal Reserve Districts
 - `controls_note`: Rates count each medal against its own year's population and real GDP. Controls: American Community Survey 2024 (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, modeled literacy from the PIAAC survey (2012, 2014, and 2017 pooled), and 2022 life expectancy. District demographics are not compiled. District GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). See Method.
 
 ## `categories`
@@ -57,7 +64,7 @@ Where: the breweries dashboard.
 - `picker_label`: Brewery
 - `picker_option`: {{brewery_name}} ({{count}})
 - `picker_meta_founded`: founded {{year}}
-- `picker_profile_link`: Open profile
+- `picker_profile_link`: Open Profile
 - `pick_prompt`: Pick a brewery above.
 - `results_title`: Medal Winners
 
@@ -65,9 +72,9 @@ Where: the breweries dashboard.
 
 Where: the ownership and economics dashboard.
 
-- `title`: Ownership and economics
+- `title`: Ownership and Economics
 - `lede`: Who owns the medalists and what they are worth: ownership, parent companies, and estimated revenue, ARR, gross margin, EBITDA, and distribution for each brewery. Every financial figure is an estimate (E); see Method.
-- `table_title`: Financials by brewery
+- `table_title`: Financials by Brewery
 
 ### `columns`
 
@@ -75,26 +82,25 @@ Where: the ownership and economics dashboard.
 - `type`: Type
 - `barrels`: Barrels (E)
 - `arr`: ARR (E)
-- `gross_margin`: Gross margin (E)
+- `gross_margin`: Gross Margin (E)
 - `ebitda`: EBITDA (E)
 - `ebitda_value`: {{ebitda}} ({{low}} to {{high}}%)
 - `distribution`: Distribution
 - `ownership`: Ownership
-- `basis`: Volume basis
+- `basis`: Volume Basis
 
 ## `stats`
 
 Where: the summary tiles on every dashboard.
 
-- `medals`: Medals in view
+- `medals`: Medals in View
 - `breweries`: Breweries
 - `states`: States
-- `categories`: Categories
+- `categories`: Categories in View
 - `categories_note`: {{count}} medals in special categories
-- `medal_split`: Gold, silver, bronze
-- `entrants`: Entrants in these categories
+- `medal_split`: Gold, Silver, Bronze
+- `entrants`: Entrants in These Categories
 - `entrants_note`: Sum of category entry counts
-- `entrants_missing`: Not published
 
 ## `panels`
 
@@ -102,72 +108,72 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 ### `medals_by_year`
 
-- `title`: Medals by year
+- `title`: Medals by Year
 - `subtitle`: Stacked by medal. Select a column to filter by that year.
 - `coverage_column`: Coverage
 
 ### `map`
 
-- `title`: Medals by state
+- `title`: Medals by State
 - `subtitle`: Select a state to filter by it.
 
 ### `map_ranked`
 
-- `title`: States with the most medals
+- `title`: States With the Most Medals
 - `subtitle`: The 20 states with the most medals, colored by Census region. Select a state to filter by it.
 
 ### `by_family`
 
-- `title`: Medals by style family
+- `title`: Medals by Style Family
 - `subtitle`: Area is medals, so the biggest families are the biggest blocks. Select a family to filter by it.
 - `tip`: Categories: {{categories}}. Most medals: {{top}} ({{top_medals}}).
 
 ### `top_breweries`
 
-- `title`: Top breweries
+- `title`: Top Breweries
 - `subtitle`: Ranked by points (gold 3, silver 2, bronze 1). Select a brewery to open it.
 - `total`: {{count}} points
 
 ### `by_region`
 
-- `title`: Medals by Census region
+- `title`: Medals by Census Region
 
 ### `by_division`
 
-- `title`: Medals by Census division
+- `title`: Medals by Census Division
 
 ### `per_capita`
 
-- `title`: Medals per million residents, by state
+- `title`: Medals per Million Residents, by State
 - `subtitle`: Each medal against its year's Census population; {{latest_year}} uses {{data_year}}.
 
 ### `per_gdp`
 
-- `title`: Medals per $100 billion of real GDP, by state
+- `title`: Medals per $100 Billion of Real GDP, by State
 - `subtitle`: Real GDP in 2017 dollars, in each medal's year; {{latest_year}} uses {{data_year}}.
 
 ### `by_fed_district`
 
-- `title`: Medals by Federal Reserve district
+- `title`: Medals by Federal Reserve District
 - `subtitle`: Most medals first. Split states are placed by the medal city's county. Select a district to filter by it.
 - `note_one`: 1 medal in view is in West Virginia, which is assigned whole to the Richmond district as an approximation.
 - `note_many`: {{count}} medals in view are in West Virginia, which is assigned whole to the Richmond district as an approximation.
 
 ### `district_rates`
 
-- `title`: Medals per million residents, by Fed district
+- `title`: Medals per Million Residents, by Fed District
 - `subtitle`: District population from whole states plus split state counties, in each medal year.
 - `note`: Medals per $100 billion of real GDP are in the table view. GDP for split states is apportioned by county GDP shares (E).
 
 ### `entrants`
 
-- `title`: Entrants by category
+- `title`: Entrants by Category
 - `subtitle`: Entries judged, most crowded first. Special categories are marked. Select a category to filter by it.
 - `note`: Entry counts come from the official list. A partial year shows counts for its loaded medals only.
 
 ### `entry_odds`
 
-- `title`: Hardest categories to medal in
+- `title`: Hardest Categories to Medal In
 - `subtitle`: Entries per medal, highest first. Select a category to filter by it.
 - `note`: Entries divided by medals awarded in the category, pooled over the years in view.
 - `missing_one`: 1 medal in view has no published entry count and is left out.
@@ -176,55 +182,55 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 ### `entry_odds_heat`
 
-- `title`: Crowding by year
+- `title`: Crowding by Year
 - `subtitle`: Entries per medal for each category in each year. A blank cell means the category was not offered.
 
 ### `special_share`
 
-- `title`: Classic and special categories by year
+- `title`: Classic and Special Categories by Year
 
 ### `entries_vs_breweries`
 
-- `title`: Category size and medal spread
+- `title`: Category Size and Medal Spread
 - `subtitle`: Entries judged against the number of breweries that medaled, across the years in view.
 
 ### `brewery_trend`
 
-- `title`: Medals by year
+- `title`: Medals by Year
 - `subtitle`: {{brewery_name}}, every medal in the record
 
 ### `brewery_categories`
 
-- `title`: Medals by category
+- `title`: Medals by Category
 
 ### `brewery_locations`
 
-- `title`: Medals by location credited
+- `title`: Medals by Location Credited
 
 ### `ownership_share`
 
-- `title`: Medals by ownership
+- `title`: Medals by Ownership
 
 ### `parents`
 
-- `title`: Medals by parent company
+- `title`: Medals by Parent Company
 - `subtitle`: Owners that are not independent
 - `empty`: No medalist in view is owned by a large brewer or other company.
 
 ### `revenue`
 
-- `title`: Estimated annual revenue by brewery (E)
+- `title`: Estimated Annual Revenue by Brewery (E)
 - `subtitle`: Breweries in view. See Method for how revenue is estimated.
 - `basis_column`: Basis
 
 ### `entries_trend`
 
-- `title`: Entries judged by year
+- `title`: Entries Judged by Year
 - `subtitle`: Brewers Association totals. A year with no published figure is blank.
 
 ### `medals_trend`
 
-- `title`: Medals awarded and winning breweries
+- `title`: Medals Awarded and Winning Breweries
 - `subtitle`: Brewers Association totals. A year with no published figure is blank.
 
 ## `chart`

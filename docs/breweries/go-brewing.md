@@ -37,13 +37,10 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/citra.md"
-instagram: null
+instagram: "https://www.instagram.com/gobrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -57,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "go-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "IL"
-untappd: null
-website: null
+untappd: "https://untappd.com/go_brewing"
+website: "https://gobrewing.com/"
 world-beer-cup-medals: 0
 ---
 

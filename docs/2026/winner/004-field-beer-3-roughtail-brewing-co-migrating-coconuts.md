@@ -216,7 +216,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Roughtail Brewing Co. is in Oklahoma City, OK.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://roughtailbeer.com/), [Instagram](https://www.instagram.com/roughtailbrewingco/).
 
 ## related
 

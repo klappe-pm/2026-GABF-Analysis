@@ -181,7 +181,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Able Baker Brewing Co. is in Las Vegas, NV.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.ablebakerbrewing.com/), [Instagram](https://www.instagram.com/ablebakerbrewing/).
 
 ## related
 

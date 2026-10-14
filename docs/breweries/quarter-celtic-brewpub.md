@@ -35,11 +35,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/quartercelticbrewpub/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "quarter-celtic-brewpub"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "NM"
 untappd: null
-website: "http://www.quartercelticbrewery.com"
+website: "https://www.quartercelticbrewpub.com/"
 world-beer-cup-medals: 0
 ---
 

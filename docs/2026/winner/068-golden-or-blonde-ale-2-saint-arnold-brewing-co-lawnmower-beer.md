@@ -173,7 +173,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Saint Arnold Brewing Co. is in Houston, TX.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.saintarnold.com/), [Instagram](https://www.instagram.com/saintarnoldbrewing/).
 
 ## related
 

@@ -42,6 +42,7 @@ function SiteFooter() {
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             <li><a href={href(paths.method)} className="text-primary underline">{t('global.navigation.footer.method')}</a></li>
             <li><a href={href(paths.about)} className="text-primary underline">{t('global.navigation.footer.about')}</a></li>
+            <li><a href={href(paths.saved)} className="text-primary underline">{t('global.navigation.footer.saved_views')}</a></li>
             <li><a href={REPO_URL} className="text-primary underline">{t('global.navigation.footer.source')}</a></li>
           </ul>
         </nav>

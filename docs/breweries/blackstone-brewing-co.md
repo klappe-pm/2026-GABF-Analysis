@@ -38,7 +38,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
   - "website"
 hops-used: []
 instagram: null
@@ -56,9 +55,10 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "blackstone-brewing-co"
-sources: []
+sources:
+  - "Untappd brewery page name and city match"
 state: "TN"
-untappd: null
+untappd: "https://untappd.com/BlackstoneBrewingCompany"
 website: null
 world-beer-cup-medals: 0
 ---

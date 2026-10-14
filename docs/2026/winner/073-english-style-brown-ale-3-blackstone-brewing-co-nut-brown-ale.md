@@ -212,7 +212,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Blackstone Brewing Co. is in Nashville, TN.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Untappd](https://untappd.com/BlackstoneBrewingCompany).
 
 ## related
 

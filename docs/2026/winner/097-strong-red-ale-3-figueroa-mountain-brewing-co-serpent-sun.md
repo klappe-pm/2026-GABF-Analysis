@@ -209,7 +209,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Figueroa Mountain Brewing Co. is in Buellton, CA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.figmtnbrew.com/), [Instagram](https://www.instagram.com/figmtnbrew/).
 
 ## related
 

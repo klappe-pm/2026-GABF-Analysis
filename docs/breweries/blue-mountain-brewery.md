@@ -35,11 +35,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/bluemountainbrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -55,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "blue-mountain-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "VA"
 untappd: null
-website: "http://www.bluemountainbrewery.com"
+website: "https://bluemountainbrewery.com/"
 world-beer-cup-medals: 0
 ---
 

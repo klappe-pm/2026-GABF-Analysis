@@ -242,7 +242,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Sunriver Brewing Co. is in Sunriver, OR.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.sunriverbrewingcompany.com/), [Instagram](https://www.instagram.com/sunriverbrewing/), [Untappd](https://untappd.com/SunriverBrewingCompany).
 
 ## related
 

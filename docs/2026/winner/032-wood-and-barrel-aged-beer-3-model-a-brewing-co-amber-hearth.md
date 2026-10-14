@@ -235,7 +235,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Model A Brewing Co. is in Tega Cay, SC.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://modelabrewing.com/), [Instagram](https://www.instagram.com/model_a_brewing/).
 
 ## related
 

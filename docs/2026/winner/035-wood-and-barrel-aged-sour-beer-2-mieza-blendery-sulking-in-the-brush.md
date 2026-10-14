@@ -240,7 +240,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Mieza Blendery is in Alexandria, VA.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.miezabeer.com/), [Instagram](https://www.instagram.com/miezablendery/), [Untappd](https://untappd.com/Mieza_Blendery).
 
 ## related
 

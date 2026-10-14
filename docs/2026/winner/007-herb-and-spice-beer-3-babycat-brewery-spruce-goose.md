@@ -193,7 +193,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 BabyCat Brewery is in Kensington, MD.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://babycatbrewery.com/), [Instagram](https://www.instagram.com/babycatbrewery/), [Untappd](https://untappd.com/Babycat_Brewery).
 
 ## related
 

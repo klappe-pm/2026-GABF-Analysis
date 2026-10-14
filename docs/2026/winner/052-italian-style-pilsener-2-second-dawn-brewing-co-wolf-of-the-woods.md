@@ -220,7 +220,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Second Dawn Brewing Co. is in Aurora, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.seconddawnbrewing.com/), [Instagram](https://www.instagram.com/seconddawnbeer/).
 
 ## related
 

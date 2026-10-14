@@ -187,7 +187,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 105 West Brewing Co. is in Castle Rock, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.105westbrewing.com/), [Instagram](https://www.instagram.com/105westbrewing/), [Untappd](https://untappd.com/105WestBrewing).
 
 ## related
 

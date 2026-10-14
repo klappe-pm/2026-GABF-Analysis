@@ -34,12 +34,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/werkforcebrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -55,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "werk-force-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "IL"
-untappd: null
-website: null
+untappd: "https://untappd.com/WerkForceBrewingCompany"
+website: "https://www.werkforcebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

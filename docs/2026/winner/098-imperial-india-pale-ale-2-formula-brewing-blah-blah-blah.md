@@ -209,7 +209,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Formula Brewing is in Issaquah, WA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.formulabrewing.com/), [Instagram](https://www.instagram.com/formulabeers/).
 
 ## related
 

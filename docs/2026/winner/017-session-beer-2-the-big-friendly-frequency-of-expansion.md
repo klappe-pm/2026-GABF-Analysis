@@ -226,7 +226,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 The Big Friendly is in Oklahoma City, OK.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://thebigfriendly.com/), [Instagram](https://www.instagram.com/thebigfriendly/), [Untappd](https://untappd.com/The_Big_Friendly).
 
 ## related
 

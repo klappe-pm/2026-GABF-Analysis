@@ -208,7 +208,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Black Lung Brewing Co. is in Grayslake, IL.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.blacklungbrewing.com/), [Instagram](https://www.instagram.com/blacklungbrewing_grayslake/), [Untappd](https://untappd.com/BlackLungBrewingCompany).
 
 ## related
 

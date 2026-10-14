@@ -47,7 +47,7 @@ export default async function WinnersPage({ params }: { params: Promise<Params> 
     },
     categoryCell: raw(page('table.group_row')),
     medals: group('global.labels.medal'),
-    notPublished: t(page('table.not_published')),
+    notPublished: t('global.labels.not_found'),
     countOne: t('global.filters.live_region.one'),
     countMany: raw('global.filters.live_region.many'),
     fixedYear: fill(raw('global.filters.chips.fixed_year'), { year }),
@@ -71,7 +71,7 @@ export default async function WinnersPage({ params }: { params: Promise<Params> 
         <p className="type-body-large max-w-measure text-on-surface-variant">{fill(raw(page('header.lede')), { year })}</p>
         <p className="type-body-large flex flex-wrap gap-x-6 gap-y-2">
           <TextLink href={href(paths.firstTime(year))}>{fill(raw(page('links.first_time')), { year })}</TextLink>
-          <TextLink href={href(paths.explorer)}>{t(page('links.explorer'))}</TextLink>
+          <TextLink href={href(paths.explore)}>{t(page('links.explorer'))}</TextLink>
         </p>
       </header>
       <WinnersTable year={year} rows={rows} copy={copy} />

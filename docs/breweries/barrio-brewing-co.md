@@ -34,12 +34,9 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/barriobrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -53,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "barrio-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "AZ"
-untappd: null
-website: null
+untappd: "https://untappd.com/BarrioBrewing"
+website: "https://barriobrewing.com/"
 world-beer-cup-medals: 0
 ---
 

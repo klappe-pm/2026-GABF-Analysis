@@ -240,7 +240,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 No Label Brewing Co. is in Katy, TX.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.nolabelbrew.com/), [Instagram](https://www.instagram.com/nolabelbrew/), [Untappd](https://untappd.com/nolabelbrew).
 
 ## related
 

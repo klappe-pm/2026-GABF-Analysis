@@ -32,7 +32,7 @@ Four stages, each a Node script with no framework, chained by `scripts/new-year.
 
 ## why-static
 
-GitHub Pages serves files only, and the dataset is small (a few hundred medals a year), so the explorer filters in the browser over one JSON file and every other page is pre-rendered HTML with inline SVG charts. There is no CDN and no build framework; runtime JavaScript is Apache ECharts (vendored) plus the repository's own modules, and the build depends on unpdf (PDF text), marked (markdown), yaml (frontmatter), us-atlas and topojson-client (map).
+GitHub Pages serves files only, and the dataset is small (a few hundred medals a year), so the Explore page filters in the browser over one JSON file and every other page is pre-rendered HTML with inline SVG charts. There is no CDN and no build framework; runtime JavaScript is Apache ECharts (vendored) plus the repository's own modules, and the build depends on unpdf (PDF text), marked (markdown), yaml (frontmatter), us-atlas and topojson-client (map).
 
 ## key-decisions
 

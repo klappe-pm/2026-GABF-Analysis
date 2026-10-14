@@ -188,7 +188,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Brewery Ommegang is in Cooperstown, NY. Brewery type in Open Brewery DB: Regional brewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.ommegang.com/), [Instagram](https://www.instagram.com/breweryommegang/), [Untappd](https://untappd.com/breweryommegang).
 
 ## related
 

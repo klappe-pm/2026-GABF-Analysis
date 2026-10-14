@@ -41,16 +41,14 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/idaho-7.md"
   - "../hops/varieties/krush.md"
   - "../hops/varieties/mosaic.md"
   - "../hops/varieties/nectaron.md"
-instagram: null
+instagram: "https://www.instagram.com/meanwhilebeer/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -67,10 +65,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "meanwhile-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "TX"
 untappd: null
-website: null
+website: "https://www.meanwhilebeer.com/"
 world-beer-cup-medals: 0
 ---
 
