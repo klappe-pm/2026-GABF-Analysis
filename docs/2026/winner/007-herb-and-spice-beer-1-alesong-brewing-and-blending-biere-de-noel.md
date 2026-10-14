@@ -32,13 +32,6 @@ description:
 entries: 67
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://alesongbrewing.com/biere-de-noel"
-      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
-      - "https://www.alesongbrewing.com/"
-      - "https://www.alesongbrewing.com/beer-library"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://alesongbrewing.com/biere-de-noel"
@@ -102,13 +95,6 @@ gaps:
       - "https://www.alesongbrewing.com/"
       - "https://www.alesongbrewing.com/beer-library"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://alesongbrewing.com/biere-de-noel"
-      - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
-      - "https://www.alesongbrewing.com/"
-      - "https://www.alesongbrewing.com/beer-library"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 22
@@ -116,7 +102,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Aged in brandy barrels with a selected blend of baking spices; fermented with Saccharomyces"
+  source: "https://alesongbrewing.com/biere-de-noel"
 sources:
   - "https://alesongbrewing.com/biere-de-noel"
   - "https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos"
@@ -125,7 +113,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Winter ale aged in brandy barrels"
-tasting-notes: null
+tasting-notes:
+  text: "Reminiscent of a family-favorite recipe for Christmas cake, this rich, aromatic ale will be best enjoyed with loved ones for creating festive memories and good cheer."
+  source: "https://alesongbrewing.com/biere-de-noel"
 water: null
 yeast:
   - "Saccharomyces"
@@ -162,7 +152,9 @@ Source: [Alesong: Bière de Noël](https://alesongbrewing.com/biere-de-noel)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Reminiscent of a family-favorite recipe for Christmas cake, this rich, aromatic ale will be best enjoyed with loved ones for creating festive memories and good cheer.
+
+Source: [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel)
 
 ## ingredients
 
@@ -180,7 +172,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Aged in brandy barrels with a selected blend of baking spices; fermented with Saccharomyces | [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel) |
 
 ## style-context
 
@@ -209,7 +201,7 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water. Checked [alesongbrewing.com](https://alesongbrewing.com/biere-de-noel), [untappd.com](https://untappd.com/b/alesong-brewing-and-blending-biere-de-noel/6494259/photos), [alesongbrewing.com](https://www.alesongbrewing.com/), [alesongbrewing.com](https://www.alesongbrewing.com/beer-library), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -218,3 +210,4 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 - IBU, malts, hops and the specific spices are not published.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 22 IBU and names no hops. An unrelated homebrew recipe was excluded.
+- Deep dive pass 2026-10-14: the brewery page's stats list brandy barrels, 10.9% ABV and Saccharomyces; it names no hops, malts or specific spices.

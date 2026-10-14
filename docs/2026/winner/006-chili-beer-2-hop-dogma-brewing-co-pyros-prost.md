@@ -268,3 +268,4 @@ No brewery links have been checked yet.
 - Conflict: BeerMenus entry 87091 says Spiced Beer, 6.0%, "American rye ale brewed with chilies"; entry 77810 says Double IPA, 7.1%, "American rye ale brewed with Anaheim chiles". Neither is dated, so abv is left null.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's Untappd beer list publishes 7.1% ABV for a light blonde ale with jalapeños and N/A IBU, without named hops. This differs from the existing BeerMenus 6.0% chili rye ale and 7.1% Anaheim chile rye descriptions; ABV remains null because the formulations are unresolved. No brewery beer or tap list page was found.
+- Deep dive pass 2026-10-14: the brewery beer page was read again and does not list Pyro's Prost.

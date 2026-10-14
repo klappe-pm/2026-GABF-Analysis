@@ -48,7 +48,7 @@ export function splitDoc(text) {
 }
 
 const scalar = (v) => (v === null || v === undefined ? 'null' : typeof v === 'number' || typeof v === 'boolean' ? String(v) : JSON.stringify(String(v)));
-function serialize(key, v) {
+export function serialize(key, v) {
   if (Array.isArray(v)) {
     if (!v.length) return `${key}: []\n`;
     return `${key}:\n${v.map((item) => {
