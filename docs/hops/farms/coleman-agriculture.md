@@ -46,7 +46,7 @@ St. Paul, Marion County, OR. The county is derived: looked up from the city, not
 
 ## notes
 
-Archived Yakima Chief page: produces more than 2 million pounds a year, including 24 distinct hop varieties; also hazelnuts, grass seed, green beans and wheat. Indie Hops says five farms across the Willamette Valley and Central Oregon. Coleman Farms Inc, Coleman Ranches and Coleman Greenleaf appear separately on the YCR roster and the Oregon Hop Commission board and are not stated to be the same entity.
+Archived Yakima Chief page: produces more than 2 million pounds a year, including 24 distinct hop varieties; also hazelnuts, seed crops, green beans and wheat. Indie Hops says five farms across the Willamette Valley and Central Oregon. Coleman Farms Inc, Coleman Ranches and Coleman Greenleaf appear separately on the YCR roster and the Oregon Hop Commission board and are not stated to be the same entity.
 
 ## sources
 
