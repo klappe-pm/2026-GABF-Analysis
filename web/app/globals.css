@@ -6,7 +6,9 @@
 
 /* Colors and faces come only from Material's custom properties, which web/design/theme.ts sets from the
    settings files. Tailwind's own palette and font stacks are switched off so nothing else can be used.
-   Spacing and breakpoints are Tailwind's defaults and are fixed at build time. */
+   Spacing is Tailwind's default scale. Breakpoints are Material's window size classes (compact under 600,
+   medium 600 to 839, expanded 840 to 1199, large 1200 to 1599, extra large 1600 and up); they are fixed
+   at build time. Margins and the page width come from the settings at run time. */
 @theme {
   --color-*: initial;
   --font-*: initial;
@@ -14,6 +16,11 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --breakpoint-*: initial;
+  --breakpoint-medium: 37.5rem;
+  --breakpoint-expanded: 52.5rem;
+  --breakpoint-large: 75rem;
+  --breakpoint-xlarge: 100rem;
 }
 
 @theme inline {
@@ -57,7 +64,6 @@
   --font-plain: var(--md-ref-typeface-plain);
   --font-brand: var(--md-ref-typeface-brand);
   --font-label: var(--app-typeface-label);
-  --container-page: 72rem;
   --container-measure: 40rem;
   --container-sheet: 35rem;
 }
@@ -114,6 +120,17 @@
 
   [hidden]:where(:not([hidden="until-found"])) {
     display: none !important;
+  }
+
+  /* Material margins per window size class: the compact margin under 600 pixels, the wide margin above. */
+  :root {
+    --app-margin: var(--app-margin-compact, 16px);
+  }
+
+  @media (width >= 37.5rem) {
+    :root {
+      --app-margin: var(--app-margin-wide, 24px);
+    }
   }
 
   html {

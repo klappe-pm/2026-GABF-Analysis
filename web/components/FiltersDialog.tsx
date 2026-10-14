@@ -32,7 +32,7 @@ function Fields({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCop
       {groups.map((g) => (
         <fieldset key={g.key} className="flex flex-col gap-3">
           <legend className="type-title-small mb-3 text-on-surface">{g.title}</legend>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 medium:grid-cols-2">
             {g.fields.map((f) => <Select key={f.id} id={`${idPrefix}-${f.id}`} label={f.label} options={f.options} />)}
           </div>
           {g.key === 'when' ? <Checkbox id={`${idPrefix}-partial`} label={copy.partialLabel} hint={copy.partialNote} /> : null}

@@ -128,6 +128,10 @@ export function themeVars(g: Settings): Record<string, string> {
   vars['--app-color-gold'] = String(g['Gold medal color']);
   vars['--app-color-silver'] = String(g['Silver medal color']);
   vars['--app-color-bronze'] = String(g['Bronze medal color']);
+  // Adaptive layout: the page width (none fills the window), and Material's margins per window size class.
+  vars['--app-page-max'] = !g['Page width'] || g['Page width'] === 'full' ? 'none' : String(g['Page width']);
+  vars['--app-margin-compact'] = `${Number(g['Compact margin'] ?? 16)}px`;
+  vars['--app-margin-wide'] = `${Number(g['Wide margin'] ?? 24)}px`;
   return vars;
 }
 

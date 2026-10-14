@@ -3,6 +3,9 @@
 //   a font outside Public Sans and Archivo Narrow, inside Material's shadow roots too;
 //   figures set in Archivo Narrow, or figures that are not tabular in the body face;
 //   horizontal overflow;
+//   at 390, 768, 1024, 1440, and 1920: page level sideways scroll, the wrong navigation for the window
+//   size class (tabs, rail, drawer), a margin other than the settings, or content that does not fill the
+//   window when "Page width" is full;
 //   a data table whose cells wrap or are not left aligned, whose header row is not bold, or that scrolls
 //   the page instead of its own container;
 //   a page that changes when the browser asks for a dark scheme (the site has one light theme);
@@ -14,6 +17,7 @@
 
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { SETTINGS, readDoc } from './lib.mjs';
 import { OUT, launch, openStyleGuide, serveOut } from './serve-out.mjs';
 
 // Runs in the page: fonts and figures, walking into shadow roots.
@@ -134,6 +138,29 @@ async function main() {
     });
     const wanted = 'Some beer details are from Catalog.beer, licensed CC BY 4.0 and adapted.';
     if (!credit || credit.text !== wanted || credit.links.join('|') !== 'Catalog.beer https://catalog.beer|CC BY 4.0 https://creativecommons.org/licenses/by/4.0/') problems.push(`${path}: the footer attribution is missing or not worded as required (${JSON.stringify(credit)})`);
+    await ctx.close();
+  }
+  // Adaptive layout per Material window size class: no page level sideways scroll, the navigation the
+  // class calls for, and content that uses the window (when "Page width" is full).
+  const g = readDoc(SETTINGS).data;
+  const drawerWide = g['Navigation on wide screens'] !== 'rail';
+  for (const width of [390, 768, 1024, 1440, 1920]) {
+    const ctx = await browser.newContext({ viewport: { width, height: 1000 } });
+    const page = await openStyleGuide(ctx, origin);
+    const r = await page.evaluate(() => {
+      const shown = (s) => { const e = document.querySelector(s); return e ? getComputedStyle(e).display !== 'none' : false; };
+      const navWidth = ['rail', 'drawer'].map((n) => document.querySelector(`[data-nav="${n}"]`)).filter((e) => e && getComputedStyle(e).display !== 'none').reduce((w, e) => w + e.getBoundingClientRect().width, 0);
+      const margin = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--app-margin')) || 0;
+      const main = document.getElementById('main');
+      const content = main.getBoundingClientRect().width - parseFloat(getComputedStyle(main).paddingLeft) - parseFloat(getComputedStyle(main).paddingRight);
+      return { tabs: shown('[data-nav="tabs"]'), rail: shown('[data-nav="rail"]'), drawer: shown('[data-nav="drawer"]'), navWidth, margin, content, viewport: document.documentElement.clientWidth, overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth };
+    });
+    const want = width < 600 ? 'tabs' : width < 1200 || !drawerWide ? 'rail' : 'drawer';
+    if (r.overflow) problems.push(`${width}: the page scrolls sideways`);
+    for (const nav of ['tabs', 'rail', 'drawer']) if (r[nav] !== (nav === want)) problems.push(`${width}: ${nav} is ${r[nav] ? 'shown' : 'hidden'}; this window size shows ${want}`);
+    const expectedMargin = width < 600 ? Number(g['Compact margin'] ?? 16) : Number(g['Wide margin'] ?? 24);
+    if (Math.abs(r.margin - expectedMargin) > 0.5) problems.push(`${width}: the margin is ${r.margin}px, the settings say ${expectedMargin}px`);
+    if ((g['Page width'] ?? 'full') === 'full' && r.content < r.viewport - r.navWidth - 2 * r.margin - 2) problems.push(`${width}: content is ${Math.round(r.content)}px wide in a ${r.viewport}px window; it should fill the window`);
     await ctx.close();
   }
   for (const width of [390, 1280]) {

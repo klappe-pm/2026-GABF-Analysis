@@ -32,6 +32,17 @@ test('every spec lists its options under ## <name>-options, and the page heading
   assert.match(copy, /^- `spec_link`: GitHub: \{\{name\}\} Spec$/m);
 });
 
+test('the layout settings accept full or a rem width, Material margins, and drawer or rail', () => {
+  for (const ok of ['full', '90rem', '72.5rem']) assert.equal(d.valueProblem(d.GLOBAL['Page width'], ok), null, ok);
+  for (const bad of ['80%', '1200px', '10rem', 'wide', 90]) assert.notEqual(d.valueProblem(d.GLOBAL['Page width'], bad), null, String(bad));
+  const vars = d.themeVars(d.mergeGlobal({}, readDoc(SETTINGS).data));
+  assert.equal(vars['--app-page-max'], 'none');
+  assert.equal(vars['--app-margin-compact'], '16px');
+  assert.equal(vars['--app-margin-wide'], '24px');
+  assert.equal(d.themeVars(d.mergeGlobal({}, { ...readDoc(SETTINGS).data, 'Page width': '90rem' }))['--app-page-max'], '90rem');
+  assert.deepEqual([...d.GLOBAL['Navigation on wide screens'].values], ['drawer', 'rail']);
+});
+
 test('the global settings are valid, and the seed is a quoted hex color', () => {
   const { data } = readDoc(SETTINGS);
   for (const [key, kind] of Object.entries(d.GLOBAL)) assert.equal(d.valueProblem(kind, data[key]), null, key);

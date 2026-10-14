@@ -41,6 +41,8 @@ Components:
   - explorer-app
   - beer-profile-card
   - hop-profile-card
+  - navigation-rail
+  - navigation-drawer
 ---
 
 # Page layout
