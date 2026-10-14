@@ -119,7 +119,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 ### `map_ranked`
 
-- `title`: States With the Most Medals
+- `title`: States with the Most Medals
 - `subtitle`: The 20 states with the most medals, colored by Census region. Select a state to filter by it.
 
 ### `by_family`
@@ -132,7 +132,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 - `title`: Top Breweries
 - `subtitle`: Ranked by points (gold 3, silver 2, bronze 1). Select a brewery to open it.
-- `total`: {{count}} points
+- `total`: {{count}} Points
 
 ### `by_region`
 
@@ -173,7 +173,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 
 ### `entry_odds`
 
-- `title`: Hardest Categories to Medal In
+- `title`: Hardest Categories to Medal in
 - `subtitle`: Entries per medal, highest first. Select a category to filter by it.
 - `note`: Entries divided by medals awarded in the category, pooled over the years in view.
 - `missing_one`: 1 medal in view has no published entry count and is left out.
@@ -197,7 +197,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 ### `brewery_trend`
 
 - `title`: Medals by Year
-- `subtitle`: {{brewery_name}}, every medal in the record
+- `subtitle`: {{brewery_name}}, Every Medal in the Record
 
 ### `brewery_categories`
 
@@ -214,7 +214,7 @@ Where: the panels. Each has a title and, where set, a subtitle and a note under 
 ### `parents`
 
 - `title`: Medals by Parent Company
-- `subtitle`: Owners that are not independent
+- `subtitle`: Owners That Are Not Independent
 - `empty`: No medalist in view is owned by a large brewer or other company.
 
 ### `revenue`
@@ -241,14 +241,14 @@ Where: every dashboard chart.
 - `loading`: Loading the medals…
 - `bin_range`: {{min}} to {{max}}
 - `bin_single`: {{min}}
-- `bin_open`: {{min}} or more
+- `bin_open`: {{min}} or More
 - `ibu`: IBU
 
 ## `single_file`
 
 Where: the single file dashboard (one HTML file that works offline).
 
-- `title`: Great American Beer Festival results dashboard
+- `title`: Great American Beer Festival Results Dashboard
 - `description`: Interactive Great American Beer Festival results dashboard in one file. Open it in any browser.
 - `tab_tooltip`: Filter every tab (press F)
 - `lede_file`: Every medal in the record, in one file that works offline. Filters apply to every tab, charts filter when you select a bar or state, each chart saves as a PNG, and the address bar keeps your filters so a view can be bookmarked.
@@ -263,6 +263,6 @@ Where: the single file dashboard (one HTML file that works offline).
 - `geography`: Geography
 - `categories`: Categories
 - `breweries`: Breweries
-- `economics`: Ownership and economics
+- `economics`: Ownership and Economics
 - `data`: Data
 - `about`: About

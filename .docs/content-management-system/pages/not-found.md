@@ -6,7 +6,7 @@ Not found: shown for any address that has no page.
 
 Where: the whole page.
 
-- `title`: Page not found
+- `title`: Page Not Found
 - `body`: This page does not exist or has moved.
-- `search_label`: Find a brewery, beer, or category
+- `search_label`: Find a Brewery, Beer, or Category
 - `home_link`: Go to results

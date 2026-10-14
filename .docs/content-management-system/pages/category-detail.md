@@ -16,7 +16,7 @@ Where: the pills under the title; type and family labels come from labels.yaml.
 - `abv`: ABV {{min}} to {{max}}%
 - `ibu`: IBU {{min}} to {{max}}
 - `srm`: SRM {{min}} to {{max}}
-- `entrants`: {{count}} entrants in {{year}}
+- `entrants`: {{count}} Entrants in {{year}}
 
 ## `definition`
 
@@ -42,7 +42,7 @@ Where: the labels of the style range scales in the definition card. Each scale r
 Where: the entrants chart, or the card that replaces it.
 
 - `title`: Entrants by Year
-- `subtitle`: How crowded the category is
+- `subtitle`: How Crowded the Category Is
 - `series`: Entries
 - `one_year`: {{count}} entries in {{year}}. A trend needs a second year with entry counts in view.
 - `none`: No entry counts in view for this category.
@@ -54,7 +54,7 @@ Where: the medalists section.
 - `title`: Medalists by Year
 - `year_heading`: {{year}}
 - `year_heading_number`: {{year}} · Category {{number}}
-- `year_heading_entrants`: {{year}} · Category {{number}} · {{count}} entrants
+- `year_heading_entrants`: {{year}} · Category {{number}} · {{count}} Entrants
 
 ## `cards`
 

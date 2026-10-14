@@ -31,7 +31,7 @@ Where: each saved view in the list.
 - `delete`: Delete
 - `copy_link`: Copy Link
 - `link_copied`: Link copied.
-- `filters_summary`: {{count}} filters on {{page_title}}
+- `filters_summary`: {{count}} Filters on {{page_title}}
 - `filters_summary_one`: 1 filter on {{page_title}}
 - `filters_summary_none`: No filters on {{page_title}}
 - `saved_on`: Saved {{date}}

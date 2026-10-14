@@ -1,6 +1,7 @@
 // HTML helpers shared by the build (Node) and the dashboards (browser): escaping,
 // compact numbers, status labels, table views, stat tiles, and the figure wrapper that
 // embeds an Apache ECharts option for echarts-init.js to render.
+import { titleCase } from './title-case.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -96,8 +97,10 @@ export function humanize(slug) {
 }
 
 // Rewrite h2 to h6 headings whose whole text is a kebab-case slug (the markdown source convention) into display text.
+export { titleCase };
+
 export function humanizeHeadings(html) {
-  return String(html).replace(/<(h[2-6])(\s[^>]*)?>([a-z0-9]+(?:-[a-z0-9]+)*)<\/\1>/g, (m, tag, attrs = '', text) => (/[a-z]/.test(text) ? `<${tag}${attrs}>${humanize(text)}</${tag}>` : m));
+  return String(html).replace(/<(h[2-6])(\s[^>]*)?>([a-z0-9]+(?:-[a-z0-9]+)*)<\/\1>/g, (m, tag, attrs = '', text) => (/[a-z]/.test(text) ? `<${tag}${attrs}>${titleCase(humanize(text))}</${tag}>` : m));
 }
 
 export function countBy(rows, key) {

@@ -6,10 +6,10 @@ Shared empty, loading, error, and data gap states. Pages reuse these unless thei
 
 Where: any field whose value the data does not hold (founded year, website, parent, address).
 
-- `not_defined`: Not defined
-- `not_published`: Not published
+- `not_defined`: Not Found
+- `not_published`: Not Published
 - `none`: None
-- `none_in_view`: None in view
+- `none_in_view`: None in View
 
 ## `loading`
 
@@ -25,7 +25,7 @@ Where: any view where the filters leave no medals.
 - `title`: No medals match these filters.
 - `remove_hint`: Remove a filter to see more.
 - `partial_hint`: Some medals here are in partial years, which are hidden by default.
-- `include_partial`: Include partial years
+- `include_partial`: Include Partial Years
 
 ## `empty_scope`
 

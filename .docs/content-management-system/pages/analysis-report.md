@@ -14,7 +14,7 @@ Where: the top breweries report.
 
 - `lede`: Points weight gold 3, silver 2, bronze 1. Rankings use the medals in view. Partial years count only when you include them in Filters.
 - `chart_title`: Top 15 Breweries by Points
-- `chart_subtitle`: Medals in view
+- `chart_subtitle`: Medals in View
 - `streaks_title`: Longest Active Streaks
 - `streaks_note`: Consecutive years with a medal, through {{year}}. A streak needs every year, so it uses the full record and ignores Filters.
 - `streak_item`: {{brewery_name}}: {{count}} years
@@ -30,12 +30,12 @@ Where: the top categories report.
 
 - `lede`: Entry counts come from the official list and show where competition is fiercest. Entries per medal reads each category as odds: how many entries each medal had to beat. Special categories are marked.
 - `most_entered_title`: Most Entered Categories
-- `most_entered_subtitle`: Latest year in view with entry counts
+- `most_entered_subtitle`: Latest Year in View with Entry Counts
 - `most_entered_empty`: No entry counts in view.
-- `special_suffix`: (special)
+- `special_suffix`: (Special)
 - `families_title`: Medals by Style Family
-- `odds_title`: Hardest Categories to Medal In
-- `odds_subtitle`: Entries per medal, highest first
+- `odds_title`: Hardest Categories to Medal in
+- `odds_subtitle`: Entries per Medal, Highest First
 - `odds_note`: Entries divided by medals awarded in the category, pooled over the years in view.
 - `odds_missing_one`: 1 medal in view has no published entry count and is left out.
 - `odds_missing_many`: {{count}} medals in view have no published entry count and are left out.
@@ -55,12 +55,12 @@ Where: the by state report.
 
 - `lede`: Medals by state, adjusted for population and economy. Each medal counts against its own year's Census population and real GDP; {{latest_year}} medals use {{data_year}}, the latest published year.
 - `map_title`: Medals by State
-- `map_subtitle`: Medals in view
+- `map_subtitle`: Medals in View
 - `map_tooltip`: {{state}}: {{count}} medals
 - `bars_title`: Medals by State
 - `bars_subtitle`: Top 20
 - `per_capita_title`: Medals per Million Residents
-- `per_capita_subtitle`: Top 20, by each year's population
+- `per_capita_subtitle`: Top 20, by Each Year's Population
 - `table_title`: All States in View
 
 ## `by_region`
@@ -82,7 +82,7 @@ Where: the ownership report.
 - `stat_owned`: Medalists Owned by a Large Brewer or Other Company
 - `by_type_title`: Medals by Ownership
 - `parents_title`: Medals by Parent Company
-- `parents_subtitle`: Owners that are not independent
+- `parents_subtitle`: Owners That Are Not Independent
 - `parents_empty`: No medalist in view is owned by a large brewer or other company.
 - `table_title`: Ownership Research
 - `table_note`: Every researched brewery, whether or not it medaled in the years in view. Filters do not narrow this table.
@@ -106,7 +106,7 @@ Where: the economics report.
 
 - `lede`: Estimated economics for every medalist in view: barrels, annual revenue (ARR), gross margin, EBITDA with a range by sales channel, and distribution. Every figure is an estimate (E) unless a reported production figure exists. See Method for how each is made.
 - `chart_title`: Estimated ARR by Brewery (E)
-- `chart_subtitle`: Top 15 medalists in view
+- `chart_subtitle`: Top 15 Medalists in View
 - `table_title`: All Medalists in View
 - `estimate_loading`: Loading how this estimate was made.
 - `estimate_failed`: The estimate details could not be loaded. Try again later.
@@ -137,7 +137,7 @@ Where: the trends report.
 - `scale_title`: Competition Scale by Year
 - `families_section`: Style Families and Movers
 - `families_title`: Medals by Style Family and Year
-- `families_subtitle`: Top seven families in view, plus Other
+- `families_subtitle`: Top Seven Families in View, Plus Other
 - `movers_title`: Movers, {{previous_year}} to {{year}}
 - `gained`: Gained
 - `lost`: Lost

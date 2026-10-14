@@ -2,6 +2,7 @@
 // medal beer: name, brewery, medal, category, ABV, IBU, style, hop chips that link to the variety
 // pages, a tasting note excerpt with its source, and a link to the beer's full profile.
 
+import { NOT_FOUND } from './not-found.mjs';
 import { esc } from './charts.mjs';
 import { hopSlug } from './hop-links.mjs';
 
@@ -16,7 +17,7 @@ export const BEER_CARD_DEFAULTS = {
   tasting: 'Tasting note',
   source: 'Source',
   deep_dive: 'Open the beer profile',
-  none: 'Not defined',
+  none: NOT_FOUND,
 };
 export const beerCardCopy = (meta) => ({ ...BEER_CARD_DEFAULTS, ...(meta?.copy?.cards ?? {}) });
 

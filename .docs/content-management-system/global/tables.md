@@ -19,11 +19,11 @@ Where: the column headers of every medal table (results, brewery history, catego
 
 
 
-- `field`: Field (entries)
-- `entries_per_medal`: Entries per medal
-- `style_family`: Style family
+- `field`: Field (Entries)
+- `entries_per_medal`: Entries per Medal
+- `style_family`: Style Family
 - `abv`: ABV
-- `abv_style`: ABV (style range)
+- `abv_style`: ABV (Style Range)
 - `abv_style_value`: {{min}} to {{max}}% (style)
 - `current_value`: current published value, {{source}}, retrieved {{date}}
 - `current_value_medium`: matched on the beer name once the brewery name is dropped from its front
@@ -41,11 +41,11 @@ Where: the column headers of every brewery ranking table.
 - `hq`: Headquarters
 - `type`: Type
 - `medals`: Medals
-- `medal_split`: Gold / silver / bronze
+- `medal_split`: Gold / Silver / Bronze
 - `points`: Points
-- `first`: First medal
-- `first_in_view`: First medal in view
-- `latest`: Latest medal
+- `first`: First Medal
+- `first_in_view`: First Medal in View
+- `latest`: Latest Medal
 - `streak`: Streak
 - `ownership`: Ownership
 - `distribution`: Distribution
@@ -57,12 +57,12 @@ Where: the column headers of every category table.
 
 - `category`: Category
 - `type`: Type
-- `style_family`: Style family
-- `abv`: ABV (style range)
+- `style_family`: Style Family
+- `abv`: ABV (Style Range)
 - `abv_value`: {{min}} to {{max}}%
-- `latest_entrants`: Latest entrants
+- `latest_entrants`: Latest Entrants
 - `year`: Year
-- `medals_in_view`: Medals in view
+- `medals_in_view`: Medals in View
 - `years`: Years
 
 ## `place_columns`
@@ -72,25 +72,25 @@ Where: the column headers of every state, region, or district table.
 - `state`: State
 - `region`: Region
 - `division`: Division
-- `district`: Fed district
+- `district`: Fed District
 - `name`: Name
 - `medals`: Medals
 - `gold`: Gold
 - `breweries`: Breweries
 - `states`: States
 - `population`: Population, {{year}}
-- `latest_year`: {{year}} medals
-- `per_million`: Per million residents
-- `per_100b_gdp`: Per $100B real GDP
-- `per_100b_gdp_estimate`: Per $100B real GDP (E)
+- `latest_year`: {{year}} Medals
+- `per_million`: Per Million Residents
+- `per_100b_gdp`: Per $100B Real GDP
+- `per_100b_gdp_estimate`: Per $100B Real GDP (E)
 
 ## `pager`
 
 Where: below any long medal table.
 
 - `showing`: Showing {{shown}} of {{total}} medals, newest first.
-- `show_more`: Show {{count}} more
-- `show_all`: Show all
+- `show_more`: Show {{count}} More
+- `show_all`: Show All
 
 ## `sorting`
 
@@ -102,4 +102,4 @@ Where: sortable column headers, for screen readers.
 
 Where: above medal tables on results and dashboard pages.
 
-- `button`: Download medals in view (CSV)
+- `button`: Download Medals in View (CSV)

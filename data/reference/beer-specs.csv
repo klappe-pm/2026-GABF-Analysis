@@ -1,145 +1,444 @@
 brewery_name,beer_name,abv,ibu,style,source_url,source_kind,retrieved,match_confidence,match_basis,source_beer_name,source_brewer_name
+10 Barrel Brewing Co.,Agrio Morado,6.5,3,Sour,https://10barrel.com/wp-content/uploads/2017/04/Beer-Menu-4.26.24.pdf,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+10 Barrel Brewing Co.,Cucumber Crush,4,17,Berliner-Style Weisse (Wheat),https://catalog.beer/beer/f274be36-e3ce-4460-9324-d774ec189a94,catalog-beer,2026-10-14,high,"brewery name, exact name",Cucumber Crush,10 Barrel Brewing Company
+12Degree Brewing,Cactus Juice,6.5,12,Cactus Flower Sour,http://www.12degree.com/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+2 Towns Ciderhouse,10th Anniversary,5.7,,Pacific Northwest Heirloom Blend,https://2townsciderhouse.com/ciders/10th-anniversary,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+2 Towns Ciderhouse,Pacific Pineapple,5,,Unfiltered Pineapple Cider,https://2townsciderhouse.com/ciders/pacific-pineapple,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+21st Amendment Brewery,El Sully,4.8,19,Mexican-Style Lager,https://21st-amendment.myshopify.com/pages/el-sully,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+21st Amendment Brewery,El Sully,4.8,19,American-Style Cream Ale or Lager,https://catalog.beer/beer/03f99a83-b6b4-47a4-9509-a26902717084,catalog-beer,2026-10-14,high,"brewery name, exact name",El Sully,21st Amendment Brewery
 29 Brews,Chairman's Mexican Lager,5,10,,https://spotlight29.com/29-brews/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Ahnapee Brewery,Pumpkin Ale,5,15,Pumpkin,https://www.ahnapeebrewery.com/algoma-taproom/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Ahnapee Brewery,Pumpkin Ale,5,15,Pumpkin Beer,https://catalog.beer/beer/1fd10c03-5958-48ac-8ce3-59939abbca06,catalog-beer,2026-10-14,high,"brewery name, exact name",Pumpkin Ale,Ahnapee Brewery
+Alesong Brewing & Blending,French 75,8.9,,French-Style Saison,https://catalog.beer/beer/4233e03c-ea2e-4d76-9854-0bd0ce78deff,catalog-beer,2026-10-14,high,"brewery name, exact name",French 75,Alesong Brewing & Blending
 Alesong Brewing & Blending,Mezcla,7.9,,Farmhouse Ale,https://catalog.beer/beer/013387fb-1bfd-43ec-aadc-b220f08764cc,catalog-beer,2026-10-14,high,"brewery name, exact name",Mezcla,Alesong Brewing & Blending
+Alesong Brewing & Blending,Raspberry Parliament,6.9,,Flanders Red Ale,https://catalog.beer/beer/b465b6a7-03af-4353-8a82-67f1723a8939,catalog-beer,2026-10-14,high,"brewery name, exact name",Raspberry Parliament,Alesong Brewing & Blending
+Alesong Brewing & Blending,Touch of Brett,6.4,,,https://www.alesongbrewing.com/touch-of-brett,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Alesong Brewing & Blending,Touch of Brett,6.4,,Saison,https://catalog.beer/beer/1be5f401-6455-455a-95fd-ff7c5b3f25fa,catalog-beer,2026-10-14,high,"brewery name, exact name",Touch of Brett,Alesong Brewing & Blending
 Allagash Brewing Co.,Allagash Lager,5,,Pilsner,https://www.allagash.com/beer/pilsner/lager/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Allagash Brewing Co.,Allagash Tripel,9,,Belgian-Style Tripel,https://catalog.beer/beer/4cf535d3-ef02-4d93-aae1-b8c6ad9c600b,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Tripel,Allagash Brewing Company
+Allagash Brewing Co.,Allagash White,5.2,,Belgian-Style Wheat Beer,https://www.allagash.com/beer/wheat/white/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Allagash Brewing Co.,Allagash White,5,28,Belgian-Style White (or Wit) / Belgian-Style Wheat,https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",White,Allagash Brewing Company
+Allagash Brewing Co.,Tripel,9,,Belgian-Style Tripel,https://catalog.beer/beer/4cf535d3-ef02-4d93-aae1-b8c6ad9c600b,catalog-beer,2026-10-14,high,"brewery name, exact name",Tripel,Allagash Brewing Company
+Allagash Brewing Co.,White,5,28,Belgian-Style White (or Wit) / Belgian-Style Wheat,https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296,catalog-beer,2026-10-14,high,"brewery name, exact name",White,Allagash Brewing Company
+Alma Mader Brewing,Pacific Portal,7,,West Coast IPA,http://almamaderbrewing.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Alpenfire Cider,Glow - Airlie Redflesh SV,7,,Single Varietal Rosé Cider,https://www.alpenfirecider.com/glow-airlie-red-rose-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Alpine Beer Co.,Windows Up,7.5,41,IPA,https://alpinebeerco.com/windows-up/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Alpine Beer Co.,Windows Up,7.5,41,American-Style India Pale Ale,https://catalog.beer/beer/1ec05b1d-e37e-441c-9de6-83a837431a1f,catalog-beer,2026-10-14,high,"brewery name, exact name",Windows Up,Alpine Beer Company
+Altstadt Brewery,Altstadt Lager,4.8,20,Lager: Helles,https://catalog.beer/beer/cb43a0ae-fbc0-4a56-91f0-0d3a46eaf7da,catalog-beer,2026-10-14,high,"brewery name, exact name",Altstadt Lager,Altstadt Brewery
 Apogee Brewing Co.,Aurora,6,20,Belgian Light Blonde Ale,https://apogeebrew.com/brews/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Apogee Brewing Co.,Monks In Space,9,28,Belgian Tripel,https://apogeebrew.com/brews/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Appalachian Mountain Brewery,Down South,4.2,,American Lager,https://amb.beer/pub,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Arbeiter Brewing Co.,Haha Pils,5,44,Northern German Pils,http://www.arbeiterbrewing.com/on-tap-1,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Armistice Brewing Co.,Gravity Bomb,5,,Pale Ale: American,https://catalog.beer/beer/be85e517-8420-418d-84d6-488d26e3d3a5,catalog-beer,2026-10-14,high,"brewery name, exact name",Gravity Bomb,Armistice Brewing Company
+Armistice Brewing Co.,Green New Zeal,7.2,,IPA: New England / Hazy,https://catalog.beer/beer/bea1e375-e702-429c-9e26-28d80d80c9af,catalog-beer,2026-10-14,high,"brewery name, exact name",Green New Zeal,Armistice Brewing Company
 Armored Cow Brewing Co.,Doctor Love,7,,Sour Ale,https://www.armoredcowbrewing.com/on-tap,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Armored Cow Brewing Co.,HellFire Club,4.8,,Sour Ale,https://www.armoredcowbrewing.com/on-tap,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Armored Cow Brewing Co.,The Remnant,10,,GF Imperial Stout,https://www.armoredcowbrewing.com/on-tap,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Aslan Brewing Co.,Disco Lemonade,3.5,4,Berliner-Style Weisse (Wheat),https://catalog.beer/beer/686f24b3-c1cd-48f4-ba71-ba7d519f7dcf,catalog-beer,2026-10-14,high,"brewery name, exact name",Disco Lemonade,Aslan Brewing Company
+Athletic Brewing Co.,Free Wave Hazy IPA,,50,Hazy IPA,https://athleticbrewing.com/products/free-wave,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Athletic Brewing Co.,Run Wild,,35,IPA,https://athleticbrewing.com/products/run-wild,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Athletic Brewing Co.,Run Wild,0.5,,IPA,https://catalog.beer/beer/4c3c87a5-39f5-4b45-9f46-e8e5f76d7b9e,catalog-beer,2026-10-14,high,"brewery name, exact name",Run Wild,Athletic Brewing Company
+Athletic Brewing Co.,Tropical Sour,,,Sour,https://athleticbrewing.com/products/tropical-sour,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Athletic Brewing Co.,Tropical Sour,0.5,,Sour,https://catalog.beer/beer/9b3db547-ef23-4052-b3b8-3c2be099a431,catalog-beer,2026-10-14,high,"brewery name, exact name",Tropical Sour,Athletic Brewing Company
+Atlas Brew Works,Silent Neighbor,6.7,36,American-Style Stout,https://catalog.beer/beer/1308a2b2-79c8-43f9-b3eb-45546ee77672,catalog-beer,2026-10-14,high,"brewery name, exact name",Silent Neighbor,Atlas Brew Works
 Avery Brewing Co.,NaughTea,5,,Hard Tea with Passionfruit,https://www.averybrewing.com/brews/naughtea,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Avery Brewing Co.,Stampede,4.5,,Colorado Gold Light Lager,https://catalog.beer/beer/7f0628b7-1bf7-42e4-b648-36a2e59673da,catalog-beer,2026-10-14,high,"brewery name, exact name",Stampede,Avery Brewing Company
+Avery Brewing Co.,White Rascal,5.6,22,Belgian-Style White (or Wit) / Belgian-Style Wheat,https://catalog.beer/beer/72f2f8f9-150d-4ded-ba38-e5d38513c400,catalog-beer,2026-10-14,high,"brewery name, exact name",White Rascal,Avery Brewing Company
+Baere Brewing Co.,Saison,5.2,29,French & Belgian-Style Saison,https://catalog.beer/beer/0dff29da-5e40-4038-803f-2c35ee489744,catalog-beer,2026-10-14,high,"brewery name, exact name",Saison,Baere Brewing Company
 Bale Breaker Brewing Co.,Daybreak Pale Ale,5.5,45,Pale Ale,https://balebreaker.com/beer/daybreak-pale-ale/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Barley Naked Brewing Co.,Irish Prenup,5.3,22,Oatmeal Milk Stout,https://www.barleynaked.com/beer-menu,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Barrel Mountain Brewing,Ash Cloud,5.5,35,,http://www.barrelmountainbrewing.com/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 BarrieHaus Beer Co.,The Dark,4.5,15,Munich-Style Dunkel,https://barriehaus.com/beer/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Beachwood BBQ & Brewing,Full Malted Jacket,9.2,,Scottish-Style Heavy Ale,https://catalog.beer/beer/3af094af-3cd0-4833-a1b5-18fca3572029,catalog-beer,2026-10-14,high,"brewery name, exact name",Full Malted Jacket,Beachwood BBQ & Brewing
+Bear Chase Brewing Co.,Buttons the Bear,6,8,Oatmeal Stout,https://bearchasebrew.com/beers-on-tap/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Berryessa Brewing Co.,Free Kittens,5.5,,Specialty Beer,https://catalog.beer/beer/f076a99a-77ef-4c6e-beb4-d408ab338719,catalog-beer,2026-10-14,high,"brewery name, exact name",Free Kittens,Berryessa Brewing Company
 Berryessa Brewing Co.,Mini Separation Anxiety,4,,Session India Pale Ale,https://catalog.beer/beer/e6b042ea-0ce1-47d0-8a94-982a4b2570d2,catalog-beer,2026-10-14,high,"brewery name, exact name",Mini Separation Anxiety,Berryessa Brewing Company
+Bier Brewery and Taproom,Roggenschnizzle,7.2,,German-Style Rye Ale (Roggenbier) with or without Yeast,https://catalog.beer/beer/f849b3d4-a56c-4727-bc6b-63d6938ee198,catalog-beer,2026-10-14,high,"brewery name, exact name",Roggenschnizzle,Bier Brewery & Taproom
 Big Dog's Brewing Co.,Tripel Dog Dare,,,BELGIAN-STYLE TRIPEL,https://www.bigdogsbrews.com/beer-line-up-and-tap-list/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Big Grove Brewery & Taproom,Easy Eddy,,,Hazy IPA,https://biggrove.com/collections/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Big Timber Brewing,Porter,6.5,33,Porter,https://www.bigtimberbrewing.com/our-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Bird Creek Brewing,Bare Bones Disco,,,American Pale Ale,https://birdcreekbrewing.com/page/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+BJ's Restaurant & Brewery,Oasis Amber,4.5,,American-Style Amber/Red Ale,https://catalog.beer/beer/ea5edab8-acc8-4cfd-a1b4-01fcb3609dd1,catalog-beer,2026-10-14,high,"brewery name, exact name",Oasis Amber,BJ's Restaurant and Brewery
+Blackhorse Pub & Brewery,Kentucky Common,4.8,15,Historical Lager,https://www.blackhorsebrews.com/beers/kentucky-common/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 BlackStack Brewing,Slopes,4.6,,French-Style Pilsner,https://www.blackstackbrewing.com/blackstack-archive/slopes,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+BlackStack Brewing,Slopes,4.6,,Pilsner: Other,https://catalog.beer/beer/9ac1f3fa-c359-45d6-9aa4-3cd331606c4e,catalog-beer,2026-10-14,high,"brewery name, exact name",SLOPES,BlackStack Brewing
+Blind Owl Brewery,Tomamos,5.4,25,Lager: Mexican,https://catalog.beer/beer/d9b48e04-b4bc-46ad-846f-aabcc4463c3b,catalog-beer,2026-10-14,high,"brewery name, exact name",Tomamos,Blind Owl Brewery
+Blind Tiger Brewery & Restaurant,Blind Tiger Bock,7,16,Bock,https://catalog.beer/beer/40d58755-fffe-4294-ae1e-b0364f359ecc,catalog-beer,2026-10-14,high,"brewery name, exact name",Blind Tiger Bock,Blind Tiger Brewery & Restaurant
+Blind Tiger Brewery & Restaurant,Munich Dunkles,4.8,10,Munich Dunkel,https://catalog.beer/beer/709ed7f9-aceb-4d40-8156-86d970498f17,catalog-beer,2026-10-14,high,"brewery name, exact name",Munich Dunkles,Blind Tiger Brewery & Restaurant
+Blind Tiger Brewery & Restaurant,Smoke Follows Beauty,6.5,14,Rauchbier,https://catalog.beer/beer/c9e1c28a-bc66-4a46-a97b-4188202a5739,catalog-beer,2026-10-14,high,"brewery name, exact name",Smoke Follows Beauty,Blind Tiger Brewery & Restaurant
+Blue Mountain Brewery,Raspberries on Acid,8,15,FRUITED IMPERIAL SOUR WITBIER,https://bluemountainbrewery.com/products/raspberries-on-acid/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Blue Mountain Brewery,Wild Pear,5,,Sour Ale,https://bluemountainbrewery.com/products/wild-pear/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Bolero Snort Brewery,Jersey Vice,4.2,,Tart Session Ale,https://catalog.beer/beer/43a19f41-1d57-4ee7-9345-c32c3a2ed781,catalog-beer,2026-10-14,high,"brewery name, exact name",Jersey Vice,Bolero Snort Brewery
+Bootstrap Brewing,Stick's Pale Ale,5.5,38,American-Style Pale Ale,https://catalog.beer/beer/14874ee8-e3cb-46ae-8dd4-8a75f9e39168,catalog-beer,2026-10-14,high,"brewery name, exact name",Stick's Pale Ale,Bootstrap Brewing Company
+Bootstrap Brewing,Wreak Havoc,8.3,88,Imperial Red Ale,https://catalog.beer/beer/9f6e79cd-0db3-4032-ac19-2511eba4ef03,catalog-beer,2026-10-14,high,"brewery name, exact name",Wreak Havoc,Bootstrap Brewing Company
 Boulevard Brewing Co.,Space Camper Non-Alcoholic Low Gravity,0.5,30,NA IPA,https://www.boulevard.com/beverage/space-camper-non-alcoholic-ipa/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Boxing Bear Brewing Co.,Chocolate Milk Stout,5.2,20,SWEET STOUT,http://www.boxingbearbrewing.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Boxing Bear Brewing Co.,Chocolate Milk Stout,5.2,20,Sweet Stout,https://catalog.beer/beer/7df05c49-fe93-419a-aabb-966a0a4da854,catalog-beer,2026-10-14,high,"brewery name, exact name",Chocolate Milk Stout,Boxing Bear Brewing Co.
+Bravery Brewing Co.,Brighton ESB,5.6,41,Extra-Special Bitter,https://braverybrewing.com/beer/brighton-esb/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Bravery Brewing Co.,Brighton ESB,5.6,,Extra Special Bitter,https://catalog.beer/beer/d2edf139-1529-4d6e-9a29-edf63ea5906e,catalog-beer,2026-10-14,high,"brewery name, exact name",Brighton ESB,Bravery Brewing
+Breakside Brewery,Breakside Passionfruit Sour,4,,American-Style Sour Ale,https://catalog.beer/beer/b01e6750-e350-4edc-9853-bcbcd840498f,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Passionfruit Sour,Breakside Brewery
+Breakside Brewery,Breakside Woodlawn Pale Ale,5.2,29,American-Style India Pale Ale,https://catalog.beer/beer/202053cd-bafc-45d4-9cb8-f09af20c9550,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Woodlawn Pale Ale,Breakside Brewery
 Breakside Brewery & Taproom,Breakside IPA,6.8,62,India Pale Ale,https://breakside.com/our_beer/breakside-ipa/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Breakside Brewery & Taproom,Breakside La Maison du Bang!,14.6,22,,https://breakside.com/our_beer/la_maison_du_bang/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Breakside Brewery & Taproom,Breakside White,5.2,11,Belgian Ale Brewed with Orange Peel and Coriander,https://breakside.com/our_beer/breakside-white/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Breckenridge Brewery,Agave Wheat,4.4,13,Light American Wheat Ale or Lager with Yeast,https://catalog.beer/beer/496f7946-08d1-4ae5-9dba-8d7615e2f4ef,catalog-beer,2026-10-14,high,"brewery name, exact name",Agave Wheat,Breckenridge Brewery
 Brewer's Alley & Monocacy Brewing Co.,Monocacy Riot Rye,6.4,70,Rye Beer,https://monocacybrewing.com/the-beer/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Bristol Brewing Co.,Laughing Lab Scottish Ale,5,19,Scottish-Style Export Ale,https://catalog.beer/beer/c346e6f8-4d21-49e2-9e50-bc4203096326,catalog-beer,2026-10-14,high,"brewery name, exact name",Laughing Lab Scottish Ale,Bristol Brewing Company
+Burghers Brewing,Smoke Control,5.7,,German-Style Smoked Helles,https://burgherspgh.com/lawrenceville,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Caboose Brewing Co.,Boxcar Brown,5,22,American-Style Brown Ale,https://catalog.beer/beer/62fec2dc-6cc0-4dfa-a380-0a10d42fb724,catalog-beer,2026-10-14,high,"brewery name, exact name",Boxcar Brown,Caboose Brewing Company
+Cannonball Creek Brewing Co.,Featherweight Pale Ale,5.7,,American-Style Pale Ale,https://catalog.beer/beer/2a14316f-8717-4aa1-b2ea-3d417345a4b4,catalog-beer,2026-10-14,high,"brewery name, exact name",Featherweight Pale Ale,Cannonball Creek Brewing Company
+Cannonball Creek Brewing Co.,Rosemary Sourdough Saison,5.8,,French & Belgian-Style Saison,https://catalog.beer/beer/33853a69-9fff-4403-8703-319baf1108db,catalog-beer,2026-10-14,high,"brewery name, exact name",Rosemary Sourdough Saison,Cannonball Creek Brewing Company
+Cannonball Creek Brewing Co.,Trump Hands,4.6,,Session IPA,https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993,catalog-beer,2026-10-14,high,"brewery name, exact name",Trump Hands,Cannonball Creek Brewing Company
+Canyon Creek Brewing,Rabbit Head Red,5.8,20,Irish Red Ale,https://catalog.beer/beer/b7adfa85-1457-41a2-b2b3-d4403a5c0efc,catalog-beer,2026-10-14,high,"brewery name, exact name",Rabbit Head Red,Canyon Creek Brewing
 Canyon Lakes Golf Course & Brewery,O.B. Brown,5.8,30,Brown Ale: American,https://www.canyonlakesbrewery.com/menu/beer-list/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Cape May Brewery,Cape May Light,4.2,20,Light Lager,https://capemaybrewery.com/beers/cape-may-light,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Cape May Brewing Co.,Cape May Oktoberfest,5,,American-Style Märzen / Oktoberfest,https://catalog.beer/beer/5ff7bdc4-9e85-4eb7-97d3-3cb041abda05,catalog-beer,2026-10-14,high,"brewery name, exact name",Cape May Oktoberfest,Cape May Brewing Co.
+Cedar Springs Brewing Co.,Küsterer Original Weissbier,5.6,15,South German-Style Bernsteinfarbenes Weizen / Weissbier,https://catalog.beer/beer/7801d218-0e0c-477d-befc-945c690880e8,catalog-beer,2026-10-14,high,"brewery name, exact name",Küsterer Original Weissbier,Cedar Springs Brewing Company
 Cellarmaker Brewing Co.,Old Head Red,6,,American Red Ale,https://cellarmakerbrewing.com/beer/old-head-red/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Cellarmaker Brewing Co.,Pretty Pretty Pils,5,,Pilsner,https://cellarmakerbrewing.com/beer/pretty-pretty-pils/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Cerebral Brewing,Neon Lite,4.5,,Lager / Lite Lager,https://cerebralbrewing.com/beer/neon-lite/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Chicago Brewing Co.,Wild West Tripel,9.2,,Belgian-Style Tripel,https://catalog.beer/beer/b8b3e445-2314-4fcc-9fd0-62645307ae2d,catalog-beer,2026-10-14,high,"brewery name, exact name",Wild West Tripel,Chicago Brewing Company
 Chuckanut Brewery,Chuckanut Grodziskie,3,28,Grodziskie Lager,https://www.chuckanutbrewery.com/pages/grodziskie-lager,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Cinderlands Warehouse,Archive: Allegheny Altbier,5.1,,Altbier,https://www.cinderlands.com/beer/archive-allegheny-altbier/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Claremont Craft Ales,Pepper & Peaches,6.7,,American-Style India Pale Ale,https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b,catalog-beer,2026-10-14,high,"brewery name, exact name",Pepper & Peaches,Claremont Craft Ales
+Cloudburst Brewing,Happy Little Clouds,5.3,32,Contemporary American-Style Pilsner,https://cloudburstbrew.com/beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Cloudburst Brewing,No Mistakes,5.4,35,German-Style Schwarzbier,https://cloudburstbrew.com/beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Coppertail Brewing Co.,Night Swim,6.2,,Robust Porter,https://catalog.beer/beer/2689575e-1563-4030-a8a9-cb6a072faa37,catalog-beer,2026-10-14,high,"brewery name, exact name",Night Swim,Coppertail Brewing Co.
 Coronado Brewing Co.,Salty Crew,4.5,12,Blonde Ale,https://coronadobrewing.com/pages/salty-crew-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Crank Arm Brewing Co.,Whitewall Wheat,4.4,23,Citra Hop Wheat,https://catalog.beer/beer/c4a5a919-ad2d-4134-b13e-2c13774927dd,catalog-beer,2026-10-14,high,"brewery name, exact name",Whitewall Wheat,Crank Arm Brewing Company
+Creature Comforts,Athena,4.5,,Berliner-Style Weisse (Wheat),https://catalog.beer/beer/2679b5f2-59f8-475d-a5aa-4dcf362231dc,catalog-beer,2026-10-14,high,"brewery name, exact name",Athena,Creature Comforts Brewing Company
+Creature Comforts,Classic City Lager,4.2,,Lager,https://creaturecomforts.co/beers/classic-city-lager/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Creature Comforts Brewing Co.,Classic City Lager,4.2,,American-Style Lager,https://catalog.beer/beer/5174c633-13ff-4173-a53d-adf50d5e61ea,catalog-beer,2026-10-14,high,"brewery name, exact name",Classic City Lager,Creature Comforts Brewing Company
 Cruz Blanca Brewery,Tepache Cowboy,6,,"Mexican lager, cold conditioned in añejo mezcal barrels with fermented pineapple and spices",https://dev.cruzblanca.com/pdfs/beer-menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Culture Brewing Co.,3 Citrus Gose,6.1,8,Sour: Fruited Gose,https://catalog.beer/beer/aeb9d621-f549-4c65-b090-aed57e032cb7,catalog-beer,2026-10-14,high,"brewery name, exact name",3 Citrus Gose,Culture Brewing Co.
+Dade City Brew House,Pure Nonsense,10.9,,Imperial Stout,https://www.dadecitybrewhouse.com/beerlist,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Dakota Point Brewing,O'Quinn's Irish Red,5.7,21,"Red Ale, Irish",http://www.dakotapointbrewing.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Danny Boy Beer Works,Danny Bräu,7,,American-Style Amber/Red Ale,https://catalog.beer/beer/5997b022-4741-4921-b0cd-ed1cf03848be,catalog-beer,2026-10-14,high,"brewery name, exact name",Danny Brau,Danny Boy Beer Works
+Deft Brewing,Austere Abbot,4.9,,Belgian Single,https://catalog.beer/beer/3f4f1ac5-2738-4cd8-904b-40ee90eafd53,catalog-beer,2026-10-14,high,"brewery name, exact name",Austere Abbot,Deft Brewing
 Denver Beer Co.,NA Tangerine Cream,0.5,,N/A Pale Ale,https://denverbeerco.com/olde-town-arvada-pints-and-bites/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Deschutes Brewery,Super Stoked,,20,Lager,https://deschutesbrewery.com/products/super-stoked-non-alcoholic-golden,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Device Brewing Co.,Ofrenda,5.6,15,Lager: Mexican,https://catalog.beer/beer/cedb3f72-730a-4799-b383-0ba8012c0dd2,catalog-beer,2026-10-14,high,"brewery name, exact name",Ofrenda,Device Brewing Company
+Devils Backbone Brewing Co.,Gold Leaf Lager,4.5,17,German-Style Pilsener,https://catalog.beer/beer/c51bfd5b-313b-4777-8ac3-372ba3511aa1,catalog-beer,2026-10-14,high,"brewery name, exact name",Gold Leaf Lager,Devils Backbone Brewing Company
 Diebolt Brewing,Vladislav,,44,Imperial Stout,https://dieboltbrewing.com/product/vladislav/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Dock Street Brewery,Man Full of Trouble,5.2,30,London Style Porter,https://catalog.beer/beer/84928a99-5452-4d84-8980-6e23ecf269d0,catalog-beer,2026-10-14,high,"brewery name, exact name",Man Full of Trouble,Dock Street Brewery
+Double Clutch Brewing Co.,Altbier,4.8,,Altbier,https://www.doubleclutchbrewing.com/ourbeer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Dru Bru,Margarita Sour,6.9,12,Tequila Barrel Aged Gose,https://www.drubru.com/beer/margarita-sour/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Dru Bru,Margarita Sour,6.9,12,Tequila Barrel Aged Gose,https://catalog.beer/beer/8de7d597-1886-4f8e-9f7c-c4adf66afed8,catalog-beer,2026-10-14,high,"brewery name, exact name",Margarita Sour,Dru Bru
+Dry Dock Brewing Co.,Docktoberfest,5.9,22,American-Style Märzen / Oktoberfest,https://catalog.beer/beer/167fedca-cfe3-4082-b63a-3f8fc58cb6d8,catalog-beer,2026-10-14,high,"brewery name, exact name",Docktoberfest,Dry Dock Brewing Company
+Ecliptic Brewing,Orange Giant,12.5,80,Barleywine Ale,https://eclipticbrewing.com/beer/orange-giant/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Edmund's Oast Brewing Co.,Sour Guava Tangerine,5.5,,American Sour Ale,https://catalog.beer/beer/911b13bb-07e5-400c-a63d-848628b2d5a8,catalog-beer,2026-10-14,high,"brewery name, exact name",Sour Guava Tangerine,Edmund's Oast
+Eel River Brewing Co.,Organic California Blonde Ale,5.8,13,Golden or Blonde Ale,https://catalog.beer/beer/5c042c15-67ea-423c-8535-2fa44cd67328,catalog-beer,2026-10-14,high,"brewery name, exact name",Organic California Blonde Ale,Eel River Brewing
+Elysian Brewing Co.,Great Pumpkin,8.4,,Imperial Pumpkin Ale,https://www.elysianbrewing.com/beer/great-pumpkin,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Eureka Heights Brew Co.,Buckle Bunny,4.5,15,Cream Ale,https://catalog.beer/beer/9b51df32-d131-4c6f-8a8f-59367cfcc8f5,catalog-beer,2026-10-14,high,"brewery name, exact name",Buckle Bunny,Eureka Heights Brew Co.
+Everywhere Beer Co.,Branching Out,5.6,,modern pilsner,https://www.everywherebeer.com/products/branching-out-4-pack,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Ex Novo Brewing Co,Threat Level: Turquoise,6.8,68,West Coast IPA,https://catalog.beer/beer/0fc12f8e-6e69-4356-a326-a740c1d354b3,catalog-beer,2026-10-14,high,"brewery name, exact name",Threat Level; Turquoise,Ex Novo Brewing Company
+Ex Novo Brewing Co.,Intergalactic Pale Reality,6.3,33,PNW Pale Ale,https://catalog.beer/beer/1684be45-d72f-4d11-afbd-b625343b9073,catalog-beer,2026-10-14,high,"brewery name, exact name",Intergalactic Pale Reality,Ex Novo Brewing Company
+Ex Novo Brewing Co.,Sons of Scotland,7.4,24,Scotch Ale,https://catalog.beer/beer/04036209-d329-49aa-9bd5-94cf97661151,catalog-beer,2026-10-14,high,"brewery name, exact name",Sons of Scotland,Ex Novo Brewing Company
+Faction Brewing,1970s Lager,3.9,,Industrial Lager,https://catalog.beer/beer/2280c386-80af-42e6-ab93-f57a4b472ba7,catalog-beer,2026-10-14,high,"brewery name, exact name",1970's Lager,Faction Brewing
 Fair Winds Brewing Co.,Siren's Lure,7.2,,French & Belgian-Style Saison,https://catalog.beer/beer/5c97cc0d-d88e-41d7-95ae-cbb8c65d8b85,catalog-beer,2026-10-14,high,"brewery name, exact name",Siren's Lure,Fair Winds Brewing Company
+Fat Head's Brewery,Alpenglow,8.7,,South German-Style Weizenbock / Weissbock,https://catalog.beer/beer/d2d4ce01-5cad-4df9-ae42-2d65df06abda,catalog-beer,2026-10-14,high,"brewery name, exact name",Alpenglow,Fat Head's Brewery
 Fat Head's Brewery,Battle Axe,8.6,33,Baltic-Style Porter,https://catalog.beer/beer/a6031203-1bad-4039-a424-278a07cc46cc,catalog-beer,2026-10-14,high,"brewery name, exact name",Battle Axe,Fat Head's Brewery
 Fat Head's Brewery,Bone Head,9,80,Double Hoppy Red Ale,https://fatheads.com/beer/bone-head/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Fat Head's Brewery,Goggle Fogger,5.4,12,German-Style Hefe-Weizen,https://fatheads.com/beer/goggle-fogger/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Fat Head's Brewery,Hop JuJu,9,78,Imperial IPA,https://fatheads.com/middleburg-heights/?p=168,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Feather Falls Brewing Co.,Crouching Cougar,11.5,80,American Barleywine,https://featherfallscasino.com/feather-falls-brewing-co/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Figueroa Mountain Brewing Co.,Agua Santa Imperial,8,9,Imperial Mexican-inspired lager,https://www.figmtnbrew.com/our-beers/agua-santa-imperial,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Figueroa Mountain Brewing Co.,Davy Brown Ale,6,40,American-Style Brown Ale,https://catalog.beer/beer/07bc7489-a97d-41f2-ade9-ea84c79caa78,catalog-beer,2026-10-14,high,"brewery name, exact name",Davy Brown Ale,Figueroa Mountain Brewing
+Figueroa Mountain Brewing Co.,Hoppy Poppy IPA,6.5,65,American-Style India Pale Ale,https://catalog.beer/beer/35b756ca-ba14-4d98-bb84-b66fb0ddf941,catalog-beer,2026-10-14,high,"brewery name, exact name",Hoppy Poppy IPA,Figueroa Mountain Brewing
 Firestone Walker Brewing Co.,DBA,5,30,,https://www.firestonewalker.com/beer/dba,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Firestone Walker Brewing Co.,Nitro Merlin Milk Stout,5.5,,Oatmeal Stout,https://catalog.beer/beer/66c326f1-d75e-4983-b94d-cc3d7e610bf7,catalog-beer,2026-10-14,high,"brewery name, exact name",Nitro Merlin Milk Stout,Firestone Walker Brewing Company
+Firestone Walker Brewing Co.,Venice Cowboy,3.6,16,Lager: American Light,https://catalog.beer/beer/f0f11c90-83e7-4789-9145-5f0b6789acee,catalog-beer,2026-10-14,high,"brewery name, exact name",Venice Cowboy,Firestone Walker Brewing Company
 Forbidden Root,Festhalle,5.9,,Festbier,https://forbiddenroot.com/restaurants/columbus-ohio/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Formula Brewing,Wetland Wheat,5.5,,American Wheat,https://www.formulabrewing.com/beer-drinks-menu,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Fort George Brewery,City of Dreams,5.5,,,https://fortgeorgebrewery.com/beer/city-of-dreams-2/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Fort George Brewery,Fudge Sickles,13.15,,Barrel-aged stout,https://fortgeorgebrewery.com/beer/fudge-sickles/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Fort Myers Brewing Co.,Chocolate Stout,10.2,,Imperial Stout,https://www.fmbrew.com/our-brews/specialty-seasonal-beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Fremont Brewing,NA Dark,,23,,https://www.fremontbrewing.com/non-alcoholic-dark,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Gatlinburg Brewing Co.,Don't Feed the Bears,6.7,,American Brown Ale,https://gatlinburgbrewing.com/beer-sevierville,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Geisthaus Brewing Co.,Palingenesis,4.9,,German Pils,https://www.geisthausbeer.com/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Gella's Diner & Lb. Brewing Co.,No. 06 Oatmeal Stout,6,26,Oatmeal Stout,https://catalog.beer/beer/ca67963a-36e0-4d47-a9ec-632fdf0b0832,catalog-beer,2026-10-14,high,"brewery name, exact name",No. 06 Oatmeal Stout,Gella's Diner & Lb. Brewing Company
+Georgetown Brewing Co.,Gusto Crema Coffee Ale,4.6,,Coffee ale,https://georgetownbeer.com/pages/available-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Georgetown Brewing Co.,Gusto Crema Coffee Ale,4.6,,Coffee Ale,https://catalog.beer/beer/f73f50ec-f394-4f45-9161-fa02d4a7380c,catalog-beer,2026-10-14,high,"brewery name, exact name",Gusto Crema Coffee Ale,Georgetown Brewing Company
+Ghost Town Brewing,Nose Goblin,8.2,115,Imperial or Double India Pale Ale,https://catalog.beer/beer/1b12327c-6ef9-406b-853d-dbc6c1feabaa,catalog-beer,2026-10-14,high,"brewery name, exact name",Nose Goblin,Ghost Town Brewing
+Ghostfish Brewing Co.,Gosefish Hibiscus-Cranberry Gose,5,8,Gluten-Free Beer,https://catalog.beer/beer/d118c5cf-b2b1-4957-a006-61351477eba3,catalog-beer,2026-10-14,high,"brewery name, exact name",Gosefish Hibiscus-Cranberry Gose,Ghostfish Brewing Company
 Gladi8or Brews,Citrus Ave,5.3,,American Wheat Ale,https://gladi8orbrews.com/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Golden Road Brewing,Guava Cart,5,45,wheat ale,https://www.goldenroad.la/guava-cart,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Golden Road Brewing,Guava Cart,5,45,Wheat Ale,https://catalog.beer/beer/d9c14701-6dbd-4354-b255-c4366649df2b,catalog-beer,2026-10-14,high,"brewery name, exact name",Guava Cart,Golden Road Brewing
+Golden Road Brewing,Oktoberfest,5.4,23,American-Style Märzen / Oktoberfest,https://catalog.beer/beer/aca0c3fb-1697-487e-b900-55f6b801856f,catalog-beer,2026-10-14,high,"brewery name, exact name",Oktoberfest,Golden Road Brewing
+Golden Road Brewing,Street Cart,4.8,10,Cerveza,https://catalog.beer/beer/9e0ad4c5-5258-40c0-aaba-e894da63b084,catalog-beer,2026-10-14,high,"brewery name, exact name",Street Cart,Golden Road Brewing
+GoodLife Brewing Co.,Sweet As! Pacific Ale,6,18,American-Style Pale Ale,https://catalog.beer/beer/08ce6c1a-3d73-44ad-9937-ced32de33ab9,catalog-beer,2026-10-14,high,"brewery name, exact name",Sweet As Pacific Ale,GoodLife Brewing
+Goose Island Beer Co.,Matilda,7,32,Belgian-Style Pale Ale,https://catalog.beer/beer/1feb86b1-93fd-435e-9f74-83d2d036ff66,catalog-beer,2026-10-14,high,"brewery name, exact name",Matilda,Goose Island Beer Company
 Gowan's Heirloom Cider,1876 Heirloom,5.7,,"classic French inspired-style cider, medium-dry",https://www.gowansheirloomcider.com/1876-heirloom-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Gowan's Heirloom Cider,Classic Dry,7.7,,"Bold, tannic and dry cider",https://www.gowansheirloomcider.com/classic-dry,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Gowan's Heirloom Cider,Honey Citron,6.5,,,https://www.gowansheirloomcider.com/honey-citron-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Gowan's Heirloom Cider,Macintosh,6.8,,single-variety cider,https://www.gowansheirloomcider.com/macintosh-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Gowan's Heirloom Cider,Rosé Cider,6.8,,Rosé Cider,https://www.gowansheirloomcider.com/rose-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Gowan's Heirloom Cider,Spiced Apple,6.8,,spiced apple hard cider (aka wassail or mulled cider),https://www.gowansheirloomcider.com/spiced-apple-cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Gravity Heights,Brewer's Best,4.5,,Amber Ale,https://catalog.beer/beer/d3a3e593-080b-4e8b-9666-55b684a51430,catalog-beer,2026-10-14,high,"brewery name, exact name",Brewer's Best,Gravity Heights
 Great Divide Brewing Co.,Wild Raspberry Ale,5.6,,Fruit Beer,https://catalog.beer/beer/be3b20c0-4c7a-455a-9d73-6674ee1fa8b0,catalog-beer,2026-10-14,high,"brewery name, exact name",Wild Raspberry Ale,Great Divide Brewing Company
+Great Notion Brewing,Feniks,3.2,,Historical Beer: Grodziskie / Grätzer,https://catalog.beer/beer/a4cf1a9a-1ccf-4642-81cf-8a1e1ab43813,catalog-beer,2026-10-14,high,"brewery name, exact name",Feniks,Great Notion Brewing
 Green Bench Brewing Co.,Saison de Banc Vert,6.5,,,https://www.greenbenchbrewing.com/our-beers/saison-de-banc-vert,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Green Cheek Beer Co.,Doom Sludge,7,,West Coast Black IPA,https://www.greencheekbeer.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Green Cheek Beer Co.,Saison For Papa,6,,Hoppy French-Style Saison,https://www.greencheekbeer.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Green Cheek Beer Co.,Zombi Shark Fight,5.2,,Italian-Style Pils w/ Saphir,https://www.greencheekbeer.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Green Man Brewery,Green Man Porter,6,40,Robust Porter,https://catalog.beer/beer/ffe4f5e4-9f3f-420d-8299-03fc1640c4ff,catalog-beer,2026-10-14,high,"brewery name, exact name",Green Man Porter,Green Man Brewing Company
+Greenstar Brewing,Bateman Bier,5.2,,Amber lager,http://www.uncommonground.com/greenstar-brewing,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Grimm Artisanal Ales,Pearly Dewdrops,4.3,,Table Beer,https://catalog.beer/beer/4b548291-8130-4b47-855a-83f82eb8d57f,catalog-beer,2026-10-14,high,"brewery name, exact name",Pearly Dewdrops,Grimm Artisanal Ales
 Grimm Brothers Brewhouse,Snow Drop,5.9,,Honey Wheat Ale,https://catalog.beer/beer/4d969901-0afb-44d6-9c49-4aad9ef93e70,catalog-beer,2026-10-14,high,"brewery name, exact name",Snow Drop,Grimm Brothers Brewhouse
 Half Batch Brewing,Achtbier,,,Helles Bock,http://halfbatchbrewing.com/hendersonville-half-batch-brewing-our-beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Hardywood Park Craft Brewery,Richmond Lager,5,,American Craft Lager,https://hardywood.com/richmond-lager,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Haymarket Brewery & Taproom,Baltic Porter,8.5,,Porter,https://www.haymarketbeer.com/taproom-index,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Highland Park Brewery,DDH Pillow,8,,IPA: Imperial,https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e,catalog-beer,2026-10-14,high,"brewery name, exact name",DDH Pillow,Highland Park Brewery
+Highland Park Brewery,Timbo,,,West Coast Pilsner,https://hpb.la/timbo/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Holidaily Brewing Co.,Fat Randy,7,55,,https://holidailybrewing.com/beers/fat-randys-ipa/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Holy City Brewing,Washout Wheat,5.5,,Hefeweizen,https://holycitybrewing.com/north-charleston-holy-city-brewing-our-cans,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Holy City Brewing,Washout Wheat,5.3,10,South German-Style Hefeweizen / Hefeweissbier,https://catalog.beer/beer/71361ff1-5e4f-41eb-97df-871911e29c26,catalog-beer,2026-10-14,high,"brewery name, exact name",Washout Wheat,Holy City Brewing
+Hopewell Brewing Co.,Tankbeer,4.4,,Lager,https://catalog.beer/beer/97e42e77-c214-4c31-89a7-3445fa4bd893,catalog-beer,2026-10-14,high,"brewery name, exact name",Tankbeer,Hopewell Brewing Company
+Hopworks Urban Brewery,Velvet ESB,5.2,,Extra Special Bitter,https://catalog.beer/beer/859eadc9-02fc-4364-83a3-8999b176fc08,catalog-beer,2026-10-14,high,"brewery name, exact name",Velvet ESB,Hopworks Urban Brewery
+Hudson Valley Brewery,Peach Silhouette,5,,Brunch-style Sour IPA with wheat and peaches; hopped with Citra,http://www.hudsonvalleybrewery.com/beer-ordering/peach-silhouette-four-pack,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Hutton & Smith Brewing Co.,Basecamp Blonde,4.8,,Blonde Ale,https://catalog.beer/beer/7769cfef-bf2f-4783-96a5-a64e68a78cf3,catalog-beer,2026-10-14,high,"brewery name, exact name",Basecamp Blonde,Hutton & Smith Brewing Co.
+Hutton & Smith Brewing Co.,Diatomaceous Dry Stout,5.5,,Dry Stout,https://huttonandsmithbrewing.com/about-us/beer-menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Hutton & Smith Brewing Co.,Diatomaceous Dry Stout,5.5,,Classic Irish-Style Dry Stout,https://catalog.beer/beer/d4660eef-9037-4bf0-b75e-0486e911d012,catalog-beer,2026-10-14,high,"brewery name, exact name",Diatomaceous Dry Stout,Hutton & Smith Brewing Co.
+Hutton & Smith Brewing Co.,Tectonic Session IPA,5.1,,Session IPA,https://catalog.beer/beer/2a8df067-d1c8-4a83-9f77-6c37d16f9869,catalog-beer,2026-10-14,high,"brewery name, exact name",Tectonic Session IPA,Hutton & Smith Brewing Co.
+ISM Brewing,Plough & Harrow,6.2,,Saison,https://ism.beer/drink-menu,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Ivanhoe Park Lager House,Toboggan Blonde Ale,5,20,Blonde Ale,https://ivanhoeparkbrewing.com/blog/toboggan-blonde-ale-wins-silver-at-great-american-beer-festival/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+JAFB Wooster Brewery,JAF IPA,6.5,60,American-Style Strong Pale Ale,https://catalog.beer/beer/70e8c01e-624a-4fa5-8793-f95f8a26bfaf,catalog-beer,2026-10-14,high,"brewery name, exact name",JAF IPA,JAFB-Wooster Brewery
+Jester King Brewery,Atrial Rubicite,5.8,,Wood- and Barrel-Aged Sour Beer,https://catalog.beer/beer/c06fb93c-065f-4a05-93d5-f3d185158933,catalog-beer,2026-10-14,high,"brewery name, exact name",Atrial Rubicite,Jester King Brewery
+Joyride Brewing Co.,Black Razz Blonde,5,19,Fruit Beer,https://catalog.beer/beer/b2a8c8d4-e542-496f-b21b-b626118a08bc,catalog-beer,2026-10-14,high,"brewery name, exact name",Black Razz Blonde,Joyride Brewing Company
 Kane Brewing Co.,Sneakbox,5.4,,American Pale Ale,https://kanebrewing.com/products/sneak-box,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Kane Brewing Co.,Sneakbox,5.4,,American-Style Pale Ale,https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15,catalog-beer,2026-10-14,high,"brewery name, exact name",Sneakbox,Kane Brewing Co.
 Karbach Brewing Co.,Rhubarbed,4.9,,Kettle Sour,https://www.karbachbrewing.com/products,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Karl Strauss Brewing Co.,Golden Stout,7.5,30,Golden Ale with Coffee,https://catalog.beer/beer/46b2d326-2805-4d15-bc1d-5951c1d1096c,catalog-beer,2026-10-14,high,"brewery name, exact name",Golden Stout,Karl Strauss Brewing Company
 Ketch Brewing,Brig Blonde,5.2,,Blonde Ale,https://catalog.beer/beer/aeefcb88-c90c-47d7-b44c-65fd1d5fb630,catalog-beer,2026-10-14,high,"brewery name, exact name",Brig Blonde,Ketch Brewing
+Kiitos Brewing,Kiitos Blonde Ale,4,10,,https://kiitosbrewing.com/beer/blonde-ale/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Kiitos Brewing,Kiitos Pale Ale,4,46,,https://kiitosbrewing.com/beer/pale-ale/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Kilowatt Brewing,Maple Smoked Maibock,7,,Helles Bock,https://catalog.beer/beer/564e9302-2cfa-4656-983f-2af83b0b2d47,catalog-beer,2026-10-14,high,"brewery name, exact name",Maple Smoked Maibock,Kilowatt Brewing
+Kulshan Brewing Co.,Transporter,5.1,18,Brown Porter,https://catalog.beer/beer/34bc8aa2-17fe-4d1f-a6b7-8328eb652bc8,catalog-beer,2026-10-14,high,"brewery name, exact name",Transporter,Kulshan Brewing Company
 Lago Vista Brewing Co.,Howdyfest - Oktoberfest with Rye,6.2,,Rye Lager,https://www.lagovistabrewingco.com/whatsontap,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Lake Time Brewing & Spirits,Astronaut Sauce,5.8,,Belgian style pale ale,https://laketimebrewing.com/drink-menu,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Laughing Sun Brewing Co.,Flying Axe,6,20,Red Ale: Irish,https://catalog.beer/beer/a03394a0-0088-4075-8e98-1f85072640ad,catalog-beer,2026-10-14,high,"brewery name, exact name",Flying Axe,Laughing Sun Brewing Company
 Lazarus Brewing Co.,Hot Shot,5,,,https://lazarusbrewing.com/beers/hot-shot/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Left Hand Brewing Co.,Milk Stout,6,25,Sweet or Cream Stout,https://catalog.beer/beer/a6d96644-5293-44aa-85a9-24efbcd5d19c,catalog-beer,2026-10-14,high,"brewery name, exact name",Milk Stout,Left Hand Brewing Company
+Left Hand Brewing Co.,Oktoberfest,6.6,24,Märzen Lager,https://www.lefthandbrewing.com/beers/oktoberfest,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Left Hand Brewing Co.,Oktoberfest,6.6,24,German-Style Märzen,https://catalog.beer/beer/66891943-4fb5-4fff-ab1a-1917b8090def,catalog-beer,2026-10-14,high,"brewery name, exact name",Oktoberfest,Left Hand Brewing Company
+Left Hand Brewing Co.,Sawtooth Ale,5.3,27,Extra Special Bitter,https://catalog.beer/beer/8ac54415-9a9f-4226-a6de-cc5ccaafc325,catalog-beer,2026-10-14,high,"brewery name, exact name",Sawtooth Ale,Left Hand Brewing Company
+Left Hand Brewing Co.,St. Vrain,9.3,,Belgian-Style Tripel,https://catalog.beer/beer/cfab81c2-b67d-43b1-98f8-86f583e0425d,catalog-beer,2026-10-14,high,"brewery name, exact name",St. Vrain,Left Hand Brewing Company
+Legion Brewing Co.,Slainte,6,40,Classic Irish-Style Dry Stout,https://catalog.beer/beer/7342ed7a-5059-4a98-a152-2848d761145f,catalog-beer,2026-10-14,high,"brewery name, exact name",Slainte,Legion Brewing
+Lewis & Clark Brewing Co.,Back Country,5.8,17,Scottish-Style Heavy Ale,https://catalog.beer/beer/54a16bdd-e3cd-48e8-9852-029705539805,catalog-beer,2026-10-14,high,"brewery name, exact name",Back Country,Lewis & Clark Brewing Company
 Lewis & Clark Brewing Co.,Miner's Gold,5,12,South German-Style Hefeweizen / Hefeweissbier,https://catalog.beer/beer/7fb356b0-f9af-49a2-88a5-c6761032127e,catalog-beer,2026-10-14,high,"brewery name, exact name",Miner's Gold,Lewis & Clark Brewing Company
 Liability Brewing Co.,Feral Garden Gnome,6.7,,Belgian Blonde,https://liabilitybrewing.co/beer/feral-garden-gnome/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Little Beast Brewing,Bes,6,,Tart Wheat Ale,http://www.littlebeastbrewing.com/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Little Beast Brewing,Bes,6,,Tart Wheat Ale,https://catalog.beer/beer/fdd6d01d-0601-46ae-a8e3-47456e2a3a59,catalog-beer,2026-10-14,high,"brewery name, exact name",Bes,Little Beast Brewing
+Little Beast Brewing,Hot Break,4.8,,Dry-Hopped Sour Ale,https://catalog.beer/beer/5036db14-f99c-41da-b4a8-42053ff7854b,catalog-beer,2026-10-14,high,"brewery name, exact name",Hot Break,Little Beast Brewing
+Little Beast Brewing,Saison Parfait,6,,Farmhouse Ale: Saison,https://catalog.beer/beer/b44c6c7c-a7a2-4aa4-b789-e1247d522e76,catalog-beer,2026-10-14,high,"brewery name, exact name",Saison Parfait,Little Beast Brewing
+Little Thistle Brewing Co.,Schwarzenlager,4.7,16,Schwarzbier,https://catalog.beer/beer/a1a41f19-6941-4948-b8e1-6e0047d79a53,catalog-beer,2026-10-14,high,"brewery name, exact name",Schwarzenlager,Little Thistle Brewing Company
 Lone Tree Brewing Co.,Lone Tree Peach Pale Ale,5.7,40,Fruit Beer,https://catalog.beer/beer/4783f872-daf6-4183-8709-d9e61848c7d7,catalog-beer,2026-10-14,high,"brewery name, exact name",Lone Tree Peach Pale Ale,Lone Tree Brewing Company
 Loowit Brewing,Corsair Kolsch,4.6,20,German-style Kolsch,https://www.loowitbrewing.com/the-flagships,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Loowit Brewing,Corsair Kolsch,4.6,20,German-style Kolsch,https://catalog.beer/beer/a4620488-651e-46a0-a40d-e26da3c086d0,catalog-beer,2026-10-14,high,"brewery name, exact name",Corsair Kolsch,Loowit Brewing Company
+Lost Cabin Beer Co.,East Gruesome,7,,IPA,https://lostcabin.beer/beer/east-gruesome/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Lupulin Brewing Co.,Oktoberfest,5.7,30,Märzen,https://lupulinbrewing.com/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Mad Pecker Brewing Co.,Bitter Soul,4.8,40,Extra Special Bitter,https://catalog.beer/beer/ea1ac8ab-f5fe-4ec0-9cc4-9770f7aa4593,catalog-beer,2026-10-14,high,"brewery name, exact name",Bitter Soul,Mad Pecker Brewing Co.
 MadeWest Brewing Co.,MadeWest Hazy,7,35,Hazy IPA,https://madewest.com/collections/beer/products/hazy-ipa-4-pack,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Madison River Brewing Co.,Copper John Scotch Ale,7,19,Scottish-Style Export Ale,https://catalog.beer/beer/3eb7123b-e8d2-4cef-95cf-1bcac2108f5f,catalog-beer,2026-10-14,high,"brewery name, exact name",Copper John Scotch Ale,Madison River Brewing Co
+MadTree Brewing Co.,Happy Amber,6,30,American-Style Amber/Red Ale,https://catalog.beer/beer/3f893627-e57a-428f-aab5-6b7e1189e61d,catalog-beer,2026-10-14,high,"brewery name, exact name",Happy Amber,MadTree Brewing Company
+Magnanimous Brewing,Der Hexenmeister,5.5,,Wheat Beer: Dunkelweizen,https://catalog.beer/beer/f82277ba-7cf7-43bf-ae34-ab411333ae22,catalog-beer,2026-10-14,high,"brewery name, exact name",Der Hexenmeister,Magnanimous Brewing
+MAP Brewing Co.,Great Wave Sake Lager,5.1,,Sake style lager,https://www.mapbrewing.com/beer-1/great-wave,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Maplewood Brewing Co.,Fat Pug,5.6,24,Sweet or Cream Stout,https://catalog.beer/beer/5fe76577-5907-47e6-8dc6-b1cd706f825b,catalog-beer,2026-10-14,high,"brewery name, exact name",Fat Pug,Maplewood Brewing Company
+Masthead Brewing Co.,Midwest Red IPA,6.3,60,American-Style India Pale Ale,https://catalog.beer/beer/2d8bd437-221e-4a1b-be26-a15c01fd496a,catalog-beer,2026-10-14,high,"brewery name, exact name",Midwest Red IPA,Masthead Brewing Co.
 Meanwhile Brewing Co.,Darlin',4.5,15,Texas Lager,https://www.meanwhilebeer.com/beer/darlin,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Miel Brewery & Taproom,Flor De Jamaica,7,,Sour ale,https://www.mielbrewery.com/our-beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Mission Brewery,Dark Seas,10,75,Specialty Stouts,https://catalog.beer/beer/e4df1a36-e49c-481d-864c-7526c5d2db63,catalog-beer,2026-10-14,high,"brewery name, exact name",Dark Seas,Mission Brewery
+MobCraft Beer,Low pHunk,4.2,5,Sour,https://catalog.beer/beer/5d5bf96b-8d98-494b-8d61-da4c83def4df,catalog-beer,2026-10-14,high,"brewery name, exact name",Low pHunk,MobCraft Beer
+Moksa Brewing Co.,Thiccccest Nibs,13.3,,Imperial Stout,https://catalog.beer/beer/15b7bc2b-3ce4-41d8-b6b8-d824b70483c7,catalog-beer,2026-10-14,high,"brewery name, exact name",Thiccccest Nibs,Moksa Brewing Co.
+Monday Night Brewing,Bourbon Barrel Drafty Kilt,8.5,,Scotch Ale,https://catalog.beer/beer/79a0cbed-0db1-4e79-80ff-30bfc9ad2301,catalog-beer,2026-10-14,high,"brewery name, exact name",Bourbon Barrel Drafty Kilt,Monday Night Brewing
 Monday Night Brewing,Petit MC,4,,Belgian-Style Méthode Traditionnelle,https://mondaynightbrewing.com/beer/petit-mc/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Monkless Belgian Ales,Capitulation,8.1,36,Dry Hopped Belgian Tripel,https://www.monkless.com/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Monkless Belgian Ales,Peppercorn Imperial Wit,8.2,30,Belgian Imperial Wit,https://www.monkless.com/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Moonlight Brewing Co.,Reality Czeck-style Pilsner,4.9,,Pilsner,https://moonlightbrewing.com/products/reality-czeck,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Morgan Territory Brewing,Metalmark Marzen,5.6,20,German-Style Märzen,https://catalog.beer/beer/3521e8c7-5ba7-410f-81d7-5663d7c26818,catalog-beer,2026-10-14,high,"brewery name, exact name",Metalmark Marzen,Morgan Territory Brewing
 Mountain Rambler Brewery,Peaklet,,,Robust Porter,https://www.mountainramblerbrewery.com/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Munkle Brewing Co.,Gully Washer Wit,5.2,15,BELGIAN-STYLE WHEAT ALE,http://MunkleBrewing.com/gully-washer-wit,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Munkle Brewing Co.,Munk Lager,4.6,16,American Lager,https://munklebrewing.com/munk-lager-sales-sheet-1,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Nashville Brewing Co.,Nashville Light,4,8,Light Lager,https://catalog.beer/beer/45bceb1d-5c00-4d37-871c-de338073a87f,catalog-beer,2026-10-14,high,"brewery name, exact name",Nashville Light,Nashville Brewing Company
 NEFF Brewing,Model X-331,6.3,40,Juicy Pale Ale,https://www.neffbrewing.com/our-beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 New Belgium Brewing Co.,1554,6,21,Enlightened Dark Ale,https://www.newbelgium.com/beer/1554/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+New Terrain Brewing Co.,Mirage,5.5,,Mosaic Sour,http://newterrainbrewing.com/menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 New Terrain Brewing Co.,Suntrip,5.6,,Belgian Wit,https://newterrainbrewing.com/menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+NoDa Brewing Co.,CAVU,4.6,,Golden or Blonde Ale,https://catalog.beer/beer/c35e3dbc-306a-4271-aef1-b6d2065d0351,catalog-beer,2026-10-14,high,"brewery name, exact name",CAVU,NoDa Brewing Company
+NOLA Brewing Co.,Irish Channel Stout,6.8,41,American-Style Stout,https://catalog.beer/beer/49c862de-3ad7-432e-bb7f-22a08dab68ea,catalog-beer,2026-10-14,high,"brewery name, exact name",Irish Channel Stout,Nola Brewing Company
+Norbrook Farm Brewery,Beckley Furnace Brown Ale,6,20,Brown Ale,https://www.norbrookfarm.com/beers/beckley-furnace-ale,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 O set Bier Co.,Oros,5,,West Coast L IPA,https://offsetbier.com/oros,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Ocean View Brewing Co.,Boo Ya!,5.7,,Pumpkin Pie Ale,https://www.oceanviewbrewingde.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Odell Brewing Co.,Big Sippin',8,8,Imperial Sour Ale,https://catalog.beer/beer/2fa6fdc9-4cac-4a45-a105-5cd7ec780ecf,catalog-beer,2026-10-14,high,"brewery name, exact name",Big Sippin',Odell Brewing Company
+Offset Bier Co.,Divi,5,,Tropical L IPA,https://offsetbier.com/divi,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Old Caz Beer,One Way,7,50,American IPA,https://www.oldcaz.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Oliphant Brewing,Brown Ale,6.5,,Brown Ale: American,https://catalog.beer/beer/d3bad424-62ad-487c-a3d7-361740a3ec89,catalog-beer,2026-10-14,high,"brewery name, exact name",Brown Ale,Oliphant Brewing
 Oskar Blues,Oskar Blues Dales Pale Ale,6.5,65,American-Style Pale Ale,https://catalog.beer/beer/b6d6894a-a917-4df5-bd76-289420a4e018,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Dale's Pale Ale,Oskar Blues Brewery
+Oskar Blues Brewery,Old Chub,8,,Scotch Ale,https://oskarblues.com/beer/old-chub/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Oskar Blues Brewery,Old Chub,8,25,Scotch Ale,https://catalog.beer/beer/15f3f50b-b90a-41c9-9c4e-9cbf9ff98037,catalog-beer,2026-10-14,high,"brewery name, exact name",Old Chub,Oskar Blues Brewery
 Oyster City Brewing Co.,Hooter Brown Ale,8.5,,American-Style Brown Ale,https://catalog.beer/beer/fda950e6-0ab9-40e1-b654-e5a689f86a74,catalog-beer,2026-10-14,high,"brewery name, exact name",Hooter Brown Ale,Oyster City Brewing Company
+Paha Cider Co.,Cedar Valley Blend,6.3,,semi-dry cider,https://pahacider.com/cider,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Parish Brewing Co.,Canebrake,5,16,Wheat Ale,https://catalog.beer/beer/1857f845-6a3b-4720-ae7b-f7ebd1b30458,catalog-beer,2026-10-14,high,"brewery name, exact name",Canebrake,Parish Brewing Company
 Parish Brewing Co.,No Slaw Extra Toast,7,,IPA,https://catalog.beer/beer/e80fb29c-f5bb-4265-904a-291d44e880c8,catalog-beer,2026-10-14,high,"brewery name, exact name",No Slaw Extra Toast,Parish Brewing Company
 Pelican Brewing Co.,Tsunami Stout,7,45,Stout,https://pelicanbrewing.com/beer/tsunami/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Pelican Brewing Co.,Tsunami Stout,7,45,Foreign (Export)-Style Stout,https://catalog.beer/beer/3836ffb7-c690-4eac-9f08-1e6f6e466c67,catalog-beer,2026-10-14,high,"brewery name, exact name",Tsunami Stout,Pelican Brewing Company
 Pennsylvania Brewing Co.,Penn Oktoberfest,5.5,25,Münchener/Bavarian Oktoberfest,https://www.pennbrew.com/seasonal-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Peticolas Brewing Co.,Room for More,7.5,22,Belgian Dubbel,https://www.peticolasbrewing.com/beer/room-for-more,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 pFriem Cascade Locks Barrelhouse,Fruited Spontanée,6.2,8,,https://www.pfriembeer.com/beer/fruited-spontanee/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 pFriem Cascade Locks Barrelhouse,Spontanée,6.6,7,,https://www.pfriembeer.com/beer/spontanee/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 pFriem Family Brewers,Cosmic Guava West Coast IPA,7.2,55,West Coast IPA,https://www.pfriembeer.com/beer/cosmic-guava-west-coast-ipa/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+pFriem Family Brewers,IPA,7.2,65,American-Style India Pale Ale,https://catalog.beer/beer/4220532d-8a6b-4f60-9208-5474554dca23,catalog-beer,2026-10-14,high,"brewery name, exact name",IPA,pFriem Family Brewers
+Piece Brewery,Door Code,,,Pilsner,https://www.piecechicago.com/drink,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Piney River Brewing Co.,Old Tom Porter,5.5,25,Brown Porter,https://pineyriverbrewing.com/beer/old-tom-porter/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Piney River Brewing Co.,Old Tom Porter,5.5,40,Brown Porter,https://catalog.beer/beer/78463ce5-f4e5-4a84-be64-1ebfc052db3c,catalog-beer,2026-10-14,high,"brewery name, exact name",Old Tom Porter,Piney River Brewing Company
 Pinthouse Brewing,Fleeting Shadows,5,,Dark Czech Lager,https://pinthouse.com/brewing-ben-white,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+PIVO Brewery,Decorah Nordic Gruit,5.8,1,,https://www.pivobrew.com/beer/decorah-nordic-gruit,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Pizza Port San Clemente,Way Heavy,8,,Scotch Ale,http://www.pizzaport.com/beer/way-heavy/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Pollyanna Brewing Co.,Cloud Counter,6.5,20,IPA: New England / Hazy,https://catalog.beer/beer/76746fa8-29e9-4925-acec-368cbd833cf2,catalog-beer,2026-10-14,high,"brewery name, exact name",Cloud Counter,Pollyanna Brewing Company
+Pollyanna Brewing Co.,Lexical Gap,7.3,85,India Pale Ale,https://pollyannabrewing.com/pages/year-round-beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Pollyanna Brewing Co.,Lexical Gap,7.3,85,American-Style India Pale Ale,https://catalog.beer/beer/9e090ee7-8b33-4337-a5d6-e2f83139bb4d,catalog-beer,2026-10-14,high,"brewery name, exact name",Lexical Gap,Pollyanna Brewing Company
 Pollyanna Brewing Co.,Party Penguin,7.1,14,Malt Liquor (Third Anniversary Lager),https://catalog.beer/beer/083e218a-8ad0-4089-af97-24012df0ecef,catalog-beer,2026-10-14,high,"brewery name, exact name",Party Penguin,Pollyanna Brewing Company
+Pollyanna Brewing Co.,Roselle Red,5,20,RED LAGER,https://catalog.beer/beer/67d760b3-b400-4872-8e52-a2fc6cfcb8c9,catalog-beer,2026-10-14,high,"brewery name, exact name",Roselle RED,Pollyanna Brewing Company
+Pollyanna Brewing Co.,THE FULL LEMONTY,5,20,Golden or Blonde Ale,https://catalog.beer/beer/44be596b-9c3c-4b3f-bfa7-59a58e705b48,catalog-beer,2026-10-14,high,"brewery name, exact name",The Full Lemonty,Pollyanna Brewing Company
+Port City Brewing Co.,Oktoberfest,5.5,24,German-Style Märzen,https://catalog.beer/beer/e8fbebba-ab2c-4d4b-98ca-8a919e3ed7be,catalog-beer,2026-10-14,high,"brewery name, exact name",Oktoberfest,Port City Brewing Company
+Port City Brewing Co.,Optimal Wit,4.9,15,Belgian-Style White (or Wit) / Belgian-Style Wheat,https://catalog.beer/beer/09b4e8a9-3023-42cc-9bcc-46c39333ce0d,catalog-beer,2026-10-14,high,"brewery name, exact name",Optimal Wit,Port City Brewing Company
+Port City Brewing Co.,Port City Porter,7.2,,Robust Porter,https://www.portcitybrewing.com/porter,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Port City Brewing Co.,Port City Porter,7.2,45,Robust Porter,https://catalog.beer/beer/6eea8a86-c965-45ee-8a36-2345ddb4745b,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Porter,Port City Brewing Company
+Proper Brewing Co.,Steamy Wonder,5,,Rye Beer,https://catalog.beer/beer/639d8d82-776f-4d72-8d59-76df6344ad2a,catalog-beer,2026-10-14,high,"brewery name, exact name",Steamy Wonder,Proper Brewing Co.
+Puesto Cerveceria,Puesto Negra,5.3,19,dark Mexican lager,https://www.eatpuesto.com/brewery/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Quarter Celtic Brewpub,Kill or be Kilt,8.7,22,Scotch Ale,https://catalog.beer/beer/37f36f8c-87a2-49e6-8da6-30be5e8b8b4d,catalog-beer,2026-10-14,high,"brewery name, exact name",Kill Or Be KILT,Quarter Celtic Brewpub
+Quarter Celtic Brewpub,Vienna Fest Bier,4.8,,Festbier,https://catalog.beer/beer/1d034269-059e-4f13-9494-df41ae173990,catalog-beer,2026-10-14,high,"brewery name, exact name",Vienna Festbier,Quarter Celtic Brewpub
 Radiant Beer Co.,A Dark in the Light,7.1,,Black IPA,https://www.radiantbeer.com/pages/taplist,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Radiant Beer Co.,Gaining Momentum,5.4,,Hazy Pale Ale,https://www.radiantbeer.com/pages/taplist,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+RAM Restaurant and Brewery,Buttface Amber,5.8,26,Amber Ale,https://www.theram.com/tacoma-menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Ratio Beerworks,Dear You,5.5,,French Saison,https://ratiobeerworks.com/our-beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Real Ale Brewing Co.,Firemans #4,5.1,23,Golden or Blonde Ale,https://catalog.beer/beer/f8b1656c-5689-4144-b2bb-2d7ef41f4f86,catalog-beer,2026-10-14,high,"brewery name, exact name",Firemans #4,Real Ale Brewing Company
 Real Ale Brewing Co.,Oktoberfest,6,22,American-Style Märzen / Oktoberfest,https://catalog.beer/beer/4024919a-2733-4b3a-8572-27745e56b96b,catalog-beer,2026-10-14,high,"brewery name, exact name",Oktoberfest,Real Ale Brewing Company
+Real Ale Brewing Co.,Real Heavy,9.3,27,Scottish-Style Heavy Ale,https://catalog.beer/beer/b0e2630c-63d4-4908-b1f3-d26039741a6a,catalog-beer,2026-10-14,high,"brewery name, exact name",Real Heavy,Real Ale Brewing Company
+Redwood Curtain Brewing Co.,Düsseldorf Altbier,5.6,35,German-Style Altbier,https://catalog.beer/beer/cdf165f0-70a6-4f5c-8930-cfe4ea52b6f8,catalog-beer,2026-10-14,high,"brewery name, exact name",Düsseldorf Altbier,Redwood Curtain Brewing
+Resident Culture,NARC IPA,0.5,,IPA: New England / Hazy,https://catalog.beer/beer/1f02c2dd-991b-4d28-a1d2-5150cb81b31e,catalog-beer,2026-10-14,high,"brewery name, exact name",N.A.R.C. IPA,Resident Culture Brewing
+Resonate Brewery + Pizzeria,Lithium,5.4,,German Amber/Altbier,https://catalog.beer/beer/1117b5cc-1cf4-435f-afb3-1acdad84e06a,catalog-beer,2026-10-14,high,"brewery name, exact name",Lithium,Resonate Brewery + Pizzeria
+Reuben's Brews,Robust Porter,5.9,30,Robust Porter,https://catalog.beer/beer/8c1c9df7-7591-4de2-a287-32d89c2d39e8,catalog-beer,2026-10-14,high,"brewery name, exact name",Robust Porter,Reuben's Brews
+Revision Brewing Co.,Coconut Pie Face,11.7,50,Stout,https://catalog.beer/beer/527605ee-92e9-4976-9b74-e6567c848633,catalog-beer,2026-10-14,high,"brewery name, exact name",Coconut Pie Face,Revision Brewing Company
 Rhinegeist Innovation Brewery,Ghost Pils,,,Lager & Pilsner,https://rhinegeist.com/beer/ghost-pils/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Rip Current Brewing,Breakline Bock,6.7,22,Traditional German-Style Bock,https://catalog.beer/beer/8193f195-85df-4c00-b070-cfaae6d6143e,catalog-beer,2026-10-14,high,"brewery name, exact name",Breakline Bock,Rip Current Brewing
+Ritual Brewing Co.,Big Deluxe,12.2,85,American-Style Imperial Stout,https://catalog.beer/beer/765237a9-1dd0-4368-a145-92d6f060c390,catalog-beer,2026-10-14,high,"brewery name, exact name",Big Deluxe,Ritual Brewing Co.
+River Dog Brewing Co.,Cirque Du Solera,5.6,,Sour: Other,https://catalog.beer/beer/194f3979-4a2d-4e8c-8eab-57f9ef3cc828,catalog-beer,2026-10-14,high,"brewery name, exact name",Cirque Du Solera,River Dog Brewing Company
+River North Brewery,Hello Darkness,6.2,57,American-Style Black Ale,https://catalog.beer/beer/c0fa3ce4-c09f-4f3e-abf5-b7950ccf700b,catalog-beer,2026-10-14,high,"brewery name, exact name","Hello, Darkness",River North Brewery
 River North Brewery,River North White,5,20,Belgian-Style White (or Wit) / Belgian-Style Wheat,https://catalog.beer/beer/866d21df-f9ea-4e90-918e-b106fc6ead36,catalog-beer,2026-10-14,high,"brewery name, exact name",River North White,River North Brewery
 River North Brewery,Squirrels Just Want to Have Fun,5.3,,coffee brown ale,https://www.rivernorthbrewery.com/beer-descriptions,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Roadhouse Brewing Co.,Family Vacation,4,,Light Lager,https://roadhousebrewery.com/beer.php,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Roadhouse Brewing Co.,Family Vacation,4,,Light Lager,https://catalog.beer/beer/5c62b7fe-9164-41be-b121-fa7d4d436379,catalog-beer,2026-10-14,high,"brewery name, exact name",Family Vacation,Roadhouse Brewing Company
+Rock Cut Brewing Co.,Altruism,5.2,,German-style Amber Lager,https://www.rockcutbrewing.com/beer-menu-2/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Russian River Brewing,RnD West Coast Pils # 7,5.8,,Pilsner: Other,https://catalog.beer/beer/414c6868-fc90-4671-852c-33e54ecf9bac,catalog-beer,2026-10-14,high,"brewery name, exact name",RnD West Coast Pils #7,Russian River Brewing Company
+Russian River Brewing Co.,Docta-Ron,7,,IPA: New Zealand,https://catalog.beer/beer/9269e976-28ae-4894-a701-73f200e09861,catalog-beer,2026-10-14,high,"brewery name, exact name",Docta-Ron,Russian River Brewing Company
+Russian River Brewing Co.,Intinction - Petite Sirah,10.6,,Belgian-Style Sour Ale,https://www.russianriverbrewing.com/?p=13429,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Russian River Brewing Co.,Intinction - Petite Sirah,10.6,,Barrel-Aged Mixed Culture Sour Ale,https://catalog.beer/beer/cb7caed4-da28-448f-8e11-0a1c982f943c,catalog-beer,2026-10-14,high,"brewery name, exact name",Intinction - Petite Sirah,Russian River Brewing Company
+Russian River Brewing Co.,Intinction - Sauvignon Blanc,8.3,,Barrel-Aged Brett Pilsner,https://catalog.beer/beer/5f6cfd42-f9a3-4cb4-976c-834ddb96744d,catalog-beer,2026-10-14,high,"brewery name, exact name",Intinction - Sauvignon Blanc,Russian River Brewing Company
+Saddle Mountain Brewing Co.,Clandestine,6.5,21,Scottish-Style Export Ale,https://catalog.beer/beer/17c3880d-5c71-4c0c-8c2e-5a36d0801471,catalog-beer,2026-10-14,high,"brewery name, exact name",Clan-Destine,Saddle Mountain Brewing Company
+Saint Arnold Brewing Co.,Elissa IPA,6.6,60,American-Style India Pale Ale,https://catalog.beer/beer/26eafe12-7206-4f51-a440-75308217e7b5,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Saint Arnold Elissa IPA,Saint Arnold Brewing Company
 Saint Arnold Brewing Co.,Irish Hello,4.3,26,Dry stout,https://www.saintarnold.com/beer-more/irish-hello/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Saint Arnold Brewing Co.,Irish Hello,4.3,26,Irish Dry Stout,https://catalog.beer/beer/425e6ed7-ebbd-44f6-bd8e-534812da9401,catalog-beer,2026-10-14,high,"brewery name, exact name",Irish Hello,Saint Arnold Brewing Company
 San Fernando Brewing Co.,O'Melveny Red Ale,7.5,21.1,malty amber ale,http://www.sanfernandobrewingcompany.com,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Save The World Brewing Co.,Celestis Thesauri,8.3,,French-Style Bière de Garde,https://catalog.beer/beer/4aabbf24-95b7-4ac1-889f-2ec42fcdf860,catalog-beer,2026-10-14,high,"brewery name, exact name",Celestis Thesauri,Save the World Brewing Co.
+Schussboom Brewing Co.,Bear Bait,6.6,11,Fruit Wheat Ale,https://www.schussboombrewing.com/beer-library/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Seapine Brewing Co.,Light Lager,4,,Light Lager,http://www.seapinebrewing.com/our-beer-1,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Second Chance Beer Co.,Tabula Rasa,6.2,33,American-Style Imperial Porter,https://catalog.beer/beer/7d8eeffa-6beb-424d-b8a3-f564bcc64961,catalog-beer,2026-10-14,high,"brewery name, exact name",Tabula Rasa,Second Chance Beer Company
+Second Dawn Brewing Co.,Wolf of the Woods,5.1,,Italian Pilsner,https://seconddawnbrewing.com/menus,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Second Street Brewery,Rod's Best Bitter,5,30,Special Bitter or Best Bitter,https://catalog.beer/beer/8f3d2398-1360-44aa-8cfa-d17abb50e600,catalog-beer,2026-10-14,high,"brewery name, exact name",Rod’s Best Bitter,Second Street Brewery
+Seventh Son Brewing Co.,Stone Fort,5.3,20,American-Style Brown Ale,https://catalog.beer/beer/99c9c3f0-6cef-4b22-9548-783523ccd95d,catalog-beer,2026-10-14,high,"brewery name, exact name",Stone Fort,Seventh Son Brewing Company
 Shoe Tree Brewing Co.,Coco Burrito Porter,6,,American Porter,https://catalog.beer/beer/96e6d4a1-0b7b-4e2b-8f20-22a8ac2e83ed,catalog-beer,2026-10-14,high,"brewery name, exact name",Coco Burrito Porter,Shoe Tree Brewing Co
+Shoe Tree Brewing Co.,Wicked Shifty,6.2,,Sour Ale,https://catalog.beer/beer/3a6cc679-1d41-4f7f-8b88-9739a96be22a,catalog-beer,2026-10-14,high,"brewery name, exact name",Wicked Shifty,Shoe Tree Brewing Co
+Short's Brewing Co.,Hot Loins,6.2,11,Brown Ale: Other,https://catalog.beer/beer/122748b4-585f-4d7c-be0a-cb28409495dd,catalog-beer,2026-10-14,high,"brewery name, exact name",Hot Loins,Short's Brewing Company
 Silver City Brewery,Ridgetop Red,6,,Red Ale,https://www.silvercity.beer/beers,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Single Hill Brewing Co.,Groundswell,7.2,30,Hazy IPA,http://www.singlehillbrewing.com/menu/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+SingleSpeed Brewing,Lavender Haze,6.3,,New England-Style IPA with Lavender,https://singlespeedbrewing.com/the-beer/lavender-haze/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Site-1 Brewing,Object K,6.4,,Amber Ale,https://www.site1brewing.com/menus,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+SKA Brewing,True Blonde Ale,5,20,Golden or Blonde Ale,https://catalog.beer/beer/3acda2db-418a-4f85-b53f-5e70b743fdf7,catalog-beer,2026-10-14,high,"brewery name, exact name",True Blonde Ale,Ska Brewing Company
+Sketchbook Brewing Co.,Grodziskie,3.2,22,Smoke Beer (Lager or Ale),https://catalog.beer/beer/2b88800b-7593-4d6d-b2ad-1e42b4ef5f4b,catalog-beer,2026-10-14,high,"brewery name, exact name",Grodziskie,Sketchbook Brewing Company
+Slice Beer Co.,Neon Lites,7,50,IPA: New England / Hazy,https://catalog.beer/beer/87dcafc0-8df6-43f3-aa25-423894106eb5,catalog-beer,2026-10-14,high,"brewery name, exact name",Neon Lites,Slice Beer Company
+Slice Beer Co.,Untold Prophecy,6.9,,IPA: American,https://catalog.beer/beer/8916f025-78d2-41af-9f7f-1ecdc0883bd7,catalog-beer,2026-10-14,high,"brewery name, exact name",Untold Prophecy,Slice Beer Company
 Slow Body Beer Co.,Pal,,,Premium American Lager,https://www.slowbodybeer.com/products/pal,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Snow Capped Cider,Graventein,6.4,,,https://snowcappedcider.com/all-ciders/gravenstein/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Snow Capped Cider,Plum & Lemongrass,6.9,,Semi Sweet,https://snowcappedcider.com/all-ciders/plum-lemongrass/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Snow Capped Cider,The Russets,7,,,https://snowcappedcider.com/all-ciders/the-russets/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Societe Brewing Co.,The Coachman,4.9,,Session India Pale Ale,https://catalog.beer/beer/5d3eee70-65dd-4590-9b7d-c0f89989df49,catalog-beer,2026-10-14,high,"brewery name, exact name",The Coachman,Societe Brewing Company
+South Street Brewery,Barrel-Aged Imperial Satan's Pony,9,19,Scotch Ale,https://catalog.beer/beer/c6fa4269-ea27-4848-b939-e2e15def6f83,catalog-beer,2026-10-14,high,"brewery name, exact name",Barrel-Aged Imperial Satan's Pony,South Street Brewery
+Spring House Brewing Co.,Commander Salamander,4.5,,"Sour Ale w/ cucumber, kumquat, lime",https://springhousebeer.com/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Station Craft,Californios,5,,Mexican Lager,https://www.stationcraft.com/dana-point-station-craft-location-picker-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Steamworks Brewing Co.,Backside Stout,6.2,28,American-Style Stout,https://catalog.beer/beer/c7e69f4d-1d9c-41cb-a000-ba2f7c7ae47d,catalog-beer,2026-10-14,high,"brewery name, exact name",Backside Stout,Steamworks Brewing Company
 Steamworks Brewing Co.,Prescribed Burn,5.1,24,Chili Pepper Beer,https://catalog.beer/beer/28f6e1a6-9f32-4ff5-90ae-2bab10a6cb90,catalog-beer,2026-10-14,high,"brewery name, exact name",Prescribed Burn,Steamworks Brewing Company
+Stereo Brewing Co.,Robot Imperial Red,9.5,75,Imperial Red Ale,https://catalog.beer/beer/da8690ed-d2dc-4861-921d-747014039b0b,catalog-beer,2026-10-14,high,"brewery name, exact name",Robot Imperial Red,Stereo Brewing
+Stereo Brewing Co.,Wall of Sound,5.6,15,Oatmeal Stout,https://catalog.beer/beer/4c62433c-61e5-4dc1-ae57-6370217a44e0,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",Stereo Wall Of Sound,Stereo Brewing
 Stevens Point Brewery,Whole Hog Pumpkin Ale,7.5,10,Pumpkin Beer,https://catalog.beer/beer/51a95c4e-4864-4b17-8e45-9670ab43f650,catalog-beer,2026-10-14,high,"brewery name, exact name",Whole Hog Pumpkin Ale,Stevens Point Brewery
+Stodgy Brewing Co.,Scottish Ale,5.3,,Scottish Ale,https://stodgybrewing.com/beer/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Stone Brewing World Bistro & Gardens,Stone LifeBlurred,11,,Imperial Brown Ale,https://www.stonebrewing.com/beer/brewery-exclusives/stone-lifeblurred-imperial-brown-ale,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Stoup Brewing,Mosaic Pale Ale,5.3,39,Pale Ale,https://catalog.beer/beer/d9bc6bdb-f25e-428d-8ed0-c8c4975a781d,catalog-beer,2026-10-14,high,"brewery name, exact name",Mosaic Pale Ale,Stoup Brewing
+Stoup Brewing,Stoup NW Red,5,40,Northwest Red Ale,https://catalog.beer/beer/d9d904e8-ff14-433f-bf96-8453da655d72,catalog-beer,2026-10-14,medium,"brewery name, name without brewery prefix",NW Red,Stoup Brewing
 Strange Days Brewing Co.,Splendid Defending,4,,English Style Brown Ale,http://www.strangedaysbrewing.com/taps,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Strike Brewing Co.,Big Wall,9,60,Stout: Imperial / Double,https://catalog.beer/beer/bd810604-a308-4b13-bbf8-046e7ea3c2f8,catalog-beer,2026-10-14,high,"brewery name, exact name",Big Wall,Strike Brewing Co
+Structures Brewing,Czech Dark Lager,5.3,,Dark Lager,http://www.structuresbrewing.com/cdl,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Sun King Brewery,Sunlight Cream Ale,5.3,20,American-Style Cream Ale or Lager,https://catalog.beer/beer/99ff2354-3a99-4a3e-9fd3-5ffeba8d88c4,catalog-beer,2026-10-14,high,"brewery name, exact name",Sunlight Cream Ale,Sun King Brewing Company
+Sun King Brewing,Soul Shakedown Party,9,30,Scotch Ale,https://catalog.beer/beer/03a2b09c-d943-4566-8fcd-0e871f0655e9,catalog-beer,2026-10-14,high,"brewery name, exact name",Soul Shakedown Party,Sun King Brewing Company
+Sunriver Brewing Co.,Che Figata,5.4,,Italian Pilsner,https://sunriverbrewingcompany.com/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Sunriver Brewing Co.,Fuzztail,5,,Hefeweizen,https://sunriverbrewingcompany.com/beer/fuzztail,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Sunriver Brewing Co.,Fuzztail,5,20,Light American Wheat Ale or Lager with Yeast,https://catalog.beer/beer/376ecaa3-99be-4c45-9292-1264ed22073f,catalog-beer,2026-10-14,high,"brewery name, exact name",Fuzztail,Sunriver Brewing Company
+Sunriver Brewing Co.,Rippin,6,50,American-Style Strong Pale Ale,https://catalog.beer/beer/1cf5e105-cdbe-4b35-9747-85041e5ed584,catalog-beer,2026-10-14,high,"brewery name, exact name",Rippin,Sunriver Brewing Company
+Swamp Head Brewery,Float,5.1,,Lager: American,https://catalog.beer/beer/94ab1a56-a20c-4734-b97a-1f1428020328,catalog-beer,2026-10-14,high,"brewery name, exact name",Float,Swamp Head Brewery
+Swamp Head Brewery,Tropical Vibes,4.5,,MANGO GUAVA WHEAT ALE,https://catalog.beer/beer/8c6913e3-3836-4a87-a7cf-f8365849b47a,catalog-beer,2026-10-14,high,"brewery name, exact name",Tropical Vibes,Swamp Head Brewery
+Tampa Bay Brewing Co.,Day Donkey,5.2,30,Lager: Pale,https://catalog.beer/beer/e959e263-3293-4330-a730-b01c9c2eca61,catalog-beer,2026-10-14,high,"brewery name, exact name",Day Donkey,Tampa Bay Brewing Company
+TapRoom Beer Co.,PB Haze,7,,Hazy IPA,https://catalog.beer/beer/1f55d7ec-235b-4afe-a9dd-163f9c73e196,catalog-beer,2026-10-14,high,"brewery name, exact name",PB Haze,Taproom Beer Co.
 Taxman Brewing Co.,Deduction,8,22,Belgian-Style Dubbel,https://catalog.beer/beer/71fb27f6-ed9a-4bf5-a3fc-46e176d7a63f,catalog-beer,2026-10-14,high,"brewery name, exact name",Deduction,Taxman Brewing Company
+Taxman Brewing Co.,La Maison,7.2,25,French & Belgian-Style Saison,https://catalog.beer/beer/6ac3e7d5-71e0-4c52-b5b1-7e2281aa4ea2,catalog-beer,2026-10-14,high,"brewery name, exact name",La Maison,Taxman Brewing Company
 Taxman Brewing Co.,Qualified,10,28,Belgian-style Quadrupel Ale,https://www.taxmanbrewing.com/our-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Taxman Brewing Co.,Qualified,9.5,28,Belgian-Style Quadrupel,https://catalog.beer/beer/535183bd-0249-4717-a8de-dd9a3380ec26,catalog-beer,2026-10-14,high,"brewery name, exact name",Qualified,Taxman Brewing Company
+Telluride Brewing Co.,Face Down Brown,5.7,,American-Style Brown Ale,https://catalog.beer/beer/dab9ffe8-3251-42ec-b193-a45416e72e17,catalog-beer,2026-10-14,high,"brewery name, exact name",Face Down Brown,Telluride Brewing Company
 Tennessee Brew Works,Farmer's Beat,6.7,28,Field Beer,https://catalog.beer/beer/2c4f0450-21f9-45a2-abba-52c517328899,catalog-beer,2026-10-14,high,"brewery name, exact name",Farmer's Beat,Tennessee Brew Works
+Territorial Brewing Co.,Penetrator,10.9,23,German-Style Eisbock,https://catalog.beer/beer/c0500470-e32d-4eb5-9afd-40cbb1822189,catalog-beer,2026-10-14,high,"brewery name, exact name",Penetrator,Territorial Brewing Company
+The Austin Beer Garden Brewing Co.,Industry,5,40,German-Style Pilsener,https://catalog.beer/beer/30abc058-997f-4975-9c76-fcebe0242788,catalog-beer,2026-10-14,high,"brewery name, exact name",Industry,The Austin Beer Garden Brewing Company
+The Austin Beer Garden Brewing Co.,Rocket 100,5.2,25,American-Style Pilsener,https://catalog.beer/beer/b9907683-a377-452b-b4a4-f950eb2236e6,catalog-beer,2026-10-14,high,"brewery name, exact name",Rocket 100,The Austin Beer Garden Brewing Company
+The Brew Brothers,Toasty,3,,Mild: Other,https://catalog.beer/beer/1b8d9b49-f5d6-4d56-b70f-f40c37bc17ba,catalog-beer,2026-10-14,high,"brewery name, exact name",Toasty,Brew Brothers Brewery
 The Bruery,Mischief,8.5,35,Pale American-Belgo-Style Ale,https://catalog.beer/beer/c29ffa9b-dd7e-4e9e-8c82-9b2e3b91b89c,catalog-beer,2026-10-14,high,"brewery name, exact name",Mischief,The Bruery
 Third Eye Brewing Co.,Gourd Darn It!,6.3,24,Pumpkin Stout,https://thirdeyebrewingco.com/beer-overview/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Third Space Brewing,Pretty Good,5.5,15,Amber,https://thirdspacebrewing.com/beer/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Third Space Brewing,Pretty Good,5.5,15,Amber,https://catalog.beer/beer/d1c0a726-ac82-411e-8813-9a80fef6ae9d,catalog-beer,2026-10-14,high,"brewery name, exact name",Pretty Good,Third Space Brewing
+Third Street Aleworks,Annadel Pale Ale,5.2,11,Ordinary Bitter,https://catalog.beer/beer/f9ea9f0f-cf1b-4a0a-bb3d-576eb4572970,catalog-beer,2026-10-14,high,"brewery name, exact name",Annadel Pale Ale,Third Street Aleworks
+Third Street Aleworks,Blarney Sisters Dry Irish Stout,4.4,41,Classic Irish-Style Dry Stout,https://catalog.beer/beer/99695133-8933-4218-ac74-b32cfcf4d235,catalog-beer,2026-10-14,high,"brewery name, exact name",Blarney Sisters’ Dry Irish Stout,Third Street Aleworks
+Third Window Brewing Co.,Belle Saison,6.5,,,https://thirdwindowbrewing.com/products/belle-saison,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Topa Topa Brewing Co.,Dos Topas,4.5,12,Lager: Mexican,https://catalog.beer/beer/bfcb5acb-5916-4474-9342-702554f6e6f4,catalog-beer,2026-10-14,high,"brewery name, exact name",Dos Topas,Topa Topa Brewing Co.
+Topa Topa Brewing Co.,Level Line,5,37,American-Style Pale Ale,https://catalog.beer/beer/abb4bb43-8b3c-4e44-a3ea-bf664688ba25,catalog-beer,2026-10-14,high,"brewery name, exact name",Level Line,Topa Topa Brewing Co.
+Topa Topa Brewing Co.,Light Hike,5.2,,Kölsch,https://catalog.beer/beer/1e7fad8c-4670-4889-b25b-da2df9686955,catalog-beer,2026-10-14,high,"brewery name, exact name",Light Hike,Topa Topa Brewing Co.
+Trademark Brewing,A La Playa,5.3,22,Mexican Lager,https://trademarkbrewing.com/collections/beer/products/a-la-playa-mexican-lager-5-3-abv,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Trademark Brewing,Codebreaker,7,,West Coast IPA,https://trademarkbrewing.com/collections/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Tradition Brewing Co.,Red Willie,5,26,Irish-Style Red Ale,https://catalog.beer/beer/bfa436fa-20cf-41d3-b3e7-5c8c25f01aa3,catalog-beer,2026-10-14,high,"brewery name, exact name",Red Willie,Tradition Brewing Company
+Transmission Brewing,Transmission Light,4.2,,Rice Lager,https://transmissionbrewing.com/beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Transmission Brewing Co.,Oktoberfest,5.5,,Marzen,https://transmissionbrewing.com/beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Triptych Brewing,Dank Meme,5.3,,Pale Ale,https://catalog.beer/beer/1fed0803-061c-4c12-9654-9ae1cc3dab96,catalog-beer,2026-10-14,high,"brewery name, exact name",Dank Meme,Triptych Brewing
+Trumer Brewery,Trumer Pils,4.9,26,German-Style Pils,https://trumerusa.com/beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Uinta Brewing Co.,Was Angeles,5,13,Premium American Lager,https://uintabrewing.com/beers/was-angeles,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Uinta Brewing Co.,Was Angeles Craft Beer,5,13,Premium American Lager,https://uintabrewing.com/beers/was-angeles,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Union Bear Brewing Co.,Mexican Lager,5,20,Mexican Style Lager,https://www.unionbear.com/distribution-beer-list,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Union Craft Brewing,Old Pro Gose,4.2,,German-style gose,http://www.unioncraftbrewing.com/beers/old-pro,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Unsung Brewing Co.,Chaos Erupts,6.7,,West Coast IPA,https://unsungbrewing.com/the-vault-order/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 UPP Liquids,UPP Yours,5.5,,Cucumber Tart Ale,https://uppliquids.com/bend-beer/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Vintage Brewing Co.,Scaredy Cat,6,30,Oatmeal Stout,https://catalog.beer/beer/74d53014-edf2-4b57-86bd-341d2c3f88ed,catalog-beer,2026-10-14,high,"brewery name, exact name",Scaredy Cat,Vintage Brewing Co
 Von Ebert Brewing,Clubhaus Lager,4,,American Light Lager,https://www.vonebertbrewing.com/core-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Von Ebert Brewing,Drink Me Potion,5.6,,Raspberry Tart Ale,https://www.vonebertbrewing.com/all-beer,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+von Trapp Brewing,Helles,4.9,20,Munich-style golden lager,https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Wallenpaupack Brewing Co.,Cracking Weisse,,,Berliner Weisse,https://wallenpaupackbrewingco.com/our-beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Wallenpaupack Brewing Co.,Cracking Weisse w/Raspberry,,,Fruited Berliner Weisse,https://wallenpaupackbrewingco.com/our-beers/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Wallenpaupack Brewing Co.,Kroon,9,27,BELGIAN GOLDEN STRONG,https://wallenpaupackbrewingco.com/portfolio-item/kroon/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Wander Brewing,Correspondent,6.4,40,Export Stout,https://wanderbrewing.com/taplist/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Wibby Brewing,Wibby Jibby,6.5,55,Cold IPA,https://catalog.beer/beer/7bbe14b3-c485-4f4e-b481-62be914e020d,catalog-beer,2026-10-14,high,"brewery name, exact name",Wibby Jibby,Wibby Brewing
+Wicked Weed Brewing,Freak of Nature Double IPA,8.5,,Imperial or Double India Pale Ale,https://catalog.beer/beer/4012da79-a1f8-4d1f-9b02-6cb7b6984f7f,catalog-beer,2026-10-14,high,"brewery name, exact name",Freak of Nature Double IPA,Wicked Weed Brewing Company
+Wild Blue Yonder Brewing Co.,Las Cruces,,,American Amber Lager,https://www.wildblueyonderbrewing.com/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Wise Man Brewing,Outraged Daughters,5.4,25,Red Ale: Irish,https://catalog.beer/beer/ee27a6dd-1e04-44ee-855e-4e4f55ab1fba,catalog-beer,2026-10-14,high,"brewery name, exact name",Outraged Daughters,Wise Man Brewing
 Wiseacre Brewing Co.,Sky Dog Amber,5,,Mexican Style Amber Lager,https://wiseacrebrew.com/beer/sky-dog-amber/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
 Wiseacre Brewing Co.,Tiny Bomb,4.5,,American Pilsner,https://wiseacrebrew.com/beer/tiny-bomb/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Wiseacre Brewing Co.,Tiny Bomb,4.5,23,American-Style Pilsener,https://catalog.beer/beer/d04a4344-c026-4ab5-8e23-d566ca93db16,catalog-beer,2026-10-14,high,"brewery name, exact name",Tiny Bomb,Wiseacre Brewing Co.
 Wolf's Ridge Brewing,Daybreak,5,,American-Style Cream Ale or Lager,https://catalog.beer/beer/c7c3c8aa-d4b3-4faa-93af-73fe6f40c4c7,catalog-beer,2026-10-14,high,"brewery name, exact name",Daybreak,Wolf's Ridge Brewing
+Wren House Brewing Co.,Hooks & Dun,5,,ESB,https://catalog.beer/beer/96dafe10-95b6-40e5-8e0a-6bbcd1b3d67f,catalog-beer,2026-10-14,high,"brewery name, exact name",Hooks & Dun,Wren House Brewing Co.
+Wynkoop Brewing Co.,Kurt's Mile High Malt,5.8,18,Vienna-Style Lager,https://catalog.beer/beer/b6acc683-865e-474a-876b-3dc89779a060,catalog-beer,2026-10-14,high,"brewery name, exact name",Kurt's Mile High Malt,Wynkoop Brewing Company
 Xul Beer Co.,Barrel Aged Das Cake,13,,Imperial Stout,https://xulbeer.com/beer/ba-das-cake/,brewery-site,2026-10-14,high,brewery's own page for the beer,,
+Xül Beer Co.,Toro y Oso,5.3,,Mexican Lager,https://catalog.beer/beer/448d49de-de88-4e3d-82e0-d853dc41464d,catalog-beer,2026-10-14,high,"brewery name, exact name",Toro y Oso,Xul Beer Company
 Zipline Brewing Co.,Festbier,6.5,,German-Style Märzen,https://catalog.beer/beer/6baa57de-22a9-400d-8221-933f271eb968,catalog-beer,2026-10-14,high,"brewery name, exact name",Festbier,Zipline Brewing Co.
