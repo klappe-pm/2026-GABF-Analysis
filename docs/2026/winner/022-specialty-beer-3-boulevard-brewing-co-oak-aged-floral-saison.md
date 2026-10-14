@@ -34,24 +34,13 @@ description:
 entries: 51
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
-      - "https://www.boulevard.com/"
-      - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
       - "https://www.boulevard.com/"
       - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
-      - "https://www.boulevard.com/"
-      - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
@@ -106,12 +95,6 @@ gaps:
       - "https://www.boulevard.com/"
       - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
-      - "https://www.boulevard.com/"
-      - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: null
@@ -119,15 +102,21 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Aged on neutral oak, with hibiscus flowers and rose hips"
+  source: "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
 sources:
   - "https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966"
   - "https://www.boulevard.com/"
   - "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Red, from hibiscus flowers (no SRM number published)"
+  source: "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
 style: "Saison"
-tasting-notes: null
+tasting-notes:
+  text: "A light & summery saison aged on neutral oak, this beer really lets the flowers and rose hips have the front seat."
+  source: "https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/"
 water: null
 yeast: []
 ---
@@ -163,7 +152,9 @@ Source: [Boulevard: Oak-Aged Floral Saison](https://www.boulevard.com/brewhouse-
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A light & summery saison aged on neutral oak, this beer really lets the flowers and rose hips have the front seat.
+
+Source: [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/)
 
 ## ingredients
 
@@ -177,11 +168,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Red, from hibiscus flowers (no SRM number published) | [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Aged on neutral oak, with hibiscus flowers and rose hips | [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/) |
 
 ## style-context
 
@@ -210,8 +201,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -220,3 +211,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Oak-Aged Floral Saison listing publishes 8% ABV and N/A IBU, with no named hops.
+- Deep dive pass 2026-10-14: the brewery page gives the oak aging, the hibiscus red color and the floral additions; no hops, malts or yeast.

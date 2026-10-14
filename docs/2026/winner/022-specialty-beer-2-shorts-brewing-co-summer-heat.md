@@ -37,61 +37,73 @@ gaps:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "og"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "fg"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "hops"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "hop-form"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "hop-use"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "malts"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "yeast"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "water"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
   - field: "process"
     sources-checked:
       - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
       - "https://www.shortsbrewing.com/beers/summer-heat/"
       - "web searches recorded in the research notes"
+      - "https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)"
 hop-profile: []
 hops: []
 ibu: 25
@@ -193,7 +205,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/532352-short-s-summer-heat), [shortsbrewing.com](https://www.shortsbrewing.com/beers/summer-heat/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/532352-short-s-summer-heat), [shortsbrewing.com](https://www.shortsbrewing.com/beers/summer-heat/), web searches recorded in the research notes, [shortsbrewing.com](https://www.shortsbrewing.com/beers/summer-heat/ (HTTP 403 on this pass)).
 
 ## research-notes
 
@@ -203,3 +215,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's dedicated Summer Heat page publishes 25 IBU; no hops are named. ABV conflict: this brewery page lists 5.3%, while the existing BeerMenus source lists 5.4%; the existing ABV is retained.
 - Catalog.beer 2026-10-14: [Catalog.beer: Summer Heat](https://catalog.beer/beer/27fe67b6-c3c1-4705-aa2e-11b2906a5077) lists 5.3% ABV, style "Lager: Mexican" (entry last modified 2026-09-23). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page refused this pass's reader; the earlier pass read 25 IBU there. No tasting notes or hops were recorded.

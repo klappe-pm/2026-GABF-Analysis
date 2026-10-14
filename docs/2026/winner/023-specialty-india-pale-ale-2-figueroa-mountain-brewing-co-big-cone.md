@@ -31,15 +31,6 @@ description:
 entries: 65
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
-      - "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
-      - "https://www.beersyndicate.com/app/Beer/Details/37530"
-      - "https://www.figmtnbrew.com/"
-      - "https://www.figmtnbrew.com/beer-finder"
-      - "https://www.figmtnbrew.com/our-beers"
-      - "web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
@@ -49,6 +40,7 @@ gaps:
       - "https://www.figmtnbrew.com/beer-finder"
       - "https://www.figmtnbrew.com/our-beers"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "ibu"
     sources-checked:
       - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
@@ -58,6 +50,7 @@ gaps:
       - "https://www.figmtnbrew.com/beer-finder"
       - "https://www.figmtnbrew.com/our-beers"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
@@ -148,15 +141,6 @@ gaps:
       - "https://www.figmtnbrew.com/beer-finder"
       - "https://www.figmtnbrew.com/our-beers"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
-      - "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
-      - "https://www.beersyndicate.com/app/Beer/Details/37530"
-      - "https://www.figmtnbrew.com/"
-      - "https://www.figmtnbrew.com/beer-finder"
-      - "https://www.figmtnbrew.com/our-beers"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Amarillo"
     variety: "Amarillo"
@@ -178,7 +162,9 @@ malts: []
 medal: "Silver"
 og: null
 place: 2
-process: null
+process:
+  value: "Kettle hopped, then dry-hopped"
+  source: "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
 sources:
   - "https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/"
   - "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
@@ -189,7 +175,9 @@ sources:
   - "https://www.figmtnbrew.com/our-beers"
 srm: null
 style: "American-Style Black Ale"
-tasting-notes: null
+tasting-notes:
+  text: "brewed chock-full of piney, earthy kettle hops and then dry-hopped with floral, tropical varieties"
+  source: "https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/"
 water: null
 yeast: []
 ---
@@ -225,7 +213,9 @@ Source: [The Full Pint: Big Cone release](https://thefullpint.com/beer-news/figu
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> brewed chock-full of piney, earthy kettle hops and then dry-hopped with floral, tropical varieties
+
+Source: [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/)
 
 ## ingredients
 
@@ -246,7 +236,7 @@ The 2014 release copy describes piney, earthy kettle hops and a dry hop of flora
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Kettle hopped, then dry-hopped | [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/) |
 
 ## style-context
 
@@ -277,8 +267,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes.
 - Not published: ABV, IBU. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water. Checked [foodgps.com](https://foodgps.com/interview-jaime-dietenhofer-meighan-dietenhofer-figueroa-mountain-brewing/2/), [thefullpint.com](https://thefullpint.com/beer-news/figueroa-mountain-brewery-announces-big-cone-black-ale/), [beersyndicate.com](https://www.beersyndicate.com/app/Beer/Details/37530), [figmtnbrew.com](https://www.figmtnbrew.com/), [figmtnbrew.com](https://www.figmtnbrew.com/beer-finder), [figmtnbrew.com](https://www.figmtnbrew.com/our-beers), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -288,3 +278,4 @@ No brewery links have been checked yet.
 - The quoted description is excerpted, with the omitted words marked by an ellipsis.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A Beer Syndicate keg record gives 6.5% ABV for a label spotted in May 2015. That earlier release does not establish the 2026 beer's strength; ABV, IBU and beer-url remain unfilled.
+- Deep dive pass 2026-10-14: the release says kettle hops and a dry hop but not which of Amarillo and Citra goes where, so hop use stays unpublished per variety.

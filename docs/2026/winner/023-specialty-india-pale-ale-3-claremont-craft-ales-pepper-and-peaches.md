@@ -33,18 +33,13 @@ description:
 entries: 65
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bevmo.com/products/28372"
-      - "https://harp-clownfish.squarespace.com/beers/"
-      - "https://www.claremontcraftales.com/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://bevmo.com/products/28372"
       - "https://harp-clownfish.squarespace.com/beers/"
       - "https://www.claremontcraftales.com/"
       - "web searches recorded in the research notes"
+      - "https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b"
   - field: "srm"
     sources-checked:
       - "https://bevmo.com/products/28372"
@@ -128,7 +123,9 @@ sources:
   - "https://www.claremontcraftales.com/"
 srm: null
 style: "West Coast-style IPA"
-tasting-notes: null
+tasting-notes:
+  text: "crisp, dry, and super hoppy ... additions of pink peppercorns for a floral punch and peaches for a bright, fruity finish"
+  source: "https://bevmo.com/products/28372"
 water: null
 yeast: []
 ---
@@ -167,7 +164,9 @@ Source: [BevMo: Pepper and Peaches IPA](https://bevmo.com/products/28372)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> crisp, dry, and super hoppy ... additions of pink peppercorns for a floral punch and peaches for a bright, fruity finish
+
+Source: [bevmo.com](https://bevmo.com/products/28372)
 
 ## ingredients
 
@@ -216,8 +215,8 @@ Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
 - Not published: IBU. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -228,3 +227,4 @@ Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's own Squarespace beer list names Pepper & Peaches and is used as beer-url because no dedicated page was found. No IBU is published.
 - Catalog.beer 2026-10-14: [Catalog.beer: Pepper & Peaches](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b) lists 6.7% ABV, style "American-Style India Pale Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the retailer copy of the brewery description gives the tasting words; no IBU, malts or yeast.
