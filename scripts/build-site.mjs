@@ -19,16 +19,19 @@ import { medalDot, renderView } from '../site/assets/page-views.mjs';
 import { estMark } from '../site/assets/estimates.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
+import { loadSiteCopy } from './lib/site-copy.mjs';
 import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
 
 const require = createRequire(import.meta.url);
-const SITE_TITLE = 'GABF Analysis';
+// Visible copy that has a key in .docs/content-management-system/ is read from there (see lib/site-copy.mjs).
+const COPY = loadSiteCopy();
+const SITE_TITLE = COPY('global.site.identity.name');
 const REPO_URL = 'https://github.com/klappe-pm/GABF-Analysis';
 const WINNER_YEAR = 2026;
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
 const pctOf = (x) => `${Math.round(Number(x) * 100)}%`;
-const NOT_DEFINED = '<span class="muted">Not defined</span>';
+const NOT_DEFINED = `<span class="muted">${esc(COPY('global.states.gaps.not_defined'))}</span>`;
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
 const PROFILES = new Map();
@@ -82,15 +85,15 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 <script>window.GABF_BASE = ${JSON.stringify(r)};</script>
 </head>
 <body${bodyAttrs}>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="site-nav" id="site-nav" aria-label="Site">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every page (shortcut: f)">Filters</button></div></header>
+<a class="skip-link" href="#main">${esc(COPY('global.site.header.skip_link'))}</a>
+<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">${esc(COPY('global.site.header.menu_button'))}</button><nav class="site-nav" id="site-nav" aria-label="${esc(COPY('global.site.header.nav_label'))}">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every page (shortcut: f)">${esc(COPY('global.filters.trigger.label'))}</button></div></header>
 <div class="filter-chips-bar" id="filter-chips" hidden></div>
 <p class="visually-hidden" id="filter-live" aria-live="polite"></p>
 <main id="main" tabindex="-1">
 ${body}
 </main>
 ${pageData ? `<script type="application/json" id="page-data">${JSON.stringify(pageData).replace(/</g, '\\u003c')}</script>` : ''}
-<footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">Source and data</a>.</div></footer>
+<footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">${esc(COPY('global.site.footer.source_link'))}</a>.</div></footer>
 <script src="${r}assets/vendor/echarts.min.js"></script>
 <script src="${r}assets/page.js" defer></script>
 <script src="${r}assets/echarts-init.js" defer></script>
@@ -425,7 +428,7 @@ function categoryPage(ds, c) {
   const ref = categoryRef(ds, c);
   const view = viewRegion('category', { depth, scope: { category_name: c.name }, fixed: [{ text: `Category: ${c.name}` }], page: { slug: c.slug } });
   const body = `
-<p class="small"><a href="../">All categories</a></p>
+<p class="small"><a href="../">${esc(COPY('pages.category-detail.links.back'))}</a></p>
 <h1>${esc(c.name)}</h1>
 <p class="lede"><span class="pill ${c.special ? 'warn' : 'good'}">${c.special ? 'special category' : 'classic style category'}</span><span class="pill">${esc(c.style_family)}</span>${ref?.abv_min ? `<span class="pill">ABV ${esc(ref.abv_min)} to ${esc(ref.abv_max)}%</span>` : ''}${ref?.ibu_min ? `<span class="pill">IBU ${esc(ref.ibu_min)} to ${esc(ref.ibu_max)}</span>` : ''}${ref?.srm_min ? `<span class="pill">SRM ${esc(ref.srm_min)} to ${esc(ref.srm_max)}</span>` : ''}${c.latest_entries ? `<span class="pill">${fmt(c.latest_entries)} entrants in ${c.latest_entries_year}</span>` : ''} <a href="../../#category_name=${encodeURIComponent(c.name)}">open in dashboards</a></p>
 <div class="card definition"><h2>definition</h2><p>${ref?.description ? esc(ref.description) : '<span class="muted">No style description is on file for this category yet.</span>'}</p><p class="small muted">${c.special ? 'Special categories are judged on an added ingredient, process, or nonstandard base rather than a single classic style.' : 'Classic style categories are judged against a single Brewers Association style description.'}${ref?.guideline_source ? ` Source: ${esc(ref.guideline_source)}${ref.confidence ? ` (${esc(ref.confidence)})` : ''}${ref.variant_of ? `, listed as ${esc(ref.variant_of)}` : ''}.` : ''}</p></div>
@@ -539,14 +542,14 @@ const abvText = (v) => (isBlank(v) ? '' : `${Number(v).toFixed(1).replace(/\.0$/
 function specCard(fm) {
   const big = (label, v, text) => `<div class="spec-figure"><dt>${label}</dt><dd>${isBlank(v) ? NOT_PUBLISHED : `<span class="spec-number">${esc(text)}</span>`}</dd></div>`;
   return `<section class="card spec-card" aria-labelledby="spec-title">
-<h2 id="spec-title">Published specs</h2>
-<dl class="spec-figures">${big('ABV', fm.abv, abvText(fm.abv))}${big('IBU', fm.ibu, String(fm.ibu))}</dl>
+<h2 id="spec-title">${esc(COPY('pages.beer-detail.specs.title'))}</h2>
+<dl class="spec-figures">${big(esc(COPY('pages.beer-detail.specs.abv')), fm.abv, abvText(fm.abv))}${big(esc(COPY('pages.beer-detail.specs.ibu')), fm.ibu, String(fm.ibu))}</dl>
 <dl class="kv spec-kv">
-<dt>Style</dt><dd>${isBlank(fm.style) ? NOT_PUBLISHED : esc(fm.style)}</dd>
-<dt>Hops</dt><dd>${chips(fm.hops)}</dd>
-<dt>Malts</dt><dd>${chips(fm.malts)}</dd>
-<dt>Yeast</dt><dd>${chips(fm.yeast)}</dd>
-<dt>Adjuncts</dt><dd>${chips(fm.adjuncts)}</dd>
+<dt>${esc(COPY('pages.beer-detail.specs.style'))}</dt><dd>${isBlank(fm.style) ? NOT_PUBLISHED : esc(fm.style)}</dd>
+<dt>${esc(COPY('pages.beer-detail.specs.hops'))}</dt><dd>${chips(fm.hops)}</dd>
+<dt>${esc(COPY('pages.beer-detail.specs.malts'))}</dt><dd>${chips(fm.malts)}</dd>
+<dt>${esc(COPY('pages.beer-detail.specs.yeast'))}</dt><dd>${chips(fm.yeast)}</dd>
+<dt>${esc(COPY('pages.beer-detail.specs.adjuncts'))}</dt><dd>${chips(fm.adjuncts)}</dd>
 </dl>
 <p class="small muted">Specs come from the brewery and the sources cited below. A field the research could not find in any source is shown as not published; nothing is estimated.</p>
 </section>`;
@@ -560,10 +563,10 @@ function beerPage(p, row) {
   const breweryLink = row ? `<a href="${r}breweries/${esc(row.brewery_slug)}/">${esc(fm.brewery)}</a>` : esc(fm.brewery);
   const categoryLink = row ? `<a href="${r}categories/${esc(row.category_slug)}/">${esc(fm['category-name'])}</a>` : esc(fm['category-name']);
   const links = [
-    fm['beer-url'] ? `<a class="btn-link" href="${esc(fm['beer-url'])}" rel="noopener">Beer page</a>` : '',
-    fm['brewery-url'] ? `<a class="btn-link" href="${esc(fm['brewery-url'])}" rel="noopener">Brewery website</a>` : '',
-    row ? `<a class="btn-link" href="${r}breweries/${esc(row.brewery_slug)}/">Brewery medal history</a>` : '',
-    row ? `<a class="btn-link" href="${r}categories/${esc(row.category_slug)}/">Category history</a>` : '',
+    fm['beer-url'] ? `<a class="btn-link" href="${esc(fm['beer-url'])}" rel="noopener">${esc(COPY('pages.beer-detail.buttons.beer_page'))}</a>` : '',
+    fm['brewery-url'] ? `<a class="btn-link" href="${esc(fm['brewery-url'])}" rel="noopener">${esc(COPY('pages.beer-detail.buttons.brewery_website'))}</a>` : '',
+    row ? `<a class="btn-link" href="${r}breweries/${esc(row.brewery_slug)}/">${esc(COPY('pages.beer-detail.buttons.brewery_history'))}</a>` : '',
+    row ? `<a class="btn-link" href="${r}categories/${esc(row.category_slug)}/">${esc(COPY('pages.beer-detail.buttons.category_history'))}</a>` : '',
   ].filter(Boolean).join('');
   const body = `
 <p class="small"><a href="../">${p.year} winners</a> · Category ${esc(fm['category-number'])}</p>

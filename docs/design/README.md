@@ -28,7 +28,15 @@ Tick This spot is page copy on a spot. The panel resolves the copy entry behind 
 
 On Send the server checks the new text first: no dash used as punctuation, no kebab case word, one line, and the secret scan. A value that breaks a rule is refused with the reason and nothing is written. Otherwise it changes only the value text of the key's line in the copy file (the frontmatter, the other keys, line endings and formatting stay byte for byte), changes each checked instance in source files only (never in generated output), rebuilds the review site and reloads the frame. The ticket records the key, the file, the old and new values and every instance it changed.
 
-The site build does not read the copy documents yet, so the framed page changes through the hard coded instances; a copy key that the site does read changes with it. The committed `gabf-dashboard.html` is generated from site sources: run `npm run build:standalone` after a copy change before committing.
+The site build reads visible copy from the copy documents through `scripts/lib/site-copy.mjs` for the keys that exist there (the header, the footer link, the not defined mark, the beer specs card, the category back link), so a change to one of those keys reaches every page that draws it on the next build, with no instance to match. A string with no key is still found as a hard coded instance. The build stops with the key named if the copy folder or a key it needs is missing; the folder is tracked in git, so a clean clone and continuous integration have it. The committed `gabf-dashboard.html` is generated from site sources: run `npm run build:standalone` after a copy change before committing.
+
+## editing-copy-in-place
+
+With the panel open, text on the framed page that is one line of page copy is outlined with a dotted line. Double click it, or focus it and press Enter, to edit it where it stands: a field with a solid blue outline covers the text, with Save and Cancel under it. Escape cancels. Hovering text that is not page copy says so in plain words (it comes from the data or the page layout), and it cannot be edited.
+
+The field holds the copy entry's own value, so a placeholder such as {{year}} stays a placeholder. The same words found in other copy entries and hard coded strings are listed under the field with checkboxes, all checked, as in the panel. Save sends the new text through the same server copy edit the panel uses: the prose rules and the secret scan run first, and a refused value writes nothing and says why. Otherwise only the value text of the key's line changes, the checked related instances change, the review site is rebuilt, and the frame reloads on the new copy. Each save records an ACCEPTED ticket under `.docs/feedback/<page-name>/` with the old and new values, the one spot, and the instances it changed.
+
+When several entries hold the same words, the entry of the page under review is the one edited and the others are offered as related instances. A single click on page copy adds its pin after a short pause, so a double click edits instead of pinning.
 
 ## journey-step-markers
 

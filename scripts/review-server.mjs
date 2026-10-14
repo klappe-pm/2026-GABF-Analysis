@@ -8,7 +8,8 @@
 //   /site-slow/...   the same, with data/*.json held back, so loading states can be reviewed
 //   /site-fail/...   the same, with data/*.json answered 503, so error states can be reviewed
 //   /review/...      the feedback panel's endpoints: lists, regions, derive links, preview a copy
-//                    change, register a ticket, list and edit tickets
+//                    change, register a ticket, list and edit tickets, and the in place editor's
+//                    resolve (which text is page copy) and save (a copy edit with one spot)
 //   everything else  the prototype (docs/design/prototype) and the sketches (docs/design/sketches)
 //
 // One origin is the point: the control plane can reach into its live frame to open the Filters
@@ -46,9 +47,9 @@ function readBody(req) {
 }
 
 // The review site is rebuilt after a copy change so the framed page shows the new words at once.
-function rebuildWith(root, dist) {
+function rebuildWith(root, dist, cmsDir) {
   return () => {
-    execFileSync(process.execPath, [resolve(root, 'scripts/build-site.mjs')], { cwd: root, env: { ...process.env, GABF_FEEDBACK: '1', GABF_DIST: dist }, stdio: 'ignore' });
+    execFileSync(process.execPath, [resolve(root, 'scripts/build-site.mjs')], { cwd: root, env: { ...process.env, GABF_FEEDBACK: '1', GABF_DIST: dist, GABF_CMS_DIR: cmsDir }, stdio: 'ignore' });
   };
 }
 
@@ -58,7 +59,7 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
   const sketchesDir = resolve(root, 'docs/design/sketches');
   const feedbackDir = feedbackDirOf(root, env);
   const cmsDir = cmsDirOf(root, env);
-  const doRebuild = rebuild ?? rebuildWith(root, siteDir);
+  const doRebuild = rebuild ?? rebuildWith(root, siteDir, cmsDir);
 
   // A page on another origin must not be able to write into this repository through the browser.
   const foreignOrigin = (req) => {
@@ -103,6 +104,43 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     if (secret) fresh.push('The copy contains a value shaped like a secret. It is not written.');
     const m = manifest();
     return { old: primary.value, file: primary.file, problems: fresh, instances: findInstances(root, cmsDir, primary, primary.value, { copy }), usedBy: usedBy(root, cmsDir, primary, primary.value, m) };
+  }
+
+  // Which texts on the framed page are one line of page copy, and which copy entry each one is. A
+  // text is editable in place only when its whole words are the value of a copy entry; a text built
+  // from several entries, or filled from the data, is not. When several entries hold the same words
+  // the entry of the page being reviewed comes first, then the shared ones; the rest are offered as
+  // related instances by the same preview the panel uses.
+  function inlineResolve(body) {
+    const m = manifest();
+    const screen = describeScreen(root, m, body.screen);
+    const page = screen ? screen.page : '';
+    const copy = loadCopy(cmsDir);
+    const inventory = loadInventory(cmsDir);
+    const rank = (e) => (e.key.startsWith(`pages.${page}.`) ? 0 : e.key.startsWith('global.') ? 1 : 2);
+    const out = {};
+    for (const text of (Array.isArray(body.texts) ? body.texts : []).slice(0, 400).map(String)) {
+      const hits = matchContent(text, copy, inventory).filter((e) => e.match === 'exact' || e.match === 'inventory').sort((a, b) => rank(a) - rank(b));
+      out[text] = hits.length ? { key: hits[0].key, value: hits[0].value, file: hits[0].file, others: hits.length - 1 } : null;
+    }
+    return out;
+  }
+
+  // Saving an inline edit is the copy edit the panel sends, with one spot: the same check, the same
+  // write, the same related instances, the same rebuild and the same ACCEPTED ticket.
+  function inlineSave(body) {
+    const spot = body.spot && typeof body.spot === 'object' ? body.spot : null;
+    return register({
+      screen: body.screen,
+      text: 'Edited in place on the page.',
+      categories: [],
+      spots: spot ? [{ n: 1, selector: spot.selector, rect: spot.rect, text: spot.text }] : [],
+      components: body.components ?? [],
+      contentEdits: [{ key: body.key, newValue: String(body.newValue ?? ''), take: body.take ?? [] }],
+      device: body.device,
+      viewport: body.viewport,
+      build: body.build,
+    });
   }
 
   function register(body) {
@@ -182,6 +220,8 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       }
       if (p === '/review/derive' && req.method === 'POST') return send(res, 200, derive(await readBody(req)));
       if (p === '/review/content' && req.method === 'POST') return send(res, 200, preview(await readBody(req)));
+      if (p === '/review/inline/resolve' && req.method === 'POST') return send(res, 200, inlineResolve(await readBody(req)));
+      if (p === '/review/inline/save' && req.method === 'POST') return send(res, 200, inlineSave(await readBody(req)));
       if (p === '/review/feedback' && req.method === 'GET') return send(res, 200, summaries(url));
       if (p === '/review/feedback' && req.method === 'POST') return send(res, 200, register(await readBody(req)));
       const edit = /^\/review\/feedback\/(WI-\d+)$/i.exec(p);
