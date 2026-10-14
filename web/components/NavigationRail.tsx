@@ -14,6 +14,7 @@ export function NavigationRail({ label, items, active, className = '', inline = 
   return (
     <nav
       aria-label={label}
+      data-component="navigation-rail"
       data-nav={inline ? undefined : "rail"}
       className={`${inline ? "" : "sticky top-0 h-dvh"} w-20 shrink-0 flex-col items-center gap-3 overflow-y-auto py-4 ${className}`}
       style={{ background: color(s['Container color'] ?? 'surface container low') }}

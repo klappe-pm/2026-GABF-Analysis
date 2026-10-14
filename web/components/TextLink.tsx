@@ -11,7 +11,7 @@ export function TextLink({ children, className = '', state, tone, style, ...rest
   const s = useSettings('text-link');
   const underline = s.Underline === 'on hover' ? 'no-underline state-hover:underline' : 'underline state-hover:decoration-2';
   return (
-    <a data-state={state} className={`${underline} ${className}`} style={{ color: color(tone ?? s.Color ?? 'primary'), ...style }} {...rest}>
+    <a data-component="text-link" data-state={state} className={`${underline} ${className}`} style={{ color: color(tone ?? s.Color ?? 'primary'), ...style }} {...rest}>
       {children}
     </a>
   );

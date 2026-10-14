@@ -17,7 +17,7 @@ export function SectionHeader({ id, title, lead, level = 2, aside }: { id: strin
   const Heading = level === 2 ? 'h2' : 'h3';
   const role = String(s['Title style'] ?? 'headline small');
   return (
-    <header className="flex flex-col gap-2 pb-3">
+    <header className="flex flex-col gap-2 pb-3" data-component="section-header">
       <div className="flex flex-wrap items-baseline justify-between gap-3">
         <Heading id={id} className={`scroll-mt-24 text-balance ${typeOf(level === 2 ? role : STEP_DOWN[role] ?? role)}`} style={{ color: color(s['Title color'] ?? 'primary') }}>{title}</Heading>
         {aside}

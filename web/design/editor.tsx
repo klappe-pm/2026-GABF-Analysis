@@ -5,13 +5,27 @@
 // (allowed values, approved fonts, WCAG AA contrast), writes only that key to the settings file or the
 // component's spec, and records an ACCEPTED ticket. A refused value comes back with a plain reason.
 // The public build swaps this file for editor-off.tsx (see next.config.ts).
-import { type ReactNode, useEffect, useRef, useState } from 'react';
+import { createContext, type ReactNode, useContext, useEffect, useRef, useState } from 'react';
 import { usePreview } from './runtime';
 import { COMPONENTS, globalKind, type Kind, showValue, type Value } from './schema';
 
 export const REVIEW = true;
 
-const ENDPOINT = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/__design/edit`;
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+const ENDPOINT = `${BASE}/__design/edit`;
+
+// The page a saved edit is filed under (docs/feedback/<page>/). The review settings panel provides it;
+// without one the review server works it out from the route, and the style guide is design-system.
+const ReviewPageCtx = createContext<string | undefined>(undefined);
+export function ReviewPage({ page, children }: { page?: string; children: ReactNode }) {
+  return <ReviewPageCtx.Provider value={page}>{children}</ReviewPageCtx.Provider>;
+}
+
+// The route of the page in view, without the base path, for the ticket's page and its picture.
+const currentRoute = () => {
+  const path = window.location.pathname;
+  return BASE && path.startsWith(BASE) ? path.slice(BASE.length) || '/' : path;
+};
 
 const kindOf = (target: string, k: string): Kind | undefined => (target === 'settings' ? globalKind(k) : COMPONENTS[target]?.[k]);
 
@@ -52,6 +66,7 @@ function Field({ kind, value, onValue, label }: { kind: Kind; value: Value; onVa
 
 export function EditableValue({ target, k, value, children }: { target: string; k: string; value: Value; children: ReactNode }) {
   const preview = usePreview();
+  const page = useContext(ReviewPageCtx);
   const kind = kindOf(target, k);
   const [open, setOpen] = useState(false);
   const [saved, setSaved] = useState<Value>(value);
@@ -68,7 +83,7 @@ export function EditableValue({ target, k, value, children }: { target: string; 
   const save = async () => {
     setBusy(true);
     try {
-      const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ target, key: k, value: draft }) });
+      const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ target, key: k, value: draft, page, route: currentRoute() }) });
       const body = await res.json();
       if (!res.ok) { setProblems(body.problems ?? ['The value was not saved.']); return; }
       setSaved(draft);

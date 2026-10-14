@@ -31,6 +31,7 @@ import { existsInRepo, SOURCE_URL } from '@/lib/repo';
 import { AdaptiveNavigation, ContrastTable, ElevationRow, MedalTable, Ordered, SchemeTable, SectionTabs, SettingsTable, ShapeTable, TypeTable } from './live';
 import { NavigationDrawer } from '@/components/NavigationDrawer';
 import { NavigationRail } from '@/components/NavigationRail';
+import { ReviewSettingsPanel } from '@/components/review/ReviewSettingsPanel';
 import { Specimen, State } from './parts';
 
 export function generateMetadata(): Metadata {
@@ -718,6 +719,7 @@ export default function DesignSystemPage() {
           <Ordered list="Sections" items={sections} />
         </main>
       </AdaptiveNavigation>
+      <ReviewSettingsPanel page="design-system" />
     </>
   );
 }
