@@ -12,8 +12,6 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 const PENDING = [
   // retired: the explorer is replaced by /analysis/explore/ and a redirect, both from the analysis lane
   '/explorer/',
-  // breweries lane
-  '/breweries/<brewery>/', '/first-time-medalists/2026/',
   // categories and analysis lane
   '/categories/', '/categories/<category>/', '/reports/', '/reports/<report>/', '/about/',
 ];
