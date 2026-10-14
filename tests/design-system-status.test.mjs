@@ -1,27 +1,69 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { STATUSES, THEMES, loadFoundations, loadSpecs, loadTokens, statusProblem } from '../scripts/design-system/lib.mjs';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { LAYOUT, SETTINGS, WEB, darkThemeProblems, design, listFiles, loadSpecs, readDoc, statusProblem } from '../scripts/design-system/lib.mjs';
+
+const d = await design();
 
 test('a spec status is one of draft, review, or approved', () => {
-  assert.deepEqual(STATUSES, ['draft', 'review', 'approved']);
-  for (const status of STATUSES) assert.equal(statusProblem({ status }), null, status);
-  assert.match(statusProblem({}), /missing status/);
-  for (const bad of ['Approved', 'done', '', null, 3]) assert.match(statusProblem({ status: bad }), /must be one of draft, review, approved/, String(bad));
+  assert.deepEqual([...d.STATUSES], ['draft', 'review', 'approved']);
+  for (const status of d.STATUSES) assert.equal(statusProblem([...d.STATUSES], { status }), null, status);
+  assert.match(statusProblem([...d.STATUSES], {}), /missing status/);
+  for (const bad of ['Approved', 'done', '', null, 3]) assert.match(statusProblem([...d.STATUSES], { status: bad }), /must be one of draft, review, approved/, String(bad));
 });
 
-test('every component and foundation spec carries a valid status, and typography is approved', () => {
+test('every component has a spec with a valid status and valid settings', () => {
   const specs = loadSpecs();
-  const foundations = loadFoundations();
-  assert.ok(specs.length > 0 && foundations.length > 0);
-  for (const s of specs) assert.equal(statusProblem(s.data), null, s.spec);
-  for (const f of foundations) assert.equal(statusProblem(f.data), null, f.spec);
-  assert.equal(foundations.find((f) => f.name === 'typography').data.status, 'approved');
+  assert.deepEqual(specs.map((s) => s.dir), Object.keys(d.COMPONENTS).sort());
+  for (const s of specs) {
+    assert.equal(statusProblem([...d.STATUSES], s.data), null, s.spec);
+    for (const [key, kind] of Object.entries(d.COMPONENTS[s.dir])) assert.equal(d.valueProblem(kind, s.data[key]), null, `${s.spec} ${key}`);
+  }
 });
 
-test('the system has one light theme and no spec mentions a dark theme', () => {
-  assert.deepEqual(THEMES, ['light']);
-  const tokens = loadTokens();
-  assert.deepEqual(Object.keys(tokens.themes), ['light']);
-  for (const s of loadSpecs()) assert.doesNotMatch(s.text, /dark (theme|mode|stock)|theme toggle|prefers-color-scheme/i, s.spec);
-  for (const f of loadFoundations()) assert.doesNotMatch(f.sections ? JSON.stringify(f.sections) : '', /dark (theme|mode|stock)/i, f.spec);
+test('the global settings are valid, and the seed is a quoted hex color', () => {
+  const { data } = readDoc(SETTINGS);
+  for (const [key, kind] of Object.entries(d.GLOBAL)) assert.equal(d.valueProblem(kind, data[key]), null, key);
+  assert.match(readFileSync(SETTINGS, 'utf8'), /^Seed color: "#[0-9A-Fa-f]{6}"$/m);
+  // An unquoted hex color reads as a YAML comment, so it must be rejected rather than passed through.
+  assert.notEqual(d.valueProblem(d.GLOBAL['Seed color'], null), null);
+});
+
+test('the layout file orders every section, navigation item, and component once', () => {
+  const { data } = readDoc(LAYOUT);
+  for (const key of d.LAYOUT_KEYS) assert.deepEqual([...data[key]].sort(), [...d.layoutIds(key)].sort(), key);
+  assert.deepEqual(d.orderList('Sections', ['components', 'color', 'nope']).slice(0, 2), ['components', 'color']);
+});
+
+test('every data table reads the table rule from its spec: no wrapping, left aligned, bold header', () => {
+  const table = loadSpecs().find((s) => s.dir === 'ruled-table');
+  assert.equal(table.data['Cell wrapping'], 'never');
+  assert.equal(table.data['Cell alignment'], 'left');
+  assert.equal(table.data['Header weight'], 'bold');
+  const src = readFileSync(resolve(WEB, 'components/RuledTable.tsx'), 'utf8');
+  for (const key of ['Cell wrapping', 'Cell alignment', 'Header weight']) assert.match(src, new RegExp(`s\\['${key}'\\]`), key);
+  assert.match(src, /overflow-x-auto|overflow-auto/);
+});
+
+test('the generated light scheme meets WCAG AA, with neutral surfaces by default', () => {
+  const g = d.mergeGlobal({}, readDoc(SETTINGS).data);
+  const scheme = d.schemeFor(g);
+  for (const r of d.contrastReport(scheme)) assert.ok(r.pass, `${r.fg} on ${r.bg}: ${r.ratio}`);
+  if (g['Surface tint'] === 'none') {
+    for (const role of ['surface', 'surface container', 'surface container highest', 'on surface', 'outline']) {
+      const [r, gr, b] = [1, 3, 5].map((i) => parseInt(scheme[role].slice(i, i + 2), 16));
+      assert.ok(Math.max(r, gr, b) - Math.min(r, gr, b) <= 2, `${role} ${scheme[role]} is not a neutral gray`);
+    }
+  }
+  const tinted = d.schemeFor({ ...g, 'Surface tint': 'seed' });
+  assert.notEqual(tinted.surface, scheme.surface);
+});
+
+test('the system has one light theme', () => {
+  for (const file of [...listFiles(resolve(WEB, 'app'), ['.tsx', '.ts', '.css']), ...listFiles(resolve(WEB, 'design'), ['.ts', '.tsx']), ...listFiles(resolve(WEB, 'components'), ['.tsx'])]) {
+    assert.deepEqual(darkThemeProblems(readFileSync(file, 'utf8')), [], file);
+  }
+  for (const s of loadSpecs()) assert.doesNotMatch(s.text, /dark (theme|mode)|theme toggle|prefers-color-scheme/i, s.spec);
+  assert.doesNotMatch(readFileSync(SETTINGS, 'utf8'), /\bdark\b/i);
 });

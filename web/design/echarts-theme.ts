@@ -1,56 +1,52 @@
-// The chart theme for Apache ECharts, read from the design tokens at run time. Square bars, square tooltips, no shadows, rules for gridlines.
+// The chart theme for Apache ECharts, read from Material's custom properties each time a chart draws,
+// so a chart redrawn after the settings load picks up the new scheme.
 
-const SERIES = ['series-1', 'series-2', 'series-3', 'series-4', 'series-5'];
 // A distinct mark per series, so color is never the only code. Circles are kept for medals.
 export const SERIES_SYMBOLS = ['rect', 'triangle', 'diamond', 'emptyRect', 'emptyTriangle'] as const;
 
-export function readTokens(el: Element) {
+const cssName = (role: string) => `--md-sys-color-${role.trim().replace(/\s+/g, '-')}`;
+
+export function readTheme(el: Element, seriesRoles: string[]) {
   const css = getComputedStyle(el);
-  const v = (name: string) => css.getPropertyValue(`--gabf-color-${name}`).trim();
-  const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
-  const size = (name: string) => parseFloat(css.getPropertyValue(`--gabf-font-size-${name}`)) * rem;
+  const v = (name: string) => css.getPropertyValue(name).trim();
+  const px = (name: string) => parseFloat(v(name)) * parseFloat(getComputedStyle(document.documentElement).fontSize);
   return {
-    series: SERIES.map(v),
-    gold: v('gold'),
-    silver: v('silver'),
-    bronze: v('bronze'),
-    medalStroke: v('medal-stroke'),
-    ink: v('ink'),
-    inkMuted: v('ink-muted'),
-    rule: v('rule'),
-    ruleStrong: v('rule-strong'),
-    ground: v('ground'),
-    family: css.fontFamily,
-    micro: size('micro'),
-    data: size('data'),
+    series: seriesRoles.map((r) => v(cssName(r))),
+    onSurface: v('--md-sys-color-on-surface'),
+    onSurfaceVariant: v('--md-sys-color-on-surface-variant'),
+    outline: v('--md-sys-color-outline'),
+    outlineVariant: v('--md-sys-color-outline-variant'),
+    container: v('--md-sys-color-inverse-surface'),
+    onContainer: v('--md-sys-color-inverse-on-surface'),
+    family: v('--md-sys-typescale-body-small-font') || css.fontFamily,
+    small: px('--md-sys-typescale-body-small-size'),
+    medium: px('--md-sys-typescale-body-medium-size'),
+    radius: parseFloat(v('--md-sys-shape-corner-extra-small')) || 0,
   };
 }
 
-export function baseOption(el: Element) {
-  const t = readTokens(el);
-  const axisLabel = { color: t.inkMuted, fontFamily: t.family, fontSize: t.micro };
+export function baseOption(el: Element, seriesRoles: string[]) {
+  const t = readTheme(el, seriesRoles);
+  const axisLabel = { color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small };
   return {
-    tokens: t,
+    theme: t,
     option: {
       color: t.series,
       backgroundColor: 'transparent',
       animation: false,
-      textStyle: { fontFamily: t.family, color: t.ink },
+      textStyle: { fontFamily: t.family, color: t.onSurface },
       grid: { left: 8, right: 16, top: 16, bottom: 8, containLabel: true },
-      xAxis: { type: 'category' as const, axisLine: { lineStyle: { color: t.ink } }, axisTick: { lineStyle: { color: t.ruleStrong } }, axisLabel, splitLine: { show: false } },
-      yAxis: { type: 'value' as const, axisLine: { show: false }, axisTick: { show: false }, axisLabel, splitLine: { lineStyle: { color: t.rule, width: 1 } } },
+      xAxis: { type: 'category' as const, axisLine: { lineStyle: { color: t.outline } }, axisTick: { lineStyle: { color: t.outlineVariant } }, axisLabel, splitLine: { show: false } },
+      yAxis: { type: 'value' as const, axisLine: { show: false }, axisTick: { show: false }, axisLabel, splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
       tooltip: {
         trigger: 'axis' as const,
-        backgroundColor: t.ground,
-        borderColor: t.ink,
-        borderWidth: 1,
-        borderRadius: 0,
+        backgroundColor: t.container,
+        borderWidth: 0,
+        borderRadius: t.radius,
         padding: 8,
-        textStyle: { color: t.ink, fontFamily: t.family, fontSize: t.data },
-        extraCssText: 'box-shadow: none; border-radius: 0;',
-        axisPointer: { type: 'line' as const, lineStyle: { color: t.ruleStrong, width: 1 } },
+        textStyle: { color: t.onContainer, fontFamily: t.family, fontSize: t.medium },
+        axisPointer: { type: 'line' as const, lineStyle: { color: t.outline, width: 1 } },
       },
-      itemStyle: { borderRadius: 0, shadowBlur: 0 },
     },
   };
 }

@@ -1,9 +1,11 @@
 'use client';
 
 import { useMemo, useState, type ReactNode } from 'react';
+import { useSettings } from '@/design/runtime';
+import { color, hasFigure, onColor } from '@/design/helpers';
 import { Icon } from './Icon';
 
-export type Column = { key: string; label: string; numeric?: boolean; sortable?: boolean; narrow?: boolean };
+export type Column = { key: string; label: string; numeric?: boolean; sortable?: boolean };
 export type Row = { key: string; cells: Record<string, ReactNode>; sort?: Record<string, number | string | null>; highlight?: boolean };
 
 type Props = {
@@ -15,8 +17,11 @@ type Props = {
   scroll?: boolean;
 };
 
-// A ruled table: column rules, a heavy rule under a sticky header, tabular figures, sortable headers.
+// A data table in Material's manner: a tinted header row, row dividers, tabular figures, sortable headers.
+// Header color and weight, row height, dividers, wrapping, and alignment come from the table spec.
+// A table wider than its container scrolls inside the container, never the page.
 export function RuledTable({ caption, sortHint, columns, rows, initialSort, scroll = true }: Props) {
+  const s = useSettings('ruled-table');
   const [sort, setSort] = useState(initialSort ?? null);
   const sorted = useMemo(() => {
     if (!sort) return rows;
@@ -31,30 +36,43 @@ export function RuledTable({ caption, sortHint, columns, rows, initialSort, scro
     });
   }, [rows, sort]);
 
-  const toggle = (key: string) => setSort((s) => ({ key, dir: s?.key === key && s.dir === 'descending' ? 'ascending' : 'descending' }));
+  const toggle = (key: string) => setSort((p) => ({ key, dir: p?.key === key && p.dir === 'descending' ? 'ascending' : 'descending' }));
+  const head = s['Header color'] ?? 'surface container';
+  const rowHeight = `${Number(s['Row height'] ?? 48)}px`;
+  const divider = s['Row dividers'] === 'no' ? '' : 'border-b border-outline-variant';
+  const wrap = s['Cell wrapping'] === 'allowed' ? '' : 'whitespace-nowrap';
+  const align = (c: Column) => (s['Cell alignment'] === 'numbers right' && c.numeric ? 'text-right' : 'text-left');
+  const weight = s['Header weight'] === 'regular' ? 400 : s['Header weight'] === 'medium' ? 500 : 700;
 
   return (
-    <div className={`border border-rule ${scroll ? 'max-h-(--gabf-size-table) overflow-auto' : 'overflow-x-auto'}`} tabIndex={scroll ? 0 : undefined} role={scroll ? 'region' : undefined} aria-label={scroll ? caption : undefined}>
-      <table className="w-full border-separate border-spacing-0 text-data tabular-nums">
+    <div
+      className={`max-w-full rounded-(--md-sys-shape-corner-medium) border border-outline-variant ${scroll ? 'max-h-[32rem] overflow-auto' : 'overflow-x-auto'}`}
+      tabIndex={0}
+      role="region"
+      aria-label={caption}
+      data-table-scroll=""
+    >
+      <table className="type-body-medium w-full border-separate border-spacing-0 tabular-nums">
         <caption className="sr-only">
           {caption}
           {sortHint ? `. ${sortHint}` : ''}
         </caption>
         <thead>
           <tr>
-            {columns.map((c, i) => {
+            {columns.map((c) => {
               const active = sort?.key === c.key;
               return (
                 <th
                   key={c.key}
                   scope="col"
                   aria-sort={active ? sort.dir : undefined}
-                  className={`sticky top-0 z-(--gabf-layer-sticky) border-b-2 border-ink bg-ground-tone px-3 py-2 align-bottom ${/\d/.test(c.label) ? 'font-sans' : 'font-narrow'} text-label uppercase text-ink-muted ${i < columns.length - 1 ? 'border-r border-r-rule' : ''} ${c.numeric ? 'text-right' : 'text-left'}`}
+                  className={`type-label-large sticky top-0 border-b border-outline-variant px-4 align-middle ${wrap} ${align(c)}`}
+                  style={{ background: color(head), color: onColor(head), height: rowHeight, fontWeight: weight, ...(hasFigure(c.label) ? { fontFamily: 'var(--md-ref-typeface-plain)' } : {}) }}
                 >
                   {c.sortable ? (
-                    <button type="button" onClick={() => toggle(c.key)} className={`inline-flex items-center gap-1 uppercase state-hover:text-ink ${active ? 'text-ink' : ''}`}>
+                    <button type="button" onClick={() => toggle(c.key)} className="inline-flex items-center gap-1">
                       <span>{c.label}</span>
-                      <Icon name={active ? (sort.dir === 'ascending' ? 'sort-ascending' : 'sort-descending') : 'sort'} className="size-4 text-ink-faint" />
+                      <Icon name={active ? (sort.dir === 'ascending' ? 'sort-ascending' : 'sort-descending') : 'sort'} size={16} />
                     </button>
                   ) : (
                     c.label
@@ -66,15 +84,11 @@ export function RuledTable({ caption, sortHint, columns, rows, initialSort, scro
         </thead>
         <tbody>
           {sorted.map((r) => (
-            <tr key={r.key} className={r.highlight ? 'bg-green-tint' : 'state-hover:bg-ground-tone'}>
+            <tr key={r.key} className={r.highlight ? 'bg-secondary-container' : 'state-hover:bg-surface-container-low'}>
               {columns.map((c, i) => {
                 const Cell = i === 0 ? 'th' : 'td';
                 return (
-                  <Cell
-                    key={c.key}
-                    scope={i === 0 ? 'row' : undefined}
-                    className={`border-b border-rule px-3 py-2 align-top font-regular ${i < columns.length - 1 ? 'border-r' : ''} ${c.numeric ? 'text-right' : 'text-left'} ${c.narrow ? 'font-narrow' : ''}`}
-                  >
+                  <Cell key={c.key} scope={i === 0 ? 'row' : undefined} className={`${divider} ${wrap} px-4 font-normal ${align(c)}`} style={{ height: rowHeight }}>
                     {r.cells[c.key]}
                   </Cell>
                 );

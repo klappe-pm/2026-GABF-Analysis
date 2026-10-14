@@ -1,54 +1,47 @@
 #!/usr/bin/env node
-// Audit the built style guide (web/out) in a real browser, in the light theme at phone and desktop width.
-// Fails on any element with a rounded corner (medal circles excepted), a shadow, a gradient, blur, or a
-// banned font, on figures set in Archivo Narrow, and when the figures "1111" and "0000" differ in width
-// in the face that sets numbers. Run npm run web:build first. Needs Playwright with a Chromium build:
-//   PLAYWRIGHT_MODULE=/path/to/node_modules/playwright PLAYWRIGHT_CHROMIUM=/path/to/chrome node scripts/design-system/audit-rendered.mjs
+// Audit the built style guide (web/out) in a real browser at phone and desktop width. Fails on:
+//   a font outside Public Sans and Archivo Narrow, inside Material's shadow roots too;
+//   figures set in Archivo Narrow, or figures that are not tabular in the body face;
+//   horizontal overflow;
+//   a data table whose cells wrap or are not left aligned, whose header row is not bold, or that scrolls
+//   the page instead of its own container;
+//   a page that changes when the browser asks for a dark scheme (the site has one light theme);
+//   motion that keeps running when the browser asks for reduced motion;
+//   a keyboard stop with no visible focus indicator.
+// Run npm run web:build first. Needs Playwright (see serve-out.mjs for PLAYWRIGHT_MODULE and PLAYWRIGHT_CHANNEL).
 
-import { createServer } from 'node:http';
-import { existsSync, readFileSync, statSync } from 'node:fs';
-import { extname, join, resolve } from 'node:path';
-import { createRequire } from 'node:module';
-import { WEB } from './lib.mjs';
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { OUT, launch, openStyleGuide, serveOut } from './serve-out.mjs';
 
-const OUT = resolve(WEB, 'out');
-const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
-
-function serve() {
-  const server = createServer((req, res) => {
-    let file = join(OUT, decodeURIComponent((req.url ?? '/').split('?')[0]));
-    if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
-    if (!file.startsWith(OUT) || !existsSync(file)) { res.writeHead(404).end(); return; }
-    res.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream' }).end(readFileSync(file));
-  });
-  return new Promise((ok) => server.listen(0, '127.0.0.1', () => ok(server)));
-}
-
-// Runs in the page.
-function inPage() {
+// Runs in the page: fonts and figures, walking into shadow roots.
+function fontsAndFigures() {
   const bad = [];
-  const note = (el, why) => bad.push(`${el.tagName.toLowerCase()}.${String(el.getAttribute('class') ?? '').slice(0, 40)}: ${why}`);
-  for (const el of document.querySelectorAll('body, body *')) {
-    for (const pseudo of [null, '::before', '::after']) {
-      const cs = getComputedStyle(el, pseudo);
-      if (pseudo && cs.content === 'none') continue;
-      const radii = ['borderTopLeftRadius', 'borderTopRightRadius', 'borderBottomLeftRadius', 'borderBottomRightRadius'].map((k) => cs[k]);
-      if (radii.some((r) => r !== '0px') && el.tagName.toLowerCase() !== 'circle') note(el, `radius ${radii.join(' ')}`);
-      if (cs.boxShadow !== 'none') note(el, `box-shadow ${cs.boxShadow}`);
-      if (cs.textShadow !== 'none') note(el, `text-shadow ${cs.textShadow}`);
-      if (/drop-shadow|blur/.test(cs.filter) || (cs.backdropFilter && cs.backdropFilter !== 'none')) note(el, 'filter or backdrop blur');
-      if (/gradient/.test(cs.backgroundImage)) note(el, 'gradient');
-      if (!pseudo && /(^|,\s*)"?(system-ui|Inter|-apple-system|BlinkMacSystemFont|Roboto|Helvetica Neue|Segoe UI)"?(,|$)/i.test(cs.fontFamily)) note(el, `font ${cs.fontFamily}`);
+  const where = (el) => `${el.tagName.toLowerCase()}${el.id ? `#${el.id}` : ''}.${String(el.getAttribute('class') ?? '').slice(0, 30)}`;
+  const banned = /(^|,\s*)"?(system-ui|Inter|-apple-system|BlinkMacSystemFont|Roboto|Helvetica Neue|Segoe UI|Arial)"?(,|$)/i;
+  // Every face that sets visible text: text nodes (a slotted node renders in its slot's style) and text inputs.
+  const visit = (root) => {
+    for (const el of root.querySelectorAll('*')) {
+      if (el.shadowRoot) visit(el.shadowRoot);
+      if (el.matches('input:not([type=checkbox]):not([type=radio]):not([type=hidden]), textarea') && (el.value || el.placeholder)) {
+        const family = getComputedStyle(el).fontFamily;
+        if (banned.test(family.split(',')[0])) bad.push(`${where(el)}: font ${family}`);
+      }
     }
-  }
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const n = walker.currentNode;
+      const el = n.assignedSlot ?? n.parentElement;
+      if (!el || !n.textContent.trim() || ['SCRIPT', 'STYLE'].includes(n.parentElement?.tagName)) continue;
+      const style = getComputedStyle(el);
+      if (style.display === 'none' || style.visibility === 'hidden') continue;
+      const first = style.fontFamily.split(',')[0];
+      if (banned.test(first)) bad.push(`${where(el)}: font ${style.fontFamily} for "${n.textContent.trim().slice(0, 24)}"`);
+      if (/\d/.test(n.textContent) && /Archivo Narrow/i.test(first)) bad.push(`${where(el)}: figures in Archivo Narrow: "${n.textContent.trim().slice(0, 24)}"`);
+    }
+  };
   document.querySelectorAll('details').forEach((d) => { d.open = true; });
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-  while (walker.nextNode()) {
-    const n = walker.currentNode;
-    const el = n.parentElement;
-    if (!el || !/\d/.test(n.textContent) || ['SCRIPT', 'STYLE'].includes(el.tagName)) continue;
-    if (/Archivo Narrow/.test(getComputedStyle(el).fontFamily.split(',')[0])) note(el, `figures in Archivo Narrow: "${n.textContent.trim().slice(0, 24)}"`);
-  }
+  visit(document);
   const width = (text, family) => {
     const s = document.createElement('span');
     s.style.cssText = `position:absolute;visibility:hidden;white-space:nowrap;font-size:20px;font-family:${family};font-variant-numeric:tabular-nums`;
@@ -61,32 +54,107 @@ function inPage() {
   const sans = getComputedStyle(document.body).fontFamily;
   const [a, b] = [width('1111', sans), width('0000', sans)];
   if (Math.abs(a - b) > 0.01) bad.push(`figures are not tabular in the body face: "1111" ${a.toFixed(2)}px, "0000" ${b.toFixed(2)}px`);
-  bad.push(...(document.documentElement.scrollWidth > document.documentElement.clientWidth ? ['horizontal overflow'] : []));
+  if (document.documentElement.scrollWidth > document.documentElement.clientWidth) bad.push('horizontal overflow');
   return bad;
 }
 
+// Runs in the page: the table rules (settings in the ruled-table spec): cells never wrap, every cell is
+// left aligned, the header row is bold, and a wide table scrolls inside its container, not the page.
+function tableRules() {
+  const bad = [];
+  const tables = [...document.querySelectorAll('[data-table-scroll]')];
+  if (!tables.length) bad.push('no data tables on the page');
+  tables.forEach((box, i) => {
+    const name = `table ${i + 1} "${box.getAttribute('aria-label') ?? ''}"`.slice(0, 60);
+    const cs = getComputedStyle(box);
+    if (!['auto', 'scroll'].includes(cs.overflowX)) bad.push(`${name}: its container does not scroll sideways`);
+    if (box.getBoundingClientRect().right > document.documentElement.clientWidth + 0.5) bad.push(`${name}: wider than the page`);
+    for (const cell of box.querySelectorAll('th, td')) {
+      const s = getComputedStyle(cell);
+      if (s.whiteSpace !== 'nowrap') { bad.push(`${name}: a cell wraps (white-space ${s.whiteSpace})`); break; }
+      if (!['left', 'start'].includes(s.textAlign)) { bad.push(`${name}: a cell is aligned ${s.textAlign}`); break; }
+    }
+    for (const th of box.querySelectorAll('thead th')) {
+      if (Number(getComputedStyle(th).fontWeight) < 700) { bad.push(`${name}: the header row is not bold`); break; }
+    }
+  });
+  return bad;
+}
+
+const colorsOf = () => {
+  const root = getComputedStyle(document.documentElement);
+  return ['--md-sys-color-surface', '--md-sys-color-primary', '--md-sys-color-on-surface'].map((v) => root.getPropertyValue(v).trim()).concat(getComputedStyle(document.body).backgroundColor).join(' ');
+};
+
+// Animations still running (including inside shadow roots) once the page has settled.
+const runningMotion = () => document.getAnimations({ subtree: true })
+  .filter((a) => a.playState === 'running')
+  .map((a) => {
+    const t = a.effect?.getComputedTiming?.() ?? {};
+    const target = a.effect?.target;
+    return { what: `${target?.tagName?.toLowerCase() ?? 'unknown'} ${a.animationName ?? a.transitionProperty ?? ''}`, duration: Number(t.duration) || 0, iterations: t.iterations };
+  })
+  .filter((m) => m.iterations === Infinity || m.duration > 1)
+  .map((m) => `running motion under reduced motion: ${m.what} (${m.duration}ms, ${m.iterations} iterations)`);
+
+// The focused element, looking through shadow roots, and whether it shows a focus indicator.
+const focusState = () => {
+  let el = document.activeElement;
+  const chain = [];
+  while (el) { chain.push(el); el = el.shadowRoot?.activeElement ?? null; }
+  const host = chain[0];
+  if (!host || host === document.body) return { id: 'body', visible: true };
+  const outlined = chain.some((e) => { const s = getComputedStyle(e); return s.outlineStyle !== 'none' && parseFloat(s.outlineWidth) > 0; });
+  // Material draws focus with md-focus-ring, or, on text fields and selects, a thicker primary outline (focused field).
+  const ring = chain.some((e) => e.focused === true || e.shadowRoot?.querySelector('md-focus-ring[visible], [focused]'));
+  const label = `${host.tagName.toLowerCase()}${host.id ? `#${host.id}` : ''} "${(host.getAttribute('aria-label') ?? host.getAttribute('label') ?? host.textContent ?? '').trim().slice(0, 30)}"`;
+  return { id: label, visible: outlined || ring };
+};
+
 async function main() {
   if (!existsSync(resolve(OUT, 'design-system/index.html'))) { console.log('web/out is missing: run npm run web:build'); process.exit(1); }
-  const require = createRequire(import.meta.url);
-  const { chromium } = require(process.env.PLAYWRIGHT_MODULE ?? 'playwright');
-  const server = await serve();
-  const url = `http://127.0.0.1:${server.address().port}/design-system/`;
-  const browser = await chromium.launch(process.env.PLAYWRIGHT_CHROMIUM ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM } : {});
-  let total = 0;
-  for (const scheme of ['light']) {
-    for (const width of [390, 1280]) {
-      const page = await (await browser.newContext({ viewport: { width, height: 900 }, colorScheme: scheme })).newPage();
-      await page.goto(url, { waitUntil: 'networkidle' });
-      await page.evaluate(() => document.fonts.ready);
-      const bad = [...new Set(await page.evaluate(inPage))];
-      for (const b of bad) console.log(`${width} ${scheme}: ${b}`);
-      total += bad.length;
+  const server = await serveOut();
+  const origin = `http://127.0.0.1:${server.address().port}`;
+  const browser = await launch();
+  const problems = [];
+  for (const width of [390, 1280]) {
+    const light = await browser.newContext({ viewport: { width, height: 900 }, colorScheme: 'light' });
+    const page = await openStyleGuide(light, origin);
+    const lightColors = await page.evaluate(colorsOf);
+    for (const b of new Set(await page.evaluate(fontsAndFigures))) problems.push(`${width}: ${b}`);
+    for (const b of new Set(await page.evaluate(tableRules))) problems.push(`${width}: ${b}`);
+
+    // Keyboard: every stop shows where focus is.
+    await page.goto(`${origin}/design-system/`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('html[data-settings-applied="true"]');
+    const seen = new Set();
+    for (let i = 0; i < 80; i += 1) {
+      await page.keyboard.press('Tab');
+      const f = await page.evaluate(focusState);
+      if (seen.has(f.id) && f.id !== 'body') continue;
+      seen.add(f.id);
+      if (!f.visible) problems.push(`${width}: no visible focus on ${f.id}`);
     }
+    if (seen.size < 20) problems.push(`${width}: only ${seen.size} keyboard stops reached`);
+    await light.close();
+
+    const dark = await browser.newContext({ viewport: { width, height: 900 }, colorScheme: 'dark' });
+    const darkPage = await openStyleGuide(dark, origin);
+    const darkColors = await darkPage.evaluate(colorsOf);
+    if (darkColors !== lightColors) problems.push(`${width}: the page changes under a dark color scheme (${darkColors} against ${lightColors})`);
+    await dark.close();
+
+    const calm = await browser.newContext({ viewport: { width, height: 900 }, colorScheme: 'light', reducedMotion: 'reduce' });
+    const calmPage = await openStyleGuide(calm, origin);
+    await calmPage.waitForTimeout(500);
+    for (const m of new Set(await calmPage.evaluate(runningMotion))) problems.push(`${width}: ${m}`);
+    await calm.close();
   }
   await browser.close();
   server.close();
-  console.log(`rendered audit: ${total} problem${total === 1 ? '' : 's'}`);
-  process.exit(total ? 1 : 0);
+  for (const p of problems) console.log(p);
+  console.log(`rendered audit: ${problems.length} problem${problems.length === 1 ? '' : 's'}`);
+  process.exit(problems.length ? 1 : 0);
 }
 
 main();

@@ -19,3 +19,4 @@ web/.next/
 web/out/
 web/*.tsbuildinfo
 breweries/
+web/public/design-settings/

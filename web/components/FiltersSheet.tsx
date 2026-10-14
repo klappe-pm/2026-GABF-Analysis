@@ -1,9 +1,10 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { useReducedMotion, useSettings } from '@/design/runtime';
+import { shape, vars } from '@/design/helpers';
 import { Button } from './Button';
 import { Checkbox } from './Checkbox';
-import { Icon } from './Icon';
 import { SearchField } from './SearchField';
 import { Select } from './Select';
 
@@ -12,8 +13,6 @@ export type FilterGroup = { key: string; title: string; fields: FilterField[] };
 
 export type FiltersCopy = {
   trigger: string;
-  triggerWithCount?: string;
-  triggerAccessible?: string;
   title: string;
   close: string;
   reset: string;
@@ -25,74 +24,79 @@ export type FiltersCopy = {
   partialNote: string;
 };
 
-type FormProps = { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[]; onClose?: () => void };
-
-// The one Filters control as a form: a search field, then When, What, Where, and Who as ruled sections of numbered fields.
-export function FiltersForm({ idPrefix, copy, groups, onClose }: FormProps) {
-  let n = 1;
-  const num = () => String(n++).padStart(2, '0');
+// The filter fields: a search field, then When, What, Where, and Who as groups of selects.
+function Fields({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[] }) {
   return (
-    <form className="flex max-h-full flex-col border-2 border-ink bg-ground" onSubmit={(e) => { e.preventDefault(); onClose?.(); }} aria-labelledby={`${idPrefix}-title`}>
-      <div className="flex items-center justify-between gap-3 border-b-2 border-ink bg-ground-tone px-4 py-3">
-        <h2 id={`${idPrefix}-title`} className="text-h3 text-ink">{copy.title}</h2>
-        {onClose ? (
-          <button type="button" onClick={onClose} className="inline-flex min-h-6 items-center gap-1 border border-rule-strong bg-ground px-2 py-1 font-narrow text-label uppercase text-ink state-hover:bg-ground-tone">
-            <Icon name="close" />
-            {copy.close}
-          </button>
-        ) : null}
-      </div>
-      <div className="flex flex-col gap-5 overflow-y-auto px-4 py-4">
-        <SearchField id={`${idPrefix}-search`} number={num()} label={copy.searchLabel} placeholder={copy.searchPlaceholder} />
-        {groups.map((g) => (
-          <fieldset key={g.key} className="flex flex-col gap-3">
-            <legend className="mb-3 w-full border-b border-green pb-1 text-h3 text-green">{g.title}</legend>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {g.fields.map((f) => <Select key={f.id} id={`${idPrefix}-${f.id}`} number={num()} label={f.label} options={f.options} />)}
-            </div>
-            {g.key === 'when' ? <Checkbox id={`${idPrefix}-partial`} label={copy.partialLabel} hint={copy.partialNote} /> : null}
-          </fieldset>
-        ))}
-      </div>
-      <div className="flex flex-wrap items-center justify-between gap-3 border-t-2 border-ink bg-ground-tone px-4 py-3">
-        <p role="status" className="text-data font-semibold tabular-nums text-ink">{copy.matchCount}</p>
-        <div className="flex gap-2">
-          <Button variant="secondary" type="reset">{copy.reset}</Button>
-          <Button variant="primary" type="submit">{copy.apply}</Button>
-        </div>
+    <div className="flex flex-col gap-6">
+      <SearchField id={`${idPrefix}-search`} label={copy.searchLabel} placeholder={copy.searchPlaceholder} />
+      {groups.map((g) => (
+        <fieldset key={g.key} className="flex flex-col gap-3">
+          <legend className="type-title-small mb-3 text-on-surface">{g.title}</legend>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {g.fields.map((f) => <Select key={f.id} id={`${idPrefix}-${f.id}`} label={f.label} options={f.options} />)}
+          </div>
+          {g.key === 'when' ? <Checkbox id={`${idPrefix}-partial`} label={copy.partialLabel} hint={copy.partialNote} /> : null}
+        </fieldset>
+      ))}
+      <p role="status" className="type-title-small tabular-nums text-on-surface">{copy.matchCount}</p>
+    </div>
+  );
+}
+
+// The filters laid out in place, as the sheet shows them when open.
+export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy: FiltersCopy; groups: FilterGroup[] }) {
+  const s = useSettings('filters-sheet');
+  return (
+    <form
+      aria-labelledby={`${idPrefix}-title`}
+      onSubmit={(e) => e.preventDefault()}
+      className="flex flex-col gap-4 bg-surface-container-high p-6"
+      style={{ borderRadius: shape(s.Shape ?? 'extra large'), maxWidth: `${Number(s['Width on wide screens'] ?? 560)}px` }}
+    >
+      <h2 id={`${idPrefix}-title`} className="type-headline-small text-on-surface">{copy.title}</h2>
+      <Fields idPrefix={idPrefix} copy={copy} groups={groups} />
+      <div className="flex flex-wrap justify-end gap-2">
+        <Button variant="secondary" type="reset">{copy.reset}</Button>
+        <Button variant="primary" type="submit">{copy.apply}</Button>
       </div>
     </form>
   );
 }
 
-// The header trigger and the sheet: a bottom sheet on phones and a panel under the header on wide screens,
-// both a modal dialog so focus stays inside until it closes. F opens it; Escape closes it.
-export function FiltersSheet({ copy, groups, activeCount = 0 }: { copy: FiltersCopy; groups: FilterGroup[]; activeCount?: number }) {
-  const ref = useRef<HTMLDialogElement>(null);
-  const close = () => ref.current?.close();
+// The Filters button and its Material dialog. F opens it; Escape closes it; focus stays inside while open.
+export function FiltersSheet({ copy, groups }: { copy: FiltersCopy; groups: FilterGroup[] }) {
+  const s = useSettings('filters-sheet');
+  const reduce = useReducedMotion();
+  const ref = useRef<HTMLElement & { show(): void; close(): void; open: boolean }>(null);
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      const el = e.target as HTMLElement | null;
-      if (e.key !== 'f' || e.metaKey || e.ctrlKey || e.altKey || el?.closest('input, select, textarea, [contenteditable]')) return;
-      if (ref.current && !ref.current.open) { e.preventDefault(); ref.current.showModal(); }
+      const el = e.composedPath()[0] as HTMLElement | null;
+      if (e.key !== 'f' || e.metaKey || e.ctrlKey || e.altKey || el?.closest?.('input, select, textarea, [contenteditable], md-outlined-text-field, md-filled-text-field')) return;
+      if (ref.current && !ref.current.open) { e.preventDefault(); ref.current.show(); }
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
   }, []);
+  const width = `min(${Number(s['Width on wide screens'] ?? 560)}px, 100% - 48px)`;
   return (
     <>
-      <Button
-        variant="secondary"
-        onClick={() => ref.current?.showModal()}
-        aria-haspopup="dialog"
-        aria-label={activeCount && copy.triggerAccessible ? copy.triggerAccessible : undefined}
-        className="font-narrow uppercase"
+      <Button variant="secondary" aria-haspopup="dialog" onClick={() => ref.current?.show()}>{copy.trigger}</Button>
+      <md-dialog
+        ref={ref}
+        quick={reduce || undefined}
+        aria-labelledby="filters-sheet-title"
+        style={vars({ '--md-dialog-container-shape': shape(s.Shape ?? 'extra large'), maxWidth: width, width })}
       >
-        {activeCount && copy.triggerWithCount ? copy.triggerWithCount : copy.trigger}
-      </Button>
-      <dialog ref={ref} className="filters-sheet" aria-labelledby="filters-sheet-title" onClick={(e) => { if (e.target === ref.current) close(); }}>
-        <FiltersForm idPrefix="filters-sheet" copy={copy} groups={groups} onClose={close} />
-      </dialog>
+        <div slot="headline" id="filters-sheet-title">{copy.title}</div>
+        <form slot="content" id="filters-sheet-form" method="dialog">
+          <Fields idPrefix="filters-sheet" copy={copy} groups={groups} />
+        </form>
+        <div slot="actions">
+          <Button variant="quiet" onClick={() => ref.current?.close()}>{copy.close}</Button>
+          <Button variant="secondary" type="reset" form="filters-sheet-form">{copy.reset}</Button>
+          <Button variant="primary" type="submit" form="filters-sheet-form" value="apply">{copy.apply}</Button>
+        </div>
+      </md-dialog>
     </>
   );
 }
