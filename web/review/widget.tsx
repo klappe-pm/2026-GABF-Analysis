@@ -9,8 +9,9 @@
 import './review.css';
 import { type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { useDesign } from '@/design/runtime';
 import { ReviewSettingsPanel } from '@/components/review/ReviewSettingsPanel';
-import { api, type ComponentInfo, keyWords, type Recorded, ReviewError, type Step, words } from './api';
+import { api, type ComponentInfo, keyWords, type Recorded, ReviewError, type Step } from './api';
 import { docRect, inLayer, scanMarks, type Spot, spotFor } from './dom';
 import { InlineEditor } from './inline-editor';
 import { copyPageFor } from './pages.mjs';
@@ -19,17 +20,27 @@ const LOCAL = new Set(['127.0.0.1', 'localhost', '[::1]', '::1']);
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 const routeOf = () => location.pathname.slice(BASE.length) || '/';
 const excerpt = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
-const TAGS: Record<string, string> = { h1: 'heading', h2: 'heading', h3: 'heading', h4: 'heading', a: 'link', button: 'button', p: 'paragraph', table: 'table', th: 'column heading', td: 'table cell', tr: 'table row', figure: 'chart', canvas: 'chart', svg: 'chart', img: 'image', li: 'list item', label: 'label', span: 'text', div: 'area', section: 'section', header: 'header', footer: 'footer', nav: 'navigation', dialog: 'dialog' };
-const tagWord = (t: string) => TAGS[t] ?? 'element';
-const article = (w: string) => (/^[aeiou]/.test(w) ? 'An' : 'A');
 
-export function WebReview() {
+// Every word the widget shows comes from the copy documents (pages/review-mode.md and the Not Found label of
+// global/labels.md). The site template reads them at build time and hands them over flat, by dotted key.
+export type Copy = Record<string, string>;
+const fill = (text: string, values: Record<string, string | number> = {}) => text.replace(/\{\{(\w+)\}\}/g, (m, name) => (name in values ? String(values[name]) : m));
+
+export function WebReview({ copy }: { copy?: Copy }) {
   const [local, setLocal] = useState(false);
   useEffect(() => setLocal(LOCAL.has(location.hostname)), []);
-  return local ? <Widget /> : null;
+  return local && copy ? <Widget copy={copy} /> : null;
 }
 
-function Widget() {
+function Widget({ copy }: { copy: Copy }) {
+  const c = useCallback((key: string, values?: Record<string, string | number>) => {
+    const text = copy[key];
+    if (text === undefined) { console.error(`review copy key ${key} is missing`); return ''; }
+    return fill(text, values);
+  }, [copy]);
+  const meta = useDesign().meta;
+  const title = (name: string) => meta[name]?.title ?? copy['not_found'];
+  const kind = (tag: string) => copy[`elements.${tag}`] ?? c('elements.other');
   const [open, setOpen] = useState(false);
   const [note, setNote] = useState('');
   const [cats, setCats] = useState<string[]>([]);
@@ -103,10 +114,10 @@ function Widget() {
     const spot = spotFor(target, point, list.length + 1);
     if (list.some((s) => s.selector === spot.selector && Math.abs(s.point.x - spot.point.x) < 3 && Math.abs(s.point.y - spot.point.y) < 3)) return;
     setSpots([...list, spot]);
-    setSaid(`Spot ${spot.n} added. Click the page to add another.`);
+    setSaid(c('messages.spot_added', { n: spot.n }));
     setBad(false);
     setTimeout(() => document.getElementById(`gfw-spot-${spot.n}`)?.scrollIntoView({ block: 'nearest' }), 0);
-  }, []);
+  }, [c]);
 
   const startEdit = useCallback((element: HTMLElement) => {
     const key = element.dataset.gfwKey;
@@ -132,7 +143,7 @@ function Widget() {
         if (pending.current) clearTimeout(pending.current);
         pending.current = null;
         if (keyed) startEdit(keyed);
-        else setSaid(target.closest('[data-gfw-multi]') ? 'This text is built from several copy entries or filled from data, so it cannot be edited in place.' : 'This is not page copy, so it cannot be edited here. It comes from the data or the page layout.');
+        else setSaid(target.closest('[data-gfw-multi]') ? c('messages.copy_multi') : c('messages.copy_none'));
         return;
       }
       const point = { x: e.pageX, y: e.pageY };
@@ -163,7 +174,7 @@ function Widget() {
       document.removeEventListener('click', click, true);
       document.removeEventListener('keydown', key, true);
     };
-  }, [open, addSpot, startEdit]);
+  }, [open, addSpot, startEdit, c]);
 
   // Shift and F opens and closes the panel from anywhere that is not a field.
   useEffect(() => {
@@ -183,12 +194,12 @@ function Widget() {
 
   const removeSpot = (spot: Spot) => {
     setSpots(spots.filter((s) => s !== spot).map((s, i) => ({ ...s, n: i + 1 })));
-    setSaid('Spot removed.');
+    setSaid(c('messages.spot_removed'));
     setBad(false);
   };
   const addComponent = () => {
-    const name = lists.find((c) => c.name === add.trim() || words(c.name).toLowerCase() === add.trim().toLowerCase())?.name;
-    if (!name) { setSaid('That is not a known component. Choose one from the list.'); setBad(true); return; }
+    const name = lists.find((x) => x.name === add.trim() || title(x.name).toLowerCase() === add.trim().toLowerCase())?.name;
+    if (!name) { setSaid(c('messages.component_unknown')); setBad(true); return; }
     if (!added.includes(name)) setAdded([...added, name]);
     setRemoved(removed.filter((n) => n !== name));
     setAdd('');
@@ -201,10 +212,10 @@ function Widget() {
 
   const send = async () => {
     if (sending) return;
-    if (!note.trim()) { setSaid('Write a note first.'); setBad(true); noteRef.current?.focus(); return; }
-    if (!step) { setSaid('Choose a journey step first. Feedback is recorded against a step.'); setBad(true); return; }
+    if (!note.trim()) { setSaid(c('messages.note_required')); setBad(true); noteRef.current?.focus(); return; }
+    if (!step) { setSaid(c('messages.step_required')); setBad(true); return; }
     setSending(true);
-    setSaid('Sending.');
+    setSaid(c('messages.sending'));
     setBad(false);
     try {
       const r = await api<{ id: string; redacted?: string[] }>('POST', '/review/feedback', {
@@ -225,11 +236,11 @@ function Widget() {
       setSpots([]);
       setAdded([]);
       setRemoved([]);
-      setSaid(`Registered as ${r.id} and accepted. Screenshots are being taken.${r.redacted?.length ? ' A value shaped like a secret was removed.' : ''}`);
+      setSaid(`${c('messages.registered', { id: r.id })}${r.redacted?.length ? ` ${c('messages.redacted')}` : ''}`);
       setTimeout(loadRecorded, 4000);
     } catch (e) {
       setBad(true);
-      setSaid(`Not recorded. ${e instanceof ReviewError && e.problems[0] ? e.problems[0] : (e as Error).message}`);
+      setSaid(c('messages.not_recorded', { reason: e instanceof ReviewError && e.problems[0] ? e.problems[0] : (e as Error).message }));
     } finally {
       setSending(false);
     }
@@ -256,48 +267,48 @@ function Widget() {
       <div className="gfw-layer" aria-hidden="true">
         {open && hover ? <div className="gfw-hover" style={{ left: hover.x, top: hover.y, width: hover.width, height: hover.height }} /> : null}
         {open ? pins.map((p) => (
-          <button key={p.n} type="button" className={`gfw-pin${p.detached ? ' detached' : ''}`} style={{ left: p.x, top: p.y }} aria-label={`Spot ${p.n}`} onClick={(e) => { e.stopPropagation(); document.getElementById(`gfw-spot-${p.n}`)?.scrollIntoView({ block: 'nearest' }); }}>{p.n}</button>
+          <button key={p.n} type="button" className={`gfw-pin${p.detached ? ' detached' : ''}`} style={{ left: p.x, top: p.y }} aria-label={c('panel.spot_pin_aria', { n: p.n })} onClick={(e) => { e.stopPropagation(); document.getElementById(`gfw-spot-${p.n}`)?.scrollIntoView({ block: 'nearest' }); }}>{p.n}</button>
         )) : null}
       </div>
-      {!open ? <button type="button" className="gfw-entry" aria-expanded="false" aria-controls="gfw-panel" onClick={() => setOpen(true)}>Feedback</button> : null}
+      {!open ? <button type="button" className="gfw-entry" aria-expanded="false" aria-controls="gfw-panel" onClick={() => setOpen(true)}>{c('panel.entry')}</button> : null}
       {open ? (
-        <aside id="gfw-panel" className="gfw-panel" aria-label="Feedback">
+        <aside id="gfw-panel" className="gfw-panel" aria-label={c('panel.title')}>
           <div className="gfw-head">
-            <h2>Feedback</h2>
-            <button type="button" className="gfw-btn" onClick={() => setOpen(false)}>Close</button>
+            <h2>{c('panel.title')}</h2>
+            <button type="button" className="gfw-btn" onClick={() => setOpen(false)}>{c('panel.close')}</button>
           </div>
           <div className="gfw-scroll">
             <div className="gfw-field">
-              <label htmlFor="gfw-note">Note</label>
-              <textarea id="gfw-note" ref={noteRef} rows={4} placeholder="Say what is wrong or what should change." value={note} onChange={(e) => setNote(e.target.value)} />
+              <label htmlFor="gfw-note">{c('panel.note_label')}</label>
+              <textarea id="gfw-note" ref={noteRef} rows={4} placeholder={c('panel.note_placeholder')} value={note} onChange={(e) => setNote(e.target.value)} />
             </div>
             <div className="gfw-field">
-              <label htmlFor="gfw-step">Journey step</label>
+              <label htmlFor="gfw-step">{c('panel.step_label')}</label>
               <select id="gfw-step" value={step} onChange={(e) => setStep(e.target.value)}>
-                <option value="">{matched.length ? 'Choose a step' : 'This page has no step. Choose one'}</option>
-                {matched.length ? <optgroup label="This page">{steps.filter((s) => matched.includes(s.id)).map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}</optgroup> : null}
-                <optgroup label="All steps">{steps.filter((s) => !matched.includes(s.id)).map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}</optgroup>
+                <option value="">{matched.length ? c('panel.step_choose') : c('panel.step_none')}</option>
+                {matched.length ? <optgroup label={c('panel.step_group_page')}>{steps.filter((s) => matched.includes(s.id)).map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}</optgroup> : null}
+                <optgroup label={c('panel.step_group_all')}>{steps.filter((s) => !matched.includes(s.id)).map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}</optgroup>
               </select>
             </div>
             <div className="gfw-field">
-              <h3 id="gfw-spots-head">Spots on the page</h3>
-              <p className="gfw-hint">Click the page to add a numbered pin. Add as many as the note needs. With none, the ticket is about the whole page. Double click page copy to edit it here.</p>
+              <h3 id="gfw-spots-head">{c('panel.spots_heading')}</h3>
+              <p className="gfw-hint">{c('panel.spots_hint')}</p>
               <ol className="gfw-spots" aria-labelledby="gfw-spots-head">
                 {spots.map((s) => (
                   <li key={s.id} id={`gfw-spot-${s.n}`} className="gfw-spot">
                     <span className="gfw-n" aria-hidden="true">{s.n}</span>
-                    <button type="button" className="gfw-spot-label" aria-label={`Show spot ${s.n} on the page`} onClick={() => { try { document.querySelector(s.selector)?.scrollIntoView({ block: 'center' }); } catch { /* the page changed */ } }}>
-                      {s.text ? `“${excerpt(s.text, 90)}”` : `${article(tagWord(s.tag))} ${tagWord(s.tag)}`}
-                      <small>{s.text ? `${article(tagWord(s.tag))} ${tagWord(s.tag)}` : 'No visible text'}</small>
+                    <button type="button" className="gfw-spot-label" aria-label={c('panel.spot_show', { n: s.n })} onClick={() => { try { document.querySelector(s.selector)?.scrollIntoView({ block: 'center' }); } catch { /* the page changed */ } }}>
+                      {s.text ? `\u201c${excerpt(s.text, 90)}\u201d` : kind(s.tag)}
+                      <small>{s.text ? kind(s.tag) : copy['not_found']}</small>
                     </button>
-                    <button type="button" className="gfw-btn small" aria-label={`Remove spot ${s.n}`} onClick={() => removeSpot(s)}>Remove</button>
+                    <button type="button" className="gfw-btn small" aria-label={c('panel.spot_remove_aria', { n: s.n })} onClick={() => removeSpot(s)}>{c('panel.spot_remove')}</button>
                   </li>
                 ))}
               </ol>
-              {spots.length ? null : <p className="gfw-empty">No spots yet.</p>}
+              {spots.length ? null : <p className="gfw-empty">{c('panel.spots_empty')}</p>}
             </div>
             <fieldset className="gfw-field">
-              <legend>Categories</legend>
+              <legend>{c('panel.categories_heading')}</legend>
               <div className="gfw-cats">
                 {(categories ?? []).map((c) => (
                   <label key={c} className="gfw-check">
@@ -305,35 +316,35 @@ function Widget() {
                     {c}
                   </label>
                 ))}
-                {categories && !categories.length ? <p className="gfw-hint">Categories are unavailable: the review server did not answer.</p> : null}
+                {categories && !categories.length ? <p className="gfw-hint">{c('panel.categories_unavailable')}</p> : null}
               </div>
             </fieldset>
             <div className="gfw-field">
-              <label htmlFor="gfw-comp-add">Design system components</label>
+              <label htmlFor="gfw-comp-add">{c('panel.components_heading')}</label>
               {components.length ? (
-                <ul className="gfw-tags" aria-label="Linked components">
+                <ul className="gfw-tags" aria-label={c('panel.components_label')}>
                   {components.map((name) => {
-                    const c = info(name);
+                    const ci = info(name);
                     return (
                       <li key={name} className="gfw-tag">
-                        {c?.spec && c.view ? (
+                        {ci?.spec && ci.view ? (
                           <>
-                            <a href={c.view} target="_blank" rel="noopener" aria-label={`${words(name)}, opens the design system file in a new tab`}>{words(name)}</a>
-                            <a className="gfw-obsidian" href={c.obsidian}>Open in Obsidian<span className="gfw-sr">: {words(name)}</span></a>
+                            <a href={ci.view} target="_blank" rel="noopener" aria-label={c('panel.component_open_aria', { name: title(name) })}>{title(name)}</a>
+                            <a className="gfw-obsidian" href={ci.obsidian}>{c('panel.component_obsidian')}<span className="gfw-sr">: {title(name)}</span></a>
                           </>
                         ) : (
-                          <><span>{words(name)}</span><small>No design system file yet</small></>
+                          <><span>{title(name)}</span><small>{copy['not_found']}</small></>
                         )}
-                        <button type="button" aria-label={`Remove ${words(name)}`} onClick={() => dropComponent(name)}>{'×'}</button>
+                        <button type="button" aria-label={c('panel.component_remove_aria', { name: title(name) })} onClick={() => dropComponent(name)}>{'×'}</button>
                       </li>
                     );
                   })}
                 </ul>
-              ) : <p className="gfw-hint">None linked.</p>}
+              ) : <p className="gfw-hint">{c('panel.components_none')}</p>}
               <div className="gfw-add">
-                <input id="gfw-comp-add" type="text" list="gfw-comp-list" autoComplete="off" placeholder="Add a component" value={add} onChange={(e) => setAdd(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); addComponent(); } }} />
-                <datalist id="gfw-comp-list">{lists.map((c) => <option key={c.name} value={words(c.name)} />)}</datalist>
-                <button type="button" className="gfw-btn" onClick={addComponent}>Add</button>
+                <input id="gfw-comp-add" type="text" list="gfw-comp-list" autoComplete="off" placeholder={c('panel.component_add_placeholder')} value={add} onChange={(e) => setAdd(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); addComponent(); } }} />
+                <datalist id="gfw-comp-list">{lists.map((x) => <option key={x.name} value={title(x.name)} />)}</datalist>
+                <button type="button" className="gfw-btn" onClick={addComponent}>{c('panel.component_add')}</button>
               </div>
             </div>
             <div className="gfw-field gfw-settings">
@@ -341,30 +352,30 @@ function Widget() {
             </div>
             {keys.length ? (
               <div className="gfw-field">
-                <h3>Content entries</h3>
-                <ul className="gfw-tags" aria-label="Linked content entries">{keys.map((k) => <li key={k} className="gfw-tag"><span>{keyWords(k)}</span></li>)}</ul>
+                <h3>{c('panel.content_heading')}</h3>
+                <ul className="gfw-tags" aria-label={c('panel.content_label')}>{keys.map((k) => <li key={k} className="gfw-tag"><span>{keyWords(k)}</span></li>)}</ul>
               </div>
             ) : null}
             <div className="gfw-field">
-              <h3>Recorded for this step</h3>
+              <h3>{c('panel.recorded_heading')}</h3>
               <ul className="gfw-recorded">
                 {recorded.length ? recorded.map((t) => (
                   <li key={t.id}>
-                    {t.id} {t.status.toLowerCase()}: {excerpt(t.title, 70)}
+                    {c('panel.recorded_item', { id: t.id, status: t.status.toLowerCase(), title: excerpt(t.title, 70) })}
                     {t.pipeline ? <> <strong>{t.pipeline.label}</strong></> : null}
-                    {(t.images ?? []).map((img) => <span key={img.url}> <a href={img.url} target="_blank" rel="noopener">{img.kind === 'page' ? 'Page image' : `Spot ${img.spot} image`}</a></span>)}
+                    {(t.images ?? []).map((img) => <span key={img.url}> <a href={img.url} target="_blank" rel="noopener">{img.kind === 'page' ? c('panel.image_page') : c('panel.image_spot', { n: img.spot ?? 0 })}</a></span>)}
                   </li>
-                )) : <li>Nothing yet.</li>}
+                )) : <li>{c('panel.recorded_none')}</li>}
               </ul>
             </div>
           </div>
           <div className="gfw-foot">
             <span className={`gfw-said${bad ? ' bad' : ''}`} role="status" aria-live="polite">{said}</span>
-            <button type="button" className="gfw-send" onClick={() => void send()} disabled={sending}>Send</button>
+            <button type="button" className="gfw-send" onClick={() => void send()} disabled={sending}>{c('panel.send')}</button>
           </div>
         </aside>
       ) : null}
-      {open && editing ? <InlineEditor element={editing.element} copyKey={editing.key} step={step} spot={editing.spot} onClose={() => setEditing(null)} onSaved={(id) => { setSaid(`Edited in place and recorded as ${id}, accepted.`); setBad(false); }} /> : null}
+      {open && editing ? <InlineEditor c={c} element={editing.element} copyKey={editing.key} step={step} spot={editing.spot} onClose={() => setEditing(null)} onSaved={(id) => { setSaid(c('messages.edited', { id })); setBad(false); }} /> : null}
     </div>
   );
   return createPortal(nodes, document.body);

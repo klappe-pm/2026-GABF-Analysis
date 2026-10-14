@@ -10,7 +10,7 @@ export class ReviewError extends Error {
 export async function api<T = unknown>(method: 'GET' | 'POST', path: string, body?: unknown): Promise<T> {
   const res = await fetch(path, method === 'GET' ? undefined : { method, headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
   const json = await res.json().catch(() => ({}));
-  if (!res.ok) throw new ReviewError(json.error || 'The review server refused the request.', json.problems ?? []);
+  if (!res.ok) throw new ReviewError(json.error || `${res.status} ${res.statusText}`.trim(), json.problems ?? []);
   return json as T;
 }
 

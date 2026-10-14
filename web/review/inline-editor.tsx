@@ -9,6 +9,7 @@ import { api, keyWords, type Preview, ReviewError } from './api';
 import { docRect, type Spot } from './dom';
 
 type Props = {
+  c: (key: string, values?: Record<string, string | number>) => string;
   element: HTMLElement;
   copyKey: string;
   step: string;
@@ -17,7 +18,7 @@ type Props = {
   onSaved: (id: string) => void;
 };
 
-export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }: Props) {
+export function InlineEditor({ c, element, copyKey, step, spot, onClose, onSaved }: Props) {
   const [value, setValue] = useState('');
   const [old, setOld] = useState<string | null>(null);
   const [preview, setPreview] = useState<Preview | null>(null);
@@ -64,10 +65,10 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
   const changed = old !== null && value !== old;
   const save = async () => {
     if (busy) return;
-    if (!changed) { setSaid('Nothing changed.'); setBad(false); return; }
+    if (!changed) { setSaid(c('editor.unchanged')); setBad(false); return; }
     setBusy(true);
     setBad(false);
-    setSaid('Saving and rebuilding the page. This takes a few seconds.');
+    setSaid(c('editor.saving'));
     try {
       const r = await api<{ id: string; rebuilt: boolean }>('POST', '/review/inline/save', {
         screen: step,
@@ -82,7 +83,7 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
         viewport: { width: innerWidth, height: innerHeight },
       });
       onSaved(r.id);
-      if (r.rebuilt) { setSaid(`Saved as ${r.id}. Reloading the page.`); setTimeout(() => location.reload(), 150); } else { setSaid(`Saved as ${r.id}, but the page could not be rebuilt. Run npm run web:review again to see it.`); setBad(true); setBusy(false); }
+      if (r.rebuilt) { setSaid(c('editor.saved_reload', { id: r.id })); setTimeout(() => location.reload(), 150); } else { setSaid(c('editor.saved_no_rebuild', { id: r.id })); setBad(true); setBusy(false); }
     } catch (e) {
       setBusy(false);
       setBad(true);
@@ -95,7 +96,7 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
     <div
       className="gfw-editor"
       role="group"
-      aria-label="Edit this text"
+      aria-label={c('editor.aria')}
       style={{ left: Math.max(4, box.x), top: box.y + box.height + 6, width: Math.min(Math.max(box.width + 16, 280), 520) }}
       onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); onClose(); } }}
     >
@@ -104,25 +105,25 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
         ref={input}
         className="gfw-editor-input"
         type="text"
-        aria-label="New text"
+        aria-label={c('editor.input_label')}
         value={value}
-        placeholder={old === null ? 'Loading the current text' : undefined}
+        placeholder={old === null ? c('editor.loading') : undefined}
         disabled={busy || old === null}
         style={{ font: style.font, letterSpacing: style.letterSpacing }}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); void save(); } }}
       />
-      {/\{\{/.test(value) ? <p className="gfw-editor-msg">Words in double braces are filled in by the page.</p> : null}
+      {/\{\{/.test(value) ? <p className="gfw-editor-msg">{c('editor.braces')}</p> : null}
       {said ? <p role="alert" className={`gfw-editor-msg${bad ? ' bad' : ''}`}>{said}</p> : null}
       {others.length ? (
         <div className="gfw-editor-related">
-          <p>The same words also appear in {others.length} other place{others.length === 1 ? '' : 's'}. Checked ones change too.</p>
+          <p>{others.length === 1 ? c('editor.related_one') : c('editor.related_many', { n: others.length })}</p>
           <ul>
             {others.map((i) => (
               <li key={i.id}>
                 <label>
                   <input type="checkbox" checked={take[i.id] !== false} onChange={(e) => setTake({ ...take, [i.id]: e.target.checked })} />
-                  {i.kind === 'copy' ? `Copy entry: ${keyWords(i.key ?? '')}` : `Page code: ${i.file.split('/').pop()}, line ${i.line}`}
+                  {i.kind === 'copy' ? c('editor.related_copy', { key: keyWords(i.key ?? '') }) : c('editor.related_code', { file: i.file.split('/').pop() ?? '', line: i.line ?? 0 })}
                 </label>
               </li>
             ))}
@@ -130,8 +131,8 @@ export function InlineEditor({ element, copyKey, step, spot, onClose, onSaved }:
         </div>
       ) : null}
       <div className="gfw-editor-bar">
-        <button type="button" className="gfw-send" onClick={() => void save()} disabled={busy || bad}>Save</button>
-        <button type="button" className="gfw-btn" onClick={onClose} disabled={busy}>Cancel</button>
+        <button type="button" className="gfw-send" onClick={() => void save()} disabled={busy || bad}>{c('editor.save')}</button>
+        <button type="button" className="gfw-btn" onClick={onClose} disabled={busy}>{c('editor.cancel')}</button>
       </div>
     </div>
   );
