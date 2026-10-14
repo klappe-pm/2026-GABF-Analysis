@@ -249,3 +249,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/BlackstoneBrewingCompany
 - Field pass 2026-10-13: A working brewery domain was found through Memphis Beer Blog. Its Our Beer page names Pumpkin Ale in its award list, so the beer list is used as beer-url because no dedicated page was found. Neither page names hop varieties.
 - Deep dive pass 2026-10-14: Beverage Industry's 2014 release item carries the company's description (mild pumpkin flavor with ginger, cinnamon and nutmeg) at 5.1% ABV and 13 IBU; no hop, malt or yeast is named.
 - Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, trade press): found nothing new; 2 pages tried. Trade press and brewery page only repeat the filled ABV 5.1, IBU 13 and spice description; no malts, hops, yeast or gravity published.

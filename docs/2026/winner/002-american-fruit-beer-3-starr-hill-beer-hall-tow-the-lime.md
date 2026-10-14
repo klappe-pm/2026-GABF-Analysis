@@ -296,3 +296,4 @@ Links checked 2026-10-14: [Website](https://starrhill.com/), [Instagram](https:/
 - Field pass 2026-10-13: The matching Untappd listing publishes 4.7% ABV and N/A IBU, with no named hops. A targeted brewery domain search found only the previously recorded medal post and home page; no additional brewery beer or tap list page was found.
 - Deep dive pass 2026-10-14: the brewery's medal post is the only brewery text; a web search found no hop, malt, yeast or IBU detail.
 - Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery news post and beer list re-read, web searches): found nothing new; 2 pages tried. Nothing new. The medal post only repeats the filled description; the beer list does not include Tow The Lime. Note: the post says the beer was canned for the first time in 2026.

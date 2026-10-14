@@ -37,6 +37,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "tasting-notes"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -46,6 +48,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "abv"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -55,6 +59,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "ibu"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -64,6 +70,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "srm"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -73,6 +81,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "og"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -82,6 +92,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "fg"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -91,6 +103,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "hops"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -100,6 +114,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "hop-form"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -109,6 +125,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "hop-use"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -118,6 +136,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -127,6 +147,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "malts"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -136,6 +158,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "yeast"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -145,6 +169,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "adjuncts"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -154,6 +180,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "water"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -163,6 +191,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
   - field: "process"
     sources-checked:
       - "https://verbotenbrewing.com/"
@@ -172,6 +202,8 @@ gaps:
       - "web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old"
       - "https://verbotenbrewing.com/sitemap.xml"
       - "https://verbotenbrewing.com/wp-sitemap.xml"
+      - "https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve--1731624976"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
 hop-profile: []
 hops: []
 ibu: null
@@ -270,8 +302,8 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old, [verbotenbrewing.com](https://verbotenbrewing.com/sitemap.xml), [verbotenbrewing.com](https://verbotenbrewing.com/wp-sitemap.xml).
-- Not Found: ABV, IBU. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old, [verbotenbrewing.com](https://verbotenbrewing.com/sitemap.xml), [verbotenbrewing.com](https://verbotenbrewing.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old, [verbotenbrewing.com](https://verbotenbrewing.com/sitemap.xml), [verbotenbrewing.com](https://verbotenbrewing.com/wp-sitemap.xml), [beerandbrewing.com](https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve-%2D1731624976), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/).
+- Not Found: ABV, IBU. Checked [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/ (menu loads by script, no text)), web search 2026-10-14: Verboten Coconut GO or Coconut Grow Old, [verbotenbrewing.com](https://verbotenbrewing.com/sitemap.xml), [verbotenbrewing.com](https://verbotenbrewing.com/wp-sitemap.xml), [beerandbrewing.com](https://www.beerandbrewing.com/review/verboten-brewing-grow-old-with-you-reserve-%2D1731624976), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -283,3 +315,4 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 - Field pass 2026-10-13: Menu and brewery domain searches found no readable matching brewery beer page or named hops. The Coconut GO (Grow Old) result remains an unverified listing; no ABV or IBU was accepted.
 - Deep dive pass 2026-10-14: the brewery beer menu renders no readable text and a web search found no Coconut GO listing; the name suggests a coconut version of Grow Old With You, but nothing published says so, so no figure is carried over.
 - Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web searches, press): found nothing new; 2 pages tried. Nothing found. Press confirms only the silver in Field Beer; no source describes Coconut GO, and no link to Grow Old With You is stated.

@@ -36,6 +36,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -44,6 +46,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -52,6 +56,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -60,6 +66,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -68,6 +76,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -76,6 +86,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -84,6 +96,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -92,6 +106,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -100,6 +116,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -108,6 +126,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -116,6 +136,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -124,6 +146,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -132,6 +156,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -140,6 +166,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906"
@@ -148,6 +176,8 @@ gaps:
       - "web searches recorded in the research notes"
       - "https://www.beechmountainbrewingco.com/sitemap.xml"
       - "https://www.beechmountainbrewingco.com/wp-sitemap.xml"
+      - "https://www.visitnc.com/listing/beech-mountain-brewing-co"
+      - "https://findrentals.com/things-to-do/beech-mountain/brewing-company"
 hop-profile: []
 hops: []
 ibu: null
@@ -248,8 +278,8 @@ Links checked 2026-10-14: [Website](https://www.beechmountainbrewingco.com/), [I
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/our-brews/), web searches recorded in the research notes, [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/sitemap.xml), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/wp-sitemap.xml).
-- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/our-brews/), web searches recorded in the research notes, [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/sitemap.xml), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/our-brews/), web searches recorded in the research notes, [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/sitemap.xml), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/wp-sitemap.xml), [visitnc.com](https://www.visitnc.com/listing/beech-mountain-brewing-co), [findrentals.com](https://findrentals.com/things-to-do/beech-mountain/brewing-company).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/beech-mountain-brewing-company-citrus-wheat/4437906), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/our-brews/), web searches recorded in the research notes, [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/sitemap.xml), [beechmountainbrewingco.com](https://www.beechmountainbrewingco.com/wp-sitemap.xml), [visitnc.com](https://www.visitnc.com/listing/beech-mountain-brewing-co), [findrentals.com](https://findrentals.com/things-to-do/beech-mountain/brewing-company), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -261,3 +291,4 @@ Links checked 2026-10-14: [Website](https://www.beechmountainbrewingco.com/), [I
 - Field pass 2026-10-13: The venue activity linked to a matching Citrus Wheat beer page publishing 5.5% ABV. IBU is N/A and hop varieties are absent. Distributor and brewery domain searches found no matching brewery beer page.
 - Deep dive pass 2026-10-14: the brewery's beer list was read again and does not include Citrus Wheat; no description, tasting notes or recipe was found.
 - Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web searches): found nothing new; 2 pages tried. Nothing found. No page from the brewery or press describes a Citrus Wheat; results were homebrew recipes and general brewery listings.

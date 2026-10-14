@@ -41,6 +41,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -54,6 +56,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -67,6 +71,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -80,6 +86,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -93,6 +101,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -106,6 +116,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -119,6 +131,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -132,6 +146,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -145,6 +161,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -158,6 +176,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -171,6 +191,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -184,6 +206,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -197,6 +221,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/wormtown-brewery-summer/3748097"
@@ -210,6 +236,8 @@ gaps:
       - "https://wormtownbrewery.com/wp-sitemap.xml"
       - "https://wormtownbrewery.com/menu/"
       - "https://wormtownbrewery.com/beers/be-hoppy/"
+      - "https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/"
+      - "https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2"
 hop-profile:
   - published: "Azacca"
     variety: "Azacca"
@@ -330,8 +358,8 @@ Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](h
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap_index.xml), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/wp-sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/menu/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/be-hoppy/).
-- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap_index.xml), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/wp-sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/menu/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/be-hoppy/), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap_index.xml), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/wp-sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/menu/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/be-hoppy/), [wormtownbrewery.com](https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/), [brewersfriend.com](https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, web search 2026-10-14: Wormtown Summer Ale with Azacca and BRU-1 (homebrew recipes only), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap_index.xml), [wormtownbrewery.com](https://wormtownbrewery.com/sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/wp-sitemap.xml), [wormtownbrewery.com](https://wormtownbrewery.com/menu/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/be-hoppy/), [wormtownbrewery.com](https://wormtownbrewery.com/be-hoppy-wins-bronze-at-the-2026-melbourne-royal-australian-international-beer-awards/), [brewersfriend.com](https://www.brewersfriend.com/homebrew/recipe/view/611003/summer-ale-v2), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -345,3 +373,4 @@ Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](h
 - Field pass 2026-10-13: Untappd names Wormtown and calls its Summer listing Summer Ale in the description, publishing 4.8% ABV and BRU-1 and Azacca hops. It labels the beer a golden ale; the category remains the official wheat category. IBU is N/A; no additional brewery beer page was found.
 - Deep dive pass 2026-10-14: a web search for the beer with its hops found only homebrew recipes; the brewery beer list still has no Summer Ale page, so description, tasting notes and brewing details stay unpublished.
 - Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web searches (brewery news, press, taproom listings)): found nothing new; 2 pages tried. Nothing new for any empty field. Searches found no Wormtown Summer Ale page, no 2026 GABF announcement, and only homebrew recipes and a 2018 trade listing (Cascade, Amarillo, Mosaic) for an older Summer Ale, which is a different release and was not recorded.

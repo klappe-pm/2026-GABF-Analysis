@@ -158,7 +158,8 @@ export function applyResult(text, ctx, result, { lookup = loadHopLookup(), file 
 
   if (tried.length || changed.size) {
     const got = wrote.length ? `wrote ${[...new Set(wrote)].join(', ')}` : 'found nothing new';
-    body = appendToSection(body, 'research-notes', `- Brewery site scrape ${retrieved ?? ''}: ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried (robots.txt obeyed, one request every few seconds per host).`);
+    const lead = result.note ? `Second deep dive pass ${retrieved ?? ''} (${method}): ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried. ${clean(result.note)}` : `Brewery site scrape ${retrieved ?? ''}: ${got}; ${tried.length} page${tried.length === 1 ? '' : 's'} tried (robots.txt obeyed, one request every few seconds per host).`;
+    body = appendToSection(body, 'research-notes', `- ${lead}`);
   }
 
   const keys = orderKeys([...new Set([...blocks.keys(), ...changed])]);

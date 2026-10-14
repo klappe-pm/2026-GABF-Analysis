@@ -269,3 +269,4 @@ Links checked 2026-10-14: [Website](https://babycatbrewery.com/), [Instagram](ht
 - Field pass 2026-10-13: A search excluding the already read brewery and Untappd sources found tourism coverage naming spruce tips but no IBU or named hops.
 - Deep dive pass 2026-10-14: the brewery page gives only the spruce tip conditioning; no tasting notes, hops, malts or yeast.
 - Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, web search): found nothing new; 1 page tried. Page lists only the filled description and 9% ABV (style Winter Warmer); search returned only unrelated Steamworks and Alaskan spruce beers.

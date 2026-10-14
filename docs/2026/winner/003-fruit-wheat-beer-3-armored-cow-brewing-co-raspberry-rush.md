@@ -41,6 +41,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -50,6 +52,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -59,6 +63,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -68,6 +74,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -77,6 +85,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -86,6 +96,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -95,6 +107,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -104,6 +118,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -113,6 +129,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -122,6 +140,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -131,6 +151,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670"
@@ -140,6 +162,8 @@ gaps:
       - "https://www.armoredcowbrewing.com/sitemap.xml"
       - "https://www.armoredcowbrewing.com/wp-sitemap.xml"
       - "https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml"
+      - "https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/"
+      - "https://www.charlottemagazine.com/?p=13997"
 hop-profile: []
 hops: []
 ibu: null
@@ -246,8 +270,8 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 
 ## gaps
 
-- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml).
-- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml).
+- Not Found: IBU. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml), [universitycitypartners.org](https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/), [charlottemagazine.com](https://www.charlottemagazine.com/?p=13997).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/armored-cow-brewing-co-raspberry-rush/5728670), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/on-tap), web searches recorded in the research notes, [armoredcowbrewing.com](https://www.armoredcowbrewing.com/sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/wp-sitemap.xml), [armoredcowbrewing.com](https://www.armoredcowbrewing.com/member-profiles_p_first-chunk-sitemap.xml), [universitycitypartners.org](https://universitycitypartners.org/2024/04/03/armored-cow-crafting-beer-creating-community/), [charlottemagazine.com](https://www.charlottemagazine.com/?p=13997).
 
 ## research-notes
 
@@ -258,3 +282,4 @@ Links checked 2026-10-14: [Website](https://www.armoredcowbrewing.com/), [Instag
 - Field pass 2026-10-13: A hop focused search surfaced local award coverage but no named hops or IBU; that local page could not be opened. Previously recorded Untappd N/A IBU remains unresolved.
 - Deep dive pass 2026-10-14: the tap list text, the brewery's only description, is also its tasting language; it names a German hefeweizen base but no yeast strain, hop or malt.
 - Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (web searches, press): found nothing new; 2 pages tried. Nothing found for Raspberry Rush; only general brewery coverage and unrelated beers.

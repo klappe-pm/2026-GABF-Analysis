@@ -252,3 +252,4 @@ Links checked 2026-10-14: [Website](https://www.thirdwindowbrewing.com/).
 - Field pass 2026-10-13: The Carpinteria tap list names Saison Automne but publishes neither IBU nor hops for it. The Motueka and Hallertau Mittelfrüh listing belongs to Petite Saison and was excluded.
 - Deep dive pass 2026-10-14: the brewery page publishes sensory notes and the full process (FP Farm malt and wheat, mixed culture refermentation, sage tea in secondary, honey bottle conditioning); it names no hops and no IBU.
 - Brewery site scrape 2026-10-14: found nothing new; 9 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery shop page): found nothing new; 1 page tried. Shop page states 'Golden orange in color' but no IBU, gravity, hops or named malts; this is the 2026 release page.

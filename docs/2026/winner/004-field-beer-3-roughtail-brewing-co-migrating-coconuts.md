@@ -303,3 +303,4 @@ Links checked 2026-10-14: [Website](https://roughtailbeer.com/), [Instagram](htt
 - Field pass 2026-10-13: A hop variety focused search excluding the previously read brewery, review and BeerMenus pages found no matching source naming hops.
 - Deep dive pass 2026-10-14: a web search found reviewers' tasting notes (Craft Beer and Brewing) but no brewery tasting notes, hops or malts; reviewer notes are not recorded as the beer's own.
 - Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, trade press, BeerMenus re-read): found nothing new; 3 pages tried. Nothing new. The brewery page has placeholder numbers only; the review's 'What the Brewers Say' repeats the filled description and gives no malts, hops, yeast or SRM.

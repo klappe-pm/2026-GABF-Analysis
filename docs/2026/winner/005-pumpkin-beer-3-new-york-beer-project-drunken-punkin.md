@@ -332,3 +332,4 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 - Field pass 2026-10-13: Winter Garden focused searches found local 2026 fall coverage naming Drunken Punkin at the Orlando location, but no ABV, IBU or hop varieties. The previously recorded Lockport specifications remain excluded and no matching brewery beer page was found.
 - Deep dive pass 2026-10-14: the brewery site was read again and has no Drunken Punkin page; the earlier passes' searches are the rest of the record.
 - Brewery site scrape 2026-10-14: found nothing new; 6 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site (403), web searches): found nothing new; 1 page tried. Brewery site returned 403 and searches surfaced no page for this beer from the brewery or press.

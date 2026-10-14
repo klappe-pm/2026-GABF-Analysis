@@ -293,3 +293,4 @@ Links checked 2026-10-14: [Website](https://solanobrew.com/), [Instagram](https:
 - Field pass 2026-10-13: The matching Solano listing publishes 24 IBU and no named hop varieties. Its ABV header says 10%, while its brewer description says 10.5%; ABV remains null because the same page conflicts.
 - Deep dive pass 2026-10-14: the brewery beer page renders no readable beer text.
 - Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, web searches): found nothing new; 1 page tried. Beer page shows only an image labelled Mama Rosa; searches found nothing on the beer.

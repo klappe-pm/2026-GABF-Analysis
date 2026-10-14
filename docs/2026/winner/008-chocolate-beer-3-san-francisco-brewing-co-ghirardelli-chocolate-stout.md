@@ -271,3 +271,4 @@ Links checked 2026-10-14: [Website](https://www.sfbrewingco.com/), [Untappd](htt
 - Field pass 2026-10-13: The plain Chocolate Stout listing has N/A IBU and no hops. Its 5% ABV differs from the existing brewery Imperial Stout value of 9.5%, which is retained. Chocolate-Coffee variants advertise 50 IBU in search results and were excluded.
 - Deep dive pass 2026-10-14: both drink menus were read again; they give the malt bill and cacao nibs but no tasting notes, hops or yeast.
 - Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery taproom menu page, web search): found nothing new; 1 page tried. Menu lists it as Ghirardelli Chocolate Imperial Stout, 9.5% ABV, with the already recorded malts and nibs; no IBU or hops published.

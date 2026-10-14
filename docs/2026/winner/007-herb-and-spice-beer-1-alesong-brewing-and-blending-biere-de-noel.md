@@ -261,3 +261,4 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 - Field pass 2026-10-13: The matching Untappd listing publishes 22 IBU and names no hops. An unrelated homebrew recipe was excluded.
 - Deep dive pass 2026-10-14: the brewery page's stats list brandy barrels, 10.9% ABV and Saccharomyces; it names no hops, malts or specific spices.
 - Brewery site scrape 2026-10-14: found nothing new; 7 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site): found nothing new; 1 page tried. Page confirms ABV 10.9, Saccharomyces, brandy barrels, release November 2025; no IBU, color, malts, hops or named spices.

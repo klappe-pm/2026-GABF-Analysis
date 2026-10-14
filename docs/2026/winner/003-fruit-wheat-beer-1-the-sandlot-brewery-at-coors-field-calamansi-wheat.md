@@ -36,6 +36,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "tasting-notes"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -44,6 +48,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "abv"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -52,6 +60,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "ibu"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -60,6 +72,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "srm"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -68,6 +84,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "og"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -76,6 +96,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "fg"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -84,6 +108,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "hops"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -92,6 +120,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "hop-form"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -100,6 +132,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "hop-use"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -108,6 +144,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "lot-or-farm"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -116,6 +156,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "malts"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -124,6 +168,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "yeast"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -132,6 +180,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "adjuncts"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -140,6 +192,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "water"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -148,6 +204,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
   - field: "process"
     sources-checked:
       - "web searches recorded in the research notes"
@@ -156,6 +216,10 @@ gaps:
       - "https://www.sandlotbrewery.com/sitemap.xml"
       - "https://www.sandlotbrewery.com/wp-sitemap.xml"
       - "https://www.sandlotbrewery.com/"
+      - "https://coloradobrewerylist.com/brewery/the-sandlot-brewery"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/"
+      - "https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners"
 hop-profile: []
 hops: []
 ibu: null
@@ -251,8 +315,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/).
-- Not Found: ABV, IBU. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/the-sandlot-brewery), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/), [westword.com](https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/), [axios.com](https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners).
+- Not Found: ABV, IBU. Checked web searches recorded in the research notes, web search 2026-10-14: Sandlot Brewery Calamansi Wheat (Westword and Axios coverage only), [sandlotbrewery.com](https://www.sandlotbrewery.com/ (HTTP 403)), [sandlotbrewery.com](https://www.sandlotbrewery.com/sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/wp-sitemap.xml), [sandlotbrewery.com](https://www.sandlotbrewery.com/), [coloradobrewerylist.com](https://coloradobrewerylist.com/brewery/the-sandlot-brewery), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/), [westword.com](https://www.westword.com/food-drink/2026-gabf-winners-colorado-40948200/), [axios.com](https://www.axios.com/local/denver/2026/10/13/colorado-great-american-beer-festival-2026-medal-winners), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -263,3 +327,4 @@ No brewery links have been checked yet.
 - Field pass 2026-10-13: A distributor focused search and a separate ABV and hops search surfaced medal coverage without specifications. No matching ABV, IBU, brewery beer page or named hops were found; the Blue Moon Calamansi Gose is a separate beer.
 - Deep dive pass 2026-10-14: a web search found only older Sandlot medal coverage, and the brewery site refused automated readers; nothing about Calamansi Wheat is published.
 - Brewery site scrape 2026-10-14: found nothing new; 3 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (press (GABF coverage), directory search): found nothing new; 4 pages tried. No specifications found. Medal confirmed by press; Westword and Axios returned 403 and the Denver Gazette lists only medal and category.

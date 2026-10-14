@@ -39,6 +39,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -49,6 +50,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "abv"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -59,6 +61,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "ibu"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -69,6 +72,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "srm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -79,6 +83,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "og"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -89,6 +94,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "fg"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -99,6 +105,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "hops"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -109,6 +116,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "hop-form"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -119,6 +127,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "hop-use"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -129,6 +138,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -139,6 +149,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "malts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -149,6 +160,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "yeast"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -159,6 +171,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "adjuncts"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -169,6 +182,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "water"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -179,6 +193,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
   - field: "process"
     sources-checked:
       - "https://www.liquidmechanicsbrewing.com/"
@@ -189,6 +204,7 @@ gaps:
       - "http://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/sitemap.xml"
       - "https://www.liquidmechanicsbrewing.com/wp-sitemap.xml"
+      - "https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup"
 hop-profile: []
 hops: []
 ibu: null
@@ -290,8 +306,8 @@ Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [U
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml).
-- Not Found: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml), Catalog.beer search by beer and brewery name.
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml), [bizwest.com](https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup).
+- Not Found: ABV, IBU. Checked [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/awards), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/tasting-room), web searches recorded in the research notes, web search 2026-10-14: El Poblano Borracho Liquid Mechanics (no beer results), [liquidmechanicsbrewing.com](http://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/sitemap.xml), [liquidmechanicsbrewing.com](https://www.liquidmechanicsbrewing.com/wp-sitemap.xml), [bizwest.com](https://bizwest.com/2025/01/27/lafayette-brewers-punch-above-their-weight-at-colorado-brewers-cup), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -303,3 +319,4 @@ Links checked 2026-10-14: [Website](https://www.liquidmechanicsbrewing.com/), [U
 - Field pass 2026-10-13: A retailer focused exact-name search found brewery activity and medal coverage, without a new specification source. ABV, IBU, brewery beer page and named hops remain unverified.
 - Deep dive pass 2026-10-14: an exact-name web search returned nothing about the beer.
 - Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (brewery site, press): found nothing new; 3 pages tried. Press only lists the beer as an award winner (2024 GABF chili gold and Colorado Brewers Cup gold); no ingredients or specs published. Brewery menu rotates and does not list it.

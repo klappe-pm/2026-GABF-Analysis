@@ -38,6 +38,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -48,6 +52,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -58,6 +66,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -68,6 +80,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -78,6 +94,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -88,6 +108,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -98,6 +122,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -108,6 +136,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -118,6 +150,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -128,6 +164,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -138,6 +178,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -148,6 +192,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -158,6 +206,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536"
@@ -168,6 +220,10 @@ gaps:
       - "https://www.losdospotrillos.com/wp-sitemap.xml"
       - "https://www.losdospotrillos.com/"
       - "https://www.losdospotrillos.com/menu"
+      - "https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/"
+      - "https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/"
+      - "https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/"
+      - "https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf"
 hop-profile: []
 hops: []
 ibu: 21
@@ -265,7 +321,7 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 
 ## gaps
 
-- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)), [losdospotrillos.com](https://www.losdospotrillos.com/sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/wp-sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/), [losdospotrillos.com](https://www.losdospotrillos.com/menu).
+- Not Found: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/los-dos-potrillos-cerveceria-agua-fresca/3783536), web searches recorded in the research notes, web search 2026-10-14: Los Dos Potrillos Agua Fresca beer (restaurant coverage only), [ldpbeer.com](https://www.ldpbeer.com/ (HTTP 403)), [losdospotrillos.com](https://www.losdospotrillos.com/sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/wp-sitemap.xml), [losdospotrillos.com](https://www.losdospotrillos.com/), [losdospotrillos.com](https://www.losdospotrillos.com/menu), [westword.com](https://www.westword.com/food-drink/los-dos-potrillos-brewery-canning-daniel-ramirez-12725559/), [elrestaurante.com](https://elrestaurante.com/news/denver-mexican-restaurant-pushing-its-brewing-limits/), [denvergazette.com](https://www.denvergazette.com/outtherecolorado/2026/10/12/colorado-breweries-cideries-take-home-41-awards-at-beer-festival-2/), [cdn.greatamericanbeerfestival.com](https://cdn.greatamericanbeerfestival.com/wp-content/uploads/GABF-2026-Winners-List.pdf).
 
 ## research-notes
 
@@ -277,3 +333,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/LDPCerveceria).
 - Field pass 2026-10-13: The matching Untappd listing publishes 5% ABV and 21 IBU. Hop varieties were not named; a targeted brewery domain search found no beer page.
 - Deep dive pass 2026-10-14: the brewery's beer site ldpbeer.com returned HTTP 403 to every reader, and a web search found no description or recipe for Agua Fresca.
 - Brewery site scrape 2026-10-14: found nothing new; 4 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (press search, GABF winners list surfaced): found nothing new; 4 pages tried. Nothing recorded. A search summary attributes a prickly pear and lime recipe to an Untappd listing, which is a barred source, so it was not used or verified; Westword returned 403 and El Restaurante has no Agua Fresca detail.

@@ -42,6 +42,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -54,6 +58,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -66,6 +74,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -78,6 +90,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -90,6 +106,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -102,6 +122,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -114,6 +138,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -126,6 +154,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
@@ -138,6 +170,10 @@ gaps:
       - "https://www.sunriverbrewingcompany.com/wp-sitemap.xml"
       - "https://www.sunriverbrewingcompany.com/"
       - "https://www.sunriverbrewingcompany.com/beer"
+      - "https://bendbulletin.com/?p=645783"
+      - "https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing"
+      - "https://www.beertasting.com/en/beers/sunriver-fuzztail"
+      - "https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz"
 hop-profile:
   - published: "Cascade"
     variety: "Cascade"
@@ -281,7 +317,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/wp-sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer).
+- Not Found: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [untappd.com](https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/fuzztail), [thewaterholetavern.com](https://www.thewaterholetavern.com/menu?menu=menu), web searches recorded in the research notes, [bendbulletin.com](https://bendbulletin.com/2019/07/21/the-perfect-summer-beer-american-wheat-ale/), web search 2026-10-14: Fuzztail yeast, IBU, SRM, [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/wp-sitemap.xml), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [bendbulletin.com](https://bendbulletin.com/?p=645783), [runoregonblog.com](https://runoregonblog.com/2018/03/18/kegs-legs-beers-of-the-week-by-sunriver-brewing), [beertasting.com](https://www.beertasting.com/en/beers/sunriver-fuzztail), [app.warehouserunner.com](https://app.warehouserunner.com/costco/1861080-sunriver-brewing-fuzztail-hefeweizen-bend-or-6-12oz).
 
 ## research-notes
 
@@ -294,3 +330,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - Catalog.beer 2026-10-14: [Catalog.beer: Fuzztail](https://catalog.beer/beer/376ecaa3-99be-4c45-9292-1264ed22073f) lists 5% ABV, 20 IBU, style "Light American Wheat Ale or Lager with Yeast" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
 - Deep dive pass 2026-10-14: the tasting notes are the sensory lines of the brewery's own description; The Bulletin (July 21, 2019) describes the beer as unfiltered and hazy at 5% ABV and 20 IBU. No yeast strain, gravity or color figure was found; the brewery calls its hops hand selected without naming a lot or farm.
 - Brewery site scrape 2026-10-14: found nothing new; 5 pages tried (robots.txt obeyed, one request every few seconds per host).
+- Second deep dive pass 2026-10-14 (press quoting the brewery, distributor/retail listing search): found nothing new; 5 pages tried. No new values. A 2018 blog confirms 5% ABV and 20 IBU (already filled); no yeast, OG, FG, SRM, water or hop form/lot stated. One beer database lists Green Bullet in place of Chinook, but it is not the brewery and was not recorded.
