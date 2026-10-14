@@ -30,84 +30,92 @@ description:
 entries: 48
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
-      - "https://www.zerogravitybeer.com/"
-      - "https://www.zerogravitybeer.com/coneheadzero"
-      - "web searches recorded in the research notes"
   - field: "abv"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796"
       - "https://www.zerogravitybeer.com/"
       - "https://www.zerogravitybeer.com/coneheadzero"
       - "web searches recorded in the research notes"
+      - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
 hop-profile:
   - published: "Motueka"
     variety: "Motueka"
@@ -152,9 +160,12 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.zerogravitybeer.com/"
   - "https://www.zerogravitybeer.com/coneheadzero"
+  - "https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png"
 srm: null
 style: "Non-Alc IPA"
-tasting-notes: null
+tasting-notes:
+  text: "Motueka, Strata, Simcoe and Nelson Sauvin hops give this NA IPA aromas of citrus and tropical fruit."
+  source: "https://www.zerogravitybeer.com/coneheadzero"
 water: null
 yeast: []
 ---
@@ -190,7 +201,9 @@ Source: [Zero Gravity: Conehead Zero](https://www.zerogravitybeer.com/coneheadze
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Motueka, Strata, Simcoe and Nelson Sauvin hops give this NA IPA aromas of citrus and tropical fruit.
+
+Source: [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero)
 
 ## ingredients
 
@@ -242,8 +255,8 @@ Links checked 2026-10-14: [Website](https://www.zerogravitybeer.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, Catalog.beer search by beer and brewery name, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/zero-gravity-beer-conehead-zero/6535796), [zerogravitybeer.com](https://www.zerogravitybeer.com/), [zerogravitybeer.com](https://www.zerogravitybeer.com/coneheadzero), web searches recorded in the research notes, [zerogravitybeer.com](https://www.zerogravitybeer.com/s/Conehead_Zero_Sell_Sheet_Final.png).
 
 ## research-notes
 
@@ -252,3 +265,4 @@ Links checked 2026-10-14: [Website](https://www.zerogravitybeer.com/), [Instagra
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing gives N/A IBU and 0.5% ABV against the existing brewery less than 0.5% bound. No measured alcohol value was established, so ABV remains null; the alcoholic Conehead's 49 IBU was excluded.
+- Deep dive pass 2026-10-14: the brewery's Conehead Zero sell sheet repeats the page text and says less than 0.5% alcohol by volume; it gives no IBU, yeast or gravity.

@@ -226,3 +226,4 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found matching specifications and the honey variety on UPP's Untappd beer list. No dedicated brewery page or hop varieties were found.
 - Field pass 2026-10-13: A hop and menu focused search excluding the previously recorded Untappd source found competition coverage but no brewery beer page or hop varieties.
+- Deep dive pass 2026-10-14: the brewery site search returns only blog posts, none describing Buzz Box beyond its Ulmo honey.

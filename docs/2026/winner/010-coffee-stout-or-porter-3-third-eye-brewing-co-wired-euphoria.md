@@ -38,6 +38,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "abv"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -45,6 +47,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "ibu"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -52,6 +56,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "srm"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -59,6 +65,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "og"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -66,6 +74,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "fg"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -73,6 +83,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "hops"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -80,6 +92,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "hop-form"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -87,6 +101,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "hop-use"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -94,6 +110,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "lot-or-farm"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -101,6 +119,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "malts"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -108,6 +128,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "yeast"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -115,6 +137,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "water"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -122,6 +146,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
   - field: "process"
     sources-checked:
       - "https://thirdeyebrewingco.com/"
@@ -129,6 +155,8 @@ gaps:
       - "https://thirdeyebrewingco.com/beer/"
       - "https://thirdeyebrewingco.com/whats-on-tap-hamilton/"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: Third Eye Brewing Wired Euphoria"
+      - "https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/"
 hop-profile: []
 hops: []
 ibu: null
@@ -234,8 +262,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes.
-- Not published: ABV, IBU. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/).
+- Not published: ABV, IBU. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, web search 2026-10-14: Third Eye Brewing Wired Euphoria, [porchdrinking.com](https://porchdrinking.com/articles/2022/09/22/great-american-beer-festival-pouring-guide-ohio-breweries/), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -244,3 +272,4 @@ No brewery links have been checked yet.
 - Web searches found no Untappd listing, ABV or IBU.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Specification and Untappd focused searches found earlier Ohio medal coverage but no verified ABV, IBU, brewery beer page or hop names; unrelated Euphoria beers were excluded.
+- Deep dive pass 2026-10-14: a web search found only CityBeat's mention of an Ohio Craft Brewers silver for the coffee stout; no description, recipe or figures.

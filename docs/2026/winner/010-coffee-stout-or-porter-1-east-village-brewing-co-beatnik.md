@@ -37,6 +37,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "tasting-notes"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -45,6 +46,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "srm"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -53,6 +55,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "og"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -61,6 +64,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "fg"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -69,6 +73,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "hops"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -77,6 +82,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "hop-form"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -85,6 +91,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "hop-use"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -93,6 +100,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "lot-or-farm"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -101,6 +109,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "malts"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -109,6 +118,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "yeast"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -117,6 +127,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "water"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -125,6 +136,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
   - field: "process"
     sources-checked:
       - "https://eastvillagebrew.com/"
@@ -133,6 +145,7 @@ gaps:
       - "https://sandiegobeer.news/gabf-2026-winners/"
       - "https://untappd.com/v/the-east-village-brewing-company/11471469"
       - "web searches recorded in the research notes"
+      - "web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter"
 hop-profile: []
 hops: []
 ibu: 20
@@ -233,7 +246,7 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [eastvillagebrew.com](https://eastvillagebrew.com/), [eastvillagebrew.com](https://eastvillagebrew.com/on-tap), [eastvillagebrew.com](https://eastvillagebrew.com/recipes-2), [web page](https://sandiegobeer.news/gabf-2026-winners/), [untappd.com](https://untappd.com/v/the-east-village-brewing-company/11471469), web searches recorded in the research notes, web search 2026-10-14: East Village Brewing Beatnik coffee stout or porter.
 
 ## research-notes
 
@@ -242,3 +255,4 @@ Links checked 2026-10-14: [Website](https://eastvillagebrew.com/), [Instagram](h
 - The Bird Rock coffee attribution comes from press, not the brewery.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The taproom menu names Beatnik from East Village and publishes 6.3% ABV and 20 IBU. No named hops or new brewery beer page were found.
+- Deep dive pass 2026-10-14: the tap list does not name Beatnik and a web search found no description or recipe.
