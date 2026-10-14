@@ -34,76 +34,91 @@ gaps:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "tasting-notes"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "ibu"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "srm"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "og"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "fg"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "hops"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "hop-form"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "hop-use"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "malts"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "yeast"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "adjuncts"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "water"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
   - field: "process"
     sources-checked:
       - "https://www.patternbreakbrewing.com/"
       - "https://www.patternbreakbrewing.com/beermenu"
       - "web searches recorded in the research notes"
+      - "https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)"
 hop-profile: []
 hops: []
 ibu: null
@@ -198,8 +213,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes.
-- Not published: IBU. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)).
+- Not published: IBU. Checked [patternbreakbrewing.com](https://www.patternbreakbrewing.com/), [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu), web searches recorded in the research notes, [patternbreakbrewing.com](https://www.patternbreakbrewing.com/beermenu (menu loads by script, no text)), Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -208,3 +223,4 @@ No brewery links have been checked yet.
 - The home page mentions no awards. Web search was unavailable for part of this session, so Untappd and press listings were not checked.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Boulder Weekly's August 2026 account mentions Negroni IPA but supplies neither IBU nor hops; no source explicitly ties that listing to the medal name Negroni Ale.
+- Deep dive pass 2026-10-14: the brewery beer menu renders no readable text.

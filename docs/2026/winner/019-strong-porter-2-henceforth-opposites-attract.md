@@ -232,3 +232,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Exact-name searches with ABV, Untappd and 2026 GABF produced no matching specifications. The brewery's current beer menu was readable but still did not list Opposites Attract; nothing more was found.
 - Field pass 2026-10-13: BeerMenus and retailer searches yielded no matching ABV, IBU, brewery beer page or named hops; previous exact-name searches and brewery menu checks were not repeated.
+- Deep dive pass 2026-10-14: the brewery site was read again; it does not list Opposites Attract.

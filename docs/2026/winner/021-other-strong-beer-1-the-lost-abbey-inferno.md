@@ -31,84 +31,83 @@ description:
 entries: 24
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://lostabbey.com/"
-      - "https://lostabbey.com/inferno"
-      - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://lostabbey.com/"
-      - "https://lostabbey.com/inferno"
-      - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "fg"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "hops"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "hop-form"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "hop-use"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "lot-or-farm"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "malts"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "yeast"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "adjuncts"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "water"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
   - field: "process"
     sources-checked:
       - "https://lostabbey.com/"
       - "https://lostabbey.com/inferno"
       - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
       - "web searches recorded in the research notes"
+      - "https://www.lostabbey.com/inferno"
 hop-profile: []
 hops: []
 ibu: 25
@@ -122,9 +121,13 @@ sources:
   - "https://lostabbey.com/inferno"
   - "https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Straw yellow (no SRM number published)"
+  source: "https://www.lostabbey.com/inferno"
 style: "Belgian style Golden Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Your first sip will reveal a faint malt sweetness that will be crushed by the Overlord's love of sugar and spice and all things nice. ... Rumor has it the beer is straw yellow, bone dry, and simply labeled Inferno."
+  source: "https://www.lostabbey.com/inferno"
 water: null
 yeast: []
 ---
@@ -160,7 +163,9 @@ Source: [Lost Abbey: Inferno](https://lostabbey.com/inferno)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Your first sip will reveal a faint malt sweetness that will be crushed by the Overlord's love of sugar and spice and all things nice. ... Rumor has it the beer is straw yellow, bone dry, and simply labeled Inferno.
+
+Source: [lostabbey.com](https://www.lostabbey.com/inferno)
 
 ## ingredients
 
@@ -174,7 +179,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Straw yellow (no SRM number published) | [lostabbey.com](https://www.lostabbey.com/inferno) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -207,7 +212,7 @@ Links checked 2026-10-14: [Website](https://lostabbey.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [lostabbey.com](https://lostabbey.com/), [lostabbey.com](https://lostabbey.com/inferno), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [lostabbey.com](https://lostabbey.com/), [lostabbey.com](https://lostabbey.com/inferno), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-lost-abbey-inferno-1756228290), web searches recorded in the research notes, [lostabbey.com](https://www.lostabbey.com/inferno).
 
 ## research-notes
 
@@ -217,3 +222,4 @@ Links checked 2026-10-14: [Website](https://lostabbey.com/), [Instagram](https:/
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU or ingredients.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Craft Beer and Brewing review publishes 25 IBU; no hop varieties are named.
+- Deep dive pass 2026-10-14: the brewery page gives tasting language, color, 9.0% ABV and the Belgian golden ale style; it names no hops, malts or yeast.

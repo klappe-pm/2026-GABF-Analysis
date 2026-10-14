@@ -249,3 +249,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd, ABV and BeerMenus searches found mentions but no verified specifications. The Stout Week result's porter figures belong to Kronan at The Bier Garden, not Riverside Rhapsody's Baltic Porter, and were excluded.
 - Field pass 2026-10-13: Retailer-focused searches yielded no matching ABV, IBU, brewery beer page or named hops; previous Untappd and BeerMenus searches were not repeated.
+- Deep dive pass 2026-10-14: the brewery site was read again; it has no Baltic Porter description.

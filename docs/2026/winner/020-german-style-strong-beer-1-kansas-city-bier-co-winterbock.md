@@ -30,18 +30,6 @@ description:
 entries: 39
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://kcbier.com/biers/winterbock/"
-      - "https://www.beerandbrewing.com/review/winterbock"
-      - "https://www.porchdrinking.com/?p=204145"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://kcbier.com/biers/winterbock/"
-      - "https://www.beerandbrewing.com/review/winterbock"
-      - "https://www.porchdrinking.com/?p=204145"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://kcbier.com/biers/winterbock/"
@@ -90,12 +78,6 @@ gaps:
       - "https://www.beerandbrewing.com/review/winterbock"
       - "https://www.porchdrinking.com/?p=204145"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://kcbier.com/biers/winterbock/"
-      - "https://www.beerandbrewing.com/review/winterbock"
-      - "https://www.porchdrinking.com/?p=204145"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Perle"
     variety: "Perle"
@@ -112,16 +94,22 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Double decoction and natural carbonation"
+  source: "https://www.porchdrinking.com/?p=204145"
 sources:
   - "https://catalog.beer/beer/3e5257f4-8638-4081-b631-d8d692362073"
   - "https://kcbier.com/biers/winterbock/"
   - "https://www.beerandbrewing.com/review/winterbock"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.porchdrinking.com/?p=204145"
-srm: null
+srm:
+  value: "Dark Brown (no SRM number published)"
+  source: "https://kcbier.com/biers/winterbock/"
 style: "Doppelbock"
-tasting-notes: null
+tasting-notes:
+  text: "Dark and strong. Rich malt flavors of caramel and dark chocolate. Mild bitterness. Clean, smooth finish."
+  source: "https://kcbier.com/biers/winterbock/"
 water: null
 yeast: []
 ---
@@ -157,7 +145,9 @@ Source: [Craft Beer and Brewing: Winterbock review](https://www.beerandbrewing.c
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Dark and strong. Rich malt flavors of caramel and dark chocolate. Mild bitterness. Clean, smooth finish.
+
+Source: [kcbier.com](https://kcbier.com/biers/winterbock/)
 
 ## ingredients
 
@@ -173,11 +163,11 @@ The brewery's 2021 release text, carried by Porch Drinking, says Winterbock uses
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Dark Brown (no SRM number published) | [kcbier.com](https://kcbier.com/biers/winterbock/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Double decoction and natural carbonation | [porchdrinking.com](https://www.porchdrinking.com/?p=204145) |
 
 ## style-context
 
@@ -207,7 +197,7 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [kcbier.com](https://kcbier.com/biers/winterbock/), [beerandbrewing.com](https://www.beerandbrewing.com/review/winterbock), [porchdrinking.com](https://www.porchdrinking.com/?p=204145), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [kcbier.com](https://kcbier.com/biers/winterbock/), [beerandbrewing.com](https://www.beerandbrewing.com/review/winterbock), [porchdrinking.com](https://www.porchdrinking.com/?p=204145), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -219,3 +209,4 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 - Field pass 2026-10-13: Search found the brewery's Winterbock page naming Perle hops, but both host forms failed to open; beer-url and hops remain unfilled without a readable fetched page.
 - Pass 2026-10-14: the brewery's Winterbock page opened and lists 8.25% ABV, 24 IBU, Munich, Pilsner, and specialty malts, and Perle hops, matching the figures already recorded; it is now the beer-url.
 - Catalog.beer 2026-10-14: [Catalog.beer: Winterbock](https://catalog.beer/beer/3e5257f4-8638-4081-b631-d8d692362073) lists 8% ABV, 24 IBU, style "German-Style Doppelbock" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page's bullet points are recorded as tasting notes (bullets turned into sentences) and its color field as Dark Brown; the double decoction comes from the brewery release quoted by Porch Drinking.

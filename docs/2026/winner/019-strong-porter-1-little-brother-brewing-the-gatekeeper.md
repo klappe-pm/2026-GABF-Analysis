@@ -31,24 +31,13 @@ description:
 entries: 20
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825"
-      - "https://www.littlebrotherbrew.com/"
-      - "https://www.littlebrotherbrew.com/beerlibrary"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825"
       - "https://www.littlebrotherbrew.com/"
       - "https://www.littlebrotherbrew.com/beerlibrary"
       - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825"
-      - "https://www.littlebrotherbrew.com/"
-      - "https://www.littlebrotherbrew.com/beerlibrary"
-      - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825"
@@ -124,9 +113,13 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.littlebrotherbrew.com/"
   - "https://www.littlebrotherbrew.com/beerlibrary"
-srm: null
+srm:
+  value: "Deep, dark brown with ruby highlights, almost black (no SRM number published)"
+  source: "https://www.littlebrotherbrew.com/beerlibrary"
 style: "American Porter"
-tasting-notes: null
+tasting-notes:
+  text: "Aroma: A rich and inviting aroma of freshly roasted coffee beans, dark chocolate, and a touch of smokiness. Hints of caramel and toffee sweetness add depth, while a subtle earthy hop presence provides balance. Taste: The roasted malt character takes center stage, delivering a complex blend of dark chocolate, espresso, and a hint of black licorice."
+  source: "https://www.littlebrotherbrew.com/beerlibrary"
 water: null
 yeast: []
 ---
@@ -162,7 +155,9 @@ Source: [Little Brother: beer library](https://www.littlebrotherbrew.com/beerlib
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Aroma: A rich and inviting aroma of freshly roasted coffee beans, dark chocolate, and a touch of smokiness. Hints of caramel and toffee sweetness add depth, while a subtle earthy hop presence provides balance. Taste: The roasted malt character takes center stage, delivering a complex blend of dark chocolate, espresso, and a hint of black licorice.
+
+Source: [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary)
 
 ## ingredients
 
@@ -176,7 +171,7 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Deep, dark brown with ruby highlights, almost black (no SRM number published) | [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -209,8 +204,8 @@ Links checked 2026-10-14: [Website](https://www.littlebrotherbrew.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -220,3 +215,4 @@ Links checked 2026-10-14: [Website](https://www.littlebrotherbrew.com/), [Instag
 - Web search was unavailable for part of this session, so third party listings (Untappd, press) were not checked.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd page gives N/A IBU and describes balanced hop bitterness without naming varieties.
+- Deep dive pass 2026-10-14: the brewery beer library gives appearance, aroma, taste and finish notes and names crystal malt and roasted barley; no hop variety, yeast or IBU.

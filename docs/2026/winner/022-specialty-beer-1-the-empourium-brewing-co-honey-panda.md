@@ -32,13 +32,6 @@ description:
 entries: 51
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
-      - "https://www.theempourium.com/"
-      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
-      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
@@ -109,13 +102,6 @@ gaps:
       - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
       - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
-      - "https://www.theempourium.com/"
-      - "https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu"
-      - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 10
@@ -123,7 +109,9 @@ malts: []
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Blueberry lavender tea layered over a lager base, with honey"
+  source: "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
 sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/"
@@ -132,7 +120,9 @@ sources:
   - "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
 srm: null
 style: "Lager"
-tasting-notes: null
+tasting-notes:
+  text: "Delicate floral aromatics, fresh blueberries, and subtle honey sweetness define Empourium Brewing Honey Panda Lager."
+  source: "https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado"
 water: null
 yeast: []
 ---
@@ -170,7 +160,9 @@ Source: [Wine Dispensary: Honey Panda](https://www.winedispensary.com/products/e
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Delicate floral aromatics, fresh blueberries, and subtle honey sweetness define Empourium Brewing Honey Panda Lager.
+
+Source: [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado)
 
 ## ingredients
 
@@ -188,7 +180,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Blueberry lavender tea layered over a lager base, with honey | [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado) |
 
 ## style-context
 
@@ -218,7 +210,7 @@ Links checked 2026-10-14: [Website](https://www.theempourium.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/), [theempourium.com](https://www.theempourium.com/), [theempourium.com](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu), [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-empourium-brewing-company/), [theempourium.com](https://www.theempourium.com/), [theempourium.com](https://www.theempourium.com/denver-berkeley-the-empourium-brewing-company-drink-menu), [winedispensary.com](https://www.winedispensary.com/products/empourium-brewing-honey-panda-lager-beer-colorado), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -227,3 +219,4 @@ Links checked 2026-10-14: [Website](https://www.theempourium.com/), [Instagram](
 - The Colorado Brewery List page confirmed the brewery website but does not list this beer.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd page names honey and blueberry lavender tea but no hop varieties.
+- Deep dive pass 2026-10-14: the retailer copy is the only description and is recorded with its source; the brewery menu lists the name only.

@@ -239,3 +239,4 @@ Links checked 2026-10-14: [Website](https://www.saddlemountainbrewing.com/), [In
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New bitterness-focused searches found matching Untappd activity but no IBU or named hops; the previously read brewery PDF was not fetched again.
 - Catalog.beer 2026-10-14: [Catalog.beer: Dill You Take Me Higher?](https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd) lists 5.7% ABV, style "Dill Pickle Sour" (entry last modified 2026-08-05). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery menu PDF gives name, style and strength only; no description, hops or figures beyond ABV.
