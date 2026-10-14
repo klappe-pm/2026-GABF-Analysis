@@ -34,58 +34,72 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582"
       - "web searches recorded in the research notes"
+      - "no brewery website on file"
 hop-profile: []
 hops: []
 ibu: null
@@ -184,8 +198,8 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/NorthwoodsBrewingCo).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582), web searches recorded in the research notes.
-- Not published: IBU. Checked [untappd.com](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582), web searches recorded in the research notes, no brewery website on file.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/northwoods-brewing-company-wee-heavy/5983582), web searches recorded in the research notes, no brewery website on file, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
@@ -195,3 +209,4 @@ Links checked 2026-10-14: [Untappd](https://untappd.com/NorthwoodsBrewingCo).
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Northwoods Untappd entry supplied strength and style. No IBU, ingredient list or brewery-hosted beer page was found.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd; no brewery website is on file.

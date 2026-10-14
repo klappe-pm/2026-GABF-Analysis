@@ -30,13 +30,6 @@ description:
 entries: 165
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz"
-      - "https://gowbeer.com/beer/built-for-speed-ipa/"
-      - "https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html"
-      - "https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz"
@@ -44,6 +37,7 @@ gaps:
       - "https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html"
       - "https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz"
@@ -144,7 +138,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "West Coast IPA"
-tasting-notes: null
+tasting-notes:
+  text: "Light, dry bodied west coast IPA with flavors and aromas of bright tropical fruit, pine and loads of dank grapefruit."
+  source: "https://gowbeer.com/beer/built-for-speed-ipa/"
 water: null
 yeast: []
 ---
@@ -181,7 +177,9 @@ Source: [Grains of Wrath: Built for Speed](https://gowbeer.com/beer/built-for-sp
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Light, dry bodied west coast IPA with flavors and aromas of bright tropical fruit, pine and loads of dank grapefruit.
+
+Source: [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/)
 
 ## ingredients
 
@@ -234,8 +232,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
 - Not published: IBU. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -244,3 +242,4 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: found ABV 6.7 percent in the 2020 New School Beer can release post and the Craft Beer and Brewing review, while the Costco listing on Warehouse Runner gives 6.5 percent; the structured field uses 6.7 from the two agreeing sources. Style and description also come from those pages. The web search budget ran out after this beer, so Untappd and BeerMenus were not reached and IBU and hops remain unpublished.
+- Deep dive pass 2026-10-14: the brewery page's tasting words are recorded; no hop varieties.

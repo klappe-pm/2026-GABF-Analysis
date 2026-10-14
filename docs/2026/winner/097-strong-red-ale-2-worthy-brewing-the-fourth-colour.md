@@ -38,6 +38,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -46,6 +47,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -54,6 +56,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -62,6 +65,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -70,6 +74,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -78,6 +83,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -86,6 +92,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -94,6 +101,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -102,6 +110,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -110,6 +119,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -118,6 +128,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://business.untappd.com/boards/42041/page/1"
@@ -126,6 +137,7 @@ gaps:
       - "https://www.worthybrewing.com/"
       - "https://www.worthybrewing.com/beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile:
   - published: "Chinook"
     variety: "Chinook"
@@ -268,7 +280,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/boards/42041/page/1), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600), [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby), [worthybrewing.com](https://www.worthybrewing.com/), [worthybrewing.com](https://www.worthybrewing.com/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/boards/42041/page/1), [order.toasttab.com](https://order.toasttab.com/online/worthy-brewing/item-the-fourth-colour-red-ipa_6d2e97e7-c4ee-48f9-a389-67cb203c1600), [untappd.com](https://untappd.com/b/worthy-brewing-the-fourth-colour/6846571/nearby), [worthybrewing.com](https://www.worthybrewing.com/), [worthybrewing.com](https://www.worthybrewing.com/beer), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -277,3 +289,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The brewery beer page lists only six year-round beers (Hazy, IPA, Pils, Stout, Pale, Helles), none of them this beer.
 - The home page mentions experimental small-batch and seasonal beers on its tap list but names none; the linked Untappd tap list board returned no readable beer data.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

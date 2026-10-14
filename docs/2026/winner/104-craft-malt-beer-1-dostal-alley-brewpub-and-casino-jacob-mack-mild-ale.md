@@ -31,12 +31,6 @@ description:
 entries: 132
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/"
-      - "https://www.dostalalley.com/"
-      - "https://www.dostalalley.com/brewery"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/"
@@ -97,12 +91,6 @@ gaps:
       - "https://www.dostalalley.com/"
       - "https://www.dostalalley.com/brewery"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/"
-      - "https://www.dostalalley.com/"
-      - "https://www.dostalalley.com/brewery"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 20
@@ -111,14 +99,18 @@ malts:
 medal: "Gold"
 og: null
 place: 1
-process: null
+process:
+  value: "Brewed with a local craft malt from Root Shoot Malting in Longmont, Colorado"
+  source: "https://www.dostalalley.com/brewery"
 sources:
   - "https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/"
   - "https://www.dostalalley.com/"
   - "https://www.dostalalley.com/brewery"
 srm: null
 style: "Mild Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Our mild brown ale is a smooth and sessionable beer that showcases the delicate flavors of roasted malt"
+  source: "https://www.dostalalley.com/brewery"
 water: null
 yeast: []
 ---
@@ -158,7 +150,9 @@ Source: [Dostal Alley: brewery](https://www.dostalalley.com/brewery)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Our mild brown ale is a smooth and sessionable beer that showcases the delicate flavors of roasted malt
+
+Source: [dostalalley.com](https://www.dostalalley.com/brewery)
 
 ## ingredients
 
@@ -176,7 +170,7 @@ No hop variety is published for this beer.
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed with a local craft malt from Root Shoot Malting in Longmont, Colorado | [dostalalley.com](https://www.dostalalley.com/brewery) |
 
 ## style-context
 
@@ -208,7 +202,7 @@ Links checked 2026-10-14: [Website](https://www.dostalalley.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [dostalalley.com](https://www.dostalalley.com/), [dostalalley.com](https://www.dostalalley.com/brewery), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [dostalalley.com](https://www.dostalalley.com/), [dostalalley.com](https://www.dostalalley.com/brewery), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -217,3 +211,4 @@ Links checked 2026-10-14: [Website](https://www.dostalalley.com/), [Instagram](h
 - The brewery page itself notes the 2026 GABF gold for this beer, and the home page announces that the brewery struck gold at the festival.
 - A first domain guess, dostalalley.net, returned an error; dostalalley.com is the working site.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page names the maltster, Root Shoot Malting; no hops.

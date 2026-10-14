@@ -10,20 +10,15 @@ import { ROOT } from '../scripts/lib/paths.mjs';
 // When a lane lands a route, its PENDING line must go: the test fails while a pending address is routed.
 
 const PENDING = [
-  // dashboards lane
-  '/', '/dashboards/', '/dashboards/geography/', '/dashboards/categories/', '/dashboards/breweries/', '/dashboards/economics/',
-  '/data/breweries.json', '/data/brewery-info.json', '/data/categories.json', '/data/estimates.json', '/data/csv/<file>',
   // breweries lane
-  '/breweries/', '/breweries/<brewery>/', '/first-time-medalists/2026/',
-  // hops lane
-  '/hops/', '/hops/<variety>/', '/hop-farms/', '/hop-farms/<farm>/',
+  '/breweries/<brewery>/', '/first-time-medalists/2026/',
 ];
 
 // Old address to new address, each with its meta refresh page in the app (docs/site-port-plan.md, routing-parity).
 const REDIRECTS = { '/reports/': '/analysis/', '/reports/<report>/': '/analysis/<report>/', '/explorer/': '/analysis/explore/' };
 
-// The home page holds a placeholder route until the dashboards lane ports the Overview there.
-const PLACEHOLDERS = new Set(['/']);
+// Routes that exist only as a placeholder for a pending lane.
+const PLACEHOLDERS = new Set();
 
 const APP = resolve(ROOT, 'web', 'app');
 const segs = (path) => path.split('/').filter(Boolean);

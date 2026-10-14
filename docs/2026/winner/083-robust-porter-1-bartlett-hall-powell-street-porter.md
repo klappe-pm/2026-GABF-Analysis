@@ -30,18 +30,13 @@ description:
 entries: 36
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/BartlettHall/beer"
-      - "https://www.bartletthall.com/"
-      - "https://www.beerandbrewing.com/recipe-bartlett-hall-powell-street-porter"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://untappd.com/BartlettHall/beer"
       - "https://www.bartletthall.com/"
       - "https://www.beerandbrewing.com/recipe-bartlett-hall-powell-street-porter"
       - "web searches recorded in the research notes"
+      - "Catalog.beer search by beer and brewery name"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/BartlettHall/beer"
@@ -129,7 +124,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "American Robust Porter"
-tasting-notes: null
+tasting-notes:
+  text: "A no nonsense American porter with a round of chocolate nose and lingering roasty finish."
+  source: "https://www.bartletthall.com/"
 water: null
 yeast: []
 ---
@@ -165,7 +162,9 @@ Source: [Bartlett Hall: brewery menu](https://www.bartletthall.com/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> A no nonsense American porter with a round of chocolate nose and lingering roasty finish.
+
+Source: [bartletthall.com](https://www.bartletthall.com/)
 
 ## ingredients
 
@@ -217,8 +216,8 @@ Links checked 2026-10-14: [Website](https://www.bartletthall.com/), [Instagram](
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/BartlettHall/beer), [bartletthall.com](https://www.bartletthall.com/), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-bartlett-hall-powell-street-porter), web searches recorded in the research notes.
 - Not published: IBU. Checked [untappd.com](https://untappd.com/BartlettHall/beer), [bartletthall.com](https://www.bartletthall.com/), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-bartlett-hall-powell-street-porter), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/BartlettHall/beer), [bartletthall.com](https://www.bartletthall.com/), [beerandbrewing.com](https://www.beerandbrewing.com/recipe-bartlett-hall-powell-street-porter), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -228,3 +227,4 @@ Links checked 2026-10-14: [Website](https://www.bartletthall.com/), [Instagram](
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The brewery menu now opens and supplies the adopted strength and style. Untappd lists 6.4% ABV, while the Craft Beer & Brewing five-gallon homebrew adaptation targets 6.3% ABV and 33 IBU. Those recipe figures were not treated as commercial specifications; ingredient details were not visible in the fetched article.
+- Deep dive pass 2026-10-14: the brewery menu gives the tasting words and 6.8% ABV; no hops or malts.

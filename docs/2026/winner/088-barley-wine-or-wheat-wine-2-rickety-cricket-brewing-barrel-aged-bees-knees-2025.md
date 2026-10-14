@@ -219,3 +219,4 @@ No brewery links have been checked yet.
 - No 2026 GABF medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Searches found additional awards coverage but no specifications for the 2025 barrel aged vintage. The brewery's accessible Untappd menu lists The Bees Knees 2026, a different vintage; none of its values were transferred. No further accepted fields.
+- Deep dive pass 2026-10-14: the brewery home page names "The Bees Knees, 2025BA" (its dash replaced with a comma) among award winners, without a description.

@@ -22,7 +22,7 @@ export function Select({ id, label, options, defaultValue, value: controlled, on
     return () => el.removeEventListener('change', onChange);
   }, [onValueChange]);
   return (
-    <Tag ref={ref} id={id} name={id} label={label} disabled={disabled || undefined} value={value} className="w-full">
+    <Tag ref={ref} data-component="select" id={id} name={id} label={label} disabled={disabled || undefined} value={value} className="w-full">
       {options.map((o) => (
         <md-select-option key={o.value} value={o.value} disabled={o.disabled || undefined} selected={o.value === value || undefined}>
           <div slot="headline">{o.label}</div>

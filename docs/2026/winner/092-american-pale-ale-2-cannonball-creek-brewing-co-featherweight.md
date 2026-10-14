@@ -211,3 +211,4 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 - The beers page shows the tap menu as an image; the ABV and style were read from that image. There is no individual beer page.
 - The brewery home page lists Featherweight's earlier awards in American Pale Ale: GABF gold in 2020 and 2023, silver in 2013 and 2024, bronze in 2015, a 2014 World Beer Cup bronze and a 2025 Colorado Brewers Cup gold. It does not yet list a 2026 GABF medal.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site lists Featherweight's awards only.

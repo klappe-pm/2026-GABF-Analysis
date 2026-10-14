@@ -250,3 +250,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplies the adopted ABV and IBU. Flying Saucer's archived listing gives 6.3% ABV instead; the difference is unresolved. No ingredient list or brewery-hosted beer page was found.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

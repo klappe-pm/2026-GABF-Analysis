@@ -26,6 +26,9 @@
       "design-editor": [
         "./design/editor.tsx"
       ],
+      "review-settings-panel": [
+        "./components/review/settings-panel.tsx"
+      ],
       "@/*": [
         "./*"
       ]

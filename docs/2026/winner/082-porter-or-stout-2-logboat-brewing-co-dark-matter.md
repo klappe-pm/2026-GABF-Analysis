@@ -32,20 +32,6 @@ description:
 entries: 54
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142"
-      - "https://www.logboatbrewing.com/"
-      - "https://www.logboatbrewing.com/beers"
-      - "https://www.logboatbrewing.com/dark-matter"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142"
-      - "https://www.logboatbrewing.com/"
-      - "https://www.logboatbrewing.com/beers"
-      - "https://www.logboatbrewing.com/dark-matter"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142"
@@ -133,9 +119,13 @@ sources:
   - "https://www.logboatbrewing.com/"
   - "https://www.logboatbrewing.com/beers"
   - "https://www.logboatbrewing.com/dark-matter"
-srm: null
+srm:
+  value: "Deep, dark brown with ruby notes (no SRM number published)"
+  source: "https://www.logboatbrewing.com/dark-matter"
 style: "Porter"
-tasting-notes: null
+tasting-notes:
+  text: "Chocolate malt shines through, along with a variety of other roasted malts to give this beer a full flavor of brownies and coffee. Profile: Brownie / Roasted / Coffee"
+  source: "https://www.logboatbrewing.com/dark-matter"
 water: null
 yeast: []
 ---
@@ -171,7 +161,9 @@ Source: [Logboat: Dark Matter](https://www.logboatbrewing.com/dark-matter)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Chocolate malt shines through, along with a variety of other roasted malts to give this beer a full flavor of brownies and coffee. Profile: Brownie / Roasted / Coffee
+
+Source: [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter)
 
 ## ingredients
 
@@ -187,7 +179,7 @@ The brewery's beer page names Willamette hops, chocolate malt and other roasted 
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Deep, dark brown with ruby notes (no SRM number published) | [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
@@ -226,7 +218,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/dark-matter), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -236,3 +228,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Catalog.beer 2026-10-14: [Catalog.beer: Dark Matter](https://catalog.beer/beer/754e6461-a436-45f1-9e33-e2776501482b) lists 6.6% ABV, 25 IBU, style "Brown Porter" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words, color and Willamette hops.

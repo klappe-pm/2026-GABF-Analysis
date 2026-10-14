@@ -22,7 +22,12 @@ const nextConfig: NextConfig = {
   // (site/assets/filter-bar.mjs through lib/filter-model.mjs). Build time data is not bundled: see lib/site-data.ts.
   turbopack: {
     root: resolve(__dirname, '..'),
-    resolveAlias: { 'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx' },
+    resolveAlias: {
+      'design-editor': review ? './design/editor.tsx' : './design/editor-off.tsx',
+      // The review settings panel (web/components/review/ReviewSettingsPanel.tsx re-exports this alias):
+      // the panel in review mode, a stand in that renders nothing everywhere else.
+      'review-settings-panel': review ? './components/review/settings-panel.tsx' : './components/review/settings-panel-off.tsx',
+    },
   },
 };
 

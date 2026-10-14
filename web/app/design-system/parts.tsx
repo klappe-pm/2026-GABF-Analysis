@@ -3,7 +3,8 @@ import { SectionHeader } from '@/components/SectionHeader';
 import { fill, group, lookup, t } from '@/lib/content';
 import { specRepoPath } from '@/lib/design-source';
 import { SOURCE_URL } from '@/lib/repo';
-import { SettingsList, SpecimenMeta } from './live';
+import { SettingsList } from '@/components/review/settings-list';
+import { SpecimenMeta } from './live';
 
 // The options heading names the component in title case, as the owner writes it: Filters Dialog Options.
 const titleWords = (s: string) => s.replace(/(^|\s)(\S)/g, (_, gap: string, c: string) => gap + c.toUpperCase());

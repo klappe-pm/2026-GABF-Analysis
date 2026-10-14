@@ -30,13 +30,6 @@ description:
 entries: 108
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://machineheadbrewing.com/"
-      - "https://machineheadbrewing.com/beers/"
-      - "https://machineheadbrewing.com/tap-list/"
-      - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://machineheadbrewing.com/"
@@ -72,13 +65,6 @@ gaps:
       - "https://machineheadbrewing.com/tap-list/"
       - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
       - "web searches recorded in the research notes"
-  - field: "lot-or-farm"
-    sources-checked:
-      - "https://machineheadbrewing.com/"
-      - "https://machineheadbrewing.com/beers/"
-      - "https://machineheadbrewing.com/tap-list/"
-      - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
-      - "web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://machineheadbrewing.com/"
@@ -107,32 +93,25 @@ gaps:
       - "https://machineheadbrewing.com/tap-list/"
       - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://machineheadbrewing.com/"
-      - "https://machineheadbrewing.com/beers/"
-      - "https://machineheadbrewing.com/tap-list/"
-      - "https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858"
-      - "web searches recorded in the research notes"
 hop-profile:
   - published: "Motueka"
     variety: "Motueka"
     form: null
     use: null
-    lot-or-farm: null
-    source: "https://machineheadbrewing.com/beers/"
+    lot-or-farm: "Freestyle Hop Farms"
+    source: "https://machineheadbrewing.com/tap-list/"
   - published: "Nectaron"
     variety: "Nectaron"
     form: null
     use: null
-    lot-or-farm: null
-    source: "https://machineheadbrewing.com/beers/"
+    lot-or-farm: "Freestyle Hop Farms"
+    source: "https://machineheadbrewing.com/tap-list/"
   - published: "Peacharine"
     variety: "Peacharine"
     form: null
     use: null
-    lot-or-farm: null
-    source: "https://machineheadbrewing.com/beers/"
+    lot-or-farm: "Freestyle Hop Farms"
+    source: "https://machineheadbrewing.com/tap-list/"
 hops:
   - "Motueka"
   - "Nectaron"
@@ -142,7 +121,9 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Hazy IPA brewed in collaboration with Flatland Brewing"
+  source: "https://machineheadbrewing.com/tap-list/"
 sources:
   - "https://machineheadbrewing.com/"
   - "https://machineheadbrewing.com/beers/"
@@ -151,7 +132,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Hazy IPA"
-tasting-notes: null
+tasting-notes:
+  text: "This hazy is packed with Nectaron, Peacharine and Motueka Hops bringing out flavors of passionfruit, peach rings, melon, lychee and Pure Dankness."
+  source: "https://machineheadbrewing.com/tap-list/"
 water: null
 yeast: []
 ---
@@ -187,7 +170,9 @@ Source: [MachineHead: tap list](https://machineheadbrewing.com/tap-list/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This hazy is packed with Nectaron, Peacharine and Motueka Hops bringing out flavors of passionfruit, peach rings, melon, lychee and Pure Dankness.
+
+Source: [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/)
 
 ## ingredients
 
@@ -197,9 +182,9 @@ Both the [beers page](https://machineheadbrewing.com/beers/) and the [tap list](
 
 | Hop as published | Variety | Form | Use | Lot or farm | Source |
 |---|---|---|---|---|---|
-| Motueka | Motueka | not published | not published | not published | [machineheadbrewing.com](https://machineheadbrewing.com/beers/) |
-| Nectaron | Nectaron | not published | not published | not published | [machineheadbrewing.com](https://machineheadbrewing.com/beers/) |
-| Peacharine | Peacharine | not published | not published | not published | [machineheadbrewing.com](https://machineheadbrewing.com/beers/) |
+| Motueka | Motueka | not published | not published | Freestyle Hop Farms | [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/) |
+| Nectaron | Nectaron | not published | not published | Freestyle Hop Farms | [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/) |
+| Peacharine | Peacharine | not published | not published | Freestyle Hop Farms | [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/) |
 
 ## brewing-details
 
@@ -209,7 +194,7 @@ Both the [beers page](https://machineheadbrewing.com/beers/) and the [tap list](
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Hazy IPA brewed in collaboration with Flatland Brewing | [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/) |
 
 ## style-context
 
@@ -244,7 +229,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [machineheadbrewing.com](https://machineheadbrewing.com/), [machineheadbrewing.com](https://machineheadbrewing.com/beers/), [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/), [untappd.com](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Malts and grains, Yeast, Adjuncts, Water. Checked [machineheadbrewing.com](https://machineheadbrewing.com/), [machineheadbrewing.com](https://machineheadbrewing.com/beers/), [machineheadbrewing.com](https://machineheadbrewing.com/tap-list/), [untappd.com](https://untappd.com/b/machinehead-brewing-co-rhyme-to-the-rhythm/5109858), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -253,3 +238,4 @@ No brewery links have been checked yet.
 - The www subdomain of the brewery site does not resolve; the bare domain works.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery tap list says the hazy features "all Southern Hemisphere hops from Freestyle Hop Farms", recorded as the farm for each of its three hops, and names the Flatland Brewing collaboration.

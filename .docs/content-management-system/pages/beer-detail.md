@@ -78,6 +78,7 @@ Where: the hop profile card above the research notes.
 - `source`: Source
 - `named_label`: Brewery named this farm
 - `missing`: No hop profile is on record for this beer.
+- `sort_hint`: Select a column header to sort.
 - `grown_title`: Where these hops are grown
 - `grown_label`: Grown by.
 - `grown_note`: These farms publish the variety as grown. It does not mean this beer used hops from them.

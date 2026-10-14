@@ -235,3 +235,4 @@ No brewery links have been checked yet.
 - The awards page cites 35 GABF medals overall, but the readable content did not include a 2026 entry or this beer.
 - A web search for the beer name returned nothing about it; the session search budget ran out before Untappd or press could be searched further.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Serpent Sun description.

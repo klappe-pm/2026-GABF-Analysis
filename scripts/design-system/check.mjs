@@ -3,7 +3,7 @@
 //   a global setting, layout list, or component setting that is unknown, missing, or not an allowed value;
 //   a spec missing its identity keys or a valid status (draft, review, approved), or pointing at missing code;
 //   a spec body that no longer matches its frontmatter, or a missing component image;
-//   a component file with no folder and spec.md of its own, or component docs anywhere else in web/ or .design/;
+//   a component file with no folder and spec.md of its own (web/components/review/ aside), or component docs anywhere else in web/ or .design/;
 //   a text or control color pair in the generated light scheme that fails WCAG 2.2 AA;
 //   a font outside Public Sans and Archivo Narrow, or figures asked of Archivo Narrow;
 //   a raw color literal in page or component code;
@@ -89,8 +89,11 @@ export async function runChecks() {
   }
 
   // One home per component: web/components/<Name>.tsx has .design/design-system/components/<name>/spec.md,
-  // and that spec names the file as its code.
+  // and that spec names the file as its code. web/components/review/ holds the review mode tools (the
+  // settings panel and the editors it shares with the style guide), which are not site components and
+  // have no spec; the font, color, theme, and attribution scans below still read them.
   for (const file of listFiles(resolve(WEB, 'components'), ['.tsx', '.ts'])) {
+    if (rel(file).startsWith('web/components/review/')) continue;
     const folder = basename(file).replace(/\.tsx?$/, '').replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
     if (!existsSync(resolve(COMPONENTS_DIR, folder, 'spec.md'))) fail(rel(file), `component code has no folder .design/design-system/components/${folder}/ with a spec.md`);
     else if (codeToSpec[rel(file)]?.dir !== folder) fail(rel(file), `.design/design-system/components/${folder}/spec.md does not name ${rel(file)} as its code`);

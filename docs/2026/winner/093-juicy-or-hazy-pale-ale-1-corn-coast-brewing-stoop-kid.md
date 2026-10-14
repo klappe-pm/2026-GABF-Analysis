@@ -246,3 +246,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: a web search for the beer with the brewery returned no page naming a Corn Coast beer called Stoop Kid (the only Stoop Kid hit was an unrelated 2020 homebrew recipe on Brewer's Friend); the search budget then ran out, so Untappd and BeerMenus were not reached and nothing more was found.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Stoop Kid description.
