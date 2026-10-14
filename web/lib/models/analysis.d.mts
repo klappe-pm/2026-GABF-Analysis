@@ -79,8 +79,9 @@ export function about(): AboutRecord;
 
 export const TRAITS: Record<string, RegExp>;
 export function traitsOf(categoryName: string): string[];
-export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[] };
+export type ExploreRow = FilterFields & Pick<MedalRow, 'category_slug' | 'category_number' | 'brewery_slug' | 'city' | 'section' | 'parent'> & { stem: string | null; investor: string | null; traits: string[]; award_id: string; beer_id: string; brewery_id: string };
 export function exploreRows(): ExploreRow[];
 
 export function estimateSlugs(): string[];
 export function estimateFacts(slug: string): { slug: string; name: string; facts: import('./breweries.mjs').EstimateFacts } | null;
+export function explorerIds(results: Record<string, any>[]): { award_id: string; beer_id: string; brewery_id: string }[];

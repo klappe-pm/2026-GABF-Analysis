@@ -79,11 +79,21 @@ Where: the import card.
 - `title`: Import Awards from a CSV
 - `privacy`: Your file is read in this browser and is never uploaded. Imported awards stay on this page until you leave it or remove them.
 - `help`: Required columns: year, medal, beer, brewery, city, state, and category. Identical award rows are skipped. Other columns are ignored.
+- `kind`: What the CSV holds
+- `help_by_id`: Details for records already on this page. Each row needs {{column}} to name the record, an evidence_url to a web page that shows the details, and any of: ownership, investors, brewery_type, brewer_name, association, website, phone, street_address, zip_code, metro_area, beer_url, abv, ibu, confirmed_hops, ingredients, subcategory. A row that names no record on this page is skipped.
+- `result_by_id`: Details applied: {{updated}} records matched, {{skipped}} rows skipped.
 - `choose_file`: Choose a CSV File
 - `result`: Imported: {{added}} added, {{skipped}} skipped.
 - `remove`: Remove Imported Awards
 - `removed`: Imported awards removed.
 - `reading`: Reading and checking the CSV…
+
+### `kinds`
+
+- `new`: New awards: add missing award rows
+- `awards`: Award details: match award_id
+- `beers`: Beer details: match beer_id
+- `breweries`: Brewery details: match brewery_id
 
 ### `errors`
 
@@ -97,6 +107,9 @@ Where: the import card.
 - `bad_year`: Row {{row}}: year must be four digits between 1982 and 2100.
 - `too_many_rows`: Import at most 20,000 rows at a time.
 - `too_large`: CSV files can be up to 8 MB.
+- `blank_id`: Row {{row}}: {{column}} cannot be blank.
+- `duplicate_id`: Row {{row}}: {{column}} appears twice in the file.
+- `no_evidence`: Row {{row}}: evidence_url must be a web address that starts with http or https.
 
 ## `links`
 
