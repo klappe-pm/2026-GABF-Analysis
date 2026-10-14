@@ -56,6 +56,12 @@ Where: the medalists section.
 - `year_heading_number`: {{year}} · Category {{number}}
 - `year_heading_entrants`: {{year}} · Category {{number}} · {{count}} entrants
 
+## `cards`
+
+Where: the section of Beer Profile Cards for the latest winners, below the medalists.
+
+- `title`: {{year}} Medal Beers
+
 ## `empty`
 
 Where: in place of the medalists when this category has no medals in the record.

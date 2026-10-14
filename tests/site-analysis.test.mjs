@@ -141,3 +141,14 @@ test('every old category address redirects to a current category and no old addr
   assert.equal(names['German-Style Pilsener'], 'German Pilsener');
   assert.equal(names['Mixed-Culture Brett Beer'], 'Mixed Culture Brett Beer');
 });
+
+test('a category lists the beer profiles of its latest medalists in medal order', () => {
+  const withCards = cats.map((c) => category(c.slug)).filter((c) => c.cardStems.length > 1);
+  assert.ok(withCards.length > 0);
+  for (const c of withCards) {
+    const medals = c.cardStems.map((stem) => c.rows.find((r) => r.stem === stem).medal);
+    const rank = { Gold: 0, Silver: 1, Bronze: 2 };
+    assert.deepEqual(medals, [...medals].sort((a, b) => rank[a] - rank[b]), c.name);
+    assert.ok(c.rows.filter((r) => r.stem && r.year === 2026).length >= c.cardStems.length);
+  }
+});

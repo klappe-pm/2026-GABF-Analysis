@@ -586,6 +586,7 @@ single file dashboard (gabf-dashboard.html),brewery tab notice,Some years for th
 /categories/{slug}/,entrants card,No entry counts in view for this category.,pages.category-detail.entrants.none
 /categories/{slug}/,entrants card (main),Entry counts appear once a full winners list is ingested for a year this category ran.,pages.category-detail.entrants.none
 /categories/{slug}/,h2,medalists-by-year,pages.category-detail.medalists.title
+/categories/{slug}/,h2,medal beers,pages.category-detail.cards.title
 /categories/{slug}/,h3,{{year}} · category {{number}} · {{count}} entrants,pages.category-detail.medalists.year_heading_entrants
 /reports/,browser tab and h1,Reports,pages.analysis-index.header.title
 /reports/,meta description,GABF analysis reports.,global.navigation.page_descriptions.analysis_index

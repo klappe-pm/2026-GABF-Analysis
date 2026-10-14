@@ -26,6 +26,7 @@ export type CategoryRecord = {
   source: string | null;
   confidence: string | null;
   variant: string | null;
+  cardStems: string[];
   rows: CategoryMedalRow[];
 };
 export function category(slug: string): CategoryRecord | null;

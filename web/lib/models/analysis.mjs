@@ -4,7 +4,7 @@
 
 import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
 import { slugify } from '../../../scripts/lib/slug.mjs';
-import { filterRow, legacyCategoryNames, site } from '../site-model.mjs';
+import { filterRow, legacyCategoryNames, site, WINNER_YEAR } from '../site-model.mjs';
 
 export const REPORTS = [
   { slug: 'top-breweries', key: 'top_breweries' },
@@ -70,6 +70,8 @@ export function legacyCategories() {
 export const legacyCategoryParams = () => legacyCategories().redirects.map((r) => ({ slug: r.oldSlug }));
 export const legacyCategory = (slug) => legacyCategories().redirects.find((r) => r.oldSlug === slug) ?? null;
 
+const MEDAL_ORDER = ['Gold', 'Silver', 'Bronze'];
+
 export function category(slug) {
   const c = site().cats.find((x) => x.slug === slug);
   if (!c) return null;
@@ -89,6 +91,8 @@ export function category(slug) {
     abv: range(ref?.abv_min, ref?.abv_max),
     ibu: range(ref?.ibu_min, ref?.ibu_max),
     srm: range(ref?.srm_min, ref?.srm_max),
+    // The beers of the latest winners list that have a profile, in medal order, for the profile cards.
+    cardStems: rows.filter((r) => r.year === WINNER_YEAR && r.stem).sort((a, b) => MEDAL_ORDER.indexOf(a.medal) - MEDAL_ORDER.indexOf(b.medal)).map((r) => r.stem),
     description: ref?.description ? String(ref.description) : null,
     source: ref?.guideline_source ? String(ref.guideline_source) : null,
     confidence: ref?.confidence ? String(ref.confidence) : null,
