@@ -14,7 +14,7 @@ const nav = (key: string) => t(`global.navigation.header.${key}`);
 const item = (d: Destination): ShellItem => ({ id: d.id, text: nav(d.copy), icon: d.icon, path: d.path, href: href(d.path), match: d.match });
 
 // Values the copy's label dictionary names, by filter dimension.
-const LABELLED = ['medal', 'category_type', 'style_family', 'abv_band', 'region', 'ownership_type', 'distribution_channel', 'brewery_type'];
+const LABELLED = ['medal', 'category_type', 'style_family', 'abv_band', 'region', 'ownership_type', 'distribution_channel', 'brewery_type', 'section', 'characteristic'];
 
 
 export async function shellConfig(): Promise<ShellConfig> {

@@ -13,6 +13,27 @@ Where: medal columns, chips, chart legends, and stat tiles.
 - `Bronze`: Bronze
 - `Honorable Mention`: Honorable mention
 
+## `section`
+
+Where: the Competition Section filter and its chips.
+
+- `main`: Main Competition
+- `pro-am`: Pro-Am
+- `collaboration`: Collaboration
+
+## `characteristic`
+
+Where: the Category Characteristic filter and its chips; each is found by words in the category name.
+
+- `sour`: Sour or Wild Category
+- `fruit`: Fruit Category
+- `spice`: Herb or Spice Category
+- `coffee`: Coffee Category
+- `chocolate`: Chocolate Category
+- `barrel_aged`: Wood or Barrel Category
+- `non_alcoholic`: Nonalcoholic Category
+- `gluten_free`: Gluten-Free Category
+
 ## `competition`
 
 Where: competition column on brewery pages (other competitions table).
