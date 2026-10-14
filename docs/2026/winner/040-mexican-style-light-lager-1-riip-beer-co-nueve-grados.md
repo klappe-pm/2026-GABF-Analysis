@@ -212,7 +212,8 @@ Links checked 2026-10-14: [Website](https://riip.com/), [Instagram](https://www.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes.
+- Not published: IBU. Checked [riip.com](https://riip.com/), [shop.riip.beer](https://shop.riip.beer/collections/california-beer-shipping), [shop.riip.beer](https://shop.riip.beer/products/nueve-grados-mexican-pilsner-3-9), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

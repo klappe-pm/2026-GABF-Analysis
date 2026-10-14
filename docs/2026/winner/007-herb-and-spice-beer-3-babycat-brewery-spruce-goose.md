@@ -208,7 +208,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes.
+- Not published: IBU. Checked [babycatbrewery.com](https://babycatbrewery.com/beer/spruce-goose/), [babycatbrewery.com](https://babycatbrewery.com/beers/), [untappd.com](https://untappd.com/b/babybat-brewery-spruce-goose/5214225), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

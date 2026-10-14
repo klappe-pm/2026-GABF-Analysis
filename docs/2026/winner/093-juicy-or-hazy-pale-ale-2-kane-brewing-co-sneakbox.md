@@ -111,6 +111,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.kanebrewing.com/"
   - "https://www.kanebrewing.com/products/sneak-box"
@@ -202,7 +203,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes.
+- Not published: IBU. Checked [kanebrewing.com](https://www.kanebrewing.com/), [kanebrewing.com](https://www.kanebrewing.com/products/sneak-box), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15).
 
 ## research-notes
 
@@ -211,3 +213,4 @@ No brewery links have been checked yet.
 - The brewery calls it an American Pale Ale; it medaled in the Juicy or Hazy Pale Ale category.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Sneakbox](https://catalog.beer/beer/f90246ac-ad3e-450f-857c-a3b59e39da15) lists 5.4% ABV, style "American-Style Pale Ale" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

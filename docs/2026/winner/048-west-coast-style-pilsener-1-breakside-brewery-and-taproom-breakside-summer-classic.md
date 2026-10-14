@@ -263,7 +263,8 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes.
+- Not published: IBU. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/awards/), [breakside.com](https://breakside.com/beers/), [breakside.com](https://breakside.com/our_beer/summer-classic/), [untappd.com](https://untappd.com/b/breakside-brewery-summer-classic/6640928), [toasttab.com](https://www.toasttab.com/local/order/breakside-brewery-dekum), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

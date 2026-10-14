@@ -185,6 +185,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e"
   - "https://hpb.la/"
   - "https://hpb.la/awards-press/"
   - "https://hpb.la/dinein"
@@ -285,7 +286,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes.
+- Not published: IBU. Checked [web page](https://hpb.la/), [web page](https://hpb.la/awards-press/), [web page](https://hpb.la/dinein), [web page](https://hpb.la/shop), [web page](https://hpb.la/shop/product/ffdelivery3/), [untappd.com](https://untappd.com/b/highland-park-brewery-ddh-pillow/3864907), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e).
 
 ## research-notes
 
@@ -294,3 +296,4 @@ No brewery links have been checked yet.
 - The awards page did not list a 2026 award.
 - The taproom page (hpb.la/dinein) did not expose a readable beer list.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: DDH Pillow](https://catalog.beer/beer/ca9dc976-694b-412d-80e8-8cc3a4dba80e) lists 8% ABV, style "IPA: Imperial" (entry last modified 2026-08-04). Where it differs from the brewery's own published value, the brewery's value stands.

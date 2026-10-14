@@ -247,7 +247,8 @@ Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption), [beermenus.com](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption), [beermenus.com](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/recipe-claremont-happy-days-imperial-red-ale/), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [beerandbrewing.com](https://www.beerandbrewing.com/brewers-perspective-red-red-redemption), [beermenus.com](https://www.beermenus.com/beers/102509-claremont-craft-happy-days-imperial-red), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

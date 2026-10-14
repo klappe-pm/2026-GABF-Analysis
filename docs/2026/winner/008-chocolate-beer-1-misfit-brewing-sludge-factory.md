@@ -209,7 +209,8 @@ Links checked 2026-10-14: [Website](https://www.drinkmisfit.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/MisfitBrewing/beer), [drinkmisfit.com](https://www.drinkmisfit.com/), [drinkmisfit.com](https://www.drinkmisfit.com/beerlist/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

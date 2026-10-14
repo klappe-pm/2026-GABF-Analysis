@@ -139,6 +139,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/72f2f8f9-150d-4ded-ba38-e5d38513c400"
   - "https://en.wikipedia.org/wiki/Avery_Brewing_Company"
   - "https://www.averybrewing.com/"
   - "https://www.averybrewing.com/beers/white-rascal"
@@ -244,3 +245,4 @@ No brewery links have been checked yet.
 - The brewery page lists earlier medals including GABF gold in 2023 and silver in 2012 and 2015.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A 2017 review explicitly names Avery White Rascal and transcribes three hop varieties from the brewery website. Its spelling Hersbruker is normalized to Hersbrucker. No dated variant is identified, but continued use in the 2026 batch is unconfirmed; homebrew clone recipes were not used.
+- Catalog.beer 2026-10-14: [Catalog.beer: White Rascal](https://catalog.beer/beer/72f2f8f9-150d-4ded-ba38-e5d38513c400) lists 5.6% ABV, 22 IBU, style "Belgian-Style White (or Wit) / Belgian-Style Wheat" (entry last modified 2026-08-08). Where it differs from the brewery's own published value, the brewery's value stands.

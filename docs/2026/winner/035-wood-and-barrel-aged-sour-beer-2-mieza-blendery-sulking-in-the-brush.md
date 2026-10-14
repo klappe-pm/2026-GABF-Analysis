@@ -254,7 +254,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/mieza-blendery-sulking-in-the-brush/6894340), [untappd.com](https://untappd.com/Mieza_Blendery/beer?q=sulking), [miezabeer.com](https://www.miezabeer.com/), [miezabeer.com](https://www.miezabeer.com/about), [miezabeer.com](https://www.miezabeer.com/membership), [miezabeer.com](https://www.miezabeer.com/past-collaborations), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

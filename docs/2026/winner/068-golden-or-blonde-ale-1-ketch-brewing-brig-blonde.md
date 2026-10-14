@@ -115,6 +115,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/aeefcb88-c90c-47d7-b44c-65fd1d5fb630"
   - "https://ketchbrewing.com/"
   - "https://ketchbrewing.com/beers/brig-blonde"
   - "https://untappd.com/b/ketch-brewing-brig-blonde/5206013"
@@ -216,3 +217,4 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Ketch Untappd listing supplies the bitterness recorded above.
+- Catalog.beer 2026-10-14: [Catalog.beer: Brig Blonde](https://catalog.beer/beer/aeefcb88-c90c-47d7-b44c-65fd1d5fb630) lists 5.2% ABV, style "Blonde Ale" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

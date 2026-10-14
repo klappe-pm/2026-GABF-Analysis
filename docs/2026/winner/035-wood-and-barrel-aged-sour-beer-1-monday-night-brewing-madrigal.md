@@ -272,7 +272,8 @@ Links checked 2026-10-14: [Website](https://mondaynightbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [mondaynightbrewing.com](https://mondaynightbrewing.com/), [mondaynightbrewing.com](https://mondaynightbrewing.com/beers), [mondaynightbrewing.com](https://mondaynightbrewing.com/blog/), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal-2025/6401418), [untappd.com](https://untappd.com/b/monday-night-brewing-madrigal/5982533), [untappd.com](https://untappd.com/MondayNightBrewing/beer?q=madrigal), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -161,6 +161,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/7f2a1366-387e-43d9-90da-18370e5e8ddd"
   - "https://nmdarksidebrewcrew.com/2020/10/28/second-street-picks-up-a-well-deserved-win-with-a-gold-medal-at-2020-gabf/"
   - "https://secondstreetbrewery.com/"
   - "https://secondstreetbrewery.com/beers/"
@@ -272,3 +273,4 @@ No brewery links have been checked yet.
 - The undated Edible New Mexico interview says the brown won a World Beer Cup medal and, the year before, a GABF gold; it is not clear that it is the same recipe as the 2026 entry.
 - No ABV, IBU or 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Brown Ale](https://catalog.beer/beer/7f2a1366-387e-43d9-90da-18370e5e8ddd) lists 5.4% ABV, 26 IBU, style "American-Style Brown Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

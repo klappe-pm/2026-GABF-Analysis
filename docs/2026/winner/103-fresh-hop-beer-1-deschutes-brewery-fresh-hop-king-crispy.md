@@ -236,7 +236,8 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [deschutesbrewery.com](https://deschutesbrewery.com/collections/all-beer/products/king-crispy-pilsner), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/all-beer), [deschutesbrewery.com](https://www.deschutesbrewery.com/collections/seasonals), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

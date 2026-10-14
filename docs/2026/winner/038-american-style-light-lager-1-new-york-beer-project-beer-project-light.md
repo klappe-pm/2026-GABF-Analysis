@@ -221,7 +221,8 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [shows.acast.com](https://shows.acast.com/buffalo-beer-buzz/episodes/buffalo-beer-buzz-march-27th-2026), [untappd.com](https://untappd.com/b/new-york-beer-project-light-new-york-beer/6652025), [untappd.com](https://untappd.com/NewYorkBeerProject/beer?q=light), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

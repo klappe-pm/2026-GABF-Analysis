@@ -140,6 +140,7 @@ sources:
   - "https://breakside.com/"
   - "https://breakside.com/beers/"
   - "https://breakside.com/our_beer/breakside-ipa/"
+  - "https://catalog.beer/beer/c36a32d6-fec3-4a8f-bfb6-0301ced2efd8"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "India Pale Ale"
@@ -245,3 +246,4 @@ Links checked 2026-10-14: [Website](https://breakside.com/), [Instagram](https:/
 - The beer page's award list runs through a 2025 GABF bronze in American-Style India Pale Ale and includes a 2014 GABF gold in American-Style IPA; it does not yet show the 2026 medal.
 - No separate 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Breakside IPA](https://catalog.beer/beer/c36a32d6-fec3-4a8f-bfb6-0301ced2efd8) lists 6.4% ABV, 74 IBU, style "American-Style India Pale Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

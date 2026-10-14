@@ -123,6 +123,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85"
   - "https://thetankbrewing.com/"
   - "https://untappd.com/b/the-tank-brewing-co-padron/4079715"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -212,7 +213,8 @@ Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes.
+- Not published: IBU. Checked [thetankbrewing.com](https://thetankbrewing.com/), [untappd.com](https://untappd.com/b/the-tank-brewing-co-padron/4079715), [craftbeer.com](https://www.craftbeer.com/editors-picks/one-style-for-all-the-complexity-of-mexican-lagers-and-latinx-people-in-the-brewing-industry), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85).
 
 ## research-notes
 
@@ -222,3 +224,4 @@ Links checked 2026-10-14: [Website](https://thetankbrewing.com/), [Instagram](ht
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: Untappd verifies the exact beer and strength. CraftBeer.com reports the brewery's Cuban-American Lager label, which differs from the competition category; no separate Padron version was identified. No IBU or ingredients were published.
 - Field pass 2026-10-13: Additional technical-field and brewery-page searches found staff favorite mentions and ordering excerpts for Padron, but no verified IBU, hop variety or qualifying brewery beer page.
+- Catalog.beer 2026-10-14: [Catalog.beer: Padron](https://catalog.beer/beer/fd3ff090-f25e-4f35-8a07-4f1fd7689c85) lists 4.5% ABV, style "Cuban-American Lager" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

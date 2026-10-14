@@ -202,7 +202,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [thirdwindowbrewing.com](https://thirdwindowbrewing.com/pages/beer), [thirdwindowbrewing.com](https://thirdwindowbrewing.com/products/saison-ete-2026), [thirdwindowbrewing.com](https://www.thirdwindowbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

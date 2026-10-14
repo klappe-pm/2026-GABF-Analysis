@@ -237,7 +237,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/about), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/specials), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/about), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/specials), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [riversiderhapsody.com](https://www.riversiderhapsody.com/), [riversiderhapsody.com](https://www.riversiderhapsody.com/about), [riversiderhapsody.com](https://www.riversiderhapsody.com/food-menu), [riversiderhapsody.com](https://www.riversiderhapsody.com/specials), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

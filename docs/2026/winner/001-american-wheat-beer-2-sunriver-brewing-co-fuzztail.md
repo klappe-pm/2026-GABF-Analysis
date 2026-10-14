@@ -128,6 +128,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/376ecaa3-99be-4c45-9292-1264ed22073f"
   - "https://untappd.com/b/sunriver-brewing-company-fuzztail-hefeweizen/678030"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.sunriverbrewingcompany.com/beer/fuzztail"
@@ -233,3 +234,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd Fuzztail listing publishes 20 IBU, also corroborated by The Waterhole Tavern's menu. The fruit enhanced Seriously, Patrick? listing is a separate beer and was excluded.
+- Catalog.beer 2026-10-14: [Catalog.beer: Fuzztail](https://catalog.beer/beer/376ecaa3-99be-4c45-9292-1264ed22073f) lists 5% ABV, 20 IBU, style "Light American Wheat Ale or Lager with Yeast" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

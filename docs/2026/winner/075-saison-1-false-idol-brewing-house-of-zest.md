@@ -210,7 +210,8 @@ Links checked 2026-10-14: [Website](https://www.falseidolbrew.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Water, Process. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/v/false-idol-brewing/8496115), [falseidolbrew.com](https://www.falseidolbrew.com/), [falseidolbrew.com](https://www.falseidolbrew.com/false-idol-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

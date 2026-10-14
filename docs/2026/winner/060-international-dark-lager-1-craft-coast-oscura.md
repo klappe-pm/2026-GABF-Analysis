@@ -197,7 +197,8 @@ Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://u
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706), web searches recorded in the research notes.
+- Not published: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-oscura/4211706), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

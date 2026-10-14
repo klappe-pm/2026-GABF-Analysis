@@ -242,7 +242,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes.
+- Not published: IBU. Checked [gowbeer.com](https://gowbeer.com/beer/rancho-cowabunga/), [grainsofwrath.com](https://grainsofwrath.com/), [untappd.com](https://untappd.com/GrainsOfWrath/beer), [belmont-station.com](https://www.belmont-station.com/events/2025/8/8/grains-of-wrath-tap-takeover), [taphunter.com](https://www.taphunter.com/brewery/grains-of-wrath/6282161321410560), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

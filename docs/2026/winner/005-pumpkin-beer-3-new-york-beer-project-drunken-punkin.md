@@ -220,7 +220,8 @@ Links checked 2026-10-14: [Website](https://nybeerproject.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/new-york-beer-project-drunkin-punkin/1755148/photos), [beermenus.com](https://www.beermenus.com/breweries/15951-new-york-beer-project), [orangeobserver.com](https://www.orangeobserver.com/news/2021/sep/09/new-york-beer-project-breaks-ground-in-horizon-west), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -212,7 +212,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes.
+- Not published: IBU. Checked [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer), [sunriverbrewingcompany.com](https://www.sunriverbrewingcompany.com/beer/camerons-crest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -248,7 +248,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [modelabrewing.com](https://modelabrewing.com/), [modelabrewing.com](https://modelabrewing.com/beer/), [modelabrewing.com](https://modelabrewing.com/menu/), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/60152/733720/), [fortmillsun.com](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [modelabrewing.com](https://modelabrewing.com/), [modelabrewing.com](https://modelabrewing.com/beer/), [modelabrewing.com](https://modelabrewing.com/menu/), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/60152/733720/), [fortmillsun.com](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/), web searches recorded in the research notes.
+- Not published: IBU. Checked [modelabrewing.com](https://modelabrewing.com/), [modelabrewing.com](https://modelabrewing.com/beer/), [modelabrewing.com](https://modelabrewing.com/menu/), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/60152/733720/), [fortmillsun.com](https://www.fortmillsun.com/2026/10/11/model-a-brewings-amber-hearth-medals-at-great-american-beer-festival/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

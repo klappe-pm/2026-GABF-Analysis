@@ -259,7 +259,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/HopDogmaBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/77810-hop-dogma-pyros-prost), [beermenus.com](https://www.beermenus.com/beers/87091-hop-dogma-pyro-s-prost), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

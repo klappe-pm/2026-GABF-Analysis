@@ -233,7 +233,8 @@ Links checked 2026-10-14: [Website](https://www.wrenhousebrewing.com/), [Untappd
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes.
+- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/20116/themes/76289/js), [untappd.com](https://untappd.com/b/wren-house-brewing-company-b-a-marzen-whiskey/6871912), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/), [wrenhousebrewing.com](https://www.wrenhousebrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

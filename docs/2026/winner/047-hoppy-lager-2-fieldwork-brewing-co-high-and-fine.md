@@ -248,7 +248,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [fieldworkbrewing.com](https://fieldworkbrewing.com/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/), [fieldworkbrewing.com](https://fieldworkbrewing.com/beer/high-fine/), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-high-and-fine/4764076), [untappd.com](https://untappd.com/FieldworkBrewingCompany/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

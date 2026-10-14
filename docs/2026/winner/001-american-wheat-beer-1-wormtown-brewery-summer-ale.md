@@ -241,7 +241,8 @@ Links checked 2026-10-14: [Website](https://wormtownbrewery.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wormtown-brewery-summer/3748097), [wormtownbrewery.com](https://wormtownbrewery.com/), [wormtownbrewery.com](https://wormtownbrewery.com/beer/), [wormtownbrewery.com](https://wormtownbrewery.com/beers/shrewsbury-st-wheat/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

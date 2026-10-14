@@ -229,7 +229,8 @@ Links checked 2026-10-14: [Website](https://verbotenbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beerandbrewing.com](https://beerandbrewing.com/review/grow-old-with-you/), [untappd.com](https://untappd.com/b/verboten-brewing-and-barrel-project-grow-old-with-you/6072106), [verbotenbrewing.com](https://verbotenbrewing.com/), [verbotenbrewing.com](https://verbotenbrewing.com/beer-menu/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

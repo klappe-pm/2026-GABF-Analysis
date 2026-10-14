@@ -121,6 +121,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/31b28d2b-c1db-4249-88bf-eb4ffeb45e97"
   - "https://untappd.com/b/blackstone-brewing-company-nut-brown-ale/814"
   - "https://www.blackstonebeer.com/"
   - "https://www.blackstonebeer.com/our-beer"
@@ -218,3 +219,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Blackstone Untappd listing supplies strength and bitterness, but no hop variety was verified.
+- Catalog.beer 2026-10-14: [Catalog.beer: Nut Brown Ale](https://catalog.beer/beer/31b28d2b-c1db-4249-88bf-eb4ffeb45e97) lists 5.6% ABV, 23 IBU, style "English-Style Brown Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

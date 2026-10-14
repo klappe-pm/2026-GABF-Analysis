@@ -102,6 +102,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/63374fcd-f234-49b7-834a-fb5527b19a08"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.vontrappbrewing.com/"
   - "https://www.vontrappbrewing.com/von-trapp-lagers-and-beers.htm"
@@ -199,3 +200,4 @@ Links checked 2026-10-14: [Website](https://www.vontrappbrewing.com/), [Instagra
 - Search results also showed a 2024 sell sheet and a Bierhall menu with the same 5.4% ABV and 42 IBU; those files were not opened.
 - The brewery home page mentions its 2024 GABF Brewery of the Year award but not the 2026 medal.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Bohemian Pilsner](https://catalog.beer/beer/63374fcd-f234-49b7-834a-fb5527b19a08) lists 5.4% ABV, 42 IBU, style "Bohemian-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

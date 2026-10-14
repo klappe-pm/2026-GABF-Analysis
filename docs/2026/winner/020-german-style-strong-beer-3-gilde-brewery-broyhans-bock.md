@@ -228,7 +228,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes.
+- Not published: IBU. Checked [gilde-brauerei.com](https://gilde-brauerei.com/?p=1161), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [inside.beer](https://www.inside.beer/news/detail/usa-large-german-brewing-group-to-open-brewery-in-october/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

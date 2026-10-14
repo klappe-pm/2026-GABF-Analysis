@@ -140,7 +140,9 @@ export function loadContext(root = ROOT) {
   const links = new Map(existsSync(linksPath) ? readCsvRecords(readFileSync(linksPath, 'utf8')).map((l) => [breweryKey(l.brewery_name), l]) : []);
   const enrichedPath = resolve(root, 'data/enriched/breweries.json');
   const enriched = existsSync(enrichedPath) ? JSON.parse(readFileSync(enrichedPath, 'utf8')).breweries ?? {} : {};
-  return { results, links, enriched };
+  const cbPath = resolve(root, 'data/reference/catalog-beer-winners.csv');
+  const catalog = new Map(existsSync(cbPath) ? readCsvRecords(readFileSync(cbPath, 'utf8')).map((r) => [r.profile, r]) : []);
+  return { results, links, enriched, catalog };
 }
 
 export function awardsFor(ctx, brewery, beer) {
@@ -154,7 +156,7 @@ const TYPE_LABEL = { micro: 'Microbrewery', brewpub: 'Brewpub', regional: 'Regio
 const COMPETITION = { GABF: 'Great American Beer Festival', WBC: 'World Beer Cup' };
 
 // ---------- one profile ----------
-export function deepDive(text, ctx) {
+export function deepDive(text, ctx, file = '') {
   const { data, blocks, body: body0 } = splitDoc(text);
   const d = { ...data };
   const set = new Map();
@@ -171,6 +173,12 @@ export function deepDive(text, ctx) {
   const missing = missingFields(d);
   const prior = Array.isArray(data.gaps) ? data.gaps : [];
   const gaps = missing.map((f) => prior.find((g) => g.field === f) ?? { field: f, 'sources-checked': seedChecked(data, body0) });
+  // Every profile was looked up in Catalog.beer for ABV and IBU; a gap names that lookup.
+  const cb = ctx.catalog?.get(file);
+  if (cb) {
+    const checked = cb.url || 'Catalog.beer search by beer and brewery name';
+    for (const g of gaps) if (['abv', 'ibu'].includes(g.field) && !g['sources-checked'].includes(checked)) g['sources-checked'] = [...g['sources-checked'], checked];
+  }
   if (JSON.stringify(gaps) !== JSON.stringify(prior) || !('gaps' in data)) put('gaps', gaps);
 
   // body
@@ -227,7 +235,7 @@ function main() {
     if (filter && !filter.test(f)) continue;
     const path = resolve(dir, f);
     const before = readFileSync(path, 'utf8');
-    let after = deepDive(before, ctx);
+    let after = deepDive(before, ctx, f);
     if (after !== before) { after = touch(after, today); writeFileSync(path, after); changed += 1; }
   }
   console.log(`${changed} profiles updated`);

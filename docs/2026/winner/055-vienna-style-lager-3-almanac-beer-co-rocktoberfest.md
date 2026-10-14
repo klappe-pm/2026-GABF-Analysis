@@ -224,7 +224,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes.
+- Not published: IBU. Checked [almanacbeer.com](https://almanacbeer.com/), [almanacbeer.com](https://almanacbeer.com/alameda), [almanacbeer.com](https://almanacbeer.com/core-beers), [beermenus.com](https://www.beermenus.com/beers/382742-almanac-rocktoberfest), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

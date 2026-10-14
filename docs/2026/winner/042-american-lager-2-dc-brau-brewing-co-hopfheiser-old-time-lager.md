@@ -232,7 +232,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [dcbeer.com](https://dcbeer.com/2022/04/05/old-time-lager-relaunches-in-dc/), [untappd.com](https://untappd.com/b/the-hopfheiser-brewing-company-old-time-lager/4784176), [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/awards), [oldtimelager.com](https://www.oldtimelager.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

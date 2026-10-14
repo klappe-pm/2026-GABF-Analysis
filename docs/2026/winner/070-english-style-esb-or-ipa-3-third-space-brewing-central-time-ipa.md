@@ -151,6 +151,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca"
   - "https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/"
   - "https://thirdspacebrewing.com/"
   - "https://thirdspacebrewing.com/beer/"
@@ -245,7 +246,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes.
+- Not published: IBU. Checked [isthmus.com](https://isthmus.com/food-drink/beer/honey-kissed-weizen-beers-july-2026/), [thirdspacebrewing.com](https://thirdspacebrewing.com/), [thirdspacebrewing.com](https://thirdspacebrewing.com/beer/), [untappd.com](https://untappd.com/ThirdSpaceBrewing/beer?sort=name_asc), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca).
 
 ## research-notes
 
@@ -255,3 +257,4 @@ No brewery links have been checked yet.
 - A plain fetch of the brewery site later returned HTTP 511, so quoted text could not be rechecked character by character.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A July 2026 Isthmus article explicitly names Third Space Central Time IPA and quotes co-owner Andy Gehl identifying the three hops recorded above. No verified IBU was found; Driftless Brewing's same-named farmhouse IPA is unrelated and its recipe is excluded.
+- Catalog.beer 2026-10-14: [Catalog.beer: Central Time IPA](https://catalog.beer/beer/ba0a5caa-cd28-4800-a266-89f80c3a14ca) lists 6% ABV, style "IPA" (entry last modified 2026-08-03). Where it differs from the brewery's own published value, the brewery's value stands.

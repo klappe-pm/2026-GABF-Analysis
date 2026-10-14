@@ -167,6 +167,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/3c0e6c21-ad04-4262-ad2f-6852c4820da8"
   - "https://untappd.com/b/sun-king-brewery-pachanga/2014545"
   - "https://www.beerandbrewing.com/review/pachanga"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -279,3 +280,4 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 - Style label conflict: the brewery's July 2025 post calls Pachanga "our German Leichtbier" when reporting a 1st place at the 2025 Indiana Brewers Cup, while its beer list calls it Mexican-Style Lager.
 - No 2026 GABF post was found on the brewery blog.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Pachanga](https://catalog.beer/beer/3c0e6c21-ad04-4262-ad2f-6852c4820da8) lists 4.2% ABV, 24 IBU, style "American-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

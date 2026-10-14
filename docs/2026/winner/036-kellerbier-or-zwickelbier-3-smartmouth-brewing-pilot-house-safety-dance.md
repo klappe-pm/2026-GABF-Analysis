@@ -124,6 +124,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/3486128d-ab2b-49f6-9e24-a71444dc51f8"
   - "https://untappd.com/b/smartmouth-brewing-co-safety-dance/593885"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.smartmouthbrewing.com/"
@@ -225,3 +226,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New third-party searches give noble-hop character but no verified variety; a BeerAdvocate review's Saaz-like tasting impression is not a recipe declaration.
+- Catalog.beer 2026-10-14: [Catalog.beer: Safety Dance](https://catalog.beer/beer/3486128d-ab2b-49f6-9e24-a71444dc51f8) lists 4.8% ABV, 26 IBU, style "Contemporary American-Style Pilsener" (entry last modified 2026-08-19). Where it differs from the brewery's own published value, the brewery's value stands.

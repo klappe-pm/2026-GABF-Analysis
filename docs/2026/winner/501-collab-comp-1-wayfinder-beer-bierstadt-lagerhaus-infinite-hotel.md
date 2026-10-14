@@ -251,7 +251,8 @@ Links checked 2026-10-14: [Website](https://wayfinder.beer/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/wayfinder-beer-infinite-hotel/5546307), [wayfinder.beer](https://wayfinder.beer/), [wayfinder.beer](https://wayfinder.beer/releases), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/collaboration-competition/), [tavour.com](https://www.tavour.com/b/infinite-hotel-b578118), [wayfinder.beer](https://www.wayfinder.beer/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

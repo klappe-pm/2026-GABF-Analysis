@@ -220,7 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2025/05/02/hencforth-there-will-be-beer-dcs-newest-brewery-set-to-open/), [henceforthdc.com](https://www.henceforthdc.com/), [henceforthdc.com](https://www.henceforthdc.com/beer-menu), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbeer.com](https://dcbeer.com/2025/05/02/hencforth-there-will-be-beer-dcs-newest-brewery-set-to-open/), [henceforthdc.com](https://www.henceforthdc.com/), [henceforthdc.com](https://www.henceforthdc.com/beer-menu), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [dcbeer.com](https://dcbeer.com/2025/05/02/hencforth-there-will-be-beer-dcs-newest-brewery-set-to-open/), [henceforthdc.com](https://www.henceforthdc.com/), [henceforthdc.com](https://www.henceforthdc.com/beer-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

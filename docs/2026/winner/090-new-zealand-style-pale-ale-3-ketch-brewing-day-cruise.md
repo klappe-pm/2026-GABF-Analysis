@@ -239,7 +239,8 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [ketchbrewing.com](https://ketchbrewing.com/beers), [untappd.com](https://untappd.com/v/ketch-brewing/8611018), [beeradvocate.com](https://www.beeradvocate.com/beer/profile/55354/404532/), [ketchbrewing.com](https://www.ketchbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

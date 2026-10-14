@@ -247,7 +247,8 @@ Links checked 2026-10-14: [Website](https://www.humanpeoplebeer.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/human-people-before-and-after-science/6884729), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/), [humanpeoplebeer.com](https://www.humanpeoplebeer.com/cafe), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -254,7 +254,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [newjersey.news12.com](https://newjersey.news12.com/falls-first-sip-nj-brewery-debuts-groundbreaking-pumpkin-beer), [departedsoles.com](https://www.departedsoles.com/), [departedsoles.com](https://www.departedsoles.com/gluten-free-beers), [departedsoles.com](https://www.departedsoles.com/menu), [departedsoles.com](https://www.departedsoles.com/our-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

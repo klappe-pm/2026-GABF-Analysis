@@ -225,7 +225,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes.
+- Not published: IBU. Checked [beermenus.com](https://www.beermenus.com/beers/516078-caiseal-coffee-blonde-ale), [thevanguard757.com](https://www.thevanguard757.com/), [thevanguard757.com](https://www.thevanguard757.com/caiseal-tap-list), [thevanguard757.com](https://www.thevanguard757.com/drinks), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

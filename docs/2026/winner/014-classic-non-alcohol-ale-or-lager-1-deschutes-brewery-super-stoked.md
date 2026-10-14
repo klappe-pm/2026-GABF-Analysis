@@ -214,7 +214,8 @@ Links checked 2026-10-14: [Website](https://www.deschutesbrewery.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, ABV, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes.
+- Not published: ABV. Checked [untappd.com](https://untappd.com/b/deschutes-brewery-super-stoked-golden/5959101), [deschutesbrewery.com](https://www.deschutesbrewery.com/), [deschutesbrewery.com](https://www.deschutesbrewery.com/products/super-stoked-non-alcoholic-golden), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

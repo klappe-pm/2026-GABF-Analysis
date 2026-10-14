@@ -248,7 +248,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes.
+- Not published: IBU. Checked [boxingbearbrewing.com](https://boxingbearbrewing.com/), [boxingbearbrewing.com](https://boxingbearbrewing.com/brews/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-bridges/), [boxingbearbrewing.com](https://boxingbearbrewing.com/on-tap-firestone/), [nmdarksidebrewcrew.com](https://nmdarksidebrewcrew.com/2025/06/09/boxing-bear-cleans-up-with-3-gold-medals-at-naba-beer-and-cider-awards/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

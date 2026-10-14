@@ -270,7 +270,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [almamaderbrewing.com](https://almamaderbrewing.com/about/), [almamaderbrewing.com](https://almamaderbrewing.com/beer/), [untappd.com](https://untappd.com/AlmaMaderBrewing/beer), [untappd.com](https://untappd.com/b/alma-mader-brewing-coral-crush/6149424), [almamaderbrewing.com](https://www.almamaderbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

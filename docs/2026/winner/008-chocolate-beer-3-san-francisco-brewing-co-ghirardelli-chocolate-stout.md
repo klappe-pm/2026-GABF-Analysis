@@ -219,7 +219,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [ghirardelli.sfbrewingco.com](https://ghirardelli.sfbrewingco.com/drink-menu), [missionbay.sfbrewingco.com](https://missionbay.sfbrewingco.com/drink-menu), [untappd.com](https://untappd.com/b/san-francisco-brewing-co-ghirardelli-chocolate-stout/2643319), [sfbrewingco.com](https://www.sfbrewingco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -113,6 +113,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/e8fbebba-ab2c-4d4b-98ca-8a919e3ed7be"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.portcitybrewing.com/"
   - "https://www.portcitybrewing.com/beer"
@@ -212,3 +213,4 @@ Links checked 2026-10-14: [Website](https://www.portcitybrewing.com/), [Instagra
 - The beer page and the 2026 seasonals list on the beer page agree on every published spec; no conflict.
 - No 2026 medal announcement from the brewery was found; its home page does not mention Oktoberfest.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Oktoberfest](https://catalog.beer/beer/e8fbebba-ab2c-4d4b-98ca-8a919e3ed7be) lists 5.5% ABV, 24 IBU, style "German-Style Märzen" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

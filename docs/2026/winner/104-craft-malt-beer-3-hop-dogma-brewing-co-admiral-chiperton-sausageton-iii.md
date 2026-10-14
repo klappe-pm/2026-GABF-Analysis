@@ -271,7 +271,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/awards), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/taplist), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/awards), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/taplist), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [brewersassociation.org](https://www.brewersassociation.org/association-news/gabf-debuts-a-craft-malt-category-in-2026/), [hopdogma.com](https://www.hopdogma.com/), [hopdogma.com](https://www.hopdogma.com/awards), [hopdogma.com](https://www.hopdogma.com/beers-2), [hopdogma.com](https://www.hopdogma.com/taplist), [hopdogma.com](https://www.hopdogma.com/welcome), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

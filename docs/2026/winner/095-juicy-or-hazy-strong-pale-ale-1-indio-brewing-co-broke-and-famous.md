@@ -184,7 +184,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [beerandbrewing.com](https://www.beerandbrewing.com/review/indio-brewing-co-broke-%2Dfamous-1710259265?action=print), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

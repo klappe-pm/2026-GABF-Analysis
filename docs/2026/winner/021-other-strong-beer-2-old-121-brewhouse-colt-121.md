@@ -214,7 +214,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [coloradobiz.com](https://coloradobiz.com/old-121-brewhouse-7th-anniversary-lakewood/), [porchdrinking.com](https://porchdrinking.com/lakewood-brewery-grand-opening-old-121/), [old121brewhouse.com](https://www.old121brewhouse.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

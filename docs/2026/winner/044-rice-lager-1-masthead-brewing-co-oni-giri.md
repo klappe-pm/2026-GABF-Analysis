@@ -232,7 +232,8 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [beerdb.tavour.com](https://beerdb.tavour.com/b/oni-giri-b490663), [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -157,6 +157,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/c51bfd5b-313b-4777-8ac3-372ba3511aa1"
   - "https://dbbrewingcompany.com/beer-finder/"
   - "https://dbbrewingcompany.com/beers/"
   - "https://untappd.com/b/devils-backbone-brewing-company-gold-leaf-lager/19364"
@@ -265,3 +266,4 @@ Links checked 2026-10-14: [Website](https://dbbrewingcompany.com/), [Instagram](
 - Web search summaries mentioned a 4.9% ABV in an older award writeup and a 2009 GABF gold; neither page was opened, so neither is used.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Gold Leaf Lager](https://catalog.beer/beer/c51bfd5b-313b-4777-8ac3-372ba3511aa1) lists 4.5% ABV, 17 IBU, style "German-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

@@ -184,7 +184,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [mouthbysouthwest.com](https://mouthbysouthwest.com/2026/10/12/wren-house-leads-azs-9-honors-at-great-american-beer-festival/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

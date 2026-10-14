@@ -238,7 +238,8 @@ Links checked 2026-10-14: [Website](https://www.maplebranchbrew.com/), [Instagra
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/maple-branch-craft-brewery-the-seventh-hill/5289387), [maplebranchbrew.com](https://www.maplebranchbrew.com/), [maplebranchbrew.com](https://www.maplebranchbrew.com/beer), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews), [maplebranchbrew.com](https://www.maplebranchbrew.com/brews/seventh-hill), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

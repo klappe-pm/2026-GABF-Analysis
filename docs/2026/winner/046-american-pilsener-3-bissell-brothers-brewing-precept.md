@@ -190,7 +190,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes.
+- Not published: IBU. Checked [bissellbrothers.com](https://bissellbrothers.com/beer/precept), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

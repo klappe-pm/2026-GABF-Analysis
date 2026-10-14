@@ -154,6 +154,7 @@ sources:
   - "https://biggrove.com/"
   - "https://biggrove.com/collections/beer"
   - "https://biggrove.com/products/zero-eddy"
+  - "https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5"
   - "https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf"
   - "https://untappd.com/b/big-grove-brewery-zero-eddy/6524642"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -244,7 +245,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes.
+- Not published: IBU. Checked [biggrove.com](https://biggrove.com/), [biggrove.com](https://biggrove.com/collections/beer), [biggrove.com](https://biggrove.com/products/zero-eddy), [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [untappd.com](https://untappd.com/b/big-grove-brewery-zero-eddy/6524642), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5).
 
 ## research-notes
 
@@ -254,3 +256,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The matching Untappd listing publishes 0.4% ABV, consistent with the existing brewery upper bound. IBU is N/A and hop varieties are not named.
+- Catalog.beer 2026-10-14: [Catalog.beer: Zero Eddy](https://catalog.beer/beer/cbecf61e-bb9e-419b-abc8-8760d3bf99b5) lists 0.4% ABV, style "Non-Alcoholic Hazy IPA" (entry last modified 2026-09-24). Where it differs from the brewery's own published value, the brewery's value stands.

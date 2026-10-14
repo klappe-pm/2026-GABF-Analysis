@@ -113,6 +113,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296"
   - "https://www.allagash.com/beer/white/"
   - "https://www.beerandbrewing.com/review/allagash-brewing-company-allagash-white-1639746642"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -216,3 +217,4 @@ Links checked 2026-10-14: [Website](https://www.allagash.com/), [Instagram](http
 - Search snippets showed other IBU figures (20 from a distributor and a homebrew clone recipe) that were not read in full; the 13 figure was read on the review page.
 - The brewery page already lists the 2026 GABF gold among its medals, alongside earlier GABF golds in 2002, 2005, 2015, 2020, 2022 and 2024.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: White](https://catalog.beer/beer/9b904949-f423-4225-843b-bd04e2e42296) lists 5% ABV, 28 IBU, style "Belgian-Style White (or Wit) / Belgian-Style Wheat" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

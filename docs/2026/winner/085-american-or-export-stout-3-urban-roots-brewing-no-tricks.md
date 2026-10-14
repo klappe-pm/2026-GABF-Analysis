@@ -213,7 +213,8 @@ Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Un
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not published: IBU. Checked [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

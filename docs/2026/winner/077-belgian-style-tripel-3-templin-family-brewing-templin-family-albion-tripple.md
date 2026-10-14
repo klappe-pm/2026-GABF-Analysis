@@ -220,7 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/beer/albion-trippel/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://www.tfbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -198,7 +198,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes.
+- Not published: IBU. Checked [edentownbrewing.com](https://www.edentownbrewing.com/), [edentownbrewing.com](https://www.edentownbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

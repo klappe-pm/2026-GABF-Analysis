@@ -216,7 +216,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/trap-door-brewing-trap-door-ipa/1329630), [trapdoorbrewing.com](https://www.trapdoorbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

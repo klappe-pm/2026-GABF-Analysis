@@ -122,6 +122,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567"
   - "https://drinkdrakes.com/"
   - "https://drinkdrakes.com/beer-library/"
   - "https://drinkdrakes.com/beer/bold-rush/"
@@ -215,7 +216,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
+- Not published: IBU. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567).
 
 ## research-notes
 
@@ -224,3 +226,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU searches found no verified bitterness figure. The exact Bold Rush Untappd excerpt shows N/A IBU; its zero-valued internal field is not a published measurement.
+- Catalog.beer 2026-10-14: [Catalog.beer: Bold Rush](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567) lists 4.8% ABV, style "Golden Ale" (entry last modified 2026-09-09). Where it differs from the brewery's own published value, the brewery's value stands.

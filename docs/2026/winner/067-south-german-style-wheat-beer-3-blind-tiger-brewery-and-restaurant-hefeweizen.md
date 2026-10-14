@@ -147,6 +147,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/7ecb09db-e00f-4af4-ba93-998ee9db25cb"
   - "https://untappd.com/b/blind-tiger-brewery-and-restaurant-hefeweizen/136884"
   - "https://untappd.com/BlindTigerBrewery/beer"
   - "https://www.blindtiger.com/"
@@ -249,3 +250,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional brewery-domain and ingredient searches found no named hop variety or qualifying beer page. A brewery merchandise PDF mentioning a hefeweizen glass does not establish the recipe.
+- Catalog.beer 2026-10-14: [Catalog.beer: Hefeweizen](https://catalog.beer/beer/7ecb09db-e00f-4af4-ba93-998ee9db25cb) lists 4.8% ABV, 17 IBU, style "Hefeweizen" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

@@ -112,6 +112,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473"
   - "https://grimmales.com/beers/road-dog/"
   - "https://grimmales.com/location/taproom/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -202,7 +203,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [grimmales.com](https://grimmales.com/beers/road-dog/), [grimmales.com](https://grimmales.com/location/taproom/), [grimmales.com](https://www.grimmales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473).
 
 ## research-notes
 
@@ -211,3 +213,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Untappd photo search results associate Grimm Road Dog with 5.4% ABV, but the opened Surf Club page contained no matching beer text. That excerpt was not accepted; the existing brewery 5.5% is retained. No numeric IBU or named hops were verified.
+- Catalog.beer 2026-10-14: [Catalog.beer: Road Dog](https://catalog.beer/beer/63482df1-8cd6-43f3-a103-d2f35426d473) lists 5.5% ABV, style "Roggenbier" (entry last modified 2026-09-24). Where it differs from the brewery's own published value, the brewery's value stands.

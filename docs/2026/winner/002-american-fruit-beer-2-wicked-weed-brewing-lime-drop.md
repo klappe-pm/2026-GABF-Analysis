@@ -209,7 +209,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beeradvocate.com](https://www.beeradvocate.com/beer/profile/30581/798056/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/lime-drop/), [wickedweedbrewing.com](https://www.wickedweedbrewing.com/beers/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

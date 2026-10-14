@@ -243,7 +243,8 @@ Links checked 2026-10-14: [Website](https://pelicanbrewing.com/), [Instagram](ht
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes.
+- Not published: IBU. Checked [pelicanbrewing.com](https://pelicanbrewing.com/), [pelicanbrewing.com](https://pelicanbrewing.com/awards/), [pelicanbrewing.com](https://pelicanbrewing.com/beer/), [untappd.com](https://untappd.com/b/pelican-brewing-company-beachcomber-1355/6844937), [untappd.com](https://untappd.com/PelicanBrewing/beer?sort=created_at_desc), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

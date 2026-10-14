@@ -226,7 +226,8 @@ Links checked 2026-10-14: [Website](https://haykinfamilycider.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: IBU. Checked [haykinfamilycider.com](https://haykinfamilycider.com/), [haykinfamilycider.com](https://haykinfamilycider.com/bottle-menu), [haykinfamilycider.com](https://haykinfamilycider.com/tasting-menu), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

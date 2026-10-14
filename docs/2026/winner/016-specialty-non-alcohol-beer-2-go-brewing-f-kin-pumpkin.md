@@ -223,7 +223,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes.
+- Not published: IBU. Checked [gobrewing.com](https://gobrewing.com/), [gobrewing.com](https://gobrewing.com/collections/beers), [gobrewing.com](https://gobrewing.com/products/fk-in-pumkin-ale), [untappd.com](https://untappd.com/b/go-brewing-f-k-in-pum-kin/6025884), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

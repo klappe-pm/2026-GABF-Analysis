@@ -282,7 +282,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://menu-5a543.web.app), [untappd.com](https://untappd.com/b/frogtown-brewery-twin-suns/6318100), [untappd.com](https://untappd.com/FrogtownBrewery), [untappd.com](https://untappd.com/w/frogtown-brewery/253896/beer), [frogtownbrewery.com](https://www.frogtownbrewery.com/), [frogtownbrewery.com](https://www.frogtownbrewery.com/beerfinder), [frogtownbrewery.com](https://www.frogtownbrewery.com/home), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [web page](https://menu-5a543.web.app), [untappd.com](https://untappd.com/b/frogtown-brewery-twin-suns/6318100), [untappd.com](https://untappd.com/FrogtownBrewery), [untappd.com](https://untappd.com/w/frogtown-brewery/253896/beer), [frogtownbrewery.com](https://www.frogtownbrewery.com/), [frogtownbrewery.com](https://www.frogtownbrewery.com/beerfinder), [frogtownbrewery.com](https://www.frogtownbrewery.com/home), web searches recorded in the research notes.
+- Not published: IBU. Checked [web page](https://menu-5a543.web.app), [untappd.com](https://untappd.com/b/frogtown-brewery-twin-suns/6318100), [untappd.com](https://untappd.com/FrogtownBrewery), [untappd.com](https://untappd.com/w/frogtown-brewery/253896/beer), [frogtownbrewery.com](https://www.frogtownbrewery.com/), [frogtownbrewery.com](https://www.frogtownbrewery.com/beerfinder), [frogtownbrewery.com](https://www.frogtownbrewery.com/home), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

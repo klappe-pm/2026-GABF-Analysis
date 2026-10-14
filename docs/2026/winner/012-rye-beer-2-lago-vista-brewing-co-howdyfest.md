@@ -207,7 +207,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes.
+- Not published: IBU. Checked [cdn.worldbeercup.org](https://cdn.worldbeercup.org/wp-content/uploads/2026/04/23075637/WBC26-Winners-List-2.pdf), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/), [lagovistabrewingco.com](https://www.lagovistabrewingco.com/whatsontap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

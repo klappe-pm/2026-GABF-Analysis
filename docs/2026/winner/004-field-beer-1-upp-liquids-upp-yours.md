@@ -238,7 +238,8 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes.
+- Not published: IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2025/10/oregon-breweries-cideries-win-medals-gabf), [untappd.com](https://untappd.com/w/upp-liquids/574533/beer), [uppliquids.com](https://uppliquids.com/), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [bendsource.com](https://www.bendsource.com/food-drink/gabf-is-down-with-upp/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

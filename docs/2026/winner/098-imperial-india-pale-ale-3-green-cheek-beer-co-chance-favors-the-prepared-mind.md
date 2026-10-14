@@ -248,7 +248,8 @@ Links checked 2026-10-14: [Website](https://www.greencheekbeer.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes.
+- Not published: IBU. Checked [shop.greencheekbeer.com](https://shop.greencheekbeer.com/collections/beer), [beermenus.com](https://www.beermenus.com/beers/523125-green-cheek-chance-favors-the-prepared-mind), [greencheekbeer.com](https://www.greencheekbeer.com/), [greencheekbeer.com](https://www.greencheekbeer.com/orange), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

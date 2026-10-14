@@ -243,7 +243,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes.
+- Not published: IBU. Checked [gilde-brauerei.com](https://gilde-brauerei.com/en/history/), [gilde1546.com](https://gilde1546.com/), [gilde1546.com](https://gilde1546.com/-on-tap), [untappd.com](https://untappd.com/b/gilde-usa-broyhan-500/6697067), [inside.beer](https://www.inside.beer/news/detail/usa-branch-of-one-of-the-largest-german-breweries-opens-at-the-weekend), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -264,7 +264,8 @@ Links checked 2026-10-14: [Website](https://sweetheartbrands.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [sweetheartbrands.com](https://sweetheartbrands.com/), [sweetheartcider.com](https://sweetheartcider.com/), [climbhardcider.com](https://www.climbhardcider.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), [sweetheartwinery.com](https://www.sweetheartwinery.com/), [sweetheartwinery.com](https://www.sweetheartwinery.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -236,7 +236,8 @@ Links checked 2026-10-14: [Website](https://www.fieldworkbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic), [shop.fieldworkbrewing.com](https://shop.fieldworkbrewing.com/collections/non-alcoholic/products/day-money-na-grapefruit-blonde-4-pack-of-16oz-cans), [untappd.com](https://untappd.com/b/fieldwork-brewing-company-day-money/5708822), [fieldworkbrewing.com](https://www.fieldworkbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

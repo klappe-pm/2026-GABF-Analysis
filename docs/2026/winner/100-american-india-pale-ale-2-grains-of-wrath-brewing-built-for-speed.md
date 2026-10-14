@@ -230,7 +230,8 @@ Links checked 2026-10-14: [Website](https://grainsofwrath.com/).
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes.
+- Not published: IBU. Checked [app.warehouserunner.com](https://app.warehouserunner.com/costco/1999690-grains-of-wrath-built-for-speed-wc-ipa-camas-wa-4-16oz), [gowbeer.com](https://gowbeer.com/beer/built-for-speed-ipa/), [newschoolbeer.com](https://newschoolbeer.com/nsb/2020/04/grains-of-wrath-drops-new-cans.html), [beerandbrewing.com](https://www.beerandbrewing.com/review/grains-of-wrath-brewing-built-for-speed-1773937778), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

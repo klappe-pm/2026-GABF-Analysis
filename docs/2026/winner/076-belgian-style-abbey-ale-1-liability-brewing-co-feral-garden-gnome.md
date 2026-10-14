@@ -230,7 +230,8 @@ Links checked 2026-10-14: [Website](https://liabilitybrewing.co/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes.
+- Not published: IBU. Checked [liabilitybrewing.co](https://liabilitybrewing.co/), [liabilitybrewing.co](https://liabilitybrewing.co/awards/), [liabilitybrewing.co](https://liabilitybrewing.co/beer/feral-garden-gnome/), [liabilitybrewing.co](https://liabilitybrewing.co/beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

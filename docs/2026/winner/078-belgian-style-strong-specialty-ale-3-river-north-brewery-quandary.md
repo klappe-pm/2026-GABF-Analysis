@@ -35,11 +35,6 @@ gaps:
       - "https://rivernorthbrewery.com/"
       - "https://www.rivernorthbrewery.com/beer-descriptions"
       - "web searches recorded in the research notes"
-  - field: "ibu"
-    sources-checked:
-      - "https://rivernorthbrewery.com/"
-      - "https://www.rivernorthbrewery.com/beer-descriptions"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://rivernorthbrewery.com/"
@@ -102,13 +97,14 @@ gaps:
       - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
-ibu: null
+ibu: 24
 malts: []
 medal: "Bronze"
 og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/b7aa4f6d-b0a6-420c-9fdb-e6e8c5a12d11"
   - "https://rivernorthbrewery.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.rivernorthbrewery.com/beer-descriptions"
@@ -135,7 +131,7 @@ Quandary is a Belgian quad with dark fruit flavors from River North Brewery, whi
 |---|---|---|
 | Style | Belgian Quad | [River North: our beers](https://www.rivernorthbrewery.com/beer-descriptions) |
 | ABV | 10.4% | [River North: our beers](https://www.rivernorthbrewery.com/beer-descriptions) |
-| IBU | not published | none found |
+| IBU | 24 | [Catalog.beer: Quandary](https://catalog.beer/beer/b7aa4f6d-b0a6-420c-9fdb-e6e8c5a12d11) |
 | Hops | not published | none found |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -196,7 +192,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [rivernorthbrewery.com](https://rivernorthbrewery.com/), [rivernorthbrewery.com](https://www.rivernorthbrewery.com/beer-descriptions), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -205,3 +201,4 @@ No brewery links have been checked yet.
 - No barrel aging is mentioned for this beer.
 - The web search budget ran out before Untappd or press could be searched for IBU or ingredients; no 2026 medal announcement was found on the brewery home page.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Quandary](https://catalog.beer/beer/b7aa4f6d-b0a6-420c-9fdb-e6e8c5a12d11) lists 9.6% ABV, 24 IBU, style "Belgian-Style Quadrupel" (entry last modified 2020-05-02). It fills the empty IBU; where it differs from the brewery's own published value, the brewery's value stands.

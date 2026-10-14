@@ -230,7 +230,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oddmusebrewing.com](https://oddmusebrewing.com/), [oddmusebrewing.com](https://oddmusebrewing.com/?page_id=7062), [saucer.rechlin.net](https://saucer.rechlin.net/brewers/1880), [untappd.com](https://untappd.com/b/odd-muse-brewing-company-graveyard-ghosts/5058946), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oddmusebrewing.com](https://oddmusebrewing.com/), [oddmusebrewing.com](https://oddmusebrewing.com/?page_id=7062), [saucer.rechlin.net](https://saucer.rechlin.net/brewers/1880), [untappd.com](https://untappd.com/b/odd-muse-brewing-company-graveyard-ghosts/5058946), web searches recorded in the research notes.
+- Not published: IBU. Checked [oddmusebrewing.com](https://oddmusebrewing.com/), [oddmusebrewing.com](https://oddmusebrewing.com/?page_id=7062), [saucer.rechlin.net](https://saucer.rechlin.net/brewers/1880), [untappd.com](https://untappd.com/b/odd-muse-brewing-company-graveyard-ghosts/5058946), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

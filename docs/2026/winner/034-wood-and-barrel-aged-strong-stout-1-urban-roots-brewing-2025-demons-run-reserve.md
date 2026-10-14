@@ -256,7 +256,8 @@ Links checked 2026-10-14: [Website](https://www.urbanrootsbrewing.com/home), [Un
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/awards), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/blog), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/awards), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/blog), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [untappd.com](https://untappd.com/b/urban-roots-brewing-and-smokehouse-demons-run-reserve-2024/6077024), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/awards), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/blog), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/home), [urbanrootsbrewing.com](https://www.urbanrootsbrewing.com/s/OKT-draught-list-26-1.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

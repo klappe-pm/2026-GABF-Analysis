@@ -244,7 +244,8 @@ Links checked 2026-10-14: [Website](https://mastheadbrewingco.com/), [Instagram]
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [mastheadbrewingco.com](https://mastheadbrewingco.com/), [mastheadbrewingco.com](https://mastheadbrewingco.com/beer), [mastheadbrewingco.com](https://mastheadbrewingco.com/menu), [untappd.com](https://untappd.com/MastheadBrewingCo/beer), [beermenus.com](https://www.beermenus.com/beers/549762-masthead-shower-beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

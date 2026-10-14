@@ -198,7 +198,8 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
+- Not published: IBU. Checked [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

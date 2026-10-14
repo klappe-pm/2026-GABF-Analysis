@@ -239,7 +239,8 @@ Links checked 2026-10-14: [Website](https://foundersbrewing.com/), [Instagram](h
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: IBU. Checked [foundersbrewing.com](https://foundersbrewing.com/), [foundersbrewing.com](https://foundersbrewing.com/latest-news/2024/exploring-hoppy-mood-a-delicious-and-refreshing-hop-water/), [foundersbrewing.com](https://foundersbrewing.com/our-beer/hoppy-mood/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

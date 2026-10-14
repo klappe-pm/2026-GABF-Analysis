@@ -242,7 +242,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/smog-city-brewing-co-lunch-time/6967223/photos), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/pro-am-competition/), [smogcitybrewing.com](https://www.smogcitybrewing.com/), [smogcitybrewing.com](https://www.smogcitybrewing.com/beer-finder), [smogcitybrewing.com](https://www.smogcitybrewing.com/meet-the-beers), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -233,7 +233,8 @@ Links checked 2026-10-14: [Website](https://www.corncoastbrewing.com/), [Instagr
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/corn-coast-brewing-co-stoop-kid/6854367), [corncoastbrewing.com](https://www.corncoastbrewing.com/), [corncoastbrewing.com](https://www.corncoastbrewing.com/on-tap-lincoln), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

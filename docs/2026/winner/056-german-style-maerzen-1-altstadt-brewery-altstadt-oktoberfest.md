@@ -130,6 +130,7 @@ sources:
   - "https://altstadtbeer.com/beers/"
   - "https://altstadtbeer.com/beers/oktoberfest/"
   - "https://altstadtbeer.com/in-the-news/altstadt-wins-two-gold-medals-2026-gabf/"
+  - "https://catalog.beer/beer/966aa886-6040-42e7-be05-0a58a7e0e992"
   - "https://www.altstadtbeer.com/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
@@ -227,3 +228,4 @@ Links checked 2026-10-14: [Website](https://www.altstadtbeer.com/), [Instagram](
 - The brewery's medal post quotes head brewer Craig Rowan on the beer; an Instagram post embedded on the brewery home page refers to the Oktoberfest as a "limited 10th anniversary beer release."
 - The beer page notes the Houston Chronicle named it a favorite among 12 Oktoberfest beers; that article was not opened.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Oktoberfest](https://catalog.beer/beer/966aa886-6040-42e7-be05-0a58a7e0e992) lists 5.9% ABV, 16 IBU, style "Märzen" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.

@@ -156,6 +156,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/03a2b09c-d943-4566-8fcd-0e871f0655e9"
   - "https://untappd.com/b/sun-king-brewery-soul-shakedown-party/578879"
   - "https://www.beeradvocate.com/beer/profile/20672/119571/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -263,3 +264,4 @@ Links checked 2026-10-14: [Website](https://www.sunkingbrewing.com/).
 - Researched 2026-10-13.
 - Second pass 2026-10-13: Found a readable matching Untappd listing with ABV, IBU, base style and rum barrel treatment. BeerAdvocate also lists 13.7%, while a review there reports 14.1% for the 2021 festival pour. The current product listing value is retained, not asserted as a measured 2026 medal batch; earlier search snippets cited in the first pass remain unverified. No hop varieties or brewery beer page were found.
 - Field pass 2026-10-13: A new brewery-domain search found awards mentions but no Soul Shakedown Party beer page or named hops; ingredients from other beers on award pages were excluded.
+- Catalog.beer 2026-10-14: [Catalog.beer: Soul Shakedown Party](https://catalog.beer/beer/03a2b09c-d943-4566-8fcd-0e871f0655e9) lists 9% ABV, 30 IBU, style "Scotch Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

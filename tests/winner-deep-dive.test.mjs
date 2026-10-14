@@ -12,7 +12,7 @@ const files = readdirSync(dir).filter((f) => /^\d{3}-.+\.md$/.test(f)).sort();
 const ctx = loadContext();
 
 test('every profile is up to date with the deep dive generator', () => {
-  const stale = files.filter((f) => { const t = readFileSync(resolve(dir, f), 'utf8'); return deepDive(t, ctx) !== t; });
+  const stale = files.filter((f) => { const t = readFileSync(resolve(dir, f), 'utf8'); return deepDive(t, ctx, f) !== t; });
   assert.deepEqual(stale, [], 'run node scripts/winner-deep-dive.mjs 2026');
 });
 

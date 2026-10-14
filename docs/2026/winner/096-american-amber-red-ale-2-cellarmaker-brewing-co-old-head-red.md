@@ -213,7 +213,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [cellarmakerbrewing.com](https://cellarmakerbrewing.com/beer/old-head-red/), [cellarmakerbrewing.com](https://www.cellarmakerbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

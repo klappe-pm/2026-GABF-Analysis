@@ -247,7 +247,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes.
+- Not published: IBU. Checked [giantjones.com](https://giantjones.com/beer/), [giantjones.com](https://giantjones.com/on-tap/), [untappd.com](https://untappd.com/b/giant-jones-brewing-company-doppelsticke-altbier/3933763), [giantjones.com](https://www.giantjones.com/), [pbs.org](https://www.pbs.org/video/giant-jones-brewing-lillianas-restaurant-snsqwh/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

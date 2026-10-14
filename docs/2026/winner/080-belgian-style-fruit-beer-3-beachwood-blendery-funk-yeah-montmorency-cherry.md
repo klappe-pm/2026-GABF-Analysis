@@ -248,7 +248,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [beachwoodbrewing.com](https://beachwoodbrewing.com/blendery.html), [beachwoodbrewing.com](https://beachwoodbrewing.com/secondpch.html), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/), [shop.beachwoodbrewing.com](https://shop.beachwoodbrewing.com/collections/beachwood-blendery-bottles), [beachwoodbrewing.com](https://www.beachwoodbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

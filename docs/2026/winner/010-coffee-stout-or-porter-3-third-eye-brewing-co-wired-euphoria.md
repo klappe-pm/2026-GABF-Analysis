@@ -234,7 +234,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [thirdeyebrewingco.com](https://thirdeyebrewingco.com/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/?page_id=3044), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/beer/), [thirdeyebrewingco.com](https://thirdeyebrewingco.com/whats-on-tap-hamilton/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

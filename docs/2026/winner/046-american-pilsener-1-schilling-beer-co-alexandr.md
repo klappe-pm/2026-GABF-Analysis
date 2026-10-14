@@ -130,6 +130,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/d67b72d8-f3ce-4f93-8bc8-02ad91542dba"
   - "https://untappd.com/b/schilling-beer-co-alexandr/1036259"
   - "https://www.beerandbrewing.com/review/alexandr-10"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -230,3 +231,4 @@ Links checked 2026-10-14: [Website](https://www.schillingbeer.com/), [Instagram]
 - No third party listing was checked because web search was unavailable during this run.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Alexandr](https://catalog.beer/beer/d67b72d8-f3ce-4f93-8bc8-02ad91542dba) lists 5% ABV, 25 IBU, style "Czech-Style Pilsner" (entry last modified 2026-10-02). Where it differs from the brewery's own published value, the brewery's value stands.

@@ -220,7 +220,8 @@ Links checked 2026-10-14: [Website](https://uppliquids.com/), [Instagram](https:
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [uppliquids.com](https://www.uppliquids.com/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [uppliquids.com](https://www.uppliquids.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [uppliquids.com](https://uppliquids.com/handcrafted-beer-bend-oregon/), [uppliquids.com](https://www.uppliquids.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

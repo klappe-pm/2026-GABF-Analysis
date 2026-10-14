@@ -136,6 +136,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd"
   - "https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.saddlemountainbrewing.com/"
@@ -227,7 +228,8 @@ Links checked 2026-10-14: [Website](https://www.saddlemountainbrewing.com/), [In
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes.
+- Not published: IBU. Checked [ktar.com](https://ktar.com/arizona-news/arizona-breweries-8-medals-beer-competition), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/menu), [saddlemountainbrewing.com](https://www.saddlemountainbrewing.com/s/Menu-Final-6-ldmy.pdf), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd).
 
 ## research-notes
 
@@ -236,3 +238,4 @@ Links checked 2026-10-14: [Website](https://www.saddlemountainbrewing.com/), [In
 - The online ordering page returned HTTP 403.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: New bitterness-focused searches found matching Untappd activity but no IBU or named hops; the previously read brewery PDF was not fetched again.
+- Catalog.beer 2026-10-14: [Catalog.beer: Dill You Take Me Higher?](https://catalog.beer/beer/06a95f69-f83e-47cb-836e-f9db04ab92cd) lists 5.7% ABV, style "Dill Pickle Sour" (entry last modified 2026-08-05). Where it differs from the brewery's own published value, the brewery's value stands.

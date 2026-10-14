@@ -250,7 +250,8 @@ Links checked 2026-10-14: [Website](https://craftcoast.co/), [Untappd](https://u
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [craftcoast.co](https://craftcoast.co/), [craftcoast.co](https://craftcoast.co/pages/menu), [web page](https://sandiegobeer.news/coastal-oceanside/), [untappd.com](https://untappd.com/b/craft-coast-brewing-co-cafe-de-beeria/4042177), [untappd.com](https://untappd.com/w/craft-coast-brewing-co/475278/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

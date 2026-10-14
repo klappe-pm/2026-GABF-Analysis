@@ -211,7 +211,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/eno-river-brewing-second-pick/5500598), [enoriverbrewing.com](https://www.enoriverbrewing.com/), [enoriverbrewing.com](https://www.enoriverbrewing.com/menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

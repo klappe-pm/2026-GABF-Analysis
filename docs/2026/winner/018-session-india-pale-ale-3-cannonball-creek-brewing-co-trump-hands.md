@@ -158,6 +158,7 @@ place: 3
 process: null
 sources:
   - "https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company"
+  - "https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993"
   - "https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/"
   - "https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -249,7 +250,8 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes.
+- Not published: IBU. Checked [5280.com](https://5280.com/qa-brian-hutchinson-and-jason-stengl-of-cannonball-creek-brewing-company), [porchdrinking.com](https://porchdrinking.com/articles/2017/10/04/2017-gabf-route-guide-hoppy-beers/), [untappd.com](https://untappd.com/b/cannonball-creek-brewing-co-trump-hands-ipa/1473082), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/), [cannonballcreekbrewing.com](https://www.cannonballcreekbrewing.com/beers), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993).
 
 ## research-notes
 
@@ -259,3 +261,4 @@ Links checked 2026-10-14: [Website](https://www.cannonballcreekbrewing.com/), [I
 - The style label is taken from the brewery's own award listings; Untappd gives "IPA, Session".
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The opened festival guide describes German and American hops without naming varieties or IBU. A targeted brewery domain search found only awards listings, so no new brewery beer or tap list page was verified.
+- Catalog.beer 2026-10-14: [Catalog.beer: Trump Hands](https://catalog.beer/beer/d49b286a-20de-4ace-afc0-523949490993) lists 4.6% ABV, style "Session IPA" (entry last modified 2026-08-03). Where it differs from the brewery's own published value, the brewery's value stands.

@@ -149,6 +149,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/eee12bf4-617d-4a50-be49-b1495fe54f8e"
   - "https://untappd.com/b/white-bluffs-brewing-biere-de-garde/88046"
   - "https://whitebluffsbrewing.com/"
   - "https://whitebluffsbrewing.com/about"
@@ -253,3 +254,4 @@ Links checked 2026-10-14: [Website](https://whitebluffsbrewing.com/), [Untappd](
 - First pass: Researched 2026-10-13.
 - Second pass 2026-10-13: The exact White Bluffs listing supplies strength, bitterness, a farmhouse ale description and both hop varieties. No brewery product page was found.
 - Field pass 2026-10-13: Additional brewery-domain and product-page searches found no qualifying beer page. Third-party packaging and medal mentions do not supply beer-url.
+- Catalog.beer 2026-10-14: [Catalog.beer: Biere de Garde](https://catalog.beer/beer/eee12bf4-617d-4a50-be49-b1495fe54f8e) lists 6.8% ABV, 24 IBU, style "French-Style Bière de Garde" (entry last modified 2026-08-19). Where it differs from the brewery's own published value, the brewery's value stands.

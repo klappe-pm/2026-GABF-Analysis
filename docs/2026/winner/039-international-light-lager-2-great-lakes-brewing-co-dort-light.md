@@ -127,6 +127,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a"
   - "https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.greatlakesbrewing.com/"
@@ -219,7 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/GreatLakesBrewingCo/beer?q=dort+light), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/), [greatlakesbrewing.com](https://www.greatlakesbrewing.com/beer/dort-light), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a).
 
 ## research-notes
 
@@ -229,3 +231,4 @@ No brewery links have been checked yet.
 - The brewery gives no formal style label, so the style field uses the category name.
 - No 2026 GABF announcement was found on the brewery home page.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Dort Light](https://catalog.beer/beer/9c1cfc94-1eb9-493c-b017-b267ee31b34a) lists 2.9% ABV, style "Dortmunder" (entry last modified 2026-08-08). Where it differs from the brewery's own published value, the brewery's value stands.

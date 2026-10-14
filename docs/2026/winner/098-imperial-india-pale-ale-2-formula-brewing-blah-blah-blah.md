@@ -220,7 +220,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [formulabrewing.com](https://www.formulabrewing.com/), [formulabrewing.com](https://www.formulabrewing.com/beer-awards), [formulabrewing.com](https://www.formulabrewing.com/beer-drinks-menu), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

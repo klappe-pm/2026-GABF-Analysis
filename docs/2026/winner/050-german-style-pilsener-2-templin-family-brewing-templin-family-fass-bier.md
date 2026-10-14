@@ -231,7 +231,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes.
+- Not published: IBU. Checked [tfbrewing.com](https://tfbrewing.com/), [tfbrewing.com](https://tfbrewing.com/beer/4504-2/), [tfbrewing.com](https://tfbrewing.com/beers/), [tfbrewing.com](https://tfbrewing.com/location/taproom/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

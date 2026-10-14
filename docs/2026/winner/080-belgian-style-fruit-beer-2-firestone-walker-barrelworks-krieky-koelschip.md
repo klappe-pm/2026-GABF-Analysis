@@ -131,6 +131,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc"
   - "https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.firestonewalker.com/"
@@ -222,7 +223,8 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/firestone-walker-brewing-company-krieky-koelschip/6438998), [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc).
 
 ## research-notes
 
@@ -231,3 +233,4 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 - The web search budget ran out before Untappd or press could be searched; this may be a taproom-only release.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd beer entry supplied strength, cherries and aging details. A TapHunter search result showed 6.0% ABV, but its page failed to open; that conflicting figure was not accepted. No brewery-hosted page was found.
+- Catalog.beer 2026-10-14: [Catalog.beer: Krieky Koelschip](https://catalog.beer/beer/1bfd4591-423c-4bb6-87a5-88e56bfe05bc) lists 6.3% ABV, style "Lambic: Kriek" (entry last modified 2026-09-25). Where it differs from the brewery's own published value, the brewery's value stands.

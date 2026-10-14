@@ -224,7 +224,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes.
+- Not published: IBU. Checked [business.untappd.com](https://business.untappd.com/locations/35178/themes/136241/js), [syncopatedbrewing.com](https://syncopatedbrewing.com/), [syncopatedbrewing.com](https://syncopatedbrewing.com/our-beers-1), [brewbound.com](https://www.brewbound.com/pr/2026/10/12/syncopated-brewing-co-receives-silver-medal-at-the-2026-great-american-beer-festival-competition), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

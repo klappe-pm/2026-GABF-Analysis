@@ -231,7 +231,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes.
+- Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/), [transmissionbrewing.com](https://transmissionbrewing.com/beer-to-go/), [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [untappd.com](https://untappd.com/b/transmission-brewing-southern-hemi/5008256), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

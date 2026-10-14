@@ -127,6 +127,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/754e6461-a436-45f1-9e33-e2776501482b"
   - "https://untappd.com/b/logboat-brewing-company-dark-matter-wheat-porter/699142"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.logboatbrewing.com/"
@@ -229,3 +230,4 @@ No brewery links have been checked yet.
 - Wheat malt is named only in the Untappd description.
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Dark Matter](https://catalog.beer/beer/754e6461-a436-45f1-9e33-e2776501482b) lists 6.6% ABV, 25 IBU, style "Brown Porter" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

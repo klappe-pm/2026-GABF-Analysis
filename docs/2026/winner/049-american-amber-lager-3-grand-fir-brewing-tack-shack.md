@@ -212,7 +212,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes.
+- Not published: IBU. Checked [beervanablog.com](https://beervanablog.com/beervana/2024/6/13/portlands-brewery-of-the-year), [grandfirbrewing.com](https://www.grandfirbrewing.com/), [grandfirbrewing.com](https://www.grandfirbrewing.com/s/BEER1017.pdf), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

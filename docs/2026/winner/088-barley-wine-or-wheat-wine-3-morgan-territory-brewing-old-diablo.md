@@ -144,6 +144,7 @@ og: null
 place: 3
 process: null
 sources:
+  - "https://catalog.beer/beer/65321dcf-783c-48b1-a364-2ee697e2060a"
   - "https://untappd.com/b/morgan-territory-brewing-old-diablo/1253753"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.morganterritorybrewing.com/"
@@ -251,3 +252,4 @@ Links checked 2026-10-14: [Website](https://www.morganterritorybrewing.com/), [I
 - No 2026 medal announcement was found.
 - Researched 2026-10-13.
 - Second pass 2026-10-13: The exact Untappd entry supplied strength, bitterness, named hops and malts. Search results for Slow Burn barrel aged releases were excluded as variants. No dedicated brewery beer page was found.
+- Catalog.beer 2026-10-14: [Catalog.beer: Old Diablo](https://catalog.beer/beer/65321dcf-783c-48b1-a364-2ee697e2060a) lists 10.5% ABV, 65 IBU, style "British-Style Barley Wine Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

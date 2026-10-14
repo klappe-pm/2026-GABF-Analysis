@@ -38,13 +38,6 @@ gaps:
       - "https://www.logboatbrewing.com/beers"
       - "https://www.logboatbrewing.com/bobber"
       - "web searches recorded in the research notes"
-  - field: "ibu"
-    sources-checked:
-      - "https://www.beermenus.com/beers/213333-logboat-bobber"
-      - "https://www.logboatbrewing.com/"
-      - "https://www.logboatbrewing.com/beers"
-      - "https://www.logboatbrewing.com/bobber"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.beermenus.com/beers/213333-logboat-bobber"
@@ -131,13 +124,14 @@ hop-profile:
     source: "https://www.logboatbrewing.com/bobber"
 hops:
   - "Mittelfrüh"
-ibu: null
+ibu: 15
 malts: []
 medal: "Silver"
 og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9"
   - "https://www.beermenus.com/beers/213333-logboat-bobber"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.logboatbrewing.com/"
@@ -166,7 +160,7 @@ Bobber is an unfiltered core lager from Logboat Brewing Co. in Columbia, Missour
 |---|---|---|
 | Style | Lager (BeerMenus lists Helles Lager) | [Logboat: Bobber](https://www.logboatbrewing.com/bobber) |
 | ABV | 5.0% | [BeerMenus: Logboat Bobber](https://www.beermenus.com/beers/213333-logboat-bobber) |
-| IBU | not published | none found |
+| IBU | 15 | [Catalog.beer: Bobber Lager](https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9) |
 | Hops | Mittelfrüh (noble hops) | [Logboat: Bobber](https://www.logboatbrewing.com/bobber) |
 | Malts and grains | not published | none found |
 | Yeast | not published | none found |
@@ -230,7 +224,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [beermenus.com](https://www.beermenus.com/beers/213333-logboat-bobber), [logboatbrewing.com](https://www.logboatbrewing.com/), [logboatbrewing.com](https://www.logboatbrewing.com/beers), [logboatbrewing.com](https://www.logboatbrewing.com/bobber), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -239,3 +233,4 @@ No brewery links have been checked yet.
 - Style labels differ: the brewery says lager inspired by pale German lagers, BeerMenus says Helles Lager, and the medal came in Czech-Style Pale Lager.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Bobber Lager](https://catalog.beer/beer/87de548a-7818-419a-95a3-3aaa498787e9) lists 5% ABV, 15 IBU, style "American-Style Lager" (entry last modified 2020-05-02). It fills the empty IBU; where it differs from the brewery's own published value, the brewery's value stands.

@@ -239,7 +239,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Adjuncts, Water, Process. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes.
+- Not published: IBU. Checked [thebigfriendly.com](https://thebigfriendly.com/), [thebigfriendly.com](https://thebigfriendly.com/menu), [untappd.com](https://untappd.com/b/the-big-friendly-frequency-of-expansion-2026/7002781), [untappd.com](https://untappd.com/The_Big_Friendly/beer), [beerandbrewing.com](https://www.beerandbrewing.com/review/the-big-friendly-frequency-of-expansion-1755618674), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

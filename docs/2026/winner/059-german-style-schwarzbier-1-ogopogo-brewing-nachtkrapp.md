@@ -246,7 +246,8 @@ Links checked 2026-10-14: [Website](https://www.ogopogobrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes.
+- Not published: IBU. Checked [hopped.com](https://hopped.com/?p=28726), [untappd.com](https://untappd.com/OgopogoBrewing), [untappd.com](https://untappd.com/w/ogopogo-brewing/369566/beer), [ogopogobrewing.com](https://www.ogopogobrewing.com/), [ogopogobrewing.com](https://www.ogopogobrewing.com/beer), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

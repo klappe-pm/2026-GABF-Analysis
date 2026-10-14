@@ -222,7 +222,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Water, Process. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [localtimebrewing.com](https://localtimebrewing.com/), [localtimebrewing.com](https://localtimebrewing.com/?s=vinland), [localtimebrewing.com](https://localtimebrewing.com/our-menu/), [hollyspringsupdate.com](https://www.hollyspringsupdate.com/p/holly-springs-nc-local-time-brewing), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

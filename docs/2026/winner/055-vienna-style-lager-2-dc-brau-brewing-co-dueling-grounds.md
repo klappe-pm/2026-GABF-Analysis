@@ -196,7 +196,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes.
+- Not published: IBU. Checked [dcbrau.com](https://www.dcbrau.com/), [dcbrau.com](https://www.dcbrau.com/dueling-grounds-vienna-lager), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

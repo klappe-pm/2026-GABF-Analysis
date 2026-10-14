@@ -202,7 +202,8 @@ Links checked 2026-10-14: [Website](https://www.oldbullbrewing.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oldbullbrewing.com](https://oldbullbrewing.com/beer/), [oldbullbrewing.com](https://www.oldbullbrewing.com/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [oldbullbrewing.com](https://oldbullbrewing.com/beer/), [oldbullbrewing.com](https://www.oldbullbrewing.com/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [oldbullbrewing.com](https://oldbullbrewing.com/beer/), [oldbullbrewing.com](https://www.oldbullbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

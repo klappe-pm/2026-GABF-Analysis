@@ -210,7 +210,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/boulevard-brewing-co-oak-aged-floral-saison/6702966), [boulevard.com](https://www.boulevard.com/), [boulevard.com](https://www.boulevard.com/brewhouse-one-oak-aged-floral-saison/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

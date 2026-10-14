@@ -256,7 +256,8 @@ Links checked 2026-10-14: [Website](https://www.10barrel.com/).
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [newschoolbeer.com](https://newschoolbeer.com/home/2026/10/oregon-wins-at-2026-great-american-beer-festival-gabf), [untappd.com](https://untappd.com/10BarrelBrewing), [untappd.com](https://untappd.com/w/10-barrel-brewing-co/3436/beer), [10barrel.com](https://www.10barrel.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/2026-winners/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

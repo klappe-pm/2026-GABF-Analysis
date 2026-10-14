@@ -232,7 +232,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes.
+- Not published: IBU. Checked [primalbrewery.com](https://primalbrewery.com/), [primalbrewery.com](https://primalbrewery.com/beer-finder/), [primalbrewery.com](https://primalbrewery.com/huntersville-draft-list/), [untappd.com](https://untappd.com/b/primal-brewery-hops-mirage/5652401), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

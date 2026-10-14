@@ -198,7 +198,8 @@ Links checked 2026-10-14: [Website](https://www.alesongbrewing.com/), [Instagram
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Water, Process. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes.
+- Not published: IBU. Checked [alesongbrewing.com](https://alesongbrewing.com/), [alesongbrewing.com](https://alesongbrewing.com/awards-and-accolades), [alesongbrewing.com](https://alesongbrewing.com/cherry-decadence), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

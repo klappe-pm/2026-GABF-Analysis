@@ -230,7 +230,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hermosabrewingco.com](https://hermosabrewingco.com/tap-lists/), [hermosabrewingco.com](https://hermosabrewingco.com/torrance-tap-list/), [beermenus.com](https://www.beermenus.com/beers/535164-hermosa-czech-your-head), [hermosabrewingco.com](https://www.hermosabrewingco.com/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [hermosabrewingco.com](https://hermosabrewingco.com/tap-lists/), [hermosabrewingco.com](https://hermosabrewingco.com/torrance-tap-list/), [beermenus.com](https://www.beermenus.com/beers/535164-hermosa-czech-your-head), [hermosabrewingco.com](https://www.hermosabrewingco.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [hermosabrewingco.com](https://hermosabrewingco.com/tap-lists/), [hermosabrewingco.com](https://hermosabrewingco.com/torrance-tap-list/), [beermenus.com](https://www.beermenus.com/beers/535164-hermosa-czech-your-head), [hermosabrewingco.com](https://www.hermosabrewingco.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

@@ -209,7 +209,8 @@ Links checked 2026-10-14: [Website](https://www.littlebrotherbrew.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/little-brother-brewing-the-gatekeeper/4928825), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/), [littlebrotherbrew.com](https://www.littlebrotherbrew.com/beerlibrary), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

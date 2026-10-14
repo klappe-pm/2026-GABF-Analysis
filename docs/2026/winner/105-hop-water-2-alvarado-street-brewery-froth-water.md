@@ -236,7 +236,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes.
+- Not published: IBU. Checked [asb.beer](https://asb.beer/products/froth-water), [thebrewermagazine.com](https://thebrewermagazine.com/alvarado-street-releases-2-non-alcoholic-beverages/), [alvaradostreetbrewery.com](https://www.alvaradostreetbrewery.com/), [greatamericanbeerfestival.com](https://www.greatamericanbeerfestival.com/the-competition/about-the-competition/beer-styles), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

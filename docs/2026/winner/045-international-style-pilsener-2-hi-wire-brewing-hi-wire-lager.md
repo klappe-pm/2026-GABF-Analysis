@@ -148,6 +148,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/45aa37b2-1a36-4dfa-aade-f49d3d459582"
   - "https://hiwirebrewing.com/"
   - "https://hiwirebrewing.com/beer/"
   - "https://hiwirebrewing.com/blog/hi-wire-lager-wins-silver-at-the-2026-great-american-beer-festival/"
@@ -252,3 +253,4 @@ No brewery links have been checked yet.
 - ABV and IBU come only from Untappd; the brewery post gives neither.
 - The brewery post and Untappd both cite a 2025 World Beer Cup silver.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Hi-Wire Lager](https://catalog.beer/beer/45aa37b2-1a36-4dfa-aade-f49d3d459582) lists 4.6% ABV, style "American-Style Pilsener" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

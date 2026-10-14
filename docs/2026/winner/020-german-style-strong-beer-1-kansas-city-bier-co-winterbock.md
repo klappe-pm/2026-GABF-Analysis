@@ -114,6 +114,7 @@ og: null
 place: 1
 process: null
 sources:
+  - "https://catalog.beer/beer/3e5257f4-8638-4081-b631-d8d692362073"
   - "https://kcbier.com/biers/winterbock/"
   - "https://www.beerandbrewing.com/review/winterbock"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
@@ -217,3 +218,4 @@ Links checked 2026-10-14: [Website](https://kcbier.com/), [Untappd](https://unta
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Search found the brewery's Winterbock page naming Perle hops, but both host forms failed to open; beer-url and hops remain unfilled without a readable fetched page.
 - Pass 2026-10-14: the brewery's Winterbock page opened and lists 8.25% ABV, 24 IBU, Munich, Pilsner, and specialty malts, and Perle hops, matching the figures already recorded; it is now the beer-url.
+- Catalog.beer 2026-10-14: [Catalog.beer: Winterbock](https://catalog.beer/beer/3e5257f4-8638-4081-b631-d8d692362073) lists 8% ABV, 24 IBU, style "German-Style Doppelbock" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

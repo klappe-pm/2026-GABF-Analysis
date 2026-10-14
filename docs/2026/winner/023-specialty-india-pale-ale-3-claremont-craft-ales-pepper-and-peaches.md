@@ -122,6 +122,7 @@ place: 3
 process: null
 sources:
   - "https://bevmo.com/products/28372"
+  - "https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b"
   - "https://harp-clownfish.squarespace.com/beers/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.claremontcraftales.com/"
@@ -215,7 +216,8 @@ Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [bevmo.com](https://bevmo.com/products/28372), [harp-clownfish.squarespace.com](https://harp-clownfish.squarespace.com/beers/), [claremontcraftales.com](https://www.claremontcraftales.com/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b).
 
 ## research-notes
 
@@ -225,3 +227,4 @@ Links checked 2026-10-14: [Website](https://www.claremontcraftales.com/).
 - Web search was unavailable for part of this session, so Untappd and press listings were not checked for IBU.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's own Squarespace beer list names Pepper & Peaches and is used as beer-url because no dedicated page was found. No IBU is published.
+- Catalog.beer 2026-10-14: [Catalog.beer: Pepper & Peaches](https://catalog.beer/beer/b61a4609-db8f-4d7f-81b1-883e6be00c9b) lists 6.7% ABV, style "American-Style India Pale Ale" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

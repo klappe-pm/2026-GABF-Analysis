@@ -214,7 +214,8 @@ Links checked 2026-10-14: [Website](https://themasonryseattle.com/fast-fashion),
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes.
+- Not published: IBU. Checked [themasonryseattle.com](https://themasonryseattle.com/fast-fashion), [untappd.com](https://untappd.com/b/fast-fashion-labuznik/6167508), [untappd.com](https://untappd.com/FastFashion), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

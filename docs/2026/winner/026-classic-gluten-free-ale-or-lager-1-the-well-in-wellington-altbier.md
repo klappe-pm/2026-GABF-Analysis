@@ -256,7 +256,8 @@ Links checked 2026-10-14: [Website](https://www.wellwellington.com/), [Instagram
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes.
+- Not published: ABV, IBU. Checked [coloradobrewerylist.com](https://www.coloradobrewerylist.com/brewery/the-well-in-wellington/), [wellwellington.com](https://www.wellwellington.com/), [wellwellington.com](https://www.wellwellington.com/faq), [wellwellington.com](https://www.wellwellington.com/menu), [wellwellington.com](https://www.wellwellington.com/our-story), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

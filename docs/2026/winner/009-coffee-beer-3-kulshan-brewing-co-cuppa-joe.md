@@ -227,7 +227,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes.
+- Not published: IBU. Checked [kulshanbrewing.com](https://kulshanbrewing.com/), [kulshanbrewing.com](https://kulshanbrewing.com/awards), [kulshanbrewing.com](https://kulshanbrewing.com/beer-lineup), [kulshanbrewing.com](https://kulshanbrewing.com/on-tap), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

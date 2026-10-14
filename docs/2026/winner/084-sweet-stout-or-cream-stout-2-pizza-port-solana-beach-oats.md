@@ -255,7 +255,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes.
+- Not published: IBU. Checked [pizzaport.com](https://www.pizzaport.com/), [pizzaport.com](https://www.pizzaport.com/all-beers/), [pizzaport.com](https://www.pizzaport.com/beer/oats/), [pizzaport.com](https://www.pizzaport.com/beer/seasonal/), [pizzaport.com](https://www.pizzaport.com/brewpubs/solana-beach/), [pizzaport.com](https://www.pizzaport.com/whats-on-tap/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

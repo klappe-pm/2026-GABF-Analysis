@@ -117,6 +117,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/5174c633-13ff-4173-a53d-adf50d5e61ea"
   - "https://creaturecomforts.co/beer/"
   - "https://creaturecomforts.co/beers/classic-city-lager/"
   - "https://untappd.com/creaturecomforts/beer"
@@ -218,3 +219,4 @@ No brewery links have been checked yet.
 - A homebrew clone recipe naming hops was seen in search results but is not a brewery source and is not used.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Catalog.beer 2026-10-14: [Catalog.beer: Classic City Lager](https://catalog.beer/beer/5174c633-13ff-4173-a53d-adf50d5e61ea) lists 4.2% ABV, style "American-Style Lager" (entry last modified 2020-05-02). Where it differs from the brewery's own published value, the brewery's value stands.

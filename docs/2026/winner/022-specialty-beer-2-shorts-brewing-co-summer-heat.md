@@ -101,6 +101,7 @@ og: null
 place: 2
 process: null
 sources:
+  - "https://catalog.beer/beer/27fe67b6-c3c1-4705-aa2e-11b2906a5077"
   - "https://www.beermenus.com/beers/532352-short-s-summer-heat"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
   - "https://www.shortsbrewing.com/beers/summer-heat/"
@@ -201,3 +202,4 @@ No brewery links have been checked yet.
 - No IBU, malt, hop or yeast was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The brewery's dedicated Summer Heat page publishes 25 IBU; no hops are named. ABV conflict: this brewery page lists 5.3%, while the existing BeerMenus source lists 5.4%; the existing ABV is retained.
+- Catalog.beer 2026-10-14: [Catalog.beer: Summer Heat](https://catalog.beer/beer/27fe67b6-c3c1-4705-aa2e-11b2906a5077) lists 5.3% ABV, style "Lager: Mexican" (entry last modified 2026-09-23). Where it differs from the brewery's own published value, the brewery's value stands.

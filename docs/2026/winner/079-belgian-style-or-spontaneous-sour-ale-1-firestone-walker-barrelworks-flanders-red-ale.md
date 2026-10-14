@@ -231,7 +231,8 @@ Links checked 2026-10-14: [Website](https://www.firestonewalker.com/barrelworks/
 
 ## gaps
 
-- Not published: Description, Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes.
+- Not published: IBU. Checked [firestonewalker.com](https://www.firestonewalker.com/), [firestonewalker.com](https://www.firestonewalker.com/barrelworks/), [firestonewalker.com](https://www.firestonewalker.com/brewmasters-collective/), [firestonewalker.com](https://www.firestonewalker.com/our-beers/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

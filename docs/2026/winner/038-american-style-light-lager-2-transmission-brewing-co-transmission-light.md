@@ -193,7 +193,8 @@ Links checked 2026-10-14: [Website](https://www.transmissionbrewing.com/), [Inst
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [transmissionbrewing.com](https://transmissionbrewing.com/beers/), [transmissionbrewing.com](https://www.transmissionbrewing.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

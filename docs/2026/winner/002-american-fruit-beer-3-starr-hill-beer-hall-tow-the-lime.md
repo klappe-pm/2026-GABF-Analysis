@@ -222,7 +222,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes.
+- Not published: IBU. Checked [starrhill.com](https://starrhill.com/), [starrhill.com](https://starrhill.com/beer), [starrhill.com](https://starrhill.com/news/gabf2026), [untappd.com](https://untappd.com/b/starr-hill-brewery-tow-the-lime/5917764/photos), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

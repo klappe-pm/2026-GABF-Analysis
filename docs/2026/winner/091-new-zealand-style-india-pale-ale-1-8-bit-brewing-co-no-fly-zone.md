@@ -255,7 +255,8 @@ Links checked 2026-10-14: [Website](https://www.8bitbrewingcompany.com/), [Insta
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes.
+- Not published: IBU. Checked [untappd.com](https://untappd.com/b/8-bit-brewing-company-no-fly-zone/6310908), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/), [8bitbrewingcompany.com](https://www.8bitbrewingcompany.com/craft-beer/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

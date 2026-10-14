@@ -232,7 +232,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, ABV, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes.
+- Not published: ABV. Checked [solanobrew.com](https://solanobrew.com/), [solanobrew.com](https://solanobrew.com/our-beers/), [untappd.com](https://untappd.com/b/solano-brewing-company-mama-rosa/5670205), [visitvacaville.com](https://www.visitvacaville.com/directory/solano-brewing-company-pet-friendly/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 

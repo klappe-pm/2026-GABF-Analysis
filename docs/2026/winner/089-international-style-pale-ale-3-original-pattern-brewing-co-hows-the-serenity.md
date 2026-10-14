@@ -246,7 +246,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, IBU, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes.
+- Not published: IBU. Checked [originalpatternbeer.myshopify.com](https://originalpatternbeer.myshopify.com/pages/2-4-pk), [untappd.com](https://untappd.com/b/original-pattern-brewing-company-how-s-the-serenity/5269120), [goodeggs.com](https://www.goodeggs.com/originalpatternbrewingcompany), [originalpatternbeer.com](https://www.originalpatternbeer.com/), web searches recorded in the research notes, Catalog.beer search by beer and brewery name.
 
 ## research-notes
 
