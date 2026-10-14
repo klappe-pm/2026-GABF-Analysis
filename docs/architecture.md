@@ -51,7 +51,7 @@ GitHub Pages serves files only, and the dataset is small (a few hundred medals a
 | scripts/*.mjs | CLI stages and the orchestrator |
 | site/assets/ | styles.css, charts.mjs (table and figure helpers), chart-options.mjs (ECharts option builders), echarts-init.js, dashboards.js, page.js (sorting, menu), us-states.geo.json |
 | data/ | raw (PDF text extracts), results, reference, enriched, cache (ignored) |
-| breweries/ | markdown deep dives; template-brewery.md is the scaffold source |
+| breweries/ | local only and ignored by git: markdown deep dives, with template-brewery.md as the scaffold source; the published build has none |
 | tests/ | node test runner suites with fixtures |
 | docs/ | this document, data sources, data dictionary, estimation method, runbook |
 

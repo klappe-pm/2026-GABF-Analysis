@@ -6,7 +6,7 @@
 // This is the only test file that runs the full build.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { build, PROSE_SLUGS } from '../scripts/build-site.mjs';
 import { DIST, ROOT } from '../scripts/lib/paths.mjs';
@@ -35,7 +35,7 @@ export function visibleText(html) {
 function corpus() {
   const allowed = new Set(EXTRA_ALLOWED);
   const add = (text) => { for (const t of String(text).toLowerCase().match(TOKEN) ?? []) allowed.add(t); };
-  const md = [...readdirSync(resolve(ROOT, 'breweries')).filter((f) => f.endsWith('.md')).map((f) => resolve(ROOT, 'breweries', f)), ...readdirSync(resolve(ROOT, 'docs/2026/winner')).filter((f) => /^\d{3}-/.test(f)).map((f) => resolve(ROOT, 'docs/2026/winner', f))];
+  const md = [...(existsSync(resolve(ROOT, 'breweries')) ? readdirSync(resolve(ROOT, 'breweries')) : []).filter((f) => f.endsWith('.md')).map((f) => resolve(ROOT, 'breweries', f)), ...readdirSync(resolve(ROOT, 'docs/2026/winner')).filter((f) => /^\d{3}-/.test(f)).map((f) => resolve(ROOT, 'docs/2026/winner', f))];
   for (const f of md) {
     const { data, body } = parseFrontmatter(readFileSync(f, 'utf8'));
     add(body.split('\n').filter((l) => !/^#/.test(l)).join('\n').replace(/\S*\/\S*/g, ' '));

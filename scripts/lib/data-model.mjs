@@ -29,6 +29,22 @@ export function loadProfiles(dir = BREWERIES) {
     });
 }
 
+// Map a brewery-facts.csv row onto the profile frontmatter keys the dataset already reads.
+function factsAsProfile(f) {
+  if (!f) return {};
+  const out = {};
+  const put = (key, value) => { if (value !== undefined && value !== '') out[key] = value; };
+  put('employees', f.employees);
+  if (f.has_kitchen) out['has-kitchen'] = f.has_kitchen === 'yes';
+  put('locations-count', f.locations_count);
+  if (f.known_for) out['known-for'] = f.known_for.split(';').map((s) => s.trim()).filter(Boolean);
+  put('barrels-estimate', f.barrels_estimate);
+  put('revenue-estimate-usd', f.revenue_estimate_usd);
+  put('revenue-low-usd', f.revenue_low_usd);
+  put('revenue-high-usd', f.revenue_high_usd);
+  return out;
+}
+
 function indexBy(records, pick) {
   const map = new Map();
   for (const r of records) {
@@ -72,6 +88,8 @@ export function loadDataset({ root } = {}) {
   const abvOverrides = readCsvIfExists(resolve(referenceDir, 'beer-abv-overrides.csv'));
   const abvByBeer = new Map(abvOverrides.map((a) => [`${a.competition}|${a.year}|${breweryKey(a.brewery_name)}|${a.beer_name.toLowerCase()}`, a]));
   const overrides = readCsvIfExists(resolve(referenceDir, 'brewery-overrides.csv'));
+  const facts = readCsvIfExists(resolve(referenceDir, 'brewery-facts.csv'));
+  const factsByKey = new Map(facts.map((f) => [breweryKey(f.brewery_name), f]));
   const params = loadParameters(resolve(referenceDir, 'estimation-parameters.json'));
   const summary = readCsvIfExists(resolve(resultsDir, 'year-summary.csv'));
   const awards = readCsvIfExists(resolve(resultsDir, 'brewery-of-the-year.csv'));
@@ -166,12 +184,14 @@ export function loadDataset({ root } = {}) {
     b.name = [...b.names.entries()].sort((x, y) => y[1] - x[1])[0][0];
     b.slug = profileByKey.get(b.key)?.slug ?? slugify(b.name);
     b.profile = profileByKey.get(b.key) ?? null;
+    b.facts = factsByKey.get(b.key) ?? null;
     b.ownership = ownershipByKey.get(b.key) ?? null;
     b.production = productionByKey.get(b.key) ?? [];
     b.distributors = distributorsByKey.get(b.key) ?? [];
     b.enriched = enriched.breweries?.[b.key] ?? null;
     b.overrides = overrides.filter((o) => breweryKey(o.brewery_name) === b.key);
-    const pd = b.profile?.data ?? {};
+    // Tracked facts in data/reference/brewery-facts.csv; a local deep dive in breweries/ wins when present.
+    const pd = { ...factsAsProfile(factsByKey.get(b.key)), ...(b.profile?.data ?? {}) };
     b.founded = Number(pd.founded ?? b.ownership?.founded ?? '') || null;
     b.defunct = Number(pd.defunct ?? '') || null;
     b.employees = Number(pd.employees ?? '') || null;
@@ -180,7 +200,7 @@ export function loadDataset({ root } = {}) {
     b.known_for = pd['known-for'] ?? [];
     b.hq = { city: pd['hq-city'] ?? b.enriched?.best?.city ?? [...b.locations.values()][0]?.city ?? '', state: pd['hq-state'] ?? b.enriched?.best?.state ?? [...b.locations.values()][0]?.state ?? '' };
     b.location_list = Array.isArray(pd.locations) ? pd.locations : [];
-    b.locations_count = b.location_list.length || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
+    b.locations_count = b.location_list.length || Number(pd['locations-count'] ?? '') || Math.max(1, new Set([...b.locations.values()].map((l) => `${l.city}|${l.state}`)).size);
     b.has_kitchen = Boolean(pd['has-kitchen'] ?? b.location_list.some((l) => l.kitchen));
     b.distribution_channel = pd['distribution-channel'] ?? b.distributors[0]?.channel ?? '';
     const barrels = pd['barrels-estimate'] ? { barrels: Number(pd['barrels-estimate']), basis: 'estimate', confidence: 'low', source: 'brewery profile' } : estimateBarrels({ production: b.production, breweryType: b.brewery_type, locationsCount: b.locations_count, botyBracket: b.awards[0]?.bracket ?? '' }, params);
