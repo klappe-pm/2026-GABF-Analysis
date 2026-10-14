@@ -1,0 +1,25 @@
+{
+  "note": "The categories a reviewer can tick on a feedback note. Optional and multi select: a note may carry none or many. Edit this list freely; the feedback server reads it on every request, and existing notes keep the categories they were filed with.",
+  "categories": [
+    "Bug",
+    "New feature",
+    "Remove",
+    "Content",
+    "Icon",
+    "Action",
+    "Link",
+    "Images",
+    "Videos",
+    "Heading",
+    "Header",
+    "Footer",
+    "Colors",
+    "Layout",
+    "Typography",
+    "Data",
+    "Accessibility",
+    "Mobile",
+    "Functionality",
+    "Other"
+  ]
+}

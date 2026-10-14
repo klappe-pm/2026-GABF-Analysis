@@ -19,6 +19,7 @@ import { medalDot, renderView } from '../site/assets/page-views.mjs';
 import { estMark } from '../site/assets/estimates.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
+import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
 
 const require = createRequire(import.meta.url);
 const SITE_TITLE = 'GABF Analysis';
@@ -51,7 +52,10 @@ function viewRegion(name, { scope = {}, page = {}, depth, breweryInfo = false, f
 function write(relPath, html) {
   const full = resolve(DIST, relPath);
   mkdirSync(resolve(full, '..'), { recursive: true });
-  writeFileSync(full, relPath.endsWith('.html') ? unslugText(humanizeHeadings(html), PROSE_SLUGS) : html);
+  let out = relPath.endsWith('.html') ? unslugText(humanizeHeadings(html), PROSE_SLUGS) : html;
+  // Review build only (GABF_FEEDBACK=1): source attributes, the build record, and the widget.
+  if (REVIEW && relPath.endsWith('.html')) out = annotatePage(out, relPath, callerLocation());
+  writeFileSync(full, out);
 }
 
 const DASHBOARDS = [
@@ -618,7 +622,8 @@ function copyExplorer() {
   const src = resolve(ROOT, 'gabf-explorer.html');
   if (!existsSync(src)) return;
   mkdirSync(resolve(DIST, 'explorer'), { recursive: true });
-  cpSync(src, resolve(DIST, 'explorer', 'index.html'));
+  if (REVIEW) writeFileSync(resolve(DIST, 'explorer', 'index.html'), annotatePage(readFileSync(src, 'utf8'), 'explorer/index.html', 'scripts/build-explorer.mjs'));
+  else cpSync(src, resolve(DIST, 'explorer', 'index.html'));
 }
 
 // ---------- about ----------
@@ -656,6 +661,7 @@ function aboutPage(ds) {
 
 // ---------- main ----------
 export function build({ clean = true } = {}) {
+  assertReviewAllowed();
   const ds = loadDataset();
   const cats = categoryIndex(ds);
   enrichResults(ds);
@@ -666,6 +672,7 @@ export function build({ clean = true } = {}) {
   mkdirSync(resolve(DIST, 'assets', 'vendor'), { recursive: true });
   cpSync(require.resolve('echarts/dist/echarts.min.js'), resolve(DIST, 'assets', 'vendor', 'echarts.min.js'));
   writeFileSync(resolve(DIST, '.nojekyll'), '');
+  if (REVIEW) copyReviewAssets(DIST);
   writeData(ds, cats);
   dashboardPages(ds);
   breweriesIndex(ds);
