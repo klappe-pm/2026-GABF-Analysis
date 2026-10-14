@@ -37,7 +37,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/krush.md"
   - "../hops/varieties/mosaic.md"
@@ -56,10 +55,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "alt-brew"
-sources: []
+sources:
+  - "website resolved; Untappd brewery page name and city match"
 state: "WI"
-untappd: null
-website: "http://www.altbrew.com"
+untappd: "https://untappd.com/ALT-Brew"
+website: "https://www.altbrew.com/"
 world-beer-cup-medals: 0
 ---
 

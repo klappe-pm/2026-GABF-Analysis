@@ -33,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/93octanebrewery/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "93-octane-brewery"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "IL"
 untappd: null
-website: "http://www.93octanebrewery.com"
+website: "https://www.93octanebrewery.com/"
 world-beer-cup-medals: 0
 ---
 

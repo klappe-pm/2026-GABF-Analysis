@@ -34,13 +34,12 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
   - "../hops/varieties/tettnang.md"
-instagram: null
+instagram: "https://www.instagram.com/bingobeerco/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -55,10 +54,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "bingo-beer-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "VA"
 untappd: null
-website: "http://www.bingorva.com/"
+website: "https://www.bingobeerco.com/"
 world-beer-cup-medals: 0
 ---
 

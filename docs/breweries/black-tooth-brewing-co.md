@@ -40,7 +40,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -59,10 +58,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "black-tooth-brewing-co"
-sources: []
+sources:
+  - "website resolved"
 state: "WY"
 untappd: null
-website: null
+website: "https://www.blacktoothbrewingcompany.com/"
 world-beer-cup-medals: 0
 ---
 

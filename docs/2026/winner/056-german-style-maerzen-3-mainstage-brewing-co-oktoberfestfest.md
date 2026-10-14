@@ -209,7 +209,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 MainStage Brewing Co. is in Boulder, CO.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.mainstagebrewing.com/), [Instagram](https://www.instagram.com/mainstagebrewing/).
 
 ## related
 

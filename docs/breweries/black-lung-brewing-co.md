@@ -35,14 +35,11 @@ gaps:
   - "beeradvocate"
   - "brewery-type"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/callista.md"
   - "../hops/varieties/fuggle.md"
-instagram: null
+instagram: "https://www.instagram.com/blacklungbrewing_grayslake/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 0
@@ -56,10 +53,11 @@ ownership: null
 ownership-parent: null
 region: "Midwest"
 slug: "black-lung-brewing-co"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "IL"
-untappd: null
-website: null
+untappd: "https://untappd.com/BlackLungBrewingCompany"
+website: "https://www.blacklungbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

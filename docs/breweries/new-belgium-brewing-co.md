@@ -44,7 +44,6 @@ gaps:
   - "brewery-type"
   - "instagram"
   - "untappd"
-  - "website"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
   - "../hops/varieties/liberty.md"
@@ -70,9 +69,10 @@ region: "West"
 slug: "new-belgium-brewing-co"
 sources:
   - "Sold by its employee owners to Lion in 2019"
+  - "website resolved"
 state: "CO"
 untappd: null
-website: null
+website: "https://www.newbelgium.com/"
 world-beer-cup-medals: 0
 ---
 

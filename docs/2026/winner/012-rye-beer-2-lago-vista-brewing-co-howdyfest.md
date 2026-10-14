@@ -195,7 +195,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Lago Vista Brewing Co. is in Lago Vista, TX.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.lagovistabrewingco.com/), [Instagram](https://www.instagram.com/lagovistabrewingco/).
 
 ## related
 

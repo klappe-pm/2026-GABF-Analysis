@@ -33,11 +33,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
   - "untappd"
 hops-used: []
-instagram: null
+instagram: "https://www.instagram.com/luckyenvbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 1
@@ -51,10 +50,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "lucky-envelope-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website"
 state: "WA"
 untappd: null
-website: "http://www.luckyenvelopebrewing.com"
+website: "https://luckyenvelopebrewing.com/"
 world-beer-cup-medals: 0
 ---
 

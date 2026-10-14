@@ -39,12 +39,10 @@ founded: null
 gaps:
   - "beeradvocate"
   - "founded"
-  - "instagram"
   - "ownership"
-  - "untappd"
 hops-used:
   - "../hops/varieties/hallertauer-mittelfruh.md"
-instagram: null
+instagram: "https://www.instagram.com/beachwoodbrewing/"
 known-for: []
 last-medal-year: 2026
 medals-bronze: 2
@@ -61,10 +59,11 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "beachwood-brewing"
-sources: []
+sources:
+  - "website resolved; Instagram linked from the brewery website; Untappd brewery page name and city match"
 state: "CA"
-untappd: null
-website: "http://www.beachwoodbbq.com"
+untappd: "https://untappd.com/beachwoodbrewing"
+website: "https://www.beachwoodbrewing.com/"
 world-beer-cup-medals: 0
 ---
 

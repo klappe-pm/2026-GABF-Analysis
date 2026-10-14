@@ -37,7 +37,6 @@ gaps:
   - "instagram"
   - "ownership"
   - "untappd"
-  - "website"
 hops-used: []
 instagram: null
 known-for: []
@@ -53,10 +52,11 @@ ownership: null
 ownership-parent: null
 region: "South"
 slug: "henceforth"
-sources: []
+sources:
+  - "website resolved"
 state: "DC"
 untappd: null
-website: null
+website: "https://www.henceforthdc.com/"
 world-beer-cup-medals: 0
 ---
 

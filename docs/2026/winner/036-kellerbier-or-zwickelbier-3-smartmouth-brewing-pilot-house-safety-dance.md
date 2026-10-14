@@ -201,7 +201,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Smartmouth Brewing Pilot House is in Virginia Beach, VA. Brewery type in Open Brewery DB: Microbrewery.
 
-No brewery links have been checked yet.
+Links checked 2026-10-14: [Website](https://www.smartmouthbrewing.com/), [Instagram](https://www.instagram.com/smartmouthbeer/), [Untappd](https://untappd.com/SmartmouthBrewing).
 
 ## related
 

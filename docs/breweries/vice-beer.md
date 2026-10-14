@@ -40,7 +40,6 @@ gaps:
   - "founded"
   - "instagram"
   - "ownership"
-  - "untappd"
   - "website"
 hops-used:
   - "../hops/varieties/citra.md"
@@ -61,9 +60,10 @@ ownership: null
 ownership-parent: null
 region: "West"
 slug: "vice-beer"
-sources: []
+sources:
+  - "Untappd brewery page name and city match"
 state: "WA"
-untappd: null
+untappd: "https://untappd.com/Vice_Beer"
 website: null
 world-beer-cup-medals: 0
 ---
