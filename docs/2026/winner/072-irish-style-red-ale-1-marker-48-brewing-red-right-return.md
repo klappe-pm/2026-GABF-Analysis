@@ -233,3 +233,4 @@ Links checked 2026-10-14: [Website](https://www.marker48.com/).
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A package transcription explicitly names Marker 48 Red Right Return and supplies the bitterness above. No hop variety or brewery beer page was verified.
+- Deep dive pass 2026-10-14: the brewery site was read; it has no Red Right Return description.

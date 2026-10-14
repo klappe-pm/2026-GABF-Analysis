@@ -30,12 +30,6 @@ description:
 entries: 84
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://ketchbrewing.com/"
-      - "https://ketchbrewing.com/beers/brig-blonde"
-      - "https://untappd.com/b/ketch-brewing-brig-blonde/5206013"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://ketchbrewing.com/"
@@ -122,7 +116,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Blonde Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Brewed with Pilsner, Vienna, and Malted Wheat malts, plus gently floral hops, Brig Blonde offers a subtle sweetness and a clean, refreshing finish."
+  source: "https://ketchbrewing.com/beers/brig-blonde"
 water: null
 yeast: []
 ---
@@ -158,7 +154,9 @@ Source: [Ketch Brewing: Brig Blonde](https://ketchbrewing.com/beers/brig-blonde)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Brewed with Pilsner, Vienna, and Malted Wheat malts, plus gently floral hops, Brig Blonde offers a subtle sweetness and a clean, refreshing finish.
+
+Source: [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde)
 
 ## ingredients
 
@@ -208,7 +206,7 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/), [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde), [untappd.com](https://untappd.com/b/ketch-brewing-brig-blonde/5206013), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [ketchbrewing.com](https://ketchbrewing.com/), [ketchbrewing.com](https://ketchbrewing.com/beers/brig-blonde), [untappd.com](https://untappd.com/b/ketch-brewing-brig-blonde/5206013), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -218,3 +216,4 @@ Links checked 2026-10-14: [Website](https://ketchbrewing.com/), [Instagram](http
 - Researched 2026-10-13.
 - Field pass 2026-10-13: The exact Ketch Untappd listing supplies the bitterness recorded above.
 - Catalog.beer 2026-10-14: [Catalog.beer: Brig Blonde](https://catalog.beer/beer/aeefcb88-c90c-47d7-b44c-65fd1d5fb630) lists 5.2% ABV, style "Blonde Ale" (entry last modified 2026-08-18). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page gives the tasting words and malts; no yeast.

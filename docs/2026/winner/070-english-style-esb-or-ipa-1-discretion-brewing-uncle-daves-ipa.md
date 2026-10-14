@@ -30,11 +30,6 @@ description:
 entries: 51
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://www.discretionbrewing.com/"
-      - "https://www.discretionbrewing.com/menu/beer-menu/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://www.discretionbrewing.com/"
@@ -105,7 +100,9 @@ sources:
   - "https://www.discretionbrewing.com/menu/beer-menu/"
 srm: null
 style: "IPA with a Hint of Rye"
-tasting-notes: null
+tasting-notes:
+  text: "Our Rye IPA has fruity/herbal hop aromas with a substantial supporting maltiness. The rye contributes a hint of peppery spice to this full bodied, complex IPA."
+  source: "https://www.discretionbrewing.com/menu/beer-menu/"
 water: null
 yeast: []
 ---
@@ -141,7 +138,9 @@ Source: [Discretion: beer menu](https://www.discretionbrewing.com/menu/beer-menu
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Our Rye IPA has fruity/herbal hop aromas with a substantial supporting maltiness. The rye contributes a hint of peppery spice to this full bodied, complex IPA.
+
+Source: [discretionbrewing.com](https://www.discretionbrewing.com/menu/beer-menu/)
 
 ## ingredients
 
@@ -187,7 +186,7 @@ Links checked 2026-10-14: [Website](https://www.discretionbrewing.com/), [Instag
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [discretionbrewing.com](https://www.discretionbrewing.com/), [discretionbrewing.com](https://www.discretionbrewing.com/menu/beer-menu/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [discretionbrewing.com](https://www.discretionbrewing.com/), [discretionbrewing.com](https://www.discretionbrewing.com/menu/beer-menu/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -195,3 +194,4 @@ Links checked 2026-10-14: [Website](https://www.discretionbrewing.com/), [Instag
 - The menu does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A [newer brewery menu](https://www.discretionbrewing.com/menu-beer-menu/) gives 52 IBU for the standard Uncle Dave's IPA, versus the retained 68 from the [existing menu source](https://www.discretionbrewing.com/menu/beer-menu/). It names no hop cultivar. The double dry-hopped edition is a separate variant and its recipe was excluded.
+- Deep dive pass 2026-10-14: the brewery menu gives the tasting words; no hop varieties.

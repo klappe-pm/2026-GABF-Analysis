@@ -36,6 +36,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "tasting-notes"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -44,6 +45,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -52,6 +54,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -60,6 +63,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -68,6 +72,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -76,6 +81,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -84,6 +90,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -92,6 +99,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -100,6 +108,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -108,6 +117,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -116,6 +126,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -124,6 +135,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -132,6 +144,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/field-brewing-lollygagger/2870097"
@@ -140,6 +153,7 @@ gaps:
       - "https://www.fieldbrewing.com/menu"
       - "https://www.fieldbrewing.com/our-beer"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 40
@@ -238,7 +252,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-brewing-lollygagger/2870097), [untappd.com](https://untappd.com/FieldBrewing/beer), [fieldbrewing.com](https://www.fieldbrewing.com/), [fieldbrewing.com](https://www.fieldbrewing.com/menu), [fieldbrewing.com](https://www.fieldbrewing.com/our-beer), web searches recorded in the research notes.
+- Not published: Description, Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/field-brewing-lollygagger/2870097), [untappd.com](https://untappd.com/FieldBrewing/beer), [fieldbrewing.com](https://www.fieldbrewing.com/), [fieldbrewing.com](https://www.fieldbrewing.com/menu), [fieldbrewing.com](https://www.fieldbrewing.com/our-beer), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -247,3 +261,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional brewery-domain, BeerMenus and ingredient searches found no qualifying brewery page or named hop variety for Lollygagger.
+- Deep dive pass 2026-10-14: no new source was found.

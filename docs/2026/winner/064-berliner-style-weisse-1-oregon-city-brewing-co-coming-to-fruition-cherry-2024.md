@@ -205,3 +205,4 @@ Links checked 2026-10-14: [Website](https://www.ocbeerco.com/), [Untappd](https:
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional vintage-specific and brewery-domain searches found no 2024 beer page or hop variety. Earlier-series recipe information was not assigned to the requested vintage.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended into process or tasting notes.

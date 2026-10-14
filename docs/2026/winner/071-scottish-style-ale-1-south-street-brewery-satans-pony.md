@@ -238,3 +238,4 @@ Links checked 2026-10-14: [Website](https://www.southstreetbrewery.com/), [Untap
 - Who brewed the medal entry (South Street before closing or Blue Mountain after) is not stated in any source read.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop and brewery-page searches found no qualifying beer page or named variety. Imperial Satan's Pony is a separate variant and was excluded.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

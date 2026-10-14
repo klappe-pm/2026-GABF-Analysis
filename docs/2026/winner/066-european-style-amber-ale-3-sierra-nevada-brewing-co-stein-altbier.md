@@ -34,54 +34,67 @@ gaps:
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "srm"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "og"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "fg"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "hops"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "hop-form"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "hop-use"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "lot-or-farm"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "malts"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "yeast"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "adjuncts"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "water"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
   - field: "process"
     sources-checked:
       - "https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882"
       - "web searches recorded in the research notes"
+      - "https://sierranevada.com/ (HTTP 403)"
 hop-profile: []
 hops: []
 ibu: 42
@@ -178,7 +191,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [untappd.com](https://untappd.com/b/sierra-nevada-brewing-co-stein-altbier/1320882), web searches recorded in the research notes, [sierranevada.com](https://sierranevada.com/ (HTTP 403)).
 
 ## research-notes
 
@@ -188,3 +201,4 @@ No brewery links have been checked yet.
 - No 2026 medal announcement from the brewery was found; the shared web search budget ran out during this batch.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: A matching BeerAdvocate page describes whole-cone hops but names no variety. The previously inaccessible brewery page was not fetched again.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended; the Sierra Nevada site refused this pass's reader.

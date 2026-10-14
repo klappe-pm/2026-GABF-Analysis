@@ -30,12 +30,6 @@ description:
 entries: 84
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://drinkdrakes.com/"
-      - "https://drinkdrakes.com/beer-library/"
-      - "https://drinkdrakes.com/beer/bold-rush/"
-      - "web searches recorded in the research notes"
   - field: "ibu"
     sources-checked:
       - "https://drinkdrakes.com/"
@@ -124,7 +118,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "Golden Ale"
-tasting-notes: null
+tasting-notes:
+  text: "Crisp and crushable, Bold Rush is the perfect companion for any courageous endeavor. This easy-drinking Golden Ale shines with hoppy aromas of sweet fruit and light bitterness."
+  source: "https://drinkdrakes.com/beer/bold-rush/"
 water: null
 yeast:
   - "Verdant"
@@ -161,7 +157,9 @@ Source: [Drake's: Bold Rush](https://drinkdrakes.com/beer/bold-rush/)
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> Crisp and crushable, Bold Rush is the perfect companion for any courageous endeavor. This easy-drinking Golden Ale shines with hoppy aromas of sweet fruit and light bitterness.
+
+Source: [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/)
 
 ## ingredients
 
@@ -211,8 +209,8 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
 - Not published: IBU. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes, [catalog.beer](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567).
+- Not published: Color (SRM), Original gravity, Final gravity, Hop use, Hop lot or farm, Adjuncts, Water, Process. Checked [drinkdrakes.com](https://drinkdrakes.com/), [drinkdrakes.com](https://drinkdrakes.com/beer-library/), [drinkdrakes.com](https://drinkdrakes.com/beer/bold-rush/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -222,3 +220,4 @@ No brewery links have been checked yet.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional IBU searches found no verified bitterness figure. The exact Bold Rush Untappd excerpt shows N/A IBU; its zero-valued internal field is not a published measurement.
 - Catalog.beer 2026-10-14: [Catalog.beer: Bold Rush](https://catalog.beer/beer/d897d2a4-2968-4514-ab22-bdb819c32567) lists 4.8% ABV, style "Golden Ale" (entry last modified 2026-09-09). Where it differs from the brewery's own published value, the brewery's value stands.
+- Deep dive pass 2026-10-14: the brewery page's tasting words are recorded.

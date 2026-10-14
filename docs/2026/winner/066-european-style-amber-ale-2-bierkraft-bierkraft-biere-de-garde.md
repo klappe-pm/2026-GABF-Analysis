@@ -38,6 +38,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://bierkraft.us/"
@@ -45,6 +46,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://bierkraft.us/"
@@ -52,6 +54,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "fg"
     sources-checked:
       - "https://bierkraft.us/"
@@ -59,6 +62,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hops"
     sources-checked:
       - "https://bierkraft.us/"
@@ -66,6 +70,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-form"
     sources-checked:
       - "https://bierkraft.us/"
@@ -73,6 +78,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "hop-use"
     sources-checked:
       - "https://bierkraft.us/"
@@ -80,6 +86,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "lot-or-farm"
     sources-checked:
       - "https://bierkraft.us/"
@@ -87,6 +94,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "malts"
     sources-checked:
       - "https://bierkraft.us/"
@@ -94,6 +102,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "yeast"
     sources-checked:
       - "https://bierkraft.us/"
@@ -101,6 +110,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "adjuncts"
     sources-checked:
       - "https://bierkraft.us/"
@@ -108,6 +118,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "water"
     sources-checked:
       - "https://bierkraft.us/"
@@ -115,6 +126,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
   - field: "process"
     sources-checked:
       - "https://bierkraft.us/"
@@ -122,6 +134,7 @@ gaps:
       - "https://untappd.com/BierKraft/beer?sort=name_asc"
       - "https://www.bierkraft.us/menu-and-events"
       - "web searches recorded in the research notes"
+      - "earlier passes' brewery and web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 24
@@ -222,7 +235,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierkraft.us](https://bierkraft.us/), [untappd.com](https://untappd.com/b/bierkraft-biere-de-garde/6311604), [untappd.com](https://untappd.com/BierKraft/beer?sort=name_asc), [bierkraft.us](https://www.bierkraft.us/menu-and-events), web searches recorded in the research notes.
+- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Adjuncts, Water, Process. Checked [bierkraft.us](https://bierkraft.us/), [untappd.com](https://untappd.com/b/bierkraft-biere-de-garde/6311604), [untappd.com](https://untappd.com/BierKraft/beer?sort=name_asc), [bierkraft.us](https://www.bierkraft.us/menu-and-events), web searches recorded in the research notes, earlier passes' brewery and web searches recorded in the research notes.
 
 ## research-notes
 
@@ -232,3 +245,4 @@ No brewery links have been checked yet.
 - The description's "and a with a" is quoted as published.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional hop and brewery-page searches found no named variety or qualifying brewery beer page. Results for the former New York retailer Bierkraft and unrelated farmhouse recipes were excluded.
+- Deep dive pass 2026-10-14: the description on file comes from Untappd and is not extended.

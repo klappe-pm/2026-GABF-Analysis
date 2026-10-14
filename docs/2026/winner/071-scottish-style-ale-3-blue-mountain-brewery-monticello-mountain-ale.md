@@ -31,16 +31,6 @@ description:
 entries: 34
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://bluemountainbrewery.com/"
-      - "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
-      - "web searches recorded in the research notes"
-  - field: "srm"
-    sources-checked:
-      - "https://bluemountainbrewery.com/"
-      - "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
-      - "web searches recorded in the research notes"
   - field: "og"
     sources-checked:
       - "https://bluemountainbrewery.com/"
@@ -86,11 +76,6 @@ gaps:
       - "https://bluemountainbrewery.com/"
       - "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
       - "web searches recorded in the research notes"
-  - field: "process"
-    sources-checked:
-      - "https://bluemountainbrewery.com/"
-      - "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
-      - "web searches recorded in the research notes"
 hop-profile: []
 hops: []
 ibu: 12
@@ -98,14 +83,20 @@ malts: []
 medal: "Bronze"
 og: null
 place: 3
-process: null
+process:
+  value: "Brewed with honey from Monticello's own beehives, in collaboration with Thomas Jefferson's Monticello"
+  source: "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
 sources:
   - "https://bluemountainbrewery.com/"
   - "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
-srm: null
+srm:
+  value: "Brilliant copper (no SRM number published)"
+  source: "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
 style: "Local Honey Ale"
-tasting-notes: null
+tasting-notes:
+  text: "This special new ale features flavorful hints of honey from Monticello's own beehives. Lightly hopped with a brilliant copper hue, Monticello Mountain Ale might be the smoothest beer we've ever brewed."
+  source: "https://bluemountainbrewery.com/products/monticello-mountain-ale/"
 water: null
 yeast: []
 ---
@@ -141,7 +132,9 @@ Source: [Blue Mountain: Monticello Mountain Ale](https://bluemountainbrewery.com
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> This special new ale features flavorful hints of honey from Monticello's own beehives. Lightly hopped with a brilliant copper hue, Monticello Mountain Ale might be the smoothest beer we've ever brewed.
+
+Source: [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/)
 
 ## ingredients
 
@@ -155,11 +148,11 @@ No hop variety is published for this beer.
 
 | Field | Value | Source |
 |---|---|---|
-| Color (SRM) | not published | none found |
+| Color (SRM) | Brilliant copper (no SRM number published) | [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 | Original gravity | not published | none found |
 | Final gravity | not published | none found |
 | Water | not published | none found |
-| Process | not published | none found |
+| Process | Brewed with honey from Monticello's own beehives, in collaboration with Thomas Jefferson's Monticello | [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/) |
 
 ## style-context
 
@@ -187,7 +180,7 @@ No brewery links have been checked yet.
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water, Process. Checked [bluemountainbrewery.com](https://bluemountainbrewery.com/), [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/), web searches recorded in the research notes.
+- Not published: Original gravity, Final gravity, Hops, Hop form, Hop use, Hop lot or farm, Malts and grains, Yeast, Water. Checked [bluemountainbrewery.com](https://bluemountainbrewery.com/), [bluemountainbrewery.com](https://bluemountainbrewery.com/products/monticello-mountain-ale/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -195,3 +188,4 @@ No brewery links have been checked yet.
 - The beer page does not mention the 2026 medal, and no 2026 announcement from the brewery was found.
 - Researched 2026-10-13.
 - Field pass 2026-10-13: Additional ingredient and product searches found no named hop variety for Monticello Mountain Ale. Flavor impressions were not treated as cultivar evidence.
+- Deep dive pass 2026-10-14: the brewery page (printed in capitals, recorded in sentence case) gives tasting words, color and the Monticello honey.
