@@ -125,7 +125,7 @@ table.data-table th { color: var(--text-secondary); font-size: 0.82rem; backgrou
 table.sortable th { cursor: pointer; user-select: none; }
 table.sortable th[aria-sort="ascending"]::after { content: " ▲"; font-size: 0.7em; }
 table.sortable th[aria-sort="descending"]::after { content: " ▼"; font-size: 0.7em; }
-.table-wrap { overflow-x: auto; max-width: 100%; border: 1px solid var(--border); border-radius: 10px; }
+.table-wrap { position: relative; overflow-x: auto; max-width: 100%; border: 1px solid var(--border); border-radius: 10px; }
 .table-wrap:focus-visible { outline-offset: -2px; }
 .table-wrap table.data-table { border: 0; }
 

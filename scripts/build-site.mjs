@@ -21,6 +21,8 @@ import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
 import { loadSiteCopy } from './lib/site-copy.mjs';
 import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
+import { createHopPages } from './lib/hop-pages.mjs';
+import { HOP_COPY_DEFAULTS } from '../site/assets/hop-links.mjs';
 
 const require = createRequire(import.meta.url);
 // Visible copy that has a key in .docs/content-management-system/ is read from there (see lib/site-copy.mjs).
@@ -32,6 +34,10 @@ const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).t
 const usd = (n) => `$${compact(n)}`;
 const pctOf = (x) => `${Math.round(Number(x) * 100)}%`;
 const NOT_DEFINED = `<span class="muted">${esc(COPY('global.states.gaps.not_defined'))}</span>`;
+// The words the shared table views draw for hops, from pages/hop-detail.md, shipped on meta.copy.hops.
+const HOP_SHARED_COPY = () => Object.fromEntries(Object.keys(HOP_COPY_DEFAULTS).map((k) => [k, COPY(`pages.hop-detail.shared_views.${k}`)]));
+// The hop model and pages of the current build (set in build()).
+let HOP_PAGES = null;
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
 const PROFILES = new Map();
@@ -71,7 +77,7 @@ const DASHBOARDS = [
 
 function layout({ title, description = '', body, depth = 0, active = '', scripts = '', bodyAttrs = '', pageData = null }) {
   const r = depth === 0 ? './' : '../'.repeat(depth);
-  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['reports/', 'Reports'], ['explorer/', 'Explorer'], ['about/', 'About']]
+  const nav = [['', 'Dashboards'], [`beers/${WINNER_YEAR}/`, `${WINNER_YEAR} winners`], [`first-time-medalists/${WINNER_YEAR}/`, 'First time medalists'], ['breweries/', 'Breweries'], ['categories/', 'Categories'], ['hops/', COPY('global.navigation.header.hops')], ['hop-farms/', COPY('global.navigation.header.hop_farms')], ['reports/', 'Reports'], ['explorer/', 'Explorer'], ['about/', 'About']]
     .map(([href, label]) => `<a href="${r}${href}"${active === label ? ' class="active" aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
@@ -132,7 +138,7 @@ function otherMedalsTable(rows) {
 }
 
 // ---------- data exports ----------
-const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra'];
+const RESULT_FIELDS = ['year', 'competition', 'section', 'category_number', 'category_name', 'category_slug', 'category_type', 'special', 'entries', 'category_medals', 'medal', 'beer_name', 'brewery_name', 'brewery_key', 'brewery_slug', 'brewery_location', 'city', 'state', 'state_name', 'region', 'division', 'fed_district', 'fed_district_name', 'fed_district_method', 'style_family', 'abv_min', 'abv_max', 'abv', 'ibu', 'abv_source', 'ibu_source', 'beer_url', 'abv_band', 'points', 'partial', 'draft', 'notes', 'brewery_type', 'ownership_type', 'parent', 'distribution_channel', 'beer_profile', 'first_time', 'search_extra', 'hop_varieties', 'hop_farms_named', 'hop_farms_grown'];
 
 // Decorate the medal rows once per dataset with what the views and the filter need: brewery
 // attributes, medals awarded per category and year (for entries per medal), the 2026 research
@@ -252,6 +258,7 @@ export function buildPayload(ds, cats) {
     ownership: Object.fromEntries(ds.breweries.filter((b) => b.ownership).map((b) => [b.key, { ownership_type: b.ownership.ownership_type, parent: b.ownership.parent }])),
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
+    copy: { hops: HOP_SHARED_COPY() },
   };
   const breweries = ds.breweries.map((b) => ({
     key: b.key, slug: b.slug, name: b.name, hq: b.hq, brewery_type: b.brewery_type, founded: b.founded, employees: b.employees, medals: b.medals.length, by_medal: b.by_medal, points: b.total_points, first_year: b.first_year, last_year: b.last_year, streak: b.streak, trend: b.trend,
@@ -605,6 +612,7 @@ function beerPage(p, row) {
 <h1>${esc(fm.beer)}</h1>
 <p class="lede"><span class="pill medal-pill ${medal.toLowerCase()}"><span class="badge-medal ${medal.toLowerCase()}" aria-hidden="true"></span>${esc(medal)}</span> in ${categoryLink}${fm.entries ? ` (${fmt(fm.entries)} entries)` : ''} · ${breweryLink}, ${esc(fm['brewery-city'])}, ${esc(fm['brewery-state'])}</p>
 ${links ? `<p class="link-row">${links}</p>` : ''}
+${HOP_PAGES.beerHopHtml(HOP_PAGES.model.beers.get(p.stem), { r })}
 <div class="beer-layout">
 ${specCard(fm)}
 <section class="prose">${renderMarkdownBody(p.body)}</section>
@@ -613,7 +621,7 @@ ${specCard(fm)}
 }
 
 function winnersIndex(year, profiles) {
-  const specs = Object.fromEntries(profiles.map((p) => [`beers/${p.year}/${p.stem}/`, { abv: p.fm.abv ?? null, ibu: p.fm.ibu ?? null, hops: p.fm.hops ?? [], beer_url: p.fm['beer-url'] ?? null }]));
+  const specs = Object.fromEntries(profiles.map((p) => [`beers/${p.year}/${p.stem}/`, { abv: p.fm.abv ?? null, ibu: p.fm.ibu ?? null, hops: HOP_PAGES.model.beers.get(p.stem)?.usage.map((u) => u.canonical) ?? p.fm.hops ?? [], beer_url: p.fm['beer-url'] ?? null }]));
   const view = viewRegion('winners', { depth: 2, scope: { year: String(year) }, fixed: [{ text: `Year: ${year}` }], page: { specs } });
   const body = `
 <h1>${year} winners</h1>
@@ -728,12 +736,14 @@ export function build({ clean = true } = {}) {
   trendsReport(ds);
   botyReport(ds);
   aboutPage(ds);
+  HOP_PAGES = createHopPages({ model: ds.hops, ds, layout, write, COPY, renderMarkdownBody, registerDocs: registerProseSlugs, notDefined: NOT_DEFINED, year: WINNER_YEAR });
+  const hopsBuilt = HOP_PAGES.writeAll();
   const winners = winnerPages(ds, ds.winnerProfiles);
   firstTimePage(ds);
   copyExplorer();
   // Review build only: the copy keys the pages above read, so an inline edit changes the key the build draws.
   if (REVIEW) writeFileSync(resolve(DIST, 'review-copy-keys.json'), JSON.stringify([...COPY.used].sort()));
-  return { winners, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };
+  return { winners, hops: hopsBuilt, pages: countFiles(DIST, '.html'), breweries: ds.breweries.length, categories: cats.length, results: ds.results.length, years: ds.years };
 }
 
 function countFiles(dir, ext) {
@@ -749,5 +759,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const args = parseArgs(process.argv.slice(2));
   const r = build({ clean: !args['no-clean'] });
   console.log(`${WINNER_YEAR} winner profiles: ${r.winners.pages} pages, ${r.winners.matched} matched to medal rows, ${r.winners.unmatched.length} unmatched${r.winners.unmatched.length ? ` (${r.winners.unmatched.join('; ')})` : ''}`);
+  console.log(`hop pages: ${r.hops.varieties} varieties, ${r.hops.farms} farms, ${r.hops.pages} pages including the two indexes`);
   console.log(`built ${r.pages} pages for ${r.results} medal rows, ${r.breweries} breweries, ${r.categories} categories, years ${r.years.join(', ')} -> ${DIST}`);
 }

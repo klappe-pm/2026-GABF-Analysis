@@ -10,6 +10,7 @@ import { medalRates } from './rates.mjs';
 import { emptyStateHtml, includesPartial, partialNoticeHtml, valueLabel } from './filter-bar.mjs';
 import { estMark } from './estimates.mjs';
 import { compareLabels } from './sort-order.mjs';
+import { hopCopy, hopLinksHtml, hopSlug } from './hop-links.mjs';
 
 const fmt = (n) => (n === null || n === undefined || n === '' ? '' : Number(n).toLocaleString('en-US'));
 const usd = (n) => `$${compact(n)}`;
@@ -46,13 +47,16 @@ const profileCell = (x, r) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profi
 
 // compact: drop columns whose value is the same on every row and columns empty on every row.
 // The Notes column is dropped whenever it is empty.
-export function medalTable(rows, { r, showYear = true, showBrewery = false, compact: compactCols = false, odds = false } = {}) {
+export function medalTable(rows, { r, showYear = true, showBrewery = false, compact: compactCols = false, odds = false, meta = null } = {}) {
+  const hc = hopCopy(meta);
   let cols = [];
   if (showYear) cols.push({ key: 'year', label: 'Year', numeric: true });
   cols.push({ key: 'medal', label: 'Medal', render: (x) => medalDot(x.medal) });
   cols.push({ key: 'beer_name', label: 'Beer', render: (x) => (x.beer_profile ? `<a href="${r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a>` : esc(x.beer_name)) });
   cols.push({ key: 'abv', label: 'ABV', numeric: true, keep: true, render: abvCell });
   cols.push({ key: 'ibu', label: 'IBU', numeric: true, keep: true, render: ibuCell });
+  // Only 2026 beers carry hops; the column is dropped below when no row in view has any.
+  cols.push({ key: 'hop_varieties', label: hc.column, hops: true, render: (x) => hopLinksHtml(x.hop_varieties, { r, none: hc.none }) });
   if (showBrewery) cols.push({ key: 'brewery_name', label: 'Brewery', render: (x) => `<a href="${r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a>${x.brewery_location ? ` <span class="muted small">(${esc(x.brewery_location)})</span>` : ''}` });
   else cols.push({ key: 'brewery_location', label: 'Location credited', render: (x) => esc(x.brewery_location || x.city) });
   cols.push({ key: 'city', label: 'City', render: (x) => `${esc(x.city)}, ${esc(x.state)}` });
@@ -65,7 +69,7 @@ export function medalTable(rows, { r, showYear = true, showBrewery = false, comp
   const values = (c) => new Set(rows.map((x) => String(c.key === 'odds' ? (entriesPerMedal(x) ?? '') : c.key === 'notes' ? noteFor(x) : (x[c.key] ?? '')).trim()));
   cols = cols.filter((c) => {
     const v = values(c);
-    if (v.size === 1 && v.has('') && !c.keep && (c.key === 'notes' || c.key === 'odds' || compactCols)) return false;
+    if (v.size === 1 && v.has('') && !c.keep && (c.key === 'notes' || c.key === 'odds' || c.hops || compactCols)) return false;
     return !(compactCols && c.droppable && v.size === 1);
   });
   return `<div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, rows)}</div>`;
@@ -117,14 +121,29 @@ function breweryView(rows, ctx) {
 <div class="grid">${figs.join('')}</div>
 <h2>medals-by-year</h2>
 <div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${recent}</div>
+${hopsUsedHtml(rows, { r, meta })}
 <h2>gabf-medal-history</h2>
 <p class="small muted">Field is the number of entries in the category that year, from the official list; entries per medal divides it by the medals awarded there.</p>
-${medalTable([...rows].sort(byNewest), { r, odds: true })}`;
+${medalTable([...rows].sort(byNewest), { r, odds: true, meta })}`;
+}
+
+// The hops used across a set of medal beers, one row per variety, each linking to its page.
+export function hopsUsedHtml(rows, { r, meta }) {
+  const hc = hopCopy(meta);
+  const tally = new Map();
+  for (const x of rows) for (const name of x.hop_varieties ?? []) tally.set(name, (tally.get(name) ?? 0) + 1);
+  if (!tally.size) return '';
+  const list = [...tally.entries()].map(([name, beers]) => ({ name, beers })).sort((a, b) => b.beers - a.beers || compareLabels(a.name, b.name));
+  const table = tableHtml([
+    { key: 'name', label: hc.brewery_variety, render: (x) => `<a href="${r}hops/${esc(hopSlug(x.name))}/">${esc(x.name)}</a>` },
+    { key: 'beers', label: hc.brewery_beers, numeric: true },
+  ], list);
+  return `<h2>${esc(hc.brewery_title)}</h2><p class="small muted">${esc(hc.brewery_note)}</p><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${table}</div>`;
 }
 
 // ---------- category page ----------
 function categoryView(rows, ctx) {
-  const { r, page } = ctx;
+  const { r, page, meta } = ctx;
   const perYear = new Map();
   for (const x of rows) if (!perYear.has(x.year)) perYear.set(x.year, { year: x.year, entries: x.entries, number: x.category_number, medals: [] });
   for (const x of rows) perYear.get(x.year).medals.push(x);
@@ -135,7 +154,7 @@ function categoryView(rows, ctx) {
     : `<div class="card"><h2>entrants</h2><p class="muted">${withEntries.length === 1 ? `${fmt(withEntries[0].entries)} entries in ${withEntries[0].year}. A trend appears when a second year with entry counts is in view.` : 'No entry counts in view for this category.'}</p></div>`;
   return `${chart}
 <h2>medalists-by-year</h2>
-${[...list].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort(byNewest), { r, showYear: false, showBrewery: true, compact: true })}`).join('')}`;
+${[...list].reverse().map((y) => `<h3>${y.year}${y.number ? ` · category ${esc(y.number)}` : ''}${y.entries ? ` · ${fmt(y.entries)} entrants` : ''}</h3>${medalTable(y.medals.sort(byNewest), { r, showYear: false, showBrewery: true, compact: true, meta })}`).join('')}`;
 }
 
 // ---------- 2026 winners index ----------
@@ -167,7 +186,7 @@ function winnersView(rows, ctx) {
 <tr class="group-row"><th colspan="6" scope="colgroup">${g.number}. ${esc(g.name)}${g.entries ? ` <span class="muted small">${fmt(g.entries)} entries</span>` : ''}</th></tr>
 ${g.rows.sort(byNewest).map((x) => {
     const s = specs[x.beer_profile];
-    return `<tr><td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer"><a href="${ctx.r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a></td><td data-label="Brewery"><a href="${ctx.r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td><td class="num" data-label="ABV">${isBlank(s.abv) ? '<span class="muted">not published</span>' : esc(abvText(s.abv))}</td><td class="num" data-label="IBU">${isBlank(s.ibu) ? '<span class="muted">not published</span>' : esc(s.ibu)}</td><td class="small" data-label="Hops">${isBlank(s.hops) ? '<span class="muted">not published</span>' : esc(s.hops.join(', '))}</td></tr>`;
+    return `<tr><td data-label="Medal">${medalDot(x.medal)}</td><td data-label="Beer"><a href="${ctx.r}${esc(x.beer_profile)}">${esc(x.beer_name)}</a></td><td data-label="Brewery"><a href="${ctx.r}breweries/${esc(x.brewery_slug)}/">${esc(x.brewery_name)}</a> <span class="muted small">${esc(x.city)}, ${esc(x.state)}</span></td><td class="num" data-label="ABV">${isBlank(s.abv) ? '<span class="muted">not published</span>' : esc(abvText(s.abv))}</td><td class="num" data-label="IBU">${isBlank(s.ibu) ? '<span class="muted">not published</span>' : esc(s.ibu)}</td><td class="small" data-label="Hops">${isBlank(s.hops) ? '<span class="muted">not published</span>' : hopLinksHtml(s.hops, { r: ctx.r })}</td></tr>`;
   }).join('')}
 </tbody>`).join('');
   return `<div class="stats">${stats}</div>
