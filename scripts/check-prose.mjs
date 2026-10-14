@@ -3,8 +3,8 @@
 //   1. no dash used as punctuation (em dash, en dash, spaced hyphen, double hyphen),
 //   2. no hard-wrapped paragraphs,
 //   3. headings in lowercase kebab-case (the root README H1 may carry the project name).
-// Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, and CHANGELOG,
-// and anything under .github/) may use title or sentence case headings; rules 1 and 2 still apply.
+// Public facing files (the root README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG,
+// PRODUCT, and DESIGN, and anything under .github/) may use title or sentence case headings; rules 1 and 2 still apply.
 // Code fences and frontmatter are skipped.
 
 import { readdirSync, readFileSync, statSync } from 'node:fs';
@@ -27,7 +27,8 @@ function walk(dir, out = []) {
 const RESERVED = new Set(['README.md', 'CLAUDE.md', 'AGENTS.md', 'CODEX.md', 'GEMINI.md', 'MEMORY.md']);
 
 // Root level files GitHub shows to visitors; headings there follow normal case.
-const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'CODE_OF_CONDUCT.md', 'CHANGELOG.md']);
+// PRODUCT.md and DESIGN.md follow the Impeccable design schema, whose headings are title case.
+const PUBLIC_FACING = new Set(['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'CODE_OF_CONDUCT.md', 'CHANGELOG.md', 'PRODUCT.md', 'DESIGN.md']);
 
 // True when a repository relative path (forward slashes) is exempt from the kebab heading rule.
 export function isPublicFacing(rel) {

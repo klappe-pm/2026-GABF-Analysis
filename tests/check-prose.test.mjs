@@ -17,10 +17,10 @@ test('checkMarkdown accepts compliant markdown and skips code fences and frontma
 });
 
 test('public facing files may use normal case headings but keep the dash and hard wrap rules', () => {
-  for (const rel of ['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'CODE_OF_CONDUCT.md', 'CHANGELOG.md', '.github/pull_request_template.md', '.github/ISSUE_TEMPLATE/bug-report.md']) {
+  for (const rel of ['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'CODE_OF_CONDUCT.md', 'CHANGELOG.md', 'PRODUCT.md', 'DESIGN.md', '.github/pull_request_template.md', '.github/ISSUE_TEMPLATE/bug-report.md']) {
     assert.equal(isPublicFacing(rel), true, rel);
   }
-  for (const rel of ['docs/x/README.md', 'docs/2026/winner/AGENTS.md', 'CLAUDE.md', 'docs/CONTRIBUTING.md', 'breweries/template-brewery.md']) {
+  for (const rel of ['docs/x/README.md', 'docs/2026/winner/AGENTS.md', 'CLAUDE.md', 'docs/CONTRIBUTING.md', 'docs/DESIGN.md', 'breweries/template-brewery.md']) {
     assert.equal(isPublicFacing(rel), false, rel);
   }
   const titled = ['# GABF Analysis', '', '## Quick start', '', 'One line paragraph.', ''].join('\n');
