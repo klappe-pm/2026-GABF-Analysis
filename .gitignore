@@ -4,6 +4,7 @@ dist-hosted/
 data/raw/*.pdf
 data/cache/
 .DS_Store
+.obsidian/
 *.log
 .env
 .env.*

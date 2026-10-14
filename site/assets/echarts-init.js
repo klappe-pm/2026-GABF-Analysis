@@ -100,6 +100,14 @@
   function applyOption(entry) {
     const option = resolveVars(reviveFormatters(entry.spec));
     delete option.__links; delete option.__map; delete option.__totals;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) option.animation = false;
+    // Narrow horizontal bar charts: fewer value ticks and category labels capped at 40 percent of
+    // the chart width, truncated with the full name in the tooltip.
+    const w = entry.el && entry.el.clientWidth;
+    if (w && w < 520 && option.yAxis && option.yAxis.type === 'category' && option.yAxis.axisLabel) {
+      option.yAxis.axisLabel.width = Math.min(option.yAxis.axisLabel.width || 190, Math.round(w * 0.4));
+      if (option.xAxis && option.xAxis.type === 'value') { option.xAxis.splitNumber = 2; option.xAxis.axisLabel = { ...option.xAxis.axisLabel, hideOverlap: true }; }
+    }
     const feature = option.toolbox && option.toolbox.feature;
     if (hosted && feature && feature.saveAsImage) {
       const name = feature.saveAsImage.name || 'chart';
@@ -111,6 +119,11 @@
 
   function init(el, spec) {
     const target = el.querySelector('.echart') || el;
+    // The canvas is an image to assistive technology; its name is the chart title, and the
+    // Table view below it carries the numbers.
+    const title = el.querySelector('figcaption strong');
+    target.setAttribute('role', 'img');
+    target.setAttribute('aria-label', `${title ? title.textContent : 'Chart'}. The table view below lists the values.`);
     const chart = window.echarts.init(target, null, { renderer: 'canvas' });
     const entry = { el, chart, spec };
     charts.push(entry);

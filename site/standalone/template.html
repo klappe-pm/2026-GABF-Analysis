@@ -11,6 +11,7 @@
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="inner">
 <span class="brand">GABF Analysis</span>
 <nav class="site-nav" aria-label="Dashboards">
@@ -22,15 +23,18 @@
 <a href="#tab=data" data-tab-link="data">Data</a>
 <a href="#tab=about" data-tab-link="about">About</a>
 </nav>
+<button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every tab (shortcut: f)">Filters</button>
 <button class="theme-toggle" type="button">Dark mode</button>
 </div></header>
-<main data-default-brewery="__DEFAULT_BREWERY__">
+<div class="filter-chips-bar" id="filter-chips" hidden></div>
+<p class="visually-hidden" id="filter-live" aria-live="polite"></p>
+<main id="main" tabindex="-1" data-default-brewery="__DEFAULT_BREWERY__">
 <h1>Great American Beer Festival results dashboard</h1>
 <p class="lede">__LEDE__</p>
 __COVERAGE__
-<div id="filters" class="filters" aria-label="Filters"></div>
 <div id="partial-notice"></div>
 <div id="stats" class="stats"></div>
+<p class="dash-actions"><button class="btn" id="download" type="button">Download the medals in view (CSV)</button></p>
 
 <section data-tab="overview" class="tab-pane">
 <div class="dash-grid">
@@ -60,6 +64,7 @@ __COVERAGE__
 <section data-tab="categories" class="tab-pane">
 <div class="dash-grid">
 <div data-panel="entrants" class="wide"></div>
+<div data-panel="entry-odds" class="wide"></div>
 <div data-panel="special-share"></div>
 <div data-panel="entries-vs-breweries"></div>
 </div>
