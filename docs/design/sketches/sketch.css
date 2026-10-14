@@ -1,0 +1,42 @@
+/* The frame around a live page in a sketch or a screen. Every colour is a site token from tokens.css. */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0; display: flex; flex-direction: column;
+  background: var(--surface-1); color: var(--text-primary);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.dcp-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px;
+  padding: 8px 12px; background: var(--card); border-bottom: 1px solid var(--border);
+}
+.dcp-crumbs { font-weight: 600; }
+.dcp-crumbs .sep { color: var(--text-muted); margin: 0 4px; font-weight: 400; }
+.dcp-state { font-size: 12px; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 1px 8px; }
+.dcp-state[data-path="error"] { color: var(--series-8); }
+.dcp-state[data-path="empty"] { color: var(--text-muted); }
+.dcp-state[data-path="loading"] { color: var(--link); }
+.dcp-url { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text-secondary); overflow-wrap: anywhere; }
+.dcp-actions { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+.dcp-actions a, .dcp-actions button {
+  font: inherit; font-size: 13px; cursor: pointer; text-decoration: none;
+  color: var(--text-primary); background: var(--surface-1);
+  border: 1px solid var(--control-border); border-radius: 6px; padding: 3px 9px;
+}
+.dcp-actions .unmapped { border-style: dashed; color: var(--text-secondary); }
+.dcp-actions .unmapped::after { content: " (no destination)"; font-size: 12px; }
+.dcp-actions .in-place::after { content: " (stays here)"; font-size: 12px; color: var(--text-secondary); }
+.dcp-note { width: 100%; margin: 0; font-size: 13px; color: var(--warn); }
+.dcp-note[hidden] { display: none; }
+.dcp-stage { flex: 1; min-height: 0; display: flex; justify-content: center; background: var(--page); }
+.dcp-live-frame { flex: 1; width: 100%; height: 100%; border: 0; background: var(--page); }
+body[data-frame="phone"] .dcp-live-frame { flex: 0 0 auto; width: 390px; max-width: 100%; border-left: 1px solid var(--border); border-right: 1px solid var(--border); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+/* At phone width the bar keeps to two short rows so the live page keeps the screen: the actions
+   scroll sideways inside their own row rather than stacking. */
+@media (max-width: 600px) {
+  .dcp-bar { gap: 4px 8px; padding: 6px 10px; }
+  .dcp-url { display: none; }
+  .dcp-actions { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
+  .dcp-actions a, .dcp-actions button { flex: 0 0 auto; white-space: nowrap; }
+}
