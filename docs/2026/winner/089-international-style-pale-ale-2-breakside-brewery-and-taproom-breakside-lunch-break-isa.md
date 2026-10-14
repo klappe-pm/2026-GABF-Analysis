@@ -32,13 +32,6 @@ description:
 entries: 53
 fg: null
 gaps:
-  - field: "tasting-notes"
-    sources-checked:
-      - "https://breakside.com/"
-      - "https://breakside.com/our_beer/lunch-break-india-session-ale/"
-      - "https://breakside.com/our_location/slabtown-pub-brewery/"
-      - "https://breakside.com/our_location/taproom-brewery/"
-      - "web searches recorded in the research notes"
   - field: "srm"
     sources-checked:
       - "https://breakside.com/"
@@ -163,7 +156,9 @@ sources:
   - "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/"
 srm: null
 style: "ISA: India Session Ale / Session IPA"
-tasting-notes: null
+tasting-notes:
+  text: "full of juicy, classic hop flavor with just enough malt backbone to keep things in balance ... the aroma a heady mix of orange marmalade, grapefruit, and resin. FLAVOR PROFILE grapefruit, lemongrass, fruity"
+  source: "https://breakside.com/our_beer/lunch-break-india-session-ale/"
 water: null
 yeast: []
 ---
@@ -201,7 +196,9 @@ Source: [Breakside: Lunch Break](https://breakside.com/our_beer/lunch-break-indi
 
 ## tasting-notes
 
-The brewery has published no tasting notes for this beer that the research could find.
+> full of juicy, classic hop flavor with just enough malt backbone to keep things in balance ... the aroma a heady mix of orange marmalade, grapefruit, and resin. FLAVOR PROFILE grapefruit, lemongrass, fruity
+
+Source: [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/)
 
 ## ingredients
 
@@ -263,7 +260,7 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 
 ## gaps
 
-- Not published: Tasting notes, Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/our_location/taproom-brewery/), web searches recorded in the research notes.
+- Not published: Color (SRM), Original gravity, Final gravity, Hop form, Hop use, Hop lot or farm, Yeast, Adjuncts, Water, Process. Checked [breakside.com](https://breakside.com/), [breakside.com](https://breakside.com/our_beer/lunch-break-india-session-ale/), [breakside.com](https://breakside.com/our_location/slabtown-pub-brewery/), [breakside.com](https://breakside.com/our_location/taproom-brewery/), web searches recorded in the research notes.
 
 ## research-notes
 
@@ -272,3 +269,4 @@ Each farm listed as growing a variety grows that variety according to the hop fa
 - The beer page lists earlier honors in the same category, including a 2016 GABF bronze for International-Style Pale Ale.
 - No 2026 medal announcement from the brewery was found.
 - Researched 2026-10-13.
+- Deep dive pass 2026-10-14: the brewery page gives tasting words and a flavor profile; its hop list (Amarillo, Cascade, Galaxy, Rakau, Simcoe) is already on file.
