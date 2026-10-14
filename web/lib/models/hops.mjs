@@ -9,7 +9,7 @@
 import { humanize } from '../../../site/assets/charts.mjs';
 import { valueLabel } from '../../../site/assets/filter-bar.mjs';
 import { byMedalThenBeer } from '../../../scripts/lib/hops.mjs';
-import { notesHtml, site, WINNER_YEAR, winners } from '../site-model.mjs';
+import { beer as siteBeer, notesHtml, site, WINNER_YEAR, winners } from '../site-model.mjs';
 
 const collator = new Intl.Collator('en', { sensitivity: 'base' });
 const byText = (a, b) => collator.compare(a, b);
@@ -60,6 +60,21 @@ const cellOf = (key, raw) => {
 };
 
 // ---------- beers ----------
+// The winners list of the year by beer, so a beer listed on a hop page carries the fields the global filter reads.
+const winnerByStem = new Map();
+const winnerFor = (stem) => {
+  if (!winnerByStem.size) for (const r of winners(WINNER_YEAR)) if (r.stem) winnerByStem.set(r.stem, r);
+  return winnerByStem.get(stem) ?? null;
+};
+// What a beer profile card draws: the beer's record without its research notes.
+const cardRecords = new Map();
+const beerCardRecord = (stem) => {
+  if (!cardRecords.has(stem)) {
+    const { notesHtml: _notes, ...record } = siteBeer(stem);
+    cardRecords.set(stem, record);
+  }
+  return cardRecords.get(stem);
+};
 const beerRef = (b) => ({
   stem: b.stem,
   year: b.year,
@@ -69,6 +84,8 @@ const beerRef = (b) => ({
   brewerySlug: b.brewery_slug,
   category: b.category,
   categorySlug: b.category_slug,
+  filter: winnerFor(b.stem),
+  card: beerCardRecord(b.stem),
 });
 const varietyLink = (v) => ({ name: v.name, slug: v.slug });
 const farmLink = (f) => ({ name: f.name, slug: f.slug, state: stateName(f.state) });
@@ -148,10 +165,12 @@ function acreageOf(v) {
   const rows = [...v.acreage]
     .sort((a, b) => num(b.year) - num(a.year) || byText(stateName(a.state), stateName(b.state)))
     .map((a) => ({ state: stateName(a.state) || null, year: num(a.year), acres: num(a.acres), production: num(a.production), source: sourcesOf(a.source) }));
-  const totals = new Map();
-  for (const a of rows) if (a.year !== null && a.acres !== null) totals.set(a.year, (totals.get(a.year) ?? 0) + a.acres);
-  const years = [...totals.keys()].sort((a, b) => a - b);
-  return { rows, trend: { years, totals: years.map((y) => totals.get(y)) } };
+  // One line per state over the years any state reports. A year a state does not report stays null, a gap in its line.
+  const reported = rows.filter((a) => a.state && a.year !== null && a.acres !== null);
+  const years = [...new Set(reported.map((a) => a.year))].sort((x, y) => x - y);
+  const states = [...new Set(reported.map((a) => a.state))].sort(byText);
+  const series = states.map((state) => ({ state, values: years.map((y) => reported.find((a) => a.state === state && a.year === y)?.acres ?? null) }));
+  return { rows, trend: { years, series } };
 }
 
 function varietyBeers(v) {

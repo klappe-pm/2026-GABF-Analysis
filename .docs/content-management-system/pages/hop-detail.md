@@ -37,6 +37,12 @@ Where: the hop profile card at the top of the page.
 - `oil_range`: {{min}} to {{max}} mL per 100 g
 - `farm_line`: {{farm_name}}, {{state}}
 
+## `unfiltered`
+
+Where: under the heading of a section that shows the whole record and does not change with the Filters.
+
+- `note`: Whole record, not narrowed by the filters.
+
 ## `table`
 
 Where: every table on the page.
@@ -65,8 +71,7 @@ Where: the US acreage section.
 - `source`: Source
 - `missing`: No US acreage has been published for this hop yet.
 - `chart_title`: US acres by year
-- `chart_note`: The total of the states that reported acres for this hop in each year.
-- `series`: Total reported acres
+- `chart_note`: Acres of this hop that each state reported in each year. A year a state did not report is a gap in its line.
 - `name_column`: Measure
 - `table_summary`: Show the acreage as a table
 - `chart_label`: Line chart of the US acres of {{name}} by year

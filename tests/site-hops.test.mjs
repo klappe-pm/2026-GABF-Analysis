@@ -37,7 +37,8 @@ test('a variety record carries its card, data, acreage trend, beers, and farms',
   assert.ok(v.data.some((d) => d.max !== undefined), 'a minimum and maximum read as one range');
   assert.equal(v.beerRows.length, v.counts.medals);
   assert.ok(v.acreageByState.trend.years.length >= 2, 'acreage trend has years');
-  assert.equal(v.acreageByState.trend.years.length, v.acreageByState.trend.totals.length);
+  assert.ok(v.acreageByState.trend.series.length >= 2, 'one line per state');
+  for (const line of v.acreageByState.trend.series) assert.equal(line.values.length, v.acreageByState.trend.years.length, line.state);
   assert.deepEqual(v.acreageByState.trend.years, [...v.acreageByState.trend.years].sort((a, b) => a - b));
   assert.equal(v.farmRows.length, v.counts.farms);
   assert.ok(v.notesHtml, 'the research notes render');
@@ -116,5 +117,19 @@ test('a variety record is also a hop card: the card fields keep the card shape',
     assert.equal(typeof h.beers, 'number', `${slug} beers`);
     assert.ok(h.acreage === null || typeof h.acreage.acres === 'number', `${slug} acreage`);
     assert.ok(Array.isArray(h.farms), `${slug} farms`);
+  }
+});
+
+test('a beer listed on a hop page carries its filter fields and its profile card record', () => {
+  for (const { slug } of hopParams()) {
+    for (const b of hop(slug).beerRows) {
+      assert.equal(b.filter.stem, b.stem, `${slug}: ${b.beer} filter row`);
+      assert.equal(b.filter.medal, b.medal);
+      assert.ok(b.card.beer && !('notesHtml' in b.card), `${slug}: ${b.beer} card`);
+    }
+  }
+  for (const { slug } of hopFarmParams()) {
+    const f = hopFarm(slug);
+    for (const b of [...f.named, ...f.grown]) assert.ok(b.filter && b.card, `${slug}: ${b.beer}`);
   }
 });

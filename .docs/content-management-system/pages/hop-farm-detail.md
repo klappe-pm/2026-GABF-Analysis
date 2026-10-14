@@ -15,6 +15,12 @@ Where: the line under the farm name.
 
 - `varieties`: Varieties published: {{count}}
 
+## `unfiltered`
+
+Where: under the heading of a section that shows the whole record and does not change with the Filters.
+
+- `note`: Whole record, not narrowed by the filters.
+
 ## `table`
 
 Where: every table on the page.
