@@ -6,9 +6,11 @@ import { MedalMark, type MedalName } from './MedalMark';
 import type { MedalCounts } from './MedalRecord';
 
 // A year's medals as badges, the way an app icon carries a count: gold, then silver, then bronze, each
-// a medal mark with its count in a Material badge. A badge with a link opens that year's beers; its
-// accessible name says the count, the medal, the year, and where it goes. A metal with no medal shows a
-// dimmed mark with no count and no link (or nothing, when the spec hides zeros).
+// a medal mark with its count in a Material badge (a neutral pairing, inverse surface by default, so a
+// count never reads as an alert). The badge stays inside its own box, so a table cell never clips it. A
+// badge with a link opens that year's beers; its accessible name says the count, the medal, the year,
+// and where it goes. A metal with no medal shows a dimmed mark with no count and no link (or nothing,
+// when the spec hides zeros), so a year with no medals reads as three dimmed marks.
 
 export type BadgeCopy = { one: string; other: string; none: string };
 
@@ -19,7 +21,7 @@ const fillIn = (text: string, values: Record<string, string | number>) => text.r
 export function MedalBadge({ counts, year, names, copy, links, group }: { counts: MedalCounts; year: number; names: Record<MedalName, string>; copy: BadgeCopy; links: Partial<Record<MedalName, string>>; group: string }) {
   const s = useSettings('medal-badge');
   const box = Math.max(24, Number(s.Size ?? 32));
-  const countRole = s['Count color'] ?? 'error';
+  const countRole = s['Count color'] ?? 'inverse surface';
   const showZero = s['Show zero'] !== 'no';
   return (
     <span data-component="medal-badge" role="group" aria-label={group} className="inline-flex items-center gap-2">
@@ -39,7 +41,7 @@ export function MedalBadge({ counts, year, names, copy, links, group }: { counts
             <span aria-hidden="true" className="inline-flex transition-transform duration-150 ease-out group-hover/badge:scale-110 motion-reduce:transition-none"><MedalMark medal={m} /></span>
             <span
               aria-hidden="true"
-              className="type-label-small font-plain tabular-nums absolute -top-0.5 -right-1 inline-flex h-4 min-w-4 items-center justify-center rounded-full px-1 leading-none"
+              className="type-label-small font-plain tabular-nums absolute top-0 right-0 inline-flex h-4 min-w-4 items-center justify-center rounded-full px-1 leading-none"
               style={{ background: color(countRole), color: onColor(countRole) }}
             >
               {n}

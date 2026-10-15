@@ -4,7 +4,7 @@ title: Medal badge
 status: review
 code: web/components/MedalBadge.tsx
 Size: 32
-Count color: error
+Count color: inverse surface
 Show zero: yes
 ---
 
@@ -13,5 +13,5 @@ Show zero: yes
 ## medal-badge-options
 
 - Size: 32
-- Count color: error
+- Count color: inverse surface
 - Show zero: yes

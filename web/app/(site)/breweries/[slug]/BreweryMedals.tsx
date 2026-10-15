@@ -77,17 +77,22 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
       ? `${href(paths.winners(y))}${hashFor({ brewery_key: b.key, medal: m, ...partial })}`
       : `${href(paths.brewery(b.slug))}${hashFor({ year: String(y), medal: m, ...partial })}`])) as Record<MedalName, string>;
   };
-  const trendRows: Row[] = [...b.trend].reverse().map((t) => ({
-    key: String(t.year),
-    cells: {
-      year: t.year,
-      status: c.trend_status[t.status] ?? c.gaps.not_found,
-      medals: t.total,
-      split: t.total
-        ? <MedalBadge counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} year={t.year} names={medalNames} copy={badgeCopy} links={badgeLinks(t.year)} group={fillText(c.trend.badge_group, { brewery_name: b.name, year: t.year })} />
-        : <MedalRecord counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} variant="value" names={medalNames} />,
-    },
-  }));
+  // A year whose results are not loaded is a gap, never a zero. A partial year counts the rows its
+  // partial list holds and says it is partial.
+  const partialYear = (y: number) => b.rows.some((r) => r.year === y && r.partial);
+  const trendRows: Row[] = [...b.trend].reverse().map((t) => {
+    const gap = t.status === 'not-yet-reported' || t.status === 'no-results';
+    const label = c.trend_status[t.status] ?? c.gaps.not_found;
+    return {
+      key: String(t.year),
+      cells: {
+        year: t.year,
+        status: t.status === 'medaled' && partialYear(t.year) ? fillText(c.trend.status_partial, { status: label }) : label,
+        medals: gap ? none : t.total,
+        split: gap ? none : <MedalBadge counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} year={t.year} names={medalNames} copy={badgeCopy} links={t.total ? badgeLinks(t.year) : {}} group={fillText(c.trend.badge_group, { brewery_name: b.name, year: t.year })} />,
+      },
+    };
+  });
 
   // Hops and farms reached through the beers in view.
   const hopTally = tally(shown.flatMap((r) => r.hop_varieties ?? []), (n) => n);
