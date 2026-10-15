@@ -1,6 +1,7 @@
 // The web global filter in a real browser, against the built export in web/out: the selection reaches the URL of the
 // next page, a hash change is read from the hash alone, a moved address keeps the hash, the Filters dialog names the
-// option for rows with no value in words, and a bare F key opens nothing (Alt+Shift+F does). Fails when web/out is
+// option for rows with no value in words, a bare F key opens nothing (Alt+Shift+F does), and a press before Material
+// defines the dialog opens it once defined instead of throwing. Fails when web/out is
 // older than its sources or not built (scripts/lib/web-out-fresh.mjs; in continuous integration a missing export
 // skips), and skips when no Chrome or Playwright Chromium is available.
 import test from 'node:test';
@@ -108,5 +109,35 @@ test('a bare F opens nothing, Alt+Shift+F opens Filters, and no option reads as 
     const texts = await page.evaluate(() => [...document.querySelectorAll('[data-component="filters-dialog"] md-select-option, [data-component="filters-dialog"] option')].map((o) => (o.textContent || '').trim()));
     assert.deepEqual(texts.filter((t) => t.startsWith('not-defined')), [], 'the option for rows with no value reads in words');
     assert.ok(texts.some((t) => /^Not Found \(\d+\)$/.test(t)), 'it reads Not Found with its count');
+  });
+});
+
+test('Alt+Shift+F or the Filters button before Material defines the dialog opens it once defined, without an error', { skip: SKIP, timeout: 60000 }, async () => {
+  await withPage(async (page, base) => {
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    // Hold the md-dialog registration until the test releases it, as on a slow device where the press comes first.
+    await page.addInitScript(() => {
+      const define = customElements.define.bind(customElements);
+      let held = null;
+      window.releaseDialog = () => { if (held) define(...held); held = null; };
+      customElements.define = (name, ...rest) => {
+        if (name !== 'md-dialog') return define(name, ...rest);
+        held = [name, ...rest];
+        window.dialogHeld = true;
+      };
+    });
+    await page.goto(`${base}/breweries/`);
+    await applied(page);
+    await page.waitForFunction(() => window.dialogHeld === true, null, { timeout: 0 });
+    const state = () => page.evaluate(() => [...document.querySelectorAll('md-dialog[data-component="filters-dialog"]')].map((d) => ({ upgraded: typeof d.show === 'function', open: d.open === true || d.hasAttribute('open') })));
+    assert.deepEqual(await state(), [{ upgraded: false, open: false }], 'the dialog is in the page but not yet defined');
+    await page.keyboard.press('Alt+Shift+KeyF');
+    await page.locator('[aria-haspopup="dialog"]').first().click();
+    await page.evaluate(() => new Promise((done) => requestAnimationFrame(() => setTimeout(done))));
+    assert.deepEqual(errors, [], 'an early press or click throws nothing');
+    await page.evaluate(() => window.releaseDialog());
+    await page.waitForFunction(() => [...document.querySelectorAll('md-dialog[data-component="filters-dialog"]')].some((d) => d.open), null, { timeout: 0 });
+    assert.deepEqual(errors, [], 'opening once defined throws nothing');
   });
 });
