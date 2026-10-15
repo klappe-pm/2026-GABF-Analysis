@@ -22,8 +22,10 @@ export const fmt = (name, ...args) => ({ $fmt: name, args });
 
 export const COMPACT_AXIS = fmt('compactAxis');
 
+// The chart's own data view is left out on purpose: it is a tab separated text box whose columns
+// do not line up. The Table view under every chart carries the same values as a real table.
 export function toolbox(name) {
-  return { right: 4, top: 0, itemSize: 13, iconStyle: { borderColor: 'var(--text-muted)' }, feature: { saveAsImage: { name, pixelRatio: 2, title: 'Save PNG' }, dataView: { readOnly: true, title: 'Data', lang: ['Data', 'Close', 'Refresh'] }, restore: { title: 'Reset' } } };
+  return { right: 4, top: 0, itemSize: 13, iconStyle: { borderColor: 'var(--text-muted)' }, feature: { saveAsImage: { name, pixelRatio: 2, title: 'Save PNG' }, restore: { title: 'Reset' } } };
 }
 
 function baseGrid(extra = {}) {
