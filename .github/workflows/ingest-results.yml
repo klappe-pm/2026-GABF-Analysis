@@ -6,9 +6,9 @@ name: ingest-results
 # The data always arrives as a pull request, because branch protection on main requires the
 # build check and rejects a direct push. A pull request opened with the workflow token does not
 # trigger workflows, so this workflow dispatches ci.yml on the new branch, which puts the build
-# check on its head commit. With publish true (and on the schedule) it waits for that check,
-# merges the pull request, and dispatches deploy.yml (a merge made with the workflow token does
-# not trigger workflows either); with publish false it leaves the pull request for review.
+# check on its head commit. With publish true (and on the schedule) it waits for that check and
+# merges the pull request; the merge is a push to main, which AWS CodeBuild builds and deploys
+# (buildspec.yml) whoever made it. With publish false it leaves the pull request for review.
 
 on:
   workflow_dispatch:
@@ -125,4 +125,3 @@ jobs:
           if [ -z "$RUN_ID" ]; then echo "the ci run for $BRANCH did not start; merge the pull request by hand once build passes"; exit 1; fi
           gh run watch "$RUN_ID" --exit-status
           gh pr merge "$BRANCH" --merge --delete-branch
-          gh workflow run deploy.yml --ref main
