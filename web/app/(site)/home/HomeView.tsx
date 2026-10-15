@@ -73,7 +73,7 @@ export function HomeView({ copy: tree, initial, search, finding }: { copy: CopyT
         <h1 className="type-display-small text-on-surface">{copy.t('page.hero.title', { year: view.year })}</h1>
         <p className="type-body-large max-w-measure text-on-surface-variant">{copy.t('page.hero.lede', { first_year: view.firstYear, last_year: view.lastYear })}</p>
       </header>
-      <section className="grid grid-cols-1 gap-4 expanded:grid-cols-[2fr_1fr]" aria-label={copy.t('page.scoresheet.competition_year')}>
+      <section className="flex flex-col gap-4" aria-label={copy.t('page.scoresheet.competition_year')}>
         <FieldGrid>
           <Field size="text" label={copy.t('page.scoresheet.competition_year')}>{copy.t('page.scoresheet.competition_value', { year: view.year })}</Field>
           <Field label={copy.t('page.scoresheet.entries_judged')}>{sheet.entries ? fmtN(sheet.entries) : copy.missing()}</Field>
