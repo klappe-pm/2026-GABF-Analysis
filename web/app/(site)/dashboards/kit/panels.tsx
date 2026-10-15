@@ -55,7 +55,7 @@ const rate = (n: number) => (n >= 100 ? String(Math.round(n)) : n >= 10 ? n.toFi
 
 /** A name in a table that filters the dashboard to it. */
 function Pick({ label, onPick }: { label: string; onPick: () => void }) {
-  return <button type="button" onClick={onPick} className="text-primary underline state-hover:decoration-2">{label}</button>;
+  return <button type="button" onClick={onPick} className="inline-flex min-h-6 items-center text-left text-primary underline state-hover:decoration-2">{label}</button>;
 }
 
 export const labelOf = (copy: Copy, group: string, value: unknown) => {

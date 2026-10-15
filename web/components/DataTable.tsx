@@ -19,7 +19,8 @@ type Props = {
 
 // A data table in Material's manner: a tinted header row, row dividers, tabular figures, sortable headers.
 // Header color and weight, row height, dividers, wrapping, and alignment come from the table spec.
-// A table wider than its container scrolls inside the container, never the page.
+// A table wider than its container scrolls inside the container, never the page: an edge fade shows on each side
+// that has more columns, and the first column stays in place while the rest scroll.
 // A table that does not scroll on its own keeps its header row in view while the page scrolls, until
 // the reader scrolls past the table. CSS sticky cannot do that here, because the sideways scroll
 // container is also the box sticky pins to, so the header cells are moved down by the distance scrolled.
@@ -77,6 +78,24 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
     });
   }, [rows, sort]);
 
+  // Which sides have more columns to scroll to, read on scroll and whenever the container or table changes size.
+  const [more, setMore] = useState({ start: false, end: false });
+  useEffect(() => {
+    const el = box.current;
+    if (!el) return undefined;
+    const read = () => {
+      const start = el.scrollLeft > 1;
+      const end = el.scrollLeft + el.clientWidth < el.scrollWidth - 1;
+      setMore((m) => (m.start === start && m.end === end ? m : { start, end }));
+    };
+    read();
+    el.addEventListener('scroll', read, { passive: true });
+    const ro = new ResizeObserver(read);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    return () => { el.removeEventListener('scroll', read); ro.disconnect(); };
+  }, []);
+
   const toggle = (key: string) => setSort((p) => ({ key, dir: p?.key === key && p.dir === 'descending' ? 'ascending' : 'descending' }));
   const head = s['Header color'] ?? 'surface container';
   const rowHeight = `${Number(s['Row height'] ?? 48)}px`;
@@ -85,61 +104,66 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
   const align = (c: Column) => (s['Cell alignment'] === 'numbers right' && c.numeric ? 'text-right' : 'text-left');
   const weight = s['Header weight'] === 'regular' ? 400 : s['Header weight'] === 'medium' ? 500 : 700;
 
+  // The end edge fades while more columns lie past it; once scrolled, the fixed first column casts a soft shadow.
+  const fade = 'pointer-events-none absolute inset-y-px right-px w-6 rounded-r-(--md-sys-shape-corner-medium) bg-linear-to-l from-[color-mix(in_srgb,var(--md-sys-color-shadow)_14%,transparent)] to-transparent transition-opacity';
+  const pinned = `sticky left-0 ${more.start ? 'shadow-[4px_0_6px_-4px_color-mix(in_srgb,var(--md-sys-color-shadow)_30%,transparent)]' : ''}`;
   return (
-    <div
-      ref={box}
-      className={`max-w-full rounded-(--md-sys-shape-corner-medium) border border-outline-variant ${scroll ? 'max-h-[32rem] overflow-auto' : 'overflow-x-auto'}`}
-      tabIndex={0}
-      role="region"
-      aria-label={caption}
-      data-table-scroll=""
-      data-component="data-table"
-    >
-      <table className="type-body-medium w-full border-separate border-spacing-0 tabular-nums">
-        <caption className="sr-only">
-          {caption}
-          {sortHint ? `. ${sortHint}` : ''}
-        </caption>
-        <thead ref={thead}>
-          <tr>
-            {columns.map((c) => {
-              const active = sort?.key === c.key;
-              return (
-                <th
-                  key={c.key}
-                  scope="col"
-                  aria-sort={active ? sort.dir : undefined}
-                  className={`type-label-large sticky top-0 z-[1] border-b border-outline-variant px-4 align-middle ${wrap} ${align(c)}`}
-                  style={{ background: color(head), color: onColor(head), height: rowHeight, fontWeight: weight, ...(scroll ? {} : { transform: 'translateY(var(--head-shift, 0px))' }), ...(hasFigure(c.label) ? { fontFamily: 'var(--md-ref-typeface-plain)' } : {}) }}
-                >
-                  {c.sortable ? (
-                    <button type="button" onClick={() => toggle(c.key)} className="inline-flex items-center gap-1">
-                      <span>{c.label}</span>
-                      <Icon name={active ? (sort.dir === 'ascending' ? 'sort-ascending' : 'sort-descending') : 'sort'} size={16} />
-                    </button>
-                  ) : (
-                    c.label
-                  )}
-                </th>
-              );
-            })}
-          </tr>
-        </thead>
-        <tbody>
-          {sorted.map((r) => (
-            <tr key={r.key} className={r.highlight ? 'bg-secondary-container' : 'state-hover:bg-surface-container-low'}>
+    <div className="relative max-w-full" data-component="data-table">
+      <div
+        ref={box}
+        className={`max-w-full rounded-(--md-sys-shape-corner-medium) border border-outline-variant ${scroll ? 'max-h-[32rem] overflow-auto' : 'overflow-x-auto'}`}
+        tabIndex={0}
+        role="region"
+        aria-label={caption}
+        data-table-scroll=""
+      >
+        <table className="type-body-medium w-full border-separate border-spacing-0 tabular-nums">
+          <caption className="sr-only">
+            {caption}
+            {sortHint ? `. ${sortHint}` : ''}
+          </caption>
+          <thead ref={thead}>
+            <tr>
               {columns.map((c, i) => {
-                const Cell = i === 0 ? 'th' : 'td';
+                const active = sort?.key === c.key;
                 return (
-                  <Cell key={c.key} scope={i === 0 ? 'row' : undefined} className={`${divider} ${wrap} px-4 font-normal ${align(c)}`} style={{ height: rowHeight }}>
-                    {r.cells[c.key]}
-                  </Cell>
+                  <th
+                    key={c.key}
+                    scope="col"
+                    aria-sort={active ? sort.dir : undefined}
+                    className={`type-label-large sticky top-0 border-b border-outline-variant px-4 align-middle ${i === 0 ? `${pinned} z-[2]` : 'z-[1]'} ${wrap} ${align(c)}`}
+                    style={{ background: color(head), color: onColor(head), height: rowHeight, fontWeight: weight, ...(scroll ? {} : { transform: 'translateY(var(--head-shift, 0px))' }), ...(hasFigure(c.label) ? { fontFamily: 'var(--md-ref-typeface-plain)' } : {}) }}
+                  >
+                    {c.sortable ? (
+                      <button type="button" onClick={() => toggle(c.key)} className="inline-flex min-h-11 items-center gap-1">
+                        <span>{c.label}</span>
+                        <Icon name={active ? (sort.dir === 'ascending' ? 'sort-ascending' : 'sort-descending') : 'sort'} size={16} />
+                      </button>
+                    ) : (
+                      c.label
+                    )}
+                  </th>
                 );
               })}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {sorted.map((r) => (
+              <tr key={r.key} className={r.highlight ? 'bg-secondary-container' : 'bg-surface state-hover:bg-surface-container-low'}>
+                {columns.map((c, i) => {
+                  const Cell = i === 0 ? 'th' : 'td';
+                  return (
+                    <Cell key={c.key} scope={i === 0 ? 'row' : undefined} className={`${divider} ${wrap} px-4 font-normal ${i === 0 ? `${pinned} bg-inherit` : ''} ${align(c)}`} style={{ height: rowHeight }}>
+                      {r.cells[c.key]}
+                    </Cell>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div aria-hidden="true" className={`${fade} ${more.end ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   );
 }
