@@ -8,7 +8,7 @@
 // page with a blank or a stale word in it.
 
 import { existsSync } from 'node:fs';
-import { CMS_DIR, cmsDirOf, loadCopy } from './review-content.mjs';
+import { CMS_DIR, cmsDirOf, loadCopy } from './cms.mjs';
 import { ROOT } from './paths.mjs';
 
 // copy('global.site.header.skip_link') returns the text. copy('pages.x.y', { year: 2026 }) fills
