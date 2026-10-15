@@ -91,7 +91,7 @@ function Widget({ copy }: { copy: Copy }) {
     if (!open) return undefined;
     let live = true;
     const timer = setTimeout(() => {
-      resolveCopy(step, (texts) => api<Record<string, { key: string } | null>>('POST', '/review/inline/resolve', { screen: step, texts }))
+      resolveCopy(step, (texts) => api('POST', '/review/inline/resolve', { screen: step, texts }) as Promise<Record<string, { key: string } | null>>)
         .then((n) => { if (live && n) setTick((t) => t + 1); })
         .catch(() => undefined);
     }, 300);

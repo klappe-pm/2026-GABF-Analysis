@@ -167,7 +167,7 @@ test('a ticket is filed under the page sent, or the page its route names', () =>
   assert.deepEqual(editPage({ page: 'brewery-detail' }), { page: 'brewery-detail' });
   assert.deepEqual(editPage({}), { page: 'design-system' });
   assert.equal(pageForRoute('/design-system/'), 'design-system');
-  assert.equal(pageForRoute('/'), 'overview-dashboard');
+  assert.equal(pageForRoute('/overview/'), 'overview-dashboard');
   assert.equal(pageForRoute('/breweries/green-cheek-beer-co/'), 'brewery-detail');
   assert.equal(pageForRoute('/breweries/another-brewery/'), 'brewery-detail');
   assert.equal(pageForRoute('/beers/2026/some-beer/'), 'beer-detail');

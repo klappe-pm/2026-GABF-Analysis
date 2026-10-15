@@ -46,9 +46,9 @@ test('categories come back alphabetized and regions come from the manifest', asy
     const cats = (await s.call('GET', '/review/categories')).body.categories;
     assert.deepEqual(cats, [...cats].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })));
     const regions = (await s.call('GET', '/review/regions')).body;
-    assert.equal(regions.screens['S-01'].selector, '.dash-grid');
+    assert.equal(regions.screens['S-01'].selector, 'dl:has(> [data-component="stat-card"])');
     assert.equal(regions.screens['S-07'], null, 'a whole page screen has no region');
-    assert.equal(regions.controls['open Filters'].selector, '.filter-trigger');
+    assert.match(regions.controls['open Filters'].selector, /filters-dialog/, 'the Filters button is found beside its dialog');
   } finally { s.close(); }
 });
 
@@ -85,7 +85,7 @@ test('a ticket records the job, step, state, route, spots, components, and keys,
     assert.equal(t.data.job, 'JOB-1');
     assert.equal(t.data.step, 'S-01');
     assert.equal(t.data.state, 'overview-default');
-    assert.equal(t.data.route, '/');
+    assert.equal(t.data.route, '/overview/');
     assert.equal(t.data.spots.length, 2);
     assert.deepEqual(t.data.categories, ['Bug', 'Layout']);
     assert.deepEqual(t.data.components[0], { name: 'chart-frame', spec: null, instance: '#medals-by-year' });

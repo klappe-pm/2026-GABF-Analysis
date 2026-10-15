@@ -14,10 +14,15 @@ const manifest = JSON.parse(readFileSync(resolve(ROOT, 'docs/design/design-nodes
 const spec = readFileSync(resolve(ROOT, 'docs/design/interaction-spec.md'), 'utf8');
 const screens = Object.entries(manifest.nodes).filter(([id]) => id.startsWith('screen:'));
 
-test('every screen has a region with a selector and a name, or is a whole page step with none', () => {
+test('every screen has a region with a selector and a name, or is a whole page step with none, or says why the web app has no page for it', () => {
   assert.equal(screens.length, 51);
   for (const [id, node] of screens) {
     const region = node.state.region;
+    if (node.state.unported) {
+      assert.equal(region, null, `${id} has no page on the web app, so it marks no region`);
+      assert.ok(node.state.unported.length > 20 && !/ - /.test(node.state.unported), `${id}: the reason is plain words`);
+      continue;
+    }
     if (region === undefined) {
       assert.equal(node.state.frame, 'phone', `${id} has no region but is not a phone width step`);
       continue;
@@ -31,9 +36,9 @@ test('every screen has a region with a selector and a name, or is a whole page s
 test('screens that state a condition mark the part of the page that shows it', () => {
   const sel = (id) => manifest.nodes[`screen:${id}`].state.region?.selector ?? '';
   assert.match(sel('S-03'), /empty/);
-  assert.match(sel('S-05'), /alert/);
-  assert.match(sel('S-16'), /est-popover/);
-  assert.match(sel('S-46'), /filter-panel/);
+  assert.match(sel('S-05'), /error/);
+  assert.match(sel('S-16'), /popover/);
+  assert.match(sel('S-46'), /filters-dialog/);
   assert.match(sel('S-02'), /filter-chips/);
 });
 
@@ -46,12 +51,13 @@ test('every action chip in the interaction spec names the control it acts on, ex
   const { controls } = regionsPayload(manifest);
   const missing = [...labels].filter((l) => !controls[l]);
   assert.deepEqual(missing, []);
-  for (const [label, c] of Object.entries(controls)) assert.ok(c.selector && c.name, label);
+  // A control with no web equivalent says why, and marks nothing.
+  for (const [label, c] of Object.entries(controls)) assert.ok(c.name && (c.selector || c.unported), label);
 });
 
 test('the payload the page reads has one entry per screen, null for a whole page step', () => {
   const payload = regionsPayload(manifest);
   assert.equal(Object.keys(payload.screens).length, 51);
   assert.equal(payload.screens['S-07'], null);
-  assert.equal(payload.screens['S-01'].name, 'dashboard panels');
+  assert.equal(payload.screens['S-01'].name, 'headline figures');
 });

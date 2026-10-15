@@ -25,7 +25,7 @@ test('the widget closes and draws nothing at phone width, and Shift F does not o
   assert.match(widget, /matchMedia\(PHONE_QUERY\)/);
   assert.match(widget, /if \(mq\.matches\) setOpen\(false\)/);
   assert.match(widget, /!typing && !phoneRef\.current\)/);
-  assert.match(widget, /return phone \? null : createPortal\(nodes, document\.body\)/);
+  assert.match(widget, /return phone \? null : createPortal\(nodes, host \?\? document\.body\)/);
 });
 
 test('no ticket records a phone device', () => {
