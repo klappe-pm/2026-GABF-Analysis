@@ -14,7 +14,7 @@ import { ABV_BANDS } from './lib/style-families.mjs';
 import { buildGeo } from './build-geo.mjs';
 import { compact, countBy, esc, figure, humanizeHeadings, tableHtml, titleCase } from '../site/assets/charts.mjs';
 import { lineOption, SERIES_COLORS } from '../site/assets/chart-options.mjs';
-import { applyFilters, DATA_SLUGS, scopeRows, unslugText, valueLabel } from '../site/assets/filter-bar.mjs';
+import { applyFilters, DATA_SLUGS, FILTER_COPY_KEYS, scopeRows, unslugText, valueLabel } from '../site/assets/filter-bar.mjs';
 import { medalDot, renderView } from '../site/assets/page-views.mjs';
 import { estMark } from '../site/assets/estimates.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
@@ -41,6 +41,9 @@ const HOP_SHARED_COPY = () => Object.fromEntries(Object.keys(HOP_COPY_DEFAULTS).
 // The hop model and pages of the current build (set in build()).
 let HOP_PAGES = null;
 const CARD_COPY = () => Object.fromEntries(Object.keys(BEER_CARD_DEFAULTS).map((k) => [k, COPY(`pages.profile-cards.beer.${k}`)]));
+// The global filter's dimension labels and group legends, from global/filters.md: shipped on meta.copy.filters
+// and in every page's #filter-copy script, so the header filter reads the same words as the Material app.
+const FILTER_COPY = () => Object.fromEntries(Object.entries(FILTER_COPY_KEYS).map(([section, keys]) => [section, Object.fromEntries(keys.map((k) => [k, COPY(`global.filters.${section}.${k}`)]))]));
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
 const PROFILES = new Map();
@@ -105,6 +108,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 ${body}
 </main>
 ${pageData ? `<script type="application/json" id="page-data">${JSON.stringify(pageData).replace(/</g, '\\u003c')}</script>` : ''}
+<script type="application/json" id="filter-copy">${JSON.stringify(FILTER_COPY()).replace(/</g, '\\u003c')}</script>
 <footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">${esc(COPY('global.site.footer.source_link'))}</a>.${CATALOG_BEER_ATTRIBUTION}</div></footer>
 <script src="${r}assets/vendor/echarts.min.js"></script>
 <script src="${r}assets/page.js" defer></script>
@@ -272,7 +276,7 @@ export function buildPayload(ds, cats) {
     ownership: Object.fromEntries(ds.breweries.filter((b) => b.ownership).map((b) => [b.key, { ownership_type: b.ownership.ownership_type, parent: b.ownership.parent }])),
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
-    copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY() },
+    copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY(), filters: FILTER_COPY() },
     // Farm name to page slug, so a brewery page can link the farms its beers reach.
     hop_farm_slugs: Object.fromEntries(ds.hops.farms.map((f) => [f.name, f.slug])),
   };

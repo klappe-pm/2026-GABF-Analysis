@@ -36,6 +36,17 @@ export const FILTERS = [
   { id: 'distribution_channel', label: 'Distribution', group: 'Who' },
 ];
 export const GROUPS = ['When', 'What', 'Where', 'Who'];
+
+// The words of the filter come from the copy documents (global/filters.md, dimensions and groups): the
+// build ships them in each page's #filter-copy script and on meta.copy.filters, so an edit to the copy
+// reaches this site and the Material app alike. The labels above are only the fallback when no copy
+// was shipped (a test, an old payload).
+export const FILTER_COPY_KEYS = { dimensions: FILTERS.map((f) => f.id), groups: GROUPS.map((g) => g.toLowerCase()) };
+export const dimensionLabel = (def, copy = null) => copy?.dimensions?.[def.id] ?? def.label;
+export const groupLabel = (group, copy = null) => copy?.groups?.[group.toLowerCase()] ?? group;
+function pageFilterCopy() {
+  try { return JSON.parse(document.getElementById('filter-copy')?.textContent || 'null'); } catch (e) { return null; }
+}
 // Only these keys are global filter state. Page keys in the hash (tab, brewery) are never stored.
 export const STATE_KEYS = [...FILTERS.map((f) => f.id), 'q', 'years'];
 export const STORAGE_KEY = 'gabf-filters';
@@ -234,7 +245,7 @@ export function pruneState(scope, s, keep = null) {
 export const partialYearsIn = (rows) => [...new Set(rows.filter((r) => r.partial).map((r) => r.year))].sort();
 
 export function activeChips(s, meta = null) {
-  const chips = FILTERS.filter((d) => s[d.id]).map((d) => ({ id: d.id, text: `${d.label}: ${valueLabel(d.id, s[d.id], meta)}` }));
+  const chips = FILTERS.filter((d) => s[d.id]).map((d) => ({ id: d.id, text: `${dimensionLabel(d, meta?.copy?.filters)}: ${valueLabel(d.id, s[d.id], meta)}` }));
   if (s.q) chips.push({ id: 'q', text: `Search: ${s.q}` });
   if (s.years === 'all' && !s.year) chips.push({ id: 'years', text: 'Partial Years Included' });
   return chips;
@@ -272,12 +283,16 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
   let fixed = [];
   let dialog = null;
   let timer = null;
+  const pageCopy = pageFilterCopy();
 
   const scoped = () => scopeRows(rows ?? [], scope);
-  // meta plus the brewery names found in the rows, so a Brewery chip reads as a name.
+  const words = () => meta?.copy?.filters ?? pageCopy;
+  // meta plus the brewery names found in the rows, so a Brewery chip reads as a name, and the filter
+  // words from the page, so a chip drawn before the data loads already reads from the copy.
   function labelMeta() {
     if (!labels && rows) labels = { ...meta, names: { brewery_key: Object.fromEntries(rows.map((r) => [r.brewery_key, r.brewery_name])) } };
-    return labels ?? meta;
+    const base = labels ?? meta;
+    return base?.copy?.filters || !pageCopy ? base : { ...base, copy: { ...base?.copy, filters: pageCopy } };
   }
   // After a change, drop any other selection the new one has left with no results.
   function settle(keep) {
@@ -306,7 +321,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     const opts = optionList(scoped(), def.id, state, meta);
     const cur = state[def.id] ? selectedValue(state, def.id) : '';
     const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(valueLabel(def.id, cur, labelMeta()))} (0)</option>` : '';
-    return `<label>${esc(def.label)}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">All</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${esc(o.label)} (${o.count.toLocaleString('en-US')})</option>`).join('')}</select></label>`;
+    return `<label>${esc(dimensionLabel(def, words()))}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">All</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${esc(o.label)} (${o.count.toLocaleString('en-US')})</option>`).join('')}</select></label>`;
   }
   function renderPanel() {
     if (!dialog) return;
@@ -317,7 +332,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     const partial = partialYearsIn(sc);
     const n = applyFilters(sc, state).length;
     body.innerHTML = `<label class="search">Search<input id="gf-q" type="search" placeholder="Beer, brewery, city, hop" value="${esc(state.q ?? '')}" autocomplete="off"></label>
-<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${g}</legend>${FILTERS.filter((d) => d.group === g && !d.hidden).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> Include partial years (${partial.join(', ')})</label><p class="small muted">Complete official lists are shown by default.</p>` : '<p class="small muted">Complete official lists are shown by default.</p>') : ''}</fieldset>`).join('')}</div>`;
+<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${esc(groupLabel(g, words()))}</legend>${FILTERS.filter((d) => d.group === g && !d.hidden).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> Include partial years (${partial.join(', ')})</label><p class="small muted">Complete official lists are shown by default.</p>` : '<p class="small muted">Complete official lists are shown by default.</p>') : ''}</fieldset>`).join('')}</div>`;
     dialog.querySelector('.filter-panel-count').textContent = `${n.toLocaleString('en-US')} medal${n === 1 ? '' : 's'} match${fixed.length ? ` on this page (${fixed.map((c) => c.text).join(', ')})` : ''}`;
     if (focused) { const f = document.getElementById(focused); if (f) f.focus(); }
   }
