@@ -42,10 +42,13 @@ function serve() {
 
 test.after(async () => { await browser?.close(); });
 
-async function withPage(fn) {
+// The waits below have no timeout of their own; the test's timeout bounds them. When it fires, its signal closes
+// the page, so a pending wait rejects and the server closes instead of keeping the run open.
+async function withPage(signal, fn) {
   if (stale) throw stale;
   const { server, base } = await serve();
   const context = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  signal.addEventListener('abort', () => { context.close().catch(() => {}); }, { once: true });
   try {
     const page = await context.newPage();
     // WEB_TEST_CPU_THROTTLE=6 slows the page's CPU, as on a cold ci runner, to check for timing races.
@@ -61,8 +64,8 @@ async function withPage(fn) {
 // every step that depends on the filter waits on this mark, bounded by the test's own timeout.
 const applied = (page) => page.waitForFunction(() => document.documentElement.dataset.globalFilter === 'ready', null, { timeout: 0 });
 
-test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP, timeout: 60000 }, async () => {
-  await withPage(async (page, base) => {
+test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP, timeout: 60000 }, async (t) => {
+  await withPage(t.signal, async (page, base) => {
     await page.goto(`${base}/breweries/#year=2024`);
     await applied(page);
     await page.goto(`${base}/categories/`);
@@ -71,8 +74,8 @@ test('a filter set on one page is in the URL of the next page, which carries no 
   });
 });
 
-test('a hash change is read from the hash alone, not merged with the stored selection', { skip: SKIP, timeout: 60000 }, async () => {
-  await withPage(async (page, base) => {
+test('a hash change is read from the hash alone, not merged with the stored selection', { skip: SKIP, timeout: 60000 }, async (t) => {
+  await withPage(t.signal, async (page, base) => {
     await page.goto(`${base}/categories/#year=2024`);
     await applied(page);
     await page.evaluate(() => { location.hash = '#medal=Gold'; });
@@ -81,17 +84,20 @@ test('a hash change is read from the hash alone, not merged with the stored sele
   });
 });
 
-test('a moved address forwards to its new address with the hash', { skip: SKIP, timeout: 60000 }, async () => {
-  await withPage(async (page, base) => {
+test('a moved address forwards to its new address with the hash', { skip: SKIP, timeout: 60000 }, async (t) => {
+  await withPage(t.signal, async (page, base) => {
     await page.goto(`${base}/reports/top-breweries/#year=2022`);
-    await page.waitForURL(/\/analysis\/top-breweries\/#year=2022$/, { timeout: 10000 });
+    await page.waitForURL(/\/analysis\/top-breweries\/#year=2022$/, { timeout: 0 });
   });
 });
 
-test('a bare F opens nothing, Alt+Shift+F opens Filters, and no option reads as a raw marker', { skip: SKIP, timeout: 60000 }, async () => {
-  await withPage(async (page, base) => {
+test('a bare F opens nothing, Alt+Shift+F opens Filters, and no option reads as a raw marker', { skip: SKIP, timeout: 60000 }, async (t) => {
+  await withPage(t.signal, async (page, base) => {
     await page.goto(`${base}/breweries/`);
     await applied(page);
+    // The dialog is a Material element registered after the app starts (web/design/runtime.tsx). The filter is ready
+    // before it on a slow machine, and until it is defined the shortcut has no dialog to show.
+    await page.evaluate(() => customElements.whenDefined('md-dialog'));
     const open = () => page.evaluate(() => [...document.querySelectorAll('[data-component="filters-dialog"]')].some((d) => d.open || d.hasAttribute('open')));
     await page.keyboard.press('f');
     assert.equal(await open(), false, 'a bare F opens nothing (WCAG 2.1.4)');
