@@ -68,7 +68,7 @@ The parse prints category, medal, brewery, and award counts followed by problems
 
 The ingest-results workflow runs every two hours from October 11 to 20 and on demand from the Actions tab (inputs: year, optional PDF URL, publish true or false). It skips a year that is already completely loaded, exits quietly when no PDF is found, and otherwise parses, enriches, runs the tests and data validation, rebuilds the site and gabf-dashboard.html, commits data/ to a new branch, opens a pull request, and dispatches the ci workflow on it. With publish true (and on the schedule) it waits for the `build` check, merges the pull request, and dispatches the deploy workflow; with publish false it leaves the pull request for review. Branch protection on main rejects a direct push, and a pull request or merge made with the workflow token does not start other workflows, which is why ci and the deploy are dispatched explicitly.
 
-One-time repository settings, already applied to klappe-pm/GABF-Analysis: Settings, Pages, Source set to GitHub Actions; Settings, Actions, General, "Allow GitHub Actions to create and approve pull requests" turned on so the workflow can open its pull request. The ci workflow runs every gate on each pull request, and the deploy workflow publishes only after ci passes on main; see [deployment.md](deployment.md).
+One-time repository setting, already applied to klappe-pm/GABF-Analysis: Settings, Actions, General, "Allow GitHub Actions to create and approve pull requests" turned on so the workflow can open its pull request. The ci workflow runs every gate on each pull request, and AWS CodeBuild publishes every push to main, including the merge of the ingest pull request; see [deployment.md](deployment.md).
 
 ## backfilling-earlier-years
 

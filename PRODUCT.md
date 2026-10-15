@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Next.js (React) with static export (`output: export`), pre-rendering every page to static HTML for GitHub Pages, styled with Tailwind CSS driven by the design tokens. Mobile first: every page must work fully on a phone. The existing Node data pipeline (ingest, enrichment, research profiles, SQLite database, validation, tests) stays and feeds the site build. Apache ECharts remains the chart engine.
+Next.js (React) with static export (`output: export`), pre-rendering every page to static HTML served from AWS (S3 behind CloudFront), styled with Tailwind CSS driven by the design tokens. Mobile first: every page must work fully on a phone. The existing Node data pipeline (ingest, enrichment, research profiles, SQLite database, validation, tests) stays and feeds the site build. Apache ECharts remains the chart engine.
 
 ## Users
 
@@ -32,11 +32,11 @@ Read on desktop at a desk while planning entries or studying competitors, and on
 
 ## Capabilities and Constraints
 
-- Static site, no backend, deployed to GitHub Pages (see Stack). Saved views and any personalization live in the browser (URL and local storage) only.
+- Static site, no backend, deployed to an S3 bucket behind CloudFront by AWS CodeBuild on every push to main (see Stack and `docs/deployment.md`). Saved views and any personalization live in the browser (URL and local storage) only.
 - Data: official winners lists 2021 to 2026 complete; 2018 and 2019 partial; 2020 pending. 1,907 medal rows, 947 breweries, 177 categories.
 - One global filter applies to every view; every page with data is filterable by every dimension.
 - Independent and unofficial: no GABF or Brewers Association marks, logos, or branding, and nothing that implies endorsement.
-- Publishing at gabf.beer is approved (issue #143, 2026-10-15) and goes live once the apex DNS records pass `npm run pages:dns` and the custom domain is switched, as `docs/deployment.md` describes. Domains owned (all registered at Porkbun), with the agreed plan: gabf.beer is the primary address for this site; gabfawards.beer forwards to gabf.beer; medals.beer is reserved for medal record features (a brewery's or beer's medal history) or forwards to the primary; awards.beer is held for a future multi competition site (a registry of 228 US competitions exists in `data/reference/us-beer-competitions.csv`, without results).
+- Publishing at gabf.beer is approved (issue #143, 2026-10-15), hosted on AWS with DNS in Route 53 in place of GitHub Pages; `npm run site:dns` checks that gabf.beer and www reach the CloudFront distribution, as `docs/deployment.md` describes. Domains owned (all registered at Porkbun), with the agreed plan: gabf.beer is the primary address for this site; gabfawards.beer forwards to gabf.beer; medals.beer is reserved for medal record features (a brewery's or beer's medal history) or forwards to the primary; awards.beer is held for a future multi competition site (a registry of 228 US competitions exists in `data/reference/us-beer-competitions.csv`, without results).
 
 ## Brand Commitments
 
