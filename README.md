@@ -26,10 +26,10 @@ An open, reproducible dataset and static dashboard site for the Great American B
 Use Node 22 or newer, which is what CI runs: the test suite and the SQLite script (`build-winner-db.mjs`) uses the built in `node:sqlite` module.
 
 ```bash
-git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci && npm run build && npm run serve
+git clone https://github.com/klappe-pm/GABF-Analysis.git && cd GABF-Analysis && npm ci && npm run web:install && npm run web:build && npm run web:serve
 ```
 
-Then open http://localhost:8080/ for the overview dashboard and http://localhost:8080/dashboards/ for the others. To skip the server entirely, generate the single file dashboard and open it from the repository root:
+Then open http://127.0.0.1:4174/ for the home page and http://127.0.0.1:4174/dashboards/ for the dashboards. To skip the server entirely, generate the single file dashboard and open it from the repository root:
 
 ```bash
 cd GABF-Analysis && npm run generate && open gabf-dashboard.html
@@ -38,7 +38,7 @@ cd GABF-Analysis && npm run generate && open gabf-dashboard.html
 Before opening a pull request, run the full gate from the repository root:
 
 ```bash
-cd GABF-Analysis && npm run verify
+cd GABF-Analysis && npm run web:build && npm run verify
 ```
 
 ## How the data pipeline works
@@ -48,7 +48,7 @@ cd GABF-Analysis && npm run verify
 3. **Research profiles.** Each 2026 medal has a markdown profile under `docs/2026/winner/`. `node scripts/build-winner-db.mjs 2026` builds `data/enriched/winners-2026.sqlite` (beers, breweries, categories, ingredients, sources, full text search, and rate views), and `node scripts/build-explorer.mjs` fills the explorer prototype from that database into `gabf-explorer.html`. Both are build outputs, not files in git; `npm run explorer` runs the pair.
 4. **Fed districts and controls.** `scripts/build-fed-districts.mjs` assigns every medal to a Federal Reserve district from Census county files, and `scripts/fetch-state-indicators.mjs` adds Census population, BEA GDP, ACS demographics, urban share, PIAAC literacy, and NCHS life expectancy so medal counts can be read per capita and per unit of output.
 5. **Validate.** `npm run validate` checks every medal row (known state and medal, no duplicates, consistent entry counts), compares each year with `data/results/year-summary.csv`, and compares matched breweries' Open Brewery DB states with the printed state.
-6. **Publish.** `npm run build` renders `dist/` (dashboards, brewery and category pages, reports, JSON and CSV exports) and `npm run build:standalone` writes `gabf-dashboard.html`. The ci workflow runs every gate on each pull request as the required `build` check; every push to main is then built and published by AWS CodeBuild (`buildspec.yml`) to an S3 bucket behind CloudFront at gabf.beer, with the Material 3 app in `web/` at the root and the older pages kept at their URLs until they are ported. The AWS resources, caching, the URL map, and DNS in Route 53 are in [docs/deployment.md](docs/deployment.md).
+6. **Publish.** `npm run web:build` renders the Material 3 app in `web/` into `web/out` (dashboards, brewery, category, beer and hop pages, analysis, JSON and CSV exports) and `npm run build:standalone` writes `gabf-dashboard.html`. The ci workflow runs every gate on each pull request as the required `build` check; every push to main is then built and published by AWS CodeBuild (`buildspec.yml`) to an S3 bucket behind CloudFront at gabf.beer. The AWS resources, caching, the URL map, and DNS in Route 53 are in [docs/deployment.md](docs/deployment.md).
 
 The ingest-results workflow runs every two hours from October 11 to October 20 and on demand, so a new year's list lands without a manual step. The full procedure is in [docs/runbook-new-year.md](docs/runbook-new-year.md) and the design is in [docs/architecture.md](docs/architecture.md).
 
@@ -64,13 +64,12 @@ All commands run from the repository root.
 | `npm run enrich` | Open Brewery DB lookups into data/enriched/breweries.json |
 | `npm run styles -- --input guidelines.pdf --year 2026` | refresh category ABV, IBU, and SRM ranges from the style guidelines |
 | `npm run validate` | structural data checks; add `-- --live` to re-query Open Brewery DB |
-| `npm run build` | render dist/ |
 | `npm run build:standalone` | write gabf-dashboard.html |
 | `npm run generate` | write the single file pages: gabf-dashboard.html and the chart gallery |
-| `npm run serve` | preview dist/ at http://localhost:8080/ |
-| `npm run verify` | prose and brand checks, single file builds, tests, validation, site build, design checks |
+| `npm run verify` | prose and brand checks, single file builds, tests, validation, design checks |
 | `npm run web:build` | build the Material 3 app in web/ into web/out |
-| `npm run site:assemble` | assemble the deploy artifact in `_site/` from dist/, web/out, and the single file dashboard |
+| `npm run web:serve` | preview web/out at http://127.0.0.1:4174/ |
+| `npm run site:assemble` | assemble the deploy artifact in `_site/` from web/out and the single file dashboard |
 | `npm run site:serve` | serve `_site/` with the same path rules as CloudFront at http://localhost:8090/ |
 | `npm run site:dns` | check that gabf.beer and www reach the CloudFront distribution through Route 53 |
 | `node scripts/new-year.mjs --year 2027` | fetch, parse, enrich, test, and rebuild for a new year |
@@ -89,9 +88,9 @@ All commands run from the repository root.
 | `docs/2026/winner/` | 336 researched beer profiles, one per 2026 medal |
 | `docs/` | architecture, data sources, data dictionary, estimation method, research playbook, runbook |
 | `scripts/` | the pipeline: fetch, parse, import, enrich, validate, build, and helpers in `scripts/lib/` |
-| `site/` | stylesheet, ECharts option builders, dashboard client, US states GeoJSON, and the standalone template |
+| `site/` | the single file dashboard's stylesheet, ECharts option builders, dashboard client, US states GeoJSON, and template, plus the filter and rate modules the web app shares |
 | `tests/` | node test runner suites with fixtures |
-| `web/` | the Material 3 app (Next.js static export) that becomes the whole site |
+| `web/` | the Material 3 app (Next.js static export), the whole public site |
 | `.github/workflows/` | ci (the required `build` check) and ingest-results (scheduled ingest); publishing runs in AWS CodeBuild from `buildspec.yml` |
 
 ## Data sources and honesty notes

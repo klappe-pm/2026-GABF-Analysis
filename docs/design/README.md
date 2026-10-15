@@ -8,7 +8,7 @@ The design control plane and the review loop for GABF Analysis. Every screen is 
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run review
 ```
 
-That builds the review version of the site into `dist-review/` and starts one server on `http://127.0.0.1:4173/`, bound to this machine only. Open `http://127.0.0.1:4173/` for the control plane (jobs, journeys, and all 51 screens), for example `#S-01`. The site on its own is at `http://127.0.0.1:4173/site/`, with no feedback entry point: feedback is logged from the journey view.
+That builds the review version of the web app (`WEB_REVIEW=1`, into `web/out-web-review/`) and the control plane, then starts one server on `http://127.0.0.1:4173/`, bound to this machine only, with the feedback pipeline on. Open `http://127.0.0.1:4173/control-plane/` for the control plane (jobs, journeys, and all 51 screens, each framing a page of the review build), for example `#S-01`. The review build on its own is at `http://127.0.0.1:4173/`, with the Feedback entry point on every page. `npm run web:review` serves the same on `http://127.0.0.1:4176/` with the pipeline off.
 
 ## the-feedback-panel
 
@@ -103,7 +103,7 @@ An answer becomes an ACCEPTED ticket of kind `decision` in `docs/feedback/decisi
 
 ## never-public
 
-The page picker, the step marker, the pins and their source attributes exist only in the review build (`GABF_FEEDBACK=1`, written to `dist-review/`). The build refuses that flag in continuous integration, `tests/review-build.test.mjs` builds the public site and fails if any part of it appears there, and the picker will not start on any host but this machine or outside the control plane's frame.
+The feedback widget, the step marker, the pins and the copy key marks exist only in the web review build (`WEB_REVIEW=1`, written to `web/out-web-review/`). `tests/web-review-build.test.mjs` builds the public export and the review build and fails if any part of the widget appears in the public one, and the widget draws nothing on any host but this machine.
 
 ## the-files
 

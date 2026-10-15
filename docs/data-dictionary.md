@@ -7,7 +7,7 @@ topics:
 types:
   - reference
 date-created: 2026-10-11
-date-revised: 2026-10-14
+date-revised: 2026-10-15
 status: ACCEPTED
 aliases: []
 tags: []
@@ -123,4 +123,4 @@ Keyed by brewery_key: name, best (the headquarters record: address_1, city, stat
 
 ## site-data-exports
 
-dist/data/results.json (decorated rows), meta.json (years, coverage, summary, states, bands, brewery types, ownership map, distribution map, categories), breweries.json (including trend, estimate, and financials per brewery), categories.json, and dist/data/csv/ copies of every source CSV.
+Published under /data/ by the web app's export (web/out/data/): results.json (decorated rows), meta.json (years, coverage, summary, states, bands, brewery types, ownership map, distribution map, categories), breweries.json (including trend, estimate, and financials per brewery), categories.json, and data/csv/ copies of every source CSV.
