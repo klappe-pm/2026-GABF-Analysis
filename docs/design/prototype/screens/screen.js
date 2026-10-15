@@ -19,22 +19,27 @@
   }
   function visible(el) { var r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0; }
   var DRIVES = {
+    // The Filters button is the control just before the Filters dialog in the page header.
     'filters-open': function (doc) {
-      return waitFor(function () { return doc.querySelector('.filter-trigger'); }, 8000).then(function (b) {
+      // The dialog is a Material element: it can open only once the page has defined it.
+      return waitFor(function () { var d = doc.querySelector('md-dialog[data-component="filters-dialog"]'); return d && typeof d.show === 'function' && d.previousElementSibling; }, 8000).then(function (b) {
         if (!b) { say('This state opens the Filters panel, and this page has no Filters button.'); return; }
         b.click();
-        return waitFor(function () { return doc.querySelector('dialog.filter-panel[open]'); }, 4000);
+        return waitFor(function () { return doc.querySelector('md-dialog[data-component="filters-dialog"][open]'); }, 4000);
       });
     },
+    // An (E) mark opens its note as a native popover.
     'estimate-open': function (doc) {
-      return waitFor(function () { return Array.prototype.find.call(doc.querySelectorAll('.est-mark'), visible); }, 15000).then(function (b) {
+      return waitFor(function () { return Array.prototype.find.call(doc.querySelectorAll('[data-component="estimate-tooltip"]'), visible); }, 15000).then(function (b) {
         if (!b) { say('This state opens an estimate note, and this page shows no (E) mark in this build.'); return; }
         b.scrollIntoView({ block: 'center' });
         b.click();
-        return waitFor(function () { var p = doc.getElementById('est-popover'); return p && !p.hidden && p.textContent.indexOf('Loading') === -1 ? p : null; }, 6000);
+        return waitFor(function () { var p = doc.querySelector('[popover][role="note"]:popover-open'); return p; }, 6000);
       });
     },
   };
+  // A screen the web app has no page state for says so and has no live frame.
+  if (!frame) { body.dataset.ready = 'true'; tell('ready', { screen: body.dataset.screen }); return; }
   frame.addEventListener('load', function () {
     var drive = DRIVES[body.dataset.drive];
     var doc = null;
