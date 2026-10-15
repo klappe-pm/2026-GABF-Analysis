@@ -6,14 +6,15 @@
 // change. Every chart on the site renders through it: the preset charts of the design system (ChartCard), the
 // dashboards (OptionChart), and the analysis reports (analysis/parts/charts.tsx). The card style comes from the
 // chart-card spec.
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import * as echarts from 'echarts/core';
 import { BarChart, CustomChart, HeatmapChart, LineChart, MapChart, ScatterChart, TreemapChart } from 'echarts/charts';
 import { AriaComponent, GridComponent, LegendComponent, TooltipComponent, VisualMapComponent } from 'echarts/components';
 import { CanvasRenderer, SVGRenderer } from 'echarts/renderers';
 import { readKit, type Kit } from '@/design/chart-kit';
 import { cardSurface, labelFace } from '@/design/helpers';
-import { SETTINGS_EVENT, useSettings } from '@/design/runtime';
+import type { ChartLook } from '@/design/chart-presets';
+import { SETTINGS_EVENT, useReducedMotion, useSettings } from '@/design/runtime';
 import { Button } from './Button';
 import { type Column, DataTable, type Row } from './DataTable';
 
@@ -73,6 +74,20 @@ function Swatch({ color, shape = 'square' }: { color: string; shape?: LegendItem
       <path d={SHAPES[shape ?? 'square']} fill={color} />
     </svg>
   );
+}
+
+// The marks a preset chart draws with, from the chart-card spec: line width, point size, bar width, fill patterns, and
+// whether the reader asked for reduced motion.
+export function useChartLook(): ChartLook {
+  const s = useSettings('chart-card');
+  const reduceMotion = useReducedMotion();
+  return useMemo(() => ({
+    lineWidth: Number(s['Line width'] ?? 2),
+    pointSize: Number(s['Point size'] ?? 8),
+    barWidth: Number(s['Bar width'] ?? 24),
+    patterns: s['Series patterns'] !== 'no',
+    reduceMotion,
+  }), [s, reduceMotion]);
 }
 
 type Drawn = { option: ChartOption; height: number; kit: Kit; legend: LegendItem[] };

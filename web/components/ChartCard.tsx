@@ -1,20 +1,16 @@
 'use client';
 
-import { useEffect, useMemo, useRef } from 'react';
+import { useCallback, useMemo } from 'react';
 import type { EChartsOption } from 'echarts';
-import * as echarts from 'echarts/core';
-import { BarChart, LineChart, ScatterChart, TreemapChart } from 'echarts/charts';
-import { AriaComponent, GridComponent, LegendComponent, TooltipComponent } from 'echarts/components';
-import { SVGRenderer } from 'echarts/renderers';
-import { medalVar, readTheme, seriesVar } from '@/design/echarts-theme';
+import { medalVar, seriesVar } from '@/design/echarts-theme';
+import type { Kit } from '@/design/chart-kit';
 import {
-  buildChartOption, type ChartLook, type ChartPreset, type ChartSeries, CATEGORY_ROW_PRESETS, legendNames, medalOf, type SortOrder, tableFor,
+  buildChartOption, type ChartPreset, type ChartSeries, CATEGORY_ROW_PRESETS, legendNames, medalOf, type SortOrder, tableFor,
 } from '@/design/chart-presets';
-import { SETTINGS_EVENT, useDesign, useReducedMotion, useSettings } from '@/design/runtime';
-import { cardSurface, labelFace } from '@/design/helpers';
-import { type Column, DataTable, type Row } from './DataTable';
-
-echarts.use([LineChart, BarChart, ScatterChart, TreemapChart, AriaComponent, GridComponent, LegendComponent, TooltipComponent, SVGRenderer]);
+import { useDesign } from '@/design/runtime';
+import { labelFace } from '@/design/helpers';
+import { ChartShell, type ChartOption, useChartLook } from './ChartShell';
+import type { Column, Row } from './DataTable';
 
 export type { ChartPreset, ChartSeries, SortOrder };
 
@@ -112,18 +108,8 @@ function Swatch({ index, slot, name, form, patterns }: { index: number; slot: nu
 // StatCard.tsx, which is a CSS grid of stat cards.
 export function ChartCard(props: Props) {
   const { id, title, note, ariaLabel, description, tableSummary, counts, height } = props;
-  const s = useSettings('chart-card');
   const { global } = useDesign();
-  const reduceMotion = useReducedMotion();
-  const card = cardSurface(s['Card style']);
-  const look: ChartLook = useMemo(() => ({
-    lineWidth: Number(s['Line width'] ?? 2),
-    pointSize: Number(s['Point size'] ?? 8),
-    barWidth: Number(s['Bar width'] ?? 24),
-    patterns: s['Series patterns'] !== 'no',
-    reduceMotion,
-  }), [s, reduceMotion]);
-  const ref = useRef<HTMLDivElement>(null);
+  const look = useChartLook();
 
   const preset = props.series ? (props.preset ?? 'line') : undefined;
   const input = useMemo(
@@ -145,55 +131,31 @@ export function ChartCard(props: Props) {
   const sideways = preset ? CATEGORY_ROW_PRESETS.includes(preset) && preset !== 'treemap' : false;
   const plotHeight = height ?? (sideways ? Math.max(240, (props.categories?.length ?? 0) * 32 + 48) : 320);
 
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const chart = echarts.init(el, undefined, { renderer: 'svg' });
-    const draw = () => chart.setOption(buildChartOption(input, readTheme(el), look) as EChartsOption, true);
-    draw();
-    // The card's own width, not the window's: a panel opening or a column narrowing resizes it too.
-    const observer = new ResizeObserver(() => chart.resize());
-    observer.observe(el);
-    window.addEventListener(SETTINGS_EVENT, draw);
-    return () => {
-      observer.disconnect();
-      window.removeEventListener(SETTINGS_EVENT, draw);
-      chart.dispose();
-    };
-  }, [input, look, global]);
+  // The preset option is built from the theme the card reads when it draws; the plot keeps the height above.
+  const build = useCallback((kit: Kit) => ({ option: buildChartOption(input, kit.theme, look) as ChartOption }), [input, look, global]);
 
   return (
-    <figure className={`flex flex-col overflow-hidden ${card.className}`} style={card.style} aria-labelledby={`${id}-title`} data-component="chart-card" data-preset={preset ?? 'option'}>
-      {card.elevated ? <md-elevation /> : null}
-      <figcaption className="flex flex-col gap-2 px-4 pt-4 pb-2">
-        <span id={`${id}-title`} className="type-title-medium text-on-surface">{title}</span>
-        {note ? <span className="type-body-medium text-on-surface-variant">{note}</span> : null}
-        {showLegend ? (
-          <ul className="flex flex-wrap gap-x-4 gap-y-1" aria-hidden="true">
-            {names.map((name, i) => (
-              <li key={name} className="type-label-large inline-flex items-center gap-2 text-on-surface" style={labelFace(name)}>
-                <Swatch index={i} slot={names.filter((n) => !medalOf({ name: n })).indexOf(name)} name={name} form={form} patterns={look.patterns} />
-                {name}
-              </li>
-            ))}
-          </ul>
-        ) : null}
-      </figcaption>
-      {description ? <p id={`${id}-description`} className="sr-only">{description}</p> : null}
-      <div
-        ref={ref}
-        role="img"
-        aria-label={ariaLabel}
-        aria-describedby={description ? `${id}-description` : undefined}
-        className="w-full px-2"
-        style={{ height: plotHeight }}
-      />
-      <details className="border-t border-outline-variant">
-        <summary className="type-label-large cursor-pointer px-4 py-3 text-primary state-hover:bg-surface-container-low">{tableSummary}</summary>
-        <div className="px-4 pb-4">
-          <DataTable caption={title} columns={table.columns} rows={table.rows} />
-        </div>
-      </details>
-    </figure>
+    <ChartShell
+      id={id}
+      title={title}
+      subtitle={note}
+      ariaLabel={ariaLabel}
+      description={description}
+      preset={preset ?? 'option'}
+      height={plotHeight}
+      build={build}
+      legend={showLegend ? (
+        <ul className="flex flex-wrap gap-x-4 gap-y-1" aria-hidden="true">
+          {names.map((name, i) => (
+            <li key={name} className="type-label-large inline-flex items-center gap-2 text-on-surface" style={labelFace(name)}>
+              <Swatch index={i} slot={names.filter((n) => !medalOf({ name: n })).indexOf(name)} name={name} form={form} patterns={look.patterns} />
+              {name}
+            </li>
+          ))}
+        </ul>
+      ) : undefined}
+      tableSummary={tableSummary}
+      table={{ caption: title, columns: table.columns, rows: table.rows, scroll: true }}
+    />
   );
 }
