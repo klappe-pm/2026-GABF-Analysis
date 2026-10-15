@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { loadDataset } from '../scripts/lib/data-model.mjs';
-import { breweryInfo, enrichResults, explainEstimate, profileCard } from '../scripts/build-site.mjs';
+import { breweryInfo, enrichResults, explainEstimate, profileCard } from '../scripts/lib/site-payload.mjs';
 import { breweryDetailHtml } from '../scripts/build-standalone.mjs';
 import { valueLabel } from '../site/assets/filter-bar.mjs';
 

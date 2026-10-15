@@ -1,5 +1,5 @@
-// The site's data at build time, from the same pipeline the static site uses: scripts/lib/data-model.mjs
-// loads the dataset, and scripts/build-site.mjs decorates the medal rows and builds the shared payload.
+// The site's data at build time, from the same pipeline the single file dashboard uses: scripts/lib/data-model.mjs
+// loads the dataset, and scripts/lib/site-payload.mjs decorates the medal rows and builds the shared payload.
 // Nothing here forks that code; it only slices the result into the plain records each page needs.
 //
 // Next loads this module with Node's own import (see site-data.ts), so the pipeline runs exactly as it
@@ -7,7 +7,7 @@
 
 import { resolve } from 'node:path';
 import { categoryIndex, loadDataset, stripStyle } from '../../scripts/lib/data-model.mjs';
-import { buildPayload, enrichResults, renderMarkdownBody } from '../../scripts/build-site.mjs';
+import { buildPayload, enrichResults, renderMarkdownBody } from '../../scripts/lib/site-payload.mjs';
 import { humanizeHeadings } from '../../site/assets/charts.mjs';
 import { scopeRows } from '../../site/assets/filter-bar.mjs';
 import { traitsOf } from './models/analysis.mjs';

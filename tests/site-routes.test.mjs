@@ -1,12 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
-import { relative, resolve } from 'node:path';
+import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 
-// Routing parity: every address the static site publishes has a route in the Material app (web/app), a
-// documented redirect, or a place in PENDING while its lane ports it. The addresses come from the route
-// table in docs/site-port-plan.md and, when a static build is present, from every page and data file in dist/.
+// Routing parity: every address the retired static site published has a route in the Material app (web/app),
+// a documented redirect, or a place in PENDING while its lane ports it. The addresses come from the route
+// table in docs/site-port-plan.md.
 // When a lane lands a route, its PENDING line must go: the test fails while a pending address is routed.
 
 const PENDING = [
@@ -57,24 +57,6 @@ function planPaths() {
   return out;
 }
 
-// Every page and data file of the static build, when one is present.
-function distPaths() {
-  const dist = resolve(ROOT, 'dist');
-  if (!existsSync(dist)) return [];
-  const out = [];
-  const walk = (dir) => {
-    for (const n of readdirSync(dir)) {
-      const full = resolve(dir, n);
-      const rel = relative(dist, full).split('\\').join('/');
-      if (statSync(full).isDirectory()) { if (rel !== 'assets') walk(full); continue; }
-      if (n === 'index.html') out.push(`/${rel.slice(0, -'index.html'.length)}`);
-      else if (rel.startsWith('data/')) out.push(`/${rel}`);
-    }
-  };
-  walk(dist);
-  return out;
-}
-
 test('the plan lists the addresses of every section of the static site', () => {
   const paths = planPaths();
   assert.ok(paths.length >= 25, `${paths.length} addresses in the plan`);
@@ -82,7 +64,7 @@ test('the plan lists the addresses of every section of the static site', () => {
 });
 
 test('every current address has a route, a redirect, or a pending lane', () => {
-  const missing = [...new Set([...planPaths(), ...distPaths()])].filter((p) => !routed(p) && !redirected(p) && !pending(p));
+  const missing = [...new Set(planPaths())].filter((p) => !routed(p) && !redirected(p) && !pending(p));
   assert.deepEqual(missing, [], 'addresses with no route in web/app and no pending lane');
 });
 

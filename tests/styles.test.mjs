@@ -55,8 +55,7 @@ test('the site ships no dark theme toggle, dark rule, theme attribute or theme s
   };
   walk(join(root, 'site', 'assets'), () => true);
   walk(join(root, 'site', 'standalone'), () => true);
-  walk(join(root, 'dist'), (f) => /\.(html|css|js|mjs)$/.test(f));
-  for (const f of ['scripts/build-site.mjs', 'scripts/build-standalone.mjs', 'gabf-dashboard.html']) files.push(join(root, f));
+  for (const f of ['scripts/build-standalone.mjs', 'scripts/lib/site-payload.mjs', 'gabf-dashboard.html']) files.push(join(root, f));
   assert.ok(files.length > 5);
   for (const file of files.filter((f) => existsSync(f))) {
     const text = readFileSync(file, 'utf8');

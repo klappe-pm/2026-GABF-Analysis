@@ -82,7 +82,6 @@ jobs:
           node scripts/enrich-breweries.mjs
           npm test
           npm run validate
-          npm run build
           npm run build:standalone
       - name: commit
         if: steps.fetch.outcome == 'success'

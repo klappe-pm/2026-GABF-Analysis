@@ -16,7 +16,7 @@ import { ROOT, SITE, parseArgs } from './lib/paths.mjs';
 import { inlineBrandCss } from './brand/build.mjs';
 import { categoryIndex, loadDataset } from './lib/data-model.mjs';
 import { buildGeo } from './build-geo.mjs';
-import { aboutHtml, buildPayload, profileCard, renderMarkdownBody } from './build-site.mjs';
+import { aboutHtml, buildPayload, profileCard, renderMarkdownBody } from './lib/site-payload.mjs';
 import { esc, humanizeHeadings, tableHtml } from '../site/assets/charts.mjs';
 import { noteFor } from '../site/assets/page-views.mjs';
 

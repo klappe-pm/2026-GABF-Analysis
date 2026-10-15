@@ -4,9 +4,8 @@ version: 0.2
 # repository through its CodeConnections link and runs as the role gabf-site-deploy-codebuild, which can
 # only sync the site bucket and invalidate the site distribution. No AWS key lives in GitHub.
 #
-# The artifact is the same one the old GitHub Pages deploy published (scripts/assemble-site.mjs): the
-# web/ static export at the root, laid over the old static site, plus the single file dashboard. The
-# site serves at the domain root, so the web/ base path is empty.
+# The artifact (scripts/assemble-site.mjs) is the web/ static export at the root plus the single file
+# dashboard. The site serves at the domain root, so the web/ base path is empty.
 
 env:
   variables:
@@ -26,7 +25,6 @@ phases:
 
   build:
     commands:
-      - npm run build
       - npm run build:standalone
       - npm run web:build
       # Fails when the artifact has no index.html or 404.html.
