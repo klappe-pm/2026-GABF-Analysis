@@ -22,7 +22,7 @@
     "render-visuals": "node scripts/render-visuals.mjs",
     "serve": "node scripts/serve-dist.mjs",
     "pretest": "npm run generate",
-    "test": "node --test",
+    "test": "node scripts/run-tests.mjs",
     "check": "node scripts/check-prose.mjs",
     "validate": "node scripts/validate-data.mjs",
     "hops:check": "node scripts/validate-hops.mjs",
