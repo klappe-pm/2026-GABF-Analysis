@@ -4,7 +4,7 @@ import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, sta
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
-import { parseTicket } from '../scripts/lib/review-store.mjs';
+import { parseTicket } from '../scripts/lib/ticket-format.mjs';
 import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 
 // The edits run on a copy of .design/design-system, set before the design modules load: node --test runs test files
@@ -141,7 +141,7 @@ test('a ticket that would carry a token shaped value is refused and nothing is w
     await assert.rejects(applyDesignEdit({ target: 'settings', key: 'Corner shape', value: 'square', feedbackDir: dir, sanitize }), /shaped like a secret/);
     assert.equal(readFileSync(SETTINGS, 'utf8'), before);
     assert.equal(existsSync(resolve(dir, 'design-system')), false);
-    assert.equal(tokenShaped('token ghp_0123456789abcdefghijABCDEFGHIJ').redacted.length > 0, true);
+    assert.equal(tokenShaped(`token ${['ghp', '0123456789abcdefghijABCDEFGHIJ'].join('_')}`).redacted.length > 0, true);
     assert.equal(tokenShaped('#2D6A4F').redacted.length, 0);
   } finally {
     writeFileSync(SETTINGS, before);

@@ -11,9 +11,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
 import { ROOT } from '../lib/paths.mjs';
-import { componentWords } from '../lib/review-components.mjs';
-import { kebab, loadManifest, pageNameOf } from '../lib/review-screens.mjs';
-import { ACCEPTED, nextId, renderTicket, sanitizeDeep } from '../lib/review-store.mjs';
+import { ACCEPTED, componentWords, kebab, loadManifest, nextId, pageNameOf, renderTicket, sanitizeDeep } from '../lib/ticket-format.mjs';
 import { COMPONENTS_DIR, SETTINGS, design, rel, splitFrontmatter } from './lib.mjs';
 
 export const TICKET_PAGE = 'design-system';

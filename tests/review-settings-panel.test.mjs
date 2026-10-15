@@ -8,7 +8,7 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { buildSync } from 'esbuild';
 import { applyDesignEdit, checkDesignEdit, editPage, pageForRoute } from '../scripts/design-system/edit.mjs';
-import { parseTicket } from '../scripts/lib/review-store.mjs';
+import { parseTicket } from '../scripts/lib/ticket-format.mjs';
 import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 import { COMPONENTS_DIR, SETTINGS, WEB, design, splitFrontmatter } from '../scripts/design-system/lib.mjs';
 

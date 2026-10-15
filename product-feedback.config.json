@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "name": "GABF Analysis",
+  "repo": "klappe-pm/GABF-Analysis",
+  "owner": "klappe-pm",
+  "paths": {
+    "design": "docs/design",
+    "feedback": "docs/feedback",
+    "localFeedback": ".docs/feedback",
+    "queue": ".docs/feedback/.queue",
+    "work": ".docs/feedback/.work",
+    "cms": ".docs/content-management-system",
+    "designSystem": ".design/design-system",
+    "sourceMap": "site/review/source-map.json"
+  },
+  "tokens": {
+    "css": "site/assets/styles.css",
+    "prepend": ["site/assets/brand.css"],
+    "shellAliases": {
+      "bg-primary": "var(--page)",
+      "bg-surface": "var(--card)",
+      "bg-surface-hover": "var(--fill)",
+      "bg-inset": "var(--fill)",
+      "border-default": "var(--control-border)",
+      "border-muted": "var(--border)",
+      "accent-blue": "var(--link)",
+      "accent-green": "var(--good)",
+      "accent-amber": "var(--warn)",
+      "accent-red": "var(--series-8)",
+      "accent-purple": "var(--series-7)",
+      "accent-teal": "var(--series-3)",
+      "focus-ring": "2px solid var(--focus)",
+      "font-sans": "\"Public Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "font-mono": "\"Public Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "border-width": "1px",
+      "radius-md": "6px",
+      "radius-sm": "3px"
+    }
+  },
+  "controlPlane": {
+    "title": "GABF Analysis design review",
+    "lede": "Every screen is the built site, driven into one state through its own route, URL hash, or the way the review server serves its data. Organised by the jobs in PRODUCT.md. Choose a job to walk its screens. Explain says why a screen exists and what it is made of. Feedback opens a panel beside the page: click the page to pin spots, and the note is recorded against the job, step and state you are on.",
+    "storageResetKeys": ["gabf-filters"],
+    "drives": "docs/design/screen-drives.js"
+  },
+  "protocol": {
+    "shell": "gabf-control-plane",
+    "screen": "agent-graph-screen",
+    "panelGlobal": "gabfFeedback"
+  },
+  "content": {
+    "copyFolders": ["pages", "global"],
+    "sourceRoots": ["site", "scripts", "web"],
+    "skipDirs": ["node_modules", ".next", "out", "dist", "dist-review", "dist-hosted", "review"],
+    "skipFiles": ["scripts/review-", "scripts/lib/review-", "scripts/lib/copy-rules", "scripts/lib/content-md", "web/scripts/review-", "site/standalone/"],
+    "compounds": ["gluten-free", "barrel-aged", "us-atlas"]
+  },
+  "tickets": {
+    "dropDevices": ["phone"]
+  },
+  "pipeline": {
+    "verify": ["npm", "run", "verify"],
+    "base": "origin/main",
+    "branchPrefix": "feedback/",
+    "rules": [
+      "No dash is used as punctuation anywhere, including code comments. Use commas, colons, periods or parentheses, and write ranges as \"3 to 5\".",
+      "Nothing credits an AI model, assistant or tool, in any file, comment or message.",
+      "Visible copy is plain words, one line per paragraph in Markdown, with no data slugs shown as words."
+    ]
+  },
+  "review": {
+    "port": 4173,
+    "hooks": "scripts/review-hooks.mjs",
+    "dataPrefix": "/data/",
+    "pipeline": false
+  }
+}

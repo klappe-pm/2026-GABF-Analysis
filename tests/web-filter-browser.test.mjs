@@ -9,7 +9,7 @@ import { createServer } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
-import { chromiumPath, loadPlaywright } from '../scripts/lib/feedback-capture.mjs';
+import { chromiumPath, loadPlaywright } from '../scripts/lib/playwright.mjs';
 import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 
 const OUT = resolve(ROOT, 'web/out');

@@ -32,7 +32,7 @@ It runs, in order:
 2. `npm run brand:check`: the committed brand outputs match the design settings.
 3. `npm test`: runs `npm run generate` (the single file pages) and then the node test runner suites in `tests/`.
 4. `npm run validate` and `npm run hops:check`: structural checks on every medal row, the year totals, and the hop tables.
-5. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs a local agent-graph checkout, so CI runs only the design system check.
+5. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs the product-feedback tool installed on the machine (see [docs/design/README.md](docs/design/README.md#the-tooling)), so CI runs only the design system check.
 
 The single file pages (`gabf-dashboard.html` and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. The tests that read the web/ app's export (web/out) fail while it is older than its sources, so run `npm run web:build` before `npm run verify`. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
 
