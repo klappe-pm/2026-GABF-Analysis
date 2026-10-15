@@ -103,11 +103,11 @@ test('the filter labels come from the copy documents, so an edit reaches both si
   const copy = loadSiteCopy();
   // Every dimension and group the filter draws has a copy entry (the build stops on a missing one).
   for (const [section, keys] of Object.entries(FILTER_COPY_KEYS)) for (const k of keys) assert.ok(copy.has(`global.filters.${section}.${k}`), `global.filters.${section}.${k}`);
-  const words = { dimensions: { hop_farm_named: 'Farm the Brewery Named' }, groups: { what: 'Beer' } };
-  const def = FILTERS.find((d) => d.id === 'hop_farm_named');
+  const words = { dimensions: { hop_farm: 'Farm the Brewery Named' }, groups: { what: 'Beer' } };
+  const def = FILTERS.find((d) => d.id === 'hop_farm');
   assert.equal(dimensionLabel(def, words), 'Farm the Brewery Named');
   assert.equal(groupLabel('What', words), 'Beer');
-  assert.deepEqual(activeChips({ hop_farm_named: 'Yakima Chief' }, { copy: { filters: words } }).map((c) => c.text), ['Farm the Brewery Named: Yakima Chief']);
+  assert.deepEqual(activeChips({ hop_farm: 'Yakima Chief' }, { copy: { filters: words } }).map((c) => c.text), ['Farm the Brewery Named: Yakima Chief']);
   // With no copy shipped, the labels in the code stand in.
   assert.equal(dimensionLabel(def), def.label);
   assert.equal(groupLabel('What'), 'What');

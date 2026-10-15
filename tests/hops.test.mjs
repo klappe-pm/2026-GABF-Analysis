@@ -4,7 +4,7 @@ import { buildHopModel, growerRecords, hopEntries, normRecord, sourceOf, detailF
 import { createHopPages } from '../scripts/lib/hop-pages.mjs';
 import { loadSiteCopy } from '../scripts/lib/site-copy.mjs';
 import { matchKey } from '../scripts/lib/winner-profiles.mjs';
-import { applyFilters, FILTERS, optionList } from '../site/assets/filter-bar.mjs';
+import { applyFilters, FILTERS, optionList, parseHash, pickState, resolveState, STATE_KEYS } from '../site/assets/filter-bar.mjs';
 import { hopSlug } from '../site/assets/hop-links.mjs';
 import { medalTable } from '../site/assets/page-views.mjs';
 import { beerCardHtml, beerCardsHtml } from '../site/assets/profile-cards.mjs';
@@ -130,15 +130,32 @@ test('the hop filters narrow the medal rows and offer only options that match', 
   model(r);
   assert.deepEqual(applyFilters(r, { hop_variety: 'Citra' }).map((x) => x.beer_name), ['Beer A', 'Beer C']);
   assert.deepEqual(applyFilters(r, { hop_variety: 'Mosaic', medal: 'Silver' }).map((x) => x.beer_name), ['Beer B']);
-  assert.deepEqual(applyFilters(r, { hop_farm_named: 'Beta Farm' }).map((x) => x.beer_name), ['Beer A']);
-  assert.deepEqual(applyFilters(r, { hop_farm_grown: 'Beta Farm' }).map((x) => x.beer_name), ['Beer B', 'Beer C']);
+  // One Hop Farm filter: Beta Farm is named for Beer A and grows a hop Beers B and C use.
+  assert.deepEqual(applyFilters(r, { hop_farm: 'Beta Farm' }).map((x) => x.beer_name), ['Beer A', 'Beer B', 'Beer C']);
+  assert.deepEqual(applyFilters(r, { hop_farm: 'Alpha Ranch' }).map((x) => x.beer_name), ['Beer A', 'Beer B', 'Beer C']);
   assert.deepEqual(optionList(r, 'hop_variety', {}).map((o) => [o.value, o.count]), [['Citra', 2], ['Mosaic', 2]]);
-  assert.deepEqual(optionList(r, 'hop_variety', { hop_farm_named: 'Beta Farm' }).map((o) => o.value), ['Citra']);
+  // A farm both named and grown for one beer counts that beer once.
+  const both = [{ ...r[0], hop_farms_named: ['Beta Farm'], hop_farms_grown: ['Beta Farm'] }];
+  assert.deepEqual(optionList(both, 'hop_farm', {}).map((o) => [o.value, o.count]), [['Beta Farm', 1]]);
+  // The two facts stay separate on the row.
+  assert.deepEqual([r[0].hop_farms_named, r[0].hop_farms_grown], [['Beta Farm'], ['Alpha Ranch']]);
   for (const s of [{}, { hop_variety: 'Mosaic' }, { medal: 'Gold' }]) {
     for (const def of FILTERS.filter((d) => d.multi)) {
       for (const o of optionList(r, def.id, s)) assert.equal(applyFilters(r, { ...s, [def.id]: o.value }).length, o.count, `${def.id}=${o.value}`);
     }
   }
+});
+
+test('older links and saved views with the two farm keys open the one Hop Farm filter', () => {
+  // Hash and stored state both pass through pickState, so each folds the same way.
+  assert.deepEqual(resolveState(parseHash('#hop_farm_named=Beta%20Farm&medal=Gold'), null), { medal: 'Gold', hop_farm: 'Beta Farm' });
+  assert.deepEqual(resolveState({}, { hop_farm_grown: 'Alpha Ranch' }), { hop_farm: 'Alpha Ranch' });
+  // Both old keys with different farms: the farm the brewery named wins; a new key always wins.
+  assert.deepEqual(pickState({ hop_farm_named: 'Beta Farm', hop_farm_grown: 'Alpha Ranch' }), { hop_farm: 'Beta Farm' });
+  assert.deepEqual(pickState({ hop_farm: 'Alpha Ranch', hop_farm_named: 'Beta Farm' }), { hop_farm: 'Alpha Ranch' });
+  // The old keys are state keys, so a page never keeps them in the address as its own keys.
+  assert.ok(STATE_KEYS.includes('hop_farm_named') && STATE_KEYS.includes('hop_farm_grown'));
+  assert.equal(FILTERS.some((d) => d.id === 'hop_farm_named' || d.id === 'hop_farm_grown'), false);
 });
 
 test('rows without hops offer only Not Found in the hop filters, and the beer rows carry arrays', () => {

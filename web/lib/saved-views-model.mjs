@@ -4,7 +4,7 @@
 //
 // The rules live here, apart from the React code, so the node test runner can exercise them directly.
 // `storage` is a Storage-like object (getItem, setItem, removeItem) or null.
-import { parseHash, STATE_KEYS } from './filter-model.mjs';
+import { parseHash, pickState } from './filter-model.mjs';
 
 export const STORAGE_KEY = 'gabf-saved-views';
 export const MAX_NAME = 80;
@@ -38,7 +38,8 @@ const isHash = (hash) => typeof hash === 'string' && (hash === '' || (hash.start
 
 // The number of filters a hash carries: the keys the global filter reads. Page keys such as a dashboard tab are not filters.
 export function filterCount(hash) {
-  return Object.keys(parseHash(hash)).filter((k) => STATE_KEYS.includes(k)).length;
+  // Counted after older keys fold into their replacement, so two old farm keys count as one filter.
+  return Object.keys(pickState(parseHash(hash))).length;
 }
 
 export const cleanName = (name) => String(name ?? '').replace(/\s+/g, ' ').trim().slice(0, MAX_NAME);

@@ -55,8 +55,7 @@ Where: the label above each dropdown in the panel, and the start of each chip.
 - `characteristic`: Category Characteristic
 - `investor`: Investor
 - `hop_variety`: Hop Variety
-- `hop_farm_named`: Hop Farm Named by the Brewery
-- `hop_farm_grown`: Hop Farm That Grows a Hop Used
+- `hop_farm`: Hop Farm (Named by the Brewery or Grows a Hop Used)
 - `region`: Region
 - `state`: State
 - `city`: City

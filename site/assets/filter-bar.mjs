@@ -16,17 +16,17 @@ export const FILTERS = [
   { id: 'style_family', label: 'Style Family', group: 'What' },
   { id: 'category_name', label: 'Category', group: 'What' },
   { id: 'abv_band', label: 'ABV Band', group: 'What' },
-  // A beer lists several hops and farms, so these read an array on the row (`field`) and match when
-  // it holds the picked value. The two farm filters are separate on purpose: one is the farm the
-  // brewery named, the other a farm that grows a hop the beer uses. They are never combined.
+  // A beer lists several hops and farms, so these read an array on the row (`field`, or several
+  // `fields` read together) and match when it holds the picked value.
   // The Explore filters. Characteristics are words found in the category name (a row lists several). The
   // investor filter is built but hidden until the owner turns it on (`hidden`).
   { id: 'section', label: 'Section', group: 'What' },
   { id: 'characteristic', field: 'traits', multi: true, label: 'Category Characteristic', group: 'What' },
   { id: 'investor', label: 'Investor', group: 'Who', hidden: true },
   { id: 'hop_variety', field: 'hop_varieties', multi: true, label: 'Hop Variety', group: 'What' },
-  { id: 'hop_farm_named', field: 'hop_farms_named', multi: true, label: 'Hop Farm Named by the Brewery', group: 'What' },
-  { id: 'hop_farm_grown', field: 'hop_farms_grown', multi: true, label: 'Hop Farm That Grows a Hop Used', group: 'What' },
+  // One Hop Farm filter (issue 70): a beer matches a farm when the brewery named it or the farm grows a
+  // hop the beer uses. The row keeps the two facts in separate fields; only the filter reads both.
+  { id: 'hop_farm', fields: ['hop_farms_named', 'hop_farms_grown'], multi: true, label: 'Hop Farm', group: 'What' },
   { id: 'region', label: 'Region', group: 'Where' },
   { id: 'state', label: 'State', group: 'Where' },
   { id: 'city', label: 'City', group: 'Where' },
@@ -49,7 +49,11 @@ function pageFilterCopy() {
   try { return JSON.parse(document.getElementById('filter-copy')?.textContent || 'null'); } catch (e) { return null; }
 }
 // Only these keys are global filter state. Page keys in the hash (tab, brewery) are never stored.
-export const STATE_KEYS = [...FILTERS.map((f) => f.id), 'q', 'years'];
+// Filter keys an older link or saved view may still carry, and the key that replaced each. They stay in
+// STATE_KEYS so neither site keeps them in the address as page keys; pickState folds them into the new
+// key. When both farm keys name different farms, the farm the brewery named wins (the direct fact).
+export const LEGACY_KEYS = [['hop_farm_named', 'hop_farm'], ['hop_farm_grown', 'hop_farm']];
+export const STATE_KEYS = [...FILTERS.map((f) => f.id), 'q', 'years', ...LEGACY_KEYS.map(([old]) => old)];
 export const STORAGE_KEY = 'gabf-filters';
 
 // Display text for raw slugs stored in the data.
@@ -132,6 +136,10 @@ export function pickState(obj) {
   const out = {};
   for (const k of STATE_KEYS) if (obj && obj[k] !== undefined && obj[k] !== null && obj[k] !== '') out[k] = String(obj[k]);
   if (out.years && out.years !== 'all') delete out.years;
+  for (const [old, now] of LEGACY_KEYS) {
+    if (out[old] !== undefined && out[now] === undefined) out[now] = out[old];
+    delete out[old];
+  }
   return out;
 }
 // The URL wins when it carries any filter key; otherwise the stored selection; otherwise the default.
@@ -181,7 +189,8 @@ export function fieldValue(row, id) {
 export function fieldValues(row, id) {
   const def = FILTERS.find((d) => d.id === id);
   if (!def?.multi) return [fieldValue(row, id)];
-  const list = row[def.field];
+  // A filter over several fields holds each value once, so a farm both named and grown counts once.
+  const list = def.fields ? [...new Set(def.fields.flatMap((f) => (Array.isArray(row[f]) ? row[f] : [])))] : row[def.field];
   return Array.isArray(list) && list.length ? list.map(String) : [NOT_DEFINED];
 }
 
