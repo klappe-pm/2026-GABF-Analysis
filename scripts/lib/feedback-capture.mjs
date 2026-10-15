@@ -70,10 +70,8 @@ export async function captureImages({ origin, ticket, outDir, relDir, playwright
   const images = [];
   try {
     const page = await browser.newPage({ viewport: { width: ticket.viewport?.width || 1440, height: ticket.viewport?.height || 900 } });
-    // The static review build lives under /site/; the web review build is the root of the origin.
-    const served = ticket.served || 'site';
-    const prefix = served === 'web' ? '' : `/${served}`;
-    await page.goto(`${origin}${prefix}${ticket.route || '/'}${ticket.hash || ''}`, { waitUntil: 'networkidle' });
+    // The web review build is served at the root of the review server's origin.
+    await page.goto(`${origin}${ticket.route || '/'}${ticket.hash || ''}`, { waitUntil: 'networkidle' });
     const spots = ticket.spots ?? [];
     // Spot crops come first, on the clean page, so a pin never covers the element.
     for (const s of spots) {

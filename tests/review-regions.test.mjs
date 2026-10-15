@@ -1,6 +1,6 @@
 // The journey step markers: every screen names the region of the framed page it concerns, or is
 // about the whole page and names none, and every action chip in the spec names the control it
-// acts on. The marker is drawn by the review build only; tests/review-build.test.mjs proves the
+// acts on. The marker is drawn by the review build only; tests/web-review-build.test.mjs proves the
 // public build carries none of it.
 
 import test from 'node:test';

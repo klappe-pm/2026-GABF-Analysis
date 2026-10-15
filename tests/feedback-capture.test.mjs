@@ -32,7 +32,7 @@ test('a page image and one image per spot are written, and recorded relative to 
   const log = [];
   const images = await captureImages({
     origin: 'http://127.0.0.1:4188',
-    ticket: { served: 'site', route: '/', hash: '#year=2026', viewport: { width: 1280, height: 800 }, step: 'S-01', region: { selector: '.dash-grid', name: 'dashboard panels' }, spots: [{ n: 1, selector: 'h1', rect: { x: 1, y: 2, width: 30, height: 20 }, component: 'header' }, { n: 2, selector: '.missing', rect: { x: 5, y: 6, width: 40, height: 30 }, component: null }] },
+    ticket: { served: 'web', route: '/', hash: '#year=2026', viewport: { width: 1280, height: 800 }, step: 'S-01', region: { selector: '.dash-grid', name: 'dashboard panels' }, spots: [{ n: 1, selector: 'h1', rect: { x: 1, y: 2, width: 30, height: 20 }, component: 'header' }, { n: 2, selector: '.missing', rect: { x: 5, y: 6, width: 40, height: 30 }, component: null }] },
     outDir: join(out, 'wi-001-x'), relDir: 'wi-001-x', playwright: fakePlaywright(log),
   });
   assert.deepEqual(images.map((i) => [i.path, i.kind, i.spot, i.component, i.url]), [
@@ -41,7 +41,7 @@ test('a page image and one image per spot are written, and recorded relative to 
     ['wi-001-x/spot-2.png', 'spot', 2, null, null],
   ]);
   for (const i of images) assert.ok(existsSync(join(out, i.path)), i.path);
-  assert.ok(log.includes('goto http://127.0.0.1:4188/site/#year=2026'));
+  assert.ok(log.includes('goto http://127.0.0.1:4188/#year=2026'));
   assert.ok(log.includes('viewport 1280x800'));
   assert.ok(log.includes('overlay 2 pins, region .dash-grid'), 'the pins and the step marker are drawn before the page shot');
   assert.equal(log.at(-1), 'closed');

@@ -1,11 +1,10 @@
-// Editing page copy in place, and the site build reading that copy. Every test runs against a
+// Editing page copy in place, and the copy lookup the site builds read. Every test runs against a
 // temporary copy of the copy folder (and a temporary ticket store and source tree); the real
 // .docs/content-management-system/ is never written.
 
 import test, { after } from 'node:test';
 import assert from 'node:assert/strict';
-import { spawnSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
@@ -59,40 +58,10 @@ test('the page asks which of its texts are page copy: whole values only, the rev
   } finally { s.close(); }
 });
 
-test('an inline edit lands on the key the build reads, whether or not the other entries with the same words are checked', async () => {
-  const s = await boot();
-  try {
-    mkdirSync(join(s.root, 'dist-review'), { recursive: true });
-    writeFileSync(join(s.root, 'dist-review/review-copy-keys.json'), JSON.stringify(['global.filters.panel.title']));
-    const r = (await s.call('POST', '/review/inline/resolve', { screen: 'S-46', texts: ['Filter medals'] })).body;
-    assert.equal(r['Filter medals'].key, 'global.filters.panel.title', 'the build read key outranks the reviewed page entry and the text match order');
-    assert.equal(r['Filter medals'].others, 1);
-    const saved = await s.call('POST', '/review/inline/save', { screen: 'S-46', key: r['Filter medals'].key, newValue: 'Narrow the medals', take: [], spot: SPOT });
-    assert.equal(saved.status, 200);
-    assert.match(readFileSync(join(s.cms, 'global/filters.md'), 'utf8'), /- `title`: Narrow the medals\r\n/);
-    assert.match(readFileSync(join(s.cms, 'pages/filters-panel.md'), 'utf8'), /- `heading`: Filter medals\n/, 'the unchecked related entry is untouched');
-  } finally { s.close(); }
-});
-
 test('the site copy lookup records the keys the build reads', () => {
   const copy = createSiteCopy([{ key: 'a.b', value: 'x' }, { key: 'a.c', value: 'y' }]);
   copy('a.b');
   assert.deepEqual([...copy.used], ['a.b']);
-});
-
-test('the review build records the footer link key it reads and the public build writes no such list', () => {
-  const t = tempCms([]);
-  const pub = build(t);
-  assert.equal(pub.status, 0, pub.stderr);
-  assert.ok(!existsSync(join(t.dist, 'review-copy-keys.json')));
-  const env = { ...process.env, GABF_CMS_DIR: t.cms, GABF_DIST: join(t.work, 'dist-review'), GABF_FEEDBACK: '1' };
-  delete env.CI;
-  delete env.GITHUB_ACTIONS;
-  const rev = spawnSync(process.execPath, [resolve(ROOT, 'scripts/build-site.mjs')], { cwd: ROOT, env, encoding: 'utf8' });
-  assert.equal(rev.status, 0, rev.stderr);
-  const keys = JSON.parse(readFileSync(join(t.work, 'dist-review/review-copy-keys.json'), 'utf8'));
-  assert.ok(keys.includes('global.site.footer.source_link'));
-  assert.ok(!keys.includes('global.navigation.footer.source'), 'an entry the build does not read is not listed');
 });
 
 test('saving an inline edit writes the value, rebuilds once, and records an ACCEPTED ticket with the old and new values', async () => {
@@ -165,24 +134,16 @@ test('rule breaking text is refused with the reason and nothing is written, rebu
   } finally { s.close(); }
 });
 
-// ---------- the site build reads the copy ----------
+// ---------- the copy lookup reads the copy folder ----------
 
-const walk = (dir, out = []) => {
-  for (const name of readdirSync(dir)) {
-    const full = join(dir, name);
-    if (statSync(full).isDirectory()) walk(full, out); else out.push(full);
-  }
-  return out;
-};
-
-const buildScratch = [];
+const scratch = [];
 after(() => {
-  for (const dir of buildScratch) rmSync(dir, { recursive: true, force: true });
+  for (const dir of scratch) rmSync(dir, { recursive: true, force: true });
 });
 
 function tempCms(edits) {
-  const work = mkdtempSync(join(tmpdir(), 'gabf-build-'));
-  buildScratch.push(work);
+  const work = mkdtempSync(join(tmpdir(), 'gabf-copy-'));
+  scratch.push(work);
   const cms = join(work, 'cms');
   cpSync(resolve(ROOT, '.docs/content-management-system'), cms, { recursive: true });
   for (const [file, from, to] of edits) {
@@ -191,58 +152,25 @@ function tempCms(edits) {
     assert.ok(text.includes(from), `${file} has ${from}`);
     writeFileSync(path, text.replace(from, to));
   }
-  return { work, cms, dist: join(work, 'dist') };
+  return { work, cms };
 }
 
-function build({ cms, dist }) {
-  const env = { ...process.env, GABF_CMS_DIR: cms, GABF_DIST: dist };
-  delete env.GABF_FEEDBACK;
-  return spawnSync(process.execPath, [resolve(ROOT, 'scripts/build-site.mjs')], { cwd: ROOT, env, encoding: 'utf8' });
-}
-
-test('the build renders a changed copy key on every page that uses it', () => {
-  const t = tempCms([
-    ['global/site.md', '- `menu_button`: Menu', '- `menu_button`: Open the menu'],
-    ['pages/beer-detail.md', '- `title`: Published Specs', '- `title`: What the brewery published'],
-  ]);
-  const r = build(t);
-  assert.equal(r.status, 0, r.stderr);
-  const pages = walk(t.dist).filter((f) => f.endsWith('.html'));
-  const withMenu = pages.filter((f) => readFileSync(f, 'utf8').includes('class="nav-toggle"'));
-  assert.ok(withMenu.length > 1000, 'the header is on every page');
-  for (const f of withMenu) {
-    const html = readFileSync(f, 'utf8');
-    assert.ok(html.includes('aria-controls="site-nav">Open the menu</button>'), `${f} shows the changed key`);
-    assert.ok(!html.includes('aria-controls="site-nav">Menu</button>'), `${f} no longer shows the old words`);
-  }
-  const beers = pages.filter((f) => readFileSync(f, 'utf8').includes('id="spec-title"'));
-  assert.ok(beers.length > 100, 'beer pages carry the specs card');
-  for (const f of beers) assert.match(readFileSync(f, 'utf8'), /<h2 id="spec-title">What the brewery published<\/h2>/);
+test('a changed copy entry is the value the lookup returns', () => {
+  const plain = loadSiteCopy({ env: { GABF_CMS_DIR: tempCms([]).cms } });
+  assert.equal(plain('global.site.header.skip_link'), 'Skip to content');
+  const t = tempCms([['global/site.md', '- `skip_link`: Skip to content\n', '- `skip_link`: Jump to the content\n']]);
+  assert.equal(loadSiteCopy({ env: { GABF_CMS_DIR: t.cms } })('global.site.header.skip_link'), 'Jump to the content');
 });
 
-test('the build with the unchanged copy matches the words the pages always showed', () => {
-  const t = tempCms([]);
-  const r = build(t);
-  assert.equal(r.status, 0, r.stderr);
-  const home = readFileSync(join(t.dist, 'index.html'), 'utf8');
-  assert.ok(home.includes('<a class="skip-link" href="#main">Skip to content</a>'));
-  assert.ok(home.includes('aria-controls="site-nav">Menu</button>'));
-  assert.ok(home.includes('>Filters</button>'));
-  assert.ok(home.includes('>Source and data</a>. Some beer details are from <a href="https://catalog.beer">Catalog.beer</a>'));
-});
-
-test('a copy key the build needs but the copy folder lacks stops the build and names the key', () => {
+test('a copy key a build needs but the copy folder lacks stops the build and names the key', () => {
   const t = tempCms([['global/site.md', '- `skip_link`: Skip to content\n', '']]);
-  const r = build(t);
-  assert.notEqual(r.status, 0);
-  assert.match(r.stderr, /needs the copy entry global\.site\.header\.skip_link/);
+  const copy = loadSiteCopy({ env: { GABF_CMS_DIR: t.cms } });
+  assert.throws(() => copy('global.site.header.skip_link'), /needs the copy entry global\.site\.header\.skip_link/);
 });
 
 test('a missing copy folder stops the build and says where the folder is tracked', () => {
   const t = tempCms([]);
-  const r = build({ ...t, cms: join(t.work, 'absent') });
-  assert.notEqual(r.status, 0);
-  assert.match(r.stderr, /site copy folder is missing/);
+  assert.throws(() => loadSiteCopy({ env: { GABF_CMS_DIR: join(t.work, 'absent') } }), /site copy folder is missing/);
 });
 
 test('site copy fills placeholders and refuses a value it was not given', () => {
