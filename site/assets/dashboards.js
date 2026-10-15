@@ -5,7 +5,7 @@
 import { compact, countBy, esc, figure, gsbColumn, statTile, statusLabel, statusShort, tableHtml } from './charts.mjs';
 import { estMark, installEstimates } from './estimates.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
-import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
+import { CONTROL_FIELDS, controlLabel, latestValue, medalRates } from './rates.mjs';
 import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptyStateHtml, hashFor, parseHash, partialNoticeHtml, pickState, STATE_KEYS, valueLabel } from './filter-bar.mjs';
 import { oddsItems, specNoteHtml as specNote, yearsInView } from './page-views.mjs';
 import { sortByLabel } from './sort-order.mjs';
@@ -216,7 +216,7 @@ function renderControlsTable(rows) {
     { key: 'medals', label: 'Medals', numeric: true },
     { key: 'per_million', label: 'Per Million', numeric: true, render: (x) => x.per_million.toFixed(2) },
     { key: 'per_gdp', label: `Per $100B real GDP${level === 'district' ? ' (E)' : ''}`, numeric: true, render: (x) => x.per_gdp.toFixed(2) },
-    ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? 'Real GDP per capita 2025 (chained 2017 USD)' : f.label, numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
+    ...fields.map((f) => ({ key: f.key, label: f.key === 'gdp_per_capita_real' ? tx('global.labels.indicator.gdp_per_capita_real_latest', 'Real GDP per Person, {{year}} (2017 Dollars)', { year: RATE_YEARS.data_year }) : controlLabel(f), numeric: true, render: (x) => { const v = latestValue(x.series[f.key]); return v === null ? '' : v.toLocaleString('en-US', { maximumFractionDigits: f.digits, minimumFractionDigits: f.digits }); } })),
   ];
   el.innerHTML = `<label class="small">Rows<select id="controls-level"><option value="district"${level === 'district' ? ' selected' : ''}>Federal Reserve districts</option><option value="state"${level === 'state' ? ' selected' : ''}>States</option></select></label><div tabindex="0" role="region" aria-label="Scrollable data table" class="table-wrap">${tableHtml(cols, list)}</div><p class="small muted">Rates sum each medal against its own year's population and real GDP. Controls: ACS 2024 1-year (age, race and Hispanic origin, education, income, poverty), 2020 Census urban share, NCES PIAAC modeled literacy (pooled 2012, 2014, 2017), NCHS life expectancy 2022. District demographics are not compiled; district GDP for split states is apportioned (E), and West Virginia is assigned whole to the Richmond district (approximation). Sources and method are on the About page.</p>`;
   qs('controls-level').addEventListener('change', (e) => { state.controlsLevel = e.target.value; renderControlsTable(applyFilters(state.rows)); });

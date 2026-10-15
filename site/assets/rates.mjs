@@ -5,6 +5,8 @@
 // 2017 dollars. A year not yet published uses the nearest published year (the reference tables
 // already carry 2025 values for 2026 and say so).
 
+import { tx } from './site-text.mjs';
+
 // series: { [year]: value }; returns the value for year or the nearest year present.
 export function valueFor(series, year) {
   if (!series) return null;
@@ -49,6 +51,10 @@ export const CONTROL_FIELDS = [
   { key: 'literacy_level1_or_below', label: 'Literacy at or Below Level 1 (%, Modeled)', digits: 0 },
   { key: 'life_expectancy', label: 'Life Expectancy 2022', digits: 1 },
 ];
+
+// A control's column label from global/labels.md indicator; the label above stands in when no copy
+// was shipped.
+export const controlLabel = (f) => tx(`global.labels.indicator.${f.key}`, f.label);
 
 // Latest value of a control (controls are single year cross sections; GDP per capita uses the
 // latest year in the series).
