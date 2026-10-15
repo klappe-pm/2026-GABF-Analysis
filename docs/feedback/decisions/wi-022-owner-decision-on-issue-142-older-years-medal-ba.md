@@ -1,6 +1,6 @@
 ---
 id: WI-022
-status: ACCEPTED
+status: DONE
 title: "Older years' medal badges: link to the brewery page or build a beers page per year?"
 page: decisions
 job: null
@@ -48,6 +48,13 @@ images: []
 issue: 142
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/142
 kind: decision
+pr: 152
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/152
+resolution:
+  status: DONE
+  change: "pull request #152"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-15T21:09:05.085Z
 ---
 
 Owner decision on issue #142: Older years' medal badges: link to the brewery page or build a beers page per year?
