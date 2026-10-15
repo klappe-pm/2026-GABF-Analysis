@@ -1,5 +1,6 @@
-// One hop farm at /hop-farms/<farm>/: its data, the varieties it grows, and the medal beers linked to it in
-// two separate tables, named by the brewery and grown through a variety. The two are never combined.
+// One hop grower at /hop-farms/<farm>/: its data, the varieties it owns (publishes as grown), and the medal
+// beers linked to it in two separate tables, named by the brewery and grown through a variety. The two are
+// never combined on the page; the one Hop Farm filter, linked from the header, matches either.
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -8,6 +9,7 @@ import { HopProfileCard } from '@/components/HopProfileCard';
 import { SpecCard, type SpecRow } from '@/components/SpecCard';
 import { TextLink } from '@/components/TextLink';
 import { group, t } from '@/lib/content';
+import { hashFor } from '@/lib/filter-model.mjs';
 import { fmt } from '@/lib/data';
 import { href, paths } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
@@ -91,10 +93,14 @@ export default async function HopFarmPage({ params }: { params: Promise<Params> 
       <header className="flex flex-col gap-3">
         <h1 className="type-display-small text-on-surface">{f.name}</h1>
         <p className="type-body-large flex flex-wrap gap-x-6 gap-y-1 text-on-surface-variant">
+          <span>{copy('pills.grower')}</span>
           {f.state ? <span>{f.state}</span> : null}
           <span>{copy('pills.varieties', { count: f.counts.varieties })}</span>
         </p>
-        <p className="type-body-large"><TextLink href={href(paths.hops)}>{copy('links.hops')}</TextLink></p>
+        <p className="type-body-large flex flex-wrap gap-x-6 gap-y-1">
+          {f.named.length || f.grown.length ? <TextLink href={`${href(paths.winners(year))}${hashFor({ hop_farm: f.name })}`}>{copy('links.filter', { year })}</TextLink> : null}
+          <TextLink href={href(paths.hops)}>{copy('links.hops')}</TextLink>
+        </p>
       </header>
 
       <SpecCard id="farm-data" title={copy('data.title')} rows={dataRows} />
