@@ -1,6 +1,6 @@
 ---
 id: WI-019
-status: ACCEPTED
+status: DONE
 title: Bring back stacked cards for medal tables on phones?
 page: decisions
 job: null
@@ -48,6 +48,13 @@ images: []
 issue: 65
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/65
 kind: decision
+pr: 145
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/145
+resolution:
+  status: DONE
+  change: "pull request #145"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-15T20:35:22.052Z
 ---
 
 Owner decision on issue #65: Bring back stacked cards for medal tables on phones?
