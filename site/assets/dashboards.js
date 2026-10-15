@@ -115,8 +115,12 @@ const PANELS = {
     return { option: barsHOption({ items, valueName: 'Entries', labelWidth: 240, saveName: 'entrants-by-category' }), height: Math.max(220, 32 * items.length + 60), onClick: (p) => { const it = items.find((i) => i.label === p.name); if (it) setFilter('category_name', it.name); }, note: 'Entry counts come from the category headers of the official list; a partial year shows counts for its sample of medals alone.', table: tableHtml([{ key: 'name', label: 'Category' }, { key: 'value', label: 'Entries', numeric: true }, { key: 'years', label: 'Years' }], items, { className: 'data-table' }) };
   } },
   'entry-odds': { title: tx('pages.dashboards.panels.entry_odds.title', 'Hardest Categories to Medal in'), subtitle: tx('pages.dashboards.panels.entry_odds.subtitle', 'Entries per medal, highest first. Select a category to filter by it.'), build(rows) {
-    const odds = oddsItems(rows);
-    if (!odds.list.length) return { empty: odds.note };
+    const odds = oddsItems(rows, { words: {
+      note: tx('pages.dashboards.panels.entry_odds.note', 'Entries divided by medals awarded in the category, pooled over the years in view.'),
+      missingOne: tx('pages.dashboards.panels.entry_odds.missing_one', '1 medal in view has no published entry count and is left out.'),
+      missingMany: tx('pages.dashboards.panels.entry_odds.missing_many', '{{count}} medals in view have no published entry count and are left out.'),
+    } });
+    if (!odds.list.length) return { empty: tx('pages.dashboards.panels.entry_odds.empty', 'No medal in view has a published entry count.') };
     const items = odds.list.slice(0, 20);
     return { option: barsHOption({ items, valueName: 'Entries per Medal', labelWidth: 240, saveName: 'entries-per-medal' }), height: Math.max(220, 30 * items.length + 60), onClick: (p) => setFilter('category_name', p.name), note: odds.note, table: tableHtml([{ key: 'label', label: 'Category' }, { key: 'value', label: 'Entries per Medal', numeric: true }, { key: 'entries', label: 'Entries', numeric: true }, { key: 'medals', label: 'Medals Awarded', numeric: true }, { key: 'years', label: 'Years' }], odds.list, { className: 'data-table' }) };
   } },
