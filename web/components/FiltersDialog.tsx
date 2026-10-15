@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { type RefObject, useEffect, useRef } from 'react';
 import { useReducedMotion, useSettings } from '@/design/runtime';
 import { shape, vars } from '@/design/helpers';
 import { Button } from './Button';
@@ -88,19 +88,28 @@ export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy
   );
 }
 
+type DialogEl = HTMLElement & { show(): void; close(): void; open: boolean };
+
+// Material registers md-dialog after the app starts (web/design/runtime.tsx); a press before then waits for it and
+// opens the dialog once it is ready, instead of calling a show() the element does not have yet.
+function show(ref: RefObject<DialogEl | null>) {
+  if (typeof ref.current?.show === 'function') { ref.current.show(); return; }
+  void customElements.whenDefined('md-dialog').then(() => { if (ref.current && !ref.current.open) ref.current.show(); });
+}
+
 // The Filters button and its Material dialog. Alt+Shift+F opens it (a bare letter key would fire from speech input
 // and single key presses, WCAG 2.1.4; Shift+F alone is the review widget's); Escape closes it; focus stays inside while open.
 // With controls, the fields show the page's selection, Show results applies it, and Clear all resets it.
 export function FiltersDialog({ copy, groups, controls, triggerLabel, triggerAccessibleLabel }: { copy: FiltersCopy; groups: FilterGroup[]; controls?: FiltersControls; triggerLabel?: string; triggerAccessibleLabel?: string }) {
   const s = useSettings('filters-dialog');
   const reduce = useReducedMotion();
-  const ref = useRef<HTMLElement & { show(): void; close(): void; open: boolean }>(null);
+  const ref = useRef<DialogEl>(null);
   const onOpen = controls?.onOpen;
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.composedPath()[0] as HTMLElement | null;
       if (e.code !== 'KeyF' || !e.altKey || !e.shiftKey || e.metaKey || e.ctrlKey || el?.closest?.('input, select, textarea, [contenteditable], md-outlined-text-field, md-filled-text-field')) return;
-      if (ref.current && !ref.current.open) { e.preventDefault(); onOpen?.(); ref.current.show(); }
+      if (ref.current && !ref.current.open) { e.preventDefault(); onOpen?.(); show(ref); }
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
@@ -108,7 +117,7 @@ export function FiltersDialog({ copy, groups, controls, triggerLabel, triggerAcc
   const width = `min(${Number(s['Width on wide screens'] ?? 560)}px, 100% - 48px)`;
   return (
     <>
-      <Button variant="secondary" aria-haspopup="dialog" aria-label={triggerAccessibleLabel} onClick={() => { onOpen?.(); ref.current?.show(); }}>{triggerLabel ?? copy.trigger}</Button>
+      <Button variant="secondary" aria-haspopup="dialog" aria-label={triggerAccessibleLabel} onClick={() => { onOpen?.(); show(ref); }}>{triggerLabel ?? copy.trigger}</Button>
       <md-dialog
         ref={ref}
         data-component="filters-dialog"
