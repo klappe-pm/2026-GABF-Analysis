@@ -148,6 +148,8 @@ table.sortable th[aria-sort="descending"]::after { content: " ▼"; font-size: 0
 .table-wrap { position: relative; overflow-x: auto; max-width: 100%; border: 1px solid var(--border); border-radius: 10px; }
 .table-wrap:focus-visible { outline-offset: -2px; }
 .table-wrap table.data-table { border: 0; }
+/* page.js sets --head-shift so the header row stays in view while the page scrolls past a table */
+.table-wrap thead th { position: relative; z-index: 1; transform: translateY(var(--head-shift, 0px)); }
 
 .kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 0; font-size: 0.93rem; }
 .kv dt { color: var(--text-secondary); }

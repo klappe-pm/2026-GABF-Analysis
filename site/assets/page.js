@@ -87,4 +87,23 @@
     th.setAttribute('aria-sort', dir === 'asc' ? 'ascending' : 'descending');
     sortTable(table, idx, th.classList.contains('num'), dir);
   });
+
+  // A wide table scrolls sideways in its .table-wrap, and that scroll box is also what CSS sticky pins
+  // to, so the header row would never follow the page. Each frame the page moves, the header cells are
+  // shifted down by how far the table top has scrolled out of view, until the reader is past the table.
+  let headFrame = 0;
+  function placeHeads() {
+    headFrame = 0;
+    document.querySelectorAll('.table-wrap').forEach((wrap) => {
+      const thead = wrap.querySelector('thead');
+      if (!thead) return;
+      const r = wrap.getBoundingClientRect();
+      const shift = Math.min(Math.max(0, -r.top), Math.max(0, r.height - thead.offsetHeight));
+      wrap.style.setProperty('--head-shift', `${shift}px`);
+    });
+  }
+  const queueHeads = () => { if (!headFrame) headFrame = requestAnimationFrame(placeHeads); };
+  window.addEventListener('scroll', queueHeads, { passive: true });
+  window.addEventListener('resize', queueHeads);
+  placeHeads();
 })();
