@@ -8,7 +8,7 @@ topics:
 types:
   - "beer-profile"
 date-created: 2026-10-13
-date-revised: 2026-10-14
+date-revised: 2026-10-15
 status: DONE
 aliases: []
 tags:
@@ -180,7 +180,7 @@ Generated from the loaded results for this brewery and beer name, not researched
 
 Sierra Nevada Brewing Co. is in Chico, CA.
 
-Links checked 2026-10-14: [Untappd](https://untappd.com/SierraNevada).
+Links checked 2026-10-14: [Website](https://sierranevada.com/), [Untappd](https://untappd.com/SierraNevada).
 
 ## related
 

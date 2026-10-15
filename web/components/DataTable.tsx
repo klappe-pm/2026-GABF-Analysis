@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { useSettings } from '@/design/runtime';
 import { color, hasFigure, onColor } from '@/design/helpers';
 import { Icon } from './Icon';
@@ -20,8 +20,49 @@ type Props = {
 // A data table in Material's manner: a tinted header row, row dividers, tabular figures, sortable headers.
 // Header color and weight, row height, dividers, wrapping, and alignment come from the table spec.
 // A table wider than its container scrolls inside the container, never the page.
+// A table that does not scroll on its own keeps its header row in view while the page scrolls, until
+// the reader scrolls past the table. CSS sticky cannot do that here, because the sideways scroll
+// container is also the box sticky pins to, so the header cells are moved down by the distance scrolled.
+function usePageStickyHeader(on: boolean) {
+  const box = useRef<HTMLDivElement>(null);
+  const head = useRef<HTMLTableSectionElement>(null);
+  useEffect(() => {
+    const el = box.current;
+    const thead = head.current;
+    if (!on || !el || !thead) return;
+    let frame = 0;
+    const place = () => {
+      frame = 0;
+      // the phone tab row is sticky at the top of the page, so the header stops below it
+      const tabs = document.querySelector<HTMLElement>('[data-nav="tabs"]');
+      const tabsBox = tabs && tabs.offsetParent ? tabs.getBoundingClientRect() : null;
+      const top = tabsBox && tabsBox.top <= 0 ? Math.max(0, tabsBox.bottom) : 0;
+      const r = el.getBoundingClientRect();
+      const shift = Math.min(Math.max(0, top - r.top), Math.max(0, r.height - thead.offsetHeight));
+      el.style.setProperty('--head-shift', `${shift}px`);
+    };
+    const queue = () => {
+      if (!frame) frame = requestAnimationFrame(place);
+    };
+    place();
+    // filtering or sorting changes the table height without a scroll
+    const resize = new ResizeObserver(queue);
+    resize.observe(el);
+    window.addEventListener('scroll', queue, { passive: true });
+    window.addEventListener('resize', queue);
+    return () => {
+      resize.disconnect();
+      window.removeEventListener('scroll', queue);
+      window.removeEventListener('resize', queue);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [on]);
+  return { box, head };
+}
+
 export function DataTable({ caption, sortHint, columns, rows, initialSort, scroll = true }: Props) {
   const s = useSettings('data-table');
+  const { box, head: thead } = usePageStickyHeader(!scroll);
   const [sort, setSort] = useState(initialSort ?? null);
   const sorted = useMemo(() => {
     if (!sort) return rows;
@@ -46,6 +87,7 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
 
   return (
     <div
+      ref={box}
       className={`max-w-full rounded-(--md-sys-shape-corner-medium) border border-outline-variant ${scroll ? 'max-h-[32rem] overflow-auto' : 'overflow-x-auto'}`}
       tabIndex={0}
       role="region"
@@ -58,7 +100,7 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
           {caption}
           {sortHint ? `. ${sortHint}` : ''}
         </caption>
-        <thead>
+        <thead ref={thead}>
           <tr>
             {columns.map((c) => {
               const active = sort?.key === c.key;
@@ -67,8 +109,8 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
                   key={c.key}
                   scope="col"
                   aria-sort={active ? sort.dir : undefined}
-                  className={`type-label-large sticky top-0 border-b border-outline-variant px-4 align-middle ${wrap} ${align(c)}`}
-                  style={{ background: color(head), color: onColor(head), height: rowHeight, fontWeight: weight, ...(hasFigure(c.label) ? { fontFamily: 'var(--md-ref-typeface-plain)' } : {}) }}
+                  className={`type-label-large sticky top-0 z-[1] border-b border-outline-variant px-4 align-middle ${wrap} ${align(c)}`}
+                  style={{ background: color(head), color: onColor(head), height: rowHeight, fontWeight: weight, ...(scroll ? {} : { transform: 'translateY(var(--head-shift, 0px))' }), ...(hasFigure(c.label) ? { fontFamily: 'var(--md-ref-typeface-plain)' } : {}) }}
                 >
                   {c.sortable ? (
                     <button type="button" onClick={() => toggle(c.key)} className="inline-flex items-center gap-1">
