@@ -8,7 +8,7 @@ topics:
 types:
   - plan
 date-created: 2026-10-14
-date-revised: 2026-10-14
+date-revised: 2026-10-15
 status: ACCEPTED
 aliases: []
 tags: []
@@ -16,14 +16,14 @@ tags: []
 
 # site-port-plan
 
-The Material 3 app in web/ becomes the whole public site at gabf.beer, and the static build in scripts/build-site.mjs retires once every page below is ported. This plan lists every page the static build renders today, the route each takes in the app, the data and components it uses, and the lanes that port them in parallel without editing the same file.
+The Material 3 app in web/ is the whole public site at gabf.beer. The static build (scripts/build-site.mjs) retired in issue #141 once every page below was ported; its payload functions live on in scripts/lib/site-payload.mjs. This plan lists every page the static build rendered, the route each takes in the app, the data and components it uses, and the lanes that port them in parallel without editing the same file.
 
 ## foundation
 
 - Site frame: web/app/(site)/layout.tsx wraps every public page in the top app bar (site name, Filters button), the navigation for the window size class (tabs under 600 pixels, a rail from 600, the drawer or rail from 1200 as settings.md says), the active filter chips, and the page. Destinations follow layout.md "Site navigation": Results, Breweries, Beers, Analysis; the drawer adds Categories, Hops, and Hop farms.
 - Footer: web/app/layout.tsx, on every page including the design system: About and source links, the sources, estimate, and independence lines, and the Catalog.beer line from global.site.footer.beer_details.
 - Global filter: web/lib/global-filter.tsx keeps the current behavior: the selection lives in the URL hash, then browser storage, then the default (complete years only); the rules are site/assets/filter-bar.mjs through web/lib/filter-model.mjs. The Filters dialog (F opens it) lists every dimension with progressive option counts.
-- Data: web/lib/site-data.ts loads web/lib/site-model.mjs with Node's own import; site-model.mjs calls loadDataset from scripts/lib/data-model.mjs and enrichResults and buildPayload from scripts/build-site.mjs, so nothing is forked. The dataset loads once per build worker.
+- Data: web/lib/site-data.ts loads web/lib/site-model.mjs with Node's own import; site-model.mjs calls loadDataset from scripts/lib/data-model.mjs and enrichResults and buildPayload from scripts/lib/site-payload.mjs, so nothing is forked. The dataset loads once per build worker.
 - Static params: staticParams.beers, .breweries, .categories, .hops, and .hopFarms in web/lib/site-data.ts; every dynamic route also sets dynamicParams = false.
 - Links: href() and paths in web/lib/href.ts; a plain a element or a Material href goes through href() so a base path (NEXT_BASE_PATH) is carried. gabf.beer has none.
 - Metadata: pageMetadata() in web/lib/seo.ts gives the title, the description, the canonical gabf.beer address with its trailing slash, and Open Graph and card tags with the social card at /social-preview.png.

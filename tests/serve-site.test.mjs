@@ -11,7 +11,7 @@ test('a folder address with or without its slash reads the folder index; a file 
   assert.equal(objectKey('/beers/2026/'), '/beers/2026/index.html');
   assert.equal(objectKey('/beers/2026'), '/beers/2026/index.html');
   assert.equal(objectKey('/data/results.json'), '/data/results.json');
-  assert.equal(objectKey('/assets/app.mjs'), '/assets/app.mjs');
+  assert.equal(objectKey('/gabf-dashboard.html'), '/gabf-dashboard.html');
 });
 
 test('a missing address answers with the 404 page and status 404', async () => {

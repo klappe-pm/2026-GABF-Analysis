@@ -32,10 +32,9 @@ It runs, in order:
 2. `npm run brand:check`: the committed brand outputs match the design settings.
 3. `npm test`: runs `npm run generate` (the single file pages) and then the node test runner suites in `tests/`.
 4. `npm run validate` and `npm run hops:check`: structural checks on every medal row, the year totals, and the hop tables.
-5. `npm run build`: the site into `dist/`.
-6. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs a local agent-graph checkout, so CI runs only the design system check.
+5. `npm run design:check` and `npm run design-system:check`: the design control plane and the design system. The design control plane check needs a local agent-graph checkout, so CI runs only the design system check.
 
-The single file pages (`gabf-dashboard.html` and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
+The single file pages (`gabf-dashboard.html` and `docs/design/chart-gallery/index.html`) and the winners database (`data/enriched/winners-2026.sqlite`) are build outputs and are not committed; `npm run generate` builds them locally, and CI and the deploy build them from the sources. A branch never carries them. The tests that read the web/ app's export (web/out) fail while it is older than its sources, so run `npm run web:build` before `npm run verify`. CI also builds the web/ app and runs the rendered design system audit (`npm run web:build && npm run design-system:audit`, which needs Playwright Chromium: `npx playwright install chromium`).
 
 ## Data rules
 
@@ -44,7 +43,7 @@ These keep the dataset trustworthy. A pull request that breaks one will be asked
 - **Official winners lists win.** Rows whose notes say "Partial seed" are placeholders from secondary sources and are replaced wholesale once a year's official list is ingested. Do not hand patch an ingested year to match a news story.
 - **Estimates are marked (E).** Every estimate must trace to `data/reference/estimation-parameters.json`, `data/reference/production.csv`, or a brewery profile.
 - **Ownership needs a primary source.** Set an ownership row's `verified` flag to yes only after checking a primary source, and name that source.
-- **Generated files are never hand edited.** Change the inputs and rebuild `dist/`, `data/enriched/breweries.json`, `data/enriched/winners-2026.sqlite`, and the single file pages.
+- **Generated files are never hand edited.** Change the inputs and rebuild `web/out`, `data/enriched/breweries.json`, `data/enriched/winners-2026.sqlite`, and the single file pages.
 - **Never fabricate.** No invented medals, figures, or sources. A gap stated plainly beats a guess.
 
 ## Proposing a data correction

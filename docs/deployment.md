@@ -39,8 +39,8 @@ GitHub OpenID Connect deploys are not possible in this AWS project (its service 
 
 | where | runs on | what it does |
 |---|---|---|
-| `.github/workflows/ci.yml` | every pull request, pushes to main, dispatch | one job named `build`, the check branch protection on main requires: generated hop and brewery docs check, prose check, brand check, the web/ static export (before the tests, so the tests that read web/out check this commit), tests (after `npm run generate`), data validation, hop validation, the old site build, the design system check, the rendered design system audit in Playwright Chromium, and a trial assembly of the site artifact |
-| `buildspec.yml` (AWS CodeBuild) | every push to main | builds the old site, the single file dashboard, and the web/ export with an empty base path, assembles `_site/`, fails when it has no `index.html` or `404.html`, syncs it to the bucket, and invalidates the distribution |
+| `.github/workflows/ci.yml` | every pull request, pushes to main, dispatch | one job named `build`, the check branch protection on main requires: generated hop and brewery docs check, prose check, brand check, the web/ static export (before the tests, so the tests that read web/out check this commit), tests (after `npm run generate`), data validation, hop validation, the design system check, the rendered design system audit in Playwright Chromium, and a trial assembly of the site artifact |
+| `buildspec.yml` (AWS CodeBuild) | every push to main | builds the single file dashboard and the web/ export with an empty base path, assembles `_site/`, fails when it has no `index.html` or `404.html`, syncs it to the bucket, and invalidates the distribution |
 | `.github/workflows/ingest-results.yml` | schedule in the results window, dispatch | ingests a winners list into a pull request, starts ci on it, and with publish true merges it once `build` passes; the merge is a push to main, so CodeBuild publishes it |
 
 Runs of ci on a pull request cancel older runs for the same pull request; runs on main never cancel. Every pull request merges with auto-merge (`gh pr merge <n> --auto --merge`), which waits for `build`, so what CodeBuild publishes from main has passed every check.
@@ -52,7 +52,7 @@ The sync in `buildspec.yml` sets how long browsers and CloudFront may keep each 
 | files | Cache-Control |
 |---|---|
 | `/_next/static/` (file names carry a content hash) | `public, max-age=31536000, immutable` |
-| other assets (`/assets/`, fonts, images, `.mjs` modules) | `public, max-age=300` |
+| other files (images, CSV exports, any `.mjs` module) | `public, max-age=300` |
 | pages and data (`.html`, `.json`, `.txt`) | `public, max-age=0, must-revalidate` |
 
 Pages and data upload last, so a page never names a file that is not in the bucket yet, and the invalidation of `/*` clears CloudFront's copies at the end of every deploy. `.mjs` files are uploaded with a JavaScript content type, because browsers refuse a module script served as anything else.
@@ -62,7 +62,7 @@ Pages and data upload last, so a page never names a file that is not in the buck
 A push to main deploys. To check an artifact before it ships, build and serve it locally with the same path rules as the distribution:
 
 ```bash
-cd GABF-Analysis && npm ci && npm run web:install && npm run build && npm run build:standalone && npm run web:build && npm run site:assemble && npm run site:serve
+cd GABF-Analysis && npm ci && npm run web:install && npm run build:standalone && npm run web:build && npm run site:assemble && npm run site:serve
 ```
 
 To publish by hand, with AWS credentials allowed to write the bucket and invalidate the distribution (the owner's, not stored here), run the four sync commands and the invalidation in the `post_build` phase of `buildspec.yml` from the repository root after the build above. Starting the CodeBuild project from the AWS console on main does the same with the project's own role.
@@ -83,7 +83,7 @@ These are build outputs and are not in git: `gabf-dashboard.html`, `docs/design/
 
 ## url-map
 
-The deploy lays the web/ export over the old static site (`scripts/assemble-site.mjs`). A web/ route replaces an old page at the same path; the assembly log lists any it replaces. Every page route is now a web/ route, so the only files the old build still contributes are its `/assets/` folder.
+The deploy publishes the web/ export with the single file dashboard beside it (`scripts/assemble-site.mjs`). The old static page build was retired in issue #141; nothing of it is published.
 
 | URL | serves |
 |---|---|
@@ -91,12 +91,9 @@ The deploy lays the web/ export over the old static site (`scripts/assemble-site
 | `/overview/`, `/dashboards/`, `/breweries/`, `/categories/`, `/beers/`, `/hops/`, `/hop-farms/`, `/analysis/`, `/first-time-medalists/`, `/saved/`, `/method/`, `/about/`, `/data/` | the web/ app |
 | `/reports/`, `/reports/<slug>/`, `/explorer/` | web/ pages that forward to their new address under `/analysis/`, keeping the URL hash |
 | `/design-system/`, `/design-settings/` | the web/ style guide and its settings |
-| `/404.html` | the web/ not found page, also served for any address with no file |
-| `/assets/` | the old static site's assets, the one part of dist/ still published |
+| `/404.html` | the web/ not found page, also served for any address with no file, including the retired `/assets/` files |
 | `/gabf-dashboard.html` | the single file dashboard |
-
-The assembler still copies the old overview dashboard to `/overview/` (`relocateOverview`), but the web/ overview route is laid over it, so that step no longer reaches the published site. Retiring the old site build is an owner decision.
 
 ## base-path
 
-The web/ build reads `NEXT_BASE_PATH` (web/next.config.ts). The site serves at the domain root, so `buildspec.yml`, ci, and local builds leave it empty. The old static site uses relative links and works under any base.
+The web/ build reads `NEXT_BASE_PATH` (web/next.config.ts). The site serves at the domain root, so `buildspec.yml`, ci, and local builds leave it empty.

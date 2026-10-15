@@ -1,18 +1,17 @@
 #!/usr/bin/env node
-// The local review server: the review build of the site, the design control plane, and the
-// feedback store, on one origin bound to 127.0.0.1 only.
+// The local review server: the web review build of the site, the design control plane, and the
+// feedback store, on one origin bound to 127.0.0.1 only. Its command line is web/scripts/review-server.mjs
+// (npm run review and npm run web:review); this module is the server those start and the tests boot.
 //
-//   node scripts/review-server.mjs [--port 4173]
-//
-//   /site/...        the review build (dist-review/), with the page picker the control plane drives
-//   /site-slow/...   the same, with data/*.json held back, so loading states can be reviewed
-//   /site-fail/...   the same, with data/*.json answered 503, so error states can be reviewed
+//   /                the web review build (web/out-web-review), with the review widget on every page; a page
+//                    opened with ?review-state=slow or fail has its data/*.json held back or answered 503
+//   /control-plane/  the design control plane, whose screens frame the pages above
 //   /review/...      the feedback panel's endpoints: lists, regions, derive links, preview a copy
 //                    change, register a ticket, list and edit tickets, and the in place editor's
 //                    resolve (which text is page copy) and save (a copy edit with one spot)
 //   /review/design-system/...  a read only view of .design/design-system/ and nothing outside it: a
 //                    Markdown file as a readable page, any other file as it is
-//   everything else  the prototype (docs/design/prototype) and the sketches (docs/design/sketches)
+//   /sketches/...    the sketches (docs/design/sketches); with no web build, the prototype is at the root
 //
 // One origin is the point: the control plane can reach into its live frame to open the Filters
 // panel or an estimate note, and the frame can post picked spots back, which a second port would
@@ -24,11 +23,9 @@
 // imported read only.
 
 import { createServer } from 'node:http';
-import { execFileSync } from 'node:child_process';
-import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
+import { createReadStream, existsSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
-import { ROOT, parseArgs } from './lib/paths.mjs';
-import { engine } from './lib/agent-graph.mjs';
+import { ROOT } from './lib/paths.mjs';
 import { addTicket, editTicket, feedbackDirOf, findTicket, listTickets, loadCategories, patchTicket } from './lib/review-store.mjs';
 import { jobFor, queueDirOf, readQueue } from './lib/feedback-queue.mjs';
 import { readFileSync as readText } from 'node:fs';
@@ -55,12 +52,6 @@ function readBody(req) {
   });
 }
 
-// The review site is rebuilt after a copy change so the framed page shows the new words at once.
-function rebuildWith(root, dist, cmsDir) {
-  return () => {
-    execFileSync(process.execPath, [resolve(root, 'scripts/build-site.mjs')], { cwd: root, env: { ...process.env, GABF_FEEDBACK: '1', GABF_DIST: dist, GABF_CMS_DIR: cmsDir }, stdio: 'ignore' });
-  };
-}
 
 // What the panel shows for a ticket's journey through the pipeline.
 export function pipelineStatus(job, data, repo = 'klappe-pm/GABF-Analysis') {
@@ -95,13 +86,14 @@ export function pipelineStatus(job, data, repo = 'klappe-pm/GABF-Analysis') {
 // its ticket in the same store as the feedback tickets, so ids never collide), and the settings files, live,
 // at /design-settings/.
 export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild = null, env = process.env, capture = null, pipeline = null, webDir = null, design = null } = {}) {
-  const siteDir = resolve(root, env.GABF_REVIEW_DIST || 'dist-review');
   const webRoot = webDir ? resolve(root, webDir) : null;
   const prototypeDir = resolve(root, 'docs/design/prototype');
   const sketchesDir = resolve(root, 'docs/design/sketches');
   const feedbackDir = feedbackDirOf(root, env);
   const cmsDir = cmsDirOf(root, env);
-  const doRebuild = rebuild ?? rebuildWith(root, siteDir, cmsDir);
+  // The site is built again after a copy change so the page shows the new words; the command line passes the web
+  // review build (web/scripts/review-server.mjs). Without one the copy files change and the page waits for a rebuild.
+  const doRebuild = rebuild ?? (() => { throw new Error('no rebuild for this server'); });
   const queueDir = queueDirOf(root, env);
   let server = null;
 
@@ -161,11 +153,8 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     const page = screen ? screen.page : '';
     const copy = loadCopy(cmsDir);
     const inventory = loadInventory(cmsDir);
-    // The entry the build reads comes first, so an edit lands on the key that draws the element
-    // (the build records its reads in review-copy-keys.json); then the reviewed page, then shared.
-    let read = new Set();
-    try { read = new Set(JSON.parse(readFileSync(resolve(siteDir, 'review-copy-keys.json'), 'utf8'))); } catch { read = new Set(); }
-    const rank = (e) => (read.has(e.key) ? 0 : e.key.startsWith(`pages.${page}.`) ? 1 : e.key.startsWith('global.') ? 2 : 3);
+    // The entry of the page under review comes first, then a shared one, so an edit lands on the key that draws it.
+    const rank = (e) => (e.key.startsWith(`pages.${page}.`) ? 0 : e.key.startsWith('global.') ? 1 : 2);
     const out = {};
     for (const text of (Array.isArray(body.texts) ? body.texts : []).slice(0, 400).map(String)) {
       const hits = matchContent(text, copy, inventory).filter((e) => e.match === 'exact' || e.match === 'inventory').sort((a, b) => rank(a) - rank(b));
@@ -265,26 +254,6 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       .map((t) => ({ id: t.id, title: t.data.title, status: t.data.status, step: t.data.step, page: t.page, spots: (t.data.spots ?? []).length, revised: t.data.revised, pipeline: pipelineStatus(jobFor(queueDir, t.id), t.data), images: (t.data.images ?? []).map((i) => ({ kind: i.kind, spot: i.spot, name: basename(i.path), url: `/review/feedback-image/${t.id}/${basename(i.path)}` })) }));
   }
 
-  function serveSite(req, res, served, rest) {
-    if (!existsSync(siteDir)) return send(res, 503, `The review build is missing at ${siteDir}. Run: npm run review:build`, 'text/plain; charset=utf-8');
-    let path = decodeURIComponent(rest || '/');
-    if (path.endsWith('/')) path += 'index.html';
-    let file = normalize(join(siteDir, path));
-    if (!file.startsWith(siteDir)) return send(res, 403, 'outside the site', 'text/plain; charset=utf-8');
-    if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
-    if (!existsSync(file)) return send(res, 404, 'not found', 'text/plain; charset=utf-8');
-    const isData = path.startsWith('/data/');
-    if (isData && served === 'site-fail') return send(res, 503, 'data withheld by the review server for an error state', 'text/plain; charset=utf-8');
-    if (isData && served === 'site-slow') {
-      const timer = setTimeout(() => send(res, 503, 'data held back for a loading state', 'text/plain; charset=utf-8'), HOLD_MS);
-      req.on('close', () => clearTimeout(timer));
-      return undefined;
-    }
-    res.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream', 'cache-control': 'no-store' });
-    createReadStream(file).pipe(res);
-    return undefined;
-  }
-
   // The web review build as the static export lays it out: a folder address serves its index.html, and an
   // address with no page serves 404.html with a 404 status.
   function serveWeb(req, res, pathname) {
@@ -317,11 +286,6 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
 
   server = createServer(async (req, res) => {
     const url = new URL(req.url, `http://${HOST}`);
-    const site = /^\/(site|site-slow|site-fail)(\/.*)?$/.exec(url.pathname);
-    if (site) {
-      if (!site[2]) { res.writeHead(302, { location: `/${site[1]}/` }); return res.end(); }
-      return serveSite(req, res, site[1], site[2]);
-    }
     if (url.pathname.startsWith(VIEW_PREFIX)) {
       if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'method not allowed', 'text/plain; charset=utf-8');
       const file = designSystemFile(root, url.pathname.slice(VIEW_PREFIX.length));
@@ -411,45 +375,4 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
     return createReadStream(file).pipe(res);
   });
   return server;
-}
-
-if (import.meta.url === `file://${process.argv[1]}`) {
-  const args = parseArgs(process.argv.slice(2));
-  const PORT = Number(args.port ?? 4173);
-  const fb = await engine('design-feedback.mjs');
-  const on = process.env.GABF_FEEDBACK_PIPELINE !== 'off';
-  let runner = null;
-  let watcher = null;
-  let pipeline = null;
-  if (on) {
-    const { buildContext, createRunner } = await import('./feedback-pipeline.mjs');
-    const { enqueue, queueDirOf: qd, readQueue: rq, updateJob: uj, watchStore } = await import('./lib/feedback-queue.mjs');
-    const ctx = buildContext({ sanitize: fb.sanitize });
-    // A job that was running when the server stopped did not finish; it waits for a person.
-    for (const j of rq(ctx.queueDir).jobs) if (['issue', 'in progress', 'pr'].includes(j.state)) uj(ctx.queueDir, j.id, { state: 'needs attention', error: 'interrupted before it finished' });
-    runner = createRunner(ctx);
-    pipeline = { enqueue: (id) => enqueue(ctx.queueDir, id), kick: () => runner.kick() };
-    watcher = watchStore({ storeDir: ctx.storeDir, queueDir: qd(ROOT), onQueued: () => runner.kick() });
-    runner.kick();
-    // Owner answers: ask GitHub for answers on open decision issues, away from the server's own loop.
-    const { spawn } = await import('node:child_process');
-    const poll = () => {
-      const child = spawn(process.execPath, [resolve(ROOT, 'scripts/decisions.mjs'), 'poll'], { cwd: ROOT, stdio: 'ignore' });
-      child.on('exit', () => runner.kick());
-    };
-    poll();
-    setInterval(poll, Number(process.env.GABF_DECISION_POLL_MS || 120000)).unref();
-  }
-  const { loadPlaywright, chromiumPath, captureImages } = await import('./lib/feedback-capture.mjs');
-  const capture = async (job) => captureImages({ ...job, playwright: await loadPlaywright({ root: ROOT }), executablePath: chromiumPath() });
-  const server = createReviewServer({ port: PORT, sanitize: fb.sanitize, capture, pipeline });
-  process.on('SIGINT', () => { watcher?.close(); process.exit(0); });
-  server.listen(PORT, HOST, () => {
-    console.log(`Review server on http://${HOST}:${PORT}/ (bound to ${HOST} only)`);
-    console.log(`  the design control plane: http://${HOST}:${PORT}/`);
-    console.log(`  the review build of the site: http://${HOST}:${PORT}/site/`);
-    console.log(`  tickets are written as Markdown under ${feedbackDirOf(ROOT)}`);
-    console.log(`  the feedback pipeline is ${on ? 'on: a saved ticket becomes an issue and a pull request' : 'off (GABF_FEEDBACK_PIPELINE=off)'}`);
-    console.log('  open Feedback in the control plane bar; Escape closes the panel');
-  });
 }

@@ -4,7 +4,7 @@
 
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { breweryInfo, foldCategory } from '../../../scripts/build-site.mjs';
+import { breweryInfo, foldCategory } from '../../../scripts/lib/site-payload.mjs';
 import { TILES } from '../../../scripts/chart-gallery/data.mjs';
 import { readCsvRecords } from '../../../scripts/lib/csv.mjs';
 import { categoryFold } from '../../../scripts/lib/data-model.mjs';

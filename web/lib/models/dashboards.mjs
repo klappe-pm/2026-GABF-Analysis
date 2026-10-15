@@ -7,7 +7,7 @@
 
 import { readdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { breweryInfo, explainEstimate } from '../../../scripts/build-site.mjs';
+import { breweryInfo, explainEstimate } from '../../../scripts/lib/site-payload.mjs';
 import { TILES } from '../../../scripts/chart-gallery/data.mjs';
 import { REFERENCE, RESULTS } from '../../../scripts/lib/paths.mjs';
 import { site } from '../site-model.mjs';

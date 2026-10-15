@@ -34,13 +34,12 @@ test('the chart series are distinct hues that pass contrast and color vision che
   for (const r of m.seriesSeparation) assert.ok(r.pass, `series ${r.a} and ${r.b} under ${r.vision}: ${r.delta}`);
 });
 
-test('the fonts are self hosted with their licenses, and every page loads them', () => {
+test('the fonts are self hosted with their licenses, and the stylesheet uses them', () => {
   for (const f of ['public-sans-latin-wght-normal.woff2', 'public-sans-latin-ext-wght-normal.woff2', 'public-sans-latin-wght-italic.woff2', 'archivo-narrow-latin-wght-normal.woff2']) {
     assert.ok(readFileSync(resolve(ROOT, 'site/assets/fonts', f)).length > 1000, f);
   }
   for (const f of ['public-sans-ofl.txt', 'archivo-narrow-ofl.txt']) assert.match(read(`site/assets/fonts/${f}`), /SIL Open Font License, Version 1\.1/);
   assert.match(read('site/assets/fonts.css'), /font-display: swap/);
-  assert.match(read('scripts/build-site.mjs'), /assets\/fonts\.css/);
   assert.match(read('site/assets/styles.css'), /font-family: var\(--brand-font-plain\)/);
 });
 
@@ -60,7 +59,7 @@ const SURFACES = [
     .filter((f) => /\.(css|mjs|js)$/.test(f) && f !== 'brand.css')
     .map((f) => `site/assets/${f}`),
   'site/standalone/template.html',
-  'scripts/build-site.mjs',
+  'scripts/lib/site-payload.mjs',
   'scripts/build-standalone.mjs',
   'scripts/build-chart-gallery.mjs',
   ...readdirSync(resolve(ROOT, 'scripts/chart-gallery')).map((f) => `scripts/chart-gallery/${f}`),

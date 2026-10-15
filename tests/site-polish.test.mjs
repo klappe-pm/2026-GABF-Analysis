@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { gsbColumn, gsbText, humanize, humanizeHeadings, statTile, tableHtml } from '../site/assets/charts.mjs';
-import { explainEstimate, foldCategory } from '../scripts/build-site.mjs';
+import { explainEstimate, foldCategory } from '../scripts/lib/site-payload.mjs';
 import { estMark, explainHtml } from '../site/assets/estimates.mjs';
 
 const PARAMS = { barrels_by_brewery_type: { brewpub: 1200, default: 1500 }, barrels_per_additional_location: 600, food_revenue_per_kitchen_location: 1200000, ebitda_margin_range_by_channel: { taproom: [0.08, 0.24], 'self-distribution': [0.05, 0.11], default: [0.02, 0.24] } };

@@ -10,9 +10,6 @@ export const ENRICHED = resolve(DATA, 'enriched');
 export const CACHE = resolve(DATA, 'cache');
 export const BREWERIES = resolve(ROOT, 'breweries');
 export const SITE = resolve(ROOT, 'site');
-// GABF_DIST redirects the build output; the review build writes to dist-review/ so the public
-// dist/ never holds a review page.
-export const DIST = process.env.GABF_DIST ? resolve(ROOT, process.env.GABF_DIST) : resolve(ROOT, 'dist');
 export const REPORTS = resolve(ROOT, 'reports');
 
 export function parseArgs(argv) {

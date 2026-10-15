@@ -37,15 +37,6 @@ test('no ticket records a phone device', () => {
   assert.match(read('dom.ts'), /export const deviceOf = \(\): 'tablet' \| 'desktop' =>/);
 });
 
-// The old static review path runs inside the design control plane, where a phone width frame is a design
-// preview and stays usable, but a ticket made from it carries no device.
-test('the static review widget sends no phone device', () => {
-  const widget = readFileSync(resolve(ROOT, 'site/review/feedback-widget.mjs'), 'utf8');
-  assert.doesNotMatch(widget, /'phone'/, 'feedback-widget.mjs never sends a phone device');
-  assert.match(widget, /const PHONE_QUERY = '\(max-width: 40rem\)'/, 'same breakpoint as the web widget');
-  assert.match(widget, /device: deviceOf\(\)/);
-});
-
 // The control plane files no ticket of its own: its Feedback button opens the widget inside the framed page, which
 // sends the device rules above.
 test('the control plane Feedback entry opens the framed page widget and posts no ticket', () => {

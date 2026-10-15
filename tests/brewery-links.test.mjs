@@ -7,7 +7,7 @@ import { mkdtempSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { loadDataset } from '../scripts/lib/data-model.mjs';
-import { breweryLinks, currentBeersHtml } from '../scripts/build-site.mjs';
+import { breweryLinks, currentBeersHtml } from '../scripts/lib/site-payload.mjs';
 import { readCsvRecords } from '../scripts/lib/csv.mjs';
 import { ROOT } from '../scripts/lib/paths.mjs';
 

@@ -1,8 +1,8 @@
 // Build time data for every page. Pages import from here, never from scripts/ directly.
 //
 // The data comes from site-model.mjs, which runs the repository's own pipeline (scripts/lib/data-model.mjs
-// and the decoration in scripts/build-site.mjs). It is loaded with Node's own import rather than bundled,
-// so the pipeline resolves its files exactly as it does in the Node build, and one dataset load serves
+// and the decoration in scripts/lib/site-payload.mjs). It is loaded with Node's own import rather than bundled,
+// so the pipeline resolves its files exactly as it does in the Node scripts, and one dataset load serves
 // every page a build worker renders.
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';

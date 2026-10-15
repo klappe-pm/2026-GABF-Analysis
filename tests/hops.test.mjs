@@ -1,7 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { buildHopModel, growerRecords, hopEntries, normRecord, sourceOf, detailFields } from '../scripts/lib/hops.mjs';
-import { createHopPages } from '../scripts/lib/hop-pages.mjs';
 import { loadSiteCopy } from '../scripts/lib/site-copy.mjs';
 import { matchKey } from '../scripts/lib/winner-profiles.mjs';
 import { applyFilters, FILTERS, optionList, parseHash, pickState, resolveState, STATE_KEYS } from '../site/assets/filter-bar.mjs';
@@ -80,49 +79,6 @@ test('a farm the brewery named is a direct link and is never read as grown by', 
   assert.equal(m.farmBySlug.get('alpha-ranch').named.has('001-a'), false);
   // A lot that matches no known farm is text only: no farm link is guessed.
   assert.equal(m.beers.get('001-c').usage.find((u) => u.canonical === 'Mosaic').farm, null);
-});
-
-test('rendered pages keep the two farm link kinds in separate, labelled tables', () => {
-  const m = model();
-  const out = new Map();
-  const COPY = loadSiteCopy();
-  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026 });
-  pages.writeAll();
-  const beta = out.get('hop-farms/beta-farm/index.html');
-  const [named, grown] = beta.split(COPY('pages.hop-farm-detail.grown.title', { year: 2026 }));
-  assert.match(named, /beers\/2026\/001-a\//, 'the named table lists Beer A');
-  assert.ok(!/beers\/2026\/001-a\//.test(grown), 'the grown table never lists a beer only named by the farm');
-  assert.ok(grown.includes('beers/2026/001-b/'));
-  const alpha = out.get('hop-farms/alpha-ranch/index.html');
-  const [aNamed, aGrown] = alpha.split(COPY('pages.hop-farm-detail.grown.title', { year: 2026 }));
-  assert.ok(!/beers\/2026\/001-a\//.test(aNamed), 'a grown by farm is not shown as named');
-  assert.match(aNamed, new RegExp(COPY('pages.hop-farm-detail.named.missing', { year: 2026 })));
-  assert.match(aGrown, /beers\/2026\/001-a\//);
-  // The beer page labels the direct farm link and keeps the grown by farms apart.
-  const html = pages.beerHopHtml(m.beers.get('001-a'), { r: '../../../' });
-  assert.match(html, new RegExp(`${COPY('pages.beer-detail.hop_profile.named_label')}`));
-  assert.match(html, /hop-farms\/beta-farm\//);
-  assert.match(html, /<details[\s\S]*hop-farms\/alpha-ranch\//);
-  // Beer C names no known farm: the lot shows as text and the named label is absent.
-  const c = pages.beerHopHtml(m.beers.get('001-c'), { r: '../../../' });
-  assert.match(c, /Lot 42/);
-  assert.ok(!c.includes(COPY('pages.beer-detail.hop_profile.named_label')));
-});
-
-test('every variety page lists every beer that uses it', () => {
-  const m = model();
-  const out = new Map();
-  const COPY = loadSiteCopy();
-  createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026 }).writeAll();
-  for (const v of m.varieties) {
-    const html = out.get(`hops/${v.slug}/index.html`);
-    const expected = [...m.beers.values()].filter((b) => b.usage.some((u) => u.variety === v));
-    assert.ok(expected.length > 0);
-    for (const b of expected) assert.ok(html.includes(`beers/2026/${b.stem}/`), `${v.name} lists ${b.stem}`);
-  }
-  assert.ok(out.has('hops/index.html') && out.has('hop-farms/index.html'));
-  assert.match(out.get('hops/citra/index.html'), /citrus/);
-  assert.match(out.get('hops/citra/index.html'), /example\.org\/aroma/);
 });
 
 test('the hop filters narrow the medal rows and offer only options that match', () => {
@@ -207,18 +163,4 @@ test('a beer profile card carries the fields, linked hop chips, a sourced tastin
   assert.equal(excerpt('short'), 'short');
   delete profiles[0].fm['tasting-notes'];
   delete profiles[0].fm.style;
-});
-
-test('the hops index, variety, farm and beer pages draw profile cards', () => {
-  const r = rows();
-  const m = model(r);
-  r.forEach((x, i) => { x.beer_profile = `beers/2026/${profiles[i].stem}/`; });
-  const out = new Map();
-  const COPY = loadSiteCopy();
-  const pages = createHopPages({ model: m, ds: { stateByCode: {} }, layout: ({ body }) => body, write: (p, html) => out.set(p, html), COPY, renderMarkdownBody: (b) => b, registerDocs: () => {}, notDefined: 'Not Found', year: 2026, meta: null });
-  pages.writeAll();
-  assert.match(out.get('hops/index.html'), /hop-profile-card/);
-  assert.match(out.get('hops/citra/index.html'), /beer-profile-card/);
-  assert.match(out.get('hop-farms/alpha-ranch/index.html'), /hop-profile-card[\s\S]*beer-profile-card/);
-  assert.match(pages.beerHopHtml(m.beers.get('001-a'), { r: '../../../' }), /hop-profile-card/);
 });
