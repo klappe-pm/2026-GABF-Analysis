@@ -101,13 +101,13 @@ test('the chart card builds its table view from rows and columns the caller supp
   assert.match(src, /if \(props\.rows && props\.columns\) return \{ rows: props\.rows, columns: props\.columns \}/);
   assert.match(src, /table=\{\{ caption: title, columns: table\.columns, rows: table\.rows, scroll: true \}\}/);
   // The one chart card every chart renders through draws the table view under a disclosure.
-  const shell = readFileSync(resolve(WEB, 'components/ChartShell.tsx'), 'utf8');
+  const shell = readFileSync(resolve(WEB, 'components/ChartCard.tsx'), 'utf8');
   assert.match(shell, /<details/);
   assert.match(shell, /<DataTable caption=\{table\.caption\} scroll=\{table\.scroll \?\? false\} columns=\{table\.columns\} rows=\{table\.rows\}/);
 });
 
 test('the chart card and its presets hold no color literal', () => {
-  for (const f of ['components/ChartCard.tsx', 'components/ChartShell.tsx', 'design/chart-kit.ts', 'design/chart-presets.ts', 'design/echarts-theme.ts']) {
+  for (const f of ['components/ChartCard.tsx', 'design/chart-kit.ts', 'design/chart-presets.ts', 'design/echarts-theme.ts']) {
     assert.deepEqual(rawColorProblems(readFileSync(resolve(WEB, f), 'utf8')), [], f);
   }
 });

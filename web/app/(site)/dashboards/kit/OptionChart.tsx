@@ -1,10 +1,10 @@
 'use client';
 
 // A dashboard chart: a spec whose builder (kit/charts.ts) makes an ECharts option for the card's width, drawn on the
-// one chart card (web/components/ChartShell.tsx) with the dashboards' base (no animation, a transparent background,
+// one chart card (web/components/ChartCard.tsx) with the dashboards' base (no animation, a transparent background,
 // the kit's text) under the builder's option, a legend of the drawn marks, and a control that saves it as an image.
 import { useCallback, type ReactNode } from 'react';
-import { ChartShell, type Built, type ChartOption, type LegendItem } from '@/components/ChartShell';
+import { ChartShell, type Built, type ChartOption, type LegendItem } from '@/components/ChartCard';
 import type { Column, Row } from '@/components/DataTable';
 import type { Kit } from '@/design/chart-kit';
 

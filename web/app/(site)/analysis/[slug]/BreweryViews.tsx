@@ -15,7 +15,7 @@ import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { BreweryInfo } from '@/lib/models/analysis.mjs';
 import { BarCard } from '@/app/(site)/analysis/parts/charts';
 import { Plot } from '@/app/(site)/analysis/parts/Plot';
-import { dotPlot, fmtN, stackedBars } from '@/app/(site)/dashboards/kit/charts';
+import { dotPlot, fmtN, labelColumn, stackedBars } from '@/app/(site)/dashboards/kit/charts';
 import { LazyEstimate } from '@/app/(site)/analysis/parts/LazyEstimate';
 import { compact, fill, num, percent, usd, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
@@ -88,7 +88,7 @@ export function TopBreweriesView({ rows, info, streaks, meta, copy, firstComplet
             labels: leaders.map((b) => b.name),
             series: (['Gold', 'Silver', 'Bronze'] as const).map((m, i) => ({ name: med[m] ?? m, data: leaders.map((b) => [b.g, b.s, b.b][i]), color: (k) => k.medal[m] })),
             totals: { values: leaders.map((b) => b.points), format: (n) => `${fmtN(n)} ${copy.chart.valueName.toLowerCase()}` },
-            labelWidth: (w) => (w < 480 ? 108 : 168),
+            labelWidth: labelColumn(108, 168),
             minLabel: 1,
             tip: (i) => `<b>${leaders[i].name}</b><br>${med.Gold ?? 'Gold'} ${leaders[i].g}, ${med.Silver ?? 'Silver'} ${leaders[i].s}, ${med.Bronze ?? 'Bronze'} ${leaders[i].b}<br>${fmtN(leaders[i].points)} ${copy.chart.valueName.toLowerCase()}`,
           })}
@@ -191,7 +191,7 @@ export function EconomicsView({ rows, info, copy, firstCompleteYear }: { rows: R
         subtitle={copy.chart.subtitle}
         chrome={copy.view.chrome}
         tableSummary={copy.chart.tableSummary}
-        build={dotPlot({ items: dots.map((b) => ({ name: b.slug, label: b.name, value: b.arr ?? 0 })), format: (n) => `$${compact(n)}`, labelWidth: (w) => (w < 480 ? 112 : 220) })}
+        build={dotPlot({ items: dots.map((b) => ({ name: b.slug, label: b.name, value: b.arr ?? 0 })), format: (n) => `$${compact(n)}`, labelWidth: labelColumn(112, 220) })}
         table={{ columns: [{ key: 'brewery', label: copy.chart.labelHeader, sortable: true }, { key: 'arr', label: copy.columns.arr, numeric: true, sortable: true }], rows: dots.map((b) => ({ key: b.key, sort: { brewery: b.name, arr: b.arr ?? 0 }, cells: { brewery: <TextLink href={href(paths.brewery(b.slug))}>{b.name}</TextLink>, arr: usd(b.arr) } })), initialSort: { key: 'arr', dir: 'descending' } }}
       />
       <section className="flex flex-col gap-3" aria-labelledby="all-medalists">

@@ -1,5 +1,5 @@
 // The colors and type every chart draws with, read from the theme's custom properties each time a chart draws
-// (so a chart redrawn after the settings load picks up the scheme). The chart card (web/components/ChartShell.tsx)
+// (so a chart redrawn after the settings load picks up the scheme). The chart card (web/components/ChartCard.tsx)
 // reads it and hands it to the chart's builder. The base is readTheme in web/design/echarts-theme.ts, kept whole as
 // theme for the preset charts; this adds what the other chart types need: the medal metals, a sequential scale built
 // from the primary container, and the text color that reads on each fill.

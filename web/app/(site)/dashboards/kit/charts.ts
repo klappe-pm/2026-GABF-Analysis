@@ -53,7 +53,7 @@ export function stackedBars(o: {
 }) {
   return (kit: Kit, w: number): Built => {
     const narrow = w < NARROW;
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 92 : 112)))(w);
+    const left = (o.labelWidth ?? labelColumn(92, 112))(w);
     const rowTotals = o.labels.map((_, i) => o.series.reduce((s, x) => s + (x.data[i] || 0), 0));
     const share = (v: number, i: number) => (rowTotals[i] ? Math.round((v / rowTotals[i]) * 1000) / 10 : 0);
     const series: Record<string, unknown>[] = o.series.map((x) => {
@@ -102,7 +102,7 @@ export function stackedBars(o: {
 export type RankItem = { name: string; label?: string; value: number; color: (kit: Kit) => string; tip?: string };
 export function rankedBars(o: { items: RankItem[]; format?: (n: number) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 100 : 168)))(w);
+    const left = (o.labelWidth ?? labelColumn(100, 168))(w);
     const format = o.format ?? fmtN;
     return {
       height: rowsHeight(o.items.length, 22),
@@ -125,7 +125,7 @@ export function rankedBars(o: { items: RankItem[]; format?: (n: number) => strin
 // A thin stem and a dot at the end: the pooled value of each row, ranked.
 export function lollipop(o: { items: { name: string; label?: string; value: number; tip?: string }[]; format?: (n: number) => string; color?: (kit: Kit) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const format = o.format ?? fmtN;
     const dot = (o.color ?? ((k: Kit) => k.series[0]))(kit);
     const max = Math.max(1, ...o.items.map((i) => i.value));
@@ -149,7 +149,7 @@ export function lollipop(o: { items: { name: string; label?: string; value: numb
 // not as a count. The dot sits on a value axis that starts at zero.
 export function dotPlot(o: { items: { name: string; label?: string; value: number; tip?: string }[]; format?: (n: number) => string; color?: (kit: Kit) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const format = o.format ?? fmtN;
     const dot = (o.color ?? ((k: Kit) => k.series[2]))(kit);
     const max = Math.max(1, ...o.items.map((i) => i.value));
@@ -260,7 +260,7 @@ export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string;
 export function heatmap(o: { rows: string[]; cols: string[]; cells: (number | null)[][]; bins: (kit: Kit) => Bin[]; tip: (row: number, col: number, value: number) => string; format?: (n: number) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
     const narrow = w < NARROW;
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const set = o.bins(kit);
     const format = o.format ?? ((n: number) => String(Math.round(n)));
     const data: unknown[] = [];
@@ -302,7 +302,7 @@ export function scatter(o: { points: { name: string; x: number; y: number }[]; x
 }
 
 // ---------- the analysis report charts ----------
-// Horizontal bars, stacked columns and the state map of the category and analysis pages. They draw on the report base
+// Horizontal bars and stacked columns of the category and analysis pages. They draw on the report base
 // below, which keeps their own look: axis labels in the secondary text color and a tooltip in the inverse surface.
 
 // The option every report chart starts from, read from the theme as drawn.
@@ -362,27 +362,6 @@ export function reportStacked(o: { labels: (string | number)[]; series: { name: 
         tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
         xAxis: { ...base.xAxis, data: o.labels.map((l, i) => (o.notes?.[i] ? `${l}\n${o.notes[i]}` : String(l))) },
         series: o.series.map((x, i) => ({ type: 'bar', stack: 'total', name: x.name, data: x.values, barMaxWidth: 36, itemStyle: { color: seriesFill(kit, i), borderColor: kit.theme.container, borderWidth: 0.5 } })),
-      },
-    };
-  };
-}
-
-// The United States by state, shaded from the primary container to Series 1 by value.
-export function stateMap(o: { data: { name: string; value: number }[]; valueName: string; tooltip: (d: { name: string; value: number }) => string; registerMap: () => Promise<void> }) {
-  return async (kit: Kit): Promise<Built> => {
-    await o.registerMap();
-    const base = reportBase(kit);
-    const t = kit.theme;
-    const top = Math.max(1, ...o.data.map((d) => d.value));
-    const container = kit.role('primary-container');
-    return {
-      option: {
-        backgroundColor: base.backgroundColor,
-        animation: false,
-        textStyle: base.textStyle,
-        tooltip: { ...base.tooltip, trigger: 'item', formatter: (p: { name: string; value: number }) => o.tooltip({ name: p.name, value: Number.isFinite(p.value) ? p.value : 0 }) },
-        visualMap: { min: 0, max: top, left: 8, bottom: 8, orient: 'horizontal', calculable: false, text: [String(top), '0'], textStyle: { color: t.onSurfaceVariant, fontFamily: t.family }, inRange: { color: [container, t.series[0]] } },
-        series: [{ type: 'map', map: 'usa', nameProperty: 'name', roam: false, name: o.valueName, data: o.data, label: { show: false }, itemStyle: { borderColor: t.outlineVariant, borderWidth: 1, areaColor: container }, emphasis: { label: { show: false }, itemStyle: { borderColor: t.onSurface, borderWidth: 2 } }, select: { disabled: true } }],
       },
     };
   };

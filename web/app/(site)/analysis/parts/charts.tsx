@@ -1,18 +1,17 @@
 'use client';
 
-// The chart cards of the category and analysis pages that the preset charts do not draw: horizontal bars, stacked
-// columns, and the state map. Each draws a builder from the dashboards kit (kit/charts.ts) on the one chart card
-// (web/components/ChartShell.tsx), with its title, a table view of the same numbers, and a description for screen
+// The chart cards of the category and analysis pages that the preset charts do not draw: horizontal bars and stacked
+// columns. Each draws a builder from the dashboards kit (kit/charts.ts) on the one chart card
+// (web/components/ChartCard.tsx), with its title, a table view of the same numbers, and a description for screen
 // readers.
-import { useCallback, useMemo, useRef } from 'react';
-import * as echarts from 'echarts/core';
-import { ChartShell } from '@/components/ChartShell';
+import { useMemo } from 'react';
+import { ChartShell } from '@/components/ChartCard';
 import { type Column, type Row } from '@/components/DataTable';
 import { TextLink } from '@/components/TextLink';
 import { SERIES_COUNT, seriesVar } from '@/design/echarts-theme';
 import { labelFace } from '@/design/helpers';
 import { useDesign } from '@/design/runtime';
-import { reportBars, reportBarsHeight, reportStacked, stateMap } from '@/app/(site)/dashboards/kit/charts';
+import { reportBars, reportBarsHeight, reportStacked } from '@/app/(site)/dashboards/kit/charts';
 
 // The legend swatch of a stacked series: the five series colors of settings.md, then Material containers.
 const EXTRA = ['primary-container', 'tertiary-container', 'secondary-container'];
@@ -81,41 +80,6 @@ export function StackedCard({ labels, series, nameColumn, notes, ...base }: Base
         columns: [{ key: 'name', label: nameColumn }, ...labels.map((l) => ({ key: String(l), label: String(l), numeric: true }))],
         rows: series.map((x) => ({ key: x.name, cells: { name: x.name, ...Object.fromEntries(labels.map((l, i) => [String(l), x.values[i]])) } })),
       }}
-    />
-  );
-}
-
-export type MapDatum = { name: string; value: number };
-
-// The state shapes load with the first map drawn.
-async function registerUsa() {
-  if (echarts.getMap('usa')) return;
-  const { default: geo } = await import('../../../../../site/assets/us-states.geo.json');
-  if (!echarts.getMap('usa')) echarts.registerMap('usa', geo as never);
-}
-
-// The United States by state, shaded by value.
-export function MapCard({ data, valueName, nameColumn, tooltip, ...base }: Base & { data: MapDatum[]; valueName: string; nameColumn: string; tooltip: (d: MapDatum) => string }) {
-  const key = JSON.stringify(data);
-  const { global } = useDesign();
-  // The tooltip text is read when it shows, so a new function from the page does not redraw the map.
-  const said = useRef(tooltip);
-  said.current = tooltip;
-  const tip = useCallback((d: MapDatum) => said.current(d), []);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const build = useMemo(() => stateMap({ data, valueName, tooltip: tip, registerMap: registerUsa }), [key, valueName, tip, global]);
-  const shown = data.filter((d) => d.value).sort((a, b) => b.value - a.value);
-  return (
-    <ChartShell
-      id={base.id}
-      title={base.title}
-      subtitle={base.subtitle}
-      captionNote={base.note}
-      ariaLabel={base.ariaLabel}
-      build={build}
-      height={448}
-      tableSummary={base.tableSummary}
-      table={{ caption: base.title, columns: [{ key: 'name', label: nameColumn }, { key: 'value', label: valueName, numeric: true }], rows: shown.map((d) => ({ key: d.name, cells: { name: d.name, value: d.value.toLocaleString('en-US') } })) }}
     />
   );
 }
