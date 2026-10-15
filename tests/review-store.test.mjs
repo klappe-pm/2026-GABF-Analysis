@@ -68,6 +68,14 @@ test('one ticket carries several spots, each with selector, rect, and element te
   assert.equal(data.spots[1].text, 'Breweries 947');
 });
 
+test('no ticket records a phone device; other devices and the viewport are kept (issue #72)', () => {
+  const phone = parseTicket(readFileSync(addTicket(store(), input({ device: 'phone', viewport: { width: 390, height: 844 } }), { sanitize, categories }).file, 'utf8')).data;
+  assert.equal(phone.device, null);
+  assert.equal(phone.viewport, '390 by 844');
+  const tablet = parseTicket(readFileSync(addTicket(store(), input({ device: 'tablet' }), { sanitize, categories }).file, 'utf8')).data;
+  assert.equal(tablet.device, 'tablet');
+});
+
 test('a ticket with no spots is whole page feedback', () => {
   const dir = store();
   const t = addTicket(dir, input({ spots: [] }), { sanitize, categories });

@@ -207,7 +207,8 @@ export function addTicket(dir, input, { sanitize, categories = [], now = new Dat
     images: (input.images ?? []).map(imageOf),
     ...(input.capture ? { capture: input.capture } : {}),
     issue: input.issue ?? null,
-    device: input.device ?? null,
+    // No ticket records a phone device (owner decision on issue #72), whichever client sent it.
+    device: input.device === 'phone' ? null : input.device ?? null,
     viewport: input.viewport ? `${input.viewport.width} by ${input.viewport.height}` : null,
     build: input.build?.commit ? String(input.build.commit).slice(0, 12) : null,
     ...(input.legacyId ? { 'legacy-id': input.legacyId } : {}),
