@@ -39,15 +39,17 @@ test('no ticket records a phone device', () => {
 
 // The old static review path runs inside the design control plane, where a phone width frame is a design
 // preview and stays usable, but a ticket made from it carries no device.
-test('the static review widget and the control plane panel send no phone device', () => {
+test('the static review widget sends no phone device', () => {
   const widget = readFileSync(resolve(ROOT, 'site/review/feedback-widget.mjs'), 'utf8');
-  const panel = readFileSync(resolve(ROOT, 'scripts/control-plane/feedback-panel.js'), 'utf8');
-  for (const [name, src] of [['feedback-widget.mjs', widget], ['feedback-panel.js', panel]]) {
-    assert.doesNotMatch(src, /'phone'/, `${name} never sends a phone device`);
-  }
+  assert.doesNotMatch(widget, /'phone'/, 'feedback-widget.mjs never sends a phone device');
   assert.match(widget, /const PHONE_QUERY = '\(max-width: 40rem\)'/, 'same breakpoint as the web widget');
   assert.match(widget, /device: deviceOf\(\)/);
-  assert.match(panel, /var PHONE_MAX = 640;/, '40rem in pixels, the frame width the panel reads');
-  const deviceOf = new Function(`${/var PHONE_MAX = \d+;/.exec(panel)[0]} ${/function deviceOf\(width\) \{[^\n]*\}/.exec(panel)[0]} return deviceOf;`)();
-  assert.deepEqual([390, 640, 641, 1023, 1024, 1440].map(deviceOf), [null, null, 'tablet', 'tablet', 'desktop', 'desktop']);
+});
+
+// The control plane files no ticket of its own: its Feedback button opens the widget inside the framed page, which
+// sends the device rules above.
+test('the control plane Feedback entry opens the framed page widget and posts no ticket', () => {
+  const panel = readFileSync(resolve(ROOT, 'scripts/control-plane/feedback-panel.js'), 'utf8');
+  assert.doesNotMatch(panel, /'\/review\/feedback'/);
+  assert.match(panel, /kind: 'open-feedback'/);
 });
