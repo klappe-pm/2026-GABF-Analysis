@@ -3,6 +3,12 @@
 import { OPEN, parse, strip } from './markers.mjs';
 
 export const LAYER = '.gfw-root';
+
+// No feedback is collected at phone width (owner decision on issue #72): below this width the widget shows no
+// Feedback entry and no panel, so a ticket only ever records a tablet or desktop device. review.css hides the
+// layer at the same width.
+export const PHONE_QUERY = '(max-width: 40rem)';
+export const deviceOf = (): 'tablet' | 'desktop' => (innerWidth < 1024 ? 'tablet' : 'desktop');
 const STABLE_ATTRS = ['data-nav', 'data-state', 'data-setting', 'data-gfw-key'];
 
 export type Rect = { x: number; y: number; width: number; height: number };

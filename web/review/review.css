@@ -3,7 +3,8 @@
 :root { --gfw-width: 26rem; }
 
 html.gfw-open body { margin-right: var(--gfw-width); }
-@media (max-width: 40rem) { :root { --gfw-width: 100vw; } }
+/* No feedback at phone width (issue #72): the widget draws nothing and the page keeps its full width. */
+@media (max-width: 40rem) { .gfw-root { display: none; } html.gfw-open body { margin-right: 0; } }
 
 .gfw-root { font: 14px/1.4 system-ui, -apple-system, 'Segoe UI', sans-serif; color: #1c1b1f; }
 .gfw-root *, .gfw-root *::before, .gfw-root *::after { box-sizing: border-box; }
