@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 // Built by concatenation so this file does not hold the phrase it bans.
@@ -28,7 +29,9 @@ test('the design system area never shows the old gap wording', () => {
 
 test('the built design system page shows no old gap wording', (t) => {
   const html = resolve(ROOT, 'web/out/design-system/index.html');
-  if (!existsSync(html)) { t.skip('web/out is not built here; npm run web:build builds it'); return; }
+  // A stale or missing export fails with the rebuild command (a missing one skips in continuous integration).
+  const skip = webOutGate();
+  if (skip) { t.skip(skip); return; }
   assert.ok(!readFileSync(html, 'utf8').includes(OLD));
 });
 

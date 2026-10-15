@@ -3,12 +3,13 @@
 // pipeline's shape under docs/feedback/<page>/, or is refused with a plain reason.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, utimesSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { buildSync } from 'esbuild';
 import { applyDesignEdit, checkDesignEdit, editPage, pageForRoute } from '../scripts/design-system/edit.mjs';
 import { parseTicket } from '../scripts/lib/review-store.mjs';
+import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 import { COMPONENTS_DIR, SETTINGS, WEB, design, splitFrontmatter } from '../scripts/design-system/lib.mjs';
 
 const REVIEW = resolve(WEB, 'components/review');
@@ -76,7 +77,9 @@ test('the public export carries no panel code, and the review export does', (t) 
     return hits;
   };
   const out = resolve(WEB, 'out');
-  if (!existsSync(resolve(out, 'design-system/index.html'))) { t.skip('web/out is not built here; npm run web:build builds it'); return; }
+  // A stale or missing export fails with the rebuild command (a missing one skips in continuous integration).
+  const skip = webOutGate();
+  if (skip) { t.skip(skip); return; }
   assert.deepEqual(scan(out), []);
   const review = resolve(WEB, 'out-review');
   if (existsSync(resolve(review, 'design-system/index.html'))) assert.ok(scan(review).length > 0, 'the review build carries the panel');
@@ -176,10 +179,14 @@ test('a ticket is filed under the page sent, or the page its route names', () =>
 
 const PNG = Buffer.from('89504e470d0a1a0a', 'hex');
 const ticketsIn = (dir) => readdirSync(dir).filter((f) => f.endsWith('.md'));
+// Puts a design file back as it was, its modified time too: the export freshness check
+// (scripts/lib/web-out-fresh.mjs) would otherwise read the restored file as a new source change.
+const keep = (path) => { const text = readFileSync(path, 'utf8'); const { atime, mtime } = statSync(path); return () => { writeFileSync(path, text); utimesSync(path, atime, mtime); }; };
 
 test('a save from a site page writes the setting and files a ticket in the existing shape under that page', async () => {
   const spec = resolve(COMPONENTS_DIR, 'status-chip', 'spec.md');
   const before = readFileSync(spec, 'utf8');
+  const restore = keep(spec);
   const dir = mkdtempSync(join(tmpdir(), 'review-panel-'));
   const current = splitFrontmatter(before).data.Shape;
   const next = current === 'medium' ? 'small' : 'medium';
@@ -206,13 +213,14 @@ test('a save from a site page writes the setting and files a ticket in the exist
     assert.deepEqual(shots.map((s) => [s.target, s.key, s.page, s.route]), [['status-chip', 'Shape', 'brewery-detail', '/breweries/green-cheek-beer-co/']]);
     assert.equal(splitFrontmatter(readFileSync(spec, 'utf8')).data.Shape, next);
   } finally {
-    writeFileSync(spec, before);
+    restore();
     rmSync(dir, { recursive: true, force: true });
   }
 });
 
 test('a site setting saved from a page with no page id is filed under the page its route names', async () => {
   const before = readFileSync(SETTINGS, 'utf8');
+  const restore = keep(SETTINGS);
   const dir = mkdtempSync(join(tmpdir(), 'review-panel-'));
   const current = splitFrontmatter(before).data['Corner shape'];
   const next = current === 'large' ? 'small' : 'large';
@@ -226,7 +234,7 @@ test('a site setting saved from a page with no page id is filed under the page i
     // No capture: the ticket says so instead of linking a missing picture.
     assert.deepEqual(data.images, []);
   } finally {
-    writeFileSync(SETTINGS, before);
+    restore();
     rmSync(dir, { recursive: true, force: true });
   }
 });
@@ -237,6 +245,8 @@ test('an edit from a page is refused with a plain reason and nothing is written'
   const settings = readFileSync(SETTINGS, 'utf8');
   const chip = resolve(COMPONENTS_DIR, 'status-chip', 'spec.md');
   const chipBefore = readFileSync(chip, 'utf8');
+  const restoreSettings = keep(SETTINGS);
+  const restoreChip = keep(chip);
   const dir = mkdtempSync(join(tmpdir(), 'review-panel-'));
   try {
     const cases = [
@@ -260,8 +270,8 @@ test('an edit from a page is refused with a plain reason and nothing is written'
     assert.equal(readFileSync(chip, 'utf8'), chipBefore);
     assert.deepEqual(readdirSync(dir), []);
   } finally {
-    writeFileSync(SETTINGS, settings);
-    writeFileSync(chip, chipBefore);
+    restoreSettings();
+    restoreChip();
     rmSync(dir, { recursive: true, force: true });
   }
 });
