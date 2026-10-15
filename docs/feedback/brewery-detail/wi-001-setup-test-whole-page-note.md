@@ -1,6 +1,6 @@
 ---
 id: WI-001
-status: ACCEPTED
+status: DONE
 title: Setup test, whole page note
 page: brewery-detail
 job: JOB-1
@@ -21,9 +21,14 @@ viewport: 1440 by 900
 build: 63dafc4bee8f
 legacy-id: fb-001
 created: 2026-10-14T18:22:10.691Z
-revised: 2026-10-14T18:22:38.228Z
+revised: 2026-10-15T19:44:14.973Z
 images: []
 issue: null
+resolution:
+  status: DONE
+  change: 113f8ad
+  note: "Setup test that built; marked DONE per the owner's answer on issue 71: did build, so done."
+  at: 2026-10-15T19:44:14.973Z
 ---
 
 Setup test, whole page note. This record checks that a page note reaches the store with its page, filter, viewport, build, and code metadata. It asks for no change to the site.

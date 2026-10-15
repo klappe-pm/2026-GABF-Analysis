@@ -1,6 +1,6 @@
 ---
 id: WI-002
-status: ACCEPTED
+status: DONE
 title: Setup test, targeted note on the brewery name heading
 page: brewery-detail
 job: JOB-1
@@ -30,9 +30,14 @@ viewport: 1440 by 772
 build: 63dafc4bee8f
 legacy-id: fb-002
 created: 2026-10-14T18:22:15.378Z
-revised: 2026-10-14T18:22:38.371Z
+revised: 2026-10-15T19:44:15.142Z
 images: []
 issue: null
+resolution:
+  status: DONE
+  change: 113f8ad
+  note: "Setup test that built; marked DONE per the owner's answer on issue 71: did build, so done."
+  at: 2026-10-15T19:44:15.142Z
 ---
 
 Setup test, targeted note on the brewery name heading. This record checks that a pinned note carries its selector, box, click point, and code location. It asks for no change to the site.
