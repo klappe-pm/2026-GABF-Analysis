@@ -1,6 +1,6 @@
 ---
 id: WI-021
-status: ACCEPTED
+status: DONE
 title: Publish the site at gabf.beer now?
 page: decisions
 job: null
@@ -47,6 +47,13 @@ images: []
 issue: 143
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/143
 kind: decision
+pr: 150
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/150
+resolution:
+  status: DONE
+  change: "pull request #150"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-15T21:06:49.814Z
 ---
 
 Owner decision on issue #143: Publish the site at gabf.beer now?
