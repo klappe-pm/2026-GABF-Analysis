@@ -6,7 +6,7 @@
 import { useCallback, useMemo, useState } from 'react';
 import { FilterChips } from '@/components/FilterChips';
 import { type FilterGroup, FiltersDialog, type FiltersCopy } from '@/components/FiltersDialog';
-import { FILTERS, applyFilters, type FilterState, optionList, pruneState, scopeRows } from '@/lib/filter-model.mjs';
+import { FILTERS, NOT_DEFINED, applyFilters, valueLabel, type FilterState, optionList, pruneState, scopeRows } from '@/lib/filter-model.mjs';
 import { INVESTOR_ON } from '@/lib/flags';
 import { useGlobalFilter } from '@/lib/global-filter';
 
@@ -18,6 +18,8 @@ export type SiteFiltersConfig = {
   groups: Record<string, string>;
   dimensions: Record<string, string>;
   labels: Record<string, Record<string, string>>;
+  // What the option for rows with no value reads (global.labels.not_found).
+  notFound: string;
   all: string;
   withCount: string;
   matchOne: string;
@@ -35,16 +37,19 @@ const NOT_OFFERED = new Set(['fed_district_name']);
 
 const fill = (text: string, values: Record<string, string | number>) => text.replace(/\{\{(\w+)\}\}/g, (m, k) => (k in values ? String(values[k]) : m));
 
-// The label a value shows: the copy's label dictionary first, then the state's name, then the value.
+// The label a value shows: the gap wording for the option that stands for no value, then the copy's label
+// dictionary, then the state's or brewery's name, then the label the filter model gives (cities read "Denver, CO",
+// a slug reads as words), and only then the value itself.
 export function useValueLabel(config: SiteFiltersConfig) {
   const { data } = useGlobalFilter();
-  return useCallback((id: string, value: string) => {
+  return useCallback((id: string, value: string, fallback?: string) => {
+    if (value === NOT_DEFINED) return config.notFound;
     const own = config.labels[id]?.[value];
     if (own) return own;
-    if (id === 'state') return data?.meta.states?.find((s) => s.state === value)?.name ?? value;
-    if (id === 'brewery_key') return String((data?.rows.find((r) => r.brewery_key === value)?.brewery_name as string | undefined) ?? value);
-    return value;
-  }, [config.labels, data]);
+    if (id === 'state') return data?.meta.states?.find((s) => s.state === value)?.name ?? fallback ?? value;
+    if (id === 'brewery_key') return String((data?.rows.find((r) => r.brewery_key === value)?.brewery_name as string | undefined) ?? fallback ?? value);
+    return fallback || valueLabel(id, value, data?.meta) || value;
+  }, [config.labels, config.notFound, data]);
 }
 
 function chipText(config: SiteFiltersConfig, s: FilterState, label: (id: string, v: string) => string) {
@@ -69,7 +74,7 @@ export function useFilterFields(config: SiteFiltersConfig, draft: FilterState) {
     key: GROUP_KEYS[g],
     title: config.groups[GROUP_KEYS[g]],
     fields: FILTERS.filter((d) => d.group === g && (!d.hidden || INVESTOR_ON) && !NOT_OFFERED.has(d.id) && !Object.hasOwn(scope.scope, d.id)).map((d) => {
-      const opts = data ? optionList(pool, d.id, draft).map((o) => ({ value: o.value, label: fill(config.withCount, { label: label(d.id, o.value), count: o.count }) })) : [];
+      const opts = data ? optionList(pool, d.id, draft).map((o) => ({ value: o.value, label: fill(config.withCount, { label: label(d.id, o.value, o.label), count: o.count }) })) : [];
       const current = draft[d.id];
       if (current && !opts.some((o) => o.value === current)) opts.unshift({ value: current, label: label(d.id, current) });
       return { id: d.id, label: config.dimensions[d.id] ?? d.id, options: [{ value: ALL, label: config.all }, ...opts] };

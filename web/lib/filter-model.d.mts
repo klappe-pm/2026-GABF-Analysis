@@ -12,6 +12,10 @@ export function applyFilters<T extends FilterRow>(rows: T[], s?: FilterState): T
 export function hashFor(obj: Record<string, string>): string;
 export function includesPartial(s: FilterState): boolean;
 export function isDefaultState(s: FilterState): boolean;
+// The option that stands for rows holding no value for a dimension.
+export const NOT_DEFINED: string;
+// The filter model's own label for a value: a city as "Denver, CO", a slug as words.
+export function valueLabel(id: string, value: string, meta?: unknown): string;
 export function optionList(scope: FilterRow[], id: string, s?: FilterState, meta?: unknown): Option[];
 export function parseHash(hash: string): Record<string, string>;
 export function pickState(obj: Record<string, unknown> | null | undefined): FilterState;
