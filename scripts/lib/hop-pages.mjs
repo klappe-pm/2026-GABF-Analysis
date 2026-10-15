@@ -269,9 +269,11 @@ ${gaps}`;
       { key: 'count', label: COPY('pages.hop-farm-detail.breweries.beers'), numeric: true },
     ], linkRows)) : `<p class="muted">${esc(COPY('pages.hop-farm-detail.breweries.missing', { year }))}</p>`}`;
     const merchants = f.merchants.length ? `<h2>${esc(COPY('pages.hop-farm-detail.merchants.title'))}</h2>${merchantTable(f.merchants)}` : '';
-    const body = `<p class="small"><a href="../">${esc(COPY('pages.hop-farm-detail.links.back'))}</a> · <a href="${r}hops/">${esc(COPY('pages.hop-farm-detail.links.hops'))}</a></p>
+    // The grower's medal beers, either fact, through the one Hop Farm filter on the winners list.
+    const filterLink = f.counts.named || f.counts.grown ? ` · <a href="${r}beers/${year}/#hop_farm=${encodeURIComponent(f.name)}">${esc(COPY('pages.hop-farm-detail.links.filter', { year }))}</a>` : '';
+    const body = `<p class="small"><a href="../">${esc(COPY('pages.hop-farm-detail.links.back'))}</a> · <a href="${r}hops/">${esc(COPY('pages.hop-farm-detail.links.hops'))}</a>${filterLink}</p>
 <h1>${esc(f.name)}</h1>
-<p class="lede">${f.state ? `<span class="pill">${esc(stateName(f.state))}</span>` : ''}<span class="pill">${esc(COPY('pages.hop-farm-detail.pills.varieties', { count: f.counts.varieties }))}</span></p>
+<p class="lede"><span class="pill">${esc(COPY('pages.hop-farm-detail.pills.grower'))}</span>${f.state ? `<span class="pill">${esc(stateName(f.state))}</span>` : ''}<span class="pill">${esc(COPY('pages.hop-farm-detail.pills.varieties', { count: f.counts.varieties }))}</span></p>
 ${dataCard}
 ${varieties}
 ${named}

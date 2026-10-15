@@ -8,11 +8,13 @@ Where: links above the title.
 
 - `back`: All Hop Farms
 - `hops`: All Hops
+- `filter`: Its {{year}} Medal Beers in the Hop Farm Filter
 
 ## `pills`
 
 Where: the line under the farm name.
 
+- `grower`: Hop Grower
 - `varieties`: Varieties Published: {{count}}
 
 ## `unfiltered`
@@ -29,9 +31,9 @@ Where: every table on the page.
 
 ## `data`
 
-Where: the farm data card.
+Where: the grower data card.
 
-- `title`: Farm Data
+- `title`: Grower Data
 - `state`: State
 - `aliases`: Also Published as
 
@@ -39,7 +41,7 @@ Where: the farm data card.
 
 Where: the varieties section.
 
-- `title`: Varieties Grown Here
+- `title`: Varieties This Grower Publishes as Grown
 - `variety`: Hop Variety
 - `published`: Published as
 - `years`: Years
@@ -100,4 +102,4 @@ Where: the research notes under the tables, when a research document exists for 
 
 Where: the search description of the page.
 
-- `description`: {{name}}: farm data, the hop varieties it grows, and the medal beers linked to it.
+- `description`: {{name}}: the hop grower, the varieties it publishes as grown, and the medal beers linked to it.
