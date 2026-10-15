@@ -88,6 +88,14 @@ export type HopWinnerRow = WinnerRow & { beerPage: boolean };
 export function hopsIndex(): HopsIndex;
 export function hop(slug: string): Hop | null;
 export function hopFarmsIndex(): HopFarmsIndex;
+export type GrowerRecord = {
+  slug: string;
+  name: string;
+  state: string | null;
+  varieties: { slug: string; name: string; published: string[]; years: string[]; sources: { label: string; url: string | null }[]; verified: string[] }[];
+  beers: { named: string[]; grows_a_hop_used: string[] };
+};
+export function growersFile(): GrowerRecord[];
 export function hopFarm(slug: string): HopFarm | null;
 export function beerHopProfile(stem: string): BeerHopProfile | null;
 export function winnerRows(year?: number): HopWinnerRow[];

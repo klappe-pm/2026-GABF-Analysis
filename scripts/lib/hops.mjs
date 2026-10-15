@@ -383,6 +383,25 @@ export function buildHopModel({ profiles = [], rows = [], reference = {}, brewer
   };
 }
 
+// The grower record: one entity per hop farm, owning the varieties it publishes as grown
+// (hop-farm-varieties.csv, nothing else: a merchant's or a ranch company's varieties are never
+// pushed onto its member farms), with the medal beers it reaches through each fact kept apart.
+// This is the file the sites publish as data/growers.json.
+export function growerRecords(model) {
+  return model.farms.map((f) => ({
+    slug: f.slug,
+    name: f.name,
+    state: f.state || null,
+    varieties: [...f.varieties.values()]
+      .map((e) => ({ slug: e.variety.slug, name: e.variety.name, published: [...e.published].sort(), years: [...e.years].sort(), sources: e.sources, verified: [...e.verified].sort() }))
+      .sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' })),
+    beers: {
+      named: [...f.named.keys()].sort(),
+      grows_a_hop_used: [...f.grown.keys()].sort(),
+    },
+  }));
+}
+
 // Medal order for lists: gold first, then silver, then bronze, then by beer name.
 export const MEDAL_RANK = { Gold: 1, Silver: 2, Bronze: 3 };
 export const byMedalThenBeer = (a, b) => (MEDAL_RANK[a.medal] ?? 9) - (MEDAL_RANK[b.medal] ?? 9) || a.beer.localeCompare(b.beer, 'en', { sensitivity: 'base' });

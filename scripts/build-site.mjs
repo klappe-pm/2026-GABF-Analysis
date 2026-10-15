@@ -21,6 +21,7 @@ import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
 import { loadSiteCopy } from './lib/site-copy.mjs';
 import { siteTextKeys } from './lib/site-text-keys.mjs';
+import { growerRecords } from './lib/hops.mjs';
 import { setSiteText, TEXT_GROUPS } from '../site/assets/site-text.mjs';
 import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
 import { createHopPages } from './lib/hop-pages.mjs';
@@ -309,6 +310,8 @@ function writeData(ds, cats) {
   write('data/meta.json', JSON.stringify({ generated_at: new Date().toISOString(), ...meta }));
   // The site serves explanations separately (data/estimates.json, loaded on first use).
   write('data/breweries.json', JSON.stringify(breweries.map(({ explain, ...b }) => b)));
+  // One grower record per hop farm, owning the varieties it publishes as grown (scripts/lib/hops.mjs).
+  write('data/growers.json', JSON.stringify(growerRecords(ds.hops)));
   write('data/categories.json', JSON.stringify(cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special, ref: c.ref, years: c.years.map((y) => ({ year: y.year, entries: y.entries, number: y.number, medals: y.medals.length })) }))));
   mkdirSync(resolve(DIST, 'data/csv'), { recursive: true });
   for (const dir of [RESULTS, REFERENCE]) {

@@ -8,7 +8,7 @@
 
 import { humanize } from '../../../site/assets/charts.mjs';
 import { valueLabel } from '../../../site/assets/filter-bar.mjs';
-import { byMedalThenBeer } from '../../../scripts/lib/hops.mjs';
+import { byMedalThenBeer, growerRecords } from '../../../scripts/lib/hops.mjs';
 import { beer as siteBeer, notesHtml, site, WINNER_YEAR, winners } from '../site-model.mjs';
 
 const collator = new Intl.Collator('en', { sensitivity: 'base' });
@@ -241,6 +241,9 @@ function merchantTable(list) {
   const columns = MERCHANT_COLS.filter((k) => list.some((m) => readable(m[k])));
   return { columns: columns.map((k) => ({ key: k, label: label(k) })), rows: list.map((m) => Object.fromEntries(columns.map((k) => [k, merchantCell(m, k)]))) };
 }
+
+// The grower records, the same content as the current site's data/growers.json.
+export const growersFile = () => growerRecords(site().ds.hops);
 
 export function hopFarmsIndex() {
   const { ds } = site();

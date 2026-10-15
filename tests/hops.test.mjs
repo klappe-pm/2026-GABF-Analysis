@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildHopModel, hopEntries, normRecord, sourceOf, detailFields } from '../scripts/lib/hops.mjs';
+import { buildHopModel, growerRecords, hopEntries, normRecord, sourceOf, detailFields } from '../scripts/lib/hops.mjs';
 import { createHopPages } from '../scripts/lib/hop-pages.mjs';
 import { loadSiteCopy } from '../scripts/lib/site-copy.mjs';
 import { matchKey } from '../scripts/lib/winner-profiles.mjs';
@@ -55,6 +55,19 @@ test('the grown by link reaches farms through the variety only', () => {
   assert.deepEqual([...mosaic.farms.values()].map((x) => x.farm.name).sort(), ['Alpha Ranch', 'Beta Farm']);
   assert.deepEqual([...m.farmBySlug.get('alpha-ranch').grown.keys()].sort(), ['001-a', '001-b', '001-c']);
   assert.deepEqual([...m.farmBySlug.get('beta-farm').grown.keys()].sort(), ['001-b', '001-c']);
+});
+
+test('a grower record owns only the varieties its farm row publishes and keeps both beer facts apart', () => {
+  const growers = growerRecords(model());
+  const alpha = growers.find((g) => g.slug === 'alpha-ranch');
+  const beta = growers.find((g) => g.slug === 'beta-farm');
+  assert.deepEqual(alpha.varieties.map((v) => v.name), ['Citra', 'Mosaic']);
+  assert.deepEqual(alpha.varieties[0].published, ['Citra BRS-1']);
+  assert.deepEqual(beta.varieties.map((v) => v.name), ['Mosaic']);
+  // Beta is named for Beer A but grows no hop Beer A uses; the two facts stay separate lists.
+  assert.deepEqual(beta.beers.named, ['001-a']);
+  assert.deepEqual(beta.beers.grows_a_hop_used, ['001-b', '001-c']);
+  assert.deepEqual(alpha.beers.named, []);
 });
 
 test('a farm the brewery named is a direct link and is never read as grown by', () => {
