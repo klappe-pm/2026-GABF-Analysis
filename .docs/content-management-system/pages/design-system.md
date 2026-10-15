@@ -103,6 +103,7 @@ Where: the heading of each component on the page.
 - `data_table`: Data Table
 - `medal_mark`: Medal Mark
 - `medal_record`: Medal Record
+- `medal_badge`: Medal Badge
 - `range_scale`: Range Scale
 - `callout`: Callout
 - `status_chip`: Status Chip
@@ -143,6 +144,7 @@ Where: the labels under each component state.
 - `split`: Split
 - `tally`: Tally
 - `value`: Value
+- `with_zero`: A Metal With No Medal
 
 ## `samples`
 
@@ -150,6 +152,7 @@ Where: captions that say where a component's sample data comes from.
 
 - `category_index`: The first categories of {{year}}, from the official winners list.
 - `medal_record`: {{brewery_name}}, {{city}}, {{state}}: medals in the complete years, {{year_range}}.
+- `medal_badge`: {{brewery_name}}, {{city}}, {{state}}: medals in {{year}}. Each badge opens that year's beers.
 - `beer`: {{beer_name}}, {{brewery_name}}: {{medal}} in {{category_name}}, {{year}}.
 - `chart_title`: Medals by State, {{year_range}}
 - `chart_note`: The five states with the most medals in the complete years.

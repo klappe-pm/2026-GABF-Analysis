@@ -7,12 +7,14 @@ import { Fragment, useMemo } from 'react';
 import { type BeerCardData, BeerProfileCard } from '@/components/BeerProfileCard';
 import { type Column, DataTable, type Row } from '@/components/DataTable';
 import { EstimateTooltip } from '@/components/EstimateTooltip';
+import { MedalBadge } from '@/components/MedalBadge';
 import { MedalMark, type MedalName } from '@/components/MedalMark';
 import { MedalRecord } from '@/components/MedalRecord';
 import { SectionHeader } from '@/components/SectionHeader';
 import { Field, FieldGrid } from '@/components/StatCard';
 import { StateCard } from '@/components/StateCard';
 import { TextLink } from '@/components/TextLink';
+import { hashFor } from '@/lib/filter-model.mjs';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
 import type { BreweryRecord, BreweryRow } from '@/lib/models/breweries.mjs';
@@ -66,13 +68,24 @@ export function BreweryMedals({ b, year, copy, estimate }: Props) {
     { key: 'medals', label: c.trend.medals },
     { key: 'split', label: c.trend.split },
   ];
+  // Each badge opens that year's beers of this brewery at that medal: the winners list when the year has
+  // one, otherwise this page's own medal history, narrowed through the global filter hash.
+  const badgeCopy = { one: c.trend.badge_one, other: c.trend.badge_other, none: c.trend.badge_none };
+  const badgeLinks = (y: number) => {
+    const partial: Record<string, string> = b.rows.some((r) => r.year === y && r.partial) ? { years: 'all' } : {};
+    return Object.fromEntries(MEDALS.map((m) => [m, y === year
+      ? `${href(paths.winners(y))}${hashFor({ brewery_key: b.key, medal: m, ...partial })}`
+      : `${href(paths.brewery(b.slug))}${hashFor({ year: String(y), medal: m, ...partial })}`])) as Record<MedalName, string>;
+  };
   const trendRows: Row[] = [...b.trend].reverse().map((t) => ({
     key: String(t.year),
     cells: {
       year: t.year,
       status: c.trend_status[t.status] ?? c.gaps.not_found,
       medals: t.total,
-      split: <MedalRecord counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} variant="value" names={medalNames} />,
+      split: t.total
+        ? <MedalBadge counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} year={t.year} names={medalNames} copy={badgeCopy} links={badgeLinks(t.year)} group={fillText(c.trend.badge_group, { brewery_name: b.name, year: t.year })} />
+        : <MedalRecord counts={{ gold: t.gold, silver: t.silver, bronze: t.bronze }} variant="value" names={medalNames} />,
     },
   }));
 

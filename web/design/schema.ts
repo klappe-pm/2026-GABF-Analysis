@@ -126,6 +126,7 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   icon: { Size: numberOf([16, 20, 24, 32]), 'Stroke width': numberOf([1, 1.5, 2]) },
   'medal-mark': { Size: numberOf([16, 20, 24, 28, 32]), 'Show initial': yesNo, 'Ring color': colorRole },
   'medal-record': { 'Tally limit': numberOf([6, 8, 10, 12, 15, 20]) },
+  'medal-badge': { Size: numberOf([24, 28, 32, 36, 40]), 'Count color': colorRole, 'Show zero': yesNo },
   'range-scale': { 'Band color': colorRole, 'Value color': colorRole, 'Outside color': colorRole },
   'callout': { 'Card style': cardStyle, 'Accent color': colorRole },
   'data-table': {

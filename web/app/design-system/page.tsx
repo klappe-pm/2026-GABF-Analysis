@@ -14,7 +14,9 @@ import { PageHeader } from '@/components/PageHeader';
 import { StateCard } from '@/components/StateCard';
 import { Icon, type IconName } from '@/components/Icon';
 import { MedalMark, type MedalName } from '@/components/MedalMark';
+import { MedalBadge } from '@/components/MedalBadge';
 import { MedalRecord } from '@/components/MedalRecord';
+import { href, paths } from '@/lib/href';
 import { RangeScale } from '@/components/RangeScale';
 import { Callout } from '@/components/Callout';
 import { DataTable } from '@/components/DataTable';
@@ -184,6 +186,22 @@ export default async function DesignSystemPage() {
 
   const index = categoryIndex(YEAR);
   const lead = breweryRecords()[0];
+  // The medal badge samples: the brewery with the best record of YEAR, and one that missed a metal.
+  const yearRecords = (() => {
+    const m = new Map<string, { brewery: string; city: string; state: string; record: { gold: number; silver: number; bronze: number } }>();
+    for (const r of results(YEAR)) {
+      const e = m.get(r.brewery) ?? { brewery: r.brewery, city: r.city, state: r.state, record: { gold: 0, silver: 0, bronze: 0 } };
+      e.record[r.medal.toLowerCase() as 'gold' | 'silver' | 'bronze'] += 1;
+      m.set(r.brewery, e);
+    }
+    const score = (x: { gold: number; silver: number; bronze: number }) => x.gold * 100 + x.silver * 10 + x.bronze;
+    return [...m.values()].sort((a, b) => score(b.record) - score(a.record) || a.brewery.localeCompare(b.brewery));
+  })();
+  const badgeLead = yearRecords[0];
+  const badgeZero = yearRecords.find((r) => Object.values(r.record).some((n) => n === 0) && Object.values(r.record).some((n) => n > 0)) ?? badgeLead;
+  const badgeCopy = { one: raw('pages.brewery-detail.trend.badge_one'), other: raw('pages.brewery-detail.trend.badge_other'), none: raw('pages.brewery-detail.trend.badge_none') };
+  const badgeLinks = Object.fromEntries(MEDALS.map((m) => [m, href(paths.winners(YEAR))])) as Record<MedalName, string>;
+  const badgeGroup = (brewery: string) => fill(raw('pages.brewery-detail.trend.badge_group'), { brewery_name: brewery, year: YEAR });
   const odds = oddsFinding(YEAR);
   const oddsFill = finding('medal-odds-by-category');
   const headline = fill(oddsFill.lead, {
@@ -370,6 +388,18 @@ export default async function DesignSystemPage() {
           <State label={states('split')}><MedalRecord counts={lead.record} names={medalNames} /></State>
           <State label={states('tally')}><MedalRecord counts={lead.record} names={medalNames} variant="tally" /></State>
           <State label={states('value')}><MedalRecord counts={lead.record} names={medalNames} variant="value" /></State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'medal-badge',
+      node: (
+        <Specimen name="medal-badge" title={compName('medal_badge')}>
+          <State label={states('default')} wide>
+            <p className="type-body-medium text-on-surface-variant">{fill(raw('pages.design-system.samples.medal_badge'), { brewery_name: badgeLead.brewery, city: badgeLead.city, state: badgeLead.state, year: YEAR })}</p>
+          </State>
+          <State label={states('default')}><MedalBadge counts={badgeLead.record} year={YEAR} names={medalNames} copy={badgeCopy} links={badgeLinks} group={badgeGroup(badgeLead.brewery)} /></State>
+          <State label={states('with_zero')}><MedalBadge counts={badgeZero.record} year={YEAR} names={medalNames} copy={badgeCopy} links={badgeLinks} group={badgeGroup(badgeZero.brewery)} /></State>
         </Specimen>
       ),
     },
