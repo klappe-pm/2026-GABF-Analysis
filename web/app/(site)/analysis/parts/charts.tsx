@@ -13,6 +13,7 @@ import { TextLink } from '@/components/TextLink';
 import { baseOption, SERIES_COUNT, seriesVar } from '@/design/echarts-theme';
 import { cardSurface, labelFace } from '@/design/helpers';
 import { SETTINGS_EVENT, useDesign, useSettings } from '@/design/runtime';
+import { NARROW } from '@/app/(site)/dashboards/kit/charts';
 
 echarts.use([BarChart, MapChart, GridComponent, TooltipComponent, VisualMapComponent, SVGRenderer]);
 
@@ -44,7 +45,9 @@ function Frame({ id, title, subtitle, note, tableSummary, legend, children, tabl
   );
 }
 
-// Draws an ECharts option on a div and again whenever the scheme settings change.
+// Draws an ECharts option on a div and again whenever the scheme settings change or the div changes width
+// (a ResizeObserver, so a panel opening or a column narrowing is caught, not only a window resize). The option is
+// built again on a width change because some options (bar label widths) depend on it.
 function usePlot(build: (el: HTMLElement) => echarts.EChartsCoreOption | Promise<echarts.EChartsCoreOption>, deps: unknown[]) {
   const ref = useRef<HTMLDivElement>(null);
   const { global } = useDesign();
@@ -55,12 +58,16 @@ function usePlot(build: (el: HTMLElement) => echarts.EChartsCoreOption | Promise
     let live = true;
     const draw = () => { Promise.resolve(build(el)).then((o) => { if (live) chart.setOption(o, true); }); };
     draw();
-    const resize = () => chart.resize();
-    window.addEventListener('resize', resize);
+    let width = el.clientWidth;
+    const observer = new ResizeObserver(() => {
+      chart.resize();
+      if (el.clientWidth !== width) { width = el.clientWidth; draw(); }
+    });
+    observer.observe(el);
     window.addEventListener(SETTINGS_EVENT, draw);
     return () => {
       live = false;
-      window.removeEventListener('resize', resize);
+      observer.disconnect();
       window.removeEventListener(SETTINGS_EVENT, draw);
       chart.dispose();
     };
@@ -71,17 +78,20 @@ function usePlot(build: (el: HTMLElement) => echarts.EChartsCoreOption | Promise
 
 export type BarItem = { label: string; value: number; href?: string };
 
-// Horizontal bars, largest first, one bar per item.
+// Horizontal bars, largest first, one bar per item. labelWidth is the category label column on a wide card; on a card
+// narrower than the dashboards' NARROW width the labels take at most 38% of it, so the bars keep room on a phone.
 export function BarCard({ items, valueName, labelHeader, roleIndex = 0, labelWidth = 200, detail, ...base }: Base & { items: BarItem[]; valueName: string; labelHeader: string; roleIndex?: number; labelWidth?: number; detail?: { columns: Column[]; rows: Row[] } }) {
   const key = JSON.stringify(items.map((i) => [i.label, i.value]));
   const ref = usePlot((el) => {
     const { option, theme } = baseOption(el);
+    const w = el.clientWidth;
+    const labels = w && w < NARROW ? Math.min(labelWidth, Math.round(w * 0.38)) : labelWidth;
     return {
       ...option,
       grid: { left: 8, right: 48, top: 8, bottom: 8, containLabel: true },
       tooltip: { ...option.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
       xAxis: { ...option.yAxis, type: 'value', splitLine: { lineStyle: { color: theme.outlineVariant, width: 1 } } },
-      yAxis: { ...option.xAxis, type: 'category', inverse: true, data: items.map((i) => i.label), axisLabel: { ...option.xAxis.axisLabel, width: labelWidth, overflow: 'truncate' } },
+      yAxis: { ...option.xAxis, type: 'category', inverse: true, data: items.map((i) => i.label), axisLabel: { ...option.xAxis.axisLabel, width: labels, overflow: 'truncate' } },
       series: [{ type: 'bar', name: valueName, data: items.map((i) => i.value), barMaxWidth: 22, itemStyle: { color: theme.series[roleIndex % theme.series.length] }, label: { show: true, position: 'right', color: theme.onSurfaceVariant, fontFamily: theme.family, fontSize: theme.small } }],
     };
   }, [key, roleIndex, labelWidth]);

@@ -151,11 +151,12 @@ export function ChartCard(props: Props) {
     const chart = echarts.init(el, undefined, { renderer: 'svg' });
     const draw = () => chart.setOption(buildChartOption(input, readTheme(el), look) as EChartsOption, true);
     draw();
-    const resize = () => chart.resize();
-    window.addEventListener('resize', resize);
+    // The card's own width, not the window's: a panel opening or a column narrowing resizes it too.
+    const observer = new ResizeObserver(() => chart.resize());
+    observer.observe(el);
     window.addEventListener(SETTINGS_EVENT, draw);
     return () => {
-      window.removeEventListener('resize', resize);
+      observer.disconnect();
       window.removeEventListener(SETTINGS_EVENT, draw);
       chart.dispose();
     };
