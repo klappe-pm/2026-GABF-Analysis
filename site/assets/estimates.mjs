@@ -4,20 +4,35 @@
 // Enter, or Space; closes on Escape (returning focus to the mark) or a click outside.
 
 import { esc } from './charts.mjs';
+import { tx } from './site-text.mjs';
 
-export const METRIC_TITLES = { barrels: 'Barrels per year', arr: 'Annual revenue (ARR)', gross_margin: 'Gross margin', ebitda: 'EBITDA', per_barrel: 'Revenue per barrel', per_location: 'Revenue per location', per_employee: 'Revenue per employee' };
+// Each metric's name as the copy writes it inside a sentence (pages/brewery-detail.md estimates); the
+// popover title capitalizes it.
+const METRIC_NAMES = {
+  barrels: () => tx('pages.brewery-detail.estimates.metric_barrels', 'barrels per year'),
+  arr: () => tx('pages.brewery-detail.estimates.metric_arr', 'annual revenue (ARR)'),
+  gross_margin: () => tx('pages.brewery-detail.estimates.metric_gross_margin', 'gross margin'),
+  ebitda: () => tx('pages.brewery-detail.estimates.metric_ebitda', 'EBITDA'),
+  per_barrel: () => tx('pages.brewery-detail.estimates.metric_per_barrel', 'revenue per barrel'),
+  per_location: () => tx('pages.brewery-detail.estimates.metric_per_location', 'revenue per location'),
+  per_employee: () => tx('pages.brewery-detail.estimates.metric_per_employee', 'revenue per employee'),
+};
+const metricName = (metric) => METRIC_NAMES[metric]?.() ?? 'figure';
+const metricTitle = (metric) => (METRIC_NAMES[metric] ? metricName(metric).replace(/^\w/, (c) => c.toUpperCase()) : 'Estimate');
 
 export function estMark(key, metric) {
-  return `<button type="button" class="est-mark" data-est-key="${esc(key)}" data-est-metric="${esc(metric)}" aria-haspopup="dialog" aria-expanded="false" aria-controls="est-popover"><span aria-hidden="true">(E)</span><span class="visually-hidden">Estimate. How the ${esc((METRIC_TITLES[metric] ?? 'figure').toLowerCase())} estimate was made</span></button>`;
+  const marker = tx('global.states.estimates.marker', '(E)');
+  const label = tx('pages.brewery-detail.estimates.mark_label', 'Estimate. How the {{metric}} estimate was made', { metric: metricName(metric) });
+  return `<button type="button" class="est-mark" data-est-key="${esc(key)}" data-est-metric="${esc(metric)}" aria-haspopup="dialog" aria-expanded="false" aria-controls="est-popover"><span aria-hidden="true">${esc(marker)}</span><span class="visually-hidden">${esc(label)}</span></button>`;
 }
 
 // ex: { name, text: { metric: sentence }, inputs: [[label, value]] } built at site build time.
 export function explainHtml(ex, metric, aboutHref) {
   const text = ex.text?.[metric] ?? ex.text?.arr ?? '';
-  return `<p class="est-pop-title" id="est-popover-title">${esc(METRIC_TITLES[metric] ?? 'Estimate')}: how it was estimated</p>
+  return `<p class="est-pop-title" id="est-popover-title">${esc(metricTitle(metric))}: how it was estimated</p>
 <p>${esc(text)}</p>
 <dl class="est-inputs">${(ex.inputs ?? []).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
-<p class="est-pop-foot"><strong>Estimate, not reported.</strong> <a href="${esc(aboutHref)}">How the estimates are made</a></p>`;
+<p class="est-pop-foot"><strong>${esc(tx('pages.brewery-detail.estimates.foot', 'Estimate, not reported.'))}</strong> <a href="${esc(aboutHref)}">How the estimates are made</a></p>`;
 }
 
 export function installEstimates({ lookup, aboutHref }) {
