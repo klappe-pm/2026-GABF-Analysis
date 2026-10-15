@@ -8,10 +8,6 @@ import { resolve } from 'node:path';
 import { COMPONENTS_DIR, loadSpecs, rel } from './lib.mjs';
 import { OUT, launch, openStyleGuide, serveOut } from './serve-out.mjs';
 
-// Components only the retired static site drew, with no sample in the style guide yet: their images are kept as
-// they are until each moves to web/.
-const RETIRED = new Set(['footer', 'tabs', 'chips']);
-
 async function main() {
   if (!existsSync(resolve(OUT, 'design-system/index.html'))) { console.log('web/out is missing: run npm run web:build'); process.exit(1); }
   const web = await serveOut();
@@ -21,7 +17,6 @@ async function main() {
   let missing = 0;
   for (const s of loadSpecs()) {
     const file = resolve(COMPONENTS_DIR, s.dir, `${s.dir}.png`);
-    if (RETIRED.has(s.dir)) { console.log(`kept ${rel(file)}: drawn only by the retired static site`); continue; }
     const el = page.locator(`#component-${s.dir}-sample`);
     if (!(await el.count())) { console.log(`no sample on the page for ${s.dir}`); missing += 1; continue; }
     // A sample far down the page captures blank unless it is scrolled into view first.

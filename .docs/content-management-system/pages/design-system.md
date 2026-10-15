@@ -118,6 +118,9 @@ Where: the heading of each component on the page.
 - `chart_card`: Chart Card
 - `state_card`: State Card
 - `icon`: Icons
+- `footer`: Footer
+- `tabs`: Dashboard Tabs
+- `chips`: Chips
 - `beer_profile_card`: Beer Profile Card
 - `hop_profile_card`: Hop Profile Card
 - `spec_card`: Spec Card

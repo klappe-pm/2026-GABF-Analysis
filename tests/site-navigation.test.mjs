@@ -64,7 +64,9 @@ test('each section highlights its own destination', () => {
 });
 
 test('the footer links Method and Saved views through href()', () => {
-  const src = readFileSync(resolve(ROOT, 'web', 'app', 'layout.tsx'), 'utf8');
+  // The layout draws the footer component on every page; the component holds the links.
+  assert.match(readFileSync(resolve(ROOT, 'web', 'app', 'layout.tsx'), 'utf8'), /<SiteFooter \/>/);
+  const src = readFileSync(resolve(ROOT, 'web', 'components', 'Footer.tsx'), 'utf8');
   assert.match(src, /href=\{href\(paths\.method\)\}[^\n]*global\.navigation\.footer\.method/);
   assert.match(src, /href=\{href\(paths\.saved\)\}[^\n]*global\.navigation\.footer\.saved_views/);
 });
