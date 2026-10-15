@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { parseTicket } from '../scripts/lib/review-store.mjs';
+import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 
 // The edits run on a copy of .design/design-system, set before the design modules load: node --test runs test files
 // side by side, and a write to the real settings.md or a real spec could be read half done by another file's test.
@@ -157,7 +158,9 @@ test('the public export carries no editing code', (t) => {
     assert.doesNotMatch(readFileSync(resolve(WEB, file), 'utf8'), /design\/editor'|\.\/editor'|__design/, file);
   }
   const out = resolve(WEB, 'out');
-  if (!existsSync(resolve(out, 'design-system/index.html'))) { t.skip('web/out is not built here; npm run web:build builds it'); return; }
+  // A stale or missing export fails with the rebuild command (a missing one skips in continuous integration).
+  const skip = webOutGate();
+  if (skip) { t.skip(skip); return; }
   const hits = [];
   const walk = (dir) => {
     for (const name of readdirSync(dir)) {

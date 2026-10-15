@@ -1,7 +1,8 @@
 // The web global filter in a real browser, against the built export in web/out: the selection reaches the URL of the
 // next page, a hash change is read from the hash alone, a moved address keeps the hash, the Filters dialog names the
-// option for rows with no value in words, and a bare F key opens nothing (Alt+Shift+F does). Skips when web/out is not
-// built (npm run web:build) or no Chrome or Playwright Chromium is available.
+// option for rows with no value in words, and a bare F key opens nothing (Alt+Shift+F does). Fails when web/out is
+// older than its sources or not built (scripts/lib/web-out-fresh.mjs; in continuous integration a missing export
+// skips), and skips when no Chrome or Playwright Chromium is available.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
@@ -9,6 +10,7 @@ import { existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { chromiumPath, loadPlaywright } from '../scripts/lib/feedback-capture.mjs';
+import { webOutGate } from '../scripts/lib/web-out-fresh.mjs';
 
 const OUT = resolve(ROOT, 'web/out');
 let playwright = null;
@@ -18,8 +20,12 @@ async function launch() {
   const executablePath = chromiumPath();
   try { return await playwright.chromium.launch(executablePath ? { executablePath } : { channel: 'chrome' }); } catch { return null; }
 }
-const browser = playwright && existsSync(join(OUT, 'index.html')) ? await launch() : null;
-const SKIP = browser ? false : 'web/out is not built, or no browser is available here';
+// A stale or missing export fails every test below with its reason, before any browser is started.
+let stale = null;
+let gateSkip = false;
+try { gateSkip = webOutGate(); } catch (e) { stale = e; }
+const browser = playwright && !stale && !gateSkip ? await launch() : null;
+const SKIP = stale ? false : gateSkip || (browser ? false : 'no Chrome or Playwright Chromium is available here');
 
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.txt': 'text/plain', '.woff2': 'font/woff2', '.png': 'image/png' };
 function serve() {
@@ -37,6 +43,7 @@ function serve() {
 test.after(async () => { await browser?.close(); });
 
 async function withPage(fn) {
+  if (stale) throw stale;
   const { server, base } = await serve();
   const context = await browser.newContext({ viewport: { width: 1280, height: 800 } });
   try { await fn(await context.newPage(), base); } finally { await context.close(); server.close(); }
