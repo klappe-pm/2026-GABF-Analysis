@@ -46,27 +46,37 @@ async function withPage(fn) {
   if (stale) throw stale;
   const { server, base } = await serve();
   const context = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  try { await fn(await context.newPage(), base); } finally { await context.close(); server.close(); }
+  try {
+    const page = await context.newPage();
+    // WEB_TEST_CPU_THROTTLE=6 slows the page's CPU, as on a cold ci runner, to check for timing races.
+    const rate = Number(process.env.WEB_TEST_CPU_THROTTLE || 0);
+    if (rate > 1) await (await context.newCDPSession(page)).send('Emulation.setCPUThrottlingRate', { rate });
+    await fn(page, base);
+  } finally { await context.close(); server.close(); }
 }
 
-// Skipped for now at the owner's request (PR #154): on the GitHub runner, where ci now builds web/out before
-// npm test, the wait for year=2024 in the next page's hash times out after 5 seconds, and it has failed once
-// locally with a fresh build. The cause (a load time race in web/lib/global-filter.tsx, the stored selection,
-// or a cold runner) is not found yet. Only this test is skipped.
-const SKIP_NEXT_PAGE = SKIP || 'times out on the ci runner since web/out is built before the tests; cause under investigation (PR #154)';
-test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP_NEXT_PAGE, timeout: 60000 }, async () => {
+// The page has applied the filter: the global filter marks <html data-global-filter="ready"> once its load
+// time effect has written the selection to storage and to the address (web/lib/global-filter.tsx). Network
+// idle comes earlier than that on a slow machine (issue 156: a following navigation then carried nothing), so
+// every step that depends on the filter waits on this mark, bounded by the test's own timeout.
+const applied = (page) => page.waitForFunction(() => document.documentElement.dataset.globalFilter === 'ready', null, { timeout: 0 });
+
+test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP, timeout: 60000 }, async () => {
   await withPage(async (page, base) => {
-    await page.goto(`${base}/breweries/#year=2024`, { waitUntil: 'networkidle' });
-    await page.goto(`${base}/categories/`, { waitUntil: 'networkidle' });
-    await page.waitForFunction(() => location.hash.includes('year=2024'), null, { timeout: 5000 });
+    await page.goto(`${base}/breweries/#year=2024`);
+    await applied(page);
+    await page.goto(`${base}/categories/`);
+    await applied(page);
+    assert.match(new URL(page.url()).hash, /year=2024/);
   });
 });
 
 test('a hash change is read from the hash alone, not merged with the stored selection', { skip: SKIP, timeout: 60000 }, async () => {
   await withPage(async (page, base) => {
-    await page.goto(`${base}/categories/#year=2024`, { waitUntil: 'networkidle' });
+    await page.goto(`${base}/categories/#year=2024`);
+    await applied(page);
     await page.evaluate(() => { location.hash = '#medal=Gold'; });
-    await page.waitForFunction(() => localStorage.getItem('gabf-filters') === JSON.stringify({ medal: 'Gold' }), null, { timeout: 5000 });
+    await page.waitForFunction(() => localStorage.getItem('gabf-filters') === JSON.stringify({ medal: 'Gold' }), null, { timeout: 0 });
     assert.equal(new URL(page.url()).hash, '#medal=Gold');
   });
 });
@@ -80,14 +90,15 @@ test('a moved address forwards to its new address with the hash', { skip: SKIP, 
 
 test('a bare F opens nothing, Alt+Shift+F opens Filters, and no option reads as a raw marker', { skip: SKIP, timeout: 60000 }, async () => {
   await withPage(async (page, base) => {
-    await page.goto(`${base}/breweries/`, { waitUntil: 'networkidle' });
+    await page.goto(`${base}/breweries/`);
+    await applied(page);
     const open = () => page.evaluate(() => [...document.querySelectorAll('[data-component="filters-dialog"]')].some((d) => d.open || d.hasAttribute('open')));
     await page.keyboard.press('f');
     assert.equal(await open(), false, 'a bare F opens nothing (WCAG 2.1.4)');
     await page.keyboard.press('Alt+Shift+KeyF');
-    await page.waitForFunction(() => [...document.querySelectorAll('[data-component="filters-dialog"]')].some((d) => d.open || d.hasAttribute('open')), null, { timeout: 5000 });
+    await page.waitForFunction(() => [...document.querySelectorAll('[data-component="filters-dialog"]')].some((d) => d.open || d.hasAttribute('open')), null, { timeout: 0 });
     // The rows load on first open; wait for the brewery type options.
-    await page.waitForFunction(() => [...document.querySelectorAll('[data-component="filters-dialog"] md-select-option, [data-component="filters-dialog"] option')].length > 20, null, { timeout: 10000 });
+    await page.waitForFunction(() => [...document.querySelectorAll('[data-component="filters-dialog"] md-select-option, [data-component="filters-dialog"] option')].length > 20, null, { timeout: 0 });
     const texts = await page.evaluate(() => [...document.querySelectorAll('[data-component="filters-dialog"] md-select-option, [data-component="filters-dialog"] option')].map((o) => (o.textContent || '').trim()));
     assert.deepEqual(texts.filter((t) => t.startsWith('not-defined')), [], 'the option for rows with no value reads in words');
     assert.ok(texts.some((t) => /^Not Found \(\d+\)$/.test(t)), 'it reads Not Found with its count');

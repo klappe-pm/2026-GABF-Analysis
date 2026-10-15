@@ -71,6 +71,9 @@ export function GlobalFilterProvider({ children }: { children: ReactNode }) {
     setRaw(first);
     writeHash(first);
     writeStored(storage(), first);
+    // The page has applied the selection: it is in storage for the next page and in this page's address. Until
+    // then (the app still starting, on a slow device) a followed link cannot carry it; tests wait on this mark.
+    document.documentElement.dataset.globalFilter = 'ready';
     const onHash = () => {
       const next = pickState(parseHash(window.location.hash));
       setRaw(next);
