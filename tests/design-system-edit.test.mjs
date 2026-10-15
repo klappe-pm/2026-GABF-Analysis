@@ -1,12 +1,25 @@
-import { test } from 'node:test';
+import { after, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
-import { applyDesignEdit, checkDesignEdit, setFrontmatterKey, setListLine, tokenShaped, yamlValue } from '../scripts/design-system/edit.mjs';
 import { ROOT } from '../scripts/lib/paths.mjs';
 import { parseTicket } from '../scripts/lib/review-store.mjs';
-import { COMPONENTS_DIR, SETTINGS, WEB, splitFrontmatter } from '../scripts/design-system/lib.mjs';
+
+// The edits run on a copy of .design/design-system, set before the design modules load: node --test runs test files
+// side by side, and a write to the real settings.md or a real spec could be read half done by another file's test.
+const DESIGN_COPY = mkdtempSync(join(tmpdir(), 'design-system-'));
+cpSync(resolve(ROOT, '.design/design-system'), DESIGN_COPY, { recursive: true });
+process.env.GABF_DESIGN_DIR = DESIGN_COPY;
+after(() => rmSync(DESIGN_COPY, { recursive: true, force: true }));
+const { applyDesignEdit, checkDesignEdit, setFrontmatterKey, setListLine, tokenShaped, yamlValue } = await import('../scripts/design-system/edit.mjs');
+const { COMPONENTS_DIR, SETTINGS, WEB, splitFrontmatter } = await import('../scripts/design-system/lib.mjs');
+
+test('these tests edit a copy of the design system, never the real one', () => {
+  assert.equal(SETTINGS, resolve(DESIGN_COPY, 'settings.md'));
+  assert.notEqual(SETTINGS, resolve(ROOT, '.design/design-system/settings.md'));
+  assert.equal(COMPONENTS_DIR, resolve(DESIGN_COPY, 'components'));
+});
 
 const changedLines = (a, b) => {
   const x = a.split('\n');
