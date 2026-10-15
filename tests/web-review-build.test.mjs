@@ -15,7 +15,7 @@ const WEB = resolve(ROOT, 'web');
 const ready = existsSync(resolve(WEB, 'node_modules/next'));
 
 // What only the review widget, the in place editor, or the marking can leave in a page.
-const REVIEW_TRACES = ['gfw-', 'data-gfw', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', '/__design/', 'Open in Obsidian', 'Journey Step', 'Spots on the Page', OPEN, SEP, CLOSE];
+const REVIEW_TRACES = ['gfw-', 'data-gfw', 'gabf-control-plane', 'open-feedback', '/review/inline/resolve', '/review/regions', '/review/feedback', '/review/inline/save', '/review/web/screens', '/review/content', '/__design/', 'Open in Obsidian', 'Journey Step', 'Spots on the Page', OPEN, SEP, CLOSE];
 
 function build(dist, env) {
   const full = resolve(WEB, dist);

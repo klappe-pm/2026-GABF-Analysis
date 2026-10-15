@@ -12,8 +12,9 @@ import { createPortal } from 'react-dom';
 import { useDesign } from '@/design/runtime';
 import { ReviewSettingsPanel } from '@/components/review/ReviewSettingsPanel';
 import { api, type ComponentInfo, keyWords, type Recorded, ReviewError, type Step } from './api';
-import { deviceOf, docRect, inLayer, PHONE_QUERY, scanMarks, type Spot, spotFor } from './dom';
+import { deviceOf, docRect, inLayer, PHONE_QUERY, resolveCopy, scanMarks, type Spot, spotFor } from './dom';
 import { InlineEditor } from './inline-editor';
+import { framedScreen, StepMarker } from './step-marker';
 import { copyPageFor } from './pages.mjs';
 
 const LOCAL = new Set(['127.0.0.1', 'localhost', '[::1]', '::1']);
@@ -29,7 +30,7 @@ const fill = (text: string, values: Record<string, string | number> = {}) => tex
 export function WebReview({ copy }: { copy?: Copy }) {
   const [local, setLocal] = useState(false);
   useEffect(() => setLocal(LOCAL.has(location.hostname)), []);
-  return local && copy ? <Widget copy={copy} /> : null;
+  return local && copy ? <><StepMarker /><Widget copy={copy} /></> : null;
 }
 
 function Widget({ copy }: { copy: Copy }) {
@@ -84,6 +85,19 @@ function Widget({ copy }: { copy: Copy }) {
     return () => { clearTimeout(first); if (timer) clearTimeout(timer); mo.disconnect(); window.removeEventListener('resize', soon); window.removeEventListener('load', soon); };
   }, []);
 
+  // While the panel is open, page copy the build did not mark is found by its text (resolveCopy in dom.ts), shortly
+  // after the page settles and again when it changes, so it can be edited in place.
+  useEffect(() => {
+    if (!open) return undefined;
+    let live = true;
+    const timer = setTimeout(() => {
+      resolveCopy(step, (texts) => api<Record<string, { key: string } | null>>('POST', '/review/inline/resolve', { screen: step, texts }))
+        .then((n) => { if (live && n) setTick((t) => t + 1); })
+        .catch(() => undefined);
+    }, 300);
+    return () => { live = false; clearTimeout(timer); };
+  }, [open, step, tick]);
+
   // At phone width no feedback is collected: the panel closes and nothing is drawn. The marking above still runs.
   useEffect(() => {
     const mq = window.matchMedia(PHONE_QUERY);
@@ -105,7 +119,9 @@ function Widget({ copy }: { copy: Copy }) {
     api<{ matched: string[]; screens: Step[] }>('GET', `/review/web/screens?route=${encodeURIComponent(routeOf())}`).then((r) => {
       setSteps(r.screens);
       setMatched(r.matched);
-      setStep((s) => s || r.matched[0] || '');
+      // In a control plane screen the step is the screen it frames; otherwise the first step of this route.
+      const framed = framedScreen();
+      setStep((s) => s || (framed && r.screens.some((x) => x.id === framed) ? framed : r.matched[0]) || '');
     }).catch(() => undefined);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
@@ -197,6 +213,33 @@ function Widget({ copy }: { copy: Copy }) {
     };
     document.addEventListener('keydown', toggle, true);
     return () => document.removeEventListener('keydown', toggle, true);
+  }, []);
+
+  // A modal dialog on the page (the Filters dialog) makes everything outside it inert, this panel included. While the
+  // panel is open over one, the widget moves into a modal dialog of its own, shown after it, so the newest modal (this
+  // one) takes the clicks and the keys. Spots cannot be picked on the inert page then; the ticket is about the state.
+  const [host, setHost] = useState<HTMLDialogElement | null>(null);
+  useEffect(() => {
+    if (!open) return undefined;
+    const pageModal = () => [...document.querySelectorAll('md-dialog[open], dialog[open]')].some((d) => !d.classList.contains('gfw-modal') && (d.matches('dialog:modal') || (d as HTMLElement).shadowRoot?.querySelector('dialog:modal')));
+    if (!pageModal()) return undefined;
+    const dialog = document.createElement('dialog');
+    dialog.className = 'gfw-modal';
+    dialog.addEventListener('cancel', (e) => { e.preventDefault(); setOpen(false); });
+    document.body.append(dialog);
+    dialog.showModal();
+    setHost(dialog);
+    return () => { dialog.close(); dialog.remove(); setHost(null); };
+  }, [open]);
+
+  // The control plane's Feedback button opens and closes this panel from its screen page (same origin only).
+  useEffect(() => {
+    const onMessage = (e: MessageEvent) => {
+      if (e.origin !== location.origin || !e.data || e.data.source !== 'gabf-control-plane' || phoneRef.current) return;
+      if (e.data.kind === 'open-feedback') setOpen(Boolean(e.data.open ?? true));
+    };
+    window.addEventListener('message', onMessage);
+    return () => window.removeEventListener('message', onMessage);
   }, []);
 
   // ---------- the ticket ----------
@@ -391,5 +434,5 @@ function Widget({ copy }: { copy: Copy }) {
       {open && editing ? <InlineEditor c={c} element={editing.element} copyKey={editing.key} step={step} spot={editing.spot} onClose={() => setEditing(null)} onSaved={(id) => { setSaid(c('messages.edited', { id })); setBad(false); }} /> : null}
     </div>
   );
-  return phone ? null : createPortal(nodes, document.body);
+  return phone ? null : createPortal(nodes, host ?? document.body);
 }
