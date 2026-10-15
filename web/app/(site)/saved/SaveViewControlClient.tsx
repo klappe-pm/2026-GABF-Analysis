@@ -5,6 +5,7 @@
 import { usePathname } from 'next/navigation';
 import { type FormEvent, useEffect, useId, useRef, useState } from 'react';
 import { Button } from '@/components/Button';
+import { Icon } from '@/components/Icon';
 import { TextLink } from '@/components/TextLink';
 import { shape } from '@/design/helpers';
 import { href, paths } from '@/lib/href';
@@ -72,11 +73,16 @@ export function SaveViewControlClient({ copy }: { copy: SaveViewCopy }) {
   const field = 'type-body-large min-h-12 w-full rounded-(--md-sys-shape-corner-extra-small) border border-outline bg-surface px-4 text-on-surface placeholder:text-on-surface-variant focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary';
 
   return (
-    <div className="mx-auto flex max-w-(--app-page-max) flex-wrap items-center gap-x-4 gap-y-2 px-(--app-margin) pt-4">
-      <span ref={trigger}>
-        <Button variant="quiet" aria-haspopup="dialog" onClick={open}>{copy.button}</Button>
+    // It sits in the header's action row, so it takes no page margin of its own and centers on the header's axis.
+    // At phone width the button is the bookmark icon (its name stays the accessible label) so the site name keeps one line.
+    <div className="flex items-center gap-x-3">
+      <span ref={trigger} className="flex">
+        <Button variant="quiet" aria-haspopup="dialog" aria-label={copy.button} onClick={open}>
+          <span className="flex items-center medium:hidden"><Icon name="bookmark" /></span>
+          <span className="hidden medium:inline">{copy.button}</span>
+        </Button>
       </span>
-      <p role="status" className="type-body-medium flex flex-wrap items-center gap-x-3 text-on-surface">
+      <p role="status" className="type-body-medium sr-only flex-wrap items-center gap-x-3 text-on-surface medium:not-sr-only medium:flex">
         {done ? <><span>{copy.saved}</span><TextLink href={href(paths.saved)}>{copy.viewAll}</TextLink></> : null}
       </p>
       <dialog
