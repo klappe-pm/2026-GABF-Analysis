@@ -7,6 +7,7 @@ import { NOT_FOUND } from './not-found.mjs';
 import { titleCase } from './title-case.mjs';
 import { esc } from './charts.mjs';
 import { compareLabels, compareYearsNewestFirst, compareBands } from './sort-order.mjs';
+import { tx } from './site-text.mjs';
 
 export const FILTERS = [
   { id: 'year', label: 'Year', group: 'When' },
@@ -86,21 +87,30 @@ export const NOT_DEFINED = 'not-defined';
 const LEGACY_BLANKS = { ownership_type: 'unlisted', distribution_channel: 'unknown' };
 const foldBlank = (id, v) => (v === '' || v === LEGACY_BLANKS[id] ? NOT_DEFINED : v);
 
+// The value labels with a group in global/labels.md read from the copy; VALUE_LABELS stands in when no
+// copy was shipped. The basis labels stay here: their copy entries carry the (E) mark, which the views
+// add on their own.
+const COPY_LABEL_GROUPS = new Set(['ownership_type', 'distribution_channel', 'brewery_type', 'category_type', 'section', 'characteristic', 'first_time']);
+const notFound = () => tx('global.labels.not_found', NOT_FOUND);
+
 export function valueLabel(id, value, meta = null) {
   const v = String(value ?? '');
-  if (v === NOT_DEFINED) return NOT_FOUND;
-  if (id === 'brewery_type' && !v) return NOT_FOUND;
+  if (v === NOT_DEFINED) return notFound();
+  if (id === 'brewery_type' && !v) return notFound();
   if (id === 'state') return meta?.states?.find((s) => s.state === v)?.name ?? v;
   if (id === 'city') return v.replace(/\s+-\s+/g, ', ');
   if (id === 'brewery_key') return meta?.names?.brewery_key?.[v] ?? v;
   if (id === 'abv_band') {
     const band = meta?.abv_bands?.find((b) => b.id === v);
     if (band) return band.label;
-    if (v === 'under-4') return 'Under 4%';
+    if (v === 'under-4') return tx('global.labels.abv_band.under-4', 'Under 4%');
     if (/^\d+-to-\d+$/.test(v)) return `${v.replace('-to-', ' to ')}%`;
     return v;
   }
-  if (VALUE_LABELS[id] && Object.hasOwn(VALUE_LABELS[id], v)) return VALUE_LABELS[id][v];
+  if (VALUE_LABELS[id] && Object.hasOwn(VALUE_LABELS[id], v)) {
+    if (!COPY_LABEL_GROUPS.has(id)) return VALUE_LABELS[id][v];
+    return tx(`global.labels.${id}.${v === '' ? '(blank)' : v}`, VALUE_LABELS[id][v]);
+  }
   // Unknown slug: show it as words rather than as a slug.
   return /^[a-z0-9]+(-[a-z0-9]+)+$/.test(v) ? titleCase(v.replace(/-/g, ' ')) : v;
 }
@@ -246,8 +256,8 @@ export const partialYearsIn = (rows) => [...new Set(rows.filter((r) => r.partial
 
 export function activeChips(s, meta = null) {
   const chips = FILTERS.filter((d) => s[d.id]).map((d) => ({ id: d.id, text: `${dimensionLabel(d, meta?.copy?.filters)}: ${valueLabel(d.id, s[d.id], meta)}` }));
-  if (s.q) chips.push({ id: 'q', text: `Search: ${s.q}` });
-  if (s.years === 'all' && !s.year) chips.push({ id: 'years', text: 'Partial Years Included' });
+  if (s.q) chips.push({ id: 'q', text: tx('global.filters.chips.search_chip', 'Search: {{query}}', { query: s.q }) });
+  if (s.years === 'all' && !s.year) chips.push({ id: 'years', text: tx('global.filters.chips.partial_chip', 'Partial Years Included') });
   return chips;
 }
 export const activeCount = (s) => activeChips(s).length;
@@ -256,14 +266,27 @@ export const activeCount = (s) => activeChips(s).length;
 export function emptyStateHtml(s, scope, meta = null) {
   const chips = activeChips(s, meta);
   const partial = !includesPartial(s) && scope.some((r) => r.partial);
-  return `<div class="empty-state" role="status"><p><strong>No medals match these filters.</strong>${chips.length ? ' Remove a filter to widen the view.' : ''}${partial ? ' Some medals in this scope are in partial years, which are hidden by default.' : ''}</p><div class="chip-row">${chips.map((c) => `<button type="button" class="chip removable" data-remove="${esc(c.id)}">${esc(c.text)}<span aria-hidden="true"> ×</span><span class="visually-hidden"> (remove)</span></button>`).join('')}${partial ? '<button type="button" class="chip removable" data-include-partial>Include partial years</button>' : ''}</div></div>`;
+  const title = tx('global.states.no_results.title', 'No medals match these filters.');
+  const removeHint = tx('global.states.no_results.remove_hint', 'Remove a filter to see more.');
+  const partialHint = tx('global.states.no_results.partial_hint', 'Some medals here are in partial years, which are hidden by default.');
+  const removeHidden = tx('global.filters.chips.remove_hidden', '(Remove)');
+  const include = tx('global.states.no_results.include_partial', 'Include Partial Years');
+  return `<div class="empty-state" role="status"><p><strong>${esc(title)}</strong>${chips.length ? ` ${esc(removeHint)}` : ''}${partial ? ` ${esc(partialHint)}` : ''}</p><div class="chip-row">${chips.map((c) => `<button type="button" class="chip removable" data-remove="${esc(c.id)}">${esc(c.text)}<span aria-hidden="true"> ×</span><span class="visually-hidden"> ${esc(removeHidden)}</span></button>`).join('')}${partial ? `<button type="button" class="chip removable" data-include-partial>${esc(include)}</button>` : ''}</div></div>`;
 }
 
 export function partialNoticeHtml(rows, meta) {
   const years = partialYearsIn(rows);
   if (!years.length) return '';
   const firstComplete = meta?.years?.find((y) => meta.coverage?.[y] === 'complete');
-  return `<div class="notice">${years.join(' and ')} ${years.length > 1 ? 'include' : 'includes'} only a sample of medals from secondary sources${firstComplete ? `; complete official lists start in ${firstComplete}` : ''}. Read counts for ${years.length > 1 ? 'those years' : 'that year'} as partial.</div>`;
+  // The copy entry names the first complete year; with no complete year loaded, the code's wording.
+  if (firstComplete) {
+    const key = years.length > 1 ? 'global.states.partial_notice.many' : 'global.states.partial_notice.one';
+    const fallback = years.length > 1
+      ? '{{years}} include only a sample of medals from secondary sources. Complete official lists start in {{first_complete_year}}. Read those years as partial.'
+      : '{{years}} includes only a sample of medals from secondary sources. Complete official lists start in {{first_complete_year}}. Read {{years}} as partial.';
+    return `<div class="notice">${esc(tx(key, fallback, { years: years.join(' and '), first_complete_year: firstComplete }))}</div>`;
+  }
+  return `<div class="notice">${years.join(' and ')} ${years.length > 1 ? 'include' : 'includes'} only a sample of medals from secondary sources. Read counts for ${years.length > 1 ? 'those years' : 'that year'} as partial.</div>`;
 }
 
 // ---------- the header control and panel ----------
@@ -308,32 +331,42 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
   function renderTrigger() {
     if (!trigger) return;
     const n = activeCount(state);
-    trigger.innerHTML = `Filters${n ? ` <span class="filter-count">· ${n}</span>` : ''}`;
-    trigger.setAttribute('aria-label', n ? `Filters, ${n} active` : 'Filters');
+    const label = tx('global.filters.trigger.label', 'Filters');
+    trigger.innerHTML = `${esc(label)}${n ? ` <span class="filter-count">· ${n}</span>` : ''}`;
+    trigger.setAttribute('aria-label', n ? tx('global.filters.trigger.accessible_label_with_count', 'Filters, {{count}} active', { count: n }) : label);
   }
   function renderChips() {
     if (!chipsEl) return;
     const chips = activeChips(state, labelMeta());
-    chipsEl.innerHTML = fixed.length || chips.length ? `<div class="inner chip-row" aria-label="Active filters">${fixed.map((c) => `<span class="chip fixed" title="This page is scoped to it">${esc(c.text)}</span>`).join('')}${chips.map((c) => `<button type="button" class="chip removable" data-remove="${esc(c.id)}" aria-label="Remove filter ${esc(c.text)}">${esc(c.text)}<span aria-hidden="true"> ×</span></button>`).join('')}${chips.length ? '<button type="button" class="chip clear" data-clear>Clear all</button>' : ''}</div>` : '';
+    const bar = tx('global.filters.chips.bar_label', 'Active Filters');
+    const fixedTip = tx('global.filters.chips.fixed_tooltip', 'This page is limited to this value');
+    const clear = tx('global.filters.chips.clear_all', 'Clear All');
+    chipsEl.innerHTML = fixed.length || chips.length ? `<div class="inner chip-row" aria-label="${esc(bar)}">${fixed.map((c) => `<span class="chip fixed" title="${esc(fixedTip)}">${esc(c.text)}</span>`).join('')}${chips.map((c) => `<button type="button" class="chip removable" data-remove="${esc(c.id)}" aria-label="${esc(tx('global.filters.chips.remove_label', 'Remove Filter {{chip}}', { chip: c.text }))}">${esc(c.text)}<span aria-hidden="true"> ×</span></button>`).join('')}${chips.length ? `<button type="button" class="chip clear" data-clear>${esc(clear)}</button>` : ''}</div>` : '';
     chipsEl.hidden = !(fixed.length || chips.length);
   }
   function select(def) {
     const opts = optionList(scoped(), def.id, state, meta);
     const cur = state[def.id] ? selectedValue(state, def.id) : '';
-    const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(valueLabel(def.id, cur, labelMeta()))} (0)</option>` : '';
-    return `<label>${esc(dimensionLabel(def, words()))}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">All</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${esc(o.label)} (${o.count.toLocaleString('en-US')})</option>`).join('')}</select></label>`;
+    const missing = cur && !opts.some((o) => o.value === cur) ? `<option value="${esc(cur)}" selected>${esc(tx('global.filters.options.not_in_view', '{{label}} (0)', { label: valueLabel(def.id, cur, labelMeta()) }))}</option>` : '';
+    const option = (o) => esc(tx('global.filters.options.with_count', '{{label}} ({{count}})', { label: o.label, count: o.count.toLocaleString('en-US') }));
+    return `<label>${esc(dimensionLabel(def, words()))}<select id="gf-${def.id}" data-filter="${def.id}"${opts.length ? '' : ' disabled'}><option value="">${esc(tx('global.filters.options.all', 'All'))}</option>${missing}${opts.map((o) => `<option value="${esc(o.value)}"${o.value === cur ? ' selected' : ''}>${option(o)}</option>`).join('')}</select></label>`;
   }
   function renderPanel() {
     if (!dialog) return;
     const body = dialog.querySelector('.filter-panel-body');
-    if (!rows) { body.innerHTML = '<p class="muted">Loading the medal data…</p>'; return; }
+    if (!rows) { body.innerHTML = `<p class="muted">${esc(tx('global.filters.panel.loading', 'Loading medals…'))}</p>`; return; }
     const focused = document.activeElement && dialog.contains(document.activeElement) ? document.activeElement.id : '';
     const sc = scoped();
     const partial = partialYearsIn(sc);
     const n = applyFilters(sc, state).length;
-    body.innerHTML = `<label class="search">Search<input id="gf-q" type="search" placeholder="Beer, brewery, city, hop" value="${esc(state.q ?? '')}" autocomplete="off"></label>
-<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${esc(groupLabel(g, words()))}</legend>${FILTERS.filter((d) => d.group === g && !d.hidden).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> Include partial years (${partial.join(', ')})</label><p class="small muted">Complete official lists are shown by default.</p>` : '<p class="small muted">Complete official lists are shown by default.</p>') : ''}</fieldset>`).join('')}</div>`;
-    dialog.querySelector('.filter-panel-count').textContent = `${n.toLocaleString('en-US')} medal${n === 1 ? '' : 's'} match${fixed.length ? ` on this page (${fixed.map((c) => c.text).join(', ')})` : ''}`;
+    const note = `<p class="small muted">${esc(tx('global.filters.partial_years.default_note', 'Shows complete official lists by default.'))}</p>`;
+    const include = esc(tx('global.filters.partial_years.include', 'Include Partial Years ({{years}})', { years: partial.join(', ') }));
+    body.innerHTML = `<label class="search">${esc(tx('global.filters.search.label', 'Search'))}<input id="gf-q" type="search" placeholder="${esc(tx('global.filters.search.placeholder', 'Beer, brewery, city, or hop'))}" value="${esc(state.q ?? '')}" autocomplete="off"></label>
+<div class="filter-groups">${GROUPS.map((g) => `<fieldset class="filter-group"><legend>${esc(groupLabel(g, words()))}</legend>${FILTERS.filter((d) => d.group === g && !d.hidden).map(select).join('')}${g === 'When' ? (partial.length ? `<label class="check"><input type="checkbox" id="gf-years" data-years${state.years === 'all' ? ' checked' : ''}> ${include}</label>${note}` : note) : ''}</fieldset>`).join('')}</div>`;
+    const count = n.toLocaleString('en-US');
+    dialog.querySelector('.filter-panel-count').textContent = fixed.length
+      ? tx('global.filters.panel.match_count_scoped', '{{count}} medals match on this page ({{scope}})', { count, scope: fixed.map((c) => c.text).join(', ') })
+      : n === 1 ? tx('global.filters.panel.match_count_one', '1 medal matches') : tx('global.filters.panel.match_count_many', '{{count}} medals match', { count });
     if (focused) { const f = document.getElementById(focused); if (f) f.focus(); }
   }
   function changed() {
@@ -351,7 +384,11 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     dialog = document.createElement('dialog');
     dialog.className = 'filter-panel';
     dialog.setAttribute('aria-labelledby', 'gf-title');
-    dialog.innerHTML = `<div class="filter-panel-head"><h2 id="gf-title">Filter Medals</h2><button type="button" class="btn" data-close>Close</button></div><div class="filter-panel-body"></div><div class="filter-panel-foot"><p class="filter-panel-count" aria-live="polite"></p><button type="button" class="btn" data-clear>Reset</button><button type="button" class="btn primary" data-close>Show results</button></div>`;
+    const title = esc(tx('global.filters.panel.title', 'Filter Medals'));
+    const close = esc(tx('global.filters.panel.close', 'Close'));
+    const reset = esc(tx('global.filters.panel.reset', 'Clear All'));
+    const apply = esc(tx('global.filters.panel.apply', 'Show Results'));
+    dialog.innerHTML = `<div class="filter-panel-head"><h2 id="gf-title">${title}</h2><button type="button" class="btn" data-close>${close}</button></div><div class="filter-panel-body"></div><div class="filter-panel-foot"><p class="filter-panel-count" aria-live="polite"></p><button type="button" class="btn" data-clear>${reset}</button><button type="button" class="btn primary" data-close>${apply}</button></div>`;
     document.body.appendChild(dialog);
     dialog.addEventListener('change', (e) => {
       const t = e.target;
@@ -389,7 +426,7 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     dialog.addEventListener('close', () => trigger && trigger.setAttribute('aria-expanded', 'false'), { once: true });
     const first = dialog.querySelector('#gf-q');
     if (first) first.focus();
-    if (!rows && loadData) loadData().then((d) => { api.setData(d); }).catch(() => { dialog.querySelector('.filter-panel-body').innerHTML = '<p>The medal data could not be loaded, so the filter options are unavailable. Reload the page to try again.</p>'; });
+    if (!rows && loadData) loadData().then((d) => { api.setData(d); }).catch(() => { dialog.querySelector('.filter-panel-body').innerHTML = `<p>${esc(tx('global.filters.panel.load_error', 'Filters are unavailable because the medal data did not load. Reload the page to try again.'))}</p>`; });
   }
 
   if (trigger) {

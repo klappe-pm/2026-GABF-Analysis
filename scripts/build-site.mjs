@@ -20,6 +20,8 @@ import { estMark } from '../site/assets/estimates.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from './lib/first-time.mjs';
 import { loadWinnerProfiles, matchKey } from './lib/winner-profiles.mjs';
 import { loadSiteCopy } from './lib/site-copy.mjs';
+import { siteTextKeys } from './lib/site-text-keys.mjs';
+import { setSiteText, TEXT_GROUPS } from '../site/assets/site-text.mjs';
 import { annotatePage, assertReviewAllowed, callerLocation, copyReviewAssets, REVIEW } from './lib/review-build.mjs';
 import { createHopPages } from './lib/hop-pages.mjs';
 import { HOP_COPY_DEFAULTS } from '../site/assets/hop-links.mjs';
@@ -43,6 +45,10 @@ let HOP_PAGES = null;
 const CARD_COPY = () => Object.fromEntries(Object.keys(BEER_CARD_DEFAULTS).map((k) => [k, COPY(`pages.profile-cards.beer.${k}`)]));
 // The global filter's dimension labels and group legends, from global/filters.md: shipped on meta.copy.filters
 // and in every page's #filter-copy script, so the header filter reads the same words as the Material app.
+// The copy entries the old site's code reads through tx (site/assets/site-text.mjs): set here for the
+// build's own rendering, written into every page's #site-text script, and shipped on meta.copy.text.
+const SITE_TEXT = Object.fromEntries([...siteTextKeys(), ...TEXT_GROUPS.flatMap((g) => COPY.keysUnder(g))].map((k) => [k, COPY.raw(k)]));
+setSiteText(SITE_TEXT);
 const FILTER_COPY = () => Object.fromEntries(Object.entries(FILTER_COPY_KEYS).map(([section, keys]) => [section, Object.fromEntries(keys.map((k) => [k, COPY(`global.filters.${section}.${k}`)]))]));
 
 // Winner research profiles keyed by year plus matchKey; filled by enrichResults().
@@ -109,6 +115,7 @@ ${body}
 </main>
 ${pageData ? `<script type="application/json" id="page-data">${JSON.stringify(pageData).replace(/</g, '\\u003c')}</script>` : ''}
 <script type="application/json" id="filter-copy">${JSON.stringify(FILTER_COPY()).replace(/</g, '\\u003c')}</script>
+<script type="application/json" id="site-text">${JSON.stringify(SITE_TEXT).replace(/</g, '\\u003c')}</script>
 <footer class="site-footer"><div class="inner">Results from the Brewers Association's official Great American Beer Festival winners lists. Brewery locations from Open Brewery DB and curated overrides. Charts by Apache ECharts. Estimates are marked (E). <a href="${REPO_URL}">${esc(COPY('global.site.footer.source_link'))}</a>.${CATALOG_BEER_ATTRIBUTION}</div></footer>
 <script src="${r}assets/vendor/echarts.min.js"></script>
 <script src="${r}assets/page.js" defer></script>
@@ -276,7 +283,7 @@ export function buildPayload(ds, cats) {
     ownership: Object.fromEntries(ds.breweries.filter((b) => b.ownership).map((b) => [b.key, { ownership_type: b.ownership.ownership_type, parent: b.ownership.parent }])),
     distribution: Object.fromEntries(ds.breweries.filter((b) => b.distribution_channel).map((b) => [b.key, b.distribution_channel])),
     categories: cats.map((c) => ({ name: c.name, slug: c.slug, style_family: c.style_family, special: c.special })),
-    copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY(), filters: FILTER_COPY() },
+    copy: { hops: HOP_SHARED_COPY(), cards: CARD_COPY(), filters: FILTER_COPY(), text: SITE_TEXT },
     // Farm name to page slug, so a brewery page can link the farms its beers reach.
     hop_farm_slugs: Object.fromEntries(ds.hops.farms.map((f) => [f.name, f.slug])),
   };

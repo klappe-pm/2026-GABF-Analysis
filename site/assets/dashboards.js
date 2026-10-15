@@ -10,6 +10,7 @@ import { applyFilters as applyGlobal, createGlobalFilter, decorateRows, emptySta
 import { oddsItems, specNoteHtml as specNote, yearsInView } from './page-views.mjs';
 import { sortByLabel } from './sort-order.mjs';
 import { NOT_FOUND_HTML } from './not-found.mjs';
+import { setSiteText, tx } from './site-text.mjs';
 
 // state.filters holds this page's own keys (tab, brewery); the site wide selection lives in the
 // global filter (ctl.state), shared with every other page.
@@ -19,6 +20,8 @@ const base = window.GABF_BASE || './';
 // Standalone mode: the single-file build embeds its data (window.GABF_DATA), so there is no
 // server, no page navigation, and links become in-page hash routes.
 const STANDALONE = typeof window.GABF_DATA === 'object' && window.GABF_DATA !== null;
+// The single file has no #site-text script: its copy entries travel in the embedded payload.
+if (STANDALONE) setSiteText(window.GABF_DATA.meta?.copy?.text);
 const bHref = (slug) => {
   if (!STANDALONE) return `${base}breweries/${slug}/`;
   const b = state.breweries.find((x) => x.slug === slug);
