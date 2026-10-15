@@ -20,7 +20,8 @@ type Props = {
 // A data table in Material's manner: a tinted header row, row dividers, tabular figures, sortable headers.
 // Header color and weight, row height, dividers, wrapping, and alignment come from the table spec.
 // A table wider than its container scrolls inside the container, never the page: an edge fade shows on each side
-// that has more columns, and the first column stays in place while the rest scroll.
+// that has more columns, and from the medium width up the first column stays in place while the rest scroll. On a
+// phone it scrolls with the rest: a long first column (a category name) would leave the other columns a sliver.
 // A table that does not scroll on its own keeps its header row in view while the page scrolls, until
 // the reader scrolls past the table. CSS sticky cannot do that here, because the sideways scroll
 // container is also the box sticky pins to, so the header cells are moved down by the distance scrolled.
@@ -106,7 +107,7 @@ export function DataTable({ caption, sortHint, columns, rows, initialSort, scrol
 
   // The end edge fades while more columns lie past it; once scrolled, the fixed first column casts a soft shadow.
   const fade = 'pointer-events-none absolute inset-y-px right-px w-6 rounded-r-(--md-sys-shape-corner-medium) bg-linear-to-l from-[color-mix(in_srgb,var(--md-sys-color-shadow)_14%,transparent)] to-transparent transition-opacity';
-  const pinned = `sticky left-0 ${more.start ? 'shadow-[4px_0_6px_-4px_color-mix(in_srgb,var(--md-sys-color-shadow)_30%,transparent)]' : ''}`;
+  const pinned = `medium:sticky medium:left-0 ${more.start ? 'medium:shadow-[4px_0_6px_-4px_color-mix(in_srgb,var(--md-sys-color-shadow)_30%,transparent)]' : ''}`;
   return (
     <div className="relative max-w-full" data-component="data-table">
       <div
