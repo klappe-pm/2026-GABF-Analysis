@@ -200,10 +200,10 @@ export function ChartShell(props: ChartShellProps) {
       instance.setOption(b.option, true);
       const shown = legendItems ? legendItems(kit) : [];
       drawn.current = { option: b.option, height: b.height ?? el.clientHeight, kit, legend: shown };
-      setItems(shown);
-    });
+      setItems((prev) => (prev.length === 0 && shown.length === 0 ? prev : shown));
+    }).catch((e) => { console.error(`chart ${id} did not draw`, e); });
     return () => { live = false; };
-  }, [build, legendItems, width, tick]);
+  }, [build, legendItems, width, tick, id]);
 
   const save = () => { if (drawn.current && width >= 100) void savePng(title, width, drawn.current); };
   const heading = <span id={`${id}-title`} className="type-title-medium text-on-surface" style={labelFace(title)}>{title}</span>;

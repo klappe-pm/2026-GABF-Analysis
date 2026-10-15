@@ -11,6 +11,8 @@ export const MEDALS = ['Gold', 'Silver', 'Bronze'] as const;
 export type Kit = {
   /** The theme as read, for the preset charts (web/design/chart-presets.ts). */
   theme: ChartTheme;
+  /** A Material color role as drawn, such as 'primary-container'. */
+  role: (name: string) => string;
   series: string[];
   region: Record<string, string>;
   medal: Record<string, string>;
@@ -72,6 +74,7 @@ export function readKit(el: Element): Kit {
   const textOn = (fill: string) => (contrast(fill, ink) >= contrast(fill, onDark) ? ink : onDark);
   return {
     theme: t,
+    role: (name) => v(`--md-sys-color-${name}`),
     series,
     region: { Midwest: series[0], Northeast: series[1], South: series[2], West: series[3] },
     medal: { Gold: v('--app-color-gold'), Silver: v('--app-color-silver'), Bronze: v('--app-color-bronze') },

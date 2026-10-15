@@ -8,6 +8,9 @@ import { binOf } from '@/design/chart-kit';
 import type { Built } from './OptionChart';
 
 export const NARROW = 480;
+// The one rule for a category label column: the wide width on a card at least NARROW wide, and below it the narrow
+// width (a number, or a share of the card), never more than the wide one.
+export const labelColumn = (narrow: number | ((w: number) => number), wide: number) => (w: number) => (w < NARROW ? Math.min(wide, typeof narrow === 'function' ? narrow(w) : narrow) : wide);
 export const fmtN = (n: number) => n.toLocaleString('en-US');
 export const esc = (s: unknown) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] ?? c));
 
@@ -296,4 +299,91 @@ export function scatter(o: { points: { name: string; x: number; y: number }[]; x
       }],
     },
   });
+}
+
+// ---------- the analysis report charts ----------
+// Horizontal bars, stacked columns and the state map of the category and analysis pages. They draw on the report base
+// below, which keeps their own look: axis labels in the secondary text color and a tooltip in the inverse surface.
+
+// The option every report chart starts from, read from the theme as drawn.
+function reportBase(kit: Kit) {
+  const t = kit.theme;
+  const axisLabel = { color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small };
+  return {
+    color: t.series,
+    backgroundColor: 'transparent',
+    animation: false,
+    textStyle: { fontFamily: t.family, color: t.onSurface },
+    grid: { left: 8, right: 16, top: 16, bottom: 8, containLabel: true },
+    xAxis: { type: 'category' as const, axisLine: { lineStyle: { color: t.outline } }, axisTick: { lineStyle: { color: t.outlineVariant } }, axisLabel, splitLine: { show: false } },
+    yAxis: { type: 'value' as const, axisLine: { show: false }, axisTick: { show: false }, axisLabel, splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
+    tooltip: {
+      trigger: 'axis' as const,
+      backgroundColor: t.container,
+      borderWidth: 0,
+      borderRadius: t.radius,
+      padding: 8,
+      textStyle: { color: t.onContainer, fontFamily: t.family, fontSize: t.medium },
+      axisPointer: { type: 'line' as const, lineStyle: { color: t.outline, width: 1 } },
+    },
+  };
+}
+
+// The five series colors, then Material containers for a chart with more series.
+const EXTRA_ROLES = ['primary-container', 'tertiary-container', 'secondary-container'];
+export const seriesFill = (kit: Kit, i: number) => (i < kit.series.length ? kit.series[i] : kit.role(EXTRA_ROLES[(i - kit.series.length) % EXTRA_ROLES.length]));
+
+// Horizontal bars, largest first, one bar per item, the value at the end of each bar.
+export const reportBarsHeight = (n: number) => Math.max(200, 34 * n + 60);
+export function reportBars(o: { labels: string[]; values: number[]; valueName: string; roleIndex?: number; labelWidth?: number }) {
+  return (kit: Kit, w: number): Built => {
+    const base = reportBase(kit);
+    const t = kit.theme;
+    return {
+      option: {
+        ...base,
+        grid: { left: 8, right: 48, top: 8, bottom: 8, containLabel: true },
+        tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+        xAxis: { ...base.yAxis, type: 'value', splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
+        yAxis: { ...base.xAxis, type: 'category', inverse: true, data: o.labels, axisLabel: { ...base.xAxis.axisLabel, width: labelColumn((x) => Math.round(x * 0.38), o.labelWidth ?? 200)(w), overflow: 'truncate' } },
+        series: [{ type: 'bar', name: o.valueName, data: o.values, barMaxWidth: 22, itemStyle: { color: t.series[(o.roleIndex ?? 0) % t.series.length] }, label: { show: true, position: 'right', color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small } }],
+      },
+    };
+  };
+}
+
+// Stacked columns, one column per label (a year), one segment per series; a note under a label sets a second line.
+export function reportStacked(o: { labels: (string | number)[]; series: { name: string; values: number[] }[]; notes?: string[] }) {
+  return (kit: Kit): Built => {
+    const base = reportBase(kit);
+    return {
+      option: {
+        ...base,
+        tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+        xAxis: { ...base.xAxis, data: o.labels.map((l, i) => (o.notes?.[i] ? `${l}\n${o.notes[i]}` : String(l))) },
+        series: o.series.map((x, i) => ({ type: 'bar', stack: 'total', name: x.name, data: x.values, barMaxWidth: 36, itemStyle: { color: seriesFill(kit, i), borderColor: kit.theme.container, borderWidth: 0.5 } })),
+      },
+    };
+  };
+}
+
+// The United States by state, shaded from the primary container to Series 1 by value.
+export function stateMap(o: { data: { name: string; value: number }[]; valueName: string; tooltip: (d: { name: string; value: number }) => string; registerMap: () => Promise<void> }) {
+  return async (kit: Kit): Promise<Built> => {
+    await o.registerMap();
+    const base = reportBase(kit);
+    const t = kit.theme;
+    const top = Math.max(1, ...o.data.map((d) => d.value));
+    const container = kit.role('primary-container');
+    return {
+      option: {
+        backgroundColor: base.backgroundColor,
+        animation: false,
+        textStyle: base.textStyle,
+        tooltip: { ...base.tooltip, trigger: 'item', formatter: (p: { name: string; value: number }) => o.tooltip({ name: p.name, value: Number.isFinite(p.value) ? p.value : 0 }) },
+        visualMap: { min: 0, max: top, left: 8, bottom: 8, orient: 'horizontal', calculable: false, text: [String(top), '0'], textStyle: { color: t.onSurfaceVariant, fontFamily: t.family }, inRange: { color: [container, t.series[0]] } },
+        series: [{ type: 'map', map: 'usa', nameProperty: 'name', roam: false, name: o.valueName, data: o.data, label: { show: false }, itemStyle: { borderColor: t.outlineVariant, borderWidth: 1, areaColor: container }, emphasis: { label: { show: false }, itemStyle: { borderColor: t.onSurface, borderWidth: 2 } }, select: { disabled: true } }],
+      },
+    };
+  };
 }
