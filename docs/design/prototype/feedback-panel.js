@@ -10,6 +10,10 @@
   'use strict';
   var FROM_PAGE = 'gabf-review';
   var TO_PAGE = 'gabf-control-plane';
+  // No feedback is collected at phone width (owner decision on issue #72): a ticket from a frame 40rem (640px)
+  // wide or less carries no device, and its viewport still records the frame size.
+  var PHONE_MAX = 640;
+  function deviceOf(width) { return width <= PHONE_MAX ? null : width < 1024 ? 'tablet' : 'desktop'; }
   var drafts = {};
   var ctx = null;
   var isOpen = false;
@@ -358,7 +362,7 @@
       components: d.comps.map(function (c) { return { name: c.name, instance: c.instance || null }; }),
       contentKeys: d.keys.map(function (k) { return k.key; }),
       contentEdits: edits,
-      device: (f.width || window.innerWidth) < 600 ? 'phone' : (f.width || window.innerWidth) < 1024 ? 'tablet' : 'desktop',
+      device: deviceOf(f.width || window.innerWidth),
       viewport: { width: f.width || window.innerWidth, height: f.height || window.innerHeight },
       build: f.build || null
     }).then(function (r) {

@@ -6,7 +6,7 @@
 // hold the same words, records an ACCEPTED ticket, and rebuilds; the page then reloads on the new copy.
 import { useEffect, useRef, useState } from 'react';
 import { api, keyWords, type Preview, ReviewError } from './api';
-import { docRect, type Spot } from './dom';
+import { deviceOf, docRect, type Spot } from './dom';
 
 type Props = {
   c: (key: string, values?: Record<string, string | number>) => string;
@@ -79,7 +79,7 @@ export function InlineEditor({ c, element, copyKey, step, spot, onClose, onSaved
         newValue: value,
         take: Object.keys(take).filter((k) => take[k]),
         spot: { selector: spot.selector, rect: spot.rect, text: spot.text },
-        device: innerWidth < 600 ? 'phone' : innerWidth < 1024 ? 'tablet' : 'desktop',
+        device: deviceOf(),
         viewport: { width: innerWidth, height: innerHeight },
       });
       onSaved(r.id);

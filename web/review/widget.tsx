@@ -12,7 +12,7 @@ import { createPortal } from 'react-dom';
 import { useDesign } from '@/design/runtime';
 import { ReviewSettingsPanel } from '@/components/review/ReviewSettingsPanel';
 import { api, type ComponentInfo, keyWords, type Recorded, ReviewError, type Step } from './api';
-import { docRect, inLayer, scanMarks, type Spot, spotFor } from './dom';
+import { deviceOf, docRect, inLayer, PHONE_QUERY, scanMarks, type Spot, spotFor } from './dom';
 import { InlineEditor } from './inline-editor';
 import { copyPageFor } from './pages.mjs';
 
@@ -43,6 +43,9 @@ function Widget({ copy }: { copy: Copy }) {
   const title = (name: string) => meta[name]?.title ?? copy['not_found'];
   const kind = (tag: string) => copy[`elements.${tag}`] ?? c('elements.other');
   const [open, setOpen] = useState(false);
+  const [phone, setPhone] = useState(false);
+  const phoneRef = useRef(phone);
+  phoneRef.current = phone;
   const [note, setNote] = useState('');
   const [cats, setCats] = useState<string[]>([]);
   const [spots, setSpots] = useState<Spot[]>([]);
@@ -79,6 +82,15 @@ function Widget({ copy }: { copy: Copy }) {
     window.addEventListener('resize', soon);
     window.addEventListener('load', soon);
     return () => { clearTimeout(first); if (timer) clearTimeout(timer); mo.disconnect(); window.removeEventListener('resize', soon); window.removeEventListener('load', soon); };
+  }, []);
+
+  // At phone width no feedback is collected: the panel closes and nothing is drawn. The marking above still runs.
+  useEffect(() => {
+    const mq = window.matchMedia(PHONE_QUERY);
+    const sync = () => { setPhone(mq.matches); if (mq.matches) setOpen(false); };
+    sync();
+    mq.addEventListener('change', sync);
+    return () => mq.removeEventListener('change', sync);
   }, []);
 
   // Open and close: the page reflows beside the panel, and picking turns on.
@@ -181,7 +193,7 @@ function Widget({ copy }: { copy: Copy }) {
   useEffect(() => {
     const toggle = (e: KeyboardEvent) => {
       const typing = e.target instanceof Element && /^(input|select|textarea)$/i.test(e.target.tagName);
-      if (e.code === 'KeyF' && e.shiftKey && !e.metaKey && !e.ctrlKey && !e.altKey && !typing) { e.preventDefault(); setOpen((o) => !o); }
+      if (e.code === 'KeyF' && e.shiftKey && !e.metaKey && !e.ctrlKey && !e.altKey && !typing && !phoneRef.current) { e.preventDefault(); setOpen((o) => !o); }
     };
     document.addEventListener('keydown', toggle, true);
     return () => document.removeEventListener('keydown', toggle, true);
@@ -229,7 +241,7 @@ function Widget({ copy }: { copy: Copy }) {
         spots: spots.map((s) => ({ n: s.n, selector: s.selector, rect: s.rect, text: s.text })),
         components: components.map((name) => ({ name })),
         contentKeys: keys,
-        device: innerWidth < 600 ? 'phone' : innerWidth < 1024 ? 'tablet' : 'desktop',
+        device: deviceOf(),
         viewport: { width: innerWidth, height: innerHeight },
       });
       setNote('');
@@ -379,5 +391,5 @@ function Widget({ copy }: { copy: Copy }) {
       {open && editing ? <InlineEditor c={c} element={editing.element} copyKey={editing.key} step={step} spot={editing.spot} onClose={() => setEditing(null)} onSaved={(id) => { setSaid(c('messages.edited', { id })); setBad(false); }} /> : null}
     </div>
   );
-  return createPortal(nodes, document.body);
+  return phone ? null : createPortal(nodes, document.body);
 }

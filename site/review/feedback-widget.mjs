@@ -21,6 +21,12 @@ const LOCAL_HOSTS = new Set(['127.0.0.1', 'localhost', '[::1]', '::1']);
 const FROM_PAGE = 'gabf-review';
 const FROM_SHELL = 'gabf-control-plane';
 
+// No feedback is collected at phone width (owner decision on issue #72). A phone width frame is a design
+// preview, so the page keeps working in it, but an edit made there carries no device (the viewport still
+// records the frame size). Same breakpoint as web/review/dom.ts PHONE_QUERY.
+const PHONE_QUERY = '(max-width: 40rem)';
+const deviceOf = () => (matchMedia(PHONE_QUERY).matches ? null : innerWidth < 1024 ? 'tablet' : 'desktop');
+
 function boot() {
   if (!LOCAL_HOSTS.has(location.hostname)) { console.info('Page picker not started: it runs only on this machine.'); return; }
   if (document.querySelector('.gfw-layer')) return;
@@ -434,7 +440,7 @@ function boot() {
       try {
         const r2 = await api('/review/inline/save', {
           screen, key: info.key, newValue: input.value, take: Object.keys(state.take).filter((k) => state.take[k]), spot,
-          device: innerWidth < 600 ? 'phone' : innerWidth < 1024 ? 'tablet' : 'desktop',
+          device: deviceOf(),
           viewport: { width: innerWidth, height: innerHeight }, build,
         });
         post({ kind: 'inline-saved', id: r2.id, rebuilt: r2.rebuilt });
