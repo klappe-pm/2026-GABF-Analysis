@@ -7,6 +7,7 @@ Navigation labels and the text of the browser tab for every page.
 Where: header navigation, left to right.
 
 - `home`: Home
+- `overview`: Overview
 - `results`: Medal Winners
 - `results_by_year`: By Year
 - `results_by_category`: By Category

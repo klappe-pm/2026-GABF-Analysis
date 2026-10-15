@@ -28,7 +28,8 @@ test('home, overview, analysis, method, and saved views have their addresses', (
   assert.equal(paths.saved, '/saved/');
   const byId = Object.fromEntries(all.map((d) => [d.id, d.path]));
   assert.equal(byId.home, '/');
-  assert.equal(byId.results, '/overview/');
+  assert.equal(byId.overview, '/overview/');
+  assert.equal(byId.results, '/categories/');
   assert.equal(byId.analysis, '/analysis/');
   assert.equal(byId['saved-views'], '/saved/');
 });
@@ -36,10 +37,11 @@ test('home, overview, analysis, method, and saved views have their addresses', (
 test('each section highlights its own destination', () => {
   const cases = {
     '/': 'home',
-    '/overview/': 'results',
-    '/dashboards/': 'results',
-    '/dashboards/geography/': 'results',
+    '/overview/': 'overview',
+    '/dashboards/': 'overview',
+    '/dashboards/geography/': 'overview',
     '/categories/': 'results',
+    '/categories/some-category/': 'results',
     '/breweries/': 'breweries',
     '/breweries/some-brewery/': 'breweries',
     '/first-time-medalists/2026/': 'breweries',
