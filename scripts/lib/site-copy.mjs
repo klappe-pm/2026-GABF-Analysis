@@ -28,6 +28,14 @@ export function createSiteCopy(entries, where = CMS_DIR) {
   };
   copy.used = used;
   copy.has = (key) => values.has(key);
+  // The entry with its {{placeholders}} unfilled, for code that fills them later (in the browser).
+  copy.raw = (key) => {
+    used.add(key);
+    if (!values.has(key)) throw new Error(`The site build needs the copy entry ${key}, but ${where} does not have it. Add it to the copy document, or run: git checkout -- ${CMS_DIR}`);
+    return values.get(key);
+  };
+  // Every key directly under a group, such as global.labels.brewery_type.
+  copy.keysUnder = (group) => [...values.keys()].filter((k) => k.startsWith(`${group}.`) && !k.slice(group.length + 1).includes('.'));
   copy.size = values.size;
   return copy;
 }

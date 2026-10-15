@@ -23,6 +23,7 @@ Components:
   - data-table
   - medal-mark
   - medal-record
+  - medal-badge
   - range-scale
   - callout
   - status-chip

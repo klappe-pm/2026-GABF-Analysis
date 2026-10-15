@@ -2,6 +2,7 @@
 // compact numbers, status labels, table views, stat tiles, and the figure wrapper that
 // embeds an Apache ECharts option for echarts-init.js to render.
 import { titleCase } from './title-case.mjs';
+import { tx } from './site-text.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -22,6 +23,11 @@ export const STATUS_LABELS = {
 };
 
 export const STATUS_SHORT = { 'did-not-exist': 'not yet founded', 'not-yet-reported': 'pending', 'no-data': 'partial', 'no-results': 'not loaded', closed: 'closed', medaled: '', 'no-medal': '' };
+
+// A year's status, in full and as the short note under a chart year, from global/labels.md
+// (trend_status and trend_status_short); the maps above stand in when no copy was shipped.
+export const statusLabel = (status) => tx(`global.labels.trend_status.${status}`, STATUS_LABELS[status] ?? status);
+export const statusShort = (status) => tx(`global.labels.trend_status_short.${status}`, STATUS_SHORT[status] ?? '');
 
 export function compact(v) {
   const n = Number(v);

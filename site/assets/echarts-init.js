@@ -47,6 +47,16 @@
     // glyph (pending, partial, not loaded, not yet founded or closed) and the year to two digits.
     yearNotes(notes) {
       const glyphs = { pending: '…', partial: '·', draft: '·', 'not loaded': '○', 'not yet founded': '×', closed: '×' };
+      // The notes come from the copy (global/labels.md trend_status_short), so the glyph for each note
+      // is found through the same status key (trend_status_glyph) in the copy the page shipped.
+      let text = null;
+      try { text = JSON.parse((document.getElementById('site-text') || {}).textContent || 'null'); } catch (e) { text = null; }
+      text = text || (window.GABF_DATA && window.GABF_DATA.meta && window.GABF_DATA.meta.copy && window.GABF_DATA.meta.copy.text) || {};
+      for (const key of Object.keys(text)) {
+        const m = key.match(/^global\.labels\.trend_status_short\.(.+)$/);
+        const glyph = m && text['global.labels.trend_status_glyph.' + m[1]];
+        if (m && text[key] && glyph) glyphs[text[key]] = glyph;
+      }
       return (v, i) => {
         const note = notes[i];
         const narrow = window.innerWidth < 560;

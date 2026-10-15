@@ -172,6 +172,11 @@ Where: the ten year trend table under the medal chart.
 - `medals`: Medals
 - `split`: Gold / Silver / Bronze
 - `caption`: Medals and status of {{brewery_name}} in the last ten years.
+- `badge_group`: Medals of {{brewery_name}} in {{year}}
+- `badge_one`: {{count}} {{medal}} medal in {{year}}, open the beers
+- `badge_other`: {{count}} {{medal}} medals in {{year}}, open the beers
+- `badge_none`: No {{medal}} medals in {{year}}
+- `status_partial`: {{status}}, Partial Year
 
 ## `chart`
 

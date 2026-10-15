@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { activeChips, applyFilters, hashFor, isDefaultState, optionList, parseHash, pickState, readStored, resolveState, scopeRows, STORAGE_KEY, unslugText, valueLabel, viewRows, writeStored } from '../site/assets/filter-bar.mjs';
+import { activeChips, applyFilters, dimensionLabel, FILTER_COPY_KEYS, FILTERS, groupLabel, hashFor, isDefaultState, optionList, parseHash, pickState, readStored, resolveState, scopeRows, STORAGE_KEY, unslugText, valueLabel, viewRows, writeStored } from '../site/assets/filter-bar.mjs';
+import { loadSiteCopy } from '../scripts/lib/site-copy.mjs';
 import { ambiguousFirstTimers, firstTimeStatus } from '../scripts/lib/first-time.mjs';
 import { oddsItems } from '../site/assets/page-views.mjs';
 
@@ -96,4 +97,18 @@ test('entries per medal pools years and leaves out rows without entry counts', (
   ]);
   assert.deepEqual(odds.list.map((o) => [o.label, o.value]), [['IPA', 75], ['Lager', 10]]);
   assert.match(odds.note, /1 medal in view has no published entry count/);
+});
+
+test('the filter labels come from the copy documents, so an edit reaches both sites', () => {
+  const copy = loadSiteCopy();
+  // Every dimension and group the filter draws has a copy entry (the build stops on a missing one).
+  for (const [section, keys] of Object.entries(FILTER_COPY_KEYS)) for (const k of keys) assert.ok(copy.has(`global.filters.${section}.${k}`), `global.filters.${section}.${k}`);
+  const words = { dimensions: { hop_farm_named: 'Farm the Brewery Named' }, groups: { what: 'Beer' } };
+  const def = FILTERS.find((d) => d.id === 'hop_farm_named');
+  assert.equal(dimensionLabel(def, words), 'Farm the Brewery Named');
+  assert.equal(groupLabel('What', words), 'Beer');
+  assert.deepEqual(activeChips({ hop_farm_named: 'Yakima Chief' }, { copy: { filters: words } }).map((c) => c.text), ['Farm the Brewery Named: Yakima Chief']);
+  // With no copy shipped, the labels in the code stand in.
+  assert.equal(dimensionLabel(def), def.label);
+  assert.equal(groupLabel('What'), 'What');
 });
