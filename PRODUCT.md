@@ -36,7 +36,7 @@ Read on desktop at a desk while planning entries or studying competitors, and on
 - Data: official winners lists 2021 to 2026 complete; 2018 and 2019 partial; 2020 pending. 1,907 medal rows, 947 breweries, 177 categories.
 - One global filter applies to every view; every page with data is filterable by every dimension.
 - Independent and unofficial: no GABF or Brewers Association marks, logos, or branding, and nothing that implies endorsement.
-- Publishing is on hold. Domains owned (all registered at Porkbun), with the agreed plan: gabf.beer is the primary address for this site; gabfawards.beer forwards to gabf.beer; medals.beer is reserved for medal record features (a brewery's or beer's medal history) or forwards to the primary; awards.beer is held for a future multi competition site (a registry of 228 US competitions exists in `data/reference/us-beer-competitions.csv`, without results).
+- Publishing at gabf.beer is approved (issue #143, 2026-10-15) and goes live once the apex DNS records pass `npm run pages:dns` and the custom domain is switched, as `docs/deployment.md` describes. Domains owned (all registered at Porkbun), with the agreed plan: gabf.beer is the primary address for this site; gabfawards.beer forwards to gabf.beer; medals.beer is reserved for medal record features (a brewery's or beer's medal history) or forwards to the primary; awards.beer is held for a future multi competition site (a registry of 228 US competitions exists in `data/reference/us-beer-competitions.csv`, without results).
 
 ## Brand Commitments
 
