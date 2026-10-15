@@ -2,7 +2,7 @@
 // Apache ECharts figures (with table views) plus stat tiles and result tables. Which
 // panels appear is set by the page's data-dashboard attribute. Clicking a state on the
 // map, a year column, a category bar, or a brewery bar narrows or navigates.
-import { compact, countBy, esc, figure, gsbColumn, statTile, STATUS_LABELS, tableHtml } from './charts.mjs';
+import { compact, countBy, esc, figure, gsbColumn, statTile, statusLabel, statusShort, tableHtml } from './charts.mjs';
 import { estMark, installEstimates } from './estimates.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, scatterOption, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
 import { CONTROL_FIELDS, latestValue, medalRates } from './rates.mjs';
@@ -142,8 +142,8 @@ const PANELS = {
     const years = new Set(yearsInView(state.meta, ctl.state));
     const trend = b.trend.filter((t) => years.has(t.year));
     const labels = trend.map((t) => t.year);
-    const option = stackedColumnsOption({ labels, notes: trend.map((t) => ({ 'did-not-exist': 'not yet founded', 'not-yet-reported': 'pending', 'no-data': 'partial', 'no-results': 'not loaded', closed: 'closed' }[t.status] ?? '')), series: [{ name: 'Gold', data: trend.map((t) => t.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: trend.map((t) => t.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: trend.map((t) => t.bronze), color: MEDAL_COLORS.Bronze }], saveName: `${b.slug}-medals-by-year` });
-    return { option, height: 280, subtitle: tx('pages.dashboards.panels.brewery_trend.subtitle', '{{brewery_name}}, Every Medal in the Record', { brewery_name: b.name }), table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((t) => [t.gold, t.silver, t.bronze]), { key: 'status', label: 'Status', render: (t) => esc(STATUS_LABELS[t.status] ?? t.status) }], trend, { className: 'data-table' }) };
+    const option = stackedColumnsOption({ labels, notes: trend.map((t) => statusShort(t.status)), series: [{ name: 'Gold', data: trend.map((t) => t.gold), color: MEDAL_COLORS.Gold }, { name: 'Silver', data: trend.map((t) => t.silver), color: MEDAL_COLORS.Silver }, { name: 'Bronze', data: trend.map((t) => t.bronze), color: MEDAL_COLORS.Bronze }], saveName: `${b.slug}-medals-by-year` });
+    return { option, height: 280, subtitle: tx('pages.dashboards.panels.brewery_trend.subtitle', '{{brewery_name}}, Every Medal in the Record', { brewery_name: b.name }), table: tableHtml([{ key: 'year', label: 'Year' }, gsbColumn((t) => [t.gold, t.silver, t.bronze]), { key: 'status', label: 'Status', render: (t) => esc(statusLabel(t.status)) }], trend, { className: 'data-table' }) };
   } },
   'brewery-categories': { title: tx('pages.dashboards.panels.brewery_categories.title', 'Medals by Category'), build(rows) {
     const b = currentBrewery();

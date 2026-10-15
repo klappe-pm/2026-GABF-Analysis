@@ -10,6 +10,7 @@
 export const TEXT_GROUPS = [
   'global.labels.ownership_type', 'global.labels.distribution_channel', 'global.labels.brewery_type', 'global.labels.category_type',
   'global.labels.section', 'global.labels.characteristic', 'global.labels.first_time', 'global.labels.abv_band',
+  'global.labels.trend_status', 'global.labels.trend_status_short', 'global.labels.trend_status_glyph',
 ];
 
 let shipped = null;

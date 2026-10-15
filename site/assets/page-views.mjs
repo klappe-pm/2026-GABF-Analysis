@@ -4,7 +4,7 @@
 // Each view takes (rows, ctx): rows already narrowed to the page scope and the global filter;
 // ctx carries the relative root r, meta, the filter state, and page data.
 
-import { compact, countBy, esc, figure, gsbColumn, gsbHtml, humanizeHeadings, statTile, STATUS_LABELS, STATUS_SHORT, tableHtml } from './charts.mjs';
+import { compact, countBy, esc, figure, gsbColumn, gsbHtml, humanizeHeadings, statTile, statusLabel, statusShort, tableHtml } from './charts.mjs';
 import { barsHOption, lineOption, mapOption, MEDAL_COLORS, SERIES_COLORS, stackedColumnsOption } from './chart-options.mjs';
 import { medalRates } from './rates.mjs';
 import { emptyStateHtml, includesPartial, partialNoticeHtml, valueLabel } from './filter-bar.mjs';
@@ -97,7 +97,7 @@ function breweryView(rows, ctx) {
   const b = page.brewery;
   const years = yearsInView(meta, state);
   const statusOf = Object.fromEntries((b.trend ?? []).map((t) => [t.year, t.status]));
-  const notes = Object.fromEntries(years.map((y) => [y, STATUS_SHORT[statusOf[y]] ?? '']));
+  const notes = Object.fromEntries(years.map((y) => [y, statusOf[y] ? statusShort(statusOf[y]) : '']));
   const cats = new Set(rows.map((m) => m.category_name)).size;
   const first = rows.length ? Math.min(...rows.map((m) => m.year)) : null;
   const stats = [
@@ -119,7 +119,7 @@ function breweryView(rows, ctx) {
   if (byCategory.length > 1) figs.push(barsFigure('medals-by-category', tx('pages.brewery-detail.charts.by_category_title', 'Medals by Category'), byCategory.slice(0, 15), { labelWidth: 240, labelHeader: tx('global.tables.medal_columns.category', 'Category') }));
   const byYear = [...years].reverse().map((y) => {
     const ms = rows.filter((m) => m.year === y);
-    return { year: y, medals: ms.length, split: medalSplit(ms), status: ms.length ? '' : (STATUS_LABELS[statusOf[y]] ?? 'No medal in view') };
+    return { year: y, medals: ms.length, split: medalSplit(ms), status: ms.length ? '' : (statusOf[y] ? statusLabel(statusOf[y]) : 'No medal in view') };
   });
   const recent = tableHtml([{ key: 'year', label: 'Year', numeric: true }, { key: 'medals', label: 'Medals', numeric: true }, gsbColumn((x) => x.split), { key: 'status', label: 'Note', render: (x) => `<span class="muted small">${esc(x.status)}</span>` }], byYear);
   return `<div class="stats">${stats}</div>
