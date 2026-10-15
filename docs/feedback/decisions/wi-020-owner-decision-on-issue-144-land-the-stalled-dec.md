@@ -1,6 +1,6 @@
 ---
 id: WI-020
-status: ACCEPTED
+status: DONE
 title: Land the stalled decision records and clear the stale feedback queue?
 page: decisions
 job: null
@@ -48,6 +48,13 @@ images: []
 issue: 144
 issue-url: https://github.com/klappe-pm/GABF-Analysis/issues/144
 kind: decision
+pr: 148
+pr-url: https://github.com/klappe-pm/GABF-Analysis/pull/148
+resolution:
+  status: DONE
+  change: "pull request #148"
+  note: Delivered by the feedback pipeline.
+  at: 2026-10-15T20:51:09.978Z
 ---
 
 Owner decision on issue #144: Land the stalled decision records and clear the stale feedback queue?
