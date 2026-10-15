@@ -51,7 +51,7 @@ jobs:
       - run: npm test
       - run: npm run validate
       - run: npm run hops:check
-      # npm run design:check is local only: its engine lives in a separate agent-graph checkout.
+      # npm run design:check is local only: it needs the product-feedback tool, which CI does not install.
       - run: npm run design-system:check
       - name: playwright-version
         id: playwright

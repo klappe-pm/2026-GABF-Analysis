@@ -40,7 +40,7 @@ test('no ticket records a phone device', () => {
 // The control plane files no ticket of its own: its Feedback button opens the widget inside the framed page, which
 // sends the device rules above.
 test('the control plane Feedback entry opens the framed page widget and posts no ticket', () => {
-  const panel = readFileSync(resolve(ROOT, 'scripts/control-plane/feedback-panel.js'), 'utf8');
+  const panel = readFileSync(resolve(ROOT, 'docs/design/prototype/feedback-panel.js'), 'utf8');
   assert.doesNotMatch(panel, /'\/review\/feedback'/);
   assert.match(panel, /kind: 'open-feedback'/);
 });

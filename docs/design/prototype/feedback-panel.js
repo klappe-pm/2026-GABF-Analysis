@@ -1,6 +1,6 @@
 // The Feedback entry of the design control plane. The control plane's shell calls render() when its side panel is
 // drawn in feedback mode and opened() when that panel opens or closes, and chip() for each entry of its "Made of"
-// lists. Feedback itself is taken by the review widget inside the framed page (web/review/widget.tsx in the web
+// lists. Feedback itself is taken by the review widget inside the framed page (the host page's review widget in the web
 // review build): its panel, the pins, the in place copy editor and the review settings panel all run there, and the
 // ticket is filed against the journey step this screen is. This file opens and closes that panel, and links each
 // component in the "Made of" lists to its design system file.

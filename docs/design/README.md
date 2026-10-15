@@ -2,6 +2,8 @@
 
 The design control plane and the review loop for GABF Analysis. Every screen is the real built site in one declared state, every screen explains itself, and feedback is captured inside the journey view as one flow: a ticket that names the job, the step, the state, the spots, the components and the copy it concerns.
 
+The tooling is [product-feedback](https://github.com/klappe-pm/product-feedback), a separate project this repository opts into with [product-feedback.config.json](../../product-feedback.config.json). This folder holds what is this site's own: the interaction spec, the manifest, the jobs, the sketches, the screen drives and the generated prototype. The review widget inside the web app (`web/review/`), the design system and the site copy stay here too. Nothing in the site build, continuous integration or the deploy imports product-feedback; the `npm run` commands below call its `product-feedback` command, which must be installed on the machine (see [the-tooling](#the-tooling)).
+
 ## start-reviewing
 
 ```bash
@@ -35,9 +37,9 @@ The site build reads visible copy from the copy documents through `scripts/lib/s
 
 With the panel open, text on the framed page that is one line of page copy has a dotted underline. Double click it, or focus it and press Enter, to edit it where it stands: a field with a solid blue outline covers the text, with Save and Cancel under it. Escape cancels. Hovering text that is not page copy says so in plain words (it comes from the data or the page layout), and it cannot be edited.
 
-The field holds the copy entry's own value, so a placeholder such as {{year}} stays a placeholder. The same words found in other copy entries and hard coded strings are listed under the field with checkboxes, all checked, as in the panel. Save sends the new text through the same server copy edit the panel uses: the prose rules and the secret scan run first, and a refused value writes nothing and says why. Otherwise only the value text of the key's line changes, the checked related instances change, the review site is rebuilt, and the frame reloads on the new copy. Each save records an ACCEPTED ticket under `.docs/feedback/<page-name>/` with the old and new values, the one spot, and the instances it changed.
+The field holds the copy entry's own value, so a placeholder such as {{year}} stays a placeholder. The same words found in other copy entries and hard coded strings are listed under the field with checkboxes, all checked, as in the panel. Save sends the new text through the same server copy edit the panel uses: the prose rules and the secret scan run first, and a refused value writes nothing and says why. Otherwise only the value text of the key's line changes, the checked related instances change, the review site is rebuilt, and the frame reloads on the new copy. Each save records an ACCEPTED ticket under `docs/feedback/<page-name>/` with the old and new values, the one spot, and the instances it changed.
 
-When several entries hold the same words, the edit always lands on the entry the site build reads for that text (the review build records its reads in `review-copy-keys.json`), then the entry of the page under review, then a shared one. The others are offered as related instances, checked by default, and unchecking them never stops the page changing. A single click on page copy adds its pin after a short pause, so a double click edits instead of pinning.
+When several entries hold the same words, the edit lands on the entry of the page under review first, then a shared one. The others are offered as related instances, checked by default, and unchecking them never stops the page changing. A single click on page copy adds its pin after a short pause, so a double click edits instead of pinning.
 
 ## journey-step-markers
 
@@ -45,9 +47,9 @@ A step carries the part of the page it concerns: a square blue outline with a sm
 
 ## where-tickets-live
 
-One Markdown file per ticket under `docs/feedback/<page-name>/`, tracked in git, where the page name is the surface's plain name in lowercase kebab case (`overview-dashboard`, `brewery-detail`). The design system page's Save writes to `docs/feedback/design-system/`. Each ticket's captured images sit in a folder named after the ticket file, `docs/feedback/<page-name>/<ticket-name>/`, with `page.png` for the framed page, `spot-<n>.png` for each picked element, and `component.png` where the design system Save supplies one. `GABF_FEEDBACK_DIR` moves the store, which tests and screenshots use. The pipeline's own queue, log and work folders live under `.docs/feedback/` (`.queue/`, `.work/`), which git ignores.
+One Markdown file per ticket under `docs/feedback/<page-name>/`, tracked in git, where the page name is the surface's plain name in lowercase kebab case (`overview-dashboard`, `brewery-detail`). The design system page's Save writes to `docs/feedback/design-system/`. Each ticket's captured images sit in a folder named after the ticket file, `docs/feedback/<page-name>/<ticket-name>/`, with `page.png` for the framed page, `spot-<n>.png` for each picked element, and `component.png` where the design system Save supplies one. `PRODUCT_FEEDBACK_FEEDBACK_DIR` moves the store, which tests and screenshots use. The pipeline's own queue, log and work folders live under `.docs/feedback/` (`.queue/`, `.work/`), which git ignores.
 
-The frontmatter holds the id, status, job, step, state, route, spots (selector, rect and element text per pin), components, content keys, content edits, setting edits, categories, images, the issue and pull request numbers once they exist, created and revised; the note is the body. Each image is `{ path, kind, spot, component, url }`: the path is relative to the ticket, the kind is `page`, `spot` or `component`, and the url is the address the image has on main once the pull request merges. Every ticket is ACCEPTED when it is registered, and an edit keeps it ACCEPTED and moves only revised. Every string is scanned with the token shape detector from the agent-graph engine before it is written, and again before anything is sent to GitHub, because the repository is public. Tickets hold a reviewer's own words, so `npm run check` skips `docs/feedback/`; `npm run design:check` checks their structure instead.
+The frontmatter holds the id, status, job, step, state, route, spots (selector, rect and element text per pin), components, content keys, content edits, setting edits, categories, images, the issue and pull request numbers once they exist, created and revised; the note is the body. Each image is `{ path, kind, spot, component, url }`: the path is relative to the ticket, the kind is `page`, `spot` or `component`, and the url is the address the image has on main once the pull request merges. Every ticket is ACCEPTED when it is registered, and an edit keeps it ACCEPTED and moves only revised. Every string is scanned with product-feedback's token shape detector before it is written, and again before anything is sent to GitHub, because the repository is public. Tickets hold a reviewer's own words, so `npm run check` skips `docs/feedback/`; `npm run design:check` checks their structure instead.
 
 ```bash
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- list
@@ -63,7 +65,7 @@ cd /Users/kevinlappe/projects/active/gabf-analysis && npm run tickets -- process
 
 ## captured-images
 
-When a ticket is registered the review server answers at once and then captures PNG screenshots with the local Playwright: one of the framed page at the reviewer's viewport with the numbered pins and the step marker drawn over it, and one cropped to each picked element. Only the review site on this machine is opened, so nothing outside the framed site is captured. Playwright is not a dependency of the repository. It is found through `PLAYWRIGHT_MODULE`, then `node_modules`, then the global npm root, then the npx copy under `~/.npm/_npx`, and Chromium is the newest headless shell in `~/Library/Caches/ms-playwright` unless `PLAYWRIGHT_CHROMIUM` names one. When no browser is available the ticket records `capture: unavailable` and goes on without images.
+When a ticket is registered the review server answers at once and then captures PNG screenshots with the local Playwright: one of the framed page at the reviewer's viewport with the numbered pins and the step marker drawn over it, and one cropped to each picked element. Only the review site on this machine is opened, so nothing outside the framed site is captured. Playwright is found through `PLAYWRIGHT_MODULE`, then `node_modules`, then the global npm root, then product-feedback's own install, and Chromium is the newest headless shell in `~/Library/Caches/ms-playwright` unless `PLAYWRIGHT_CHROMIUM` names one. When no browser is available the ticket records `capture: unavailable` and goes on without images.
 
 A ticket links every component to its spec, with Open in Obsidian beside the link in the local ticket and the panel, and says "No design system file yet" for a component with no spec. Every image is embedded and also a link that opens it in one click: a relative link in the local ticket, `[![Spot 1](url)](url)` in the GitHub issue. The review server serves a ticket's images at `/review/feedback-image/<ticket id>/<file>.png` so the panel can open them.
 
@@ -84,7 +86,7 @@ For each ticket, in order:
 
 The agent step is `claude -p --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npm run verify),Bash(git status),Bash(git diff *)" --permission-prompts none --output-format json --no-session-persistence --max-budget-usd 5`, with the prompt on stdin and the worktree as the working directory. It names no flag that bypasses permissions or guards, it loads the session's usual settings and hooks, and anything outside the allowed tools is denied rather than asked. The prompt carries the repository rules: no dash used as punctuation, no attribution, plain copy, run `npm run verify`.
 
-The pipeline touches only `klappe-pm/GABF-Analysis`: every `gh` call names it and the origin remote is checked first. `GABF_FEEDBACK_PIPELINE=off` turns off the automatic run in the review server and the watcher. `npm run tickets -- process` runs the queue by hand, naming tickets to queue them or adding `--scan` to queue every accepted ticket without an issue, and `--dry-run` prints every `gh` and `git` command without running any. The panel shows each ticket's status (queued, issue, in progress, pull request, merged, needs attention) with links to the issue, the pull request and the images, and the same states are at `/review/pipeline`.
+The pipeline touches only `klappe-pm/GABF-Analysis`: every `gh` call names it and the origin remote is checked first. `PRODUCT_FEEDBACK_PIPELINE=off` turns off the automatic run in the review server and the watcher. `npm run tickets -- process` runs the queue by hand, naming tickets to queue them or adding `--scan` to queue every accepted ticket without an issue, and `--dry-run` prints every `gh` and `git` command without running any. The panel shows each ticket's status (queued, issue, in progress, pull request, merged, needs attention) with links to the issue, the pull request and the images, and the same states are at `/review/pipeline`.
 
 ## owner-decisions
 
@@ -97,7 +99,7 @@ cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- list
 cd /Users/kevinlappe/projects/active/gabf-analysis && npm run decisions -- poll
 ```
 
-The owner answers by replying to the issue with an option letter or free text. The review server (every two minutes, `GABF_DECISION_POLL_MS` changes it) and `npm run tickets -- process` look at the comments on every open decision issue. The latest comment authored by klappe-pm is the answer; comments by anyone else are ignored. Agents post through the owner's own GitHub login, so every comment the pipeline writes begins with `<!-- feedback-pipeline -->` and is never read as an answer.
+The owner answers by replying to the issue with an option letter or free text. The review server (every two minutes, `PRODUCT_FEEDBACK_DECISION_POLL_MS` changes it) and `npm run tickets -- process` look at the comments on every open decision issue. The latest comment authored by klappe-pm is the answer; comments by anyone else are ignored. Agents post through the owner's own GitHub login, so every comment the pipeline writes begins with `<!-- feedback-pipeline -->` and is never read as an answer.
 
 An answer becomes an ACCEPTED ticket of kind `decision` in `docs/feedback/decisions/`, with the issue number, the option chosen, and the owner's words, and it runs through the same pipeline as other feedback: a branch, the agent step with the question, the context and the answer as the prompt, verify, a pull request that closes the decision issue (no second issue is made), checks, merge, handoff and cleanup. When the answer needs no change to the repository the agent changes nothing, verify is skipped, and the pull request carries only the ticket; the issue is closed by that pull request with a comment saying so. The panel lists the open decisions under Open decisions, each a link to the issue.
 
@@ -112,6 +114,17 @@ The feedback widget, the step marker, the pins and the copy key marks exist only
 - [jobs-to-be-done.md](jobs-to-be-done.md): the jobs and journeys, from PRODUCT.md.
 - [tokens.json](tokens.json): generated from the custom properties in `site/assets/styles.css`.
 - `sketches/`: one live frame per surface; each screen is its surface's sketch driven into one state.
-- `prototype/`: generated by `npm run design:build` (including the Feedback panel, whose source is `scripts/control-plane/`), checked by `npm run design:check`, which `npm run verify` runs.
+- [screen-drives.js](screen-drives.js): the steps a screen runs on the live page to reach its state (open the Filters dialog, open an estimate note), keyed by the `drive` a screen node names.
+- `prototype/`: generated by `npm run design:build` (including the Feedback panel, which product-feedback supplies), checked by `npm run design:check`, which `npm run verify` runs.
 
-The engine is the agent-graph repository, used read only through `scripts/lib/agent-graph.mjs`; set `AGENT_GRAPH_DIR` if it is not at `~/projects/active/agent-graph`. What a change reaches: `node scripts/design-control-plane.mjs impact surface:brewery-detail`.
+What a change reaches: `product-feedback design impact surface:brewery-detail`.
+
+## the-tooling
+
+product-feedback is installed once per machine from its checkout, which puts the `product-feedback` command on the path:
+
+```bash
+cd /Users/kevinlappe/projects/active/product-feedback && npm ci && npm link
+```
+
+[product-feedback.config.json](../../product-feedback.config.json) is this site's side of the contract: the repository and owner for issues and decisions, the folders (`docs/design`, `docs/feedback`, the copy folder, the design system), the token stylesheet and the shell aliases, the screen drives, the message names the web app's review widget listens for (`gabf-control-plane`), the source folders copy may be hard coded in, the compound words copy may hyphenate, the pipeline's house rules, and the review hooks. [scripts/review-hooks.mjs](../../scripts/review-hooks.mjs) gives the review server the web review build, the rebuild after a copy edit, and the design system's setting edits with the picture each one carries. `tests/product-feedback.test.mjs` checks both; the tests that need the tool skip where it is not installed, as in continuous integration. The design system's setting editor writes its tickets through [scripts/lib/ticket-format.mjs](../../scripts/lib/ticket-format.mjs), and `npm run design:check` validates every ticket against product-feedback's format.

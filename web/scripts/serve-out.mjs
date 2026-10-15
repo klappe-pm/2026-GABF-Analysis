@@ -25,14 +25,9 @@ let edits = null;
 let sanitize = null;
 if (review) {
   edits = await import('../../scripts/design-system/edit.mjs');
-  // The feedback engine's secret scan, when its checkout is present; settings values are hex colors,
-  // numbers, and listed words, so without it the ticket text is written as is.
-  try {
-    const { engine } = await import('../../scripts/lib/agent-graph.mjs');
-    sanitize = (await engine('design-feedback.mjs')).sanitize;
-  } catch {
-    sanitize = null;
-  }
+  // The repository's token shaped value scan (scripts/lib/redact.mjs), the same rule product-feedback applies.
+  const { redact } = await import('../../scripts/lib/redact.mjs');
+  sanitize = (text) => { const r = redact(text); return { text: r.text, redacted: [...new Set(r.kinds)] }; };
 }
 
 // The picture a ticket carries, drawn in a browser from the saved files. On the style guide: the edited
