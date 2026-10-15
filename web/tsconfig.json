@@ -27,7 +27,7 @@
         "./design/editor.tsx"
       ],
       "web-review": [
-        "./review/widget-off.tsx"
+        "./review/widget.tsx"
       ],
       "review-settings-panel": [
         "./components/review/settings-panel.tsx"
