@@ -53,7 +53,7 @@ The web/ build reads `NEXT_BASE_PATH` (web/next.config.ts). The deploy sets it f
 
 ## custom-domain
 
-The site moves to gabf.beer, with gabfawards.beer forwarding to it at the registrar. The artifact carries a `CNAME` file naming gabf.beer, which GitHub ignores for Actions deploys, so the domain changes only through the Pages setting.
+The site moves to gabf.beer, with gabfawards.beer forwarding to it at the registrar. The owner approved publishing there on 2026-10-15 (issue #143). On that date `www` already pointed at klappe-pm.github.io and the apex had no A or AAAA records, so step 1 is the apex records only. The artifact carries a `CNAME` file naming gabf.beer, which GitHub ignores for Actions deploys, so the domain changes only through the Pages setting.
 
 1. At the registrar, point the apex of gabf.beer at GitHub Pages (A records 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153; AAAA records 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153) and add a `www` CNAME to klappe-pm.github.io. Remove any other apex records, such as parking or forwarding records.
 2. Check DNS until it passes:
