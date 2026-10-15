@@ -2,7 +2,9 @@
 // visible text, the design system components around it, and the copy entry that drew its words.
 import { OPEN, parse, strip } from './markers.mjs';
 
-export const LAYER = '.gfw-root';
+// The widget's own layer, its modal over a page modal, and the step marker a control plane screen draws: none is ever
+// picked or scanned.
+export const LAYER = '.gfw-root, .gfw-step, .gfw-modal';
 
 // No feedback is collected at phone width (owner decision on issue #72): below this width the widget shows no
 // Feedback entry and no panel, so a ticket only ever records a tablet or desktop device. review.css hides the
@@ -124,5 +126,42 @@ export function scanMarks(root: ParentNode = document.body): number {
     }
   }
   if (document.title.includes(OPEN)) document.title = strip(document.title);
+  return tagged;
+}
+
+// ---------- copy found by its text ----------
+// A build that carries no copy marks (t() does not mark its strings) still has editable copy: the visible text leaves
+// are sent to the review server (POST /review/inline/resolve), which answers which of them are exactly one copy
+// entry, and each answered element is tagged with that entry's key (data-gfw-key), as the static review picker did.
+// Answers are kept for the session, so a text is asked about once.
+type Resolved = { key: string } | null;
+const SKIP_TAGS = /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA|INPUT|SELECT|OPTION|TEMPLATE)$/;
+const known = new Map<string, Resolved>();
+const norm = (t: string | null) => String(t ?? '').replace(/\s+/g, ' ').trim();
+
+function textLeaves(): [HTMLElement, string][] {
+  const out: [HTMLElement, string][] = [];
+  for (const n of document.body.querySelectorAll<HTMLElement>('*')) {
+    if (n.children.length || SKIP_TAGS.test(n.tagName) || inLayer(n) || n.closest('svg')) continue;
+    const t = norm(n.textContent);
+    if (t.length >= 2 && t.length <= 240 && n.getClientRects().length) out.push([n, t]);
+    if (out.length >= 1500) break;
+  }
+  return out;
+}
+
+export async function resolveCopy(screen: string, ask: (texts: string[]) => Promise<Record<string, Resolved>>): Promise<number> {
+  const leaves = textLeaves();
+  const need = [...new Set(leaves.map(([, t]) => t).filter((t) => !known.has(t)))];
+  for (let i = 0; i < need.length; i += 300) {
+    const chunk = need.slice(i, i + 300);
+    const res = await ask(chunk);
+    for (const t of chunk) known.set(t, res[t] ?? null);
+  }
+  let tagged = 0;
+  for (const [n, t] of leaves) {
+    const hit = known.get(t);
+    if (hit && !n.dataset.gfwKey) { n.dataset.gfwKey = hit.key; tagged += 1; }
+  }
   return tagged;
 }

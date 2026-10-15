@@ -18,11 +18,16 @@ async function boot() {
     cpSync(resolve(ROOT, f), resolve(root, f));
   }
   cpSync(resolve(ROOT, 'docs/design/sketches'), resolve(root, 'docs/design/sketches'), { recursive: true });
+  mkdirSync(resolve(root, 'docs/design/prototype/screens'), { recursive: true });
+  writeFileSync(resolve(root, 'docs/design/prototype/index.html'), '<h1>control plane</h1>');
+  writeFileSync(resolve(root, 'docs/design/prototype/screens/S-01.html'), '<h1>S-01</h1>');
   const web = join(root, 'web/out-web-review');
   mkdirSync(join(web, 'beers/2026'), { recursive: true });
   writeFileSync(join(web, 'index.html'), '<h1>home</h1>');
   writeFileSync(join(web, 'beers/2026/index.html'), '<h1>winners</h1>');
   writeFileSync(join(web, '404.html'), '<h1>missing</h1>');
+  mkdirSync(join(web, 'data'), { recursive: true });
+  writeFileSync(join(web, 'data/results.json'), '[]');
   const store = join(root, 'tickets');
   const captured = [];
   const capture = async (job) => { captured.push(job); return []; };
@@ -54,9 +59,9 @@ test('the web build is served at the root, with 404.html and a 404 status for an
 test('a route finds the steps of its page, an address of the same shape finds the detail page, and a stranger finds none', async () => {
   const s = await boot();
   try {
-    const home = JSON.parse((await s.get('/review/web/screens?route=/')).text);
-    assert.deepEqual(home.matched.slice(0, 2), ['S-01', 'S-02']);
-    assert.ok(home.screens.length > 40);
+    const overview = JSON.parse((await s.get('/review/web/screens?route=/overview/')).text);
+    assert.deepEqual(overview.matched.slice(0, 2), ['S-01', 'S-02']);
+    assert.ok(overview.screens.length > 40);
     const brewery = JSON.parse((await s.get('/review/web/screens?route=/breweries/some-other-brewery/')).text);
     assert.ok(brewery.matched.includes('S-27'), 'a brewery page has the brewery detail steps');
     const stranger = JSON.parse((await s.get('/review/web/screens?route=/design-system/')).text);
@@ -130,5 +135,33 @@ test('a feedback ticket and a settings ticket share one folder without an id col
     assert.equal(b.body.id, 'WI-003');
     assert.equal(findTicket(s.store, 'WI-002').data.page, 'brewery-detail');
     assert.equal(findTicket(s.store, 'WI-001').data.page, findTicket(s.store, 'WI-003').data.page);
+  } finally { s.close(); }
+});
+
+// The design control plane sits beside the web build on the same origin, and frames its pages: a page opened with
+// ?review-state=slow or fail has its data held back or failed, read from the Referer of the data request.
+test('the control plane is served at /control-plane/ beside the web build', async () => {
+  const s = await boot();
+  try {
+    assert.equal((await s.get('/control-plane/')).text, '<h1>control plane</h1>');
+    assert.equal((await s.get('/control-plane/screens/S-01.html')).text, '<h1>S-01</h1>');
+    const bare = await fetch(`${s.base}/control-plane`, { redirect: 'manual' });
+    assert.equal(bare.status, 302);
+    assert.equal(bare.headers.get('location'), '/control-plane/');
+    assert.equal((await s.get('/')).text, '<h1>home</h1>', 'the site keeps the root');
+  } finally { s.close(); }
+});
+
+test('a page opened with a review state has its data held back or failed', async () => {
+  const s = await boot();
+  const data = (referer, signal) => fetch(`${s.base}/data/results.json`, { headers: { referer }, signal });
+  try {
+    assert.equal((await data(`${s.base}/overview/`)).status, 200);
+    assert.equal((await data(`${s.base}/overview/?review-state=fail`)).status, 503);
+    const held = await Promise.race([
+      data(`${s.base}/overview/?review-state=slow`, AbortSignal.timeout(400)).then(() => 'answered', () => 'held'),
+      new Promise((done) => setTimeout(() => done('held'), 600)),
+    ]);
+    assert.equal(held, 'held');
   } finally { s.close(); }
 });

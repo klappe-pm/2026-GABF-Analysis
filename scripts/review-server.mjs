@@ -84,8 +84,11 @@ export function pipelineStatus(job, data, repo = 'klappe-pm/GABF-Analysis') {
 // `capture` takes screenshots for a registered ticket; `pipeline` ({ enqueue, kick }) starts the
 // issue and pull request run. Both are off unless given, so tests and screenshots never reach out.
 // `webDir` is the web review build (web/out-web-review). When given, the server serves it at the root of
-// its origin, in place of the design control plane's prototype, and tickets may carry the route the
-// reviewer was on (served: web). The /review/ endpoints are the same ones the control plane uses.
+// its origin, and tickets may carry the route the reviewer was on (served: web). The design control plane
+// is then at /control-plane/: its screens frame the web build's pages on this same origin. A page opened
+// with ?review-state=slow or ?review-state=fail has its data/*.json requests held back or answered 503
+// (read from the request's Referer, which carries the page address), so loading and error states can be
+// reviewed without a second build.
 //
 // `design` ({ edits, capture }) adds what the review settings panel needs on the same origin: POST
 // /__design/check and /__design/edit (the design system's edit module, writing one settings key and filing
@@ -284,7 +287,17 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
 
   // The web review build as the static export lays it out: a folder address serves its index.html, and an
   // address with no page serves 404.html with a 404 status.
-  function serveWeb(res, pathname) {
+  function serveWeb(req, res, pathname) {
+    if (pathname.startsWith('/data/')) {
+      let state = null;
+      try { state = new URL(req.headers.referer ?? '').searchParams.get('review-state'); } catch { state = null; }
+      if (state === 'fail') return send(res, 503, 'data withheld by the review server for an error state', 'text/plain; charset=utf-8');
+      if (state === 'slow') {
+        const timer = setTimeout(() => send(res, 503, 'data held back for a loading state', 'text/plain; charset=utf-8'), HOLD_MS);
+        req.on('close', () => clearTimeout(timer));
+        return undefined;
+      }
+    }
     let rel;
     try { rel = decodeURIComponent(pathname); } catch { return send(res, 400, 'bad address', 'text/plain; charset=utf-8'); }
     const file = normalize(join(webRoot, rel.endsWith('/') ? `${rel}index.html` : rel));
@@ -382,11 +395,15 @@ export function createReviewServer({ root = ROOT, port = 4173, sanitize, rebuild
       res.writeHead(200, { 'content-type': 'text/markdown; charset=utf-8', 'cache-control': 'no-store' });
       return createReadStream(file).pipe(res);
     }
-    if (webRoot && !url.pathname.startsWith('/sketches/')) return serveWeb(res, url.pathname);
+    // With the web build at the root, the control plane lives under /control-plane/.
+    const plane = webRoot ? /^\/control-plane(\/.*)?$/.exec(url.pathname) : null;
+    if (plane && !plane[1]) { res.writeHead(302, { location: '/control-plane/' }); return res.end(); }
+    if (webRoot && !plane && !url.pathname.startsWith('/sketches/')) return serveWeb(req, res, url.pathname);
     // The prototype and the sketches, from those two directories only.
     const sketches = url.pathname.startsWith('/sketches/');
     const dir = sketches ? sketchesDir : prototypeDir;
-    const rel = sketches ? url.pathname.slice('/sketches'.length) : url.pathname === '/' ? '/index.html' : url.pathname;
+    const inPlane = plane ? plane[1] : url.pathname;
+    const rel = sketches ? url.pathname.slice('/sketches'.length) : inPlane === '/' ? '/index.html' : inPlane;
     const file = normalize(join(dir, decodeURIComponent(rel)));
     if (!file.startsWith(dir)) return send(res, 403, 'outside the control plane', 'text/plain; charset=utf-8');
     if (!existsSync(file) || !statSync(file).isFile()) return send(res, 404, 'not found', 'text/plain; charset=utf-8');
