@@ -4,17 +4,21 @@ import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { TextLink } from '@/components/TextLink';
 import { t } from '@/lib/content';
+import { INVESTOR_ON } from '@/lib/flags';
 import { href } from '@/lib/href';
 import { pageMetadata } from '@/lib/seo';
 import { analysis, firstComplete, labelGroup, MAIN, viewCopy } from '../parts/copy';
 import { analysisPaths } from '../parts/paths';
 import { ExploreView, type ExploreCopy } from './ExploreView';
 
+// The lede names the investor filter only when it is offered.
+const LEDE = INVESTOR_ON ? 'header.lede_investors' : 'header.lede';
+
 const page = (key: string) => `pages.explore.${key}`;
 const prefixed = (path: string, keys: string[]) => Object.fromEntries(keys.map((k) => [k, t(`${path}.${k}`)]));
 
 export function generateMetadata(): Metadata {
-  return pageMetadata({ title: t(page('header.title')), description: t(page('header.lede')), path: analysisPaths.explore });
+  return pageMetadata({ title: t(page('header.title')), description: t(page(LEDE)), path: analysisPaths.explore });
 }
 
 export default async function ExplorePage() {
@@ -49,7 +53,7 @@ export default async function ExplorePage() {
       <header className="flex flex-col gap-3">
         <Breadcrumb label={t('global.navigation.breadcrumbs.all_analysis')} items={[{ href: href(analysisPaths.index), text: t(page('links.back')) }, { text: t(page('header.title')) }]} />
         <h1 className="type-display-small text-on-surface">{t(page('header.title'))}</h1>
-        <p className="type-body-large max-w-measure text-on-surface-variant">{t(page('header.lede'))}</p>
+        <p className="type-body-large max-w-measure text-on-surface-variant">{t(page(LEDE))}</p>
         <p className="type-body-large"><TextLink href={copy.savedViewsHref}>{copy.links.savedViews}</TextLink></p>
       </header>
       <ExploreView rows={model.exploreRows()} copy={copy} firstCompleteYear={await firstComplete()} />

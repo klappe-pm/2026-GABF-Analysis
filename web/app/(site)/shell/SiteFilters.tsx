@@ -7,6 +7,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { FilterChips } from '@/components/FilterChips';
 import { type FilterGroup, FiltersDialog, type FiltersCopy } from '@/components/FiltersDialog';
 import { FILTERS, applyFilters, type FilterState, optionList, pruneState, scopeRows } from '@/lib/filter-model.mjs';
+import { INVESTOR_ON } from '@/lib/flags';
 import { useGlobalFilter } from '@/lib/global-filter';
 
 export type SiteFiltersConfig = {
@@ -29,8 +30,6 @@ export type SiteFiltersConfig = {
 const GROUP_KEYS: Record<string, string> = { When: 'when', What: 'what', Where: 'where', Who: 'who' };
 // The option that clears a dimension; never a value in the data.
 const ALL = 'all';
-// The investor filter is built but hidden until the owner sets NEXT_PUBLIC_FILTER_INVESTOR=on.
-export const INVESTOR_ON = process.env.NEXT_PUBLIC_FILTER_INVESTOR === 'on';
 // Region is the one place filter; the Fed district is not offered as a field (a chart can still pick one).
 const NOT_OFFERED = new Set(['fed_district_name']);
 

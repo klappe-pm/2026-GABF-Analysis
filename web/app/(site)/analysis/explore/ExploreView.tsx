@@ -13,7 +13,7 @@ import { StateCard } from '@/components/StateCard';
 import { TextLink } from '@/components/TextLink';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { href, paths } from '@/lib/href';
-import { INVESTOR_ON } from '@/app/(site)/shell/SiteFilters';
+import { INVESTOR_ON } from '@/lib/flags';
 import { beerIdOf, PATCHABLE, breweryIdOf, type EnrichKind, ENRICH_KINDS, type ImportedAward, type ImportError, importedAwardId, type Patch, readAwards, readEnrichment } from '@/lib/models/explore-import.mjs';
 import type { ExploreRow } from '@/lib/models/analysis.mjs';
 import { Count, fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
