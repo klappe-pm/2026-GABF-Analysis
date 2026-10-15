@@ -5,7 +5,7 @@ import { TextLink } from '@/components/TextLink';
 import type { Column } from '@/components/DataTable';
 import { href, paths } from '@/lib/href';
 import { medalRates } from '@/lib/models/rates.mjs';
-import { bins, rateEdges, type Bin, type Kit } from './theme';
+import { bins, rateEdges, type Bin, type Kit } from '@/design/chart-kit';
 import { esc, fmtN, heatmap, lollipop, rankedBars, scatter, stackedBars, tileGrid, treemap, type RankItem } from './charts';
 import type { ChartSpec } from './OptionChart';
 import type { Copy } from './copy';

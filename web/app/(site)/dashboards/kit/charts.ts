@@ -3,8 +3,8 @@
 // are the ones the chart gallery (issue 66) recommends: stacked horizontal bars, a tile grid beside ranked
 // bars colored by region, a treemap, lollipops and a heatmap, plus the scatter and lines for the rest.
 // Colors come from the kit (the theme), never from this file.
-import type { Bin, Kit } from './theme';
-import { binOf } from './theme';
+import type { Bin, Kit } from '@/design/chart-kit';
+import { binOf } from '@/design/chart-kit';
 import type { Built } from './OptionChart';
 
 export const NARROW = 480;

@@ -6,7 +6,7 @@
 import { type ReactNode } from 'react';
 import { type Column, type Row } from '@/components/DataTable';
 import { OptionChart, type Built, type LegendItem } from '@/app/(site)/dashboards/kit/OptionChart';
-import type { Bin, Kit } from '@/app/(site)/dashboards/kit/theme';
+import type { Bin, Kit } from '@/design/chart-kit';
 import type { ViewCopy } from './kit';
 import { fill } from './kit';
 

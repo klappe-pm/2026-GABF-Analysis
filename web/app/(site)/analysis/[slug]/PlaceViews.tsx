@@ -4,14 +4,14 @@
 // and division. Rates use each medal's own year of Census population and real GDP.
 import { type Column, DataTable, type Row as TableRow } from '@/components/DataTable';
 import { SectionHeader } from '@/components/SectionHeader';
-import type { Kit } from '@/app/(site)/dashboards/kit/theme';
+import type { Kit } from '@/design/chart-kit';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { groupRollup, STATE_BARS, stateRollup } from '@/lib/models/analysis-calc.mjs';
 import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { StateIndicators } from '@/lib/models/analysis.mjs';
 import { Plot, binLegend } from '@/app/(site)/analysis/parts/Plot';
 import { esc, fmtN, rankedBars, tileGrid } from '@/app/(site)/dashboards/kit/charts';
-import { bins, rateEdges } from '@/app/(site)/dashboards/kit/theme';
+import { bins, rateEdges } from '@/design/chart-kit';
 import { fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 type StateMeta = { state: string; name: string; region: string; division: string };
