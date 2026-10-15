@@ -88,7 +88,8 @@ export function FiltersForm({ idPrefix, copy, groups }: { idPrefix: string; copy
   );
 }
 
-// The Filters button and its Material dialog. F opens it; Escape closes it; focus stays inside while open.
+// The Filters button and its Material dialog. Alt+Shift+F opens it (a bare letter key would fire from speech input
+// and single key presses, WCAG 2.1.4; Shift+F alone is the review widget's); Escape closes it; focus stays inside while open.
 // With controls, the fields show the page's selection, Show results applies it, and Clear all resets it.
 export function FiltersDialog({ copy, groups, controls, triggerLabel, triggerAccessibleLabel }: { copy: FiltersCopy; groups: FilterGroup[]; controls?: FiltersControls; triggerLabel?: string; triggerAccessibleLabel?: string }) {
   const s = useSettings('filters-dialog');
@@ -98,7 +99,7 @@ export function FiltersDialog({ copy, groups, controls, triggerLabel, triggerAcc
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.composedPath()[0] as HTMLElement | null;
-      if (e.key !== 'f' || e.metaKey || e.ctrlKey || e.altKey || el?.closest?.('input, select, textarea, [contenteditable], md-outlined-text-field, md-filled-text-field')) return;
+      if (e.code !== 'KeyF' || !e.altKey || !e.shiftKey || e.metaKey || e.ctrlKey || el?.closest?.('input, select, textarea, [contenteditable], md-outlined-text-field, md-filled-text-field')) return;
       if (ref.current && !ref.current.open) { e.preventDefault(); onOpen?.(); ref.current.show(); }
     };
     document.addEventListener('keydown', onKey);

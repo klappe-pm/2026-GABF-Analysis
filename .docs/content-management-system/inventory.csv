@@ -19,7 +19,7 @@ explorer and chart gallery,footer,"Some beer details are from Catalog.beer, lice
 every page (global filter),header button,Filters,global.filters.trigger.label
 every page (global filter),header button,Filters · {{count}},global.filters.trigger.label_with_count
 every page (global filter),header button aria label,"Filters, {{count}} active",global.filters.trigger.accessible_label_with_count
-every page (global filter),header button tooltip,Filter every page (shortcut: f),global.filters.trigger.tooltip
+every page (global filter),header button tooltip,Filter every page (shortcut: Alt+Shift+F),global.filters.trigger.tooltip
 every page (global filter),panel title,Filter medals,global.filters.panel.title
 every page (global filter),panel button,Close,global.filters.panel.close
 every page (global filter),panel button,Reset,global.filters.panel.reset
@@ -429,7 +429,7 @@ single file dashboard (gabf-dashboard.html),tab,Breweries,pages.dashboards.singl
 single file dashboard (gabf-dashboard.html),tab,Ownership and economics,pages.dashboards.single_file.tabs.economics
 single file dashboard (gabf-dashboard.html),tab,Data,pages.dashboards.single_file.tabs.data
 single file dashboard (gabf-dashboard.html),tab,About,pages.dashboards.single_file.tabs.about
-single file dashboard (gabf-dashboard.html),filters tooltip,Filter every tab (shortcut: f),pages.dashboards.single_file.tab_tooltip
+single file dashboard (gabf-dashboard.html),filters tooltip,Filter every tab (shortcut: Alt+Shift+F),pages.dashboards.single_file.tab_tooltip
 single file dashboard (gabf-dashboard.html),lede (file),"Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), each chart saves as a PNG from its toolbox, and the filters live in the address bar so a view can be bookmarked. This is a single file: no server, no internet needed.",pages.dashboards.single_file.lede_file
 single file dashboard (gabf-dashboard.html),lede (hosted),"Every loaded medal with linked filters. One filter row scopes every panel and table on every tab, charts respond to clicks (a year column, a state, a style family, a category), and each chart saves as a PNG from its toolbox. All data is embedded in this page.",pages.dashboards.single_file.lede_hosted
 single file dashboard (gabf-dashboard.html),about notice (file),"This is the single-file build: all data is embedded in this file as of the last build, so it works offline and nothing leaves your machine. To refresh it after loading new results, run npm run build:standalone and open the regenerated file.",pages.dashboards.single_file.about_file

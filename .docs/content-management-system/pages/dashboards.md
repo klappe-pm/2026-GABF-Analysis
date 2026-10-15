@@ -250,7 +250,7 @@ Where: the single file dashboard (one HTML file that works offline).
 
 - `title`: Great American Beer Festival Results Dashboard
 - `description`: Interactive Great American Beer Festival results dashboard in one file. Open it in any browser.
-- `tab_tooltip`: Filter every tab (press F)
+- `tab_tooltip`: Filter every tab (press Alt+Shift+F)
 - `lede_file`: Every medal in the record, in one file that works offline. Filters apply to every tab, charts filter when you select a bar or state, each chart saves as a PNG, and the address bar keeps your filters so a view can be bookmarked.
 - `lede_hosted`: Every medal in the record. Filters apply to every tab, charts filter when you select a bar or state, and each chart saves as a PNG. All data is in this page.
 - `about_file`: All data is in this file as of its last build, so it works offline and nothing leaves your device.

@@ -9,7 +9,7 @@ Where: the Filters button in the header, on every page.
 - `label`: Filters
 - `label_with_count`: Filters · {{count}}
 - `accessible_label_with_count`: Filters, {{count}} active
-- `tooltip`: Filter every page (press F)
+- `tooltip`: Filter every page (press Alt+Shift+F)
 
 ## `panel`
 
@@ -108,6 +108,6 @@ Where: screen reader announcement after every filter change.
 
 Where: keyboard help, in the trigger tooltip and on the method page.
 
-- `open`: Press F to open filters.
+- `open`: Press Alt+Shift+F to open filters.
 - `close`: Press Escape to close.
 - `sort`: Press Enter on a column header to sort.

@@ -435,7 +435,8 @@ export function createGlobalFilter({ trigger, chipsEl, storage = null, loadData 
     trigger.addEventListener('click', open);
   }
   document.addEventListener('keydown', (e) => {
-    if (e.key !== 'f' || e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
+    // Alt+Shift+F, never a bare letter key (WCAG 2.1.4). e.code, because Alt changes the character on a Mac.
+    if (e.code !== 'KeyF' || !e.altKey || !e.shiftKey || e.metaKey || e.ctrlKey) return;
     const t = e.target;
     if (t && (t.isContentEditable || /^(input|select|textarea)$/i.test(t.tagName))) return;
     if (dialog && dialog.open) return;
