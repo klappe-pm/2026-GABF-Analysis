@@ -13,7 +13,8 @@ export function Breadcrumb({ label, items }: { label: string; items: { href?: st
           <li key={`${item.text}-${i}`} className="flex items-baseline gap-2" style={labelFace(item.text)}>
             {i > 0 ? <span aria-hidden="true" className="text-outline">{String(s.Separator ?? '/')}</span> : null}
             {item.href ? (
-              <a href={item.href} className="text-primary underline state-hover:decoration-2">{item.text}</a>
+              // At least 24px tall, and a 44px hit area that reaches into the space around the trail.
+              <a href={item.href} className="relative inline-flex min-h-6 items-center text-primary underline state-hover:decoration-2 before:absolute before:inset-x-0 before:-inset-y-2.5 before:content-['']">{item.text}</a>
             ) : (
               <span aria-current="page" className="text-on-surface">{item.text}</span>
             )}

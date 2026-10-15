@@ -9,7 +9,7 @@ topics:
 types:
   - runbook
 date-created: 2026-10-14
-date-revised: 2026-10-14
+date-revised: 2026-10-15
 status: ACCEPTED
 aliases: []
 tags: []
@@ -33,18 +33,19 @@ These are build outputs and are not in git: `gabf-dashboard.html`, `docs/design/
 
 ## url-map
 
-The deploy lays the web/ export over the old static site (`scripts/assemble-pages.mjs`). A web/ route replaces an old page at the same path; the assembly log lists any it replaces.
+The deploy lays the web/ export over the old static site (`scripts/assemble-pages.mjs`). A web/ route replaces an old page at the same path; the assembly log lists any it replaces. Every page route is now a web/ route, so the only files the old build still contributes are its `/assets/` folder and `.nojekyll`.
 
 | URL | serves |
 |---|---|
-| `/` | the web/ app home (the old overview dashboard moved to `/overview/`) |
-| `/design-system/` | the web/ style guide |
+| `/` | the web/ app home |
+| `/overview/`, `/dashboards/`, `/breweries/`, `/categories/`, `/beers/`, `/hops/`, `/hop-farms/`, `/analysis/`, `/first-time-medalists/`, `/saved/`, `/method/`, `/about/`, `/data/` | the web/ app |
+| `/reports/`, `/reports/<slug>/`, `/explorer/` | web/ pages that forward to their new address under `/analysis/`, keeping the URL hash |
+| `/design-system/`, `/design-settings/` | the web/ style guide and its settings |
 | `/404.html` | the web/ not found page |
-| `/overview/` | the old overview dashboard, with its links rewritten one level down; old `/#year=…` links now open the web/ home |
-| `/dashboards/`, `/breweries/`, `/categories/`, `/beers/`, `/hops/`, `/hop-farms/`, `/reports/`, `/first-time-medalists/`, `/about/`, `/data/`, `/assets/` | the old static site, unchanged |
+| `/assets/` | the old static site's assets, the one part of dist/ still published |
 | `/gabf-dashboard.html` | the single file dashboard |
 
-As pages are ported to web/, their routes take over the old paths automatically. The old site retires when nothing in the URL map comes from dist/.
+The assembler still copies the old overview dashboard to `/overview/` (`relocateOverview`), but the web/ overview route is laid over it, so that step no longer reaches the published site. Retiring the old site build is an owner decision.
 
 ## base-path
 

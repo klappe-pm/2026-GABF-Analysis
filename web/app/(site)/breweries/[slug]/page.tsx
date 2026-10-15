@@ -60,11 +60,14 @@ export default async function BreweryPage({ params }: { params: Promise<Params> 
   const b = await record(params);
   const c = pageCopy();
   const labels = (key: string) => group(`global.labels.${key}`);
+  // The line under the name holds only facts the record has. A missing one is left out here rather than
+  // printed as Not Found; the profile below states each gap.
+  const ownership = b.ownership ? labels('ownership_type')[b.ownership.type] : null;
   const facts = [
-    b.type ? labels('brewery_type')[b.type] : c.gaps.not_found,
-    [b.hq.city, b.hq.state].filter(Boolean).join(', ') || c.gaps.not_found,
+    b.type ? labels('brewery_type')[b.type] : null,
+    [b.hq.city, b.hq.state].filter(Boolean).join(', ') || null,
     b.founded ? fill(raw(`pages.brewery-detail.pills.founded`), { year: b.founded }) : null,
-    b.ownership ? (b.ownership.parent ? fill(raw('pages.brewery-detail.pills.owner_with_parent'), { ownership: labels('ownership_type')[b.ownership.type] ?? c.gaps.not_found, parent: b.ownership.parent }) : labels('ownership_type')[b.ownership.type] ?? c.gaps.not_found) : null,
+    ownership ? (b.ownership?.parent ? fill(raw('pages.brewery-detail.pills.owner_with_parent'), { ownership, parent: b.ownership.parent }) : ownership) : null,
     b.channel ? labels('distribution_channel')[b.channel] : null,
     b.streak > 1 ? fill(raw('pages.brewery-detail.pills.streak'), { count: b.streak }) : null,
   ].filter((x): x is string => Boolean(x));

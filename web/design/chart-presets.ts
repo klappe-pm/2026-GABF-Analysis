@@ -60,15 +60,16 @@ export function sortData(categories: (string | number)[], series: ChartSeries[],
 }
 
 // Fill patterns for bars, by series order: solid, rising lines, falling lines, dots, level lines. The
-// pattern is drawn in the surface color over the series color, and the card's legend draws the same five.
-export function decalFor(index: number, t: ChartTheme): Opt | 'none' {
+// pattern is drawn in the surface color over the series color, and the card's legend draws the same five. A solid
+// series has no decal at all: ECharts 5.6 sets a flag on any decal value, so the string 'none' throws in strict mode.
+export function decalFor(index: number, t: ChartTheme): Opt | undefined {
   const lines = { symbol: 'rect', symbolSize: 1, dashArrayX: [1, 0], dashArrayY: [2, 5], color: t.surface };
   switch (index % 5) {
     case 1: return { ...lines, rotation: Math.PI / 4 };
     case 2: return { ...lines, rotation: -Math.PI / 4 };
     case 3: return { symbol: 'circle', symbolSize: 0.6, dashArrayX: [4, 2], dashArrayY: [4, 2], color: t.surface };
     case 4: return { ...lines, rotation: 0 };
-    default: return 'none';
+    default: return undefined;
   }
 }
 
@@ -104,7 +105,7 @@ export function presetOption(preset: ChartPreset, categories: (string | number)[
         xAxis: valueAxis,
         yAxis: sideAxis,
         series: [
-          { type: 'bar', name: s.name, data: s.values, barWidth: look.lineWidth, tooltip: { show: false }, itemStyle: { borderWidth: 0, borderRadius: 0, decal: 'none' } },
+          { type: 'bar', name: s.name, data: s.values, barWidth: look.lineWidth, tooltip: { show: false }, itemStyle: { borderWidth: 0, borderRadius: 0 } },
           { type: 'scatter', name: s.name, data: s.values.map((v, i) => [v, i]), symbol: 'circle', symbolSize: look.pointSize + 2, label: { show: true, position: 'right', formatter: '{@[0]}' } },
         ],
       };
@@ -177,7 +178,7 @@ export function applyBrand(option: Opt, t: ChartTheme, look: ChartLook = DEFAULT
     const i = plainNames.indexOf(name);
     return t.series[(i < 0 ? 0 : i) % t.series.length];
   };
-  const patternFor = (name: string) => (look.patterns ? decalFor(Math.max(0, names.indexOf(name)), t) : 'none');
+  const patternFor = (name: string) => (look.patterns ? decalFor(Math.max(0, names.indexOf(name)), t) : undefined);
 
   const series = list.map((s, i) => {
     const name = String(s.name ?? '');
@@ -191,7 +192,7 @@ export function applyBrand(option: Opt, t: ChartTheme, look: ChartLook = DEFAULT
       }
       case 'bar': {
         const radius = s.stack ? 0 : horizontal ? [0, 4, 4, 0] : [4, 4, 0, 0];
-        return withDefaults({ barMaxWidth: look.barWidth, itemStyle: { ...color, borderColor: t.surface, borderWidth: 1, borderRadius: radius, decal: patternFor(name) }, label, emphasis: { focus: 'series' } }, s);
+        return withDefaults({ barMaxWidth: look.barWidth, itemStyle: { ...color, borderColor: t.surface, borderWidth: 1, borderRadius: radius, ...(patternFor(name) ? { decal: patternFor(name) } : {}) }, label, emphasis: { focus: 'series' } }, s);
       }
       case 'scatter':
         return withDefaults({ symbolSize: look.pointSize, itemStyle: { ...color, borderColor: t.surface, borderWidth: 1 }, label, emphasis: { focus: 'series' } }, s);

@@ -4,14 +4,14 @@
 // and division. Rates use each medal's own year of Census population and real GDP.
 import { type Column, DataTable, type Row as TableRow } from '@/components/DataTable';
 import { SectionHeader } from '@/components/SectionHeader';
-import type { Kit } from '@/app/(site)/dashboards/kit/theme';
+import type { Kit } from '@/design/chart-kit';
 import { useFilteredRows, usePageScope } from '@/lib/global-filter';
 import { groupRollup, STATE_BARS, stateRollup } from '@/lib/models/analysis-calc.mjs';
 import type { Row } from '@/lib/models/analysis-calc.mjs';
 import type { StateIndicators } from '@/lib/models/analysis.mjs';
 import { Plot, binLegend } from '@/app/(site)/analysis/parts/Plot';
-import { esc, fmtN, rankedBars, tileGrid } from '@/app/(site)/dashboards/kit/charts';
-import { bins, rateEdges } from '@/app/(site)/dashboards/kit/theme';
+import { esc, fmtN, labelColumn, rankedBars, tileGrid } from '@/app/(site)/dashboards/kit/charts';
+import { bins, rateEdges } from '@/design/chart-kit';
 import { fill, num, ViewFrame, type ViewCopy } from '@/app/(site)/analysis/parts/kit';
 
 type StateMeta = { state: string; name: string; region: string; division: string };
@@ -151,7 +151,7 @@ export function ByRegionView({ rows, states, indicators, copy, firstCompleteYear
           title={copy.regions.title}
           chrome={copy.view.chrome}
           tableSummary={copy.tableSummary}
-          build={rankedBars({ items: regions.map((x) => ({ name: x.name, label: copy.regionNames[x.name] ?? x.name, value: x.medals, color: (k) => k.region[x.name] ?? k.series[4] })), labelWidth: (w) => (w < 480 ? 100 : 140) })}
+          build={rankedBars({ items: regions.map((x) => ({ name: x.name, label: copy.regionNames[x.name] ?? x.name, value: x.medals, color: (k) => k.region[x.name] ?? k.series[4] })), labelWidth: labelColumn(100, 140) })}
           table={{ columns: [{ key: 'name', label: copy.columns.name }, { key: 'value', label: copy.valueName, numeric: true }], rows: regions.map((x) => ({ key: x.name, cells: { name: copy.regionNames[x.name] ?? x.name, value: fmtN(x.medals) } })) }}
         />
         <Plot
@@ -159,7 +159,7 @@ export function ByRegionView({ rows, states, indicators, copy, firstCompleteYear
           title={copy.divisions.title}
           chrome={copy.view.chrome}
           tableSummary={copy.tableSummary}
-          build={rankedBars({ items: divisions.map((x, i) => ({ name: x.name, label: copy.divisionNames[x.name] ?? x.name, value: x.medals, color: (k) => k.series[i % 4] })), labelWidth: (w) => (w < 480 ? 120 : 190) })}
+          build={rankedBars({ items: divisions.map((x, i) => ({ name: x.name, label: copy.divisionNames[x.name] ?? x.name, value: x.medals, color: (k) => k.series[i % 4] })), labelWidth: labelColumn(120, 190) })}
           table={{ columns: [{ key: 'name', label: copy.columns.name }, { key: 'value', label: copy.valueName, numeric: true }], rows: divisions.map((x) => ({ key: x.name, cells: { name: copy.divisionNames[x.name] ?? x.name, value: fmtN(x.medals) } })) }}
         />
       </div>

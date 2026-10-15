@@ -108,7 +108,7 @@ function layout({ title, description = '', body, depth = 0, active = '', scripts
 </head>
 <body${bodyAttrs}>
 <a class="skip-link" href="#main">${esc(COPY('global.site.header.skip_link'))}</a>
-<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">${esc(COPY('global.site.header.menu_button'))}</button><nav class="site-nav" id="site-nav" aria-label="${esc(COPY('global.site.header.nav_label'))}">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="f" title="Filter every page (shortcut: f)">${esc(COPY('global.filters.trigger.label'))}</button></div></header>
+<header class="site-header collapsible"><div class="inner"><a class="brand" href="${r}">${SITE_TITLE}</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">${esc(COPY('global.site.header.menu_button'))}</button><nav class="site-nav" id="site-nav" aria-label="${esc(COPY('global.site.header.nav_label'))}">${nav}</nav><button class="filter-trigger" type="button" aria-keyshortcuts="Alt+Shift+F" title="Filter every page (shortcut: Alt+Shift+F)">${esc(COPY('global.filters.trigger.label'))}</button></div></header>
 <div class="filter-chips-bar" id="filter-chips" hidden></div>
 <p class="visually-hidden" id="filter-live" aria-live="polite"></p>
 <main id="main" tabindex="-1">

@@ -5,8 +5,8 @@ import { TextLink } from '@/components/TextLink';
 import type { Column } from '@/components/DataTable';
 import { href, paths } from '@/lib/href';
 import { medalRates } from '@/lib/models/rates.mjs';
-import { bins, rateEdges, type Bin, type Kit } from './theme';
-import { esc, fmtN, heatmap, lollipop, rankedBars, scatter, stackedBars, tileGrid, treemap, type RankItem } from './charts';
+import { bins, rateEdges, type Bin, type Kit } from '@/design/chart-kit';
+import { esc, fmtN, heatmap, labelColumn, lollipop, rankedBars, scatter, stackedBars, tileGrid, treemap, type RankItem } from './charts';
 import type { ChartSpec } from './OptionChart';
 import type { Copy } from './copy';
 
@@ -55,7 +55,7 @@ const rate = (n: number) => (n >= 100 ? String(Math.round(n)) : n >= 10 ? n.toFi
 
 /** A name in a table that filters the dashboard to it. */
 function Pick({ label, onPick }: { label: string; onPick: () => void }) {
-  return <button type="button" onClick={onPick} className="text-primary underline state-hover:decoration-2">{label}</button>;
+  return <button type="button" onClick={onPick} className="inline-flex min-h-6 items-center text-left text-primary underline state-hover:decoration-2">{label}</button>;
 }
 
 export const labelOf = (copy: Copy, group: string, value: unknown) => {
@@ -229,7 +229,7 @@ export function topBreweries(ctx: Ctx): ChartSpec {
       labels: list.map((b) => b.name),
       series: MEDAL_KEYS.map((k, i) => ({ name: med[k], data: list.map((b) => [b.g, b.s, b.b][i]), color: medalColor(k) })),
       totals: { values: list.map((b) => b.pts), format: (n) => copy.t('page.panels.top_breweries.total', { count: fmtN(n) }) },
-      labelWidth: (w) => (w < 480 ? 108 : 168),
+      labelWidth: labelColumn(108, 168),
       minLabel: 1,
       tip: (i) => `<b>${esc(list[i].name)}</b><br>${esc(med.Gold)} ${list[i].g}, ${esc(med.Silver)} ${list[i].s}, ${esc(med.Bronze)} ${list[i].b}<br>${esc(copy.t('page.panels.top_breweries.total', { count: fmtN(list[i].pts) }))}`,
     }),
@@ -322,7 +322,7 @@ export function byFedDistrict(ctx: Ctx): ChartSpec {
   const items = districtItems(ctx).sort((a, b) => b.medals - a.medals);
   const approx = ctx.rows.filter((r) => /approximation/.test(r.fed_district_method ?? '')).length;
   return chart(ctx, 'by-fed-district', 'by_fed_district', {
-    build: rankedBars({ items: items.map((d) => ({ name: d.name, label: d.label, value: d.medals, color: (k: Kit) => k.series[0] })), labelWidth: (w) => (w < 480 ? 120 : 190) }),
+    build: rankedBars({ items: items.map((d) => ({ name: d.name, label: d.label, value: d.medals, color: (k: Kit) => k.series[0] })), labelWidth: labelColumn(120, 190) }),
     onSelect: (name) => ctx.toggle('fed_district_name', name),
     note: approx ? copy.t(approx === 1 ? 'page.panels.by_fed_district.note_one' : 'page.panels.by_fed_district.note_many', { count: fmtN(approx) }) : undefined,
     table: {
@@ -338,7 +338,7 @@ export function districtRates(ctx: Ctx): ChartSpec {
   const { copy } = ctx;
   const items = districtItems(ctx).map((d) => ({ ...d, pm: Number(d.per_million.toFixed(2)), pg: Number(d.per_100b_gdp.toFixed(2)) })).sort((a, b) => b.pm - a.pm);
   return chart(ctx, 'district-rates', 'district_rates', {
-    build: lollipop({ items: items.map((d) => ({ name: d.name, label: d.label, value: d.pm, tip: `<b>${esc(d.label)}</b><br>${d.pm} ${esc(copy.t('charts.units.per_million').toLowerCase())}<br>${fmtN(d.medals)} ${esc(copy.t('charts.units.medals').toLowerCase())}` })), format: rate, labelWidth: (w) => (w < 480 ? 120 : 190) }),
+    build: lollipop({ items: items.map((d) => ({ name: d.name, label: d.label, value: d.pm, tip: `<b>${esc(d.label)}</b><br>${d.pm} ${esc(copy.t('charts.units.per_million').toLowerCase())}<br>${fmtN(d.medals)} ${esc(copy.t('charts.units.medals').toLowerCase())}` })), format: rate, labelWidth: labelColumn(120, 190) }),
     onSelect: (name) => ctx.toggle('fed_district_name', name),
     note: copy.t('page.panels.district_rates.note'),
     table: {
@@ -541,7 +541,7 @@ function breweryStack(ctx: Ctx, id: string, key: string, field: (r: MedalRow) =>
       labels: list.map((c) => c.name),
       series: MEDAL_KEYS.map((m, k) => ({ name: med[m], data: list.map((c) => [c.g, c.s, c.b][k]), color: medalColor(m) })),
       totals: { values: list.map((c) => c.total), format: fmtN },
-      labelWidth: (w) => (w < 480 ? 112 : 230),
+      labelWidth: labelColumn(112, 230),
       minLabel: 1,
       tip: (i) => `<b>${esc(list[i].name)}</b><br>${esc(med.Gold)} ${list[i].g}, ${esc(med.Silver)} ${list[i].s}, ${esc(med.Bronze)} ${list[i].b}`,
     }),
@@ -571,7 +571,7 @@ export function ownershipShare(ctx: Ctx): ChartSpec {
     build: stackedBars({
       labels: [copy.t('charts.units.medals')],
       percent: true,
-      labelWidth: (w) => (w < 480 ? 64 : 80),
+      labelWidth: labelColumn(64, 80),
       series: list.map(([v, n], i) => ({ name: label(v), data: [n], color: (k: Kit) => tones(k)[i % tones(k).length] })),
       tip: () => list.map(([v, n]) => `${esc(label(v))}: ${fmtN(n)}`).join('<br>'),
     }),
@@ -592,7 +592,7 @@ export function parents(ctx: Ctx): ChartSpec | { empty: string } {
   if (!list.length) return { empty: copy.t('page.panels.parents.empty') };
   const items: RankItem[] = list.map(([name, value]) => ({ name, value, color: (k) => k.series[1] }));
   return chart(ctx, 'parents', 'parents', {
-    build: rankedBars({ items, labelWidth: (w) => (w < 480 ? 112 : 190) }),
+    build: rankedBars({ items, labelWidth: labelColumn(112, 190) }),
     table: {
       caption: copy.t('page.panels.parents.title'),
       columns: [col('name', copy.t('page.panels.parents.title')), col('value', copy.t('charts.units.medals'), true)],
@@ -608,7 +608,7 @@ export function revenueByBrewery(ctx: Ctx): ChartSpec {
   const list = ctx.breweries.filter((b) => keys.has(b.key)).sort((a, b) => b.estimate.revenue_usd - a.estimate.revenue_usd).slice(0, 15);
   const money = (n: number) => `$${compact(n)}`;
   return chart(ctx, 'revenue-by-brewery', 'revenue', {
-    build: lollipop({ items: list.map((b) => ({ name: b.slug, label: b.name, value: b.estimate.revenue_usd })), format: money, color: (k) => k.series[2], labelWidth: (w) => (w < 480 ? 112 : 220) }),
+    build: lollipop({ items: list.map((b) => ({ name: b.slug, label: b.name, value: b.estimate.revenue_usd })), format: money, color: (k) => k.series[2], labelWidth: labelColumn(112, 220) }),
     onSelect: (slug) => ctx.go(paths.brewery(slug)),
     table: {
       caption: copy.t('page.panels.revenue.title'),

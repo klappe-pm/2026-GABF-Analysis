@@ -4,10 +4,11 @@ Explore: every medal in one searchable table, with your own awards added from a 
 
 ## `header`
 
-Where: top of the page.
+Where: top of the page. `lede_investors` replaces `lede` when the investor filter is on.
 
 - `title`: Explore the Awards
-- `lede`: Search every award, add past awards from your own CSV, and narrow by competition section, investors, and category characteristics. The table also follows Filters.
+- `lede`: Search every award, add past awards from your own CSV, and narrow by competition section and category characteristics. The table also follows Filters.
+- `lede_investors`: Search every award, add past awards from your own CSV, and narrow by competition section, investors, and category characteristics. The table also follows Filters.
 
 ## `search`
 

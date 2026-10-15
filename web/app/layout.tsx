@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: { default: t('global.navigation.page_titles.home'), template: `%s${t('global.navigation.page_titles.suffix')}` },
   description: t('global.navigation.page_descriptions.home'),
   applicationName: t('global.site.identity.name'),
+  // The site has no icon yet; an empty one, as the old site declares, keeps every page from asking for a
+  // /favicon.ico that is not there (a 404 on each load).
+  icons: { icon: 'data:,' },
 };
 
 export const viewport: Viewport = {

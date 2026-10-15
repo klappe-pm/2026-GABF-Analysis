@@ -47,6 +47,7 @@ export async function shellConfig(): Promise<ShellConfig> {
       groups: group('global.filters.groups'),
       dimensions: group('global.filters.dimensions'),
       labels: Object.fromEntries(LABELLED.map((id) => [id, group(`global.labels.${id}`)])),
+      notFound: t('global.labels.not_found'),
       all: f('options.all'),
       withCount: raw('global.filters.options.with_count'),
       matchOne: f('panel.match_count_one'),

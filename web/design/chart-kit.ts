@@ -1,14 +1,18 @@
-// The colors and type a dashboard chart draws with, read from the theme's custom properties each time a
-// chart draws (so a chart redrawn after the settings load picks up the scheme). The base comes from
-// web/design/echarts-theme.ts, the same palette the chart card uses; this adds the pieces the other
-// chart types need: the medal metals, a sequential scale built from the primary container, and the
-// text color that reads on each fill.
-import { readTheme } from '@/design/echarts-theme';
+// The colors and type every chart draws with, read from the theme's custom properties each time a chart draws
+// (so a chart redrawn after the settings load picks up the scheme). The chart card (web/components/ChartCard.tsx)
+// reads it and hands it to the chart's builder. The base is readTheme in web/design/echarts-theme.ts, kept whole as
+// theme for the preset charts; this adds what the other chart types need: the medal metals, a sequential scale built
+// from the primary container, and the text color that reads on each fill.
+import { type ChartTheme, readTheme } from './echarts-theme';
 
 export const REGIONS = ['Midwest', 'Northeast', 'South', 'West'] as const;
 export const MEDALS = ['Gold', 'Silver', 'Bronze'] as const;
 
 export type Kit = {
+  /** The theme as read, for the preset charts (web/design/chart-presets.ts). */
+  theme: ChartTheme;
+  /** A Material color role as drawn, such as 'primary-container'. */
+  role: (name: string) => string;
   series: string[];
   region: Record<string, string>;
   medal: Record<string, string>;
@@ -69,6 +73,8 @@ export function readKit(el: Element): Kit {
   const onDark = v('--md-sys-color-on-primary');
   const textOn = (fill: string) => (contrast(fill, ink) >= contrast(fill, onDark) ? ink : onDark);
   return {
+    theme: t,
+    role: (name) => v(`--md-sys-color-${name}`),
     series,
     region: { Midwest: series[0], Northeast: series[1], South: series[2], West: series[3] },
     medal: { Gold: v('--app-color-gold'), Silver: v('--app-color-silver'), Bronze: v('--app-color-bronze') },

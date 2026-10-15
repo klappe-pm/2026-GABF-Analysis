@@ -7,12 +7,14 @@
 // bundle them with esbuild so the checks run the same code the browser runs.
 
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
-import { relative, resolve } from 'node:path';
+import { relative, resolve, sep } from 'node:path';
 import { buildSync } from 'esbuild';
 import { parse as parseYaml } from 'yaml';
 import { ROOT } from '../lib/paths.mjs';
 
-export const DS = resolve(ROOT, '.design/design-system');
+// GABF_DESIGN_DIR points the design system at another folder, so a test edits a copy and never the real
+// settings.md or a real spec (node --test runs test files side by side, and others read those files).
+export const DS = process.env.GABF_DESIGN_DIR ? resolve(process.env.GABF_DESIGN_DIR) : resolve(ROOT, '.design/design-system');
 export const SETTINGS = resolve(DS, 'settings.md');
 export const LAYOUT = resolve(DS, 'layout.md');
 export const COMPONENTS_DIR = resolve(DS, 'components');
@@ -20,7 +22,8 @@ export const WEB = resolve(ROOT, 'web');
 // The copies the static export serves, so a page can read the settings when it loads.
 export const PUBLIC_SETTINGS = resolve(WEB, 'public/design-settings');
 
-export const rel = (p) => relative(ROOT, p).split('\\').join('/');
+// A path as the repository names it; a file in the design folder keeps its .design/design-system/ name wherever DS is.
+export const rel = (p) => (p === DS || p.startsWith(DS + sep) ? `.design/design-system/${relative(DS, p)}`.replace(/\/$/, '') : relative(ROOT, p)).split('\\').join('/');
 
 let designModule = null;
 // The schema and theme modules from web/design, bundled for Node.

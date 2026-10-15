@@ -62,11 +62,22 @@ export function GlobalFilterProvider({ children }: { children: ReactNode }) {
   const [status, setStatus] = useState<Status>('idle');
   const loading = useRef(false);
 
+  // On load the hash wins, then storage. The result is written back to both, as the current site does: to storage so
+  // the next page (navigation links carry no hash) opens with it, and to the hash so a link copied from any page
+  // carries the active filter. A later hash change is a link or the back button naming its own selection, so the
+  // hash alone decides it.
   useEffect(() => {
-    const read = () => setRaw(resolveState(parseHash(window.location.hash), readStored(storage())));
-    read();
-    window.addEventListener('hashchange', read);
-    return () => window.removeEventListener('hashchange', read);
+    const first = resolveState(parseHash(window.location.hash), readStored(storage()));
+    setRaw(first);
+    writeHash(first);
+    writeStored(storage(), first);
+    const onHash = () => {
+      const next = pickState(parseHash(window.location.hash));
+      setRaw(next);
+      writeStored(storage(), next);
+    };
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
   }, []);
 
   const setState = useCallback((next: FilterState) => {

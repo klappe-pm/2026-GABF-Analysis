@@ -3,11 +3,14 @@
 // are the ones the chart gallery (issue 66) recommends: stacked horizontal bars, a tile grid beside ranked
 // bars colored by region, a treemap, lollipops and a heatmap, plus the scatter and lines for the rest.
 // Colors come from the kit (the theme), never from this file.
-import type { Bin, Kit } from './theme';
-import { binOf } from './theme';
+import type { Bin, Kit } from '@/design/chart-kit';
+import { binOf } from '@/design/chart-kit';
 import type { Built } from './OptionChart';
 
 export const NARROW = 480;
+// The one rule for a category label column: the wide width on a card at least NARROW wide, and below it the narrow
+// width (a number, or a share of the card), never more than the wide one.
+export const labelColumn = (narrow: number | ((w: number) => number), wide: number) => (w: number) => (w < NARROW ? Math.min(wide, typeof narrow === 'function' ? narrow(w) : narrow) : wide);
 export const fmtN = (n: number) => n.toLocaleString('en-US');
 export const esc = (s: unknown) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c] ?? c));
 
@@ -50,7 +53,7 @@ export function stackedBars(o: {
 }) {
   return (kit: Kit, w: number): Built => {
     const narrow = w < NARROW;
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 92 : 112)))(w);
+    const left = (o.labelWidth ?? labelColumn(92, 112))(w);
     const rowTotals = o.labels.map((_, i) => o.series.reduce((s, x) => s + (x.data[i] || 0), 0));
     const share = (v: number, i: number) => (rowTotals[i] ? Math.round((v / rowTotals[i]) * 1000) / 10 : 0);
     const series: Record<string, unknown>[] = o.series.map((x) => {
@@ -99,7 +102,7 @@ export function stackedBars(o: {
 export type RankItem = { name: string; label?: string; value: number; color: (kit: Kit) => string; tip?: string };
 export function rankedBars(o: { items: RankItem[]; format?: (n: number) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 100 : 168)))(w);
+    const left = (o.labelWidth ?? labelColumn(100, 168))(w);
     const format = o.format ?? fmtN;
     return {
       height: rowsHeight(o.items.length, 22),
@@ -122,7 +125,7 @@ export function rankedBars(o: { items: RankItem[]; format?: (n: number) => strin
 // A thin stem and a dot at the end: the pooled value of each row, ranked.
 export function lollipop(o: { items: { name: string; label?: string; value: number; tip?: string }[]; format?: (n: number) => string; color?: (kit: Kit) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const format = o.format ?? fmtN;
     const dot = (o.color ?? ((k: Kit) => k.series[0]))(kit);
     const max = Math.max(1, ...o.items.map((i) => i.value));
@@ -146,7 +149,7 @@ export function lollipop(o: { items: { name: string; label?: string; value: numb
 // not as a count. The dot sits on a value axis that starts at zero.
 export function dotPlot(o: { items: { name: string; label?: string; value: number; tip?: string }[]; format?: (n: number) => string; color?: (kit: Kit) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const format = o.format ?? fmtN;
     const dot = (o.color ?? ((k: Kit) => k.series[2]))(kit);
     const max = Math.max(1, ...o.items.map((i) => i.value));
@@ -257,7 +260,7 @@ export function treemap(o: { items: TreeItem[]; tip: (item: TreeItem) => string;
 export function heatmap(o: { rows: string[]; cols: string[]; cells: (number | null)[][]; bins: (kit: Kit) => Bin[]; tip: (row: number, col: number, value: number) => string; format?: (n: number) => string; labelWidth?: (w: number) => number }) {
   return (kit: Kit, w: number): Built => {
     const narrow = w < NARROW;
-    const left = (o.labelWidth ?? ((x: number) => (x < NARROW ? 112 : 230)))(w);
+    const left = (o.labelWidth ?? labelColumn(112, 230))(w);
     const set = o.bins(kit);
     const format = o.format ?? ((n: number) => String(Math.round(n)));
     const data: unknown[] = [];
@@ -296,4 +299,70 @@ export function scatter(o: { points: { name: string; x: number; y: number }[]; x
       }],
     },
   });
+}
+
+// ---------- the analysis report charts ----------
+// Horizontal bars and stacked columns of the category and analysis pages. They draw on the report base
+// below, which keeps their own look: axis labels in the secondary text color and a tooltip in the inverse surface.
+
+// The option every report chart starts from, read from the theme as drawn.
+function reportBase(kit: Kit) {
+  const t = kit.theme;
+  const axisLabel = { color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small };
+  return {
+    color: t.series,
+    backgroundColor: 'transparent',
+    animation: false,
+    textStyle: { fontFamily: t.family, color: t.onSurface },
+    grid: { left: 8, right: 16, top: 16, bottom: 8, containLabel: true },
+    xAxis: { type: 'category' as const, axisLine: { lineStyle: { color: t.outline } }, axisTick: { lineStyle: { color: t.outlineVariant } }, axisLabel, splitLine: { show: false } },
+    yAxis: { type: 'value' as const, axisLine: { show: false }, axisTick: { show: false }, axisLabel, splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
+    tooltip: {
+      trigger: 'axis' as const,
+      backgroundColor: t.container,
+      borderWidth: 0,
+      borderRadius: t.radius,
+      padding: 8,
+      textStyle: { color: t.onContainer, fontFamily: t.family, fontSize: t.medium },
+      axisPointer: { type: 'line' as const, lineStyle: { color: t.outline, width: 1 } },
+    },
+  };
+}
+
+// The five series colors, then Material containers for a chart with more series.
+const EXTRA_ROLES = ['primary-container', 'tertiary-container', 'secondary-container'];
+export const seriesFill = (kit: Kit, i: number) => (i < kit.series.length ? kit.series[i] : kit.role(EXTRA_ROLES[(i - kit.series.length) % EXTRA_ROLES.length]));
+
+// Horizontal bars, largest first, one bar per item, the value at the end of each bar.
+export const reportBarsHeight = (n: number) => Math.max(200, 34 * n + 60);
+export function reportBars(o: { labels: string[]; values: number[]; valueName: string; roleIndex?: number; labelWidth?: number }) {
+  return (kit: Kit, w: number): Built => {
+    const base = reportBase(kit);
+    const t = kit.theme;
+    return {
+      option: {
+        ...base,
+        grid: { left: 8, right: 48, top: 8, bottom: 8, containLabel: true },
+        tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+        xAxis: { ...base.yAxis, type: 'value', splitLine: { lineStyle: { color: t.outlineVariant, width: 1 } } },
+        yAxis: { ...base.xAxis, type: 'category', inverse: true, data: o.labels, axisLabel: { ...base.xAxis.axisLabel, width: labelColumn((x) => Math.round(x * 0.38), o.labelWidth ?? 200)(w), overflow: 'truncate' } },
+        series: [{ type: 'bar', name: o.valueName, data: o.values, barMaxWidth: 22, itemStyle: { color: t.series[(o.roleIndex ?? 0) % t.series.length] }, label: { show: true, position: 'right', color: t.onSurfaceVariant, fontFamily: t.family, fontSize: t.small } }],
+      },
+    };
+  };
+}
+
+// Stacked columns, one column per label (a year), one segment per series; a note under a label sets a second line.
+export function reportStacked(o: { labels: (string | number)[]; series: { name: string; values: number[] }[]; notes?: string[] }) {
+  return (kit: Kit): Built => {
+    const base = reportBase(kit);
+    return {
+      option: {
+        ...base,
+        tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+        xAxis: { ...base.xAxis, data: o.labels.map((l, i) => (o.notes?.[i] ? `${l}\n${o.notes[i]}` : String(l))) },
+        series: o.series.map((x, i) => ({ type: 'bar', stack: 'total', name: x.name, data: x.values, barMaxWidth: 36, itemStyle: { color: seriesFill(kit, i), borderColor: kit.theme.container, borderWidth: 0.5 } })),
+      },
+    };
+  };
 }
