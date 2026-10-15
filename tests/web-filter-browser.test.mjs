@@ -112,8 +112,8 @@ test('a bare F opens nothing, Alt+Shift+F opens Filters, and no option reads as 
   });
 });
 
-test('Alt+Shift+F or the Filters button before Material defines the dialog opens it once defined, without an error', { skip: SKIP, timeout: 60000 }, async () => {
-  await withPage(async (page, base) => {
+test('Alt+Shift+F or the Filters button before Material defines the dialog opens it once defined, without an error', { skip: SKIP, timeout: 60000 }, async (t) => {
+  await withPage(t.signal, async (page, base) => {
     const errors = [];
     page.on('pageerror', (e) => errors.push(e.message));
     // Hold the md-dialog registration until the test releases it, as on a slow device where the press comes first.
