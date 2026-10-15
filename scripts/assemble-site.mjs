@@ -1,20 +1,19 @@
 #!/usr/bin/env node
-// Assemble the GitHub Pages artifact in _site/ during the move from the old static site to the
-// Material 3 app in web/. Layout (the URL map is in docs/deployment.md):
+// Assemble the site artifact in _site/ during the move from the old static site to the Material 3 app
+// in web/. buildspec.yml syncs it to the site bucket behind CloudFront. Layout (the URL map is in
+// docs/deployment.md):
 //   1. dist/ (npm run build) is copied first, so every old page keeps its URL.
 //   2. The old overview dashboard (dist/index.html) moves to /overview/, because the web/ home owns /.
 //   3. web/out (npm run web:build) is laid over the top; a web/ route replaces an old page at the same path.
 //   4. gabf-dashboard.html (npm run build:standalone) is published at /gabf-dashboard.html.
-//   5. CNAME names the custom domain. GitHub ignores it for Actions deploys (the domain is a Pages
-//      setting, see scripts/pages-domain.mjs), so it is a record of intent and never redirects anything.
+//   5. The GitHub Pages marker .nojekyll that dist/ carries is dropped; the host needs no marker files.
 //
-//   node scripts/assemble-pages.mjs [--dist dist] [--web web/out] [--out _site]
+//   node scripts/assemble-site.mjs [--dist dist] [--web web/out] [--out _site]
 
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { ROOT, parseArgs } from './lib/paths.mjs';
-import { PAGES_DOMAIN } from './lib/pages.mjs';
 
 export const OVERVIEW_DIR = 'overview';
 
@@ -37,7 +36,10 @@ function files(dir, base = dir) {
   return out;
 }
 
-export function assemble({ dist, web, standalone, out, domain = PAGES_DOMAIN }) {
+// The files a deploy must carry: the home page and the page CloudFront serves for any missing address.
+export const REQUIRED = ['index.html', '404.html'];
+
+export function assemble({ dist, web, standalone, out }) {
   for (const [label, p] of [['dist', dist], ['web export', web], ['single file dashboard', standalone]]) {
     if (!existsSync(p)) throw new Error(`${label} not found at ${p}; build it first`);
   }
@@ -54,8 +56,9 @@ export function assemble({ dist, web, standalone, out, domain = PAGES_DOMAIN }) 
   const replaced = files(web).filter((f) => oldFiles.has(f));
   cpSync(web, out, { recursive: true });
   cpSync(standalone, join(out, 'gabf-dashboard.html'));
-  writeFileSync(join(out, 'CNAME'), `${domain}\n`);
-  if (!existsSync(join(out, '.nojekyll'))) writeFileSync(join(out, '.nojekyll'), '');
+  rmSync(join(out, '.nojekyll'), { force: true });
+  const missing = REQUIRED.filter((f) => !existsSync(join(out, f)));
+  if (missing.length) throw new Error(`the artifact has no ${missing.join(' and ')}; a deploy without it would break the site`);
   return { replaced, files: files(out).length };
 }
 

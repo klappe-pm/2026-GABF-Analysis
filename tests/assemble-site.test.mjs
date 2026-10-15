@@ -1,11 +1,11 @@
-// The Pages artifact keeps every old URL while the web/ app takes over: old pages stay where they were,
+// The site artifact keeps every old URL while the web/ app takes over: old pages stay where they were,
 // the old overview moves to /overview/ with its links rewritten, and web/ routes win where they overlap.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdirSync, mkdtempSync, readFileSync, existsSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
-import { assemble, relocateOverview } from '../scripts/assemble-pages.mjs';
+import { assemble, relocateOverview } from '../scripts/assemble-site.mjs';
 
 const put = (root, rel, text) => {
   mkdirSync(dirname(join(root, rel)), { recursive: true });
@@ -26,11 +26,12 @@ test('assemble lays web/ over dist/ and keeps every old path', () => {
   put(dist, 'explorer/index.html', 'old explorer');
   put(dist, 'breweries/x/index.html', 'old brewery');
   put(web, 'index.html', 'web home');
+  put(web, '404.html', 'not found');
   put(web, 'design-system/index.html', 'style guide');
   put(web, 'explorer/index.html', 'web explorer');
   put(tmp, 'gabf-dashboard.html', 'single file');
   const out = join(tmp, 'site');
-  const r = assemble({ dist, web, standalone: join(tmp, 'gabf-dashboard.html'), out, domain: 'example.test' });
+  const r = assemble({ dist, web, standalone: join(tmp, 'gabf-dashboard.html'), out });
   const read = (p) => readFileSync(join(out, p), 'utf8');
   assert.equal(read('index.html'), 'web home');
   assert.equal(read('overview/index.html'), '<a href="../explorer/">old home</a>');
@@ -38,7 +39,15 @@ test('assemble lays web/ over dist/ and keeps every old path', () => {
   assert.equal(read('explorer/index.html'), 'web explorer');
   assert.equal(read('design-system/index.html'), 'style guide');
   assert.equal(read('gabf-dashboard.html'), 'single file');
-  assert.equal(read('CNAME'), 'example.test\n');
-  assert.ok(existsSync(join(out, '.nojekyll')));
+  // No GitHub Pages marker files reach the bucket.
+  assert.ok(!existsSync(join(out, 'CNAME')) && !existsSync(join(out, '.nojekyll')));
   assert.deepEqual(r.replaced, ['explorer/index.html']);
+});
+
+test('assemble refuses an artifact without the home page or the 404 page', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'site-'));
+  put(join(tmp, 'dist'), 'index.html', 'old home');
+  put(join(tmp, 'web'), 'index.html', 'web home');
+  put(tmp, 'gabf-dashboard.html', 'single file');
+  assert.throws(() => assemble({ dist: join(tmp, 'dist'), web: join(tmp, 'web'), standalone: join(tmp, 'gabf-dashboard.html'), out: join(tmp, 'site') }), /no 404\.html/);
 });

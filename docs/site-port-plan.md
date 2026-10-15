@@ -91,7 +91,7 @@ Every current public path keeps its address in the app: the route table above ma
 
 - Filter links keep working: the hash keys of the current site (year, medal, category_type, style_family, category_name, abv_band, hop_variety, hop_farm (the older hop_farm_named and hop_farm_grown fold into it), region, state, city, fed_district_name, brewery_key, brewery_type, ownership_type, distribution_channel, q, years) are read by the same functions, so a link such as /#year=2024 or /beers/2026/#medal=Gold filters the same way. Page keys in the hash (a dashboard tab, the picked brewery on /dashboards/breweries/) are kept beside them.
 - The old stylesheets and scripts under /assets/ are not linked from outside the site and are not carried over.
-- If a path must change later, static export cannot answer with a server redirect. Keep a page at the old path whose only content is a meta refresh to the new address (meta http-equiv refresh with a content of 0 and the new URL), a canonical link to the new address, and a plain link for readers without refresh; mark it noindex. GitHub Pages serves 404.html for any address with no page.
+- If a path must change later, static export cannot answer with a server redirect. Keep a page at the old path whose only content is a meta refresh to the new address (meta http-equiv refresh with a content of 0 and the new URL), a canonical link to the new address, and a plain link for readers without refresh; mark it noindex. The CloudFront distribution serves 404.html for any address with no page.
 
 ## build
 

@@ -1,0 +1,48 @@
+version: 0.2
+
+# Build and publish the site to AWS on every push to main (docs/deployment.md). AWS CodeBuild pulls the
+# repository through its CodeConnections link and runs as the role gabf-site-deploy-codebuild, which can
+# only sync the site bucket and invalidate the site distribution. No AWS key lives in GitHub.
+#
+# The artifact is the same one the old GitHub Pages deploy published (scripts/assemble-site.mjs): the
+# web/ static export at the root, laid over the old static site, plus the single file dashboard. The
+# site serves at the domain root, so the web/ base path is empty.
+
+env:
+  variables:
+    SITE_BUCKET: gabf-beer-site-768801480220
+    DISTRIBUTION_ID: E1T56UM0ZOIMXQ
+    NEXT_BASE_PATH: ""
+    NEXT_TELEMETRY_DISABLED: "1"
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+    commands:
+      - node --version
+      - npm ci
+      - npm run web:install
+
+  build:
+    commands:
+      - npm run build
+      - npm run build:standalone
+      - npm run web:build
+      # Fails when the artifact has no index.html or 404.html.
+      - npm run site:assemble
+      - test -f _site/index.html && test -f _site/404.html
+
+  post_build:
+    commands:
+      # Publish only when every step above succeeded.
+      - test "$CODEBUILD_BUILD_SUCCEEDING" = "1"
+      # Hashed build files never change at the same address: cache them for a year.
+      - aws s3 sync _site "s3://$SITE_BUCKET" --delete --exclude "*" --include "_next/static/*" --cache-control "public, max-age=31536000, immutable"
+      # Other assets keep their names across builds, so they are cached briefly. Module scripts get a
+      # JavaScript type explicitly, because browsers refuse a module served with any other type.
+      - aws s3 sync _site "s3://$SITE_BUCKET" --delete --exclude "*" --include "*.mjs" --exclude "_next/static/*" --content-type "text/javascript; charset=utf-8" --cache-control "public, max-age=300"
+      - aws s3 sync _site "s3://$SITE_BUCKET" --delete --exclude "_next/static/*" --exclude "*.mjs" --exclude "*.html" --exclude "*.json" --exclude "*.txt" --cache-control "public, max-age=300"
+      # Pages and data are revalidated on every request, and go last so no page names a file not yet uploaded.
+      - aws s3 sync _site "s3://$SITE_BUCKET" --delete --exclude "*" --include "*.html" --include "*.json" --include "*.txt" --exclude "_next/static/*" --cache-control "public, max-age=0, must-revalidate"
+      - aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"

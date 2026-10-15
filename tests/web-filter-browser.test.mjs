@@ -49,7 +49,12 @@ async function withPage(fn) {
   try { await fn(await context.newPage(), base); } finally { await context.close(); server.close(); }
 }
 
-test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP, timeout: 60000 }, async () => {
+// Skipped for now at the owner's request (PR #154): on the GitHub runner, where ci now builds web/out before
+// npm test, the wait for year=2024 in the next page's hash times out after 5 seconds, and it has failed once
+// locally with a fresh build. The cause (a load time race in web/lib/global-filter.tsx, the stored selection,
+// or a cold runner) is not found yet. Only this test is skipped.
+const SKIP_NEXT_PAGE = SKIP || 'times out on the ci runner since web/out is built before the tests; cause under investigation (PR #154)';
+test('a filter set on one page is in the URL of the next page, which carries no hash of its own', { skip: SKIP_NEXT_PAGE, timeout: 60000 }, async () => {
   await withPage(async (page, base) => {
     await page.goto(`${base}/breweries/#year=2024`, { waitUntil: 'networkidle' });
     await page.goto(`${base}/categories/`, { waitUntil: 'networkidle' });
