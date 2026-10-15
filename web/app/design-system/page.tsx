@@ -7,7 +7,7 @@ import { ChartCard } from '@/components/ChartCard';
 import { Checkbox } from '@/components/Checkbox';
 import { EstimateTooltip, type EstimateInput } from '@/components/EstimateTooltip';
 import type { breweriesIndex as BreweriesIndex } from '@/lib/models/breweries.mjs';
-import { laneModel } from '@/lib/site-data';
+import { counts, laneModel } from '@/lib/site-data';
 import { Field, FieldGrid } from '@/components/StatCard';
 import { FiltersForm, FiltersDialog, type FilterGroup, type FiltersCopy } from '@/components/FiltersDialog';
 import { PageHeader } from '@/components/PageHeader';
@@ -19,6 +19,10 @@ import { MedalRecord } from '@/components/MedalRecord';
 import { href, paths } from '@/lib/href';
 import { RangeScale } from '@/components/RangeScale';
 import { Callout } from '@/components/Callout';
+import { LinkChips } from '@/components/Chips';
+import { SiteFooter } from '@/components/Footer';
+import { Tabs } from '@/components/Tabs';
+import { DASHBOARD_KINDS } from '@/app/(site)/dashboards/kit/routes';
 import { DataTable } from '@/components/DataTable';
 import { SearchField } from '@/components/SearchField';
 import { SectionHeader } from '@/components/SectionHeader';
@@ -724,7 +728,53 @@ export default async function DesignSystemPage() {
     },
   ];
 
+  // The dashboard tab row and its coverage chips, as every dashboard page draws them, with the links kept on
+  // this page.
+  const dashboard = (key: string) => `pages.dashboards.${key}`;
+  const coverageStatus = group('global.labels.coverage');
+  const coverageMeaning = group('global.labels.coverage_meaning');
+  const dashboardCoverage = (await counts()).coverage as Record<string, string>;
   components.push(
+    {
+      id: 'footer',
+      node: (
+        <Specimen name="footer" title={compName('footer')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <div className="w-full [&>footer]:mt-0"><SiteFooter /></div>
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'tabs',
+      node: (
+        <Specimen name="tabs" title={compName('tabs')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            {/* The row reaches past the page margin on a page; the padding here keeps it inside the card. */}
+            <div className="w-full min-w-0 px-(--app-margin)">
+              <Tabs
+                label={t(dashboard('index.title'))}
+                active={DASHBOARD_KINDS[0]}
+                items={DASHBOARD_KINDS.map((k) => ({ id: k, href: '#component-tabs', text: t(dashboard(`index.${k}`)) }))}
+              />
+            </div>
+          </State>
+        </Specimen>
+      ),
+    },
+    {
+      id: 'chips',
+      node: (
+        <Specimen name="chips" title={compName('chips')} columns="grid-cols-1">
+          <State label={states('default')} wide>
+            <LinkChips
+              label={t(dashboard('coverage.label'))}
+              chips={Object.entries(dashboardCoverage).map(([year, c]) => ({ text: fill(raw(dashboard('coverage.chip')), { year, status: coverageStatus[c] ?? c }), href: '#component-chips', title: coverageMeaning[c] }))}
+            />
+          </State>
+        </Specimen>
+      ),
+    },
     {
       id: 'navigation-rail',
       node: (

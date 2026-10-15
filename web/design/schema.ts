@@ -142,10 +142,9 @@ export const COMPONENTS: Record<string, Record<string, Kind>> = {
   select: { 'Field style': fieldStyle },
   'status-chip': { 'Container color': colorRole, Shape: shape },
   'text-link': { Color: colorRole, Underline: enumOf(['always', 'on hover']) },
-  // Drawn by the retired static site and the single file dashboard (site/), not yet by web/: no settings until
-  // each moves to Material.
   'navigation-rail': { 'Show labels': yesNo, 'Indicator color': colorRole, 'Container color': colorRole },
   'navigation-drawer': { Width: numberOf([280, 320, 360]), 'Indicator color': colorRole, 'Container color': colorRole },
+  // The footer, the dashboard tabs, and the dashboard chips have no settings yet.
   footer: {},
   tabs: {},
   chips: {},
